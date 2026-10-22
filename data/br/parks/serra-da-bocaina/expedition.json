@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Serra da Bocaina",
+  "title": "Bocaina: uma floresta que sobe do mar até as nuvens",
+  "subtitle": "Praias de águas claras, rios que abastecem cidades, campos acima de 2.000 metros e a trilha por onde desceu o ouro de Minas.",
+  "centralQuestion": "O que muda quando se sobe da praia ao topo da Serra da Bocaina, e por que ela importa para quem vive nas cidades ao redor?",
+  "introduction": [
+    "Na Bocaina, a Mata Atlântica começa nas pedras do mar e sobe sem interrupção até campos que passam de 2.000 metros de altitude. Poucas paisagens do Brasil reúnem tanto num só caminho.",
+    "O Parque Nacional da Serra da Bocaina protege cerca de 104 mil hectares entre o Rio de Janeiro e São Paulo. Por suas trilhas desceu o ouro de Minas rumo a Portugal, e de suas nascentes vem a água de Paraty, Angra dos Reis, Ubatuba, Cunha e Bananal."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Piscina_natural_do_Cachada%C3%A7o.jpg/1280px-Piscina_natural_do_Cachada%C3%A7o.jpg",
+    "author": "Chostakovis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscina_natural_do_Cachada%C3%A7o.jpg",
+    "width": 1280,
+    "height": 848,
+    "alt": "Piscina natural de água verde cercada de grandes rochas",
+    "context": "A piscina natural de Trindade, cercada de rochas, no setor litorâneo do parque."
+  },
+  "moments": [
+    {
+      "id": "mata",
+      "eyebrow": "01 · A mata",
+      "title": "Florestas em degraus, do mar ao campo",
+      "question": "Que florestas e que bichos a serra reúne?",
+      "paragraphs": [
+        "A floresta ombrófila densa cobre a serra da base ao alto. Nas partes mais frias aparecem matas de araucária e pinheirinho-bravo, e no topo se abrem os campos de altitude. Cada faixa de altitude tem clima e espécies próprios.",
+        "Vivem na serra o muriqui, considerado o maior primata das Américas, o sagui-da-serra-escuro, o bugio e o macaco-prego, todos endêmicos da Mata Atlântica.",
+        "Cerca de 300 espécies de aves já foram registradas, e perto de 45% delas são endêmicas da Mata Atlântica, como o macuco e a jacutinga. Uma pegada achada perto da cachoeira do Veado confirmou a presença da onça-pintada."
+      ],
+      "sourceIds": [
+        "icmbio-flora",
+        "icmbio-fauna"
+      ],
+      "images": [],
+      "note": {
+        "title": "Anfíbios da Bocaina",
+        "body": "A serra é localidade-tipo de várias espécies de anfíbios: foi ali que elas foram descritas pela primeira vez, e algumas não existem em outro lugar."
+      },
+      "citations": []
+    },
+    {
+      "id": "agua",
+      "eyebrow": "02 · A água",
+      "title": "Rios que abastecem sete cidades",
+      "question": "De onde vem a água de Paraty e Angra?",
+      "paragraphs": [
+        "Os rios Mambucaba, Bracuí, Perequê-Açu e Paraitinga nascem no parque e abastecem municípios como Angra dos Reis, Paraty, Ubatuba, Cunha e Bananal. O Mambucaba corta a serra de norte a sul, desce em corredeiras e cachoeiras e, perto do mar, é conhecido pelo rafting.",
+        "No Mirante da Pedra da Macela, a 1.840 metros, a vista é de 360 graus. De um lado, a serra despenca sobre o mar de Paraty e Angra; do outro, se abre o Vale do Paraíba.",
+        "Em Trindade, único setor com atrativos marinhos, uma piscina natural rasa e transparente reúne vida marinha entre as pedras. A Praia da Caixa d'Aço, a mais extensa do parque, tem água azul-esverdeada e cristalina, e é muito sensível a impactos."
+      ],
+      "sourceIds": [
+        "icmbio-quem",
+        "icmbio-guia",
+        "icmbio-macela",
+        "icmbio-trindade-atr"
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Pico_da_Macela%2C_Cunha%2C_SP.JPG/1280px-Pico_da_Macela%2C_Cunha%2C_SP.JPG",
+          "author": "Natanael-siqueira",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_da_Macela,_Cunha,_SP.JPG",
+          "width": 1280,
+          "height": 853,
+          "alt": "Vista do alto da serra para a baía de Paraty e Angra",
+          "context": "Paraty e a baía de Angra vistas do alto da Pedra da Macela."
+        }
+      ],
+      "citations": []
+    },
+    {
+      "id": "ouro",
+      "eyebrow": "03 · O ouro",
+      "title": "O Caminho do Ouro e o parque",
+      "question": "Que histórias passam pelas trilhas da serra?",
+      "paragraphs": [
+        "No período colonial, o ouro de Minas Gerais descia a serra até o porto de Paraty, rumo a Portugal. Uma rota alternativa levava também ao porto de Mambucaba.",
+        "Os marcos do Caminho do Ouro continuam dentro do parque, ao lado das culturas caipira, caiçara, quilombola e indígena que seguem vivas na região.",
+        "O Decreto nº 68.172, de 4 de fevereiro de 1971, criou o parque, com 134 mil hectares. O Decreto nº 70.694, de 8 de junho de 1972, reduziu a área para 104 mil hectares, cerca de 60% no Rio de Janeiro e 40% em São Paulo.",
+        "Em 1992, a UNESCO reconheceu o parque como parte da Reserva da Biosfera da Mata Atlântica. Em 2019, ele passou a integrar o sítio misto Paraty e Ilha Grande, Patrimônio Mundial que une natureza e cultura."
+      ],
+      "sourceIds": [
+        "icmbio-quem",
+        "icmbio-historia",
+        "icmbio-decretos",
+        "icmbio-pm"
+      ],
+      "images": [],
+      "citations": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "ouro",
+    "title": "Do ouro à Reserva da Biosfera",
+    "intro": "Quatro marcos documentados.",
+    "items": [
+      {
+        "id": "col",
+        "year": "Período colonial",
+        "title": "O Caminho do Ouro",
+        "description": "O ouro de Minas desce a serra até o porto de Paraty.",
+        "sourceIds": [
+          "icmbio-quem"
+        ]
+      },
+      {
+        "id": "1971",
+        "year": "1971",
+        "title": "Decreto nº 68.172",
+        "description": "Em 4 de fevereiro, é criado o parque, com 134 mil hectares. Em 1972, o Decreto nº 70.694 reduz a área para 104 mil.",
+        "sourceIds": [
+          "icmbio-decretos",
+          "icmbio-historia"
+        ]
+      },
+      {
+        "id": "1992",
+        "year": "1992",
+        "title": "Reserva da Biosfera",
+        "description": "O parque é reconhecido pela UNESCO como parte da Reserva da Biosfera.",
+        "sourceIds": [
+          "icmbio-historia"
+        ]
+      },
+      {
+        "id": "2019",
+        "year": "2019",
+        "title": "Paraty e Ilha Grande",
+        "description": "A UNESCO reconhece o sítio misto Paraty e Ilha Grande, que inclui o parque.",
+        "sourceIds": [
+          "icmbio-pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra que cuida da água e da memória",
+  "closing": "A Bocaina mostra que uma mata contínua pode servir ao mesmo tempo à vida selvagem, aos rios das cidades e à memória de caminhos antigos. Quem a visita leva a água, o ouro e a floresta na lembrança.",
+  "references": [
+    {
+      "id": "icmbio-quem",
+      "institution": "ICMBio",
+      "title": "Quem somos: Parque Nacional da Serra da Bocaina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/quem-somos/quem-somos-capa",
+      "accessedAt": "2026-10-22",
+      "use": "rios, abastecimento de água e Caminho do Ouro"
+    },
+    {
+      "id": "icmbio-historia",
+      "institution": "ICMBio",
+      "title": "História do Parque Nacional da Serra da Bocaina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/quem-somos/historia-1",
+      "accessedAt": "2026-10-22",
+      "use": "criação do parque, áreas e Reserva da Biosfera"
+    },
+    {
+      "id": "icmbio-decretos",
+      "institution": "ICMBio",
+      "title": "Decretos de criação do Parque Nacional da Serra da Bocaina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/quem-somos/decretos-de-criacao",
+      "accessedAt": "2026-10-22",
+      "use": "decretos de criação e de alteração de limites"
+    },
+    {
+      "id": "icmbio-flora",
+      "institution": "ICMBio",
+      "title": "Vegetação e flora: Parque Nacional da Serra da Bocaina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/atributos-naturais/vegetacao-e-flora",
+      "accessedAt": "2026-10-22",
+      "use": "vegetação e flora"
+    },
+    {
+      "id": "icmbio-fauna",
+      "institution": "ICMBio",
+      "title": "Fauna: Parque Nacional da Serra da Bocaina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/atributos-naturais/fauna",
+      "accessedAt": "2026-10-22",
+      "use": "fauna"
+    },
+    {
+      "id": "icmbio-macela",
+      "institution": "ICMBio",
+      "title": "Atrativos da Pedra da Macela",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/guia-do/atrativos",
+      "accessedAt": "2026-10-22",
+      "use": "Mirante da Pedra da Macela"
+    },
+    {
+      "id": "icmbio-trindade-atr",
+      "institution": "ICMBio",
+      "title": "Atrativos de Trindade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/guia-do/atrativos-1",
+      "accessedAt": "2026-10-22",
+      "use": "atrativos do setor Trindade"
+    },
+    {
+      "id": "icmbio-guia",
+      "institution": "ICMBio",
+      "title": "Guia do visitante: Parque Nacional da Serra da Bocaina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-da-bocaina/guia-do/guia-do-visitante/",
+      "accessedAt": "2026-10-22",
+      "use": "rio Mambucaba e guia do visitante"
+    },
+    {
+      "id": "icmbio-pm",
+      "institution": "ICMBio",
+      "title": "Unidades de Conservação federais que são patrimônios mundiais pela Unesco",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/patrimonio-mundial",
+      "accessedAt": "2026-10-22",
+      "use": "Paraty e Ilha Grande, Patrimônio Mundial"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Reescrita em 23/10/2026 só com páginas oficiais do ICMBio (decretos, história, fauna, flora, atrativos). O plano de manejo não foi extraído; dados com página ficam pendentes. Fatos sem fonte oficial conferida (objetivo de criação ligado às usinas de Angra, ponto culminante, palmito) foram retirados.",
+  "keyFacts": [],
+  "glossary": []
+}

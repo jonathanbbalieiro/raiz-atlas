@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "O primeiro parque nacional do Brasil vai da Mata Atlântica a 600 metros até as rochas das Agulhas Negras, a 2.791.",
+  "intro": "Na Serra da Mantiqueira, entre Rio de Janeiro e Minas Gerais, o Parque Nacional do Itatiaia protege 28 mil hectares de Mata Atlântica, campos de altitude e nascentes. Criado em 1937, foi o primeiro parque nacional do país. Tem duas faces: a parte baixa, de mata e cachoeiras, e a parte alta, de picos e pedras.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-alta",
+    "icmbio-baixa"
+  ],
+  "protects": {
+    "summary": "Uma montanha inteira, da floresta aos campos de altitude",
+    "items": [
+      {
+        "title": "Mata Atlântica nas encostas",
+        "text": "Entre 600 e 1.200 metros, a parte baixa é coberta de floresta, cortada por rios de água cristalina e cheia de aves, algumas endêmicas da região.",
+        "sourceIds": [
+          "icmbio-baixa"
+        ]
+      },
+      {
+        "title": "Campos de altitude",
+        "text": "Acima dos 2.000 metros, a vegetação vira campo entre rochas expostas, num clima de montanha que contrasta com o verde lá de baixo.",
+        "sourceIds": [
+          "icmbio-alta"
+        ]
+      },
+      {
+        "title": "Nascentes entre dois estados",
+        "text": "O parque protege nascentes e formações geológicas em Itatiaia e Resende, no Rio, e em Bocaina de Minas e Itamonte, em Minas.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Pico das Agulhas Negras",
+      "text": "Com 2.791 metros, é o ponto culminante do parque e, segundo o ICMBio, o quinto mais alto do Brasil. Atrai montanhistas e pesquisadores.",
+      "sourceIds": [
+        "icmbio-alta",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Pico_das_Agulhas_Negras_06.JPG/1280px-Pico_das_Agulhas_Negras_06.JPG",
+        "author": "Henrique Boney",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_das_Agulhas_Negras_06.JPG",
+        "width": 1280,
+        "height": 853,
+        "alt": "Maciço rochoso escuro das Agulhas Negras sobre campos de altitude",
+        "context": "O Pico das Agulhas Negras, na parte alta do Parque Nacional do Itatiaia."
+      }
+    },
+    {
+      "title": "Prateleiras",
+      "text": "Um maciço de grandes blocos de rocha empilhados no planalto, com uma das trilhas mais procuradas para caminhar e fotografar.",
+      "sourceIds": [
+        "icmbio-alta",
+        "pm2"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Pico_das_Prateleiras%2C_na_parte_alta_do_Parque_Nacional_do_Itatiaia.jpg/1280px-Pico_das_Prateleiras%2C_na_parte_alta_do_Parque_Nacional_do_Itatiaia.jpg",
+        "author": "Andrea Dallevo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_das_Prateleiras,_na_parte_alta_do_Parque_Nacional_do_Itatiaia.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Blocos de rocha empilhados no alto da montanha",
+        "context": "O maciço das Prateleiras, na parte alta do parque."
+      }
+    },
+    {
+      "title": "Cachoeira Véu de Noiva",
+      "text": "Uma das cachoeiras mais visitadas da parte baixa, escondida entre as matas do parque.",
+      "sourceIds": [
+        "icmbio-baixa",
+        "pm2"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Parque_Nacional_de_Itatiaia_-_Cachoeira_V%C3%A9u_da_Noiva.jpg/1280px-Parque_Nacional_de_Itatiaia_-_Cachoeira_V%C3%A9u_da_Noiva.jpg",
+        "author": "Alexandre Cesar Salem e Silva",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Itatiaia_-_Cachoeira_V%C3%A9u_da_Noiva.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Vista aérea de uma cachoeira alta no meio da floresta",
+        "context": "A cachoeira Véu da Noiva, na parte baixa do Parque Nacional do Itatiaia."
+      }
+    },
+    {
+      "title": "Morro do Couto",
+      "text": "Acesso fácil para uma vista ampla da Serra da Mantiqueira, perto do Abrigo Rebouças, base das trilhas da parte alta.",
+      "sourceIds": [
+        "icmbio-alta"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Encontro_do_c%C3%A9u_com_a_terra%21_3.JPG/1280px-Encontro_do_c%C3%A9u_com_a_terra%21_3.JPG",
+        "author": "ArthurvBarros",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Encontro_do_c%C3%A9u_com_a_terra!_3.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Morro do Couto, Itatiaia",
+        "context": "Morro do Couto. Vista típica do Morro do Couto do Parque Nacional de Itatiaia, vendo-se o encontro do céu com a terra! Com algumas visit"
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Itatiaia vem do tupi e quer dizer penhasco cheio de pontas.",
+      "sourceIds": [
+        "pm2"
+      ]
+    },
+    {
+      "text": "Antes de virar parque, a região recebeu núcleos coloniais criados pelo governo federal a partir de 1908, para produzir frutas de clima temperado. Parte das terras havia pertencido ao Visconde de Mauá.",
+      "sourceIds": [
+        "pm2"
+      ]
+    },
+    {
+      "text": "A estrada que leva à parte alta, a BR-354 entre Itamonte e Engenheiro Passos, é conhecida como estrada das flores.",
+      "sourceIds": [
+        "icmbio-alta"
+      ]
+    },
+    {
+      "text": "Visconde de Mauá, vizinha famosa do parque, fica fora dos seus limites, mas serve de base para chegar às duas partes.",
+      "sourceIds": [
+        "icmbio-maua"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1908 · Frutas na serra",
+      "text": "O governo federal cria os núcleos coloniais de Itatiaia e de Visconde de Mauá, para produzir frutas de clima temperado nas terras da serra.",
+      "sourceIds": [
+        "pm2"
+      ]
+    },
+    {
+      "title": "1937 · O primeiro parque nacional",
+      "text": "Em 14 de junho, o Decreto 1.713 cria o Parque Nacional do Itatiaia, com 11.943 hectares, o primeiro do país.",
+      "sourceIds": [
+        "icmbio",
+        "pm1"
+      ]
+    },
+    {
+      "title": "1982 · Mais montanha protegida",
+      "text": "O Decreto 87.586, de 20 de setembro, amplia o parque, que hoje soma cerca de 28 mil hectares.",
+      "sourceIds": [
+        "icmbio",
+        "pm1"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Araucaria angustifolia",
+      "name": "Araucária",
+      "why": "Pinheiro das serras frias, criticamente em perigo segundo a IUCN e registrado dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG/960px-Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+        "author": "Germano Roberto Schüür",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+        "width": 640,
+        "height": 427,
+        "alt": "Araucária (Araucaria angustifolia); fotografia da espécie",
+        "context": "Retrato ilustrativo de Araucaria angustifolia. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Leopardus guttulus",
+      "name": "Gato-do-mato-pequeno",
+      "why": "Felino da Mata Atlântica, vulnerável segundo a IUCN, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Gato-do-mato-pequeno-REBIO_Municipal_da_Serra_do_Japi-Marcelo_Figueiroa%28001%29.jpg/960px-Gato-do-mato-pequeno-REBIO_Municipal_da_Serra_do_Japi-Marcelo_Figueiroa%28001%29.jpg",
+        "author": "Marcelo Figueiroa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gato-do-mato-pequeno-REBIO_Municipal_da_Serra_do_Japi-Marcelo_Figueiroa(001).jpg",
+        "width": 640,
+        "height": 800,
+        "alt": "Gato-do-mato-pequeno (Leopardus guttulus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Leopardus guttulus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Clytolaema rubricauda",
+      "name": "Beija-flor-rubi",
+      "why": "Beija-flor da Mata Atlântica com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Clytolaema_rubricauda_-Ubatuba%2C_Sao_Paulo%2C_Brazil_-male-8a.jpg/960px-Clytolaema_rubricauda_-Ubatuba%2C_Sao_Paulo%2C_Brazil_-male-8a.jpg",
+        "author": "Dario Sanches",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clytolaema_rubricauda_-Ubatuba,_Sao_Paulo,_Brazil_-male-8a.jpg",
+        "width": 640,
+        "height": 474,
+        "alt": "Beija-flor-rubi (Clytolaema rubricauda); fotografia da espécie",
+        "context": "Retrato ilustrativo de Clytolaema rubricauda. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Itatiaia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-alta",
+      "institution": "ICMBio",
+      "title": "Parte Alta do Parque Nacional do Itatiaia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia/arquivos/paginas/ParteAlta",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-baixa",
+      "institution": "ICMBio",
+      "title": "Parte Baixa do Parque Nacional do Itatiaia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia/arquivos/paginas/ParteBaixa",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-maua",
+      "institution": "ICMBio",
+      "title": "Visconde de Mauá",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia/arquivos/paginas/ViscondedeMaua",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm1",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Itatiaia, Encarte 1",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia-1/arquivos/pm_parna_itatiaia_enc1.pdf",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "pm2",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Itatiaia, Encarte 2",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-itatiaia-1/arquivos/pm_parna_itatiaia_enc2.pdf",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "icmbio-frio",
+      "institution": "ICMBio",
+      "title": "Câmera ao vivo do Parque Nacional do Itatiaia registra as menores temperaturas do Brasil em 2025",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/camera-ao-vivo-do-parque-nacional-do-itatiaia-registra-as-menores-temperaturas-registradas-em-2025-no-brasil",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "O primeiro parque nacional da Amazônia brasileira nasceu à beira das corredeiras do Tapajós, junto com a Transamazônica.",
+  "intro": "No oeste do Pará, com uma ponta no Amazonas, o Parque Nacional da Amazônia guarda mais de 1 milhão de hectares de floresta densa às margens do rio Tapajós. Foi criado em 1974 para compensar o impacto da Transamazônica, que ainda hoje o atravessa por cerca de 130 quilômetros.",
+  "sourceIds": [
+    "pm",
+    "icmbio"
+  ],
+  "protects": {
+    "summary": "Um maciço de floresta, nascentes e memória indígena no Tapajós",
+    "items": [
+      {
+        "title": "Floresta de árvores de 50 metros",
+        "text": "Predomina a floresta ombrófila densa, com árvores que chegam a 50 metros. Há também floresta aberta com palmeiras e cipós, matas de beira de rio e manchas de campinarana.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Berço de duas bacias",
+        "text": "O relevo ondulado espalha nascentes que alimentam as bacias do Tapajós e do Maués-Açu, ambas tributárias do Amazonas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Macacos e aves aos montes",
+        "text": "São pelo menos 13 espécies de primatas e mais de 400 de aves, incluindo ameaçadas como o macaco-aranha, a ararajuba e o gavião-real.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Mais de 30 sítios arqueológicos",
+        "text": "Às margens de igarapés como o Mambuaí e o Tracoá ficam vestígios de antigos habitantes. Nas pedras do Tapajós, sulcos de afiadores e polidores feitos por mãos indígenas.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Corredeiras do Tapajós",
+      "text": "Na seca, o rio baixa e expõe recifes de pedra no meio do leito, que quebram a água em corredeiras. Na cheia, as pedras somem, mas a correnteza continua forte.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Corredeiras_do_Rio_Tapaj%C3%B3s.jpg/1280px-Corredeiras_do_Rio_Tapaj%C3%B3s.jpg",
+        "author": "Aimberesena",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corredeiras_do_Rio_Tapaj%C3%B3s.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Água do Tapajós correndo entre pedras",
+        "context": "Corredeiras do rio Tapajós dentro do Parque Nacional da Amazônia."
+      }
+    },
+    {
+      "title": "Praias de areia branca na seca",
+      "text": "Entre agosto e dezembro, a vazante abre bancos de areia ao lado das águas verde-azuladas do Tapajós. Do mirante da base do Uruá se vê o rio e os pedrais.",
+      "sourceIds": [
+        "pm",
+        "visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Rio_Tapaj%C3%B3s%2C_visto_da_base_do_PN_da_Amaz%C3%B4nia.jpg/1280px-Rio_Tapaj%C3%B3s%2C_visto_da_base_do_PN_da_Amaz%C3%B4nia.jpg",
+        "author": "Aimberesena",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Tapaj%C3%B3s,_visto_da_base_do_PN_da_Amaz%C3%B4nia.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Rio Tapajós largo, com floresta nas margens",
+        "context": "O rio Tapajós visto da base do Parque Nacional da Amazônia."
+      }
+    },
+    {
+      "title": "Cavernas de calcário",
+      "text": "Parte do parque está sobre rochas calcárias e areníticas da Formação Itaituba, que formam cavernas e grutas. Elas podem abrigar espécies que ainda nem têm nome.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Trilhas na floresta",
+      "text": "Perto das bases do Tracoá e do Uruá, trilhas sinalizadas entram na mata, entre sumaúmas e bandos de aves.",
+      "sourceIds": [
+        "visita",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Parna_da_Amaz%C3%B4nia_Allyson_Neri_03.jpg/1280px-Parna_da_Amaz%C3%B4nia_Allyson_Neri_03.jpg",
+        "author": "Allyson Neri",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parna_da_Amaz%C3%B4nia_Allyson_Neri_03.jpg",
+        "width": 1280,
+        "height": 485,
+        "alt": "Panorama do rio Tapajós e da floresta do parque",
+        "context": "Paisagem do Parque Nacional da Amazônia, no Pará."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Na cosmologia Munduruku, os pedrais do Tapajós foram criados por Muraycoko, que saltou de pedra em pedra até as ilhas para fugir da esposa. Assim nasceram as corredeiras.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Uma capelinha no meio da mata, a de São José, foi erguida por um soldado da borracha que se perdeu e prometeu construí-la se achasse o caminho. Peregrinos ainda andam 40 km no parque até ela.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As elevações do parque são morros pelo critério do IBGE, mas os povos indígenas da região as chamam de montanhas. O plano de manejo adotou a palavra deles.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Apenas uma pequena parte do parque foi estudada pela ciência. A maior parte ainda é desconhecida.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Antes do parque · Terra de muitos povos",
+      "text": "Desde o século XVIII, a região era rota de grupos Tupinambá e território dos Sateré-Mawé, Tapajó e Munduruku.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1971 · Um pouso no Uruá",
+      "text": "Acompanhando as obras da Transamazônica, o presidente Médici pousa onde hoje é a base do Uruá. As corredeiras e praias do Tapajós o convencem a proteger a área.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1974 · Nasce o parque",
+      "text": "O Decreto 73.683 cria o Parque Nacional da Amazônia, parte do Programa de Integração Nacional, logo após a abertura da BR-230.",
+      "sourceIds": [
+        "icmbio",
+        "decreto"
+      ]
+    },
+    {
+      "title": "1985 a 2012 · Limites redesenhados",
+      "text": "Os limites mudam três vezes: em 1985, em 2006 e com a Lei 12.678, de 2012.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "title": "2021 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo do parque, que define seu propósito, zoneamento e prioridades de pesquisa e visitação.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Ateles chamek",
+      "name": "Macaco-aranha-de-cara-preta",
+      "why": "Ameaçado, é um dos treze primatas do parque e uma das razões de ele estar entre as áreas mais ricas em macacos das Américas.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ateles_chamek.jpg/960px-Ateles_chamek.jpg",
+        "author": "Ivan Mlinaric",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_chamek.jpg",
+        "width": 640,
+        "height": 428,
+        "alt": "Macaco-aranha-de-cara-preta (Ateles chamek); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ateles chamek. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Guaruba guarouba",
+      "name": "Ararajuba",
+      "why": "Uma das aves mais procuradas por observadores no parque, onde é avistada com facilidade. É ameaçada de extinção.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Guaruba_guarouba_-Gramado_Zoo%2C_Brazil-8a.jpg/960px-Guaruba_guarouba_-Gramado_Zoo%2C_Brazil-8a.jpg",
+        "author": "Ironman br",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guaruba_guarouba_-Gramado_Zoo,_Brazil-8a.jpg",
+        "width": 640,
+        "height": 963,
+        "alt": "Ararajuba (Guaruba guarouba); fotografia da espécie",
+        "context": "Retrato ilustrativo de Guaruba guarouba. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "why": "Ameaçado e fácil de avistar no parque, segundo o plano de manejo, que o descreve como a maior ave de rapina.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/960px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 640,
+        "height": 224,
+        "alt": "Gavião-real (Harpia harpyja); fotografia da espécie",
+        "context": "Retrato ilustrativo de Harpia harpyja. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Amazônia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-amazonia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Amazônia (2021)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-amazonia/copy_of_plano_manejo_parna_amazonia_2021.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna da Amazônia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-amazonia/informacoes-sobre-visitacao-parna-da-amazonia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 73.683, de 19 de fevereiro de 1974",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto/1970-1979/D73683.htm",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

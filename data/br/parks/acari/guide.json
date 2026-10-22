@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Quase 900 mil hectares de floresta no sul do Amazonas, onde nascem e correm quatro rios de águas escuras e limpas.",
+  "intro": "No sul do Amazonas, entre Apuí, Borba e Novo Aripuanã, o Parque Nacional do Acari protege cerca de 896 mil hectares de floresta amazônica e trechos dos rios Acari, Camaiú, Sucunduri e Abacaxis. É um dos grandes blocos contínuos de mata do estado, criado em 2016 para guardar essas águas e a vida que depende delas.",
+  "sourceIds": [
+    "icmbio",
+    "decreto",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "Floresta e rios do sul do Amazonas",
+    "items": [
+      {
+        "title": "Quatro bacias",
+        "text": "O parque foi criado para proteger a biodiversidade de parte dos rios Acari, Camaiú, Sucunduri e Abacaxis e de seus afluentes.",
+        "sourceIds": [
+          "decreto",
+          "cnuc"
+        ]
+      },
+      {
+        "title": "Serviços da floresta",
+        "text": "Também cabe ao parque garantir a perenidade dos serviços ecossistêmicos e contribuir para a estabilidade ambiental da região.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Vizinhança protegida",
+        "text": "O limite do parque encosta na Estação Ecológica Alto Maués, o que amplia a área de floresta preservada na região.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Rios Acari, Camaiú, Sucunduri e Abacaxis",
+      "text": "Os rios que dão razão de ser ao parque cortam a floresta e são citados nominalmente no decreto de criação.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O parque se estende por três municípios do Amazonas: Apuí, Borba e Novo Aripuanã.",
+      "sourceIds": [
+        "decreto"
+      ]
+    },
+    {
+      "text": "O decreto de criação protege também o subsolo da área, que integra os limites do parque.",
+      "sourceIds": [
+        "decreto"
+      ]
+    },
+    {
+      "text": "A zona de amortecimento do parque será definida por ato específico do ICMBio.",
+      "sourceIds": [
+        "decreto"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2016 · Nasce o parque",
+      "text": "Decreto de 11 de maio cria o Parque Nacional do Acari, também com a finalidade de oferecer recreação em contato com a natureza e turismo ecológico.",
+      "sourceIds": [
+        "decreto",
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Pipile cujubi",
+      "name": "Cujubi",
+      "why": "Ave vulnerável com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Cujubi-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg/960px-Cujubi-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cujubi-RPPN_Cristalino_I-Rafael_Mitsuo(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Cujubi (Pipile cujubi); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pipile cujubi. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Acari",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-acari",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 11 de maio de 2016 (criação do Parque Nacional do Acari)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-acari/arquivos/dcom_decreto_criacao_parna_do_acari.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do CNUC: Parque Nacional do Acari",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/3410",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

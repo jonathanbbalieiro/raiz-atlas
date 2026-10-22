@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Daqui nascem rios que correm para o Purus e para o Madeira, no interflúvio entre os dois.",
+  "intro": "No coração do interflúvio Purus-Madeira, no Amazonas, o Parque Nacional Nascentes do Lago Jari protege cerca de 808 mil hectares de floresta de terras baixas. Criado por decreto de 8 de maio de 2008, guarda as cabeceiras do rio Jari e dos rios Novo e Jutaí.",
+  "sourceIds": [
+    "icmbio",
+    "pm",
+    "decreto",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "As nascentes de dois sistemas de rios e um maciço de floresta contínua",
+    "items": [
+      {
+        "title": "Cabeceiras para dois lados",
+        "text": "O rio Jari, afluente do Purus, nasce no parque. Também nascem ali os rios Novo e Jutaí, e o rio Piquiá, da bacia do Madeira.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Um corredor de áreas protegidas",
+        "text": "O parque faz parte de um bloco de unidades de conservação e terras indígenas que formam corredores terrestres e aquáticos no interflúvio Purus-Madeira.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Peixes migradores",
+        "text": "Os rios do parque mantêm populações de matrinxã, jatuarana, jaraqui e dourada, peixes que sustentam a pesca das comunidades vizinhas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Grandes carnívoros e quelônios",
+        "text": "Onça-pintada, onça-parda, peixe-boi, cabeçuda e tracajá estão entre os alvos de conservação do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Nascentes do Jari",
+      "text": "No sul do parque, cerca de 122 mil hectares das florestas mais íntegras protegem a maior parte das nascentes do Jari e do igarapé Jacinto. Ali não se permite visitação.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Rio Jari até o lago",
+      "text": "O trecho do rio entre o ramal Toca da Onça e o Lago Jari é zona aberta à visitação, com sinalização e regras próprias.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Maciço de floresta de terras baixas",
+      "text": "Florestas densas e abertas de terras baixas, com maçaranduba, cumaru-ferro, angelim-pedra e cedro, formam o grande maciço florestal do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Uma grade de pesquisa de longa duração do PPBio, perto da BR-319, monitora a biodiversidade do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O peixinho Rivulus beniensis, classificado como vulnerável no Brasil, é uma das espécies cujos ambientes o parque precisa proteger.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O plano de manejo imagina um passeio de barco pelo rio Jari até o Lago Jari, onde ficam uma reserva de desenvolvimento sustentável e comunidades.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Os rios Novo e Jutaí nascem no parque e formam uma bacia que, segundo o plano de manejo, é essencialmente interfluvial: fica entre outros grandes rios.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2008 · Nasce o parque",
+      "text": "Decreto de 8 de maio cria o parque nos municípios de Tapauá e Beruri, no interflúvio Purus-Madeira, ao lado da BR-319.",
+      "sourceIds": [
+        "decreto",
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "title": "2018 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo, que prevê recuperar áreas degradadas e reduzir atropelamentos de fauna na BR-319.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Alvo de conservação do parque: manter onças viáveis protege toda a rede de espécies de que elas dependem.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
+    },
+    {
+      "scientificName": "Trichechus inunguis",
+      "name": "Peixe-boi-da-amazônia",
+      "why": "Ameaçado, tem populações na unidade, e o plano de manejo quer garantir os hábitats onde vivem.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Trichechus_inunguis_%28Peixe-boi_amaz%C3%B4nico%29_por_F%C3%A1bia_Luna_ICMBioCMA.png",
+        "author": "Fábia Luna/ICMBioCMA",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichechus_inunguis_(Peixe-boi_amaz%C3%B4nico)_por_F%C3%A1bia_Luna_ICMBioCMA.png",
+        "width": 1280,
+        "height": 1113,
+        "alt": "Peixe-boi-da-amazônia (Trichechus inunguis)",
+        "context": "Peixe-boi-da-amazônia, Trichechus inunguis."
+      }
+    },
+    {
+      "scientificName": "Peltocephalus dumerilianus",
+      "name": "Cabeçuda",
+      "why": "Quelônio caçado na região, depende da proteção das áreas de desova do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Peltocephalus_dumerilianus_Tapajos.jpg/1280px-Peltocephalus_dumerilianus_Tapajos.jpg",
+        "author": "Eduardo Gentil et al.",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peltocephalus_dumerilianus_Tapajos.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Cabeçuda, tartaruga amazônica de cabeça grande, em um banco de areia do rio Tapajós",
+        "context": "Cabeçuda (Peltocephalus dumerilianus) fotografada em banco de areia do Tapajós, na Amazônia."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Nascentes do Lago Jari",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-nascentes-do-lago-jari",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Nascentes do Lago Jari, Volume 2: Planejamento (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-nascentes-do-lago-jari/arquivos/plano_de_manejo_parna_nascentes_do_lago_jari_planejamento.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 8 de maio de 2008 (cria o Parque Nacional Nascentes do Lago Jari)",
+      "url": "https://www2.camara.leg.br/legin/fed/decret_sn/2008/decreto-41125-8-maio-2008-575060-publicacaooriginal-98141-pe.html",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do CNUC: Parque Nacional Nascentes do Lago Jari",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/1626",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

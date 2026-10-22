@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Perto do parque, um túnel de 340 metros guarda as marcas de garras de animais que sumiram há mais de 10 mil anos.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Preguiças-gigantes (paleotoca)",
+      "scientificName": "Folivora",
+      "when": "há mais de 10 mil anos",
+      "text": "Escavada na crosta de canga da serra, fora dos limites do parque, a paleotoca tem cerca de 340 metros e é a maior conhecida; foi cavada por preguiças-gigantes de dois dedos. As paredes guardam sulcos de garras, um registro direto da megafauna extinta, hoje protegido por decisão judicial.",
+      "sourceIds": [
+        "ruchkys2014",
+        "tribuna2023"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "ruchkys2014",
+      "institution": "Caderno de Geografia (PUC Minas)",
+      "title": "A paleotoca da Serra do Gandarela e seu potencial como geossítio do Geoparque Quadrilátero Ferrífero (Ruchkys et al., 2014)",
+      "url": "https://pucminas.emnuvens.com.br/geografia/article/view/8757",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "tribuna2023",
+      "institution": "Tribuna de Minas",
+      "title": "Justiça determina proteção da maior paleotoca de Minas Gerais",
+      "url": "https://tribunademinas.com.br/noticias/minas/26-06-2023/justica-protecao-maior-paleotoca-de-minas-gerais.html",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-58.830%20-5.655%2C-58.860%20-5.661%2C-59.887%20-6.174%2C-59.788%20-6.756%2C-59.726%20-6.757%2C-59.704%20-6.750%2C-59.661%20-6.718%2C-59.644%20-6.680%2C-59.584%20-6.678%2C-59.527%20-6.707%2C-59.310%20-6.623%2C-59.084%20-6.555%2C-59.068%20-6.534%2C-59.042%20-6.549%2C-59.028%20-6.550%2C-58.999%20-6.539%2C-58.978%20-6.541%2C-58.954%20-6.527%2C-58.901%20-6.539%2C-58.863%20-6.535%2C-58.835%20-6.471%2C-58.836%20-6.422%2C-58.850%20-6.399%2C-58.853%20-6.374%2C-58.860%20-6.375%2C-58.870%20-6.353%2C-58.880%20-6.354%2C-58.892%20-6.331%2C-58.908%20-6.323%2C-58.920%20-6.285%2C-58.908%20-6.249%2C-58.898%20-6.252%2C-58.876%20-6.224%2C-58.849%20-6.213%2C-58.840%20-6.159%2C-58.826%20-6.129%2C-58.830%20-6.126%2C-58.816%20-6.116%2C-58.819%20-6.111%2C-58.803%20-6.084%2C-58.803%20-6.076%2C-58.815%20-6.070%2C-58.802%20-6.057%2C-58.816%20-6.031%2C-58.811%20-6.020%2C-58.822%20-6.022%2C-58.832%20-6.014%2C-58.836%20-5.990%2C-58.829%20-5.987%2C-58.831%20-5.978%2C-58.819%20-5.978%2C-58.829%20-5.966%2C-58.822%20-5.963%2C-58.825%20-5.939%2C-58.816%20-5.936%2C-58.824%20-5.930%2C-58.813%20-5.927%2C-58.818%20-5.912%2C-58.809%20-5.907%2C-58.817%20-5.894%2C-58.819%20-5.904%2C-58.834%20-5.902%2C-58.826%20-5.895%2C-58.829%20-5.866%2C-58.824%20-5.866%2C-58.830%20-5.851%2C-58.826%20-5.847%2C-58.821%20-5.854%2C-58.811%20-5.845%2C-58.823%20-5.821%2C-58.828%20-5.822%2C-58.824%20-5.804%2C-58.830%20-5.801%2C-58.814%20-5.790%2C-58.826%20-5.766%2C-58.811%20-5.738%2C-58.821%20-5.718%2C-58.831%20-5.716%2C-58.825%20-5.705%2C-58.836%20-5.706%2C-58.828%20-5.696%2C-58.837%20-5.687%2C-58.830%20-5.676%2C-58.846%20-5.671%2C-58.829%20-5.667%2C-58.838%20-5.662%2C-58.830%20-5.655))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 1531,
+      "species": [
+        {
+          "gbifKey": 2481929,
+          "scientificName": "Cathartes melambrotus",
+          "name": "Urubu-da-mata",
+          "family": "Cathartidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q250490",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Greater_Yellow-headed_Vulture_%28Cathartes_melambrotus%29_in_flight_from_below.jpg/960px-Greater_Yellow-headed_Vulture_%28Cathartes_melambrotus%29_in_flight_from_below.jpg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greater_Yellow-headed_Vulture_(Cathartes_melambrotus)_in_flight_from_below.jpg",
+            "width": 640,
+            "height": 441,
+            "alt": "Urubu-da-mata (Cathartes melambrotus)"
+          }
+        },
+        {
+          "gbifKey": 2486506,
+          "scientificName": "Lipaugus vociferans",
+          "name": "Cri-crió",
+          "family": "Cotingidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q1067401",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Lipaugus_vociferans_-_Screaming_Piha%3B_Manaus%2C_Amazonas%2C_Brazil.jpg/960px-Lipaugus_vociferans_-_Screaming_Piha%3B_Manaus%2C_Amazonas%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lipaugus_vociferans_-_Screaming_Piha;_Manaus,_Amazonas,_Brazil.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Cri-crió (Lipaugus vociferans)"
+          }
+        },
+        {
+          "gbifKey": 5230759,
+          "scientificName": "Tachycineta albiventer",
+          "name": "Andorinha-do-rio",
+          "family": "Hirundinidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q3136328",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/White-winged_Swallow_1052.jpg",
+            "author": "http://www.birdphotos.com",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:White-winged_Swallow_1052.jpg",
+            "width": 640,
+            "height": 778,
+            "alt": "andorinha-do-rio (Tachycineta albiventer)"
+          }
+        },
+        {
+          "gbifKey": 2475482,
+          "scientificName": "Chloroceryle amazona",
+          "name": "Martim-pescador-verde",
+          "family": "Alcedinidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q456421",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Amazon_Kingfisher.jpg/960px-Amazon_Kingfisher.jpg",
+            "author": "Andreas Trepte",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazon_Kingfisher.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Martim-pescador-verde (Chloroceryle amazona)"
+          }
+        },
+        {
+          "gbifKey": 2478774,
+          "scientificName": "Ramphastos tucanus",
+          "name": "Tucano-de-peito-branco",
+          "family": "Ramphastidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q384839",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Iwokrama_Rainforest%2C_Guyana_%2812178909973%29.jpg/960px-Iwokrama_Rainforest%2C_Guyana_%2812178909973%29.jpg",
+            "author": "M M from Switzerland",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iwokrama_Rainforest,_Guyana_(12178909973).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Tucano-de-peito-branco (Ramphastos tucanus)"
+          }
+        },
+        {
+          "gbifKey": 2490137,
+          "scientificName": "Cercomacra cinerascens",
+          "name": "Chororó-pocuá",
+          "family": "Thamnophilidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q859634",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Cercomacra_cinerascens_-_Gray_Anbird_male%3B_Caraj%C3%A1s_National_Forest%2C_Para%2C_Brazil.jpg/960px-Cercomacra_cinerascens_-_Gray_Anbird_male%3B_Caraj%C3%A1s_National_Forest%2C_Para%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cercomacra_cinerascens_-_Gray_Anbird_male;_Caraj%C3%A1s_National_Forest,_Para,_Brazil.jpg",
+            "width": 640,
+            "height": 481,
+            "alt": "Chororó-pocuá (Cercomacra cinerascens)"
+          }
+        },
+        {
+          "gbifKey": 5230498,
+          "scientificName": "Hylophilus semicinereus",
+          "name": "Verdinho-da-várzea",
+          "family": "Vireonidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q1588456",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Hylophilus_semicinereus_-_Grey-chested_Greenlet.JPG/960px-Hylophilus_semicinereus_-_Grey-chested_Greenlet.JPG",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hylophilus_semicinereus_-_Grey-chested_Greenlet.JPG",
+            "width": 640,
+            "height": 640,
+            "alt": "Verdinho-da-várzea (Hylophilus semicinereus)"
+          }
+        },
+        {
+          "gbifKey": 2475187,
+          "scientificName": "Monasa nigrifrons",
+          "name": "Chora-chuva-preto",
+          "family": "Bucconidae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q955203",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Monasa_leofleck.jpg",
+            "author": "© Leonardo C. Fleck (leonardofleck@yahoo.com.br)",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monasa_leofleck.jpg",
+            "width": 640,
+            "height": 1128,
+            "alt": "Chora-chuva-preto (Monasa nigrifrons)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 54,
+      "species": [
+        {
+          "gbifKey": 2946575,
+          "scientificName": "Clitoria amazonum",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15465966",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/%28Clitoria_amazonum%2C_Mart.%29%2C_da_Cole%C3%A7%C3%A3o_Brasiliana_Iconogr%C3%A1fica.jpg/960px-%28Clitoria_amazonum%2C_Mart.%29%2C_da_Cole%C3%A7%C3%A3o_Brasiliana_Iconogr%C3%A1fica.jpg",
+            "author": "Unknown",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:(Clitoria_amazonum,_Mart.),_da_Cole%C3%A7%C3%A3o_Brasiliana_Iconogr%C3%A1fica.jpg",
+            "width": 640,
+            "height": 902,
+            "alt": "Clitoria amazonum"
+          }
+        },
+        {
+          "gbifKey": 7303983,
+          "scientificName": "Tetracera willdenowiana",
+          "name": null,
+          "family": "Dilleniaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q17396279",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tetracera_willdenowiana_-_C%C3%A9lio_Moura_Neto_-_339545956.jpeg/960px-Tetracera_willdenowiana_-_C%C3%A9lio_Moura_Neto_-_339545956.jpeg",
+            "author": "Célio Moura Neto",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetracera_willdenowiana_-_C%C3%A9lio_Moura_Neto_-_339545956.jpeg",
+            "width": 640,
+            "height": 480,
+            "alt": "Tetracera willdenowiana"
+          }
+        },
+        {
+          "gbifKey": 7330089,
+          "scientificName": "Caraipa grandifolia",
+          "name": null,
+          "family": "Calophyllaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15393590",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Flickr_-_BioDivLibrary_-_n65_w1150_%281%29.jpg/960px-Flickr_-_BioDivLibrary_-_n65_w1150_%281%29.jpg",
+            "author": "Biodiversity Heritage Library",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_BioDivLibrary_-_n65_w1150_(1).jpg",
+            "width": 640,
+            "height": 862,
+            "alt": "Caraipa grandifolia"
+          }
+        },
+        {
+          "gbifKey": 7944805,
+          "scientificName": "Heisteria spruceana",
+          "name": null,
+          "family": "Erythropalaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15383987",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Heisteria_spruceana_%2818248973204%29.jpg",
+            "author": "Dick Culbert from Gibsons, B.C., Canada",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heisteria_spruceana_(18248973204).jpg",
+            "width": 640,
+            "height": 462,
+            "alt": "Heisteria spruceana"
+          }
+        },
+        {
+          "gbifKey": 3083278,
+          "scientificName": "Eschweilera albiflora",
+          "name": null,
+          "family": "Lecythidaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15393561",
+          "photo": null
+        },
+        {
+          "gbifKey": 3686460,
+          "scientificName": "Connarus rigidus",
+          "name": null,
+          "family": "Connaraceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q15582497",
+          "photo": null
+        },
+        {
+          "gbifKey": 5347357,
+          "scientificName": "Zygia inaequalis",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q6171971",
+          "photo": null
+        },
+        {
+          "gbifKey": 2884288,
+          "scientificName": "Pouteria opposita",
+          "name": null,
+          "family": "Sapotaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q15329817",
+          "photo": null
+        },
+        {
+          "gbifKey": 2884384,
+          "scientificName": "Pouteria elegans",
+          "name": null,
+          "family": "Sapotaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15328778",
+          "photo": null
+        },
+        {
+          "gbifKey": 2931919,
+          "scientificName": "Solanum oppositifolium",
+          "name": null,
+          "family": "Solanaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15537059",
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2482294,
+      "scientificName": "Pipile cujubi",
+      "name": "Cujubi",
+      "family": "Cracidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1082395",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Cujubi-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg/960px-Cujubi-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cujubi-RPPN_Cristalino_I-Rafael_Mitsuo(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "cujubi (Pipile cujubi)"
+      }
+    }
+  ]
+}

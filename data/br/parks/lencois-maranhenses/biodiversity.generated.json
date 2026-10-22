@@ -1,0 +1,734 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-43.374%20-2.318%2C-43.397%20-2.325%2C-43.438%20-2.325%2C-43.459%20-2.332%2C-43.486%20-2.362%2C-43.492%20-2.377%2C-43.490%20-2.391%2C-43.475%20-2.399%2C-43.465%20-2.381%2C-43.459%20-2.383%2C-43.444%20-2.374%2C-43.441%20-2.378%2C-43.434%20-2.375%2C-43.427%20-2.367%2C-43.199%20-2.498%2C-43.195%20-2.503%2C-43.194%20-2.659%2C-42.858%20-2.743%2C-42.852%20-2.741%2C-42.843%20-2.724%2C-42.768%20-2.637%2C-42.752%20-2.568%2C-42.753%20-2.535%2C-42.763%20-2.539%2C-42.770%20-2.553%2C-42.791%20-2.551%2C-42.820%20-2.537%2C-42.844%20-2.521%2C-42.944%20-2.474%2C-42.975%20-2.464%2C-43.047%20-2.434%2C-43.097%20-2.409%2C-43.141%20-2.393%2C-43.182%20-2.371%2C-43.292%20-2.335%2C-43.321%20-2.330%2C-43.345%20-2.333%2C-43.363%20-2.329%2C-43.374%20-2.318))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 8,
+      "species": [
+        {
+          "gbifKey": 7785578,
+          "scientificName": "Sapajus libidinosus",
+          "name": "Macaco-prego-amarelo",
+          "family": "Cebidae",
+          "records": 2,
+          "iucn": "NT",
+          "wikidata": "Q28154786",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Macaco-prego_Sapajus_libidinosus_2012_28066.jpg/960px-Macaco-prego_Sapajus_libidinosus_2012_28066.jpg",
+            "author": "Tiago Falótico",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macaco-prego_Sapajus_libidinosus_2012_28066.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Macaco-prego-amarelo (Sapajus libidinosus)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 1155,
+      "species": [
+        {
+          "gbifKey": 6065820,
+          "scientificName": "Chroicocephalus cirrocephalus",
+          "name": "Gaivota-de-cabeça-cinza",
+          "family": "Laridae",
+          "records": 59,
+          "iucn": null,
+          "wikidata": "Q652348",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Chroicocephalus_cirrocephalus%2C_Cassino%2C_Rio_Grande_do_Sul%2C_Brazil_1.jpg/960px-Chroicocephalus_cirrocephalus%2C_Cassino%2C_Rio_Grande_do_Sul%2C_Brazil_1.jpg",
+            "author": "vinicius_s_domingues",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chroicocephalus_cirrocephalus,_Cassino,_Rio_Grande_do_Sul,_Brazil_1.jpg",
+            "width": 640,
+            "height": 641,
+            "alt": "gaivota-de-cabeça-cinza (Chroicocephalus cirrocephalus)"
+          }
+        },
+        {
+          "gbifKey": 5229213,
+          "scientificName": "Phaetusa simplex",
+          "name": "Trinta-réis-grande",
+          "family": "Laridae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q1073630",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Large-billed_Tern_%28Phaetusa_simplex%29%2C_Pantanal%2C_Brazil.jpg/960px-Large-billed_Tern_%28Phaetusa_simplex%29%2C_Pantanal%2C_Brazil.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Large-billed_Tern_(Phaetusa_simplex),_Pantanal,_Brazil.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Trinta-réis-grande (Phaetusa simplex)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane%28001%29.jpg/960px-Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane%28001%29.jpg",
+            "author": "Wdiane",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Urubu-de-cabe%C3%A7a-preta-APA_Campos_do_Jord%C3%A3o-Wdiane(001).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 5229146,
+          "scientificName": "Vanellus chilensis",
+          "name": "Quero-quero",
+          "family": "Charadriidae",
+          "records": 42,
+          "iucn": "LC",
+          "wikidata": "Q855348",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Southern_lapwing_%28Vanellus_chilensis_chilensis%29_Chiloe.jpg/960px-Southern_lapwing_%28Vanellus_chilensis_chilensis%29_Chiloe.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_lapwing_(Vanellus_chilensis_chilensis)_Chiloe.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Quero-quero (Vanellus chilensis)"
+          }
+        },
+        {
+          "gbifKey": 9752617,
+          "scientificName": "Ardea alba",
+          "name": "Garça-branca-grande",
+          "family": "Ardeidae",
+          "records": 37,
+          "iucn": "LC",
+          "wikidata": "Q130730",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ardea_alba4.jpg/960px-Ardea_alba4.jpg",
+            "author": "Calibas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ardea_alba4.jpg",
+            "width": 640,
+            "height": 973,
+            "alt": "Garça-branca-grande (Ardea alba)"
+          }
+        },
+        {
+          "gbifKey": 2480873,
+          "scientificName": "Egretta thula",
+          "name": "Garça-branca-pequena",
+          "family": "Ardeidae",
+          "records": 32,
+          "iucn": "LC",
+          "wikidata": "Q59785",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Aigrette_neigeuse.jpg/960px-Aigrette_neigeuse.jpg",
+            "author": "Mike Baird",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aigrette_neigeuse.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Garça-branca-pequena (Egretta thula)"
+          }
+        },
+        {
+          "gbifKey": 2480989,
+          "scientificName": "Caracara plancus",
+          "name": "Carcará",
+          "family": "Falconidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q755119",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Schopfkarakara.jpg/960px-Schopfkarakara.jpg",
+            "author": "Andreas Trepte",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schopfkarakara.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Great_kiskadee_%2870240%29.jpg/960px-Great_kiskadee_%2870240%29.jpg",
+            "author": "Rhododendrites",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_kiskadee_(70240).jpg",
+            "width": 640,
+            "height": 871,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 34,
+      "species": [
+        {
+          "gbifKey": 2442153,
+          "scientificName": "Lepidochelys olivacea",
+          "name": "Tartaruga-oliva",
+          "family": "Cheloniidae",
+          "records": 8,
+          "iucn": "VU",
+          "wikidata": "Q282385",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lepidochelys_olivacea.jpg/960px-Lepidochelys_olivacea.jpg",
+            "author": "Bernard Gagnon",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea.jpg",
+            "width": 640,
+            "height": 453,
+            "alt": "Tartaruga-oliva (Lepidochelys olivacea)"
+          }
+        },
+        {
+          "gbifKey": 2442225,
+          "scientificName": "Chelonia mydas",
+          "name": "Tartaruga-verde",
+          "family": "Cheloniidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q199458",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "tartaruga-verde (Chelonia mydas)"
+          }
+        },
+        {
+          "gbifKey": 7445291,
+          "scientificName": "Ameivula ocellifera",
+          "name": "Calanguinho-Pintado",
+          "family": "Teiidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2980972",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Ameivula_ocellifera_176612538.jpeg/960px-Ameivula_ocellifera_176612538.jpeg",
+            "author": "Tiago Lubiana",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ameivula_ocellifera_176612538.jpeg",
+            "width": 640,
+            "height": 427,
+            "alt": "Calanguinho-Pintado (Ameivula ocellifera)"
+          }
+        },
+        {
+          "gbifKey": 8894817,
+          "scientificName": "Caretta caretta",
+          "name": "Tartaruga-comum",
+          "family": "Cheloniidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q192095",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg",
+            "author": "ukanda",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Tartaruga-comum (Caretta caretta)"
+          }
+        },
+        {
+          "gbifKey": 8957561,
+          "scientificName": "Tropidurus hispidus",
+          "name": null,
+          "family": "Tropiduridae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 12,
+      "species": [
+        {
+          "gbifKey": 2423462,
+          "scientificName": "Pleurodema diplolister",
+          "name": "Pleurodema diplolistris",
+          "family": "Leptodactylidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q2210007",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Pleurodema_diplolister.jpg/960px-Pleurodema_diplolister.jpg",
+            "author": "Erlem Fonseca",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pleurodema_diplolister.jpg",
+            "width": 640,
+            "height": 536,
+            "alt": "Pleurodema diplolistris (Pleurodema diplolister)"
+          }
+        },
+        {
+          "gbifKey": 5217504,
+          "scientificName": "Leptodactylus macrosternum",
+          "name": null,
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q4669555",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Leptodactylus_macrosternum_419109726.jpg/960px-Leptodactylus_macrosternum_419109726.jpg",
+            "author": "vinicius_s_domingues",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodactylus_macrosternum_419109726.jpg",
+            "width": 640,
+            "height": 481,
+            "alt": "Leptodactylus macrosternum"
+          }
+        },
+        {
+          "gbifKey": 9854382,
+          "scientificName": "Boana raniceps",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "borboletas",
+      "label": "Borboletas e mariposas",
+      "records": 5,
+      "species": [
+        {
+          "gbifKey": 1937885,
+          "scientificName": "Papilio thoas",
+          "name": "Heraclides thoas",
+          "family": "Papilionidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q1272928",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/DSC_4112_-_Papilio_thoas.JPG/960px-DSC_4112_-_Papilio_thoas.JPG",
+            "author": "Tubifex",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC_4112_-_Papilio_thoas.JPG",
+            "width": 640,
+            "height": 560,
+            "alt": "Heraclides thoas (Papilio thoas)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 1246,
+      "species": [
+        {
+          "gbifKey": 3172419,
+          "scientificName": "Utricularia subulata",
+          "name": "Utriculária-terrestre",
+          "family": "Lentibulariaceae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q1584612",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Utricularia_subulata-PARNA_dos_Len%C3%A7%C3%B3is_Maranhenses-Sayori_Minato%28001%29.jpg/960px-Utricularia_subulata-PARNA_dos_Len%C3%A7%C3%B3is_Maranhenses-Sayori_Minato%28001%29.jpg",
+            "author": "Sayori Minato",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_subulata-PARNA_dos_Len%C3%A7%C3%B3is_Maranhenses-Sayori_Minato(001).jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "utriculária-terrestre (Utricularia subulata)"
+          }
+        },
+        {
+          "gbifKey": 2703494,
+          "scientificName": "Trachypogon spicatus",
+          "name": "Capim-agulha",
+          "family": "Poaceae",
+          "records": 12,
+          "iucn": null,
+          "wikidata": "Q15509797",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Trachypogon_spicatus.jpg/960px-Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Trachypogon_spicatus.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Trachypogon_spicatus.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Capim-agulha (Trachypogon spicatus)"
+          }
+        },
+        {
+          "gbifKey": 2985082,
+          "scientificName": "Chrysobalanus icaco",
+          "name": "Guajuru",
+          "family": "Chrysobalanaceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q577669",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Chrysobalanus_icaco_%28inflorescense%29.jpg/960px-Chrysobalanus_icaco_%28inflorescense%29.jpg",
+            "author": "Hans Hillewaert",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysobalanus_icaco_(inflorescense).jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Guajuru (Chrysobalanus icaco)"
+          }
+        },
+        {
+          "gbifKey": 2918574,
+          "scientificName": "Spermacoce verticillata",
+          "name": "Vassourinha-de-botão",
+          "family": "Rubiaceae",
+          "records": 10,
+          "iucn": null,
+          "wikidata": "Q15451656",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Spermacoce_verticillata_L._%2831081827665%29.jpg/960px-Spermacoce_verticillata_L._%2831081827665%29.jpg",
+            "author": "Dinesh Valke from Thane, India",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spermacoce_verticillata_L._(31081827665).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Vassourinha-de-botão (Spermacoce verticillata)"
+          }
+        },
+        {
+          "gbifKey": 2692758,
+          "scientificName": "Xyris jupicai",
+          "name": "Jupicai",
+          "family": "Xyridaceae",
+          "records": 9,
+          "iucn": null,
+          "wikidata": "Q15476451",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Xyris_jupicai_Rich._%288144625964%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xyris_jupicai_Rich._(8144625964).jpg",
+            "width": 640,
+            "height": 1137,
+            "alt": "Jupicai (Xyris jupicai)"
+          }
+        },
+        {
+          "gbifKey": 2706096,
+          "scientificName": "Andropogon leucostachyus",
+          "name": "Capim-Membeca",
+          "family": "Poaceae",
+          "records": 6,
+          "iucn": "EN",
+          "wikidata": "Q15504472",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Andropogon_leucostachyus.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andropogon_leucostachyus.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Capim-Membeca (Andropogon leucostachyus)"
+          }
+        },
+        {
+          "gbifKey": 5421368,
+          "scientificName": "Anacardium occidentale",
+          "name": "Cajueiro",
+          "family": "Anacardiaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q34007",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anacardium_occidentale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-010.jpg",
+            "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anacardium_occidentale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-010.jpg",
+            "width": 640,
+            "height": 887,
+            "alt": "cajueiro (Anacardium occidentale)"
+          }
+        },
+        {
+          "gbifKey": 5341504,
+          "scientificName": "Nymphoides humboldtiana",
+          "name": null,
+          "family": "Menyanthaceae",
+          "records": 19,
+          "iucn": null,
+          "wikidata": "Q63182268",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nymphoides_humboldtiana_-_vinicius_s_domingues_-_339963804.jpeg/960px-Nymphoides_humboldtiana_-_vinicius_s_domingues_-_339963804.jpeg",
+            "author": "vinicius_s_domingues",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nymphoides_humboldtiana_-_vinicius_s_domingues_-_339963804.jpeg",
+            "width": 640,
+            "height": 481,
+            "alt": "Nymphoides humboldtiana"
+          }
+        },
+        {
+          "gbifKey": 3190841,
+          "scientificName": "Drosera sessilifolia",
+          "name": null,
+          "family": "Droseraceae",
+          "records": 16,
+          "iucn": null,
+          "wikidata": "Q143212",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Sessilifolia.JPG/960px-Sessilifolia.JPG",
+            "author": "NoahElhardt",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sessilifolia.JPG",
+            "width": 640,
+            "height": 505,
+            "alt": "Drosera sessilifolia"
+          }
+        },
+        {
+          "gbifKey": 2950049,
+          "scientificName": "Chamaecrista ramosa",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 15,
+          "iucn": null,
+          "wikidata": "Q15467773",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Chamaecrista_ramosa_var._lucida.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamaecrista_ramosa_var._lucida.jpg",
+            "width": 640,
+            "height": 836,
+            "alt": "Chamaecrista ramosa"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2706096,
+      "scientificName": "Andropogon leucostachyus",
+      "name": "Capim-Membeca",
+      "family": "Poaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q15504472",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Andropogon_leucostachyus.jpg",
+        "author": "João Medeiros",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andropogon_leucostachyus.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Capim-Membeca (Andropogon leucostachyus)"
+      }
+    },
+    {
+      "gbifKey": 2442153,
+      "scientificName": "Lepidochelys olivacea",
+      "name": "Tartaruga-oliva",
+      "family": "Cheloniidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q282385",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lepidochelys_olivacea.jpg/960px-Lepidochelys_olivacea.jpg",
+        "author": "Bernard Gagnon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea.jpg",
+        "width": 640,
+        "height": 453,
+        "alt": "Tartaruga-oliva (Lepidochelys olivacea)"
+      }
+    },
+    {
+      "gbifKey": 2480327,
+      "scientificName": "Pluvialis squatarola",
+      "name": "Tarambola-cinzenta",
+      "family": "Charadriidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q18835",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Pluvialis_squatarola_%28summer_plumage%29.jpg/960px-Pluvialis_squatarola_%28summer_plumage%29.jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pluvialis_squatarola_(summer_plumage).jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Tarambola-cinzenta (Pluvialis squatarola)"
+      }
+    },
+    {
+      "gbifKey": 2481721,
+      "scientificName": "Tringa flavipes",
+      "name": "Perna-amarela-pequeno",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q28000",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Lesser_Yellowlegs.jpg/960px-Lesser_Yellowlegs.jpg",
+        "author": "Wwcsig",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lesser_Yellowlegs.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Perna-amarela-pequeno (Tringa flavipes)"
+      }
+    },
+    {
+      "gbifKey": 2481672,
+      "scientificName": "Limnodromus griseus",
+      "name": "Maçarico-de-costas-brancas / maçarico-de-bico-curto",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q371633",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Short-billed_Dowitcher_breeding_RWD.jpg/960px-Short-billed_Dowitcher_breeding_RWD.jpg",
+        "author": "DickDaniels (https://theworldbirds.org/)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Short-billed_Dowitcher_breeding_RWD.jpg",
+        "width": 640,
+        "height": 481,
+        "alt": "maçarico-de-costas-brancas / maçarico-de-bico-curto (Limnodromus griseus)"
+      }
+    },
+    {
+      "gbifKey": 3174691,
+      "scientificName": "Myrcia splendens",
+      "name": null,
+      "family": "Myrtaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q15376180",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/13800_Myrcia_splendens%2C_mouth_of_Rio_Nichar%C3%A9%2C_Venezuela.jpg/960px-13800_Myrcia_splendens%2C_mouth_of_Rio_Nichar%C3%A9%2C_Venezuela.jpg",
+        "author": "Vojtěch Zavadil",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:13800_Myrcia_splendens,_mouth_of_Rio_Nichar%C3%A9,_Venezuela.jpg",
+        "width": 640,
+        "height": 417,
+        "alt": "Myrcia splendens"
+      }
+    },
+    {
+      "gbifKey": 2481756,
+      "scientificName": "Calidris fuscicollis",
+      "name": "Pilrito-de-uropígio-branco",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q599749",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Calidris_fuscicollis.jpg/960px-Calidris_fuscicollis.jpg",
+        "author": "Tim Bowman, USFWS",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calidris_fuscicollis.jpg",
+        "width": 640,
+        "height": 421,
+        "alt": "Pilrito-de-uropígio-branco (Calidris fuscicollis)"
+      }
+    },
+    {
+      "gbifKey": 8894817,
+      "scientificName": "Caretta caretta",
+      "name": "Tartaruga-comum",
+      "family": "Cheloniidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q192095",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg",
+        "author": "ukanda",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+        "width": 640,
+        "height": 426,
+        "alt": "Tartaruga-comum (Caretta caretta)"
+      }
+    }
+  ]
+}

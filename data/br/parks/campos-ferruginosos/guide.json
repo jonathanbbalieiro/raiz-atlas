@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Cerca de 400 cavernas em rocha de ferro e campos que só existem sobre a canga amazônica.",
+  "intro": "No sudeste do Pará, entre Canaã dos Carajás e Parauapebas, o Parque Nacional dos Campos Ferruginosos protege cerca de 79 mil hectares nas serras da Bocaina e do Tarzan. Criado em 2017, guarda campos sobre crostas de ferro, cavernas, lagoas e floresta.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Campos de ferro, cavernas e a floresta que os cerca",
+    "items": [
+      {
+        "title": "A canga amazônica",
+        "text": "Em platôs de 600 a 800 metros, a vegetação cresce sobre afloramentos ricos em ferro. Há campos rupestres, campos brejosos, buritizais, lajedos e capões de mata.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "26 plantas exclusivas do ferro",
+        "text": "Das 38 espécies de plantas endêmicas das cangas amazônicas, 26 estão no parque, todas integralmente protegidas ali.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Floresta que serve de escudo",
+        "text": "Matas densas, abertas, semidecíduas e de várzea cercam as serras, com castanheiras, mognos e cedros. Elas protegem os campos contra fogo e plantas invasoras.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Águas da bacia do Itacaiúnas",
+        "text": "Das nascentes do parque saem águas que alimentam os rios Parauapebas e Itacaiúnas e formam lagoas e cachoeiras.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cavernas de ferro",
+      "text": "São cerca de 400 cavidades na crosta ferruginosa, de formas e tamanhos variados, com espeleotemas e animais que só vivem no escuro.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Lagoas da canga",
+      "text": "Lagoas perenes e temporárias formadas há muito tempo no meio da canga funcionam como registros da história da paisagem.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cachoeiras Águas Claras e do Goiano",
+      "text": "Nascidas nas rochas ferríferas, essas quedas de água cristalina e o Banho do Camarão são destaques de lazer no parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O parque nasceu como compensação pelos impactos da mina S11D, da Vale, na Floresta Nacional de Carajás. A empresa teve de destinar a Serra da Bocaina para uma área protegida.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As crostas de ferro repousam sobre rochas vulcânicas formadas no fundo do mar, na época em que o oxigênio surgia na Terra.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A vegetação da canga lembra as caatingas de transição do Piauí: plantas adaptadas a solo pobre, calor extremo e pouca água.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Às margens do rio Parauapebas apareceu um fóssil que, pelas primeiras análises, pode ser um dente de cavalo pré-histórico.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Espécies novas para a ciência foram descritas aqui, como ervas dos gêneros Mitracarpus e Isoetes.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Tempos antigos · Ceramistas da Bocaina",
+      "text": "Dois sítios na Serra da Bocaina guardam cerâmica de tradição Tupiguarani e ferramentas de andesito e quartzo.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "Sempre · Território Xikrin",
+      "text": "Segundo os caciques Xikrin do Cateté, a região sempre foi usada por seu povo, que ainda caça e coleta castanha na área de Águas Claras.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2017 · Nasce o parque",
+      "text": "Decreto de 5 de junho cria o parque, em dois polígonos, para proteger as serras da Bocaina e do Tarzan e suas cavernas.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "why": "Valor fundamental do parque, encontra ali floresta segura para fazer ninhos e se reproduzir.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/960px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 640,
+        "height": 224,
+        "alt": "Gavião-real (Harpia harpyja); fotografia da espécie",
+        "context": "Retrato ilustrativo de Harpia harpyja. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Mimosa skinneri",
+      "name": "Mimosa de Carajás",
+      "why": "Uma variedade desta mimosa, ameaçada, cresce nos campos ferruginosos protegidos pelo parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Mimosa_skinneri_%2811125188514%29.jpg/960px-Mimosa_skinneri_%2811125188514%29.jpg",
+        "author": "João Medeiros",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosa_skinneri_(11125188514).jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Mimosa de Carajás (Mimosa skinneri); fotografia da espécie",
+        "context": "Retrato ilustrativo de Mimosa skinneri. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "O plano de manejo a chama de maior predador da terra. Tem registros no parque e depende da floresta em volta das serras.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Onça-pintada (Panthera onca); fotografia da espécie",
+        "context": "Retrato ilustrativo de Panthera onca. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional dos Campos Ferruginosos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-dos-campos-ferruginosos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional dos Campos Ferruginosos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-dos-campos-ferruginosos/arquivos/23-03_pm_parna_campos_ferruginosos_ajustado.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional Marinho dos Abrolhos",
+  "title": "O berçário das baleias e os recifes que só existem aqui",
+  "subtitle": "A 70 quilômetros da costa baiana, ilhas vulcânicas e um labirinto de corais recebem, todos os anos, as baleias-jubarte que vêm ter seus filhotes em águas quentes.",
+  "centralQuestion": "Por que um trecho de mar no sul da Bahia reúne corais únicos, baleias e o primeiro parque nacional marinho do Brasil?",
+  "introduction": [
+    "Entre junho e novembro, o mar de Abrolhos vira berçário. As baleias-jubarte cruzam o Atlântico para ter seus filhotes em águas quentes, e quem está num barco ouve o sopro antes de ver o dorso. Abaixo da superfície, corais em forma de cogumelo desenham um labirinto que não existe em nenhum outro lugar do mundo.",
+    "O Parque Nacional Marinho dos Abrolhos, no sul da Bahia, tem cerca de 88 mil hectares e foi o primeiro parque nacional marinho do Brasil. Aqui estão ilhas vulcânicas, recifes, baleias e uma história de proteção que já traz o peixe de volta para quem vive da pesca."
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "recifes",
+      "eyebrow": "01 · Os recifes",
+      "title": "Cinco ilhas e um labirinto de corais",
+      "question": "O que há debaixo d'água em Abrolhos?",
+      "paragraphs": [
+        "O arquipélago tem cinco ilhas de origem vulcânica: Redonda, Siriba, Sueste, Guarita e Santa Bárbara. A última, sob jurisdição da Marinha, fica fora do parque. A área protegida se divide em dois cenários: o arquipélago e o Parcel dos Abrolhos, a cerca de 70 quilômetros de Caravelas, e o Recife de Timbebas, um arco de recifes costeiros entre Alcobaça e Prado.",
+        "No Parcel, milhares de chapeirões, colunas de coral que se abrem no topo como cogumelos, sobem do fundo e só existem no Banco dos Abrolhos. O coral-cérebro Mussismilia braziliensis também só é encontrado nesta região do planeta.",
+        "Em 29 de março de 1832, Charles Darwin passou por aqui. Anotou corais-cérebro com mais de 90 centímetros de diâmetro e um lagarto em quase cada pedra."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visitacao"
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Arquip%C3%A9lago_de_Abrolhos_1.jpg/1280px-Arquip%C3%A9lago_de_Abrolhos_1.jpg",
+          "author": "Crisferrari1500",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arquip%C3%A9lago_de_Abrolhos_1.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "A ilha principal do Arquipélago dos Abrolhos, no Parque Nacional Marinho dos Abrolhos (BA), onde fica o posto fixo da Marinha; foto catalogada no Commons como do parque.",
+          "context": "A ilha principal do Arquipélago dos Abrolhos, no Parque Nacional Marinho dos Abrolhos (BA), onde fica o posto fixo da Marinha; foto catalogada no Commons como do parque."
+        }
+      ],
+      "note": {
+        "title": "Santa Bárbara fica de fora",
+        "body": "A ilha de Santa Bárbara, a maior do arquipélago, está sob jurisdição da Marinha e não faz parte do parque."
+      }
+    },
+    {
+      "id": "baleias",
+      "eyebrow": "02 · As baleias",
+      "title": "Um berçário no Atlântico Sul",
+      "question": "Por que as jubartes vêm tanto para cá?",
+      "paragraphs": [
+        "Abrolhos é o principal berçário de baleias-jubarte da costa brasileira. As águas quentes do Banco dos Abrolhos servem para o acasalamento e para a amamentação dos filhotes, e a temporada atrai quem quer ver a espécie de perto. A baleia-franca-austral também voltou a aparecer, em pequeno número.",
+        "O parque fica na região de maior complexo recifal e maior biodiversidade marinha do Atlântico Sul. Um levantamento registrou cerca de 1.300 espécies, 45 delas ameaçadas: de peixes e corais a tartarugas e aves marinhas.",
+        "Sem pesca dentro do parque, os peixes se recuperam e repovoam as áreas vizinhas, onde a pesca sustenta cerca de 20 mil pessoas."
+      ],
+      "sourceIds": [
+        "icmbio-quem-somos",
+        "icmbio-visitacao"
+      ],
+      "images": []
+    },
+    {
+      "id": "parque",
+      "eyebrow": "03 · O parque",
+      "title": "O primeiro parque nacional marinho",
+      "question": "Como Abrolhos virou área protegida e o que mudou desde então?",
+      "paragraphs": [
+        "Criado em abril de 1983 pelo Decreto nº 88.218, o parque tem 87.943 hectares e foi o primeiro parque nacional marinho do Brasil. Em 2009, começou um programa que leva moradores da região para conhecer as ilhas e a vida marinha do parque.",
+        "Em 2 de fevereiro de 2010, Abrolhos recebeu o diploma de zona úmida de importância internacional da Convenção de Ramsar, o 11º sítio Ramsar do Brasil e o primeiro da Bahia. Em 2020, ganhou o título internacional de Blue Park, concedido a áreas marinhas com altos padrões de proteção.",
+        "A visitação é pequena e controlada, o que ajuda a manter recifes e ilhas como a natureza deixou."
+      ],
+      "sourceIds": [
+        "icmbio-quem-somos",
+        "icmbio-comunidade"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "parque",
+    "title": "De Darwin ao Blue Park",
+    "intro": "Cinco marcos da história de Abrolhos.",
+    "items": [
+      {
+        "id": "1832",
+        "year": "1832",
+        "title": "Darwin em Abrolhos",
+        "description": "Em 29 de março, o naturalista Charles Darwin descreve ilhas verdes, aves marinhas e um fundo coberto de corais.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "1983",
+        "year": "1983",
+        "title": "Decreto nº 88.218",
+        "description": "Em 6 de abril, é criado o primeiro parque nacional marinho do Brasil.",
+        "sourceIds": [
+          "icmbio-quem-somos"
+        ]
+      },
+      {
+        "id": "2009",
+        "year": "2009",
+        "title": "Comunidade no arquipélago",
+        "description": "Começa o programa que leva moradores da região para conhecer as ilhas e a vida marinha.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "2010",
+        "title": "Sítio Ramsar",
+        "description": "Em 2 de fevereiro, o parque recebe o diploma de zona úmida de importância internacional.",
+        "sourceIds": [
+          "icmbio-quem-somos"
+        ]
+      },
+      {
+        "id": "2020",
+        "year": "2020",
+        "title": "Blue Park",
+        "description": "O parque recebe o título internacional de Blue Park.",
+        "sourceIds": [
+          "icmbio-quem-somos"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um mar protegido que alimenta o entorno",
+  "closing": "Em Abrolhos, proteger o mar dentro do parque ajuda também quem pesca fora dele. A cada temporada as baleias voltam, e os corais continuam a existir só aqui.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Marinho dos Abrolhos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos",
+      "use": "página institucional da unidade",
+      "accessedAt": "2026-10-22"
+    },
+    {
+      "id": "icmbio-quem-somos",
+      "institution": "ICMBio",
+      "title": "Parna Marinho dos Abrolhos: Quem somos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/quem-somos-1/quem-somos",
+      "use": "criação, área, biodiversidade, baleias, Ramsar e Blue Park",
+      "accessedAt": "2026-10-22"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Parna Marinho dos Abrolhos: Informações sobre visitação",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/guia-do-visitante/informacoes-sobre-visitacao",
+      "use": "ilhas, recifes, chapeirões, espécies e pesca",
+      "accessedAt": "2026-10-22"
+    },
+    {
+      "id": "icmbio-comunidade",
+      "institution": "ICMBio",
+      "title": "Programa Comunidade em Abrolhos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/visite_abrolhos/visite-abrolhos",
+      "use": "programa de visitas de moradores a partir de 2009",
+      "accessedAt": "2026-10-22"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Datas de 2009, Ramsar e Blue Park conferidas na página Quem somos do ICMBio; conferir o texto do Decreto nº 88.218 se for citar o dia exato."
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Serras de Mata Atlântica no sul da Bahia onde vivem sapos e pererecas que não existem em nenhum outro lugar.",
+  "intro": "Entre Arataca e Una, no sul da Bahia, o Parque Nacional da Serra das Lontras protege cerca de 11,3 mil hectares de Mata Atlântica de serra, entre 300 e pouco mais de 1.000 metros de altitude. É um refúgio de aves e mamíferos ameaçados e um centro de espécies endêmicas.",
+  "sourceIds": [
+    "icmbio",
+    "zookeys"
+  ],
+  "protects": {
+    "summary": "Floresta de serra cheia de endemismos e espécies ameaçadas",
+    "items": [
+      {
+        "title": "Muitas aves ameaçadas",
+        "text": "A lista do ICMBio tem 18 aves ameaçadas protegidas pelo parque, como o gavião-real, o papagaio-chauá e a tiriba-grande.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Primatas e preguiças",
+        "text": "Mico-leão-de-cara-dourada, macaco-prego-do-peito-amarelo, guigó e preguiça-de-coleira estão entre os mamíferos ameaçados protegidos.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Floresta em degraus",
+        "text": "Abaixo de 750 a 800 metros domina a mata alta e fechada. Mais acima, as árvores ficam menores, o dossel se abre e as epífitas tomam conta.",
+        "sourceIds": [
+          "zookeys"
+        ]
+      },
+      {
+        "title": "Plantas raras",
+        "text": "Há 21 espécies de plantas ameaçadas na lista do parque, entre bromélias, orquídeas, begônias e o palmito-juçara.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Trilha Peito de Moça",
+      "text": "Uma trilha de crista, assim chamada pelos moradores, chega a cerca de 930 metros e abre vistas panorâmicas das serras.",
+      "sourceIds": [
+        "zookeys"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Um inventário encontrou 100 espécies de anfíbios e répteis no parque: 49 anfíbios e 51 répteis.",
+      "sourceIds": [
+        "zookeys"
+      ]
+    },
+    {
+      "text": "Dois anfíbios, Crossodactylodes septentrionalis e Dendrophryniscus oreites, só são conhecidos dentro do parque.",
+      "sourceIds": [
+        "zookeys"
+      ]
+    },
+    {
+      "text": "Quatro espécies de perereca-de-vidro vivem juntas no parque, o conjunto mais diverso do gênero Vitreorana na Mata Atlântica. Uma delas foi descrita recentemente por cientistas.",
+      "sourceIds": [
+        "zookeys"
+      ]
+    },
+    {
+      "text": "A região fez parte do Refúgio da Bahia, área de clima estável na Mata Atlântica durante a última era glacial.",
+      "sourceIds": [
+        "zookeys"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2010 · Nasce o parque",
+      "text": "Um decreto de 11 de junho cria o Parque Nacional da Serra das Lontras, em Arataca e Una.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2019 · Mobilização",
+      "text": "Uma série de reuniões com as comunidades prepara a formação do conselho e do plano de manejo do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2020 · Bichos que só existem ali",
+      "text": "Um inventário publicado na revista ZooKeys revela anfíbios exclusivos do parque e uma perereca-de-vidro recém-descrita.",
+      "sourceIds": [
+        "zookeys"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Leontopithecus chrysomelas",
+      "name": "Mico-leão-de-cara-dourada",
+      "why": "Primata ameaçado do sul da Bahia, na lista de espécies protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Golden-headed_Lion_Tamarin_095.jpg/1280px-Golden-headed_Lion_Tamarin_095.jpg",
+        "author": "Ltshears",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden-headed_Lion_Tamarin_095.jpg",
+        "width": 1280,
+        "height": 922,
+        "alt": "Mico-leão-de-cara-dourada (Leontopithecus chrysomelas)",
+        "context": "Mico-leão-de-cara-dourada, Leontopithecus chrysomelas."
+      }
+    },
+    {
+      "scientificName": "Scytalopus gonzagai",
+      "name": "Tapaculo-preto-baiano",
+      "why": "Pássaro em perigo de extinção, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg/960px-Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg",
+        "author": "Thomaz de Carvalho Callado",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Tapaculo-preto-baiano (Scytalopus gonzagai); fotografia da espécie",
+        "context": "Retrato ilustrativo de Scytalopus gonzagai. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Carpornis melanocephala",
+      "name": "Sabiá-pimenta",
+      "why": "Ave ameaçada da Mata Atlântica, protegida pelo parque e registrada ali.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Carpornis_melanocephala.jpg",
+        "author": "Dario Sanches",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carpornis_melanocephala.jpg",
+        "width": 640,
+        "height": 504,
+        "alt": "Sabiá-pimenta (Carpornis melanocephala); fotografia da espécie",
+        "context": "Retrato ilustrativo de Carpornis melanocephala. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Bradypus torquatus",
+      "name": "Preguiça-de-coleira",
+      "why": "Preguiça ameaçada de extinção, na lista de espécies protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/408981960/original.jpeg",
+        "author": "Thiago Gonçalves Coronado Antunes",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/408981960",
+        "width": 2048,
+        "height": 1365,
+        "alt": "Preguiça-de-coleira pendurada em galho, com a juba escura no pescoço, na Mata Atlântica da Bahia",
+        "context": "Preguiça-de-coleira fotografada na Mata Atlântica baiana, onde a espécie vive."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra das Lontras",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-das-lontras",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "zookeys",
+      "institution": "ZooKeys",
+      "title": "Rojas-Padilla et al. (2020). Amphibians and reptiles of Parque Nacional da Serra das Lontras",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7746662",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

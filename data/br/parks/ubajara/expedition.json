@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional de Ubajara",
+  "title": "A gruta, o bondinho e a floresta úmida que sobrou no sertão",
+  "subtitle": "Na borda da Serra da Ibiapaba, no Ceará, uma mata úmida de altitude, cavernas de calcário e um bondinho de 1974 fazem do parque um oásis no semiárido.",
+  "centralQuestion": "Como uma serra úmida e um conjunto de cavernas viraram o primeiro parque nacional do Nordeste?",
+  "introduction": [
+    "Serra e sertão, num só parque. No alto da Serra da Ibiapaba, a mata úmida e fria é um oásis em meio ao semiárido, e a escarpa abriga um dos conjuntos de cavernas mais importantes do Ceará.",
+    "Daqui dá para descer de bondinho até a boca da Gruta de Ubajara, caminhar entre cachoeiras e olhar o sertão lá embaixo, a partir de mirantes abertos nos últimos anos."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares do parque hoje, após a ampliação de 2002",
+      "value": "6.288",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    },
+    {
+      "label": "cavernas conhecidas no parque; só a Gruta de Ubajara é aberta à visita",
+      "value": "11",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    },
+    {
+      "label": "metros de galerias da Gruta de Ubajara",
+      "value": "1.120",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    },
+    {
+      "label": "espécies de plantas registradas",
+      "value": "418",
+      "sourceId": "pm",
+      "locator": "p. 20"
+    },
+    {
+      "label": "espécies de insetos, mais de 100 delas recém-descritas por cientistas",
+      "value": "≈ 800",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    },
+    {
+      "label": "visitantes em 2022, com a volta do teleférico",
+      "value": "185.888",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Brejo de altitude",
+      "definition": "Área serrana úmida cercada por vegetação seca, refúgio de espécies da Mata Atlântica e da Amazônia; o plano chama a mata úmida do parque de “típico brejo nordestino”.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Relevo cárstico",
+      "definition": "Paisagem formada pela dissolução química de rochas como o calcário, com cavernas, rios subterrâneos e paredões.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Espeleotemas",
+      "definition": "Formações minerais das cavernas, como estalactites, estalagmites, cortinas e coralóides.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Comboieiro",
+      "definition": "Pessoa que conduz animais pelas trilhas para levar os produtos do sertão à serra e vice-versa.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "gruta",
+      "eyebrow": "01 · A gruta",
+      "title": "Calcário, escuridão e um rio subterrâneo",
+      "question": "Como se formou a Gruta de Ubajara?",
+      "paragraphs": [
+        "A Gruta de Ubajara está nos calcários da Formação Frecheirinha. Foi esculpida pela dissolução da rocha por água há pelo menos 200 mil anos e tem salões e galerias ornamentados com travertinos, cortinas, coralóides, estalactites e estalagmites. A Sala da Rosa leva o nome da flor de pedra que se forma no teto.",
+        "Dos 1.120 metros de galerias, só uma parte é aberta ao público. O riacho Mucuripe corre sem luz num trecho e, na estação chuvosa, chega à Sala do Mocozal, a última iluminada que o visitante pode ver.",
+        "Na gruta vive uma grande colônia de morcegos frugívoros, que ajudam a dispersar sementes, e o escorpião-chicote Rowlandius ubajara, registrado apenas ali e classificado como criticamente ameaçado.",
+        "São onze cavernas conhecidas no parque. Na Gruta do Urso Fóssil, de 195 metros, foi encontrado um crânio de urso com cerca de 10 mil anos; na do Macaco Fóssil, o de um macaco-prego."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 21–22"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Dentro_da_gruta_de_ubajara.jpg/1280px-Dentro_da_gruta_de_ubajara.jpg",
+          "author": "VanessaRPF",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dentro_da_gruta_de_ubajara.jpg",
+          "width": 1280,
+          "height": 850,
+          "alt": "Salão iluminado dentro da Gruta de Ubajara",
+          "context": "Interior da Gruta de Ubajara, no Parque Nacional de Ubajara."
+        }
+      ]
+    },
+    {
+      "id": "serra",
+      "eyebrow": "02 · A serra",
+      "title": "Da mata úmida à Caatinga",
+      "question": "Como o parque pode ter floresta úmida no meio do semiárido?",
+      "paragraphs": [
+        "O parque vai do topo da encosta, a cerca de 900 metros de altitude, até a planície sertaneja, a 386 metros. No alto, entre 880 e 700 metros, está a floresta estacional sempre-verde, com 18% da área; abaixo, até 400 metros, a floresta decídua, que perde as folhas na seca, com 72,1%; e na planície, a savana estépica arborizada, a Caatinga, com 9,9%.",
+        "O plano descreve a mata úmida como um “típico brejo nordestino”, refúgio de populações de espécies atlânticas e amazônicas. O clima tem duas estações bem marcadas: uma chuvosa, com temperaturas de 24 °C a 26 °C na parte alta, e outra quase sem chuva, com 30 °C a 38 °C.",
+        "As águas descem pelos riachos Gameleira, Boa Vista, Gavião e Murimbeca, que formam o rio Ubajara. O Gavião e o Murimbeca são intermitentes; os demais, perenes. Nos paredões de arenito há ainda cachoeiras, bicas e a trilha centenária ligando a serra ao sertão.",
+        "O plano lista seis valores fundamentais: biodiversidade, ecoturismo, a Gruta de Ubajara, a geodiversidade, os recursos hídricos e a paisagem."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 38"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/PARNA_de_Ubajara_-_VanessaRPF%28006%29.jpg/1280px-PARNA_de_Ubajara_-_VanessaRPF%28006%29.jpg",
+          "author": "VanessaRPF",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARNA_de_Ubajara_-_VanessaRPF(006).jpg",
+          "width": 1280,
+          "height": 850,
+          "alt": "Vista da borda da serra da Ibiapaba sobre o vale coberto de mata, no Parque Nacional de Ubajara",
+          "context": "Vista da escarpa da serra da Ibiapaba e da planície do sertão, a partir de um mirante do Parque Nacional de Ubajara."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "03 · A vida",
+      "title": "Muita vida num parque pequeno",
+      "question": "Que seres vivem num parque de pouco mais de 6 mil hectares?",
+      "paragraphs": [
+        "O plano registra 418 espécies de plantas, entre elas jatobá, murici, babaçu e macaúba, além de ipês que dão cor à paisagem na floração. Há mais de 260 espécies de vertebrados, e pelo menos 14 estão ameaçadas, como a maria-do-nordeste, o guariba-da-caatinga e o mocó.",
+        "Os insetos somam cerca de 800 espécies, mais de 100 delas recém-descritas por cientistas. Entre os mamíferos, 41 espécies foram encontradas num levantamento de 2000, e 29 espécies de morcegos vivem no parque.",
+        "Há ainda uma rã endêmica dos brejos de altitude cearenses e uma jararaca encontrada apenas na Serra da Ibiapaba. Nas aves, o plano destaca o arapaçu-do-nordeste, a maria-do-nordeste e o pintassilgo-do-nordeste, todos ameaçados."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "limites",
+      "eyebrow": "04 · Os limites",
+      "title": "O parque que encolheu e voltou a crescer",
+      "question": "Como os limites do parque mudaram?",
+      "paragraphs": [
+        "O Decreto nº 45.954, de 30 de abril de 1959, criou o Parque Nacional de Ubajara, com 4.000 hectares, o primeiro parque nacional do Nordeste. Em 1973, o Decreto nº 72.144 reduziu a área para 563 hectares.",
+        "Em 13 de dezembro de 2002, um decreto sem número ampliou o parque para os atuais 6.288 hectares, passando a abranger Ubajara, Tianguá e Frecheirinha.",
+        "Parte da área ampliada ainda não está regularizada, e o parque enfrenta ameaças como desmatamento nos paredões, esgoto e agrotóxicos que afetam as águas, e visitação desordenada."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 27–31"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · A visita",
+      "title": "O bondinho e os caminhos da serra",
+      "question": "Como o parque aprendeu a ser visitado sem o bondinho?",
+      "paragraphs": [
+        "O teleférico, inaugurado oficialmente em março de 1974, dá acesso à Gruta de Ubajara e é também meio de transporte para moradores do distrito de Araticum. Em 2015, parou para reforma, e a visitação caiu de 108.580 pessoas em 2014 para 70.765 em 2016.",
+        "Enquanto o bondinho esteve parado, a equipe do parque e a região abriram novos atrativos: Mirante do Pendurado, Mirante do Cafundó, Mirante do Gavião, Trilha Macacos e um Roteiro Histórico-Cultural. Com a volta do teleférico, em 2022, a visitação chegou a 185.888 pessoas.",
+        "A trilha Ubajara-Araticum é uma das mais antigas da serra, usada como rota comercial entre a serra e o sertão e, no passado, por índios Tabajaras e pelos primeiros colonizadores."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 38"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Bondinho_Ubajara-CE.JPG/1280px-Bondinho_Ubajara-CE.JPG",
+          "author": "Francisco Lusivaldo Marques",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bondinho_Ubajara-CE.JPG",
+          "width": 1280,
+          "height": 720,
+          "alt": "Bondinho de Ubajara, Ubajara",
+          "context": "Bondinho de Ubajara, na Serra da Ibiapaba, no Parque Nacional de Ubajara."
+        }
+      ]
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "limites",
+    "title": "Marcos de Ubajara",
+    "intro": "Datas conferidas no plano de manejo do parque.",
+    "items": [
+      {
+        "id": "1959",
+        "year": "1959",
+        "title": "Decreto nº 45.954",
+        "description": "Em 30 de abril, é criado o parque, com 4.000 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1973",
+        "year": "1973",
+        "title": "Área reduzida",
+        "description": "O Decreto nº 72.144 reduz o parque para 563 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1974",
+        "year": "1974",
+        "title": "O teleférico",
+        "description": "O bondinho é inaugurado oficialmente em março.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2002",
+        "year": "2002",
+        "title": "Serra e sertão",
+        "description": "Em 13 de dezembro, um decreto amplia o parque para 6.288 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2015",
+        "year": "2015",
+        "title": "Bondinho parado",
+        "description": "O teleférico para para reforma e o parque abre novos mirantes e trilhas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2022",
+        "year": "2022",
+        "title": "Volta do bondinho",
+        "description": "O teleférico volta a funcionar e a visitação chega a 185.888 pessoas.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um oásis que depende da serra inteira",
+  "closing": "Em Ubajara, a gruta, a floresta úmida e as águas fazem parte da mesma serra. Proteger o parque é cuidar do que está dentro dele e do que o cerca.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Ubajara (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/arquivos/plano-de-manejo-parna-ubajara.pdf",
+      "use": "gruta, vegetação, fauna, limites, teleférico e visitação; páginas conforme a numeração do PDF",
+      "accessedAt": "2026-10-22"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: conferir os decretos de 1967 e 1973 no texto legal; trecho aberto à visita na gruta; ouvir pesquisadores e comunidades da Ibiapaba sobre os Tabajaras; revisão humana."
+}

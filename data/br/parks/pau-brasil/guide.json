@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma das últimas populações da árvore que deu nome ao Brasil, numa floresta tão rica quanto as mais diversas do mundo.",
+  "intro": "Inteiramente em Porto Seguro, no sul da Bahia, o Parque Nacional do Pau Brasil protege cerca de 19 mil hectares de Mata Atlântica sobre tabuleiros costeiros. Criado em 20 de abril de 1999, nos 500 anos da chegada de Cabral, guarda uma das maiores populações remanescentes de pau-brasil.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "A árvore nacional e uma floresta de tabuleiro cheia de raridades",
+    "items": [
+      {
+        "title": "A árvore que deu nome ao país",
+        "text": "O parque abriga uma das últimas populações remanescentes de pau-brasil, árvore ameaçada e declarada Árvore Nacional em 1978.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Floresta campeã de diversidade",
+        "text": "A riqueza de árvores do parque equivale à dos 20 sítios de floresta tropical mais diversos do mundo, segundo estudo citado no plano de manejo.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "202 espécies de aves",
+        "text": "O número equivale a 11% das aves do Brasil. Entre elas estão o gavião-real e a araponga.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Grandes mamíferos",
+        "text": "A floresta contínua ainda mantém antas e onças-pardas, além de primatas ameaçados como o guigó.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Floresta de tabuleiro",
+      "text": "Com os parques do Descobrimento e do Monte Pascoal, forma os maiores e últimos blocos contínuos desta floresta que cresce sobre os tabuleiros da Formação Barreiras.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Muçunungas",
+      "text": "Entre a mata alta aparecem as muçunungas, formações de vegetação mais aberta sobre solos arenosos.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O pau-brasil foi declarado Árvore Nacional do Brasil pela Lei 6.607, de 7 de dezembro de 1978.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A mata do parque faz parte do bloco de florestas de tabuleiro que, com os parques do Descobrimento e do Monte Pascoal, é um dos últimos do sul da Bahia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Rios e vales profundos da região, os boqueirões, seguem antigos movimentos de blocos da crosta, tema de estudos sobre neotectônica.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O gavião-real, espécie-bandeira do parque, é uma das 18 espécies de aves ameaçadas registradas na unidade.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1999 · Um parque para os 500 anos",
+      "text": "Em 20 de abril, um decreto cria o parque com cerca de 11,5 mil hectares, nas comemorações dos 500 anos da chegada dos portugueses.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "1999 · Patrimônio Mundial",
+      "text": "O parque passa a integrar as Reservas de Mata Atlântica da Costa do Descobrimento, inscritas pela UNESCO.",
+      "sourceIds": [
+        "unesco"
+      ]
+    },
+    {
+      "title": "2010 · A ampliação",
+      "text": "Um decreto de 11 de junho acrescenta mais de 7,3 mil hectares. A demarcação de 2013 fixa a área em cerca de 19 mil.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Paubrasilia echinata",
+      "name": "Pau-brasil",
+      "why": "Espécie-bandeira que dá nome ao parque, uma das árvores mais ameaçadas da Mata Atlântica.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Paubrasil5.jpg",
+        "author": "Mauroguanandi",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paubrasil5.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Pau-brasil (Paubrasilia echinata); fotografia da espécie",
+        "context": "Retrato ilustrativo de Paubrasilia echinata. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "why": "Ave rara e ameaçada, apontada pelo plano de manejo como espécie-bandeira das aves do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/1280px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 1280,
+        "height": 448,
+        "alt": "Gavião-real (Harpia harpyja)",
+        "context": "Gavião-real, Harpia harpyja."
+      }
+    },
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "why": "Grande herbívoro que já desapareceu de outras matas do sul da Bahia, mas ainda vive no parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris); fotografia da espécie",
+        "context": "Retrato ilustrativo de Tapirus terrestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Pau Brasil",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-pau-brasil",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Pau Brasil, volume I",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-pau-brasil/arquivos/dcom_plano_de_manejo_parna_pau_brasil_volume_i.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Discovery Coast Atlantic Forest Reserves",
+      "url": "https://whc.unesco.org/en/list/892/",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

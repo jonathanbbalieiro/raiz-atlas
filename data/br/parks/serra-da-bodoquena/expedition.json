@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Serra da Bodoquena",
+  "title": "Bodoquena: rios que somem na rocha e águas cor de turquesa",
+  "subtitle": "No sudoeste de Mato Grosso do Sul, um enclave de Mata Atlântica esconde um rio que corre sob a terra, piscinas turquesa e paredões de calcário.",
+  "centralQuestion": "O que torna as águas de Bodoquena tão claras, e como visitá-las sem estragar o que as mantém assim?",
+  "introduction": [
+    "Em Bodoquena, um rio entra na pedra e some. Mais de um quilômetro adiante, ele ressurge de uma caverna, já limpo e azulado, pronto para quem quiser flutuar sobre o fundo à vista.",
+    "O Parque Nacional da Serra da Bodoquena foi criado em 21 de setembro de 2000 e tem cerca de 77 mil hectares, em dois fragmentos entre Bonito, Bodoquena e Jardim. É um enclave de Mata Atlântica no meio do Cerrado, onde cada rio parece uma pedra preciosa."
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "perdido",
+      "eyebrow": "01 · O rio que some",
+      "title": "O rio Perdido entra na rocha",
+      "question": "O que acontece com o rio Perdido?",
+      "paragraphs": [
+        "No fragmento sul, em Bonito, o rio Perdido justifica o nome. Ele entra na rocha no sumidouro e corre escondido por cerca de 1.300 metros.",
+        "A água volta à luz numa cavidade da pedra, e dali nasce o curso principal do rio. Uma ponte pênsil dá a melhor vista, e é possível banhar-se e flutuar.",
+        "A trilha completa tem 3,5 quilômetros e sete deques de madeira, com áreas de banho de águas límpidas e transparentes. Há deques mais rasos, indicados para crianças e quem nada pouco.",
+        "O caminho é relativamente fácil, mas a entrada fica a cerca de 50 km de estrada de cascalho a partir de Bonito."
+      ],
+      "sourceIds": [
+        "perdido",
+        "edital"
+      ],
+      "citations": [
+        {
+          "sourceId": "edital",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "edital",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "edital",
+          "locator": "p. 18"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "salobra",
+      "eyebrow": "02 · O cânion",
+      "title": "Salobra: turquesa, paredões e lapiás",
+      "question": "O que o fragmento norte reserva?",
+      "paragraphs": [
+        "No fragmento norte, o rio Salobra corta paredões de rocha em águas límpidas e azuis. A trilha do cânion segue por cerca de 5 quilômetros, ida e volta, pelas margens e pelo leito.",
+        "O Balneário Turquesa reúne poços de água cristalina que, conforme o sol, ganham cor azul-turquesa. Fica perto da entrada e serve a todos os públicos.",
+        "A trilha Dente de Cão sobe até o Morro do Boi, com visão de 360° dos paredões calcários e do rio. No caminho aparece o lapiás, uma formação de grande importância geológica.",
+        "Já a trilha Esmeralda segue por 2.800 metros no leito e nas margens do rio, entre corredeiras e pequenas cachoeiras."
+      ],
+      "sourceIds": [
+        "salobra",
+        "edital"
+      ],
+      "citations": [
+        {
+          "sourceId": "edital",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "edital",
+          "locator": "p. 21"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg/1280px-C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg",
+          "author": "Otávio Nogueira",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg",
+          "width": 1280,
+          "height": 854,
+          "alt": "Corredeira de água azul-esverdeada com blocos de rocha no cânion do rio Salobra",
+          "context": "Corredeira de águas turquesa entre blocos de rocha e mata no cânion do rio Salobra, em Bodoquena (MS)."
+        }
+      ]
+    },
+    {
+      "id": "visitar",
+      "eyebrow": "03 · Visitar",
+      "title": "Um enclave de Mata Atlântica a ser descoberto",
+      "question": "Como é visitar o parque?",
+      "paragraphs": [
+        "A vegetação é um encrave de Mata Atlântica dentro do Cerrado, com matas ciliares preservadas ao longo dos rios.",
+        "O Decreto s/nº de 21 de setembro de 2000 criou o parque nos municípios de Bonito, Bodoquena e Jardim. O plano de manejo vigente foi publicado em 2013.",
+        "O parque recebe turistas desde janeiro de 2021, e só com condutores credenciados pelo ICMBio. Antes de ir, é preciso entrar em contato com eles para reservar.",
+        "Os rios daqui dependem da mata nas margens. Visitar com condutor, sem lixo e sem barulho é a melhor forma de mantê-los azuis."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "edital"
+      ],
+      "citations": [
+        {
+          "sourceId": "edital",
+          "locator": "p. 13"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": null,
+  "closingTitle": "Uma água que depende de a floresta estar de pé",
+  "closing": "Quem vai a Bodoquena volta com a imagem de um rio que some e reaparece e de poços que mudam de cor com o sol. Visitar com cuidado e com condutor credenciado ajuda a manter esse azul.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra da Bodoquena",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena",
+      "accessedAt": "2026-10-22",
+      "use": "decreto de criação, área, municípios e condutores de visitantes"
+    },
+    {
+      "id": "perdido",
+      "institution": "ICMBio",
+      "title": "Trilha Sumidouro-Ressurgência do rio Perdido",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena/atrativos/trilha-sumidouro-ressurgencia-do-rio-perdido",
+      "accessedAt": "2026-10-22",
+      "use": "trilha do Sumidouro e da Ressurgência do rio Perdido"
+    },
+    {
+      "id": "salobra",
+      "institution": "ICMBio",
+      "title": "Trilha Cânion do rio Salobra",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena/atrativos/trilha-canion-do-rio-salobra",
+      "accessedAt": "2026-10-22",
+      "use": "trilha do Cânion do rio Salobra"
+    },
+    {
+      "id": "edital",
+      "institution": "ICMBio",
+      "title": "Anexo A do edital de concessão: Caracterização do Parque Nacional da Serra da Bodoquena (2022)",
+      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/editais-diversos/editais-diversos-2022/2.3_PNSBd___ANEXO_A_AREA_DA_CONCESSAO_v4_pos_ICMBio_limpo.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "atrativos, visitação, plano de manejo vigente; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Reescrita em 23/10/2026 com páginas do ICMBio e o Anexo A do edital de concessão (2022). Fauna, Reserva da Biosfera, tufas e turfas foram retiradas por falta de fonte oficial; o plano de manejo (2013) ainda não foi extraído. Data e área conferidas na página do ICMBio.",
+  "keyFacts": [
+    {
+      "label": "hectares do parque, em dois fragmentos",
+      "value": "≈ 77 mil",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "metros do rio Perdido correm sob a terra, do sumidouro à ressurgência",
+      "value": "≈ 1.300",
+      "sourceId": "edital",
+      "locator": "p. 17"
+    },
+    {
+      "label": "deques de madeira ao longo da trilha do Perdido, com áreas de banho",
+      "value": "7",
+      "sourceId": "edital",
+      "locator": "p. 17"
+    },
+    {
+      "label": "metros de caminhada no leito e nas margens do Salobra, na trilha Esmeralda",
+      "value": "2.800",
+      "sourceId": "edital",
+      "locator": "p. 21"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Sumidouro",
+      "definition": "Ponto em que o rio entra na rocha e passa a correr de forma subterrânea.",
+      "sourceId": "edital"
+    },
+    {
+      "term": "Ressurgência",
+      "definition": "Lugar em que as águas voltam à superfície, aqui por uma cavidade na rocha.",
+      "sourceId": "edital"
+    },
+    {
+      "term": "Lapiás",
+      "definition": "Formação rochosa de superfície esculpida, de grande importância geológica, que aparece nos calcários do Morro do Boi.",
+      "sourceId": "edital"
+    },
+    {
+      "term": "Encrave",
+      "definition": "Área de um bioma cercada por outro; aqui, Mata Atlântica dentro do Cerrado.",
+      "sourceId": "icmbio"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Um pantanal no norte da Amazônia, com cerca de 500 espécies de peixes de água doce registradas.",
+  "intro": "Em Caracaraí, no centro-sul de Roraima, o Parque Nacional do Viruá protege cerca de 215 mil hectares de campinaranas, florestas e áreas alagáveis do Pantanal Setentrional. Na beira da BR-174, é uma das unidades de acesso mais fácil da Amazônia.",
+  "sourceIds": [
+    "icmbio",
+    "visita",
+    "diag"
+  ],
+  "protects": {
+    "summary": "Campinaranas, rios de água preta e um recorde de peixes",
+    "items": [
+      {
+        "title": "O megaleque do Viruá",
+        "text": "Planícies de areia branca, lagos, igarapés e serras isoladas formam a paisagem da bacia do rio Iruá, com solos arenosos encharcados típicos das campinaranas.",
+        "sourceIds": [
+          "plan"
+        ]
+      },
+      {
+        "title": "Um berçário de peixes",
+        "text": "Os rios Iruá, Branco, Anauá e Baruana são áreas de reprodução dos estoques pesqueiros da região. O parque guarda grandes tucunarés-açu, importantes para a pesca regional.",
+        "sourceIds": [
+          "plan"
+        ]
+      },
+      {
+        "title": "43 vertebrados ameaçados",
+        "text": "Entre eles, macaco-aranha, ariranha, peixe-boi, gavião-real, pato-corredor, tartarugas e o jacaré-açu.",
+        "sourceIds": [
+          "plan"
+        ]
+      },
+      {
+        "title": "Aves que só vivem por aqui",
+        "text": "As campinaranas abrigam aves endêmicas como o formigueiro-de-yapacana e a choquinha-de-peito-riscado. Nas várzeas vivem o chororó-do-rio-branco e a choquinha-do-tapajós.",
+        "sourceIds": [
+          "visita"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Campinaranas do megaleque",
+      "text": "Pela Estrada Perdida, chega-se a campos abertos onde é comum ver o veado-de-rabo-branco. Também passam por ali onça-pintada, tamanduá-bandeira e a anta-pretinha.",
+      "sourceIds": [
+        "visita"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Parque_Nacional_do_Viru%C3%A1%2C_Roraima_%282%29.jpg",
+        "author": "Carlos Marques",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Viru%C3%A1,_Roraima_(2).jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": "Rio sinuoso entre florestas e bancos de areia, visto do alto",
+        "context": "Vista aérea parcial do Parque Nacional do Viruá."
+      }
+    },
+    {
+      "title": "Lago da Baixa Verde",
+      "text": "Um aquário natural de águas cristalinas, drenado para o Iruá por um extenso buritizal. Só se navega de caiaque, a remo ou com motor elétrico.",
+      "sourceIds": [
+        "visita"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Mirante da Serra do Viruá",
+      "text": "A cerca de 170 metros de altitude, a 3,5 km da sede, mostra o mosaico de campinarana, floresta de terra firme, serras e áreas alagáveis.",
+      "sourceIds": [
+        "visita"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Passarela da Samaúma",
+      "text": "Uma passarela de 230 metros, acessível, atravessa uma floresta alagável até árvores gigantes como a samaúma. Foi feita por carpinteiros locais com madeira apreendida.",
+      "sourceIds": [
+        "visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sama%C3%BAma_-_Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_%28271%29.jpg/1280px-Sama%C3%BAma_-_Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_%28271%29.jpg",
+        "author": "Rodrigo.Argenton",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sama%C3%BAma_-_Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_(271).jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Copa de samaúma emergindo da floresta, vista do alto",
+        "context": "Samaúma gigante no Parque Nacional do Viruá."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O nome do parque é um erro de mapa. O rio principal se chama Iruá, mas foi registrado como Viruá nas cartas oficiais.",
+      "sourceIds": [
+        "diag"
+      ]
+    },
+    {
+      "text": "Iruá vem do caramujo uruá. Segundo os moradores, a altura em que ele põe os ovos indica até onde vai subir a enchente.",
+      "sourceIds": [
+        "diag"
+      ]
+    },
+    {
+      "text": "Numa trilha à beira do rio Baruana, vizinho ao parque, foram registradas 225 espécies de aves em um único dia, o recorde brasileiro.",
+      "sourceIds": [
+        "visita",
+        "diag"
+      ]
+    },
+    {
+      "text": "A Estrada Perdida, principal acesso ao interior do parque, é o traçado original da BR-174, abandonado porque a obra se mostrou inviável.",
+      "sourceIds": [
+        "diag"
+      ]
+    },
+    {
+      "text": "São 60 km de trilhas de pesquisa do PPBio, 12 trilhas de 5 km, também abertas a caminhadas.",
+      "sourceIds": [
+        "visita"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1998 · Um compromisso internacional",
+      "text": "O parque é criado em 29 de abril, junto com o da Serra da Mocidade, para cumprir metas da Convenção sobre Diversidade Biológica e proteger as campinaranas de Roraima.",
+      "sourceIds": [
+        "diag",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2009 · Área importante para aves",
+      "text": "A região entra na lista de Áreas Importantes para a Conservação de Aves (IBA), da BirdLife.",
+      "sourceIds": [
+        "diag"
+      ]
+    },
+    {
+      "title": "2014 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo, construído com comunidades, pesquisadores e operadores de turismo.",
+      "sourceIds": [
+        "icmbio",
+        "plan"
+      ]
+    },
+    {
+      "title": "2017 · Sítio Ramsar",
+      "text": "Em 22 de março, o Viruá é reconhecido como zona úmida de importância internacional.",
+      "sourceIds": [
+        "visita"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Cercomacra carbonaria",
+      "name": "Chororó-do-rio-branco",
+      "why": "Vulnerável e restrito às várzeas da região, é um dos alvos dos observadores de aves no parque.",
+      "sourceIds": [
+        "visita",
+        "plan",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Cercomacra_carbonaria_Rio_Branco_Antbird_%28male%29%3B_Caracara%C3%AD%2C_Roraima%2C_Brazil.jpg/960px-Cercomacra_carbonaria_Rio_Branco_Antbird_%28male%29%3B_Caracara%C3%AD%2C_Roraima%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cercomacra_carbonaria_Rio_Branco_Antbird_(male);_Caracara%C3%AD,_Roraima,_Brazil.jpg",
+        "width": 640,
+        "height": 490,
+        "alt": "Chororó-do-rio-branco (Cercomacra carbonaria); fotografia da espécie",
+        "context": "Retrato ilustrativo de Cercomacra carbonaria. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "why": "Em perigo, está entre os 43 vertebrados ameaçados que o parque protege, e tem registros dentro dele.",
+      "sourceIds": [
+        "plan",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 640,
+        "height": 253,
+        "alt": "Ariranha (Pteronura brasiliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pteronura brasiliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ateles paniscus",
+      "name": "Macaco-aranha-preto",
+      "why": "Vulnerável, é um dos mamíferos ameaçados cuja população e hábitat o parque se propõe a preservar.",
+      "sourceIds": [
+        "plan",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ateles_paniscus.jpg/960px-Ateles_paniscus.jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_paniscus.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Macaco-aranha-preto (Ateles paniscus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ateles paniscus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Viruá",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna do Viruá",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/informacoes-sobre-visitacao-2013-parna-do-virua",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "diag",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Viruá: Diagnóstico, parte 1",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/arquivos/parna_virua_pm_diag1.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "plan",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Viruá: Planejamento (2014)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/arquivos/parna_virua_pm_plan.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

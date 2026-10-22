@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Em cerca de 20 mil hectares, a serra sobe de 80 a 2.263 metros e guarda 20% dos vertebrados terrestres do Brasil.",
+  "intro": "Na Região Serrana do Rio de Janeiro, entre Teresópolis, Petrópolis, Magé e Guapimirim, o Parque Nacional da Serra dos Órgãos protege cerca de 20 mil hectares da Serra do Mar. Criado em 1939, é o terceiro parque nacional mais antigo do país, berço da escalada no Brasil e dono de mais de 200 km de trilhas.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-historia"
+  ],
+  "protects": {
+    "summary": "Uma Mata Atlântica em andares, do vale ao topo das montanhas",
+    "items": [
+      {
+        "title": "Quatro florestas em uma",
+        "text": "Floresta submontana até 500 metros, montana até 1.500, mata nebular acima disso e, no topo, campos de altitude sobre a rocha.",
+        "sourceIds": [
+          "icmbio-flora"
+        ]
+      },
+      {
+        "title": "Mais de 2.800 plantas",
+        "text": "Entre elas, 369 espécies de orquídeas e mais de 100 de bromélias, alimentadas por chuvas que chegam a 3.600 mm por ano.",
+        "sourceIds": [
+          "icmbio-flora"
+        ]
+      },
+      {
+        "title": "Muita vida num espaço pequeno",
+        "text": "São 462 espécies de aves, 105 de mamíferos, 102 de anfíbios e 81 de répteis. Os 750 vertebrados terrestres equivalem a 20% dos que existem no Brasil.",
+        "sourceIds": [
+          "icmbio-fauna"
+        ]
+      },
+      {
+        "title": "Água para duas bacias",
+        "text": "Os rios do parque correm para a Baía de Guanabara e para o Paraíba do Sul. O Paquequer e o Beija-Flor abastecem Teresópolis.",
+        "sourceIds": [
+          "icmbio-hidro"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Dedo de Deus",
+      "text": "O pico mais famoso da serra é considerado o marco inicial da escalada no país. Ao lado dele, vias como as da Agulha do Diabo atraem escaladores de todos os níveis.",
+      "sourceIds": [
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Amanhecer_no_Hercules_--.jpg/1280px-Amanhecer_no_Hercules_--.jpg",
+        "author": "Carlos Perez Couto",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amanhecer_no_Hercules_--.jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": "Formações rochosas ao amanhecer com o Dedo de Deus ao fundo",
+        "context": "Formações rochosas e o Dedo de Deus ao fundo, na Serra dos Órgãos."
+      }
+    },
+    {
+      "title": "Pedra do Sino",
+      "text": "Ponto culminante do parque, a 2.263 metros. Perto dele fica o Campo das Antas, campo de altitude com 347 espécies de plantas, 66 delas exclusivas desse ambiente.",
+      "sourceIds": [
+        "icmbio-geologia",
+        "icmbio-flora"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Marco_no_cume_da_Pedra_do_Sino_-_panoramio.jpg/1280px-Marco_no_cume_da_Pedra_do_Sino_-_panoramio.jpg",
+        "author": "Marcio Sette",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marco_no_cume_da_Pedra_do_Sino_-_panoramio.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Marco de pedra no cume rochoso acima das nuvens",
+        "context": "O marco no cume da Pedra do Sino, ponto mais alto do parque."
+      }
+    },
+    {
+      "title": "Travessia Petrópolis–Teresópolis",
+      "text": "São 30 km de subidas e descidas pela parte alta das montanhas, a mais pesada entre as trilhas do parque.",
+      "sourceIds": [
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Travessia_Petropolis_a_Teresopolis_-_Rumo_Castelos_do_A%C3%A7u.jpg/1280px-Travessia_Petropolis_a_Teresopolis_-_Rumo_Castelos_do_A%C3%A7u.jpg",
+        "author": "Luizgadetto",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Travessia_Petropolis_a_Teresopolis_-_Rumo_Castelos_do_A%C3%A7u.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Trilha em campo de altitude entre rochas",
+        "context": "A Travessia Petrópolis–Teresópolis a caminho dos Castelos do Açu."
+      }
+    },
+    {
+      "title": "Véu de Noiva",
+      "text": "O parque tem duas cachoeiras com esse nome. A mais famosa fica em Petrópolis e tem 42 metros de queda.",
+      "sourceIds": [
+        "icmbio-hidro"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/The_pool_at_the_V%C3%A9u_da_Noiva_waterfall%5E%5E%5E%5E_-_PARNASO_-_panoramio.jpg/1280px-The_pool_at_the_V%C3%A9u_da_Noiva_waterfall%5E%5E%5E%5E_-_PARNASO_-_panoramio.jpg",
+        "author": "paulsmithrj",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_pool_at_the_V%C3%A9u_da_Noiva_waterfall%5E%5E%5E%5E_-_PARNASO_-_panoramio.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Poço de água transparente ao pé do Véu da Noiva, cercado por blocos de granito e mata atlântica",
+        "context": "O poço formado ao pé da cachoeira Véu da Noiva, na sede Petrópolis do Parque Nacional da Serra dos Órgãos; a água corre limpa entre blocos de granito."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O rio Paquequer, que nasce no parque ao pé do Nariz do Frade, inspirou José de Alencar em O Guarani.",
+      "sourceIds": [
+        "icmbio-hidro"
+      ]
+    },
+    {
+      "text": "Nos anos 1940, o parque chegou a ter cerca de 250 funcionários, incluindo garçons de smoking servindo nos abrigos de montanha.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "text": "Um estudo com opiliões, parentes das aranhas, apontou a Serra dos Órgãos como a área de maior diversidade do grupo no Brasil.",
+      "sourceIds": [
+        "icmbio-fauna"
+      ]
+    },
+    {
+      "text": "Von Martius, Spix e George Gardner estiveram entre os naturalistas que estudaram a região no início do século XIX, antes de existir o parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1933 · A ideia",
+      "text": "O cientista Edgar Roquette-Pinto propõe um parque nacional entre a baixada da Guanabara e o alto da Serra dos Órgãos.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "title": "1939 · Nasce o parque",
+      "text": "Em 30 de novembro, o Decreto-Lei nº 1.822, de Getúlio Vargas, cria o parque, com cerca de 9 mil hectares em Magé, Petrópolis e Teresópolis.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "title": "1960 a 1980 · Decadência e retomada",
+      "text": "Com a capital em Brasília, faltam recursos e os abrigos se perdem. A partir de 1980 vêm plano de manejo, limites definidos e compra de terras.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "title": "2008 · Quase o dobro",
+      "text": "Em 13 de setembro, a área do parque é ampliada para cerca de 20 mil hectares. Em 2022, uma lei ajusta os limites e exclui 175 hectares de agricultores familiares do Vale do Bonfim.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Brachyteles arachnoides",
+      "name": "Muriqui-do-sul",
+      "why": "O maior primata das Américas é destaque entre as 120 espécies ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio-fauna"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/391279257/original.jpeg",
+        "author": "UNA Ecoturismo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/391279257",
+        "width": 2048,
+        "height": 1536,
+        "alt": "Muriqui-do-sul fêmea com filhote no colo, olhando para a câmera entre os galhos",
+        "context": "O muriqui-do-sul (Brachyteles arachnoides), primata ameaçado e símbolo da Mata Atlântica, fotografado em liberdade em área de mata no estado de São Paulo."
+      }
+    },
+    {
+      "scientificName": "Brachycephalus ephippium",
+      "name": "Pingo-de-ouro",
+      "why": "Sapinho alaranjado do chão da Mata Atlântica, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Brachycephalus_ephippium01.jpg",
+        "author": "Ariovaldo Giaretta",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brachycephalus_ephippium01.jpg",
+        "width": 640,
+        "height": 459,
+        "alt": "Pingo-de-ouro (Brachycephalus ephippium); fotografia da espécie",
+        "context": "Retrato ilustrativo de Brachycephalus ephippium. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Tijuca condita",
+      "name": "Saudade-de-asa-cinza",
+      "why": "Ave endêmica e ameaçada que encontra proteção no parque, onde a caça é menor e a presença humana é controlada.",
+      "sourceIds": [
+        "icmbio-fauna"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Tijuca_condita_Gray-winged_Cotinga.jpg",
+        "author": "https://www.flickr.com/photos/jquental",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tijuca_condita_Gray-winged_Cotinga.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Saudade-de-asa-cinza (Tijuca condita)",
+        "context": "Saudade-de-asa-cinza, Tijuca condita."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra dos Órgãos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-historia",
+      "institution": "ICMBio",
+      "title": "História do PARNASO",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/quem-somos/historia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-flora",
+      "institution": "ICMBio",
+      "title": "Flora do PARNASO",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/atributos-naturais/flora",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-fauna",
+      "institution": "ICMBio",
+      "title": "Fauna do PARNASO",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/atributos-naturais/fauna",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-hidro",
+      "institution": "ICMBio",
+      "title": "Hidrografia do PARNASO",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/atributos-naturais/hidrografia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-geologia",
+      "institution": "ICMBio",
+      "title": "Geologia do PARNASO",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-dos-orgaos/atributos-naturais/geologia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

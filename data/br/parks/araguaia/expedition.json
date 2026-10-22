@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Araguaia",
+  "title": "A maior ilha fluvial e os povos que a habitam",
+  "subtitle": "No Tocantins, o parque ocupa parte da Ilha do Bananal, entre o Araguaia e o Javaés, numa planície que alaga e seca, entre Cerrado e Amazônia, em terra de povos indígenas.",
+  "centralQuestion": "Como um parque nacional convive com uma planície de cheias e com os povos que sempre viveram na ilha?",
+  "introduction": [
+    "O rio Araguaia se divide em dois braços e abraça a Ilha do Bananal, a maior ilha fluvial do mundo. É nela que fica o Parque Nacional do Araguaia, no Tocantins, entre o Araguaia, a oeste, e o Javaés, a leste, numa planície que as cheias cobrem e a seca devolve em praias de areia clara.",
+    "Entre a Amazônia e o Cerrado, a ilha reúne mais de 200 lagos, peixes que só vivem onde a água vem e vai, e um cervo raro. É também território de povos indígenas, Karajá e Javaé, que vivem aqui há muito mais tempo que o parque."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área do parque",
+      "value": "562.312",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "lagos internos, importantes para a reprodução de peixes",
+      "value": "> 200",
+      "sourceId": "pm",
+      "locator": "p. 192"
+    },
+    {
+      "label": "cervos-do-pantanal estimados em 1976, possivelmente a maior concentração da espécie numa área protegida da América Latina",
+      "value": "300–400",
+      "sourceId": "pm",
+      "locator": "p. 192"
+    },
+    {
+      "label": "hectares do parque sobrepostos à terra indígena declarada em 2001",
+      "value": "376.545",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    },
+    {
+      "label": "criação do parque, por decreto de 31 de dezembro",
+      "value": "1959",
+      "sourceId": "pm",
+      "locator": "p. 20"
+    },
+    {
+      "label": "hectares do parque após o decreto de 1971, no terço norte da ilha",
+      "value": "460 mil",
+      "sourceId": "pm",
+      "locator": "p. 162"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Ipuca",
+      "definition": "Área da ilha que, na época das cheias, liga os rios e córregos entre si.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Peixes temporários",
+      "definition": "Peixes da família Rivulidae, endêmicos da região, cuja vida está ligada às águas que aparecem e desaparecem com as estações.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Mata do Mamão",
+      "definition": "Mancha mais significativa de floresta semidecídua aluvial, formação ribeirinha, no sul do parque; é onde nasce o rio Randi-toró.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Terra Indígena Inãwébohona",
+      "definition": "Território indígena que se sobrepõe ao parque. O plano o chama de posse permanente dos grupos indígenas, com 376.545 hectares dentro do parque.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Rio_Araguaia.JPG/1280px-Rio_Araguaia.JPG",
+    "author": "Marcelo de Sousa Guedes",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Araguaia.JPG",
+    "width": 1280,
+    "height": 960,
+    "alt": "Praias do Araguaia, Araguaia",
+    "context": "Praias do Araguaia. Rio Araguaia"
+  },
+  "moments": [
+    {
+      "id": "agua",
+      "eyebrow": "01 · A água",
+      "title": "Cheias, lagos e praias de vazante",
+      "question": "Como o parque muda ao longo do ano?",
+      "paragraphs": [
+        "O parque fica numa extensa planície de sedimentos formada por rios, inundada periodicamente pelas cheias do Araguaia e do Javaés. Rios internos como o Riozinho, o Randi-toró e o Mercês são perenes e cheios de peixes, tartarugas e jacarés.",
+        "Uma característica marcante da ilha são as ipucas: na época das cheias, quando os rios deixam o leito e inundam a ilha, elas ligam rios e córregos entre si.",
+        "São mais de 200 lagos internos, onde peixes e outros animais aquáticos se reproduzem e repõem populações de espécies comerciais. Na estação seca, o Araguaia forma praias belíssimas.",
+        "No sul, a Mata do Mamão é a mancha mais significativa de floresta semidecídua aluvial, uma formação ribeirinha, e é lá que nasce o rio Randi-toró."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 111"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 112"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 130"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 192"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Vista_do_Parque_Nacional_do_Araguaia_3.jpg/1280px-Vista_do_Parque_Nacional_do_Araguaia_3.jpg",
+          "author": "Rodrigo José Fernandes",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_do_Parque_Nacional_do_Araguaia_3.jpg",
+          "width": 1280,
+          "height": 853,
+          "alt": "Garça voando sobre um canal de água escura entre a mata, com uma canoa",
+          "context": "Canal no Parque Nacional do Araguaia, com garça em voo."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "02 · A vida",
+      "title": "Entre o Cerrado e a Amazônia, peixes que dependem da seca",
+      "question": "Por que o parque é tão importante para a fauna?",
+      "paragraphs": [
+        "O parque fica na faixa de transição entre a floresta amazônica e o Cerrado, com vegetação muito diversificada e rica em espécies dos dois biomas.",
+        "Entre as espécies ameaçadas está o cervo-do-pantanal. Em 1976, sua população foi estimada em 300 a 400 indivíduos, possivelmente a maior concentração da espécie numa área protegida da América Latina.",
+        "O parque é importante para populações viáveis de peixes temporários, da família Rivulidae, endêmicos da região. Alguns foram detectados pela primeira vez no interior do parque, e a coleta ilegal e o tráfico internacional pressionam esses peixes coloridos.",
+        "Pela riqueza de aves e de ecossistemas aquáticos, a área é também reconhecida como sítio Ramsar, zona úmida de importância internacional."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 139"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 140"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 192"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 194"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "povos",
+      "eyebrow": "03 · Os povos",
+      "title": "Karajá, Javaé e um território sobreposto",
+      "question": "O que significa um parque nacional sobre terra indígena?",
+      "paragraphs": [
+        "A Ilha do Bananal é território de povos indígenas, entre eles os Karajá e os Javaé. Quando o parque foi criado, em 1959, abrangeu toda a ilha, e a presença indígena gerou um conflito que técnicos conservacionistas e indigenistas pediram que fosse resolvido, pois as regras de parque nacional, que proíbem caça, pesca e roçado, são incompatíveis com a vida nas aldeias.",
+        "Em 1985, depois de reivindicações dos Javaé da aldeia Boto Velho, a Funai interditou uma área de 154.080 hectares sobreposta ao parque. Em 20 de abril de 2001, a Portaria nº 359 do Ministério da Justiça declarou de posse permanente indígena a Terra Indígena Inãwébohona, com 376.545 hectares sobrepostos ao parque.",
+        "A aldeia Boto Velho, da Terra Indígena Inãwébohona, permaneceu nos limites do parque. A transferência dos moradores para outras aldeias, esperada na época, não se concretizou.",
+        "Para grande parte da população, principalmente indígena, os rios são a única fonte de proteína, fornecida pelos peixes e animais da região."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 163"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 164"
+        }
+      ],
+      "note": {
+        "title": "Território compartilhado",
+        "body": "Este momento trata de povos vivos e de uma situação jurídica que pode ter mudado; vale ouvir as comunidades Karajá e Javaé e o ICMBio."
+      },
+      "images": []
+    },
+    {
+      "id": "historia",
+      "eyebrow": "04 · A história",
+      "title": "De uma ideia de 1876 ao parque de hoje",
+      "question": "Como o parque foi criado e mudou de tamanho?",
+      "paragraphs": [
+        "A Ilha do Bananal foi descoberta, no sentido dos colonizadores, em 26 de julho de 1773 pelo sertanista José Pinto Fonseca, que procurava as aldeias dos Karajá. Ele a batizou de Santana, e o nome mudou depois para Bananal, por causa dos densos bananais.",
+        "Em 1876, o engenheiro André Rebouças propôs dois parques nacionais no Brasil, um deles na Ilha do Bananal. O plano nota que Rebouças ignorou a existência de populações indígenas na ilha.",
+        "O Decreto nº 47.570, de 31 de dezembro de 1959, transformou toda a ilha em Parque Nacional do Araguaia. O Decreto nº 68.873, de 5 de julho de 1971, reduziu o parque ao terço norte da ilha, e o resto virou o Parque Indígena do Araguaia, criado pelo Decreto nº 69.263 em setembro do mesmo ano. O Decreto nº 71.879, de 1973, corrigiu um erro de coordenadas.",
+        "O Decreto nº 84.844, de 24 de junho de 1980, definiu os limites atuais do parque, com mais de 550 mil hectares."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 19"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 21"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 162"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 163"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "pressoes",
+      "eyebrow": "05 · As pressões",
+      "title": "Gado, fazendas e o desafio de proteger",
+      "question": "O que ameaça a ilha?",
+      "paragraphs": [
+        "O século XX chegou à ilha com a pecuária extensiva, a agricultura de autoconsumo e a indústria da pesca.",
+        "Nos anos 1970, a abertura da rodovia Belém-Brasília e os grandes projetos de desenvolvimento levaram fazendas de arroz e soja à região. Em 1982, a construção da estrada Transaraguaia foi paralisada depois de conflitos com os Javaé da aldeia Boto Velho e de protestos do IBAMA.",
+        "Desde 1995, o IBAMA fez várias investidas para tirar o gado da ilha."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 162"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 163"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 164"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        }
+      ],
+      "note": {
+        "title": "Panorama datado",
+        "body": "A situação atual de gado, invasões e estradas deve ser conferida com o ICMBio."
+      },
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "historia",
+    "title": "Da Ilha do Bananal ao parque",
+    "intro": "Marcos da história do parque.",
+    "items": [
+      {
+        "id": "1773",
+        "year": "1773",
+        "title": "A ilha é batizada",
+        "description": "O sertanista José Pinto Fonseca a chama de Santana; o nome Bananal vem depois.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1876",
+        "year": "1876",
+        "title": "Uma ideia de André Rebouças",
+        "description": "Rebouças propõe um parque nacional na Ilha do Bananal.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1959",
+        "year": "1959",
+        "title": "Decreto nº 47.570",
+        "description": "Toda a ilha vira Parque Nacional do Araguaia, em 31 de dezembro.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1971",
+        "year": "1971",
+        "title": "O parque é reduzido",
+        "description": "O Decreto nº 68.873 limita o parque ao terço norte da ilha, e é criado o Parque Indígena do Araguaia.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1980",
+        "year": "1980",
+        "title": "Decreto nº 84.844",
+        "description": "Os limites atuais são definidos por decreto, em 24 de junho.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2001",
+        "year": "2001",
+        "title": "Portaria nº 359",
+        "description": "A Terra Indígena Inãwébohona é declarada de posse permanente indígena, com 376.545 hectares sobrepostos ao parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma ilha de água e de gente",
+  "closing": "O parque protege uma planície que alaga e seca, peixes que dependem dessa alternância e um cervo raro. Mas a ilha também é casa de povos indígenas, e o futuro do parque depende de decisões que precisam ouvi-los.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "IBAMA",
+      "title": "Plano de Manejo do Parque Nacional do Araguaia (Fase 2)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-do-araguaia/arquivos/parna_araguaiaaplanodemanejo.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "hidrografia, vegetação, fauna, povos indígenas, histórico e limites; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência crítica: revisão pelos povos Karajá e Javaé, pela Funai e pelo ICMBio, e conferência da situação atual da Terra Indígena Inãwébohona e do sítio Ramsar."
+}

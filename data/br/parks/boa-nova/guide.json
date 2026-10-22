@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Em 25 km, a paisagem passa da Caatinga à Mata Atlântica, com uma floresta de cipós no meio e um pássaro que só vive ali.",
+  "intro": "No sudoeste da Bahia, o Parque Nacional de Boa Nova protege cerca de 12 mil hectares, em cinco blocos, na Serra da Ouricana. As serras barram os ventos úmidos do litoral: de um lado cresce Mata Atlântica, do outro Caatinga, e entre elas a Mata-de-Cipó.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "A Mata-de-Cipó, ponte viva entre a Caatinga e a Mata Atlântica",
+    "items": [
+      {
+        "title": "Mata-de-Cipó",
+        "text": "Floresta de transição com árvores baixas e grossas, emaranhados de lianas e o chão coberto de bromélias. Proteger esse ecossistema foi o principal motivo da criação do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Paraíso das aves",
+        "text": "A região abriga mais da metade das espécies de aves da Bahia, 35 delas ameaçadas de extinção. Essa diversidade de aves é reconhecida internacionalmente.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Floresta de lianas",
+        "text": "Só no parque ocorrem 130 espécies de lianas, cipós e trepadeiras, 22 delas endêmicas da Mata Atlântica.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Berço das águas",
+        "text": "O relevo e a chuva das serras alimentam nascentes e riachos que descem por vales estreitos e abastecem a região.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Serra do Timorante",
+      "text": "Abriga os remanescentes mais preservados de Mata Atlântica do parque, em relevo íngreme e úmido, com dossel que pode passar dos 20 metros.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Lajedos",
+      "text": "Afloramentos rochosos de altitude onde a vegetação cresce nas fendas, em ilhas de bromélias, orquídeas e cactos. São pontos de alimentação para as aves.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Morro do Inglês",
+      "text": "Ponto culminante da Serra da Ouricana, com mais de 1.100 metros, na divisa entre o parque e o refúgio de vida silvestre vizinho.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Num percurso de apenas 25 km é possível atravessar Caatinga, Mata-de-Cipó, Mata Atlântica de montanha e Mata Atlântica de baixada.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Entre julho e setembro, a área de transição fica coberta por neblina intensa.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O parque e o refúgio de vida silvestre vizinho somam cerca de 45 cachoeiras.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A primeira investida europeia na região foi em 1732, com o acampamento chamado Passagem da Conquista. Antes, era terra dos Aymoré, Kamakã e Pataxó.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Antes de 1732 · Povos originários",
+      "text": "Aymoré, Kamakã e Pataxó são os primeiros habitantes das serras de Boa Nova.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2005 · As aves pedem proteção",
+      "text": "A ONG SAVE Brasil documenta a riqueza de aves raras e endêmicas da região e propõe uma unidade de conservação.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2010 · Nasce o parque",
+      "text": "Em 11 de junho, um decreto cria o Parque Nacional e o Refúgio de Vida Silvestre de Boa Nova, que liga os blocos do parque.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2024 · Plano de manejo",
+      "text": "A Portaria 3.028, de 30 de setembro, aprova o plano de manejo conjunto das duas unidades.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Rhopornis ardesiacus",
+      "name": "Gravatazeiro",
+      "why": "Espécie-símbolo de Boa Nova, endêmica da Mata-de-Cipó e ameaçada de extinção.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Rhopornis_ardesiacus_-_Slender_antbird_%28female%29.jpg/1280px-Rhopornis_ardesiacus_-_Slender_antbird_%28female%29.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhopornis_ardesiacus_-_Slender_antbird_(female).jpg",
+        "width": 1280,
+        "height": 1059,
+        "alt": "Fêmea de gravatazeiro",
+        "context": "Fêmea de gravatazeiro fotografada em Boa Nova, na Bahia."
+      }
+    },
+    {
+      "scientificName": "Scytalopus gonzagai",
+      "name": "Tapaculo-preto-baiano",
+      "why": "Ave em perigo de extinção, registrada dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg/960px-Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg",
+        "author": "Thomaz de Carvalho Callado",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scytalopus_gonzagai_by_Thomaz_de_Carvalho_Callado.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Tapaculo-preto-baiano (Scytalopus gonzagai); fotografia da espécie",
+        "context": "Retrato ilustrativo de Scytalopus gonzagai. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Callithrix kuhlii",
+      "name": "Sagui-de-wied",
+      "why": "Primata vulnerável da Mata Atlântica baiana, com registros no parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Wied%27s_Marmoset_at_Blank_Park_Zoo.gk.jpg/960px-Wied%27s_Marmoset_at_Blank_Park_Zoo.gk.jpg",
+        "author": "grendel|khan",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wied%27s_Marmoset_at_Blank_Park_Zoo.gk.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Sagui-de-wied (Callithrix kuhlii); fotografia da espécie",
+        "context": "Retrato ilustrativo de Callithrix kuhlii. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Boa Nova",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-boa-nova",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional e do Refúgio de Vida Silvestre de Boa Nova (2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-boa-nova/arquivos/PM_UCs_BOA_NOVA_aprovado_2024.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

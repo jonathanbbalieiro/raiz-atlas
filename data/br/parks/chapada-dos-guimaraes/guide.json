@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Na borda do planalto, paredões de arenito vermelho guardam rochas de antigos desertos e mares, e a água que corre para o Pantanal.",
+  "intro": "Entre Cuiabá e Chapada dos Guimarães, em Mato Grosso, o parque nacional protege cerca de 32,6 mil hectares de Cerrado nas escarpas do Planalto dos Guimarães. Criado em 1989, guarda nascentes de rios formadores do Pantanal, dez tipos de vegetação, sítios arqueológicos e a Cachoeira Véu de Noiva, seu cartão-postal.",
+  "sourceIds": [
+    "icmbio"
+  ],
+  "protects": {
+    "summary": "Nascentes do Pantanal e um Cerrado de muitas faces",
+    "items": [
+      {
+        "title": "Água para Cuiabá",
+        "text": "Dentro do parque nascem córregos e rios da bacia do Coxipó, que formam o Pantanal e respondem por grande parte da água que abastece Cuiabá.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Dez Cerrados",
+        "text": "O parque protege dez tipos diferentes de vegetação do Cerrado e já registrou 659 espécies de plantas, 44 de peixes, 242 de aves e 76 de mamíferos.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Rochas de outros mundos",
+        "text": "Há formações geológicas de origem desértica e marinha, registro de paisagens muito diferentes das de hoje.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Grandes mamíferos ameaçados",
+        "text": "A lista oficial inclui onça-pintada, tatu-canastra, tamanduá-bandeira, anta, queixada, lobo-guará e dois gatos-do-mato.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cachoeira Véu de Noiva",
+      "text": "Formada pelo rio Coxipó, ali chamado de Coxipozinho, é a paisagem mais conhecida do parque. Um mirante fica a 620 metros de trilha leve da portaria principal.",
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cachoeira_V%C3%A9u_da_Noiva_-_Chapada_dos_Guimar%C3%A3es_-_MT.jpg",
+        "author": "Claudinez Lacerda",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_V%C3%A9u_da_Noiva_-_Chapada_dos_Guimar%C3%A3es_-_MT.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Cachoeira em queda livre de um paredão de arenito vermelho",
+        "context": "A cachoeira Véu de Noiva, cartão-postal do Parque Nacional da Chapada dos Guimarães."
+      }
+    },
+    {
+      "title": "Cidade de Pedra",
+      "text": "Na borda do planalto, mirantes revelam paredões de arenito, relevos que lembram ruínas e veredas lá embaixo.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Parque_Nacional_Chapada_dos_Guimar%C3%A3es_-_Cidade_de_Pedra.jpg/1280px-Parque_Nacional_Chapada_dos_Guimar%C3%A3es_-_Cidade_de_Pedra.jpg",
+        "author": "Maíra Arantes Leite Wick",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Chapada_dos_Guimar%C3%A3es_-_Cidade_de_Pedra.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Paredões de arenito ao entardecer sobre um vale",
+        "context": "Entardecer diante dos paredões da Cidade de Pedra."
+      }
+    },
+    {
+      "title": "Morro de São Jerônimo",
+      "text": "Um dos pontos mais altos do parque, com 850 metros e vista panorâmica. São cerca de 15 km de trilha, com escalaminhada no fim, e uma cavidade no caminho: a Casa de Pedra.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Morro_de_S%C3%A3o_Jer%C3%B4nimo.JPG/1280px-Morro_de_S%C3%A3o_Jer%C3%B4nimo.JPG",
+        "author": "Marina GFreitas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morro_de_S%C3%A3o_Jer%C3%B4nimo.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Morro de topo rochoso sobre o Cerrado",
+        "context": "O Morro de São Jerônimo, no Parque Nacional da Chapada dos Guimarães."
+      }
+    },
+    {
+      "title": "Vale do Rio Claro e Crista do Galo",
+      "text": "Poços de água cristalina e um morro-testemunho, sobra do recuo da escarpa do planalto, com vista de 360 graus do vale.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Crista_do_Galo_no_Vale_do_Rio_Claro.jpg/1280px-Crista_do_Galo_no_Vale_do_Rio_Claro.jpg",
+        "author": "Ajrjr74",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crista_do_Galo_no_Vale_do_Rio_Claro.jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Paredões de arenito avermelhado da Crista do Galo sobre o vale do rio Claro, coberto de cerrado",
+        "context": "A Crista do Galo, escarpa de arenito que domina o vale do rio Claro, no Parque Nacional da Chapada dos Guimarães."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O Circuito das Cachoeiras segue o Córrego Independência por quatro cachoeiras e uma piscina natural onde o banho é permitido.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "A entrada em todos os atrativos do parque é gratuita. Em alguns, como a Cidade de Pedra, a visita só acontece com condutor autorizado.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1989 · Nasce o parque",
+      "text": "O Decreto 97.656, de 12 de abril, cria o parque para proteger ecossistemas, recursos naturais e sítios arqueológicos.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "why": "Está na lista de espécies ameaçadas protegidas pelo parque e tem registros dentro dele.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris); fotografia da espécie",
+        "context": "Retrato ilustrativo de Tapirus terrestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ara chloropterus",
+      "name": "Arara-vermelha",
+      "why": "Uma das aves mais vistosas do Cerrado, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg/960px-189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Arara-vermelha (Ara chloropterus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ara chloropterus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "why": "Vulnerável segundo a IUCN, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 640,
+        "height": 800,
+        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Anodorhynchus hyacinthinus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Chapada dos Guimarães",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-guimaraes",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna da Chapada dos Guimarães",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-guimaraes/informacoes-sobre-visitacao-parna-chapada-dos-guimaraes/informacoes-sobre-visitacao-parna-chapada-dos-guimaraes",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

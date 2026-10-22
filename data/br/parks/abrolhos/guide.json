@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "O primeiro parque marinho do Brasil: berçário de baleias-jubarte, recifes que só existem aqui e ilhas que encantaram Darwin.",
+  "intro": "No sul da Bahia, o Parque Nacional Marinho dos Abrolhos protege cerca de 88 mil hectares em duas áreas: o arquipélago e o Parcel dos Abrolhos, a 70 km de Caravelas, e o Recife de Timbebas, perto da costa. É a região de maior biodiversidade marinha do Atlântico Sul.",
+  "sourceIds": [
+    "icmbio-quem-somos",
+    "icmbio-visitacao"
+  ],
+  "protects": {
+    "summary": "Recifes únicos, baleias e a maior biodiversidade marinha do Atlântico Sul",
+    "items": [
+      {
+        "title": "Berçário de jubartes",
+        "text": "Entre junho e novembro, as baleias-jubarte chegam ao Banco dos Abrolhos para se reproduzir e ter filhotes. É o principal berçário da espécie no Atlântico Sul.",
+        "sourceIds": [
+          "icmbio-visitacao"
+        ]
+      },
+      {
+        "title": "Recifes que só existem aqui",
+        "text": "O Parcel dos Abrolhos reúne milhares de chapeirões, estruturas recifais encontradas somente no Banco dos Abrolhos.",
+        "sourceIds": [
+          "icmbio-visitacao"
+        ]
+      },
+      {
+        "title": "1.300 espécies",
+        "text": "Um levantamento registrou cerca de 1.300 espécies na região, 45 delas ameaçadas, de peixes e corais a tartarugas e aves marinhas.",
+        "sourceIds": [
+          "icmbio-visitacao"
+        ]
+      },
+      {
+        "title": "Peixe para além do parque",
+        "text": "Sem pesca lá dentro, as populações de peixes se recuperam e repovoam as áreas vizinhas, onde a pesca sustenta cerca de 20 mil pessoas.",
+        "sourceIds": [
+          "icmbio-quem-somos",
+          "icmbio-visitacao"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Arquipélago dos Abrolhos",
+      "text": "Cinco ilhas de origem vulcânica: Redonda, Siriba, Sueste, Guarita e Santa Bárbara. Esta última fica fora do parque, sob jurisdição da Marinha.",
+      "sourceIds": [
+        "icmbio-quem-somos",
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Arquip%C3%A9lago_de_Abrolhos_1.jpg/1280px-Arquip%C3%A9lago_de_Abrolhos_1.jpg",
+        "author": "Crisferrari1500",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arquip%C3%A9lago_de_Abrolhos_1.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "A ilha principal do Arquipélago dos Abrolhos, no Parque Nacional Marinho dos Abrolhos (BA), onde fica o posto fixo da Marinha; foto catalogada no Commons como do parque.",
+        "context": "A ilha principal do Arquipélago dos Abrolhos, no Parque Nacional Marinho dos Abrolhos (BA), onde fica o posto fixo da Marinha; foto catalogada no Commons como do parque."
+      }
+    },
+    {
+      "title": "Parcel dos Abrolhos",
+      "text": "Um labirinto submerso de milhares de chapeirões, estruturas de coral que existem somente no Banco dos Abrolhos.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/DSC_0048_-_recifes_de_coral_em_Abrolhos.jpg/1280px-DSC_0048_-_recifes_de_coral_em_Abrolhos.jpg",
+        "author": "Amgauna",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC_0048_-_recifes_de_coral_em_Abrolhos.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": "Recifes de coral em Abrolhos.",
+        "context": "Recifes de coral em Abrolhos."
+      }
+    },
+    {
+      "title": "Recife de Timbebas",
+      "text": "A segunda área do parque fica no arco de recifes costeiros entre Alcobaça e Prado.",
+      "sourceIds": [
+        "icmbio-quem-somos"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Charles Darwin passou por Abrolhos em 29 de março de 1832 e anotou corais-cérebro com mais de 90 cm de diâmetro e um lagarto em quase cada pedra.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "text": "O coral-cérebro Mussismilia braziliensis, segundo o ICMBio, só é encontrado nesta região do planeta.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "text": "Em 2010, Abrolhos virou o 11º sítio Ramsar do Brasil e o primeiro da Bahia.",
+      "sourceIds": [
+        "icmbio-quem-somos"
+      ]
+    },
+    {
+      "text": "Em 2020, o parque recebeu o título internacional de Blue Park, dado a áreas marinhas com altos padrões de proteção.",
+      "sourceIds": [
+        "icmbio-quem-somos"
+      ]
+    },
+    {
+      "text": "Américo Vespúcio está entre os navegantes que já passaram pela região.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1832 · Darwin em Abrolhos",
+      "text": "O naturalista Charles Darwin descreve ilhas verdes, aves marinhas abundantes e um fundo coberto de corais.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "1983 · Primeiro parque marinho",
+      "text": "O Decreto 88.218, de 6 de abril, cria o Parque Nacional Marinho dos Abrolhos, o primeiro do tipo no Brasil.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "icmbio-quem-somos"
+      ]
+    },
+    {
+      "title": "2009 · A comunidade no arquipélago",
+      "text": "Começa o programa que leva moradores da região para conhecer as ilhas e a vida marinha do parque.",
+      "sourceIds": [
+        "icmbio-comunidade"
+      ]
+    },
+    {
+      "title": "2010 · Sítio Ramsar",
+      "text": "Em 2 de fevereiro, o parque recebe o diploma de zona úmida de importância internacional.",
+      "sourceIds": [
+        "icmbio-quem-somos"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Megaptera novaeangliae",
+      "name": "Baleia-jubarte",
+      "why": "Usa o Banco dos Abrolhos como principal berçário no Atlântico Sul.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "icmbio-quem-somos"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Humpback_whales_in_singing_position.jpg/960px-Humpback_whales_in_singing_position.jpg",
+        "author": "Dr. Louis M. Herman.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg",
+        "width": 640,
+        "height": 432,
+        "alt": "Baleia-jubarte (Megaptera novaeangliae); fotografia da espécie",
+        "context": "Retrato ilustrativo de Megaptera novaeangliae. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Mussismilia braziliensis",
+      "name": "Coral-cérebro",
+      "why": "Coral de aspecto peculiar que, segundo o ICMBio, só vive nesta região.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg/960px-Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg",
+        "width": 640,
+        "height": 632,
+        "alt": "Coral-cérebro (Mussismilia braziliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Mussismilia braziliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Eretmochelys imbricata",
+      "name": "Tartaruga-de-pente",
+      "why": "Uma das tartarugas marinhas ameaçadas que se alimentam e descansam no parque.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg/1280px-Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortuga_carey_(Eretmochelys_imbricata),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-28,_DD_56.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Tartaruga-de-pente (Eretmochelys imbricata)",
+        "context": "Tartaruga-de-pente, Eretmochelys imbricata."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Marinho dos Abrolhos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-quem-somos",
+      "institution": "ICMBio",
+      "title": "Parna Marinho dos Abrolhos: Quem somos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/quem-somos-1/quem-somos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Parna Marinho dos Abrolhos: Informações sobre visitação",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/guia-do-visitante/informacoes-sobre-visitacao",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-comunidade",
+      "institution": "ICMBio",
+      "title": "Programa Comunidade em Abrolhos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/visite_abrolhos/visite-abrolhos",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

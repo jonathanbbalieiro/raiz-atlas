@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "No alto do chapadão nasce o São Francisco. Logo depois, ele se joga 186 metros na Casca d'Anta.",
+  "intro": "No sudoeste de Minas Gerais, o Parque Nacional da Serra da Canastra protege quase 198 mil hectares de Cerrado: chapadões de campo aberto, vales fundos e paredões de onde caem cachoeiras. Criado em 1972, guarda a nascente histórica do São Francisco, nascentes do rio Grande e do Paranaíba e uma das maiores populações do pato-mergulhão.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-historia",
+    "pmif"
+  ],
+  "protects": {
+    "summary": "As nascentes de grandes rios e um Cerrado de campos abertos",
+    "items": [
+      {
+        "title": "Berço de rios",
+        "text": "As nascentes do parque correm para as bacias do São Francisco, do rio Grande e do Paranaíba. A nascente histórica do São Francisco fica dentro da unidade.",
+        "sourceIds": [
+          "icmbio-historia"
+        ]
+      },
+      {
+        "title": "Cerrado em campos",
+        "text": "A maior parte do parque é coberta por campo sujo, campo rupestre e campo limpo. Matas de galeria e capões de mata trazem elementos da Mata Atlântica.",
+        "sourceIds": [
+          "pmif"
+        ]
+      },
+      {
+        "title": "1.635 espécies de plantas",
+        "text": "É o total identificado até agora, com várias endêmicas da Canastra e do oeste de Minas. Destas, 61 estão ameaçadas de extinção.",
+        "sourceIds": [
+          "pmif"
+        ]
+      },
+      {
+        "title": "Fauna de áreas abertas",
+        "text": "Já foram registradas 405 espécies de aves e 96 de mamíferos. A área contínua do parque permite a vida de bichos que precisam de grandes territórios.",
+        "sourceIds": [
+          "pmif"
+        ]
+      },
+      {
+        "title": "Gente da serra",
+        "text": "Os canastreiros, população tradicional reconhecida em laudo de 2018, ocupam áreas rurais dentro e ao redor do parque há pelo menos 250 anos.",
+        "sourceIds": [
+          "pmif"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Casca d'Anta",
+      "text": "A primeira cachoeira do rio São Francisco, com 186 metros de queda livre. Pode ser vista do alto do chapadão ou de baixo, já no vale, onde forma piscinas naturais.",
+      "sourceIds": [
+        "icmbio-historia"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cachoeira_casca_d%27anta_2014-05-07_01-41.jpg/1280px-Cachoeira_casca_d%27anta_2014-05-07_01-41.jpg",
+        "author": "User:Fabio AGuimaraes",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_casca_d%27anta_2014-05-07_01-41.jpg",
+        "width": 1280,
+        "height": 721,
+        "alt": "Cachoeira Casca d'Anta despencando por um paredão de rocha, com a piscina ao pé da queda",
+        "context": "A Casca d'Anta, principal queda do Rio São Francisco, no Parque Nacional da Serra da Canastra, vista do pé do paredão."
+      }
+    },
+    {
+      "title": "Nascente do São Francisco",
+      "text": "Um dos atrativos mais visitados do parque e lugar de interesse histórico e cultural: ali começa o rio que atravessa boa parte do Brasil.",
+      "sourceIds": [
+        "icmbio-historia"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Nascente_rio_s_francisco_pnsc.jpg/1280px-Nascente_rio_s_francisco_pnsc.jpg",
+        "author": "Py4nf",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nascente_rio_s_francisco_pnsc.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Pequeno curso d'água entre vegetação de campo",
+        "context": "A nascente histórica do rio São Francisco, no Parque Nacional da Serra da Canastra."
+      }
+    },
+    {
+      "title": "Curral de Pedras",
+      "text": "Pedra sobre pedra, empilhadas à mão, formam o curral onde tropeiros prendiam o gado durante o pernoite na serra.",
+      "sourceIds": [
+        "icmbio-historia"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Curral_de_pedra.jpg",
+        "author": "Juan V. Ruiz",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curral_de_pedra.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Muro baixo de pedras empilhadas no campo",
+        "context": "Detalhe do Curral de Pedras, erguido por tropeiros sem argamassa."
+      }
+    },
+    {
+      "title": "Chapadões e vãos",
+      "text": "Os chapadões da Canastra e da Babilônia terminam de forma abrupta em vales como o Vão dos Cândidos e o Vale da Gurita, uma paisagem de grandes horizontes e paredões.",
+      "sourceIds": [
+        "icmbio-historia",
+        "pmif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Estrada_que_corta.jpg/1280px-Estrada_que_corta.jpg",
+        "author": "Hudson Pontes da Silva",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estrada_que_corta.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Campo aberto do chapadão da Canastra, com uma estrada de terra vermelha cortando a paisagem",
+        "context": "O chapadão do Parque Nacional da Serra da Canastra: uma estrada de cerca de 60 km atravessa o alto da serra sobre campos de altitude."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Vivem na região da Canastra de 100 a 110 patos-mergulhões, cerca de 42% de toda a população conhecida da espécie na natureza.",
+      "sourceIds": [
+        "pmif"
+      ]
+    },
+    {
+      "text": "A Garagem de Pedras era um entreposto para quem subia a serra a pé ou em lombo de burro, vindo do Vão dos Cândidos.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "text": "O queijo canastra é feito na região há mais de 200 anos e é patrimônio cultural imaterial brasileiro reconhecido pelo IPHAN.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "text": "Já foram registradas no parque 646 espécies de invertebrados, 587 delas de insetos, além de 52 espécies de peixes.",
+      "sourceIds": [
+        "pmif"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há pelo menos 250 anos · Os canastreiros",
+      "text": "Comunidades rurais aparentadas se fixam na serra, criando gado, fazendo queijo e manejando o campo com fogo.",
+      "sourceIds": [
+        "pmif"
+      ]
+    },
+    {
+      "title": "1972 · Nasce o parque",
+      "text": "O Decreto 70.355, de 3 de abril, cria o parque para proteger as nascentes do São Francisco e os ambientes do pato-mergulhão.",
+      "sourceIds": [
+        "icmbio-historia",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "1977 · O chapadão demarcado",
+      "text": "Os 71.525 hectares do Chapadão da Canastra são demarcados. A porção sul, o Chapadão da Babilônia, segue por décadas com propriedades particulares.",
+      "sourceIds": [
+        "pmif"
+      ]
+    },
+    {
+      "title": "2018 · Os canastreiros reconhecidos",
+      "text": "Um laudo pericial reconhece os canastreiros como população tradicional, com ocupações na serra que remontam a pelo menos 250 anos.",
+      "sourceIds": [
+        "pmif"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Mergus octosetaceus",
+      "name": "Pato-mergulhão",
+      "why": "Criticamente em perigo. O parque protege seus locais de alimentação e de ninho, e a região abriga cerca de 42% da população conhecida.",
+      "sourceIds": [
+        "icmbio-historia",
+        "pmif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Mergus_octosetaceus%2C_por_S%C3%A1vio_Freire_Bruno.jpg/960px-Mergus_octosetaceus%2C_por_S%C3%A1vio_Freire_Bruno.jpg",
+        "author": "Sávio Freire Bruno",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mergus_octosetaceus,_por_S%C3%A1vio_Freire_Bruno.jpg",
+        "width": 640,
+        "height": 459,
+        "alt": "Pato-mergulhão (Mergus octosetaceus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Mergus octosetaceus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ozotoceros bezoarticus",
+      "name": "Veado-campeiro",
+      "why": "Cervo dos campos abertos, com registros dentro do parque e classificado como quase ameaçado pela IUCN.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Pampas_deer_nursing_fwan.jpg/960px-Pampas_deer_nursing_fwan.jpg",
+        "author": "Scott Presnell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pampas_deer_nursing_fwan.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Veado-campeiro (Ozotoceros bezoarticus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ozotoceros bezoarticus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Vulnerável segundo a IUCN, é um dos mamíferos que dependem das grandes áreas contínuas do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 640,
+        "height": 433,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla); fotografia da espécie",
+        "context": "Retrato ilustrativo de Myrmecophaga tridactyla. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra da Canastra",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-canastra",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-historia",
+      "institution": "ICMBio",
+      "title": "História do Parque Nacional da Serra da Canastra",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-canastra/historia-do-parque-nacional-da-serra-da-canastra",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pmif",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo Integrado do Fogo do Parna Serra da Canastra 2023-2026",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-canastra/arquivos/PMIF_PARNA_SERRA_CANASTRA_2023_2026.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

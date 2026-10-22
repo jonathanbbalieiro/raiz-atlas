@@ -1,0 +1,787 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-60.712%205.197%2C-60.687%205.194%2C-60.681%205.189%2C-60.679%205.177%2C-60.661%205.164%2C-60.656%205.149%2C-60.656%205.114%2C-60.649%205.119%2C-60.643%205.117%2C-60.641%205.110%2C-60.645%205.096%2C-60.641%205.082%2C-60.644%205.057%2C-60.632%205.050%2C-60.626%205.031%2C-60.611%205.015%2C-60.613%205.007%2C-60.599%204.999%2C-60.593%204.971%2C-60.584%204.956%2C-60.592%204.927%2C-60.609%204.924%2C-60.616%204.918%2C-60.626%204.904%2C-60.629%204.889%2C-60.633%204.888%2C-60.587%204.835%2C-60.584%204.827%2C-60.566%204.816%2C-60.564%204.805%2C-60.554%204.808%2C-60.547%204.803%2C-60.541%204.851%2C-60.544%204.859%2C-60.530%204.890%2C-60.566%205.065%2C-60.557%205.084%2C-60.557%205.109%2C-60.600%205.130%2C-60.578%205.153%2C-60.572%205.147%2C-60.553%205.143%2C-60.545%205.153%2C-60.531%205.152%2C-60.513%205.160%2C-60.502%205.154%2C-60.496%205.162%2C-60.493%205.159%2C-60.483%205.167%2C-60.445%205.147%2C-60.442%205.143%2C-60.419%205.140%2C-60.343%205.163%2C-60.313%205.154%2C-60.319%205.013%2C-60.315%204.957%2C-60.282%204.981%2C-60.254%204.993%2C-60.231%204.969%2C-60.216%204.935%2C-60.197%204.919%2C-60.197%204.940%2C-60.183%204.991%2C-60.169%204.999%2C-60.159%205.012%2C-60.149%205.014%2C-60.137%205.045%2C-60.124%205.101%2C-60.117%205.116%2C-60.091%205.139%2C-60.099%205.147%2C-60.107%205.194%2C-60.134%205.227%2C-60.135%205.248%2C-60.172%205.227%2C-60.195%205.238%2C-60.193%205.252%2C-60.202%205.267%2C-60.212%205.272%2C-60.235%205.263%2C-60.246%205.252%2C-60.264%205.251%2C-60.271%205.234%2C-60.304%205.227%2C-60.314%205.210%2C-60.320%205.208%2C-60.346%205.205%2C-60.356%205.210%2C-60.367%205.204%2C-60.371%205.215%2C-60.384%205.222%2C-60.407%205.211%2C-60.414%205.214%2C-60.419%205.194%2C-60.433%205.182%2C-60.447%205.184%2C-60.452%205.203%2C-60.464%205.199%2C-60.470%205.203%2C-60.527%205.208%2C-60.540%205.203%2C-60.546%205.194%2C-60.569%205.196%2C-60.590%205.207%2C-60.595%205.220%2C-60.604%205.215%2C-60.615%205.218%2C-60.625%205.215%2C-60.651%205.230%2C-60.660%205.227%2C-60.679%205.232%2C-60.697%205.229%2C-60.709%205.219%2C-60.723%205.220%2C-60.736%205.202%2C-60.712%205.197))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 3,
+      "species": [
+        {
+          "gbifKey": 2436638,
+          "scientificName": "Cebus olivaceus",
+          "name": null,
+          "family": "Cebidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q169682",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/C._olivaceus_Zoo_SP_2.jpg/960px-C._olivaceus_Zoo_SP_2.jpg",
+            "author": "Miguelrangeljr",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:C._olivaceus_Zoo_SP_2.jpg",
+            "width": 640,
+            "height": 884,
+            "alt": "Cebus olivaceus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 4371,
+      "species": [
+        {
+          "gbifKey": 5230517,
+          "scientificName": "Lepidothrix suavissima",
+          "name": "Dançador-do-tepui",
+          "family": "Pipridae",
+          "records": 71,
+          "iucn": "LC",
+          "wikidata": "Q282476",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/PipraSuavissimaKeulemans.jpg/960px-PipraSuavissimaKeulemans.jpg",
+            "author": "John Gerrard Keulemans",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:PipraSuavissimaKeulemans.jpg",
+            "width": 640,
+            "height": 443,
+            "alt": "Dançador-do-tepui (Lepidothrix suavissima)"
+          }
+        },
+        {
+          "gbifKey": 2486406,
+          "scientificName": "Procnias albus",
+          "name": "Araponga-da-amazônia",
+          "family": "Cotingidae",
+          "records": 66,
+          "iucn": "LC",
+          "wikidata": "Q592571",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/White_Bellbird-Araponga-da-amaz%C3%B4nia-Campanero_blanco_%28Procnias_albus%29_male_%28cropped%29.jpg",
+            "author": "Hector Bottai from São Paulo, Brasil",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Bellbird-Araponga-da-amaz%C3%B4nia-Campanero_blanco_(Procnias_albus)_male_(cropped).jpg",
+            "width": 640,
+            "height": 852,
+            "alt": "araponga-da-amazônia (Procnias albus)"
+          }
+        },
+        {
+          "gbifKey": 2486506,
+          "scientificName": "Lipaugus vociferans",
+          "name": "Cri-crió",
+          "family": "Cotingidae",
+          "records": 62,
+          "iucn": "LC",
+          "wikidata": "Q1067401",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Lipaugus_vociferans_-_Screaming_Piha%3B_Manaus%2C_Amazonas%2C_Brazil.jpg/960px-Lipaugus_vociferans_-_Screaming_Piha%3B_Manaus%2C_Amazonas%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lipaugus_vociferans_-_Screaming_Piha;_Manaus,_Amazonas,_Brazil.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Cri-crió (Lipaugus vociferans)"
+          }
+        },
+        {
+          "gbifKey": 2476533,
+          "scientificName": "Thalurania furcata",
+          "name": "Beija-flor-tesoura-verde",
+          "family": "Trochilidae",
+          "records": 60,
+          "iucn": "LC",
+          "wikidata": "Q581590",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Thalurania_furcata_-near_Amazonia_Lodge%2C_Manu_National_Park%2C_Peru-8.jpg",
+            "author": "Bill Bouton from San Luis Obispo, CA, USA",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thalurania_furcata_-near_Amazonia_Lodge,_Manu_National_Park,_Peru-8.jpg",
+            "width": 640,
+            "height": 852,
+            "alt": "Beija-flor-tesoura-verde (Thalurania furcata)"
+          }
+        },
+        {
+          "gbifKey": 2486447,
+          "scientificName": "Schiffornis turdina",
+          "name": "Flautim-marrom",
+          "family": "Cotingidae",
+          "records": 55,
+          "iucn": "LC",
+          "wikidata": "Q1308722",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Schiffornis_turdina.jpg",
+            "author": "Dominic Sherony",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schiffornis_turdina.jpg",
+            "width": 640,
+            "height": 691,
+            "alt": "flautim-marrom (Schiffornis turdina)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 52,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Bananaquits.jpg/960px-Bananaquits.jpg",
+            "author": "Leon-bojarczuk - Flickr page",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bananaquits.jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2477630,
+          "scientificName": "Tinamus major",
+          "name": "Inhambu-açu",
+          "family": "Tinamidae",
+          "records": 50,
+          "iucn": "LC",
+          "wikidata": "Q852723",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Tinamus_majorPCSL00504B.jpg",
+            "author": "Patrick Coin (Patrick Coin)",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tinamus_majorPCSL00504B.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Inhambu-açu (Tinamus major)"
+          }
+        },
+        {
+          "gbifKey": 2479856,
+          "scientificName": "Pyrrhura egregia",
+          "name": "Tiriba-de-cauda-roxa",
+          "family": "Psittacidae",
+          "records": 50,
+          "iucn": "LC",
+          "wikidata": "Q221582",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/ConurusEgregiusSmit.jpg/960px-ConurusEgregiusSmit.jpg",
+            "author": "John Gerrard Keulemans",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:ConurusEgregiusSmit.jpg",
+            "width": 640,
+            "height": 1070,
+            "alt": "Tiriba-de-cauda-roxa (Pyrrhura egregia)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 57,
+      "species": [
+        {
+          "gbifKey": 5220775,
+          "scientificName": "Bothrops atrox",
+          "name": "Jararaca-do-norte",
+          "family": "Viperidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q900848",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Fer-de-Lance_%28Bothrops_atrox%29_%2839388290454%29.jpg/960px-Fer-de-Lance_%28Bothrops_atrox%29_%2839388290454%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fer-de-Lance_(Bothrops_atrox)_(39388290454).jpg",
+            "width": 640,
+            "height": 376,
+            "alt": "Jararaca-do-norte (Bothrops atrox)"
+          }
+        },
+        {
+          "gbifKey": 2457289,
+          "scientificName": "Chironius fuscus",
+          "name": "Urupiagara",
+          "family": "Colubridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2963944",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Brown_Sipo_%28Chironius_fuscus%29_%2810511262976%29.jpg/960px-Brown_Sipo_%28Chironius_fuscus%29_%2810511262976%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_Sipo_(Chironius_fuscus)_(10511262976).jpg",
+            "width": 640,
+            "height": 419,
+            "alt": "Urupiagara (Chironius fuscus)"
+          }
+        },
+        {
+          "gbifKey": 5223424,
+          "scientificName": "Dipsas pavonina",
+          "name": "Cobra-caracoleira-do-norte",
+          "family": "Colubridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q3029239",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Northern_Snail-eater_%28Dipsas_pavonina%29_%2814091270646%29.jpg/960px-Northern_Snail-eater_%28Dipsas_pavonina%29_%2814091270646%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northern_Snail-eater_(Dipsas_pavonina)_(14091270646).jpg",
+            "width": 640,
+            "height": 966,
+            "alt": "Cobra-caracoleira-do-norte (Dipsas pavonina)"
+          }
+        },
+        {
+          "gbifKey": 2467712,
+          "scientificName": "Anolis planiceps",
+          "name": null,
+          "family": "Dactyloidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2852141",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Anolis_planiceps.jpg",
+            "author": "Leandro J.C.L. Moraes, Alexandre P. de Almeida, Rafael de Fraga, Rommel R. Zamor",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anolis_planiceps.jpg",
+            "width": 640,
+            "height": 428,
+            "alt": "Anolis planiceps"
+          }
+        },
+        {
+          "gbifKey": 5959405,
+          "scientificName": "Siphlophis compressus",
+          "name": null,
+          "family": "Colubridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q3485181",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Red_Vine_Snake_%28Siphlophis_compressus%29_%2810650691475%29.jpg/960px-Red_Vine_Snake_%28Siphlophis_compressus%29_%2810650691475%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Vine_Snake_(Siphlophis_compressus)_(10650691475).jpg",
+            "width": 640,
+            "height": 417,
+            "alt": "Siphlophis compressus"
+          }
+        },
+        {
+          "gbifKey": 2450490,
+          "scientificName": "Neusticurus rudis",
+          "name": null,
+          "family": "Gymnophthalmidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q5313690",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 303,
+      "species": [
+        {
+          "gbifKey": 2427664,
+          "scientificName": "Tepuihyla rodriguezi",
+          "name": null,
+          "family": "Hylidae",
+          "records": 27,
+          "iucn": "NT",
+          "wikidata": "Q2703560",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tepuihyla_talbergae.jpg/960px-Tepuihyla_talbergae.jpg",
+            "author": "Michael Yoshpa",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tepuihyla_talbergae.jpg",
+            "width": 640,
+            "height": 904,
+            "alt": "Tepuihyla rodriguezi"
+          }
+        },
+        {
+          "gbifKey": 2422512,
+          "scientificName": "Oreophrynella quelchii",
+          "name": null,
+          "family": "Bufonidae",
+          "records": 16,
+          "iucn": "EN",
+          "wikidata": "Q140844",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Oreophrynella_quelchii.jpg",
+            "author": "Charles Besancon",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oreophrynella_quelchii.jpg",
+            "width": 640,
+            "height": 622,
+            "alt": "Oreophrynella quelchii"
+          }
+        },
+        {
+          "gbifKey": 2426224,
+          "scientificName": "Anomaloglossus roraima",
+          "name": null,
+          "family": "Aromobatidae",
+          "records": 10,
+          "iucn": "EN",
+          "wikidata": "Q1187423",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Anomaloglossus_roraima.JPG",
+            "author": "Carlos Felipe Antonorsi",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anomaloglossus_roraima.JPG",
+            "width": 640,
+            "height": 524,
+            "alt": "Anomaloglossus roraima"
+          }
+        },
+        {
+          "gbifKey": 2426213,
+          "scientificName": "Anomaloglossus praderioi",
+          "name": null,
+          "family": "Aromobatidae",
+          "records": 6,
+          "iucn": "EN",
+          "wikidata": "Q2852268",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Anomaloglossus_praderioi_from_Maringma-tepui.jpg",
+            "author": "Philippe Kok",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anomaloglossus_praderioi_from_Maringma-tepui.jpg",
+            "width": 640,
+            "height": 429,
+            "alt": "Anomaloglossus praderioi"
+          }
+        },
+        {
+          "gbifKey": 5217525,
+          "scientificName": "Leptodactylus melanonotus",
+          "name": null,
+          "family": "Leptodactylidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q515686",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Leptodactylus_melanonotus.jpeg",
+            "author": "Vladlen Henríquez",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodactylus_melanonotus.jpeg",
+            "width": 640,
+            "height": 446,
+            "alt": "Leptodactylus melanonotus"
+          }
+        },
+        {
+          "gbifKey": 10781472,
+          "scientificName": "Boana sibleszi",
+          "name": null,
+          "family": "Hylidae",
+          "records": 18,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 1337,
+      "species": [
+        {
+          "gbifKey": 5333448,
+          "scientificName": "Cyrilla racemiflora",
+          "name": "Cyrilla",
+          "family": "Cyrillaceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q140549",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Cyrilla_racemiflora_%E2%80%94_peganum_001.jpg/960px-Cyrilla_racemiflora_%E2%80%94_peganum_001.jpg",
+            "author": "peganum",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyrilla_racemiflora_%E2%80%94_peganum_001.jpg",
+            "width": 640,
+            "height": 857,
+            "alt": "Cyrilla (Cyrilla racemiflora)"
+          }
+        },
+        {
+          "gbifKey": 5566561,
+          "scientificName": "Pterozonium cyclophyllum",
+          "name": null,
+          "family": "Pteridaceae",
+          "records": 20,
+          "iucn": null,
+          "wikidata": "Q15578559",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Pterozonium_spathulatum_Vareschi_nmnhbotany_2144006_NMNH-00142090-000001.jpg/960px-Pterozonium_spathulatum_Vareschi_nmnhbotany_2144006_NMNH-00142090-000001.jpg",
+            "author": "National Museum of Natural History",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pterozonium_spathulatum_Vareschi_nmnhbotany_2144006_NMNH-00142090-000001.jpg",
+            "width": 640,
+            "height": 855,
+            "alt": "Pterozonium cyclophyllum"
+          }
+        },
+        {
+          "gbifKey": 4163908,
+          "scientificName": "Ledothamnus sessiliflorus",
+          "name": null,
+          "family": "Ericaceae",
+          "records": 9,
+          "iucn": null,
+          "wikidata": "Q15385581",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ledothamnus_sessiliflorus_flower.jpg",
+            "author": "Paulo Fassina",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ledothamnus_sessiliflorus_flower.jpg",
+            "width": 640,
+            "height": 960,
+            "alt": "Ledothamnus sessiliflorus"
+          }
+        },
+        {
+          "gbifKey": 4173329,
+          "scientificName": "Bejaria imthurnii",
+          "name": null,
+          "family": "Ericaceae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q1030446",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Roraima_Bejaria_imthurnii2.JPG",
+            "author": "Gérard Vigo",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roraima_Bejaria_imthurnii2.JPG",
+            "width": 640,
+            "height": 960,
+            "alt": "Bejaria imthurnii"
+          }
+        },
+        {
+          "gbifKey": 2692595,
+          "scientificName": "Orectanthe sceptrum",
+          "name": null,
+          "family": "Xyridaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q1030839",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Orectanthe_sceptrum_Roraima.jpg",
+            "author": "ChristianHu at German Wikipedia (Original text: ChristianHu)",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orectanthe_sceptrum_Roraima.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Orectanthe sceptrum"
+          }
+        },
+        {
+          "gbifKey": 2693643,
+          "scientificName": "Connellia augustae",
+          "name": null,
+          "family": "Bromeliaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q1093662",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flor_Connellia_augustae_bromeliaceae.jpg",
+            "author": "Revista de cultura Orbitz",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flor_Connellia_augustae_bromeliaceae.jpg",
+            "width": 640,
+            "height": 759,
+            "alt": "Connellia augustae"
+          }
+        },
+        {
+          "gbifKey": 5287575,
+          "scientificName": "Brocchinia tatei",
+          "name": null,
+          "family": "Bromeliaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q1093356",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Bromelia_brocchinia_tatei.jpg/960px-Bromelia_brocchinia_tatei.jpg",
+            "author": "Adalberto Jose Perez Lopez",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bromelia_brocchinia_tatei.jpg",
+            "width": 640,
+            "height": 361,
+            "alt": "Brocchinia tatei"
+          }
+        },
+        {
+          "gbifKey": 3185061,
+          "scientificName": "Ugni myricoides",
+          "name": null,
+          "family": "Myrtaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15388233",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Ugni_myricoides_2.jpg",
+            "author": "Franz Xaver",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ugni_myricoides_2.jpg",
+            "width": 640,
+            "height": 1011,
+            "alt": "Ugni myricoides"
+          }
+        },
+        {
+          "gbifKey": 3191122,
+          "scientificName": "Drosera roraimae",
+          "name": null,
+          "family": "Droseraceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q1094039",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Roraima_Drosera_roraimae.JPG",
+            "author": "Gérard Vigo",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roraima_Drosera_roraimae.JPG",
+            "width": 640,
+            "height": 960,
+            "alt": "Drosera roraimae"
+          }
+        },
+        {
+          "gbifKey": 7330003,
+          "scientificName": "Bonnetia paniculata",
+          "name": null,
+          "family": "Bonnetiaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q17565286",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Bonnetia_sessilis%2C_Bonnetia_paniculata.jpg",
+            "author": "Carl Friedrich Philipp von Martius (1794-1868), August Wilhelm Eichler (1839-188",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonnetia_sessilis,_Bonnetia_paniculata.jpg",
+            "width": 640,
+            "height": 989,
+            "alt": "Bonnetia paniculata"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2651305,
+      "scientificName": "Hymenophyllum microcarpum",
+      "name": null,
+      "family": "Hymenophyllaceae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q15603894",
+      "photo": null
+    },
+    {
+      "gbifKey": 2422512,
+      "scientificName": "Oreophrynella quelchii",
+      "name": null,
+      "family": "Bufonidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q140844",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Oreophrynella_quelchii.jpg",
+        "author": "Charles Besancon",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oreophrynella_quelchii.jpg",
+        "width": 640,
+        "height": 622,
+        "alt": "Oreophrynella quelchii"
+      }
+    },
+    {
+      "gbifKey": 2426224,
+      "scientificName": "Anomaloglossus roraima",
+      "name": null,
+      "family": "Aromobatidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q1187423",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Anomaloglossus_roraima.JPG",
+        "author": "Carlos Felipe Antonorsi",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anomaloglossus_roraima.JPG",
+        "width": 640,
+        "height": 524,
+        "alt": "Anomaloglossus roraima"
+      }
+    },
+    {
+      "gbifKey": 10828982,
+      "scientificName": "Nesorohyla kanaima",
+      "name": null,
+      "family": "Hylidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": null,
+      "photo": null
+    },
+    {
+      "gbifKey": 7893203,
+      "scientificName": "Pristimantis aureoventris",
+      "name": null,
+      "family": "Craugastoridae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q3404050",
+      "photo": null
+    },
+    {
+      "gbifKey": 2426213,
+      "scientificName": "Anomaloglossus praderioi",
+      "name": null,
+      "family": "Aromobatidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q2852268",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Anomaloglossus_praderioi_from_Maringma-tepui.jpg",
+        "author": "Philippe Kok",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anomaloglossus_praderioi_from_Maringma-tepui.jpg",
+        "width": 640,
+        "height": 429,
+        "alt": "Anomaloglossus praderioi"
+      }
+    },
+    {
+      "gbifKey": 3153746,
+      "scientificName": "Magnolia ptaritepuiana",
+      "name": null,
+      "family": "Magnoliaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q15493942",
+      "photo": null
+    },
+    {
+      "gbifKey": 10844938,
+      "scientificName": "Tepuihyla warreni",
+      "name": null,
+      "family": "Hylidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q28049964",
+      "photo": null
+    },
+    {
+      "gbifKey": 2426210,
+      "scientificName": "Anomaloglossus kaiei",
+      "name": null,
+      "family": "Aromobatidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q4676943",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Colostethus_kaiei.jpg/960px-Colostethus_kaiei.jpg",
+        "author": "Godfrey R. Bourne",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colostethus_kaiei.jpg",
+        "width": 640,
+        "height": 450,
+        "alt": "Anomaloglossus kaiei"
+      }
+    },
+    {
+      "gbifKey": 2490933,
+      "scientificName": "Cichlopsis leucogenys",
+      "name": "Sabiá-castanho",
+      "family": "Turdidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1083124",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/CichlopsisLeucogonysSmit.jpg/960px-CichlopsisLeucogonysSmit.jpg",
+        "author": "Joseph Smit",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CichlopsisLeucogonysSmit.jpg",
+        "width": 640,
+        "height": 767,
+        "alt": "Sabiá-castanho (Cichlopsis leucogenys)"
+      }
+    },
+    {
+      "gbifKey": 2965713,
+      "scientificName": "Dicymbe fraterna",
+      "name": null,
+      "family": "Fabaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q15532711",
+      "photo": null
+    }
+  ]
+}

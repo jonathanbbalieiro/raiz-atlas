@@ -1,0 +1,943 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-32.348%20-3.842%2C-32.367%20-3.791%2C-32.383%20-3.791%2C-32.403%20-3.801%2C-32.403%20-3.828%2C-32.398%20-3.835%2C-32.405%20-3.844%2C-32.402%20-3.850%2C-32.403%20-3.855%2C-32.409%20-3.848%2C-32.417%20-3.852%2C-32.412%20-3.857%2C-32.421%20-3.859%2C-32.428%20-3.867%2C-32.434%20-3.866%2C-32.435%20-3.861%2C-32.440%20-3.861%2C-32.439%20-3.822%2C-32.484%20-3.866%2C-32.484%20-3.877%2C-32.427%20-3.896%2C-32.421%20-3.909%2C-32.385%20-3.916%2C-32.354%20-3.899%2C-32.355%20-3.855%2C-32.348%20-3.842))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 3817,
+      "species": [
+        {
+          "gbifKey": 5220060,
+          "scientificName": "Stenella longirostris",
+          "name": "Golfinho-rotador",
+          "family": "Delphinidae",
+          "records": 3179,
+          "iucn": "LC",
+          "wikidata": "Q649513",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/A_spinner_dolphin_in_the_Red_Sea.jpg/960px-A_spinner_dolphin_in_the_Red_Sea.jpg",
+            "author": "Alexander Vasenin",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_spinner_dolphin_in_the_Red_Sea.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Golfinho-rotador (Stenella longirostris)"
+          }
+        },
+        {
+          "gbifKey": 5220086,
+          "scientificName": "Megaptera novaeangliae",
+          "name": "Baleia-jubarte",
+          "family": "Balaenopteridae",
+          "records": 54,
+          "iucn": "LC",
+          "wikidata": "Q132905",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Humpback_whales_in_singing_position.jpg/960px-Humpback_whales_in_singing_position.jpg",
+            "author": "Dr. Louis M. Herman.",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg",
+            "width": 640,
+            "height": 432,
+            "alt": "baleia-jubarte (Megaptera novaeangliae)"
+          }
+        },
+        {
+          "gbifKey": 2437616,
+          "scientificName": "Kerodon rupestris",
+          "name": "Mocó",
+          "family": "Caviidae",
+          "records": 37,
+          "iucn": "LC",
+          "wikidata": "Q1769116",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg/960px-Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg",
+            "author": "Motorolaz1201",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201(001).jpg",
+            "width": 640,
+            "height": 430,
+            "alt": "mocó (Kerodon rupestris)"
+          }
+        },
+        {
+          "gbifKey": 5220050,
+          "scientificName": "Stenella attenuata",
+          "name": "Golfinho-pintado-pantropical",
+          "family": "Delphinidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q764242",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Schlankdelfin.jpg/960px-Schlankdelfin.jpg",
+            "author": "National Oceanic and Atmospheric Administration",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schlankdelfin.jpg",
+            "width": 640,
+            "height": 419,
+            "alt": "Golfinho-pintado-pantropical (Stenella attenuata)"
+          }
+        },
+        {
+          "gbifKey": 5220045,
+          "scientificName": "Stenella frontalis",
+          "name": "Golfinho-pintado-do-atlântico",
+          "family": "Delphinidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q247990",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Two_dolphins_jump.jpg/960px-Two_dolphins_jump.jpg",
+            "author": "CaptainDarwin",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Two_dolphins_jump.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Golfinho-pintado-do-atlântico (Stenella frontalis)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 3427,
+      "species": [
+        {
+          "gbifKey": 2480972,
+          "scientificName": "Sula sula",
+          "name": "Atobá-de-pé-vermelho",
+          "family": "Sulidae",
+          "records": 397,
+          "iucn": "LC",
+          "wikidata": "Q217122",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sula_sula_by_Gregg_Yan_01.jpg/960px-Sula_sula_by_Gregg_Yan_01.jpg",
+            "author": "Gregg Yan",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sula_sula_by_Gregg_Yan_01.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "atobá-de-pé-vermelho (Sula sula)"
+          }
+        },
+        {
+          "gbifKey": 2480189,
+          "scientificName": "Fregata magnificens",
+          "name": "Fragata-comum",
+          "family": "Fregatidae",
+          "records": 290,
+          "iucn": "LC",
+          "wikidata": "Q647512",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Fregata_magnificens_-Galapagos%2C_Ecuador_-male-8_%281%29.jpg/960px-Fregata_magnificens_-Galapagos%2C_Ecuador_-male-8_%281%29.jpg",
+            "author": "Andrew Turner from Washington, DC, United States",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregata_magnificens_-Galapagos,_Ecuador_-male-8_(1).jpg",
+            "width": 640,
+            "height": 520,
+            "alt": "Fragata-comum (Fregata magnificens)"
+          }
+        },
+        {
+          "gbifKey": 2495358,
+          "scientificName": "Zenaida auriculata",
+          "name": "Avoante",
+          "family": "Columbidae",
+          "records": 289,
+          "iucn": "LC",
+          "wikidata": "Q1006452",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Aruba-Zenaida-auriculata.JPG/960px-Aruba-Zenaida-auriculata.JPG",
+            "author": "Bjørn Christian Tørrissen",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aruba-Zenaida-auriculata.JPG",
+            "width": 640,
+            "height": 484,
+            "alt": "Avoante (Zenaida auriculata)"
+          }
+        },
+        {
+          "gbifKey": 2480975,
+          "scientificName": "Sula leucogaster",
+          "name": "Atobá-pardo",
+          "family": "Sulidae",
+          "records": 279,
+          "iucn": "LC",
+          "wikidata": "Q320193",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Atob%C3%A1-pardo.jpg/960px-Atob%C3%A1-pardo.jpg",
+            "author": "Danilo da Castro",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1-pardo.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "atobá-pardo (Sula leucogaster)"
+          }
+        },
+        {
+          "gbifKey": 2481213,
+          "scientificName": "Gygis alba",
+          "name": "Trinta-réis-branco",
+          "family": "Laridae",
+          "records": 250,
+          "iucn": "LC",
+          "wikidata": "Q248740",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Gygis_alba_Ascension_Island_1.jpg/960px-Gygis_alba_Ascension_Island_1.jpg",
+            "author": "Drew Avery",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gygis_alba_Ascension_Island_1.jpg",
+            "width": 640,
+            "height": 683,
+            "alt": "Trinta-réis-branco (Gygis alba)"
+          }
+        },
+        {
+          "gbifKey": 2481364,
+          "scientificName": "Phaethon lepturus",
+          "name": "Rabo-de-palha-de-bico-laranja",
+          "family": "Phaethontidae",
+          "records": 219,
+          "iucn": "LC",
+          "wikidata": "Q528117",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Phaethon_lepturus%2C_Seychelles.jpg/960px-Phaethon_lepturus%2C_Seychelles.jpg",
+            "author": "Dreizung",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phaethon_lepturus,_Seychelles.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Rabo-de-palha-de-bico-laranja (Phaethon lepturus)"
+          }
+        },
+        {
+          "gbifKey": 2480967,
+          "scientificName": "Sula dactylatra",
+          "name": "Atobá-grande",
+          "family": "Sulidae",
+          "records": 184,
+          "iucn": "LC",
+          "wikidata": "Q602084",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Atob%C3%A1.jpg/960px-Atob%C3%A1.jpg",
+            "author": "Salmeidas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Atobá-grande (Sula dactylatra)"
+          }
+        },
+        {
+          "gbifKey": 2487451,
+          "scientificName": "Vireo gracilirostris",
+          "name": "Sebito",
+          "family": "Vireonidae",
+          "records": 182,
+          "iucn": "VU",
+          "wikidata": "Q628749",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Vireo_gracilirostris_-_Noronha_vireo.jpg/960px-Vireo_gracilirostris_-_Noronha_vireo.jpg",
+            "author": "Marco Cruz",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vireo_gracilirostris_-_Noronha_vireo.jpg",
+            "width": 640,
+            "height": 545,
+            "alt": "sebito (Vireo gracilirostris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 147,
+      "species": [
+        {
+          "gbifKey": 5816294,
+          "scientificName": "Trachylepis atlantica",
+          "name": "Mabuia-de-Noronha",
+          "family": "Scincidae",
+          "records": 69,
+          "iucn": "LC",
+          "wikidata": "Q1938546",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mabuia_Noronha_Skink.jpg/960px-Mabuia_Noronha_Skink.jpg",
+            "author": "Jim Skea",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mabuia_Noronha_Skink.jpg",
+            "width": 640,
+            "height": 424,
+            "alt": "Mabuia-de-Noronha (Trachylepis atlantica)"
+          }
+        },
+        {
+          "gbifKey": 2442225,
+          "scientificName": "Chelonia mydas",
+          "name": "Tartaruga-verde",
+          "family": "Cheloniidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q199458",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "tartaruga-verde (Chelonia mydas)"
+          }
+        },
+        {
+          "gbifKey": 2472904,
+          "scientificName": "Amphisbaena ridleyi",
+          "name": null,
+          "family": "Amphisbaenidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q2711079",
+          "photo": null
+        },
+        {
+          "gbifKey": 8841716,
+          "scientificName": "Eretmochelys imbricata",
+          "name": null,
+          "family": "Cheloniidae",
+          "records": 2,
+          "iucn": "CR",
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 52,
+      "species": [
+        {
+          "gbifKey": 5217952,
+          "scientificName": "Scinax ruber",
+          "name": "Perereca-de-nariz-vermelho",
+          "family": "Hylidae",
+          "records": 16,
+          "iucn": "LC",
+          "wikidata": "Q629033",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Scinax-ruber-Brian-Gratwicke.jpg/960px-Scinax-ruber-Brian-Gratwicke.jpg",
+            "author": "Brian Gratwicke",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scinax-ruber-Brian-Gratwicke.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Perereca-de-nariz-vermelho (Scinax ruber)"
+          }
+        },
+        {
+          "gbifKey": 5216992,
+          "scientificName": "Rhinella diptycha",
+          "name": "Sapo-boi",
+          "family": "Bufonidae",
+          "records": 3,
+          "iucn": "DD",
+          "wikidata": "Q27987572",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Rhinella_diptycha_-_Thomaz_de_Carvalho_Callado_-_601318199.jpeg/960px-Rhinella_diptycha_-_Thomaz_de_Carvalho_Callado_-_601318199.jpeg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhinella_diptycha_-_Thomaz_de_Carvalho_Callado_-_601318199.jpeg",
+            "width": 640,
+            "height": 480,
+            "alt": "Sapo-boi (Rhinella diptycha)"
+          }
+        },
+        {
+          "gbifKey": 2426101,
+          "scientificName": "Adenomera andreae",
+          "name": null,
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q948964",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Adenomera_andreae.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adenomera_andreae.jpg",
+            "width": 640,
+            "height": 406,
+            "alt": "Adenomera andreae"
+          }
+        }
+      ]
+    },
+    {
+      "id": "peixes",
+      "label": "Peixes",
+      "records": 204,
+      "species": [
+        {
+          "gbifKey": 2417495,
+          "scientificName": "Ginglymostoma cirratum",
+          "name": "Tubarão-enfermeiro",
+          "family": "Ginglymostomatidae",
+          "records": 44,
+          "iucn": "VU",
+          "wikidata": "Q756859",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nurse_shark.jpg/960px-Nurse_shark.jpg",
+            "author": "Autor desconhecido",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nurse_shark.jpg",
+            "width": 640,
+            "height": 420,
+            "alt": "tubarão-enfermeiro (Ginglymostoma cirratum)"
+          }
+        },
+        {
+          "gbifKey": 9335213,
+          "scientificName": "Hypanus americanus",
+          "name": "Uge-americana",
+          "family": "Dasyatidae",
+          "records": 23,
+          "iucn": "NT",
+          "wikidata": "Q28927075",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Hypanus_americanus_338802145.jpg",
+            "author": "Pauline Walsh Jacobson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hypanus_americanus_338802145.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Uge-americana (Hypanus americanus)"
+          }
+        },
+        {
+          "gbifKey": 2417919,
+          "scientificName": "Negaprion brevirostris",
+          "name": "Tubarão-limão",
+          "family": "Carcharhinidae",
+          "records": 17,
+          "iucn": "VU",
+          "wikidata": "Q206495",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Lemon_shark2.jpg/960px-Lemon_shark2.jpg",
+            "author": "Albert kok",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lemon_shark2.jpg",
+            "width": 640,
+            "height": 401,
+            "alt": "Tubarão-limão (Negaprion brevirostris)"
+          }
+        },
+        {
+          "gbifKey": 2418059,
+          "scientificName": "Carcharhinus perezii",
+          "name": "Tubarão bico-fino",
+          "family": "Carcharhinidae",
+          "records": 10,
+          "iucn": "EN",
+          "wikidata": "Q592165",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Caribbean_reef_shark.jpg/960px-Caribbean_reef_shark.jpg",
+            "author": "Albert kok",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caribbean_reef_shark.jpg",
+            "width": 640,
+            "height": 399,
+            "alt": "Tubarão bico-fino (Carcharhinus perezii)"
+          }
+        },
+        {
+          "gbifKey": 2418234,
+          "scientificName": "Galeocerdo cuvier",
+          "name": "Tubarão-tigre",
+          "family": "Carcharhinidae",
+          "records": 6,
+          "iucn": "NT",
+          "wikidata": "Q188212",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Scarface-tigershark.jpg",
+            "author": "Autor desconhecido",
+            "license": "CC BY 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scarface-tigershark.jpg",
+            "width": 640,
+            "height": 450,
+            "alt": "Tubarão-tigre (Galeocerdo cuvier)"
+          }
+        },
+        {
+          "gbifKey": 2418064,
+          "scientificName": "Carcharhinus amblyrhynchos",
+          "name": "Tubarão-cinzento-dos-recifes",
+          "family": "Carcharhinidae",
+          "records": 2,
+          "iucn": "EN",
+          "wikidata": "Q163523",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Carcharhinus_amblyrhynchos_1.jpg",
+            "author": "Richard Ling",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carcharhinus_amblyrhynchos_1.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Tubarão-cinzento-dos-recifes (Carcharhinus amblyrhynchos)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "borboletas",
+      "label": "Borboletas e mariposas",
+      "records": 5,
+      "species": [
+        {
+          "gbifKey": 1927996,
+          "scientificName": "Hemiargus hanno",
+          "name": "Borboleta-azulzinha-do-trevo",
+          "family": "Lycaenidae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q3130008",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Hemiargus_hanno_%28square%29.jpg/960px-Hemiargus_hanno_%28square%29.jpg",
+            "author": "Enéas V. Gouvêa Junior",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemiargus_hanno_(square).jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Borboleta-azulzinha-do-trevo (Hemiargus hanno)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 515,
+      "species": [
+        {
+          "gbifKey": 5623310,
+          "scientificName": "Cereus insularis",
+          "name": "Mandacaru-anão",
+          "family": "Cactaceae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q956598",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Cereus_insularis_Hemsley.jpg/960px-Cereus_insularis_Hemsley.jpg",
+            "author": "PierreBraun",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cereus_insularis_Hemsley.jpg",
+            "width": 640,
+            "height": 1081,
+            "alt": "Mandacaru-anão (Cereus insularis)"
+          }
+        },
+        {
+          "gbifKey": 5349685,
+          "scientificName": "Erythrina velutina",
+          "name": "Suinã",
+          "family": "Fabaceae",
+          "records": 17,
+          "iucn": null,
+          "wikidata": "Q2711241",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Erythrina_velutina.jpg/960px-Erythrina_velutina.jpg",
+            "author": "Tatiana Gerus from Brisbane, Australia",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Erythrina_velutina.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Suinã (Erythrina velutina)"
+          }
+        },
+        {
+          "gbifKey": 2894789,
+          "scientificName": "Guettarda platypoda",
+          "name": "Angélica-da-praia",
+          "family": "Rubiaceae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q15459593",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Guettarda_platypoda_-_Flickr_-_Tarciso_Le%C3%A3o_%281%29.jpg/960px-Guettarda_platypoda_-_Flickr_-_Tarciso_Le%C3%A3o_%281%29.jpg",
+            "author": "Tarciso Leão from Saint Paul, MN",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guettarda_platypoda_-_Flickr_-_Tarciso_Le%C3%A3o_(1).jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Angélica-da-praia (Guettarda platypoda)"
+          }
+        },
+        {
+          "gbifKey": 5348711,
+          "scientificName": "Abrus precatorius",
+          "name": "Ervilha do Rosário",
+          "family": "Fabaceae",
+          "records": 11,
+          "iucn": null,
+          "wikidata": "Q190887",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Abrus_precatorius_%28L.%29_Fabaceae_%2821617028808%29.jpg/960px-Abrus_precatorius_%28L.%29_Fabaceae_%2821617028808%29.jpg",
+            "author": "Len Worthington",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abrus_precatorius_(L.)_Fabaceae_(21617028808).jpg",
+            "width": 640,
+            "height": 464,
+            "alt": "Ervilha do Rosário (Abrus precatorius)"
+          }
+        },
+        {
+          "gbifKey": 3873525,
+          "scientificName": "Cynophalla flexuosa",
+          "name": "Feijão-bravo",
+          "family": "Capparaceae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q17235896",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Cynophalla_flexuosa.jpg/960px-Cynophalla_flexuosa.jpg",
+            "author": "Harrison Zender",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cynophalla_flexuosa.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Feijão-bravo (Cynophalla flexuosa)"
+          }
+        },
+        {
+          "gbifKey": 5404991,
+          "scientificName": "Synedrella nodiflora",
+          "name": "Barbatana",
+          "family": "Asteraceae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q3508814",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Synedrella_nodiflora.jpg/960px-Synedrella_nodiflora.jpg",
+            "author": "Tauʻolunga",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Synedrella_nodiflora.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Barbatana (Synedrella nodiflora)"
+          }
+        },
+        {
+          "gbifKey": 4091431,
+          "scientificName": "Tabebuia roseoalba",
+          "name": "Ipê-branco",
+          "family": "Bignoniaceae",
+          "records": 7,
+          "iucn": "NT",
+          "wikidata": "Q15553086",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Tabebuia_roseo-alba_002.jpg/960px-Tabebuia_roseo-alba_002.jpg",
+            "author": "H. Zell",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tabebuia_roseo-alba_002.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Ipê-branco (Tabebuia roseoalba)"
+          }
+        },
+        {
+          "gbifKey": 2887108,
+          "scientificName": "Sideroxylon obtusifolium",
+          "name": "Quixabeira",
+          "family": "Sapotaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q6127445",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/%C3%81rbol_de_Guaranin%C3%A1.JPG/960px-%C3%81rbol_de_Guaranin%C3%A1.JPG",
+            "author": "Pgiscafre",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%81rbol_de_Guaranin%C3%A1.JPG",
+            "width": 640,
+            "height": 956,
+            "alt": "Quixabeira (Sideroxylon obtusifolium)"
+          }
+        },
+        {
+          "gbifKey": 3169482,
+          "scientificName": "Jacquinia armillaris",
+          "name": "Barbasco",
+          "family": "Primulaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15345112",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Mata_Piska_tree_%2830379394414%29.jpg/960px-Mata_Piska_tree_%2830379394414%29.jpg",
+            "author": "-JvL- from Netherlands",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mata_Piska_tree_(30379394414).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "Barbasco (Jacquinia armillaris)"
+          }
+        },
+        {
+          "gbifKey": 3189382,
+          "scientificName": "Laguncularia racemosa",
+          "name": "Mangue-branco",
+          "family": "Combretaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1760533",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Laguncularia_racemosa.jpg",
+            "author": "Ulf Mehlig",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laguncularia_racemosa.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Mangue-branco (Laguncularia racemosa)"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2259487,
+      "scientificName": "Madracis decactis",
+      "name": "Coral-escleractínio",
+      "family": "Pocilloporidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3950645",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Madracis_decactis_%2810.1007-s12526-017-0712-5%29_Figure_7_%28cropped-e%29.png/960px-Madracis_decactis_%2810.1007-s12526-017-0712-5%29_Figure_7_%28cropped-e%29.png",
+        "author": "Hoeksema et al. (2017)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madracis_decactis_(10.1007-s12526-017-0712-5)_Figure_7_(cropped-e).png",
+        "width": 640,
+        "height": 474,
+        "alt": "Coral-escleractínio (Madracis decactis)"
+      }
+    },
+    {
+      "gbifKey": 2260321,
+      "scientificName": "Mussismilia braziliensis",
+      "name": "Coral-cérebro-da-bahia",
+      "family": "Faviidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3939240",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg/960px-Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg",
+        "width": 640,
+        "height": 632,
+        "alt": "Coral-cérebro-da-bahia (Mussismilia braziliensis)"
+      }
+    },
+    {
+      "gbifKey": 2260507,
+      "scientificName": "Agaricia humilis",
+      "name": null,
+      "family": "Agariciidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3947799",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Agaricia_humilis_6980313.jpg/960px-Agaricia_humilis_6980313.jpg",
+        "author": "Ryan McMinds",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agaricia_humilis_6980313.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Agaricia humilis"
+      }
+    },
+    {
+      "gbifKey": 4283692,
+      "scientificName": "Meandrina brasiliensis",
+      "name": "Coral-labirinto-brasileiro",
+      "family": "Meandrinidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q57395661",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Coral_Pedra_de_Iemanj%C3%A1_MN_01.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_Pedra_de_Iemanj%C3%A1_MN_01.jpg",
+        "width": 640,
+        "height": 573,
+        "alt": "Coral-labirinto-brasileiro (Meandrina brasiliensis)"
+      }
+    },
+    {
+      "gbifKey": 9989769,
+      "scientificName": "Mussismilia leptophylla",
+      "name": null,
+      "family": "Faviidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q66926701",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Favia_leptophylla_%28YPM_IZ_009087.CNA%29_001.jpeg/960px-Favia_leptophylla_%28YPM_IZ_009087.CNA%29_001.jpeg",
+        "author": "Eric A. Lazo-Wasem",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Favia_leptophylla_(YPM_IZ_009087.CNA)_001.jpeg",
+        "width": 640,
+        "height": 668,
+        "alt": "Mussismilia leptophylla"
+      }
+    },
+    {
+      "gbifKey": 8841716,
+      "scientificName": "Eretmochelys imbricata",
+      "name": null,
+      "family": "Cheloniidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": null,
+      "photo": null
+    },
+    {
+      "gbifKey": 2398808,
+      "scientificName": "Stegastes rocasensis",
+      "name": null,
+      "family": "Pomacentridae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q1869453",
+      "photo": null
+    },
+    {
+      "gbifKey": 2376725,
+      "scientificName": "Elacatinus phthirophagus",
+      "name": null,
+      "family": "Gobiidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q5690161",
+      "photo": null
+    },
+    {
+      "gbifKey": 10859804,
+      "scientificName": "Malacoctenus lianae",
+      "name": null,
+      "family": "Labrisomidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q116178908",
+      "photo": null
+    },
+    {
+      "gbifKey": 5970217,
+      "scientificName": "Johngarthia lagostoma",
+      "name": "Caranguejo-amarelo",
+      "family": "Gecarcinidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q3182828",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Johngarthia_lagostoma_purple.jpg/960px-Johngarthia_lagostoma_purple.jpg",
+        "author": "Ben Tullis",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johngarthia_lagostoma_purple.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Caranguejo-amarelo (Johngarthia lagostoma)"
+      }
+    },
+    {
+      "gbifKey": 9458465,
+      "scientificName": "Bathygobius brasiliensis",
+      "name": null,
+      "family": "Gobiidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": null,
+      "photo": null
+    },
+    {
+      "gbifKey": 2260320,
+      "scientificName": "Mussismilia harttii",
+      "name": "Coral-couve-flor",
+      "family": "Faviidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q3939017",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Coral-c%C3%A9rebro_MN_02.jpg/960px-Coral-c%C3%A9rebro_MN_02.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral-c%C3%A9rebro_MN_02.jpg",
+        "width": 640,
+        "height": 557,
+        "alt": "coral-couve-flor (Mussismilia harttii)"
+      }
+    }
+  ]
+}

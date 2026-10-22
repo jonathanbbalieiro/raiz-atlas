@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-61.436%20-12.674%2C-61.436%20-12.696%2C-61.340%20-12.695%2C-61.349%20-12.690%2C-61.349%20-12.682%2C-61.341%20-12.682%2C-61.341%20-12.669%2C-61.327%20-12.668%2C-61.327%20-12.666%2C-61.332%20-12.665%2C-61.332%20-12.661%2C-61.327%20-12.660%2C-61.326%20-12.629%2C-61.332%20-12.629%2C-61.333%20-12.578%2C-61.362%20-12.578%2C-61.362%20-12.615%2C-61.358%20-12.615%2C-61.361%20-12.637%2C-61.375%20-12.639%2C-61.375%20-12.647%2C-61.380%20-12.648%2C-61.380%20-12.650%2C-61.420%20-12.654%2C-61.414%20-12.674%2C-61.436%20-12.674))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [],
+  "threatened": []
+}

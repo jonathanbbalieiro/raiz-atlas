@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Não há estrada até a sede: chega-se de barco, descendo 150 km do rio Cuiabá, num Pantanal que passa meses debaixo d'água.",
+  "intro": "Em Mato Grosso, entre os rios Cuiabá e Paraguai, o Parque Nacional do Pantanal Matogrossense protege cerca de 183 mil hectares de planície alagável. Criado em 1981, faz parte de um Patrimônio Mundial da UNESCO e é refúgio de onças-pintadas, ariranhas e cervos-do-pantanal.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-pm",
+    "decreto-12886"
+  ],
+  "protects": {
+    "summary": "A planície que enche e esvazia a cada ano",
+    "items": [
+      {
+        "title": "O pulso das águas",
+        "text": "As chuvas vão de outubro a abril e alagam a planície. A partir de maio as águas baixam, e a fauna fica mais fácil de observar.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      },
+      {
+        "title": "Grandes animais do Pantanal",
+        "text": "A lista oficial de ameaçadas inclui onça-pintada, ariranha, cervo-do-pantanal, tatu-canastra, tamanduá-bandeira e o molusco estilete.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Cerrado e floresta na planície",
+        "text": "A vegetação mistura campos e arbustos do Cerrado com florestas ao longo dos rios e nas terras baixas.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Rios e baías",
+      "text": "O rio Cuiabá atravessa o parque, e a observação de bichos é feita a bordo, pelos rios e baías da planície alagada.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg/1280px-River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
+        "author": "Giovanna Colombi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Rio calmo margeado por mata, com um barco ao longe",
+        "context": "Rio visto do barco dentro do Parque Nacional do Pantanal Matogrossense."
+      }
+    },
+    {
+      "title": "Baía do Burro",
+      "text": "Ali ficam os pousos e dormitórios de aves, um dos atrativos do parque para quem chega de barco.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A sede só é alcançada por rio: 150 km descendo o Cuiabá a partir de Porto Jofre, no fim da Transpantaneira, ou 230 km subindo o Paraguai a partir de Corumbá.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "A visitação ainda é excepcional e exige autorização prévia. Não há hotéis na região: quem vai se hospeda em barcos-hotéis.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "Em 2026, um decreto acrescentou 47.260 hectares ao parque, que passou a ter cerca de 183 mil hectares.",
+      "sourceIds": [
+        "decreto-12886"
+      ]
+    },
+    {
+      "text": "O sítio da UNESCO do qual o parque faz parte, com 187.818 hectares, corresponde a cerca de 1,3% do Pantanal brasileiro.",
+      "sourceIds": [
+        "unesco"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1981 · Nasce o parque",
+      "text": "O Decreto 86.392, de 24 de setembro, cria o Parque Nacional do Pantanal Mato-Grossense.",
+      "sourceIds": [
+        "decreto-86392"
+      ]
+    },
+    {
+      "title": "2000 · Patrimônio Mundial",
+      "text": "O parque passa a integrar a Área de Conservação do Pantanal, inscrita na lista da UNESCO.",
+      "sourceIds": [
+        "unesco"
+      ]
+    },
+    {
+      "title": "2026 · Parque ampliado",
+      "text": "O Decreto 12.886, de 23 de março, amplia o parque para cerca de 183.095 hectares.",
+      "sourceIds": [
+        "decreto-12886"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Está na lista de espécies ameaçadas protegidas pelo parque e tem registros dentro dele.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Onça-pintada (Panthera onca); fotografia da espécie",
+        "context": "Retrato ilustrativo de Panthera onca. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "why": "Em perigo segundo a IUCN, vive nos rios do parque e está na lista oficial de ameaçadas da unidade.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 640,
+        "height": 253,
+        "alt": "Ariranha (Pteronura brasiliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pteronura brasiliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Blastocerus dichotomus",
+      "name": "Cervo-do-pantanal",
+      "why": "Vulnerável segundo a IUCN e protegido pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg/960px-Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marsh_Deer,_Esteros_Del_Ibera,_Corrientes,_Argentina,_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Cervo-do-pantanal (Blastocerus dichotomus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Blastocerus dichotomus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna do Pantanal Matogrossense",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/pantanal/lista-de-ucs/parna-do-pantanal-mato-grossense",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna do Pantanal Matogrossense",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/pantanal/lista-de-ucs/parna-do-pantanal-mato-grossense/informacoes-sobre-visitacao-2013-parna-do-pantanal-matogrossense",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-pm",
+      "institution": "ICMBio",
+      "title": "Unidades de Conservação federais que são patrimônios mundiais pela Unesco",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/patrimonio-mundial",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto-86392",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 86.392, de 24 de setembro de 1981",
+      "url": "https://legis.senado.leg.br/norma/509032",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "decreto-12886",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 12.886, de 23 de março de 2026",
+      "url": "https://legis.senado.leg.br/norma/42927821",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Pantanal Conservation Area",
+      "url": "https://whc.unesco.org/en/list/999/",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

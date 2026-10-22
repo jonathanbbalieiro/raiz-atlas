@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Descobrimento",
+  "title": "A floresta da foz do Cahy e o nome que o povo Pataxó escolheu",
+  "subtitle": "No extremo sul da Bahia, perto de onde a armada de Cabral fundeou em 1500, uma floresta de tabuleiro guarda árvores gigantes e dividiu espaço com uma Terra Indígena. Em 2024, o conselho escolheu um novo nome, em língua Pataxó.",
+  "centralQuestion": "O que significa um parque criado para celebrar um descobrimento, que hoje troca de nome para homenagear quem já estava aqui?",
+  "introduction": [
+    "Há florestas que guardam árvores de 40 metros, e há florestas que guardam também uma chegada histórica. Em Prado, no extremo sul da Bahia, o Parque Nacional do Descobrimento protege mata atlântica sobre tabuleiros costeiros perto da barra do rio Cahy, onde a armada de Pedro Álvares Cabral fundeou em 1500.",
+    "Com cerca de 22,6 mil hectares, o parque abriga gameleiras e jueranas centenárias, aves raras e as aldeias Pataxó que recebem visitantes. Em 2024, o conselho escolheu para ele um novo nome, em patxohã, a língua desse povo: Maturembá, a mata grossa."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/MARCIO_FILHO_PARQUE_NACIONAL_DO_DESCOBRIMENTO_PRADO_BAHIA_%2826207044167%29.jpg/1280px-MARCIO_FILHO_PARQUE_NACIONAL_DO_DESCOBRIMENTO_PRADO_BAHIA_%2826207044167%29.jpg",
+    "alt": "Parque Nacional do Descobrimento, em Prado, na Bahia",
+    "author": "MTur Destinos",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MARCIO_FILHO_PARQUE_NACIONAL_DO_DESCOBRIMENTO_PRADO_BAHIA_(26207044167).jpg",
+    "width": 1280,
+    "height": 853,
+    "context": "Parque Nacional do Descobrimento, em Prado, na Bahia."
+  },
+  "moments": [
+    {
+      "id": "floresta",
+      "eyebrow": "01 · A floresta",
+      "title": "Tabuleiros, árvores de 40 metros e uma Hileia Baiana",
+      "question": "Que floresta o parque protege?",
+      "paragraphs": [
+        "O parque guarda um dos maiores remanescentes de Mata Atlântica sobre tabuleiros costeiros do Brasil, com florestas úmidas e mussunungas, áreas de vegetação sobre areia.",
+        "Gameleiras, jueranas e parajus centenários e bicentenários passam dos 40 metros de altura, e a lista de plantas reúne 229 espécies. A floresta tem tantas semelhanças com a Amazônia que é chamada de Hileia Baiana, testemunho de antigas ligações entre os dois biomas.",
+        "Entre as aves raras estão o mutum-do-sudeste, o papagaio-chauã, o crejoá, o macuco e o gavião-real. Dentro do parque ficam partes das microbacias dos rios Cahy, do Peixe, do Ouro, do Sul, Imbassuaba, Japara Grande e Japara Mirim."
+      ],
+      "sourceIds": [
+        "icmbio-significancia",
+        "icmbio-bio"
+      ],
+      "images": []
+    },
+    {
+      "id": "historia",
+      "eyebrow": "02 · A história",
+      "title": "A foz do Cahy e os 500 anos",
+      "question": "Que lugar da história o parque ocupa?",
+      "paragraphs": [
+        "A armada de Pedro Álvares Cabral fundeou pela primeira vez no Brasil perto da barra do rio Cahy, cujas nascentes estão no parque. O parque foi criado em 1999, nas comemorações dos 500 anos, e no mesmo ano a UNESCO reconheceu as Reservas de Mata Atlântica da Costa do Descobrimento.",
+        "Para visitar, há o Caminho da Lagoa, que termina num deque sobre a lagoa Só Não Vou, com um mirante de 11,5 metros acima da copa das árvores, e as aldeias Pataxó, que recebem visitantes na área compartilhada com a Terra Indígena."
+      ],
+      "sourceIds": [
+        "icmbio-area",
+        "icmbio-atrativos",
+        "unesco"
+      ],
+      "images": []
+    },
+    {
+      "id": "pataxo",
+      "eyebrow": "03 · O povo",
+      "title": "Parque e Terra Indígena",
+      "question": "Como o parque convive com os Pataxó e por que ganhou outro nome?",
+      "paragraphs": [
+        "Quase um quinto do parque é também Terra Indígena Pataxó. De 2015 a 2023, a demarcação da Terra Indígena Comexatibá sobrepôs quase 20% do parque, e um termo de compromisso com seis aldeias Pataxó, de 2018, foi ampliado em 2023. Na área compartilhada, as aldeias recebem visitantes com culinária, awê, artesanato, pintura corporal e produção de farinha.",
+        "Em 2024, depois de uma consulta pública em que 84% pediram a troca do nome, o conselho do parque escolheu Parque Nacional Maturembá. Maturembá significa mata grossa ou densa em patxohã, a língua dos Pataxó. O parque foi o primeiro do país a prever oficialmente a conciliação entre direitos ambientais e indígenas."
+      ],
+      "sourceIds": [
+        "icmbio-area",
+        "icmbio-nome",
+        "icmbio-significancia"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "pataxo",
+    "title": "De 1500 a Maturembá",
+    "intro": "Quatro marcos do parque.",
+    "items": [
+      {
+        "id": "1500",
+        "year": "1500",
+        "title": "A foz do Cahy",
+        "description": "A armada de Cabral fundeia pela primeira vez no Brasil perto da barra do rio Cahy.",
+        "sourceIds": [
+          "icmbio-area"
+        ]
+      },
+      {
+        "id": "1999",
+        "year": "1999",
+        "title": "Nasce o parque",
+        "description": "Em 1999, nas comemorações dos 500 anos, é criado o parque; no mesmo ano, a UNESCO reconhece as reservas da Costa do Descobrimento.",
+        "sourceIds": [
+          "icmbio-area",
+          "unesco"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "2018",
+        "title": "Termo com as aldeias",
+        "description": "Um termo de compromisso com seis aldeias Pataxó é firmado, e ampliado em 2023.",
+        "sourceIds": [
+          "icmbio-area"
+        ]
+      },
+      {
+        "id": "2024",
+        "year": "2024",
+        "title": "Maturembá",
+        "description": "O conselho escolhe um novo nome, em língua Pataxó, depois de consulta pública.",
+        "sourceIds": [
+          "icmbio-nome"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um nome que muda de lado",
+  "closing": "O Descobrimento mostra que um parque pode revisar a própria história. A floresta que viu a chegada dos portugueses é também a casa de um povo que agora dá o nome ao lugar.",
+  "references": [
+    {
+      "id": "icmbio-area",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Área protegida",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/leiaute/area-protegida",
+      "accessedAt": "2026-10-22",
+      "use": "criação, área, Terra Indígena e termo de compromisso"
+    },
+    {
+      "id": "icmbio-significancia",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Parque da Mata Densa",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/leiaute/parque-da-mata-densa-1/",
+      "accessedAt": "2026-10-22",
+      "use": "floresta de tabuleiro e conciliação com direitos indígenas"
+    },
+    {
+      "id": "icmbio-bio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Biodiversidade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/leiaute/biodiversidade-1",
+      "accessedAt": "2026-10-22",
+      "use": "flora, fauna e microbacias"
+    },
+    {
+      "id": "icmbio-nome",
+      "institution": "ICMBio",
+      "title": "Processo de mudança do nome do PND",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/saiba-mais/mudanca-de-nome-do-pnd",
+      "accessedAt": "2026-10-22",
+      "use": "mudança de nome para Maturembá"
+    },
+    {
+      "id": "icmbio-atrativos",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Conheça nossos atrativos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/visite-a-unidade-deconservacao/conheca-nossos-atrativos",
+      "accessedAt": "2026-10-22",
+      "use": "Lagoa Só Não Vou e aldeias Pataxó"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Discovery Coast Atlantic Forest Reserves",
+      "url": "https://whc.unesco.org/en/list/892/",
+      "accessedAt": "2026-10-22",
+      "use": "inscrição das reservas da Costa do Descobrimento, em 1999"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: revisão pelos Pataxó e pela Funai, inclusive grafia de patxohã e a afirmação de pioneirismo."
+}

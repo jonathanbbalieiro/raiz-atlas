@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Os maiores mamíferos da Mata Atlântica fluminense deixaram a serra nas últimas décadas, e o que resta da floresta ainda guarda a falta deles.",
+  "items": [
+    {
+      "kind": "extinta_localmente",
+      "name": "Onça-pintada",
+      "scientificName": "Panthera onca",
+      "when": "sem registros no parque há mais de 50 anos",
+      "text": "O maior felino das Américas circulava pela serra no começo do século XX e hoje é considerado extinto localmente no parque: não foi registrado nos últimos 50 anos, apesar do esforço de amostragem com armadilhas fotográficas e censos. Sem o predador de topo, o equilíbrio entre presas e vegetação muda.",
+      "sourceIds": [
+        "cronemberger2019"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Jaguar_%28Panthera_onca_palustris%29_male_Rio_Negro.JPG/1280px-Jaguar_%28Panthera_onca_palustris%29_male_Rio_Negro.JPG",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jaguar_(Panthera_onca_palustris)_male_Rio_Negro.JPG",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca) no Pantanal; foto ilustrativa da espécie, não do parque",
+        "context": "Onça-pintada (Panthera onca) no Pantanal; foto ilustrativa da espécie, não do parque"
+      }
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Anta",
+      "scientificName": "Tapirus terrestris",
+      "when": "sem registros no parque há mais de 50 anos",
+      "text": "Jardineira da floresta, a anta espalha sementes grandes que poucos outros animais conseguem carregar. Na Serra dos Órgãos ela é tratada como extinta localmente, por não ter sido registrada em meio século de levantamentos.",
+      "sourceIds": [
+        "cronemberger2019"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Brazilian_tapir_zoo.JPG/1280px-Brazilian_tapir_zoo.JPG",
+        "author": "LadyofHats",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brazilian_tapir_zoo.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Anta (Tapirus terrestris) em zoológico; foto ilustrativa da espécie, não do parque",
+        "context": "Anta (Tapirus terrestris) em zoológico; foto ilustrativa da espécie, não do parque"
+      }
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Queixada",
+      "scientificName": "Tayassu pecari",
+      "when": "sem registros no parque há mais de 50 anos",
+      "text": "Os bandos de queixadas, que cruzavam a mata aos grunhidos, também desapareceram do parque. A revisão da lista de mamíferos de 2019 os considera extintos localmente, ao lado da onça e da anta.",
+      "sourceIds": [
+        "cronemberger2019"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Tayassu_pecari_-Brazil-8.jpg/1280px-Tayassu_pecari_-Brazil-8.jpg",
+        "author": "Ana_Cotta",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tayassu_pecari_-Brazil-8.jpg",
+        "width": 1280,
+        "height": 1006,
+        "alt": "Queixada (Tayassu pecari) no Brasil; foto ilustrativa da espécie, não da Serra dos Órgãos",
+        "context": "Queixada (Tayassu pecari) no Brasil; foto ilustrativa da espécie, não da Serra dos Órgãos"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cronemberger2019",
+      "institution": "Oecologia Australis (UFRJ)",
+      "title": "Mamíferos do Parque Nacional da Serra dos Órgãos: atualização da lista de espécies e implicações para a conservação (Cronemberger et al., 2019)",
+      "url": "https://revistas.ufrj.br/index.php/oa/article/view/18818",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

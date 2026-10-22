@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "O sertão dos Gerais que Guimarães Rosa transformou em romance: chapadas de areia, veredas e rios de águas escuras.",
+  "intro": "No noroeste de Minas Gerais, na divisa com a Bahia, o Parque Nacional Grande Sertão Veredas protege cerca de 230 mil hectares de Cerrado. É a paisagem dos Gerais descrita por João Guimarães Rosa, que dá nome ao parque: chapadas arenosas cortadas por veredas e pelos rios Preto e Carinhanha.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visitacao"
+  ],
+  "protects": {
+    "summary": "Os Gerais do Cerrado, suas veredas e os bichos grandes do sertão",
+    "items": [
+      {
+        "title": "Água que brota da chapada",
+        "text": "O arenito Urucuia funciona como uma esponja. As nascentes na borda da chapada formam veredas que alimentam o rio Preto e seus afluentes.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Um Cerrado de areia",
+        "text": "Areias quartzosas cobrem a maior parte do parque. Sobre elas crescem cerrado, campos, carrascos e, nos brejos, as veredas de buriti.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Grandes mamíferos ameaçados",
+        "text": "Lobo-guará, onça-pintada, tatu-canastra, tamanduá-bandeira e cervo-do-pantanal estão na lista de espécies ameaçadas protegidas pelo parque.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Proteção para os Gerais",
+        "text": "Quando o parque foi proposto, não havia nenhuma área protegida nos Gerais, uma região de Cerrado de cerca de 13 milhões de hectares.",
+        "sourceIds": [
+          "pm",
+          "icmbio-visitacao"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Veredas",
+      "text": "Córregos rasos e brejosos ladeados por buritis, que nascem na encosta da chapada. São o cenário que dá nome ao livro e ao parque.",
+      "sourceIds": [
+        "pm",
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Grande_Sert%C3%A3o_Veredas.jpg/1280px-Grande_Sert%C3%A3o_Veredas.jpg",
+        "author": "Vanda Viveiros de Castro",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_Sert%C3%A3o_Veredas.jpg",
+        "width": 1280,
+        "height": 887,
+        "alt": "Uma vereda no Parque Nacional Grande Sertão Veredas",
+        "context": "Uma vereda no Parque Nacional Grande Sertão Veredas, em Formoso (MG)."
+      }
+    },
+    {
+      "title": "Encontro do Preto com o Carinhanha",
+      "text": "As águas límpidas e escuras do rio Preto encontram as águas barrentas do Carinhanha, que marca a divisa entre Minas e Bahia.",
+      "sourceIds": [
+        "pm",
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/P%C3%B4r_do_sol_no_Grande_Sert%C3%A3o_Veredas.jpg/1280px-P%C3%B4r_do_sol_no_Grande_Sert%C3%A3o_Veredas.jpg",
+        "author": "Vitor S Borges",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%B4r_do_sol_no_Grande_Sert%C3%A3o_Veredas.jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Pôr do sol às margens do rio Preto",
+        "context": "Pôr do sol às margens do rio Preto, no Parque Nacional Grande Sertão Veredas."
+      }
+    },
+    {
+      "title": "Mirante Três Irmãos",
+      "text": "O ponto de visita mais perto de Chapada Gaúcha abre a vista sobre os Gerais e chega-se a ele sem carro 4x4.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cachoeira do Mato Grande",
+      "text": "Uma trilha leva à cachoeira do ribeirão Mato Grande, um dos rios que nascem nos terrenos do parque.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A cor escura do rio Preto vem de ácidos orgânicos liberados pela decomposição de plantas nos solos encharcados das margens.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Guimarães Rosa passou pela região no início dos anos 1950. A viagem resultou no romance Grande Sertão: Veredas.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1925, a Coluna Prestes cruzou o Carinhanha, provavelmente pelo porto de Muriçoca, que hoje fica dentro do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A tapera e o cemitério da antiga Fazenda Santa Rita, ligados às histórias do jagunço Antônio Dó, estão em plena área do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As estradas internas são de areia solta e não há sinal de celular: a visita pede carro 4x4 e condutor local.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Início do século XX · Tempo de jagunços",
+      "text": "O sertão ao longo do rio Preto é palco das andanças de Antônio Dó, que se tornou figura da memória regional.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1986 a 1988 · Em busca do lugar",
+      "text": "A Funatura estuda nove áreas nos Gerais e aponta esta, em Minas Gerais, para um parque nacional.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1989 · Nasce o parque",
+      "text": "O Decreto 97.658, de 12 de abril, cria o parque com cerca de 84 mil hectares, em homenagem a Guimarães Rosa.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2004 · O parque triplica",
+      "text": "Um decreto de 21 de maio amplia a área para cerca de 230 mil hectares, chegando a Côcos, na Bahia.",
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visitacao"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "why": "Símbolo do Cerrado, está na lista de espécies ameaçadas protegidas pelo parque e tem registros ali.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/960px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Lobo-guará (Chrysocyon brachyurus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Chrysocyon brachyurus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Vulnerável, vive nos campos e cerrados do parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 640,
+        "height": 433,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla); fotografia da espécie",
+        "context": "Retrato ilustrativo de Myrmecophaga tridactyla. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ozotoceros bezoarticus",
+      "name": "Veado-campeiro",
+      "why": "Veado dos campos abertos, registrado dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Pampas_deer_nursing_fwan.jpg/960px-Pampas_deer_nursing_fwan.jpg",
+        "author": "Scott Presnell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pampas_deer_nursing_fwan.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Veado-campeiro (Ozotoceros bezoarticus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ozotoceros bezoarticus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ara ararauna",
+      "name": "Arara-canindé",
+      "why": "Arara azul e amarela dos buritizais, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/960px-Ara_ararauna_Luc_Viatour.jpg",
+        "author": "Luc Viatour",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg",
+        "width": 640,
+        "height": 494,
+        "alt": "Arara-canindé (Ara ararauna); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ara ararauna. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Grande Sertão Veredas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-grande-sertao-veredas",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna Grande Sertão Veredas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-grande-sertao-veredas/informacoes-sobre-visitacao-parna-grande-sertao-veredas",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "Ibama / Funatura",
+      "title": "Plano de Manejo do Parque Nacional Grande Sertão Veredas (2003)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-grande-sertao-veredas/arquivos/parna_grande_sertao_veredasplanodemanejo.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

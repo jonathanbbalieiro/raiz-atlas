@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Serras de rocha com 1,6 bilhão de anos, onde um rio despenca mais de 340 metros e vira névoa no ar.",
+  "intro": "No centro da Bahia, o Parque Nacional da Chapada Diamantina protege 152 mil hectares da Serra do Sincorá, o braço norte da Serra do Espinhaço. Num mesmo território se encontram Caatinga, Cerrado e Mata Atlântica, com cerca de 300 km de trilhas, 33 cachoeiras e antigos caminhos de garimpeiros.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visitacao"
+  ],
+  "protects": {
+    "summary": "Campos rupestres cheios de espécies que só existem aqui, e três biomas lado a lado",
+    "items": [
+      {
+        "title": "Um jardim sobre a rocha",
+        "text": "Os campos rupestres, vegetação baixa que cresce sobre afloramentos de pedra, cobrem cerca de 65% do parque. Só ali, um levantamento contou 250 espécies de plantas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Espécies de endereço único",
+        "text": "O plano de manejo compilou cerca de 180 espécies endêmicas da região, como sempre-vivas, bromélias e orquídeas que só ocorrem na Chapada Diamantina ou na Serra do Sincorá.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Três biomas no mesmo mapa",
+        "text": "Caatinga, Cerrado e Mata Atlântica convivem no parque, que faz parte das Reservas da Biosfera da Caatinga e da Mata Atlântica.",
+        "sourceIds": [
+          "icmbio-visitacao"
+        ]
+      },
+      {
+        "title": "Bichos raros e ameaçados",
+        "text": "A lista do ICMBio inclui onça-pintada, tatu-canastra, tamanduá-bandeira, guigó-da-caatinga e aves como a tiriba-grande e o joão-baiano.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cachoeira da Fumaça",
+      "text": "O rio da Fumaça cai mais de 340 metros. A trilha de 5 km sai do Vale do Capão e leva ao alto do paredão.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cachoeira_da_Fuma%C3%A7a%2C_Chapada_Diamantina.JPG/1280px-Cachoeira_da_Fuma%C3%A7a%2C_Chapada_Diamantina.JPG",
+        "author": "Jack5599",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_Fuma%C3%A7a,_Chapada_Diamantina.JPG",
+        "width": 1280,
+        "height": 853,
+        "alt": "Cachoeira da Fumaça vista do alto do paredão",
+        "context": "A Cachoeira da Fumaça vista do alto, no Parque Nacional da Chapada Diamantina."
+      }
+    },
+    {
+      "title": "Vale do Pati",
+      "text": "Um vale fundo entre serras, cruzado por travessias de vários dias. É o único lugar do parque onde se dorme na casa de moradores.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Vale_do_Pati_-_Chapada_Diamantina.JPG/1280px-Vale_do_Pati_-_Chapada_Diamantina.JPG",
+        "author": "Jardelsliumba",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_do_Pati_-_Chapada_Diamantina.JPG",
+        "width": 1280,
+        "height": 853,
+        "alt": "Vale do Pati cercado de paredões verdes",
+        "context": "O Vale do Pati, cercado de paredões, no coração do parque."
+      }
+    },
+    {
+      "title": "Marimbus",
+      "text": "Vários rios se espalham numa planície alagada, coberta de plantas aquáticas. É o pantanal da Chapada, percorrido de caiaque e canoa.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vista_do_barco_no_Pantanal_do_Marimbus_na_Chapada_Diamantina%2C_Bahia%2C_Brasil.jpg/1280px-Vista_do_barco_no_Pantanal_do_Marimbus_na_Chapada_Diamantina%2C_Bahia%2C_Brasil.jpg",
+        "author": "Alexandre Magno Teles Zimerer",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_do_barco_no_Pantanal_do_Marimbus_na_Chapada_Diamantina,_Bahia,_Brasil.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Lagoa do Marimbus vista de um barco",
+        "context": "O Marimbus, planície alagada conhecida como o pantanal da Chapada Diamantina."
+      }
+    },
+    {
+      "title": "Cachoeira Encantada",
+      "text": "No sul do parque, em Itaetê, o rio Samina cai cerca de 270 metros. Andorinhas fazem ninho junto à queda.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Em 1844, um garimpeiro reconheceu cascalho com diamante no rio Mucugê. Nas duas décadas seguintes, mais de 50 mil pessoas migraram para a região.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Foi o diamante que deu nome à Chapada Diamantina e fez nascer vilas como Mucugê (1847) e Lençóis (1856).",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Na época do garimpo, famílias inteiras moraram anos em grutas e debaixo de grandes blocos de pedra. As tocas de garimpeiro ainda aparecem nas trilhas.",
+      "sourceIds": [
+        "pm",
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "text": "Os rios do parque guardam 14 peixes endêmicos. Dois deles formam um gênero inteiro, Copionodon, que só vive perto de Lençóis.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As rochas arenosas da trilha da Cachoeira das Andorinhas são da formação Tombador, com cerca de 1,6 bilhão de anos.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "text": "Não há guarita nem bilheteria: o parque tem 38 trilhas de entrada espalhadas por seis municípios, e a visita é gratuita.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1844 · A corrida do diamante",
+      "text": "A descoberta de diamantes no rio Mucugê atrai garimpeiros de todo o país. Rios são desviados e caminhos de pedra são abertos serra adentro.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "Século XIX · A Estrada Velha do Garimpo",
+      "text": "Um caminho calçado liga Lençóis a Andaraí pela floresta. Hoje, 20 de seus 26 km ficam dentro do parque e viram travessia de dois dias.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "title": "1985 · Nasce o parque",
+      "text": "O Decreto 91.655, de 17 de setembro, cria o Parque Nacional da Chapada Diamantina, com cerca de 152 mil hectares.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2009 · Um plano para a serra",
+      "text": "O plano de manejo é aprovado e organiza o uso do parque, onde menos de 2% da área está alterada pela ocupação humana.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Callicebus barbarabrownae",
+      "name": "Guigó-da-caatinga",
+      "why": "Macaco criticamente ameaçado que está na lista de espécies protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Callicebus_barbarabrownae_470575846.jpg",
+        "author": "CaracalShan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Callicebus_barbarabrownae_470575846.jpg",
+        "width": 640,
+        "height": 426,
+        "alt": "Guigó-da-caatinga (Callicebus barbarabrownae); fotografia da espécie",
+        "context": "Retrato ilustrativo de Callicebus barbarabrownae. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Sapajus xanthosternos",
+      "name": "Macaco-prego-do-peito-amarelo",
+      "why": "Ameaçado de extinção, aparece em bandos na trilha da Cachoeira Encantada e representa a Mata Atlântica dentro do parque.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sapajus_xanthosternos_3.JPG/960px-Sapajus_xanthosternos_3.JPG",
+        "author": "Miguelrangeljr",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sapajus_xanthosternos_3.JPG",
+        "width": 640,
+        "height": 480,
+        "alt": "Macaco-prego-do-peito-amarelo (Sapajus xanthosternos); fotografia da espécie",
+        "context": "Retrato ilustrativo de Sapajus xanthosternos. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Augastes lumachella",
+      "name": "Beija-flor-de-gravata-vermelha",
+      "why": "Beija-flor endêmico da Chapada Diamantina, com registros dentro do parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Haeckel_Trochilidae_Augastes_lumachella.jpg/960px-Haeckel_Trochilidae_Augastes_lumachella.jpg",
+        "author": "Autor desconhecido",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haeckel_Trochilidae_Augastes_lumachella.jpg",
+        "width": 640,
+        "height": 499,
+        "alt": "Beija-flor-de-gravata-vermelha (Augastes lumachella); fotografia da espécie",
+        "context": "Retrato ilustrativo de Augastes lumachella. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Formicivora grantsaui",
+      "name": "Papa-formiga-do-sincorá",
+      "why": "Ave vulnerável que leva no nome a Serra do Sincorá, protegida pelo parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Sincora_Antwren._Formicivora_grantsaui.jpg/960px-Sincora_Antwren._Formicivora_grantsaui.jpg",
+        "author": "Rick elis.simpson",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sincora_Antwren._Formicivora_grantsaui.jpg",
+        "width": 640,
+        "height": 406,
+        "alt": "Papa-formiga-do-sincorá (Formicivora grantsaui); fotografia da espécie",
+        "context": "Retrato ilustrativo de Formicivora grantsaui. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Chapada Diamantina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna da Chapada Diamantina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina/informacoes-sobre-visitacao-parna-da-chapada-da-diamantina",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Chapada Diamantina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina/arquivos/plano_de_manejo_parna_chapada_diamantina.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

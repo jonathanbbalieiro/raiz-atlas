@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Na lagoa do Gigante, no sul da Bahia, a terra devolveu os ossos de um habitante de outro tempo.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Preguiça-gigante",
+      "scientificName": "Folivora (gênero não identificado no plano de manejo)",
+      "when": "Pleistoceno, há mais de 10 mil anos (datação não detalhada)",
+      "text": "Parentes gigantes das preguiças atuais, esses herbívoros de vários metros de altura circularam pelo Brasil até o fim da Era do Gelo. Na lagoa do Gigante, dentro do Parque Nacional de Boa Nova, foram coletados fósseis de uma preguiça-gigante. O achado conecta a região a um passado em que a paisagem era habitada por animais hoje desaparecidos.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Plano de Manejo do Parque Nacional e do Refúgio de Vida Silvestre de Boa Nova (2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-boa-nova/arquivos/PM_UCs_BOA_NOVA_aprovado_2024.pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

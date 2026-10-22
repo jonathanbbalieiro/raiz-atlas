@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Chapada dos Guimarães",
+  "title": "As escarpas vermelhas que alimentam o Pantanal",
+  "subtitle": "Perto de Cuiabá, paredões de arenito guardam cachoeiras, ninhos de arara e as cabeceiras de rios que abastecem a cidade e formam o Pantanal.",
+  "centralQuestion": "Por que um planalto de arenito a poucos quilômetros de uma capital é tão importante para a água do Mato Grosso?",
+  "introduction": [
+    "A Chapada dos Guimarães termina de repente: o planalto acaba em escarpas de arenito vermelho, e lá embaixo se abre o vale. De cima, mirantes mostram paredões, ruínas de pedra e veredas; de baixo, uma cachoeira despenca como um véu de noiva.",
+    "A poucos quilômetros de Cuiabá, o parque nacional, criado em 1989, protege cerca de 32,6 mil hectares de Cerrado e as cabeceiras de rios que alimentam o Pantanal e abastecem a capital mato-grossense."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Parque_Nacional_Chapada_dos_Guimar%C3%A3es_-_Cidade_de_Pedra.jpg/1280px-Parque_Nacional_Chapada_dos_Guimar%C3%A3es_-_Cidade_de_Pedra.jpg",
+    "author": "Maíra Arantes Leite Wick",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Chapada_dos_Guimar%C3%A3es_-_Cidade_de_Pedra.jpg",
+    "width": 1280,
+    "height": 853,
+    "alt": "Paredões de arenito ao entardecer sobre um vale",
+    "context": "Entardecer diante dos paredões da Cidade de Pedra."
+  },
+  "moments": [
+    {
+      "id": "escarpa",
+      "eyebrow": "01 · A escarpa",
+      "title": "Paredões, cachoeiras e relevos como ruínas",
+      "question": "O que se vê do alto e do fundo da chapada?",
+      "paragraphs": [
+        "O terreno reúne grandes colinas e penhascos de arenito vermelho. Há formações geológicas de origem desértica e marinha, registro de paisagens muito diferentes das de hoje.",
+        "A Cachoeira Véu de Noiva, formada pelo rio Coxipó, ali chamado Coxipozinho, é a paisagem mais conhecida do parque, com um mirante a cerca de 600 metros de trilha leve da portaria principal. Na Cidade de Pedra, na borda do planalto, mirantes revelam paredões de arenito, relevos que lembram ruínas e veredas lá embaixo.",
+        "O Morro de São Jerônimo, um dos pontos mais altos do parque, tem 850 metros e vista panorâmica; são cerca de 15 quilômetros de trilha, e no caminho há uma cavidade, a Casa de Pedra. No Vale do Rio Claro e na Crista do Galo, poços de água cristalina e um morro-testemunho, sobra do recuo da escarpa do planalto, dão vista de 360 graus do vale."
+      ],
+      "sourceIds": [
+        "icmbio"
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Cachoeira_V%C3%A9u_da_Noiva_-_Chapada_dos_Guimar%C3%A3es_-_MT.jpg",
+          "author": "Claudinez Lacerda",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_V%C3%A9u_da_Noiva_-_Chapada_dos_Guimar%C3%A3es_-_MT.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "Cachoeira em queda livre de um paredão de arenito vermelho",
+          "context": "A cachoeira Véu de Noiva, cartão-postal do Parque Nacional da Chapada dos Guimarães."
+        }
+      ]
+    },
+    {
+      "id": "cerrado",
+      "eyebrow": "02 · O Cerrado",
+      "title": "Dez Cerrados e a água de Cuiabá",
+      "question": "Que vida e que água nascem aqui?",
+      "paragraphs": [
+        "O parque protege dez tipos de vegetação do Cerrado e já registrou 659 espécies de plantas, 44 de peixes, 242 de aves e 76 de mamíferos. Entre os mamíferos ameaçados estão a onça-pintada, o tatu-canastra, o tamanduá-bandeira, a anta, o queixada e o lobo-guará.",
+        "Dentro do parque nascem córregos e rios da bacia do Coxipó, que formam o Pantanal e respondem por grande parte da água que abastece Cuiabá.",
+        "A entrada em todos os atrativos é gratuita, e em alguns, como a Cidade de Pedra, a visita só acontece com condutor autorizado."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita"
+      ],
+      "images": []
+    },
+    {
+      "id": "campanha",
+      "eyebrow": "03 · A campanha",
+      "title": "Um parque para a água e a memória",
+      "question": "Como o parque foi criado e o que protege?",
+      "paragraphs": [
+        "O Decreto nº 97.656, de 12 de abril de 1989, criou o Parque Nacional da Chapada dos Guimarães para proteger amostras significativas dos ecossistemas locais, os recursos naturais e os sítios arqueológicos da região.",
+        "O parque, nos municípios de Cuiabá e Chapada dos Guimarães, tem cerca de 32,6 mil hectares e abre o território à visitação, à educação ambiental e à pesquisa.",
+        "Proteger essa escarpa é proteger a água: as nascentes que descem dali abastecem uma capital e ajudam a manter um dos maiores ambientes alagados do planeta."
+      ],
+      "sourceIds": [
+        "icmbio"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "campanha",
+    "title": "Marcos do parque",
+    "intro": "Dois marcos da unidade.",
+    "items": [
+      {
+        "id": "1989",
+        "year": "1989",
+        "title": "Decreto nº 97.656",
+        "description": "Em 12 de abril, é criado o Parque Nacional da Chapada dos Guimarães.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "hoje",
+        "year": "Hoje",
+        "title": "Visitação com condutor",
+        "description": "Todos os atrativos têm entrada gratuita, e alguns, como a Cidade de Pedra, exigem condutor autorizado.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma escarpa que faz água",
+  "closing": "A Chapada dos Guimarães mostra que um parque pequeno pode ter peso enorme: ele guarda as nascentes que abastecem uma cidade e ajudam a manter um dos maiores ambientes alagados do planeta.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Chapada dos Guimarães",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-guimaraes",
+      "accessedAt": "2026-10-22",
+      "use": "decreto de criação, área, ecossistemas, água e fauna"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna da Chapada dos Guimarães",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-guimaraes/informacoes-sobre-visitacao-parna-chapada-dos-guimaraes/informacoes-sobre-visitacao-parna-chapada-dos-guimaraes",
+      "accessedAt": "2026-10-22",
+      "use": "atrativos e regras de visitação"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: localizar plano de manejo para detalhar vegetação, fauna e história da criação em fonte oficial."
+}

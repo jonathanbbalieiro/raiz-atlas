@@ -1,0 +1,1029 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=MULTIPOLYGON(((-56.684%20-21.029%2C-56.696%20-21.039%2C-56.700%20-21.036%2C-56.694%20-21.026%2C-56.715%20-21.020%2C-56.725%20-21.061%2C-56.722%20-21.082%2C-56.707%20-21.096%2C-56.710%20-21.109%2C-56.693%20-21.117%2C-56.694%20-21.122%2C-56.715%20-21.130%2C-56.716%20-21.119%2C-56.755%20-21.110%2C-56.770%20-21.121%2C-56.746%20-21.129%2C-56.720%20-21.202%2C-56.725%20-21.235%2C-56.740%20-21.238%2C-56.745%20-21.226%2C-56.765%20-21.220%2C-56.774%20-21.223%2C-56.782%20-21.284%2C-56.765%20-21.343%2C-56.770%20-21.357%2C-56.763%20-21.375%2C-56.771%20-21.399%2C-56.765%20-21.417%2C-56.776%20-21.420%2C-56.797%20-21.441%2C-56.769%20-21.458%2C-56.756%20-21.450%2C-56.750%20-21.482%2C-56.757%20-21.498%2C-56.740%20-21.513%2C-56.690%20-21.483%2C-56.698%20-21.459%2C-56.683%20-21.449%2C-56.678%20-21.432%2C-56.699%20-21.415%2C-56.704%20-21.402%2C-56.655%20-21.265%2C-56.630%20-21.245%2C-56.623%20-21.188%2C-56.609%20-21.147%2C-56.612%20-21.121%2C-56.632%20-21.105%2C-56.650%20-21.105%2C-56.658%20-21.095%2C-56.679%20-21.028%2C-56.684%20-21.029))%2C((-56.799%20-20.602%2C-56.795%20-20.589%2C-56.807%20-20.570%2C-56.825%20-20.590%2C-56.837%20-20.588%2C-56.846%20-20.598%2C-56.848%20-20.630%2C-56.857%20-20.629%2C-56.862%20-20.638%2C-56.839%20-20.674%2C-56.850%20-20.690%2C-56.835%20-20.701%2C-56.839%20-20.713%2C-56.828%20-20.736%2C-56.840%20-20.746%2C-56.835%20-20.762%2C-56.816%20-20.761%2C-56.806%20-20.803%2C-56.797%20-20.815%2C-56.780%20-20.814%2C-56.788%20-20.849%2C-56.807%20-20.868%2C-56.793%20-20.873%2C-56.792%20-20.886%2C-56.779%20-20.898%2C-56.786%20-20.916%2C-56.778%20-20.920%2C-56.762%20-20.976%2C-56.751%20-20.970%2C-56.729%20-20.994%2C-56.721%20-20.972%2C-56.708%20-20.974%2C-56.722%20-20.938%2C-56.711%20-20.930%2C-56.703%20-20.933%2C-56.721%20-20.889%2C-56.731%20-20.884%2C-56.719%20-20.869%2C-56.727%20-20.831%2C-56.714%20-20.784%2C-56.740%20-20.791%2C-56.744%20-20.765%2C-56.769%20-20.762%2C-56.776%20-20.750%2C-56.804%20-20.743%2C-56.797%20-20.723%2C-56.779%20-20.709%2C-56.778%20-20.686%2C-56.797%20-20.672%2C-56.799%20-20.602)))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 57,
+      "species": [
+        {
+          "gbifKey": 2433327,
+          "scientificName": "Sturnira lilium",
+          "name": "Morcego-de-Ombros-Amarelos-Pequeno",
+          "family": "Phyllostomidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q1832640",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sturnira_lilium_lostuxtlas2008.jpg",
+            "author": "Tobusaru",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sturnira_lilium_lostuxtlas2008.jpg",
+            "width": 640,
+            "height": 254,
+            "alt": "Morcego-de-Ombros-Amarelos-Pequeno (Sturnira lilium)"
+          }
+        },
+        {
+          "gbifKey": 2433176,
+          "scientificName": "Carollia perspicillata",
+          "name": "Morcego-de-cauda-curta-comum",
+          "family": "Phyllostomidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q302191",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Seba%27s_Short-tailed_Bats_%28Carollia_perspicillata%29_group_roosting_in_old_building_..._%2827616205553%29.jpg/960px-Seba%27s_Short-tailed_Bats_%28Carollia_perspicillata%29_group_roosting_in_old_building_..._%2827616205553%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seba%27s_Short-tailed_Bats_(Carollia_perspicillata)_group_roosting_in_old_building_..._(27616205553).jpg",
+            "width": 640,
+            "height": 413,
+            "alt": "Morcego-de-cauda-curta-comum (Carollia perspicillata)"
+          }
+        },
+        {
+          "gbifKey": 2440898,
+          "scientificName": "Tapirus terrestris",
+          "name": "Anta",
+          "family": "Tapiridae",
+          "records": 6,
+          "iucn": "VU",
+          "wikidata": "Q220271",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Anta (Tapirus terrestris)"
+          }
+        },
+        {
+          "gbifKey": 5218765,
+          "scientificName": "Platyrrhinus lineatus",
+          "name": "Morcego-de-listra-branca",
+          "family": "Phyllostomidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q1833571",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Platyrrhinus_lineatus_456771781.jpg/960px-Platyrrhinus_lineatus_456771781.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Platyrrhinus_lineatus_456771781.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Morcego-de-listra-branca (Platyrrhinus lineatus)"
+          }
+        },
+        {
+          "gbifKey": 2433194,
+          "scientificName": "Glossophaga soricina",
+          "name": "Morcego-beija-flor",
+          "family": "Phyllostomidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q304929",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Palla%27s_long-tongued_bat.jpg/960px-Palla%27s_long-tongued_bat.jpg",
+            "author": "Ryan Somma Visit the author's blog[1]",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palla%27s_long-tongued_bat.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Morcego-beija-flor (Glossophaga soricina)"
+          }
+        },
+        {
+          "gbifKey": 2433270,
+          "scientificName": "Artibeus lituratus",
+          "name": "Morcego-das-frutas",
+          "family": "Phyllostomidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q306460",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Artibeus_lituratus_247969524.jpg/960px-Artibeus_lituratus_247969524.jpg",
+            "author": "Juan Cruzado Cortés",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artibeus_lituratus_247969524.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Morcego-das-frutas (Artibeus lituratus)"
+          }
+        },
+        {
+          "gbifKey": 2433298,
+          "scientificName": "Desmodus rotundus",
+          "name": "Morcego-vampiro-comum",
+          "family": "Phyllostomidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q300981",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Desmodus_rotundus_A_Catenazzi.jpg/960px-Desmodus_rotundus_A_Catenazzi.jpg",
+            "author": "Acatenazzi at English Wikipedia",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Desmodus_rotundus_A_Catenazzi.jpg",
+            "width": 640,
+            "height": 609,
+            "alt": "Morcego-vampiro-comum (Desmodus rotundus)"
+          }
+        },
+        {
+          "gbifKey": 2436346,
+          "scientificName": "Myrmecophaga tridactyla",
+          "name": "Tamanduá-bandeira",
+          "family": "Myrmecophagidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q203033",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+            "author": "Malene Thyssen",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+            "width": 640,
+            "height": 433,
+            "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 5125,
+      "species": [
+        {
+          "gbifKey": 2489770,
+          "scientificName": "Basileuterus culicivorus",
+          "name": "Pula-Pula",
+          "family": "Parulidae",
+          "records": 73,
+          "iucn": "LC",
+          "wikidata": "Q1535791",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Flickr_-_Dario_Sanches_-_PULA-PULA_%28Basileuterus_culicivorus%29_%283%29.jpg/960px-Flickr_-_Dario_Sanches_-_PULA-PULA_%28Basileuterus_culicivorus%29_%283%29.jpg",
+            "author": "Dario Sanches from SÃO PAULO, BRASIL",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Dario_Sanches_-_PULA-PULA_(Basileuterus_culicivorus)_(3).jpg",
+            "width": 640,
+            "height": 493,
+            "alt": "Pula-Pula (Basileuterus culicivorus)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 63,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Turdus_leucomelas.jpg",
+            "author": "Dario Sanches from SÃO PAULO, BRASIL",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turdus_leucomelas.jpg",
+            "width": 640,
+            "height": 462,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
+        },
+        {
+          "gbifKey": 2479817,
+          "scientificName": "Pyrrhura devillei",
+          "name": "Tiriba-fogo",
+          "family": "Psittacidae",
+          "records": 60,
+          "iucn": "LC",
+          "wikidata": "Q1264223",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Pyrrhura_devillei_-_Blaze-winged_Parakeet%3B_Aquidauana%2C_Mato_Grosso_do_Sul%2C_Brazil.jpg/960px-Pyrrhura_devillei_-_Blaze-winged_Parakeet%3B_Aquidauana%2C_Mato_Grosso_do_Sul%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_devillei_-_Blaze-winged_Parakeet;_Aquidauana,_Mato_Grosso_do_Sul,_Brazil.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Tiriba-fogo (Pyrrhura devillei)"
+          }
+        },
+        {
+          "gbifKey": 5959225,
+          "scientificName": "Ara chloropterus",
+          "name": "Arara-vermelha",
+          "family": "Psittacidae",
+          "records": 60,
+          "iucn": "LC",
+          "wikidata": "Q739089",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg/960px-189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+            "author": "Giles Laurent",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:189_Red-and-green_macaw_couple_flying_in_Chapada_dos_Guimar%C3%A3es_National_Park_Photo_by_Giles_Laurent.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Arara-vermelha (Ara chloropterus)"
+          }
+        },
+        {
+          "gbifKey": 2496432,
+          "scientificName": "Piaya cayana",
+          "name": "Alma-de-gato",
+          "family": "Cuculidae",
+          "records": 53,
+          "iucn": "LC",
+          "wikidata": "Q1270495",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Piaya_cayana%2C_Costa_Rica.jpg/960px-Piaya_cayana%2C_Costa_Rica.jpg",
+            "author": "Hobbyfotowiki",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piaya_cayana,_Costa_Rica.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Alma-de-gato (Piaya cayana)"
+          }
+        },
+        {
+          "gbifKey": 2478765,
+          "scientificName": "Ramphastos toco",
+          "name": "Tucano-toco",
+          "family": "Ramphastidae",
+          "records": 52,
+          "iucn": "LC",
+          "wikidata": "Q376038",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+            "author": "Giles Laurent",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Tucano-toco (Ramphastos toco)"
+          }
+        },
+        {
+          "gbifKey": 2496060,
+          "scientificName": "Leptotila verreauxi",
+          "name": "Juriti-pupu",
+          "family": "Columbidae",
+          "records": 52,
+          "iucn": "LC",
+          "wikidata": "Q1066498",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Whitetippeddove.jpg/960px-Whitetippeddove.jpg",
+            "author": "TimWhitehouse at English Wikipedia",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whitetippeddove.jpg",
+            "width": 640,
+            "height": 383,
+            "alt": "Juriti-pupu (Leptotila verreauxi)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 50,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Cathartes_aura_-Mexico-8.jpg/960px-Cathartes_aura_-Mexico-8.jpg",
+            "author": "Andrey from Finland",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cathartes_aura_-Mexico-8.jpg",
+            "width": 640,
+            "height": 457,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 25,
+      "species": [
+        {
+          "gbifKey": 5225712,
+          "scientificName": "Eunectes murinus",
+          "name": "Sucuri-verde",
+          "family": "Boidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q207347",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Eunectes_murinus_%281%29.jpg/960px-Eunectes_murinus_%281%29.jpg",
+            "author": "TimVickers",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eunectes_murinus_(1).jpg",
+            "width": 640,
+            "height": 421,
+            "alt": "Sucuri-verde (Eunectes murinus)"
+          }
+        },
+        {
+          "gbifKey": 2459758,
+          "scientificName": "Stenocercus caducus",
+          "name": null,
+          "family": "Tropiduridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q3498230",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 89,
+      "species": [
+        {
+          "gbifKey": 2423581,
+          "scientificName": "Physalaemus cuvieri",
+          "name": "Foi-não-foi",
+          "family": "Leptodactylidae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q2239237",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Physalaemus_cuvieri02b.jpg",
+            "author": "Diogo B. Provete",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Physalaemus_cuvieri02b.jpg",
+            "width": 640,
+            "height": 458,
+            "alt": "Foi-não-foi (Physalaemus cuvieri)"
+          }
+        },
+        {
+          "gbifKey": 5217858,
+          "scientificName": "Scinax fuscovarius",
+          "name": "Perereca-de-banheiro",
+          "family": "Hylidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q1746375",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Scinax_fuscovarius_-_Monkey_Safari_Tur_-_605346024.jpeg/960px-Scinax_fuscovarius_-_Monkey_Safari_Tur_-_605346024.jpeg",
+            "author": "Monkey Safari Tur",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scinax_fuscovarius_-_Monkey_Safari_Tur_-_605346024.jpeg",
+            "width": 640,
+            "height": 480,
+            "alt": "Perereca-de-banheiro (Scinax fuscovarius)"
+          }
+        },
+        {
+          "gbifKey": 5217593,
+          "scientificName": "Leptodactylus mystaceus",
+          "name": "Rã de bigode",
+          "family": "Leptodactylidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q2212970",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Leptodactylus_mystaceus.jpg",
+            "author": "Ariovaldo Giaretta",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodactylus_mystaceus.jpg",
+            "width": 640,
+            "height": 401,
+            "alt": "Rã de bigode (Leptodactylus mystaceus)"
+          }
+        },
+        {
+          "gbifKey": 5216992,
+          "scientificName": "Rhinella diptycha",
+          "name": "Sapo-boi",
+          "family": "Bufonidae",
+          "records": 3,
+          "iucn": "DD",
+          "wikidata": "Q27987572",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Rhinella_diptycha_-_Thomaz_de_Carvalho_Callado_-_601318199.jpeg/960px-Rhinella_diptycha_-_Thomaz_de_Carvalho_Callado_-_601318199.jpeg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhinella_diptycha_-_Thomaz_de_Carvalho_Callado_-_601318199.jpeg",
+            "width": 640,
+            "height": 480,
+            "alt": "Sapo-boi (Rhinella diptycha)"
+          }
+        },
+        {
+          "gbifKey": 2423528,
+          "scientificName": "Physalaemus nattereri",
+          "name": "Rã-quatro-olhos",
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q27914557",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Physalaemus_nattereri_in_deimatic_behavior.jpg/960px-Physalaemus_nattereri_in_deimatic_behavior.jpg",
+            "author": "Felipe Gomes",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Physalaemus_nattereri_in_deimatic_behavior.jpg",
+            "width": 640,
+            "height": 574,
+            "alt": "Rã-quatro-olhos (Physalaemus nattereri)"
+          }
+        },
+        {
+          "gbifKey": 2428549,
+          "scientificName": "Dendropsophus minutus",
+          "name": "Perereca-pequena",
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2706770",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Dendropsophus_minutus_155352050.jpg/960px-Dendropsophus_minutus_155352050.jpg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendropsophus_minutus_155352050.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Perereca-pequena (Dendropsophus minutus)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "borboletas",
+      "label": "Borboletas e mariposas",
+      "records": 139,
+      "species": [
+        {
+          "gbifKey": 5131957,
+          "scientificName": "Biblis hyperia",
+          "name": "Borboleta-aro-vermelho",
+          "family": "Sesiidae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q2710997",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Biblis_hyperia_MHNT_dos.jpg/960px-Biblis_hyperia_MHNT_dos.jpg",
+            "author": "Didier Descouens",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biblis_hyperia_MHNT_dos.jpg",
+            "width": 640,
+            "height": 527,
+            "alt": "Borboleta-aro-vermelho (Biblis hyperia)"
+          }
+        },
+        {
+          "gbifKey": 1909019,
+          "scientificName": "Diaethria clymena",
+          "name": "Borboleta-oitenta-e-oito",
+          "family": "Nymphalidae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q574645",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Diaethria_clymena_569690638.jpg/960px-Diaethria_clymena_569690638.jpg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diaethria_clymena_569690638.jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Borboleta-oitenta-e-oito (Diaethria clymena)"
+          }
+        },
+        {
+          "gbifKey": 5129481,
+          "scientificName": "Hamadryas februa",
+          "name": "Estaladeira-cinzenta",
+          "family": "Nymphalidae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q3126318",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Hamadryas_februa_2.jpg/960px-Hamadryas_februa_2.jpg",
+            "author": "Anne Toal from US",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamadryas_februa_2.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Estaladeira-cinzenta (Hamadryas februa)"
+          }
+        },
+        {
+          "gbifKey": 5129502,
+          "scientificName": "Hamadryas epinome",
+          "name": "Pororó",
+          "family": "Nymphalidae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q3126317",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Hamadryas_epinome-6.jpg/960px-Hamadryas_epinome-6.jpg",
+            "author": "Alessandra Dalia",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamadryas_epinome-6.jpg",
+            "width": 640,
+            "height": 355,
+            "alt": "Pororó (Hamadryas epinome)"
+          }
+        },
+        {
+          "gbifKey": 1904382,
+          "scientificName": "Smyrna blomfildia",
+          "name": null,
+          "family": "Nymphalidae",
+          "records": 15,
+          "iucn": null,
+          "wikidata": "Q13580018",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Smyrna_blomfildia.jpg/960px-Smyrna_blomfildia.jpg",
+            "author": "Bill Bouton",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smyrna_blomfildia.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Smyrna blomfildia"
+          }
+        },
+        {
+          "gbifKey": 5128475,
+          "scientificName": "Eunica tatila",
+          "name": null,
+          "family": "Nymphalidae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q3060369",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Florida_Purplewing_%28Eunica_tatila%29_%2827713311234%29.jpg/960px-Florida_Purplewing_%28Eunica_tatila%29_%2827713311234%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florida_Purplewing_(Eunica_tatila)_(27713311234).jpg",
+            "width": 640,
+            "height": 458,
+            "alt": "Eunica tatila"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 1781,
+      "species": [
+        {
+          "gbifKey": 2984583,
+          "scientificName": "Maclura tinctoria",
+          "name": "Taiuva",
+          "family": "Moraceae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q168042",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Maclura_tinctoria.jpg",
+            "author": "Karl Friedrich Philipp von Martius (1794 - 1868)",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maclura_tinctoria.jpg",
+            "width": 640,
+            "height": 999,
+            "alt": "Taiuva (Maclura tinctoria)"
+          }
+        },
+        {
+          "gbifKey": 3086337,
+          "scientificName": "Piper aduncum",
+          "name": "Aperta-ruão",
+          "family": "Piperaceae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q3281616",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Piper_aduncum.jpg/960px-Piper_aduncum.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piper_aduncum.jpg",
+            "width": 640,
+            "height": 441,
+            "alt": "Aperta-ruão (Piper aduncum)"
+          }
+        },
+        {
+          "gbifKey": 7271401,
+          "scientificName": "Trichilia catigua",
+          "name": "Catiguá",
+          "family": "Meliaceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q7840660",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Trichilia_affinis_Govindoo.jpg/960px-Trichilia_affinis_Govindoo.jpg",
+            "author": "Govindoo",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichilia_affinis_Govindoo.jpg",
+            "width": 640,
+            "height": 841,
+            "alt": "Catiguá (Trichilia catigua)"
+          }
+        },
+        {
+          "gbifKey": 2902066,
+          "scientificName": "Hamelia patens",
+          "name": "Amélia",
+          "family": "Rubiaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q4919655",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Starr_031108-3166_Hamelia_patens.jpg/960px-Starr_031108-3166_Hamelia_patens.jpg",
+            "author": "Forest &amp; Kim Starr",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_031108-3166_Hamelia_patens.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Amélia (Hamelia patens)"
+          }
+        },
+        {
+          "gbifKey": 7313743,
+          "scientificName": "Aristolochia triangularis",
+          "name": "Mil-homens-do-rio-grande",
+          "family": "Aristolochiaceae",
+          "records": 10,
+          "iucn": null,
+          "wikidata": "Q10329976",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Aristolochia_species%28trangularis%5E%29_-_Flickr_-_gailhampshire.jpg/960px-Aristolochia_species%28trangularis%5E%29_-_Flickr_-_gailhampshire.jpg",
+            "author": "gailhampshire from Cradley, Malvern, U.K",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aristolochia_species(trangularis%5E)_-_Flickr_-_gailhampshire.jpg",
+            "width": 640,
+            "height": 668,
+            "alt": "Mil-homens-do-rio-grande (Aristolochia triangularis)"
+          }
+        },
+        {
+          "gbifKey": 3851727,
+          "scientificName": "Guarea kunthiana",
+          "name": "Canjambo",
+          "family": "Meliaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q10292516",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Guarea_kunthiana.jpg/960px-Guarea_kunthiana.jpg",
+            "author": "Scott Zona",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guarea_kunthiana.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Canjambo (Guarea kunthiana)"
+          }
+        },
+        {
+          "gbifKey": 5420509,
+          "scientificName": "Psidium guineense",
+          "name": "Araçá-do-campo",
+          "family": "Myrtaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q6090472",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Psidium_guineense.jpg",
+            "author": "Alex Popovkin",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Psidium_guineense.jpg",
+            "width": 640,
+            "height": 359,
+            "alt": "Araçá-do-campo (Psidium guineense)"
+          }
+        },
+        {
+          "gbifKey": 5572613,
+          "scientificName": "Ficus adhatodifolia",
+          "name": "Figueira-Purgante",
+          "family": "Moraceae",
+          "records": 9,
+          "iucn": null,
+          "wikidata": "Q15471453",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Caximguba.jpg/960px-Caximguba.jpg",
+            "author": "Unknown authorUnknown author",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caximguba.jpg",
+            "width": 640,
+            "height": 409,
+            "alt": "Figueira-Purgante (Ficus adhatodifolia)"
+          }
+        },
+        {
+          "gbifKey": 2650256,
+          "scientificName": "Anemia phyllitidis",
+          "name": "Avenca-de-Cacho",
+          "family": "Anemiaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q17043120",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Anemia_phyllitidis_%28L.%29_Sw._%2815091238057%29.jpg/960px-Anemia_phyllitidis_%28L.%29_Sw._%2815091238057%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anemia_phyllitidis_(L.)_Sw._(15091238057).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "Avenca-de-Cacho (Anemia phyllitidis)"
+          }
+        },
+        {
+          "gbifKey": 5339445,
+          "scientificName": "Randia armata",
+          "name": "Esporão-de-galo",
+          "family": "Rubiaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q15436074",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Randia_armata.jpg/960px-Randia_armata.jpg",
+            "author": "LittleT889",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Randia_armata.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Esporão-de-galo (Randia armata)"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 7192959,
+      "scientificName": "Loricaria coximensis",
+      "name": null,
+      "family": "Loricariidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q13771286",
+      "photo": null
+    },
+    {
+      "gbifKey": 3833515,
+      "scientificName": "Balfourodendron riedelianum",
+      "name": "Guatambu-branco",
+      "family": "Rutaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q1317847",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Balfourodendron-riedelianum.jpg/960px-Balfourodendron-riedelianum.jpg",
+        "author": "Jorge Vallmitjana",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balfourodendron-riedelianum.jpg",
+        "width": 640,
+        "height": 653,
+        "alt": "guatambu-branco (Balfourodendron riedelianum)"
+      }
+    },
+    {
+      "gbifKey": 7316900,
+      "scientificName": "Aspidosperma polyneuron",
+      "name": "Peroba-comum",
+      "family": "Apocynaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q2719026",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/PALO_ROSA.jpeg",
+        "author": "Ronmisiones",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PALO_ROSA.jpeg",
+        "width": 640,
+        "height": 853,
+        "alt": "Peroba-comum (Aspidosperma polyneuron)"
+      }
+    },
+    {
+      "gbifKey": 7663164,
+      "scientificName": "Pseudobombax pulchellum",
+      "name": null,
+      "family": "Malvaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q17577918",
+      "photo": null
+    },
+    {
+      "gbifKey": 2479359,
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "family": "Psittacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q463154",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 640,
+        "height": 800,
+        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus)"
+      }
+    },
+    {
+      "gbifKey": 2482174,
+      "scientificName": "Crax fasciolata",
+      "name": "Mutum-de-penacho",
+      "family": "Cracidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1267247",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Bare-faced_curassow_%28Crax_fasciolata%29_female_head.JPG/960px-Bare-faced_curassow_%28Crax_fasciolata%29_female_head.JPG",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bare-faced_curassow_(Crax_fasciolata)_female_head.JPG",
+        "width": 640,
+        "height": 530,
+        "alt": "Mutum-de-penacho (Crax fasciolata)"
+      }
+    },
+    {
+      "gbifKey": 6168003,
+      "scientificName": "Trichomycterus dali",
+      "name": null,
+      "family": "Trichomycteridae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q5841212",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_%289%29.jpg/960px-Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_%289%29.jpg",
+        "author": "Paulo Robson de Souza",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_(9).jpg",
+        "width": 640,
+        "height": 428,
+        "alt": "Trichomycterus dali"
+      }
+    },
+    {
+      "gbifKey": 2440898,
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "family": "Tapiridae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q220271",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris)"
+      }
+    },
+    {
+      "gbifKey": 2481721,
+      "scientificName": "Tringa flavipes",
+      "name": "Perna-amarela-pequeno",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q28000",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Lesser_Yellowlegs.jpg/960px-Lesser_Yellowlegs.jpg",
+        "author": "Wwcsig",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lesser_Yellowlegs.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Perna-amarela-pequeno (Tringa flavipes)"
+      }
+    },
+    {
+      "gbifKey": 2480516,
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "family": "Accipitridae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q53745",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/960px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 640,
+        "height": 224,
+        "alt": "Gavião-real (Harpia harpyja)"
+      }
+    },
+    {
+      "gbifKey": 2436346,
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "family": "Myrmecophagidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q203033",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 640,
+        "height": 433,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
+      }
+    },
+    {
+      "gbifKey": 2481756,
+      "scientificName": "Calidris fuscicollis",
+      "name": "Pilrito-de-uropígio-branco",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q599749",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Calidris_fuscicollis.jpg/960px-Calidris_fuscicollis.jpg",
+        "author": "Tim Bowman, USFWS",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calidris_fuscicollis.jpg",
+        "width": 640,
+        "height": 421,
+        "alt": "Pilrito-de-uropígio-branco (Calidris fuscicollis)"
+      }
+    }
+  ]
+}

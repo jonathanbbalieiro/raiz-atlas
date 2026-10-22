@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma floresta de Rondônia protegida em memória do povo Tanaru e de seu último sobrevivente, o Índio do Buraco.",
+  "intro": "No sul de Rondônia, o Parque Nacional Povos Indígenas do Rio Tanaru protege cerca de 7.638 hectares de floresta na transição entre Amazônia e Cerrado. Criado em 2026, tem entre suas finalidades valorizar a memória dos povos indígenas e da resistência indígena.",
+  "sourceIds": [
+    "decreto",
+    "icmbio"
+  ],
+  "protects": {
+    "summary": "Um fragmento de floresta, suas águas e a memória do povo Tanaru",
+    "items": [
+      {
+        "title": "Floresta entre dois biomas",
+        "text": "O parque guarda um remanescente florestal estratégico na zona de transição entre a Amazônia e o Cerrado.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Macacos e onças ameaçados",
+        "text": "O decreto cita o macaco-aranha, o macaco-barrigudo e a onça-pintada entre as espécies ameaçadas que a área deve salvaguardar.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Água do Aquífero Parecis",
+        "text": "A área protege recursos hídricos e zonas de recarga do Sistema Aquífero Parecis.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Um corredor entre terras indígenas",
+        "text": "O parque consolida a ligação ecológica entre as Terras Indígenas Rio Mequéns e Rio Omerê.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Sítios da memória Tanaru",
+      "text": "Sítios arqueológicos, históricos e simbólicos ligados à memória do povo Tanaru estão entre os bens que o parque foi criado para preservar.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O último sobrevivente do povo Tanaru ficou conhecido como Índio do Buraco, pelos buracos que cavava nas cabanas onde vivia.",
+      "sourceIds": [
+        "funai-nota"
+      ]
+    },
+    {
+      "text": "A Funai acompanhou o homem por cerca de 26 anos, protegendo a floresta onde ele vivia sem nunca forçar contato.",
+      "sourceIds": [
+        "funai-nota"
+      ]
+    },
+    {
+      "text": "O subsolo da área também faz parte do parque, segundo o decreto de criação.",
+      "sourceIds": [
+        "decreto"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1996 · Um sobrevivente",
+      "text": "A Funai passa a acompanhar o único sobrevivente conhecido de sua comunidade, que vive isolado na floresta, hoje a Terra Indígena Tanaru.",
+      "sourceIds": [
+        "funai-nota"
+      ]
+    },
+    {
+      "title": "2022 · Fim de um povo",
+      "text": "Em 23 de agosto, a equipe da Funai o encontra em sua rede, dentro da cabana, sem sinais de violência. Ele era o último de seu povo.",
+      "sourceIds": [
+        "funai-nota"
+      ]
+    },
+    {
+      "title": "2026 · Nasce o parque",
+      "text": "O Decreto 13.016, de 10 de junho, cria o parque para proteger a floresta e a memória dos povos indígenas.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Ateles chamek",
+      "name": "Macaco-aranha-de-cara-preta",
+      "why": "Citado no decreto de criação como espécie ameaçada que o parque deve proteger.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ateles_chamek.jpg/1280px-Ateles_chamek.jpg",
+        "author": "Ivan Mlinaric",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_chamek.jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Macaco-aranha-de-cara-preta (Ateles chamek)",
+        "context": "Macaco-aranha-de-cara-preta, Ateles chamek."
+      }
+    },
+    {
+      "scientificName": "Lagothrix lagothricha cana",
+      "name": "Macaco-barrigudo",
+      "why": "Ameaçado, aparece no decreto entre as razões para criar o parque.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/664399233/original.jpg",
+        "author": "marcoseugenio",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/664399233",
+        "width": 2048,
+        "height": 1365,
+        "alt": "Macaco-barrigudo de pelagem cinza apoiado em uma folha de palmeira, olhando para a câmera",
+        "context": "O macaco-barrigudo (Lagothrix), primata de grande porte da floresta amazônica, fotografado em liberdade em Mato Grosso."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Uma das espécies ameaçadas que o parque foi criado para salvaguardar.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Povos Indígenas do Rio Tanaru",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-povos-indigenas-do-rio-tanaru",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República / DOU",
+      "title": "Decreto nº 13.016, de 10 de junho de 2026",
+      "url": "https://in.gov.br/en/web/dou/-/decreto-n-13.016-de-10-de-junho-de-2026-711448101",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "funai-nota",
+      "institution": "Funai",
+      "title": "Nota de pesar: Índio Tanaru",
+      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2022-02/nota-de-pesar-indio-tanaru",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

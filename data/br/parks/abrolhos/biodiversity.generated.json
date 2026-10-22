@@ -1,0 +1,691 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=MULTIPOLYGON(((-38.750%20-17.717%2C-38.750%20-18.151%2C-38.559%20-18.151%2C-38.559%20-17.901%2C-38.750%20-17.717))%2C((-39.090%20-17.484%2C-39.034%20-17.534%2C-38.967%20-17.534%2C-38.967%20-17.467%2C-39.045%20-17.417%2C-39.090%20-17.484)))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 771,
+      "species": [
+        {
+          "gbifKey": 5220086,
+          "scientificName": "Megaptera novaeangliae",
+          "name": "Baleia-jubarte",
+          "family": "Balaenopteridae",
+          "records": 759,
+          "iucn": "LC",
+          "wikidata": "Q132905",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Humpback_whales_in_singing_position.jpg/960px-Humpback_whales_in_singing_position.jpg",
+            "author": "Dr. Louis M. Herman.",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg",
+            "width": 640,
+            "height": 432,
+            "alt": "baleia-jubarte (Megaptera novaeangliae)"
+          }
+        },
+        {
+          "gbifKey": 2440433,
+          "scientificName": "Steno bredanensis",
+          "name": "Golfinho-de-dentes-rugosos",
+          "family": "Delphinidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q838812",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rough_toothed_dolphin.jpg",
+            "author": "Autor desconhecido",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rough_toothed_dolphin.jpg",
+            "width": 640,
+            "height": 419,
+            "alt": "Golfinho-de-dentes-rugosos (Steno bredanensis)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 562,
+      "species": [
+        {
+          "gbifKey": 2480967,
+          "scientificName": "Sula dactylatra",
+          "name": "Atobá-grande",
+          "family": "Sulidae",
+          "records": 146,
+          "iucn": "LC",
+          "wikidata": "Q602084",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Atob%C3%A1.jpg/960px-Atob%C3%A1.jpg",
+            "author": "Salmeidas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Atobá-grande (Sula dactylatra)"
+          }
+        },
+        {
+          "gbifKey": 2480189,
+          "scientificName": "Fregata magnificens",
+          "name": "Fragata-comum",
+          "family": "Fregatidae",
+          "records": 98,
+          "iucn": "LC",
+          "wikidata": "Q647512",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Fregata_magnificens_-Galapagos%2C_Ecuador_-male-8_%281%29.jpg/960px-Fregata_magnificens_-Galapagos%2C_Ecuador_-male-8_%281%29.jpg",
+            "author": "Andrew Turner from Washington, DC, United States",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregata_magnificens_-Galapagos,_Ecuador_-male-8_(1).jpg",
+            "width": 640,
+            "height": 520,
+            "alt": "Fragata-comum (Fregata magnificens)"
+          }
+        },
+        {
+          "gbifKey": 2480975,
+          "scientificName": "Sula leucogaster",
+          "name": "Atobá-pardo",
+          "family": "Sulidae",
+          "records": 93,
+          "iucn": "LC",
+          "wikidata": "Q320193",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Atob%C3%A1-pardo.jpg/960px-Atob%C3%A1-pardo.jpg",
+            "author": "Danilo da Castro",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1-pardo.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "atobá-pardo (Sula leucogaster)"
+          }
+        },
+        {
+          "gbifKey": 2481776,
+          "scientificName": "Arenaria interpres",
+          "name": "Rola-do-mar",
+          "family": "Scolopacidae",
+          "records": 20,
+          "iucn": "NT",
+          "wikidata": "Q26892",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Arenaria_interpres_%28habitus%29.jpg/960px-Arenaria_interpres_%28habitus%29.jpg",
+            "author": "Hans Hillewaert",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arenaria_interpres_(habitus).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Rola-do-mar (Arenaria interpres)"
+          }
+        },
+        {
+          "gbifKey": 2481364,
+          "scientificName": "Phaethon lepturus",
+          "name": "Rabo-de-palha-de-bico-laranja",
+          "family": "Phaethontidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q528117",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Phaethon_lepturus%2C_Seychelles.jpg/960px-Phaethon_lepturus%2C_Seychelles.jpg",
+            "author": "Dreizung",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phaethon_lepturus,_Seychelles.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Rabo-de-palha-de-bico-laranja (Phaethon lepturus)"
+          }
+        },
+        {
+          "gbifKey": 2480295,
+          "scientificName": "Charadrius semipalmatus",
+          "name": "Batuíra-de-bando",
+          "family": "Charadriidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q468009",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Semipalmated_plover_in_Quogue_%2826942%29.jpg/960px-Semipalmated_plover_in_Quogue_%2826942%29.jpg",
+            "author": "Rhododendrites",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Semipalmated_plover_in_Quogue_(26942).jpg",
+            "width": 640,
+            "height": 483,
+            "alt": "Batuíra-de-bando (Charadrius semipalmatus)"
+          }
+        },
+        {
+          "gbifKey": 2481240,
+          "scientificName": "Thalasseus sandvicensis",
+          "name": "Garajau-comum",
+          "family": "Laridae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q27547",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/2020-07-18_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_05.jpg/960px-2020-07-18_Thalasseus_sandvicensis%2C_St_Marys_Island%2C_Northumberland_05.jpg",
+            "author": "MPF",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-07-18_Thalasseus_sandvicensis,_St_Marys_Island,_Northumberland_05.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Garajau-comum (Thalasseus sandvicensis)"
+          }
+        },
+        {
+          "gbifKey": 5229380,
+          "scientificName": "Puffinus puffinus",
+          "name": "Bobo-pequeno",
+          "family": "Procellariidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q208405",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Manx_Shearwater.JPG/960px-Manx_Shearwater.JPG",
+            "author": "Martin Reith",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manx_Shearwater.JPG",
+            "width": 640,
+            "height": 480,
+            "alt": "Bobo-pequeno (Puffinus puffinus)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 114,
+      "species": [
+        {
+          "gbifKey": 5224858,
+          "scientificName": "Tropidurus torquatus",
+          "name": "Tropiduro-comum",
+          "family": "Tropiduridae",
+          "records": 55,
+          "iucn": "LC",
+          "wikidata": "Q3540759",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Tropidurus_torquatus.jpg/960px-Tropidurus_torquatus.jpg",
+            "author": "Gustavo Forreque",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropidurus_torquatus.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Tropiduro-comum (Tropidurus torquatus)"
+          }
+        },
+        {
+          "gbifKey": 2442225,
+          "scientificName": "Chelonia mydas",
+          "name": "Tartaruga-verde",
+          "family": "Cheloniidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q199458",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "tartaruga-verde (Chelonia mydas)"
+          }
+        },
+        {
+          "gbifKey": 8894817,
+          "scientificName": "Caretta caretta",
+          "name": "Tartaruga-comum",
+          "family": "Cheloniidae",
+          "records": 12,
+          "iucn": "VU",
+          "wikidata": "Q192095",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg",
+            "author": "ukanda",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Tartaruga-comum (Caretta caretta)"
+          }
+        },
+        {
+          "gbifKey": 8385559,
+          "scientificName": "Brasiliscincus agilis",
+          "name": "Lagartinho-de-vidro",
+          "family": "Scincidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q2923930",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Brasiliscincus_agilis_-_Gabriel_Jov%C3%AAncio_Ribeiro_-_597998013.jpeg/960px-Brasiliscincus_agilis_-_Gabriel_Jov%C3%AAncio_Ribeiro_-_597998013.jpeg",
+            "author": "Gabriel Jovêncio Ribeiro",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brasiliscincus_agilis_-_Gabriel_Jov%C3%AAncio_Ribeiro_-_597998013.jpeg",
+            "width": 640,
+            "height": 480,
+            "alt": "Lagartinho-de-vidro (Brasiliscincus agilis)"
+          }
+        },
+        {
+          "gbifKey": 8841716,
+          "scientificName": "Eretmochelys imbricata",
+          "name": null,
+          "family": "Cheloniidae",
+          "records": 18,
+          "iucn": "CR",
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "peixes",
+      "label": "Peixes",
+      "records": 67,
+      "species": [
+        {
+          "gbifKey": 9580944,
+          "scientificName": "Hypanus marianae",
+          "name": "Raia-de-olhos-grandes",
+          "family": "Dasyatidae",
+          "records": 38,
+          "iucn": "EN",
+          "wikidata": "Q28927554",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Hypanus_marianae_-_sobral_-_708454613.jpeg/960px-Hypanus_marianae_-_sobral_-_708454613.jpeg",
+            "author": "sobral_",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hypanus_marianae_-_sobral_-_708454613.jpeg",
+            "width": 640,
+            "height": 360,
+            "alt": "Raia-de-olhos-grandes (Hypanus marianae)"
+          }
+        },
+        {
+          "gbifKey": 2418059,
+          "scientificName": "Carcharhinus perezii",
+          "name": "Tubarão bico-fino",
+          "family": "Carcharhinidae",
+          "records": 12,
+          "iucn": "EN",
+          "wikidata": "Q592165",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Caribbean_reef_shark.jpg/960px-Caribbean_reef_shark.jpg",
+            "author": "Albert kok",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caribbean_reef_shark.jpg",
+            "width": 640,
+            "height": 399,
+            "alt": "Tubarão bico-fino (Carcharhinus perezii)"
+          }
+        },
+        {
+          "gbifKey": 2417495,
+          "scientificName": "Ginglymostoma cirratum",
+          "name": "Tubarão-enfermeiro",
+          "family": "Ginglymostomatidae",
+          "records": 3,
+          "iucn": "VU",
+          "wikidata": "Q756859",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Nurse_shark.jpg/960px-Nurse_shark.jpg",
+            "author": "Autor desconhecido",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nurse_shark.jpg",
+            "width": 640,
+            "height": 420,
+            "alt": "tubarão-enfermeiro (Ginglymostoma cirratum)"
+          }
+        },
+        {
+          "gbifKey": 2419231,
+          "scientificName": "Aetobatus narinari",
+          "name": "Raia-pintada",
+          "family": "Myliobatidae",
+          "records": 3,
+          "iucn": "EN",
+          "wikidata": "Q655565",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Spotted_Eagle_Ray_%28Aetobatus_narinari%292.jpg/960px-Spotted_Eagle_Ray_%28Aetobatus_narinari%292.jpg",
+            "author": "john norton",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spotted_Eagle_Ray_(Aetobatus_narinari)2.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Raia-pintada (Aetobatus narinari)"
+          }
+        },
+        {
+          "gbifKey": 2417770,
+          "scientificName": "Narcine brasiliensis",
+          "name": "Arraia Treme-treme",
+          "family": "Narcinidae",
+          "records": 2,
+          "iucn": "NT",
+          "wikidata": "Q4958816",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Narcine_brasiliensis.png/960px-Narcine_brasiliensis.png",
+            "author": "Jacques Burkhardt",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Narcine_brasiliensis.png",
+            "width": 640,
+            "height": 426,
+            "alt": "Arraia Treme-treme (Narcine brasiliensis)"
+          }
+        },
+        {
+          "gbifKey": 2417889,
+          "scientificName": "Rhizoprionodon porosus",
+          "name": "Cação-figuinho",
+          "family": "Carcharhinidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q1729352",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Rhizoprionodon_porosus.JPG",
+            "author": "Tambja",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhizoprionodon_porosus.JPG",
+            "width": 640,
+            "height": 222,
+            "alt": "Cação-figuinho (Rhizoprionodon porosus)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 15,
+      "species": [
+        {
+          "gbifKey": 3084670,
+          "scientificName": "Talinum fruticosum",
+          "name": null,
+          "family": "Talinaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q3276822",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Talinum_crassifolium_2.jpg",
+            "author": "Sphl",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Talinum_crassifolium_2.jpg",
+            "width": 640,
+            "height": 771,
+            "alt": "Talinum fruticosum"
+          }
+        },
+        {
+          "gbifKey": 3084883,
+          "scientificName": "Sesuvium portulacastrum",
+          "name": null,
+          "family": "Aizoaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2472430",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sesuvium_p.jpg",
+            "author": "by Eric Guinther (Marshman at en.wikipedia)",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sesuvium_p.jpg",
+            "width": 640,
+            "height": 531,
+            "alt": "Sesuvium portulacastrum"
+          }
+        },
+        {
+          "gbifKey": 11013835,
+          "scientificName": "Taquara micrantha",
+          "name": null,
+          "family": "Poaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2260321,
+      "scientificName": "Mussismilia braziliensis",
+      "name": "Coral-cérebro-da-bahia",
+      "family": "Faviidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3939240",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg/960px-Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_c%C3%A9rebro_da_Bahia_MN_01.jpg",
+        "width": 640,
+        "height": 632,
+        "alt": "Coral-cérebro-da-bahia (Mussismilia braziliensis)"
+      }
+    },
+    {
+      "gbifKey": 9989769,
+      "scientificName": "Mussismilia leptophylla",
+      "name": null,
+      "family": "Faviidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q66926701",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Favia_leptophylla_%28YPM_IZ_009087.CNA%29_001.jpeg/960px-Favia_leptophylla_%28YPM_IZ_009087.CNA%29_001.jpeg",
+        "author": "Eric A. Lazo-Wasem",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Favia_leptophylla_(YPM_IZ_009087.CNA)_001.jpeg",
+        "width": 640,
+        "height": 668,
+        "alt": "Mussismilia leptophylla"
+      }
+    },
+    {
+      "gbifKey": 2259487,
+      "scientificName": "Madracis decactis",
+      "name": "Coral-escleractínio",
+      "family": "Pocilloporidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3950645",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Madracis_decactis_%2810.1007-s12526-017-0712-5%29_Figure_7_%28cropped-e%29.png/960px-Madracis_decactis_%2810.1007-s12526-017-0712-5%29_Figure_7_%28cropped-e%29.png",
+        "author": "Hoeksema et al. (2017)",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madracis_decactis_(10.1007-s12526-017-0712-5)_Figure_7_(cropped-e).png",
+        "width": 640,
+        "height": 474,
+        "alt": "Coral-escleractínio (Madracis decactis)"
+      }
+    },
+    {
+      "gbifKey": 4283692,
+      "scientificName": "Meandrina brasiliensis",
+      "name": "Coral-labirinto-brasileiro",
+      "family": "Meandrinidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q57395661",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Coral_Pedra_de_Iemanj%C3%A1_MN_01.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_Pedra_de_Iemanj%C3%A1_MN_01.jpg",
+        "width": 640,
+        "height": 573,
+        "alt": "Coral-labirinto-brasileiro (Meandrina brasiliensis)"
+      }
+    },
+    {
+      "gbifKey": 5961738,
+      "scientificName": "Malacoctenus brunoi",
+      "name": null,
+      "family": "Labrisomidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q5564172",
+      "photo": null
+    },
+    {
+      "gbifKey": 2265087,
+      "scientificName": "Millepora nitida",
+      "name": null,
+      "family": "Milleporidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q4010617",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Coral-de-fogo_MN_02.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral-de-fogo_MN_02.jpg",
+        "width": 640,
+        "height": 501,
+        "alt": "Millepora nitida"
+      }
+    },
+    {
+      "gbifKey": 2258895,
+      "scientificName": "Siderastrea siderea",
+      "name": null,
+      "family": "Rhizangiidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3328352",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Massive_Starlet_Coral_%28Siderastrea_siderea%29.jpg/960px-Massive_Starlet_Coral_%28Siderastrea_siderea%29.jpg",
+        "author": "D. Gordon E. Robertson",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Massive_Starlet_Coral_(Siderastrea_siderea).jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Siderastrea siderea"
+      }
+    },
+    {
+      "gbifKey": 8841716,
+      "scientificName": "Eretmochelys imbricata",
+      "name": null,
+      "family": "Cheloniidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": null,
+      "photo": null
+    },
+    {
+      "gbifKey": 2260507,
+      "scientificName": "Agaricia humilis",
+      "name": null,
+      "family": "Agariciidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q3947799",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Agaricia_humilis_6980313.jpg/960px-Agaricia_humilis_6980313.jpg",
+        "author": "Ryan McMinds",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Agaricia_humilis_6980313.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Agaricia humilis"
+      }
+    },
+    {
+      "gbifKey": 2265090,
+      "scientificName": "Millepora braziliensis",
+      "name": null,
+      "family": "Milleporidae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q1864899",
+      "photo": null
+    },
+    {
+      "gbifKey": 2393679,
+      "scientificName": "Scarus trispinosus",
+      "name": null,
+      "family": "Scaridae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q2843760",
+      "photo": null
+    },
+    {
+      "gbifKey": 2260320,
+      "scientificName": "Mussismilia harttii",
+      "name": "Coral-couve-flor",
+      "family": "Faviidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q3939017",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Coral-c%C3%A9rebro_MN_02.jpg/960px-Coral-c%C3%A9rebro_MN_02.jpg",
+        "author": "Dornicke",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral-c%C3%A9rebro_MN_02.jpg",
+        "width": 640,
+        "height": 557,
+        "alt": "coral-couve-flor (Mussismilia harttii)"
+      }
+    }
+  ]
+}

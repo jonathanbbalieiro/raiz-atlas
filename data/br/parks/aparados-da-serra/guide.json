@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Os campos do planalto acabam de repente: ali começa o Itaimbezinho, com paredões de até 700 metros de profundidade.",
+  "intro": "Na divisa entre o Rio Grande do Sul e Santa Catarina, o parque protege o Cânion Itaimbezinho e a Mata Atlântica que desce a Serra Geral. As bordas recortadas fazem parecer que o planalto foi aparado à faca, daí o nome. Criado em 1959, é vizinho e parceiro do Parque Nacional da Serra Geral.",
+  "sourceIds": [
+    "pm",
+    "icmbio-vertice",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "Do campo de altitude à floresta do fundo do cânion",
+    "items": [
+      {
+        "title": "Ecossistemas em degraus",
+        "text": "No alto, campos e florestas de araucária. Na borda, a mata nebular, de árvores baixas e tortas cobertas de musgo. Nas paredes, plantas que vivem na rocha. Lá embaixo, a floresta densa da encosta.",
+        "sourceIds": [
+          "pm",
+          "pm2004"
+        ]
+      },
+      {
+        "title": "Esponjas de água no planalto",
+        "text": "Banhados e turfeiras guardam a chuva e soltam a água aos poucos. Os arroios descem pelos cânions e alimentam as bacias do Mampituba, do Taquari-Antas e do Araranguá.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Refúgio de espécies ameaçadas",
+        "text": "Araucária, xaxim, papagaio-de-peito-roxo, veado-campeiro e lobo-guará estão entre as espécies raras ou ameaçadas que o parque e o vizinho Serra Geral abrigam.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Taipas e caminhos de tropeiros",
+        "text": "O plano de manejo inclui entre os valores do parque sítios históricos como taipas de pedra e antigos caminhos de tropeiros.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cânion Itaimbezinho",
+      "text": "Um vale estreito entre paredões verticais de rocha vulcânica, com até 700 metros de profundidade. A Trilha do Cotovelo, de cerca de 6 km ida e volta, leva a um mirante sobre ele.",
+      "sourceIds": [
+        "icmbio-cotovelo",
+        "sgb"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_02.JPG/1280px-Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_02.JPG",
+        "author": "Germano Roberto Schüür",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_02.JPG",
+        "width": 1280,
+        "height": 853,
+        "alt": "Paredões do Cânion Itaimbezinho com araucárias na borda",
+        "context": "Paredões do Cânion Itaimbezinho com araucárias na borda."
+      }
+    },
+    {
+      "title": "Véu de Noiva e Andorinhas",
+      "text": "Pela Trilha do Vértice, cerca de 1,5 km ida e volta a partir do centro de visitantes, mirantes mostram a Cachoeira das Andorinhas e a Cascata Véu de Noiva caindo pela parede do cânion.",
+      "sourceIds": [
+        "icmbio-vertice"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Cascata_V%C3%A9u_de_Noiva_-_C%C3%A2nion_Itaimbezinho.jpg/1280px-Cascata_V%C3%A9u_de_Noiva_-_C%C3%A2nion_Itaimbezinho.jpg",
+        "author": "Portal dos Canyons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cascata_V%C3%A9u_de_Noiva_-_C%C3%A2nion_Itaimbezinho.jpg",
+        "width": 1280,
+        "height": 867,
+        "alt": "Cascata Véu de Noiva despencando pela parede do Itaimbezinho",
+        "context": "Cascata Véu de Noiva despenca pela parede do Itaimbezinho."
+      }
+    },
+    {
+      "title": "Rio do Boi, por dentro do cânion",
+      "text": "São cerca de 14 km ida e volta, de 7 a 8 horas, pelo leito de pedras do rio do Boi, com guia credenciado obrigatório. No caminho aparecem poços, cachoeiras e taipas de pedra de antigos moradores do vale.",
+      "sourceIds": [
+        "icmbio-rioboi"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Curvas_sinuosas_e_pared%C3%B5es_de_forma%C3%A7%C3%A3o_em_basalto_do_Canyon_Itaimbezinho_e_ao_fundo_o_Rio_do_Boi.jpg/1280px-Curvas_sinuosas_e_pared%C3%B5es_de_forma%C3%A7%C3%A3o_em_basalto_do_Canyon_Itaimbezinho_e_ao_fundo_o_Rio_do_Boi.jpg",
+        "author": "Portal dos Canyons",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curvas_sinuosas_e_pared%C3%B5es_de_forma%C3%A7%C3%A3o_em_basalto_do_Canyon_Itaimbezinho_e_ao_fundo_o_Rio_do_Boi.jpg",
+        "width": 1280,
+        "height": 867,
+        "alt": "Paredões do Itaimbezinho e o leito do rio do Boi ao fundo",
+        "context": "Paredões de rocha vulcânica do Itaimbezinho e, ao fundo, o leito do rio do Boi."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O nome Itaimbezinho vem de palavras indígenas para pedra (ita) e afiada (ai'be).",
+      "sourceIds": [
+        "sgb"
+      ]
+    },
+    {
+      "text": "O decreto de 1959 parava na borda da serra: o interior do próprio Itaimbezinho só entrou no parque em 1972.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As rochas dos paredões são lavas que se derramaram quando a América do Sul se separava da África. Parte da mesma província vulcânica aflora hoje na Namíbia e em Angola.",
+      "sourceIds": [
+        "sgb",
+        "pm"
+      ]
+    },
+    {
+      "text": "De abril a julho, pinhões caem ao longo da Trilha do Cotovelo. Na primavera e no verão, andorinhas e andorinhões migratórios chegam aos Aparados.",
+      "sourceIds": [
+        "icmbio-cotovelo"
+      ]
+    },
+    {
+      "text": "O centro de visitantes abriga uma exposição dedicada ao padre jesuíta e botânico Balduíno Rambo, que nos anos 1950 lutou pela criação do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Anos 1950 · A campanha do padre Rambo",
+      "text": "O botânico Balduíno Rambo passa a década defendendo a proteção do Itaimbezinho, pela paisagem e pela variedade de plantas e animais.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1957 · O primeiro passo gaúcho",
+      "text": "O governo do Rio Grande do Sul declara de utilidade pública 13 mil hectares em São Francisco de Paula, com a intenção de criar um parque.",
+      "sourceIds": [
+        "pm",
+        "pm2004"
+      ]
+    },
+    {
+      "title": "1959 · Nasce o parque nacional",
+      "text": "Um decreto federal cria o Parque Nacional de Aparados da Serra, só com terras do planalto gaúcho.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "1972 · O cânion entra no parque",
+      "text": "Novos limites incorporam terras de Praia Grande, em Santa Catarina, com as escarpas do Itaimbezinho e a floresta da encosta.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2022 · Geoparque Mundial",
+      "text": "A UNESCO reconhece o Geoparque Caminhos dos Cânions do Sul. O Itaimbezinho e o rio do Boi são dois de seus geossítios.",
+      "sourceIds": [
+        "pm",
+        "sgb"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Araucaria angustifolia",
+      "name": "Araucária",
+      "why": "Domina as florestas do planalto e está criticamente ameaçada. O parque espalha pólen e sementes que ajudam a produção de pinhão no entorno.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Arauc%C3%A1rias_verdejantes.jpg/1280px-Arauc%C3%A1rias_verdejantes.jpg",
+        "author": "Catrinah",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arauc%C3%A1rias_verdejantes.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Araucárias sobre o campo",
+        "context": "Araucárias no Parque Nacional de Aparados da Serra."
+      }
+    },
+    {
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "why": "Está entre as aves raras ou ameaçadas que o plano de manejo destaca como razão de ser do parque e do vizinho Serra Geral.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Amazona_vinacea_-_Aline_Fernanda_Antunes_-_627185267.jpeg/1280px-Amazona_vinacea_-_Aline_Fernanda_Antunes_-_627185267.jpeg",
+        "author": "Aline Fernanda Antunes",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazona_vinacea_-_Aline_Fernanda_Antunes_-_627185267.jpeg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Papagaio-de-peito-roxo pousado num galho, em meio à mata",
+        "context": "Papagaio-de-peito-roxo (Amazona vinacea) na Mata Atlântica do sul do Brasil, registrado em Santa Catarina."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo dos Parques Nacionais de Aparados da Serra e da Serra Geral (Portaria nº 1.346/2025)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-geral/arquivos/pm_aparados_versao_para_site_2025abr20_compressed.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm2004",
+      "institution": "IBAMA",
+      "title": "Plano de Manejo dos Parques Nacionais de Aparados da Serra e Serra Geral: resumo executivo (2004)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/anexo/atolegal/61759/2",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-vertice",
+      "institution": "ICMBio",
+      "title": "Trilha do Vértice",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-aparados-da-serra/atrativos/trilha-do-vertice",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-cotovelo",
+      "institution": "ICMBio",
+      "title": "Trilha do Cotovelo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-aparados-da-serra/atrativos/trilha-do-cotovelo",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-rioboi",
+      "institution": "ICMBio",
+      "title": "Trilha do Rio do Boi",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-aparados-da-serra/atrativos/trilha-do-rio-do-boi",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "sgb",
+      "institution": "Serviço Geológico do Brasil",
+      "title": "Sugestão de roteiro geológico e turístico do Geoparque da UNESCO Caminhos dos Cânions do Sul (2024)",
+      "url": "https://sgb.gov.br/documents/d/guest/caminhos_canions_sul",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional de Aparados da Serra",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/158",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Na Ilha do Bananal, entre os braços do Araguaia e do Javaés, há mais de 200 lagos e praias que só aparecem na seca.",
+  "intro": "No Tocantins, o Parque Nacional do Araguaia ocupa parte da Ilha do Bananal, uma planície de sedimentos que alaga com as cheias do Araguaia e do Javaés. Criado em 1959, protege cerca de 555 mil hectares na transição entre a Amazônia e o Cerrado.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Uma ilha fluvial entre dois biomas, cheia de lagos e bichos d'água",
+    "items": [
+      {
+        "title": "Amazônia e Cerrado juntos",
+        "text": "Na faixa de transição entre os dois maiores biomas do país, o parque reúne plantas e animais dos dois, num mosaico de vegetações.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Mais de 200 lagos",
+        "text": "Os lagos internos servem de berçário para peixes e outras espécies aquáticas, repondo populações de espécies comerciais.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Peixes de vida curta",
+        "text": "O parque é importante para manter populações viáveis de peixes temporários, endêmicos da região.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Zona úmida internacional",
+        "text": "Pelos ecossistemas aquáticos de fauna abundante, o parque foi reconhecido como Sítio Ramsar.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Lagos e canais da ilha",
+      "text": "Além do Araguaia e do Javaés, os rios Randitoró, Riozinho e Mercês cortam a ilha, todos perenes e cheios de peixes, tartarugas e jacarés.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Vista_do_Parque_Nacional_do_Araguaia_3.jpg/1280px-Vista_do_Parque_Nacional_do_Araguaia_3.jpg",
+        "author": "Rodrigo José Fernandes",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_do_Parque_Nacional_do_Araguaia_3.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Garça voando sobre um canal de água escura entre a mata, com uma canoa",
+        "context": "Canal no Parque Nacional do Araguaia, com garça em voo."
+      }
+    },
+    {
+      "title": "Praias do Araguaia",
+      "text": "Na seca, o rio baixa e forma praias de areia que estão entre as paisagens mais bonitas do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Rio_Araguaia.JPG/1280px-Rio_Araguaia.JPG",
+        "author": "Marcelo de Sousa Guedes",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Araguaia.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Praias do Araguaia, Araguaia",
+        "context": "Praias do Araguaia. Rio Araguaia"
+      }
+    },
+    {
+      "title": "Mata do Mamão",
+      "text": "No sul do parque, um grande maciço florestal forma uma tipologia de mata única na região, com grande diversidade de plantas e animais.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Em 1876, André Rebouças já propunha um parque nacional na Ilha do Bananal, imaginando vapores como os do Mississippi subindo o Araguaia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O sertanista que chegou à ilha em 1773 a batizou de Santana. O nome Bananal veio depois, por causa dos densos bananais.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1976, viviam no parque de 300 a 400 cervos-do-pantanal, possivelmente a maior concentração da espécie numa área protegida da América Latina.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O plano de manejo descreve a Ilha do Bananal como a maior ilha fluvial quaternária do mundo.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Antes de 1773 · Karajá e Javaé",
+      "text": "A história da ilha se confunde com a dos povos que a habitam. No fim do século XIX, os Javaé viviam no interior da ilha.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1773 · A ilha de Santana",
+      "text": "O sertanista José Pinto Fonseca percebe que a terra cercada pelo Araguaia é uma ilha fluvial.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1959 · Nasce o parque",
+      "text": "O Decreto 47.570, de 31 de dezembro, cria o Parque Nacional do Araguaia.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "title": "2001 · Terra indígena sobreposta",
+      "text": "Uma portaria do Ministério da Justiça declara posse permanente indígena sobre 376.545 hectares do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Blastocerus dichotomus",
+      "name": "Cervo-do-pantanal",
+      "why": "Já teve no parque uma das maiores concentrações conhecidas numa área protegida da América Latina e segue na lista de ameaçadas da unidade.",
+      "sourceIds": [
+        "pm",
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg/960px-Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marsh_Deer,_Esteros_Del_Ibera,_Corrientes,_Argentina,_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Cervo-do-pantanal (Blastocerus dichotomus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Blastocerus dichotomus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "why": "Em perigo, está na lista de ameaçadas da unidade e tem registros dentro do parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 640,
+        "height": 253,
+        "alt": "Ariranha (Pteronura brasiliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pteronura brasiliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Opisthocomus hoazin",
+      "name": "Jacu-cigano",
+      "why": "Ave de beira d'água com muitos registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg/960px-Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoatzin_(Opisthocomus_hoazin)_Rio_Napo.jpg",
+        "width": 640,
+        "height": 960,
+        "alt": "Jacu-cigano (Opisthocomus hoazin); fotografia da espécie",
+        "context": "Retrato ilustrativo de Opisthocomus hoazin. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Araguaia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-do-araguaia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "Ibama",
+      "title": "Plano de Manejo do Parque Nacional do Araguaia, Fase 2 (2001)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-do-araguaia/arquivos/parna_araguaiaaplanodemanejo.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

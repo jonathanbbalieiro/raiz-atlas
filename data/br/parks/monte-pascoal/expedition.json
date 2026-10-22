@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional e Histórico do Monte Pascoal",
+  "title": "O monte redondo, a mata do sul da Bahia e o povo Pataxó",
+  "subtitle": "Um morro de 536 metros foi a primeira terra descrita por Pero Vaz de Caminha. Em volta dele, uma floresta que ainda existe e o território do povo Pataxó.",
+  "centralQuestion": "Como proteger um lugar que marca o início de uma história e, ao mesmo tempo, é casa de quem já vivia ali?",
+  "introduction": [
+    "“Um grande monte, mui alto e redondo.” Foi assim que Pero Vaz de Caminha, na carta ao rei, descreveu a primeira terra avistada pela esquadra de Cabral. O monte é o Monte Pascoal, no extremo sul da Bahia, e ele continua lá, coberto de Mata Atlântica.",
+    "Hoje o parque reúne a história de 1500, uma floresta úmida que vai dos tabuleiros aos manguezais e a aldeia Pataxó de Barra Velha, que recebe visitantes para vivências culturais."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares previstos no decreto de criação, de 1961",
+      "value": "22.500",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "altitude do Monte Pascoal",
+      "value": "536 m",
+      "sourceId": "pm",
+      "locator": "p. 58"
+    },
+    {
+      "label": "espécies de aves na lista anexa ao plano",
+      "value": "176",
+      "sourceId": "pm",
+      "locator": "p. 66"
+    },
+    {
+      "label": "hectares reservados em 1965 em torno de Barra Velha",
+      "value": "≈ 210",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    },
+    {
+      "label": "pessoas Pataxó na aldeia e na área do parque, em estudo de 1977",
+      "value": "599",
+      "sourceId": "pm",
+      "locator": "p. 70"
+    },
+    {
+      "label": "duração da subida e descida do monte, segundo o plano de manejo",
+      "value": "≈ 2 h 30",
+      "sourceId": "pm",
+      "locator": "p. 74"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Tabuleiro",
+      "definition": "Relevo plano, de topo achatado, típico do litoral nordeste; no parque, os tabuleiros têm altitudes constantes em torno de 100 metros e descem aos poucos até o mar.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Mata higrófila sul-baiana",
+      "definition": "Floresta úmida, sempre verde, de vários andares e muitas espécies, que o plano compara à Amazônia em estrutura e aparência; cobre a maior parte do parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Restinga",
+      "definition": "Mata de solo arenoso junto ao mar, com árvores de pouco diâmetro e troncos tortuosos, muitas epífitas e bromélias.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Capoeira",
+      "definition": "Vegetação secundária que cresce onde a mata foi derrubada ou queimada; no parque, tem a embaúba como planta característica.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "monte",
+      "eyebrow": "01 · O monte",
+      "title": "Terra à vista",
+      "question": "Por que esse morro entrou para a história?",
+      "paragraphs": [
+        "Ao fim do dia em que a esquadra avistou terra, Caminha registrou “um grande monte, mui alto e redondo” e, depois, serras mais baixas ao sul, com terra plana e muito arvoredo. O capitão deu ao monte o nome de Monte Pascoal e à terra, o de Terra da Vera Cruz.",
+        "O Monte Pascoal tem 536 metros e marca a passagem entre o relevo de serras e os tabuleiros, planícies de topo achatado a cerca de 100 metros de altitude, que descem devagar até o mar.",
+        "A carta também fala de aves. O ornitólogo Olivério Pinto sugeriu que as “pombas seixas” seriam a pomba-trocal (Columba speciosa) e que as aves pretas de bico branco seriam o japu ou guaxe (Cacicus haemorrhous). Os papagaios vermelhos da carta não aparecem entre as aves registradas no parque em 1977."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 77–78"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 57–58"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 66–67"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Corumbau_-_BA_-_Monte_Pascoal_5.jpg/1280px-Corumbau_-_BA_-_Monte_Pascoal_5.jpg",
+          "author": "Cristina C. Lima",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corumbau_-_BA_-_Monte_Pascoal_5.jpg",
+          "width": 1280,
+          "height": 859,
+          "alt": "O Monte Pascoal ao fundo, visto de uma estrada de terra próxima a Corumbau (BA).",
+          "context": "O Monte Pascoal ao fundo, visto de uma estrada de terra próxima a Corumbau (BA); a foto mostra o monte à distância."
+        }
+      ],
+      "note": {
+        "title": "Aves da carta",
+        "body": "As correspondências entre as aves da carta e as espécies atuais são tentativas citadas no plano de manejo, não identificações certas."
+      }
+    },
+    {
+      "id": "floresta",
+      "eyebrow": "02 · A floresta",
+      "title": "Do mar à mata de tabuleiro",
+      "question": "Que ambientes o parque protege?",
+      "paragraphs": [
+        "A maior parte do parque é coberta pela mata higrófila sul-baiana, uma floresta úmida de vários andares, sempre verde, com árvores gigantes como a maçaranduba, o jatobá, o angelim-amargoso e o jacarandá. Há ainda campos, capoeiras, restingas e manguezais.",
+        "Perto do mar aparece a piaçava, palmeira de porte médio. Na restinga, as árvores são baixas, de troncos tortuosos e carregadas de epífitas. Nos manguezais, de até 15 metros de altura, crescem o mangue-vermelho, a siriba, o mangue-manso e o mangue-branco.",
+        "A fauna vive em boa parte nas copas: papagaios, pica-paus, macacos de cauda preênsil e preguiças. A lista anexa ao plano de manejo registra 176 espécies de aves.",
+        "O jacarandá também conta uma história de perda: o sul da Bahia foi muito explorado pela madeira, e já eram raros ali os exemplares de tamanho comercial. Proteger essa mata é guardar o que sobrou."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 63–65"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 66"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "territorio",
+      "eyebrow": "03 · O território",
+      "title": "Um parque nascido de uma comissão",
+      "question": "Como o parque foi criado e o que mudou em seus limites?",
+      "paragraphs": [
+        "A ideia de proteger o monte nasceu nos anos 1930, numa comissão federal encarregada de determinar o ponto exato do descobrimento do Brasil. Entre suas decisões estavam um marco no ilhéu da Coroa Vermelha, um cruzeiro no lugar da segunda missa e a criação de um parque nacional em torno do Monte Pascoal.",
+        "Em 19 de abril de 1943, o Decreto nº 12.729 criou o Parque Monumento Monte Pascoal, em terras devolutas do estado da Bahia. Em 28 de dezembro de 1960, o governo baiano doou 22.500 hectares à União, e o Decreto nº 242, de 29 de novembro de 1961, criou o Parque Nacional de Monte Pascoal. A área foi reduzida em relação ao parque monumento para deixar de fora propriedades de cacau e café, valorizadas demais para serem indenizadas.",
+        "Em 20 de abril de 2000, o Decreto nº 3.421 deu à unidade o nome de Parque Nacional e Histórico do Monte Pascoal."
+      ],
+      "sourceIds": [
+        "pm",
+        "decreto-3421"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 10"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "decreto-3421",
+          "locator": "art. 1º"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "pataxo",
+      "eyebrow": "04 · O povo",
+      "title": "Barra Velha, aldeia Pataxó",
+      "question": "Qual é o lugar dos Pataxó no parque?",
+      "paragraphs": [
+        "Os Pataxó vivem em torno do Monte Pascoal muito antes de existir parque. Em 1965, uma área de cerca de 210 hectares em torno de Barra Velha foi reservada à população que vivia ali, mas o decreto de criação do parque não mudou, e a ocupação já extrapolava esse limite.",
+        "Um estudo de 1977 contou 599 pessoas Pataxó: 401 na aldeia de Barra Velha e 198 na área do parque. A base da dieta era a farinha de mandioca, e o ciclo da roça começava em junho ou julho, época de poucas chuvas.",
+        "A existência da aldeia ficou conhecida do grande público em 1951, quando um episódio de violência envolvendo a polícia e os Pataxó chegou aos jornais. A aldeia foi atacada e incendiada, e o grupo se dispersou.",
+        "Hoje, a aldeia de Barra Velha faz parte do roteiro cultural do parque, com etnoturismo e vivências conduzidas pela comunidade: um convite para conhecer a floresta pelo olhar de quem vive nela."
+      ],
+      "sourceIds": [
+        "pm",
+        "icmbio-visitacao"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 70"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 85–86"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 3"
+        },
+        {
+          "sourceId": "icmbio-visitacao",
+          "locator": "página de visitação"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "territorio",
+    "title": "Marcos do parque",
+    "intro": "Datas conferidas no plano de manejo e em decreto oficial.",
+    "items": [
+      {
+        "id": "1500",
+        "year": "1500",
+        "title": "Terra à vista",
+        "description": "A carta de Caminha descreve “um grande monte, mui alto e redondo”.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1943",
+        "year": "1943",
+        "title": "Parque Monumento",
+        "description": "O Decreto nº 12.729 cria o Parque Monumento Monte Pascoal.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1961",
+        "year": "1961",
+        "title": "Parque nacional",
+        "description": "O Decreto nº 242, de 29 de novembro, cria o Parque Nacional de Monte Pascoal, com cerca de 22.500 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1965",
+        "year": "1965",
+        "title": "Barra Velha",
+        "description": "Uma área de cerca de 210 hectares é reservada à população Pataxó.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2000",
+        "year": "2000",
+        "title": "Parque Nacional e Histórico",
+        "description": "O Decreto nº 3.421, de 20 de abril, muda o nome do parque.",
+        "sourceIds": [
+          "decreto-3421"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um lugar com mais de uma história",
+  "closing": "O Monte Pascoal guarda a memória de um encontro que mudou o Brasil, uma floresta que ainda existe e um povo que continua ali. Quem sobe a serra ou visita Barra Velha leva as três histórias na bagagem.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "IBDF / ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Monte Pascoal (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-e-historico-do-monte-pascoal/arquivos/parna_monte_pascoal_pmplano1.pdf",
+      "use": "histórico, limites, vegetação, fauna, Pataxó e visitação; páginas conforme a numeração do PDF",
+      "accessedAt": "2026-10-22"
+    },
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional e Histórico do Monte Pascoal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-e-historico-do-monte-pascoal",
+      "use": "página institucional do parque",
+      "accessedAt": "2026-10-22"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna e Histórico do Monte Pascoal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-e-historico-do-monte-pascoal/informacoes-sobre-visitacao-parna-e-historico-do-monte-pascoal",
+      "use": "roteiro cultural e etnoturismo em Barra Velha",
+      "accessedAt": "2026-10-22"
+    },
+    {
+      "id": "decreto-3421",
+      "institution": "Senado Federal",
+      "title": "Decreto nº 3.421, de 20 de abril de 2000",
+      "url": "https://legis.senado.leg.br/norma/400704",
+      "use": "nova denominação do parque",
+      "accessedAt": "2026-10-22"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: revisão do texto sobre os Pataxó (Barra Velha, grafia e linguagem do episódio de 1951) por lideranças Pataxó e pela Funai antes da aprovação. Plano de manejo antigo (IBDF): conferir nomes e situação de ameaça das espécies com o ICMBio."
+}

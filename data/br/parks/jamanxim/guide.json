@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Única unidade de conservação sobre a BR-163, uma ponte de floresta viva entre o Tapajós e o Xingu.",
+  "intro": "No sudoeste do Pará, entre Itaituba e Trairão, o Parque Nacional do Jamanxim protege cerca de 863 mil hectares de floresta cortados pela rodovia Cuiabá-Santarém. Criado por decreto de 13 de fevereiro de 2006, foi pensado para frear os impactos da estrada e manter ligados os dois lados da floresta.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Um corredor de floresta, rios encachoeirados e macacos que só existem ali",
+    "items": [
+      {
+        "title": "Um corredor entre Tapajós e Xingu",
+        "text": "O parque liga os blocos de áreas protegidas a leste e a oeste da BR-163. Por ele passam animais, sementes e genes que, sem a floresta, ficariam isolados.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Primatas de distribuição restrita",
+        "text": "O souim-branco vive só entre os rios Tapajós, Cupari e Jamanxim. O cuamba, só entre Tapajós, Xingu e Teles Pires. Os dois estão ameaçados.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Rios e piracema",
+        "text": "Jamanxim, Aruri, Carapuça, Tocantinzinho e Branco abrigam a reprodução de pintado, pescada, tucunaré e pacu, peixes que sustentam comunidades de toda a bacia do Tapajós.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Plantas que vivem na rocha",
+        "text": "Em platôs de serra com afloramentos rochosos crescem mandacarus e bromélias-da-serra, ambientes com grande chance de abrigar espécies raras, ainda pouco estudadas.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Corredeiras do Portão do Inferno",
+      "text": "No rio Jamanxim, o principal afluente do Tapajós, as formações rochosas criam corredeiras dentro do parque. Rio abaixo delas, parte do curso é navegável.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cachoeiras da Fumaça e do Espelho",
+      "text": "Nos rios Aruri e Jamanxim, quedas d’água entre formações rochosas compõem a beleza cênica do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Saleiros",
+      "text": "Em certas margens de rio, o solo é rico em sais. Antas, catetos e queixadas, todos vulneráveis, são atraídos até ali para se alimentar.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Tabuleiros de quelônios",
+      "text": "Nos bancos de areia dos rios, tartarugas desovam e os filhotes nascem, um espetáculo apontado entre as experiências do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A doninha-amazônica, um dos mamíferos mais raros e desconhecidos da América do Sul, tem registro na região do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O gavião-tesoura está registrado no parque. Populações da espécie na América do Norte migram para a Amazônia durante o inverno de lá.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O MMA classifica a área como prioridade de conservação \"extremamente alta\", tanto pela importância biológica quanto pela urgência de ação.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Moradores relatam cerâmicas, urnas funerárias e machadinhas indígenas às margens do Jamanxim, do Aruri e do Tocantinzinho, mas poucos sítios foram registrados no IPHAN.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Anos 1970 · A estrada chega",
+      "text": "A BR-163 é aberta pelo Programa de Integração Nacional e traz migrantes de vários estados para as margens da rodovia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2006 · Um parque no Plano BR-163 Sustentável",
+      "text": "O decreto de 13 de fevereiro cria o parque no ordenamento territorial da Cuiabá-Santarém, para equilibrar a proteção com um distrito florestal vizinho.",
+      "sourceIds": [
+        "icmbio",
+        "decreto",
+        "pm"
+      ]
+    },
+    {
+      "title": "2017 · Novos limites",
+      "text": "A Lei 13.452 exclui cerca de 862 hectares do parque, áreas destinadas à ferrovia EF-170 e à BR-163. A lei consta como objeto da ADI 6553 no STF.",
+      "sourceIds": [
+        "lei13452",
+        "pm"
+      ]
+    },
+    {
+      "title": "2021 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo, que elege como valores fundamentais a paisagem, o corredor ecológico, os rios e os sítios arqueológicos.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Ateles marginatus",
+      "name": "Cuamba (macaco-aranha-de-cara-branca)",
+      "why": "Em perigo e restrito ao miolo entre Tapajós, Xingu e Teles Pires, depende da floresta contínua que o parque mantém.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/White-whiskered_spider_monkey_%28Ateles_marginatus%29_male_Cristalino.jpg/1280px-White-whiskered_spider_monkey_%28Ateles_marginatus%29_male_Cristalino.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:White-whiskered_spider_monkey_(Ateles_marginatus)_male_Cristalino.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Macaco-aranha-de-cara-branca",
+        "context": "Macho de macaco-aranha-de-cara-branca no Cristalino, sul da Amazônia."
+      }
+    },
+    {
+      "scientificName": "Mico leucippe",
+      "name": "Souim-branco",
+      "why": "Vulnerável, este sagui só ocorre entre os rios Tapajós, Cupari e Jamanxim, com alguns registros mais ao sul.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/White_marmoset_Mico_leucippe.png",
+        "author": "Stephen Nash",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_marmoset_Mico_leucippe.png",
+        "width": 640,
+        "height": 1328,
+        "alt": "Souim-branco (Mico leucippe); fotografia da espécie",
+        "context": "Retrato ilustrativo de Mico leucippe. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Guaruba guarouba",
+      "name": "Ararajuba",
+      "why": "Vulnerável, está entre as aves cujo trânsito pelo corredor do parque ajuda a manter o fluxo genético.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/706177489/original.jpg",
+        "author": "John Bruin",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/706177489",
+        "width": 2048,
+        "height": 1366,
+        "alt": "Casal de ararajubas amarelas pousado num galho, na região de Itaituba, Pará",
+        "context": "Ararajubas fotografadas em liberdade em Itaituba (PA), no oeste paraense onde a espécie ainda ocorre."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Jamanxim",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jamanxim",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Jamanxim (2021)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jamanxim/arquivos/plano_de_manejo_pn_jamanxim_versao_V_13.12.2021.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 13 de fevereiro de 2006 (cria o Parque Nacional do Jamanxim)",
+      "url": "https://legis.senado.leg.br/norma/569260/publicacao/15728290",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "lei13452",
+      "institution": "Presidência da República",
+      "title": "Lei 13.452/2017 (altera os limites do Parque Nacional do Jamanxim)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13452.htm",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

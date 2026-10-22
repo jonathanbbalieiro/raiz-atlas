@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional das Emas",
+  "title": "Os campos onde o Cerrado acende luzes",
+  "subtitle": "No sudoeste de Goiás, chapadões de campo aberto escondem lobos-guará, tamanduás-bandeira e, em certas noites, cupinzeiros que brilham. É também o lugar onde nascem rios de três bacias.",
+  "centralQuestion": "O que um campo aparentemente vazio guarda, de dia e de noite?",
+  "introduction": [
+    "A primeira impressão das Emas é de espaço. Chapadões planos, a cerca de 800 metros de altitude, estendem-se em campo limpo e campo sujo, com veredas e matas ciliares, e o céu ocupa quase tudo. Aqui o lobo-guará cruza a estrada, o tamanduá-bandeira passeia entre cupinzeiros e as emas, de fato, correm soltas.",
+    "Criado em 1961, o Parque Nacional das Emas tem cerca de 132 mil hectares e é Patrimônio Mundial da UNESCO, junto com a Chapada dos Veadeiros. E guarda um espetáculo à parte: em certas noites, os cupinzeiros se acendem de verde."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Parque-Nacional-das-Emas_%27campo_Limpo.png/1280px-Parque-Nacional-das-Emas_%27campo_Limpo.png",
+    "author": "Joellsky",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque-Nacional-das-Emas_%27campo_Limpo.png",
+    "width": 1280,
+    "height": 720,
+    "alt": "Campo limpo plano sob um céu amplo",
+    "context": "Campo limpo, uma das paisagens abertas do Parque Nacional das Emas."
+  },
+  "moments": [
+    {
+      "id": "campo",
+      "eyebrow": "01 · O campo",
+      "title": "Chapadões abertos e bichos grandes",
+      "question": "Quem vive num Cerrado sem árvores altas?",
+      "paragraphs": [
+        "O parque está num dos extremos da Serra dos Caiapós, em topografia plana de chapadões. Em campo aberto, o visitante comum avista ema, tamanduá-bandeira, veados, anta e cachorro-do-mato. O tatu-canastra deixa rastros e tocas, mas raramente é visto, e a onça-pintada é rara.",
+        "A lista oficial de espécies ameaçadas protegidas pelo parque tem 15 espécies, entre elas o lobo-guará, a onça-pintada, o tatu-canastra, o cervo-do-pantanal, o pato-mergulhão e o inhambu-carapé."
+      ],
+      "sourceIds": [
+        "icmbio"
+      ],
+      "images": []
+    },
+    {
+      "id": "luzes",
+      "eyebrow": "02 · As luzes",
+      "title": "Cupinzeiros que brilham no escuro",
+      "question": "Como um campo acende luzes à noite?",
+      "paragraphs": [
+        "Em certas épocas do ano, os cupinzeiros do parque ganham luzes verdes. Larvas de vaga-lume vivem em túneis na superfície dos cupinzeiros e acendem luzes para atrair presas. No período da bioluminescência, o parque abre até as 21 horas.",
+        "Pesquisadores registraram 35 espécies de besouros bioluminescentes nas Emas, o local mais rico de um estudo que cobriu três estados.",
+        "Fora do parque, a história é menos luminosa. Nos anos 1990, havia cupinzeiros luminosos até nas pastagens da região. Onde os campos viraram canaviais, eles quase desapareceram. Proteger o campo aberto é proteger essas luzes."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "fapesp"
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Bioluminescencia_e_raios.jpg/1280px-Bioluminescencia_e_raios.jpg",
+          "author": "Ary Nascimento Bassous",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bioluminescencia_e_raios.jpg",
+          "width": 1280,
+          "height": 849,
+          "alt": "Cupinzeiros com pontos de luz verde à noite, com raios ao fundo",
+          "context": "Cupinzeiros iluminados por larvas de vaga-lume no campo do Parque Nacional das Emas."
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "eyebrow": "03 · A água",
+      "title": "Nascentes e a história de um parque de 1961",
+      "question": "De onde vêm os rios e quem decidiu proteger tudo isso?",
+      "paragraphs": [
+        "O parque preserva rios de importantes bacias hidrográficas do Brasil: o Formoso e o Jacuba, da bacia do Paraná, além de nascentes ligadas ao Taquari e ao Araguaia.",
+        "O Decreto nº 49.874, de 11 de janeiro de 1961, assinado por Juscelino Kubitschek, criou o parque. Em 6 de abril de 1972, o Decreto nº 70.375 revisou os limites, e hoje a unidade soma 132.787 hectares. Em 2001, a UNESCO inscreveu as Emas, junto com a Chapada dos Veadeiros, como Áreas Protegidas do Cerrado.",
+        "O parque fica nos municípios de Mineiros e Chapadão do Céu, em Goiás, e em parte de Costa Rica, em Mato Grosso do Sul. A visita se faz por dois portões, o Bandeira e o Jacuba, e inclui passeio de carro safári de até 8 horas."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita",
+        "unesco"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "agua",
+    "title": "Três marcos das Emas",
+    "intro": "Datas documentadas da criação ao reconhecimento mundial.",
+    "items": [
+      {
+        "id": "1961",
+        "year": "1961",
+        "title": "Decreto nº 49.874",
+        "description": "Em 11 de janeiro, Juscelino Kubitschek cria o Parque Nacional das Emas.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "1972",
+        "year": "1972",
+        "title": "Novos limites",
+        "description": "O Decreto nº 70.375, de 6 de abril, revisa os limites do parque.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2001",
+        "year": "2001",
+        "title": "Patrimônio Mundial",
+        "description": "A UNESCO inscreve as Áreas Protegidas do Cerrado, formadas pelas Emas e pela Chapada dos Veadeiros.",
+        "sourceIds": [
+          "unesco"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um campo que não é vazio",
+  "closing": "As Emas mostram que o Cerrado aberto é um ecossistema cheio de vida, de dia e de noite, que depende de água, de fogo bem manejado e de um entorno cuidadoso.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna das Emas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-emas",
+      "accessedAt": "2026-10-22",
+      "use": "decretos, área, bacias e espécies ameaçadas"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna das Emas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-emas/informacoes-sobre-visitacao-2013-parna-das-emas",
+      "accessedAt": "2026-10-22",
+      "use": "visitação e fauna de campo aberto"
+    },
+    {
+      "id": "fapesp",
+      "institution": "Agência FAPESP",
+      "title": "Em 30 anos, besouros bioluminescentes tiveram redução de diversidade no Cerrado",
+      "url": "https://agencia.fapesp.br/em-30-anos-besouros-bioluminescentes-tiveram-reducao-de-diversidade-no-cerrado/50429",
+      "accessedAt": "2026-10-22",
+      "use": "besouros bioluminescentes"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Cerrado Protected Areas: Chapada dos Veadeiros and Emas National Parks",
+      "url": "https://whc.unesco.org/en/list/1035/",
+      "accessedAt": "2026-10-21",
+      "use": "inscrição das Áreas Protegidas do Cerrado, em 2001"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: confirmar a lista de 15 espécies ameaçadas e a contagem de 35 besouros bioluminescentes diretamente nas fontes."
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "O canto do bicudo sumiu das veredas do Sertão; hoje ele tenta voltar.",
+  "items": [
+    {
+      "kind": "extinta_localmente",
+      "name": "Bicudo",
+      "scientificName": "Sporophila maximiliani",
+      "when": "desaparecido da região; reintrodução na vizinhança entre 2017 e 2019",
+      "text": "O bicudo, de canto célebre e bico robusto, foi capturado em tal escala para gaiolas que quase sumiu da natureza. Nas veredas do norte de Minas, incluindo o parque, a espécie já estava ausente quando um projeto de manejo em cativeiro passou a soltar aves na vizinha RPPN Porto Cajueiro. Os bicudos soltos se deslocam bastante e foram monitorados até dentro do parque; já nasceu ao menos um filhote em vida livre na reserva.",
+      "sourceIds": [
+        "cepf-bicudo-2777",
+        "cepf-safeguard"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sporophila_maximiliani_Great-billed_Seed-finch_%28male%29%2C_Mato_Grosso%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sporophila_maximiliani_Great-billed_Seed-finch_(male),_Mato_Grosso,_Brazil.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Bicudo macho pousado",
+        "context": "Bicudo (Sporophila maximiliani) macho, fotografado no Mato Grosso."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cepf-bicudo-2777",
+      "institution": "CEPF (Critical Ecosystem Partnership Fund)",
+      "title": "Relatório final do projeto de reintrodução do bicudo no Sertão de Minas",
+      "url": "https://cepf.net/resources/final-project-report/final-project-report-2777",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "cepf-safeguard",
+      "institution": "CEPF (Critical Ecosystem Partnership Fund)",
+      "title": "Safeguard: Environmental Impact Assessment (projeto do bicudo)",
+      "url": "https://www.cepf.net/resources/documents/safeguard-environmental-impact-assessment-2",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

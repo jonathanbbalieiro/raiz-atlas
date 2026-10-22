@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "A poucos quilômetros do Plano Piloto, nascentes do Cerrado enchem piscinas naturais e garantem um quarto da água do Distrito Federal.",
+  "intro": "O Parque Nacional de Brasília, a Água Mineral, nasceu junto com a nova capital, em 1961, para proteger os rios que levariam água potável à cidade. Hoje são cerca de 42 mil hectares de Cerrado, com veredas, campos, matas de galeria e o lago de Santa Maria.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visita"
+  ],
+  "protects": {
+    "summary": "A caixa d'água da capital e um Cerrado de onze faces",
+    "items": [
+      {
+        "title": "Água para o DF",
+        "text": "O parque abriga as bacias dos córregos que formam o lago de Santa Maria, responsável por 25% da água potável que abastece o Distrito Federal.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      },
+      {
+        "title": "Onze tipos de vegetação",
+        "text": "Matas de galeria pantanosas e secas, vereda, cerrado típico, cerradão, mata seca e cinco tipos de campo, incluindo o campo de murundus.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      },
+      {
+        "title": "Bichos raros ao lado da cidade",
+        "text": "Vivem no parque lobo-guará, tatu-canastra, tamanduá-bandeira, anta, onça-parda e aves como o galito e o papagaio-galego.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Piscinas da Água Mineral",
+      "text": "Afloramentos do lençol freático surgidos durante a construção de Brasília e a extração de areia deram origem à Piscina Pedreira, a mais antiga. Depois veio a Areal.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Piscina_Antiga.jpg/1280px-Piscina_Antiga.jpg",
+        "author": "BlazeBrok",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscina_Antiga.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Piscina de água natural cercada de árvores do Cerrado",
+        "context": "A piscina mais antiga do Parque Nacional de Brasília, alimentada por nascentes do parque."
+      }
+    },
+    {
+      "title": "Trilha da Capivara",
+      "text": "Começa na Piscina Pedreira e é boa para caminhar e observar aves. Aos sábados e às terças há banho de floresta guiado.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Grande_angular_na_trilha_da_capivara%2C_agua_mineral_-_panoramio.jpg/1280px-Grande_angular_na_trilha_da_capivara%2C_agua_mineral_-_panoramio.jpg",
+        "author": "Frederico Veloso",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_angular_na_trilha_da_capivara,_agua_mineral_-_panoramio.jpg",
+        "width": 1280,
+        "height": 451,
+        "alt": "Trilha em meio à mata de galeria",
+        "context": "A Trilha da Capivara, no Parque Nacional de Brasília."
+      }
+    },
+    {
+      "title": "Trilhas Cristal Água",
+      "text": "Quatro percursos de 5 a 18 km. Deles parte o trecho do Arco Brasília, travessia de 21 km inaugurada em 2025 que liga o parque à Floresta Nacional de Brasília.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Segue_a_trilha.jpg/1280px-Segue_a_trilha.jpg",
+        "author": "Jayme Vasconcellos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Segue_a_trilha.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Trilhas Cristal Água, Brasília",
+        "context": "Trilhas Cristal Água. Trilha Cristal Água, no Parque Nacional de Brasília."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A estrada asfaltada de 2 km até o Centro de Visitantes é um trecho da antiga Estrada Real Santa Luzia-Contagem.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "Os macacos-prego das piscinas aprenderam a buscar a comida dos visitantes. Por isso o parque pede que ninguém faça piquenique perto da água.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "O parque pede que calçados e bicicletas cheguem limpos: o solado e as rodas podem trazer sementes de plantas exóticas.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "A Lei nº 11.285, de 8 de março de 2006, redefiniu os limites do parque, criado pelo Decreto nº 241, de 1961.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1961 · Um parque para a nova capital",
+      "text": "Em 29 de novembro, o Decreto nº 241 cria o parque para proteger os mananciais da cidade que acabava de nascer.",
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita"
+      ]
+    },
+    {
+      "title": "2006 · Novos limites",
+      "text": "A Lei 11.285, de 8 de março, redefine os limites do parque, que hoje abrange áreas de Brasília, Sobradinho, Brazlândia e Padre Bernardo.",
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita"
+      ]
+    },
+    {
+      "title": "2025 · O Arco Brasília",
+      "text": "Em 15 de fevereiro é inaugurado o trecho Cristal Água do Arco Brasília, conectando o parque à Flona Brasília.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Scytalopus novacapitalis",
+      "name": "Tapaculo-de-brasília",
+      "why": "Ave que leva a capital no nome, em perigo segundo a IUCN e registrada dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Scitalopus_novacapitalis_-_Brasilia_Tapaculo.JPG/960px-Scitalopus_novacapitalis_-_Brasilia_Tapaculo.JPG",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scitalopus_novacapitalis_-_Brasilia_Tapaculo.JPG",
+        "width": 640,
+        "height": 565,
+        "alt": "Tapaculo-de-brasília (Scytalopus novacapitalis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Scytalopus novacapitalis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Está na lista de espécies ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 640,
+        "height": 433,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla); fotografia da espécie",
+        "context": "Retrato ilustrativo de Myrmecophaga tridactyla. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "why": "Um dos bichos raros que o ICMBio destaca no parque, vizinho da cidade.",
+      "sourceIds": [
+        "icmbio-visita",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/960px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Lobo-guará (Chrysocyon brachyurus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Chrysocyon brachyurus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna de Brasília",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-de-brasilia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna de Brasília",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-de-brasilia/informacoes-sobre-visitacao-2013-parna-de-brasilia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

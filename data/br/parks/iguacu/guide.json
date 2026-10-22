@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Cerca de 200 saltos despencam em quase três quilômetros de cataratas, no coração de uma floresta que ainda tem onças.",
+  "intro": "No oeste do Paraná, o parque protege mais de 185 mil hectares de Mata Atlântica de interior e o lado brasileiro das Cataratas do Iguaçu. Na fronteira, encosta no Parque Nacional Iguazú, na Argentina, e forma com ele um grande corredor de floresta. É Patrimônio Mundial da UNESCO desde 1986.",
+  "sourceIds": [
+    "pm",
+    "unesco"
+  ],
+  "protects": {
+    "summary": "Um dos últimos grandes maciços de Mata Atlântica de interior",
+    "items": [
+      {
+        "title": "O Corredor Verde",
+        "text": "O parque faz divisa por mais de 60 km com o Parque Nacional Iguazú. Juntos, formam um contínuo de floresta que liga populações de animais dos dois países.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Floresta de perobas e palmitos",
+        "text": "Predomina a floresta estacional, que perde parte das folhas na seca, com peroba-rosa e palmito-juçara. Acima de 700 metros aparecem araucária e erva-mate.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Uma bacia inteira protegida",
+        "text": "Os 713 km² da bacia do rio Floriano ficam todos dentro do parque. É a única bacia hidrográfica do Paraná inteiramente preservada.",
+        "sourceIds": [
+          "pm",
+          "unesco"
+        ]
+      },
+      {
+        "title": "Fauna em números",
+        "text": "Já foram listadas no parque 158 espécies de mamíferos, 390 de aves, 175 de peixes, 48 de répteis e pelo menos 800 de invertebrados.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cataratas do Iguaçu",
+      "text": "O rio Iguaçu se abre num semicírculo de quase três quilômetros de quedas e corredeiras, com saltos de até 80 metros. A névoa permanente rega as ilhas e margens cobertas de floresta.",
+      "sourceIds": [
+        "unesco"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Cataratas_do_Igua%C3%A7%C3%BA_vistas_do_Parque_Nacional_do_Igua%C3%A7%C3%BA.JPG/1280px-Cataratas_do_Igua%C3%A7%C3%BA_vistas_do_Parque_Nacional_do_Igua%C3%A7%C3%BA.JPG",
+        "author": "YaniraNasser",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cataratas_do_Igua%C3%A7%C3%BA_vistas_do_Parque_Nacional_do_Igua%C3%A7%C3%BA.JPG",
+        "width": 1280,
+        "height": 956,
+        "alt": "Quedas das Cataratas do Iguaçu entre ilhas de floresta",
+        "context": "Quedas das Cataratas do Iguaçu vistas da trilha do lado brasileiro."
+      }
+    },
+    {
+      "title": "Garganta do Diabo",
+      "text": "Dos cerca de 200 saltos do cânion das cataratas, a Garganta do Diabo é o mais representativo. Ali o rio Iguaçu também marca a fronteira com a Argentina.",
+      "sourceIds": [
+        "pm",
+        "unesco"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Garganta_do_Diabo_-_Cataratas_do_Igua%C3%A7u.JPG/1280px-Garganta_do_Diabo_-_Cataratas_do_Igua%C3%A7u.JPG",
+        "author": "Renan Siqueira Teixeira",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garganta_do_Diabo_-_Cataratas_do_Igua%C3%A7u.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Garganta do Diabo envolta em névoa",
+        "context": "A Garganta do Diabo envolta em névoa, vista do Parque Nacional do Iguaçu."
+      }
+    },
+    {
+      "title": "O balé dos andorinhões",
+      "text": "Em meio ao estrondo das quedas, bandos de andorinhões cruzam o ar num verdadeiro balé. O andorinhão-velho é uma das aves mais registradas no parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64601696/original.jpeg",
+        "author": "Leonardo Bergamini",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/64601696",
+        "width": 2048,
+        "height": 1536,
+        "alt": "Bando de andorinhões em voo diante das quedas das Cataratas do Iguaçu",
+        "context": "Andorinhões-velhos cruzam o ar diante da cortina de água das Cataratas do Iguaçu, em Foz do Iguaçu (PR)."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O nome Iguaçu vem de um termo indígena que significa água grande.",
+      "sourceIds": [
+        "unesco"
+      ]
+    },
+    {
+      "text": "Em 1916, Santos Dumont se surpreendeu ao saber que as cataratas pertenciam a um particular. Três meses depois, o Paraná declarou a área de utilidade pública.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A ideia de um parque nas cataratas já aparecia no século XIX com o engenheiro André Rebouças, inspirado em Yellowstone, o primeiro parque nacional do mundo.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A Estrada do Colono cortou 18 km de floresta do parque de 1953 a 2001. Fechada, deu lugar à floresta, e hoje há sinais claros de fauna no antigo leito.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As cataratas correm sobre rochas formadas por derrames de lava vulcânica do Cretáceo.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1916 · A visita de Santos Dumont",
+      "text": "Depois da passagem do aviador, o governo do Paraná declara de utilidade pública a área das cataratas, para nela criar uma povoação e um parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1939 · Parque nacional",
+      "text": "Getúlio Vargas assina o decreto que cria o Parque Nacional do Iguaçu.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "1986 · Patrimônio Mundial",
+      "text": "A UNESCO inscreve o parque na lista do Patrimônio Mundial. O vizinho Iguazú, na Argentina, também é Patrimônio Mundial.",
+      "sourceIds": [
+        "unesco"
+      ]
+    },
+    {
+      "title": "1999–2001 · Em perigo",
+      "text": "O parque entra na Lista do Patrimônio Mundial em Perigo. Sai dela em 2001, ano em que a Estrada do Colono é fechada.",
+      "sourceIds": [
+        "unesco",
+        "pm"
+      ]
+    },
+    {
+      "title": "2018 · Novo plano de manejo",
+      "text": "O ICMBio aprova o plano que define a onça-pintada, as cataratas e a floresta como valores fundamentais do parque.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Símbolo do parque. O Corredor Verde abriga a maior população de onças-pintadas da Mata Atlântica.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Onça-pintada (Panthera onca); fotografia da espécie",
+        "context": "Retrato ilustrativo de Panthera onca. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Steindachneridion melanodermatum",
+      "name": "Surubim-do-iguaçu",
+      "why": "Bagre endêmico da bacia do Iguaçu, em perigo de extinção, citado entre as espécies-chave do parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Steindachneridion_melanodermatum_Iguazu.jpg/960px-Steindachneridion_melanodermatum_Iguazu.jpg",
+        "author": "D. Davesne",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steindachneridion_melanodermatum_Iguazu.jpg",
+        "width": 640,
+        "height": 476,
+        "alt": "Surubim-do-iguaçu (Steindachneridion melanodermatum); fotografia da espécie",
+        "context": "Retrato ilustrativo de Steindachneridion melanodermatum. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pipile jacutinga",
+      "name": "Jacutinga",
+      "why": "Ave em perigo de extinção, citada entre as espécies-chave para conservação no parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Aburria_jacutinga_-Parque_das_Aves-8.jpg/960px-Aburria_jacutinga_-Parque_das_Aves-8.jpg",
+        "author": "Bruno Girin",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aburria_jacutinga_-Parque_das_Aves-8.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Jacutinga (Pipile jacutinga); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pipile jacutinga. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Cypseloides senex",
+      "name": "Andorinhão-velho",
+      "why": "Uma das aves mais registradas no parque, com mais de 1.700 registros. É o protagonista do voo diante das quedas.",
+      "sourceIds": [
+        "gbif",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Cypseloides_senex_1_%28cropped%29.jpg/960px-Cypseloides_senex_1_%28cropped%29.jpg",
+        "author": "David F. Belmonte",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cypseloides_senex_1_(cropped).jpg",
+        "width": 640,
+        "height": 438,
+        "alt": "Andorinhão-velho (Cypseloides senex); fotografia da espécie",
+        "context": "Retrato ilustrativo de Cypseloides senex. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Iguaçu (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-iguacu/pagina/documentos-de-gestao/plano-de-manejo-2018.pdf/view",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Iguaçu National Park",
+      "url": "https://whc.unesco.org/en/list/355/",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional do Iguaçu",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/172",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

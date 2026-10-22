@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma serra isolada que sobe da planície alagável de Roraima, cercada por dunas de areia de milhares de anos.",
+  "intro": "No sul de Roraima, o Parque Nacional Serra da Mocidade protege cerca de 377 mil hectares entre a serra, florestas de terras baixas, campinas e campinaranas. Ao redor se estende o pantanal setentrional amazônico, uma vasta planície que alaga com as chuvas.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Uma ilha de montanha no meio de um mar de terras baixas",
+    "items": [
+      {
+        "title": "Florestas de altitude isoladas",
+        "text": "Nas encostas, as florestas de altitude ficam ilhadas pelas terras baixas ao redor. Esse isolamento faz da serra um lugar com alto potencial de espécies endêmicas e ainda não descritas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Nascentes do rio Branco",
+        "text": "Os rios Capivara, Ajarani, Xeriuini, Pacu, Branquinho e Camoji nascem dentro do parque e seguem para a bacia do rio Branco.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Campinas e campinaranas",
+        "text": "Sobre areias encharcadas cresce uma vegetação baixa e raquítica, organizada conforme o tempo de alagamento. Ali vive a piassabarana, palmeira de um gênero endêmico.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Peixes e bichos caçados",
+        "text": "O parque é refúgio para espécies pressionadas pela caça e pela pesca, como mutuns, anta, queixada, tatu-canastra, tracajá, pirarucu e piraíba.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Serra da Mocidade",
+      "text": "A serra chega perto de 2.000 metros, mas a parte dentro do parque vai até 1.352 metros e ocupa cerca de 14% da área. De difícil acesso, ainda guarda espécies por descrever.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Serra_da_Mocidade_%2810.3897-zookeys.715.20288%29_Figure_2.jpg/1280px-Serra_da_Mocidade_%2810.3897-zookeys.715.20288%29_Figure_2.jpg",
+        "author": "[Photographs by Thiago Laranjeiras] Moraes LJCL, Almeida AP, Fraga R, Rojas RR, ",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_da_Mocidade_(10.3897-zookeys.715.20288)_Figure_2.jpg",
+        "width": 1280,
+        "height": 1425,
+        "alt": "Serra da Mocidade, Serra da Mocidade",
+        "context": "Serra da Mocidade. Figure 2; Serra da Mocidade. Panoramic views of the Serra da Mocidade mountain range (a) and a typical granitic inselber"
+      }
+    },
+    {
+      "title": "Paleodunas",
+      "text": "Elevações de areia com idades entre 7.800 e 32.600 anos. Sempre ficam no lado sudoeste das campinas, empurradas pelos ventos que cruzam o Equador de nordeste para sudoeste.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Rios de pulso de inundação",
+      "text": "As bacias do Água Boa do Univini, do Catrimani e do Xeriuini marcam o ritmo de cheias da região e ligam o parque a outras áreas, por onde circulam peixes e animais.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O resto da Serra da Mocidade, fora do parque, fica em áreas do Exército e na Terra Indígena Yanomami.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O peixe-boi-da-amazônia tem ocorrência confirmada nos rios Xeriuini e Água Boa do Univini, na região do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O parque é gerido em conjunto com a vizinha Estação Ecológica Niquiá, e as duas têm um só plano de manejo.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As campinas e paleodunas são típicas das bacias dos rios Negro, Branco e Orinoco.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há 32.600 a 7.800 anos · Dunas na Amazônia",
+      "text": "Ventos de nordeste acumulam areia em dunas, que hoje são elevações cobertas de vegetação de campina.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1998 · Nasce o parque",
+      "text": "Decreto de 29 de abril cria o Parque Nacional Serra da Mocidade.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2018 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo conjunto do parque e da Estação Ecológica Niquiá, com a serra, as águas, as espécies caçadas, os peixes e as campinas como alvos de conservação.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Lophornis ornatus",
+      "name": "Beija-flor-de-leque-canela",
+      "why": "Está entre as aves que o plano de manejo destaca como endêmicas, raras ou ameaçadas a conservar no parque, e tem registros dentro dele.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Lophornis_ornatus_-Asa_Wright_Nature_Centre%2C_Northern_Range%2C_Trinidad%2C_Trinidad_and_Tobago-8.jpg",
+        "author": "Steve Garvie from Dunfermline, Fife, Scotland",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lophornis_ornatus_-Asa_Wright_Nature_Centre,_Northern_Range,_Trinidad,_Trinidad_and_Tobago-8.jpg",
+        "width": 640,
+        "height": 462,
+        "alt": "Beija-flor-de-leque-canela (Lophornis ornatus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Lophornis ornatus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ateles belzebuth",
+      "name": "Macaco-aranha",
+      "why": "Ameaçado e caçado na região, é uma das espécies para as quais o parque serve de área-fonte.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Ateles_belzebuth_belzebuth.jpg/1280px-Ateles_belzebuth_belzebuth.jpg",
+        "author": "Fábio Manfredini",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_belzebuth_belzebuth.jpg",
+        "width": 1280,
+        "height": 854,
+        "alt": "Macaco-aranha (Ateles belzebuth)",
+        "context": "Macaco-aranha, Ateles belzebuth."
+      }
+    },
+    {
+      "scientificName": "Crax alector",
+      "name": "Mutum-poranga",
+      "why": "Ave grande e muito caçada, citada entre as espécies que o parque precisa manter em equilíbrio.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449076224/original.jpg",
+        "author": "moschini",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/449076224",
+        "width": 2048,
+        "height": 1316,
+        "alt": "Mutum-poranga (Crax alector) caminhando no chão da floresta, em Caracaraí, Roraima",
+        "context": "Mutum-poranga, Crax alector, registrado em Caracaraí (RR), na mesma região amazônica do parque."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Serra da Mocidade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-mocidade",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Serra da Mocidade e da Estação Ecológica Niquiá, Volume II: Planejamento (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-mocidade/arquivos/volume_ii_planejamento_plano_de_manejo_parna_serra_da_mocidade.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

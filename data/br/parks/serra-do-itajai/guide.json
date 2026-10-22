@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Às portas de Blumenau, uma floresta com cerca de 150 espécies de árvores e arbustos por hectare.",
+  "intro": "No Vale do Itajaí, em Santa Catarina, o parque protege cerca de 57,5 mil hectares de Mata Atlântica em nove municípios, entre eles Blumenau, Indaial e Gaspar. Criado em 2004, é o segundo maior entre os últimos grandes remanescentes de floresta do estado. Nasceu de décadas de luta de moradores e ambientalistas da região.",
+  "sourceIds": [
+    "pm",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "Um grande bloco de Mata Atlântica no Vale do Itajaí",
+    "items": [
+      {
+        "title": "Floresta densa em três andares",
+        "text": "Florestas submontana, montana e altomontana cobrem o relevo acidentado. Nos topos e encostas mais íngremes, arvoretas, arbustos e ervas tomam o lugar da mata.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Uma biodiversidade de peso",
+        "text": "Estudos somam 340 espécies de árvores e arbustos, cerca de 45% das de Santa Catarina, além de 220 de aves e 39 de anfíbios.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Espaço para felinos",
+        "text": "Foram registradas 69 espécies de mamíferos. Puma, jaguatirica, gato-maracajá e gato-do-mato-pequeno precisam de áreas grandes como esta.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Canelas que voltam",
+        "text": "Nas áreas mais preservadas há muitos adultos e jovens de canela-preta, árvore vulnerável que pode repovoar locais onde foi explorada.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Morro Spitzkopf",
+      "text": "Uma estrada de terra de 6 km sobe até o mirante natural, a 936 metros. Do alto, em dias claros, avistam-se Blumenau, cidades vizinhas e o litoral.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Morro_Spitzkopf.jpg/1280px-Morro_Spitzkopf.jpg",
+        "author": "Emerson Verissimo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morro_Spitzkopf.jpg",
+        "width": 1280,
+        "height": 957,
+        "alt": "Cristas de Mata Atlântica vistas do alto do Morro Spitzkopf, com uma rocha em primeiro plano",
+        "context": "Vista do cume do Morro Spitzkopf, num dia limpo de inverno."
+      }
+    },
+    {
+      "title": "Trilhas do Caeté e da Represa",
+      "text": "Na base do Spitzkopf, a Trilha do Caeté passa por uma sequência de cachoeiras. A da Represa acompanha o ribeirão do Ouro até a Cascata do Ouro, de 20 metros.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Em 1932, a cabana a 800 metros no Morro Spitzkopf recebeu 300 pessoas em seis meses, levadas pelo clube de excursionismo fundado ali em 1927.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1980, um decreto de Blumenau protegeu as matas do sul do município, 13 anos antes da lei federal da Mata Atlântica.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1982, o cartão de Natal de uma ONG local lembrava Sete Quedas, destruídas por Itaipu, e pedia: não permitamos que isto aconteça com a Serra do Itajaí.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Uma fábrica têxtil de Blumenau comprou terras nas nascentes do ribeirão Garcia e criou ali um parque ecológico. Em 1998, comprometeu-se a doar as terras à fundação ambiental de Blumenau e à universidade local.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1952 · Um refúgio particular",
+      "text": "Udo Schadrack registra sua propriedade no Morro Spitzkopf como refúgio de animais silvestres e depois se oferece para doá-la a um futuro parque nacional.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1981 · A ideia de um parque",
+      "text": "O ambientalista Lauro Bacca propõe pela primeira vez um parque nacional em toda a Serra do Itajaí.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1998 · Parque das Nascentes",
+      "text": "As terras do Parque Ecológico Artex viram o Parque Natural Municipal Nascentes do Garcia, em Blumenau.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2004 · Nasce o parque nacional",
+      "text": "Em 4 de junho, um decreto federal cria o Parque Nacional da Serra do Itajaí, com zona de amortecimento de 500 metros.",
+      "sourceIds": [
+        "cnuc",
+        "pm"
+      ]
+    },
+    {
+      "title": "2025 · Limites revistos",
+      "text": "Uma lei federal revisa os limites do parque, que passa a ter cerca de 57,5 mil hectares.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Puma concolor",
+      "name": "Puma",
+      "why": "Citado pelo plano de manejo entre as espécies ameaçadas, é o mamífero com mais registros dentro do parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/960px-Puma_-_49044464307.jpg",
+        "author": "Carlos",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puma_-_49044464307.jpg",
+        "width": 640,
+        "height": 960,
+        "alt": "Puma (Puma concolor); fotografia da espécie",
+        "context": "Retrato ilustrativo de Puma concolor. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Leopardus pardalis",
+      "name": "Jaguatirica",
+      "why": "Felino que depende de grandes áreas de floresta, citado entre as espécies ameaçadas do parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/081_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-081_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:081_Ocelot_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 640,
+        "height": 800,
+        "alt": "Jaguatirica (Leopardus pardalis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Leopardus pardalis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "why": "Ave em perigo de extinção com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg/960px-Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazona_vinacea_Vinaceous-breasted_Parrot;_Urupema,Santa_Catarina,_Brazil.jpg",
+        "width": 640,
+        "height": 404,
+        "alt": "Papagaio-de-peito-roxo (Amazona vinacea); fotografia da espécie",
+        "context": "Retrato ilustrativo de Amazona vinacea. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Serra do Itajaí (2009)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/anexo/atolegal/67858/2",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional da Serra do Itajaí",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/150",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

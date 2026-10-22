@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Nos cânions de Aparados da Serra, os grandes mamíferos que dariam o tom da floresta são hoje lembrança — ou aparição rara.",
+  "items": [
+    {
+      "kind": "extinta_localmente",
+      "name": "Onça-pintada",
+      "scientificName": "Panthera onca",
+      "when": "desaparecida da região dos Aparados em tempos recentes",
+      "text": "Maior felino das Américas, a onça-pintada já percorreu as matas de araucária e as encostas da Serra Geral. O plano de manejo dos parques a inclui entre os grandes mamíferos altamente ameaçados ou localmente extintos na região dos Aparados da Serra. Hoje, o topo da cadeia alimentar ali é ocupado pelo leão-baio, a onça-parda.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Anta",
+      "scientificName": "Tapirus terrestris",
+      "when": "desaparecida da região dos Aparados em tempos recentes",
+      "text": "A anta, o maior mamífero terrestre do Brasil, foi uma jardineira das florestas: ao comer frutos e espalhar sementes, ajudava a renovar a mata. O plano de manejo aponta sua extinção local na região dos Aparados da Serra, junto com outros grandes mamíferos.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Queixada",
+      "scientificName": "Tayassu pecari",
+      "when": "desaparecida da região dos Aparados em tempos recentes",
+      "text": "Os queixadas viviam em varas numerosas, revolvendo o solo da floresta em busca de frutos e raízes. O plano de manejo dos parques registra a espécie entre os grandes mamíferos localmente extintos na região dos Aparados da Serra.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Plano de Manejo dos Parques Nacionais de Aparados da Serra e da Serra Geral (Portaria nº 1.346/2025)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-geral/arquivos/pm_aparados_versao_para_site_2025abr20_compressed.pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

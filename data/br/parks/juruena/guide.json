@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Cachoeiras, ilhas de pedra e poços de até 80 metros no rio Juruena, numa floresta que os ornitólogos mal conheciam até 2006.",
+  "intro": "Entre Mato Grosso e Amazonas, o Parque Nacional do Juruena protege quase 2 milhões de hectares no baixo Juruena, Teles Pires e alto Tapajós. Criado em 2006, fica no interflúvio Madeira-Tapajós, uma região de muitas espécies endêmicas.",
+  "sourceIds": [
+    "icmbio",
+    "cnuc",
+    "enc3"
+  ],
+  "protects": {
+    "summary": "Rios encachoeirados e aves que só existem nesta parte da Amazônia",
+    "items": [
+      {
+        "title": "412 espécies de aves",
+        "text": "Cerca de 40 são endêmicas da Amazônia Meridional, e pelo menos 26 vivem só no interflúvio Madeira-Tapajós.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "title": "Rios de pedra e corredeira",
+        "text": "O Juruena forma ilhas rochosas, praias de areia branca e paredões. Acima e abaixo das cachoeiras, a água corre com força entre afloramentos.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "title": "Rios de água clara",
+        "text": "O parque tem 39 sub-bacias. A maior, a do rio São Tomé, ocupa 23% da área e nasce inteira dentro dele.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "title": "Primatas e botos ameaçados",
+        "text": "Macaco-aranha-de-cara-preta, cuxiú-de-nariz-branco, macaco-barrigudo e boto-vermelho têm registros dentro do parque.",
+        "sourceIds": [
+          "gbif"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Salto Augusto",
+      "text": "Uma das grandes cachoeiras do Juruena protegidas pelo parque. Rio acima, o leito forma ilhas rochosas e praias; abaixo, poços chegam a 80 metros.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Salto_Augusto..JPG/1280px-Salto_Augusto..JPG",
+        "author": "Renato Soares Moreira",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salto_Augusto..JPG",
+        "width": 1280,
+        "height": 852,
+        "alt": "Pôr do sol sobre a cachoeira Salto Augusto",
+        "context": "Pôr do sol na cachoeira Salto Augusto, no Parque Nacional do Juruena."
+      }
+    },
+    {
+      "title": "Cachoeira de São Simão",
+      "text": "Paredões rochosos marcam este trecho do Juruena, onde o rio passa de 250 metros de largura entre ilhas e corredeiras.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cachoeira_de_S%C3%A3o_Sim%C3%A3o.JPG/1280px-Cachoeira_de_S%C3%A3o_Sim%C3%A3o.JPG",
+        "author": "Renato Soares Moreira",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_de_S%C3%A3o_Sim%C3%A3o.JPG",
+        "width": 1280,
+        "height": 767,
+        "alt": "Cachoeira de São Simão, Juruena",
+        "context": "Cachoeira de São Simão. Acampamento Cachoeira de São Simão."
+      }
+    },
+    {
+      "title": "Cavernas junto às quedas",
+      "text": "Há uma caverna abaixo da cachoeira São Simão e a Caverna do Morcego, abaixo do Salto Augusto, apontadas como atrativos potenciais do parque.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A avifauna do baixo Juruena era praticamente desconhecida. A primeira expedição de reconhecimento só foi feita depois da criação do parque, em 2006.",
+      "sourceIds": [
+        "enc3"
+      ]
+    },
+    {
+      "text": "A choca-de-garganta-preta, criticamente em perigo, já foi conhecida por um único exemplar. Ela foi registrada perto do limite norte do parque.",
+      "sourceIds": [
+        "enc3"
+      ]
+    },
+    {
+      "text": "Com cerca de 1,96 milhão de hectares, o Juruena é um dos maiores parques nacionais do Brasil, quase todo coberto por floresta de acesso difícil.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2006 · Nasce o parque",
+      "text": "Decreto de 5 de junho cria o parque para proteger a diversidade do baixo Juruena, Teles Pires e alto Tapajós. Em junho, a Expedição Juruena-Apuí faz os primeiros levantamentos.",
+      "sourceIds": [
+        "cnuc",
+        "enc3"
+      ]
+    },
+    {
+      "title": "2011 · Plano de manejo",
+      "text": "A Portaria nº 44, de 30 de junho, aprova o plano de manejo do parque.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    },
+    {
+      "title": "2024 · Conselho consultivo",
+      "text": "O ICMBio institui o conselho consultivo do parque, que reúne instituições e comunidades do entorno.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Rhegmatorhina gymnops",
+      "name": "Mãe-de-taoca-de-cara-branca",
+      "why": "Ave endêmica da região, vulnerável, registrada no parque.",
+      "sourceIds": [
+        "enc3",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Rhegmatorhina_gymnops_-_Bare-eyed_Antbird_-_male_%28cropped%29.jpg/960px-Rhegmatorhina_gymnops_-_Bare-eyed_Antbird_-_male_%28cropped%29.jpg",
+        "author": "Nick Athanas",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhegmatorhina_gymnops_-_Bare-eyed_Antbird_-_male_(cropped).jpg",
+        "width": 640,
+        "height": 481,
+        "alt": "Mãe-de-taoca-de-cara-branca (Rhegmatorhina gymnops); fotografia da espécie",
+        "context": "Retrato ilustrativo de Rhegmatorhina gymnops. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Ateles chamek",
+      "name": "Macaco-aranha-de-cara-preta",
+      "why": "Em perigo, tem registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ateles_chamek.jpg/960px-Ateles_chamek.jpg",
+        "author": "Ivan Mlinaric",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_chamek.jpg",
+        "width": 640,
+        "height": 428,
+        "alt": "Macaco-aranha-de-cara-preta (Ateles chamek); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ateles chamek. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Inia geoffrensis",
+      "name": "Boto-vermelho",
+      "why": "Em perigo, tem registros nos rios do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Inia.jpg/960px-Inia.jpg",
+        "author": "Dennis Otten",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inia.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Boto-vermelho (Inia geoffrensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Inia geoffrensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Juruena",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jurema",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "enc3",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Juruena, Encarte 3: Análise da Unidade (2011)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jurema/arquivos/encarte3.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do CNUC: Parque Nacional do Juruena",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/281",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma ilha de mata úmida e fria no alto da Ibiapaba, com um bondinho que desce até a boca de uma caverna.",
+  "intro": "No noroeste do Ceará, o Parque Nacional de Ubajara protege 6.288 hectares entre a serra da Ibiapaba e o sertão. No alto, uma floresta úmida de brejo de altitude; na encosta, morros de calcário cheios de cavernas, como a Gruta de Ubajara. Foi o primeiro parque nacional do Nordeste.",
+  "sourceIds": [
+    "icmbio-quem-somos",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Um oásis de serra e um conjunto de cavernas no meio do semiárido",
+    "items": [
+      {
+        "title": "Brejo de altitude",
+        "text": "A parte alta da serra, mais fria e úmida, guarda floresta sempre verde com espécies da Mata Atlântica e da Amazônia, refúgio que sobreviveu no meio da Caatinga.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Da serra ao sertão",
+        "text": "Descendo a encosta, a mata sempre verde dá lugar à floresta que perde as folhas na seca e, abaixo de 400 metros, à Caatinga.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Cavernas e o que vive nelas",
+        "text": "O parque protege o maior conjunto de cavernas do Ceará, com animais que só vivem no escuro e grandes colônias de morcegos.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Muita vida registrada",
+        "text": "Já foram registradas 418 espécies de plantas, mais de 260 de vertebrados e cerca de 800 de insetos, mais de 100 delas recém-descritas por cientistas.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Gruta de Ubajara",
+      "text": "Escavada no calcário, tem 1.120 metros de galerias, 450 abertos à visita. Os salões lembram rosas, bichos e pessoas, e há trechos de escuridão absoluta.",
+      "sourceIds": [
+        "icmbio-gruta",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Dentro_da_gruta_de_ubajara.jpg/1280px-Dentro_da_gruta_de_ubajara.jpg",
+        "author": "VanessaRPF",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dentro_da_gruta_de_ubajara.jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": "Salão iluminado dentro da Gruta de Ubajara",
+        "context": "Interior da Gruta de Ubajara, no Parque Nacional de Ubajara."
+      }
+    },
+    {
+      "title": "Bondinho de Ubajara",
+      "text": "Inaugurado em 1974, o teleférico desce sobre a mata, as cachoeiras e os morros de calcário até a entrada da gruta.",
+      "sourceIds": [
+        "pm",
+        "icmbio-bondinho"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Bondinho_Ubajara-CE.JPG/1280px-Bondinho_Ubajara-CE.JPG",
+        "author": "Francisco Lusivaldo Marques",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bondinho_Ubajara-CE.JPG",
+        "width": 1280,
+        "height": 720,
+        "alt": "Bondinho de Ubajara, Ubajara",
+        "context": "Bondinho de Ubajara. Bondinho na Serra da Ibiapaba no Parque Nacional de Ubajara-CE. É o menor parque do Brasil."
+      }
+    },
+    {
+      "title": "Circuito das Cachoeiras",
+      "text": "Uma trilha pela floresta úmida liga a Cachoeira do Cafundó, com cerca de 72 metros, à do Gavião, com 80, e à da Murimbeca.",
+      "sourceIds": [
+        "icmbio-cachoeiras"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Queda_d%27%C3%A1gua_do_desfiladeiro_do_Cafund%C3%B3_no_Parque_nacional_de_Ubajara.jpg/1280px-Queda_d%27%C3%A1gua_do_desfiladeiro_do_Cafund%C3%B3_no_Parque_nacional_de_Ubajara.jpg",
+        "author": "Nickolas Souza Silva",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queda_d%27%C3%A1gua_do_desfiladeiro_do_Cafund%C3%B3_no_Parque_nacional_de_Ubajara.jpg",
+        "width": 1280,
+        "height": 848,
+        "alt": "Queda d'água do Cafundó escorrendo pelo paredão em meio à mata, no Parque Nacional de Ubajara",
+        "context": "A cachoeira do Cafundó vista do desfiladeiro, uma das quedas do circuito de trilhas do Parque Nacional de Ubajara (CE)."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "No morro do Pendurado foi encontrado o crânio fóssil de um urso, com idade estimada de 10 mil anos.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Um escorpião-chicote, Rowlandius ubajara, só é conhecido dentro da Gruta de Ubajara e está criticamente ameaçado.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "As cavernas do parque guardam uma história de mais de 200 mil anos, de quando o clima da região era muito diferente.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O parque nasceu com 4 mil hectares, encolheu para 563 em 1973 e só em 2002 chegou aos 6.288 de hoje.",
+      "sourceIds": [
+        "icmbio-quem-somos"
+      ]
+    },
+    {
+      "text": "Dentro da gruta há uma imagem de Nossa Senhora de Lourdes, parte da história religiosa que encanta os visitantes.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1959 · O primeiro do Nordeste",
+      "text": "Em 30 de abril, um decreto cria o Parque Nacional de Ubajara para proteger o conjunto de formações geológicas de Ubajara.",
+      "sourceIds": [
+        "icmbio-quem-somos",
+        "pm"
+      ]
+    },
+    {
+      "title": "1974 · O bondinho",
+      "text": "O teleférico é inaugurado em março e passa a levar visitantes e moradores do distrito de Araticum entre a serra e a gruta.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2002 · Serra e sertão",
+      "text": "Em 13 de dezembro, um decreto amplia o parque para 6.288 hectares, que passa a abranger Ubajara, Tianguá e Frecheirinha.",
+      "sourceIds": [
+        "icmbio-quem-somos"
+      ]
+    },
+    {
+      "title": "2015 a 2022 · Novos caminhos",
+      "text": "Com o bondinho parado para reforma, o parque abre mirantes e trilhas novas. Com a volta do bondinho, em 2022, a visitação sobe para 185.888 pessoas.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Hemitriccus mirandae",
+      "name": "Maria-do-nordeste",
+      "why": "Pequena ave em perigo de extinção que vive nas matas úmidas do parque.",
+      "sourceIds": [
+        "pm",
+        "icmbio-quem-somos"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hemitriccus_mirandae.jpg/960px-Hemitriccus_mirandae.jpg",
+        "author": "Antonio Pessoa",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemitriccus_mirandae.jpg",
+        "width": 640,
+        "height": 450,
+        "alt": "Maria-do-nordeste (Hemitriccus mirandae); fotografia da espécie",
+        "context": "Retrato ilustrativo de Hemitriccus mirandae. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Alouatta ululata",
+      "name": "Guariba-da-caatinga",
+      "why": "Macaco em perigo de extinção, com bandos avistados recentemente no parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "scientificName": "Carollia perspicillata",
+      "name": "Morcego-de-cauda-curta",
+      "why": "Forma uma imensa colônia na Gruta de Ubajara e ajuda a espalhar sementes na mata.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Seba%27s_Short-tailed_Bats_%28Carollia_perspicillata%29_group_roosting_in_old_building_..._%2827616205553%29.jpg/1280px-Seba%27s_Short-tailed_Bats_%28Carollia_perspicillata%29_group_roosting_in_old_building_..._%2827616205553%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seba%27s_Short-tailed_Bats_(Carollia_perspicillata)_group_roosting_in_old_building_..._(27616205553).jpg",
+        "width": 1280,
+        "height": 826,
+        "alt": "Morcego-de-cauda-curta (Carollia perspicillata)",
+        "context": "Morcego-de-cauda-curta, Carollia perspicillata."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio-quem-somos",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Ubajara: Quem somos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/quem-somos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-gruta",
+      "institution": "ICMBio",
+      "title": "Gruta de Ubajara: principais informações",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/gruta-de-ubajara/gruta-de-ubajara-2013-informacoes-principais",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-bondinho",
+      "institution": "ICMBio",
+      "title": "Bondinho de Ubajara",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/bondinho-de-ubajara",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-cachoeiras",
+      "institution": "ICMBio",
+      "title": "Circuito das Cachoeiras",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/Circuito%20das%20Cachoeiras/cirucuito-das-cachoeiras",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Ubajara",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/arquivos/plano-de-manejo-parna-ubajara.pdf",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

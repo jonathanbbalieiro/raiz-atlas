@@ -1,0 +1,478 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-45.447%20-10.002%2C-45.465%20-10.023%2C-45.478%20-10.012%2C-45.479%20-10.061%2C-45.499%20-10.070%2C-45.549%20-10.037%2C-45.554%20-10.002%2C-45.600%20-10.005%2C-45.589%20-9.966%2C-45.628%20-9.933%2C-45.636%20-9.851%2C-45.732%20-9.629%2C-45.681%20-9.609%2C-45.671%20-9.589%2C-45.739%20-9.548%2C-45.793%20-9.486%2C-45.818%20-9.394%2C-45.855%20-9.362%2C-45.877%20-9.360%2C-45.886%20-9.428%2C-45.918%20-9.477%2C-45.969%20-9.479%2C-46.038%20-9.524%2C-46.091%20-9.586%2C-46.102%20-9.573%2C-46.112%20-9.584%2C-46.106%20-9.612%2C-46.142%20-9.732%2C-46.129%20-9.759%2C-46.008%20-9.756%2C-46.028%20-9.805%2C-45.982%20-9.816%2C-45.929%20-9.768%2C-45.876%20-9.788%2C-45.870%20-9.818%2C-45.906%20-9.853%2C-45.902%20-9.889%2C-45.932%20-9.913%2C-45.926%20-9.925%2C-45.948%20-9.929%2C-45.945%20-9.911%2C-45.994%20-9.939%2C-45.986%20-9.954%2C-46.109%20-9.924%2C-46.114%20-9.864%2C-46.167%20-9.841%2C-46.257%20-9.838%2C-46.316%20-9.795%2C-46.409%20-9.770%2C-46.404%20-9.734%2C-46.510%20-9.743%2C-46.546%20-9.707%2C-46.553%20-9.675%2C-46.611%20-9.688%2C-46.667%20-9.722%2C-46.703%20-9.765%2C-46.717%20-9.810%2C-46.701%20-9.849%2C-46.645%20-9.859%2C-46.554%20-9.849%2C-46.541%20-9.861%2C-46.546%20-9.890%2C-46.614%20-9.958%2C-46.603%20-9.981%2C-46.627%20-10.046%2C-46.560%20-10.022%2C-46.509%20-10.040%2C-46.498%20-10.063%2C-46.474%20-10.061%2C-46.488%20-10.204%2C-46.439%20-10.215%2C-46.390%20-10.277%2C-46.369%20-10.284%2C-46.367%20-10.353%2C-46.337%20-10.426%2C-46.276%20-10.409%2C-46.245%20-10.422%2C-46.249%20-10.445%2C-46.228%20-10.465%2C-46.194%20-10.401%2C-46.131%20-10.356%2C-46.187%20-10.272%2C-46.144%20-10.217%2C-46.095%20-10.212%2C-46.033%20-10.148%2C-45.936%20-10.259%2C-45.907%20-10.246%2C-45.808%20-10.272%2C-45.731%20-10.214%2C-45.727%20-10.159%2C-45.635%20-10.138%2C-45.611%20-10.104%2C-45.565%20-10.140%2C-45.565%20-10.194%2C-45.520%20-10.211%2C-45.526%20-10.241%2C-45.500%20-10.286%2C-45.451%20-10.293%2C-45.448%20-10.313%2C-45.399%20-10.331%2C-45.430%20-10.401%2C-45.394%20-10.433%2C-45.368%20-10.403%2C-45.351%20-10.409%2C-45.336%20-10.342%2C-45.301%20-10.313%2C-45.275%20-10.321%2C-45.273%20-10.301%2C-45.253%20-10.302%2C-45.265%20-10.331%2C-45.244%20-10.337%2C-45.262%20-10.366%2C-45.253%20-10.372%2C-45.234%20-10.347%2C-45.224%20-10.359%2C-45.229%20-10.310%2C-45.204%20-10.312%2C-45.180%20-10.275%2C-45.430%20-10.161%2C-45.444%20-10.114%2C-45.409%20-10.081%2C-45.433%20-10.063%2C-45.419%20-10.063%2C-45.421%20-10.019%2C-45.402%20-9.986%2C-45.422%20-9.981%2C-45.428%20-10.000%2C-45.447%20-10.002))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 713,
+      "species": [
+        {
+          "gbifKey": 2478233,
+          "scientificName": "Colaptes campestris",
+          "name": "Pica-pau-do-campo",
+          "family": "Picidae",
+          "records": 24,
+          "iucn": "LC",
+          "wikidata": "Q1274176",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Campo_flicker_%28Colaptes_campestris%29_female.JPG/960px-Campo_flicker_%28Colaptes_campestris%29_female.JPG",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campo_flicker_(Colaptes_campestris)_female.JPG",
+            "width": 640,
+            "height": 960,
+            "alt": "Pica-pau-do-campo (Colaptes campestris)"
+          }
+        },
+        {
+          "gbifKey": 2480790,
+          "scientificName": "Theristicus caudatus",
+          "name": "Curicaca",
+          "family": "Threskiornithidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q574693",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/CURICACA_%28_Theristicus_caudatus_%29.jpg",
+            "author": "Dario Sanches",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:CURICACA_(_Theristicus_caudatus_).jpg",
+            "width": 640,
+            "height": 436,
+            "alt": "curicaca (Theristicus caudatus)"
+          }
+        },
+        {
+          "gbifKey": 2491982,
+          "scientificName": "Charitospiza eucosma",
+          "name": "Mineirinho",
+          "family": "Thraupidae",
+          "records": 21,
+          "iucn": "NT",
+          "wikidata": "Q860134",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Charitospiza_eucosma_1838.jpg/960px-Charitospiza_eucosma_1838.jpg",
+            "author": "Nicolas Huet / Jean Gabriel Prêtre",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charitospiza_eucosma_1838.jpg",
+            "width": 640,
+            "height": 902,
+            "alt": "Mineirinho (Charitospiza eucosma)"
+          }
+        },
+        {
+          "gbifKey": 5231103,
+          "scientificName": "Zonotrichia capensis",
+          "name": "Tico-tico",
+          "family": "Passerellidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q587505",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zonotrichia_capensis_-Buenos_Aires%2C_Argentina-8.jpg/960px-Zonotrichia_capensis_-Buenos_Aires%2C_Argentina-8.jpg",
+            "author": "dfaulder",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zonotrichia_capensis_-Buenos_Aires,_Argentina-8.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Tico-tico (Zonotrichia capensis)"
+          }
+        },
+        {
+          "gbifKey": 5959231,
+          "scientificName": "Ara ararauna",
+          "name": "Arara-canindé",
+          "family": "Psittacidae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q205477",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/960px-Ara_ararauna_Luc_Viatour.jpg",
+            "author": "Luc Viatour",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg",
+            "width": 640,
+            "height": 494,
+            "alt": "Arara-canindé (Ara ararauna)"
+          }
+        },
+        {
+          "gbifKey": 2479121,
+          "scientificName": "Aratinga aurea",
+          "name": "Periquito-rei",
+          "family": "Psittacidae",
+          "records": 16,
+          "iucn": null,
+          "wikidata": "Q775485",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
+            "author": "No machine-readable author provided. CyberknightMK~commonswiki assumed (based on",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_aurea-0.jpg",
+            "width": 640,
+            "height": 826,
+            "alt": "Periquito-rei (Aratinga aurea)"
+          }
+        },
+        {
+          "gbifKey": 5228133,
+          "scientificName": "Cariama cristata",
+          "name": "Seriema",
+          "family": "Cariamidae",
+          "records": 16,
+          "iucn": "LC",
+          "wikidata": "Q903662",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Red-legged_seriema_%28Cariama_cristata%29_head.JPG/960px-Red-legged_seriema_%28Cariama_cristata%29_head.JPG",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red-legged_seriema_(Cariama_cristata)_head.JPG",
+            "width": 640,
+            "height": 621,
+            "alt": "Seriema (Cariama cristata)"
+          }
+        },
+        {
+          "gbifKey": 2495380,
+          "scientificName": "Uropelia campestris",
+          "name": "Rolinha-vaqueira",
+          "family": "Columbidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q1265165",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Uropelia_campestris_-_Long-tailed_Ground_Dove%3B_Corumb%C3%A1%2C_Mato_Grosso_do_Sul%2C_Brazil.jpg/960px-Uropelia_campestris_-_Long-tailed_Ground_Dove%3B_Corumb%C3%A1%2C_Mato_Grosso_do_Sul%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uropelia_campestris_-_Long-tailed_Ground_Dove;_Corumb%C3%A1,_Mato_Grosso_do_Sul,_Brazil.jpg",
+            "width": 640,
+            "height": 479,
+            "alt": "Rolinha-vaqueira (Uropelia campestris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 1161,
+      "species": [
+        {
+          "gbifKey": 3169679,
+          "scientificName": "Hancornia speciosa",
+          "name": "Mangaba",
+          "family": "Apocynaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q3894762",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hancornia_speciosa.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hancornia_speciosa.jpg",
+            "width": 640,
+            "height": 535,
+            "alt": "Mangaba (Hancornia speciosa)"
+          }
+        },
+        {
+          "gbifKey": 2884228,
+          "scientificName": "Pouteria ramiflora",
+          "name": "Curriola",
+          "family": "Sapotaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15329092",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pouteria_ramiflora.jpg/960px-Pouteria_ramiflora.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pouteria_ramiflora.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Curriola (Pouteria ramiflora)"
+          }
+        },
+        {
+          "gbifKey": 2947119,
+          "scientificName": "Cenostigma macrophyllum",
+          "name": "Caneleiro (árvore)",
+          "family": "Fabaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q9694262",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Caneleiro.jpg",
+            "author": "Hudsonfas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caneleiro.jpg",
+            "width": 640,
+            "height": 768,
+            "alt": "Caneleiro (árvore) (Cenostigma macrophyllum)"
+          }
+        },
+        {
+          "gbifKey": 2985176,
+          "scientificName": "Hirtella ciliata",
+          "name": "Campineiro",
+          "family": "Chrysobalanaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15391369",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Hirtella_ciliata_Mart._%5E_Zucc._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%2836%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hirtella_ciliata_Mart._%5E_Zucc._-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(36).jpg",
+            "width": 640,
+            "height": 359,
+            "alt": "Campineiro (Hirtella ciliata)"
+          }
+        },
+        {
+          "gbifKey": 7326640,
+          "scientificName": "Rourea induta",
+          "name": null,
+          "family": "Connaraceae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q18009492",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Rourea_induta_flower.jpg/960px-Rourea_induta_flower.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rourea_induta_flower.jpg",
+            "width": 640,
+            "height": 472,
+            "alt": "Rourea induta"
+          }
+        },
+        {
+          "gbifKey": 3055701,
+          "scientificName": "Dalechampia linearis",
+          "name": null,
+          "family": "Euphorbiaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q15372334",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Dalechampia_linearis.jpg/960px-Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Dalechampia_linearis.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Dalechampia_linearis.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Dalechampia linearis"
+          }
+        },
+        {
+          "gbifKey": 2950049,
+          "scientificName": "Chamaecrista ramosa",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15467773",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Chamaecrista_ramosa_var._lucida.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chamaecrista_ramosa_var._lucida.jpg",
+            "width": 640,
+            "height": 836,
+            "alt": "Chamaecrista ramosa"
+          }
+        },
+        {
+          "gbifKey": 2970071,
+          "scientificName": "Mimosa somnians",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q13933651",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Mimosa_somnians_Humb._%5E_Bonpl._ex_Willd._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%289%29.jpg/960px-Mimosa_somnians_Humb._%5E_Bonpl._ex_Willd._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%289%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosa_somnians_Humb._%5E_Bonpl._ex_Willd._-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(9).jpg",
+            "width": 640,
+            "height": 361,
+            "alt": "Mimosa somnians"
+          }
+        },
+        {
+          "gbifKey": 3191437,
+          "scientificName": "Polygala longicaulis",
+          "name": null,
+          "family": "Polygalaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q15582107",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Polygala_longicaulis_%281%29.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Polygala_longicaulis_(1).jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Polygala longicaulis"
+          }
+        },
+        {
+          "gbifKey": 5275374,
+          "scientificName": "Dicranopteris flexuosa",
+          "name": null,
+          "family": "Gleicheniaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q17037738",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Dicranopteris_flexuosa.jpg/960px-Dicranopteris_flexuosa.jpg",
+            "author": "Evaldo Resende",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dicranopteris_flexuosa.jpg",
+            "width": 640,
+            "height": 428,
+            "alt": "Dicranopteris flexuosa"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 5622772,
+      "scientificName": "Cereus mirabella",
+      "name": "Mandacaru-de-Mirabela",
+      "family": "Cactaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q309535",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Cereus_mirabella_N.P.Taylor_%28Mirabella_minensis_Ritter%29.jpg/960px-Cereus_mirabella_N.P.Taylor_%28Mirabella_minensis_Ritter%29.jpg",
+        "author": "PierreBraun",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cereus_mirabella_N.P.Taylor_(Mirabella_minensis_Ritter).jpg",
+        "width": 640,
+        "height": 960,
+        "alt": "Mandacaru-de-Mirabela (Cereus mirabella)"
+      }
+    },
+    {
+      "gbifKey": 3826056,
+      "scientificName": "Caryocar coriaceum",
+      "name": "Piqui",
+      "family": "Caryocaraceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q5047715",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Piqui.jpg",
+        "author": "Rapper Ouriço",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piqui.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Piqui (Caryocar coriaceum)"
+      }
+    },
+    {
+      "gbifKey": 2479359,
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "family": "Psittacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q463154",
+      "photo": null
+    },
+    {
+      "gbifKey": 3174691,
+      "scientificName": "Myrcia splendens",
+      "name": null,
+      "family": "Myrtaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q15376180",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/13800_Myrcia_splendens%2C_mouth_of_Rio_Nichar%C3%A9%2C_Venezuela.jpg/960px-13800_Myrcia_splendens%2C_mouth_of_Rio_Nichar%C3%A9%2C_Venezuela.jpg",
+        "author": "Vojtěch Zavadil",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:13800_Myrcia_splendens,_mouth_of_Rio_Nichar%C3%A9,_Venezuela.jpg",
+        "width": 640,
+        "height": 417,
+        "alt": "Myrcia splendens"
+      }
+    },
+    {
+      "gbifKey": 5355647,
+      "scientificName": "Plathymenia reticulata",
+      "name": "Vinhático",
+      "family": "Fabaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q15541573",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Mimosoideae_spp_Taub72.png/960px-Mimosoideae_spp_Taub72.png",
+        "author": "Paul Taubert",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosoideae_spp_Taub72.png",
+        "width": 640,
+        "height": 413,
+        "alt": "Vinhático (Plathymenia reticulata)"
+      }
+    },
+    {
+      "gbifKey": 9071001,
+      "scientificName": "Miconia astrocalyx",
+      "name": null,
+      "family": "Melastomataceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q42748010",
+      "photo": null
+    }
+  ]
+}

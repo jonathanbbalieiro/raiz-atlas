@@ -1,0 +1,565 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=MULTIPOLYGON(((-53.813%20-23.395%2C-53.887%20-23.436%2C-53.905%20-23.437%2C-53.938%20-23.454%2C-53.956%20-23.446%2C-53.977%20-23.460%2C-53.998%20-23.510%2C-53.998%20-23.560%2C-54.021%20-23.620%2C-54.024%20-23.655%2C-54.038%20-23.676%2C-54.042%20-23.731%2C-54.062%20-23.750%2C-54.075%20-23.787%2C-54.077%20-23.816%2C-54.070%20-23.831%2C-54.082%20-23.856%2C-54.071%20-23.886%2C-54.090%20-23.932%2C-54.086%20-23.966%2C-54.127%20-23.989%2C-54.152%20-23.994%2C-54.161%20-24.009%2C-54.187%20-24.017%2C-54.232%20-24.049%2C-54.191%20-24.061%2C-54.120%20-24.039%2C-54.093%20-24.002%2C-54.040%20-23.958%2C-54.034%20-23.923%2C-54.052%20-23.899%2C-54.045%20-23.859%2C-54.012%20-23.811%2C-53.993%20-23.746%2C-53.965%20-23.695%2C-53.958%20-23.651%2C-53.916%20-23.582%2C-53.902%20-23.479%2C-53.893%20-23.461%2C-53.850%20-23.417%2C-53.813%20-23.395))%2C((-53.838%20-23.432%2C-53.828%20-23.419%2C-53.846%20-23.427%2C-53.884%20-23.463%2C-53.898%20-23.499%2C-53.903%20-23.574%2C-53.910%20-23.594%2C-53.948%20-23.651%2C-53.959%20-23.708%2C-53.983%20-23.747%2C-54.019%20-23.851%2C-54.039%20-23.868%2C-54.044%20-23.895%2C-54.023%20-23.939%2C-53.992%20-23.849%2C-53.966%20-23.806%2C-53.966%20-23.782%2C-53.954%20-23.763%2C-53.934%20-23.685%2C-53.916%20-23.655%2C-53.916%20-23.634%2C-53.885%20-23.582%2C-53.887%20-23.561%2C-53.857%20-23.492%2C-53.849%20-23.436%2C-53.838%20-23.432))%2C((-53.739%20-23.316%2C-53.739%20-23.310%2C-53.753%20-23.316%2C-53.780%20-23.339%2C-53.816%20-23.357%2C-53.878%20-23.369%2C-53.895%20-23.393%2C-53.934%20-23.426%2C-53.885%20-23.416%2C-53.830%20-23.380%2C-53.773%20-23.371%2C-53.768%20-23.351%2C-53.739%20-23.316))%2C((-54.096%20-23.919%2C-54.084%20-23.890%2C-54.086%20-23.879%2C-54.092%20-23.878%2C-54.136%20-23.934%2C-54.156%20-23.972%2C-54.191%20-24.005%2C-54.112%20-23.960%2C-54.106%20-23.931%2C-54.096%20-23.919))%2C((-54.140%20-23.932%2C-54.168%20-23.952%2C-54.179%20-23.986%2C-54.163%20-23.977%2C-54.140%20-23.932))%2C((-53.732%20-23.349%2C-53.718%20-23.345%2C-53.716%20-23.320%2C-53.701%20-23.306%2C-53.707%20-23.293%2C-53.732%20-23.349))%2C((-54.098%20-23.970%2C-54.089%20-23.960%2C-54.093%20-23.946%2C-54.112%20-23.971%2C-54.098%20-23.970))%2C((-54.043%20-23.865%2C-54.023%20-23.847%2C-54.020%20-23.831%2C-54.043%20-23.865))%2C((-54.134%20-23.922%2C-54.148%20-23.924%2C-54.169%20-23.944%2C-54.134%20-23.922)))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 4,
+      "species": [
+        {
+          "gbifKey": 2440898,
+          "scientificName": "Tapirus terrestris",
+          "name": "Anta",
+          "family": "Tapiridae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q220271",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Anta (Tapirus terrestris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 3215,
+      "species": [
+        {
+          "gbifKey": 2495287,
+          "scientificName": "Patagioenas picazuro",
+          "name": "Asa-branca",
+          "family": "Columbidae",
+          "records": 50,
+          "iucn": "LC",
+          "wikidata": "Q1269659",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Patagioenas_picazuro_-Buenos_Aires%2C_Argentina-8-4c.jpg/960px-Patagioenas_picazuro_-Buenos_Aires%2C_Argentina-8-4c.jpg",
+            "author": "Patagioenas_picazuro_-Buenos_Aires,_Argentina-8.jpg: dfaulder derivative work: S",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patagioenas_picazuro_-Buenos_Aires,_Argentina-8-4c.jpg",
+            "width": 640,
+            "height": 492,
+            "alt": "Asa-branca (Patagioenas picazuro)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Great_kiskadee_%2870240%29.jpg/960px-Great_kiskadee_%2870240%29.jpg",
+            "author": "Rhododendrites",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_kiskadee_(70240).jpg",
+            "width": 640,
+            "height": 871,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2487404,
+          "scientificName": "Cyclarhis gujanensis",
+          "name": "Pitiguari",
+          "family": "Vireonidae",
+          "records": 46,
+          "iucn": "LC",
+          "wikidata": "Q678728",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cyclarhis_gujanensis_-eating_green_caterpillar.jpg/960px-Cyclarhis_gujanensis_-eating_green_caterpillar.jpg",
+            "author": "Dario Sanches",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyclarhis_gujanensis_-eating_green_caterpillar.jpg",
+            "width": 640,
+            "height": 512,
+            "alt": "Pitiguari (Cyclarhis gujanensis)"
+          }
+        },
+        {
+          "gbifKey": 5959208,
+          "scientificName": "Thamnophilus doliatus",
+          "name": "Choca-barrada",
+          "family": "Thamnophilidae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q863581",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Barred_Antshrike_-_Lake_Bayano_-_Panama.jpg",
+            "author": "Francesco Veronesi from Italy",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barred_Antshrike_-_Lake_Bayano_-_Panama.jpg",
+            "width": 640,
+            "height": 749,
+            "alt": "choca-barrada (Thamnophilus doliatus)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Turdus_leucomelas.jpg",
+            "author": "Dario Sanches from SÃO PAULO, BRASIL",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turdus_leucomelas.jpg",
+            "width": 640,
+            "height": 462,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
+        },
+        {
+          "gbifKey": 2485821,
+          "scientificName": "Furnarius rufus",
+          "name": "João-de-barro",
+          "family": "Furnariidae",
+          "records": 42,
+          "iucn": "LC",
+          "wikidata": "Q852731",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg/960px-Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_%28Furnarius_rufus%29_%283%29.jpg",
+            "author": "Dario Sanches from São Paulo, Brasil",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Dario_Sanches_-_JO%C3%83O-DE-BARRO_(Furnarius_rufus)_(3).jpg",
+            "width": 640,
+            "height": 560,
+            "alt": "João-de-barro (Furnarius rufus)"
+          }
+        },
+        {
+          "gbifKey": 2479121,
+          "scientificName": "Aratinga aurea",
+          "name": "Periquito-rei",
+          "family": "Psittacidae",
+          "records": 41,
+          "iucn": null,
+          "wikidata": "Q775485",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
+            "author": "No machine-readable author provided. CyberknightMK~commonswiki assumed (based on",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aratinga_aurea-0.jpg",
+            "width": 640,
+            "height": 826,
+            "alt": "Periquito-rei (Aratinga aurea)"
+          }
+        },
+        {
+          "gbifKey": 2488622,
+          "scientificName": "Thraupis sayaca",
+          "name": "Sanhaço-cinzento",
+          "family": "Thraupidae",
+          "records": 41,
+          "iucn": null,
+          "wikidata": "Q1588073",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/960px-Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga,_S%C3%A3o_Paulo,_Brazil.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Sanhaço-cinzento (Thraupis sayaca)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 7,
+      "species": [
+        {
+          "gbifKey": 5846511,
+          "scientificName": "Caiman latirostris",
+          "name": "Jacaré-do-papo-amarelo",
+          "family": "Alligatoridae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q644453",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jacare_de_papo_amarelo_zoo.jpg/960px-Jacare_de_papo_amarelo_zoo.jpg",
+            "author": "Miguelrangeljr",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacare_de_papo_amarelo_zoo.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "jacaré-do-papo-amarelo (Caiman latirostris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 12,
+      "species": [
+        {
+          "gbifKey": 2428453,
+          "scientificName": "Dendropsophus nanus",
+          "name": "Perereca-anã",
+          "family": "Hylidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q2700927",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Dendropsophus_nanus_314940151.jpg/960px-Dendropsophus_nanus_314940151.jpg",
+            "author": "Holger Braun",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendropsophus_nanus_314940151.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Perereca-anã (Dendropsophus nanus)"
+          }
+        },
+        {
+          "gbifKey": 5217598,
+          "scientificName": "Leptodactylus podicipinus",
+          "name": "Rã do ventre salpicado",
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2237838",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Leptodactylus_podicipinus05.jpg",
+            "author": "Diogo B. Provete",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodactylus_podicipinus05.jpg",
+            "width": 640,
+            "height": 436,
+            "alt": "Rã do ventre salpicado (Leptodactylus podicipinus)"
+          }
+        },
+        {
+          "gbifKey": 8268125,
+          "scientificName": "Leptodactylus latrans",
+          "name": "Leptodactylus ocellatus",
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2238202",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Leptodactylus_ocellatus01c.jpg/960px-Leptodactylus_ocellatus01c.jpg",
+            "author": "Cláudio D. Timm",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodactylus_ocellatus01c.jpg",
+            "width": 640,
+            "height": 541,
+            "alt": "Leptodactylus ocellatus (Leptodactylus latrans)"
+          }
+        },
+        {
+          "gbifKey": 9383706,
+          "scientificName": "Trachycephalus typhonius",
+          "name": "Perereca-do-cerrado",
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q28026017",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Cantos_luego_del_diluvio.jpg/960px-Cantos_luego_del_diluvio.jpg",
+            "author": "Edunavia1",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantos_luego_del_diluvio.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Perereca-do-cerrado (Trachycephalus typhonius)"
+          }
+        },
+        {
+          "gbifKey": 9854382,
+          "scientificName": "Boana raniceps",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 487,
+      "species": [
+        {
+          "gbifKey": 7323527,
+          "scientificName": "Pfaffia glomerata",
+          "name": "Ginseng-brasileiro",
+          "family": "Amaranthaceae",
+          "records": 14,
+          "iucn": null,
+          "wikidata": "Q9058936",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Pfaffia_glomerata-costapppr.jpg/960px-Pfaffia_glomerata-costapppr.jpg",
+            "author": "CostaPPPR",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pfaffia_glomerata-costapppr.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Ginseng-brasileiro (Pfaffia glomerata)"
+          }
+        },
+        {
+          "gbifKey": 5379861,
+          "scientificName": "Sapium haematospermum",
+          "name": "Leiteiro-chorão",
+          "family": "Euphorbiaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q6121693",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Detalle_de_frutos_y_hojas_de_S._haematospermum.jpg",
+            "author": "Agustín Giagnacovo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detalle_de_frutos_y_hojas_de_S._haematospermum.jpg",
+            "width": 640,
+            "height": 1136,
+            "alt": "Leiteiro-chorão (Sapium haematospermum)"
+          }
+        },
+        {
+          "gbifKey": 3190491,
+          "scientificName": "Trichilia pallida",
+          "name": "Baga-de-morcego",
+          "family": "Meliaceae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q15526615",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Contributions_du_Jardin_botanique_de_Rio_de_Janeiro_-_tab._012_%2813603891133%29.jpg/960px-Contributions_du_Jardin_botanique_de_Rio_de_Janeiro_-_tab._012_%2813603891133%29.jpg",
+            "author": "Jardim Botânico do Rio de Janeiro.; Rodrigues, J. Barbosa",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Contributions_du_Jardin_botanique_de_Rio_de_Janeiro_-_tab._012_(13603891133).jpg",
+            "width": 640,
+            "height": 941,
+            "alt": "Baga-de-morcego (Trichilia pallida)"
+          }
+        },
+        {
+          "gbifKey": 2739153,
+          "scientificName": "Acrocomia totai",
+          "name": "Bocaiúva",
+          "family": "Arecaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q17234662",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Acrocomia_totai.jpeg/960px-Acrocomia_totai.jpeg",
+            "author": "© 2006 Carla Antonini",
+            "license": "CC BY-SA 2.5 ar",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acrocomia_totai.jpeg",
+            "width": 640,
+            "height": 853,
+            "alt": "Bocaiúva (Acrocomia totai)"
+          }
+        },
+        {
+          "gbifKey": 3055569,
+          "scientificName": "Dalechampia scandens",
+          "name": "Tamiarana",
+          "family": "Euphorbiaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15370987",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Dalechampia_scandens.JPG/960px-Dalechampia_scandens.JPG",
+            "author": "Aniprina",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalechampia_scandens.JPG",
+            "width": 640,
+            "height": 480,
+            "alt": "Tamiarana (Dalechampia scandens)"
+          }
+        },
+        {
+          "gbifKey": 4013385,
+          "scientificName": "Cecropia pachystachya",
+          "name": "Embaúba-branca",
+          "family": "Urticaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15546547",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cecropia_pachystachya.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cecropia_pachystachya.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Embaúba-branca (Cecropia pachystachya)"
+          }
+        },
+        {
+          "gbifKey": 2925385,
+          "scientificName": "Lippia alba",
+          "name": "Erva-cidreira-brasileira",
+          "family": "Verbenaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q10954705",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Lippia_alba.jpg/960px-Lippia_alba.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lippia_alba.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "erva-cidreira-brasileira (Lippia alba)"
+          }
+        },
+        {
+          "gbifKey": 5358039,
+          "scientificName": "Inga laurina",
+          "name": "Ingá-branco",
+          "family": "Fabaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15538172",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Inga_laurina.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Inga_laurina.jpg",
+            "width": 640,
+            "height": 566,
+            "alt": "Ingá-branco (Inga laurina)"
+          }
+        },
+        {
+          "gbifKey": 2721495,
+          "scientificName": "Rhynchospora corymbosa",
+          "name": "Capim-navalha",
+          "family": "Cyperaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q10865325",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/%E4%B8%89%E5%84%89%E8%8D%89.JPG/960px-%E4%B8%89%E5%84%89%E8%8D%89.JPG",
+            "author": "Honmingjun",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%84%89%E8%8D%89.JPG",
+            "width": 640,
+            "height": 960,
+            "alt": "Capim-navalha (Rhynchospora corymbosa)"
+          }
+        },
+        {
+          "gbifKey": 2884079,
+          "scientificName": "Pouteria glomerata",
+          "name": "Abiorana-do-igapó",
+          "family": "Sapotaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15328435",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Pouteria_glomerata_subsp._glomerata_3888755353.jpg/960px-Pouteria_glomerata_subsp._glomerata_3888755353.jpg",
+            "author": "iNaturalist.org (Alexis López Hernández) (Alexis López Hernández)",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pouteria_glomerata_subsp._glomerata_3888755353.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Abiorana-do-igapó (Pouteria glomerata)"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2353463,
+      "scientificName": "Brycon orbignyanus",
+      "name": "Piracanjuba",
+      "family": "Bryconidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q724912",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bonito05.jpg",
+        "author": "Sérgio Veludo",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonito05.jpg",
+        "width": 640,
+        "height": 457,
+        "alt": "Piracanjuba (Brycon orbignyanus)"
+      }
+    },
+    {
+      "gbifKey": 2440898,
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "family": "Tapiridae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q220271",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-64.097%20-11.394%2C-64.106%20-11.383%2C-64.132%20-11.395%2C-64.141%20-11.385%2C-64.146%20-11.386%2C-64.236%20-11.422%2C-64.316%20-11.411%2C-64.348%20-11.428%2C-64.359%20-11.443%2C-64.370%20-11.449%2C-64.381%20-11.449%2C-64.399%20-11.440%2C-64.418%20-11.441%2C-64.434%20-11.436%2C-64.443%20-11.441%2C-64.473%20-11.436%2C-64.478%20-11.451%2C-64.490%20-11.458%2C-64.486%20-11.467%2C-64.445%20-11.487%2C-64.421%20-11.519%2C-64.419%20-11.530%2C-64.408%20-11.533%2C-64.394%20-11.550%2C-64.350%20-11.577%2C-64.337%20-11.590%2C-64.337%20-11.601%2C-64.350%20-11.611%2C-64.374%20-11.647%2C-64.391%20-11.639%2C-64.408%20-11.645%2C-64.439%20-11.631%2C-64.468%20-11.643%2C-64.514%20-11.636%2C-64.533%20-11.647%2C-64.547%20-11.648%2C-64.570%20-11.671%2C-64.587%20-11.659%2C-64.603%20-11.661%2C-64.614%20-11.655%2C-64.631%20-11.662%2C-64.643%20-11.646%2C-64.682%20-11.631%2C-64.707%20-11.632%2C-64.724%20-11.621%2C-64.736%20-11.625%2C-64.745%20-11.620%2C-64.758%20-11.624%2C-64.776%20-11.621%2C-64.793%20-11.630%2C-64.817%20-11.689%2C-64.871%20-11.698%2C-64.882%20-11.715%2C-64.868%20-11.722%2C-64.857%20-11.742%2C-64.848%20-11.750%2C-64.846%20-11.764%2C-64.840%20-11.772%2C-64.794%20-11.798%2C-64.752%20-11.841%2C-64.723%20-11.854%2C-64.716%20-11.849%2C-64.708%20-11.855%2C-64.698%20-11.853%2C-64.691%20-11.868%2C-64.682%20-11.868%2C-64.677%20-11.874%2C-64.677%20-11.893%2C-64.664%20-11.900%2C-64.658%20-11.919%2C-64.636%20-11.932%2C-64.623%20-11.924%2C-64.622%20-11.913%2C-64.613%20-11.909%2C-64.610%20-11.894%2C-64.594%20-11.880%2C-64.599%20-11.878%2C-64.605%20-11.860%2C-64.602%20-11.845%2C-64.557%20-11.830%2C-64.546%20-11.834%2C-64.536%20-11.830%2C-64.516%20-11.832%2C-64.489%20-11.856%2C-64.481%20-11.870%2C-64.468%20-11.875%2C-64.468%20-11.907%2C-64.463%20-11.909%2C-64.440%20-11.912%2C-64.413%20-11.903%2C-64.391%20-11.910%2C-64.374%20-11.904%2C-64.346%20-11.903%2C-64.322%20-11.873%2C-64.293%20-11.851%2C-64.288%20-11.836%2C-64.290%20-11.823%2C-64.184%20-11.723%2C-64.170%20-11.705%2C-64.159%20-11.697%2C-64.141%20-11.692%2C-64.117%20-11.713%2C-64.112%20-11.697%2C-64.089%20-11.687%2C-64.087%20-11.664%2C-64.077%20-11.650%2C-64.055%20-11.646%2C-64.053%20-11.635%2C-64.039%20-11.624%2C-63.989%20-11.604%2C-63.983%20-11.591%2C-63.980%20-11.569%2C-64.025%20-11.505%2C-63.978%20-11.389%2C-64.035%20-11.408%2C-64.045%20-11.402%2C-64.066%20-11.409%2C-64.076%20-11.403%2C-64.088%20-11.404%2C-64.097%20-11.394))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 23,
+      "species": [
+        {
+          "gbifKey": 2467337,
+          "scientificName": "Anolis punctatus",
+          "name": "Lagarto papa-vento",
+          "family": "Dactyloidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q2503098",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Anolis_punctatus_180509573.jpg/960px-Anolis_punctatus_180509573.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anolis_punctatus_180509573.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Lagarto papa-vento (Anolis punctatus)"
+          }
+        },
+        {
+          "gbifKey": 2447631,
+          "scientificName": "Gonatodes humeralis",
+          "name": "Lagartinho-Colorido",
+          "family": "Sphaerodactylidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q752903",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gonatodes_humeralis_281628324.jpg/960px-Gonatodes_humeralis_281628324.jpg",
+            "author": "Alessandher Piva",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gonatodes_humeralis_281628324.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "Lagartinho-Colorido (Gonatodes humeralis)"
+          }
+        },
+        {
+          "gbifKey": 2472164,
+          "scientificName": "Ameiva ameiva",
+          "name": "Calango-verde",
+          "family": "Teiidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q461237",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ameiva_ameiva-_female_-_Flickr_-_Dick_Culbert.jpg",
+            "author": "Dick Culbert from Gibsons, B.C., Canada",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ameiva_ameiva-_female_-_Flickr_-_Dick_Culbert.jpg",
+            "width": 640,
+            "height": 717,
+            "alt": "Calango-verde (Ameiva ameiva)"
+          }
+        },
+        {
+          "gbifKey": 5224886,
+          "scientificName": "Tropidurus oreadicus",
+          "name": "Calango",
+          "family": "Tropiduridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2414670",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Tropidurus_oreadicus.jpg/960px-Tropidurus_oreadicus.jpg",
+            "author": "Virgilinojuca",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tropidurus_oreadicus.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Calango (Tropidurus oreadicus)"
+          }
+        },
+        {
+          "gbifKey": 8215919,
+          "scientificName": "Copeoglossum nigropunctatum",
+          "name": "Calango-liso",
+          "family": "Scincidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2996743",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Copeoglossum_nigropunctatum_323446041_%28cropped%29.jpg/960px-Copeoglossum_nigropunctatum_323446041_%28cropped%29.jpg",
+            "author": "thibaudaronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Copeoglossum_nigropunctatum_323446041_(cropped).jpg",
+            "width": 640,
+            "height": 305,
+            "alt": "Calango-liso (Copeoglossum nigropunctatum)"
+          }
+        },
+        {
+          "gbifKey": 2450406,
+          "scientificName": "Cercosaura eigenmanni",
+          "name": null,
+          "family": "Gymnophthalmidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q5313612",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Cercosaura_eigenmanni_250446096.jpeg/960px-Cercosaura_eigenmanni_250446096.jpeg",
+            "author": "....Christopher Borges....",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cercosaura_eigenmanni_250446096.jpeg",
+            "width": 640,
+            "height": 424,
+            "alt": "Cercosaura eigenmanni"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 194,
+      "species": [
+        {
+          "gbifKey": 3790743,
+          "scientificName": "Cheiloclinium cognatum",
+          "name": "Uarutama",
+          "family": "Celastraceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15327322",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Cheiloclinium_cognatum_%28Miers%29_A.C.Sm._%289428757668%29.jpg/960px-Cheiloclinium_cognatum_%28Miers%29_A.C.Sm._%289428757668%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheiloclinium_cognatum_(Miers)_A.C.Sm._(9428757668).jpg",
+            "width": 640,
+            "height": 361,
+            "alt": "Uarutama (Cheiloclinium cognatum)"
+          }
+        },
+        {
+          "gbifKey": 3157040,
+          "scientificName": "Xylopia sericea",
+          "name": "Semente de embira",
+          "family": "Annonaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q8045509",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Xylopia_sericea_fruits.jpg/960px-Xylopia_sericea_fruits.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xylopia_sericea_fruits.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Semente de embira (Xylopia sericea)"
+          }
+        },
+        {
+          "gbifKey": 3867110,
+          "scientificName": "Miconia egensis",
+          "name": null,
+          "family": "Melastomataceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15394572",
+          "photo": null
+        },
+        {
+          "gbifKey": 3157048,
+          "scientificName": "Xylopia cuspidata",
+          "name": null,
+          "family": "Annonaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15366700",
+          "photo": null
+        },
+        {
+          "gbifKey": 3157191,
+          "scientificName": "Xylopia benthamii",
+          "name": null,
+          "family": "Annonaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15367496",
+          "photo": null
+        },
+        {
+          "gbifKey": 5532847,
+          "scientificName": "Trichomanes hostmannianum",
+          "name": null,
+          "family": "Hymenophyllaceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q15607191",
+          "photo": null
+        },
+        {
+          "gbifKey": 3174143,
+          "scientificName": "Myrcia paivae",
+          "name": null,
+          "family": "Myrtaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15375563",
+          "photo": null
+        },
+        {
+          "gbifKey": 7661791,
+          "scientificName": "Miconia punctata",
+          "name": null,
+          "family": "Melastomataceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        },
+        {
+          "gbifKey": 8267213,
+          "scientificName": "Compsoneura ulei",
+          "name": null,
+          "family": "Myristicaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        },
+        {
+          "gbifKey": 11013835,
+          "scientificName": "Taquara micrantha",
+          "name": null,
+          "family": "Poaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": []
+}

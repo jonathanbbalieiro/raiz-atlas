@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Morros de pedra isolados formam serras no meio da floresta da Terra do Meio, à beira do rio Xingu.",
+  "intro": "No Pará, entre Altamira e São Félix do Xingu, o Parque Nacional da Serra do Pardo protege cerca de 446 mil hectares de floresta à beira do rio Xingu. Faz parte do mosaico de áreas protegidas da Terra do Meio, uma região pressionada pelo desmatamento.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Serras de inselbergs, igarapés frágeis e a memória dos seringais",
+    "items": [
+      {
+        "title": "Serras feitas de morros isolados",
+        "text": "Conjuntos de inselbergs, pequenas montanhas arredondadas, formam as duas serras do parque. A altitude média passa de 400 metros, e o alto das serras está em excelente estado de conservação.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Água numa terra de poucos rios",
+        "text": "A serra do sudoeste recarrega os aquíferos e alimenta as nascentes do igarapé Pontal, um dos principais cursos d'água de uma região pobre em rios.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Peixes isolados nas cabeceiras",
+        "text": "Nos igarapés da serra, populações pequenas e isoladas de peixes podem desaparecer com uma perturbação de média intensidade.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Gente do beiradão",
+        "text": "Famílias ribeirinhas, descendentes de seringueiros que chegaram do Nordeste, vivem dentro do parque às margens do Xingu.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Rio Xingu",
+      "text": "O parque fica à beira do Xingu, defronte à Terra Indígena Apyterewa. Para vencer as cachoeiras e pedrais do rio, seringueiros abriram estradas de varação no início do século 20.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/ParqueNacionalSerraDoPardo_Ricardo_Sol_Dagnino_2008.JPG",
+        "author": "Ricardo Dagnino",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParqueNacionalSerraDoPardo_Ricardo_Sol_Dagnino_2008.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Sol nascendo sobre o rio Xingu",
+        "context": "Amanhecer no rio Xingu, no Parque Nacional da Serra do Pardo."
+      }
+    },
+    {
+      "title": "Serra em ferradura",
+      "text": "No centro-norte do parque, uma serra em forma de ferradura se estende por cerca de 40 km, com altitude média acima de 400 metros. Ainda não foi estudada.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cachoeira do Pardo",
+      "text": "O parque leva o nome da Serra do Rio Pardo e da cachoeira de mesmo nome, ambas dentro de seus limites.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Ribeirinhos do Iriri contam que o seringalista coronel Porphírio dizia que, no Iriri, até os macacos eram dele.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Zé Preto, morador do parque nascido em 1938 na vila de São Sebastião, trabalhou com seringa, castanha, peles de gato, jaborandi e até na construção da Transamazônica.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O príncipe Adalberto da Prússia, em 1842, e o geógrafo Henri Coudreau, em 1896, deixaram alguns dos relatos mais antigos sobre este trecho do Xingu.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A arraia-xingu, peixe vulnerável dos rios da região, tem registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Até o século XIX · Terra de muitos povos",
+      "text": "Juruna, Kayapó, Araweté, Asurini, Xipaya, Kuruaya e Parakanã circulavam pelo médio Xingu.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1890 a 1940 · O tempo da seringa",
+      "text": "A vila de São Sebastião, à beira do Xingu, era entreposto dos seringais do igarapé Pontal. Migrantes nordestinos chegavam para cortar seringa.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2005 · Nasce o parque",
+      "text": "O decreto de 17 de fevereiro cria o parque junto com a Estação Ecológica da Terra do Meio. O assassinato da missionária Dorothy Stang, naquele mês, deu urgência à decisão.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2015 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Ateles marginatus",
+      "name": "Macaco-aranha-de-cara-branca",
+      "why": "Em perigo, tem registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg/960px-Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Macaco-aranha-de-cara-branca (Ateles marginatus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ateles marginatus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "why": "Em perigo, está na lista de espécies ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 640,
+        "height": 253,
+        "alt": "Ariranha (Pteronura brasiliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pteronura brasiliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Potamotrygon leopoldi",
+      "name": "Arraia-xingu",
+      "why": "Peixe vulnerável, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Potamotrygon_leopoldi_Natural_History_Museum_University_of_Pisa.jpg/960px-Potamotrygon_leopoldi_Natural_History_Museum_University_of_Pisa.jpg",
+        "author": "Mattia Nocciola",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potamotrygon_leopoldi_Natural_History_Museum_University_of_Pisa.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Arraia-xingu (Potamotrygon leopoldi); fotografia da espécie",
+        "context": "Retrato ilustrativo de Potamotrygon leopoldi. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra do Pardo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-pardo",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Serra do Pardo (2015)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-pardo/arquivos/dcom_plano_de_manejo_parna_serra_do_pardo_18092015.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

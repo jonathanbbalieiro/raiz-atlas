@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "O parque leva o nome de uma criatura da floresta, e a Amazônia de fato abrigou preguiças do tamanho de elefantes.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Preguiças-gigantes",
+      "scientificName": "Eremotherium laurillardi",
+      "when": "Pleistoceno, até cerca de 10 mil anos atrás",
+      "text": "Na região do rio Madeira há registros de pelo menos três espécies de preguiças-gigantes, sendo o Eremotherium laurillardi o fóssil mais comum em Araras. Em Vista Alegre do Abunã, distrito de Porto Velho, geólogos do Serviço Geológico do Brasil mapearam a maior paleotoca já registrada no país, com cerca de 600 metros de túneis marcados por garras. Nenhum animal atual da região seria capaz de escavar algo assim.",
+      "sourceIds": [
+        "semtel-pvh",
+        "adamy-2016"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "semtel-pvh",
+      "institution": "Prefeitura de Porto Velho (SEMTEL) / SGBeduca",
+      "title": "Preguiça gigante",
+      "url": "https://semtel.portovelho.ro.gov.br/noticias/preguica-gigante",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "adamy-2016",
+      "institution": "Serviço Geológico do Brasil (CPRM) — 48º Congresso Brasileiro de Geologia",
+      "title": "Descoberta a primeira paleotoca da Amazônia (Adamy, 2016)",
+      "url": "https://rigeo.sgb.gov.br/handle/doc/17604",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

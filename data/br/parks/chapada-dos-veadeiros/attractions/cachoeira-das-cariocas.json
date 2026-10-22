@@ -1,0 +1,90 @@
+{
+  "slug": "cachoeira-das-cariocas",
+  "name": "Cachoeira das Cariocas",
+  "type": "cachoeira",
+  "coordinates": [
+    -47.82086,
+    -14.14457
+  ],
+  "shortDescription": "Cachoeira de várias quedas em que o Rio Preto se divide, com um ótimo poço para banho, na Trilha dos Cânions do Parque Nacional.",
+  "longDescription": "Na bifurcação da Trilha dos Cânions, o caminho à esquerda segue por mais cerca de 1 km até as Cariocas, onde o Rio Preto se divide em duas quedas.\n\nA descida até o poço é íngreme e pede atenção redobrada. A visita costuma ser feita junto com o Cânion II.",
+  "photos": [
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Cachoeira_das_Cariocas_-_Chapada_dos_Veadeiros.jpg/1280px-Cachoeira_das_Cariocas_-_Chapada_dos_Veadeiros.jpg",
+      "alt": "Quedas da Cachoeira das Cariocas sobre rochas escuras",
+      "author": "Starmemories",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_das_Cariocas_-_Chapada_dos_Veadeiros.jpg",
+      "width": 1280,
+      "height": 960
+    },
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Cariocas_vista_por_cima_da_cachoeira.jpg/1280px-Cariocas_vista_por_cima_da_cachoeira.jpg",
+      "alt": "Cachoeira das Cariocas vista do alto",
+      "author": "Ricardo Henrique Pires de Sousa",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cariocas_vista_por_cima_da_cachoeira.jpg",
+      "width": 1280,
+      "height": 2276
+    }
+  ],
+  "access": {
+    "difficulty": "moderada",
+    "trailDistanceKm": 4.5,
+    "heightM": "A_VERIFICAR"
+  },
+  "bestSeason": "A_VERIFICAR",
+  "visiting": {
+    "guideRequired": false,
+    "entranceFee": true,
+    "openingHours": "Entrada nas trilhas entre 8h e 12h; saída do parque até as 18h",
+    "notes": "Distância do folheto do ICMBio: cerca de 9 km ida e volta."
+  },
+  "howToGetThere": {
+    "baseCity": "Vila de São Jorge (Alto Paraíso de Goiás)",
+    "distanceFromBaseKm": "A_VERIFICAR",
+    "directions": "A portaria do parque fica na Vila de São Jorge, na GO-239. As trilhas partem do Centro de Visitantes."
+  },
+  "tags": [
+    "banho_permitido"
+  ],
+  "sources": [
+    {
+      "title": "ICMBio: PARNA da Chapada dos Veadeiros, Normas e Orientações Gerais para Visitantes (folheto)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-veadeiros/linha-de-atuacao/arquivos/folder_final.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "access.trailDistanceKm",
+        "access.difficulty",
+        "visiting.openingHours",
+        "visiting.guideRequired"
+      ]
+    },
+    {
+      "title": "Goiás Turismo: Inventário Turístico de Alto Paraíso de Goiás, Caderno 3 (2020)",
+      "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2020/09/Carderno3InventarioAltoParaiso-c7b.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "longDescription"
+      ]
+    },
+    {
+      "title": "ICMBio: Contrato de concessão 02/2018, serviços de apoio à visitação (inclui venda de ingressos)",
+      "url": "https://www.gov.br/icmbio/pt-br/servicos/concessao-de-servicos-de-apoio-a-visitacao/contrato_02_2018_socicam_chapada_veadeiros.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "visiting.entranceFee"
+      ]
+    },
+    {
+      "title": "OpenStreetMap, node/10311367993 (© colaboradores do OpenStreetMap, ODbL)",
+      "url": "https://www.openstreetmap.org/node/10311367993",
+      "accessed": "2026-10-19",
+      "fields": [
+        "coordinates"
+      ]
+    }
+  ]
+}

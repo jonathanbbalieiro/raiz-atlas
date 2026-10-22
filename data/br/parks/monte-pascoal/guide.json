@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "O primeiro pedaço do Brasil avistado pelos portugueses ainda é um morro coberto de Mata Atlântica, com 536 metros.",
+  "intro": "No sul da Bahia, o Parque Nacional e Histórico do Monte Pascoal protege cerca de 22 mil hectares de Mata Atlântica, restingas e manguezais entre os rios Caraíva e Corumbau. É território do povo Pataxó e abriga a aldeia de Barra Velha.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visitacao",
+    "pm"
+  ],
+  "protects": {
+    "summary": "A paisagem que os portugueses viram em 1500 e a terra dos Pataxó",
+    "items": [
+      {
+        "title": "Do mar ao topo do monte",
+        "text": "Manguezais e restingas na costa, tabuleiros com cerca de 100 metros de altitude e o Monte Pascoal, que sobe a 536 metros.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Mata higrófila sul-baiana",
+        "text": "A maior parte do parque é coberta por floresta úmida, a mata higrófila sul-baiana, seguida de campos, capoeiras, restingas e manguezais.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Manguezais da costa",
+        "text": "Mangue-vermelho, siriba, mangue-manso e mangue-branco formam matas densas, com árvores de até 15 metros.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Patrimônio Mundial",
+        "text": "O parque integra as Reservas de Mata Atlântica da Costa do Descobrimento, reconhecidas pela UNESCO em 1999.",
+        "sourceIds": [
+          "unesco"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Monte Pascoal",
+      "text": "O morro de 536 metros foi a primeira terra do Brasil avistada pelos navegadores portugueses e dá nome ao parque.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Corumbau_-_BA_-_Monte_Pascoal_5.jpg/1280px-Corumbau_-_BA_-_Monte_Pascoal_5.jpg",
+        "author": "Cristina C. Lima",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corumbau_-_BA_-_Monte_Pascoal_5.jpg",
+        "width": 1280,
+        "height": 859,
+        "alt": "O Monte Pascoal ao fundo, visto de uma estrada de terra próxima a Corumbau (BA).",
+        "context": "O Monte Pascoal ao fundo, visto de uma estrada de terra próxima a Corumbau (BA); a foto mostra o monte à distância."
+      }
+    },
+    {
+      "title": "Aldeia Barra Velha",
+      "text": "A aldeia Pataxó de Barra Velha faz parte do roteiro cultural do parque, que oferece etnoturismo e vivências com a comunidade.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Um ornitólogo tentou identificar as aves descritas por Pero Vaz de Caminha. As pombas seixas da carta seriam a pomba-trocal, Columba speciosa.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A ideia do parque nasceu nos anos 1930, numa comissão do governo encarregada de fixar o ponto exato da chegada de Cabral.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Antes de virar parque nacional, o lugar foi o Parque Monumento Monte Pascoal, criado pelo governo da Bahia em 1943.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1960, o governo da Bahia doou 22.500 hectares à União para criar o parque nacional.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1500 · Terra à vista",
+      "text": "A esquadra de Cabral avista o Monte Pascoal, primeira porção do Brasil vista pelos portugueses.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "title": "1943 · Parque Monumento",
+      "text": "Um decreto estadual cria o Parque Monumento Monte Pascoal em terras devolutas da Bahia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1961 · Parque nacional",
+      "text": "O Decreto nº 242, de 29 de novembro, cria o Parque Nacional de Monte Pascoal.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1965 · Barra Velha",
+      "text": "Uma área de cerca de 210 hectares em torno de Barra Velha é reservada para a população Pataxó que vivia ali.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2000 · Parque e histórico",
+      "text": "Em 20 de abril, o Decreto nº 3.421 muda o nome para Parque Nacional e Histórico do Monte Pascoal.",
+      "sourceIds": [
+        "decreto-3421"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Patagioenas speciosa",
+      "name": "Pomba-trocal",
+      "why": "Provável pomba seixa da carta de Caminha, registrada na região do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Patagioenas_speciosa_-Zooparque_Itatiba%2C_Sao_Paulo_State%2C_Brazil_-adult-8a.jpg",
+        "author": "Thiago Valença",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patagioenas_speciosa_-Zooparque_Itatiba,_Sao_Paulo_State,_Brazil_-adult-8a.jpg",
+        "width": 1280,
+        "height": 898,
+        "alt": "Pomba-trocal (Patagioenas speciosa)",
+        "context": "Pomba-trocal, Patagioenas speciosa."
+      }
+    },
+    {
+      "scientificName": "Rhizophora mangle",
+      "name": "Mangue-vermelho",
+      "why": "Uma das árvores que formam os manguezais protegidos na costa do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Mangrove%2C_Petit-Canal%2C_Grande-Terre%2C_Guadeloupe%2C_2010-03-28-.jpg/1280px-Mangrove%2C_Petit-Canal%2C_Grande-Terre%2C_Guadeloupe%2C_2010-03-28-.jpg",
+        "author": "Slaunger",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mangrove,_Petit-Canal,_Grande-Terre,_Guadeloupe,_2010-03-28-.jpg",
+        "width": 1280,
+        "height": 351,
+        "alt": "Mangue-vermelho (Rhizophora mangle)",
+        "context": "Mangue-vermelho, Rhizophora mangle."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional e Histórico do Monte Pascoal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-e-historico-do-monte-pascoal",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna e Histórico do Monte Pascoal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-e-historico-do-monte-pascoal/informacoes-sobre-visitacao-parna-e-historico-do-monte-pascoal",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "IBDF",
+      "title": "Plano de Manejo do Parque Nacional de Monte Pascoal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-e-historico-do-monte-pascoal/arquivos/parna_monte_pascoal_pmplano1.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Discovery Coast Atlantic Forest Reserves",
+      "url": "https://whc.unesco.org/en/list/892/",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto-3421",
+      "institution": "Senado Federal",
+      "title": "Decreto nº 3.421, de 20 de abril de 2000",
+      "url": "https://legis.senado.leg.br/norma/400704",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

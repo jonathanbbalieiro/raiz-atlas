@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Um rio cavou o calcário e abriu salões imensos, com paredes pintadas há milhares de anos.",
+  "intro": "No norte de Minas Gerais, entre Januária, Itacarambi e São João das Missões, o Parque Nacional Cavernas do Peruaçu protege 56,4 mil hectares de cânion, cavernas e matas secas. Ali o rio Peruaçu atravessa a rocha, e os paredões guardam um dos grandes conjuntos de arte rupestre do país. Desde 2025, o cânion é Patrimônio Mundial.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visita",
+    "icmbio-pm"
+  ],
+  "protects": {
+    "summary": "Um cânion de calcário, suas cavernas e a memória de quem viveu nelas",
+    "items": [
+      {
+        "title": "Um carste vivo",
+        "text": "Cavernas horizontais em rocha carbonática, dolinas desabadas, arcos de calcário e rios subterrâneos formam a paisagem. É o carste: relevo esculpido pela água que dissolve a rocha.",
+        "sourceIds": [
+          "icmbio-pm"
+        ]
+      },
+      {
+        "title": "Arte e vestígios pré-históricos",
+        "text": "São dezenas de sítios arqueológicos, com pinturas, gravuras, sepultamentos e até um silo pré-histórico na Lapa do Boquete.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      },
+      {
+        "title": "Cerrado que encontra a Caatinga",
+        "text": "Matas de galeria acompanham o rio, e a mata seca perde todas as folhas entre maio e outubro, deixando a paisagem cinzenta até a volta das chuvas.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      },
+      {
+        "title": "Espécies ameaçadas",
+        "text": "A lista oficial do parque inclui lobo-guará, onça-pintada, onça-parda, gato-palheiro, o passarinho cara-dourada e a cambeva, um pequeno bagre que leva no nome a cidade de Itacarambi.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Gruta do Janelão",
+      "text": "O principal atrativo do parque: dolinas enormes, salões imensos e o rio Peruaçu correndo lá dentro.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Reflexo_da_Gruta_do_Janel%C3%A3o.jpg/1280px-Reflexo_da_Gruta_do_Janel%C3%A3o.jpg",
+        "author": "Elci Guerra Junior",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reflexo_da_Gruta_do_Janel%C3%A3o.jpg",
+        "width": 1280,
+        "height": 848,
+        "alt": "A boca da Gruta do Janelão refletida no rio Peruaçu",
+        "context": "A boca da Gruta do Janelão refletida no rio Peruaçu, com uma pessoa dando escala."
+      }
+    },
+    {
+      "title": "Um ateliê a céu aberto",
+      "text": "Logo na entrada do Janelão, o paredão é coberto de pinturas rupestres. Na Lapa dos Desenhos, os painéis mostram estilos e técnicas diferentes, feitos com pigmentos do próprio vale.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Pinturas_rupestres_na_Gruta_do_Janel%C3%A3o.jpg/1280px-Pinturas_rupestres_na_Gruta_do_Janel%C3%A3o.jpg",
+        "author": "Rafael Rodrigues Camargo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pinturas_rupestres_na_Gruta_do_Janel%C3%A3o.jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": "Pinturas rupestres vermelhas no paredão de calcário",
+        "context": "Pinturas rupestres no paredão de entrada da Gruta do Janelão."
+      }
+    },
+    {
+      "title": "Arco do André",
+      "text": "A trilha mais aventureira do parque, com 8 km. Passa por mirantes como o das Cinco Torres e por cavernas onde o rio corre por dentro, num espelho d'água verde-esmeralda.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Arco_do_Andr%C3%A9.jpg/1280px-Arco_do_Andr%C3%A9.jpg",
+        "author": "Rafael Rodrigues Camargo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arco_do_Andr%C3%A9.jpg",
+        "width": 1280,
+        "height": 1927,
+        "alt": "Grande arco de calcário do Arco do André",
+        "context": "O Arco do André, no Parque Nacional Cavernas do Peruaçu."
+      }
+    },
+    {
+      "title": "Gruta do Rezar",
+      "text": "Depois de mais de 500 degraus, um salão de entrada com 90 metros de largura e mais de 40 de altura, iluminado por uma claraboia e decorado com pinturas e gravuras.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Na Gruta do Janelão pende a Perna da Bailarina, apontada pelo ICMBio como a maior estalactite do mundo.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "Conta-se na região que o nome vem dos Xakriabá, presentes ali desde o século XVI: peru seria buraco ou fenda, e açu, grande.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "A Gruta Bonita é a única caverna totalmente escura aberta à visitação no parque. Tem até um Salão Vermelho, coberto de sedimentos avermelhados.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "As pinturas do estilo Caboclo foram descobertas pela primeira vez na Gruta do Caboclo e só existem no Vale do Peruaçu.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "Na Lapa do Boquete, sepultamentos e um silo pré-histórico mostram que o vale é habitado há milênios.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há milhares de anos · Os primeiros moradores",
+      "text": "Grupos humanos ocupam as lapas do vale, enterram seus mortos e armazenam alimentos na Lapa do Boquete.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "title": "1999 · Nasce o parque",
+      "text": "Um decreto de 21 de setembro cria o Parque Nacional Cavernas do Peruaçu, hoje com 56.448 hectares.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2025 · Patrimônio Mundial",
+      "text": "Em julho, a UNESCO inscreve o Cânion do Rio Peruaçu na lista do Patrimônio Mundial, por sua paisagem e por sua história geológica.",
+      "sourceIds": [
+        "icmbio-pm",
+        "unesco"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Vulnerável segundo a IUCN, tem registros dentro do parque, nas áreas de Cerrado do vale.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 640,
+        "height": 433,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla); fotografia da espécie",
+        "context": "Retrato ilustrativo de Myrmecophaga tridactyla. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Campylopterus calcirupicola",
+      "name": "Asa-de-sabre-da-mata-seca",
+      "why": "Beija-flor das matas secas, classificado como vulnerável pela IUCN e registrado dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Campylopterus_calcirupicola_-_Outcrop_Sabrewing%3B_Montes_Claros%2C_Minas_Gerais%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campylopterus_calcirupicola_-_Outcrop_Sabrewing;_Montes_Claros,_Minas_Gerais,_Brazil.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Asa-de-sabre-da-mata-seca (Campylopterus calcirupicola); fotografia da espécie",
+        "context": "Retrato ilustrativo de Campylopterus calcirupicola. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Amburana cearensis",
+      "name": "Cumaru-nordestino",
+      "why": "Árvore em perigo de extinção segundo a IUCN, com registros na mata seca do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Amburana_cearensis.jpg/960px-Amburana_cearensis.jpg",
+        "author": "Jorge Vallmitjana",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amburana_cearensis.jpg",
+        "width": 640,
+        "height": 815,
+        "alt": "Cumaru-nordestino (Amburana cearensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Amburana cearensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna Cavernas do Peruaçu",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-cavernas-do-peruacu",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna Cavernas do Peruaçu",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-cavernas-do-peruacu/informacoes-sobre-visitacao-parna-cavernas-do-peruacu",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-pm",
+      "institution": "ICMBio",
+      "title": "Unidades de Conservação federais que são patrimônios mundiais pela Unesco",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/patrimonio-mundial",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Peruaçu River Canyon",
+      "url": "https://whc.unesco.org/en/list/1747",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

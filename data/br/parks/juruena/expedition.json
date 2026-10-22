@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Juruena",
+  "title": "O rio de pedra e as aves que a ciência ainda descobre",
+  "subtitle": "Quase dois milhões de hectares de floresta entre o Mato Grosso e o Amazonas, cortados por um rio de ilhas rochosas, corredeiras e quedas, e uma avifauna que ainda guarda surpresas.",
+  "centralQuestion": "Que paisagem e que vida o Juruena protege, e quais pressões ameaçam esse território?",
+  "introduction": [
+    "O Rio Juruena não passa pela floresta: ele a rasga em ilhas de rocha, praias de areia branca e quedas d’água. É esse rio que o Parque Nacional do Juruena protege, num território de quase 2 milhões de hectares entre o Mato Grosso e o Amazonas, no baixo Juruena, no Teles Pires e no alto Tapajós.",
+    "É uma Amazônia de acesso difícil e ainda pouco conhecida, onde cada expedição pode descobrir algo novo, principalmente entre as aves."
+  ],
+  "keyFacts": [
+    {
+      "label": "de área, em números redondos",
+      "value": "≈ 2 milhões de ha",
+      "sourceId": "enc3",
+      "locator": "p. 21"
+    },
+    {
+      "label": "espécies de aves registradas no parque",
+      "value": "412",
+      "sourceId": "enc3",
+      "locator": "p. 85"
+    },
+    {
+      "label": "dessas aves, endêmicas da Amazônia Meridional",
+      "value": "≈ 40",
+      "sourceId": "enc3",
+      "locator": "p. 86"
+    },
+    {
+      "label": "com distribuição restrita ao interflúvio Madeira–Tapajós",
+      "value": "≥ 26",
+      "sourceId": "enc3",
+      "locator": "p. 86"
+    },
+    {
+      "label": "sub-bacias hidrográficas formadas pelos tributários dentro do parque",
+      "value": "39",
+      "sourceId": "enc3",
+      "locator": "p. 59"
+    },
+    {
+      "label": "da área ocupada pela maior delas, a do rio São Tomé",
+      "value": "23%",
+      "sourceId": "enc3",
+      "locator": "p. 59"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Interflúvio Madeira–Tapajós",
+      "definition": "Região entre os rios Madeira e Tapajós, definida por vários autores como zona de endemismos de aves da Amazônia Meridional.",
+      "sourceId": "enc3"
+    },
+    {
+      "term": "Endêmica",
+      "definition": "Espécie que ocorre apenas numa região; no parque, cerca de 40 aves são endêmicas da Amazônia Meridional.",
+      "sourceId": "enc3"
+    },
+    {
+      "term": "Avaliação Ecológica Rápida",
+      "definition": "Diagnóstico de campo feito num período curto; o do Juruena foi restrito à estação chuvosa e não é um inventário exaustivo.",
+      "sourceId": "enc3"
+    },
+    {
+      "term": "Sub-bacia",
+      "definition": "Área que escoa para um mesmo afluente; os rios do parque formam 39, e a do São Tomé nasce inteira dentro dele.",
+      "sourceId": "enc3"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cachoeira_de_S%C3%A3o_Sim%C3%A3o.JPG/1280px-Cachoeira_de_S%C3%A3o_Sim%C3%A3o.JPG",
+    "author": "Renato Soares Moreira",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_de_S%C3%A3o_Sim%C3%A3o.JPG",
+    "width": 1280,
+    "height": 767,
+    "alt": "Cachoeira de São Simão, Juruena",
+    "context": "Cachoeira de São Simão. Acampamento Cachoeira de São Simão."
+  },
+  "moments": [
+    {
+      "id": "rio",
+      "eyebrow": "01 · O rio",
+      "title": "Ilhas de rocha, praias e quedas",
+      "question": "Como é um rio cujo leito é feito de pedra?",
+      "paragraphs": [
+        "Acima da Cachoeira Salto Augusto, o rio Juruena forma ilhas rochosas, com praias de areia branca e poços de até 50 metros de profundidade. Abaixo da queda, a profundidade varia muito: de 2 metros a poços de até 80.",
+        "Entre a Cachoeira de São Simão e a foz do rio São Tomé, o canal tem profundidade variável e mais de 250 metros de largura, com afloramentos rochosos que formam ilhas e corredeiras no meio do rio.",
+        "Os tributários do Juruena, do Teles Pires e do Tapajós formam 39 sub-bacias dentro do parque. A maior é a do rio São Tomé, com 23% da área, e todas as suas nascentes ficam dentro do parque. A segunda maior é a do rio Sucunduri, ao norte, com 10%.",
+        "Entre os atrativos potenciais para visitação estão uma caverna abaixo da cachoeira São Simão, a Caverna do Morcego, abaixo do Salto Augusto, e cavernas na Trilha H – Casa de Palha."
+      ],
+      "sourceIds": [
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 55"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 56"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 59"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 60"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 18"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Salto_Augusto..JPG/1280px-Salto_Augusto..JPG",
+          "author": "Renato Soares Moreira",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salto_Augusto..JPG",
+          "width": 1280,
+          "height": 852,
+          "alt": "Pôr do sol sobre a cachoeira Salto Augusto",
+          "context": "Pôr do sol na cachoeira Salto Augusto, no Parque Nacional do Juruena."
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "eyebrow": "02 · A vida",
+      "title": "Uma avifauna ainda pouco conhecida",
+      "question": "O que o parque guarda que a ciência mal começou a registrar?",
+      "paragraphs": [
+        "Foram registradas 412 espécies de aves no parque, incluindo as da Expedição Juruena–Apuí, de junho de 2006. Cerca de 40 são endêmicas da Amazônia Meridional, e pelo menos 26 têm distribuição restrita ao interflúvio Madeira–Tapajós.",
+        "A avifauna do baixo curso do rio Juruena permanece virtualmente desconhecida dos ornitólogos. O número registrado está próximo do mínimo esperado para a região, que é de 438 espécies, e certamente crescerá quando as áreas mais remotas forem investigadas.",
+        "Na família das araras e papagaios foram 18 espécies, além de seis de tucanos e araçaris, e só os gaviões e falcões somam 20. A espécie que mais pede atenção é a choca-de-garganta-preta, criticamente em perigo, extremamente rara e conhecida, até pouco tempo atrás, por um único exemplar. Foi registrada em um rio próximo ao limite norte do parque, o que leva a supor que também ocorra no seu interior.",
+        "A harpia, a maior águia das Américas, é considerada quase ameaçada."
+      ],
+      "sourceIds": [
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 85"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 86"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 93"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 118"
+        }
+      ],
+      "images": [],
+      "note": {
+        "title": "Um diagnóstico rápido",
+        "body": "O levantamento de fauna foi feito na estação chuvosa e não é um inventário completo: os números são mínimos."
+      }
+    },
+    {
+      "id": "gente",
+      "eyebrow": "03 · As pessoas",
+      "title": "Moradores, povos indígenas e pressões no território",
+      "question": "Quem vive e usa o território do parque e do entorno?",
+      "paragraphs": [
+        "Há famílias ribeirinhas que vivem de roça de mandioca, caça, pesca e farinha em áreas do Teles Pires e do Juruena, algumas vendendo peixe aos Munduruku. Uma descrição antiga indica que essas famílias, de cerca de 40 pessoas, eram em sua maioria de origem Apiaká.",
+        "O uso do território muda de ponta a ponta de uso entre as pontas do parque: assentamentos permanentes na porção norte, perto da Barra de São Manoel, e movimentação intermitente e difusa na porção sul, perto do Salto Augusto. Em geral, o estado de conservação foi considerado bom, com piora de sul para norte.",
+        "A caça e a pesca ocorrem sobretudo onde o parque faz limite com Terras Indígenas, e o movimento de pessoas das comunidades indígenas na porção norte é nitidamente maior."
+      ],
+      "sourceIds": [
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 129"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 128"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 147"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 118"
+        }
+      ],
+      "images": [],
+      "note": {
+        "title": "Revisão por comunidades",
+        "body": "Antes da aprovação, este trecho deve ser lido por representantes dos povos indígenas (como Munduruku e Kayabi, citados no plano) e das famílias ribeirinhas do entorno."
+      }
+    },
+    {
+      "id": "barragens",
+      "eyebrow": "04 · O desafio",
+      "title": "Um parque numa região de hidrelétricas",
+      "question": "Que ameaças pesam sobre o parque?",
+      "paragraphs": [
+        "O parque nasceu em 5 de junho de 2006. A Expedição Juruena–Apuí, em junho daquele ano, coordenada por IBAMA e parceiros, fez os primeiros contatos entre o poder público e a sociedade local depois da criação, e mostrou a dificuldade de amostrar uma área de quase 2 milhões de hectares.",
+        "As hidrelétricas são vistas como um grave problema. A Empresa de Pesquisa Energética fazia o inventário hidrelétrico dos rios Juruena e Sucunduri, fato que, ameaça a integridade do parque. No entorno, havia empreendimentos em licenciamento no baixo Teles Pires, como as usinas São Manoel, Teles Pires e Apiacás.",
+        "Um levantamento antigo aponta segundo o qual havia pelo menos quatorze locais identificados para usinas no alto e médio Juruena e seus afluentes, parte em licenciamento ou já licenciada.",
+        "Outras pressões são o desmatamento, a extração seletiva de madeira, as pastagens, o garimpo e a grilagem de terras."
+      ],
+      "sourceIds": [
+        "enc3",
+        "cnuc"
+      ],
+      "citations": [
+        {
+          "sourceId": "cnuc",
+          "locator": "página oficial"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 21"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 144"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 141"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "barragens",
+    "title": "Marcos do parque",
+    "intro": "Datas que marcam a história do parque.",
+    "items": [
+      {
+        "id": "2006",
+        "year": "2006",
+        "title": "Criação do parque",
+        "description": "O parque é criado; em junho, a Expedição Juruena–Apuí faz os primeiros reconhecimentos.",
+        "sourceIds": [
+          "cnuc"
+        ]
+      },
+      {
+        "id": "2008",
+        "year": "2008",
+        "title": "Trabalho de campo",
+        "description": "Campanhas de diagnóstico percorrem trechos do Juruena, São Tomé, Teles Pires e Tapajós.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "id": "2011",
+        "year": "2011",
+        "title": "Plano de manejo",
+        "description": "O Encarte 3 reúne a análise da unidade, com 412 espécies de aves registradas.",
+        "sourceIds": [
+          "enc3"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um rio de pedra, ainda por conhecer",
+  "closing": "O Juruena mostra que proteger não é só preservar uma paisagem bonita: é descobrir o que há nela. As aves, os rios e as pessoas do território dependem de decisões sobre barragens, garimpo e desmatamento.",
+  "references": [
+    {
+      "id": "enc3",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Juruena, Encarte 3: Análise da Unidade (2011)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jurema/arquivos/encarte3.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "hidrografia, avifauna, socioeconomia e ameaças; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional do Juruena",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/281",
+      "accessedAt": "2026-10-22",
+      "use": "data de criação, área e atos legais"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: revisão por representantes dos povos indígenas (Munduruku, Kayabi) e das famílias ribeirinhas; revisão humana."
+}

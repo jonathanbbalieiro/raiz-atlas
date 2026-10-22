@@ -1,0 +1,79 @@
+{
+  "slug": "canion-ii",
+  "name": "Cânion II",
+  "type": "canion",
+  "coordinates": [
+    -47.81405,
+    -14.14443
+  ],
+  "shortDescription": "Grande poço do Rio Preto entre paredões de pedra, excelente para banho e descanso, no fim da Trilha dos Cânions do Parque Nacional da Chapada dos Veadeiros.",
+  "longDescription": "A Trilha dos Cânions, sinalizada com setas vermelhas, é pedregosa e plana, com trechos de sombra. Depois de cerca de 5 km, uma bifurcação leva à direita ao Cânion II, onde se atravessam blocos de pedra até o poço.\n\nNa época das chuvas só um pequeno trecho do poço pode ser usado, por causa da correnteza do Rio Preto. A visita pode ser combinada com a Cachoeira das Cariocas e, na estiagem, com o Cânion I.",
+  "photos": [
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/C%C3%A2nion_II.jpg/1280px-C%C3%A2nion_II.jpg",
+      "alt": "Poço do Cânion II entre paredes de rocha no Rio Preto",
+      "author": "Cristiamara Giordani",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A2nion_II.jpg",
+      "width": 1280,
+      "height": 960
+    }
+  ],
+  "access": {
+    "difficulty": "moderada",
+    "trailDistanceKm": 4.75
+  },
+  "bestSeason": "A_VERIFICAR",
+  "visiting": {
+    "guideRequired": false,
+    "entranceFee": true,
+    "openingHours": "Entrada nas trilhas entre 8h e 12h; saída do parque até as 18h",
+    "notes": "Distância do folheto do ICMBio: cerca de 9,5 km ida e volta. Saia da água imediatamente se o nível do rio subir (risco de tromba d'água)."
+  },
+  "howToGetThere": {
+    "baseCity": "Vila de São Jorge (Alto Paraíso de Goiás)",
+    "distanceFromBaseKm": "A_VERIFICAR",
+    "directions": "A portaria do parque fica na Vila de São Jorge, na GO-239. As trilhas partem do Centro de Visitantes."
+  },
+  "tags": [
+    "banho_permitido"
+  ],
+  "sources": [
+    {
+      "title": "ICMBio: PARNA da Chapada dos Veadeiros, Normas e Orientações Gerais para Visitantes (folheto)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-veadeiros/linha-de-atuacao/arquivos/folder_final.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "access.trailDistanceKm",
+        "access.difficulty",
+        "visiting.openingHours",
+        "visiting.guideRequired"
+      ]
+    },
+    {
+      "title": "Goiás Turismo: Inventário Turístico de Alto Paraíso de Goiás, Caderno 3 (2020)",
+      "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2020/09/Carderno3InventarioAltoParaiso-c7b.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "longDescription"
+      ]
+    },
+    {
+      "title": "ICMBio: Contrato de concessão 02/2018, serviços de apoio à visitação (inclui venda de ingressos)",
+      "url": "https://www.gov.br/icmbio/pt-br/servicos/concessao-de-servicos-de-apoio-a-visitacao/contrato_02_2018_socicam_chapada_veadeiros.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "visiting.entranceFee"
+      ]
+    },
+    {
+      "title": "OpenStreetMap, node/10311367995 (© colaboradores do OpenStreetMap, ODbL)",
+      "url": "https://www.openstreetmap.org/node/10311367995",
+      "accessed": "2026-10-19",
+      "fields": [
+        "coordinates"
+      ]
+    }
+  ]
+}

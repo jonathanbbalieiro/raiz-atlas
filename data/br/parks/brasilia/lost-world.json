@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Quando Brasília nasceu, um pequeno roedor do cerrado ficou para trás — e talvez para sempre.",
+  "items": [
+    {
+      "kind": "possivelmente_extinta",
+      "name": "Rato-candango",
+      "scientificName": "Juscelinomys candango",
+      "when": "último registro por volta de 1960",
+      "text": "Descrito em 1965, o rato-candango foi conhecido de exemplares coletados na região de Brasília e leva no nome o apelido dos operários que ergueram a capital. Não há registros confiáveis desde cerca de 1960, e a lista nacional o classifica como criticamente em perigo e possivelmente extinto. A urbanização e a perda do cerrado são as suspeitas.",
+      "sourceIds": [
+        "portaria444",
+        "lv"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "portaria444",
+      "institution": "Ministério do Meio Ambiente / ICMBio",
+      "title": "Portaria MMA nº 444, de 17 de dezembro de 2014 (Lista Nacional Oficial de Espécies da Fauna Ameaçadas de Extinção)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/fauna-brasileira/portarias-fauna-ameacada/PORTARIA_N_444_DE_17_DE_DEZEMBRO_DE_2014.pdf",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "lv",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (Juscelinomys candango)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/vol_II_parte8.pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

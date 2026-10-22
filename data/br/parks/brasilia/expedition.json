@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional de Brasília",
+  "title": "O parque que nasceu junto com a capital para guardar a água",
+  "subtitle": "A dez quilômetros do centro de Brasília, um parque de Cerrado protege os córregos que formam a barragem de Santa Maria e as piscinas mais frequentadas da cidade.",
+  "centralQuestion": "Por que a nova capital criou um parque nacional ao lado de si, e como ele convive com uma cidade que cresce?",
+  "introduction": [
+    "A poucos quilômetros do Plano Piloto, nascentes do Cerrado enchem piscinas de água limpa e fria, cercadas de mata de galeria. É a Água Mineral, o Parque Nacional de Brasília, onde a capital vai mergulhar, caminhar e ouvir pássaros.",
+    "O parque nasceu em 1961, junto com a cidade, para proteger os rios que levariam água potável aos moradores. Mais de seis décadas depois, ele continua cumprindo a promessa: guarda a água do Distrito Federal e um Cerrado de onze tipos de vegetação."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Piscina_Antiga.jpg/1280px-Piscina_Antiga.jpg",
+    "author": "BlazeBrok",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piscina_Antiga.jpg",
+    "width": 1280,
+    "height": 853,
+    "alt": "Piscina de água natural cercada de árvores do Cerrado",
+    "context": "A piscina mais antiga do Parque Nacional de Brasília, alimentada por nascentes do parque."
+  },
+  "moments": [
+    {
+      "id": "agua",
+      "eyebrow": "01 · A água",
+      "title": "Piscinas feitas de uma areeira e uma barragem que abastece a cidade",
+      "question": "De onde vem a água do parque e para onde ela vai?",
+      "paragraphs": [
+        "As principais atrações são as piscinas formadas em poços d'água às margens do Córrego Acampamento. Afloramentos do lençol freático, surgidos durante a construção de Brasília e a extração de areia, deram origem à Piscina Pedreira, a mais antiga, e depois veio a Areal.",
+        "O parque abriga a Barragem de Santa Maria, responsável por cerca de 25% da água potável do Distrito Federal. Os cursos d'água formam duas sub-bacias, a do Torto, que ocupa dois terços do parque, e a do Bananal.",
+        "Os macacos-prego das piscinas aprenderam a buscar a comida dos visitantes. Por isso o parque pede que ninguém faça piquenique perto da água: alimento industrializado faz mal aos bichos e muda o comportamento deles."
+      ],
+      "sourceIds": [
+        "icmbio-visita",
+        "icmbio"
+      ],
+      "images": []
+    },
+    {
+      "id": "cerrado",
+      "eyebrow": "02 · O Cerrado",
+      "title": "Onze tipos de vegetação ao lado da cidade",
+      "question": "O que cresce e vive no parque?",
+      "paragraphs": [
+        "O Cerrado domina a paisagem, com campo cerrado e matas de galeria ao redor das nascentes. São onze tipos de vegetação: matas de galeria pantanosas e secas, vereda, cerrado típico, cerradão, mata seca e cinco tipos de campo, incluindo o campo de murundus.",
+        "Vivem no parque lobo-guará, tatu-canastra, tamanduá-bandeira, anta, onça-parda e aves como o galito e o papagaio-galego. Com sorte, a trilha rende um encontro.",
+        "Calçados e bicicletas devem chegar limpos ao parque, porque o solado e as rodas podem trazer sementes de plantas exóticas."
+      ],
+      "sourceIds": [
+        "icmbio-visita",
+        "icmbio"
+      ],
+      "images": []
+    },
+    {
+      "id": "cidade",
+      "eyebrow": "03 · A cidade",
+      "title": "Um parque que acompanhou a capital",
+      "question": "Como o parque foi criado e o que o ameaça?",
+      "paragraphs": [
+        "O Decreto nº 241, de 29 de novembro de 1961, criou o parque, ainda com a capital em obras. A ideia era proteger os mananciais que abasteceriam a nova cidade.",
+        "A Lei nº 11.285, de 8 de março de 2006, redefiniu os limites do parque, que hoje tem cerca de 42 mil hectares e abrange áreas de Brasília, Sobradinho, Brazlândia e Padre Bernardo, em Goiás.",
+        "Em 15 de fevereiro de 2025 foi inaugurado o trecho Cristal Água do Arco Brasília, travessia que liga o parque à Floresta Nacional de Brasília e convida a ver o Cerrado a pé."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "cidade",
+    "title": "Da capital em construção ao Arco Brasília",
+    "intro": "Marcos da história do parque.",
+    "items": [
+      {
+        "id": "1961",
+        "year": "1961",
+        "title": "Decreto nº 241",
+        "description": "Em 29 de novembro, é criado o Parque Nacional de Brasília.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2006",
+        "title": "Lei nº 11.285",
+        "description": "Em 8 de março, a lei redefine os limites do parque.",
+        "sourceIds": [
+          "icmbio"
+        ],
+        "year": "2006"
+      },
+      {
+        "id": "2025",
+        "year": "2025",
+        "title": "Arco Brasília",
+        "description": "É inaugurado o trecho Cristal Água, que conecta o parque à Floresta Nacional de Brasília.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma água que a cidade bebe",
+  "closing": "O Parque Nacional de Brasília mostra que uma área protegida pode ser, ao mesmo tempo, lazer de uma capital, nascente de água potável e abrigo de espécies raras.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Brasília",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-de-brasilia",
+      "accessedAt": "2026-10-22",
+      "use": "decreto e lei, área"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna de Brasília",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-de-brasilia/informacoes-sobre-visitacao-2013-parna-de-brasilia",
+      "accessedAt": "2026-10-22",
+      "use": "água, vegetação, fauna, piscinas, trilhas e Arco Brasília"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Conferir o texto da Lei nº 11.285/2006 e a área vigente (42.355,54 ha na página do ICMBio)."
+}

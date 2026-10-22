@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma grande reserva de floresta amazônica no sudoeste do Pará, criada para proteger ecossistemas de alta importância ecológica.",
+  "intro": "No sudoeste do Pará, entre Novo Progresso e Itaituba, o Parque Nacional do Rio Novo protege mais de 538 mil hectares de Amazônia. Criado por decreto de 13 de fevereiro de 2006, é uma das grandes áreas de floresta protegida do oeste paraense.",
+  "sourceIds": [
+    "icmbio",
+    "cnuc",
+    "decreto"
+  ],
+  "protects": {
+    "summary": "Floresta amazônica de alta importância ecológica e beleza cênica",
+    "items": [
+      {
+        "title": "Ecossistemas de alta importância ecológica",
+        "text": "O decreto de criação destina o parque a proteger ecossistemas naturais de grande importância ecológica e beleza cênica, no coração do Pará.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Mais de 538 mil hectares",
+        "text": "A área do parque é de 538.157 hectares, entre os municípios de Itaituba e Novo Progresso.",
+        "sourceIds": [
+          "icmbio",
+          "decreto"
+        ]
+      },
+      {
+        "title": "Ciência, educação e turismo ecológico",
+        "text": "A criação prevê pesquisa científica, educação e interpretação ambiental, recreação em contato com a natureza e turismo ecológico.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "wonders": [],
+  "curiosities": [
+    {
+      "text": "O parque foi criado no mesmo dia, 13 de fevereiro de 2006, que a Floresta Nacional do Jamanxim, vizinha a ele.",
+      "sourceIds": [
+        "decreto"
+      ]
+    },
+    {
+      "text": "O conselho consultivo do parque foi criado pela Portaria nº 85, de 7 de novembro de 2011.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2006 · Nasce o parque",
+      "text": "Decreto de 13 de fevereiro cria o Parque Nacional do Rio Novo, em Itaituba e Novo Progresso, no Pará.",
+      "sourceIds": [
+        "icmbio",
+        "decreto"
+      ]
+    },
+    {
+      "title": "2011 · Conselho consultivo",
+      "text": "A Portaria nº 85, de 7 de novembro, cria o conselho consultivo do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Rio Novo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-rio-novo",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do CNUC: Parque Nacional do Rio Novo",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/264",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 13 de fevereiro de 2006 (cria o Parque Nacional do Rio Novo)",
+      "url": "https://legis.senado.leg.br/norma/382631",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

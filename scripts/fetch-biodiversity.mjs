@@ -1,0 +1,382 @@
+/**
+ * "Quem vive aqui": espécies com registro dentro do limite oficial de cada
+ * parque, agrupadas (mamíferos, aves, répteis...), com nome popular em
+ * português, foto de licença livre e grau de ameaça.
+ *
+ *   GBIF        ocorrências dentro do polígono do parque (observações,
+ *               espécimes de museu/herbário; exclui zoológicos e jardins)
+ *   GRIIS BR    exclui espécies introduzidas/invasoras no Brasil
+ *   Wikidata    nome em português, foto (P18), status IUCN (P141)
+ *   iNaturalist nome popular pt-BR quando o Wikidata não tem (e espécies introduzidas que o GRIIS não lista)
+ *   Commons     autor e licença de cada foto (só CC0, domínio público, CC BY, CC BY-SA)
+ *
+ * Saída: data/<país>/parks/<parque>/biodiversity.generated.json
+ * Uso:   npm run bio            (todos os parques)
+ *        npm run bio -- emas    (só os slugs indicados)
+ * As respostas ficam em .geo-cache/bio: reexecuções não repetem chamadas.
+ */
+import fs from "node:fs/promises";
+import path from "node:path";
+import crypto from "node:crypto";
+
+const ROOT = path.resolve(import.meta.dirname, "..");
+const COUNTRY = "br";
+const UA = { "User-Agent": "raiz-atlas/1.1 (pipeline de biodiversidade; uso educativo)" };
+import { classifyCommonsLicense } from "./commons-license.mjs";
+const GRIIS_BRAZIL = "21cf83b3-fec6-4c42-95bc-b8555a991bc3";
+/** Pontos do polígono enviado ao GBIF (a geometria vai na URL, que tem limite de tamanho). */
+const WKT_POINTS = [140, 60];
+const ACCESSED = new Date().toISOString().slice(0, 10);
+
+/** Grupos exibidos; `take` é quantas espécies aparecem (as com foto primeiro). */
+const GROUPS = [
+  { id: "mamiferos", label: "Mamíferos", query: "classKey=359", facet: 20, take: 8 },
+  { id: "aves", label: "Aves", query: "classKey=212", facet: 20, take: 8 },
+  { id: "repteis", label: "Répteis", query: "classKey=11592253&classKey=11418114&classKey=11493978", facet: 15, take: 6 },
+  { id: "anfibios", label: "Anfíbios", query: "classKey=131", facet: 12, take: 6 },
+  { id: "peixes", label: "Peixes", query: "classKey=204&classKey=121", facet: 12, take: 6 },
+  { id: "borboletas", label: "Borboletas e mariposas", query: "orderKey=797", facet: 12, take: 6 },
+  { id: "plantas", label: "Plantas", query: "phylumKey=7707728", facet: 120, take: 30 },
+];
+const THREAT = ["CR", "EN", "VU"];
+/** Registros que o GRIIS não cobre como espécie (domésticos registrados como espécie selvagem). */
+const BLOCK = new Set([5219173 /* Canis lupus (cães) */, 2436436 /* Homo sapiens */]);
+const IUCN_QID = {
+  Q211005: "LC", Q719675: "NT", Q278113: "VU", Q11394: "EN", Q219127: "CR",
+  Q239509: "EW", Q237350: "EX", Q3245245: "DD",
+};
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const strip = (h = "") => h.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+
+async function getJson(url, { headers, allowFail = false } = {}) {
+  const file = path.join(ROOT, ".geo-cache", "bio", crypto.createHash("sha1").update(url).digest("hex") + ".json");
+  try {
+    return JSON.parse(await fs.readFile(file, "utf8"));
+  } catch {}
+  for (let attempt = 0; attempt < 6; attempt++) {
+    let res;
+    try {
+      res = await fetch(url, { headers: { ...UA, ...headers } });
+    } catch {
+      await sleep(3000 * (attempt + 1));
+      continue;
+    }
+    const text = await res.text();
+    if (res.ok && /^[[{]/.test(text)) {
+      await fs.mkdir(path.dirname(file), { recursive: true });
+      await fs.writeFile(file, text);
+      return JSON.parse(text);
+    }
+    if (allowFail && res.status >= 400 && res.status < 500 && res.status !== 429) return null;
+    await sleep(4000 * (attempt + 1));
+  }
+  if (allowFail) return null;
+  throw new Error(`Falha ao buscar ${url}`);
+}
+
+/* ---------- Polígono do parque -> WKT aceito pelo GBIF ---------- */
+
+const area = (ring) => {
+  let a = 0;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) a += (ring[j][0] - ring[i][0]) * (ring[j][1] + ring[i][1]);
+  return a / 2; // > 0: anti-horário
+};
+function simplify(points, tol) {
+  if (points.length < 4) return points;
+  const keep = new Uint8Array(points.length);
+  keep[0] = keep[points.length - 1] = 1;
+  const stack = [[0, points.length - 1]];
+  while (stack.length) {
+    const [s, e] = stack.pop();
+    const [ax, ay] = points[s], [bx, by] = points[e];
+    let max = 0, idx = -1;
+    for (let i = s + 1; i < e; i++) {
+      const [px, py] = points[i];
+      const d = Math.abs((by - ay) * px - (bx - ax) * py + bx * ay - by * ax) / (Math.hypot(bx - ax, by - ay) || 1);
+      if (d > max) [max, idx] = [d, i];
+    }
+    if (max > tol && idx > 0) {
+      keep[idx] = 1;
+      stack.push([s, idx], [idx, e]);
+    }
+  }
+  return points.filter((_, i) => keep[i]);
+}
+/** Anel fechado: primeiro = último, o que anularia o Douglas-Peucker; divide no ponto mais distante. */
+function simplifyRing(ring, tol) {
+  const open = ring.slice(0, -1);
+  let far = 0, max = -1;
+  open.forEach(([x, y], i) => {
+    const d = (x - open[0][0]) ** 2 + (y - open[0][1]) ** 2;
+    if (d > max) [max, far] = [d, i];
+  });
+  const a = simplify(open.slice(0, far + 1), tol);
+  const b = simplify([...open.slice(far), open[0]], tol);
+  return [...a, ...b.slice(1)];
+}
+function hull(points) {
+  const p = [...points].sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  const cross = (o, a, b) => (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]);
+  const lower = [], upper = [];
+  for (const q of p) {
+    while (lower.length >= 2 && cross(lower.at(-2), lower.at(-1), q) <= 0) lower.pop();
+    lower.push(q);
+  }
+  for (const q of p.reverse()) {
+    while (upper.length >= 2 && cross(upper.at(-2), upper.at(-1), q) <= 0) upper.pop();
+    upper.push(q);
+  }
+  const h = [...lower.slice(0, -1), ...upper.slice(0, -1)];
+  return [...h, h[0]];
+}
+// 3 casas decimais: cerca de 100 m, abaixo da precisão das próprias ocorrências.
+const ringWkt = (r) => "(" + r.map(([x, y]) => `${x.toFixed(3)} ${y.toFixed(3)}`).join(",") + ")";
+
+function parkWkt(feature, maxPoints) {
+  const g = feature.geometry ?? feature;
+  const polys = g.type === "Polygon" ? [g.coordinates] : g.coordinates;
+  let rings = polys.map((p) => p[0]).sort((a, b) => Math.abs(area(b)) - Math.abs(area(a)));
+  const total = rings.reduce((n, r) => n + Math.abs(area(r)), 0);
+  rings = rings.filter((r, i) => i === 0 || Math.abs(area(r)) > total * 0.002).slice(0, 10);
+  let tol = 0.002, out;
+  do {
+    out = rings.map((r) => simplifyRing(r, tol)).filter((r) => r.length >= 4);
+    tol *= 1.5;
+  } while (out.reduce((n, r) => n + r.length, 0) > maxPoints);
+  out = out.map((r) => (area(r) > 0 ? r : [...r].reverse()));
+  const exact = out.length === 1 ? `POLYGON(${ringWkt(out[0])})` : `MULTIPOLYGON(${out.map((r) => `(${ringWkt(r)})`).join(",")})`;
+  const h = hull(rings.flat());
+  return { exact, hull: `POLYGON(${ringWkt(area(h) > 0 ? h : [...h].reverse())})` };
+}
+
+/* ---------- Consultas ---------- */
+
+const BASE =
+  "https://api.gbif.org/v1/occurrence/search?limit=0&occurrenceStatus=PRESENT&hasGeospatialIssue=false" +
+  "&basisOfRecord=HUMAN_OBSERVATION&basisOfRecord=PRESERVED_SPECIMEN&basisOfRecord=MACHINE_OBSERVATION" +
+  "&basisOfRecord=MATERIAL_SAMPLE&basisOfRecord=OCCURRENCE&basisOfRecord=OBSERVATION&facet=speciesKey&facetMincount=2";
+
+async function gbifFacet(wkt, extra, limit) {
+  const r = await getJson(`${BASE}&geometry=${encodeURIComponent(wkt)}&${extra}&facetLimit=${limit}`, { allowFail: true });
+  if (!r) return null;
+  return { records: r.count, species: (r.facets[0]?.counts ?? []).map((c) => ({ key: Number(c.name), records: c.count })) };
+}
+
+async function griisKeys() {
+  const keys = new Set();
+  for (let offset = 0; ; offset += 1000) {
+    const r = await getJson(`https://api.gbif.org/v1/species/search?datasetKey=${GRIIS_BRAZIL}&limit=1000&offset=${offset}`);
+    for (const s of r.results) if (s.nubKey) keys.add(s.nubKey);
+    if (r.endOfRecords) break;
+  }
+  return keys;
+}
+
+const speciesInfo = new Map();
+async function gbifSpecies(keys) {
+  const todo = keys.filter((k) => !speciesInfo.has(k));
+  for (let i = 0; i < todo.length; i += 8) {
+    await Promise.all(
+      todo.slice(i, i + 8).map(async (k) => {
+        const s = await getJson(`https://api.gbif.org/v1/species/${k}`, { allowFail: true });
+        speciesInfo.set(k, s ? { scientificName: s.canonicalName ?? s.scientificName, rank: s.rank, family: s.family ?? null } : null);
+      }),
+    );
+  }
+}
+
+const wikidata = new Map();
+async function wikidataInfo(keys) {
+  const todo = keys.filter((k) => !wikidata.has(k));
+  for (let i = 0; i < todo.length; i += 120) {
+    const batch = todo.slice(i, i + 120);
+    const q = `SELECT ?gbif ?item ?ptbr ?pt ?img ?iucn WHERE {
+      VALUES ?gbif { ${batch.map((k) => `"${k}"`).join(" ")} }
+      ?item wdt:P846 ?gbif.
+      OPTIONAL { ?item rdfs:label ?ptbr FILTER(lang(?ptbr) = "pt-br") }
+      OPTIONAL { ?item rdfs:label ?pt FILTER(lang(?pt) = "pt") }
+      OPTIONAL { ?item wdt:P18 ?img }
+      OPTIONAL { ?item wdt:P141 ?iucn }
+    }`;
+    const r = await getJson("https://query.wikidata.org/sparql?query=" + encodeURIComponent(q), {
+      headers: { Accept: "application/sparql-results+json" },
+    });
+    for (const k of batch) wikidata.set(k, { qid: null, names: [], images: [], iucn: null });
+    for (const b of r.results.bindings) {
+      const e = wikidata.get(Number(b.gbif.value));
+      e.qid ??= b.item.value.split("/").pop();
+      // Rótulo pt-BR primeiro (o "pt" às vezes é a forma de Portugal: "grande-kiskadi" x bem-te-vi).
+      for (const l of [b.ptbr?.value, b.pt?.value]) if (l && !e.names.includes(l)) e.names.push(l);
+      e.iucn ??= b.iucn ? IUCN_QID[b.iucn.value.split("/").pop()] ?? null : null;
+      if (b.img) {
+        const t = "File:" + decodeURIComponent(b.img.value.split("/Special:FilePath/")[1]);
+        if (!e.images.includes(t)) e.images.push(t);
+      }
+    }
+    await sleep(1200);
+  }
+}
+
+/** Reserva para nome popular: iNaturalist (resolve sinônimos, ex.: Aratinga aurea -> periquito-rei). */
+const inat = new Map();
+async function inatInfo(keys) {
+  for (const k of keys) {
+    if (inat.has(k) || !speciesInfo.get(k)) continue;
+    const name = speciesInfo.get(k).scientificName;
+    const r = await getJson(
+      "https://api.inaturalist.org/v1/taxa?rank=species&locale=pt-BR&preferred_place_id=6878&per_page=3&q=" + encodeURIComponent(name),
+      { allowFail: true },
+    );
+    const t = r?.results?.find((x) => x.matched_term?.toLowerCase() === name.toLowerCase());
+    inat.set(k, t ? {
+      name: t.preferred_common_name && t.preferred_common_name !== t.english_common_name ? t.preferred_common_name : null,
+      introduced: t.establishment_means?.establishment_means === "introduced",
+    } : null);
+    await sleep(1100); // limite recomendado pelo iNaturalist: ~1 requisição por segundo
+  }
+}
+
+const commons = new Map();
+async function commonsInfo(titles) {
+  const todo = [...new Set(titles)].filter((t) => !commons.has(t));
+  // Lotes de 25: nomes de arquivo longos estouram o limite de tamanho da URL com 50.
+  for (let i = 0; i < todo.length; i += 25) {
+    const batch = todo.slice(i, i + 25);
+    const r = await getJson(
+      "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo" +
+        "&iiprop=url|extmetadata|size|mime&iiurlwidth=640&titles=" + encodeURIComponent(batch.join("|")),
+      { allowFail: true },
+    );
+    for (const t of batch) commons.set(t, null);
+    if (!r?.query) continue; // falha pontual: essas espécies ficam sem foto, o resto segue
+    const normalized = new Map((r.query.normalized ?? []).map((n) => [n.to, n.from]));
+    for (const page of r.query.pages ?? []) {
+      const ii = page.imageinfo?.[0];
+      if (!ii) continue;
+      const m = ii.extmetadata ?? {};
+      const lic = m.LicenseShortName?.value ?? "";
+      if (!classifyCommonsLicense(lic).allowed || !/jpeg|png|webp/.test(ii.mime ?? "") || !ii.thumburl) continue;
+      commons.set(normalized.get(page.title) ?? page.title, {
+        src: ii.thumburl.split("?")[0],
+        author: strip(m.Artist?.value).slice(0, 80) || "Autor desconhecido",
+        license: lic,
+        licenseUrl: m.LicenseUrl?.value ?? "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        sourceUrl: ii.descriptionurl,
+        width: ii.thumbwidth,
+        height: ii.thumbheight,
+      });
+    }
+    await sleep(1200);
+  }
+}
+
+/* ---------- Execução ---------- */
+
+const parks = JSON.parse(await fs.readFile(path.join(ROOT, "data", COUNTRY, "parks.generated.json"), "utf8"));
+const only = process.argv.slice(2);
+const selected = only.length ? parks.filter((p) => only.includes(p.slug)) : parks;
+const introduced = await griisKeys();
+console.log(`GRIIS Brasil: ${introduced.size} táxons introduzidos excluídos`);
+
+let done = 0;
+for (const park of selected) {
+  const feature = JSON.parse(await fs.readFile(path.join(ROOT, "public", "geo", COUNTRY, "parks", `${park.slug}.json`), "utf8"));
+  let wkt = null, boundary = "limite oficial simplificado";
+  for (const n of WKT_POINTS) {
+    const { exact } = parkWkt(feature, n);
+    if (await gbifFacet(exact, "classKey=359", 1)) {
+      wkt = exact;
+      break;
+    }
+  }
+  if (!wkt) {
+    // O GBIF recusou o polígono (autointerseção após simplificar): usa a envoltória convexa.
+    wkt = parkWkt(feature, WKT_POINTS[0]).hull;
+    boundary = "envoltória convexa do limite oficial";
+  }
+
+  const raw = [];
+  for (const g of GROUPS) raw.push({ ...g, result: await gbifFacet(wkt, g.query, g.facet) });
+  const threat = new Map();
+  for (const cat of THREAT) {
+    const r = await gbifFacet(wkt, `iucnRedListCategory=${cat}`, 15);
+    for (const s of r?.species ?? []) threat.set(s.key, cat);
+  }
+
+  const keys = [...new Set([...raw.flatMap((g) => g.result?.species.map((s) => s.key) ?? []), ...threat.keys()])];
+  await gbifSpecies(keys);
+  await wikidataInfo(keys);
+  await commonsInfo(keys.flatMap((k) => wikidata.get(k)?.images.slice(0, 2) ?? []));
+  // iNaturalist (1 req/s) só para quem pode aparecer: com foto, sem nome popular e entre as
+  // primeiras do grupo (ou ameaçada).
+  const hasPhoto = (k) => wikidata.get(k)?.images.some((t) => commons.get(t));
+  const noName = (k) => {
+    const wd = wikidata.get(k), sci = speciesInfo.get(k)?.scientificName?.toLowerCase();
+    return !wd?.names.some((n) => n.toLowerCase() !== sci);
+  };
+  const candidates = new Set([
+    ...raw.flatMap((g) => (g.result?.species ?? []).map((x) => x.key).filter(hasPhoto).slice(0, g.take * 2)),
+    ...[...threat.keys()].filter(hasPhoto),
+  ]);
+  await inatInfo([...candidates].filter(noName));
+
+  const card = (key, records) => {
+    const info = speciesInfo.get(key);
+    if (!info || info.rank !== "SPECIES" || introduced.has(key) || BLOCK.has(key) || inat.get(key)?.introduced) return null;
+    const wd = wikidata.get(key);
+    const photo = wd?.images.map((t) => commons.get(t)).find(Boolean) ?? null;
+    const pt = wd?.names.find((n) => n.toLowerCase() !== info.scientificName.toLowerCase()) ?? inat.get(key)?.name ?? null;
+    return {
+      gbifKey: key,
+      scientificName: info.scientificName,
+      name: pt ? pt.charAt(0).toUpperCase() + pt.slice(1) : null,
+      family: info.family,
+      records,
+      iucn: threat.get(key) ?? wd?.iucn ?? null,
+      wikidata: wd?.qid ?? null,
+      photo: photo && { ...photo, alt: pt ? `${pt} (${info.scientificName})` : info.scientificName },
+    };
+  };
+
+  const groups = raw
+    .map((g) => {
+      const all = (g.result?.species ?? []).map((s) => card(s.key, s.records)).filter(Boolean);
+      // Prioridade: com foto e nome popular, depois só com foto, depois o resto
+      // (dentro de cada faixa, a ordem por número de registros é mantida).
+      const rank = (s) => (s.photo ? 0 : 2) + (s.name ? 0 : 1);
+      const species = [...all].sort((x, y) => rank(x) - rank(y)).slice(0, g.take);
+      return { id: g.id, label: g.label, records: g.result?.records ?? 0, species };
+    })
+    .filter((g) => g.species.length);
+
+  const threatened = [...threat.entries()]
+    .map(([key, cat]) => {
+      const c = card(key, null);
+      return c && { ...c, iucn: cat };
+    })
+    .filter(Boolean)
+    .sort((a, b) => THREAT.indexOf(a.iucn) - THREAT.indexOf(b.iucn))
+    .slice(0, 12);
+
+  const out = {
+    generatedAt: ACCESSED,
+    boundary,
+    method:
+      "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+    sources: [
+      { title: "GBIF: ocorrências de espécies", url: "https://www.gbif.org/occurrence/search?geometry=" + encodeURIComponent(wkt), accessed: ACCESSED },
+      { title: "GRIIS Brasil: espécies introduzidas e invasoras", url: `https://www.gbif.org/dataset/${GRIIS_BRAZIL}`, accessed: ACCESSED },
+      { title: "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos", url: "https://www.wikidata.org", accessed: ACCESSED },
+    ],
+    groups,
+    threatened,
+  };
+  const dir = path.join(ROOT, "data", COUNTRY, "parks", park.slug);
+  await fs.mkdir(dir, { recursive: true });
+  await fs.writeFile(path.join(dir, "biodiversity.generated.json"), JSON.stringify(out, null, 2) + "\n");
+  done++;
+  const n = groups.reduce((a, g) => a + g.species.length, 0);
+  const ph = groups.reduce((a, g) => a + g.species.filter((s) => s.photo).length, 0);
+  console.log(`[${done}/${selected.length}] ${park.slug}: ${n} espécies (${ph} com foto), ${threatened.length} ameaçadas · ${boundary}`);
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Serras de Caatinga no sertão baiano, protegidas em nome da onça-pintada, da arara-azul-de-lear e do tatu-bola.",
+  "intro": "No norte da Bahia, o Parque Nacional do Boqueirão da Onça protege cerca de 347 mil hectares de serras de Caatinga em Sento Sé, Juazeiro, Sobradinho e Campo Formoso. Criado pelo decreto de 5 de abril de 2018, nasceu no mesmo dia que uma APA vizinha, ainda maior.",
+  "sourceIds": [
+    "decreto",
+    "pmif"
+  ],
+  "protects": {
+    "summary": "Um imenso bloco de Caatinga preservada e três espécies ameaçadas",
+    "items": [
+      {
+        "title": "Caatinga de ponta a ponta",
+        "text": "Somados, o parque e a APA vizinha protegem mais de 850 mil hectares de Caatinga, com todas as variações de sua vegetação.",
+        "sourceIds": [
+          "pmif"
+        ]
+      },
+      {
+        "title": "Três espécies-bandeira",
+        "text": "O decreto de criação cita nominalmente a onça-pintada, a arara-azul-de-lear e o tatu-bola como espécies a manter em populações viáveis.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Da baixada às serras",
+        "text": "O parque protege a Caatinga em diferentes altitudes, onde o relevo muda o clima, a vegetação e a fauna.",
+        "sourceIds": [
+          "decreto",
+          "pmif"
+        ]
+      },
+      {
+        "title": "Pedra que guarda o passado",
+        "text": "Entre os objetivos do parque está proteger formações cársticas, sítios paleontológicos e sítios arqueológicos.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "wonders": [],
+  "curiosities": [
+    {
+      "text": "A proposta do parque começou a tramitar em 2002. Foram 16 anos de consultas até a criação, em 2018.",
+      "sourceIds": [
+        "pmif",
+        "decreto"
+      ]
+    },
+    {
+      "text": "Os povoados com moradores ficaram fora dos limites do parque, assim como boa parte das áreas comunais de fundo de pasto.",
+      "sourceIds": [
+        "pmif"
+      ]
+    },
+    {
+      "text": "As famosas grutas Toca da Boa Vista e Toca da Barriguda não ficam no parque, e sim na APA do Boqueirão da Onça, criada no mesmo dia.",
+      "sourceIds": [
+        "pmif"
+      ]
+    },
+    {
+      "text": "Na região vivem comunidades quilombolas, indígenas e de fundo de pasto, que criam animais soltos em terras de uso comum.",
+      "sourceIds": [
+        "pmif"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2002 · A proposta",
+      "text": "Abre-se o processo administrativo que, 16 anos depois, levaria à criação do parque.",
+      "sourceIds": [
+        "decreto",
+        "pmif"
+      ]
+    },
+    {
+      "title": "2018 · Parque e APA",
+      "text": "Em 5 de abril, dois decretos criam o Parque Nacional e a Área de Proteção Ambiental do Boqueirão da Onça.",
+      "sourceIds": [
+        "decreto",
+        "pmif"
+      ]
+    },
+    {
+      "title": "2023 · Plano contra o fogo",
+      "text": "O ICMBio publica o primeiro plano de manejo integrado do fogo do parque. A caça aparece como provável principal origem dos incêndios.",
+      "sourceIds": [
+        "pmif"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Anodorhynchus leari",
+      "name": "Arara-azul-de-lear",
+      "why": "Arara ameaçada de extinção citada no decreto de criação do parque.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Anodorhynchus_leari_-Rio_de_Janeiro_Zoo%2C_Brazil-8a.jpg/1280px-Anodorhynchus_leari_-Rio_de_Janeiro_Zoo%2C_Brazil-8a.jpg",
+        "author": "Marcos Pereira",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anodorhynchus_leari_-Rio_de_Janeiro_Zoo,_Brazil-8a.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Arara-azul-de-lear (Anodorhynchus leari)",
+        "context": "Arara-azul-de-lear, Anodorhynchus leari."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Grande felino ameaçado, é uma das espécies que o decreto manda proteger.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Onça-pintada (Panthera onca); fotografia da espécie",
+        "context": "Retrato ilustrativo de Panthera onca. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Tolypeutes tricinctus",
+      "name": "Tatu-bola",
+      "why": "Ameaçado de extinção, está entre as espécies-alvo do decreto de criação.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/EdmontonZooArmadillo.JPG/1280px-EdmontonZooArmadillo.JPG",
+        "author": "ChrisStubbs",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:EdmontonZooArmadillo.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Tatu-bola (Tolypeutes tricinctus)",
+        "context": "Tatu-bola, Tolypeutes tricinctus."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Boqueirão da Onça",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-do-boqueirao-da-onca",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 9.336, de 5 de abril de 2018",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9336.htm",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pmif",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo Integrado do Fogo do Parna e APA do Boqueirão da Onça (2024-2026)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_PARNA_Boqueirao_da_Onca_v_07_11_2023.pdf",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

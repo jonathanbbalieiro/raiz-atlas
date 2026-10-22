@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "A floresta que cobre o Rio foi plantada à mão no século XIX, e só agora os bichos que a habitavam estão voltando para dentro dela.",
+  "items": [
+    {
+      "kind": "reintroduzida",
+      "name": "Cutia",
+      "scientificName": "Dasyprocta leporina",
+      "when": "reintroduzida a partir de 2010",
+      "text": "Quando a floresta foi replantada por ordem de dom Pedro II, havia até uma aleia de cutieiras, mas nenhuma cutia para abrir seus frutos duros. O projeto Refauna soltou o roedor no parque a partir de 2010; hoje as cutias se reproduzem e enterram sementes, e um estudo de 2020 mostrou que, onde elas vivem, as castanhas germinam em vez de apodrecer.",
+      "sourceIds": [
+        "fapesp-refauna"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Dasyprocta_leporina_-_Buffalo_Zoo.jpg/1280px-Dasyprocta_leporina_-_Buffalo_Zoo.jpg",
+        "author": "Dave Pape",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dasyprocta_leporina_-_Buffalo_Zoo.jpg",
+        "width": 1280,
+        "height": 1042,
+        "alt": "Cutia (Dasyprocta leporina) em zoológico; foto ilustrativa da espécie, não tirada na Tijuca",
+        "context": "Cutia (Dasyprocta leporina) em zoológico; foto ilustrativa da espécie, não tirada na Tijuca"
+      }
+    },
+    {
+      "kind": "reintroduzida",
+      "name": "Bugio-ruivo",
+      "scientificName": "Alouatta guariba",
+      "when": "reintroduzido a partir de 2015",
+      "text": "O maior primata da Floresta da Tijuca havia desaparecido da mata replantada. Em 2015 o Refauna soltou o primeiro casal, em parceria com o Centro de Primatologia do Rio de Janeiro; o casal já teve oito filhotes, e um segundo grupo chegou para ampliar a diversidade genética. As fezes dos bugios, cheias de sementes, atraem besouros que as enterram e ajudam a floresta a se renovar.",
+      "sourceIds": [
+        "fapesp-refauna"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/573926556/original.jpg",
+        "author": "chon_kaue",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/573926556",
+        "width": 2048,
+        "height": 1356,
+        "alt": "Bugio-ruivo (Alouatta guariba clamitans) olhando para o alto, em Alto da Boa Vista, Rio de Janeiro",
+        "context": "Bugio-ruivo registrado no Alto da Boa Vista, onde fica a Floresta da Tijuca, no Rio de Janeiro."
+      }
+    },
+    {
+      "kind": "reintroduzida",
+      "name": "Jabuti-tinga",
+      "scientificName": "Chelonoidis denticulatus",
+      "when": "reintroduzido em 2020 e 2021",
+      "text": "A espécie havia desaparecido do parque há mais de 200 anos. Em 2020 foram soltos 28 jabutis-tinga e, em janeiro de 2021, mais 12, todos com radiotransmissores nos cascos; cerca de 80% dos reintroduzidos em 2020 seguiam vivos no monitoramento. Eles espalham sementes e nutrientes pelo chão da mata.",
+      "sourceIds": [
+        "agbr-jabutis",
+        "fapesp-refauna"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Yellow-footed_Tortoise.jpg",
+        "author": "Ltshears",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yellow-footed_Tortoise.jpg",
+        "width": 1280,
+        "height": 914,
+        "alt": "Jabuti-tinga (Chelonoidis denticulatus) em aquário; foto ilustrativa da espécie",
+        "context": "Jabuti-tinga (Chelonoidis denticulatus) em aquário; foto ilustrativa da espécie"
+      }
+    },
+    {
+      "kind": "reintroduzida",
+      "name": "Arara-canindé",
+      "scientificName": "Ara ararauna",
+      "when": "solta em janeiro de 2026",
+      "text": "Depois de mais de dois séculos sem a espécie no estado do Rio, quatro araras-canindé chegaram ao parque em 2025 para se aclimatar e foram soltas em janeiro de 2026. São aves de criadouro comercial, acompanhadas pelo Refauna, que tenta devolver à floresta seus grandes dispersores de sementes.",
+      "sourceIds": [
+        "agov-araras",
+        "ecycle-araras"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/1280px-Ara_ararauna_Luc_Viatour.jpg",
+        "author": "Luc Viatour",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg",
+        "width": 1280,
+        "height": 988,
+        "alt": "Arara-canindé (Ara ararauna) em voo; foto ilustrativa da espécie",
+        "context": "Arara-canindé (Ara ararauna) em voo; foto ilustrativa da espécie"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "fapesp-refauna",
+      "institution": "Revista Pesquisa FAPESP",
+      "title": "Estratégias ecológicas buscam a recomposição da fauna e tentam reverter extinções",
+      "url": "https://revistapesquisa.fapesp.br/estrategias-ecologicas-buscam-a-recomposicao-da-fauna-e-tentam-reverter-extincoes/",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "agbr-jabutis",
+      "institution": "Agência Brasil",
+      "title": "No Rio, jabutis são soltos no Parque Nacional da Tijuca",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2021-01/no-rio-jabutis-sao-soltos-no-parque-nacional-da-tijuca",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "agov-araras",
+      "institution": "Agência Gov",
+      "title": "No Parque Nacional da Tijuca, araras-canindés voltam ao Rio após 200 anos",
+      "url": "https://agenciagov.ebc.com.br/noticias/202601/no-parque-nacional-tijuca-araras-canindes-voltam-rio-apos-200-anos",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "ecycle-araras",
+      "institution": "ecycle",
+      "title": "Começa retorno de araras-canindés ao Parque Nacional da Tijuca após mais de 200 anos de extinção da espécie no Rio de Janeiro",
+      "url": "https://www.ecycle.com.br/comeca-retorno-de-araras-canindes-ao-parque-nacional-da-tijuca-apos-mais-de-200-anos-de-extincao-da-especie-no-rio-de-janeiro/",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Nas cavernas do Peruaçu, a escuridão guardou ossos de bichos que a Era do Gelo levou embora — e uma planta que ninguém via havia 30 anos.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Preguiça-gigante do Peruaçu",
+      "scientificName": "Folivora (espécies não identificadas no plano de manejo)",
+      "when": "Pleistoceno, há mais de 10 mil anos",
+      "text": "Na Gruta da Preguiça foram achados ossos bem preservados, embora de esqueleto incompleto, de uma preguiça extinta da megafauna pleistocênica — descritos como o registro fóssil regional mais interessante. Já na Gruta Volta da Serra III há grande quantidade de fósseis de pelo menos três mamíferos extintos, dois deles preguiças.",
+      "sourceIds": [
+        "pm3"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "megafauna_fossil",
+      "name": "Gliptodontíneo",
+      "scientificName": "Glyptodontinae",
+      "when": "Pleistoceno, há mais de 10 mil anos",
+      "text": "Parentes distantes dos tatus, os gliptodontes carregavam uma carapaça rígida de placas ósseas. Na Gruta Volta da Serra III, entre fósseis de ao menos três mamíferos extintos, está o de um gliptodontíneo pleistocênico.",
+      "sourceIds": [
+        "pm3"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "possivelmente_extinta",
+      "name": "Microtea",
+      "scientificName": "Microtea scabrida",
+      "when": "sem coleta por cerca de 30 anos até 2001",
+      "text": "Pequena erva da família Phytolacaceae, de pouca expressividade visual, foi tida como presumivelmente extinta por não ser coletada havia 30 anos. Uma lista florística do Peruaçu a registrou em 2001, na floresta decídua da trilha para a Lapa dos Bichos, mas buscas posteriores não a reencontraram. Se a identificação for confirmada, passa a criticamente ameaçada, com população reduzida.",
+      "sourceIds": [
+        "pm3"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm3",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Plano de Manejo do Parque Nacional Cavernas do Peruaçu, Encarte 3: Análise da UC",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-cavernas-do-peruacu/arquivos/parna_cavernas_peruacu_pm_enc3.pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

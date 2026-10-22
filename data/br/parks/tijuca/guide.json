@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma floresta replantada no século XIX cobre as montanhas do Rio e cerca o Cristo Redentor por todos os lados.",
+  "intro": "No meio da cidade do Rio de Janeiro, o Parque Nacional da Tijuca protege 3.958 hectares de Mata Atlântica em quatro setores, da Floresta da Tijuca à Pedra da Gávea. Boa parte dessa mata cresceu sobre antigas fazendas de café, depois de um reflorestamento iniciado em 1861. É um dos parques mais visitados do país.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-n1"
+  ],
+  "protects": {
+    "summary": "Uma floresta urbana que trabalha para a cidade",
+    "items": [
+      {
+        "title": "Mata Atlântica de volta",
+        "text": "Devastada pela madeira e pelo café nos séculos XVII e XVIII, a área se regenerou com desapropriações e plantio a partir de 1861. O ICMBio a descreve como a maior floresta urbana replantada pelo homem no mundo.",
+        "sourceIds": [
+          "icmbio-n1",
+          "icmbio-n2"
+        ]
+      },
+      {
+        "title": "Serviços para o Rio",
+        "text": "A floresta protege mananciais, segura encostas contra a erosão, ameniza enchentes e o calor e reduz a poluição do ar e o barulho.",
+        "sourceIds": [
+          "icmbio-n2"
+        ]
+      },
+      {
+        "title": "Quatro setores",
+        "text": "Floresta da Tijuca, Serra da Carioca, Pedra Bonita/Pedra da Gávea e Pretos Forros/Covanca formam o parque, misturado à malha urbana.",
+        "sourceIds": [
+          "icmbio-n1"
+        ]
+      },
+      {
+        "title": "Espécies ameaçadas",
+        "text": "Entre as ameaçadas protegidas pelo parque estão a tiriba-grande, o gavião-pomba, o morcego-vermelho e a rãzinha Thoropa lutzi.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cascatinha Taunay",
+      "text": "O pintor Nicolas Taunay morava nos limites do parque e se apaixonou por esta cachoeira, que inspirou seus quadros e acabou levando seu nome.",
+      "sourceIds": [
+        "icmbio-n1"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Cascatinha_Taunay._Brasil_%286827666410%29.jpg/1280px-Cascatinha_Taunay._Brasil_%286827666410%29.jpg",
+        "author": "Marinelson Almeida - Traveling through Brazil from Niteroi, Brasil",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cascatinha_Taunay._Brasil_(6827666410).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Queda d'água da Cascatinha Taunay entre a mata atlântica da Floresta da Tijuca",
+        "context": "A Cascatinha Taunay, queda de cerca de 30 metros na entrada da Floresta da Tijuca, no Rio de Janeiro."
+      }
+    },
+    {
+      "title": "Pedra da Gávea",
+      "text": "Um dos cartões-postais do parque, no setor Pedra Bonita/Pedra da Gávea, procurado por montanhistas e pelos praticantes de voo livre.",
+      "sourceIds": [
+        "icmbio-n2"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Pedra_da_G%C3%A1vea_%282022-12-11%29_02.jpg/1280px-Pedra_da_G%C3%A1vea_%282022-12-11%29_02.jpg",
+        "author": "Avelludo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_da_G%C3%A1vea_(2022-12-11)_02.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Pedra da Gávea emergindo da neblina, vista da Pedra Bonita",
+        "context": "A Pedra da Gávea vista da Pedra Bonita, com o mar de nuvens subindo pela encosta coberta de mata atlântica."
+      }
+    },
+    {
+      "title": "Pico da Tijuca",
+      "text": "O ponto mais alto do parque, com cerca de mil metros. Do alto, a vista alcança o Pico da Tijuca Mirim e a floresta que cerca a cidade.",
+      "sourceIds": [
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Floresta_tijuca_pico_tijuca_mirim.jpg/1280px-Floresta_tijuca_pico_tijuca_mirim.jpg",
+        "author": "Halleypo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floresta_tijuca_pico_tijuca_mirim.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Pico rochoso coberto de floresta",
+        "context": "O Pico da Tijuca Mirim visto do Mirante do Excelsior."
+      }
+    },
+    {
+      "title": "Corcovado",
+      "text": "O morro do Cristo Redentor fica dentro do parque. Para proteger o lugar, o plano de manejo limita a 1.300 pessoas ao mesmo tempo no platô superior.",
+      "sourceIds": [
+        "icmbio-n2"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/CORCOVADO_PARQUE_NACIONAL_DA_TIJUCA_LOGIN_PROCVRATOR.jpg/1280px-CORCOVADO_PARQUE_NACIONAL_DA_TIJUCA_LOGIN_PROCVRATOR.jpg",
+        "author": "Procvrator",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CORCOVADO_PARQUE_NACIONAL_DA_TIJUCA_LOGIN_PROCVRATOR.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Corcovado, Tijuca",
+        "context": "Corcovado. VISTA DO PNT , POR RADEN CORPTER"
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Na Capela Mayrink, dentro do parque, há quadros de Cândido Portinari.",
+      "sourceIds": [
+        "icmbio-n1"
+      ]
+    },
+    {
+      "text": "Os paisagistas Glaziou e Burle Marx trabalharam na revitalização paisagística da floresta.",
+      "sourceIds": [
+        "icmbio-n1"
+      ]
+    },
+    {
+      "text": "Ruínas como as do Midosi, antiga fazenda de café, guardam a memória do trabalho escravo nas lavouras e no reflorestamento.",
+      "sourceIds": [
+        "icmbio-n1"
+      ]
+    },
+    {
+      "text": "O Recanto dos Artistas, dentro da floresta, era ponto de encontro de pintores que buscavam inspiração na mata e nas cascatas.",
+      "sourceIds": [
+        "icmbio-n1"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Séculos XVII e XVIII · A mata derrubada",
+      "text": "Madeira e monoculturas, sobretudo o café, devastam a maior parte das encostas onde hoje está o parque.",
+      "sourceIds": [
+        "icmbio-n1"
+      ]
+    },
+    {
+      "title": "1861 · Replantar para ter água",
+      "text": "Por ordem de D. Pedro II, terras são desapropriadas e reflorestadas, e a vegetação começa a se regenerar.",
+      "sourceIds": [
+        "icmbio-n1"
+      ]
+    },
+    {
+      "title": "1961 · Nasce o parque nacional",
+      "text": "Em 6 de julho, o Decreto nº 50.923 reúne as florestas do maciço numa só unidade, o Parque Nacional do Rio de Janeiro. Em 1967, ela recebe o nome de Parque Nacional da Tijuca.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2012 · Paisagem do mundo",
+      "text": "A UNESCO inscreve Paisagens Cariocas: entre a Montanha e o Mar como Patrimônio Mundial, e o parque faz parte do sítio.",
+      "sourceIds": [
+        "icmbio-pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Thoropa lutzi",
+      "name": "Rãzinha",
+      "why": "Está na lista de espécies ameaçadas protegidas pelo parque e é classificada como criticamente em perigo pela IUCN.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ]
+    },
+    {
+      "scientificName": "Coleocephalocereus fluminensis",
+      "name": "Cacto-redondo",
+      "why": "Cacto criticamente em perigo segundo a IUCN, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Coleocephalocereus_fulminensis_%28Miquel%29_Backeberg.jpg/960px-Coleocephalocereus_fulminensis_%28Miquel%29_Backeberg.jpg",
+        "author": "PierreBraun",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coleocephalocereus_fulminensis_(Miquel)_Backeberg.jpg",
+        "width": 640,
+        "height": 965,
+        "alt": "Cacto-redondo (Coleocephalocereus fluminensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Coleocephalocereus fluminensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Alouatta guariba",
+      "name": "Bugio-ruivo",
+      "why": "Primata da Mata Atlântica, vulnerável segundo a IUCN e registrado dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Alouatta_fusca_clamitans.jpg/960px-Alouatta_fusca_clamitans.jpg",
+        "author": "Dario Sanches from SÃO PAULO, BRASIL",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alouatta_fusca_clamitans.jpg",
+        "width": 640,
+        "height": 966,
+        "alt": "Bugio-ruivo (Alouatta guariba); fotografia da espécie",
+        "context": "Retrato ilustrativo de Alouatta guariba. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna da Tijuca",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-tijuca",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-n1",
+      "institution": "ICMBio",
+      "title": "Visitas guiadas aliam história e belezas naturais",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/visitas-guiadas-aliam-historia-e-belezas-naturais/",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-n2",
+      "institution": "ICMBio",
+      "title": "Tijuca retoma obras do centro de visitantes",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/tijuca-retoma-obras-do-centro-de-visitantes/",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-pm",
+      "institution": "ICMBio",
+      "title": "Unidades de Conservação federais que são patrimônios mundiais pela Unesco",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/patrimonio-mundial",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

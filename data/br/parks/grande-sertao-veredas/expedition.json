@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional Grande Sertão Veredas",
+  "title": "O sertão de Guimarães Rosa: buriti, areia e água escura",
+  "subtitle": "Na divisa entre Minas Gerais e Bahia, veredas de buriti, um aquífero de arenito e o rio Preto de águas escuras formam a paisagem do romance que deu nome ao parque.",
+  "centralQuestion": "Como a areia, a água e a história dos Gerais explicam o parque que homenageia Guimarães Rosa?",
+  "introduction": [
+    "O sertão de Guimarães Rosa existe, e dá para pisar nele. O escritor passou pela região no início da década de 1950, e dessa viagem saiu o romance Grande Sertão: Veredas. Muitos lugares e traços culturais do livro ainda podem ser encontrados por aqui.",
+    "No parque, a paisagem é de chapadas de areia, buritis de pé na água, o rio Preto escuro como café e um céu enorme. Aqui nascem as veredas que dão nome ao livro, e é por baixo delas que vem a água."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares na criação, em 1989 (valor aproximado do plano)",
+      "value": "84 mil",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    },
+    {
+      "label": "espécies de plantas registradas na avaliação ecológica rápida",
+      "value": "623",
+      "sourceId": "pm",
+      "locator": "p. 164"
+    },
+    {
+      "label": "espécies de aves registradas",
+      "value": "244",
+      "sourceId": "pm",
+      "locator": "p. 164"
+    },
+    {
+      "label": "espécies de peixes registradas, nenhuma introduzida",
+      "value": "62",
+      "sourceId": "pm",
+      "locator": "p. 164"
+    },
+    {
+      "label": "hectares: tamanho dos Gerais, subunidade do Cerrado",
+      "value": "≈ 13 milhões",
+      "sourceId": "pm",
+      "locator": "p. 13"
+    },
+    {
+      "label": "altura média dos buritis, de 12 a 25 metros",
+      "value": "12–25 m",
+      "sourceId": "pm",
+      "locator": "p. 89"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Vereda",
+      "definition": "Ambiente em que o buriti cresce em meio a ervas e arbustos, em fundos de vale ou nascentes, em solos saturados de água durante a maior parte do ano.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Gerais",
+      "definition": "Subunidade do Cerrado, com cerca de 13 milhões de hectares na margem esquerda do São Francisco, do noroeste de Minas ao sul do Piauí.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Carrasco",
+      "definition": "Vegetação dominada por arbustos e lianas, com elementos do Cerrado e da Caatinga. O parque é a única unidade de conservação federal com amostras dela.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Aquífero Urucuia",
+      "definition": "Grande reservatório subterrâneo formado pelo arenito Urucuia, com grande capacidade de armazenar água, que abastece o sistema hidrológico do parque.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "veredas",
+      "eyebrow": "01 · As veredas",
+      "title": "Buritis que anunciam a água",
+      "question": "O que é uma vereda e de onde vem tanta água?",
+      "paragraphs": [
+        "Vereda é a fisionomia em que o buriti, Mauritia flexuosa, cresce em meio a grupos de arbustos e ervas. Ela aparece em fundos de vale, ao longo de cursos d'água ou perto de nascentes, em solos saturados na maior parte do ano. Os buritis têm altura média de 12 a 25 metros, e as veredas costumam ser cercadas por campos limpos.",
+        "No parque, há um complexo: há trechos típicos, com ervas e árvores juntas, e trechos só de ervas, em geral em volta das lagoas. As veredas e lagoas são os ambientes com mais plantas raras ou endêmicas.",
+        "Quase toda a área é de areia quartzosa, que forma um mosaico complexo de cerrado, campos e carrasco. Só as veredas fogem a essa regra, porque ocorrem em solos encharcados.",
+        "A água vem de baixo. O sistema hidrológico do parque é abastecido pelo grande aquífero formado pelo arenito Urucuia, que guarda muita água."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 89"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 85"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 164"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 165"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Grande_Sert%C3%A3o_Veredas.jpg/1280px-Grande_Sert%C3%A3o_Veredas.jpg",
+          "author": "Vanda Viveiros de Castro",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_Sert%C3%A3o_Veredas.jpg",
+          "width": 1280,
+          "height": 887,
+          "alt": "Uma vereda no Parque Nacional Grande Sertão Veredas",
+          "context": "Uma vereda no Parque Nacional Grande Sertão Veredas, em Formoso (MG)."
+        }
+      ]
+    },
+    {
+      "id": "rios",
+      "eyebrow": "02 · Os rios",
+      "title": "Rio Preto e Carinhanha: duas águas no mesmo encontro",
+      "question": "Por que a água do rio Preto é escura?",
+      "paragraphs": [
+        "A coloração escura das águas da bacia do rio Preto, que corre sobre solos arenosos da formação Urucuia, vem de ácidos orgânicos originados da decomposição de matéria vegetal nos solos húmicos das margens. A salinidade dessas águas também difere da dos rios que nascem em outras formações.",
+        "O rio Carinhanha marca o limite norte do parque, na divisa com a Bahia. Nos vales dos rios Preto e Carinhanha estendem-se planícies aluviais, com veredas e matas de galeria, lagoas e meandros abandonados, sinais de que o rio ainda deposita sedimentos ali.",
+        "A foz do rio Preto no Carinhanha é um dos lugares mais ricos do parque, com mata ciliar, lagoas intermitentes e veredas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 87"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 79"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 80"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 77"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/P%C3%B4r_do_sol_no_Grande_Sert%C3%A3o_Veredas.jpg/1280px-P%C3%B4r_do_sol_no_Grande_Sert%C3%A3o_Veredas.jpg",
+          "author": "Vitor S Borges",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:P%C3%B4r_do_sol_no_Grande_Sert%C3%A3o_Veredas.jpg",
+          "width": 1280,
+          "height": 857,
+          "alt": "Pôr do sol às margens do rio Preto",
+          "context": "Pôr do sol às margens do rio Preto, no Parque Nacional Grande Sertão Veredas."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "03 · A vida",
+      "title": "Uma arara, um carrasco e espécies recém-descobertas",
+      "question": "O que vive nos Gerais?",
+      "paragraphs": [
+        "A avaliação ecológica rápida do plano registrou 623 espécies de plantas em cinco fitofisionomias principais, cerca de 70% das plantas presentes no Chapadão Ocidental da Bahia. Gramíneas e palmeiras, como o buriti, são abundantes.",
+        "O parque é a única unidade de conservação federal com amostras de carrasco, vegetação que reúne elementos do Cerrado e da Caatinga.",
+        "Entre os vertebrados, o levantamento achou 62 espécies de peixes, 22 de anfíbios, 31 de répteis, 244 de aves e 56 de mamíferos. Duas espécies foram descritas recentemente por cientistas, e há registro de espécies ameaçadas, como o tatu-canastra, a suçuarana e o cervo-do-pantanal.",
+        "A população de arara-canindé do parque é possivelmente a maior de uma área protegida do país."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 164"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 165"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "sertao",
+      "eyebrow": "04 · O sertão",
+      "title": "Jagunços, naturalistas e a Coluna",
+      "question": "Quem passou por aqui antes do parque?",
+      "paragraphs": [
+        "Muita gente cruzou esta região antes do parque. No século XIX, passaram os naturalistas Gardner, Martius e Spix. Gardner atravessou o Carinhanha em 1840, no antigo Porto da Muriçoca, hoje dentro do parque, a única Zona Histórico-Cultural do parque.",
+        "No início do século XX, Antônio Dó, depois de se ver injustiçado pelo poder público e por um fazendeiro vizinho, juntou seu próprio grupo de jagunços e virou um dos bandidos sociais mais famosos da região. Em 1925, a Coluna Prestes passou por aqui e transpôs o Carinhanha, possivelmente pelo porto de Muriçoca.",
+        "Guimarães Rosa chegou no início dos anos 1950. A região do parque está inserida nos ambientes naturais descritos no romance."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 42"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 47"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 58"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 183"
+        }
+      ],
+      "note": {
+        "title": "Memória regional",
+        "body": "O plano de manejo recomenda novos estudos históricos sobre Antônio Dó, a Coluna Prestes e Guimarães Rosa na região (p. 200)."
+      },
+      "images": []
+    },
+    {
+      "id": "criacao",
+      "eyebrow": "05 · O parque",
+      "title": "Um sonho de 1977 para proteger os Gerais",
+      "question": "Por que criar um parque nacional neste lugar?",
+      "paragraphs": [
+        "A proposta de criar um parque nacional nos Gerais foi feita pela primeira vez, informalmente, em 1977, pelos cientistas Ângelo Machado e Célio Valle. Para a Funatura, fundada em 1986, o parque era um sonho desde o início, porque não havia uma única unidade de conservação na região, de cerca de 13 milhões de hectares.",
+        "Naquela época a região sofria uma ocupação rápida e desordenada. Com o asfaltamento da BR-020 e o baixo custo das terras, o uso agropecuário desenfreado avançava sobre os habitats naturais.",
+        "O Decreto nº 97.658, de 12 de abril de 1989, criou o parque, com cerca de 84.000 hectares. Em 2004, outro decreto, de 21 de maio, ampliou a área para cerca de 230 mil hectares, até Côcos, na Bahia. Hoje o parque é a única unidade de conservação federal dos Gerais."
+      ],
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 164"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "página oficial"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "De uma ideia ao parque",
+    "intro": "Marcos da história dos Gerais e do parque.",
+    "items": [
+      {
+        "id": "1840",
+        "year": "1840",
+        "title": "Gardner no Carinhanha",
+        "description": "O naturalista atravessa o rio no Porto da Muriçoca.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1925",
+        "year": "1925",
+        "title": "Coluna Prestes",
+        "description": "A Coluna transpõe o Carinhanha, possivelmente pelo porto de Muriçoca.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1977",
+        "year": "1977",
+        "title": "A primeira proposta",
+        "description": "Ângelo Machado e Célio Valle sugerem informalmente um parque nacional nos Gerais.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1986",
+        "year": "1986",
+        "title": "Nasce a Funatura",
+        "description": "A fundação, que sonhava com o parque desde o início, é criada.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1989",
+        "year": "1989",
+        "title": "Decreto nº 97.658",
+        "description": "Em 12 de abril o parque é criado, com cerca de 84.000 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2004",
+        "year": "2004",
+        "title": "O parque triplica",
+        "description": "Em 21 de maio, um decreto amplia a área para cerca de 230 mil hectares.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um romance que virou parque",
+  "closing": "Entre buritis, água escura e areia, o parque guarda um trecho dos Gerais que o romance eternizou. Proteger a vereda é proteger a água que nasce embaixo dela.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "IBAMA / Funatura",
+      "title": "Plano de Manejo do Parque Nacional Grande Sertão Veredas (2003)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-grande-sertao-veredas/arquivos/parna_grande_sertao_veredasplanodemanejo.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "vegetação, hidrologia, fauna, história e criação; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Grande Sertão Veredas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-grande-sertao-veredas",
+      "accessedAt": "2026-10-22",
+      "use": "ampliação de 2004 e área atual"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: números de fauna e flora são da avaliação ecológica rápida de 2003; conferir levantamentos mais recentes e a regra de visitação em vigor; Fazenda Santa Rita (guia); revisão humana."
+}

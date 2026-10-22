@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Rio Novo",
+  "title": "Rio Novo: o silêncio da floresta não conta toda a história",
+  "subtitle": "No sudoeste do Pará, rios e mata preservada coexistem com marcas documentadas de garimpo. Ler a paisagem exige distinguir o que a floresta ainda protege daquilo que a atividade humana já alterou.",
+  "centralQuestion": "Como ler uma floresta que permanece em pé, mas traz marcas de alteração?",
+  "introduction": [
+    "À primeira vista, a cobertura florestal domina os mapas do Parque Nacional do Rio Novo, no sudoeste do Pará. Em 2022, um levantamento cartográfico classificou a maior parte da área analisada como floresta. A imagem de continuidade, porém, não revela sozinha tudo o que aconteceu sob as copas.",
+    "Registros de satélite e de fiscalização documentaram marcas de garimpo em períodos específicos. A reportagem acompanha esse contraste entre uma extensa cobertura vegetal e alterações que exigem observação cuidadosa. As imagens antigas ajudam a entender pressões sobre o território, sem serem confundidas com um diagnóstico atualizado de cada trecho do parque."
+  ],
+  "cover": {
+    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Reflexo_na_%C3%A1gua.jpg?width=1200",
+    "alt": "Água calma refletindo vegetação das margens.",
+    "author": "Victor Nikolai Emmi Santos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reflexo_na_%C3%A1gua.jpg",
+    "context": "Localização exata da fotografia nos limites do parque não confirmada. Superfície de água e vegetação em fotografia categorizada no Commons como Parque Nacional do Rio Novo. A localização exata do registro não está documentada. Foto: Victor Nikolai Emmi Santos / CC BY-SA 4.0."
+  },
+  "moments": [
+    {
+      "id": "identidade",
+      "eyebrow": "UMA FLORESTA COM NOME DE RIO",
+      "title": "A unidade e suas escalas",
+      "question": "Quanto uma ficha oficial consegue contar sobre meio milhão de hectares?",
+      "paragraphs": [
+        "Criado em 13 de fevereiro de 2006, no sudoeste do Pará, o Parque Nacional do Rio Novo integra o conjunto de unidades de conservação federais da Amazônia. A ficha do ICMBio informa pouco mais de 538 mil hectares. A referência territorial abrange os municípios de Itaituba e Novo Progresso, mas uma administração distante não significa que todo esse espaço seja igualmente conhecido por quem está fora dele.",
+        "O nome aproxima o parque da água. Em um território florestado, rios e igarapés não são simples caminhos desenhados no mapa: suas margens conectam o ambiente terrestre e o aquático. É nesses encontros que processos como a chegada de sedimentos, a cobertura das margens e o movimento de matéria orgânica tornam os rios inseparáveis da floresta. Esta é uma explicação ecológica geral, não uma medição feita especificamente no Rio Novo.",
+        "Para conhecer melhor o parque, portanto, a primeira tarefa não é listar animais famosos que podem viver em florestas amazônicas. É perguntar o que foi realmente observado dentro da unidade e o que ainda está sendo inferido a partir de uma região muito maior."
+      ],
+      "sourceIds": [
+        "rio_ficha",
+        "rio_municipios"
+      ],
+      "images": []
+    },
+    {
+      "id": "floresta",
+      "eyebrow": "A FLORESTA VISTA DE CIMA",
+      "title": "Uma paisagem majoritariamente coberta por mata",
+      "question": "Quanto da vida de uma floresta é possível enxergar do alto?",
+      "paragraphs": [
+        "Na série estadual de 2022, a FAPESPA classificou cerca de 5.235 quilômetros quadrados da área analisada como floresta, aproximadamente 97% do total de referência usado na tabela. O número é uma fotografia cartográfica daquele ano: não informa sozinho o estado da floresta em 2026 nem identifica cada árvore que cresce nela.",
+        "Floresta no mapa significa cobertura, não necessariamente ausência de alteração. Duas áreas podem parecer igualmente verdes a certa distância e ter histórias muito distintas de uso, corte seletivo ou caça. A leitura científica combina imagens orbitais, levantamentos em campo e observação ao longo do tempo; nenhuma fotografia substitui essa combinação.",
+        "Debaixo dessa cobertura verde existem frutos, insetos, árvores e animais que um satélite não consegue identificar. A imagem orbital revela a extensão da floresta, não os nomes de seus habitantes. Sem inventários locais suficientes, a riqueza de vida do Rio Novo precisa ser reconhecida sem virar uma lista de espécies supostamente confirmadas.",
+        "O mapa registra uma grande extensão de cobertura florestal, mas não mostra sozinho as condições de cada igarapé ou os vestígios de atividades humanas sob a copa. É essa diferença entre cobertura observada de cima e alterações identificadas em outros registros que prepara a leitura das imagens históricas de garimpo no capítulo seguinte."
+      ],
+      "sourceIds": [
+        "rio_fapespa"
+      ],
+      "images": [],
+      "note": {
+        "title": "Área e ano não são intercambiáveis",
+        "body": "A ficha do ICMBio apresenta 538.157,15 ha; a tabela da FAPESPA usa outra base cartográfica arredondada. Não derivar área legal da soma das classes de cobertura de 2022."
+      }
+    },
+    {
+      "id": "cicatrizes",
+      "eyebrow": "O QUE O MAPA REVELA",
+      "title": "Marcas de garimpo que a água não apaga depressa",
+      "question": "Como um problema ambiental deixa de ser uma suspeita?",
+      "paragraphs": [
+        "Um registro do INPE obtido com o satélite CBERS-4 e divulgado em 2018 assinala escavações de garimpo em área identificada como interior do parque. A imagem aponta solo exposto em contraste com a cobertura de floresta e com superfícies de água. É uma evidência datada de alteração de uso, não uma afirmação sobre a situação atual de cada cava.",
+        "No mesmo ano, o Ibama relatou uma operação nos parques do Rio Novo e do Jamanxim contra garimpos ilegais de ouro e cassiterita. Foram desativados equipamentos e desmontados acampamentos. A notícia registra a ação nos dois parques; não é correto atribuir isoladamente ao Rio Novo todo o número de máquinas mencionado no balanço conjunto.",
+        "Retirar vegetação, revolver solo e modificar canais afeta processos que dependem da continuidade entre mata e água. O emprego de mercúrio no garimpo de ouro acrescenta um risco conhecido de contaminação. Esse perigo não equivale a um laudo de concentração de mercúrio medido neste rio: tal análise local não foi localizada na apuração.",
+        "Na imagem de satélite de 2018, as áreas de solo exposto contrastam com a floresta ao redor. A marca pode ser observada por sensores, mas suas consequências sobre sedimentos e a água exigiriam medições específicas para serem quantificadas. A reportagem separa, portanto, três informações distintas: o local da alteração visto no registro histórico, a fiscalização relatada no mesmo ano e a condição atual, que não foi atestada por essa documentação.",
+        "Essa separação importa especialmente em rios amazônicos, cujo aspecto muda ao longo do tempo. Não é correto transformar a fotografia de uma cava em prova de contaminação em 2026, nem descrever uma operação antiga como fiscalização permanente. Para saber o que ocorreu depois, são necessários dados atuais de monitoramento, novas imagens datadas e documentação técnica."
+      ],
+      "sourceIds": [
+        "rio_sat",
+        "rio_ibama"
+      ],
+      "images": [
+        {
+          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parques%20Nacionais%20do%20Jamanxim%20e%20do%20Rio%20Novo%2C%20Par%C3%A1%20(31181652107).jpg?width=1200",
+          "alt": "Equipe de fiscalização do Ibama em atuação contra garimpos ilegais na região de duas unidades de conservação paraenses",
+          "author": "Vinícius Mendonça / Ibama",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parques%20Nacionais%20do%20Jamanxim%20e%20do%20Rio%20Novo%2C%20Par%C3%A1%20(31181652107).jpg",
+          "context": "Registro documental de uma operação contra garimpos nos parques do Rio Novo e do Jamanxim. A fotografia documenta a ação regional, não o local exato dos danos descritos no capítulo. Localização: Operação do Ibama nos parques do Jamanxim e do Rio Novo, Pará; ponto exato desta tomada não documentado; ainda não homologada independentemente."
+        }
+      ]
+    }
+  ],
+  "feature": null,
+  "closingTitle": "O rio guarda sinais do território",
+  "closing": "No Rio Novo, os mapas e as imagens históricas revelam tanto a continuidade das florestas quanto os sinais deixados pelo garimpo. Um registro de impacto não descreve automaticamente a situação de hoje; ajuda, isto sim, a formular perguntas para o acompanhamento do território. A proteção do parque depende desse olhar atento ao que permanece e ao que pode mudar.",
+  "references": [
+    {
+      "id": "rio_ficha",
+      "institution": "ICMBio",
+      "title": "Parna do Rio Novo — ficha oficial",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-rio-novo/parna-do-rio-novo",
+      "accessedAt": "2026-10-21",
+      "use": "Identidade, área, bioma, data de criação, conselho gestor"
+    },
+    {
+      "id": "rio_fapespa",
+      "institution": "FAPESPA",
+      "title": "Unidades de Conservação do Estado do Pará — 2022",
+      "url": "https://fapespa.pa.gov.br/sistemas/anuario2023/tabelas/meio-ambiente/tab-4.6-unidades-de-conservacao-do-estado-do-para-2022.htm",
+      "accessedAt": "2026-10-21",
+      "use": "Fotointerpretação de cobertura florestal/áreas de 2022, sem extrapolar para 2026"
+    },
+    {
+      "id": "rio_municipios",
+      "institution": "FAPESPA",
+      "title": "Áreas Protegidas no Estado do Pará e seus Municípios — 2023",
+      "url": "https://www.fapespa.pa.gov.br/sistemas/anuario2023/tabelas/meio-ambiente/tab-4.5-areas-protegidas-no-estado-do-para-e-seus-municipios-2023.htm",
+      "accessedAt": "2026-10-21",
+      "use": "Municípios e histórico cadastral"
+    },
+    {
+      "id": "rio_ibama",
+      "institution": "Ibama / transcrição de comunicado",
+      "title": "Ibama desativa garimpos ilegais em dois parques nacionais no PA (2018)",
+      "url": "https://noticias.ambientebrasil.com.br/clipping/2018/11/08/148338-ibama-desativa-garimpos-ilegais-em-dois-parques-nacionais-no-pa.html",
+      "accessedAt": "2026-10-21",
+      "use": "Operação específica de 2018, não prova de continuidade atual"
+    },
+    {
+      "id": "rio_sat",
+      "institution": "INPE / Oton Barros",
+      "title": "Parque Nacional do Rio Novo — imagem CBERS-4 com atividade irregular (2018)",
+      "url": "https://www.flickr.com/photos/observacao-da-terra/45058849434",
+      "accessedAt": "2026-10-21",
+      "use": "Registro datado de cicatrizes de garimpo dentro do limite cartografado"
+    },
+    {
+      "id": "rio_commons",
+      "institution": "Wikimedia Commons",
+      "title": "File: Reflexo na água.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Reflexo_na_%C3%A1gua.jpg",
+      "accessedAt": "2026-10-21",
+      "use": "Crédito, licença e categoria de imagem; fotografia não prova delimitação exata"
+    }
+  ],
+  "approved": false,
+  "status": "revisao_editorial",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "1_foto_commons_licenca_verificada_local_exato_pendente",
+  "editorialNotes": "Manuscrito original para análise humana, não aprovado nem publicado. Fontes com escopo identificável; imagens com metadados e limitações em assets.json. Não mexer em limites, IDs reais, React, CSS ou mapa. Faltam reconciliação CNUC/repositório e QA visual. | Edição v2.2: removido capítulo autorreferente sobre lacunas; mantida a documentação dos efeitos de garimpo e das classes florestais. | v2.10.9: aprofundamento editorial documentado; novas fotografias em prévia sem homologação espacial; sem aprovação automática.",
+  "editorialOrigin": "RAIZ Expedições v2.10.10",
+  "factCheckStatus": "verificacao_documental_parcial"
+}

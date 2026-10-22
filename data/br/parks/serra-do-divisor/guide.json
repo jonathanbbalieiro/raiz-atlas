@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Na ponta oeste do Brasil, perto dos Andes, a floresta amazônica ganha serras, cachoeiras e noites de até 7 °C.",
+  "intro": "No noroeste do Acre, na fronteira com o Peru, o Parque Nacional da Serra do Divisor protege mais de 800 mil hectares de floresta entre os rios Juruá e Moa. O nome vem da serra que separa as águas que correm para o Ucayali, no Peru, das que seguem para o Juruá.",
+  "sourceIds": [
+    "icmbio",
+    "decreto"
+  ],
+  "protects": {
+    "summary": "Uma Amazônia com sotaque andino",
+    "items": [
+      {
+        "title": "1.163 plantas e contando",
+        "text": "É cerca de um quarto das plantas vasculares catalogadas no Acre. Algumas têm aqui seu único registro no Brasil, e várias são aparentadas com a flora do pé dos Andes.",
+        "sourceIds": [
+          "icmbio-flora"
+        ]
+      },
+      {
+        "title": "Uma fauna enorme",
+        "text": "São 1.233 espécies de animais registradas, 90 delas de valor especial para a conservação, e cerca de 500 de aves.",
+        "sourceIds": [
+          "icmbio-fauna"
+        ]
+      },
+      {
+        "title": "18 primatas",
+        "text": "O monitoramento do ICMBio registrou 18 espécies de primatas, como o soim-preto, o macaco-barrigudo e o uacari-de-cabeça-vermelha. Avistá-los é comum.",
+        "sourceIds": [
+          "icmbio-turismo"
+        ]
+      },
+      {
+        "title": "Floresta aberta com palmeiras e bambus",
+        "text": "Cerca de 85% do parque é floresta ombrófila aberta, com palmeiras, cipós e bambus. Há também orquídeas, vitórias-régias e muitas flores coloridas.",
+        "sourceIds": [
+          "icmbio-fauna"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Rio Moa e a Serra do Moa",
+      "text": "De Mâncio Lima, barcos sobem o rio Moa até o pé da serra, onde ficam três pousadas de famílias locais e guias comunitários.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Rio_Moa%2C_Serra_do_Divisor%2C_Acre%2C_Brasil_02.jpg/1280px-Rio_Moa%2C_Serra_do_Divisor%2C_Acre%2C_Brasil_02.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Moa,_Serra_do_Divisor,_Acre,_Brasil_02.jpg",
+        "width": 1280,
+        "height": 950,
+        "alt": "Neblina sobre as encostas da serra, vista do rio Moa",
+        "context": "Rio Moa numa manhã de neblina."
+      }
+    },
+    {
+      "title": "Cachoeiras da serra",
+      "text": "A Pirapora I é a de acesso mais fácil. Trilhas curtas levam às cachoeiras do Amor, do Ar Condicionado e Pirapora 2. A mais longa vai até a Formosa e pede uma noite acampado na mata.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Cachoeira_Encantada_na_Serra_do_Divisor.jpg/1280px-Cachoeira_Encantada_na_Serra_do_Divisor.jpg",
+        "author": "Mário Broering",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_Encantada_na_Serra_do_Divisor.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Cachoeira caindo entre pedras na floresta",
+        "context": "Cachoeira na Serra do Divisor, ao fim de uma trilha de 14 km pela floresta."
+      }
+    },
+    {
+      "title": "Buraco da Central",
+      "text": "Uma sondagem de petróleo antiga deixou um ponto de água mais quente, hoje um dos atrativos de acesso mais fácil.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Mirante da serra",
+      "text": "Do alto se vê o sol nascer e se pôr sobre a floresta. À noite, a observação de estrelas é outro programa.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Rio_Moa_in_Serra_do_Divisor_National_Park.jpg/1280px-Rio_Moa_in_Serra_do_Divisor_National_Park.jpg",
+        "author": "A209",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Moa_in_Serra_do_Divisor_National_Park.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Rio Moa serpenteando pela floresta, visto do mirante",
+        "context": "Vista do rio Moa a partir do mirante do parque."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Perto da fronteira com o Peru, em junho e julho, a temperatura pode cair a 7 °C, uma surpresa numa região a cerca de mil quilômetros do Equador.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "text": "A primeira coleta de plantas no parque foi feita em 1901 pelo alemão Ernst Ule. A seguinte só veio mais de 80 anos depois.",
+      "sourceIds": [
+        "icmbio-flora"
+      ]
+    },
+    {
+      "text": "A choca-do-acre, ave com pouquíssimos registros, tem nome científico que remete à serra: Thamnophilus divisorius.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ]
+    },
+    {
+      "text": "O sagui Saguinus subgrisescens, que vive no parque, é o único do seu grupo com três molares de cada lado da mandíbula e cujas fêmeas costumam ter um filhote só, não gêmeos.",
+      "sourceIds": [
+        "icmbio-fauna2"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1901 · O primeiro botânico",
+      "text": "Ernst Ule coleta plantas na região, inaugurando um inventário que hoje soma cerca de 3,5 mil amostras.",
+      "sourceIds": [
+        "icmbio-flora"
+      ]
+    },
+    {
+      "title": "1989 · Nasce o parque",
+      "text": "O Decreto nº 97.839, de 16 de junho, cria o Parque Nacional da Serra do Divisor.",
+      "sourceIds": [
+        "decreto"
+      ]
+    },
+    {
+      "title": "Hoje · Turismo comunitário",
+      "text": "Famílias do pé da serra mantêm pousadas e formam condutores para observação de aves e primatas, atividade que cresce a cada ano.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Thamnophilus divisorius",
+      "name": "Choca-do-acre",
+      "why": "Ave rara, com poucos registros, cujo nome científico remete à serra. Virou um dos destaques para os observadores no parque.",
+      "sourceIds": [
+        "icmbio-turismo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Thamnophilus_divisorius_-_Acre_Antshrike_%28male%29%2C_Serra_do_Divisor_National_Park%2C_Acre%2C_Brazil.jpg/1280px-Thamnophilus_divisorius_-_Acre_Antshrike_%28male%29%2C_Serra_do_Divisor_National_Park%2C_Acre%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thamnophilus_divisorius_-_Acre_Antshrike_(male),_Serra_do_Divisor_National_Park,_Acre,_Brazil.jpg",
+        "width": 1280,
+        "height": 962,
+        "alt": "Macho de choca-do-acre",
+        "context": "Macho de choca-do-acre no Parque Nacional da Serra do Divisor."
+      }
+    },
+    {
+      "scientificName": "Ateles chamek",
+      "name": "Macaco-aranha-de-cara-preta",
+      "why": "Ameaçado, precisa de grandes áreas de floresta pouco perturbada e some facilmente com a caça.",
+      "sourceIds": [
+        "icmbio-fauna2",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ateles_chamek.jpg/960px-Ateles_chamek.jpg",
+        "author": "Ivan Mlinaric",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_chamek.jpg",
+        "width": 640,
+        "height": 428,
+        "alt": "Macaco-aranha-de-cara-preta (Ateles chamek); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ateles chamek. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Callimico goeldii",
+      "name": "Soim-preto",
+      "why": "Naturalmente raro, no Brasil só vive no Acre e no trecho do Juruá no Amazonas. Prefere matas com bambu.",
+      "sourceIds": [
+        "icmbio-fauna2",
+        "icmbio-turismo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Springtamarin.jpg/1280px-Springtamarin.jpg",
+        "author": "Marcel Burkhard",
+        "license": "CC BY-SA 2.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Springtamarin.jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": "Soim-preto (Callimico goeldii)",
+        "context": "Soim-preto, Callimico goeldii."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Conheça mais do Parna Serra do Divisor",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/novo-layout/conheca-mais-do-parna-serra-do-divisor",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-turismo",
+      "institution": "ICMBio",
+      "title": "Parna Serra do Divisor: dicas de turismo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/novo-layout/dicas-de-turismo",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-fauna",
+      "institution": "ICMBio",
+      "title": "Parna Serra do Divisor: fauna e flora",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/novo-layout/fauna-e-flora",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-fauna2",
+      "institution": "ICMBio",
+      "title": "Parna Serra do Divisor: fauna",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/novo-layout/fauna",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-flora",
+      "institution": "ICMBio",
+      "title": "Parna Serra do Divisor: flora do parque",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/novo-layout/flora-do-parque",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 97.839, de 16 de junho de 1989",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto/Antigos/D97839.htm",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

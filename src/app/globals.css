@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+/*
+ * Sistema visual: "um atlas digital contemporâneo".
+ * Cores de interface (as dos biomas ficam em src/lib/labels.ts e são usadas
+ * também pelo mapa, via src/components/map/theme.ts).
+ */
+:root {
+  --paper: #f8f6f0; /* creme: superfície dos painéis */
+  --paper-deep: #eae6dc; /* areia: superfícies secundárias */
+  --card: #fffefa; /* branco quente: cartões e campos */
+  --ink: #26352f; /* grafite: texto principal */
+  --ink-soft: #65736b; /* cinza-esverdeado: texto secundário (AA sobre creme) */
+  --forest: #244b3b; /* ações principais, seleção */
+  --forest-deep: #18392e; /* destaques */
+  --line: #e2ddd1; /* divisórias delicadas */
+  --sand: #eae6dc;
+  --earth: #8f5a32; /* sobretítulos editoriais (AA sobre creme) */
+  --moss: #7c9a6a;
+  --water: #2f7a8f;
+
+  /* Painel: largura fluida com limites (desktop/tablet). */
+  --panel-w: clamp(340px, 30vw, 420px);
+  --gap: 16px;
+  /* Área segura do topo (notch/barra do sistema). */
+  --sat: env(safe-area-inset-top, 0px);
+  /* Espaço ocupado à direita pelo painel (lido por cabeçalho, filtros, controles e créditos). */
+  --panel-offset: 0px;
+
+  /* Sombras discretas e realistas. */
+  --shadow-sm: 0 1px 2px rgb(38 53 47 / 0.08), 0 2px 8px rgb(38 53 47 / 0.06);
+  --shadow-md: 0 2px 4px rgb(38 53 47 / 0.06), 0 10px 28px rgb(38 53 47 / 0.12);
+  --shadow-lg: 0 4px 10px rgb(38 53 47 / 0.08), 0 24px 56px rgb(38 53 47 / 0.18);
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-forest: var(--forest);
+  --color-forest-deep: var(--forest-deep);
+  --color-moss: var(--moss);
+  --color-earth: var(--earth);
+  --color-sand: var(--sand);
+  --color-water: var(--water);
+  --color-line: var(--line);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-fraunces);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+}
+
+/*
+ * Escala de camadas (z-index), da base ao topo. Usar sempre estes valores:
+ *   0  mapa                        z-0
+ *   10 tooltip do mapa             z-10
+ *   20 controles do mapa, filtros  z-20
+ *   30 painel / bottom sheet       z-30
+ *   40 cabeçalho (marca, busca)    z-40
+ *   50 sugestões da busca          z-50
+ *   60 visualizador de fotos       z-60
+ *   70 link "pular para o conteúdo" z-70
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer base {
+  /* Foco visível e consistente; contêineres com tabindex="-1" (alvo de "pular para") não ganham contorno. */
+  :focus-visible {
+    outline: 2px solid var(--forest);
+    outline-offset: 2px;
+  }
+  [tabindex="-1"]:focus,
+  [tabindex="-1"]:focus-visible {
+    outline: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Expedição: o painel alarga para leitura longa; o mapa segue visível ao lado. */
+  .shell[data-reading] {
+    --panel-w: clamp(420px, calc(100vw - 360px), 760px);
+  }
+  .shell[data-panel="open"] {
+    --panel-offset: calc(var(--panel-w) + 2 * var(--gap));
+  }
+  /* Painel recolhido: a barra superior só deixa espaço para o botão "Mostrar painel". */
+  .shell[data-panel="closed"] > header {
+    right: 184px;
+  }
+}
+
+/* Superfícies sobre o mapa: sólidas, com sombra discreta (sem vidro exagerado). */
+.surface {
+  background: var(--card);
+  box-shadow: var(--shadow-md);
+}
+.panel {
+  background: var(--paper);
+  box-shadow: var(--shadow-lg);
+  scrollbar-width: thin;
+  scrollbar-color: var(--line) transparent;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+@keyframes spin-once {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Entrada em cascata dos itens de lista (atraso via --i). */
+.stagger > * {
+  animation: rise 260ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(min(var(--i, 0), 10) * 20ms);
+}
+
+/*
+ * Transições do painel: só o conteúdo dele anima (<ViewTransition> em
+ * ExploreShell). A raiz fica fora da transição para o mapa continuar vivo.
+ */
+:root {
+  view-transition-name: none;
+}
+::view-transition-old(.panel-out) {
+  animation: 140ms ease-in both panel-out;
+}
+::view-transition-new(.panel-in) {
+  animation: 240ms cubic-bezier(0.2, 0.8, 0.2, 1) both panel-in;
+}
+@keyframes panel-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+/* Tooltip do mapa: curto (nome + categoria), no tom da interface. */
+.map-tip .maplibregl-popup-content {
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  background: var(--card);
+  border-radius: 10px;
+  padding: 7px 11px;
+  box-shadow: var(--shadow-md);
+  pointer-events: none;
+}
+.map-tip .maplibregl-popup-tip {
+  display: none;
+}
+.map-tip-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.map-tip-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  box-shadow: 0 0 0 1.5px var(--card), 0 0 0 2.5px rgb(38 53 47 / 0.15);
+}
+.map-tip-sub {
+  margin-top: 1px;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+/* Créditos do MapLibre: discretos, à esquerda do painel no desktop. */
+.maplibregl-ctrl-attrib {
+  font-size: 11px;
+}
+.maplibregl-ctrl-attrib.maplibregl-compact {
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+}
+@media (min-width: 768px) {
+  .maplibregl-ctrl-bottom-right {
+    right: calc(var(--panel-offset, 0px));
+    transition: right 240ms ease;
+  }
+}
+/* No celular o sheet cobre o canto: os créditos vão para o rodapé do painel. */
+@media (max-width: 767px) {
+  .maplibregl-ctrl-bottom-right {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Três ilhas de pedra no mar do Paraná, sem praia de areia, onde vivem mais de 8 mil aves marinhas.",
+  "intro": "A seis milhas náuticas da praia de Leste, em Pontal do Paraná, três ilhas rochosas formam o arquipélago dos Currais. O parque, criado pela Lei nº 12.829, de 20 de junho de 2013, protege as ilhas e o mar ao redor, num quadrilátero de cerca de 1.360 hectares. Sua razão de ser são as aves marinhas que se reproduzem ali: de longe, as ilhas parecem rochas nuas; de perto, são um céu movimentado de asas.",
+  "sourceIds": [
+    "lei",
+    "cnuc",
+    "martins2003",
+    "senado"
+  ],
+  "protects": {
+    "summary": "Ninhais de aves marinhas e o mar em volta",
+    "items": [
+      {
+        "title": "Berçário de aves marinhas",
+        "text": "A lei de criação destaca as áreas de nidificação de várias espécies de aves. Mais de 8 mil aves vivem nas ilhas.",
+        "sourceIds": [
+          "lei",
+          "senado"
+        ]
+      },
+      {
+        "title": "O mar do entorno",
+        "text": "Além das ilhas, o parque protege os ambientes marinhos ao redor, hábitat de espécies marinhas.",
+        "sourceIds": [
+          "lei"
+        ]
+      },
+      {
+        "title": "Vegetação de costão",
+        "text": "Sobre a rocha cresce uma vegetação pobre em espécies, de influência marinha. Onde o solo é raso, predominam ervas com menos de 1 metro.",
+        "sourceIds": [
+          "martins2003"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "O arquipélago",
+      "text": "As ilhas não têm praias de areia, só costões de rocha que afloram do mar. A maior delas, Grapirá, tem 55 metros de altitude e pouco mais de 7 hectares.",
+      "sourceIds": [
+        "senado",
+        "martins2003"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Parque_Nacional_Marinho_das_Ilhas_dos_Currais.jpg/1280px-Parque_Nacional_Marinho_das_Ilhas_dos_Currais.jpg",
+        "author": "Voitille",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marinho_das_Ilhas_dos_Currais.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Três ilhas rochosas no horizonte do mar",
+        "context": "As três ilhas dos Currais vistas do mar."
+      }
+    },
+    {
+      "title": "Céu de fragatas",
+      "text": "Fragatas e atobás-pardos têm registros dentro do parque. Os atobás fazem ninhos no chão, com gravetos, folhas e penas.",
+      "sourceIds": [
+        "gbif",
+        "martins2003"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/167747248/original.jpg",
+        "author": "pdbguilherme",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/167747248",
+        "width": 2048,
+        "height": 1536,
+        "alt": "Ilhota rochosa com fragatas sobrevoando, no litoral do Paraná",
+        "context": "Ilhota rochosa de granito, com vegetação no topo e fragatas voando ao redor, registrada por pesquisador na região das Ilhas dos Currais, no litoral do Paraná."
+      }
+    },
+    {
+      "title": "Costão de seixos",
+      "text": "Na Grapirá, encostas inclinadas dão lugar a trechos planos e a uma pequena praia de seixos.",
+      "sourceIds": [
+        "martins2003"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Parque_Nacional_Marinho_das_Ilhas_dos_Currais_-_Pablo_Guilherme_%2801%29.jpg/1280px-Parque_Nacional_Marinho_das_Ilhas_dos_Currais_-_Pablo_Guilherme_%2801%29.jpg",
+        "author": "pdbguilherme",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Marinho_das_Ilhas_dos_Currais_-_Pablo_Guilherme_(01).jpg",
+        "width": 1280,
+        "height": 2276,
+        "alt": "Seixos arredondados à beira-mar e rochedos ao fundo",
+        "context": "Costão de seixos e rochedos nas Ilhas dos Currais."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O atobá-pardo põe dois ovos, mas quase sempre só um filhote vinga: o primeiro a nascer costuma atacar o irmão.",
+      "sourceIds": [
+        "martins2003"
+      ]
+    },
+    {
+      "text": "Num estudo com 140 ninhos nas ilhas, as fêmeas de atobá passaram cerca de 54% do tempo chocando os ovos, e os machos, 46%.",
+      "sourceIds": [
+        "martins2003"
+      ]
+    },
+    {
+      "text": "Do primeiro ovo até o filhote deixar o ninho, os atobás das ilhas cuidam da cria por cerca de seis meses e meio.",
+      "sourceIds": [
+        "martins2003"
+      ]
+    },
+    {
+      "text": "Pesquisadores encontraram ninhos de atobá feitos até com pedaços de isopor trazidos pelo mar.",
+      "sourceIds": [
+        "martins2003"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1998-1999 · A ciência nos ninhos",
+      "text": "Em 14 expedições, pesquisadores marcam e acompanham 140 ninhos de atobá-pardo na ilha Grapirá.",
+      "sourceIds": [
+        "martins2003"
+      ]
+    },
+    {
+      "title": "2013 · Um parque marinho por lei",
+      "text": "A Lei nº 12.829 cria o Parque Nacional Marinho das Ilhas dos Currais para proteger as ilhas, o mar do entorno e os ninhais de aves.",
+      "sourceIds": [
+        "lei",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "2022 · Conselho consultivo",
+      "text": "O ICMBio institui o conselho consultivo do parque.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Sula leucogaster",
+      "name": "Atobá-pardo",
+      "why": "Forma colônia na ilha Grapirá, onde seu cuidado com os filhotes foi estudado em detalhe.",
+      "sourceIds": [
+        "martins2003",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Atob%C3%A1-pardo.jpg/960px-Atob%C3%A1-pardo.jpg",
+        "author": "Danilo da Castro",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1-pardo.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Atobá-pardo (Sula leucogaster); fotografia da espécie",
+        "context": "Retrato ilustrativo de Sula leucogaster. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Fregata magnificens",
+      "name": "Fragata-comum",
+      "why": "Ave marinha com registros dentro do parque, cuja lei de criação protege os ninhais de aves.",
+      "sourceIds": [
+        "gbif",
+        "lei"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Fregata_magnificens_-Galapagos%2C_Ecuador_-male-8_%281%29.jpg/960px-Fregata_magnificens_-Galapagos%2C_Ecuador_-male-8_%281%29.jpg",
+        "author": "Andrew Turner from Washington, DC, United States",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fregata_magnificens_-Galapagos,_Ecuador_-male-8_(1).jpg",
+        "width": 640,
+        "height": 520,
+        "alt": "Fragata-comum (Fregata magnificens); fotografia da espécie",
+        "context": "Retrato ilustrativo de Fregata magnificens. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Aetobatus narinari",
+      "name": "Raia-pintada",
+      "why": "Raia em perigo de extinção, registrada no mar protegido pelo parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Spotted_Eagle_Ray_%28Aetobatus_narinari%292.jpg/960px-Spotted_Eagle_Ray_%28Aetobatus_narinari%292.jpg",
+        "author": "john norton",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spotted_Eagle_Ray_(Aetobatus_narinari)2.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Raia-pintada (Aetobatus narinari); fotografia da espécie",
+        "context": "Retrato ilustrativo de Aetobatus narinari. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lei",
+      "institution": "Presidência da República",
+      "title": "Lei nº 12.829, de 20 de junho de 2013",
+      "url": "https://www.planalto.gov.br/ccivil_03/_Ato2011-2014/2013/Lei/L12829.htm",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional Marinho das Ilhas dos Currais",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/2874",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "senado",
+      "institution": "Agência Senado",
+      "title": "Aprovada criação do Parque Nacional Marinho das Ilhas Currais (2013)",
+      "url": "https://www12.senado.leg.br/noticias/audios/2013/05/aprovada-criacao-do-parque-nacional-marinho-das-ilhas-currais",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "martins2003",
+      "institution": "Revista Brasileira de Zoologia",
+      "title": "Martins & Dias (2003). Cuidado parental de Sula leucogaster nas Ilhas dos Currais, Paraná",
+      "url": "https://repositorio.unb.br/bitstream/10482/26022/1/ARTIGO_CuidadoParentalSula.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

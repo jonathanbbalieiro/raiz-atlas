@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Dentro de uma furna de 40 metros de fundo, um rio despenca 25 metros e forma uma piscina entre paredes de arenito.",
+  "intro": "No Paraná, entre Ponta Grossa, Carambeí e Castro, o parque protege cerca de 21 mil hectares em dois setores, com zona de amortecimento de 500 metros. Foi criado pelo decreto de 23 de março de 2006 para guardar alguns dos últimos campos nativos do estado e restos da floresta com araucárias. Sob os campos, o arenito da Formação Furnas esconde cavernas, fendas e furnas.",
+  "sourceIds": [
+    "cnuc",
+    "icmbio-pesquisa",
+    "bp"
+  ],
+  "protects": {
+    "summary": "Campos nativos, araucárias e um relevo de furnas",
+    "items": [
+      {
+        "title": "Últimos campos nativos",
+        "text": "O parque nasceu em meio a um debate sobre como salvar os remanescentes de campos nativos do Paraná e de floresta com araucárias.",
+        "sourceIds": [
+          "icmbio-pesquisa",
+          "cnuc"
+        ]
+      },
+      {
+        "title": "Um parque de cavernas",
+        "text": "São 38 cavernas na região, 35 delas dentro do parque, abertas no arenito da Formação Furnas. Há também grutas, abrigos, furnas e sumidouros.",
+        "sourceIds": [
+          "bp"
+        ]
+      },
+      {
+        "title": "Arte de 5 mil anos",
+        "text": "Algumas cavernas guardam pinturas rupestres de povos indígenas que viveram na região há mais de 5 mil anos.",
+        "sourceIds": [
+          "bp"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Buraco do Padre",
+      "text": "O rio Quebra-Pedra entra num túnel de rocha e cai numa cachoeira de 25 metros dentro de uma furna com cerca de 40 metros de profundidade. Uma trilha de uns 730 metros leva até lá.",
+      "sourceIds": [
+        "bp"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Cachoeira_do_Buraco_do_Padre.jpg/1280px-Cachoeira_do_Buraco_do_Padre.jpg",
+        "author": "João Victor Cassemiro",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_do_Buraco_do_Padre.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Cachoeira caindo entre paredes de arenito cobertas de musgo",
+        "context": "A cachoeira cai dentro da furna do Buraco do Padre."
+      }
+    },
+    {
+      "title": "Cachoeira da Mariquinha",
+      "text": "Uma das áreas de visitação consolidadas do parque, procurada para banho, trilhas, cachoeirismo e observação de aves.",
+      "sourceIds": [
+        "bp"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Campos_Gerais.jpg/1280px-Campos_Gerais.jpg",
+        "author": "Wellington Silva Nascimento",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campos_Gerais.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Cachoeira em vários fios sobre paredão de pedra com arco-íris",
+        "context": "Cachoeira da Mariquinha, no Parque Nacional dos Campos Gerais."
+      }
+    },
+    {
+      "title": "Furnas Gêmeas",
+      "text": "Furnas abertas no arenito, na mesma linha de fraturas do Buraco do Padre, visitadas para contemplação e caminhadas.",
+      "sourceIds": [
+        "bp"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "No Buraco do Padre, depois da cachoeira, o rio sai da furna por uma caverna de cerca de 30 metros de extensão.",
+      "sourceIds": [
+        "bp"
+      ]
+    },
+    {
+      "text": "A área do Buraco do Padre foi protegida primeiro em 1992, por uma APA estadual e um parque municipal, antes de entrar no parque nacional em 2006.",
+      "sourceIds": [
+        "bp"
+      ]
+    },
+    {
+      "text": "O parque tem dois setores separados: cerca de 18 mil hectares ao norte e 3 mil ao sul.",
+      "sourceIds": [
+        "bp"
+      ]
+    },
+    {
+      "text": "Como as terras ainda não foram desapropriadas, boa parte do parque segue em propriedades particulares, e alguns donos restringem o acesso.",
+      "sourceIds": [
+        "bp"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há mais de 5 mil anos · Pinturas nas rochas",
+      "text": "Povos indígenas deixam pinturas rupestres em cavernas da região.",
+      "sourceIds": [
+        "bp"
+      ]
+    },
+    {
+      "title": "1992 · Primeiras proteções",
+      "text": "A APA da Escarpa Devoniana e o Parque Municipal Buraco do Padre passam a proteger a área.",
+      "sourceIds": [
+        "bp"
+      ]
+    },
+    {
+      "title": "2006 · Nasce o parque nacional",
+      "text": "Um decreto federal cria o Parque Nacional dos Campos Gerais, no mesmo ano da Reserva Biológica das Araucárias.",
+      "sourceIds": [
+        "cnuc",
+        "icmbio-pesquisa"
+      ]
+    },
+    {
+      "title": "2018 · Conselho consultivo",
+      "text": "O parque ganha conselho consultivo, ainda sem plano de manejo.",
+      "sourceIds": [
+        "bp",
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Melanophryniscus alipioi",
+      "name": "Sapinho Melanophryniscus alipioi",
+      "why": "Pequeno sapo registrado no parque e classificado como vulnerável pela IUCN.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Melanophryniscus_alipioi.png/960px-Melanophryniscus_alipioi.png",
+        "author": "Bornschein MR, Firkowski CR, Baldo D, Ribeiro LF, Belmonte-Lopes R, et al.",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanophryniscus_alipioi.png",
+        "width": 640,
+        "height": 448,
+        "alt": "Sapinho Melanophryniscus alipioi (Melanophryniscus alipioi); fotografia da espécie",
+        "context": "Retrato ilustrativo de Melanophryniscus alipioi. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Alouatta guariba",
+      "name": "Bugio-ruivo",
+      "why": "Primata da Mata Atlântica registrado no parque e classificado como vulnerável pela IUCN.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Alouatta_fusca_clamitans.jpg/960px-Alouatta_fusca_clamitans.jpg",
+        "author": "Dario Sanches from SÃO PAULO, BRASIL",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alouatta_fusca_clamitans.jpg",
+        "width": 640,
+        "height": 966,
+        "alt": "Bugio-ruivo (Alouatta guariba); fotografia da espécie",
+        "context": "Retrato ilustrativo de Alouatta guariba. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Theristicus caudatus",
+      "name": "Curicaca",
+      "why": "Uma das aves com mais registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/CURICACA_%28_Theristicus_caudatus_%29.jpg",
+        "author": "Dario Sanches",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CURICACA_(_Theristicus_caudatus_).jpg",
+        "width": 640,
+        "height": 436,
+        "alt": "Curicaca (Theristicus caudatus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Theristicus caudatus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional dos Campos Gerais",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/277",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-pesquisa",
+      "institution": "ICMBio",
+      "title": "Estado da arte das pesquisas no Parque Nacional dos Campos Gerais e na Reserva Biológica das Araucárias",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-dos-campos-gerais/arquivos/estado_da_arte_das_pesquisas_parna_campos_gerais_rebio_araucariaslacunapesquisa.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "bp",
+      "institution": "UEPG, em revista eletrônica do ICMBio",
+      "title": "Burgardt & Moreira. Impactos ambientais do uso público na furna do Buraco do Padre, Parque Nacional dos Campos Gerais",
+      "url": "https://revistaeletronica.icmbio.gov.br/RBEsp/article/view/841/pdf_20",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional dos Campos Gerais",
+  "title": "Campos que sobraram e uma floresta de araucárias",
+  "subtitle": "No centro-leste do Paraná, um parque criado em 2006 protege remanescentes de campos sulinos e de floresta com araucárias, e ainda depende de terras a regularizar.",
+  "centralQuestion": "Por que proteger campos nativos e floresta de araucárias, e o que falta para o parque existir por inteiro?",
+  "introduction": [
+    "Onde o Paraná se abre em coxilhas, o vento corre baixo sobre o capim e, de repente, o horizonte é cortado por uma mata de araucárias. É essa mistura de campo limpo e floresta de pinheiros que o Parque Nacional dos Campos Gerais guarda.",
+    "Criado em 2006, junto com a Reserva Biológica das Araucárias, o parque protege alguns dos últimos remanescentes de campos nativos e de Floresta Ombrófila Mista do estado, num mosaico que a agricultura vem tomando quase por inteiro."
+  ],
+  "keyFacts": [
+    {
+      "label": "data do decreto que criou o parque",
+      "value": "23/03/2006",
+      "sourceId": "decreto",
+      "locator": "Decreto de 23/03/2006"
+    },
+    {
+      "label": "municípios abrangidos: Ponta Grossa, Castro e Carambeí",
+      "value": "3",
+      "sourceId": "decreto",
+      "locator": "art. 1º"
+    },
+    {
+      "label": "hectares da área 1, a maior das duas áreas do parque",
+      "value": "≈ 18.135",
+      "sourceId": "decreto",
+      "locator": "art. 2º"
+    },
+    {
+      "label": "hectares da área 2",
+      "value": "≈ 3.151",
+      "sourceId": "decreto",
+      "locator": "art. 2º"
+    },
+    {
+      "label": "metros de zona de amortecimento a partir do perímetro",
+      "value": "500",
+      "sourceId": "decreto",
+      "locator": "art. 4º"
+    },
+    {
+      "label": "temas prioritários de pesquisa listados pelo ICMBio",
+      "value": "11",
+      "sourceId": "icmbio-pesquisa",
+      "locator": "p. 2"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Floresta Ombrófila Mista",
+      "definition": "Também conhecida como Floresta com Araucárias; um dos ambientes que o decreto manda preservar.",
+      "sourceId": "icmbio-pesquisa"
+    },
+    {
+      "term": "Campos Sulinos",
+      "definition": "Campos nativos do Sul do Brasil, ao lado da Floresta Ombrófila Mista, citados no decreto como objeto de preservação.",
+      "sourceId": "decreto"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em volta do parque; o decreto fixa 500 metros, medidos na horizontal a partir do perímetro.",
+      "sourceId": "decreto"
+    },
+    {
+      "term": "Plano de manejo",
+      "definition": "Documento normativo de diagnóstico e planejamento da unidade; o ICMBio o considera um dos três pilares da gestão, com a regularização fundiária e o conselho consultivo.",
+      "sourceId": "icmbio-pesquisa"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Campos_Gerais.jpg/1280px-Campos_Gerais.jpg",
+    "author": "Wellington Silva Nascimento",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campos_Gerais.jpg",
+    "width": 1280,
+    "height": 853,
+    "alt": "Cachoeira em vários fios sobre paredão de pedra com arco-íris",
+    "context": "Cachoeira da Mariquinha, no Parque Nacional dos Campos Gerais."
+  },
+  "moments": [
+    {
+      "id": "campos",
+      "eyebrow": "01 · O que se protege",
+      "title": "Campos nativos e floresta de araucárias",
+      "question": "O que o parque foi criado para preservar?",
+      "paragraphs": [
+        "O decreto de criação pede que o parque preserve os ambientes naturais da região, em especial os remanescentes de Floresta Ombrófila Mista e de Campos Sulinos. Também prevê apoio à pesquisa científica, à educação ambiental e ao turismo ecológico.",
+        "O ICMBio lembra que o parque e a Reserva Biológica das Araucárias nasceram no mesmo ano, 2006, como resposta à urgência de conservar os últimos remanescentes desses dois ambientes no Paraná. O parque fica no centro-leste do estado; a reserva, no sudeste."
+      ],
+      "sourceIds": [
+        "decreto",
+        "icmbio-pesquisa"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º"
+        },
+        {
+          "sourceId": "icmbio-pesquisa",
+          "locator": "p. 2"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "decreto",
+      "eyebrow": "02 · O decreto",
+      "title": "Duas áreas e uma faixa de amortecimento",
+      "question": "Como o decreto desenhou o parque?",
+      "paragraphs": [
+        "O decreto de 23 de março de 2006 criou o parque nos municípios de Ponta Grossa, Castro e Carambeí. Os limites seguem cartas topográficas do Serviço Geográfico do Exército.",
+        "O parque se divide em duas áreas separadas: uma de aproximadamente 18.135 hectares e outra de cerca de 3.151 hectares. O decreto exclui alguns trechos de estradas municipais e estaduais e declara que o subsolo faz parte do parque.",
+        "A zona de amortecimento tem 500 metros a partir do perímetro. A administração ficou com o IBAMA, hoje substituído pelo ICMBio."
+      ],
+      "sourceIds": [
+        "decreto"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "art. 2º"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "art. 3º"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "art. 4º"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Cachoeira_do_Buraco_do_Padre.jpg/1280px-Cachoeira_do_Buraco_do_Padre.jpg",
+          "author": "João Victor Cassemiro",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_do_Buraco_do_Padre.jpg",
+          "width": 1280,
+          "height": 720,
+          "alt": "Cachoeira caindo entre paredes de arenito cobertas de musgo",
+          "context": "A cachoeira cai dentro da furna do Buraco do Padre."
+        }
+      ]
+    },
+    {
+      "id": "terra",
+      "eyebrow": "03 · A terra",
+      "title": "Um parque que ainda se regulariza",
+      "question": "Por que criar o parque não terminou o trabalho?",
+      "paragraphs": [
+        "O decreto declarou de utilidade pública, para desapropriação pelo IBAMA, os imóveis rurais particulares dentro dos limites. Também autorizou a Advocacia-Geral da União a buscar a anulação de títulos e registros irregulares.",
+        "A regularização fundiária das unidades ainda não foi concluída. Por isso, quem pesquisa precisa pedir autorização aos proprietários, além da licença do SISBIO.",
+        "Por isso o ICMBio fala em três pilares da gestão: plano de manejo, regularização fundiária e conselho consultivo."
+      ],
+      "sourceIds": [
+        "decreto",
+        "icmbio-pesquisa"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 6º"
+        },
+        {
+          "sourceId": "icmbio-pesquisa",
+          "locator": "p. 2"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "pesquisa",
+      "eyebrow": "04 · O que falta saber",
+      "title": "Onze temas para pesquisar",
+      "question": "Quais são as lacunas de conhecimento?",
+      "paragraphs": [
+        "O ICMBio listou temas prioritários de pesquisa para o parque e a reserva. O primeiro é o monitoramento de espécies exóticas invasoras, com foco em Pinus, javali e uva-do-japão.",
+        "Também aparecem o levantamento de aves, morcegos, invertebrados, répteis e peixes das microbacias, a recuperação de áreas degradadas nos remanescentes de campos nativos, e estudos culturais, históricos e arqueológicos.",
+        "Outros temas são a ocorrência e o manejo do fogo, a hidrologia, os efeitos do uso continuado de agrotóxicos sobre a fauna e a flora, o diagnóstico socioeconômico da coleta de pinhão e erva-mate, e o monitoramento dos impactos da visitação.",
+        "Os resultados mais recentes de pesquisa foram apresentados em um seminário em 19 de novembro de 2015."
+      ],
+      "sourceIds": [
+        "icmbio-pesquisa"
+      ],
+      "citations": [
+        {
+          "sourceId": "icmbio-pesquisa",
+          "locator": "p. 2"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "pesquisa",
+    "title": "Marcos confirmados",
+    "intro": "Datas registradas nas fontes oficiais usadas.",
+    "items": [
+      {
+        "id": "2006",
+        "year": "2006",
+        "title": "Criação do parque",
+        "description": "O decreto de 23 de março cria o Parque Nacional dos Campos Gerais, em duas áreas.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "id": "2015",
+        "year": "2015",
+        "title": "Seminário de pesquisas",
+        "description": "Em 19 de novembro, o I Seminário apresenta as pesquisas do parque e da Reserva Biológica das Araucárias.",
+        "sourceIds": [
+          "icmbio-pesquisa"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um campo que vale uma floresta",
+  "closing": "Os Campos Gerais mostram que proteger paisagens abertas é tão urgente quanto proteger florestas. O parque existe no papel e no chão; falta completar a regularização das terras e o conhecimento científico que vai sustentar o seu futuro. Visitar, respeitar e apoiar esse trabalho é parte da história.",
+  "references": [
+    {
+      "accessedAt": "2026-10-22",
+      "id": "decreto",
+      "institution": "Presidência da República / Câmara dos Deputados",
+      "title": "Decreto de 23 de março de 2006: cria o Parque Nacional dos Campos Gerais",
+      "url": "https://www2.camara.leg.br/legin/fed/decret_sn/2006/decreto-35988-23-marco-2006-541536-publicacaooriginal-46398-pe.html",
+      "use": "criação, municípios, objetivos, limites, zona de amortecimento e desapropriação"
+    },
+    {
+      "accessedAt": "2026-10-22",
+      "id": "icmbio-pesquisa",
+      "institution": "ICMBio",
+      "title": "Estado da arte das pesquisas no Parque Nacional dos Campos Gerais e na Reserva Biológica das Araucárias",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-dos-campos-gerais/arquivos/estado_da_arte_das_pesquisas_parna_campos_gerais_rebio_araucariaslacunapesquisa.pdf",
+      "use": "contexto de criação, regularização fundiária e temas prioritários de pesquisa; páginas conforme o PDF"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências de revisão: localizar plano de manejo (se existir) e confirmar atrativos em fonte oficial; conferir decreto no planalto.gov.br; situação atual da unidade."
+}

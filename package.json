@@ -1,0 +1,50 @@
+{
+  "name": "raiz-atlas",
+  "version": "1.3.4-publicacao-candidata",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run check:content && node scripts/check-publication.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "check:content": "node scripts/check-content.mjs",
+    "geo": "node scripts/build-geo.mjs",
+    "media": "node scripts/fetch-park-media.mjs",
+    "bio": "node scripts/fetch-biodiversity.mjs",
+    "photo": "node scripts/commons-photo.mjs",
+    "photo:flagships": "node scripts/fill-flagship-photos.mjs",
+    "approve": "node scripts/approve.mjs",
+    "sources": "node scripts/source-pack.mjs",
+    "src": "node scripts/src-grep.mjs",
+    "check:merge": "npm run check:content && node scripts/test-base-preferida.mjs",
+    "bio:expand": "node scripts/fetch-biodiversity.mjs",
+    "check:photos:v132": "npm run check:merge && node scripts/test-photos-v132.mjs",
+    "check:publish": "npm run check:content && node scripts/check-publication.mjs && node scripts/test-base-preferida.mjs && node scripts/test-photos-v132.mjs",
+    "release:verify": "npm run check:publish && node scripts/check-publication.mjs --strict"
+  },
+  "dependencies": {
+    "maplibre-gl": "^5.24.0",
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-server": "^3.0.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "mapshaper": "^0.7.90",
+    "pdfjs-dist": "^4.10.38",
+    "tailwindcss": "^4",
+    "topojson-server": "^3.0.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}

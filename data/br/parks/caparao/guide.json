@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Gente sobe o Pico da Bandeira de madrugada, no frio de julho, só para ver o sol nascer a 2.892 metros.",
+  "intro": "Na divisa entre Espírito Santo e Minas Gerais, o Parque Nacional do Caparaó foi criado em 1961 para proteger o Pico da Bandeira, terceiro ponto mais alto do Brasil. Em volta dele há picos de mais de 2.700 metros, campos de altitude, brejos, lagoas que congelam no inverno e florestas de Mata Atlântica nas encostas.",
+  "sourceIds": [
+    "icmbio-quem",
+    "icmbio-historia",
+    "icmbio-bandeira"
+  ],
+  "protects": {
+    "summary": "Os picos mais altos do Sudeste e seus campos de altitude",
+    "items": [
+      {
+        "title": "Campos de altitude",
+        "text": "Acima das florestas, a vegetação vira campo de gramíneas, bromélias e lírios sobre afloramentos rochosos, com brejos de turfa que ficam alagados boa parte do ano.",
+        "sourceIds": [
+          "icmbio-cristal",
+          "icmbio-irmas"
+        ]
+      },
+      {
+        "title": "Muitas formações num espaço pequeno",
+        "text": "A proteção da área nasceu também da sua importância ecológica: em pouco espaço, a serra concentra formações vegetais variadas e distintas.",
+        "sourceIds": [
+          "icmbio-historia",
+          "icmbio-quem"
+        ]
+      },
+      {
+        "title": "Espécies ameaçadas",
+        "text": "Vivem no parque o muriqui-do-norte, o sagui-da-serra, o papagaio-de-peito-roxo, o tamanduá-bandeira, o gato-do-mato e a onça-parda.",
+        "sourceIds": [
+          "icmbio-bio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Pico da Bandeira",
+      "text": "Com 2.892 metros, é o principal atrativo do parque. Do cume se avistam o Pico do Cristal, a Pedra Menina, o Pico do Calçado e cidades ao longe.",
+      "sourceIds": [
+        "icmbio-bandeira"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Pico_da_bandeira.jpg/1280px-Pico_da_bandeira.jpg",
+        "author": "Alexhubner",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_da_bandeira.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Cume rochoso do Pico da Bandeira sobre campos de altitude",
+        "context": "O Pico da Bandeira, no Parque Nacional do Caparaó."
+      }
+    },
+    {
+      "title": "Pico do Cristal",
+      "text": "Tem 2.770 metros e leva o nome da abundância de quartzo. No caminho ficam as Três Lagoas, que formam lâminas de gelo nos dias mais frios.",
+      "sourceIds": [
+        "icmbio-cristal"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Pico_do_Cal%C3%A7ado_e_Pico_do_Cristal.JPG/1280px-Pico_do_Cal%C3%A7ado_e_Pico_do_Cristal.JPG",
+        "author": "Misstetei",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_do_Cal%C3%A7ado_e_Pico_do_Cristal.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Pico do Cristal, Caparaó",
+        "context": "Pico do Cristal. Pico do Calçado e Pico do Cristal"
+      }
+    },
+    {
+      "title": "Pico do Calçado",
+      "text": "Com 2.849 metros, deve o nome ao formato de calçado visto de um dos lados. Quem sobe ao Bandeira pelo lado capixaba passa obrigatoriamente por ele.",
+      "sourceIds": [
+        "icmbio-calcado"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Parque_nacional_do_caparao.jpg/1280px-Parque_nacional_do_caparao.jpg",
+        "author": "No machine-readable author provided. Alexhubner assumed (based on copyright clai",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_nacional_do_caparao.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Pico do Calçado, Caparaó",
+        "context": "Pico do Calçado. Vista da porção Sul do Parque Nacional do Caparaó na trilha de acesso ao Pico da Bandeira. A direita vê-se o Pico do Cal"
+      }
+    },
+    {
+      "title": "Vale Verde e Gruta do Jacu",
+      "text": "Do lado mineiro, uma trilha curta de 200 metros sai da área de piquenique do Vale Verde, cruza a mata e desce até poços naturais no topo da primeira cachoeira do vale.",
+      "sourceIds": [
+        "icmbio-jacu"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Vale_Verde%5E_-_panoramio.jpg/1280px-Vale_Verde%5E_-_panoramio.jpg",
+        "author": "paulsmithrj",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_Verde%5E_-_panoramio.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Rio entre pedras e mata no Vale Verde",
+        "context": "O Vale Verde, área de piquenique do lado mineiro do parque."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Por volta de 1859, D. Pedro II mandou colocar uma bandeira do Império no ponto mais alto da Serra do Caparaó.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "text": "Para a comunidade local, Caparaó quer dizer águas cristalinas que descem a montanha. Estudiosos do tupi propõem outras origens, como casa do rio torto.",
+      "sourceIds": [
+        "icmbio-origem"
+      ]
+    },
+    {
+      "text": "A altitude do Pico da Bandeira foi determinada por volta de 1911.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "text": "A noite mais procurada para subir o Pico da Bandeira é a de lua cheia em julho, para ver o nascer do sol no cume.",
+      "sourceIds": [
+        "icmbio-bandeira"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Antes dos portugueses · Puris e Botocudos",
+      "text": "Grupos indígenas caçadores-coletores ocupam a região e resistem por muito tempo à colonização.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "title": "Século XIX · O café",
+      "text": "A antiga Fazenda Antônio Leite, hoje sítio histórico perto da portaria de Alto Caparaó, guarda sede, paiol, terreiro de café e moinho de pedra.",
+      "sourceIds": [
+        "icmbio-sitio"
+      ]
+    },
+    {
+      "title": "1961 · Nasce o parque",
+      "text": "Depois de anos de pedidos, Jânio Quadros assina em 24 de maio o decreto que cria o parque.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    },
+    {
+      "title": "Por volta de 1966 · A guerrilha",
+      "text": "Um grupo se reúne no alto da serra para tentar derrubar o governo militar. O movimento é abortado e seus integrantes são presos.",
+      "sourceIds": [
+        "icmbio-historia"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Brachyteles hypoxanthus",
+      "name": "Muriqui-do-norte",
+      "why": "Criticamente em perigo segundo a IUCN, está na lista de ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio-bio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Brachyteles_hypoxanthus2.jpg",
+        "author": "Paulo B. Chaves",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brachyteles_hypoxanthus2.jpg",
+        "width": 640,
+        "height": 640,
+        "alt": "Muriqui-do-norte (Brachyteles hypoxanthus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Brachyteles hypoxanthus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "why": "Em perigo segundo a IUCN e protegido pelo parque.",
+      "sourceIds": [
+        "icmbio-bio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg/960px-Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazona_vinacea_Vinaceous-breasted_Parrot;_Urupema,Santa_Catarina,_Brazil.jpg",
+        "width": 640,
+        "height": 404,
+        "alt": "Papagaio-de-peito-roxo (Amazona vinacea); fotografia da espécie",
+        "context": "Retrato ilustrativo de Amazona vinacea. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Callithrix flaviceps",
+      "name": "Sagui-da-serra",
+      "why": "Pequeno primata das serras da Mata Atlântica, na lista de ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio-bio"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53250193/original.jpg",
+        "author": "feelthewildtusk",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/53250193",
+        "width": 2048,
+        "height": 1365,
+        "alt": "Sagui-da-serra agarrado ao tronco de uma árvore na mata atlântica do Espírito Santo",
+        "context": "Sagui-da-serra (Callithrix flaviceps) fotografado em floresta de montanha capixaba, na Mata Atlântica."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio-quem",
+      "institution": "ICMBio",
+      "title": "Quem somos: Parque Nacional do Caparaó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/quem-somos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-historia",
+      "institution": "ICMBio",
+      "title": "História do Parque Nacional do Caparaó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/historia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-origem",
+      "institution": "ICMBio",
+      "title": "Origem do termo Caparaó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/origem-do-termo-caparao",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-bandeira",
+      "institution": "ICMBio",
+      "title": "Atrativos: Pico da Bandeira",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/atrativos-pico-da-bandeira",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-cristal",
+      "institution": "ICMBio",
+      "title": "Atrativos: Pico do Cristal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/atrativos-pico-do-cristal",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-calcado",
+      "institution": "ICMBio",
+      "title": "Atrativos: Pico do Calçado",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/atrativos-pico-do-calcado",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-irmas",
+      "institution": "ICMBio",
+      "title": "Atrativos: Pedra Duas Irmãs",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/atrativos-pedra-duas-irmas",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-jacu",
+      "institution": "ICMBio",
+      "title": "Atrativos: Gruta do Jacu",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/atrativos-gruta-do-jacu",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-sitio",
+      "institution": "ICMBio",
+      "title": "Atrativos: Sítio Histórico",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/atrativos-sitio-historico",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-bio",
+      "institution": "ICMBio",
+      "title": "Biodiversidade do Parna Caparaó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-caparao/biodiversidade-do-parna-caparao",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

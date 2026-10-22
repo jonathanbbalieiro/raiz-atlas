@@ -1,0 +1,579 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-48.805%20-25.622%2C-48.822%20-25.615%2C-48.837%20-25.596%2C-48.858%20-25.597%2C-48.858%20-25.592%2C-48.863%20-25.591%2C-48.887%20-25.602%2C-48.924%20-25.596%2C-48.931%20-25.608%2C-48.926%20-25.611%2C-48.925%20-25.623%2C-48.939%20-25.614%2C-48.942%20-25.620%2C-48.947%20-25.619%2C-48.946%20-25.623%2C-48.955%20-25.623%2C-48.958%20-25.634%2C-48.954%20-25.639%2C-48.955%20-25.646%2C-48.961%20-25.652%2C-48.964%20-25.650%2C-48.969%20-25.651%2C-48.972%20-25.659%2C-48.984%20-25.661%2C-48.985%20-25.665%2C-48.982%20-25.667%2C-48.985%20-25.672%2C-48.985%20-25.691%2C-48.980%20-25.694%2C-48.974%20-25.707%2C-48.964%20-25.701%2C-48.972%20-25.708%2C-48.971%20-25.712%2C-48.944%20-25.728%2C-48.946%20-25.731%2C-48.951%20-25.728%2C-48.962%20-25.735%2C-48.966%20-25.724%2C-48.964%20-25.718%2C-48.969%20-25.715%2C-48.987%20-25.721%2C-48.991%20-25.735%2C-48.995%20-25.736%2C-48.994%20-25.749%2C-48.990%20-25.748%2C-48.991%20-25.753%2C-48.976%20-25.753%2C-48.966%20-25.763%2C-48.964%20-25.770%2C-48.956%20-25.773%2C-48.961%20-25.777%2C-48.962%20-25.785%2C-48.956%20-25.786%2C-48.956%20-25.790%2C-48.953%20-25.786%2C-48.942%20-25.795%2C-48.931%20-25.797%2C-48.926%20-25.784%2C-48.933%20-25.782%2C-48.933%20-25.779%2C-48.929%20-25.776%2C-48.919%20-25.784%2C-48.918%20-25.790%2C-48.911%20-25.787%2C-48.897%20-25.799%2C-48.887%20-25.797%2C-48.885%20-25.800%2C-48.873%20-25.800%2C-48.873%20-25.805%2C-48.879%20-25.810%2C-48.878%20-25.817%2C-48.876%20-25.824%2C-48.870%20-25.825%2C-48.854%20-25.840%2C-48.856%20-25.849%2C-48.851%20-25.862%2C-48.842%20-25.869%2C-48.819%20-25.876%2C-48.814%20-25.875%2C-48.812%20-25.858%2C-48.809%20-25.857%2C-48.809%20-25.850%2C-48.799%20-25.848%2C-48.798%20-25.842%2C-48.811%20-25.819%2C-48.819%20-25.813%2C-48.810%20-25.811%2C-48.796%20-25.816%2C-48.783%20-25.828%2C-48.776%20-25.825%2C-48.772%20-25.816%2C-48.773%20-25.799%2C-48.780%20-25.784%2C-48.771%20-25.784%2C-48.767%20-25.776%2C-48.772%20-25.776%2C-48.774%20-25.772%2C-48.775%20-25.767%2C-48.772%20-25.764%2C-48.778%20-25.750%2C-48.764%20-25.729%2C-48.773%20-25.716%2C-48.783%20-25.713%2C-48.791%20-25.707%2C-48.792%20-25.691%2C-48.788%20-25.692%2C-48.784%20-25.701%2C-48.775%20-25.704%2C-48.775%20-25.700%2C-48.761%20-25.699%2C-48.765%20-25.693%2C-48.752%20-25.693%2C-48.751%20-25.688%2C-48.748%20-25.687%2C-48.748%20-25.680%2C-48.737%20-25.665%2C-48.741%20-25.647%2C-48.737%20-25.637%2C-48.738%20-25.628%2C-48.734%20-25.613%2C-48.746%20-25.604%2C-48.756%20-25.601%2C-48.760%20-25.602%2C-48.762%20-25.610%2C-48.779%20-25.611%2C-48.790%20-25.620%2C-48.784%20-25.631%2C-48.774%20-25.636%2C-48.777%20-25.642%2C-48.803%20-25.643%2C-48.808%20-25.647%2C-48.804%20-25.638%2C-48.805%20-25.622))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 78,
+      "species": [
+        {
+          "gbifKey": 2433327,
+          "scientificName": "Sturnira lilium",
+          "name": "Morcego-de-Ombros-Amarelos-Pequeno",
+          "family": "Phyllostomidae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q1832640",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sturnira_lilium_lostuxtlas2008.jpg",
+            "author": "Tobusaru",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sturnira_lilium_lostuxtlas2008.jpg",
+            "width": 640,
+            "height": 254,
+            "alt": "Morcego-de-Ombros-Amarelos-Pequeno (Sturnira lilium)"
+          }
+        },
+        {
+          "gbifKey": 2433270,
+          "scientificName": "Artibeus lituratus",
+          "name": "Morcego-das-frutas",
+          "family": "Phyllostomidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q306460",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Artibeus_lituratus_247969524.jpg/960px-Artibeus_lituratus_247969524.jpg",
+            "author": "Juan Cruzado Cortés",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artibeus_lituratus_247969524.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Morcego-das-frutas (Artibeus lituratus)"
+          }
+        },
+        {
+          "gbifKey": 5963041,
+          "scientificName": "Anoura geoffroyi",
+          "name": "Morcego-Focinhudo",
+          "family": "Phyllostomidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q83592",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Intro_wide_polls_intro_vertebrate_species_3.jpg",
+            "author": "NBII",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intro_wide_polls_intro_vertebrate_species_3.jpg",
+            "width": 640,
+            "height": 960,
+            "alt": "Morcego-Focinhudo (Anoura geoffroyi)"
+          }
+        },
+        {
+          "gbifKey": 2440898,
+          "scientificName": "Tapirus terrestris",
+          "name": "Anta",
+          "family": "Tapiridae",
+          "records": 5,
+          "iucn": "VU",
+          "wikidata": "Q220271",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Anta (Tapirus terrestris)"
+          }
+        },
+        {
+          "gbifKey": 2440993,
+          "scientificName": "Tayassu pecari",
+          "name": "Queixada",
+          "family": "Tayassuidae",
+          "records": 4,
+          "iucn": "VU",
+          "wikidata": "Q756073",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg/960px-Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg",
+            "author": "Rafael Mitsuo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queixada-RPPN_Cristalino_I-Rodrigo.Argenton(001).jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "queixada (Tayassu pecari)"
+          }
+        },
+        {
+          "gbifKey": 2433176,
+          "scientificName": "Carollia perspicillata",
+          "name": "Morcego-de-cauda-curta-comum",
+          "family": "Phyllostomidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q302191",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Seba%27s_Short-tailed_Bats_%28Carollia_perspicillata%29_group_roosting_in_old_building_..._%2827616205553%29.jpg/960px-Seba%27s_Short-tailed_Bats_%28Carollia_perspicillata%29_group_roosting_in_old_building_..._%2827616205553%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seba%27s_Short-tailed_Bats_(Carollia_perspicillata)_group_roosting_in_old_building_..._(27616205553).jpg",
+            "width": 640,
+            "height": 413,
+            "alt": "Morcego-de-cauda-curta-comum (Carollia perspicillata)"
+          }
+        },
+        {
+          "gbifKey": 2433255,
+          "scientificName": "Pygoderma bilabiatum",
+          "name": "Morcego-de-ipanema",
+          "family": "Phyllostomidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q94808",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pygoderma_bilabiatum.jpg",
+            "author": "Johann Christian Daniel von Schreber",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pygoderma_bilabiatum.jpg",
+            "width": 640,
+            "height": 543,
+            "alt": "Morcego-de-ipanema (Pygoderma bilabiatum)"
+          }
+        },
+        {
+          "gbifKey": 5219426,
+          "scientificName": "Panthera onca",
+          "name": "Onça-pintada",
+          "family": "Felidae",
+          "records": 2,
+          "iucn": "NT",
+          "wikidata": "Q35694",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+            "author": "Thiagomarcelcampi",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "onça-pintada (Panthera onca)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 36,
+      "species": [
+        {
+          "gbifKey": 2486405,
+          "scientificName": "Procnias nudicollis",
+          "name": "Araponga-comum",
+          "family": "Cotingidae",
+          "records": 2,
+          "iucn": "NT",
+          "wikidata": "Q938481",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Procnias_nudicollis.jpg/960px-Procnias_nudicollis.jpg",
+            "author": "Ben Tavener",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procnias_nudicollis.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Araponga-comum (Procnias nudicollis)"
+          }
+        },
+        {
+          "gbifKey": 2496647,
+          "scientificName": "Trogon viridis",
+          "name": "Surucuá-de-barriga-amarela",
+          "family": "Trogonidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q925086",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Trogon_viridis_-_White-tailed_Trogon_%28female%29.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trogon_viridis_-_White-tailed_Trogon_(female).jpg",
+            "width": 640,
+            "height": 828,
+            "alt": "surucuá-de-barriga-amarela (Trogon viridis)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 39,
+      "species": [
+        {
+          "gbifKey": 2428549,
+          "scientificName": "Dendropsophus minutus",
+          "name": "Perereca-pequena",
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2706770",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Dendropsophus_minutus_155352050.jpg/960px-Dendropsophus_minutus_155352050.jpg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendropsophus_minutus_155352050.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Perereca-pequena (Dendropsophus minutus)"
+          }
+        },
+        {
+          "gbifKey": 5216979,
+          "scientificName": "Rhinella icterica",
+          "name": "Cururu-amarelo",
+          "family": "Bufonidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2212192",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bufo_ictericus01.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bufo_ictericus01.jpg",
+            "width": 640,
+            "height": 414,
+            "alt": "Cururu-amarelo (Rhinella icterica)"
+          }
+        },
+        {
+          "gbifKey": 10711141,
+          "scientificName": "Boana bischoffi",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q137806985",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg/960px-Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg",
+            "author": "Rafael Bernhard",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg",
+            "width": 640,
+            "height": 384,
+            "alt": "Boana bischoffi"
+          }
+        },
+        {
+          "gbifKey": 10863437,
+          "scientificName": "Boana faber",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q110390869",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Hypsiboas_faber01b.jpg",
+            "author": "Weslei Pertel",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hypsiboas_faber01b.jpg",
+            "width": 640,
+            "height": 687,
+            "alt": "Boana faber"
+          }
+        },
+        {
+          "gbifKey": 2424315,
+          "scientificName": "Proceratophrys boiei",
+          "name": null,
+          "family": "Odontophrynidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q533599",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Proceratophrys_boiei01b.jpg",
+            "author": "Weslei Pertel",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Proceratophrys_boiei01b.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Proceratophrys boiei"
+          }
+        },
+        {
+          "gbifKey": 2428011,
+          "scientificName": "Sphaenorhynchus surdus",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2712832",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sphaenorhynchus_surdus.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphaenorhynchus_surdus.jpg",
+            "width": 640,
+            "height": 414,
+            "alt": "Sphaenorhynchus surdus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 497,
+      "species": [
+        {
+          "gbifKey": 5274909,
+          "scientificName": "Cochlidium serrulatum",
+          "name": "Samambaia dentada",
+          "family": "Polypodiaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q17197226",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/M%C3%A9moires_sur_la_famille_des_foug%C3%A8res_%288337199005%29.jpg/960px-M%C3%A9moires_sur_la_famille_des_foug%C3%A8res_%288337199005%29.jpg",
+            "author": "Fée, Antoine Laurent Apollinaire",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9moires_sur_la_famille_des_foug%C3%A8res_(8337199005).jpg",
+            "width": 640,
+            "height": 867,
+            "alt": "Samambaia dentada (Cochlidium serrulatum)"
+          }
+        },
+        {
+          "gbifKey": 7327320,
+          "scientificName": "Guapira opposita",
+          "name": "Pau-piranha",
+          "family": "Nyctaginaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q17244760",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Guapira_opposita_%28Vell.%29_Reitz_%2810745895313%29.jpg/960px-Guapira_opposita_%28Vell.%29_Reitz_%2810745895313%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guapira_opposita_(Vell.)_Reitz_(10745895313).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "pau-piranha (Guapira opposita)"
+          }
+        },
+        {
+          "gbifKey": 3185702,
+          "scientificName": "Myrceugenia myrcioides",
+          "name": null,
+          "family": "Myrtaceae",
+          "records": 5,
+          "iucn": "NT",
+          "wikidata": "Q5434906",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Atlas_der_baumarten_von_Java_%28Figur_456%29_BHL47163282.jpg/960px-Atlas_der_baumarten_von_Java_%28Figur_456%29_BHL47163282.jpg",
+            "author": "Koorders, S. H.; Valeton, Theodoric",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlas_der_baumarten_von_Java_(Figur_456)_BHL47163282.jpg",
+            "width": 640,
+            "height": 991,
+            "alt": "Myrceugenia myrcioides"
+          }
+        },
+        {
+          "gbifKey": 2839249,
+          "scientificName": "Elleanthus brasiliensis",
+          "name": null,
+          "family": "Orchidaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q5829759",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Elleanthus_brasiliensis.jpg",
+            "author": "Dalton Holland Baptista",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elleanthus_brasiliensis.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Elleanthus brasiliensis"
+          }
+        },
+        {
+          "gbifKey": 2910821,
+          "scientificName": "Psychotria leiocarpa",
+          "name": null,
+          "family": "Rubiaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q15495657",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Psychotria_leiocarpa_-_Parque_Estadual_da_Serra_do_Mar_-_iNaturalist_325751925_%282%29.jpg/960px-Psychotria_leiocarpa_-_Parque_Estadual_da_Serra_do_Mar_-_iNaturalist_325751925_%282%29.jpg",
+            "author": "Gilmar R. Ferreira",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Psychotria_leiocarpa_-_Parque_Estadual_da_Serra_do_Mar_-_iNaturalist_325751925_(2).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Psychotria leiocarpa"
+          }
+        },
+        {
+          "gbifKey": 3947582,
+          "scientificName": "Rhipsalis campos-portoana",
+          "name": null,
+          "family": "Cactaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q928432",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Rhipsalis_campos-portoana%EF%BC%8813%EF%BC%89.jpg",
+            "author": "salchu",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhipsalis_campos-portoana%EF%BC%8813%EF%BC%89.jpg",
+            "width": 640,
+            "height": 963,
+            "alt": "Rhipsalis campos-portoana"
+          }
+        },
+        {
+          "gbifKey": 5318310,
+          "scientificName": "Maxillaria notylioglossa",
+          "name": null,
+          "family": "Orchidaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q6795534",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Maxillaria_praetexta_-_Maxillaria_virguncula_-_Maxillaria_notylioglossa_-_Xenia_1_pl._10_%281858%29.jpg/960px-Maxillaria_praetexta_-_Maxillaria_virguncula_-_Maxillaria_notylioglossa_-_Xenia_1_pl._10_%281858%29.jpg",
+            "author": "Heinrich Gustav Reichenbach",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maxillaria_praetexta_-_Maxillaria_virguncula_-_Maxillaria_notylioglossa_-_Xenia_1_pl._10_(1858).jpg",
+            "width": 640,
+            "height": 858,
+            "alt": "Maxillaria notylioglossa"
+          }
+        },
+        {
+          "gbifKey": 4183469,
+          "scientificName": "Cryptocarya mandioccana",
+          "name": "Cajati",
+          "family": "Lauraceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q9673138",
+          "photo": null
+        },
+        {
+          "gbifKey": 4176150,
+          "scientificName": "Ocotea catharinensis",
+          "name": "Canela-preta",
+          "family": "Lauraceae",
+          "records": 3,
+          "iucn": "VU",
+          "wikidata": "Q1334117",
+          "photo": null
+        },
+        {
+          "gbifKey": 3174015,
+          "scientificName": "Myrcia hartwegiana",
+          "name": null,
+          "family": "Myrtaceae",
+          "records": 9,
+          "iucn": null,
+          "wikidata": "Q15375609",
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 8596323,
+      "scientificName": "Myrcia ferruginosa",
+      "name": null,
+      "family": "Myrtaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q42748894",
+      "photo": null
+    },
+    {
+      "gbifKey": 2440898,
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "family": "Tapiridae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q220271",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris)"
+      }
+    },
+    {
+      "gbifKey": 2440993,
+      "scientificName": "Tayassu pecari",
+      "name": "Queixada",
+      "family": "Tayassuidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q756073",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg/960px-Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queixada-RPPN_Cristalino_I-Rodrigo.Argenton(001).jpg",
+        "width": 640,
+        "height": 426,
+        "alt": "queixada (Tayassu pecari)"
+      }
+    },
+    {
+      "gbifKey": 4176150,
+      "scientificName": "Ocotea catharinensis",
+      "name": "Canela-preta",
+      "family": "Lauraceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1334117",
+      "photo": null
+    }
+  ]
+}

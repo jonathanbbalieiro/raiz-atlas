@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Nas serras calcárias do norte da Bahia, cavernas inteiras funcionam como arquivos de uma fauna gigante.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Preguiça-gigante",
+      "scientificName": "Eremotherium laurillardi",
+      "when": "Pleistoceno final",
+      "text": "Com vários metros de altura, a Eremotherium era uma das maiores preguiças terrestres. As unidades de conservação do Boqueirão da Onça protegem formações cársticas e sítios paleontológicos, com destaque para as Grutas Toca da Boa Vista e Toca da Barriguda. Na microrregião, que inclui Campo Formoso, cavernas e depósitos já forneceram fósseis dessa preguiça, de mastodontes e de outros gigantes do fim da Era do Gelo.",
+      "sourceIds": [
+        "pmif",
+        "xavier"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Eremotherium_laurillardi.jpg/1280px-Eremotherium_laurillardi.jpg",
+        "author": "Ryan Somma",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eremotherium_laurillardi.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Esqueleto montado de Eremotherium laurillardi, a preguiça-gigante, exposto no museu Smithsonian (a imagem não é do parque).",
+        "context": "Esqueleto montado de Eremotherium laurillardi, a preguiça-gigante, exposto no museu Smithsonian (a imagem não é do parque)."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pmif",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Plano de Manejo Integrado do Fogo do Parna e APA do Boqueirão da Onça (2024-2026)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_PARNA_Boqueirao_da_Onca_v_07_11_2023.pdf",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "xavier",
+      "institution": "Estudos Geológicos (UFPE)",
+      "title": "Xavier, Dantas & Santana (2018). Megafauna pleistocênica da microrregião de Senhor do Bonfim, Bahia",
+      "url": "https://periodicos.ufpe.br/revistas/estudosgeologicos/article/view/239462",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

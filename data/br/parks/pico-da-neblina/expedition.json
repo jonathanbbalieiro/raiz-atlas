@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Pico da Neblina",
+  "title": "Yaripo: a montanha dos ventos no território Yanomami",
+  "subtitle": "O ponto mais alto do Brasil se ergue numa serra de névoa e de plantas que só existem ali, dentro de um parque que se sobrepõe em grande parte a terras indígenas.",
+  "centralQuestion": "Como um parque nacional e os povos indígenas que vivem nele dividem a mesma montanha?",
+  "introduction": [
+    "Os Yanomami o chamam de Yaripo, a Montanha dos Ventos. O resto do país o conhece como Pico da Neblina, o ponto mais alto do Brasil, na Serra do Imeri, na fronteira com a Venezuela, no noroeste do Amazonas.",
+    "Do rio Negro às nuvens, o parque cobre florestas de terras baixas, matas cobertas de bromélias e o alto de uma serra onde crescem plantas carnívoras. Quem mora ali são 14 povos indígenas, e foram os Yanomami de Maturacá que desenharam o plano para receber visitantes no Yaripo."
+  ],
+  "keyFacts": [
+    {
+      "label": "altitude do Pico da Neblina (Yaripo)",
+      "value": "2.995,30 m",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    },
+    {
+      "label": "altitude do Pico 31 de Março, a menos de 1 km do Neblina",
+      "value": "2.972,66 m",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    },
+    {
+      "label": "de área do parque",
+      "value": "2.256.584,93 ha",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    },
+    {
+      "label": "da área do parque está sobreposta a terras indígenas",
+      "value": "71,95%",
+      "sourceId": "pm",
+      "locator": "p. 49"
+    },
+    {
+      "label": "etnias indígenas representadas nas comunidades sobrepostas ao parque",
+      "value": "14",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "data do Decreto nº 83.550, que criou o parque",
+      "value": "05/06/1979",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Yaripo",
+      "definition": "Nome dado pelos Yanomami ao Pico da Neblina, \"Montanha dos Ventos\"; lugar sagrado para os indígenas.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Hogback",
+      "definition": "Crista rochosa inclinada; o plano descreve o Pico da Neblina como um hogback esculpido em rochas do Supergrupo Roraima.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Sobreposição",
+      "definition": "Situação em que o parque e uma Terra Indígena ocupam a mesma área, com zoneamento próprio para ela.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Escudo das Guianas",
+      "definition": "Região de rochas muito antigas do norte da América do Sul, onde vivem plantas exclusivas, como a carnívora Heliamphora.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Pico_da_Neblina_%28FAB%29.jpg",
+    "author": "Força Aérea do Brasil",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_da_Neblina_(FAB).jpg",
+    "width": 1280,
+    "height": 854,
+    "alt": "Pico rochoso acima da floresta e das nuvens",
+    "context": "O Pico da Neblina visto do alto, em imagem da Força Aérea Brasileira."
+  },
+  "moments": [
+    {
+      "id": "montanha",
+      "eyebrow": "01 · A montanha",
+      "title": "O ponto mais alto do Brasil",
+      "question": "O que é, geologicamente, a montanha mais alta do país?",
+      "paragraphs": [
+        "Os dois pontos mais altos do Brasil ficam no parque, na mesma montanha: o Pico da Neblina, com 2.995,30 metros e cerca de 200 m² de área no topo, e o Pico 31 de Março, a menos de um quilômetro dele, com 2.972,66 metros.",
+        "O Pico da Neblina é um belíssimo hogback esculpido em rochas sedimentares do Supergrupo Roraima, na porção mais alta da Serra do Imeri.",
+        "Para os Yanomami, o Yaripo é um lugar sagrado. O parque também guarda nascentes que alimentam parte das águas do rio Negro."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 24"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 21"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Pico_31_de_Mar%C3%A7o.JPG/1280px-Pico_31_de_Mar%C3%A7o.JPG",
+          "author": "Michellblind",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_31_de_Mar%C3%A7o.JPG",
+          "width": 1280,
+          "height": 960,
+          "alt": "Pico 31 de Março, Pico da Neblina",
+          "context": "Pico 31 de Março. Segunda mais alta montanha do Brasil, Estado do Amazonas - Brasil"
+        }
+      ]
+    },
+    {
+      "id": "floresta",
+      "eyebrow": "02 · A vida",
+      "title": "Névoa, bromélias e plantas de endereço único",
+      "question": "O que cresce na serra que paira acima das nuvens?",
+      "paragraphs": [
+        "Na faixa de cerca de 1.000 até pouco mais de 2.000 metros, ocorrem florestas sempre verdes em que a vegetação se cobre de bromélias e liquens que parecem esponjas encharcadas pela umidade. Mais acima, em tepuis altomontanos sujeitos a cerração contínua, ventos fortes e chuvas, vivem plantas carnívoras, orquídeas e bromélias gigantes.",
+        "O plano cita espécies exclusivas do Escudo das Guianas, como a planta carnívora Heliamphora tatei, e o arbusto Macairea neblinae, endêmico da serra. Nos pedrais de granito e gnaisse, pode-se vislumbrar o galo-da-serra, de beleza comparável à das aves-do-paraíso da Nova Guiné. O macaco uacari-preto aparece em grupos, em igapós e matas ciliares.",
+        "Entre os beija-flores e as bromélias há vínculos tão fortes que sugerem uma longa história de cooperação entre eles."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 19"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 24"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Pico_da_Neblina_-_Amazonas_-_Brasil.JPG/1280px-Pico_da_Neblina_-_Amazonas_-_Brasil.JPG",
+          "author": "Michellblind",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_da_Neblina_-_Amazonas_-_Brasil.JPG",
+          "width": 1280,
+          "height": 960,
+          "alt": "Paredão do Pico da Neblina com floresta nas encostas",
+          "context": "Encostas florestadas e o maciço do Pico da Neblina, no Amazonas."
+        }
+      ]
+    },
+    {
+      "id": "territorio",
+      "eyebrow": "03 · O território",
+      "title": "Um parque dentro de terras indígenas",
+      "question": "Quem vive no parque e como ele foi organizado para isso?",
+      "paragraphs": [
+        "O Parque Nacional do Pico da Neblina foi criado pelo Decreto nº 83.550, de 5 de junho de 1979, e tem 2.256.584,93 hectares. A Zona de Sobreposição ocupa cerca de 71,95% da área, e a maior parte dela é a Terra Indígena Yanomami, com mais de 1,1 milhão de hectares.",
+        "O plano registra 14 etnias nas comunidades sobrepostas. Para garantir a participação delas no conselho do parque, criado em 2012, a área foi dividida em sete setores etnoterritoriais, como Maturacá, Cauaburis, Marauiá e Balaio.",
+        "Os Yanomami somam mais de 38 mil pessoas no Brasil e na Venezuela. Os primeiros encontros diretos com não indígenas na região ocorreram entre as décadas de 1910 e 1940, e entre 1942 e 1944 foi aberto um posto do antigo SPI na confluência dos rios Cauaburis e Maiá, seguido por uma missão salesiana.",
+        "Segundo o plano de manejo, o parque tem lugares sagrados para os povos que vivem nele, onde os espíritos têm mais força e protegem áreas ricas em animais e plantas. É preciso respeito e pajelanças para proteger quem passa por ali."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 49"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 21"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 24"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "visitacao",
+      "eyebrow": "04 · A visita",
+      "title": "Garimpo, fechamento e o plano dos Yanomami",
+      "question": "Como o turismo no Yaripo foi discutido?",
+      "paragraphs": [
+        "A notícia de jazidas minerais, vinda do projeto RADAM, desencadeou uma invasão garimpeira que, a partir de 1987, virou corrida do ouro. A zona ao redor do Pico da Neblina foi muito afetada, e há áreas de garimpo no Morro dos Seis Lagos e nos rios Cauaburis, Tukano e Marauiá.",
+        "Em 2003, o Ministério Público Federal recomendou suspender a visitação ao parque e elaborar o plano de manejo. Segundo o plano de visitação, de 2017, o Yaripo está fechado a atividades turísticas desde então.",
+        "A partir de 2013, os Yanomami fizeram capacitações em turismo. Em 2014, durante a Reahu, o povo construiu a própria visão sobre o turismo. Em 2015, foi criada a Associação das Mulheres Yanomami Kumirayoma. O Plano de Visitação Yaripo, elaborado pelos próprios Yanomami, foi aprovado pela Portaria ICMBio nº 458/2018.",
+        "O plano descreve uma travessia de 8 dias, com altitudes de 95 a 2.995 metros, e propõe o ecoturismo conduzido pelos Yanomami como alternativa ao garimpo."
+      ],
+      "sourceIds": [
+        "pm",
+        "pv"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 28"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 23"
+        },
+        {
+          "sourceId": "pv",
+          "locator": "p. 20"
+        },
+        {
+          "sourceId": "pv",
+          "locator": "p. 19"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "visitacao",
+    "title": "Marcos do parque e da visitação",
+    "intro": "Datas do plano de manejo e do plano de visitação.",
+    "items": [
+      {
+        "id": "1979",
+        "year": "1979",
+        "title": "Criação do parque",
+        "description": "O Decreto nº 83.550 cria o Parque Nacional do Pico da Neblina.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1987",
+        "year": "1987",
+        "title": "Corrida do ouro",
+        "description": "A invasão garimpeira vira uma verdadeira corrida do ouro.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2003",
+        "year": "2003",
+        "title": "Visitação suspensa",
+        "description": "O MPF recomenda suspender a visitação e elaborar o plano de manejo.",
+        "sourceIds": [
+          "pm",
+          "pv"
+        ]
+      },
+      {
+        "id": "2012",
+        "year": "2012",
+        "title": "Conselho do parque",
+        "description": "A Portaria nº 75 cria o conselho, com sete setores etnoterritoriais.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2014",
+        "year": "2014–2015",
+        "title": "Os Yanomami constroem o turismo",
+        "description": "Capacitações, Comissão de Turismo Yanomami e associação de mulheres.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "2018",
+        "title": "Plano de Visitação Yaripo",
+        "description": "A Portaria ICMBio nº 458 aprova o plano elaborado pelos Yanomami.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma montanha com dono",
+  "closing": "O Yaripo é recorde de altitude para o país e lugar sagrado para quem vive nele. Proteger o Pico da Neblina é também reconhecer os povos que o habitam e dar a eles a voz sobre o que acontece em seu território.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Pico da Neblina (2022)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-pico-da-neblina/arquivos/plano_de_manejo.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "altitudes, vegetação, sobreposição com terras indígenas e histórico da visitação; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "pv",
+      "institution": "ICMBio / Associações Yanomami",
+      "title": "Plano de Visitação Yaripo: Ecoturismo Yanomami",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-pico-da-neblina/arquivos/plano_de_visitacao_parna_pico_da_neblina.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "travessia, fechamento desde 2003 e ecoturismo como alternativa ao garimpo"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: revisão do texto sobre povos indígenas pela AYRCA, Hutukara, FOIRN e Funai antes da aprovação; conferir com o ICMBio a situação atual da visitação ao Yaripo."
+}

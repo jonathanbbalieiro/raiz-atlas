@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "A Serra da Prata, um gigante deitado entre duas baías, é a caixa d'água do litoral do Paraná.",
+  "intro": "Entre as baías de Paranaguá e Guaratuba, o parque protege cerca de 24 mil hectares de Mata Atlântica na Serra da Prata, do nível do mar a cerca de 1.500 metros. Criado pela Lei nº 10.227, de 23 de maio de 2001, homenageia o naturalista francês Auguste de Saint-Hilaire e o ambientalista paranaense Roberto Ribas Lange.",
+  "sourceIds": [
+    "pm",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "A floresta que segura a serra e abastece o litoral",
+    "items": [
+      {
+        "title": "Quatro andares de floresta",
+        "text": "Da floresta de baixada aos campos e paredões rochosos acima de 1.200 metros, a altitude cria quatro tipos de vegetação atlântica.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Flora recordista",
+        "text": "São 560 espécies de plantas identificadas, a maior riqueza já registrada em estudos da floresta atlântica densa no Sul do Brasil.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Água para cinco municípios",
+        "text": "Rios de águas cristalinas nascem na serra e abastecem cinco municípios. A floresta segura o solo e reduz erosão e assoreamento.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Metade das aves do Paraná",
+        "text": "O parque e seu entorno somam mais da metade das espécies de aves do estado, o que faz dele uma Área Importante para a Conservação das Aves.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Serra da Prata",
+      "text": "Separada do corpo principal da Serra do Mar pelo vale do rio Cubatãozinho, a serra tem contornos que lembram um gigante deitado sobre a planície litorânea.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Lar_doce_mar.jpg/1280px-Lar_doce_mar.jpg",
+        "author": "Fernanda Aguileri",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lar_doce_mar.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Baía de Guaratuba com as serras do litoral paranaense ao fundo e uma gaivota em voo",
+        "context": "As serras do Saint-Hilaire/Lange, a oeste da baía de Guaratuba, elevam-se direto da planície litorânea."
+      }
+    },
+    {
+      "title": "Torre da Prata",
+      "text": "Trilhas ligam a planície a este cume, passando por mirantes, rios, campos e florestas. Nas encostas altas vive um sapinho que só existe ali.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Entre_nuvens_na_Torre_da_Prata.JPG/1280px-Entre_nuvens_na_Torre_da_Prata.JPG",
+        "author": "Alexandre Hofart Arins",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entre_nuvens_na_Torre_da_Prata.JPG",
+        "width": 1280,
+        "height": 1707,
+        "alt": "O cume da Torre da Prata, ponto culminante da Serra da Prata, em dia nublado.",
+        "context": "O cume da Torre da Prata, ponto culminante da Serra da Prata, em dia nublado."
+      }
+    },
+    {
+      "title": "Cachoeiras da serra",
+      "text": "Rios e riachos da Serra da Prata formam corredeiras e saltos. As cachoeiras Parati, da Onça e do Tigre estão entre as que se encontram em boas condições.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Em 1820, Saint-Hilaire percorreu o litoral do Paraná, de Paranaguá a Guaratuba, em canoas e carros de boi pela praia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A lanterna-de-fada, uma pequena planta, e o sapinho-da-montanha são endêmicos do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A canela Ocotea marumbiensis foi descrita pela ciência em 2012 e ocorre na floresta montana do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Povos dos sambaquis já ocupavam o litoral paranaense há cerca de 6 mil anos.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Cerca de 99% da área do parque ainda não foi regularizada, o que dificulta a gestão.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1820 · O olhar de um naturalista",
+      "text": "Auguste de Saint-Hilaire viaja pelo litoral paranaense e registra natureza, gente e produção na região.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "Século XIX · Colônias e estradas",
+      "text": "Colônias agrícolas se instalam na borda da Serra da Prata, e a Estrada das Colônias passa a ligar Paranaguá a Guaratuba.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2001 · Um parque por lei",
+      "text": "A Lei nº 10.227, de 23 de maio, cria o parque para proteger a Mata Atlântica e a estabilidade ambiental dos balneários.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "2024 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo do parque.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Brachycephalus izecksohni",
+      "name": "Sapinho-da-montanha",
+      "why": "Pequeno sapo endêmico das encostas altas da Torre da Prata, com distribuição muito restrita.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Brachycephalus_izecksohni.png/1280px-Brachycephalus_izecksohni.png",
+        "author": "Ribeiro LF, Blackburn DC, Stanley EL, Pie MR, Bornschein MR",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brachycephalus_izecksohni.png",
+        "width": 1280,
+        "height": 827,
+        "alt": "Sapinho laranja sobre pedra escura",
+        "context": "Sapinho-da-montanha (Brachycephalus izecksohni)."
+      }
+    },
+    {
+      "scientificName": "Lontra longicaudis",
+      "name": "Lontra-neotropical",
+      "why": "O mamífero com mais registros dentro do parque. É classificada como quase ameaçada pela IUCN.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Lontra_longicaudis_2.jpeg/960px-Lontra_longicaudis_2.jpeg",
+        "author": "© 2006 Carla Antonini",
+        "license": "CC BY-SA 2.5 ar",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lontra_longicaudis_2.jpeg",
+        "width": 640,
+        "height": 480,
+        "alt": "Lontra-neotropical (Lontra longicaudis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Lontra longicaudis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Tangara seledon",
+      "name": "Saíra-sete-cores",
+      "why": "Uma das aves com mais registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Flickr_-_Dario_Sanches_-_SA%C3%8DRA-SETE-CORES_%28Tangara_seledon%29.jpg/960px-Flickr_-_Dario_Sanches_-_SA%C3%8DRA-SETE-CORES_%28Tangara_seledon%29.jpg",
+        "author": "Dario Sanches from São Paulo, Brasil",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Dario_Sanches_-_SA%C3%8DRA-SETE-CORES_(Tangara_seledon).jpg",
+        "width": 640,
+        "height": 573,
+        "alt": "Saíra-sete-cores (Tangara seledon); fotografia da espécie",
+        "context": "Retrato ilustrativo de Tangara seledon. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Saint-Hilaire/Lange (2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-Saint-Hilaire-Lange/arquivos/plano_manejo_pnsaint_hilaire_lange_abr2024_final.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional de Saint-Hilaire/Lange",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/164",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

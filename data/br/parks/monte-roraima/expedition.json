@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Monte Roraima",
+  "title": "Os tepuis, a floresta de neblina e o povo Ingarikó",
+  "subtitle": "Montanhas de topo plano, feitas de rochas de cerca de 2 bilhões de anos, guardam nascentes, espécies que só existem ali e o território de um povo que vive na serra.",
+  "centralQuestion": "Como proteger um parque que é, ao mesmo tempo, montanha, fronteira e território indígena?",
+  "introduction": [
+    "No extremo norte do Brasil, os tepuis, que os Ingarikó chamam de “tîpî”, se erguem isolados, com topos aplainados e paredões de até 500 metros. O Monte Roraima, com cerca de 2.700 metros, está entre os pontos mais altos do país, e as nuvens que o envolvem alimentam rios que seguem para três países.",
+    "O parque ocupa 116 mil hectares inteiramente dentro da Terra Indígena Raposa Serra do Sol, casa dos cerca de 1,9 mil Ingarikó. Não há estradas: chega-se pelas comunidades do entorno, a convite de quem conhece a serra de dentro."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares do parque, todos em Uiramutã (RR)",
+      "value": "116 mil",
+      "sourceId": "pm",
+      "locator": "p. 11"
+    },
+    {
+      "label": "altitude aproximada do Monte Roraima",
+      "value": "≈ 2.700 m",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    },
+    {
+      "label": "idade aproximada das rochas dos tepuis",
+      "value": "2 bilhões de anos",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    },
+    {
+      "label": "espécies de aves endêmicas dos tepuis ou típicas de montanhas do norte da Amazônia",
+      "value": "≈ 100",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    },
+    {
+      "label": "espécies de anfíbios e répteis na expedição à Serra do Sol, em 2019",
+      "value": "45",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    },
+    {
+      "label": "pessoas Ingarikó, em 14 comunidades",
+      "value": "≈ 1,9 mil",
+      "sourceId": "pm",
+      "locator": "p. 19"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Tepui",
+      "definition": "Montanha isolada de topo plano e paredões abruptos, de arenito muito antigo; em língua Ingarikó, “tîpî”.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Floresta nebular",
+      "definition": "Floresta de altitude, de árvores baixas e troncos carregados de musgos, orquídeas e bromélias, sempre envolta em neblina.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Etnorregião",
+      "definition": "Parte de um território indígena ocupada por um povo; o parque está inteiramente na etnorregião Ingarikó da Terra Indígena Raposa Serra do Sol.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Sobreposição territorial",
+      "definition": "Situação em que uma unidade de conservação e uma terra indígena ocupam a mesma área; no Monte Roraima, a sobreposição é total.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "montanha",
+      "eyebrow": "01 · A montanha",
+      "title": "Tepuis, frio e chuva",
+      "question": "Como são e de que são feitas as montanhas do parque?",
+      "paragraphs": [
+        "Os tepuis do parque têm formato tabular, topos aplainados e escarpas abruptas, isolados uns dos outros. Os vales ficam a 900–1000 metros de altitude e os topos passam de 2.500, com paredões de até 500 metros. O Monte Roraima (cerca de 2.700 metros), a Serra do Sol (2.200), o Roraiminha (2.400) e o Monte Caburaí (1.450), o ponto mais setentrional do Brasil, formam essa paisagem.",
+        "São restos de rochas areníticas do supergrupo Roraima, que se formaram em ambientes sedimentares ligados a oscilações do nível do mar de cerca de 2 bilhões de anos atrás. O parque faz parte do Escudo das Guianas, a mais antiga formação geológica da América do Sul.",
+        "O clima é tropical, mas o relevo muda o tempo. A estação chuvosa vai de abril a setembro, ao contrário do resto da Amazônia brasileira. No platô do Monte Roraima, o tempo é imprevisível, pode chover a qualquer momento, e a sensação térmica se aproxima de zero grau nas noites mais frias."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 15–16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        }
+      ],
+      "images": [],
+      "note": {
+        "title": "Altitude do Monte Roraima",
+        "body": "O plano de manejo dá valores ligeiramente diferentes para o topo; o texto usa o valor aproximado de 2.700 metros."
+      }
+    },
+    {
+      "id": "vida",
+      "eyebrow": "02 · A vida",
+      "title": "Florestas de neblina e espécies que só existem nos tepuis",
+      "question": "O que vive em cada altitude?",
+      "paragraphs": [
+        "As florestas cobrem cerca de 80% do parque, mesmo em solos pobres e arenosos. Nos vales, entre 800 e 1200 metros, as árvores chegam a cerca de 30 metros. Entre 1300 e 1600 metros, a floresta fica mais fina e carregada de musgos, orquídeas e bromélias. A partir de 1600 metros, as árvores têm de 8 a 12 metros e troncos retorcidos.",
+        "Acima de 1800 metros ficam os bosques arbustivos nebulares, uma das formações mais emblemáticas dos tepuis: plantas carnívoras, bromélias e orquídeas compõem verdadeiros jardins suspensos. Há ainda savanas e campinas sobre solos arenosos.",
+        "Entre as aves, cerca de 100 espécies são endêmicas dos tepuis ou típicas das montanhas do norte da Amazônia. Menos de 15 ocupam os topos, mas quase todas só existem ali. Numa expedição à Serra do Sol, em 2019, foram registradas 45 espécies de anfíbios e répteis, mais de 10 delas pela primeira vez no Brasil.",
+        "Dos mamíferos de médio e grande porte, 16 espécies foram registradas, três delas ameaçadas globalmente: onça-pintada, onça-parda e anta. Cerca de 10 das 22 espécies de peixes encontradas parecem ser recém-descritas, mas todas são bem conhecidas pelos Ingarikó, que têm nome para cada uma."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 19"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Parque_Nacional_do_Monte_Roraima_01.JPG/1280px-Parque_Nacional_do_Monte_Roraima_01.JPG",
+          "author": "Vinicius Matsumoto",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Monte_Roraima_01.JPG",
+          "width": 1280,
+          "height": 960,
+          "alt": "Duas montanhas de topo plano no horizonte, acima de campos",
+          "context": "O Monte Roraima e o tepui vizinho Kukenán, vistos da Gran Sabana, na Venezuela."
+        }
+      ],
+      "note": {
+        "title": "Poucos estudos",
+        "body": "Poucos estudos foram feitos no local; as contagens vêm de levantamentos pontuais, como a expedição de 2019."
+      }
+    },
+    {
+      "id": "agua",
+      "eyebrow": "03 · A água",
+      "title": "A grande caixa-d’água",
+      "question": "Para onde vai a água que nasce nos tepuis?",
+      "paragraphs": [
+        "Os moradores chamam o Monte Roraima de “grande caixa-d’água”. Dele nascem rios que abastecem três países: o Cotingo, no Brasil, o Arapëpë, na Venezuela, e o Kako, na Guiana. O Uailan e o Panari nascem no Monte Caburaí e abastecem a etnorregião Ingarikó.",
+        "O Cotingo é o principal rio da região Ingarikó. Corre para o Surumu, o Tacutu e o rio Branco, o principal de Roraima e um dos maiores afluentes do Amazonas. A água dos igarapés pequenos é cristalina; a do Cotingo e do Panari parece preta, mais ácida e pobre em nutrientes.",
+        "Nos paredões, os igarapés formam grandes quedas; nas encostas menos íngremes, corredeiras e cachoeiras. O plano registra que, pelos saberes indígenas, esses rios têm lugares de respeito que devem ser resguardados."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 23"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "ingariko",
+      "eyebrow": "04 · O povo",
+      "title": "Os Ingarikó e a serra",
+      "question": "Quem vive na serra e como cuida dela?",
+      "paragraphs": [
+        "O parque é totalmente sobreposto à etnorregião Ingarikó da Terra Indígena Raposa Serra do Sol, homologada por decreto de 15 de abril de 2005. O povo Ingarikó reúne cerca de 1,9 mil pessoas em 14 comunidades. A sede de uma delas, Mapaé, fica dentro do parque, e quase todas as outras estão a poucos quilômetros dos limites.",
+        "O plano descreve usos tradicionais: caça, coleta de insetos e frutos, pesca, roças, retirada pontual de madeira para casas e manejo do fogo, que faz parte da cultura. Também reconhece lugares sagrados ou de respeito.",
+        "Entre os valores fundamentais do parque estão a “natureza integrada à cultura Ingarikó”, com respeito aos espíritos e aos lugares onde estão, os bailes Parixara Tukuik, a religião Areruya, o conhecimento dos pajés e rezadores e o manejo das pedras de caça.",
+        "Na tradição Ingarikó, o Monte Roraima nasceu da queda da grande árvore Wayaka Yek e é a morada da mãe, Imé; as pedras-soldados protegem a montanha."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 19"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "gestao",
+      "eyebrow": "05 · A gestão",
+      "title": "Um plano feito com quem vive ali",
+      "question": "Como se administra um parque dentro de uma terra indígena?",
+      "paragraphs": [
+        "O Decreto nº 97.887, de 28 de junho de 1989, criou o parque para proteger amostras dos ecossistemas da Serra Pacaraima e permitir visitação, educação e pesquisa de forma controlada. O primeiro plano de manejo ficou pronto em 2000, antes da homologação da terra indígena, e por isso foi revisto com a participação dos Ingarikó.",
+        "A gestão conjunta entre o Conselho do Povo Indígena Ingarikó, o ICMBio e a Funai ainda é um caminho em construção, pois impasses jurídicos ligados à homologação da terra indígena travaram tentativas anteriores.",
+        "A revisão começou com uma oficina com todas as comunidades Ingarikó, de 10 a 12 de maio de 2023, em Uiramutã, e seguiu com a oficina de 24 a 28 de julho de 2023, em Boa Vista, com 32 participantes. Tudo foi traduzido para a língua Ingarikó.",
+        "O acesso é difícil: não há estradas dentro do parque, só uma pista de pouso, e os pontos de partida são comunidades indígenas do entorno."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "gestao",
+    "title": "Marcos do Monte Roraima",
+    "intro": "Marcos conferidos no plano de manejo do parque.",
+    "items": [
+      {
+        "id": "2bi",
+        "year": "≈ 2 bilhões de anos atrás",
+        "title": "Areias do mar",
+        "description": "Oscilações do nível do mar depositam as areias que dão origem às rochas dos tepuis.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1989",
+        "year": "1989",
+        "title": "Decreto nº 97.887",
+        "description": "Em 28 de junho, é criado o Parque Nacional do Monte Roraima.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2000",
+        "year": "2000",
+        "title": "Primeiro plano de manejo",
+        "description": "O primeiro plano é finalizado, antes da homologação da terra indígena.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2005",
+        "year": "2005",
+        "title": "Terra Indígena Raposa Serra do Sol",
+        "description": "A terra indígena é homologada por decreto de 15 de abril.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2019",
+        "year": "2019",
+        "title": "Expedição à Serra do Sol",
+        "description": "Cientistas registram 45 espécies de anfíbios e répteis.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2023",
+        "year": "2023",
+        "title": "Revisão do plano",
+        "description": "Oficinas com as comunidades Ingarikó em maio e julho revisam o plano.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma montanha com dono, memória e futuro",
+  "closing": "No Monte Roraima, a rocha mais antiga, a floresta de neblina e as nascentes dividem lugar com um povo que vive ali. Visitar o parque é entrar na casa de quem o conhece de dentro, e proteger a serra é caminhar junto com eles.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Monte Roraima (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-monte-roraima/PM_PNMR_Final.pdf",
+      "use": "geologia, clima, vegetação, fauna, água, povo Ingarikó e histórico do plano; páginas conforme a numeração do PDF",
+      "accessedAt": "2026-10-22"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: revisão do texto sobre cultura e tradição Ingarikó (grafia, forma de citar a tradição, números) pelo Conselho do Povo Indígena Ingarikó (COPING) e pela Funai antes da aprovação."
+}

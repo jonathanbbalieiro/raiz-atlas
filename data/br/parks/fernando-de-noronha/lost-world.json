@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Antes dos ratos europeus, Noronha tinha o seu próprio roedor — talvez o mesmo que Américo Vespúcio descreveu em 1503.",
+  "items": [
+    {
+      "kind": "extinta",
+      "name": "Rato-de-Noronha",
+      "scientificName": "Noronhomys vespuccii",
+      "when": "restos do Holoceno; extinto depois da chegada dos europeus",
+      "text": "Descrito em 1999 a partir de fósseis, o Noronhomys era um roedor maior que o rato-preto, endêmico do arquipélago. O nome homenageia Américo Vespúcio, que em 1503 relatou \"ratos muito grandes\" na ilha. Provavelmente desapareceu pouco depois, com a chegada de ratos e outros animais trazidos pelos navegantes.",
+      "sourceIds": [
+        "pm",
+        "carleton"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "extinta",
+      "name": "Saracura-de-Noronha (fóssil)",
+      "scientificName": "Rallidae (espécie ainda sem nome no plano de manejo)",
+      "when": "areias do Pleistoceno",
+      "text": "Nas dunas antigas da península de Santo Antônio, perto do porto, foram encontrados restos fósseis de uma saracura, ave da família Rallidae, hoje ausente do arquipélago. O plano de manejo a cita como um dos casos de aves extintas em Noronha e lembra que essas dunas guardam material fossilizado de grande interesse.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Plano de Manejo do Parque Nacional Marinho de Fernando de Noronha (revisão pontual 2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-de-fernando-de-noronha/arquivos/plano_de_manejo_pn_marinho_fernando_de_noronha_revisao_pontual_2024.pdf",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "carleton",
+      "institution": "American Museum of Natural History",
+      "title": "Carleton, M. D. & Olson, S. L. (1999). Amerigo Vespucci and the rat of Fernando de Noronha: a new genus and species of Rodentia (Muridae, Sigmodontinae) from a volcanic island off Brazil's continental shelf. American Museum Novitates 3256",
+      "url": "https://digitallibrary.amnh.org/handle/2246/3097",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

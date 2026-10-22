@@ -1,0 +1,102 @@
+{
+  "slug": "saltos-do-rio-preto",
+  "name": "Saltos do Rio Preto",
+  "type": "cachoeira",
+  "coordinates": [
+    -47.84726,
+    -14.16626
+  ],
+  "shortDescription": "Os dois saltos símbolo do Parque Nacional: o Salto II, com 120 m de queda livre, visto de um mirante, e o Salto I, de 80 m, com um grande poço para banho.",
+  "longDescription": "A Trilha dos Saltos, sinalizada com setas amarelas, atravessa campos de cerrado e a área do antigo garimpo de cristal de quartzo até o mirante do Salto de 120 m, o cartão-postal do parque.\n\nCerca de 800 m adiante fica o Salto de 80 m, onde o banho é permitido em área limitada conforme o nível do rio. O percurso é pedregoso, com trechos muito inclinados, e pode ser combinado com o Carrossel e as Corredeiras.",
+  "photos": [
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Salto_2_do_Rio_Preto%2C_Chapada_dos_Veadeiros%2C_Goi%C3%A1s%2C_Brasil_78.JPG/1280px-Salto_2_do_Rio_Preto%2C_Chapada_dos_Veadeiros%2C_Goi%C3%A1s%2C_Brasil_78.JPG",
+      "alt": "Salto de 120 metros do Rio Preto caindo em um cânion de paredões de rocha",
+      "author": "Adelano Lázaro",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salto_2_do_Rio_Preto,_Chapada_dos_Veadeiros,_Goi%C3%A1s,_Brasil_78.JPG",
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Salto_do_Rio_Preto_120_e_80.jpg/1280px-Salto_do_Rio_Preto_120_e_80.jpg",
+      "alt": "Os dois saltos do Rio Preto, de 120 e 80 metros, vistos de longe",
+      "author": "Carlos Perez Couto",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salto_do_Rio_Preto_120_e_80.jpg",
+      "width": 1280,
+      "height": 1026
+    },
+    {
+      "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Salto_1_do_Rio_Preto%2C_Chapada_dos_Veadeiros%2C_Goi%C3%A1s%2C_Brasil.JPG/1280px-Salto_1_do_Rio_Preto%2C_Chapada_dos_Veadeiros%2C_Goi%C3%A1s%2C_Brasil.JPG",
+      "alt": "Salto de 80 metros do Rio Preto e seu poço",
+      "author": "Adelano Lázaro",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salto_1_do_Rio_Preto,_Chapada_dos_Veadeiros,_Goi%C3%A1s,_Brasil.JPG",
+      "width": 1280,
+      "height": 708
+    }
+  ],
+  "access": {
+    "difficulty": "dificil",
+    "trailDistanceKm": 4.5,
+    "heightM": 120
+  },
+  "bestSeason": "A_VERIFICAR",
+  "visiting": {
+    "guideRequired": false,
+    "entranceFee": true,
+    "openingHours": "Entrada nas trilhas entre 8h e 12h; saída do parque até as 18h",
+    "notes": "O folheto do ICMBio indica cerca de 9 km ida e volta (nível moderado a pesado). O inventário estadual cita 11 km no circuito com Carrossel e Corredeiras e limite de 450 visitantes/dia. O parque não tem serviço de resgate. Valor do ingresso: a verificar."
+  },
+  "howToGetThere": {
+    "baseCity": "Vila de São Jorge (Alto Paraíso de Goiás)",
+    "distanceFromBaseKm": "A_VERIFICAR",
+    "directions": "A portaria do parque fica na Vila de São Jorge, na GO-239. As trilhas partem do Centro de Visitantes."
+  },
+  "tags": [
+    "banho_permitido",
+    "ideal_fotografia"
+  ],
+  "sources": [
+    {
+      "title": "ICMBio: PARNA da Chapada dos Veadeiros, Normas e Orientações Gerais para Visitantes (folheto)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-veadeiros/linha-de-atuacao/arquivos/folder_final.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "access.heightM",
+        "access.trailDistanceKm",
+        "access.difficulty",
+        "visiting.openingHours",
+        "visiting.guideRequired"
+      ]
+    },
+    {
+      "title": "Goiás Turismo: Inventário Turístico de Alto Paraíso de Goiás, Caderno 3 (2020)",
+      "url": "https://goias.gov.br/turismo/wp-content/uploads/sites/4/2020/09/Carderno3InventarioAltoParaiso-c7b.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "visiting.notes"
+      ]
+    },
+    {
+      "title": "ICMBio: Contrato de concessão 02/2018, serviços de apoio à visitação (inclui venda de ingressos)",
+      "url": "https://www.gov.br/icmbio/pt-br/servicos/concessao-de-servicos-de-apoio-a-visitacao/contrato_02_2018_socicam_chapada_veadeiros.pdf",
+      "accessed": "2026-10-19",
+      "fields": [
+        "visiting.entranceFee"
+      ]
+    },
+    {
+      "title": "OpenStreetMap, node/2590164100 (© colaboradores do OpenStreetMap, ODbL)",
+      "url": "https://www.openstreetmap.org/node/2590164100",
+      "accessed": "2026-10-19",
+      "fields": [
+        "coordinates"
+      ]
+    }
+  ]
+}

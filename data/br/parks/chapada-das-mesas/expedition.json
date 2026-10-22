@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Chapada das Mesas",
+  "title": "Mesas de arenito, cachoeiras e um parque pedido pela cidade",
+  "subtitle": "No sul do Maranhão, morros de topo plano, mais de 400 nascentes e a transição de três biomas formam um parque que nasceu da mobilização de quem vive em Carolina.",
+  "centralQuestion": "O que faz da Chapada das Mesas um lugar de água, e por que ela virou parque nacional?",
+  "introduction": [
+    "No sul do Maranhão, o arenito foi esculpido em mesas: morros de topo plano que parecem tabuleiros gigantes erguidos sobre o Cerrado. Entre elas correm mais de 400 nascentes, que alimentam 22 rios perenes e fazem da região um verdadeiro paraíso das águas.",
+    "O Parque Nacional da Chapada das Mesas, criado em 12 de dezembro de 2005, protege uma área de transição entre Cerrado, Amazônia e Caatinga, com cachoeiras, matas úmidas, pinturas rupestres e uma história rara: ele existe porque a cidade de Carolina o pediu."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de superfície, em duas glebas separadas",
+      "value": "160.046",
+      "sourceId": "pm",
+      "locator": "p. 7"
+    },
+    {
+      "label": "nascentes, que alimentam 22 rios perenes",
+      "value": "mais de 400",
+      "sourceId": "pm",
+      "locator": "p. 11"
+    },
+    {
+      "label": "metros no ponto mais alto, na serra da Aldeia (Riachão)",
+      "value": "604 m",
+      "sourceId": "pm",
+      "locator": "p. 8"
+    },
+    {
+      "label": "do parque é de solos arenosos (Neossolos Quartzarênicos)",
+      "value": "82,91%",
+      "sourceId": "pm",
+      "locator": "p. 8"
+    },
+    {
+      "label": "anos desde a indicação do projeto RADAMBRASIL (1973) até o decreto de criação (2005)",
+      "value": "32",
+      "sourceId": "pm",
+      "locator": "p. 8"
+    },
+    {
+      "label": "anos de ocupação humana indicados pelas pinturas rupestres do morro das Figuras",
+      "value": "mais de 10 mil",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Morro-testemunho",
+      "definition": "Relevo que resta de uma antiga superfície erodida; na chapada, as mesas são morros de arenito de topo horizontal e plano, como tabuleiros.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Ecótono",
+      "definition": "Faixa de transição entre ambientes; no parque, a passagem natural entre Cerrado, Amazônia e Caatinga.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Gleba",
+      "definition": "Parte de um território contínuo ou separado. O parque tem duas: a maior, com 140.840 ha, e a menor, com 19.206 ha.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Turismo de base comunitária",
+      "definition": "Visitação em que a comunidade local participa da organização e dos ganhos; o plano a cita entre as atividades do parque.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Chapada_das_Mesas_-_Maranh%C3%A3o_%283896344817%29.jpg/1280px-Chapada_das_Mesas_-_Maranh%C3%A3o_%283896344817%29.jpg",
+    "author": "Otávio Nogueira from Fortaleza, BR",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapada_das_Mesas_-_Maranh%C3%A3o_(3896344817).jpg",
+    "width": 1280,
+    "height": 857,
+    "alt": "Picos rochosos de arenito sobre o cerrado da Chapada das Mesas, no Maranhão",
+    "context": "Picos rochosos de arenito se erguem sobre o cerrado da Chapada das Mesas, no Maranhão."
+  },
+  "moments": [
+    {
+      "id": "mesas",
+      "eyebrow": "01 · As mesas",
+      "title": "Morros-testemunho de topo plano",
+      "question": "O que são as mesas e o que elas guardam?",
+      "paragraphs": [
+        "Os morros de arenito de topo plano caracterizam as mesas: superfícies antigas, esculpidas pelo vento e pela chuva ao longo do tempo. São morros-testemunho de topo horizontal, como um tabuleiro.",
+        "Entre os relevos de destaque estão a serra Grande do Caititu, a do Balaio e a Vermelha, e os morros do Solteiro, do Itapecuru e da Igreja. O relevo varia de 120 metros, nos vales e chapadas, a 604 metros, na serra da Aldeia, numa gleba menor do parque, em Riachão.",
+        "Cerca de 82,91% do parque são de solos arenosos, resultado da erosão dos arenitos. Apesar do domínio do arenito, há manchas de origem vulcânica, principalmente a oeste, e cânions entre as formações areníticas.",
+        "No topo de algumas mesas crescem matas semideciduais, com árvores como ipê, jatobá e cedro. O clima tem inverno seco, de maio a outubro, e verão chuvoso, de novembro a abril."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "agua",
+      "eyebrow": "02 · A água",
+      "title": "Uma fábrica de água",
+      "question": "De onde vêm os rios do parque?",
+      "paragraphs": [
+        "São mais de 400 nascentes, da bacia do rio Tocantins, que alimentam 22 rios perenes, como o Farinha, o Lajes Grande, o Cancela e o Corrente. As quatro principais sub-bacias são a do Farinha, a do ribeirão Lajes, a do Itapecuru e a de afluentes do Sereno.",
+        "As cachoeiras de São Romão e do Prata, no rio Farinha, estão entre as maiores em volume de água do Maranhão. A água é frágil: fogo, desmatamento de cabeceiras e matas ciliares, assoreamento e queda do volume das cachoeiras são ameaças que o parque enfrenta.",
+        "A água sustenta a vida de três biomas. Entre os mamíferos típicos da Amazônia aparecem o guariba e o macaco-de-cheiro, além do tamanduá-bandeira, da onça-parda, do veado-campeiro e da anta. Nas calhas dos rios Farinha e Corrente restam matas úmidas de tipo amazônico, como a mata do Buenos Aires e a mata do Corrente.",
+        "No Cerrado há frutíferas como pequi, bacuri, mangaba, murici e cagaita. Só na região de Carolina e Estreito, a bacia do rio Farinha tem mais de trezentas espécies de peixes."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 10"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cachoeira_de_S%C3%A3o_Rom%C3%A3o_-_Parque_Nacional_da_Chapada_das_Mesas_%283923928029%29.jpg/1280px-Cachoeira_de_S%C3%A3o_Rom%C3%A3o_-_Parque_Nacional_da_Chapada_das_Mesas_%283923928029%29.jpg",
+          "author": "Otávio Nogueira from Fortaleza, BR",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_de_S%C3%A3o_Rom%C3%A3o_-_Parque_Nacional_da_Chapada_das_Mesas_(3923928029).jpg",
+          "width": 1280,
+          "height": 857,
+          "alt": "Cachoeira de São Romão, larga queda d'água do rio Farinha",
+          "context": "A Cachoeira de São Romão, no rio Farinha, dentro do parque."
+        }
+      ]
+    },
+    {
+      "id": "povos",
+      "eyebrow": "03 · Os povos",
+      "title": "Pinturas, sertanejos e casas de farinha",
+      "question": "Quem vive e viveu na chapada?",
+      "paragraphs": [
+        "A chapada foi habitada há mais de 10 mil anos, como mostram os grafismos rupestres do morro das Figuras e do morro das Araras, além de outros sítios conhecidos pelos sertanejos. Um decreto estadual de 1993 tombou os dois morros.",
+        "O sítio do morro das Figuras está degradado, ameaçado pelo fogo usado no manejo do gado e por vandalismo, o que reforça a importância de visitá-lo com respeito.",
+        "Hoje o parque ainda tem moradores, em geral agricultores familiares, com cultivos de subsistência, extrativismo e poucos bovinos. Levantamentos de 2009 e 2011 estimaram pouco mais de cem moradias dispersas. A regularização fundiária estava em fase inicial.",
+        "A cultura sertaneja da região vive nas casas de farinha, nos engenhos artesanais, na produção de mel e nas festas populares."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 10"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 31"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "criacao",
+      "eyebrow": "04 · A criação",
+      "title": "Um parque pedido pela cidade",
+      "question": "Como o parque foi criado?",
+      "paragraphs": [
+        "O projeto RADAMBRASIL indicou, em 1973, a criação de uma unidade de conservação na Chapada das Mesas. A ideia entrou na agenda do IBDF e, depois, do IBAMA.",
+        "O pedido ganhou força com a mobilização da sociedade e do poder público local de Carolina. Eles reivindicaram o parque contra o avanço da soja, contra pequenas centrais hidrelétricas nas cachoeiras São Romão e Prata e contra a usina hidrelétrica de Estreito, no Tocantins.",
+        "Um decreto de 12 de dezembro de 2005 criou o parque, e outro, de 31 de janeiro de 2006, alterou seus objetivos de criação. O envolvimento da população local faz do caso um exemplo raro na realidade brasileira.",
+        "O plano de manejo foi aprovado por portaria do ICMBio e orienta hoje o uso e a proteção do parque."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 7"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 31"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 34"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "De uma indicação a um plano de manejo",
+    "intro": "Marcos registrados no plano de manejo.",
+    "items": [
+      {
+        "id": "1973",
+        "year": "1973",
+        "title": "A indicação do RADAMBRASIL",
+        "description": "O projeto indica a criação de uma unidade de conservação na Chapada das Mesas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1993",
+        "year": "1993",
+        "title": "Tombamento estadual",
+        "description": "O Decreto estadual nº 12.956, de 12 de fevereiro, tomba o morro das Figuras e o morro das Araras.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2005",
+        "year": "2005",
+        "title": "Criação do parque",
+        "description": "Decreto de 12 de dezembro cria o Parque Nacional da Chapada das Mesas, em Carolina, Riachão e Estreito.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2006",
+        "year": "2006",
+        "title": "Alteração dos objetivos",
+        "description": "Decreto de 31 de janeiro altera o artigo 1º do decreto de criação.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma cidade que pediu um parque",
+  "closing": "A Chapada das Mesas mostra que um parque pode nascer da pressão de quem vive ao redor. As nascentes, as mesas de arenito e os agricultores familiares dividem o mesmo território, e proteger um deles significa pensar nos outros.",
+  "references": [
+    {
+      "accessedAt": "2026-10-22",
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Chapada das Mesas (2020)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-das-mesas/arquivos/plano_de_manejo_parna_chapada_das_mesas.pdf",
+      "use": "criação, relevo, água, fauna, flora, moradores e atos legais; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: revisão por representantes das comunidades locais (agricultores familiares e sertanejos); a idade das pinturas vem do plano de manejo, sem detalhe do método de datação; ano da portaria que aprovou o plano diverge dentro do próprio plano."
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Numa gruta do Morro do Pendurado, o crânio de um urso que já não existe deu nome ao lugar.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Urso-fóssil",
+      "scientificName": "Arctotherium",
+      "when": "achado em 1978",
+      "text": "Em 1978, na caverna que hoje se chama Gruta do Urso Fóssil, foram encontrados um crânio e uma mandíbula de urso de focinho curto, descritos como Arctotherium brasiliense. Os sedimentos da gruta com restos de fauna foram datados em cerca de 8 mil anos, e a maior parte dos bichos ali encontrados ainda vive na região.",
+      "sourceIds": [
+        "oliveira2010"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "oliveira2010",
+      "institution": "UFRGS (Lume)",
+      "title": "Mamíferos do Neopleistoceno–Holoceno do Parque Nacional de Ubajara, Ceará (Oliveira, 2010)",
+      "url": "https://lume.ufrgs.br/handle/10183/79743",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

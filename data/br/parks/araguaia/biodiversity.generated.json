@@ -1,0 +1,662 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-50.196%20-9.847%2C-50.205%20-9.842%2C-50.259%20-9.906%2C-50.286%20-10.028%2C-50.290%20-10.020%2C-50.315%20-10.065%2C-50.348%20-10.089%2C-50.383%20-10.139%2C-50.380%20-10.154%2C-50.386%20-10.143%2C-50.391%20-10.151%2C-50.381%20-10.228%2C-50.402%20-10.294%2C-50.403%20-10.335%2C-50.444%20-10.392%2C-50.472%20-10.409%2C-50.485%20-10.463%2C-50.247%20-10.467%2C-50.258%20-10.476%2C-50.256%20-10.506%2C-50.276%20-10.514%2C-50.261%20-10.546%2C-50.269%20-10.569%2C-50.259%20-10.577%2C-50.269%20-10.598%2C-50.256%20-10.598%2C-50.273%20-10.623%2C-50.265%20-10.633%2C-50.280%20-10.638%2C-50.281%20-10.676%2C-50.265%20-10.701%2C-50.269%20-10.731%2C-50.244%20-10.733%2C-50.224%20-10.764%2C-50.208%20-10.767%2C-50.234%20-10.794%2C-50.246%20-10.834%2C-50.384%20-10.834%2C-50.386%20-11.167%2C-50.003%20-11.166%2C-49.983%20-11.160%2C-49.994%20-11.149%2C-49.980%20-11.126%2C-49.964%20-11.128%2C-49.938%20-11.106%2C-49.950%20-11.096%2C-49.939%20-11.054%2C-49.954%20-11.055%2C-49.968%20-11.039%2C-49.971%20-11.007%2C-49.990%20-10.991%2C-49.982%20-10.968%2C-49.997%20-10.957%2C-49.990%20-10.930%2C-49.968%20-10.942%2C-49.979%20-10.929%2C-49.969%20-10.915%2C-49.982%20-10.902%2C-49.972%20-10.892%2C-49.959%20-10.895%2C-49.963%20-10.874%2C-49.981%20-10.868%2C-49.968%20-10.844%2C-49.977%20-10.816%2C-49.960%20-10.820%2C-49.954%20-10.808%2C-49.978%20-10.779%2C-49.955%20-10.767%2C-49.963%20-10.741%2C-49.945%20-10.725%2C-49.958%20-10.707%2C-49.975%20-10.716%2C-49.962%20-10.692%2C-49.982%20-10.689%2C-49.986%20-10.677%2C-49.955%20-10.625%2C-49.966%20-10.596%2C-49.962%20-10.570%2C-49.937%20-10.561%2C-49.955%20-10.513%2C-49.947%20-10.478%2C-49.963%20-10.458%2C-49.953%20-10.438%2C-49.961%20-10.414%2C-49.946%20-10.387%2C-49.985%20-10.352%2C-49.975%20-10.335%2C-49.950%20-10.337%2C-49.943%20-10.326%2C-49.953%20-10.299%2C-49.943%20-10.277%2C-49.964%20-10.261%2C-49.973%20-10.220%2C-49.952%20-10.193%2C-50.001%20-10.144%2C-50.001%20-10.114%2C-50.018%20-10.081%2C-50.014%20-10.039%2C-50.036%20-10.015%2C-50.020%20-9.986%2C-50.094%20-9.978%2C-50.121%20-9.963%2C-50.111%20-9.949%2C-50.123%20-9.931%2C-50.116%20-9.891%2C-50.163%20-9.887%2C-50.178%20-9.846%2C-50.196%20-9.847))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 21,
+      "species": [
+        {
+          "gbifKey": 2433681,
+          "scientificName": "Pteronura brasiliensis",
+          "name": "Ariranha",
+          "family": "Mustelidae",
+          "records": 3,
+          "iucn": "EN",
+          "wikidata": "Q83774",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+            "author": "Autor desconhecido",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+            "width": 640,
+            "height": 253,
+            "alt": "Ariranha (Pteronura brasiliensis)"
+          }
+        },
+        {
+          "gbifKey": 2440963,
+          "scientificName": "Blastocerus dichotomus",
+          "name": "Cervo-do-pantanal",
+          "family": "Cervidae",
+          "records": 3,
+          "iucn": "VU",
+          "wikidata": "Q504501",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg/960px-Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+            "author": "Phillip Capper from Wellington, New Zealand",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marsh_Deer,_Esteros_Del_Ibera,_Corrientes,_Argentina,_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "cervo-do-pantanal (Blastocerus dichotomus)"
+          }
+        },
+        {
+          "gbifKey": 2440898,
+          "scientificName": "Tapirus terrestris",
+          "name": "Anta",
+          "family": "Tapiridae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q220271",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Anta (Tapirus terrestris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 73,
+      "species": [
+        {
+          "gbifKey": 2496202,
+          "scientificName": "Opisthocomus hoazin",
+          "name": "Jacu-cigano",
+          "family": "Opisthocomidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q188660",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg/960px-Hoatzin_%28Opisthocomus_hoazin%29_Rio_Napo.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoatzin_(Opisthocomus_hoazin)_Rio_Napo.jpg",
+            "width": 640,
+            "height": 960,
+            "alt": "Jacu-cigano (Opisthocomus hoazin)"
+          }
+        },
+        {
+          "gbifKey": 2480869,
+          "scientificName": "Tigrisoma lineatum",
+          "name": "Socó-boi",
+          "family": "Ardeidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q333239",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Rufescent_Tiger_Heron%2C_Berazategui%2C_Buenos_Aires%2C_Argentina_1.jpg/960px-Rufescent_Tiger_Heron%2C_Berazategui%2C_Buenos_Aires%2C_Argentina_1.jpg",
+            "author": "matiascabezas",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rufescent_Tiger_Heron,_Berazategui,_Buenos_Aires,_Argentina_1.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "socó-boi (Tigrisoma lineatum)"
+          }
+        },
+        {
+          "gbifKey": 2480951,
+          "scientificName": "Ardea cocoi",
+          "name": "Garça-moura",
+          "family": "Ardeidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q911449",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/GARZA_MORA_Ardea_cocoi.jpg/960px-GARZA_MORA_Ardea_cocoi.jpg",
+            "author": "Dario Niz",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:GARZA_MORA_Ardea_cocoi.jpg",
+            "width": 640,
+            "height": 849,
+            "alt": "Garça-moura (Ardea cocoi)"
+          }
+        },
+        {
+          "gbifKey": 2480250,
+          "scientificName": "Hoploxypterus cayanus",
+          "name": "Batuíra-de-esporão",
+          "family": "Charadriidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1118712",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Vanellus_cayanus.jpg/960px-Vanellus_cayanus.jpg",
+            "author": "Arthur Chapman",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vanellus_cayanus.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Batuíra-de-esporão (Hoploxypterus cayanus)"
+          }
+        },
+        {
+          "gbifKey": 2480836,
+          "scientificName": "Agamia agami",
+          "name": "Garça-da-mata",
+          "family": "Ardeidae",
+          "records": 2,
+          "iucn": "NT",
+          "wikidata": "Q218312",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Gar%C3%A7a-da-mata-PE_Encontro_das_%C3%81guas-Erisvaldo_Almeida%28001%29.jpg/960px-Gar%C3%A7a-da-mata-PE_Encontro_das_%C3%81guas-Erisvaldo_Almeida%28001%29.jpg",
+            "author": "Erisvaldo Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gar%C3%A7a-da-mata-PE_Encontro_das_%C3%81guas-Erisvaldo_Almeida(001).jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "garça-da-mata (Agamia agami)"
+          }
+        },
+        {
+          "gbifKey": 2482082,
+          "scientificName": "Anhinga anhinga",
+          "name": "Biguatinga",
+          "family": "Anhingidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q469940",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Anhinga_anhinga_-Costa_Rica-8.jpg/960px-Anhinga_anhinga_-Costa_Rica-8.jpg",
+            "author": "Tim from Ithaca",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anhinga_anhinga_-Costa_Rica-8.jpg",
+            "width": 640,
+            "height": 895,
+            "alt": "biguatinga (Anhinga anhinga)"
+          }
+        },
+        {
+          "gbifKey": 2495287,
+          "scientificName": "Patagioenas picazuro",
+          "name": "Asa-branca",
+          "family": "Columbidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1269659",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Patagioenas_picazuro_-Buenos_Aires%2C_Argentina-8-4c.jpg/960px-Patagioenas_picazuro_-Buenos_Aires%2C_Argentina-8-4c.jpg",
+            "author": "Patagioenas_picazuro_-Buenos_Aires,_Argentina-8.jpg: dfaulder derivative work: S",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patagioenas_picazuro_-Buenos_Aires,_Argentina-8-4c.jpg",
+            "width": 640,
+            "height": 492,
+            "alt": "Asa-branca (Patagioenas picazuro)"
+          }
+        },
+        {
+          "gbifKey": 2497011,
+          "scientificName": "Hydropsalis climacocerca",
+          "name": "Acurana",
+          "family": "Caprimulgidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1263936",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Hydropsalis_climacocerca_female.jpg/960px-Hydropsalis_climacocerca_female.jpg",
+            "author": "Cláudio Dias Timm from Rio Grande do Sul",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydropsalis_climacocerca_female.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "Acurana (Hydropsalis climacocerca)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 117,
+      "species": [
+        {
+          "gbifKey": 2442795,
+          "scientificName": "Podocnemis expansa",
+          "name": "Tartaruga-da-amazônia",
+          "family": "Podocnemididae",
+          "records": 39,
+          "iucn": null,
+          "wikidata": "Q2625714",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Tortuga-arrau.jpg/960px-Tortuga-arrau.jpg",
+            "author": "Luisovalles",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortuga-arrau.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Tartaruga-da-amazônia (Podocnemis expansa)"
+          }
+        },
+        {
+          "gbifKey": 8953936,
+          "scientificName": "Caiman crocodilus",
+          "name": "Jacaretinga",
+          "family": "Alligatoridae",
+          "records": 27,
+          "iucn": "LC",
+          "wikidata": "Q272582",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Caiman_crocodilus_Nausicaa.jpg/960px-Caiman_crocodilus_Nausicaa.jpg",
+            "author": "This photo has been taken by Matthieu Sontag (User:Mirgolth) and released under ",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caiman_crocodilus_Nausicaa.jpg",
+            "width": 640,
+            "height": 323,
+            "alt": "Jacaretinga (Caiman crocodilus)"
+          }
+        },
+        {
+          "gbifKey": 2441409,
+          "scientificName": "Melanosuchus niger",
+          "name": "Jacaré-açu",
+          "family": "Alligatoridae",
+          "records": 25,
+          "iucn": "LC",
+          "wikidata": "Q504483",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Jacar%C3%A9_A%C3%A7%C3%BA.jpg",
+            "author": "Jovem Rural",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacar%C3%A9_A%C3%A7%C3%BA.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "jacaré-açu (Melanosuchus niger)"
+          }
+        },
+        {
+          "gbifKey": 2442782,
+          "scientificName": "Podocnemis unifilis",
+          "name": "Tracajá",
+          "family": "Podocnemididae",
+          "records": 25,
+          "iucn": "VU",
+          "wikidata": "Q863041",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Podocnemis_unifilis_%28Yellow_spotted_river_turtle%29.jpg",
+            "author": "http://opencage.info",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podocnemis_unifilis_(Yellow_spotted_river_turtle).jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Tracajá (Podocnemis unifilis)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 10,
+      "species": [
+        {
+          "gbifKey": 2428374,
+          "scientificName": "Pseudis tocantins",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q853493",
+          "photo": null
+        },
+        {
+          "gbifKey": 5216956,
+          "scientificName": "Rhinella ocellata",
+          "name": null,
+          "family": "Bufonidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q28031865",
+          "photo": null
+        },
+        {
+          "gbifKey": 9854382,
+          "scientificName": "Boana raniceps",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 1116,
+      "species": [
+        {
+          "gbifKey": 2898239,
+          "scientificName": "Tocoyena formosa",
+          "name": "Jenipapo-bravo",
+          "family": "Rubiaceae",
+          "records": 11,
+          "iucn": null,
+          "wikidata": "Q15460984",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Tocoyena_formosa_%281%29.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Tocoyena_formosa_(1).jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Jenipapo-bravo (Tocoyena formosa)"
+          }
+        },
+        {
+          "gbifKey": 2920891,
+          "scientificName": "Psychotria carthagenensis",
+          "name": "Sanhaçaiba",
+          "family": "Rubiaceae",
+          "records": 9,
+          "iucn": null,
+          "wikidata": "Q7256517",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gentianales_-_Psychotria_carthagenensis_-_kew_1.jpg",
+            "author": "Emőke Dénes",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gentianales_-_Psychotria_carthagenensis_-_kew_1.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Sanhaçaiba (Psychotria carthagenensis)"
+          }
+        },
+        {
+          "gbifKey": 2899248,
+          "scientificName": "Palicourea crocea",
+          "name": "Erva-d'água",
+          "family": "Rubiaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q15483244",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Palicourea_crocea_in_the_Argentina-Brazil_border.jpg/960px-Palicourea_crocea_in_the_Argentina-Brazil_border.jpg",
+            "author": "Dick Culbert from Gibsons, B.C., Canada",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palicourea_crocea_in_the_Argentina-Brazil_border.jpg",
+            "width": 640,
+            "height": 508,
+            "alt": "Erva-d'água (Palicourea crocea)"
+          }
+        },
+        {
+          "gbifKey": 2899270,
+          "scientificName": "Palicourea marcgravii",
+          "name": "Cafezinho",
+          "family": "Rubiaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15483386",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Palicourea_marcgravii.jpg/960px-Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Palicourea_marcgravii.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Palicourea_marcgravii.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Cafezinho (Palicourea marcgravii)"
+          }
+        },
+        {
+          "gbifKey": 3152846,
+          "scientificName": "Virola sebifera",
+          "name": "Ucuúba-vermelha",
+          "family": "Myristicaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1634458",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Virola_sebifera.jpg/960px-Virola_sebifera.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virola_sebifera.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Ucuúba-vermelha (Virola sebifera)"
+          }
+        },
+        {
+          "gbifKey": 2893927,
+          "scientificName": "Posoqueria longiflora",
+          "name": null,
+          "family": "Rubiaceae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q15488779",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Posoqueria_longiflora-IMG_3454.jpg/960px-Posoqueria_longiflora-IMG_3454.jpg",
+            "author": "C T Johansson",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Posoqueria_longiflora-IMG_3454.jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Posoqueria longiflora"
+          }
+        },
+        {
+          "gbifKey": 2946543,
+          "scientificName": "Clitoria falcata",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 10,
+          "iucn": null,
+          "wikidata": "Q15250378",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Clitoria_falcata_Lam._%285957210897%29.jpg/960px-Clitoria_falcata_Lam._%285957210897%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clitoria_falcata_Lam._(5957210897).jpg",
+            "width": 640,
+            "height": 359,
+            "alt": "Clitoria falcata"
+          }
+        },
+        {
+          "gbifKey": 5295776,
+          "scientificName": "Smilax goyazana",
+          "name": null,
+          "family": "Smilacaceae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q15500478",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Smilax_goyazana.jpg/960px-Smilax_goyazana.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smilax_goyazana.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Smilax goyazana"
+          }
+        },
+        {
+          "gbifKey": 2964890,
+          "scientificName": "Centrosema rotundifolium",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15466511",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Geocarpic_seeds_of_Cenrosema_rotundifolium%2C_Townsville_Queensland_2014-08-10_10-22.jpg/960px-Geocarpic_seeds_of_Cenrosema_rotundifolium%2C_Townsville_Queensland_2014-08-10_10-22.jpg",
+            "author": "User:Btcpg",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geocarpic_seeds_of_Cenrosema_rotundifolium,_Townsville_Queensland_2014-08-10_10-22.jpg",
+            "width": 640,
+            "height": 478,
+            "alt": "Centrosema rotundifolium"
+          }
+        },
+        {
+          "gbifKey": 3170223,
+          "scientificName": "Funastrum clausum",
+          "name": null,
+          "family": "Apocynaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q21399345",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Milkweed_Vine_%28Funastrum_clausum%29_fruits_%2828376450654%29.jpg/960px-Milkweed_Vine_%28Funastrum_clausum%29_fruits_%2828376450654%29.jpg",
+            "author": "Bernard DUPONT from FRANCE",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milkweed_Vine_(Funastrum_clausum)_fruits_(28376450654).jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Funastrum clausum"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2433681,
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "family": "Mustelidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q83774",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 640,
+        "height": 253,
+        "alt": "Ariranha (Pteronura brasiliensis)"
+      }
+    },
+    {
+      "gbifKey": 7402690,
+      "scientificName": "Leptolobium araguaiense",
+      "name": null,
+      "family": "Fabaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q92652982",
+      "photo": null
+    },
+    {
+      "gbifKey": 2442782,
+      "scientificName": "Podocnemis unifilis",
+      "name": "Tracajá",
+      "family": "Podocnemididae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q863041",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Podocnemis_unifilis_%28Yellow_spotted_river_turtle%29.jpg",
+        "author": "http://opencage.info",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podocnemis_unifilis_(Yellow_spotted_river_turtle).jpg",
+        "width": 640,
+        "height": 640,
+        "alt": "Tracajá (Podocnemis unifilis)"
+      }
+    },
+    {
+      "gbifKey": 2947141,
+      "scientificName": "Dipteryx alata",
+      "name": "Baru",
+      "family": "Fabaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q2715516",
+      "photo": null
+    },
+    {
+      "gbifKey": 2440963,
+      "scientificName": "Blastocerus dichotomus",
+      "name": "Cervo-do-pantanal",
+      "family": "Cervidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q504501",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg/960px-Marsh_Deer%2C_Esteros_Del_Ibera%2C_Corrientes%2C_Argentina%2C_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+        "author": "Phillip Capper from Wellington, New Zealand",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marsh_Deer,_Esteros_Del_Ibera,_Corrientes,_Argentina,_3rd._Jan._2011_-_Flickr_-_PhillipC.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "cervo-do-pantanal (Blastocerus dichotomus)"
+      }
+    },
+    {
+      "gbifKey": 3174691,
+      "scientificName": "Myrcia splendens",
+      "name": null,
+      "family": "Myrtaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q15376180",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/13800_Myrcia_splendens%2C_mouth_of_Rio_Nichar%C3%A9%2C_Venezuela.jpg/960px-13800_Myrcia_splendens%2C_mouth_of_Rio_Nichar%C3%A9%2C_Venezuela.jpg",
+        "author": "Vojtěch Zavadil",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:13800_Myrcia_splendens,_mouth_of_Rio_Nichar%C3%A9,_Venezuela.jpg",
+        "width": 640,
+        "height": 417,
+        "alt": "Myrcia splendens"
+      }
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Chapada da Diamantina",
+  "title": "Quando o diamante transformou uma serra",
+  "subtitle": "Cachoeiras de mais de 300 metros, três biomas num só parque e uma corrida de diamantes que deixou cicatrizes na paisagem e vilas inteiras.",
+  "centralQuestion": "Como a rocha, a água e a corrida do diamante moldaram o parque e a vida de quem mora no seu entorno?",
+  "introduction": [
+    "No centro da Bahia, uma serra úmida ergue-se no meio do sertão semiárido, e dela escorre a água que dá vida a tudo em volta. As nascentes do Parque Nacional da Chapada Diamantina alimentam o rio Paraguaçu, que abastece cerca de 60% da população da região metropolitana de Salvador.",
+    "Cachoeiras de mais de 300 metros, campos de rocha floridos, três biomas lado a lado e as marcas de uma corrida do diamante que mudou a região para sempre: é essa a serra que se abre diante de quem chega."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares: área do parque no plano de manejo (valor aproximado)",
+      "value": "152.400",
+      "sourceId": "pm",
+      "locator": "p. 35"
+    },
+    {
+      "label": "altura da Cachoeira da Fumaça, a mais famosa do parque",
+      "value": "> 340 m",
+      "sourceId": "pm",
+      "locator": "p. 235"
+    },
+    {
+      "label": "da área coberta por campos rupestres, segundo o plano",
+      "value": "≈ 65%",
+      "sourceId": "pm",
+      "locator": "p. 41"
+    },
+    {
+      "label": "espécies de peixes endêmicas conhecidas",
+      "value": "14",
+      "sourceId": "pm",
+      "locator": "p. 234"
+    },
+    {
+      "label": "pessoas migraram para a região entre as décadas de 1840 e 1860",
+      "value": "> 50 mil",
+      "sourceId": "pm",
+      "locator": "p. 79"
+    },
+    {
+      "label": "da população metropolitana de Salvador abastecida pelo rio Paraguaçu",
+      "value": "≈ 60%",
+      "sourceId": "pm",
+      "locator": "p. 235"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Campo rupestre",
+      "definition": "Vegetação típica das partes altas e rochosas da serra, dominante no parque e abrigo de grande número de espécies exclusivas da Chapada Diamantina.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Gerais",
+      "definition": "Nome local do campo limpo e do campo sujo, a segunda formação vegetal mais extensa do parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Lavras Diamantinas",
+      "definition": "Expressão usada no auge da exploração de diamantes para a região que hoje engloba o parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Endemismo",
+      "definition": "Quando uma espécie só ocorre numa área restrita. Na Chapada, há plantas, peixes e uma ave que só existem na região.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Vale_do_Pati_-_Chapada_Diamantina.JPG/1280px-Vale_do_Pati_-_Chapada_Diamantina.JPG",
+    "author": "Jardelsliumba",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_do_Pati_-_Chapada_Diamantina.JPG",
+    "width": 1280,
+    "height": 853,
+    "alt": "Vale do Pati cercado de paredões verdes",
+    "context": "O Vale do Pati, cercado de paredões, no coração do parque."
+  },
+  "moments": [
+    {
+      "id": "agua",
+      "eyebrow": "01 · A serra e a água",
+      "title": "Uma serra úmida no meio do semiárido",
+      "question": "Por que a Chapada tem tanta água?",
+      "paragraphs": [
+        "O parque protege amostras da serra do Sincorá, uma das feições da Chapada Diamantina, que por sua vez faz parte da serra do Espinhaço. O plano o descreve como uma área rica em nascentes numa região seca, de exuberante beleza cênica.",
+        "O relevo é cheio de contrastes: planaltos, escarpas e picos, com altitudes entre 380 e 1.700 metros dentro do parque. O ponto mais alto é o morro do Esbarrancado.",
+        "Os cânions profundos dão origem às cachoeiras que simbolizam o parque. A da Fumaça, a mais famosa, tem mais de 340 metros de altura, e a Encantada passa dos 200 metros.",
+        "Praticamente todas as nascentes do parque alimentam o rio Paraguaçu, em cuja bacia ele está inteiro. O rio abastece cerca de 60% da população da região metropolitana de Salvador. Os Marimbus, uma grande região alagada formada pela junção dos rios São José, Santo Antônio e Utinga, ficam na área leste."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 35"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 235"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 41"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Cachoeira_da_Fuma%C3%A7a%2C_Chapada_Diamantina.JPG/1280px-Cachoeira_da_Fuma%C3%A7a%2C_Chapada_Diamantina.JPG",
+          "author": "Jack5599",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_Fuma%C3%A7a,_Chapada_Diamantina.JPG",
+          "width": 1280,
+          "height": 853,
+          "alt": "Cachoeira da Fumaça vista do alto do paredão",
+          "context": "A Cachoeira da Fumaça vista do alto, no Parque Nacional da Chapada Diamantina."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "02 · A vida",
+      "title": "Três biomas e espécies de endereço único",
+      "question": "Como cabem Mata Atlântica, Caatinga e Cerrado no mesmo parque?",
+      "paragraphs": [
+        "O parque é um grande mosaico de vegetação, numa combinação única entre Mata Atlântica, Caatinga e Cerrado. Nenhum outro parque nacional reúne tamanha diversidade de ambientes.",
+        "A marca do parque são os campos rupestres, que cobrem cerca de 65% da área e abrigam muitas espécies exclusivas da Chapada, como bromélias, orquídeas, sempre-vivas e o lírio Hippeastrum solandrifolium. O cerrado em sentido restrito aparece em pequena área, e o campo limpo e o campo sujo, os gerais, são a segunda formação mais extensa.",
+        "A fauna reflete essa mistura. Há o macaco-prego-do-peito-amarelo, típico da Mata Atlântica, e espécies comuns aos três biomas, como a onça-pintada, a suçuarana, o tamanduá-bandeira e o tatu-canastra.",
+        "Os endemismos são menos numerosos entre os animais do que entre as plantas, mas há exceções. São conhecidas 14 espécies de peixes endêmicas, e duas delas, Copionodon orthiocarinatus e Copionodon pecten, formam um gênero exclusivo. O beija-flor-de-gravata-vermelha, Augastes lumachellus, também é endêmico da Chapada."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 41"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 234"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 55"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "diamante",
+      "eyebrow": "03 · O diamante",
+      "title": "A corrida que criou vilas e cicatrizes",
+      "question": "O que a descoberta do diamante fez com a região?",
+      "paragraphs": [
+        "Em 1844, o garimpeiro José Pereira do Prado, o Cazuza do Prado, descobriu diamantes no rio Mucugê. Entre as décadas de 1840 e 1860, mais de 50 mil pessoas migraram de várias partes do país para a região.",
+        "O garimpo deu origem às vilas das Lavras Diamantinas: Santa Izabel do Paraguaçu, hoje Mucugê, em 1847, e a Comercial Vila dos Lençóis, hoje Lençóis, em 1856. O governo provincial chegou a estudar transferir a capital para lá, e o governo francês abriu um vice-consulado em Lençóis.",
+        "Os diamantes vinham dos conglomerados da formação geológica Tombador. Para extraí-los, o solo foi retirado e abriram-se cicatrizes profundas, dos leitos dos rios às encostas, e as matas ciliares e de encosta deram lugar a campos rupestres.",
+        "A riqueza foi feita também com trabalho escravizado. Entre 1842 e 1875, foram erguidos aquedutos, barragens, estradas, muros e pontes, e havia milhares de escravizados na região e ao menos um núcleo de quilombo conhecido."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 78"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 79"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 80"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 162"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "pati",
+      "eyebrow": "04 · Quem vive aqui",
+      "title": "O Vale do Pati e as comunidades do parque",
+      "question": "Quem vive dentro de um parque nacional?",
+      "paragraphs": [
+        "O Vale do Pati, nos municípios de Andaraí e Mucugê, fica a cerca de 35 quilômetros dessas cidades, e o acesso é a pé ou em animais de montaria e carga. O plano diz que seus moradores descendem da época áurea do café, na década de 1940, quando o vale chegou a ter cerca de dois mil habitantes, cerca de 337 famílias.",
+        "Quando o plano foi elaborado, havia aproximadamente treze famílias residentes. A vegetação ao redor é conservada e dá lugar a pasto, café, mandioca e banana perto das casas.",
+        "Entre as comunidades do parque estão Pati, Fazenda Velha e Estrada Velha do Garimpo. A falta de documentação da terra tem sido a principal causa de impedimento à regularização fundiária. Em comunidades como a Fazenda Velha, os moradores ouvidos dizem aceitar sair desde que a indenização seja justa.",
+        "A Estrada Velha do Garimpo, que liga Lençóis a Andaraí, tem 32 quilômetros e hoje é rota de turismo."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 203"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 211"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 212"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "fogo",
+      "eyebrow": "05 · O fogo",
+      "title": "Um parque que tem de lidar com incêndios",
+      "question": "Qual é o maior problema do dia a dia da gestão?",
+      "paragraphs": [
+        "O Parque Nacional da Chapada da Diamantina foi criado pelo Decreto nº 91.655, de 17 de setembro de 1985, e o plano de manejo foi apresentado 22 anos depois.",
+        "O fogo consome praticamente toda a energia da equipe e os poucos recursos da unidade na estação seca. Na temporada de 2005/2006 foram registrados 152 focos de incêndio no parque e no entorno, com cerca de 11 mil hectares queimados. Na seguinte, menos de 80 focos e pouco mais de mil hectares.",
+        "Os incêndios naturais, de baixa frequência e intensidade, correspondem a menos de 1% dos focos. A grande maioria tem origem humana, de criadores de gado, coletores de sempre-vivas, caçadores, agricultores, garimpeiros e turistas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 35"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 41"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 217"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 218"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 219"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "diamante",
+    "title": "Do diamante ao parque",
+    "intro": "Marcos registrados no plano de manejo.",
+    "items": [
+      {
+        "id": "1844",
+        "year": "1844",
+        "title": "Diamantes no rio Mucugê",
+        "description": "A descoberta é atribuída ao garimpeiro José Pereira do Prado.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1847",
+        "year": "1847",
+        "title": "Nasce Mucugê",
+        "description": "É criada a Vila de Santa Izabel do Paraguaçu, hoje Mucugê.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1856",
+        "year": "1856",
+        "title": "Nasce Lençóis",
+        "description": "É criada a Comercial Vila dos Lençóis, hoje Lençóis.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1940",
+        "year": "Década de 1940",
+        "title": "Auge do café no Pati",
+        "description": "O Vale do Pati chega a cerca de dois mil habitantes.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1985",
+        "year": "1985",
+        "title": "Decreto nº 91.655",
+        "description": "Em 17 de setembro é criado o parque, com cerca de 152.400 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra que guarda água, diamante e gente",
+  "closing": "A Chapada Diamantina é uma caixa d'água para o sertão e para Salvador, um refúgio de espécies que só existem aqui e o palco de uma história de garimpo, trabalho escravizado e comunidades que ficaram. Proteger o parque é lidar com tudo isso ao mesmo tempo.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "IBAMA / ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Chapada Diamantina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina/arquivos/plano_de_manejo_parna_chapada_diamantina.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "geologia, hidrografia, vegetação, fauna, ciclo do diamante, comunidades e fogo; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: revisão pelas comunidades do Pati, Fazenda Velha e Estrada Velha do Garimpo (levantamento de 2007); atualizar dados de visitação e fogo."
+}

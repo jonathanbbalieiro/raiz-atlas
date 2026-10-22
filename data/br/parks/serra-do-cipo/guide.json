@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Campos de pedra no topo do Espinhaço, rios de água cor de chá e um cânion onde dá para ouvir a água correndo dentro da serra.",
+  "intro": "Na porção sul da Serra do Espinhaço, em Minas Gerais, o Parque Nacional da Serra do Cipó protege cerca de 31,6 mil hectares de campos rupestres, cerrados e matas ciliares. Ali nascem as águas que formam o rio Cipó. Botânicos se encantam com a quantidade de plantas que só existem nesses campos de altitude.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Os campos rupestres do Espinhaço e as nascentes do rio Cipó",
+    "items": [
+      {
+        "title": "Campos rupestres",
+        "text": "Vegetação baixa que cresce entre afloramentos de quartzito no alto das serras. Em cerca de 200 km² estudados na Serra do Cipó, botânicos registraram 1.590 espécies de plantas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Onde começa o rio Cipó",
+        "text": "O parque protege todas as nascentes até o encontro dos rios Mascates e Bocaina, ponto onde nasce o Cipó. Dentro da unidade, as águas são de classe especial, a melhor categoria de qualidade.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Espécies que só existem aqui",
+        "text": "A lista de ameaçadas do parque inclui o lagartinho-do-cipó, a piabinha Characidium lagosantense e a borboleta Nirodia belphegor, além de lobo-guará e onça-parda.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cânion das Bandeirinhas",
+      "text": "O ribeirão das Bandeirinhas corre encaixado entre paredões, seguindo a inclinação das camadas de rocha. A trilha tem 12 km só de ida e é a mais exigente do cardápio do parque.",
+      "sourceIds": [
+        "pm",
+        "cardapio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/O_C%C3%A2nion_das_Bandeirinhas.jpg/1280px-O_C%C3%A2nion_das_Bandeirinhas.jpg",
+        "author": "Vinícius de Souza Naves",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:O_C%C3%A2nion_das_Bandeirinhas.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Rio de água escura entre paredões de pedra",
+        "context": "Águas escuras e paredões de quartzito no Cânion das Bandeirinhas."
+      }
+    },
+    {
+      "title": "Cachoeira da Farofa",
+      "text": "Também chamada do Sobrado, desce pelas escarpas no sentido contrário ao mergulho das rochas. Fica a 8 km da portaria Areias.",
+      "sourceIds": [
+        "pm",
+        "cardapio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Cachoeira_da_Farofa_-_Serra_do_Cip%C3%B3_-_panoramio.jpg/1280px-Cachoeira_da_Farofa_-_Serra_do_Cip%C3%B3_-_panoramio.jpg",
+        "author": "kwalldio",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_Farofa_-_Serra_do_Cip%C3%B3_-_panoramio.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Cachoeira descendo um paredão rochoso",
+        "context": "A Cachoeira da Farofa, no Parque Nacional da Serra do Cipó."
+      }
+    },
+    {
+      "title": "Travessão",
+      "text": "Aqui a recompensa não é o banho de rio, e sim a paisagem: do alto se veem os cânions dos rios do Peixe e Bocaina.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Vale_do_Travess%C3%A3o_Serra_do_Cip%C3%B3.jpg/1280px-Vale_do_Travess%C3%A3o_Serra_do_Cip%C3%B3.jpg",
+        "author": "Cristiano Quintino",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_do_Travess%C3%A3o_Serra_do_Cip%C3%B3.jpg",
+        "width": 1280,
+        "height": 834,
+        "alt": "Vale profundo entre paredões cobertos de vegetação",
+        "context": "O Vale do Travessão, entre paredões na Serra do Cipó."
+      }
+    },
+    {
+      "title": "Vale dos Mascates",
+      "text": "Rio sinuoso numa planície de areia, com dezenas de lagoas marginais que são antigos leitos abandonados. Na cheia, a água conecta tudo.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "As águas do parque são escuras como chá: as areias de quartzo não conseguem reter os compostos orgânicos que tingem os rios.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Na Serra das Bandeirinhas é possível ouvir o barulho das águas subterrâneas descendo por fraturas da rocha.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Toda a vertente oriental da serra já foi coberta por floresta densa, como relataram os naturalistas Spix e Martius.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A vila da Serra do Cipó fica a 97 km de Belo Horizonte, por estrada asfaltada, e é a base para visitar o parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1978 · Delimitação da área",
+      "text": "Depois da pressão de cientistas, o CETEC começa a delimitar a área do futuro parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1975 · Pressão dos cientistas",
+      "text": "Uma lei estadual autoriza o Parque Estadual da Serra do Cipó, com 27.600 hectares. A criação é anunciada na reunião da SBPC de 1976.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1984 · Parque nacional",
+      "text": "O Decreto 90.223 cria o parque federal. Cerca de 40% das terras já tinham sido compradas de forma amigável, o que facilitou a regularização.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "1990 · APA Morro da Pedreira",
+      "text": "Escaladores e espeleólogos reagem à mineração de mármore, e um decreto cria a APA Morro da Pedreira, com cerca de 100 mil hectares ao redor do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Placosoma cipoense",
+      "name": "Lagartinho-do-cipó",
+      "why": "Leva o nome da serra, está na lista de espécies ameaçadas protegidas pelo parque e é classificado como em perigo pela IUCN.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ]
+    },
+    {
+      "scientificName": "Augastes scutatus",
+      "name": "Beija-flor-de-gravata-verde",
+      "why": "Beija-flor dos campos rupestres do Espinhaço, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Beija-flor-de-gravata-verde_%28Augastes_scutatus%29_%28cropped_2%29.jpg/960px-Beija-flor-de-gravata-verde_%28Augastes_scutatus%29_%28cropped_2%29.jpg",
+        "author": "Nortondefeis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beija-flor-de-gravata-verde_(Augastes_scutatus)_(cropped_2).jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Beija-flor-de-gravata-verde (Augastes scutatus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Augastes scutatus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "why": "Está na lista de ameaçadas do parque e circula pelos campos e cerrados da serra.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/960px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Lobo-guará (Chrysocyon brachyurus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Chrysocyon brachyurus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna da Serra do Cipó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-do-cipo",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parna Serra do Cipó, Encarte 3 (parte 1)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-do-cipo/arquivos/parna_serra_do_cipo_pm_encarte3-1.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cardapio",
+      "institution": "ICMBio",
+      "title": "Cardápio de atrativos do Parna Serra do Cipó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-do-cipo/arquivos/CardapiodeAtrativos.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

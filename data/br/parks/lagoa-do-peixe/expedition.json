@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Lagoa do Peixe",
+  "title": "A parada das aves entre o Ártico e a Patagônia",
+  "subtitle": "No litoral do Rio Grande do Sul, uma laguna rasa de 35 quilômetros serve de pouso e de alimento para aves que viajam até 10 mil quilômetros por ano.",
+  "centralQuestion": "O que faz de uma laguna rasa, entre o mar e a Laguna dos Patos, um dos pontos mais importantes de uma rota migratória?",
+  "introduction": [
+    "A Lagoa do Peixe não é uma lagoa de água doce. É uma laguna comprida e rasa, ligada ao mar por uma barra que abre e fecha com o vento e a chuva. Nesse vaivém de água, aves que se reproduzem no Ártico encontram comida e descanso a caminho da Patagônia.",
+    "Há bandos de flamingos, maçaricos e batuíras na água rasa, dunas que caminham, marismas e uma vila de pescadores. É um parque para ir devagar e olhar para cima."
+  ],
+  "keyFacts": [
+    {
+      "label": "de extensão tem a laguna, com largura média de cerca de 1 km",
+      "value": "35 km",
+      "sourceId": "pm",
+      "locator": "p. 154"
+    },
+    {
+      "label": "espécies de aves listadas, entre residentes e visitantes",
+      "value": "182",
+      "sourceId": "pm",
+      "locator": "p. 220"
+    },
+    {
+      "label": "quilômetros: distância dos voos anuais entre o Ártico e a Patagônia",
+      "value": "até 10 mil",
+      "sourceId": "pm",
+      "locator": "p. 31"
+    },
+    {
+      "label": "hectares: área do parque, no mínimo",
+      "value": "34.400",
+      "sourceId": "pm",
+      "locator": "p. 27"
+    },
+    {
+      "label": "ano de criação do parque, por decreto de 6 de novembro",
+      "value": "1986",
+      "sourceId": "pm",
+      "locator": "p. 27"
+    },
+    {
+      "label": "pessoas moravam na vila da Barra da Lagoa em 1997",
+      "value": "44",
+      "sourceId": "pm",
+      "locator": "p. 37"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Laguna",
+      "definition": "Corpo de água rasa separado do mar por uma faixa de areia, mas que se comunica com ele por uma barra. A Lagoa do Peixe é uma laguna, não uma lagoa de água doce.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Barra",
+      "definition": "Abertura por onde a laguna se liga ao mar. Ela fecha quando ventos de norte e nordeste empurram areia para a desembocadura.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Marisma",
+      "definition": "Banhado salgado de vegetação herbácea que fica nas margens da laguna e é inundado pelas águas.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Aves limícolas",
+      "definition": "Aves de praia e de beira d'água, como batuíras e maçaricos, que comem e descansam em áreas rasas durante a migração.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Duna_at_lagoa_do_peixe_1.jpg/1280px-Duna_at_lagoa_do_peixe_1.jpg",
+    "author": "Hmullern",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duna_at_lagoa_do_peixe_1.jpg",
+    "width": 1280,
+    "height": 960,
+    "alt": "Duna de areia esculpida pelo vento",
+    "context": "Duna de areia no Parque Nacional da Lagoa do Peixe."
+  },
+  "moments": [
+    {
+      "id": "aves",
+      "eyebrow": "01 · As aves",
+      "title": "Uma estação de descanso para migrantes",
+      "question": "Por que tantas aves param aqui?",
+      "paragraphs": [
+        "O parque foi criado em 1986, por sugestão do antigo IBDF, para proteger espécies animais e sobretudo as aves migratórias que encontram na região condições para se alimentar e descansar em voos anuais de até 10 mil quilômetros, entre as áreas de reprodução no Ártico norte-americano e a Patagônia, onde passam o inverno boreal.",
+        "A laguna é o lugar procurado pelas aves para se alimentar, porque é rasa. Flamingos e o maçarico-de-papo-vermelho passam ali vários meses do ano, refugiando-se do inverno do sul do continente.",
+        "Já foram listadas 182 espécies de aves entre residentes e visitantes. O parque é o único local do Brasil onde se podem ver, o ano inteiro, bandos de flamingos, e ainda uma outra espécie andina de flamingo.",
+        "Estudos do CEMAVE, centro ligado ao IBAMA, na Lagoa do Peixe por mais de dez anos foram decisivos para a criação do parque."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 31"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 32"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 219"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 220"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Decolando_com_as_aves_migrat%C3%B3rias_do_Parque_Nacional_da_Lagoa_do_Peixe.jpg/1280px-Decolando_com_as_aves_migrat%C3%B3rias_do_Parque_Nacional_da_Lagoa_do_Peixe.jpg",
+          "author": "JUAN ANDRES ANZA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Decolando_com_as_aves_migrat%C3%B3rias_do_Parque_Nacional_da_Lagoa_do_Peixe.jpg",
+          "width": 1280,
+          "height": 853,
+          "alt": "Flamingos-chilenos levantando voo sobre a água",
+          "context": "Flamingos-chilenos levantam voo na Lagoa do Peixe."
+        }
+      ]
+    },
+    {
+      "id": "laguna",
+      "eyebrow": "02 · A laguna",
+      "title": "Uma laguna que abre e fecha para o mar",
+      "question": "Como a laguna se liga ao oceano?",
+      "paragraphs": [
+        "A laguna tem 35 quilômetros de comprimento, largura média de 1 quilômetro e baixa profundidade. Por isso é um bom lugar para a alimentação das aves.",
+        "A barra se fecha quando a predominância dos ventos quentes de norte e nordeste deposita areia na desembocadura. No inverno, quando a chuva aumenta, as marismas e os campos das margens inundam. Nessa época a barra é aberta com máquinas, porque a abertura natural acontece só às vezes.",
+        "Essa abertura artificial acontecia por pressão de agricultores e pecuaristas, cujas terras ficavam alagadas. Em anos muito chuvosos, como 1997, a barra pode nem fechar, por causa da forte drenagem continental.",
+        "É essa comunicação periódica com o mar que permite as migrações de espécies de peixes que vivem entre água doce e salgada, e que cria um ambiente bom para pouso de aves. Quando a barra abre e vêm ventos de sul e sudeste, a água salgada entra. Com a barra fechada e muita chuva, a salinidade cai. O camarão-rosa é uma das espécies de interesse comercial beneficiadas pela vegetação submersa."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 154"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 155"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 179"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Lagoa_do_peixe_landscape.jpg/1280px-Lagoa_do_peixe_landscape.jpg",
+          "author": "Hmullern",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagoa_do_peixe_landscape.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "Margem alagada da Lagoa do Peixe ao entardecer",
+          "context": "Margem alagada da Lagoa do Peixe ao entardecer, dentro do parque."
+        }
+      ]
+    },
+    {
+      "id": "areia-e-gente",
+      "eyebrow": "03 · Areia e gente",
+      "title": "O mar que avança e a vila que encolhe",
+      "question": "Quem vive no parque e o que o litoral está fazendo com eles?",
+      "paragraphs": [
+        "Na parte do parque em Tavares, a faixa de praia vai até o Farol de Mostardas e se estende por até mil metros da linha da costa. Existe ali uma vila de pescadores, a Barra da Lagoa, e três balneários: Paiva, Lagamarzinho e Talha-mar.",
+        "Em 1997, a vila tinha 27 casas, 14 delas habitadas o ano todo, com 44 moradores. A comunidade estava em declínio por causa das péssimas condições de vida e os moradores dos núcleos do parque viviam da pesca do camarão, do papa-terra e da tainha.",
+        "O abandono gradual dos locais se deve às precárias condições de acesso e infraestrutura e ao processo erosivo da faixa costeira. A costa arenosa do Rio Grande do Sul, tida como em equilíbrio, está sujeita a erosão evidente, e que depósitos de turfa afloram na praia, na base das dunas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 36"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 37"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 40"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 143"
+        }
+      ],
+      "note": {
+        "title": "Revisão pela comunidade",
+        "body": "A vila da Barra e os pescadores serão ouvidos e terão a revisão de seus moradores."
+      },
+      "images": []
+    },
+    {
+      "id": "protecao",
+      "eyebrow": "04 · A proteção",
+      "title": "Do parque às redes internacionais",
+      "question": "Como a Lagoa do Peixe ganhou reconhecimento internacional?",
+      "paragraphs": [
+        "O Decreto nº 93.546, de 6 de novembro de 1986, criou o parque, com mais de 34 mil hectares, nos municípios de Mostardas e Tavares.",
+        "Em 1991, o parque entrou na Rede Hemisférica de Reservas de Aves Limícolas, na categoria de Reserva Internacional. Em 1992, a região foi tombada pela Secretaria de Cultura do Rio Grande do Sul, e o parque foi incluído na Reserva da Biosfera da Mata Atlântica como zona de núcleo.",
+        "Em 1993, quando o Brasil aderiu à Convenção de Ramsar, o parque foi incluído entre as áreas de zonas úmidas de importância internacional."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 27"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 46"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 31"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 32"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "protecao",
+    "title": "Da pesquisa ao reconhecimento internacional",
+    "intro": "Marcos da pesquisa e da proteção do parque.",
+    "items": [
+      {
+        "id": "1984",
+        "year": "1984",
+        "title": "Pesquisa do CEMAVE",
+        "description": "O centro passa a investigar a avifauna da região.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1986",
+        "year": "1986",
+        "title": "Decreto nº 93.546",
+        "description": "Em 6 de novembro é criado o Parque Nacional da Lagoa do Peixe.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1991",
+        "year": "1991",
+        "title": "Rede de Aves Limícolas",
+        "description": "O parque entra na Rede Hemisférica de Reservas de Aves Limícolas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1992",
+        "year": "1992",
+        "title": "Tombamento e Biosfera",
+        "description": "A região é tombada pelo estado e o parque entra na Reserva da Biosfera da Mata Atlântica.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1993",
+        "year": "1993",
+        "title": "Convenção de Ramsar",
+        "description": "O parque é incluído entre as áreas do tratado de zonas úmidas.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um pouso no meio do caminho",
+  "closing": "A Lagoa do Peixe existe porque água e areia se alternam, e as aves dependem desse ritmo. Proteger o parque é proteger um pouso de uma viagem que atravessa o continente.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "IBAMA / FNMA / FURG",
+      "title": "Plano de Manejo do Parque Nacional da Lagoa do Peixe, Fase 2 (1999)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-lagoa-do-peixe/copy_of_PM.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "aves, laguna, litoral, comunidades e proteção internacional; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: dados do plano de manejo são de 1999; conferir situação atual da vila e da área oficial; revisão pela comunidade e humana."
+}

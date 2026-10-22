@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Árvores de mais de 40 metros numa floresta que os Pataxó chamam de maturembá, a mata grossa.",
+  "intro": "Em Prado, no extremo sul da Bahia, o Parque Nacional do Descobrimento protege 22,6 mil hectares de Mata Atlântica sobre tabuleiros costeiros, perto da foz do rio Cahy, onde a armada de Cabral fundeou em 1500. Quase um quinto do parque é também Terra Indígena Pataxó.",
+  "sourceIds": [
+    "icmbio-area",
+    "icmbio-significancia"
+  ],
+  "protects": {
+    "summary": "Floresta de tabuleiro, árvores gigantes e o território Pataxó",
+    "items": [
+      {
+        "title": "Floresta de tabuleiro",
+        "text": "O parque guarda um dos maiores remanescentes de Mata Atlântica sobre tabuleiros costeiros do Brasil, com florestas úmidas e mussunungas, áreas de vegetação sobre areia.",
+        "sourceIds": [
+          "icmbio-significancia",
+          "icmbio-nome"
+        ]
+      },
+      {
+        "title": "Hileia Baiana",
+        "text": "A floresta da região tem tantas semelhanças com a Amazônia que é chamada de Hileia Baiana, testemunho de antigas ligações entre os dois biomas.",
+        "sourceIds": [
+          "icmbio-bio",
+          "unesco"
+        ]
+      },
+      {
+        "title": "Último reduto de aves raras",
+        "text": "O parque é um dos poucos refúgios do mutum-do-sudeste e abriga o papagaio-chauã, o crejoá, o macuco e o gavião-real.",
+        "sourceIds": [
+          "icmbio-bio"
+        ]
+      },
+      {
+        "title": "Nascentes de muitos rios",
+        "text": "Dentro do parque estão partes das microbacias dos rios Cahy, do Peixe, do Ouro, do Sul, Imbassuaba, Japara Grande e Japara Mirim.",
+        "sourceIds": [
+          "icmbio-bio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Árvores gigantes",
+      "text": "Gameleiras, jueranas e parajus centenários e bicentenários passam dos 40 metros de altura.",
+      "sourceIds": [
+        "icmbio-atrativos",
+        "icmbio-bio"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Lagoa Só Não Vou",
+      "text": "No fim do Caminho da Lagoa, um deque entra na água e um mirante de 11,5 metros mostra a lagoa por cima da copa das árvores.",
+      "sourceIds": [
+        "icmbio-atrativos"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Aldeias Pataxó",
+      "text": "Na área compartilhada com a Terra Indígena, as aldeias recebem visitantes com culinária, awê, artesanato, pintura corporal e produção de farinha.",
+      "sourceIds": [
+        "icmbio-atrativos",
+        "icmbio-area"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Em 2024, depois de uma consulta pública em que 84% pediram a troca do nome, o conselho do parque escolheu o nome Parque Nacional Maturembá.",
+      "sourceIds": [
+        "icmbio-nome"
+      ]
+    },
+    {
+      "text": "Maturembá significa mata grossa ou densa em patxohã, a língua dos Pataxó.",
+      "sourceIds": [
+        "icmbio-nome",
+        "icmbio-significancia"
+      ]
+    },
+    {
+      "text": "Foi o primeiro parque brasileiro a prever oficialmente a conciliação entre direitos ambientais e indígenas.",
+      "sourceIds": [
+        "icmbio-significancia"
+      ]
+    },
+    {
+      "text": "A lista de plantas do parque reúne 229 espécies, entre elas a juerana, que forma uma das copas mais bonitas da floresta.",
+      "sourceIds": [
+        "icmbio-bio",
+        "icmbio-nome"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1500 · A foz do Cahy",
+      "text": "A armada de Pedro Álvares Cabral fundeia pela primeira vez no Brasil perto da barra do rio Cahy, cujas nascentes estão no parque.",
+      "sourceIds": [
+        "icmbio-area",
+        "icmbio-nome"
+      ]
+    },
+    {
+      "title": "1999 · Nasce o parque",
+      "text": "Criado nas comemorações dos 500 anos, recebe o nome Descobrimento. No mesmo ano, a UNESCO reconhece as reservas da Costa do Descobrimento.",
+      "sourceIds": [
+        "icmbio-area",
+        "icmbio-nome",
+        "unesco"
+      ]
+    },
+    {
+      "title": "2015 a 2023 · Parque e Terra Indígena",
+      "text": "A demarcação da Terra Indígena Comexatibá sobrepõe quase 20% do parque. Um termo de compromisso com seis aldeias Pataxó, de 2018, é ampliado em 2023.",
+      "sourceIds": [
+        "icmbio-area"
+      ]
+    },
+    {
+      "title": "2024 · Maturembá",
+      "text": "O conselho consultivo escolhe, por ampla maioria, um novo nome em língua Pataxó para o parque.",
+      "sourceIds": [
+        "icmbio-nome"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Crax blumenbachii",
+      "name": "Mutum-do-sudeste",
+      "why": "Ave ameaçada para a qual o parque é um dos únicos e últimos redutos.",
+      "sourceIds": [
+        "icmbio-bio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Crax_blumenbachii_%28male%29.jpg/960px-Crax_blumenbachii_%28male%29.jpg",
+        "author": "Alberto Apollaro Teleuko",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crax_blumenbachii_(male).jpg",
+        "width": 640,
+        "height": 631,
+        "alt": "Mutum-do-sudeste (Crax blumenbachii); fotografia da espécie",
+        "context": "Retrato ilustrativo de Crax blumenbachii. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "why": "Grande ave de rapina, está entre as aves ameaçadas que encontram abrigo no parque.",
+      "sourceIds": [
+        "icmbio-bio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/1280px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 1280,
+        "height": 448,
+        "alt": "Gavião-real (Harpia harpyja)",
+        "context": "Gavião-real, Harpia harpyja."
+      }
+    },
+    {
+      "scientificName": "Parkia pendula",
+      "name": "Juerana",
+      "why": "Árvore gigante e centenária, símbolo da Hileia Baiana protegida pelo parque.",
+      "sourceIds": [
+        "icmbio-bio",
+        "icmbio-nome"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/558543251/large.jpg",
+        "author": "geovane_siqueira",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/558543251",
+        "width": 1024,
+        "height": 680,
+        "alt": "Galhos de juerana com folhas finas e flores globosas penduradas",
+        "context": "Juerana (Parkia pendula) com suas flores penduradas, registrada em Linhares (ES), na mesma Mata Atlântica do sul da Bahia."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio-area",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Área protegida",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/leiaute/area-protegida",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-significancia",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Parque da Mata Densa",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/leiaute/parque-da-mata-densa-1/",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-bio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Biodiversidade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/leiaute/biodiversidade-1",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-nome",
+      "institution": "ICMBio",
+      "title": "Processo de mudança do nome do PND",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/saiba-mais/mudanca-de-nome-do-pnd",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-atrativos",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Descobrimento: Conheça nossos atrativos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-descobrimento/visite-a-unidade-deconservacao/conheca-nossos-atrativos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Discovery Coast Atlantic Forest Reserves",
+      "url": "https://whc.unesco.org/en/list/892/",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Pantanal Mato-Grossense",
+  "title": "O parque que só se alcança pela água",
+  "subtitle": "Entre os rios Cuiabá e Paraguai, uma planície alagável protege onças-pintadas, ariranhas e cervos-do-pantanal. Chegar leva horas de barco, e é isso que ajuda a manter o lugar como é.",
+  "centralQuestion": "Como uma planície que alaga e seca todos os anos sustenta tanta vida, e por que ainda é tão difícil visitá-la?",
+  "introduction": [
+    "No Pantanal, o rio manda. De outubro a abril as chuvas cobrem a planície; a partir de maio as águas baixam, e a vida que se espalhou pelos campos se concentra nas baías e nos corixos, onde fica mais fácil de ver.",
+    "O Parque Nacional do Pantanal Mato-Grossense, em Mato Grosso, só se alcança pela água e faz parte de um sítio de Patrimônio Mundial da UNESCO. Quem vai embarca em Porto Jofre ou em Corumbá e segue horas de rio até a sede."
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "aguas",
+      "eyebrow": "01 · As águas",
+      "title": "O pulso das águas",
+      "question": "O que muda quando a planície alaga e quando seca?",
+      "paragraphs": [
+        "O Pantanal não tem as quatro estações que conhecemos. Tem a cheia e a seca. As chuvas vão de outubro a abril e alagam a planície; a partir de maio as águas baixam, e a fauna fica mais fácil de observar.",
+        "A observação de animais é feita a bordo, pelos rios e baías da planície alagada, com o rio Cuiabá atravessando o parque. Na Baía do Burro ficam pousos e dormitórios de aves, um dos atrativos para quem chega de barco."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visita"
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg/1280px-River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
+          "author": "Giovanna Colombi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
+          "width": 1280,
+          "height": 853,
+          "alt": "Rio calmo margeado por mata, com um barco ao longe",
+          "context": "Rio visto do barco dentro do Parque Nacional do Pantanal Matogrossense."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "icmbio-visita",
+          "locator": "página de visitação"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "página institucional"
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "02 · A vida",
+      "title": "Quem vive na planície",
+      "question": "Que animais e plantas a água sustenta?",
+      "paragraphs": [
+        "A lista de espécies ameaçadas protegidas pelo parque reúne a onça-pintada, a jaguatirica, o cervo-do-pantanal, o tamanduá-bandeira, o tatu-canastra, a ariranha, o jacu-de-barriga-castanha, o caboclinho-do-sertão e um molusco, o estilete.",
+        "A vegetação fica numa área de contato entre o Cerrado e a floresta, o que mistura campos, arbustos e matas ao longo dos rios. É esse mosaico que sustenta tanta vida de penas, escamas e pelos."
+      ],
+      "sourceIds": [
+        "icmbio"
+      ],
+      "images": [],
+      "citations": [
+        {
+          "sourceId": "icmbio",
+          "locator": "página institucional"
+        }
+      ]
+    },
+    {
+      "id": "alcance",
+      "eyebrow": "03 · O acesso",
+      "title": "Um parque que se alcança por rio",
+      "question": "Por que tão poucas pessoas chegam até aqui?",
+      "paragraphs": [
+        "A sede só é alcançada por rio: 150 quilômetros descendo o Cuiabá a partir de Porto Jofre, no fim da Transpantaneira, ou 230 quilômetros subindo o Paraguai a partir de Corumbá. A visitação ainda é excepcional e exige autorização prévia. Não há hotéis na região, e quem vai se hospeda em barcos-hotéis.",
+        "O Decreto nº 86.392, de 24 de setembro de 1981, criou o parque. Em 2000, ele passou a integrar a Área de Conservação do Pantanal, Patrimônio Mundial da UNESCO, que soma 187.818 hectares, cerca de 1,3% do Pantanal brasileiro, e reúne o parque nacional e as RPPNs Dorochê, Penha e Acurizal.",
+        "Em 2026, o Decreto nº 12.886, de 23 de março, acrescentou 47.260 hectares ao parque, que passou a ter cerca de 183.095 hectares."
+      ],
+      "sourceIds": [
+        "icmbio-visita",
+        "decreto-86392",
+        "unesco",
+        "decreto-12886"
+      ],
+      "images": [],
+      "citations": [
+        {
+          "sourceId": "icmbio-visita",
+          "locator": "página de visitação"
+        },
+        {
+          "sourceId": "decreto-86392",
+          "locator": "art. 1º"
+        },
+        {
+          "sourceId": "unesco",
+          "locator": "inscrição 999"
+        },
+        {
+          "sourceId": "decreto-12886",
+          "locator": "art. 1º"
+        }
+      ]
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "alcance",
+    "title": "Do decreto de 1981 à ampliação de 2026",
+    "intro": "Marcos conferidos em decretos e na UNESCO.",
+    "items": [
+      {
+        "id": "1981",
+        "year": "1981",
+        "title": "Decreto nº 86.392",
+        "description": "Em 24 de setembro, é criado o Parque Nacional do Pantanal Mato-Grossense.",
+        "sourceIds": [
+          "decreto-86392"
+        ]
+      },
+      {
+        "id": "2000",
+        "year": "2000",
+        "title": "Patrimônio Mundial",
+        "description": "O parque passa a integrar a Área de Conservação do Pantanal, inscrita pela UNESCO.",
+        "sourceIds": [
+          "unesco"
+        ]
+      },
+      {
+        "id": "2026",
+        "year": "2026",
+        "title": "Parque ampliado",
+        "description": "O Decreto nº 12.886, de 23 de março, acrescenta 47.260 hectares e leva o parque a cerca de 183.095 hectares.",
+        "sourceIds": [
+          "decreto-12886"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma planície que se conserva pela distância",
+  "closing": "No Pantanal Mato-Grossense, a dificuldade de chegar faz parte da proteção. A água organiza a vida, e conservar o lugar é, antes de tudo, deixar o rio fazer o seu trabalho.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional do Pantanal Mato-Grossense",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/pantanal/lista-de-ucs/parna-do-pantanal-mato-grossense",
+      "accessedAt": "2026-10-22",
+      "use": "página institucional da unidade, espécies protegidas"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna do Pantanal Matogrossense",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/pantanal/lista-de-ucs/parna-do-pantanal-mato-grossense/informacoes-sobre-visitacao-2013-parna-do-pantanal-matogrossense",
+      "accessedAt": "2026-10-22",
+      "use": "acesso por rio, época das águas e visitação"
+    },
+    {
+      "id": "decreto-86392",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 86.392, de 24 de setembro de 1981",
+      "url": "https://legis.senado.leg.br/norma/509032",
+      "accessedAt": "2026-10-22",
+      "use": "criação do parque"
+    },
+    {
+      "id": "decreto-12886",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 12.886, de 23 de março de 2026",
+      "url": "https://legis.senado.leg.br/norma/42927821",
+      "accessedAt": "2026-10-22",
+      "use": "ampliação do parque para 183.095 hectares"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Pantanal Conservation Area",
+      "url": "https://whc.unesco.org/en/list/999/",
+      "accessedAt": "2026-10-22",
+      "use": "inscrição de 2000, área e componentes do sítio"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: conferir com o ICMBio a descrição da vegetação e o calendário da visitação, que vêm da página institucional.",
+  "keyFacts": [
+    {
+      "label": "hectares do parque desde a ampliação de 2026",
+      "value": "183.095",
+      "sourceId": "decreto-12886",
+      "locator": "art. 1º"
+    },
+    {
+      "label": "hectares a mais acrescentados pela ampliação de 2026",
+      "value": "47.260",
+      "sourceId": "decreto-12886",
+      "locator": "art. 1º"
+    },
+    {
+      "label": "km de rio, descendo o Cuiabá a partir de Porto Jofre, até a sede",
+      "value": "150",
+      "sourceId": "icmbio-visita",
+      "locator": "página de visitação"
+    },
+    {
+      "label": "km de rio, subindo o Paraguai a partir de Corumbá, até a sede",
+      "value": "230",
+      "sourceId": "icmbio-visita",
+      "locator": "página de visitação"
+    },
+    {
+      "label": "hectares da Área de Conservação do Pantanal, Patrimônio Mundial desde 2000",
+      "value": "187.818",
+      "sourceId": "unesco",
+      "locator": "inscrição 999"
+    }
+  ]
+}

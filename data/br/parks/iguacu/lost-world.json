@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Nem todo desaparecimento é para sempre: no Iguaçu, o bando de queixadas que sumiu da floresta voltou a ser visto.",
+  "items": [
+    {
+      "kind": "extinta_localmente",
+      "name": "Queixada",
+      "scientificName": "Tayassu pecari",
+      "when": "desapareceu por volta da metade da década de 1990; voltou a ser registrada em 2016",
+      "text": "Maior e mais social dos porcos-do-mato, a queixada anda em bandos que revolvem o solo e espalham sementes. Em meados dos anos 1990 ela deixou de ser vista dentro do parque, e os levantamentos feitos ao longo dos anos 2000 confirmaram a ausência. Em 2016, pesquisadores flagraram cinco bandos na floresta, sinal de uma possível recuperação, provavelmente por animais vindos de outras áreas.",
+      "sourceIds": [
+        "brocardo-2017"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Tayassu_pecari_205920788.jpg/1280px-Tayassu_pecari_205920788.jpg",
+        "author": "Whaldener Endo",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tayassu_pecari_205920788.jpg",
+        "width": 1280,
+        "height": 832,
+        "alt": "Queixada em meio à vegetação",
+        "context": "Queixada (Tayassu pecari), espécie que voltou a ser registrada no Parque Nacional do Iguaçu. Foto de um indivíduo fotografado fora do parque."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "brocardo-2017",
+      "institution": "Mammalia (De Gruyter) / UNESP",
+      "title": "White-lipped peccaries are recorded at Iguacu National Park after 20 years (Brocardo, Silva, Delgado & Galetti, 2017)",
+      "url": "https://repositorio.unesp.br/items/e22f40c5-4ac6-44b8-b8de-7d60f21a8a7e",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Serra do Divisor",
+  "title": "A serra que divide as águas e esconde uma floresta cheia de primatas",
+  "subtitle": "No extremo oeste do Brasil, junto ao Peru, uma serra separa rios que correm para o Ucayali e para o Juruá e abriga florestas cheias de primatas, aves e cachoeiras.",
+  "centralQuestion": "O que uma serra de fronteira, perto dos Andes, tem de diferente do resto da Amazônia?",
+  "introduction": [
+    "Na ponta oeste do Brasil, a floresta amazônica ganha serras, cachoeiras e noites frias. A Serra do Divisor funciona como divisor natural de águas: de um lado, as bacias do rio Ucayali, no Peru; do outro, a do Juruá.",
+    "O parque fica no noroeste do Acre, tem mais de 800 mil hectares e foi criado em 1989. Daqui, a viagem segue pelo rio, pela mata e pelas comunidades do pé da serra."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Rio_Moa%2C_Serra_do_Divisor%2C_Acre%2C_Brasil_01.jpg/1280px-Rio_Moa%2C_Serra_do_Divisor%2C_Acre%2C_Brasil_01.jpg",
+    "author": "Hector Bottai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Moa,_Serra_do_Divisor,_Acre,_Brasil_01.jpg",
+    "width": 1280,
+    "height": 953,
+    "alt": "Rio Moa entre margens de floresta, ao entardecer",
+    "context": "Rio Moa, no pé da Serra do Divisor."
+  },
+  "moments": [
+    {
+      "id": "serra",
+      "eyebrow": "01 · A serra",
+      "title": "Onde as águas se separam",
+      "question": "Como se chega à serra e o que se vê nela?",
+      "paragraphs": [
+        "De Mâncio Lima, barcos sobem o rio Moa até o pé da serra, entre margens de floresta e espelhos de água. Ali ficam três pousadas de famílias locais e guias comunitários.",
+        "A cachoeira Pirapora I é a de acesso mais fácil. Trilhas curtas levam às cachoeiras do Amor, do Ar Condicionado e Pirapora 2, e a mais longa chega à Formosa, com uma noite acampado na mata. O Buraco da Central, ponto de água mais quente deixado por uma antiga sondagem de petróleo, também é parada fácil.",
+        "No mirante, o sol nasce e se põe sobre um mar de floresta, e à noite o céu convida à observação de estrelas. Perto da fronteira com o Peru, em junho e julho, o termômetro pode cair a 7 °C, uma surpresa a cerca de mil quilômetros do Equador."
+      ],
+      "sourceIds": [
+        "icmbio"
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Rio_Moa_in_Serra_do_Divisor_National_Park.jpg/1280px-Rio_Moa_in_Serra_do_Divisor_National_Park.jpg",
+          "author": "A209",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Moa_in_Serra_do_Divisor_National_Park.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "Rio Moa serpenteando pela floresta, visto do mirante",
+          "context": "Vista do rio Moa a partir do mirante do parque."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "02 · A vida",
+      "title": "Plantas dos Andes e uma floresta de primatas",
+      "question": "Por que a biodiversidade daqui chama atenção?",
+      "paragraphs": [
+        "A proximidade com os Andes dá à flora um ar de família: são 1.163 plantas catalogadas, cerca de um quarto das plantas vasculares do Acre. Algumas têm aqui seu único registro no Brasil.",
+        "Entre os animais, são 1.233 espécies registradas, 90 delas de valor especial para a conservação, e cerca de 500 de aves. O monitoramento do ICMBio contou 18 espécies de primatas, como o soim-preto, o macaco-barrigudo e o uacari-de-cabeça-vermelha, que é comum avistar.",
+        "Cerca de 85% do parque é floresta aberta com palmeiras, cipós e bambus. A primeira coleta de plantas foi feita em 1901 pelo alemão Ernst Ule, e a seguinte só veio mais de 80 anos depois."
+      ],
+      "sourceIds": [
+        "icmbio"
+      ],
+      "images": []
+    },
+    {
+      "id": "gente",
+      "eyebrow": "03 · A gente",
+      "title": "Turismo comunitário no pé da serra",
+      "question": "Quem vive e cuida da serra?",
+      "paragraphs": [
+        "Famílias do pé da serra mantêm pousadas e formam condutores para observação de aves e primatas, uma atividade que cresce a cada ano. Hospedar-se com elas é a melhor forma de conhecer a floresta e de ajudar a mantê-la em pé.",
+        "O Decreto nº 97.839, de 16 de junho de 1989, criou o parque, que desde então protege essa Amazônia de fronteira."
+      ],
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "gente",
+    "title": "Do botânico ao parque",
+    "intro": "Marcos da história da serra.",
+    "items": [
+      {
+        "id": "1901",
+        "year": "1901",
+        "title": "O primeiro botânico",
+        "description": "Ernst Ule coleta plantas na região, inaugurando um inventário que hoje soma cerca de 3,5 mil amostras.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "1989",
+        "year": "1989",
+        "title": "Decreto nº 97.839",
+        "description": "Em 16 de junho, é criado o Parque Nacional da Serra do Divisor.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "id": "hoje",
+        "year": "Hoje",
+        "title": "Turismo comunitário",
+        "description": "Famílias do pé da serra mantêm pousadas e formam condutores para observação de aves e primatas.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que continua pouco conhecida",
+  "closing": "Poucos lugares do Brasil reúnem rio, serra, primatas e noites frias na mesma viagem. E a proteção da Serra do Divisor depende também de quem vive no pé dela.",
+  "references": [
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 97.839, de 16 de junho de 1989",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto/Antigos/D97839.htm",
+      "accessedAt": "2026-10-22",
+      "use": "decreto de criação"
+    },
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra do Divisor",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/novo-layout/conheca-mais-do-parna-serra-do-divisor",
+      "accessedAt": "2026-10-22",
+      "use": "páginas institucionais da unidade"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Revisar com comunidades locais e com o ICMBio antes de aprovar."
+}

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Serra do Cipó",
+  "title": "O jardim de pedra e os rios cor de chá",
+  "subtitle": "Campos rupestres de uma diversidade rara, rios de águas escuras e uma proteção que nasceu da pressão de cientistas, escaladores e espeleólogos.",
+  "centralQuestion": "Por que a Serra do Cipó concentra tanta vida sobre a rocha e como o parque foi conquistado?",
+  "introduction": [
+    "No alto da Serra do Espinhaço, em Minas Gerais, o chão é de pedra e o jardim cresce nas frestas. É o Parque Nacional da Serra do Cipó, de campos rupestres, nascentes e cânions por onde correm rios de água escura como chá.",
+    "A sempre-viva, planta da família das eriocauláceas típica desses campos, é a marca do parque. Elas são tão singulares que emprestam sua forma ao símbolo da unidade."
+  ],
+  "keyFacts": [
+    {
+      "label": "espécies de plantas registradas em cerca de 200 km² inventariados ao longo de meio século",
+      "value": "1.590",
+      "sourceId": "pm",
+      "locator": "p. 143"
+    },
+    {
+      "label": "data do Decreto nº 90.223, que criou o parque nacional",
+      "value": "25/09/1984",
+      "sourceId": "pm",
+      "locator": "p. 7"
+    },
+    {
+      "label": "área estimada do parque na época da criação",
+      "value": "33.800 ha",
+      "sourceId": "pm",
+      "locator": "p. 7"
+    },
+    {
+      "label": "área do Parque Estadual autorizado em 1975, que antecedeu o nacional",
+      "value": "27.600 ha",
+      "sourceId": "pm",
+      "locator": "p. 7"
+    },
+    {
+      "label": "área aproximada da APA Morro da Pedreira, que cerca o parque",
+      "value": "≈ 100 mil ha",
+      "sourceId": "pm",
+      "locator": "p. 8"
+    },
+    {
+      "label": "de ida do Cânion das Bandeirinhas, a trilha mais longa do cardápio",
+      "value": "12 km",
+      "sourceId": "cardapio",
+      "locator": "p. 15"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Campo rupestre",
+      "definition": "Vegetação que cresce sobre afloramentos rochosos de altitude, com muitas espécies que só existem em poucas serras.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Sempre-viva",
+      "definition": "Nome popular das eriocauláceas, típicas dos campos rupestres, cuja forma inspira a marca do parque.",
+      "sourceId": "cardapio"
+    },
+    {
+      "term": "Classe especial",
+      "definition": "A melhor categoria de qualidade da água; vale para o rio Cipó até onde ele sai do parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em torno de uma unidade de conservação para reduzir impactos; a APA Morro da Pedreira funcionou como uma, antes de a figura existir em lei.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Cachoeira_da_Farofa_-_Serra_do_Cip%C3%B3_-_panoramio.jpg/1280px-Cachoeira_da_Farofa_-_Serra_do_Cip%C3%B3_-_panoramio.jpg",
+    "author": "kwalldio",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_Farofa_-_Serra_do_Cip%C3%B3_-_panoramio.jpg",
+    "width": 1280,
+    "height": 960,
+    "alt": "Cachoeira descendo um paredão rochoso",
+    "context": "A Cachoeira da Farofa, no Parque Nacional da Serra do Cipó."
+  },
+  "moments": [
+    {
+      "id": "campos",
+      "eyebrow": "01 · A vida",
+      "title": "Um jardim sobre a rocha",
+      "question": "O que a Serra do Cipó tem que outras serras não têm?",
+      "paragraphs": [
+        "A Serra do Cipó se destaca em diversidade entre as áreas de campos rupestres já estudadas. Em cerca de 200 km² inventariados ao longo de meio século, foram registradas 1.590 espécies de plantas, de 103 famílias de dicotiledôneas, 24 de monocotiledôneas, uma de gimnosperma, 10 de pteridófitas e 11 de briófitas.",
+        "Muitas dessas espécies existem só aqui. O plano lista plantas endêmicas da Serra do Cipó ou da Serra do Espinhaço e classifica várias como vulneráveis ou em perigo, entre elas espécies de canelas-de-ema (Vellozia) e de cabeças-de-negro (Xyris).",
+        "Na lista vermelha de Minas Gerais, cerca de 2/3 das 590 espécies ameaçadas são de campos rupestres, em parte porque as pesquisas se concentram nesses ambientes.",
+        "As sempre-vivas, flores que mantêm a forma depois de secas, inspiram a marca do parque."
+      ],
+      "sourceIds": [
+        "pm",
+        "cardapio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 143"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 134"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 145"
+        },
+        {
+          "sourceId": "cardapio",
+          "locator": "p. 16"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "aguas",
+      "eyebrow": "02 · A água",
+      "title": "Rios escuros como chá",
+      "question": "Por que a água é escura e por que ela importa?",
+      "paragraphs": [
+        "As águas do parque são em geral escuras: as areias não retêm compostos orgânicos, como os ácidos húmicos, que tingem os rios. Em áreas de rocha calcária, como no córrego Gordurinha, a água é translúcida. É o caso do Poço Azul, que na verdade é verde.",
+        "O parque protege todas as nascentes até o encontro dos rios Mascates e Bocaina, ponto em que se considera que começa o rio Cipó. As águas têm classificação de \"classe especial\" até o ponto em que o Cipó sai do parque. Logo depois, a qualidade começa a declinar, por causa do uso intenso para banho, de assoreamento causado por um loteamento e, possivelmente, de gado e capivaras.",
+        "Na região de Areias, o rio fica meândrico, com dezenas de lagoas marginais que são trechos de leitos antigos abandonados. O nível das lagoas e dos rios é parecido ao longo do ano, o que indica comunicação pelo substrato arenoso.",
+        "O Cânion das Bandeirinhas, trilha mais longa do cardápio, tem 12 km só de ida, a partir da portaria Areias, e 24 km, em cerca de 6 horas, ida e volta. A Cachoeira da Farofa fica a 8 km da mesma portaria. O plano cita os dois como exemplos de drenagem condicionada pelo relevo fraturado."
+      ],
+      "sourceIds": [
+        "pm",
+        "cardapio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 128"
+        },
+        {
+          "sourceId": "cardapio",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "cardapio",
+          "locator": "p. 15"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/O_C%C3%A2nion_das_Bandeirinhas.jpg/1280px-O_C%C3%A2nion_das_Bandeirinhas.jpg",
+          "author": "Vinícius de Souza Naves",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:O_C%C3%A2nion_das_Bandeirinhas.jpg",
+          "width": 1280,
+          "height": 853,
+          "alt": "Rio de água escura entre paredões de pedra",
+          "context": "Águas escuras e paredões de quartzito no Cânion das Bandeirinhas."
+        }
+      ]
+    },
+    {
+      "id": "parque",
+      "eyebrow": "03 · O parque",
+      "title": "Da lei estadual ao decreto federal",
+      "question": "Como a Serra do Cipó virou parque nacional?",
+      "paragraphs": [
+        "A proteção da região começou por pressão de cientistas e ambientalistas. O primeiro marco foi a Lei Estadual nº 6.605, de 14 de julho de 1975, que autorizava o Parque Estadual da Serra do Cipó, com 27.600 hectares nos municípios de Santana do Riacho, Jaboticatubas e Conceição do Mato Dentro.",
+        "A criação foi anunciada pelo governador na reunião anual da Sociedade Brasileira para o Progresso da Ciência de 1976, o que mostra o peso da pressão dos cientistas. Em 1978, o CETEC começou a delimitar a área.",
+        "O Decreto nº 90.223, de 25 de setembro de 1984, criou o Parque Nacional da Serra do Cipó, com área estimada de 33.800 hectares, dos quais 14.400, cerca de 40%, já haviam sido adquiridos de forma amigável. Em 1987, o Decreto nº 94.984 desapropriou as áreas não adquiridas.",
+        "Entre os objetivos listados no plano estão proteger a fauna e a flora, pelo alto grau de endemismo, e proteger a bacia de captação do rio Cipó, importante pelas cachoeiras e águas límpidas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 7"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "pedreira",
+      "eyebrow": "04 · O entorno",
+      "title": "Escaladores, espeleólogos e a APA Morro da Pedreira",
+      "question": "Quem protegeu o entorno do parque?",
+      "paragraphs": [
+        "Na década de 1980, uma mineradora retomou a exploração de mármore no Morro da Pedreira, um maciço de calcário. Um movimento liderado por escaladores, montanhistas e espeleólogos, que viram o potencial dos afloramentos e das grutas, reagiu. Foram feitos dois \"abraços\" ao morro, com gente de Belo Horizonte, Rio de Janeiro, São Paulo e Paraná.",
+        "A lei ambiental da época não bastou para barrar a mineração, que acabou embargada por problemas trabalhistas. Isso deu tempo para criar uma unidade de conservação: em 26 de janeiro de 1990, o Decreto nº 98.891 criou a APA Morro da Pedreira, com cerca de 100 mil hectares, que circunda todo o parque como uma zona de amortecimento, figura que ainda não existia em lei.",
+        "A pressão continua do lado de fora. O plano registra espécies ameaçadas por incêndios recorrentes e pelo rápido parcelamento do solo no vale do Ribeirão Indequicé, adjacente ao parque, e a gramínea invasora braquiária, que avança desde cerca de 1988 e alcançava cerca de 6 hectares no parque em janeiro de 2005."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 7"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 145"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 155"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "parque",
+    "title": "Marcos da proteção",
+    "intro": "Datas do plano de manejo.",
+    "items": [
+      {
+        "id": "1975",
+        "year": "1975",
+        "title": "Parque estadual autorizado",
+        "description": "A Lei Estadual nº 6.605 autoriza o Parque Estadual da Serra do Cipó, com 27.600 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1976",
+        "year": "1976",
+        "title": "Anúncio na SBPC",
+        "description": "O governador anuncia a criação na reunião da SBPC, após pressão de cientistas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1984",
+        "year": "1984",
+        "title": "Parque nacional",
+        "description": "O Decreto nº 90.223 cria o Parque Nacional da Serra do Cipó.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1987",
+        "year": "1987",
+        "title": "Desapropriação",
+        "description": "O Decreto nº 94.984 trata da regularização fundiária das áreas não adquiridas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1990",
+        "year": "1990",
+        "title": "APA Morro da Pedreira",
+        "description": "O Decreto nº 98.891 cria a APA de cerca de 100 mil hectares ao redor do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um parque que nasceu de gente teimosa",
+  "closing": "Entre a rocha e a água escura, a Serra do Cipó guarda plantas que só existem aqui. Cientistas, escaladores e espeleólogos fizeram o parque e a APA existirem, e cuidar do entorno é parte de proteger o que está dentro.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parna Serra do Cipó, Encarte 3 (parte 1)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-do-cipo/arquivos/parna_serra_do_cipo_pm_encarte3-1.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "flora, hidrografia, histórico de criação e APA Morro da Pedreira; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "cardapio",
+      "institution": "ICMBio",
+      "title": "Cardápio de atrativos do Parna Serra do Cipó",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-do-cipo/arquivos/CardapiodeAtrativos.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "distâncias das trilhas e as sempre-vivas da marca do parque"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Reescrita em 23/10/2026 com o Encarte 3 do plano de manejo e o cardápio de atrativos. Removidos por falta de fonte conferida: altitudes, visitas de Spix e Martius em 1823 e de Saint-Hilaire em 1833, lagartinho-do-cipó e outras espécies, visitantes de 2011, abertura à visitação em 1997, Reserva da Biosfera e descrição do Travessão e do Vale dos Mascates. Revisão humana pendente."
+}

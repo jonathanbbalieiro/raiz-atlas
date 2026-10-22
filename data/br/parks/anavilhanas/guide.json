@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Cerca de 400 ilhas e 60 lagos no rio Negro, que mudam de desenho a cada cheia, a 40 km de Manaus.",
+  "intro": "No rio Negro, acima de Manaus, entre Novo Airão e a capital, o Parque Nacional de Anavilhanas protege cerca de 350 mil hectares. No centro está o arquipélago de Anavilhanas, o segundo maior arquipélago fluvial do mundo, cercado de igapós e floresta de terra firme.",
+  "sourceIds": [
+    "icmbio",
+    "pm",
+    "unesco"
+  ],
+  "protects": {
+    "summary": "Um labirinto de ilhas, lagos e florestas alagadas de água preta",
+    "items": [
+      {
+        "title": "Um arquipélago que se move",
+        "text": "Além das ilhas e lagos, há incontáveis paranás e furos. Na cheia, lagos chegam a se juntar, e os números mudam conforme o nível do rio.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Florestas que passam meses debaixo d'água",
+        "text": "Nos igapós, as árvores aguentam ficar parcial ou totalmente submersas por meses. Muitas florescem e frutificam na cheia, e a água ou os peixes levam suas sementes.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Aves das ilhas e da terra firme",
+        "text": "São 281 espécies de aves registradas. Dessas, 97 só apareceram nas ilhas e 70 só na terra firme: cada ambiente tem sua própria turma.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Gigantes ameaçados",
+        "text": "Boto-cor-de-rosa, peixe-boi-da-amazônia, ariranha, onça-pintada e tatu-canastra estão na lista de espécies ameaçadas protegidas pela unidade.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "O arquipélago de Anavilhanas",
+      "text": "Ilhas compridas e estreitas, separadas por canais de água escura, formam um mosaico em constante evolução. A UNESCO destaca como ele mostra a vegetação colonizando terrenos que mudam.",
+      "sourceIds": [
+        "unesco",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_%283%29.jpg/1280px-Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_%283%29.jpg",
+        "author": "GuilhonAmazonia",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_(3).jpg",
+        "width": 1280,
+        "height": 722,
+        "alt": "Margem de uma ilha coberta de floresta, refletida no rio Negro",
+        "context": "Margem de ilha do arquipélago de Anavilhanas, no rio Negro."
+      }
+    },
+    {
+      "title": "Navegar pelos igapós",
+      "text": "Na cheia, os passeios de barco entram pelos igapós do arquipélago, entre copas e troncos parcialmente submersos.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_%287%29.jpg/1280px-Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_%287%29.jpg",
+        "author": "GuilhonAmazonia",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_(7).jpg",
+        "width": 1280,
+        "height": 722,
+        "alt": "Árvores de igapó com raízes na água escura",
+        "context": "Mata de igapó à beira d'água no Parque Nacional de Anavilhanas."
+      }
+    },
+    {
+      "title": "Praias da vazante",
+      "text": "Quando o rio baixa, surgem praias de areia branca como a do Meio, a do Baranoá e a do Sobrado, catalogadas como atrativos do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_%2815%29.jpg/1280px-Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_%2815%29.jpg",
+        "author": "GuilhonAmazonia",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Anavilhanas_GuilhonAmaz%C3%B4nia_(15).jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Faixa de areia entre o rio e a floresta de uma ilha",
+        "context": "Faixa de areia exposta na margem de uma ilha de Anavilhanas."
+      }
+    },
+    {
+      "title": "Árvores para escalar",
+      "text": "Com operadores autorizados, é possível subir em árvores gigantes da terra firme e do igapó, como os macucus.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O maior arquipélago fluvial do mundo também fica no rio Negro, rio acima: é o de Mariuá, perto de Barcelos. Anavilhanas é o segundo, e mais preservado.",
+      "sourceIds": [
+        "pm",
+        "unesco"
+      ]
+    },
+    {
+      "text": "O rio Negro é o rio de água preta mais extenso do mundo e responde por cerca de 15% da água que o Amazonas leva ao Atlântico.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Num sobrevoo em 1978, Paulo Nogueira Neto anotou que, no emaranhado de ilhas, o peixe-boi certamente acharia muitos lugares para sobreviver.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "No Flutuante dos Botos, só funcionários podem alimentar os animais, em quantidade controlada. A regra saiu de um grupo de trabalho do conselho do parque criado em 2010.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Segundo a UNESCO, o arquipélago de Anavilhanas abriga a maior variedade de peixes-elétricos do planeta.",
+      "sourceIds": [
+        "unesco"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1974 · Visto do alto",
+      "text": "Um sobrevoo do secretário do Meio Ambiente, Paulo Nogueira Neto, coloca Anavilhanas na lista de áreas prioritárias para estações ecológicas na Amazônia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1981 · Estação ecológica",
+      "text": "O Decreto 86.061 cria a Estação Ecológica de Anavilhanas, voltada à pesquisa. Os 30 ou 40 posseiros da margem esquerda são reassentados.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2003 · Patrimônio Mundial",
+      "text": "Anavilhanas entra no sítio do Complexo de Conservação da Amazônia Central, ampliação do Patrimônio Mundial do Parque Nacional do Jaú.",
+      "sourceIds": [
+        "unesco"
+      ]
+    },
+    {
+      "title": "2008 · Vira parque",
+      "text": "Depois de projetos de lei que tramitaram desde 1992, a Lei 11.799 transforma toda a estação ecológica em parque nacional, aberto à visitação.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2017 · Sítio Ramsar e plano de manejo",
+      "text": "O parque é reconhecido como Sítio Ramsar, zona úmida de importância internacional, e ganha seu plano de manejo revisado.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Inia geoffrensis",
+      "name": "Boto-cor-de-rosa",
+      "why": "Ameaçado, é o morador mais famoso do parque, e o turismo com ele segue regras próprias definidas com o conselho da unidade.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Parque_Nacional_de_Anavilhanas_Silvio_Batista_Piotto_Junior_%2802%29.jpg/1280px-Parque_Nacional_de_Anavilhanas_Silvio_Batista_Piotto_Junior_%2802%29.jpg",
+        "author": "Silvio Batista Piotto Junior",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Anavilhanas_Silvio_Batista_Piotto_Junior_(02).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Botos-vermelhos nadando no rio Negro",
+        "context": "Botos-vermelhos no rio Negro, em Anavilhanas."
+      }
+    },
+    {
+      "scientificName": "Trichechus inunguis",
+      "name": "Peixe-boi-da-amazônia",
+      "why": "Está na lista de ameaçadas da unidade e foi um dos motivos para proteger o labirinto de ilhas e lagos.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Trichechus_inunguis_%28Peixe-boi_amaz%C3%B4nico%29_por_F%C3%A1bia_Luna_ICMBioCMA.png",
+        "author": "Fábia Luna/ICMBioCMA",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichechus_inunguis_(Peixe-boi_amaz%C3%B4nico)_por_F%C3%A1bia_Luna_ICMBioCMA.png",
+        "width": 640,
+        "height": 557,
+        "alt": "Peixe-boi-da-amazônia (Trichechus inunguis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Trichechus inunguis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "why": "A lontra gigante da Amazônia é uma das espécies ameaçadas protegidas no parque e no sítio da UNESCO.",
+      "sourceIds": [
+        "icmbio",
+        "unesco"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/960px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 640,
+        "height": 253,
+        "alt": "Ariranha (Pteronura brasiliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pteronura brasiliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Anavilhanas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-de-anavilhanas",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Anavilhanas (2017)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-de-anavilhanas/arquivos/plano_manejo_parna_de_anavilhanas.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "unesco",
+      "institution": "UNESCO",
+      "title": "Central Amazon Conservation Complex",
+      "url": "https://whc.unesco.org/en/list/998/",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

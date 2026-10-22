@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Onde nasce o Parnaíba: um Cerrado imenso, entre quatro estados, com araras que fazem ninho nos paredões.",
+  "intro": "Na Chapada das Mangabeiras, entre Piauí, Maranhão, Tocantins e Bahia, o Parque Nacional das Nascentes do Rio Parnaíba, criado por decreto de 16 de julho de 2002, protege cerca de 750 mil hectares de Cerrado. No alto da chapada se dividem as águas do Parnaíba, do Tocantins e do São Francisco.",
+  "sourceIds": [
+    "pm",
+    "icmbio"
+  ],
+  "protects": {
+    "summary": "As nascentes de um grande rio nordestino e um dos maiores blocos de Cerrado",
+    "items": [
+      {
+        "title": "O berço do Parnaíba",
+        "text": "Na Chapada das Mangabeiras, os rios Água Quente e Curriola nascem e, ao se unirem, formam o Parnaíba, que corre 1.485 km e divide Piauí e Maranhão.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Cerrado em escala gigante",
+        "text": "Campos, matas, brejos, veredas e buritizais se espalham pelo parque, que integra o Mosaico do Jalapão, o maior bloco de áreas protegidas do Cerrado.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Rios sem barragem",
+        "text": "Do parque até a barragem de Boa Esperança o rio corre livre. Já foram registradas 97 espécies de peixes, 45 delas endêmicas das três bacias.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Onças com futuro",
+        "text": "A população de onças-pintadas da região é apontada como a melhor do Cerrado, com chance de persistir por 120 anos se a área for protegida.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Chapada das Mangabeiras",
+      "text": "O platô e seus paredões, que se destacam no horizonte, começaram a se formar há cerca de 80 milhões de anos, no Cretáceo.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Veredas e buritizais",
+      "text": "Vastas veredas, cachoeiras de água cristalina e paredões das serras compõem as paisagens do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Aqui, a arara-azul-grande faz ninho em fendas dos paredões rochosos, e não em ocos de grandes árvores, como no Pantanal.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O plano de manejo aponta o parque como a maior unidade de conservação do bioma Cerrado.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A bacia do Parnaíba ocupa 342.988 km² e é a mais expressiva entre os rios inteiramente nordestinos.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Quatro espécies de peixes do gênero Melanorivulus chamam atenção pelas formas e cores exuberantes.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Já foram identificadas 254 espécies de aves e 60 de mamíferos, incluindo o gavião-real e o tatu-bola.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1990 · A primeira proteção",
+      "text": "É criada a APA Serra da Tabatinga, para proteger as nascentes do Parnaíba e a qualidade de suas águas.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2001 · A Carta do Parnaíba",
+      "text": "Um documento assinado em 16 de abril reúne apoios de vários setores para criar um parque nacional nas nascentes.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2002 · Nasce o parque",
+      "text": "Um decreto de 16 de julho cria o Parque Nacional das Nascentes do Rio Parnaíba.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "title": "2015 · Novos limites",
+      "text": "A Lei 13.090 redesenha o parque, que ganha cerca de 20 mil hectares e incorpora as nascentes do rio Corrente e a Serra do Lajeado.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "why": "Vulnerável, faz ninhos nos paredões da chapada, um comportamento diferente das araras do Pantanal.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217287300/original.jpg",
+        "author": "Robin Gwen Agarwal",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/217287300",
+        "width": 2048,
+        "height": 1416,
+        "alt": "Casal de araras-azuis-grandes alçando voo de um galho seco contra o céu azul",
+        "context": "A arara-azul-grande (Anodorhynchus hyacinthinus), maior psitacídeo do mundo, fotografada em liberdade em Aquidauana (MS); a espécie também ocorre no Cerrado da região do parque."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "A região abriga a população de onças considerada a melhor do Cerrado.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
+    },
+    {
+      "scientificName": "Caryocar coriaceum",
+      "name": "Piqui",
+      "why": "Árvore do Cerrado em perigo de extinção, com registros dentro do parque e citada no plano de manejo.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Piqui.jpg",
+        "author": "Rapper Ouriço",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piqui.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Piqui (Caryocar coriaceum); fotografia da espécie",
+        "context": "Retrato ilustrativo de Caryocar coriaceum. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional das Nascentes do Rio Parnaíba",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-nascentes-do-rio-parnaiba",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional das Nascentes do Rio Parnaíba e da APA Serra da Tabatinga (2021)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-nascentes-do-rio-parnaiba/arquivos/Plano_Manejo_PNNRP_APAST_V5_2021_10_01.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "No coração do Quadrilátero Ferrífero, uma carapaça de ferro porosa guarda água para Belo Horizonte e plantas que só vivem sobre ela.",
+  "intro": "A cerca de 32 km de Belo Horizonte, o Parque Nacional da Serra do Gandarela protege 31,3 mil hectares de cangas, campos rupestres e um dos trechos mais contínuos de Mata Atlântica de Minas Gerais. Criado em 2014, guarda áreas que recarregam os aquíferos da região metropolitana e dezenas de cachoeiras.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visita",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Cangas, água e floresta entre as minas de ferro",
+    "items": [
+      {
+        "title": "Cangas",
+        "text": "Uma crosta de ferro rígida e porosa cobre topos e encostas. Sobre ela cresce uma vegetação adaptada a teores altíssimos de metais, com muitas espécies raras e endêmicas.",
+        "sourceIds": [
+          "pm",
+          "icmbio-visita"
+        ]
+      },
+      {
+        "title": "Uma esponja de chuva",
+        "text": "Por serem porosas, as cangas deixam a chuva infiltrar até os aquíferos. Rios e córregos do parque correm para as bacias do Doce e do Velhas e ajudam a abastecer a região de Belo Horizonte.",
+        "sourceIds": [
+          "icmbio-visita",
+          "pm"
+        ]
+      },
+      {
+        "title": "Floresta em transição",
+        "text": "Matas de galeria, capões de altitude, brejos, cerrados e a segunda maior mancha de floresta estacional semidecidual de Minas convivem no parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Cavernas no ferro",
+        "text": "São cerca de 300 cavidades naturais em três tipos de rocha, abrigo de fauna rara e de vestígios arqueológicos.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Poço Azul",
+      "text": "Um lago azulado ao pé de paredões avermelhados, a 1,2 km de trilha do centro de Raposos. Pelo caminho surgem pequenos poços, cascatas e mata ciliar.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Po%C3%A7o_Azul_de_Raposos.jpg/1280px-Po%C3%A7o_Azul_de_Raposos.jpg",
+        "author": "Marta Macedo Kerr Pinheiro",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Po%C3%A7o_Azul_de_Raposos.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Poço de água azul-esverdeada junto a rochas e mata, no rio em Raposos",
+        "context": "O Poço Azul, de água azulada junto a paredões de rocha avermelhada, em Raposos (MG)."
+      }
+    },
+    {
+      "title": "Cachoeira Santo Antônio",
+      "text": "Na divisa entre Caeté e Raposos, a água azulada contrasta com os paredões rochosos avermelhados. Perto da queda a correnteza é forte.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Cachoeira_de_Santo_Ant%C3%B4nio_-_Raposos.jpg/1280px-Cachoeira_de_Santo_Ant%C3%B4nio_-_Raposos.jpg",
+        "author": "Robsondig",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_de_Santo_Ant%C3%B4nio_-_Raposos.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Cachoeira entre paredões de rocha dourada caindo num poço de água calma",
+        "context": "A Cachoeira de Santo Antônio, em Raposos, cai entre paredões de rocha num poço de água calma."
+      }
+    },
+    {
+      "title": "Sinclinal Gandarela",
+      "text": "Uma dobra gigante das rochas coberta por um maciço de Mata Atlântica. Ao redor, picos como Batatais e Capanema passam de 1.890 metros.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Parque_Nacional_da_Serra_do_Gandarela_-_Robson_de_Oliveira_-_21.jpg/1280px-Parque_Nacional_da_Serra_do_Gandarela_-_Robson_de_Oliveira_-_21.jpg",
+        "author": "Robsondig",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_do_Gandarela_-_Robson_de_Oliveira_-_21.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Vista aérea de serras cobertas de campo rupestre e matas, com cordilheira ao fundo",
+        "context": "Vista aérea das serras e capões de mata do Parque Nacional da Serra do Gandarela, no Quadrilátero Ferrífero."
+      }
+    },
+    {
+      "title": "Cachoeira do Índio",
+      "text": "Em Rio Acima, um complexo de quatro grandes quedas com mais de 200 metros de altura. O trecho final até o poço é uma descida íngreme de 900 metros.",
+      "sourceIds": [
+        "icmbio-visita"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Já foram registradas 311 espécies de aves no parque, 10 delas ameaçadas de extinção.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "A Estrada Real atravessa o norte do parque pelo caminho do Sabarabuçu, entre Raposos e Honório Bicalho, passando por ruínas do período colonial.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "text": "Nas áreas altas fica a Lagoa do Metro, uma das paisagens singulares do parque, por onde circulam onças-pardas e lobos-guarás.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Do Mirante da Serra do Gandarela, em dias claros, dá para ver o Pico do Itabirito e até a cidade de Belo Horizonte.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Período colonial · Caminho do ouro",
+      "text": "O caminho do Sabarabuçu, parte da Estrada Real, cruza a serra e deixa ruínas que ainda estão dentro do parque.",
+      "sourceIds": [
+        "icmbio-visita"
+      ]
+    },
+    {
+      "title": "2009 · O pedido",
+      "text": "Em outubro, 25 instituições da sociedade civil pedem a criação de uma unidade de conservação para proteger a água de uma serra cobiçada pela mineração de ferro.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2014 · Nasce o parque",
+      "text": "Em 13 de outubro, um decreto cria o parque, com 31.284 hectares, desenho menor que o discutido, mas ainda protegendo parte das cangas da região.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2024 · Plano de manejo",
+      "text": "A Portaria 4.371, de dezembro, aprova o primeiro plano de manejo do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "why": "Predador de topo que usa as áreas elevadas do parque, como os arredores da Lagoa do Metro.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/960px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Lobo-guará (Chrysocyon brachyurus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Chrysocyon brachyurus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Puma concolor",
+      "name": "Onça-parda",
+      "why": "Sua presença nas partes altas mostra o bom estado de conservação do parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/960px-Puma_-_49044464307.jpg",
+        "author": "Carlos",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puma_-_49044464307.jpg",
+        "width": 640,
+        "height": 960,
+        "alt": "Onça-parda (Puma concolor); fotografia da espécie",
+        "context": "Retrato ilustrativo de Puma concolor. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "why": "Vulnerável segundo a IUCN e registrado dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris); fotografia da espécie",
+        "context": "Retrato ilustrativo de Tapirus terrestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna da Serra do Gandarela",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-do-gandarela",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna da Serra do Gandarela",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-do-gandarela/informacoes-sobre-visitacao-parna-da-serra-do-gandarela",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Serra do Gandarela (2025)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-do-gandarela/Plano_de_Manejo_PNSG_versao_final_jan2025.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

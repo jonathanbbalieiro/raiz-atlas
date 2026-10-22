@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma serra de quartzito no agreste sergipano, onde se buscou prata e onde lagartos de restinga vivem longe do mar.",
+  "intro": "No agreste de Sergipe, o Parque Nacional Serra de Itabaiana protege cerca de 8 mil hectares entre as serras de Itabaiana, Comprida e do Cajueiro. Ali se misturam espécies de Mata Atlântica, Caatinga, Cerrado, campo rupestre e restinga.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Serras residuais, areias brancas e um mosaico de ambientes",
+    "items": [
+      {
+        "title": "Muitos ambientes juntos",
+        "text": "Plantas típicas de caatinga, cerrado, floresta estacional, campo rupestre, restinga e tabuleiro convivem no parque, que funciona como uma zona de transição.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Restinga no interior",
+        "text": "Lagartos típicos de restinga, como o lagartinho-de-abaeté, em perigo, e o calango Tropidurus hygomi, vivem no parque, longe do litoral.",
+        "sourceIds": [
+          "pm",
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Entre duas bacias",
+        "text": "O parque fica entre as bacias dos rios Vaza-Barris e Sergipe. Na Serra Comprida nascem o rio Cotinguiba e o riacho da Prata.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Prioridade para a Mata Atlântica",
+        "text": "A Serra de Itabaiana foi considerada de extrema importância para a conservação da flora da Mata Atlântica e faz parte da Reserva da Biosfera.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Serra de Itabaiana",
+      "text": "Com 659 metros, é o segundo ponto mais alto de Sergipe. É uma serra residual: restou porque sua rocha resistiu melhor à erosão.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Serra_de_Itabaiana_SE_Brazil.jpg/1280px-Serra_de_Itabaiana_SE_Brazil.jpg",
+        "author": "Demóstenes Pereira",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_de_Itabaiana_SE_Brazil.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Vista panorâmica da Serra de Itabaiana",
+        "context": "Vista panorâmica da Serra de Itabaiana, em Sergipe."
+      }
+    },
+    {
+      "title": "Poço das Moças",
+      "text": "O poço de águas da serra recebe cerca de 30 mil visitantes por ano, um dos destinos de lazer mais procurados de Sergipe.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Riacho_na_Serra_de_Itabaiana.JPG/1280px-Riacho_na_Serra_de_Itabaiana.JPG",
+        "author": "Alexandro Batista dos Santos",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riacho_na_Serra_de_Itabaiana.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Riacho de pedras logo abaixo do Poço das Moças",
+        "context": "Riacho logo abaixo do Poço das Moças, no Parque Nacional Serra de Itabaiana."
+      }
+    },
+    {
+      "title": "Gruta do Encantado",
+      "text": "A maior das quatro cavernas do parque, com cerca de 40 metros, se abriu lentamente no quartzito, rocha muito pouco solúvel.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Outra lenda, a da Sabaraboçu, conta que a serra explodiu quando tentaram tirar ouro dela, espalhando as pepitas pelos ares.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Uma lenda fala de um carneiro de ouro encantado na serra, que atrai aventureiros em busca de riqueza.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O nome Itabaiana é de origem indígena, mas seu significado se perdeu. A lenda popular fala de uma índia chamada Ita, vinda da Bahia.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Cavernas em quartzito são raras e pequenas, porque a rocha quase não se dissolve. Por isso as quatro grutas do parque têm valor especial.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Tempos coloniais · A serra da prata",
+      "text": "A serra entra na história de Sergipe com a procura de minas de prata e vira fonte de lendas sobre riquezas escondidas.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2004 · Consultas públicas",
+      "text": "Em 18 de novembro, moradores de Areia Branca e Itabaiana discutem a criação do parque em consultas do Ibama.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2005 · Nasce o parque",
+      "text": "Um decreto de 15 de junho cria o Parque Nacional Serra de Itabaiana, em cinco municípios sergipanos.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "title": "2016 · Primeiro plano de manejo",
+      "text": "A Portaria 76, de 19 de junho, aprova o primeiro plano de manejo do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Glaucomastix abaetensis",
+      "name": "Lagartinho-de-abaeté",
+      "why": "Lagarto de restinga em perigo de extinção, protegido pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "pm",
+        "gbif"
+      ]
+    },
+    {
+      "scientificName": "Tropidurus hygomi",
+      "name": "Calango",
+      "why": "Vulnerável e endêmico de restingas, sua presença no parque reforça a importância da área.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ]
+    },
+    {
+      "scientificName": "Podocarpus sellowii",
+      "name": "Pinheiro-da-mata",
+      "why": "Conífera nativa em perigo de extinção, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Podocarpus_Sellowii_young_tree1.jpg/960px-Podocarpus_Sellowii_young_tree1.jpg",
+        "author": "Antonio Nunes de Miranda Filho",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podocarpus_Sellowii_young_tree1.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Pinheiro-da-mata (Podocarpus sellowii); fotografia da espécie",
+        "context": "Retrato ilustrativo de Podocarpus sellowii. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Serra de Itabaiana",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-serra-de-itabaiana",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Serra de Itabaiana (2016)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-serra-de-itabaiana/arquivos/dcom_plano_de_manejo_parna_serra_de_itabaiana.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

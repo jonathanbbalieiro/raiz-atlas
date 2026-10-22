@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Entre Curitiba e o mar, a Serra do Mar guarda um sapinho que não vive em nenhum outro lugar.",
+  "intro": "Com cerca de 49 mil hectares, o parque protege montanhas da Serra do Mar paranaense entre a região de Curitiba e o litoral, de 80 a 1.380 metros de altitude. É a maior unidade de proteção integral do litoral e da Serra do Mar do Paraná. Foi criado por decreto federal de 13 de outubro de 2014.",
+  "sourceIds": [
+    "pm",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "Um maciço de Mata Atlântica na Serra do Mar paranaense",
+    "items": [
+      {
+        "title": "Florestas em degraus",
+        "text": "Floresta atlântica de encosta, montana e de altitude, campos de altitude no alto das serras e, a oeste, uma transição com a mata de araucária.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Espaço para grandes animais",
+        "text": "A região é um dos poucos trechos da Mata Atlântica com áreas grandes e saudáveis o bastante para anta, queixada, onça-pintada e onça-parda.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Água para a capital e o litoral",
+        "text": "As chuvas que caem nas encostas alimentam os rios Cubatão, Cubatãozinho e Sagrado, que correm para as baías de Guaratuba e Paranaguá e geram água e energia.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Espécies descritas recentemente",
+        "text": "Um opilião, uma cigarra e um lambari foram descritos por cientistas a partir de exemplares do parque. Dois deles levam o nome guaricana.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Campos de altitude",
+      "text": "Nos topos das serras Canavieiras e da Igreja, a floresta dá lugar a campos de altitude em morros arredondados.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Rios de águas cristalinas",
+      "text": "Rios estreitos e pedregosos descem a serra entre cachoeiras e corredeiras, com potencial para banho, contemplação e esportes como rafting.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A palha da guaricana, uma palmeira, está entre os produtos que a floresta fornece às comunidades da região.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "No século XVII, minas de ouro nas nascentes do rio Arraial deram origem ao Caminho do Arraial, a primeira ligação entre o litoral e o planalto paranaense.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A BR-277 atravessa a serra pela mesma garganta usada pelo antigo Caminho do Arraial.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1967, a área recebeu plantios de pinus. A maior parte foi colhida em 2009 e 2010, e hoje o antigo plantio é visto como área para restauração.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Século XVII · O ouro do Arraial",
+      "text": "Minas nas nascentes do rio Arraial atraem povoadores e abrem um caminho entre Morretes e Curitiba, perto do limite noroeste do atual parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1968 · A estrada na serra",
+      "text": "É inaugurada a BR-277, que margeia o norte do parque e liga Curitiba aos portos do litoral.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2014 · Nasce o parque",
+      "text": "Um decreto federal de 13 de outubro cria o Parque Nacional Guaricana, em terras de Guaratuba, Morretes e São José dos Pinhais.",
+      "sourceIds": [
+        "cnuc",
+        "pm"
+      ]
+    },
+    {
+      "title": "2024 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo, que define seis razões que tornam o parque especial.",
+      "sourceIds": [
+        "cnuc",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Brachycephalus pombali",
+      "name": "Sapinho Brachycephalus pombali",
+      "why": "Pequeno sapo que só vive no Parque Nacional Guaricana.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "why": "Grande herbívoro citado pelo plano de manejo e registrado dentro do parque. É vulnerável segundo a IUCN.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris); fotografia da espécie",
+        "context": "Retrato ilustrativo de Tapirus terrestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Predador de topo citado entre as espécies ameaçadas do parque, com registros dentro da unidade.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Onça-pintada (Panthera onca); fotografia da espécie",
+        "context": "Retrato ilustrativo de Panthera onca. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Guaricana (2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-guaricana/arquivos/copy_of_Plano_Manejo_PNG_V9_maio_24.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional Guaricana",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/3137",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

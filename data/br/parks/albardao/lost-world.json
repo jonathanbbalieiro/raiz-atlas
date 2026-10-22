@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Perto do Albardão, o riacho Chuí e a praia devolvem ossos de mastodontes e outros gigantes que viveram nos pampas durante a Era do Gelo.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Mastodonte-sul-americano",
+      "scientificName": "Notiomastodon platensis",
+      "when": "há pouco mais de 100 mil anos (Pleistoceno)",
+      "text": "Parente distante dos elefantes, o Notiomastodon pastava nas planícies do extremo sul do Brasil. Em 2025, pesquisadores da UFRGS escavaram um fêmur com pouco mais de 100 mil anos exposto pela erosão no arroio Chuí, em Santa Vitória do Palmar, município onde fica o Albardão.",
+      "sourceIds": [
+        "jc",
+        "scielo"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "megafauna_fossil",
+      "name": "Toxodonte",
+      "scientificName": "Toxodon",
+      "when": "Pleistoceno, entre cerca de 220 e 30 mil anos",
+      "text": "Com corpo de hipopótamo e cabeça de rinoceronte, o Toxodon é um dos mamíferos extintos preservados nos depósitos do Chuí, uma unidade rica em fósseis onde também aparecem mastodontes, gliptodontes e preguiças-gigantes. Datações dos sedimentos indicam entre cerca de 220 e 30 mil anos.",
+      "sourceIds": [
+        "scielo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Toxodon_skeleton.jpg/1280px-Toxodon_skeleton.jpg",
+        "author": "Richard Owen.",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toxodon_skeleton.jpg",
+        "width": 1280,
+        "height": 677,
+        "alt": "Esqueleto montado de Toxodon, mamífero extinto da megafauna sul-americana.",
+        "context": "Esqueleto montado de Toxodon, mamífero extinto da megafauna sul-americana."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "scielo",
+      "institution": "Brazilian Journal of Geology (SciELO)",
+      "title": "The Santa Vitória Alloformation: an update on a Pleistocene fossil-rich unit in Southern Brazil",
+      "url": "https://www.scielo.br/j/bjgeo/a/tPYk7XfqJsfkR5pYpmyzByf/?lang=en",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "jc",
+      "institution": "Jornal do Comércio",
+      "title": "Fêmur de mastodonte de 100 mil anos é descoberto em Santa Vitória do Palmar",
+      "url": "https://www.jornaldocomercio.com/jcsul/2025/02/1192829-femur-de-mastodonte-de-100-mil-anos-e-descoberto-em-santa-vitoria-do-palmar.html",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

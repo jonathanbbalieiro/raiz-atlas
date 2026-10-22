@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma vila de pescadores cercada de dunas, um arco de pedra esculpido pelas ondas e o sol se pondo no mar.",
+  "intro": "No litoral oeste do Ceará, o Parque Nacional de Jericoacoara protege cerca de 8,8 mil hectares de dunas, praias, manguezais, lagoas temporárias e uma faixa de mar. A vila de Jericoacoara fica cercada pelo parque, com uma enseada voltada para o poente.",
+  "sourceIds": [
+    "icmbio",
+    "icmbio-visitacao"
+  ],
+  "protects": {
+    "summary": "Dunas que andam, manguezais e o mar da costa cearense",
+    "items": [
+      {
+        "title": "Campo de dunas",
+        "text": "Dunas móveis e fixas se estendem por quase todo o parque, intercaladas por lagoas que aparecem na estação chuvosa.",
+        "sourceIds": [
+          "icmbio-visitacao",
+          "pm"
+        ]
+      },
+      {
+        "title": "Manguezal do rio Guriú",
+        "text": "No mangue vivem cavalos-marinhos da espécie Hippocampus reidi, observados em passeios de canoa.",
+        "sourceIds": [
+          "icmbio-visitacao"
+        ]
+      },
+      {
+        "title": "Uma faixa de mar",
+        "text": "Desde 2007, o parque inclui um quilômetro de mar ao longo da costa, onde foram identificadas 59 espécies de peixes.",
+        "sourceIds": [
+          "icmbio-visitacao",
+          "pm"
+        ]
+      },
+      {
+        "title": "Tartarugas marinhas",
+        "text": "Tartaruga-cabeçuda, tartaruga-de-pente e tartaruga-oliva estão na lista de espécies ameaçadas protegidas pelo parque.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Pedra Furada",
+      "text": "O cartão-postal de Jericoacoara é um arco de quartzito aberto pelas ondas, que atacaram as partes mais frágeis da rocha até furá-la.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Jericoacoara_furada.jpg/1280px-Jericoacoara_furada.jpg",
+        "author": "Maria Cristina Sakai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jericoacoara_furada.jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "A Pedra Furada, formação rochosa na praia dentro do Parque Nacional de Jericoacoara (CE), em foto catalogada no Commons como do parque.",
+        "context": "A Pedra Furada, formação rochosa na praia dentro do Parque Nacional de Jericoacoara (CE), em foto catalogada no Commons como do parque."
+      }
+    },
+    {
+      "title": "Serrote",
+      "text": "A crista de quartzito ferruginoso a nordeste da vila é o ponto mais alto do parque. Lá em cima, a 95 metros, fica o farol.",
+      "sourceIds": [
+        "icmbio-visitacao",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Parque_Nacional_de_Jericoacoara_-_Ceara_03.jpg",
+        "author": "Tom Carvalho",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Jericoacoara_-_Ceara_03.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Serrote, Jericoacoara",
+        "context": "Serrote. Vista da praia de Jeri do serrote"
+      }
+    },
+    {
+      "title": "Duna do Pôr do Sol",
+      "text": "Destaque do campo de dunas. A enseada da vila é voltada para o poente, e o sol se põe todos os dias sobre o mar.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Duna_do_P%C3%B4r_do_Sol_-_Jericoacoara.JPG/1280px-Duna_do_P%C3%B4r_do_Sol_-_Jericoacoara.JPG",
+        "author": "Sibelicarvalho",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duna_do_P%C3%B4r_do_Sol_-_Jericoacoara.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Duna do Pôr do Sol, Jericoacoara",
+        "context": "Duna do Pôr do Sol. Esta vista da Duna do Pôr do Sol em Jericoacoara faz o expectador se sentir renascido!!! Foi a primeira vez que eu aplau"
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Nas cartas náuticas do século XVI, o lugar aparecia como Baía das Tartarugas. Uma das explicações para o nome em tupi é Buraco da Tartaruga.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Pescadores contam outra versão: visto do mar, o Serrote lembraria um jacaré quarando ao sol.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "No início dos anos 1980, o jornal The Washington Post incluiu Jericoacoara entre as dez praias mais bonitas do planeta.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 1973, dunas e as águas da lagoa da Jijoca engoliram a estrada que levava o peixe da vila até Fortaleza.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Sete espécies de aves registradas no parque são visitantes que chegam do Hemisfério Norte.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1965 a 1973 · Vila de pescadores",
+      "text": "No auge da pesca, cinco barcos e cerca de 60 canoas saíam da vila. Depois, a atividade decaiu e muitas famílias partiram.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "Fim dos anos 1970 · Chegam os mochileiros",
+      "text": "Viajantes alternativos se hospedam com os moradores e espalham a fama de um paraíso simples à beira-mar.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1984 · Salve Esta Praia",
+      "text": "Com a pressão imobiliária, moradores e turistas fazem campanha e a região vira Área de Proteção Ambiental.",
+      "sourceIds": [
+        "pm",
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "title": "2002 · De APA a parque",
+      "text": "Um decreto de 4 de fevereiro transforma parte da APA em parque nacional. Em 2007, uma lei redefine os limites e inclui a faixa de mar.",
+      "sourceIds": [
+        "icmbio",
+        "icmbio-visitacao",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Hippocampus reidi",
+      "name": "Cavalo-marinho",
+      "why": "Vive no manguezal do rio Guriú e é uma das atrações de observação do parque.",
+      "sourceIds": [
+        "icmbio-visitacao"
+      ]
+    },
+    {
+      "scientificName": "Eretmochelys imbricata",
+      "name": "Tartaruga-de-pente",
+      "why": "Ameaçada de extinção, está na lista de espécies protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg/1280px-Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg",
+        "author": "Diego Delso",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tortuga_carey_(Eretmochelys_imbricata),_parque_nacional_Ras_Muhammad,_Egipto,_2022-03-28,_DD_56.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Tartaruga-de-pente (Eretmochelys imbricata)",
+        "context": "Tartaruga-de-pente, Eretmochelys imbricata."
+      }
+    },
+    {
+      "scientificName": "Chelonia mydas",
+      "name": "Tartaruga-verde",
+      "why": "Registrada no mar do parque durante os levantamentos do plano de manejo.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+        "author": "Charles J. Sharp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Tartaruga-verde (Chelonia mydas); fotografia da espécie",
+        "context": "Retrato ilustrativo de Chelonia mydas. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Jericoacoara",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-de-jericoacoara",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-visitacao",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação: Parna de Jericoacoara",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-de-jericoacoara/informacoes-sobre-visitacao-2013-parna-de-jericoacoara",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Jericoacoara: análise da unidade de conservação",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-de-jericoacoara/arquivos/analise_unidade.pdf",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

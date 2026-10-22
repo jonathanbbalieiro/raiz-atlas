@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "O teto da Paraíba: o Pico do Jabre e uma jararaca que só existe nestas serras do sertão.",
+  "intro": "No sertão da Paraíba, o Parque Nacional da Serra do Teixeira protege cerca de 61 mil hectares de Caatinga em 12 municípios. Criado em 2023, foi pensado para guardar espécies endêmicas do bioma e paisagens como o Pico do Jabre, o ponto mais alto do estado.",
+  "sourceIds": [
+    "decreto",
+    "icmbio"
+  ],
+  "protects": {
+    "summary": "Caatinga de serra, espécies endêmicas e o ponto mais alto da Paraíba",
+    "items": [
+      {
+        "title": "Caatinga com endemismos",
+        "text": "O primeiro objetivo do decreto é proteger uma área representativa da Caatinga e as diversas espécies endêmicas do bioma que vivem ali.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Serras que guardam o passado",
+        "text": "Há cerca de 8 milhões de anos, a erosão rebaixou o entorno e deixou o Jabre no alto. Bichos que ficaram nas alturas se isolaram e mudaram.",
+        "sourceIds": [
+          "auniao"
+        ]
+      },
+      {
+        "title": "Serviços da natureza",
+        "text": "O decreto também manda garantir a manutenção dos serviços ecossistêmicos da região.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Pico do Jabre",
+      "text": "O ponto culminante da Paraíba está entre os sítios de grande beleza cênica que o parque deve proteger.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Vista_do_Pico_do_Jabre.jpg/1280px-Vista_do_Pico_do_Jabre.jpg",
+        "author": "Lucas Carneiro",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_do_Pico_do_Jabre.jpg",
+        "width": 1280,
+        "height": 850,
+        "alt": "Mata de caatinga de serra e rochas vistas do topo do Pico do Jabre",
+        "context": "Vista do topo do Pico do Jabre, em Teixeira (PB)."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A jararaca-do-jabre, Bothrops jabrensis, só é conhecida dentro deste parque. Foi notada por um pesquisador da UFCG em 2016 e catalogada em 2022, já como criticamente ameaçada.",
+      "sourceIds": [
+        "auniao"
+      ]
+    },
+    {
+      "text": "Estudos genéticos do Instituto Butantan mostraram que a jararaca do Jabre é diferente da jararaca comum da Caatinga do sertão.",
+      "sourceIds": [
+        "auniao"
+      ]
+    },
+    {
+      "text": "Ainda não existe soro específico para a jararaca-do-jabre; o Butantan pesquisa um. Em cativeiro, uma reprodução gerou oito filhotes.",
+      "sourceIds": [
+        "auniao"
+      ]
+    },
+    {
+      "text": "O parque se espalha por 12 municípios, de Água Branca a Teixeira, passando por Matureia e Mãe d'Água.",
+      "sourceIds": [
+        "decreto"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "8 milhões de anos atrás · Ilhas no alto",
+      "text": "A erosão rebaixa as terras ao redor, e o Jabre e trechos da Borborema ficam isolados nas alturas.",
+      "sourceIds": [
+        "auniao"
+      ]
+    },
+    {
+      "title": "2016 · Uma cobra diferente",
+      "text": "Em campo na Serra do Teixeira, um pesquisador da UFCG nota jararacas diferentes das conhecidas, que depois seriam descritas como uma espécie nova.",
+      "sourceIds": [
+        "auniao"
+      ]
+    },
+    {
+      "title": "2023 · Nasce o parque",
+      "text": "O Decreto 11.552, de 5 de junho, cria o Parque Nacional da Serra do Teixeira, com cerca de 61 mil hectares.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Bothrops jabrensis",
+      "name": "Jararaca-do-jabre",
+      "why": "Serpente criticamente ameaçada que só é conhecida dentro do parque.",
+      "sourceIds": [
+        "auniao"
+      ]
+    },
+    {
+      "scientificName": "Kerodon rupestris",
+      "name": "Mocó",
+      "why": "Roedor das pedras, típico da Caatinga, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg/960px-Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg",
+        "author": "Motorolaz1201",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201(001).jpg",
+        "width": 640,
+        "height": 430,
+        "alt": "Mocó (Kerodon rupestris); fotografia da espécie",
+        "context": "Retrato ilustrativo de Kerodon rupestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Cedrela odorata",
+      "name": "Cedro-cheiroso",
+      "why": "Árvore criticamente ameaçada, segundo a IUCN, registrada dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Starr_030807-0048_Cedrela_odorata.jpg/960px-Starr_030807-0048_Cedrela_odorata.jpg",
+        "author": "Forest &amp; Kim Starr",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_030807-0048_Cedrela_odorata.jpg",
+        "width": 640,
+        "height": 853,
+        "alt": "Cedro-cheiroso (Cedrela odorata); fotografia da espécie",
+        "context": "Retrato ilustrativo de Cedrela odorata. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra do Teixeira",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-serra-do-teixeira",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 11.552, de 5 de junho de 2023",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11552.htm",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "auniao",
+      "institution": "A União (Governo da Paraíba)",
+      "title": "Estado tem espécie exclusiva de cobra",
+      "url": "https://auniao.pb.gov.br/noticias/caderno_paraiba/estado-tem-especie-exclusiva-de-cobra",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

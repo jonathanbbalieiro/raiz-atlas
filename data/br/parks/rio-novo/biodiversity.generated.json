@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-56.761%20-7.210%2C-56.794%20-7.245%2C-56.816%20-7.236%2C-56.886%20-7.269%2C-56.897%20-7.294%2C-56.922%20-7.261%2C-56.951%20-7.253%2C-56.976%20-7.210%2C-56.978%20-7.247%2C-56.999%20-7.275%2C-57.022%20-7.277%2C-57.055%20-7.357%2C-57.044%20-7.393%2C-57.090%20-7.440%2C-57.072%20-7.476%2C-57.083%20-7.511%2C-57.115%20-7.539%2C-57.068%20-7.555%2C-56.889%20-7.717%2C-56.863%20-7.774%2C-56.835%20-7.779%2C-56.854%20-7.848%2C-56.808%20-7.830%2C-56.801%20-7.888%2C-56.855%20-7.960%2C-56.846%20-8.015%2C-56.806%20-8.039%2C-56.783%20-8.085%2C-56.677%20-8.063%2C-56.667%20-8.000%2C-56.001%20-7.999%2C-56.000%20-8.167%2C-55.836%20-8.277%2C-55.838%20-8.219%2C-55.822%20-8.199%2C-55.833%20-8.156%2C-55.799%20-8.143%2C-55.811%20-8.113%2C-55.739%20-8.008%2C-55.744%20-7.967%2C-55.720%20-7.926%2C-55.771%20-7.926%2C-55.788%20-7.901%2C-55.821%20-7.912%2C-55.945%20-7.897%2C-55.966%20-7.858%2C-55.947%20-7.835%2C-55.980%20-7.817%2C-55.991%20-7.713%2C-56.029%20-7.749%2C-56.050%20-7.740%2C-56.068%20-7.777%2C-56.100%20-7.768%2C-56.168%20-7.674%2C-56.169%20-7.490%2C-56.193%20-7.433%2C-56.230%20-7.421%2C-56.231%20-7.400%2C-56.252%20-7.426%2C-56.275%20-7.427%2C-56.288%20-7.461%2C-56.339%20-7.506%2C-56.331%20-7.525%2C-56.358%20-7.575%2C-56.350%20-7.614%2C-56.369%20-7.698%2C-56.436%20-7.805%2C-56.483%20-7.818%2C-56.502%20-7.856%2C-56.510%20-7.838%2C-56.541%20-7.840%2C-56.556%20-7.903%2C-56.586%20-7.922%2C-56.609%20-7.907%2C-56.630%20-7.936%2C-56.666%20-7.925%2C-56.684%20-7.941%2C-56.749%20-7.877%2C-56.752%20-7.840%2C-56.742%20-7.818%2C-56.723%20-7.820%2C-56.732%20-7.796%2C-56.711%20-7.780%2C-56.740%20-7.773%2C-56.753%20-7.678%2C-56.770%20-7.671%2C-56.774%20-7.641%2C-56.754%20-7.521%2C-56.768%20-7.469%2C-56.761%20-7.377%2C-56.777%20-7.353%2C-56.747%20-7.288%2C-56.761%20-7.210))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 12,
+      "species": [
+        {
+          "gbifKey": 2447631,
+          "scientificName": "Gonatodes humeralis",
+          "name": "Lagartinho-Colorido",
+          "family": "Sphaerodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q752903",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gonatodes_humeralis_281628324.jpg/960px-Gonatodes_humeralis_281628324.jpg",
+            "author": "Alessandher Piva",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gonatodes_humeralis_281628324.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "Lagartinho-Colorido (Gonatodes humeralis)"
+          }
+        },
+        {
+          "gbifKey": 2446758,
+          "scientificName": "Pseudogonatodes guianensis",
+          "name": null,
+          "family": "Sphaerodactylidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q3409745",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Pseudogonatodes_guianensis_146939126.jpg/960px-Pseudogonatodes_guianensis_146939126.jpg",
+            "author": "Jared Shorma",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudogonatodes_guianensis_146939126.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Pseudogonatodes guianensis"
+          }
+        },
+        {
+          "gbifKey": 2450567,
+          "scientificName": "Arthrosaura versteegii",
+          "name": null,
+          "family": "Gymnophthalmidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q5313840",
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": []
+}

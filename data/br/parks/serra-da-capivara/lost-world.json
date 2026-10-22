@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Antes das pinturas rupestres, as tocas do sul do Piauí serviram de covil para predadores que não existem mais.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Tigre-dente-de-sabre",
+      "scientificName": "Smilodon populator",
+      "when": "há cerca de 93 mil anos",
+      "text": "O maior dos felinos de dentes de sabre da América do Sul era um caçador de grande porte. Restos dele, entre eles mandíbulas de um filhote e de um adulto, foram achados na Toca de Cima dos Pilão e na Toca das Moendas, que parecem ter servido de covil; um dente da primeira foi datado em cerca de 93 mil anos.",
+      "sourceIds": [
+        "kinoshita2017",
+        "faure-guerin2014"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Smilodon_populator_La_Plata_Museum.jpg/1280px-Smilodon_populator_La_Plata_Museum.jpg",
+        "author": "Leandro Kibisz (Loco085)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smilodon_populator_La_Plata_Museum.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": "Esqueleto de Smilodon populator no Museu de La Plata, Argentina; reconstrução museológica, não é material do parque",
+        "context": "Esqueleto de Smilodon populator no Museu de La Plata, Argentina; reconstrução museológica, não é material do parque"
+      }
+    },
+    {
+      "kind": "megafauna_fossil",
+      "name": "Cachorro-pré-histórico",
+      "scientificName": "Protocyon troglodytes",
+      "when": "Pleistoceno superior",
+      "text": "Canídeo grande e robusto, parente distante dos cães-do-mato atuais, caçava na região no fim do Pleistoceno. Seus restos aparecem nas mesmas tocas do Smilodon, usadas como refúgio por predadores.",
+      "sourceIds": [
+        "faure-guerin2014"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "kinoshita2017",
+      "institution": "IPEN",
+      "title": "ESR dating of Smilodon populator from Toca de Cima dos Pilão, Piauí, Brazil",
+      "url": "https://repositorio.ipen.br/entities/publication/bda3ecc8-faa2-4f6d-b035-b37d9f782272",
+      "accessed": "2026-10-22"
+    },
+    {
+      "id": "faure-guerin2014",
+      "institution": "Annales de Paléontologie (HAL)",
+      "title": "Protocyon troglodytes e Smilodon populator do Pleistoceno superior do Parque Nacional Serra da Capivara (Faure & Guérin, 2014)",
+      "url": "https://hal-univ-lyon1.archives-ouvertes.fr/hal-02351158v1",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Aqui um rio some dentro da rocha e reaparece mais adiante, com água tão clara que dá para flutuar olhando o fundo.",
+  "intro": "No sudoeste de Mato Grosso do Sul, entre Bonito, Bodoquena e Jardim, o Parque Nacional da Serra da Bodoquena protege cerca de 77 mil hectares em dois fragmentos. É um enclave de Mata Atlântica no meio do Cerrado, com rios cor de esmeralda, cânions, cachoeiras, sumidouros e ressurgências.",
+  "sourceIds": [
+    "icmbio"
+  ],
+  "protects": {
+    "summary": "Rios cristalinos e uma floresta atlântica no meio do Cerrado",
+    "items": [
+      {
+        "title": "Mata Atlântica fora do lugar",
+        "text": "O parque é um encrave de Mata Atlântica cercado pelo Cerrado, com matas ciliares preservadas ao longo dos rios.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "title": "Águas cristalinas",
+        "text": "As águas do Perdido e do Salobra são límpidas e transparentes, e em alguns poços ganham cor turquesa conforme o sol.",
+        "sourceIds": [
+          "edital",
+          "icmbio-salobra"
+        ]
+      },
+      {
+        "title": "Paredões e lapiás",
+        "text": "Nos paredões calcários do Morro do Boi aparece o lapiás, formação rochosa de grande importância geológica, com vegetação típica desses ambientes.",
+        "sourceIds": [
+          "edital"
+        ]
+      },
+      {
+        "title": "Rios que somem",
+        "text": "Em Bonito, o rio Perdido corre cerca de 1.300 metros sob a terra, entre o sumidouro e a ressurgência.",
+        "sourceIds": [
+          "edital",
+          "icmbio-perdido"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Sumidouro e Ressurgência do Rio Perdido",
+      "text": "No fragmento sul, em Bonito, o rio Perdido entra na rocha e volta à superfície mais de um quilômetro adiante. A trilha completa tem 3,5 km, com sete deques, banho e flutuação.",
+      "sourceIds": [
+        "icmbio-perdido"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cânion do Rio Salobra",
+      "text": "No fragmento norte, paredões de rocha emolduram águas límpidas e azuis. A trilha de 5 km vai pela margem e pelo leito do rio, com pequenas cachoeiras.",
+      "sourceIds": [
+        "icmbio-salobra"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg/1280px-C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg",
+        "author": "Otávio Nogueira",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg",
+        "width": 1280,
+        "height": 854,
+        "alt": "Águas turquesa do rio Salobra sob paredões calcários cobertos de mata",
+        "context": "Águas turquesa do rio Salobra encaixadas entre paredões calcários, no cânion do rio Salobra, em Bodoquena (MS)."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Para visitar qualquer atrativo do parque é obrigatório contratar um condutor de visitantes credenciado pelo ICMBio.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "text": "O Balneário Turquesa, no Salobra, tem poços cristalinos que mudam para azul-turquesa conforme a incidência do sol.",
+      "sourceIds": [
+        "edital"
+      ]
+    },
+    {
+      "text": "O parque recebe turistas desde janeiro de 2021, sempre guiados por condutores credenciados pelo ICMBio.",
+      "sourceIds": [
+        "edital"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2000 · Nasce o parque",
+      "text": "Um decreto de 21 de setembro cria o Parque Nacional da Serra da Bodoquena, hoje com 77.021 hectares.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2021 · Abertura à visitação",
+      "text": "Depois de formar os primeiros condutores de visitantes, em 2020, o parque passa a receber turistas guiados.",
+      "sourceIds": [
+        "edital"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Trichomycterus dali",
+      "name": "Cambeva",
+      "why": "Pequeno bagre registrado dentro do parque e classificado como vulnerável pela IUCN.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_%289%29.jpg/960px-Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_%289%29.jpg",
+        "author": "Paulo Robson de Souza",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_(9).jpg",
+        "width": 640,
+        "height": 428,
+        "alt": "Cambeva (Trichomycterus dali); fotografia da espécie",
+        "context": "Retrato ilustrativo de Trichomycterus dali. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "why": "Vulnerável segundo a IUCN, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 640,
+        "height": 800,
+        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Anodorhynchus hyacinthinus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "why": "Vulnerável segundo a IUCN, é um dos mamíferos registrados nas matas do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
+        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Anta (Tapirus terrestris); fotografia da espécie",
+        "context": "Retrato ilustrativo de Tapirus terrestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Serra da Bodoquena",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-perdido",
+      "institution": "ICMBio",
+      "title": "Trilha Sumidouro-Ressurgência do rio Perdido",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena/atrativos/trilha-sumidouro-ressurgencia-do-rio-perdido",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "icmbio-salobra",
+      "institution": "ICMBio",
+      "title": "Trilha Cânion do rio Salobra",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-bodoquena/atrativos/trilha-canion-do-rio-salobra",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "edital",
+      "institution": "ICMBio",
+      "title": "Anexo A do edital de concessão: Caracterização do Parque Nacional da Serra da Bodoquena (2022)",
+      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/editais-diversos/editais-diversos-2022/2.3_PNSBd___ANEXO_A_AREA_DA_CONCESSAO_v4_pos_ICMBio_limpo.pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

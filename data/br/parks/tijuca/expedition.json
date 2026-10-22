@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Tijuca",
+  "title": "A floresta que o Rio replantou",
+  "subtitle": "No meio de uma das maiores cidades do Brasil, uma mata que foi derrubada para dar lugar ao café voltou a cobrir os morros, e hoje guarda o Corcovado, cachoeiras e a água de que a cidade precisa.",
+  "centralQuestion": "Como uma floresta destruída pelo café e pela lenha voltou a crescer dentro do Rio de Janeiro, e o que ela faz pela cidade hoje?",
+  "introduction": [
+    "A Floresta da Tijuca parece ter estado sempre ali, mas boa parte dela tem pouco mais de século e meio. Antes de ser mata, foram lavouras de café, carvoarias e madeireiras que cobriram a encosta.",
+    "Hoje o Parque Nacional da Tijuca tem 3.958 hectares e abriga o Corcovado, com o Cristo Redentor, e o Pico da Tijuca. Entre cachoeiras, ruínas e mirantes, é uma floresta que a cidade plantou e usa todos os dias."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Floresta_tijuca_pico_tijuca_mirim.jpg/1280px-Floresta_tijuca_pico_tijuca_mirim.jpg",
+    "author": "Halleypo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floresta_tijuca_pico_tijuca_mirim.jpg",
+    "width": 1280,
+    "height": 960,
+    "alt": "Pico rochoso coberto de floresta",
+    "context": "O Pico da Tijuca Mirim visto do Mirante do Excelsior."
+  },
+  "moments": [
+    {
+      "id": "derrubada",
+      "eyebrow": "01 · A derrubada",
+      "title": "Quando a água acabou",
+      "question": "Por que o Império mandou plantar uma floresta?",
+      "paragraphs": [
+        "Nos séculos XVII e XVIII, madeira, café e outras monoculturas derrubaram a maior parte das encostas onde hoje está o parque. Sem a floresta, a cidade passou a sofrer com a falta de água.",
+        "Em 1861, D. Pedro II ordenou uma iniciativa pioneira: desapropriar terras e reflorestá-las, para que a vegetação voltasse a crescer. Hoje o ICMBio descreve a Tijuca como a maior floresta urbana do mundo replantada pelo homem. Os paisagistas Glaziou e Burle Marx também trabalharam na revitalização da floresta.",
+        "Essa história tem um lado que as ruínas guardam. O Roteiro dos Escravos passa por caminhos e pelas ruínas da fazenda de café do Midosi, e lembra o trabalho escravo nas lavouras e no próprio reflorestamento."
+      ],
+      "sourceIds": [
+        "icmbio-n1",
+        "icmbio-n2"
+      ],
+      "images": []
+    },
+    {
+      "id": "paisagem",
+      "eyebrow": "02 · A paisagem",
+      "title": "Picos, cachoeiras e uma fauna discreta",
+      "question": "O que existe dentro de um parque feito de pedaços de cidade?",
+      "paragraphs": [
+        "O parque tem quatro setores, misturados à malha urbana: Floresta da Tijuca, Serra da Carioca, Pedra Bonita/Pedra da Gávea e Pretos Forros/Covanca. No Corcovado, o Cristo Redentor recebe visitantes de todo o mundo, e o plano de manejo limita a 1.300 pessoas ao mesmo tempo o platô superior, para proteger o lugar.",
+        "Entre as cachoeiras estão a Cascatinha Taunay e a Cachoeira das Almas. O pintor Nicolas Taunay morava nos limites do parque e se apaixonou pela primeira, que inspirou seus quadros e acabou levando seu nome. Na Capela Mayrink, há quadros de Cândido Portinari.",
+        "Entre as espécies ameaçadas protegidas pelo parque estão a tiriba-grande, o gavião-pomba, o morcego-vermelho e a rãzinha Thoropa lutzi."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-n1",
+        "icmbio-n2"
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Coastal_View_With_Pedra_da_Gavea_2.jpg/1280px-Coastal_View_With_Pedra_da_Gavea_2.jpg",
+          "author": "Donatas Dabravolskas",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coastal_View_With_Pedra_da_Gavea_2.jpg",
+          "width": 1280,
+          "height": 850,
+          "alt": "Pedra da Gávea coberta de névoa sobre a praia de São Conrado",
+          "context": "A Pedra da Gávea com névoa na base, sobre a praia de São Conrado, no Rio de Janeiro."
+        }
+      ],
+      "note": {
+        "title": "Um limite para proteger o Corcovado",
+        "body": "O plano de manejo limita a 1.300 pessoas ao mesmo tempo no platô superior do Corcovado."
+      }
+    },
+    {
+      "id": "parque",
+      "eyebrow": "03 · O parque",
+      "title": "Um parque nacional dentro da cidade",
+      "question": "Como a floresta virou unidade de conservação e o que a ameaça?",
+      "paragraphs": [
+        "O Decreto nº 50.923, de 6 de julho de 1961, criou o Parque Nacional do Rio de Janeiro, reunindo antigas florestas protegidas. O Decreto nº 60.183, de 8 de fevereiro de 1967, deu à unidade o nome de Parque Nacional da Tijuca. Os limites foram ampliados por decreto em 3 de junho de 2004, e hoje a área soma 3.958,51 hectares.",
+        "Em 2012, o parque passou a fazer parte do sítio Patrimônio Mundial \"Rio de Janeiro: Paisagens Cariocas entre a Montanha e o Mar\".",
+        "A floresta presta serviços à cidade: protege mananciais, segura encostas contra a erosão, ameniza enchentes e o calor e reduz a poluição do ar e o barulho."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "icmbio-pm",
+        "icmbio-n2"
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "parque",
+    "title": "Da derrubada ao Patrimônio Mundial",
+    "intro": "Marcos da floresta que voltou.",
+    "items": [
+      {
+        "id": "1861",
+        "year": "1861",
+        "title": "O reflorestamento",
+        "description": "D. Pedro II manda desapropriar e reflorestar terras para recuperar a floresta.",
+        "sourceIds": [
+          "icmbio-n1"
+        ]
+      },
+      {
+        "id": "1961",
+        "year": "1961",
+        "title": "Parque Nacional do Rio de Janeiro",
+        "description": "O Decreto nº 50.923, de 6 de julho, reúne antigas florestas protegidas numa única unidade.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "1967",
+        "year": "1967",
+        "title": "Nasce a Tijuca",
+        "description": "O Decreto nº 60.183, de 8 de fevereiro, dá à unidade o nome de Parque Nacional da Tijuca.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2004",
+        "year": "2004",
+        "title": "Limites ampliados",
+        "description": "Um decreto de 3 de junho amplia a área do parque.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2012",
+        "year": "2012",
+        "title": "Paisagens Cariocas",
+        "description": "O parque passa a integrar o sítio Patrimônio Mundial \"Rio de Janeiro: Paisagens Cariocas entre a Montanha e o Mar\".",
+        "sourceIds": [
+          "icmbio-pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que a cidade fez e que mantém a cidade",
+  "closing": "A Tijuca mostra que a natureza pode ser restaurada, mas isso leva décadas e não termina: a floresta precisa de gente que a proteja e a visite com cuidado.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parna da Tijuca",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-tijuca",
+      "accessedAt": "2026-10-22",
+      "use": "decretos, área e espécies ameaçadas"
+    },
+    {
+      "id": "icmbio-n1",
+      "institution": "ICMBio",
+      "title": "Visitas guiadas aliam história e belezas naturais",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/visitas-guiadas-aliam-historia-e-belezas-naturais/",
+      "accessedAt": "2026-10-22",
+      "use": "reflorestamento, ruínas, artistas e cachoeiras"
+    },
+    {
+      "id": "icmbio-n2",
+      "institution": "ICMBio",
+      "title": "Tijuca retoma obras do centro de visitantes",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/tijuca-retoma-obras-do-centro-de-visitantes/",
+      "accessedAt": "2026-10-22",
+      "use": "serviços ambientais e limite de visitantes no Corcovado"
+    },
+    {
+      "id": "icmbio-pm",
+      "institution": "ICMBio",
+      "title": "Unidades de Conservação federais que são patrimônios mundiais pela Unesco",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/patrimonio-mundial",
+      "accessedAt": "2026-10-22",
+      "use": "Patrimônio Mundial"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-21",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: conferir a altitude do Pico da Tijuca em fonte oficial; revisão humana."
+}

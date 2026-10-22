@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Restinga de Jurubatiba",
+  "title": "Um colar de lagoas entre a areia e o mar",
+  "subtitle": "No norte do Rio de Janeiro, a restinga mais bem conservada do litoral fluminense guarda lagoas de cores diferentes, plantas que abrem caminho na areia e uma pesquisa científica de mais de 20 anos.",
+  "centralQuestion": "Como a vida se instala numa faixa de areia quente, salgada e pobre, e o que as lagoas contam sobre ela?",
+  "introduction": [
+    "Do mar para dentro, a paisagem muda a cada passo: ervas rasteiras na beira da praia, moitas de clúsia, palmeiras, brejos e matas alagadas, e, entre a areia e o verde, um colar de lagoas que mudam de cor com a chuva.",
+    "O Parque Nacional da Restinga de Jurubatiba, criado em 1998, tem cerca de 14,9 mil hectares em Macaé, Carapebus e Quissamã, no norte fluminense. Aqui, a ciência acompanha as lagoas há mais de duas décadas, e quem visita pode conhecer um dos trechos de restinga mais bem conservados do Rio."
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Lagoa_-_Restinga_de_Jurubatiba.jpg/1280px-Lagoa_-_Restinga_de_Jurubatiba.jpg",
+    "author": "Danielsouza.1988",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagoa_-_Restinga_de_Jurubatiba.jpg",
+    "width": 1280,
+    "height": 768,
+    "alt": "Lagoa de água escura cercada de vegetação de restinga",
+    "context": "Uma das lagoas costeiras do Parque Nacional da Restinga de Jurubatiba."
+  },
+  "moments": [
+    {
+      "id": "lagoas",
+      "eyebrow": "01 · As lagoas",
+      "title": "Dezoito lagoas, cada uma com sua cor",
+      "question": "De onde vêm as lagoas de Jurubatiba?",
+      "paragraphs": [
+        "O parque tem 18 lagoas, entre elas as de Carapebus, Amarra-Boi, Piri Piri e Encantada. Elas se formaram há cerca de cinco mil anos, quando o mar se estabilizou no nível atual. Umas correm perpendiculares à praia, como antigos rios, e outras ficam paralelas a ela.",
+        "As lagoas paralelas à praia nascem da água subterrânea que aflora logo atrás da barra de areia construída pelo próprio mar. Às vezes a barra se rompe e a lagoa toca o oceano. A Lagoa de Carapebus é a maior, com cerca de 6,5 quilômetros quadrados, e quatro das 48 espécies de plantas aquáticas registradas só aparecem nas suas águas.",
+        "Cada lagoa tem uma cor, que escurece ou clareia conforme o volume de água, porque elas guardam muito carbono vindo da vegetação ao redor. Em estiagens fortes, a Lagoa do Amarra-Boi chega a desaparecer."
+      ],
+      "sourceIds": [
+        "icmbio-lagoas",
+        "icmbio-quem"
+      ],
+      "images": [],
+      "citations": [
+        {
+          "sourceId": "icmbio-lagoas",
+          "locator": "página Lagoas"
+        },
+        {
+          "sourceId": "icmbio-quem",
+          "locator": "página Quem somos"
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "eyebrow": "02 · A vida",
+      "title": "Plantas que abrem caminho e peixes que aguentam a seca",
+      "question": "Como se vive na areia e na água que muda?",
+      "paragraphs": [
+        "Calor forte e pouca umidade exigem adaptações. As espécies que conseguem se fixar na areia criam sombra e abrigo para que outras se instalem depois. Da praia para dentro, a vegetação vai das ervas rasteiras a moitas de clúsia, palmeiras, brejos e matas permanentemente inundadas.",
+        "Mais de cem espécies de peixes vivem nas lagoas e brejos. Em anos secos, cada lagoa fica isolada e só os mais resistentes à salinidade e à falta de oxigênio permanecem; a traíra pode passar até 180 dias sem comer.",
+        "O ratinho-goitacá, roedor que só vive em restingas, come muitas sementes da palmeira guriri e ajuda a espalhá-la pela areia. O sabiá-da-praia, que já sumiu de boa parte do estado do Rio por caça e perda de habitat, ainda é abundante em Jurubatiba."
+      ],
+      "sourceIds": [
+        "icmbio-quem",
+        "icmbio-bio"
+      ],
+      "images": [],
+      "citations": [
+        {
+          "sourceId": "icmbio-quem",
+          "locator": "página Quem somos"
+        },
+        {
+          "sourceId": "icmbio-bio",
+          "locator": "página Biodiversidade"
+        }
+      ]
+    },
+    {
+      "id": "pesquisa",
+      "eyebrow": "03 · A ciência",
+      "title": "Um laboratório a céu aberto",
+      "question": "Como o parque é estudado e protegido?",
+      "paragraphs": [
+        "Quando os portugueses chegaram, a faixa entre os rios Macaé e Paraíba do Sul era ocupada pelos índios Goitacazes. Entre 1844 e 1861, o Canal Campos-Macaé foi aberto cruzando lagoas do atual parque, e hoje recebe passeios de barco.",
+        "O parque foi criado em 29 de abril de 1998 para conservar a restinga com fins científicos, educativos e recreativos. O Programa de Pesquisas Ecológicas de Longa Duração, do CNPq, passou a estudar as lagoas e soma mais de 20 anos de pesquisa, o que faz de Jurubatiba um laboratório a céu aberto."
+      ],
+      "sourceIds": [
+        "icmbio-quem",
+        "icmbio-lagoas",
+        "icmbio-visita"
+      ],
+      "images": [],
+      "citations": [
+        {
+          "sourceId": "icmbio-quem",
+          "locator": "página Quem somos"
+        },
+        {
+          "sourceId": "icmbio-lagoas",
+          "locator": "página Lagoas"
+        },
+        {
+          "sourceId": "icmbio-visita",
+          "locator": "página Visitação"
+        }
+      ]
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "pesquisa",
+    "title": "Dos goitacazes ao parque",
+    "intro": "Três marcos documentados nas páginas do ICMBio.",
+    "items": [
+      {
+        "id": "xvi",
+        "year": "Século XVI",
+        "title": "Terra dos Goitacazes",
+        "description": "A faixa entre os rios Macaé e Paraíba do Sul era ocupada pelos índios Goitacazes.",
+        "sourceIds": [
+          "icmbio-quem"
+        ]
+      },
+      {
+        "id": "1844",
+        "year": "1844–1861",
+        "title": "Canal Campos-Macaé",
+        "description": "O canal é aberto cruzando lagoas do atual parque.",
+        "sourceIds": [
+          "icmbio-visita"
+        ]
+      },
+      {
+        "id": "1998",
+        "year": "1998",
+        "title": "O parque da restinga",
+        "description": "Em 29 de abril, é criado o Parque Nacional da Restinga de Jurubatiba.",
+        "sourceIds": [
+          "icmbio-quem"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma restinga que ainda ensina",
+  "closing": "Jurubatiba mostra que a restinga, tantas vezes ocupada por casas e plantações, é um ecossistema que pede estudo contínuo. Cada lagoa guarda uma história diferente, e vale a viagem para ouvir mais de uma.",
+  "references": [
+    {
+      "id": "icmbio-quem",
+      "institution": "ICMBio",
+      "title": "Quem somos: Parque Nacional da Restinga de Jurubatiba",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-restinga-de-jurubatiba/quem-somos",
+      "accessedAt": "2026-10-22",
+      "use": "criação, área e história"
+    },
+    {
+      "id": "icmbio-lagoas",
+      "institution": "ICMBio",
+      "title": "Lagoas do Parna Restinga de Jurubatiba",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-restinga-de-jurubatiba/lagoas-1",
+      "accessedAt": "2026-10-22",
+      "use": "formação, cores e pesquisa nas lagoas"
+    },
+    {
+      "id": "icmbio-bio",
+      "institution": "ICMBio",
+      "title": "Biodiversidade: Parna Restinga de Jurubatiba",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-restinga-de-jurubatiba/biodiversidade",
+      "accessedAt": "2026-10-22",
+      "use": "plantas, peixes e fauna"
+    },
+    {
+      "id": "icmbio-visita",
+      "institution": "ICMBio",
+      "title": "Visitação: Parna Restinga de Jurubatiba",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-da-restinga-de-jurubatiba/orientacao-de-visitacao",
+      "accessedAt": "2026-10-22",
+      "use": "Canal Campos-Macaé e passeios"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho_para_revisao",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendência: conferir com o ICMBio a data do decreto de criação (29/04/1998) e os números de lagoas e espécies, que vêm das páginas institucionais.",
+  "keyFacts": [
+    {
+      "label": "hectares de restinga, lagoas e matas alagadas",
+      "value": "≈ 14,9 mil",
+      "sourceId": "icmbio-quem",
+      "locator": "página Quem somos"
+    },
+    {
+      "label": "lagoas no parque",
+      "value": "18",
+      "sourceId": "icmbio-lagoas",
+      "locator": "página Lagoas"
+    },
+    {
+      "label": "km² da Lagoa de Carapebus, a maior do parque",
+      "value": "≈ 6,5",
+      "sourceId": "icmbio-lagoas",
+      "locator": "página Lagoas"
+    },
+    {
+      "label": "espécies de plantas aquáticas registradas nas lagoas",
+      "value": "48",
+      "sourceId": "icmbio-lagoas",
+      "locator": "página Lagoas"
+    },
+    {
+      "label": "espécies de peixes nas lagoas e brejos",
+      "value": "mais de 100",
+      "sourceId": "icmbio-bio",
+      "locator": "página Biodiversidade"
+    },
+    {
+      "label": "dias que a traíra pode passar sem comer",
+      "value": "até 180",
+      "sourceId": "icmbio-bio",
+      "locator": "página Biodiversidade"
+    }
+  ]
+}

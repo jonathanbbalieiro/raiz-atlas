@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Um macaco descoberto em 1990 e um papagaio que dorme em ilhotas: o Superagui guarda segredos do litoral do Paraná.",
+  "intro": "No litoral norte do Paraná, em Guaraqueçaba, o parque protege cerca de 34 mil hectares nas ilhas do Superagui e das Peças e no vale continental do rio dos Patos. São florestas de planície, restingas, manguezais e praias. Faz parte do sítio Patrimônio Mundial das reservas de Mata Atlântica do Sudeste.",
+  "sourceIds": [
+    "pm",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "Florestas de planície, manguezais e praias do Lagamar",
+    "items": [
+      {
+        "title": "Floresta, restinga e mangue",
+        "text": "O parque protege floresta atlântica de planície, restingas, manguezais e praias. É a única unidade de proteção integral que guarda de forma significativa praias arenosas no Paraná.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "O reino do mico-leão-da-cara-preta",
+        "text": "Abriga a maior população do mico-leão-da-cara-preta, primata que só vive nas planícies da região do parque e seu entorno.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Dormitório de papagaios",
+        "text": "As ilhas do Pinheiro e do Pinheirinho, dentro do parque, são o dormitório do papagaio-de-cara-roxa, espécie ameaçada.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Cultura caiçara",
+        "text": "O fandango, com dança, música e instrumentos feitos à mão, é o principal patrimônio cultural da área. Comunidades tradicionais vivem dentro e ao redor do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Praia Deserta",
+      "text": "Uma longa faixa de areia voltada para o oceano na Ilha do Superagui. A presença de aves migratórias ali pesou na ampliação do parque em 1997.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Superagui_-_A_praia_deserta.jpg/1280px-Superagui_-_A_praia_deserta.jpg",
+        "author": "Rubens Nemitz Jr",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Superagui_-_A_praia_deserta.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Praia larga e vazia sob céu nublado",
+        "context": "Faixa de areia da Praia Deserta, na Ilha do Superagui."
+      }
+    },
+    {
+      "title": "Revoada na Ilha do Pinheiro",
+      "text": "A observação do papagaio-de-cara-roxa chegando à Ilha do Pinheiro para dormir é um dos atrativos do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O mico-leão-da-cara-preta só foi descrito pela ciência em 1990, no ano seguinte à criação do parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Superagui pode vir do tupi-guarani. Uma das leituras é rainha dos peixes; outra, lugar onde há muita carne de peixe.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Até meados do século XX, um istmo de cerca de 4 km ligava o Superagui ao continente. A abertura do Canal do Varadouro transformou a área em ilha e isolou animais.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A madeira leve da caxeta, árvore ameaçada, é usada para fazer rabecas e outros instrumentos de fandango.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Em 2011, o Museu Vivo do Fandango estava entre as cinco melhores práticas de salvaguarda de patrimônio imaterial selecionadas pela UNESCO.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1983-1985 · Búfalos contra a ilha",
+      "text": "Uma empresa tenta ocupar as ilhas para criar búfalos em grande escala. Moradores protestam, e em 1985 o tombamento estadual das ilhas é concretizado.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1989 · Nasce o parque",
+      "text": "Um decreto cria o Parque Nacional do Superagui, com 21,4 mil hectares nas ilhas do Superagui e das Peças.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "1997 · Ampliação",
+      "text": "Uma lei amplia o parque para quase 34 mil hectares, incluindo o vale do rio dos Patos, área do mico-leão-da-cara-preta.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "1999 · Patrimônio Mundial",
+      "text": "A UNESCO reconhece as Reservas da Mata Atlântica do Sudeste. O Superagui é uma das 25 unidades do núcleo do sítio.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Leontopithecus caissara",
+      "name": "Mico-leão-da-cara-preta",
+      "why": "Primata em perigo, descrito em 1990, com a maior população protegida pelo parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Mico-le%C3%A3o-de-cara-preta-PARNA_do_Superagui-Gabriel-Eloi-Marchi%28004%29.jpg/960px-Mico-le%C3%A3o-de-cara-preta-PARNA_do_Superagui-Gabriel-Eloi-Marchi%28004%29.jpg",
+        "author": "Gabriel-Eloi-Marchi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mico-le%C3%A3o-de-cara-preta-PARNA_do_Superagui-Gabriel-Eloi-Marchi(004).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Mico-leão-da-cara-preta (Leontopithecus caissara); fotografia da espécie",
+        "context": "Retrato ilustrativo de Leontopithecus caissara. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Amazona brasiliensis",
+      "name": "Papagaio-de-cara-roxa",
+      "why": "Dorme nas ilhas do Pinheiro e do Pinheirinho, dentro do parque. É foco de pesquisa e educação ambiental.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Papagaio-de-cara-roxa-PARNA_do_Superagui-Gabriel-Eloi-Marchi%28003%29.jpg/960px-Papagaio-de-cara-roxa-PARNA_do_Superagui-Gabriel-Eloi-Marchi%28003%29.jpg",
+        "author": "Gabriel-Eloi-Marchi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papagaio-de-cara-roxa-PARNA_do_Superagui-Gabriel-Eloi-Marchi(003).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Papagaio-de-cara-roxa (Amazona brasiliensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Amazona brasiliensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Sotalia guianensis",
+      "name": "Boto-cinza",
+      "why": "O mamífero mais registrado no parque. Os botos são observados nas baías da região.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Descri%C3%A7%C3%A3o_in%C3%ADcio_ou_comportamento.jpg",
+        "author": "Instituto Boto Cinza",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Descri%C3%A7%C3%A3o_in%C3%ADcio_ou_comportamento.jpg",
+        "width": 640,
+        "height": 594,
+        "alt": "Boto-cinza (Sotalia guianensis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Sotalia guianensis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Superagui (2020)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-do-superagui/arquivos/plano_de_manejo_parna_do_superagui.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional do Superagui",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/178",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

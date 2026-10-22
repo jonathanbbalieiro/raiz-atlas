@@ -1,0 +1,22 @@
+RAIZ - CODIGO FONTE PREPARADO PARA PUBLICACAO
+
+ATENCAO: este arquivo ZIP NAO CONTEM a pasta .next compilada.
+Para iniciar em Windows, execute iniciar.bat com internet na primeira vez.
+Ele instala dependencias (npm ci), compila (npm run build) e inicia em localhost:3000.
+
+SITE PUBLICO (Vercel / Next.js):
+1. Publique o conteudo da pasta raiz-atlas em um repositorio Git.
+2. Conecte esse repositorio na Vercel, framework Next.js.
+3. Configure NEXT_PUBLIC_SITE_URL com seu dominio real e HTTPS.
+4. Mantenha RAIZ_PREVIEW_DRAFTS=0 no dominio publico.
+5. Rode npm run release:verify e npm run build, ou use o build automatico da Vercel.
+
+IMPORTANTE - APROVACAO EDITORIAL:
+- Existem 75 Expedicoes, 77 guias e 19 secoes Mundo Perdido em rascunho.
+- O build publico mostra mapa, parques, biodiversidade e fotos livres, mas NAO
+  exibe as secoes nao aprovadas. Os dados ficam preservados no codigo.
+- Em PREVIA de revisao, RAIZ_PREVIEW_DRAFTS=1 libera rascunhos e ativa noindex.
+  PREVIA exige protecao de acesso na hospedagem; noindex nao substitui senha.
+
+FOTOS E MAPA usam fontes externas. Teste conexao, licencas e creditos.
+DOCUMENTACAO: veja PUBLICAR_RAIZ.md.

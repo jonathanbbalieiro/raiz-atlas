@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Um pedaço da floresta de araucárias que sobreviveu ao ciclo da madeira no oeste catarinense.",
+  "intro": "Entre Passos Maia e Ponte Serrada, no oeste de Santa Catarina, o parque protege cerca de 12,6 mil hectares de Floresta Ombrófila Mista, a mata das araucárias. Criado em 2005, após ampla mobilização e consulta pública, guarda remanescentes de uma floresta que quase desapareceu no estado.",
+  "sourceIds": [
+    "pm",
+    "cnuc"
+  ],
+  "protects": {
+    "summary": "Remanescentes da floresta com araucárias",
+    "items": [
+      {
+        "title": "A mata das araucárias",
+        "text": "O levantamento para o plano de manejo identificou 174 espécies florestais, em matas com diferentes estágios de regeneração e remanescentes bem conservados.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Aves da floresta montana",
+        "text": "Foram registradas 234 espécies de aves, 48 delas endêmicas da Mata Atlântica. Quatro, como o grimpeiro, são restritas à floresta atlântica de montanha.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Mamíferos de médio e grande porte",
+        "text": "Foram confirmadas 30 espécies de mamíferos, incluindo 11 carnívoros, como o cachorro-do-mato, além de tamanduá-mirim e veados.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Águas do rio Chapecó",
+        "text": "Os rios do Mato, Chapecozinho e Chapecó atravessam a região e abastecem 11 comunidades rurais no entorno.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Dossel de araucárias",
+      "text": "Nos trechos mais conservados, um dossel exuberante de araucárias cobre a mata. No interior crescem outras espécies ameaçadas de extinção.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Vale_de_arauc%C3%A1rias.jpg",
+        "author": "Wilamir Branco",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_de_arauc%C3%A1rias.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Mata de araucárias no Parque Nacional das Araucárias (SC), vista de um ponto elevado, com a floresta de copas características se estendendo até as serras ao fundo.",
+        "context": "Mata de araucárias no Parque Nacional das Araucárias (SC), vista de um ponto elevado, com a floresta de copas características se estendendo até as serras ao fundo."
+      }
+    },
+    {
+      "title": "Corredeiras do rio Chapecó",
+      "text": "O rio Chapecó corre em vale encaixado, com curvas e meandros. Diferenças entre camadas de lava e diques de rocha mais dura formam corredeiras e cachoeiras.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Uma pesquisa feita no Paraná e em Santa Catarina antes da criação do parque apontou que 97% dos entrevistados eram a favor de proteger as matas de araucária.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A campanha SOS Araucárias reuniu 5.000 assinaturas pedindo ao presidente a criação das unidades de conservação.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "No ciclo da madeira, araucárias e imbuias derrubadas na beira do rio Uruguai viravam balsas e desciam até São Borja, de onde seguiam para a Argentina.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "A região registra em média 15 geadas por ano.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O gavião-bombachinha foi registrado no parque pela primeira vez no oeste catarinense.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2002 · Alerta para as araucárias",
+      "text": "O Ministério do Meio Ambiente cria um grupo de trabalho para salvar a floresta de araucárias em Santa Catarina e define áreas prioritárias para novas unidades.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2003 · Força-tarefa",
+      "text": "Quarenta especialistas de 16 instituições percorrem cerca de 40 mil km com imagens de satélite para escolher as áreas a proteger.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2005 · Nasce o parque",
+      "text": "Após consultas públicas, um decreto cria o Parque Nacional das Araucárias, junto com a Estação Ecológica da Mata Preta.",
+      "sourceIds": [
+        "pm",
+        "cnuc"
+      ]
+    },
+    {
+      "title": "2010 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo do parque.",
+      "sourceIds": [
+        "cnuc"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Araucaria angustifolia",
+      "name": "Araucária",
+      "why": "Dá nome ao parque e é criticamente ameaçada. Proteger sua diversidade genética foi um dos motivos da criação.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG/960px-Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+        "author": "Germano Roberto Schüür",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+        "width": 640,
+        "height": 427,
+        "alt": "Araucária (Araucaria angustifolia); fotografia da espécie",
+        "context": "Retrato ilustrativo de Araucaria angustifolia. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pyrrhura frontalis",
+      "name": "Tiriba-de-testa-vermelha",
+      "why": "A ave mais abundante nos levantamentos do plano de manejo e a mais registrada no parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_%28121%29.jpg/960px-%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_%28121%29.jpg",
+        "author": "@LuizAlves1990",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_(121).jpg",
+        "width": 640,
+        "height": 802,
+        "alt": "Tiriba-de-testa-vermelha (Pyrrhura frontalis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pyrrhura frontalis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Celeus galeatus",
+      "name": "Pica-pau-de-cara-canela",
+      "why": "Pica-pau ameaçado de extinção, registrado no parque durante os estudos do plano de manejo.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Dryocopus_galeatus_-_Helmeted_Woodpecker_%28female%29.JPG",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dryocopus_galeatus_-_Helmeted_Woodpecker_(female).JPG",
+        "width": 640,
+        "height": 640,
+        "alt": "Pica-pau-de-cara-canela (Celeus galeatus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Celeus galeatus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional das Araucárias (2010)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-das-araucarias/arquivos/pm_parna_araucarias_1.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "cnuc",
+      "institution": "MMA / CNUC",
+      "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional das Araucárias",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/262",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

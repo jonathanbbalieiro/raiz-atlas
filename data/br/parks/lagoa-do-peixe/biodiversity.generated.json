@@ -1,0 +1,1002 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-50.754%20-31.029%2C-50.776%20-31.013%2C-50.888%20-31.127%2C-50.880%20-31.132%2C-50.907%20-31.162%2C-50.913%20-31.163%2C-50.972%20-31.229%2C-50.976%20-31.229%2C-51.005%20-31.257%2C-51.025%20-31.285%2C-51.038%20-31.294%2C-51.064%20-31.318%2C-51.093%20-31.359%2C-51.131%20-31.390%2C-51.137%20-31.401%2C-51.187%20-31.451%2C-51.159%20-31.491%2C-51.040%20-31.374%2C-50.901%20-31.259%2C-50.911%20-31.250%2C-50.912%20-31.243%2C-50.754%20-31.076%2C-50.754%20-31.029))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 124,
+      "species": [
+        {
+          "gbifKey": 2433480,
+          "scientificName": "Arctocephalus australis",
+          "name": "Lobo-marinho-sul-americano",
+          "family": "Otariidae",
+          "records": 48,
+          "iucn": "LC",
+          "wikidata": "Q649127",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Lobo-marinho-sul-americano-ESEC_Jur%C3%A9ia-Itatins-Jufranfe%28001%29.jpg/960px-Lobo-marinho-sul-americano-ESEC_Jur%C3%A9ia-Itatins-Jufranfe%28001%29.jpg",
+            "author": "Jufranfe",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lobo-marinho-sul-americano-ESEC_Jur%C3%A9ia-Itatins-Jufranfe(001).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Lobo-marinho-sul-americano (Arctocephalus australis)"
+          }
+        },
+        {
+          "gbifKey": 5220001,
+          "scientificName": "Pontoporia blainvillei",
+          "name": "Golfinho-do-rio-da-prata",
+          "family": "Pontoporiidae",
+          "records": 30,
+          "iucn": "VU",
+          "wikidata": "Q622597",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Delfin_maly.png",
+            "author": "Dixi at Polish Wikipedia",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delfin_maly.png",
+            "width": 640,
+            "height": 166,
+            "alt": "Golfinho-do-rio-da-prata (Pontoporia blainvillei)"
+          }
+        },
+        {
+          "gbifKey": 2440447,
+          "scientificName": "Tursiops truncatus",
+          "name": "Golfinho-comum",
+          "family": "Delphinidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q174199",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Tursiops_truncatus_01-cropped.jpg/960px-Tursiops_truncatus_01-cropped.jpg",
+            "author": "NASA",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01-cropped.jpg",
+            "width": 640,
+            "height": 473,
+            "alt": "golfinho-comum (Tursiops truncatus)"
+          }
+        },
+        {
+          "gbifKey": 2433471,
+          "scientificName": "Arctocephalus tropicalis",
+          "name": "Lobo-marinho-do-peito-branco",
+          "family": "Otariidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q844643",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Arctocephalus_tropicalis_CrozetIslands_female.jpg",
+            "author": "Nicolas Servera (otarie_san@yahoo.fr)",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arctocephalus_tropicalis_CrozetIslands_female.jpg",
+            "width": 640,
+            "height": 606,
+            "alt": "Lobo-marinho-do-peito-branco (Arctocephalus tropicalis)"
+          }
+        },
+        {
+          "gbifKey": 2440332,
+          "scientificName": "Eubalaena australis",
+          "name": "Baleia-franca-austral",
+          "family": "Balaenidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q244410",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Southern_right_whale6.jpg/960px-Southern_right_whale6.jpg",
+            "author": "Michaël CATANZARITI",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_right_whale6.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Baleia-franca-austral (Eubalaena australis)"
+          }
+        },
+        {
+          "gbifKey": 2440493,
+          "scientificName": "Lagenodelphis hosei",
+          "name": "Golfinho-de-fraser",
+          "family": "Delphinidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q751965",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Frazer%C2%B4s_dolphin_group.jpg",
+            "author": "Autor desconhecido",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frazer%C2%B4s_dolphin_group.jpg",
+            "width": 640,
+            "height": 240,
+            "alt": "Golfinho-de-fraser (Lagenodelphis hosei)"
+          }
+        },
+        {
+          "gbifKey": 4263378,
+          "scientificName": "Ctenomys flamarioni",
+          "name": "Tuco-tuco",
+          "family": "Ctenomyidae",
+          "records": 3,
+          "iucn": "EN",
+          "wikidata": "Q1765606",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ctenomys_flamarioni.jpg/960px-Ctenomys_flamarioni.jpg",
+            "author": "Cláudio Dias Timm from Rio Grande do Sul",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenomys_flamarioni.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "Tuco-tuco (Ctenomys flamarioni)"
+          }
+        },
+        {
+          "gbifKey": 5220086,
+          "scientificName": "Megaptera novaeangliae",
+          "name": "Baleia-jubarte",
+          "family": "Balaenopteridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q132905",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Humpback_whales_in_singing_position.jpg/960px-Humpback_whales_in_singing_position.jpg",
+            "author": "Dr. Louis M. Herman.",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg",
+            "width": 640,
+            "height": 432,
+            "alt": "baleia-jubarte (Megaptera novaeangliae)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 53155,
+      "species": [
+        {
+          "gbifKey": 5229146,
+          "scientificName": "Vanellus chilensis",
+          "name": "Quero-quero",
+          "family": "Charadriidae",
+          "records": 1264,
+          "iucn": "LC",
+          "wikidata": "Q855348",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Southern_lapwing_%28Vanellus_chilensis_chilensis%29_Chiloe.jpg/960px-Southern_lapwing_%28Vanellus_chilensis_chilensis%29_Chiloe.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_lapwing_(Vanellus_chilensis_chilensis)_Chiloe.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Quero-quero (Vanellus chilensis)"
+          }
+        },
+        {
+          "gbifKey": 2481756,
+          "scientificName": "Calidris fuscicollis",
+          "name": "Pilrito-de-uropígio-branco",
+          "family": "Scolopacidae",
+          "records": 997,
+          "iucn": "VU",
+          "wikidata": "Q599749",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Calidris_fuscicollis.jpg/960px-Calidris_fuscicollis.jpg",
+            "author": "Tim Bowman, USFWS",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calidris_fuscicollis.jpg",
+            "width": 640,
+            "height": 421,
+            "alt": "Pilrito-de-uropígio-branco (Calidris fuscicollis)"
+          }
+        },
+        {
+          "gbifKey": 2480273,
+          "scientificName": "Haematopus palliatus",
+          "name": "Pirupiru",
+          "family": "Haematopodidae",
+          "records": 986,
+          "iucn": "LC",
+          "wikidata": "Q692644",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/American_oystercatchers_at_Fort_Tilden_%2860747%29.jpg/960px-American_oystercatchers_at_Fort_Tilden_%2860747%29.jpg",
+            "author": "Rhododendrites",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_oystercatchers_at_Fort_Tilden_(60747).jpg",
+            "width": 640,
+            "height": 444,
+            "alt": "Pirupiru (Haematopus palliatus)"
+          }
+        },
+        {
+          "gbifKey": 2480951,
+          "scientificName": "Ardea cocoi",
+          "name": "Garça-moura",
+          "family": "Ardeidae",
+          "records": 870,
+          "iucn": "LC",
+          "wikidata": "Q911449",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/GARZA_MORA_Ardea_cocoi.jpg/960px-GARZA_MORA_Ardea_cocoi.jpg",
+            "author": "Dario Niz",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:GARZA_MORA_Ardea_cocoi.jpg",
+            "width": 640,
+            "height": 849,
+            "alt": "Garça-moura (Ardea cocoi)"
+          }
+        },
+        {
+          "gbifKey": 6065823,
+          "scientificName": "Chroicocephalus maculipennis",
+          "name": "Gaivota-maria-velha",
+          "family": "Laridae",
+          "records": 818,
+          "iucn": null,
+          "wikidata": "Q1268078",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Chroicocephalus_maculipennis%2C_Niebla%2C_Los_R%C3%ADos%2C_Chile_1.jpg/960px-Chroicocephalus_maculipennis%2C_Niebla%2C_Los_R%C3%ADos%2C_Chile_1.jpg",
+            "author": "nicoolejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chroicocephalus_maculipennis,_Niebla,_Los_R%C3%ADos,_Chile_1.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Gaivota-maria-velha (Chroicocephalus maculipennis)"
+          }
+        },
+        {
+          "gbifKey": 9752617,
+          "scientificName": "Ardea alba",
+          "name": "Garça-branca-grande",
+          "family": "Ardeidae",
+          "records": 817,
+          "iucn": "LC",
+          "wikidata": "Q130730",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Ardea_alba4.jpg/960px-Ardea_alba4.jpg",
+            "author": "Calibas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ardea_alba4.jpg",
+            "width": 640,
+            "height": 973,
+            "alt": "Garça-branca-grande (Ardea alba)"
+          }
+        },
+        {
+          "gbifKey": 2481910,
+          "scientificName": "Ciconia maguari",
+          "name": "Maguari",
+          "family": "Ciconiidae",
+          "records": 778,
+          "iucn": "LC",
+          "wikidata": "Q338601",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Ciconia_maguari_3.jpeg/960px-Ciconia_maguari_3.jpeg",
+            "author": "© 2006 Carla Antonini",
+            "license": "CC BY-SA 2.5 ar",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ciconia_maguari_3.jpeg",
+            "width": 640,
+            "height": 853,
+            "alt": "Maguari (Ciconia maguari)"
+          }
+        },
+        {
+          "gbifKey": 2480873,
+          "scientificName": "Egretta thula",
+          "name": "Garça-branca-pequena",
+          "family": "Ardeidae",
+          "records": 753,
+          "iucn": "LC",
+          "wikidata": "Q59785",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Aigrette_neigeuse.jpg/960px-Aigrette_neigeuse.jpg",
+            "author": "Mike Baird",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aigrette_neigeuse.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Garça-branca-pequena (Egretta thula)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 162,
+      "species": [
+        {
+          "gbifKey": 8894817,
+          "scientificName": "Caretta caretta",
+          "name": "Tartaruga-comum",
+          "family": "Cheloniidae",
+          "records": 92,
+          "iucn": "VU",
+          "wikidata": "Q192095",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg",
+            "author": "ukanda",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Tartaruga-comum (Caretta caretta)"
+          }
+        },
+        {
+          "gbifKey": 2442225,
+          "scientificName": "Chelonia mydas",
+          "name": "Tartaruga-verde",
+          "family": "Cheloniidae",
+          "records": 42,
+          "iucn": "LC",
+          "wikidata": "Q199458",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg/960px-Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "tartaruga-verde (Chelonia mydas)"
+          }
+        },
+        {
+          "gbifKey": 2460401,
+          "scientificName": "Liolaemus occipitalis",
+          "name": "Lagartixa-das-dunas",
+          "family": "Liolaemidae",
+          "records": 7,
+          "iucn": "VU",
+          "wikidata": "Q4844744",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Liolaemus_occipitalis_-_PNM_Dunas_da_Lagoa_da_Concei%C3%A7%C3%A3o_2.jpg/960px-Liolaemus_occipitalis_-_PNM_Dunas_da_Lagoa_da_Concei%C3%A7%C3%A3o_2.jpg",
+            "author": "André Ganzarolli Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liolaemus_occipitalis_-_PNM_Dunas_da_Lagoa_da_Concei%C3%A7%C3%A3o_2.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Lagartixa-das-dunas (Liolaemus occipitalis)"
+          }
+        },
+        {
+          "gbifKey": 8219312,
+          "scientificName": "Xenodon dorbignyi",
+          "name": "Serpente-Nariguda",
+          "family": "Colubridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q3570882",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Xenodon_dorbignyi_172468463.jpg/960px-Xenodon_dorbignyi_172468463.jpg",
+            "author": "Pablo G. Fernández",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xenodon_dorbignyi_172468463.jpg",
+            "width": 640,
+            "height": 378,
+            "alt": "Serpente-Nariguda (Xenodon dorbignyi)"
+          }
+        },
+        {
+          "gbifKey": 2442153,
+          "scientificName": "Lepidochelys olivacea",
+          "name": "Tartaruga-oliva",
+          "family": "Cheloniidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q282385",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Lepidochelys_olivacea.jpg/960px-Lepidochelys_olivacea.jpg",
+            "author": "Bernard Gagnon",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lepidochelys_olivacea.jpg",
+            "width": 640,
+            "height": 453,
+            "alt": "Tartaruga-oliva (Lepidochelys olivacea)"
+          }
+        },
+        {
+          "gbifKey": 5846511,
+          "scientificName": "Caiman latirostris",
+          "name": "Jacaré-do-papo-amarelo",
+          "family": "Alligatoridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q644453",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jacare_de_papo_amarelo_zoo.jpg/960px-Jacare_de_papo_amarelo_zoo.jpg",
+            "author": "Miguelrangeljr",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacare_de_papo_amarelo_zoo.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "jacaré-do-papo-amarelo (Caiman latirostris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 77,
+      "species": [
+        {
+          "gbifKey": 2423564,
+          "scientificName": "Physalaemus gracilis",
+          "name": "Caçote",
+          "family": "Leptodactylidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q693600",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Physalaemus_gracilis.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Physalaemus_gracilis.jpg",
+            "width": 640,
+            "height": 407,
+            "alt": "Caçote (Physalaemus gracilis)"
+          }
+        },
+        {
+          "gbifKey": 2428549,
+          "scientificName": "Dendropsophus minutus",
+          "name": "Perereca-pequena",
+          "family": "Hylidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q2706770",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Dendropsophus_minutus_155352050.jpg/960px-Dendropsophus_minutus_155352050.jpg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendropsophus_minutus_155352050.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Perereca-pequena (Dendropsophus minutus)"
+          }
+        },
+        {
+          "gbifKey": 8268125,
+          "scientificName": "Leptodactylus latrans",
+          "name": "Leptodactylus ocellatus",
+          "family": "Leptodactylidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q2238202",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Leptodactylus_ocellatus01c.jpg/960px-Leptodactylus_ocellatus01c.jpg",
+            "author": "Cláudio D. Timm",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodactylus_ocellatus01c.jpg",
+            "width": 640,
+            "height": 541,
+            "alt": "Leptodactylus ocellatus (Leptodactylus latrans)"
+          }
+        },
+        {
+          "gbifKey": 2428563,
+          "scientificName": "Dendropsophus sanborni",
+          "name": null,
+          "family": "Hylidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q2699854",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Dendropsophus_sanborni.jpg",
+            "author": "Raúl Maneyro",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dendropsophus_sanborni.jpg",
+            "width": 640,
+            "height": 418,
+            "alt": "Dendropsophus sanborni"
+          }
+        },
+        {
+          "gbifKey": 2428369,
+          "scientificName": "Pseudis minuta",
+          "name": null,
+          "family": "Hylidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q906713",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Podonectes_minutus02.jpg",
+            "author": "Raúl Maneyro",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Podonectes_minutus02.jpg",
+            "width": 640,
+            "height": 485,
+            "alt": "Pseudis minuta"
+          }
+        },
+        {
+          "gbifKey": 5217922,
+          "scientificName": "Scinax squalirostris",
+          "name": null,
+          "family": "Hylidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q2704984",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Scinax_squalirostris01a.jpg",
+            "author": "Lucas Grandinetti",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scinax_squalirostris01a.jpg",
+            "width": 640,
+            "height": 438,
+            "alt": "Scinax squalirostris"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 633,
+      "species": [
+        {
+          "gbifKey": 2692758,
+          "scientificName": "Xyris jupicai",
+          "name": "Jupicai",
+          "family": "Xyridaceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q15476451",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Xyris_jupicai_Rich._%288144625964%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xyris_jupicai_Rich._(8144625964).jpg",
+            "width": 640,
+            "height": 1137,
+            "alt": "Jupicai (Xyris jupicai)"
+          }
+        },
+        {
+          "gbifKey": 5602738,
+          "scientificName": "Colletia paradoxa",
+          "name": "Quina-do-rio-grande",
+          "family": "Rhamnaceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q2983021",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Colletia_paradoxa0.jpg",
+            "author": "Kurt Stüber [1]",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colletia_paradoxa0.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Quina-do-rio-grande (Colletia paradoxa)"
+          }
+        },
+        {
+          "gbifKey": 6064623,
+          "scientificName": "Senecio crassiflorus",
+          "name": "Margarida-da-praia",
+          "family": "Asteraceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q7450386",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Senecio_crassiflorus_2829.jpg/960px-Senecio_crassiflorus_2829.jpg",
+            "author": "Valerio Pillar",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senecio_crassiflorus_2829.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Margarida-da-praia (Senecio crassiflorus)"
+          }
+        },
+        {
+          "gbifKey": 4087673,
+          "scientificName": "Utricularia tricolor",
+          "name": null,
+          "family": "Lentibulariaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q3020616",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Utricularia_tricolor.jpg/960px-Utricularia_tricolor.jpg",
+            "author": "Petr Dlouhý",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Utricularia_tricolor.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Utricularia tricolor"
+          }
+        },
+        {
+          "gbifKey": 5341504,
+          "scientificName": "Nymphoides humboldtiana",
+          "name": null,
+          "family": "Menyanthaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q63182268",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Nymphoides_humboldtiana_-_vinicius_s_domingues_-_339963804.jpeg/960px-Nymphoides_humboldtiana_-_vinicius_s_domingues_-_339963804.jpeg",
+            "author": "vinicius_s_domingues",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nymphoides_humboldtiana_-_vinicius_s_domingues_-_339963804.jpeg",
+            "width": 640,
+            "height": 481,
+            "alt": "Nymphoides humboldtiana"
+          }
+        },
+        {
+          "gbifKey": 2730407,
+          "scientificName": "Cyperus polystachyos",
+          "name": null,
+          "family": "Cyperaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1637688",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pycreus.jpg",
+            "author": "Autor desconhecido",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pycreus.jpg",
+            "width": 640,
+            "height": 854,
+            "alt": "Cyperus polystachyos"
+          }
+        },
+        {
+          "gbifKey": 5301138,
+          "scientificName": "Potamogeton illinoensis",
+          "name": null,
+          "family": "Potamogetonaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15295714",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Potamogeton_illinoensis_-_Flickr_-_Dick_Culbert.jpg/960px-Potamogeton_illinoensis_-_Flickr_-_Dick_Culbert.jpg",
+            "author": "Dick Culbert from Gibsons, B.C., Canada",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potamogeton_illinoensis_-_Flickr_-_Dick_Culbert.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Potamogeton illinoensis"
+          }
+        },
+        {
+          "gbifKey": 5408057,
+          "scientificName": "Lobelia hederacea",
+          "name": null,
+          "family": "Campanulaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15603652",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Lobelia_hederacea_257614446.jpeg/960px-Lobelia_hederacea_257614446.jpeg",
+            "author": "Fernando Sessegolo",
+            "license": "CC0",
+            "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lobelia_hederacea_257614446.jpeg",
+            "width": 640,
+            "height": 426,
+            "alt": "Lobelia hederacea"
+          }
+        },
+        {
+          "gbifKey": 2702620,
+          "scientificName": "Dichanthelium sabulorum",
+          "name": null,
+          "family": "Poaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q49426932",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Panicum_demissum_-_Species_graminum_-_Volume_3.jpg",
+            "author": "Carl Bernhard von Trinius",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panicum_demissum_-_Species_graminum_-_Volume_3.jpg",
+            "width": 640,
+            "height": 974,
+            "alt": "Dichanthelium sabulorum"
+          }
+        },
+        {
+          "gbifKey": 2704757,
+          "scientificName": "Sporobolus indicus",
+          "name": null,
+          "family": "Poaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q7579246",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Starr_080604-6157_Sporobolus_indicus.jpg/960px-Starr_080604-6157_Sporobolus_indicus.jpg",
+            "author": "Forest &amp; Kim Starr",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_080604-6157_Sporobolus_indicus.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Sporobolus indicus"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2481399,
+      "scientificName": "Thalassarche chlororhynchos",
+      "name": "Albatroz-de-bico-amarelo-do-atlântico",
+      "family": "Diomedeidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q1146629",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Albatros_%C3%A0_bec_jaunes.JPG/960px-Albatros_%C3%A0_bec_jaunes.JPG",
+        "author": "Vincent Legendre",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albatros_%C3%A0_bec_jaunes.JPG",
+        "width": 640,
+        "height": 436,
+        "alt": "Albatroz-de-bico-amarelo-do-atlântico (Thalassarche chlororhynchos)"
+      }
+    },
+    {
+      "gbifKey": 4263378,
+      "scientificName": "Ctenomys flamarioni",
+      "name": "Tuco-tuco",
+      "family": "Ctenomyidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q1765606",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Ctenomys_flamarioni.jpg/960px-Ctenomys_flamarioni.jpg",
+        "author": "Cláudio Dias Timm from Rio Grande do Sul",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ctenomys_flamarioni.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Tuco-tuco (Ctenomys flamarioni)"
+      }
+    },
+    {
+      "gbifKey": 2481756,
+      "scientificName": "Calidris fuscicollis",
+      "name": "Pilrito-de-uropígio-branco",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q599749",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Calidris_fuscicollis.jpg/960px-Calidris_fuscicollis.jpg",
+        "author": "Tim Bowman, USFWS",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calidris_fuscicollis.jpg",
+        "width": 640,
+        "height": 421,
+        "alt": "Pilrito-de-uropígio-branco (Calidris fuscicollis)"
+      }
+    },
+    {
+      "gbifKey": 2481721,
+      "scientificName": "Tringa flavipes",
+      "name": "Perna-amarela-pequeno",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q28000",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Lesser_Yellowlegs.jpg/960px-Lesser_Yellowlegs.jpg",
+        "author": "Wwcsig",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lesser_Yellowlegs.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Perna-amarela-pequeno (Tringa flavipes)"
+      }
+    },
+    {
+      "gbifKey": 2480327,
+      "scientificName": "Pluvialis squatarola",
+      "name": "Tarambola-cinzenta",
+      "family": "Charadriidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q18835",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Pluvialis_squatarola_%28summer_plumage%29.jpg/960px-Pluvialis_squatarola_%28summer_plumage%29.jpg",
+        "author": "Hans Hillewaert",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pluvialis_squatarola_(summer_plumage).jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Tarambola-cinzenta (Pluvialis squatarola)"
+      }
+    },
+    {
+      "gbifKey": 2481680,
+      "scientificName": "Limosa haemastica",
+      "name": "Maçarico-de-bico-virado",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q283458",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Hudsonian_Godwit_-_Churchill_-_Canada_01_%2815657156459%29.jpg/960px-Hudsonian_Godwit_-_Churchill_-_Canada_01_%2815657156459%29.jpg",
+        "author": "Francesco Veronesi from Italy",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hudsonian_Godwit_-_Churchill_-_Canada_01_(15657156459).jpg",
+        "width": 640,
+        "height": 428,
+        "alt": "maçarico-de-bico-virado (Limosa haemastica)"
+      }
+    },
+    {
+      "gbifKey": 8292425,
+      "scientificName": "Calidris subruficollis",
+      "name": "Maçarico-acanelado",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q27452709",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Grasl%C3%A4ufer_%28Calidris_subruficollis%29_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg/960px-Grasl%C3%A4ufer_%28Calidris_subruficollis%29_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg",
+        "author": "USFWS - Pacific Region",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grasl%C3%A4ufer_(Calidris_subruficollis)_am_Strand_im_Willapa_National_Wildlife_Refuge.jpg",
+        "width": 640,
+        "height": 456,
+        "alt": "Maçarico-acanelado (Calidris subruficollis)"
+      }
+    },
+    {
+      "gbifKey": 8894817,
+      "scientificName": "Caretta caretta",
+      "name": "Tartaruga-comum",
+      "family": "Cheloniidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q192095",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg",
+        "author": "ukanda",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+        "width": 640,
+        "height": 426,
+        "alt": "Tartaruga-comum (Caretta caretta)"
+      }
+    },
+    {
+      "gbifKey": 5220001,
+      "scientificName": "Pontoporia blainvillei",
+      "name": "Golfinho-do-rio-da-prata",
+      "family": "Pontoporiidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q622597",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Delfin_maly.png",
+        "author": "Dixi at Polish Wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delfin_maly.png",
+        "width": 640,
+        "height": 166,
+        "alt": "Golfinho-do-rio-da-prata (Pontoporia blainvillei)"
+      }
+    },
+    {
+      "gbifKey": 2481495,
+      "scientificName": "Procellaria aequinoctialis",
+      "name": "Pardelão-de-queixo-branco",
+      "family": "Procellariidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q276206",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Procellaria_aequinoctialis_in_flight.jpg/960px-Procellaria_aequinoctialis_in_flight.jpg",
+        "author": "Mjobling",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procellaria_aequinoctialis_in_flight.jpg",
+        "width": 640,
+        "height": 864,
+        "alt": "Pardelão-de-queixo-branco (Procellaria aequinoctialis)"
+      }
+    },
+    {
+      "gbifKey": 2481672,
+      "scientificName": "Limnodromus griseus",
+      "name": "Maçarico-de-costas-brancas / maçarico-de-bico-curto",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q371633",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Short-billed_Dowitcher_breeding_RWD.jpg/960px-Short-billed_Dowitcher_breeding_RWD.jpg",
+        "author": "DickDaniels (https://theworldbirds.org/)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Short-billed_Dowitcher_breeding_RWD.jpg",
+        "width": 640,
+        "height": 481,
+        "alt": "maçarico-de-costas-brancas / maçarico-de-bico-curto (Limnodromus griseus)"
+      }
+    },
+    {
+      "gbifKey": 2483604,
+      "scientificName": "Heteroxolmis dominicana",
+      "name": "Noivinha-de-rabo-preto",
+      "family": "Tyrannidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q27075171",
+      "photo": null
+    }
+  ]
+}

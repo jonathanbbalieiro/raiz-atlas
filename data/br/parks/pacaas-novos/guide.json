@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "A caixa d'água de Rondônia: paredões de arenito, cachoeiras e o ponto mais alto do estado.",
+  "intro": "No centro de Rondônia, o Parque Nacional de Pacaás Novos, criado pelo Decreto 84.019, de 21 de setembro de 1979, protege cerca de 708 mil hectares na transição entre a Amazônia e o Cerrado. Sobreposto à Terra Indígena Uru-Eu-Wau-Wau, guarda as nascentes dos rios de cinco grandes bacias do estado.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Nascentes de Rondônia e o encontro entre floresta e cerrado",
+    "items": [
+      {
+        "title": "Treze rios nascem aqui",
+        "text": "Jamari, Jaci-Paraná, Candeias, Urupá, Jaru, Cautário, Pacaás Novos e outros rios brotam no parque e alimentam as bacias do Guaporé, do Jamari, do Machado e outras.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Floresta e savana lado a lado",
+        "text": "Há floresta ombrófila densa e aberta, savana arborizada e zonas de contato entre savana e floresta, uma amostra do ecótono Amazônia-Cerrado.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Sinais de ambiente íntegro",
+        "text": "Estudos registraram 281 espécies de aves, entre elas o gavião-real, e muitos vestígios de grandes carnívoros, sinal de pouca perturbação.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Território Uru-Eu-Wau-Wau",
+        "text": "A presença dos Uru-Eu-Wau-Wau, Amondawa e outros povos na terra indígena sobreposta é apontada como decisiva para a preservação do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Escarpas da Serra dos Pacaás Novos",
+      "text": "Paredões de arenito circundam as serras dos Pacaás Novos, com vales de floresta lá embaixo e várias cachoeiras.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Parque_Nacional_de_Paca%C3%A1s_Novos_-_Ideval_%2801%29.jpg/1280px-Parque_Nacional_de_Paca%C3%A1s_Novos_-_Ideval_%2801%29.jpg",
+        "author": "Ideval01",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Paca%C3%A1s_Novos_-_Ideval_(01).jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Paredões de arenito e vale coberto de floresta ao entardecer",
+        "context": "Escarpas da Serra dos Pacaás Novos, no Parque Nacional de Pacaás Novos."
+      }
+    },
+    {
+      "title": "Pico do Tracoá",
+      "text": "O ponto mais alto de Rondônia fica dentro do parque, numa região onde o relevo do estado, quase todo plano, passa dos mil metros.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cachoeiras do rio Pacaás Novos",
+      "text": "O rio Pacaás Novos desce em cachoeiras. O marco leste do parque fica justamente entre a primeira e a segunda delas.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O sapinho Allobates pacaas, vulnerável, tem nome que lembra a região e registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ]
+    },
+    {
+      "text": "O cachorro-vinagre, naturalmente muito raro, já foi registrado no parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O parque ajuda a proteger o mosaico de áreas protegidas do centro de Rondônia, que compõe o Corredor Ecológico Guaporé-Itenez-Mamoré.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O primeiro plano de manejo do parque é de 1984. A revisão atual foi aprovada em 2009.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1976 · Malocas na serra",
+      "text": "Registros oficiais localizam três malocas Uru-Eu-Wau-Wau entre as cabeceiras dos rios Branco, Cautário e Sotério, perto da Serra dos Pacaás Novos.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "1979 · Nasce o parque",
+      "text": "O Decreto 84.019, de 21 de setembro, cria o Parque Nacional de Pacaás Novos.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "1991 · Terra Indígena homologada",
+      "text": "O Decreto 275 homologa a Terra Indígena Uru-Eu-Wau-Wau, que passa a se sobrepor ao parque.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2009 · Plano revisado",
+      "text": "O ICMBio aprova a revisão do plano de manejo.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "why": "Seu registro no parque é apontado pelo plano de manejo como prova do bom estado de conservação.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/1280px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 1280,
+        "height": 448,
+        "alt": "Gavião-real (Harpia harpyja)",
+        "context": "Gavião-real, Harpia harpyja."
+      }
+    },
+    {
+      "scientificName": "Allobates pacaas",
+      "name": "Sapinho Allobates pacaas",
+      "why": "Vulnerável, tem nome que lembra a região e registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ]
+    },
+    {
+      "scientificName": "Speothos venaticus",
+      "name": "Cachorro-vinagre",
+      "why": "Naturalmente muito raro, está entre os mamíferos registrados no parque e na lista de ameaçadas da unidade.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bush_dog.JPG",
+        "author": "Bonne1978",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bush_dog.JPG",
+        "width": 1280,
+        "height": 941,
+        "alt": "Cachorro-vinagre (Speothos venaticus)",
+        "context": "Cachorro-vinagre, Speothos venaticus."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Pacaás Novos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-de-pacaas-novos",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Revisão do Plano de Manejo do Parque Nacional de Pacaás Novos (2009)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-de-pacaas-novos/arquivos/parna_pacaas_novo.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

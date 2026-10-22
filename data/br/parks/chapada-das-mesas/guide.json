@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Morros de topo reto como mesas, mais de 400 nascentes e cachoeiras que quase viraram usinas.",
+  "intro": "No sul do Maranhão, o Parque Nacional da Chapada das Mesas protege 160 mil hectares de Cerrado no encontro com a Amazônia e a Caatinga. A chuva e o vento esculpiram o arenito em morros de topo plano, e mais de 400 nascentes alimentam rios que correm para o Tocantins.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Um paraíso das águas na transição entre três biomas",
+    "items": [
+      {
+        "title": "Fábrica de água",
+        "text": "Mais de 400 nascentes alimentam 22 rios perenes, como o Farinha, o Lajes Grande, o Cancela e o Corrente, todos da bacia do Tocantins.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Três biomas num só parque",
+        "text": "Cerrado, Amazônia e Caatinga se misturam aqui. Ao lado do pequi e da mangaba vivem o guariba e o macaco-de-cheiro, típicos da floresta amazônica.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Florestas que restaram de outro tempo",
+        "text": "Nas calhas dos rios Farinha e Corrente sobrevivem matas úmidas de tipo amazônico, como a mata do Buenos Aires e a mata do Corrente.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Bichos grandes e ameaçados",
+        "text": "Anta, tamanduá-bandeira, veado-campeiro, onça-parda e o mutum-de-penacho estão entre os animais registrados no parque.",
+        "sourceIds": [
+          "pm",
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Cachoeira de São Romão",
+      "text": "No rio Farinha, é uma das cachoeiras com maior volume de água do Maranhão. Antes do parque, havia planos de instalar uma pequena hidrelétrica ali.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Cachoeira_de_S%C3%A3o_Rom%C3%A3o_-_Parque_Nacional_da_Chapada_das_Mesas_%283923928029%29.jpg/1280px-Cachoeira_de_S%C3%A3o_Rom%C3%A3o_-_Parque_Nacional_da_Chapada_das_Mesas_%283923928029%29.jpg",
+        "author": "Otávio Nogueira from Fortaleza, BR",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_de_S%C3%A3o_Rom%C3%A3o_-_Parque_Nacional_da_Chapada_das_Mesas_(3923928029).jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Cachoeira de São Romão, larga queda d'água do rio Farinha",
+        "context": "A Cachoeira de São Romão, no rio Farinha, dentro do parque."
+      }
+    },
+    {
+      "title": "Cachoeira do Prata",
+      "text": "Também no rio Farinha, divide com a São Romão o posto de maiores quedas em volume de água do estado.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cachoeira_do_Prata_-_Parque_Nacional_da_Chapada_das_Mesas_%283932169194%29.jpg/1280px-Cachoeira_do_Prata_-_Parque_Nacional_da_Chapada_das_Mesas_%283932169194%29.jpg",
+        "author": "Otávio Nogueira from Fortaleza, BR",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_do_Prata_-_Parque_Nacional_da_Chapada_das_Mesas_(3932169194).jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Cachoeira do Prata, no rio Farinha",
+        "context": "A Cachoeira do Prata, no rio Farinha, dentro do Parque Nacional da Chapada das Mesas."
+      }
+    },
+    {
+      "title": "As mesas",
+      "text": "Serras como a Grande do Caititu, a do Balaio e a Vermelha são morros-testemunho: restos de uma antiga planície de arenito, com o topo plano como um tabuleiro.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Chapada_das_Mesas_-_Maranh%C3%A3o_%283896926444%29.jpg/1280px-Chapada_das_Mesas_-_Maranh%C3%A3o_%283896926444%29.jpg",
+        "author": "Otávio Nogueira from Fortaleza, BR",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapada_das_Mesas_-_Maranh%C3%A3o_(3896926444).jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Morros de topo plano e paredões de arenito sobre o cerrado da Chapada das Mesas, no Maranhão",
+        "context": "Morros-testemunho de topo plano e paredão de arenito dominam a paisagem de cerrado da Chapada das Mesas (MA)."
+      }
+    },
+    {
+      "title": "Morro das Figuras",
+      "text": "Paredões com grafismos rupestres deixados por povos que viveram na chapada há mais de 10 mil anos.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A ideia de um parque na região apareceu em 1973, nos estudos do projeto RADAMBRASIL, e levou 32 anos para virar realidade.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O parque nasceu de uma mobilização de Carolina contra o avanço da soja, contra usinas nas cachoeiras São Romão e Prata e contra a hidrelétrica de Estreito.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Quase 83% do solo do parque é areia: os Neossolos Quartzarênicos, nascidos da erosão do arenito.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "O ponto mais alto, a 604 metros, fica na serra da Aldeia, numa gleba separada do parque, no município de Riachão.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Apesar do domínio do arenito, o oeste do parque guarda manchas de rocha de origem vulcânica, além de cânions abertos entre as camadas de areia petrificada.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "+10 mil anos · Os primeiros moradores",
+      "text": "Povos antigos deixam pinturas nos paredões dos morros das Figuras e das Araras.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2005 · A cidade cria seu parque",
+      "text": "Em 12 de dezembro, depois de pressão de moradores e do poder público de Carolina, um decreto cria o Parque Nacional da Chapada das Mesas.",
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "Hoje · Sertanejos dentro do parque",
+      "text": "Pouco mais de cem moradias de agricultores familiares seguem dentro da área, com roças, extrativismo e casas de farinha.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "title": "2020 · Plano de manejo",
+      "text": "A Portaria 882, de 20 de agosto, aprova o plano que define as zonas de uso e conservação do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Caryocar coriaceum",
+      "name": "Piqui",
+      "why": "Árvore frutífera do Cerrado da chapada, classificada como em perigo pela IUCN e registrada dentro do parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Piqui.jpg",
+        "author": "Rapper Ouriço",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piqui.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Piqui (Caryocar coriaceum); fotografia da espécie",
+        "context": "Retrato ilustrativo de Caryocar coriaceum. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Hancornia speciosa",
+      "name": "Mangaba",
+      "why": "Uma das frutas do Cerrado citadas no plano de manejo e registrada no parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hancornia_speciosa.jpg",
+        "author": "João Medeiros",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hancornia_speciosa.jpg",
+        "width": 640,
+        "height": 535,
+        "alt": "Mangaba (Hancornia speciosa); fotografia da espécie",
+        "context": "Retrato ilustrativo de Hancornia speciosa. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Ameaçado de extinção, está na lista de espécies protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 1280,
+        "height": 866,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)",
+        "context": "Tamanduá-bandeira, Myrmecophaga tridactyla."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional da Chapada das Mesas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-das-mesas",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Chapada das Mesas (2020)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-das-mesas/arquivos/plano_de_manejo_parna_chapada_das_mesas.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Antes de virar caatinga e cavernas, o oeste potiguar foi território de felinos de dentes de sabre.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Tigre-dentes-de-sabre",
+      "scientificName": "Smilodon populator",
+      "when": "Pleistoceno, até cerca de 10 mil anos atrás",
+      "text": "Do tamanho de um leão atual e com caninos de quase um palmo, o Smilodon caçava grandes herbívoros da América do Sul. Um canino da espécie foi encontrado nas cavernas do Lajedo da Escada, em Baraúna, o mesmo afloramento calcário da região onde fica o parque. O sítio guarda também restos de outros mamíferos que desapareceram ao fim da Era do Gelo.",
+      "sourceIds": [
+        "araujo-porpino-2011"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Smilodon_populator_Berlin.JPG/1280px-Smilodon_populator_Berlin.JPG",
+        "author": "Interfase",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smilodon_populator_Berlin.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Crânio de Smilodon populator com os longos caninos",
+        "context": "Crânio de Smilodon populator em museu de Berlim; o material do Lajedo da Escada, em Baraúna, inclui um canino da mesma espécie."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "araujo-porpino-2011",
+      "institution": "Pesquisas em Geociências (UFRGS)",
+      "title": "Assembleias fossilíferas de mamíferos do Quaternário do Estado do Rio Grande do Norte, Nordeste do Brasil (Araújo-Júnior & Porpino, 2011)",
+      "url": "https://seer.ufrgs.br/PesquisasemGeociencias/article/download/23836/pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

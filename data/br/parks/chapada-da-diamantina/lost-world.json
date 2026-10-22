@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Quem sobe as serras da Diamantina encontra paisagens de sobra, mas já não encontra alguns dos seus gigantes.",
+  "items": [
+    {
+      "kind": "extinta_localmente",
+      "name": "Anta",
+      "scientificName": "Tapirus terrestris",
+      "when": "considerada extinta na região, segundo o plano de manejo",
+      "text": "O levantamento de mamíferos do plano de manejo registra a anta como espécie localmente extinta na Chapada Diamantina. A ausência pesa: sem esse grande dispersor de sementes, a floresta perde um de seus jardineiros.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Tatu-canastra",
+      "scientificName": "Priodontes maximus",
+      "when": "considerado extinto na região, segundo o plano de manejo",
+      "text": "O maior dos tatus, com garras enormes para cavar cupinzeiros, aparece no plano de manejo entre as espécies que já podem ser consideradas extintas na região do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Tamanduá-bandeira",
+      "scientificName": "Myrmecophaga tridactyla",
+      "when": "considerado extinto na região, segundo o plano de manejo",
+      "text": "Inconfundível pela cauda em forma de bandeira, o tamanduá-bandeira consta no plano de manejo entre as espécies já consideradas extintas na região da Chapada Diamantina, junto com o tatu-canastra.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "kind": "extinta_localmente",
+      "name": "Veado-campeiro",
+      "scientificName": "Ozotoceros bezoarticus",
+      "when": "considerado extinto na região, segundo o plano de manejo",
+      "text": "Cervídeo dos campos abertos, o veado-campeiro é a única das cinco espécies de artiodáctilos do levantamento que o plano de manejo considera extinta no parque. As demais são raras e sofrem caça intensa.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "pm",
+      "institution": "ICMBio – Instituto Chico Mendes de Conservação da Biodiversidade",
+      "title": "Plano de Manejo do Parque Nacional da Chapada Diamantina",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina/arquivos/plano_de_manejo_parna_chapada_diamantina.pdf",
+      "accessed": "2026-10-22"
+    }
+  ]
+}

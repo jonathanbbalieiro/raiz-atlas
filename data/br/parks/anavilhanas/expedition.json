@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional de Anavilhanas",
+  "title": "Um labirinto de ilhas no rio Negro",
+  "subtitle": "Perto de Manaus, centenas de ilhas compridas se espalham num rio de águas escuras. A cada cheia, a floresta submerge. A cada vazante, ela reaparece.",
+  "centralQuestion": "Como um arquipélago de ilhas que mudam com o nível do rio virou parque nacional?",
+  "introduction": [
+    "Perto de Manaus, o rio Negro se abre num emaranhado de centenas de ilhas compridas, separadas por canais de água escura como café. A cada cheia, a floresta mergulha. A cada vazante, ela volta, e surgem praias de areia clara onde antes só havia rio.",
+    "O Parque Nacional de Anavilhanas, nos municípios de Novo Airão e Manaus, protege um dos maiores arquipélagos fluviais do mundo, a cerca de 40 quilômetros por via aquática acima da capital amazonense."
+  ],
+  "keyFacts": [
+    {
+      "label": "ilhas, aproximadamente, e 60 lagos, números que variam com o nível do rio",
+      "value": "≈ 400",
+      "sourceId": "pm",
+      "locator": "p. 36"
+    },
+    {
+      "label": "hectares: área do parque, segundo o plano de manejo",
+      "value": "350.469,79",
+      "sourceId": "pm",
+      "locator": "p. 36"
+    },
+    {
+      "label": "espécies de aves registradas, em 49 famílias",
+      "value": "281",
+      "sourceId": "pm",
+      "locator": "p. 158"
+    },
+    {
+      "label": "de amplitude, no máximo, entre a cheia e a vazante nas matas de igapó",
+      "value": "10–12 m",
+      "sourceId": "pm",
+      "locator": "p. 116"
+    },
+    {
+      "label": "praias do arquipélago na portaria de uso público de 2012",
+      "value": "8",
+      "sourceId": "pm",
+      "locator": "p. 214"
+    },
+    {
+      "label": "ano da criação da Estação Ecológica, depois transformada em parque",
+      "value": "1981",
+      "sourceId": "pm",
+      "locator": "p. 39"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Igapó",
+      "definition": "Floresta alagada com águas pretas do rio Negro. As árvores ficam parcial ou totalmente submersas durante a cheia.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Pulso de inundação",
+      "definition": "Oscilação anual do nível do rio, que cria uma fase aquática e uma fase terrestre para os organismos do ambiente.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Paraná e furo",
+      "definition": "Canais que cortam o arquipélago e isolam ilhas menores dentro do conjunto.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Terra firme",
+      "definition": "Floresta que não alaga, nas margens do arquipélago, com composição de aves diferente da das ilhas.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Arquip%C3%A9lago_de_Anavilhanas_02.jpg/1280px-Arquip%C3%A9lago_de_Anavilhanas_02.jpg",
+    "author": "Karen Mohrstedt Badin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arquip%C3%A9lago_de_Anavilhanas_02.jpg",
+    "width": 1280,
+    "height": 720,
+    "alt": "Vista do arquipélago de Anavilhanas, no rio Negro.",
+    "context": "Vista do arquipélago de Anavilhanas, no rio Negro."
+  },
+  "moments": [
+    {
+      "id": "ilhas",
+      "eyebrow": "01 · O arquipélago",
+      "title": "Um arquipélago que está sempre mudando",
+      "question": "Quantas ilhas tem Anavilhanas?",
+      "paragraphs": [
+        "São aproximadamente 400 ilhas e 60 lagos, além de inúmeros paranás e furos. O número é aproximado porque o desenho muda com o nível do rio: no pico da cheia, lagos chegam a se juntar.",
+        "Esse trecho do rio Negro tem um padrão anastomosado, um emaranhado de ilhas e lagos formado pela deposição alternada de sedimentos. Em direção a Manaus, as ilhas se alongam em forma de caudas de cometa.",
+        "Anavilhanas é o segundo maior arquipélago fluvial do mundo. O maior, o de Mariuá, também fica no rio Negro, perto de Barcelos.",
+        "O parque tem 350.469,79 hectares, 70,5% deles em Novo Airão e 29,5% em Manaus."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 36"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 81"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Arquip%C3%A9lago_de_Anavilhanas_04.jpg/1280px-Arquip%C3%A9lago_de_Anavilhanas_04.jpg",
+          "author": "Karen Mohrstedt Badin",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arquip%C3%A9lago_de_Anavilhanas_04.jpg",
+          "width": 1280,
+          "height": 720,
+          "alt": "Ilhas e canais do arquipélago de Anavilhanas.",
+          "context": "Ilhas e canais do arquipélago de Anavilhanas."
+        }
+      ]
+    },
+    {
+      "id": "igapo",
+      "eyebrow": "02 · O igapó",
+      "title": "Árvores que passam meses debaixo d'água",
+      "question": "Como a floresta convive com a cheia?",
+      "paragraphs": [
+        "A água sobe de 10 a 12 metros entre a vazante e a cheia nas matas de igapó. Esse ritmo anual, o pulso de inundação, cria áreas alagáveis onde nascem fragmentos de floresta e ilhas de vegetação.",
+        "O parque reúne três grandes ambientes: floresta de igapó, floresta densa de terra firme e campinarana, a floresta de campina.",
+        "Cada ambiente tem suas aves. Foram registradas 281 espécies em 49 famílias, num conjunto único: semelhante entre ilhas a até 80 quilômetros de distância, mas diferente do das florestas de terra firme vizinhas e do de outros arquipélagos da região.",
+        "A caça, ligada ao consumo ou ao comércio, é a principal ameaça aos mamíferos. Entre os alvos de conservação estão os botos, o peixe-boi, os peixes e as espécies caçadas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 116"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 158"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Igap%C3%B3_-_Anavilhanas.jpg/1280px-Igap%C3%B3_-_Anavilhanas.jpg",
+          "author": "Andre zumak",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igap%C3%B3_-_Anavilhanas.jpg",
+          "width": 1280,
+          "height": 851,
+          "alt": "Margem de igapó no arquipélago de Anavilhanas.",
+          "context": "Margem de igapó no arquipélago de Anavilhanas."
+        }
+      ]
+    },
+    {
+      "id": "protecao",
+      "eyebrow": "03 · A proteção",
+      "title": "Da ideia vista do avião ao parque nacional",
+      "question": "Como Anavilhanas foi protegida?",
+      "paragraphs": [
+        "A ideia nasceu do alto. Em 1974, o então secretário do Meio Ambiente, Paulo Nogueira Neto, sobrevoou a região e, com instituições como a IUCN e o Projeto Radam, definiu as áreas prioritárias para estações ecológicas na Amazônia.",
+        "Em 1978, outro sobrevoo verificou a ocupação humana. No emaranhado de ilhas, o relato lembra, o peixe-boi certamente encontra muitos lugares para sobreviver.",
+        "O Decreto nº 86.061, de 2 de junho de 1981, criou a Estação Ecológica de Anavilhanas. Em seguida, foi discutido o reassentamento de 30 ou 40 posseiros que viviam na margem esquerda do rio Negro.",
+        "Projetos de lei para transformar a estação em parque nacional tramitaram desde 1992. Em 2008, a Lei nº 11.799 recategorizou a unidade inteira em Parque Nacional de Anavilhanas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 39"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 40"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 35"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "reconhecimentos",
+      "eyebrow": "04 · O reconhecimento",
+      "title": "Patrimônio da Humanidade e sítio Ramsar",
+      "question": "Que reconhecimentos o parque recebeu?",
+      "paragraphs": [
+        "O parque integra o Complexo de Conservação da Amazônia Central, Patrimônio Natural da Humanidade desde 2003, que reúne os parques nacionais do Jaú e de Anavilhanas e as reservas Mamirauá e Amanã.",
+        "Também faz parte da Reserva da Biosfera da Amazônia Central, do Corredor Central da Amazônia e do Mosaico de Áreas Protegidas do Baixo Rio Negro, e é sítio Ramsar."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 46"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 48"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · A visita",
+      "title": "Praias que aparecem na seca",
+      "question": "O que se visita em Anavilhanas?",
+      "paragraphs": [
+        "De setembro a fevereiro, na seca, formam-se praias ao longo do arquipélago, muito usadas por moradores e visitantes para lazer. A Portaria nº 47, de 9 de abril de 2012, reúne as regras de uso público.",
+        "As praias da portaria são Aracari, Baranoá, Camaleão, Folharal/Canauirí, Iluminado, Meio, Sobrado e Tiririca. Há ainda uma trilha aquática no Furo do Ambé e o turismo de observação dos botos-vermelhos."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 214"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 23"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 7"
+        }
+      ],
+      "note": {
+        "title": "Regras de visita",
+        "body": "As regras de uso público e de interação com os botos podem mudar; confirme com o ICMBio antes de ir."
+      },
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "protecao",
+    "title": "Da ideia ao parque",
+    "intro": "Marcos da história do parque.",
+    "items": [
+      {
+        "id": "1974",
+        "year": "1974",
+        "title": "Um sobrevoo",
+        "description": "Paulo Nogueira Neto sobrevoa a região e Anavilhanas entra na lista de áreas prioritárias.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1981",
+        "year": "1981",
+        "title": "Estação Ecológica",
+        "description": "O Decreto nº 86.061, de 2 de junho, cria a Estação Ecológica de Anavilhanas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1992",
+        "year": "1992",
+        "title": "Primeiro projeto de lei",
+        "description": "O senador Áureo Mello propõe transformar a estação em parque nacional.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2003",
+        "year": "2003",
+        "title": "Patrimônio Natural",
+        "description": "É criado o Complexo de Conservação da Amazônia Central, que inclui Anavilhanas.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2008",
+        "year": "2008",
+        "title": "Parque Nacional",
+        "description": "A Lei nº 11.799 recategoriza a unidade em Parque Nacional de Anavilhanas.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que mergulha e volta",
+  "closing": "Anavilhanas é feita de ritmo: o rio sobe e desce, as ilhas se juntam e se separam, e a vida acompanha. Proteger o parque é proteger esse ritmo.",
+  "references": [
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional de Anavilhanas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-de-anavilhanas/arquivos/plano_manejo_parna_de_anavilhanas.pdf",
+      "accessedAt": "2026-10-22",
+      "use": "arquipélago, vegetação, aves, história de criação, reconhecimentos e uso público; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": false,
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-22",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências de revisão: lista de espécies ameaçadas, ano do sítio Ramsar, regras atuais de visitação."
+}

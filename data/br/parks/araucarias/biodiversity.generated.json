@@ -1,0 +1,690 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=MULTIPOLYGON(((-51.978%20-26.740%2C-52.005%20-26.856%2C-51.976%20-26.859%2C-51.957%20-26.798%2C-51.890%20-26.836%2C-51.868%20-26.815%2C-51.821%20-26.811%2C-51.863%20-26.788%2C-51.884%20-26.794%2C-51.880%20-26.814%2C-51.902%20-26.805%2C-51.908%20-26.784%2C-51.950%20-26.781%2C-51.942%20-26.759%2C-51.978%20-26.740))%2C((-51.971%20-26.665%2C-51.978%20-26.687%2C-52.012%20-26.694%2C-52.008%20-26.673%2C-52.020%20-26.692%2C-51.990%20-26.709%2C-52.006%20-26.759%2C-51.983%20-26.745%2C-51.969%20-26.703%2C-51.949%20-26.733%2C-51.920%20-26.725%2C-51.920%20-26.699%2C-51.971%20-26.665))%2C((-51.809%20-26.805%2C-51.824%20-26.803%2C-51.815%20-26.817%2C-51.789%20-26.815%2C-51.809%20-26.805)))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 29,
+      "species": [
+        {
+          "gbifKey": 2438271,
+          "scientificName": "Oligoryzomys flavescens",
+          "name": null,
+          "family": "Cricetidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1766690",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Colilargo_chico_%28Oligoryzomys_flavescens%29%2C_Uruguay%2C_2022.jpg/960px-Colilargo_chico_%28Oligoryzomys_flavescens%29%2C_Uruguay%2C_2022.jpg",
+            "author": "Enrique González",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colilargo_chico_(Oligoryzomys_flavescens),_Uruguay,_2022.jpg",
+            "width": 640,
+            "height": 450,
+            "alt": "Oligoryzomys flavescens"
+          }
+        },
+        {
+          "gbifKey": 2438942,
+          "scientificName": "Oxymycterus nasutus",
+          "name": null,
+          "family": "Cricetidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1762449",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Oxymycterus_nasutus_%28The_zoology_of_the_voyage_of_H.M.S._Beagle_%28Pl._17%29_BHL40299903%29.jpg/960px-Oxymycterus_nasutus_%28The_zoology_of_the_voyage_of_H.M.S._Beagle_%28Pl._17%29_BHL40299903%29.jpg",
+            "author": "Bell, Thomas; Darwin, Charles; Gould, Elizabeth; Gould, John; Owen, Richard; Wat",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxymycterus_nasutus_(The_zoology_of_the_voyage_of_H.M.S._Beagle_(Pl._17)_BHL40299903).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "Oxymycterus nasutus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 3516,
+      "species": [
+        {
+          "gbifKey": 2479840,
+          "scientificName": "Pyrrhura frontalis",
+          "name": "Tiriba-de-testa-vermelha",
+          "family": "Psittacidae",
+          "records": 86,
+          "iucn": "LC",
+          "wikidata": "Q790673",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_%28121%29.jpg/960px-%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_%28121%29.jpg",
+            "author": "@LuizAlves1990",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_(121).jpg",
+            "width": 640,
+            "height": 802,
+            "alt": "Tiriba-de-testa-vermelha (Pyrrhura frontalis)"
+          }
+        },
+        {
+          "gbifKey": 5231103,
+          "scientificName": "Zonotrichia capensis",
+          "name": "Tico-tico",
+          "family": "Passerellidae",
+          "records": 76,
+          "iucn": "LC",
+          "wikidata": "Q587505",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Zonotrichia_capensis_-Buenos_Aires%2C_Argentina-8.jpg/960px-Zonotrichia_capensis_-Buenos_Aires%2C_Argentina-8.jpg",
+            "author": "dfaulder",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zonotrichia_capensis_-Buenos_Aires,_Argentina-8.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Tico-tico (Zonotrichia capensis)"
+          }
+        },
+        {
+          "gbifKey": 2487404,
+          "scientificName": "Cyclarhis gujanensis",
+          "name": "Pitiguari",
+          "family": "Vireonidae",
+          "records": 71,
+          "iucn": "LC",
+          "wikidata": "Q678728",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Cyclarhis_gujanensis_-eating_green_caterpillar.jpg/960px-Cyclarhis_gujanensis_-eating_green_caterpillar.jpg",
+            "author": "Dario Sanches",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyclarhis_gujanensis_-eating_green_caterpillar.jpg",
+            "width": 640,
+            "height": 512,
+            "alt": "Pitiguari (Cyclarhis gujanensis)"
+          }
+        },
+        {
+          "gbifKey": 7341895,
+          "scientificName": "Setophaga pitiayumi",
+          "name": "Mariquita",
+          "family": "Parulidae",
+          "records": 66,
+          "iucn": "LC",
+          "wikidata": "Q27075912",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Parula_pitiayumi_-Piraju%2C_Sao_Paulo%2C_Brazil-8.jpg",
+            "author": "Dario Sanches from São Paulo, Brazil",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parula_pitiayumi_-Piraju,_Sao_Paulo,_Brazil-8.jpg",
+            "width": 640,
+            "height": 458,
+            "alt": "mariquita (Setophaga pitiayumi)"
+          }
+        },
+        {
+          "gbifKey": 2490718,
+          "scientificName": "Turdus rufiventris",
+          "name": "Sabiá-laranjeira",
+          "family": "Turdidae",
+          "records": 62,
+          "iucn": "LC",
+          "wikidata": "Q609283",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Rufous-bellied_thrush_%28Turdus_rufiventris%29.JPG/960px-Rufous-bellied_thrush_%28Turdus_rufiventris%29.JPG",
+            "author": "Charles J. Sharp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rufous-bellied_thrush_(Turdus_rufiventris).JPG",
+            "width": 640,
+            "height": 480,
+            "alt": "sabiá-laranjeira (Turdus rufiventris)"
+          }
+        },
+        {
+          "gbifKey": 2496634,
+          "scientificName": "Trogon surrucura",
+          "name": "Surucuá-variado",
+          "family": "Trogonidae",
+          "records": 59,
+          "iucn": "LC",
+          "wikidata": "Q1267847",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Surucu%C3%A1-variado_em_%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_%2813%29.jpg/960px-Surucu%C3%A1-variado_em_%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_%2813%29.jpg",
+            "author": "Luizalves1990",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Surucu%C3%A1-variado_em_%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Serra_Dona_Francisca_-_Luiz_Alves_(13).jpg",
+            "width": 640,
+            "height": 854,
+            "alt": "surucuá-variado (Trogon surrucura)"
+          }
+        },
+        {
+          "gbifKey": 5230959,
+          "scientificName": "Saltator similis",
+          "name": "Trinca-ferro",
+          "family": "Thraupidae",
+          "records": 57,
+          "iucn": "LC",
+          "wikidata": "Q3315562",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Saltator_similis_-_Green-winged_Saltator%3B_Monteiro_Lobato%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/960px-Saltator_similis_-_Green-winged_Saltator%3B_Monteiro_Lobato%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saltator_similis_-_Green-winged_Saltator;_Monteiro_Lobato,_S%C3%A3o_Paulo,_Brazil.jpg",
+            "width": 640,
+            "height": 511,
+            "alt": "trinca-ferro (Saltator similis)"
+          }
+        },
+        {
+          "gbifKey": 5959215,
+          "scientificName": "Thamnophilus caerulescens",
+          "name": "Choca-da-mata",
+          "family": "Thamnophilidae",
+          "records": 57,
+          "iucn": "LC",
+          "wikidata": "Q1193392",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/CHOCA-DA-MATA_macho_%28_Thamnophilus_caerulescens%29.jpg/960px-CHOCA-DA-MATA_macho_%28_Thamnophilus_caerulescens%29.jpg",
+            "author": "Dario Sanches",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:CHOCA-DA-MATA_macho_(_Thamnophilus_caerulescens).jpg",
+            "width": 640,
+            "height": 574,
+            "alt": "Choca-da-mata (Thamnophilus caerulescens)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 39,
+      "species": [
+        {
+          "gbifKey": 9048924,
+          "scientificName": "Vitreorana uranoscopa",
+          "name": "Perereca-de-vidro",
+          "family": "Centrolenidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q28047494",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vitreorana_uranoscopa_IRDias_2014_%28cropped%29.jpg",
+            "author": "Dias, I",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vitreorana_uranoscopa_IRDias_2014_(cropped).jpg",
+            "width": 640,
+            "height": 531,
+            "alt": "Perereca-de-vidro (Vitreorana uranoscopa)"
+          }
+        },
+        {
+          "gbifKey": 2427353,
+          "scientificName": "Aplastodiscus perviridis",
+          "name": "Perereca-verde",
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q773602",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Aplastodiscus_perviridis_-_Alessandher_Piva_-_334813484.jpeg/960px-Aplastodiscus_perviridis_-_Alessandher_Piva_-_334813484.jpeg",
+            "author": "Alessandher Piva",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aplastodiscus_perviridis_-_Alessandher_Piva_-_334813484.jpeg",
+            "width": 640,
+            "height": 427,
+            "alt": "Perereca-verde (Aplastodiscus perviridis)"
+          }
+        },
+        {
+          "gbifKey": 2424828,
+          "scientificName": "Ischnocnema henselii",
+          "name": null,
+          "family": "Brachycephalidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q4682654",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Ischnocnema_henselii02.jpg",
+            "author": "Raquel Rocha Santos",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ischnocnema_henselii02.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Ischnocnema henselii"
+          }
+        },
+        {
+          "gbifKey": 2428011,
+          "scientificName": "Sphaenorhynchus surdus",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2712832",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sphaenorhynchus_surdus.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sphaenorhynchus_surdus.jpg",
+            "width": 640,
+            "height": 414,
+            "alt": "Sphaenorhynchus surdus"
+          }
+        },
+        {
+          "gbifKey": 5217875,
+          "scientificName": "Scinax perereca",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q137497",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Scinax_perereca.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scinax_perereca.jpg",
+            "width": 640,
+            "height": 426,
+            "alt": "Scinax perereca"
+          }
+        },
+        {
+          "gbifKey": 5217937,
+          "scientificName": "Scinax granulatus",
+          "name": null,
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1746360",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Scinax_granulatus_334144281.jpg/960px-Scinax_granulatus_334144281.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scinax_granulatus_334144281.jpg",
+            "width": 640,
+            "height": 424,
+            "alt": "Scinax granulatus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "borboletas",
+      "label": "Borboletas e mariposas",
+      "records": 44,
+      "species": [
+        {
+          "gbifKey": 5128011,
+          "scientificName": "Anartia amathea",
+          "name": "Borboleta-pavão-escarlate",
+          "family": "Nymphalidae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q148567",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Anartiaamathea.jpg/960px-Anartiaamathea.jpg",
+            "author": "Andrawaag",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anartiaamathea.jpg",
+            "width": 640,
+            "height": 857,
+            "alt": "Borboleta-pavão-escarlate (Anartia amathea)"
+          }
+        },
+        {
+          "gbifKey": 5133503,
+          "scientificName": "Morpho epistrophus",
+          "name": "Borboleta-da-Coronilha",
+          "family": "Nymphalidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q3324335",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Morphoeipistrophuscatenaria.JPG/960px-Morphoeipistrophuscatenaria.JPG",
+            "author": "Notafly",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morphoeipistrophuscatenaria.JPG",
+            "width": 640,
+            "height": 480,
+            "alt": "Borboleta-da-Coronilha (Morpho epistrophus)"
+          }
+        },
+        {
+          "gbifKey": 1902114,
+          "scientificName": "Ortilia orthia",
+          "name": null,
+          "family": "Nymphalidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q13577329",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Illustrations_of_new_species_of_exotic_butterflies_Eresia_IV.jpg/960px-Illustrations_of_new_species_of_exotic_butterflies_Eresia_IV.jpg",
+            "author": "William Chapman Hewitson",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illustrations_of_new_species_of_exotic_butterflies_Eresia_IV.jpg",
+            "width": 640,
+            "height": 871,
+            "alt": "Ortilia orthia"
+          }
+        },
+        {
+          "gbifKey": 1936378,
+          "scientificName": "Rhetus periander",
+          "name": null,
+          "family": "Riodinidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q2116060",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Rhetus_periander_196150658.jpg/960px-Rhetus_periander_196150658.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhetus_periander_196150658.jpg",
+            "width": 640,
+            "height": 494,
+            "alt": "Rhetus periander"
+          }
+        },
+        {
+          "gbifKey": 9622955,
+          "scientificName": "Melanis smithiae",
+          "name": null,
+          "family": "Lycaenidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q1887352",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Melanis_smithiae_%28Riodinidae%29_%282872427674%29.jpg",
+            "author": "yakovlev.alexey from Moscow, Russia",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanis_smithiae_(Riodinidae)_(2872427674).jpg",
+            "width": 640,
+            "height": 958,
+            "alt": "Melanis smithiae"
+          }
+        },
+        {
+          "gbifKey": 5115406,
+          "scientificName": "Phaloe cruenta",
+          "name": null,
+          "family": "Erebidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q13530778",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 89,
+      "species": [
+        {
+          "gbifKey": 2684940,
+          "scientificName": "Araucaria angustifolia",
+          "name": "Araucária",
+          "family": "Araucariaceae",
+          "records": 9,
+          "iucn": "CR",
+          "wikidata": "Q899179",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG/960px-Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+            "author": "Germano Roberto Schüür",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+            "width": 640,
+            "height": 427,
+            "alt": "Araucária (Araucaria angustifolia)"
+          }
+        },
+        {
+          "gbifKey": 2650256,
+          "scientificName": "Anemia phyllitidis",
+          "name": "Avenca-de-Cacho",
+          "family": "Anemiaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q17043120",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Anemia_phyllitidis_%28L.%29_Sw._%2815091238057%29.jpg/960px-Anemia_phyllitidis_%28L.%29_Sw._%2815091238057%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anemia_phyllitidis_(L.)_Sw._(15091238057).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "Avenca-de-Cacho (Anemia phyllitidis)"
+          }
+        },
+        {
+          "gbifKey": 2650246,
+          "scientificName": "Vittaria lineata",
+          "name": null,
+          "family": "Pteridaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q17117515",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Vittaria_lineata.jpg/960px-Vittaria_lineata.jpg",
+            "author": "Riverbanks Outdoor Store from New Port Richey, FL, United States",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vittaria_lineata.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Vittaria lineata"
+          }
+        },
+        {
+          "gbifKey": 2820979,
+          "scientificName": "Galeandra beyrichii",
+          "name": null,
+          "family": "Orchidaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q15461911",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Galeandra_beyrichii_-_Flora_Brasiliensis_3-4-74.jpg/960px-Galeandra_beyrichii_-_Flora_Brasiliensis_3-4-74.jpg",
+            "author": "Alfred Cogniaux (1841 - 1916)",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galeandra_beyrichii_-_Flora_Brasiliensis_3-4-74.jpg",
+            "width": 640,
+            "height": 1043,
+            "alt": "Galeandra beyrichii"
+          }
+        },
+        {
+          "gbifKey": 3086385,
+          "scientificName": "Peperomia glabella",
+          "name": null,
+          "family": "Piperaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q11815584",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Peperomia_glabella_%60Variegata%60_-OB9.jpg/960px-Peperomia_glabella_%60Variegata%60_-OB9.jpg",
+            "author": "Jerzy Opioła",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peperomia_glabella_%60Variegata%60_-OB9.jpg",
+            "width": 640,
+            "height": 481,
+            "alt": "Peperomia glabella"
+          }
+        },
+        {
+          "gbifKey": 3129567,
+          "scientificName": "Baccharis anomala",
+          "name": null,
+          "family": "Asteraceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q15589619",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Baccharis_anomala_poster_Uruguay.jpg",
+            "author": "Andrés González",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baccharis_anomala_poster_Uruguay.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Baccharis anomala"
+          }
+        },
+        {
+          "gbifKey": 7221885,
+          "scientificName": "Orthosia scoparia",
+          "name": null,
+          "family": "Apocynaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q15368589",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Orthosia_scoparia-_Treinta_y_Tres%2C_Quebrada_de_los_Cuervos%2C_Sobre_%C3%A1rboles_en_bosque_de_quebrada_al_margen_del_Arroyo_Yerbal_Chico_3.jpg/960px-Orthosia_scoparia-_Treinta_y_Tres%2C_Quebrada_de_los_Cuervos%2C_Sobre_%C3%A1rboles_en_bosque_de_quebrada_al_margen_del_Arroyo_Yerbal_Chico_3.jpg",
+            "author": "Andrés González",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orthosia_scoparia-_Treinta_y_Tres,_Quebrada_de_los_Cuervos,_Sobre_%C3%A1rboles_en_bosque_de_quebrada_al_margen_del_Arroyo_Yerbal_Chico_3.jpg",
+            "width": 640,
+            "height": 935,
+            "alt": "Orthosia scoparia"
+          }
+        },
+        {
+          "gbifKey": 8163528,
+          "scientificName": "Pleopeltis minima",
+          "name": null,
+          "family": "Polypodiaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q17112264",
+          "photo": null
+        },
+        {
+          "gbifKey": 4027920,
+          "scientificName": "Pecluma recurvata",
+          "name": null,
+          "family": "Polypodiaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q15349813",
+          "photo": null
+        },
+        {
+          "gbifKey": 4257847,
+          "scientificName": "Asplenium gastonis",
+          "name": null,
+          "family": "Aspleniaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q17065431",
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2684940,
+      "scientificName": "Araucaria angustifolia",
+      "name": "Araucária",
+      "family": "Araucariaceae",
+      "records": null,
+      "iucn": "CR",
+      "wikidata": "Q899179",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG/960px-Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+        "author": "Germano Roberto Schüür",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itaimbezinho_-_Parque_Nacional_Aparados_da_Serra_33.JPG",
+        "width": 640,
+        "height": 427,
+        "alt": "Araucária (Araucaria angustifolia)"
+      }
+    },
+    {
+      "gbifKey": 2479617,
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "family": "Psittacidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q280469",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg/960px-Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazona_vinacea_Vinaceous-breasted_Parrot;_Urupema,Santa_Catarina,_Brazil.jpg",
+        "width": 640,
+        "height": 404,
+        "alt": "Papagaio-de-peito-roxo (Amazona vinacea)"
+      }
+    },
+    {
+      "gbifKey": 8868834,
+      "scientificName": "Celeus galeatus",
+      "name": "Pica-pau-de-cara-canela",
+      "family": "Picidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1264799",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Dryocopus_galeatus_-_Helmeted_Woodpecker_%28female%29.JPG",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dryocopus_galeatus_-_Helmeted_Woodpecker_(female).JPG",
+        "width": 640,
+        "height": 640,
+        "alt": "pica-pau-de-cara-canela (Celeus galeatus)"
+      }
+    }
+  ]
+}

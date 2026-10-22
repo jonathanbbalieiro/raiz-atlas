@@ -1,0 +1,411 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-50.854%202.814%2C-50.856%202.904%2C-50.867%202.934%2C-50.894%202.973%2C-50.898%202.985%2C-50.899%203.019%2C-50.903%203.034%2C-50.915%203.057%2C-50.914%203.072%2C-50.918%203.106%2C-50.929%203.135%2C-50.942%203.154%2C-50.935%203.192%2C-50.935%203.223%2C-50.987%203.377%2C-50.995%203.421%2C-50.987%203.443%2C-50.984%203.475%2C-50.989%203.598%2C-51.000%203.717%2C-50.984%203.855%2C-50.984%203.890%2C-50.990%203.921%2C-51.005%203.948%2C-51.029%203.974%2C-51.056%203.990%2C-51.089%203.995%2C-51.094%204.065%2C-51.120%204.152%2C-51.133%204.176%2C-51.227%204.300%2C-51.354%204.429%2C-51.429%204.492%2C-51.456%204.507%2C-51.471%204.511%2C-51.539%204.519%2C-51.538%204.430%2C-51.550%204.424%2C-51.554%204.415%2C-51.574%204.345%2C-51.573%204.314%2C-51.567%204.280%2C-51.544%204.226%2C-51.537%204.186%2C-51.538%204.160%2C-51.534%204.140%2C-51.510%204.103%2C-51.486%204.036%2C-51.468%203.999%2C-51.428%204.015%2C-51.323%203.797%2C-51.262%203.752%2C-51.251%203.627%2C-51.207%203.473%2C-51.218%203.473%2C-51.334%203.232%2C-51.190%203.232%2C-51.195%203.225%2C-51.223%203.215%2C-51.217%203.206%2C-51.229%203.194%2C-51.233%203.196%2C-51.235%203.209%2C-51.240%203.212%2C-51.237%203.202%2C-51.252%203.189%2C-51.244%203.182%2C-51.244%203.177%2C-51.248%203.173%2C-51.241%203.167%2C-51.244%203.155%2C-51.237%203.154%2C-51.228%203.162%2C-51.224%203.157%2C-51.253%203.121%2C-51.252%202.823%2C-51.243%202.829%2C-51.239%202.827%2C-51.235%202.840%2C-51.225%202.837%2C-51.222%202.848%2C-51.200%202.837%2C-51.198%202.840%2C-51.180%202.836%2C-51.181%202.845%2C-51.165%202.845%2C-51.154%202.838%2C-51.153%202.844%2C-51.145%202.844%2C-51.143%202.837%2C-51.135%202.848%2C-51.128%202.843%2C-51.125%202.856%2C-51.110%202.851%2C-51.105%202.853%2C-51.102%202.859%2C-51.091%202.858%2C-51.079%202.847%2C-51.072%202.852%2C-51.068%202.847%2C-51.059%202.845%2C-51.052%202.839%2C-51.028%202.832%2C-51.027%202.825%2C-51.020%202.817%2C-51.012%202.817%2C-51.006%202.808%2C-50.984%202.807%2C-50.968%202.811%2C-50.956%202.819%2C-50.947%202.813%2C-50.941%202.816%2C-50.854%202.814))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 15,
+      "species": [
+        {
+          "gbifKey": 9518324,
+          "scientificName": "Procyon cancrivorus",
+          "name": null,
+          "family": "Procyonidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": null,
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 349,
+      "species": [
+        {
+          "gbifKey": 2480873,
+          "scientificName": "Egretta thula",
+          "name": "Garça-branca-pequena",
+          "family": "Ardeidae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q59785",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Aigrette_neigeuse.jpg/960px-Aigrette_neigeuse.jpg",
+            "author": "Mike Baird",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aigrette_neigeuse.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Garça-branca-pequena (Egretta thula)"
+          }
+        },
+        {
+          "gbifKey": 2480894,
+          "scientificName": "Egretta caerulea",
+          "name": "Garça-azul",
+          "family": "Ardeidae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q371028",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Egretta_caerulea_-Cananeia%2C_Sao_Paulo%2C_Brasil-8.jpg/960px-Egretta_caerulea_-Cananeia%2C_Sao_Paulo%2C_Brasil-8.jpg",
+            "author": "Dario Sanches from São Paulo, Brazil",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Egretta_caerulea_-Cananeia,_Sao_Paulo,_Brasil-8.jpg",
+            "width": 640,
+            "height": 564,
+            "alt": "Garça-azul (Egretta caerulea)"
+          }
+        },
+        {
+          "gbifKey": 5229204,
+          "scientificName": "Eudocimus ruber",
+          "name": "Guará",
+          "family": "Threskiornithidae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q467996",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Eudocimus_ruber_Corocora_Scarlet_Ibis_%286264848783%29.jpg/960px-Eudocimus_ruber_Corocora_Scarlet_Ibis_%286264848783%29.jpg",
+            "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eudocimus_ruber_Corocora_Scarlet_Ibis_(6264848783).jpg",
+            "width": 640,
+            "height": 537,
+            "alt": "guará (Eudocimus ruber)"
+          }
+        },
+        {
+          "gbifKey": 2480803,
+          "scientificName": "Platalea ajaja",
+          "name": "Colhereiro-americano",
+          "family": "Threskiornithidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q389664",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Roseate_Spoonbill_-_Myakka_River_State_Park.jpg/960px-Roseate_Spoonbill_-_Myakka_River_State_Park.jpg",
+            "author": "User:Mwanner",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roseate_Spoonbill_-_Myakka_River_State_Park.jpg",
+            "width": 640,
+            "height": 782,
+            "alt": "Colhereiro-americano (Platalea ajaja)"
+          }
+        },
+        {
+          "gbifKey": 5229832,
+          "scientificName": "Cacicus cela",
+          "name": "Xexéu",
+          "family": "Icteridae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q580297",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cacicus_cela_Yellow-rumped_Cacique%3B_M%C3%A2ncio_Lima%2C_Acre%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cacicus_cela_Yellow-rumped_Cacique;_M%C3%A2ncio_Lima,_Acre,_Brazil.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Xexéu (Cacicus cela)"
+          }
+        },
+        {
+          "gbifKey": 2480881,
+          "scientificName": "Egretta tricolor",
+          "name": "Garça-tricolor",
+          "family": "Ardeidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q392139",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Adult_Tricolored_Heron.jpg/960px-Adult_Tricolored_Heron.jpg",
+            "author": "Wing-Chi Poon",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adult_Tricolored_Heron.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "Garça-tricolor (Egretta tricolor)"
+          }
+        },
+        {
+          "gbifKey": 2480951,
+          "scientificName": "Ardea cocoi",
+          "name": "Garça-moura",
+          "family": "Ardeidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q911449",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/GARZA_MORA_Ardea_cocoi.jpg/960px-GARZA_MORA_Ardea_cocoi.jpg",
+            "author": "Dario Niz",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:GARZA_MORA_Ardea_cocoi.jpg",
+            "width": 640,
+            "height": 849,
+            "alt": "Garça-moura (Ardea cocoi)"
+          }
+        },
+        {
+          "gbifKey": 2480953,
+          "scientificName": "Nyctanassa violacea",
+          "name": "Savacu-de-coroa",
+          "family": "Ardeidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q764282",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Nycticorax_violaceus_%28at_beach%29.jpg/960px-Nycticorax_violaceus_%28at_beach%29.jpg",
+            "author": "Ianaré Sévi",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nycticorax_violaceus_(at_beach).jpg",
+            "width": 640,
+            "height": 817,
+            "alt": "Savacu-de-coroa (Nyctanassa violacea)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 508,
+      "species": [
+        {
+          "gbifKey": 2895593,
+          "scientificName": "Genipa americana",
+          "name": "Jenipapeiro",
+          "family": "Rubiaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q1353278",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Geniculata_and_Genipa.jpg",
+            "author": "Autor desconhecido",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geniculata_and_Genipa.jpg",
+            "width": 640,
+            "height": 956,
+            "alt": "Jenipapeiro (Genipa americana)"
+          }
+        },
+        {
+          "gbifKey": 3713863,
+          "scientificName": "Garcinia madruno",
+          "name": "Bacuri",
+          "family": "Clusiaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q1951316",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Madruno.jpg/960px-Madruno.jpg",
+            "author": "Chris Hind",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madruno.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Bacuri (Garcinia madruno)"
+          }
+        },
+        {
+          "gbifKey": 5288819,
+          "scientificName": "Ananas comosus",
+          "name": "Abacaxizeiro",
+          "family": "Bromeliaceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q1493",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Nanas_variegata_cheche.jpg/960px-Nanas_variegata_cheche.jpg",
+            "author": "VpuipV ,pemegang hak cipta",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanas_variegata_cheche.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "abacaxizeiro (Ananas comosus)"
+          }
+        },
+        {
+          "gbifKey": 2854416,
+          "scientificName": "Hippeastrum puniceum",
+          "name": "Açucena",
+          "family": "Amaryllidaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q10657527",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Hippeastrum_puniceum1CURTIS.jpg",
+            "author": "William Curtis",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hippeastrum_puniceum1CURTIS.jpg",
+            "width": 640,
+            "height": 1027,
+            "alt": "Açucena (Hippeastrum puniceum)"
+          }
+        },
+        {
+          "gbifKey": 3993081,
+          "scientificName": "Protium guianense",
+          "name": null,
+          "family": "Burseraceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q15544906",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Icica_guianensis_Aublet_1775_pl_131.jpg/960px-Icica_guianensis_Aublet_1775_pl_131.jpg",
+            "author": "Jean-Baptiste-Christophe FUSÉE-AUBLET (1720-1778)",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Icica_guianensis_Aublet_1775_pl_131.jpg",
+            "width": 640,
+            "height": 829,
+            "alt": "Protium guianense"
+          }
+        },
+        {
+          "gbifKey": 2977861,
+          "scientificName": "Jupunba trapezifolia",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q109860640",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Abarema_jupunba_%28Willd.%29_Britton_%26_Killip_%287559083470%29.jpg/960px-Abarema_jupunba_%28Willd.%29_Britton_%26_Killip_%287559083470%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abarema_jupunba_(Willd.)_Britton_%26_Killip_(7559083470).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "Jupunba trapezifolia"
+          }
+        },
+        {
+          "gbifKey": 3763686,
+          "scientificName": "Maquira guianensis",
+          "name": null,
+          "family": "Moraceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15478612",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Maquira_guianensis_Aublet_1775_pl_389.jpg/960px-Maquira_guianensis_Aublet_1775_pl_389.jpg",
+            "author": "Jean-Baptiste-Christophe FUSÉE-AUBLET (1720-1778)",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maquira_guianensis_Aublet_1775_pl_389.jpg",
+            "width": 640,
+            "height": 824,
+            "alt": "Maquira guianensis"
+          }
+        },
+        {
+          "gbifKey": 3620808,
+          "scientificName": "Ambelania acida",
+          "name": "Pepino-do-mato",
+          "family": "Apocynaceae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q10348424",
+          "photo": null
+        },
+        {
+          "gbifKey": 5333899,
+          "scientificName": "Micropholis mensalis",
+          "name": null,
+          "family": "Sapotaceae",
+          "records": 19,
+          "iucn": null,
+          "wikidata": "Q15333454",
+          "photo": null
+        },
+        {
+          "gbifKey": 7286876,
+          "scientificName": "Protium opacum",
+          "name": null,
+          "family": "Burseraceae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q15547485",
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 2885144,
+      "scientificName": "Manilkara elata",
+      "name": null,
+      "family": "Sapotaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q3284486",
+      "photo": null
+    },
+    {
+      "gbifKey": 2904819,
+      "scientificName": "Coussarea machadoana",
+      "name": null,
+      "family": "Rubiaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q15435148",
+      "photo": null
+    },
+    {
+      "gbifKey": 2481721,
+      "scientificName": "Tringa flavipes",
+      "name": "Perna-amarela-pequeno",
+      "family": "Scolopacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q28000",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Lesser_Yellowlegs.jpg/960px-Lesser_Yellowlegs.jpg",
+        "author": "Wwcsig",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lesser_Yellowlegs.jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Perna-amarela-pequeno (Tringa flavipes)"
+      }
+    }
+  ]
+}

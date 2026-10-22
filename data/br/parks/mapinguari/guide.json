@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Ilhas de cerrado no meio da floresta amazônica, entre os rios Purus e Madeira.",
+  "intro": "No sul do Amazonas, o Parque Nacional Mapinguari protege cerca de 1,78 milhão de hectares entre os rios Purus e Madeira. Criado por decreto de 5 de junho de 2008, guarda florestas, campinaranas e os maiores enclaves de cerrado da região, numa área pressionada pelo arco do desmatamento.",
+  "sourceIds": [
+    "icmbio",
+    "pm"
+  ],
+  "protects": {
+    "summary": "Florestas, enclaves de cerrado e nascentes entre dois grandes rios",
+    "items": [
+      {
+        "title": "Savanas dentro da Amazônia",
+        "text": "Os maiores enclaves de cerrado e campinarana do interflúvio Purus-Madeira ficam aqui, isolados de outras áreas abertas e pouco alterados.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Uma barreira contra o desmatamento",
+        "text": "As florestas do parque e suas transições com o cerrado ajudam a conter o avanço do arco do desmatamento e ligam áreas protegidas ao norte e ao sul da BR-230.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Nascentes do interflúvio",
+        "text": "O parque guarda nascentes de rios importantes da região, como o Punaenã, e calhas inteiras de rios com florestas de igapó, como o Assuã e o Mucuim.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "title": "Fauna das áreas abertas",
+        "text": "Manter os animais típicos dos campos é um dos objetivos do parque. O veado-campeiro e o tamanduá-bandeira têm registros dentro dele.",
+        "sourceIds": [
+          "pm",
+          "gbif"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Campos do Norte",
+      "text": "No extremo norte, 40 mil hectares do maior enclave contínuo de cerrado da região, ligado aos campos da Estação Ecológica do Cuniã. É a área mais acessível do parque.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Cachoeira da Cobra",
+      "text": "No rio Punicici, no centro do parque, é o destino de um circuito pensado para visitação e observação de fauna.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Serras do sul",
+      "text": "Perto do rio Madeira, o relevo fica mais acidentado e chega ao ponto mais alto do interflúvio Purus-Madeira, coberto de floresta de terra firme.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Amaz%C3%B4nia_e_o_Rio_Madeira.JPG/1280px-Amaz%C3%B4nia_e_o_Rio_Madeira.JPG",
+        "author": "Renato Gaiga",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amaz%C3%B4nia_e_o_Rio_Madeira.JPG",
+        "width": 1280,
+        "height": 850,
+        "alt": "O rio Madeira visto de dentro do Parque Nacional Mapinguari, perto das serras do sul.",
+        "context": "O rio Madeira visto de dentro do Parque Nacional Mapinguari, perto das serras do sul."
+      }
+    },
+    {
+      "title": "Primeira cachoeira do Karipunas",
+      "text": "No rio Karipunas, uma base compartilhada com a vizinha Estação Ecológica Serra dos Três Irmãos apoia pesquisa e visitação.",
+      "sourceIds": [
+        "pm"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O decreto de criação destaca, como razão de existir do parque, os importantes enclaves de savana do interflúvio Purus-Madeira.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Rios como o Mucuim e o Assuã são hidrovias legalmente instituídas, usadas por comunidades que vivem às margens.",
+      "sourceIds": [
+        "pm"
+      ]
+    },
+    {
+      "text": "Nos campos naturais, a meta do plano de manejo não é eliminar o fogo, e sim manter a ocorrência desejada dele, para preservar a vegetação típica.",
+      "sourceIds": [
+        "pm"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2008 · Nasce o parque",
+      "text": "Decreto de 5 de junho cria o Parque Nacional Mapinguari no interflúvio Purus-Madeira.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "title": "2010 e 2012 · Limites redesenhados",
+      "text": "As leis 12.249 e 12.678 alteram os limites do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2018 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo, com alvos como as formações abertas, a floresta de terra firme, as águas e as serras.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Ozotoceros bezoarticus",
+      "name": "Veado-campeiro",
+      "why": "Um veado de campo aberto vivendo em plena Amazônia, graças aos enclaves de cerrado do parque.",
+      "sourceIds": [
+        "gbif",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Pampas_deer_nursing_fwan.jpg/960px-Pampas_deer_nursing_fwan.jpg",
+        "author": "Scott Presnell",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pampas_deer_nursing_fwan.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Veado-campeiro (Ozotoceros bezoarticus); fotografia da espécie",
+        "context": "Retrato ilustrativo de Ozotoceros bezoarticus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Vulnerável, tem registros no parque, onde floresta e cerrado se encontram.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 640,
+        "height": 433,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla); fotografia da espécie",
+        "context": "Retrato ilustrativo de Myrmecophaga tridactyla. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pionites leucogaster",
+      "name": "Marianinha-de-cabeça-amarela",
+      "why": "Papagaio vulnerável com registros dentro do parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Pionites_leucogaster_-_White-bellied_Parrot%3B_Rio_Branco%2C_Acre%2C_Brazil.jpg/960px-Pionites_leucogaster_-_White-bellied_Parrot%3B_Rio_Branco%2C_Acre%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pionites_leucogaster_-_White-bellied_Parrot;_Rio_Branco,_Acre,_Brazil.jpg",
+        "width": 640,
+        "height": 976,
+        "alt": "Marianinha-de-cabeça-amarela (Pionites leucogaster); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pionites leucogaster. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Mapinguari",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-mapinguari",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Mapinguari, Volume II: Planejamento (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-mapinguari/arquivos/plano_manejo_parna_mapinguari_volume_ii_planejamento.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

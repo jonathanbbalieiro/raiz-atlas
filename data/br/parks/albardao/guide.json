@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Um milhão de hectares de mar no extremo sul do Brasil, refúgio de toninhas, tartarugas marinhas e aves pelágicas.",
+  "intro": "No extremo sul do litoral gaúcho, o Parque Nacional do Albardão protege cerca de 1 milhão de hectares de costa e plataforma continental. Criado pelo decreto de 6 de março de 2026, inclui a coluna d'água, o fundo do mar e o subsolo. Guarda áreas de reprodução e alimentação de espécies ameaçadas e sítios paleontológicos na praia.",
+  "sourceIds": [
+    "decreto"
+  ],
+  "protects": {
+    "summary": "Berçários marinhos e a memória fóssil da praia",
+    "items": [
+      {
+        "title": "Plataforma continental viva",
+        "text": "O decreto protege ambientes costeiros e de plataforma importantes para a reprodução e a alimentação de espécies ameaçadas, endêmicas ou migratórias.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "title": "Tubarões e raias",
+        "text": "Desde 2005 a região é apontada como fundamental para tubarões e raias do Brasil, incluindo cações-anjo, raia-viola e tubarão-martelo, todos muito ameaçados.",
+        "sourceIds": [
+          "proposta"
+        ]
+      },
+      {
+        "title": "Aves dos dois hemisférios",
+        "text": "Estudos da proposta registraram 15 espécies de aves marinhas e costeiras e 27 de aves pelágicas, residentes e migrantes do Norte e do Sul.",
+        "sourceIds": [
+          "proposta"
+        ]
+      },
+      {
+        "title": "Estoques de peixes",
+        "text": "Junto com a APA do Albardão, o parque deve ajudar a recuperar estoques pesqueiros da região, muitos deles sobre-explotados.",
+        "sourceIds": [
+          "decreto",
+          "proposta"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Dunas e concheiros do Albardão",
+      "text": "As Dunas do Albardão são um geossítio desde 2008. Na praia, os concheiros guardam fósseis que fazem da área um importante sítio paleontológico da costa brasileira.",
+      "sourceIds": [
+        "proposta",
+        "decreto"
+      ],
+      "photo": null
+    },
+    {
+      "title": "Mar aberto do extremo sul",
+      "text": "Quase todo o parque é mar aberto. A proteção vai da superfície ao fundo do oceano e ao subsolo.",
+      "sourceIds": [
+        "decreto"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/407461476/original.jpeg",
+        "author": "vinicius_s_domingues",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/407461476",
+        "width": 2048,
+        "height": 1532,
+        "alt": "Pardelão-gigante (Macronectes giganteus) em voo rasante sobre as ondas, com o mar aberto ao fundo",
+        "context": "Ave marinha do Atlântico Sul em voo sobre a arrebentação no Albardão, em Santa Vitória do Palmar (RS), no extremo sul do Brasil."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A região do Albardão está entre os 23 sítios mais prioritários para conservação costeira e marinha do Brasil, Uruguai, Argentina e Chile, segundo o Foro do Mar Patagônico.",
+      "sourceIds": [
+        "proposta"
+      ]
+    },
+    {
+      "text": "Pela proposta, água subterrânea da Lagoa Mangueira escoa até a plataforma continental, ligando a lagoa ao mar por baixo da terra.",
+      "sourceIds": [
+        "proposta"
+      ]
+    },
+    {
+      "text": "Na costa vivem animais raros como o tuco-tuco-da-praia, o sapo-da-duna e a lagartixa-da-areia.",
+      "sourceIds": [
+        "proposta"
+      ]
+    },
+    {
+      "text": "Os limites do parque no espaço aéreo ainda serão definidos no plano de manejo.",
+      "sourceIds": [
+        "decreto"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2003-2004 · Prioridade extrema",
+      "text": "O Ministério do Meio Ambiente classifica a região do Albardão como de extrema importância para a biodiversidade.",
+      "sourceIds": [
+        "proposta"
+      ]
+    },
+    {
+      "title": "2008 · Começam os estudos",
+      "text": "O ICMBio abre o processo para estudar uma unidade de conservação no Albardão, e as dunas viram geossítio.",
+      "sourceIds": [
+        "proposta"
+      ]
+    },
+    {
+      "title": "2021 · Proposta técnica",
+      "text": "É concluída a proposta técnica de criação do parque, levada à discussão pública.",
+      "sourceIds": [
+        "proposta"
+      ]
+    },
+    {
+      "title": "2026 · Nasce o parque",
+      "text": "O Decreto nº 12.868 cria o Parque Nacional do Albardão e a APA do Albardão. Dias depois, um projeto no Congresso tenta anular o decreto.",
+      "sourceIds": [
+        "decreto",
+        "neomondo"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Pontoporia blainvillei",
+      "name": "Toninha",
+      "why": "Pequeno golfinho ameaçado, destacado pela proposta do parque e registrado dentro de seus limites.",
+      "sourceIds": [
+        "proposta",
+        "gbif"
+      ]
+    },
+    {
+      "scientificName": "Caretta caretta",
+      "name": "Tartaruga-comum",
+      "why": "A espécie com mais registros dentro do parque. É vulnerável segundo a IUCN.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/960px-Loggerhead_sea_turtle.jpg",
+        "author": "ukanda",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+        "width": 640,
+        "height": 426,
+        "alt": "Tartaruga-comum (Caretta caretta); fotografia da espécie",
+        "context": "Retrato ilustrativo de Caretta caretta. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Procellaria aequinoctialis",
+      "name": "Pardelão-de-queixo-branco",
+      "why": "Ave pelágica vulnerável, uma das mais registradas no parque.",
+      "sourceIds": [
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Procellaria_aequinoctialis_in_flight.jpg/960px-Procellaria_aequinoctialis_in_flight.jpg",
+        "author": "Mjobling",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procellaria_aequinoctialis_in_flight.jpg",
+        "width": 640,
+        "height": 864,
+        "alt": "Pardelão-de-queixo-branco (Procellaria aequinoctialis); fotografia da espécie",
+        "context": "Retrato ilustrativo de Procellaria aequinoctialis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    },
+    {
+      "scientificName": "Pseudobatos horkelii",
+      "name": "Cação-viola",
+      "why": "Raia criticamente ameaçada, com registros dentro do parque.",
+      "sourceIds": [
+        "gbif",
+        "proposta"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Rhinobatos_horkelii_2.jpg/960px-Rhinobatos_horkelii_2.jpg",
+        "author": "MÜLLER, J. &amp; HENLE, F.G.J. (1841)",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhinobatos_horkelii_2.jpg",
+        "width": 640,
+        "height": 400,
+        "alt": "Cação-viola (Pseudobatos horkelii); fotografia da espécie",
+        "context": "Retrato ilustrativo de Pseudobatos horkelii. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "decreto",
+      "institution": "Presidência da República / DOU",
+      "title": "Decreto nº 12.868, de 6 de março de 2026",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/pampa/lista-de-ucs/apa-do-albardao/arquivos/dec_12-868__de_6_3__2026___dou.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "proposta",
+      "institution": "ICMBio / Projeto Un Solo Mar",
+      "title": "Proposta de criação do Parque Nacional do Albardão",
+      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/participacao-social/PROPOSTAALBARDAO.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "neomondo",
+      "institution": "Neo Mondo",
+      "title": "O parque que durou cinco dias",
+      "url": "https://neomondo.org.br/oceano/o-parque-que-durou-cinco-dias",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gbif",
+      "institution": "GBIF",
+      "title": "Ocorrências de espécies dentro do limite do parque",
+      "url": "https://www.gbif.org/occurrence/search",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

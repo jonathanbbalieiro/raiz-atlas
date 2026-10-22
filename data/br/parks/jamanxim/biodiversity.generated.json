@@ -1,0 +1,634 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=POLYGON((-55.640%20-5.034%2C-55.644%20-5.027%2C-55.660%20-5.040%2C-55.658%20-5.057%2C-55.672%20-5.075%2C-55.787%20-5.134%2C-55.799%20-5.202%2C-55.791%20-5.219%2C-55.809%20-5.276%2C-55.797%20-5.288%2C-55.815%20-5.296%2C-55.806%20-5.302%2C-55.812%20-5.313%2C-55.857%20-5.324%2C-55.849%20-5.340%2C-55.867%20-5.372%2C-55.865%20-5.402%2C-55.902%20-5.409%2C-55.932%20-5.369%2C-55.963%20-5.365%2C-55.975%20-5.346%2C-55.982%20-5.358%2C-56.003%20-5.352%2C-56.019%20-5.378%2C-56.098%20-5.388%2C-56.115%20-5.375%2C-56.114%20-5.423%2C-56.105%20-5.429%2C-56.158%20-5.476%2C-56.150%20-5.501%2C-56.164%20-5.501%2C-56.171%20-5.513%2C-56.178%20-5.563%2C-56.436%20-5.565%2C-56.435%20-5.624%2C-56.404%20-5.647%2C-56.404%20-5.673%2C-56.246%20-5.703%2C-56.232%20-5.722%2C-56.249%20-5.734%2C-56.267%20-5.725%2C-56.284%20-5.766%2C-56.278%20-5.788%2C-56.231%20-5.815%2C-56.199%20-5.881%2C-56.161%20-5.905%2C-56.161%20-5.948%2C-56.109%20-5.968%2C-56.111%20-5.981%2C-56.123%20-5.986%2C-56.121%20-6.011%2C-56.133%20-6.037%2C-56.171%20-6.055%2C-56.179%20-6.089%2C-56.165%20-6.154%2C-56.125%20-6.130%2C-56.072%20-6.117%2C-55.999%20-6.146%2C-55.962%20-6.125%2C-55.929%20-6.125%2C-55.907%20-6.101%2C-55.855%20-6.086%2C-55.836%20-6.068%2C-55.768%20-6.116%2C-55.755%20-6.094%2C-55.715%20-6.106%2C-55.720%20-6.040%2C-55.702%20-6.032%2C-55.704%20-6.006%2C-55.692%20-5.981%2C-55.714%20-5.930%2C-55.712%20-5.873%2C-55.742%20-5.776%2C-55.745%20-5.719%2C-55.736%20-5.755%2C-55.741%20-5.776%2C-55.710%20-5.874%2C-55.712%20-5.931%2C-55.691%20-5.979%2C-55.683%20-6.043%2C-55.632%20-6.083%2C-55.574%20-6.086%2C-55.560%20-6.173%2C-55.527%20-6.183%2C-55.513%20-6.165%2C-55.457%20-6.158%2C-55.450%20-6.186%2C-55.355%20-5.963%2C-55.344%20-5.914%2C-55.317%20-5.893%2C-55.317%20-5.869%2C-55.285%20-5.848%2C-55.262%20-5.807%2C-55.257%20-5.788%2C-55.277%20-5.766%2C-55.309%20-5.758%2C-55.333%20-5.735%2C-55.340%20-5.696%2C-55.354%20-5.690%2C-55.351%20-5.660%2C-55.385%20-5.601%2C-55.386%20-5.574%2C-55.400%20-5.573%2C-55.411%20-5.554%2C-55.432%20-5.566%2C-55.450%20-5.539%2C-55.470%20-5.535%2C-55.465%20-5.530%2C-55.486%20-5.508%2C-55.569%20-5.478%2C-55.522%20-5.404%2C-55.443%20-5.403%2C-55.489%20-5.371%2C-55.479%20-5.346%2C-55.504%20-5.298%2C-55.548%20-5.285%2C-55.600%20-5.295%2C-55.624%20-5.252%2C-55.614%20-5.232%2C-55.574%20-5.232%2C-55.593%20-5.196%2C-55.564%20-5.190%2C-55.542%20-5.203%2C-55.501%20-5.181%2C-55.450%20-5.178%2C-55.455%20-5.149%2C-55.442%20-5.157%2C-55.424%20-5.141%2C-55.424%20-5.124%2C-55.403%20-5.109%2C-55.387%20-5.116%2C-55.386%20-5.074%2C-55.352%20-5.043%2C-55.392%20-5.037%2C-55.458%20-5.054%2C-55.501%20-5.052%2C-55.525%20-5.032%2C-55.554%20-5.059%2C-55.610%20-5.063%2C-55.640%20-5.034))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 20,
+      "species": [
+        {
+          "gbifKey": 2436644,
+          "scientificName": "Ateles marginatus",
+          "name": "Macaco-aranha-de-cara-branca",
+          "family": "Atelidae",
+          "records": 3,
+          "iucn": "EN",
+          "wikidata": "Q944704",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg/960px-Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg",
+            "author": "Rafael Mitsuo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo(001).jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "macaco-aranha-de-cara-branca (Ateles marginatus)"
+          }
+        },
+        {
+          "gbifKey": 5219526,
+          "scientificName": "Chiropotes albinasus",
+          "name": "Cuxiú-de-nariz-branco",
+          "family": "Pitheciidae",
+          "records": 3,
+          "iucn": "VU",
+          "wikidata": "Q1030670",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chiropotes_albinasus.jpg/960px-Chiropotes_albinasus.jpg",
+            "author": "Valdir Hobus",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiropotes_albinasus.jpg",
+            "width": 640,
+            "height": 473,
+            "alt": "Cuxiú-de-nariz-branco (Chiropotes albinasus)"
+          }
+        },
+        {
+          "gbifKey": 5786454,
+          "scientificName": "Mico leucippe",
+          "name": "Sagui-branco-de-orelhas-nuas",
+          "family": "Callitrichidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q20890512",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/White_marmoset_Mico_leucippe.png",
+            "author": "Stephen Nash",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_marmoset_Mico_leucippe.png",
+            "width": 640,
+            "height": 1328,
+            "alt": "Sagui-branco-de-orelhas-nuas (Mico leucippe)"
+          }
+        },
+        {
+          "gbifKey": 7477334,
+          "scientificName": "Sapajus apella",
+          "name": "Macaco-prego-castanho",
+          "family": "Cebidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q18324712",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Tufted_capuchin_on_a_branch_in_Singapore.jpg/960px-Tufted_capuchin_on_a_branch_in_Singapore.jpg",
+            "author": "Basile Morin",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tufted_capuchin_on_a_branch_in_Singapore.jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Macaco-prego-castanho (Sapajus apella)"
+          }
+        },
+        {
+          "gbifKey": 5786091,
+          "scientificName": "Alouatta discolor",
+          "name": "Bugio-de-mãos-vermelhas-de-spix",
+          "family": "Atelidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q1207240",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Alouatta_discolor.jpg/960px-Alouatta_discolor.jpg",
+            "author": "Ric",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alouatta_discolor.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Bugio-de-mãos-vermelhas-de-spix (Alouatta discolor)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 82,
+      "species": [
+        {
+          "gbifKey": 5228248,
+          "scientificName": "Galbula cyanicollis",
+          "name": "Ariramba-da-mata",
+          "family": "Galbulidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q1266619",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Galbula_cyanicollis_Blue-necked_Jacamar_%28female%29%3B_Porto_Velho%2C_Rond%C3%B4nia%2C_Brazil.jpg/960px-Galbula_cyanicollis_Blue-necked_Jacamar_%28female%29%3B_Porto_Velho%2C_Rond%C3%B4nia%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Galbula_cyanicollis_Blue-necked_Jacamar_(female);_Porto_Velho,_Rond%C3%B4nia,_Brazil.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Ariramba-da-mata (Galbula cyanicollis)"
+          }
+        },
+        {
+          "gbifKey": 2475160,
+          "scientificName": "Malacoptila rufa",
+          "name": "Barbudo-de-pescoço-ferrugem",
+          "family": "Bucconidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1260993",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Rufous-necked_puffbird.JPG/960px-Rufous-necked_puffbird.JPG",
+            "author": "Gonzo.Lubitsch",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rufous-necked_puffbird.JPG",
+            "width": 640,
+            "height": 853,
+            "alt": "Barbudo-de-pescoço-ferrugem (Malacoptila rufa)"
+          }
+        },
+        {
+          "gbifKey": 2479851,
+          "scientificName": "Pyrrhura perlata",
+          "name": "Tiriba-de-barriga-vermelha",
+          "family": "Psittacidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1030321",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pyrrhura_perlata_-captive-8a-1c.jpg",
+            "author": "Pyrrhura_perlata_-captive-8a.jpg: Nori Almeida derivative work: Snowmanradio (ta",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pyrrhura_perlata_-captive-8a-1c.jpg",
+            "width": 640,
+            "height": 620,
+            "alt": "Tiriba-de-barriga-vermelha (Pyrrhura perlata)"
+          }
+        },
+        {
+          "gbifKey": 2490122,
+          "scientificName": "Myrmoborus leucophrys",
+          "name": "Papa-formiga-de-sobrancelha",
+          "family": "Thamnophilidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1266655",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Myrmoborus_leucophrys_-_White-browed_antbird_%28male%29.jpg/960px-Myrmoborus_leucophrys_-_White-browed_antbird_%28male%29.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myrmoborus_leucophrys_-_White-browed_antbird_(male).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Papa-formiga-de-sobrancelha (Myrmoborus leucophrys)"
+          }
+        },
+        {
+          "gbifKey": 5959227,
+          "scientificName": "Ara macao",
+          "name": "Araracanga",
+          "family": "Psittacidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q243761",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ara_macao_-Puntarenas_Province%2C_Costa_Rica-8.jpg/960px-Ara_macao_-Puntarenas_Province%2C_Costa_Rica-8.jpg",
+            "author": "chuck624 from Upstate NY, USA",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ara_macao_-Puntarenas_Province,_Costa_Rica-8.jpg",
+            "width": 640,
+            "height": 680,
+            "alt": "Araracanga (Ara macao)"
+          }
+        },
+        {
+          "gbifKey": 5959228,
+          "scientificName": "Ara severus",
+          "name": "Maracanã-guaçu",
+          "family": "Psittacidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q852709",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Ara_severus_-_Guacamaya_cariseca_-_Chestnut-Fronted_Macaw_%287503884654%29.jpg/960px-Ara_severus_-_Guacamaya_cariseca_-_Chestnut-Fronted_Macaw_%287503884654%29.jpg",
+            "author": "Félix Uribe from Rionegro, Antioquia, Colombia",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ara_severus_-_Guacamaya_cariseca_-_Chestnut-Fronted_Macaw_(7503884654).jpg",
+            "width": 640,
+            "height": 761,
+            "alt": "Maracanã-guaçu (Ara severus)"
+          }
+        },
+        {
+          "gbifKey": 2479359,
+          "scientificName": "Anodorhynchus hyacinthinus",
+          "name": "Arara-azul-grande",
+          "family": "Psittacidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q463154",
+          "photo": null
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 15,
+      "species": [
+        {
+          "gbifKey": 2447631,
+          "scientificName": "Gonatodes humeralis",
+          "name": "Lagartinho-Colorido",
+          "family": "Sphaerodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q752903",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gonatodes_humeralis_281628324.jpg/960px-Gonatodes_humeralis_281628324.jpg",
+            "author": "Alessandher Piva",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gonatodes_humeralis_281628324.jpg",
+            "width": 640,
+            "height": 425,
+            "alt": "Lagartinho-Colorido (Gonatodes humeralis)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "anfibios",
+      "label": "Anfíbios",
+      "records": 20,
+      "species": [
+        {
+          "gbifKey": 2425838,
+          "scientificName": "Pristimantis fenestratus",
+          "name": null,
+          "family": "Craugastoridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q4454535",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Pristimantis_fenestratus.jpg",
+            "author": "Axel Kwet",
+            "license": "CC BY-SA 2.5",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pristimantis_fenestratus.jpg",
+            "width": 640,
+            "height": 451,
+            "alt": "Pristimantis fenestratus"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 785,
+      "species": [
+        {
+          "gbifKey": 3083180,
+          "scientificName": "Bertholletia excelsa",
+          "name": "Castanheira-do-Pará",
+          "family": "Lecythidaceae",
+          "records": 9,
+          "iucn": "VU",
+          "wikidata": "Q81671",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
+            "author": "Autor desconhecido",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
+            "width": 640,
+            "height": 966,
+            "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
+          }
+        },
+        {
+          "gbifKey": 3760960,
+          "scientificName": "Goupia glabra",
+          "name": "Cupiúba",
+          "family": "Goupiaceae",
+          "records": 8,
+          "iucn": "EN",
+          "wikidata": "Q5588369",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/13534-Goupia_glabra-Caura.jpg/960px-13534-Goupia_glabra-Caura.jpg",
+            "author": "Vojtěch Zavadil",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:13534-Goupia_glabra-Caura.jpg",
+            "width": 640,
+            "height": 447,
+            "alt": "Cupiúba (Goupia glabra)"
+          }
+        },
+        {
+          "gbifKey": 2957303,
+          "scientificName": "Senna reticulata",
+          "name": "Mangerioba-Grande",
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q7450838",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Senna_reticulata%2C_flower_of_the_Swamp_Senna_%289336852822%29.jpg",
+            "author": "Dick Culbert from Gibsons, B.C., Canada",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Senna_reticulata,_flower_of_the_Swamp_Senna_(9336852822).jpg",
+            "width": 640,
+            "height": 708,
+            "alt": "Mangerioba-Grande (Senna reticulata)"
+          }
+        },
+        {
+          "gbifKey": 2985000,
+          "scientificName": "Parinari excelsa",
+          "name": null,
+          "family": "Chrysobalanaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q15369349",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Parinari_excelsa01.jpg",
+            "author": "J. Decaisne del.[i.e. delineavit / draughtsman] Vielle sculpt [i.e. engraver]. L",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parinari_excelsa01.jpg",
+            "width": 640,
+            "height": 859,
+            "alt": "Parinari excelsa"
+          }
+        },
+        {
+          "gbifKey": 4026144,
+          "scientificName": "Microgramma megalophylla",
+          "name": null,
+          "family": "Polypodiaceae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q15335691",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Microgramma_megalophylla_%28Desv.%29_de_la_Sota%2C_Aublet_s.n._MNHN_P-P00328093.jpg/960px-Microgramma_megalophylla_%28Desv.%29_de_la_Sota%2C_Aublet_s.n._MNHN_P-P00328093.jpg",
+            "author": "Projet :RENOBOTA - chantier de numerisation 2010-2012",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microgramma_megalophylla_(Desv.)_de_la_Sota,_Aublet_s.n._MNHN_P-P00328093.jpg",
+            "width": 640,
+            "height": 994,
+            "alt": "Microgramma megalophylla"
+          }
+        },
+        {
+          "gbifKey": 4940392,
+          "scientificName": "Selaginella haematodes",
+          "name": null,
+          "family": "Selaginellaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q17024464",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Selaginella_haematodes_2OB10.jpg/960px-Selaginella_haematodes_2OB10.jpg",
+            "author": "Jerzy Opioła",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Selaginella_haematodes_2OB10.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Selaginella haematodes"
+          }
+        },
+        {
+          "gbifKey": 2697985,
+          "scientificName": "Aechmea mertensii",
+          "name": null,
+          "family": "Bromeliaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q4687303",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Aechmea_mertensii_-_pl_1.jpg/960px-Aechmea_mertensii_-_pl_1.jpg",
+            "author": "Maarten Sepp",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aechmea_mertensii_-_pl_1.jpg",
+            "width": 640,
+            "height": 831,
+            "alt": "Aechmea mertensii"
+          }
+        },
+        {
+          "gbifKey": 3586537,
+          "scientificName": "Dilkea retusa",
+          "name": null,
+          "family": "Passifloraceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15607332",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vellosia_%2815747680747%29.jpg/960px-Vellosia_%2815747680747%29.jpg",
+            "author": "Museu Botanico do Amazonas.; Rodrigues, J. Barbosa",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vellosia_(15747680747).jpg",
+            "width": 640,
+            "height": 824,
+            "alt": "Dilkea retusa"
+          }
+        },
+        {
+          "gbifKey": 2650855,
+          "scientificName": "Diplazium cristatum",
+          "name": null,
+          "family": "Athyriaceae",
+          "records": 10,
+          "iucn": null,
+          "wikidata": "Q15612842",
+          "photo": null
+        },
+        {
+          "gbifKey": 7739893,
+          "scientificName": "Fridericia nigrescens",
+          "name": null,
+          "family": "Bignoniaceae",
+          "records": 10,
+          "iucn": null,
+          "wikidata": "Q15549386",
+          "photo": null
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 3760960,
+      "scientificName": "Goupia glabra",
+      "name": "Cupiúba",
+      "family": "Goupiaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q5588369",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/13534-Goupia_glabra-Caura.jpg/960px-13534-Goupia_glabra-Caura.jpg",
+        "author": "Vojtěch Zavadil",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:13534-Goupia_glabra-Caura.jpg",
+        "width": 640,
+        "height": 447,
+        "alt": "Cupiúba (Goupia glabra)"
+      }
+    },
+    {
+      "gbifKey": 2339429,
+      "scientificName": "Hopliancistrus tricornis",
+      "name": null,
+      "family": "Loricariidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q3003812",
+      "photo": null
+    },
+    {
+      "gbifKey": 2436644,
+      "scientificName": "Ateles marginatus",
+      "name": "Macaco-aranha-de-cara-branca",
+      "family": "Atelidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q944704",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg/960px-Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macaco-aranha-de-cara-branca-RPPN_Cristalino_I-Rafael_Mitsuo(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "macaco-aranha-de-cara-branca (Ateles marginatus)"
+      }
+    },
+    {
+      "gbifKey": 5961513,
+      "scientificName": "Peckoltia compta",
+      "name": null,
+      "family": "Loricariidae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q6430741",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Peckoltia_compta.jpg",
+        "author": "Frank M Greco",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peckoltia_compta.jpg",
+        "width": 640,
+        "height": 430,
+        "alt": "Peckoltia compta"
+      }
+    },
+    {
+      "gbifKey": 3083180,
+      "scientificName": "Bertholletia excelsa",
+      "name": "Castanheira-do-Pará",
+      "family": "Lecythidaceae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q81671",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
+        "author": "Autor desconhecido",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
+        "width": 640,
+        "height": 966,
+        "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
+      }
+    },
+    {
+      "gbifKey": 5202419,
+      "scientificName": "Harttia dissidens",
+      "name": null,
+      "family": "Loricariidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q3761530",
+      "photo": null
+    },
+    {
+      "gbifKey": 5219526,
+      "scientificName": "Chiropotes albinasus",
+      "name": "Cuxiú-de-nariz-branco",
+      "family": "Pitheciidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1030670",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chiropotes_albinasus.jpg/960px-Chiropotes_albinasus.jpg",
+        "author": "Valdir Hobus",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiropotes_albinasus.jpg",
+        "width": 640,
+        "height": 473,
+        "alt": "Cuxiú-de-nariz-branco (Chiropotes albinasus)"
+      }
+    },
+    {
+      "gbifKey": 2479359,
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "family": "Psittacidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q463154",
+      "photo": null
+    },
+    {
+      "gbifKey": 5786091,
+      "scientificName": "Alouatta discolor",
+      "name": "Bugio-de-mãos-vermelhas-de-spix",
+      "family": "Atelidae",
+      "records": null,
+      "iucn": "VU",
+      "wikidata": "Q1207240",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Alouatta_discolor.jpg/960px-Alouatta_discolor.jpg",
+        "author": "Ric",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alouatta_discolor.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Bugio-de-mãos-vermelhas-de-spix (Alouatta discolor)"
+      }
+    }
+  ]
+}

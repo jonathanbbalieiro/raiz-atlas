@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-21",
+  "hook": "Uma serra de paredões coberta de cerrado no meio da floresta de Rondônia, e um barreiro onde as antas fazem trilha.",
+  "intro": "No oeste de Rondônia, perto de Guajará-Mirim, o Parque Nacional Serra da Cutia protege cerca de 283 mil hectares de floresta, igapós, campinaranas e manchas de cerrado. Foi criado em 2001.",
+  "sourceIds": [
+    "icmbio",
+    "enc3"
+  ],
+  "protects": {
+    "summary": "Floresta, cerrado amazônico e serras residuais",
+    "items": [
+      {
+        "title": "Cerrados no meio da Amazônia",
+        "text": "Cerradão e campo cerrado se espalham pela Serra da Cutia e em pequenas manchas, mostrando o contato entre espécies de savana e de floresta.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "title": "Florestas de platô e de baixio",
+        "text": "Inventários identificaram de 49 a 69 espécies de árvores por tipo de floresta, além de igapós ao longo dos rios.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "title": "Rios e igarapés",
+        "text": "O igarapé São João, ou Branco, forma uma divisa natural com a Terra Indígena Uru-Eu-Wau-Wau e desce em três cachoeiras até o rio Cautário.",
+        "sourceIds": [
+          "enc3"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Serra da Cutia",
+      "text": "São três corpos de serra com paredões rochosos e topo de laje coberto por cerrado baixo. O ponto mais alto do parque, a 525 metros, fica ali.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Acuri_%28Attalea_phalerata%29.jpg/1280px-Acuri_%28Attalea_phalerata%29.jpg",
+        "author": "Felipe Do Espirito Santo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acuri_(Attalea_phalerata).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Serra da Cutia, Serra da Cutia",
+        "context": "Serra da Cutia. O acuri é muito apreciado por diversos animais da fauna pantaneira, como a cutia e a arara azul, é um fruto doce e pregu"
+      }
+    },
+    {
+      "title": "Barreiro Chupador",
+      "text": "Na divisa com a Reserva Extrativista Barreiro das Antas, uma área plana alaga com o lençol freático, cercada por bambus que formam túneis até o centro. Antas, catetos, queixadas e veados deixam pegadas por toda parte.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": null
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Na serra, muitas árvores foram encontradas arrancadas pela raiz, sinal de ventos fortes no alto.",
+      "sourceIds": [
+        "enc3"
+      ]
+    },
+    {
+      "text": "Os bambus do Barreiro Chupador formam verdadeiros túneis, usados pelos animais para chegar ao centro da área.",
+      "sourceIds": [
+        "enc3"
+      ]
+    },
+    {
+      "text": "O parque nasceu como uma das áreas-núcleo do Corredor Ecológico Guaporé/Itenez-Mamoré, num mosaico com outras unidades de conservação e terras indígenas.",
+      "sourceIds": [
+        "enc1"
+      ]
+    },
+    {
+      "text": "No levantamento do plano de manejo foram registradas 20 espécies de mamíferos de médio e grande porte.",
+      "sourceIds": [
+        "enc3"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "2001 · Nasce o parque",
+      "text": "Decreto de 1º de agosto cria o Parque Nacional Serra da Cutia, em Guajará-Mirim, Rondônia, para preservar amostras dos ecossistemas amazônicos.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ]
+    },
+    {
+      "title": "2008 · Plano de manejo",
+      "text": "O ICMBio aprova o plano de manejo do parque.",
+      "sourceIds": [
+        "icmbio"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "why": "No Barreiro Chupador, pesquisadores avistaram antas e registraram pegadas de animais de várias idades.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Brazilian_tapir_zoo.JPG/1280px-Brazilian_tapir_zoo.JPG",
+        "author": "LadyofHats",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brazilian_tapir_zoo.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Anta (Tapirus terrestris)",
+        "context": "Anta, Tapirus terrestris."
+      }
+    },
+    {
+      "scientificName": "Tayassu pecari",
+      "name": "Queixada",
+      "why": "Suas pegadas aparecem no Barreiro Chupador, área muito usada por porcos-do-mato e veados.",
+      "sourceIds": [
+        "enc3"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg/1280px-Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queixada-RPPN_Cristalino_I-Rodrigo.Argenton(001).jpg",
+        "width": 1280,
+        "height": 852,
+        "alt": "Queixada (Tayassu pecari)",
+        "context": "Queixada, Tayassu pecari."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Serra da Cutia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "enc3",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Serra da Cutia, Encarte 3: Análise da Unidade",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_4_enc3.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "enc1",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Serra da Cutia, Encarte 1: Contextualização",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_2_enc1.pdf",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 1º de agosto de 2001 (cria o Parque Nacional Serra da Cutia)",
+      "url": "https://planalto.gov.br/ccivil_03/dnn/2001/Dnn9273.htm",
+      "accessed": "2026-10-21"
+    }
+  ]
+}

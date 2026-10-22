@@ -1,0 +1,463 @@
+{
+  "generatedAt": "2026-10-21",
+  "boundary": "limite oficial simplificado",
+  "method": "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
+  "sources": [
+    {
+      "title": "GBIF: ocorrências de espécies",
+      "url": "https://www.gbif.org/occurrence/search?geometry=MULTIPOLYGON(((-41.450%20-9.877%2C-41.420%20-9.850%2C-41.432%20-9.832%2C-41.526%20-9.856%2C-41.526%20-9.881%2C-41.547%20-9.880%2C-41.566%20-9.847%2C-41.649%20-9.847%2C-41.857%20-9.912%2C-41.880%20-9.867%2C-41.827%20-9.847%2C-41.956%20-9.849%2C-42.055%20-9.974%2C-42.056%20-10.010%2C-42.105%20-10.019%2C-42.176%20-10.005%2C-42.209%20-10.042%2C-42.221%20-10.095%2C-42.151%20-10.101%2C-42.054%20-10.059%2C-41.986%20-10.091%2C-41.991%20-10.142%2C-41.942%20-10.168%2C-41.918%20-10.127%2C-41.892%20-10.134%2C-41.864%20-10.097%2C-41.833%20-10.137%2C-41.804%20-10.137%2C-41.804%20-10.165%2C-41.758%20-10.183%2C-41.724%20-10.176%2C-41.677%20-10.126%2C-41.669%20-10.038%2C-41.648%20-10.048%2C-41.627%20-10.030%2C-41.563%20-10.028%2C-41.544%20-10.043%2C-41.549%20-10.060%2C-41.603%20-10.065%2C-41.630%20-10.174%2C-41.704%20-10.266%2C-41.749%20-10.286%2C-41.729%20-10.331%2C-41.695%20-10.329%2C-41.696%20-10.364%2C-41.672%20-10.371%2C-41.644%20-10.322%2C-41.614%20-10.342%2C-41.623%20-10.325%2C-41.602%20-10.261%2C-41.480%20-10.152%2C-41.449%20-10.143%2C-41.405%20-10.160%2C-41.410%20-10.198%2C-41.459%20-10.238%2C-41.448%20-10.252%2C-41.390%20-10.218%2C-41.365%20-10.271%2C-41.346%20-10.238%2C-41.339%20-10.248%2C-41.226%20-10.171%2C-41.268%20-10.154%2C-41.253%20-10.096%2C-41.230%20-10.103%2C-41.170%20-10.027%2C-41.173%20-10.009%2C-41.201%20-9.994%2C-41.252%20-10.037%2C-41.262%20-10.004%2C-41.298%20-9.981%2C-41.314%20-10.011%2C-41.352%20-10.028%2C-41.309%20-10.059%2C-41.355%20-10.084%2C-41.376%20-10.125%2C-41.383%20-10.101%2C-41.480%20-10.040%2C-41.506%20-9.987%2C-41.529%20-9.985%2C-41.528%20-9.965%2C-41.501%20-9.962%2C-41.467%20-10.019%2C-41.404%20-10.043%2C-41.375%20-10.037%2C-41.381%20-9.991%2C-41.350%20-9.919%2C-41.403%20-9.894%2C-41.457%20-9.899%2C-41.466%20-9.878%2C-41.450%20-9.877))%2C((-40.786%20-9.844%2C-40.757%20-9.796%2C-40.764%20-9.755%2C-40.740%20-9.714%2C-40.825%20-9.762%2C-40.910%20-9.776%2C-40.935%20-9.839%2C-40.987%20-9.842%2C-40.964%20-9.857%2C-40.959%20-9.896%2C-41.199%20-9.992%2C-41.170%20-10.008%2C-41.139%20-10.077%2C-41.124%20-10.045%2C-41.033%20-10.037%2C-41.007%20-10.000%2C-40.947%20-10.017%2C-40.902%20-9.969%2C-40.854%20-9.952%2C-40.810%20-9.962%2C-40.777%20-9.930%2C-40.808%20-9.927%2C-40.814%20-9.911%2C-40.772%20-9.902%2C-40.763%20-9.882%2C-40.778%20-9.863%2C-40.823%20-9.893%2C-40.833%20-9.869%2C-40.895%20-9.915%2C-40.825%20-9.833%2C-40.816%20-9.866%2C-40.786%20-9.844)))",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "GRIIS Brasil: espécies introduzidas e invasoras",
+      "url": "https://www.gbif.org/dataset/21cf83b3-fec6-4c42-95bc-b8555a991bc3",
+      "accessed": "2026-10-21"
+    },
+    {
+      "title": "Wikidata e Wikimedia Commons: nomes, status IUCN e fotos",
+      "url": "https://www.wikidata.org",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "groups": [
+    {
+      "id": "mamiferos",
+      "label": "Mamíferos",
+      "records": 10,
+      "species": [
+        {
+          "gbifKey": 5219426,
+          "scientificName": "Panthera onca",
+          "name": "Onça-pintada",
+          "family": "Felidae",
+          "records": 5,
+          "iucn": "NT",
+          "wikidata": "Q35694",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+            "author": "Thiagomarcelcampi",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "onça-pintada (Panthera onca)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/960px-Puma_-_49044464307.jpg",
+            "author": "Carlos",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puma_-_49044464307.jpg",
+            "width": 640,
+            "height": 960,
+            "alt": "suçuarana (Puma concolor)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aves",
+      "label": "Aves",
+      "records": 451,
+      "species": [
+        {
+          "gbifKey": 2491988,
+          "scientificName": "Coryphospingus pileatus",
+          "name": "Tico-tico-rei-cinza",
+          "family": "Thraupidae",
+          "records": 39,
+          "iucn": "LC",
+          "wikidata": "Q2668333",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Coryphospingus_pileatus_-_Grey-pileated_Finch_%28male%29%3B_Juazeiro%2C_Bahia%2C_Brazil.jpg/960px-Coryphospingus_pileatus_-_Grey-pileated_Finch_%28male%29%3B_Juazeiro%2C_Bahia%2C_Brazil.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coryphospingus_pileatus_-_Grey-pileated_Finch_(male);_Juazeiro,_Bahia,_Brazil.jpg",
+            "width": 640,
+            "height": 525,
+            "alt": "Tico-tico-rei-cinza (Coryphospingus pileatus)"
+          }
+        },
+        {
+          "gbifKey": 2495888,
+          "scientificName": "Columbina squammata",
+          "name": "Fogo-apagou",
+          "family": "Columbidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q1259412",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Columbina_squammata_-Bonito%2C_Mato_Grosso_do_Sul%2C_Brazil-8.jpg/960px-Columbina_squammata_-Bonito%2C_Mato_Grosso_do_Sul%2C_Brazil-8.jpg",
+            "author": "Dario Sanches from São Paulo, Brazil",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbina_squammata_-Bonito,_Mato_Grosso_do_Sul,_Brazil-8.jpg",
+            "width": 640,
+            "height": 543,
+            "alt": "Fogo-apagou (Columbina squammata)"
+          }
+        },
+        {
+          "gbifKey": 5229651,
+          "scientificName": "Elaenia albiceps",
+          "name": "Guaracava-de-crista-branca",
+          "family": "Tyrannidae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q997313",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/In_the_trail_to_Pogog_03%2C_Elaenia_albiceps.jpg/960px-In_the_trail_to_Pogog_03%2C_Elaenia_albiceps.jpg",
+            "author": "JimSPeru",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:In_the_trail_to_Pogog_03,_Elaenia_albiceps.jpg",
+            "width": 640,
+            "height": 427,
+            "alt": "Guaracava-de-crista-branca (Elaenia albiceps)"
+          }
+        },
+        {
+          "gbifKey": 2490752,
+          "scientificName": "Turdus amaurochalinus",
+          "name": "Sabiá-poca",
+          "family": "Turdidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q1588979",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Turdus_amaurochalinus_-_Creamy-bellied_Thrush%2C_Rahmbauchdrossel_%2848654529968%29.jpg/960px-Turdus_amaurochalinus_-_Creamy-bellied_Thrush%2C_Rahmbauchdrossel_%2848654529968%29.jpg",
+            "author": "Egon Fink from Brasilien",
+            "license": "CC BY-SA 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turdus_amaurochalinus_-_Creamy-bellied_Thrush,_Rahmbauchdrossel_(48654529968).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "sabiá-poca (Turdus amaurochalinus)"
+          }
+        },
+        {
+          "gbifKey": 2495865,
+          "scientificName": "Columbina picui",
+          "name": "Rolinha-picui",
+          "family": "Columbidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q1193037",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Picui_Ground_Dove%2C_Parque_San_Rafael%2C_Paraguay.jpg/960px-Picui_Ground_Dove%2C_Parque_San_Rafael%2C_Paraguay.jpg",
+            "author": "Greg Schechter from San Francisco, USA",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Picui_Ground_Dove,_Parque_San_Rafael,_Paraguay.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Rolinha-picui (Columbina picui)"
+          }
+        },
+        {
+          "gbifKey": 2482999,
+          "scientificName": "Hemitriccus margaritaceiventer",
+          "name": "Sebinho-de-olho-de-ouro",
+          "family": "Tyrannidae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q1263117",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/MOSQUETA_OJO_DORADO_Hemitriccus_margaritaceiventer.jpg/960px-MOSQUETA_OJO_DORADO_Hemitriccus_margaritaceiventer.jpg",
+            "author": "Dario Niz (DarioNizUruguay)",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:MOSQUETA_OJO_DORADO_Hemitriccus_margaritaceiventer.jpg",
+            "width": 640,
+            "height": 514,
+            "alt": "Sebinho-de-olho-de-ouro (Hemitriccus margaritaceiventer)"
+          }
+        },
+        {
+          "gbifKey": 2490043,
+          "scientificName": "Formicivora melanogaster",
+          "name": "Formigueiro-de-barriga-preta",
+          "family": "Thamnophilidae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q1269805",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Formicivora_melanogaster_-_Black-bellied_Antwren_%28female%29.jpg",
+            "author": "Hector Bottai",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Formicivora_melanogaster_-_Black-bellied_Antwren_(female).jpg",
+            "width": 640,
+            "height": 640,
+            "alt": "Formigueiro-de-barriga-preta (Formicivora melanogaster)"
+          }
+        },
+        {
+          "gbifKey": 5229915,
+          "scientificName": "Icterus icterus",
+          "name": "Turpial",
+          "family": "Icteridae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q997708",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/A_Troupial_on_a_cactus_in_Cura%C3%A7ao.jpg/960px-A_Troupial_on_a_cactus_in_Cura%C3%A7ao.jpg",
+            "author": "Lswarte",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Troupial_on_a_cactus_in_Cura%C3%A7ao.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Turpial (Icterus icterus)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "repteis",
+      "label": "Répteis",
+      "records": 3,
+      "species": [
+        {
+          "gbifKey": 5846511,
+          "scientificName": "Caiman latirostris",
+          "name": "Jacaré-do-papo-amarelo",
+          "family": "Alligatoridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q644453",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Jacare_de_papo_amarelo_zoo.jpg/960px-Jacare_de_papo_amarelo_zoo.jpg",
+            "author": "Miguelrangeljr",
+            "license": "CC BY 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacare_de_papo_amarelo_zoo.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "jacaré-do-papo-amarelo (Caiman latirostris)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "plantas",
+      "label": "Plantas",
+      "records": 820,
+      "species": [
+        {
+          "gbifKey": 2969531,
+          "scientificName": "Mimosa tenuiflora",
+          "name": "Jurema-preta",
+          "family": "Fabaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q1955610",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Mimosa_-tenuiflora-Jurema.jpg/960px-Mimosa_-tenuiflora-Jurema.jpg",
+            "author": "Drewpiter",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosa_-tenuiflora-Jurema.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Jurema-preta (Mimosa tenuiflora)"
+          }
+        },
+        {
+          "gbifKey": 5571029,
+          "scientificName": "Ficus gomelleira",
+          "name": "Gameleira-branca",
+          "family": "Moraceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q10288196",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Yroko3.JPG/960px-Yroko3.JPG",
+            "author": "Toluaye",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yroko3.JPG",
+            "width": 640,
+            "height": 480,
+            "alt": "Gameleira-branca (Ficus gomelleira)"
+          }
+        },
+        {
+          "gbifKey": 2969833,
+          "scientificName": "Mimosa verrucosa",
+          "name": "Jurema-branca",
+          "family": "Fabaceae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q5434805",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Mimosa_verrucosa.jpg/960px-Mimosa_verrucosa.jpg",
+            "author": "João Medeiros",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mimosa_verrucosa.jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Jurema-branca (Mimosa verrucosa)"
+          }
+        },
+        {
+          "gbifKey": 5832783,
+          "scientificName": "Libidibia ferrea",
+          "name": "Pau-ferro-do-sertão",
+          "family": "Fabaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q29549903",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Pauferroceret.jpg/960px-Pauferroceret.jpg",
+            "author": "Mauroguanandi",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pauferroceret.jpg",
+            "width": 640,
+            "height": 853,
+            "alt": "Pau-ferro-do-sertão (Libidibia ferrea)"
+          }
+        },
+        {
+          "gbifKey": 2964988,
+          "scientificName": "Centrosema brasilianum",
+          "name": "Jequitirana-brasileira",
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15466347",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Centrosema_brasilianum_%28L.%29_Benth._%284823217397%29.jpg/960px-Centrosema_brasilianum_%28L.%29_Benth._%284823217397%29.jpg",
+            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centrosema_brasilianum_(L.)_Benth._(4823217397).jpg",
+            "width": 640,
+            "height": 360,
+            "alt": "Jequitirana-brasileira (Centrosema brasilianum)"
+          }
+        },
+        {
+          "gbifKey": 4930698,
+          "scientificName": "Manihot carthagenensis",
+          "name": "Manihot carthaginensis",
+          "family": "Euphorbiaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15363369",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Manihot_glaziovii_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-223.jpg",
+            "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manihot_glaziovii_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-223.jpg",
+            "width": 640,
+            "height": 783,
+            "alt": "Manihot carthaginensis (Manihot carthagenensis)"
+          }
+        },
+        {
+          "gbifKey": 2947119,
+          "scientificName": "Cenostigma macrophyllum",
+          "name": "Caneleiro (árvore)",
+          "family": "Fabaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q9694262",
+          "photo": {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Caneleiro.jpg",
+            "author": "Hudsonfas",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caneleiro.jpg",
+            "width": 640,
+            "height": 768,
+            "alt": "Caneleiro (árvore) (Cenostigma macrophyllum)"
+          }
+        },
+        {
+          "gbifKey": 3073633,
+          "scientificName": "Cnidoscolus vitifolius",
+          "name": "Urtiga-de-pau",
+          "family": "Euphorbiaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q15357024",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Jatropha_vitifolia_Pohl52.png/960px-Jatropha_vitifolia_Pohl52.png",
+            "author": "Johann Baptist Emanuel Pohl",
+            "license": "Public domain",
+            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jatropha_vitifolia_Pohl52.png",
+            "width": 640,
+            "height": 966,
+            "alt": "Urtiga-de-pau (Cnidoscolus vitifolius)"
+          }
+        },
+        {
+          "gbifKey": 2928286,
+          "scientificName": "Hydrolea spinosa",
+          "name": null,
+          "family": "Hydroleaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q17401831",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Hydrolea_spinosa2.jpg/960px-Hydrolea_spinosa2.jpg",
+            "author": "Michael Wolf",
+            "license": "CC BY-SA 3.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrolea_spinosa2.jpg",
+            "width": 640,
+            "height": 627,
+            "alt": "Hydrolea spinosa"
+          }
+        },
+        {
+          "gbifKey": 2975677,
+          "scientificName": "Stylosanthes viscosa",
+          "name": null,
+          "family": "Fabaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q15543520",
+          "photo": {
+            "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Starr-160926-0910-Stylosanthes_viscosa-flowers_leaves-Papanalahoa_Honoapiilani_Hwy_30_West_Maui-Maui_%2831127138921%29.jpg/960px-Starr-160926-0910-Stylosanthes_viscosa-flowers_leaves-Papanalahoa_Honoapiilani_Hwy_30_West_Maui-Maui_%2831127138921%29.jpg",
+            "author": "Forest and Kim Starr",
+            "license": "CC BY 2.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr-160926-0910-Stylosanthes_viscosa-flowers_leaves-Papanalahoa_Honoapiilani_Hwy_30_West_Maui-Maui_(31127138921).jpg",
+            "width": 640,
+            "height": 480,
+            "alt": "Stylosanthes viscosa"
+          }
+        }
+      ]
+    }
+  ],
+  "threatened": [
+    {
+      "gbifKey": 3832190,
+      "scientificName": "Pilocarpus trachylophus",
+      "name": null,
+      "family": "Rutaceae",
+      "records": null,
+      "iucn": "EN",
+      "wikidata": "Q18076363",
+      "photo": null
+    }
+  ]
+}

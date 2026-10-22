@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-10-22",
+  "intro": "Nas cavernas alagadas da serra, ossos de predadores de outras eras repousam ao lado dos de onças e ariranhas de hoje.",
+  "items": [
+    {
+      "kind": "megafauna_fossil",
+      "name": "Tigre-dente-de-sabre",
+      "scientificName": "Smilodon populator",
+      "when": "Pleistoceno",
+      "text": "Em duas cavernas submersas da Serra da Bodoquena, foram recolhidos fragmentos do grande felino de dentes de sabre. Eles se misturam a restos de espécies vivas, como a onça-pintada, e sugerem uma paisagem de savanas cheias de áreas alagadas.",
+      "sourceIds": [
+        "perini2009"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Smilodon_populator_La_Plata_Museum.jpg/1280px-Smilodon_populator_La_Plata_Museum.jpg",
+        "author": "Leandro Kibisz (Loco085)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smilodon_populator_La_Plata_Museum.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": "Esqueleto de Smilodon populator no Museu de La Plata, Argentina; reconstrução museológica, não é material do parque",
+        "context": "Esqueleto de Smilodon populator no Museu de La Plata, Argentina; reconstrução museológica, não é material do parque"
+      }
+    },
+    {
+      "kind": "megafauna_fossil",
+      "name": "Cachorro-pré-histórico",
+      "scientificName": "Protocyon troglodytes",
+      "when": "Pleistoceno",
+      "text": "Canídeo robusto hoje extinto, identificado nos mesmos depósitos subaquáticos da serra, em meio a ossos de lobo-guará e de ariranha. O conjunto mistura animais extintos e atuais, num intervalo que vai do Pleistoceno inicial ao Holoceno.",
+      "sourceIds": [
+        "perini2009"
+      ],
+      "photo": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "perini2009",
+      "institution": "Arquivos do Museu Nacional (UFRJ)",
+      "title": "Carnívoros (Mammalia, Carnivora) do Quaternário da Serra da Bodoquena, Mato Grosso do Sul, Brasil (Perini et al., 2009)",
+      "url": "https://revistas.ufrj.br/index.php/amn/article/view/47506",
+      "accessed": "2026-10-22"
+    }
+  ]
+}
