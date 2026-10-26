@@ -1,179 +1,355 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional da Serra do Itajaí",
-  "title": "Serra do Itajaí: a floresta que protege o começo dos rios",
-  "subtitle": "Nas montanhas catarinenses, a mata em regeneração, os pequenos habitantes e as decisões de conservação contam uma história que vai além do panorama verde.",
-  "centralQuestion": "O que a Serra do Itajaí guarda para além da vista da mata?",
+  "title": "Serra do Itajaí: a floresta que guarda o começo dos rios de Blumenau",
+  "subtitle": "Sobre encostas íngremes do Vale do Itajaí, uma Mata Atlântica em degraus de altitude protege nascentes, aves ameaçadas e espécies que a ciência ainda está descrevendo.",
+  "centralQuestion": "Por que um grande bloco de floresta sobreviveu justamente ao lado de uma das regiões mais industrializadas de Santa Catarina?",
   "introduction": [
-    "De longe, uma serra pode parecer um único contorno verde. A Serra do Itajaí convida a olhar para dentro desse contorno: a água que segue pelos vales, a floresta que se recompõe, o inseto que deixa sua antiga pele para trás.",
-    "Há também uma história de decisões humanas. O parque foi criado em 2004 e teve seus limites alterados depois disso, inclusive em 2025. Conhecê-lo exige observar tanto os organismos quanto o território onde sua proteção acontece."
+    "Nos limites de Blumenau, a cidade dá lugar à serra. Encostas de relevo muito ondulado, cobertas de floresta atlântica, se estendem por mais de 57 mil hectares e guardam as cabeceiras de rios que descem para o Vale do Itajaí.",
+    "Terreno íngreme, indústria e comércio mais atrativos que a roça e uma tradição local de cuidar das matas ajudaram a preservar boa parte dessa floresta. Hoje ela é o Parque Nacional da Serra do Itajaí, com trechos de mata primária e extensas áreas em regeneração avançada."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares protegidos pelo parque, criado em 2004",
+      "value": "57.529",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "da Mata Atlântica remanescente em Santa Catarina está dentro do parque",
+      "value": "2,5%",
+      "sourceId": "pm",
+      "locator": "p. 46"
+    },
+    {
+      "label": "espécies de aves registradas, das quais 107 são endêmicas da Mata Atlântica",
+      "value": "310",
+      "sourceId": "pm",
+      "locator": "p. 177"
+    },
+    {
+      "label": "espécies de anfíbios e répteis, três delas novas para a ciência",
+      "value": "60",
+      "sourceId": "pm",
+      "locator": "p. 181"
+    },
+    {
+      "label": "espécies de mamíferos de médio e grande porte registradas em campo",
+      "value": "28",
+      "sourceId": "pm",
+      "locator": "p. 185"
+    },
+    {
+      "label": "metros de altitude do Morro do Spitzkopf, oficial do IBGE",
+      "value": "913,98 m",
+      "sourceId": "pm",
+      "locator": "p. 67"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Floresta Ombrófila Densa",
+      "definition": "Floresta atlântica em que a chuva cai o ano todo, dominada por árvores muito próximas, até sobrepostas.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Submontana, montana e alto-montana",
+      "definition": "Faixas de altitude da mesma floresta: de 30 a 400 m, de 400 a 800 m e acima de 800 m, cada uma com espécies próprias.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Palmito-juçara",
+      "definition": "Palmeira (Euterpe edulis) cujo palmito é cobiçado e cujos frutos alimentam a fauna, sobretudo no outono e no inverno.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em torno do parque sujeita a regras para reduzir impactos; a Lei 15.090/2025 fixa, até o plano de manejo definir outra, 500 metros a partir do limite.",
+      "sourceId": "lei"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_Serra_do_Itajai.jpg?width=1200",
-    "alt": "Panorama de montanhas cobertas por Mata Atlântica na Serra do Itajaí.",
-    "author": "KaiaPavesi",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Serra_do_Itajai.jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Mata e elevações da Serra do Itajaí. A localização foi informada pelo fotógrafo e não foi cruzada com o polígono alterado em 2025."
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Parque_Nacional_da_Serra_do_Itaja%C3%AD.jpg/1280px-Parque_Nacional_da_Serra_do_Itaja%C3%AD.jpg",
+    "author": "Cristian Janke",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_do_Itaja%C3%AD.jpg",
+    "width": 1280,
+    "height": 857,
+    "alt": "Riacho serpenteando por um campo verde ao pé de uma encosta coberta de floresta, no Parque Nacional da Serra do Itajaí.",
+    "context": "Riacho e pasto aos pés de uma encosta florestada na região do Parque Nacional da Serra do Itajaí, em Santa Catarina."
   },
   "moments": [
     {
-      "id": "agua",
-      "eyebrow": "O PRIMEIRO CAMINHO",
-      "title": "Uma floresta que começa nos cursos d’água",
-      "question": "Por que proteger a mata de uma serra é também cuidar do que corre em seus vales?",
+      "id": "aguas",
+      "eyebrow": "01 · As águas",
+      "title": "Um berço de nascentes",
+      "question": "De onde vem a água do Vale do Itajaí?",
       "paragraphs": [
-        "Em Santa Catarina, a Serra do Itajaí parece, de longe, uma sequência de montanhas cobertas de verde. Vista de perto, a paisagem se divide em encostas, fundos de vale e pequenos cursos d’água. O parque protege parte desse conjunto de Mata Atlântica. Sua importância não depende de uma grande cachoeira que concentre os olhares: depende da continuidade da mata ao redor de muitos caminhos da água.",
-        "Uma floresta nas encostas não impede toda enchente nem transforma automaticamente cada riacho em água potável. Ela faz algo mais concreto: conserva cobertura vegetal e solos num terreno onde chuva, relevo e drenagem estão intimamente ligados. O destino das águas envolve toda a bacia, inclusive o que ocorre fora da área protegida.",
-        "Aqui há uma questão que o mapa de um visitante não resolve sozinho. O parque foi criado em 2004, teve alterações posteriores e seus limites foram novamente definidos por lei em 2025. Por isso, uma fotografia antiga identificada como “dentro do parque” precisa ser confrontada com o limite legal atual antes de se tornar prova cartográfica."
+        "O parque se assenta sobre relevo extremamente ondulado, onde milhares de nascentes e córregos serpenteiam por encostas e vales. O plano de manejo estima que essas águas poderiam abastecer cerca de 500 mil pessoas.",
+        "Entre as cabeceiras que ali nascem estão os ribeirões Encano e Warnow, que compõem a bacia do rio Itajaí. As microbacias medidas pelo plano têm cotas elevadas: a do Lageado chega a 1.020 metros, e a do Garcia tem divisores entre 480 e 940.",
+        "Perto do centro de Blumenau fica o Morro do Spitzkopf, de 913,98 metros, cuja base é cortada por ribeirões e pela Cascata do Ouro, com 20 metros de queda."
       ],
       "sourceIds": [
-        "ficha-icmbio",
-        "lei-2025",
-        "visita-icmbio"
+        "pm"
       ],
-      "images": [],
-      "note": {
-        "title": "O mapa também muda",
-        "body": "A Lei nº 15.090/2025 alterou os limites do parque. A integração cartográfica deve empregar o arquivo vetorial oficial atualizado, não uma área inferida da fotografia."
-      }
-    },
-    {
-      "id": "mata",
-      "eyebrow": "A HISTÓRIA DO VERDE",
-      "title": "A proteção também acompanha uma floresta que se recompõe",
-      "question": "Uma mata protegida precisa ser intocada desde sempre?",
-      "paragraphs": [
-        "As florestas que hoje recobrem partes da Serra do Itajaí são resultado de muitas histórias. Há trechos de vegetação em estágios avançados de regeneração, onde o crescimento da mata segue o abandono ou a redução de antigos usos humanos. A vida florestal não recomeça de uma única vez: árvores jovens crescem sob outras copas, clareiras se fecham e o ambiente oferece diferentes condições a insetos, aves e mamíferos.",
-        "A unidade alcança oito municípios catarinenses, entre eles Blumenau, Botuverá e Indaial. Nos vales e encostas que atravessam esse conjunto, a continuidade da vegetação tem importância que não cabe num único município: cursos d’água seguem para outras áreas e a mata se recompõe em ritmos diferentes segundo a história local de uso do solo.",
-        "Essa recuperação, porém, não apaga as pressões externas. O ICMBio documentou ações de fiscalização na região para combater práticas ilegais contra a fauna. Entre as espécies evocadas na conservação local estão o papagaio-de-peito-roxo e a onça-parda. Citá-las não significa supor que possam ser vistas em uma caminhada; significa reconhecer que a conservação de uma floresta inclui animais pouco visíveis e uma gestão que não termina na placa da entrada."
-      ],
-      "sourceIds": [
-        "visita-icmbio",
-        "fiscalizacao-fauna"
-      ],
-      "images": []
-    },
-    {
-      "id": "vida-pequena",
-      "eyebrow": "O QUE CABE EM UMA FOTOGRAFIA",
-      "title": "A pele deixada para trás e a planta sem apelido",
-      "question": "Que histórias aparecem quando a floresta deixa de ser um bloco de verde?",
-      "paragraphs": [
-        "Uma cigarra identificada como Zammara tympanum foi fotografada no setor Nascentes do Garcia ao sair de sua exúvia, a pele rígida da fase juvenil. Em vez de um “casulo” como o de certos insetos, o que permanece ali é o revestimento antigo de um animal que mudou de forma para continuar sua vida. A imagem documenta um instante particular; não comprova sozinha abundância da espécie nem transforma aquele ponto em local de observação garantida.",
-        "Outra fotografia feita no mesmo setor apresenta uma planta da família das melastomatáceas, identificada como Chaetogastra clinopodifolia. Sem um nome popular individual documentado, é melhor chamá-la pelo nome científico do que inventar um apelido. As duas fotografias mudam a escala da paisagem: a grande mata é também feita de organismos e acontecimentos que passam despercebidos numa vista panorâmica.",
-        "O arquivo fotográfico do setor Nascentes do Garcia reúne encontros com animais pequenos e fáceis de ignorar. Os autores informam nomes e locais, mas esses registros ainda pedem conferência independente antes de se tornarem uma lista definitiva de ocorrências do parque. Mesmo assim, as imagens convidam a olhar para a floresta perto do chão, não apenas para as copas."
-      ],
-      "sourceIds": [
-        "foto-cicada",
-        "foto-planta"
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 43"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 46"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 159–164"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 67"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 423"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_da_Serra_do_Itaja%C3%AD_-_Liu_Id%C3%A1rraga_Orozco_(31).jpg?width=1200",
-          "alt": "Cigarra sobre uma superfície durante a muda, ao lado da exúvia, no setor Nascentes do Garcia.",
-          "author": "Liu Idárraga Orozco",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_do_Itaja%C3%AD_-_Liu_Id%C3%A1rraga_Orozco_(31).jpg",
-          "context": "Cigarra na muda, segundo identificação e local fornecidos pelo fotógrafo. Localização: Setor Nascentes do Garcia, Blumenau/SC, conforme descrição do fotógrafo; ainda não homologada independentemente."
-        },
-        {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_da_Serra_do_Itaja%C3%AD_-_Liu_Id%C3%A1rraga_Orozco_(09).jpg?width=1200",
-          "alt": "Planta da família Melastomataceae, com folhagem e flores, registrada nas Nascentes do Garcia.",
-          "author": "Liu Idárraga Orozco",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_do_Itaja%C3%AD_-_Liu_Id%C3%A1rraga_Orozco_(09).jpg",
-          "context": "Planta fotografada no setor Nascentes do Garcia; identidade científica informada no arquivo. Localização: Setor Nascentes do Garcia, Blumenau/SC, conforme descrição do fotógrafo; ainda não homologada independentemente."
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Topo_do_Spitzkopf.JPG/1280px-Topo_do_Spitzkopf.JPG",
+          "author": "Mussangui",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Topo_do_Spitzkopf.JPG",
+          "width": 1280,
+          "height": 960,
+          "alt": "Vista do alto do Morro do Spitzkopf: sequência de morros cobertos de mata e, ao fundo, o vale com casas.",
+          "context": "Panorama do cume do Morro do Spitzkopf, no Parque Nacional da Serra do Itajaí, em Blumenau: morros florestados e, ao fundo, o vale povoado."
         }
       ]
     },
     {
-      "id": "proteger",
-      "eyebrow": "UM TERRITÓRIO VIVO",
-      "title": "A lei desenha um limite; a conservação atravessa esse limite",
-      "question": "O que uma área protegida pode fazer além de permanecer verde?",
+      "id": "floresta",
+      "eyebrow": "02 · A floresta",
+      "title": "Uma floresta em três andares de altitude",
+      "question": "O que muda da base ao topo da serra?",
       "paragraphs": [
-        "O perímetro de um parque define responsabilidades públicas, mas rios, animais e sementes não obedecem a uma linha no mapa. Uma fiscalização ou uma pesquisa dentro da unidade ajuda a conservar condições de vida que dependem também do seu entorno. Por isso, a Serra do Itajaí não deve ser reduzida a uma vista sobre montanhas: ela é um território de manejo, restauração e vigilância.",
-        "O documento atual de visitação informa que a unidade ainda não dispõe de estruturas de apoio ao público e que a regularização fundiária não foi concluída. É uma diferença importante em relação a parques com portarias e trilhas estruturadas: o potencial para caminhadas e observação da natureza não significa que todos esses usos estejam disponíveis ou regulamentados hoje.",
-        "A proteção da Serra do Itajaí precisa dialogar com os vales habitados ao redor dela. A água que nasce em áreas florestadas segue para bacias mais amplas, enquanto a fauna utiliza ambientes que podem continuar para além do limite legal. O mapa mostra onde começam as atribuições de gestão; a paisagem revela por que a conservação depende também do entorno."
+        "A Floresta Ombrófila Densa do parque se distribui em um gradiente de altitude. A faixa submontana vai de 30 a 400 metros, a montana, de 400 a 800, e a alto-montana, acima disso. Esse gradiente é importante porque várias aves migram em altitude ao longo do ano.",
+        "Dados preliminares apontam 357 espécies de árvores, 47% das que ocorrem em Santa Catarina. A maior parte da floresta está em avançado estágio de regeneração, e há manchas de mata primária, ainda que com as madeiras mais nobres exploradas no passado.",
+        "O palmito-juçara sofre com o corte clandestino. Em campo, os pesquisadores encontraram milhares de estipes cortados nas encostas, mas, onde não houve extração, formam densas populações."
       ],
       "sourceIds": [
-        "ficha-icmbio",
-        "lei-2025",
-        "fiscalizacao-fauna"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 42–43"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 46"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 56"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 67"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 176–177"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "fauna",
+      "eyebrow": "03 · Os bichos",
+      "title": "Aves, felinos e espécies ainda sem nome",
+      "question": "Que animais a serra abriga?",
+      "paragraphs": [
+        "O plano registra 310 espécies de aves, das quais 107 são endêmicas da Mata Atlântica. O parque tem 34 espécies de aves ameaçadas e seis de mamíferos ameaçados, entre elas o papagaio-de-peito-roxo e, entre os mamíferos, o puma, a jaguatirica e o gato-do-mato-pequeno.",
+        "Entre os mamíferos de médio e grande porte foram registradas 28 espécies, 11 delas carnívoras. Cerca de 40% das espécies de mamíferos de médio e grande porte do parque estão ameaçadas de extinção.",
+        "A serra ainda revela espécies novas: três anfíbios, quatro aranhas e um inseto efemeróptero foram descobertos dentro do parque, e há exemplares em análise que podem ser novos. Das 60 espécies de anfíbios e répteis, 38 são endêmicas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 43"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 177–178"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 181"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 185"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "gente",
+      "eyebrow": "04 · A gente",
+      "title": "Uma tradição de cuidar da mata",
+      "question": "Por que a floresta ficou de pé ao lado da cidade?",
+      "paragraphs": [
+        "O plano atribui a preservação à topografia desfavorável, à opção por atividades na indústria e no comércio e a aspectos culturais. Blumenau, fundada em 1850, tem uma tradição ambiental forte: um dos primeiros imigrantes foi o naturalista Fritz Müller, correspondente de Darwin, e entre 1898 e 1902 o prefeito propôs adquirir as cabeceiras dos mananciais.",
+        "Em 1927 nasceu o Spitzkopf-Clube, de excursionismo, que abriu picadas e abrigos na subida do morro. A primeira ONG ambientalista do estado, a ACAPRENA, surgiu em Blumenau em 1973.",
+        "O embrião do parque foi o Parque Natural Municipal Nascentes do Garcia, de 5.326 hectares, criado em 1998 a partir do Parque Ecológico Artex. Hoje essa área faz parte do parque nacional."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 61"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 67–68"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "limites",
+      "eyebrow": "05 · O limite",
+      "title": "Um parque ainda em consolidação",
+      "question": "Qual é a situação do parque hoje?",
+      "paragraphs": [
+        "O parque foi criado por decreto de 4 de junho de 2004, com alteração em 2006. A Lei nº 15.090, de 7 de janeiro de 2025, redefiniu o perímetro, de cerca de 57.528 hectares, em Apiúna, Blumenau, Botuverá, Gaspar, Guabiruba, Indaial, Presidente Nereu e Vidal Ramos, e excluiu uma área de cerca de 273 hectares.",
+        "O ICMBio informa que o parque ainda não tem estruturas de apoio ao visitante e que a regularização fundiária não foi concluída. O plano de manejo prevê caminhadas, cicloturismo, contemplação e observação da vida silvestre em áreas de uso público.",
+        "A conservação depende também do que acontece fora do limite: o plano cita a extração ilegal de palmito, a caça e as espécies exóticas entre as ameaças."
+      ],
+      "sourceIds": [
+        "icmbio",
+        "lei",
+        "visita",
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "lei",
+          "locator": "art. 2º"
+        },
+        {
+          "sourceId": "visita",
+          "locator": "página de visitação"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 82"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "O que fica desta paisagem",
-  "closing": "É fácil lembrar de uma floresta apenas pela vista ampla. A Serra do Itajaí também se revela num corpo de cigarra que já não serve, numa planta identificada sem apelido popular e numa lei que redesenha as responsabilidades sobre a montanha. A proteção acontece quando o grande panorama e esses detalhes deixam de ser histórias separadas.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "limites",
+    "title": "Marcos da proteção",
+    "intro": "Do embrião municipal ao perímetro de 2025.",
+    "items": [
+      {
+        "id": "1927",
+        "year": "1927",
+        "title": "Spitzkopf-Clube",
+        "description": "Nasce o clube de excursionismo que abre os caminhos de subida ao morro.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1998",
+        "year": "1998",
+        "title": "Parque das Nascentes",
+        "description": "Cria-se o Parque Natural Municipal Nascentes do Garcia, o embrião do parque nacional.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2004",
+        "year": "4 jun. 2004",
+        "title": "Parque Nacional",
+        "description": "Decreto sem número cria o Parque Nacional da Serra do Itajaí.",
+        "sourceIds": [
+          "pm",
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2009",
+        "year": "26 jun. 2009",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 53 aprova o plano de manejo.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2025",
+        "year": "7 jan. 2025",
+        "title": "Novos limites",
+        "description": "A Lei nº 15.090 redefine o perímetro do parque.",
+        "sourceIds": [
+          "lei",
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra que abastece e abriga",
+  "closing": "Entre a cidade e a floresta, a Serra do Itajaí lembra que a paisagem de Blumenau depende do que está acima dela. Proteger as encostas, as nascentes e os animais que vivem ali é, também, cuidar do vale.",
   "references": [
     {
-      "id": "ficha-icmbio",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parna da Serra do Itajaí — ficha oficial",
+      "title": "Página institucional do Parque Nacional da Serra do Itajaí",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-do-itajai",
-      "accessedAt": "2026-10-21",
-      "use": "Nome, bioma, área, documentos de criação e alteração, plano de manejo"
+      "accessedAt": "2026-10-23",
+      "use": "área, atos de criação e alteração, aprovação do plano de manejo"
     },
     {
-      "id": "lei-2025",
-      "institution": "Congresso Nacional",
-      "title": "Lei nº 15.090 de 7 de janeiro de 2025",
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Serra do Itajaí (2009) (PDF)",
+      "url": "https://cnuc-backend.mma.gov.br/api/v1/anexo/atolegal/67858/2",
+      "accessedAt": "2026-10-23",
+      "use": "região, história, florestas, fauna e ameaças; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "lei",
+      "institution": "Presidência da República / Câmara dos Deputados",
+      "title": "Lei nº 15.090, de 7 de janeiro de 2025, redefine os limites do Parque Nacional da Serra do Itajaí",
       "url": "https://www2.camara.leg.br/legin/fed/lei/2025/lei-15090-7-janeiro-2025-796857-publicacaooriginal-174031-pl.html",
-      "accessedAt": "2026-10-21",
-      "use": "Municípios, atualização legal de limites; não substitui geometria oficial vetorial"
+      "accessedAt": "2026-10-23",
+      "use": "municípios, novo perímetro, área excluída e zona de amortecimento provisória"
     },
     {
-      "id": "visita-icmbio",
+      "id": "visita",
       "institution": "ICMBio",
-      "title": "Informações sobre visitação — Serra do Itajaí",
+      "title": "Informações sobre visitação do Parque Nacional da Serra do Itajaí",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-da-serra-do-itajai/informacoes-sobre-visitacao-parna-da-serra-do-itajai",
-      "accessedAt": "2026-10-21",
-      "use": "Caracterização de floresta e limites de apoio à visitação"
-    },
-    {
-      "id": "fiscalizacao-fauna",
-      "institution": "ICMBio",
-      "title": "ICMBio realiza fiscalização de fauna em Santa Catarina",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/icmbio-realiza-fiscalizacao-de-fauna-em-santa-catarina",
-      "accessedAt": "2026-10-21",
-      "use": "Pressão de caça, apreensões e espécies mencionadas na proteção do parque"
-    },
-    {
-      "id": "foto-paisagem",
-      "institution": "Wikimedia Commons / KaiaPavesi",
-      "title": "Parque Nacional Serra do Itajai.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Serra_do_Itajai.jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Fotografia da paisagem e declaração de localização do autor"
-    },
-    {
-      "id": "foto-cicada",
-      "institution": "Wikimedia Commons / Liu Idárraga Orozco",
-      "title": "Parque Nacional da Serra do Itajaí — fotografia (31)",
-      "url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_do_Itaja%C3%AD_-_Liu_Id%C3%A1rraga_Orozco_(31).jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Fotografia de cigarra identificada como Zammara tympanum nas Nascentes do Garcia"
-    },
-    {
-      "id": "foto-planta",
-      "institution": "Wikimedia Commons / Liu Idárraga Orozco",
-      "title": "Parque Nacional da Serra do Itajaí — fotografia (09)",
-      "url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_do_Itaja%C3%AD_-_Liu_Id%C3%A1rraga_Orozco_(09).jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Fotografia de planta identificada como Chaetogastra clinopodifolia no setor Nascentes do Garcia"
+      "accessedAt": "2026-10-23",
+      "use": "situação da estrutura de visitação e da regularização fundiária"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "3_arquivos_commons_licenca_e_autoria_conferidas",
-  "editorialNotes": "Sem feature especial. Arquivos e licenças Commons consultados; ocorrências nas fotografias permanecem atribuídas aos fotógrafos. A lei de 2025 demanda QA cartográfico do Chat Central; manuscrito não substitui edição já aprovada. | Rodada v1.2.3: reescrita de passagens explicativas e aprofundamento de capítulos; checagem factual integral e homologação ainda pendentes.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: plano de 2009 usa nove municípios e 57.374 ha; adotados oito municípios e 57.528 ha da Lei 15.090/2025; PDF do plano vem do CNUC (conferir se há cópia no gov.br/icmbio); dados de aves, mamíferos e anfíbios são de 2009, conferir se houve atualização; conferir foto de capa (descrição da Commons cita o parque, sem coordenadas); revisão humana."
 }

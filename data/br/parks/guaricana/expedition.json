@@ -1,142 +1,323 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Guaricana",
-  "title": "Guaricana: a montanha que envia água a duas baías",
-  "subtitle": "Entre os vales da Serra do Mar, rios tomam destinos diferentes e espécies descobertas em pesquisas revelam a vida guardada nas encostas.",
-  "centralQuestion": "Como a mesma montanha alimenta caminhos diferentes da água e da vida?",
+  "title": "Guaricana: a serra que manda água para duas baías",
+  "subtitle": "Entre Curitiba e o litoral do Paraná, quase 50 mil hectares de Serra do Mar guardam nascentes, onça-pintada, florestas de altitude e espécies que só existem ali.",
+  "centralQuestion": "O que uma serra de Mata Atlântica entrega à cidade e ao mar que estão dos dois lados dela?",
   "introduction": [
-    "Uma parte da chuva que cai sobre as montanhas de Guaricana segue em direção à Baía de Guaratuba. Outra parte alimenta cursos ligados ao estuário de Paranaguá. A diferença entre esses destinos começa nas encostas da Serra do Mar, muito antes de a água chegar ao litoral.",
-    "A montanha também muda de vegetação à medida que se sobe. Florestas densas, transições e campos de altitude formam uma paisagem que ajudou cientistas a documentar espécies pouco conhecidas. Nesta história, é a ligação entre água e vida — não uma lista de atrações — que conduz o olhar."
+    "De um lado da Serra do Mar paranaense nasce o sol sobre o planalto de Curitiba; do outro, ele se põe sobre o litoral. No meio, o Parque Nacional Guaricana estende cerca de 49 mil hectares de montanhas cobertas de floresta, com altitudes de 80 a 1.380 metros e chuva que passa de 2.000 milímetros por ano em parte da área.",
+    "É dessa água que vivem as baías de Guaratuba e de Paranaguá, usinas hidrelétricas e as comunidades da região. É também o refúgio de onças-pintadas, antas e de bichos pequenos que a ciência só descreveu ali."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área, a maior unidade de proteção integral da Serra do Mar paranaense",
+      "value": "49.286,87",
+      "sourceId": "pm",
+      "locator": "p. 10"
+    },
+    {
+      "label": "variação de altitude no parque, em metros",
+      "value": "80 a 1.380",
+      "sourceId": "pm",
+      "locator": "p. 17"
+    },
+    {
+      "label": "da área do parque fica em Guaratuba, com Morretes e São José dos Pinhais",
+      "value": "66,4%",
+      "sourceId": "pm",
+      "locator": "p. 10"
+    },
+    {
+      "label": "da área do parque se sobrepõe à APA Estadual de Guaratuba",
+      "value": "≈ 90%",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "da Mata Atlântica original resta hoje, e só 7% em bom estado em fragmentos de mais de 100 hectares",
+      "value": "22%",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "espécies descritas pela ciência a partir do parque, entre elas o sapinho Brachycephalus pombali",
+      "value": "vários",
+      "sourceId": "pm",
+      "locator": "p. 17–18"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Ecótono",
+      "definition": "Zona de transição entre dois tipos de vegetação. Na porção oeste do parque, entre 850 e 1.000 metros, a floresta atlântica se mistura à mata de araucária.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Campos de altitude",
+      "definition": "Vegetação aberta, de campos altomontanos, que aparece nos topos e áreas convexas das serras Canavieiras e da Igreja.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Palmito-juçara",
+      "definition": "Palmeira da Mata Atlântica ameaçada de extinção, sobretudo pela extração ilegal. Seus frutos alimentam muitas aves e mamíferos.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Palmeira guaricana",
+      "definition": "Palmeira (Geonoma) de que se colhem folhas para floriculturas, sem matar a planta. Dá nome ao parque e tem potencial de manejo sustentável.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_Guaricana_-_Luiz_Alves_(01).jpg?width=1200",
-    "alt": "Urutau pousado em um galho, com plumagem que se confunde com a madeira.",
-    "author": "Luizalves1990",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Guaricana_-_Luiz_Alves_(01).jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Urutau identificado no Wikimedia Commons como Nyctibius griseus, fotografado no Parque Nacional Guaricana segundo o autor. A imagem não estabelece frequência local nem local de ninho."
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Lar_doce_mar.jpg/1280px-Lar_doce_mar.jpg",
+    "author": "Fernanda Aguileri",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lar_doce_mar.jpg",
+    "width": 1280,
+    "height": 853,
+    "alt": "Gaivota em voo sobre as águas da baía de Guaratuba, com as montanhas da Serra do Mar ao fundo.",
+    "context": "Baía de Guaratuba (PR), com a Serra do Mar ao fundo; segundo a legenda do Commons, a vista alcança os parques nacionais Saint-Hilaire/Lange e Guaricana, em 2015."
   },
   "moments": [
     {
-      "id": "rios",
-      "eyebrow": "DUAS SAÍDAS PARA O MAR",
-      "title": "Uma serra, caminhos diferentes para a água",
-      "question": "Para onde vão as gotas de chuva que caem em Guaricana?",
+      "id": "agua",
+      "eyebrow": "01 · A água",
+      "title": "De um lado, Guaratuba; do outro, Paranaguá",
+      "question": "Para onde correm os rios do Guaricana?",
       "paragraphs": [
-        "No Parque Nacional Guaricana, no Paraná, a chuva não escolhe uma única saída. Ela encontra montanhas da Serra do Mar, infiltra onde o terreno permite e alimenta cursos d’água que descem por vales diferentes. A rede hidrográfica documentada no parque segue para a Bacia Litorânea e alcança dois grandes conjuntos de águas costeiras.",
-        "Os rios Cubatão e Cubatãozinho se relacionam com a Baía de Guaratuba. Já a drenagem do Sagrado, com outros cursos da região, chega ao complexo estuarino de Paranaguá. O parque não ocupa as duas baías, mas sua posição montanhosa ajuda a compreender por que o que acontece em suas encostas importa também a lugares mais baixos e distantes.",
-        "As águas são descritas em rios estreitos, pedregosos e de relevo acidentado. Isso explica a multiplicidade de trajetos sem sugerir que o território forneça uma mesma quantidade de água o ano inteiro. Para compreender sua importância, basta acompanhar a ligação entre floresta, solo, cursos d’água e estuários."
+        "Toda a drenagem do parque corre para a Bacia Litorânea. Os rios Cubatão e Cubatãozinho desaguam na baía de Guaratuba; o Sagrado, na baía de Paranaguá, no complexo estuarino. Também nascem ali os rios Arraial e do Pinto, que alimentam as baías de Antonina e Paranaguá.",
+        "Essas águas abastecem comunidades e geram energia elétrica. As florestas e a geomorfologia criam um microclima que distribui chuvas e umidade para além dos limites do parque.",
+        "A serra também é perigosa: em março de 2011, chuvas extremas provocaram enchentes, deslizamentos e enxurradas de lama na região, com graves consequências ambientais e sociais."
       ],
       "sourceIds": [
-        "plano-2024"
+        "pm"
       ],
-      "images": []
-    },
-    {
-      "id": "altitude",
-      "eyebrow": "DO SOPÉ AOS CAMPOS",
-      "title": "A floresta muda à medida que a montanha sobe",
-      "question": "O que muda no ambiente entre os vales e os pontos mais altos?",
-      "paragraphs": [
-        "O plano de manejo registra uma diferença altitudinal de cerca de 80 a 1.380 metros. Não se trata de uma única vegetação multiplicada montanha acima. Há florestas densas de áreas mais baixas, matas montanas e altomontanas, além de campos de altitude e zonas de transição onde aparecem araucárias.",
-        "Sol, vento, umidade, solos e altitude se combinam de maneiras diferentes nessas formações. É por isso que campos abertos em pontos elevados não devem ser automaticamente descritos como áreas desmatadas, nem toda a vegetação do parque pode ser resumida como floresta de araucárias. A paisagem reúne ambientes cuja conservação exige reconhecer suas diferenças."
-      ],
-      "sourceIds": [
-        "plano-2024"
-      ],
-      "images": []
-    },
-    {
-      "id": "plantas",
-      "eyebrow": "NOMES QUE SE CRUZAM",
-      "title": "A guaricana não é uma única palmeira",
-      "question": "O que um nome popular pode esconder numa floresta?",
-      "paragraphs": [
-        "Na mata do parque, a palmeira juçara, Euterpe edulis, aparece entre espécies de grande importância ecológica. Seus frutos servem de recurso alimentar a animais frugívoros; protegê-la significa manter possibilidades de alimentação e interações na floresta. Isso não é o mesmo que afirmar que uma ave específica dispersou suas sementes em determinado dia.",
-        "O nome guaricana também se aplica a palmeiras mencionadas no plano como Geonoma schottiana e Geonoma gamiova. Duas espécies podem compartilhar um nome popular, assim como uma espécie pode ter vários nomes ao longo de uma região. Num atlas de natureza, reconhecer essa ambiguidade evita transformar a fala local numa classificação científica equivocada."
-      ],
-      "sourceIds": [
-        "plano-2024"
-      ],
-      "images": []
-    },
-    {
-      "id": "descobertas",
-      "eyebrow": "CIÊNCIA NOS DETALHES",
-      "title": "Pequenos animais ampliam a história da serra",
-      "question": "O que as pesquisas encontraram além do verde e dos rios?",
-      "paragraphs": [
-        "O documento oficial destaca um lambari descrito da área, Astyanax guaricana, além de um opilião, Serracutisoma guaricana, e uma cigarra, Rectapona nigrifascia. São nomes pouco familiares para muita gente, mas mostram que estudar os organismos de um lugar pode revelar formas de vida que durante muito tempo ficaram fora dos registros científicos.",
-        "Há ainda o sapinho Brachycephalus pombali, associado a uma distribuição especialmente restrita. Isso torna ainda mais importante separar conhecimento de exposição: não há necessidade de divulgar os pontos precisos de um animal sensível para contar sua história. Um registro científico pode ajudar a proteger uma espécie sem transformá-la em alvo de procura.",
-        "Um urutau (*Nyctibius griseus*) quase desaparece contra o tronco na fotografia atribuída à Guaricana. Seu disfarce mostra como a floresta pode parecer quieta e, ao mesmo tempo, abrigar animais difíceis de perceber. A localização exata do registro ainda não foi confirmada; a imagem aproxima a experiência de ver um indivíduo, não de contar uma população."
-      ],
-      "sourceIds": [
-        "plano-2024",
-        "guaricana-urutau"
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17–18"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_Guaricana_-_Luiz_Alves_(02).jpg?width=1200",
-          "alt": "Registro fotográfico do Parque Nacional Guaricana, segundo o autor; tema específico ainda requer inspeção visual independente.",
-          "author": "Luizalves1990",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ba%C3%ADa_de_Guaratuba,_Paran%C3%A1.jpg/1280px-Ba%C3%ADa_de_Guaratuba,_Paran%C3%A1.jpg",
+          "author": "Frhopker",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Guaricana_-_Luiz_Alves_(02).jpg",
-          "context": "Registro de biodiversidade informado pelo fotógrafo para o Guaricana; o sujeito retratado precisa de inspeção visual antes de identificação. Localização: Parque Nacional Guaricana, PR, declarado pelo fotógrafo; ainda não homologada independentemente."
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ba%C3%ADa_de_Guaratuba,_Paran%C3%A1.jpg",
+          "width": 1280,
+          "height": 945,
+          "alt": "Vista aérea da Serra do Mar coberta de mata, com a baía de Guaratuba e o oceano ao fundo.",
+          "context": "Vista aérea da Serra do Mar e da baía de Guaratuba (PR)."
         }
       ]
     },
     {
-      "id": "territorio",
-      "eyebrow": "ALÉM DO LIMITE",
-      "title": "As águas conectam paisagens; as pessoas também",
-      "question": "Quem vive na história desta montanha além da fauna e da flora?",
+      "id": "florestas",
+      "eyebrow": "02 · A mata",
+      "title": "Da baixada ao campo de altitude",
+      "question": "Que florestas sobem a serra?",
       "paragraphs": [
-        "O parque está num território em que a conservação encontra histórias de povos indígenas, agricultores familiares, ribeirinhos e outras comunidades. O reconhecimento dessas presenças no planejamento não autoriza dizer que todos esses grupos vivem dentro do polígono protegido. A relação se estabelece também no entorno, por rios, caminhos, memória e projetos sociais.",
-        "O sentido da proteção fica mais completo assim: as nascentes não pertencem apenas ao lugar onde brotam, da mesma forma que a pesquisa da biodiversidade não termina com a publicação de um nome científico. Os resultados da conservação aparecem nas relações entre floresta, água, espécies e pessoas em uma região maior do que uma única unidade administrativa."
+        "Predomina a Floresta Ombrófila Densa em três faixas: submontana, montana e altomontana. Nos topos das serras Canavieiras e da Igreja aparecem os campos de altitude. Na borda oeste, entre 850 e 1.000 metros, a floresta atlântica se mistura à mata de araucária num ecótono, com pinho-bravo, bracatinga, vassourão e a própria araucária.",
+        "O solo, raso e rochoso em boa parte do parque, guarda nas nascentes e várzeas trechos de turfeiras. A Mata Atlântica original cobria cerca de 1,3 milhão de km²; resta 22%, e só 7% em bom estado.",
+        "Entre as palmeiras, a juçara, ameaçada pela extração ilegal do palmito, serve de alimento a muitas aves e mamíferos; a guaricana, de folhas colhidas para floriculturas, dá nome ao parque."
       ],
       "sourceIds": [
-        "plano-2024",
-        "ficha-icmbio"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 19"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "vida",
+      "eyebrow": "03 · A vida",
+      "title": "Onça-pintada, anta e bichos que só existem ali",
+      "question": "Quem vive na serra?",
+      "paragraphs": [
+        "Num maciço de cerca de 50 mil hectares, o parque tem espaço para grandes mamíferos: onça-pintada, onça-parda, anta e queixada mantêm populações viáveis, o que torna a unidade prioritária para a conservação no corredor da Serra do Mar. Entre as aves ameaçadas ou raras estão a jacutinga, o sabiá-cica e a maria-catarinense.",
+        "A pesquisa vai descobrindo espécies: o sapinho Brachycephalus pombali só vive no Guaricana, e o opilião Serracutisoma guaricana, a cigarra Rectapona nigrifascia e o lambari Astyanax guaricana foram descobertos e descritos ali.",
+        "O parque também é uma das pontas de um grande território protegido: tem cerca de 90% de sua área sobreposta à APA de Guaratuba e liga-se por florestas ao Parque Nacional Saint-Hilaire/Lange, dentro do Mosaico Lagamar e da Reserva da Biosfera da Mata Atlântica."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17–18"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Parque_Nacional_Guaricana_-_Luiz_Alves_(01).jpg/1280px-Parque_Nacional_Guaricana_-_Luiz_Alves_(01).jpg",
+          "author": "Luizalves1990",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Guaricana_-_Luiz_Alves_(01).jpg",
+          "width": 1280,
+          "height": 1599,
+          "alt": "Ave camuflada, de plumagem acinzentada e listrada, imóvel com o bico erguido sobre um toco coberto de musgo.",
+          "context": "Urutau (Nyctibius griseus) em fotografia categorizada no Commons como feita no Parque Nacional Guaricana, em 2022."
+        }
+      ]
+    },
+    {
+      "id": "gente",
+      "eyebrow": "04 · A gente",
+      "title": "Caminho do ouro, pinus e uma aldeia",
+      "question": "Que histórias passam por esta serra?",
+      "paragraphs": [
+        "No fim do século XVI e início do XVII, o ouro do litoral paranaense atraiu povoadores e deu origem a Paranaguá e Curitiba. As principais minas ficavam perto das nascentes do rio Arraial, e o Caminho do Arraial, que ligava Morretes a Curitiba, passava perto do parque. A BR-277, iniciada em 1949 e inaugurada em 1968, usou a mesma garganta da serra.",
+        "Em 1967 a empresa Técnica Florestal plantou pinus no Projeto Arraial, na porção noroeste. A maior parte foi colhida em 2009 e 2010; sobrou um talhão de cerca de 83 hectares. É nessa área que vive a comunidade indígena Tupã Nhe'é Kretã, de povos Guarani, Xetá e Kaingang, e o plano a vê também como potencial para restauração florestal e uso público.",
+        "O decreto de criação incluiu novamente áreas de bananicultura consolidada que a proposta de limites havia excluído, uma situação que o plano de manejo reconhece como desafio."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 15–16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 47–48"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · O plano",
+      "title": "Um parque que se organiza para receber gente",
+      "question": "Como o parque está sendo planejado?",
+      "paragraphs": [
+        "O plano de manejo de 2024 foi construído com 30 atores-chave em uma oficina em Curitiba, entre 29 de agosto e 2 de setembro de 2022. A oficina foi paga com recursos de um acordo judicial entre a Petrobras e os Ministérios Públicos, decorrente do vazamento do poliduto OLAPA, na Serra do Mar do Paraná, em 2001.",
+        "O plano reconhece o potencial de visitação do parque, com serras, rios, cachoeiras e mirantes bem perto de Curitiba, e prevê zonas de uso moderado em acessos como os dos saltos Cantagalo e Arco-Íris. Onde há sobreposição com a comunidade Tupã Nhe'é Kretã, a infraestrutura de visitação deve ser planejada em parceria com a Funai."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 28"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 42–44"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Água em direções diferentes",
-  "closing": "Na Serra do Mar, as nascentes de Guaricana descem por caminhos que não terminam no mesmo lugar. A altitude também diferencia as condições em que a floresta cresce. Seguir um riacho desde a encosta é perceber que o parque protege muito mais que uma vista de montanhas: protege ligações entre água, vegetação e territórios que ficam além da linha do mapa.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "gente",
+    "title": "Marcos do Guaricana",
+    "intro": "Do caminho do ouro ao plano de manejo.",
+    "items": [
+      {
+        "id": "1949",
+        "year": "1949–1968",
+        "title": "BR-277",
+        "description": "A construção da rodovia começa em 1949 e é inaugurada em 1968, na mesma garganta da serra usada pelo Caminho do Arraial.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1967",
+        "year": "1967",
+        "title": "Plantios de pinus",
+        "description": "A empresa Técnica Florestal planta pinus no Projeto Arraial, na porção noroeste do futuro parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2001",
+        "year": "2001",
+        "title": "Acidente no poliduto OLAPA",
+        "description": "O vazamento, na Serra do Mar do Paraná, origina o acordo que financiaria a oficina do plano de manejo.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2014",
+        "year": "2014",
+        "title": "Criação do parque",
+        "description": "O decreto de 13 de outubro cria o Parque Nacional Guaricana.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2022",
+        "year": "2022",
+        "title": "Oficina do plano de manejo",
+        "description": "Entre 29 de agosto e 2 de setembro, atores-chave reúnem-se em Curitiba para elaborar o plano.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2024",
+        "year": "2024",
+        "title": "Plano de manejo",
+        "description": "O ICMBio publica o plano de manejo do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra entre a cidade e o mar",
+  "closing": "O Guaricana conecta o planalto de Curitiba ao litoral por meio da água, da floresta e dos bichos que atravessam a serra. Cuidar dele significa manter as nascentes limpas, as florestas conectadas ao resto da Serra do Mar e as comunidades, indígenas e rurais, como parceiras.",
   "references": [
     {
-      "id": "ficha-icmbio",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Parna Guaricana — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-guaricana",
-      "accessedAt": "2026-10-21",
-      "use": "Área, criação e portaria de plano de manejo de 2024"
-    },
-    {
-      "id": "plano-2024",
-      "institution": "ICMBio",
-      "title": "Plano de manejo do Parque Nacional Guaricana (2024)",
+      "title": "Plano de Manejo do Parque Nacional Guaricana (2024)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-guaricana/arquivos/copy_of_Plano_Manejo_PNG_V9_maio_24.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "pp. 11–18 (páginas do PDF; com numeração impressa 12–19): hidrografia, vegetação, flora/fauna, comunidades e espécies estudadas"
-    },
-    {
-      "id": "guaricana-urutau",
-      "institution": "Wikimedia Commons / Luizalves1990",
-      "title": "Parque Nacional Guaricana — Luiz Alves (01)",
-      "url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Guaricana_-_Luiz_Alves_(01).jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Fotografia identificada no Commons como Nyctibius griseus, procedência informada pelo autor"
+      "accessedAt": "2026-10-23",
+      "use": "criação, limites, água, vegetação, fauna, história, comunidades e planejamento; páginas conforme a numeração do PDF"
     }
   ],
   "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "galeria_com_novo_item_documentado_validacao_espacial_e_visual_pendente",
-  "editorialNotes": "Plano de manejo 2024 consultado e página em PDF inspecionada visualmente. A imagem do urutau possui autoria e licença Commons identificadas, mas sua identificação e procedência pontual não foram verificadas por especialista. Sem mapas alterados e sem recursos de interação especiais.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: conferir o decreto de 13/10/2014 no Planalto; a área do cadastro (49.287 ha) coincide com o plano; urutau identificado pela categoria do Commons; revisão pela comunidade Tupã Nhe'é Kretã/Funai e revisão humana."
 }

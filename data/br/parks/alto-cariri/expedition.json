@@ -1,144 +1,341 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional do Alto Cariri",
-  "title": "Alto Cariri: a serra entre duas águas",
-  "subtitle": "As montanhas dividem caminhos de rios e chuvas; em suas florestas de altitude, nascentes, árvores e muriquis dependem de um território que permanece conectado.",
-  "centralQuestion": "Como uma serra pode decidir para onde a água corre e quais vidas encontram abrigo?",
+  "title": "Alto Cariri: a serra que guarda a água e o último muriqui da Bahia",
+  "subtitle": "Paredões de rocha, cachoeiras e floresta úmida de montanha, no sul baiano, protegem as nascentes do rio Buranhém e a única população conhecida de muriqui-do-norte do estado.",
+  "centralQuestion": "O que uma serra de pouco mais de 19 mil hectares consegue guardar para tanta gente?",
   "introduction": [
-    "No Alto Cariri, no sul da Bahia, a água escorre por encostas cobertas de Mata Atlântica e encontra caminhos que se ligam a grandes bacias. A maior parte das nascentes descritas dentro do parque segue para afluentes do Buranhém; já os cursos da vertente mineira pertencem ao entorno ligado ao Jequitinhonha.",
-    "Entre florestas montanas, bromélias e árvores que sustentam o deslocamento do muriqui-do-norte, a conservação também depende de conexões. As águas cruzam a paisagem pelos vales; os animais precisam que a vegetação continue oferecendo passagem e alimento."
+    "No extremo sul da Bahia, junto à divisa com Minas Gerais, as serras do Alto Cariri se erguem de uma paisagem de pastos e cultivos como paredões de rocha cobertos de mata. Do alto, a névoa que vem do mar se prende nos topos e alimenta nascentes que descem para o rio Buranhém.",
+    "Foi essa floresta úmida, com altitudes de 153 a 1.044 metros, que o decreto de 2010 quis proteger. Dentro dela vive o maior primata das Américas, o muriqui-do-norte, e vivem também pessoas: o parque é uma serra habitada, e a conservação aqui passa por quem mora e trabalha ao seu redor."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área, segundo o plano de manejo",
+      "value": "19.238",
+      "sourceId": "pm",
+      "locator": "p. 9"
+    },
+    {
+      "label": "variação de altitude no parque, em metros",
+      "value": "153 a 1.044",
+      "sourceId": "pm",
+      "locator": "p. 11"
+    },
+    {
+      "label": "espécies de plantas registradas no parque",
+      "value": "646",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "espécies de aves registradas",
+      "value": "267",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "grupos de muriqui-do-norte identificados no parque, com ao menos 20 animais",
+      "value": "2",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "altura da cachoeira Bel Preto, em metros",
+      "value": "280",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Floresta ombrófila densa montana",
+      "definition": "Mata sempre verde de altitude, com chuvas bem distribuídas ao longo do ano e muitos cipós e epífitas. No parque, o dossel contínuo tem cerca de 20 a 25 metros.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Epífita",
+      "definition": "Planta, como bromélias e orquídeas, que vive apoiada sobre troncos e galhos de outras plantas, sem tirar delas o alimento.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Hileia Baiana",
+      "definition": "Nome dado à floresta úmida do sul da Bahia, um dos principais centros de endemismo da Mata Atlântica, comparada pela diversidade à Hileia Amazônica.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em torno do parque onde certas atividades são reguladas. A do Alto Cariri soma 61.281,20 hectares, em seis municípios da Bahia e de Minas Gerais.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Alto_Cariri_1.jpg?width=1200",
-    "alt": "Paisagem natural do Parque Nacional do Alto Cariri, Bahia, fotografada por Marcelino Dias.",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Alto_Cariri_1.jpg/1280px-Alto_Cariri_1.jpg",
     "author": "Marcelino Dias",
     "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alto_Cariri_1.jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Paisagem documentada do Parque Nacional do Alto Cariri. Foto: Marcelino Dias / Wikimedia Commons, CC BY-SA 2.0."
+    "width": 1280,
+    "height": 853,
+    "alt": "Paredões de rocha cobertos de mata no complexo de serras do Alto Cariri, sobre pastos verdes, em Guaratinga (BA).",
+    "context": "As serras do Alto Cariri, em Guaratinga (BA): paredões de rocha e floresta acima de pastos, uma paisagem típica do parque nacional."
   },
   "moments": [
     {
-      "id": "divisor",
-      "eyebrow": "A GEOGRAFIA DA CHUVA",
-      "title": "Uma montanha, caminhos de água em direções diferentes",
-      "question": "Para onde vai a chuva depois de encontrar a serra?",
+      "id": "serra-agua",
+      "eyebrow": "01 · A serra e a água",
+      "title": "Uma serra entre dois rios",
+      "question": "Para onde corre a água que nasce no Alto Cariri?",
       "paragraphs": [
-        "O maciço do Alto Cariri se ergue entre as bacias dos rios Buranhém e Jequitinhonha. A maior parte das nascentes no interior do parque, na vertente baiana descrita pelo plano de manejo, contribui para afluentes do Buranhém; os cursos d’água da vertente mineira pertencem ao entorno e seguem para o Jequitinhonha. Essa diferença de escopo não é detalhe: define por que não devemos desenhar um rio do lado errado da divisa.",
-        "A serra também interfere na chuva. De acordo com o plano de manejo, as encostas funcionam como barreira ao ar úmido que chega do mar, ajudando a explicar a vertente baiana mais úmida e ambientes relativamente mais secos do lado mineiro. A altitude muda a paisagem, mas não permite adivinhar onde está cada nascente a partir de uma fotografia.",
-        "Proteger essa geografia é proteger águas que continuam além dos limites do parque. O plano registra córregos associados ao Buranhém e reconhece que parte das margens e nascentes sofreu alterações ligadas ao uso da terra. Água abundante e água protegida não são necessariamente a mesma coisa."
+        "O parque protege parte de um complexo de serras e morros íngremes, separados por vales fundos de cerca de 30 quilômetros de comprimento por 10 de largura. As altitudes vão de 153 a 1.044 metros, e as partes mais baixas ficam a leste.",
+        "O maciço divide dois mundos de água. As nascentes da vertente mineira correm para o rio Jequitinhonha; as da vertente baiana, que ficam dentro do parque, vão para o rio Buranhém, que nasce em Minas, atravessa Guaratinga, Eunápolis e Porto Seguro e chega ao mar. O parque guarda a origem de afluentes como os córregos Fernando Pinheiro, Pinheirinho, Beleza, do Gustavo e da Pedra, este último responsável pelo abastecimento do distrito de Monte Alegre.",
+        "Os topos de mais de mil metros funcionam como barreira às chuvas que chegam do mar. Por isso a vertente baiana é mais úmida, com floresta densa, e o lado mineiro é mais seco.",
+        "O plano de manejo chama o parque de caixa d'água da Costa do Descobrimento: a bacia do Buranhém abastece mais de 150 mil pessoas. Parte da mata das margens das nascentes, porém, sofre algum tipo de uso irregular."
       ],
       "sourceIds": [
-        "plano-cariri",
-        "ficha-cariri"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Cachoeira_no_Alto_Cariri.jpg?width=1200",
-          "alt": "Cachoeira descendo entre rochas e vegetação na Serra do Alto Cariri.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cachoeira_no_Alto_Cariri.jpg/1280px-Cachoeira_no_Alto_Cariri.jpg",
           "author": "Marcelino Dias",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_no_Alto_Cariri.jpg",
-          "context": "Queda d’água identificada pelo fotógrafo dentro do Parque Nacional do Alto Cariri, a cerca de 450 m de altitude; coordenadas informadas no Commons, sem geovalidação independente. Localização: Cachoeira atribuída ao interior do Parque Nacional do Alto Cariri, BA; ainda não homologada independentemente."
+          "width": 1280,
+          "height": 853,
+          "alt": "Queda d'água descendo por um paredão de rocha em meio a árvores altas e rochas soltas, no Alto Cariri.",
+          "context": "Cachoeira no Parque Nacional do Alto Cariri, a cerca de 450 metros de altitude, uma das muitas que descem das serras."
         }
       ]
     },
     {
       "id": "floresta",
-      "eyebrow": "A FLORESTA MUDA COM A ALTITUDE",
-      "title": "No alto da mata, há plantas que vivem acima do chão",
-      "question": "O que vive abaixo das copas da mata montana?",
+      "eyebrow": "02 · A mata",
+      "title": "A floresta que sobe a serra",
+      "question": "Que floresta cobre o Alto Cariri?",
       "paragraphs": [
-        "Em grande parte do Alto Cariri, predomina a floresta ombrófila densa montana, com árvores que formam um teto verde. Bromélias e orquídeas podem viver apoiadas sobre os troncos e galhos, sem retirar alimento diretamente da madeira. São epífitas: usam a árvore como suporte e recebem água e nutrientes do ambiente ao redor.",
-        "O plano de manejo registra palmito-juçara (Euterpe edulis), xaxim-imperial (Dicksonia sellowiana) e outras plantas relevantes para conservação no parque. Também descreve afloramentos rochosos com formações vegetais próprias. Isso não significa que todas essas espécies possam ser encontradas em qualquer trecho; a distribuição depende dos habitats e do histórico da floresta.",
-        "No sub-bosque, folhas de diferentes tamanhos, troncos e plantas apoiadas umas nas outras ocupam o mesmo espaço. A fotografia transmite essa variedade de formas, embora não permita nomear cada espécie sem exame botânico. Os inventários do Alto Cariri oferecem os nomes; a imagem oferece a sensação de estar diante de uma floresta feita de muitos andares.",
-        "O plano de manejo de 2024 liga, na mesma estratégia de proteção, as florestas, os mananciais e os afloramentos rochosos do Alto Cariri. Uma queda d’água torna essa ligação visível, mas não revela a qualidade da água, a condição da nascente nem a situação das terras ao redor. Conservar a paisagem exige conhecer também o que escapa ao enquadramento."
+        "Predomina a floresta ombrófila densa montana, mata sempre verde de altitude, com cipós e epífitas como bromélias e orquídeas. O dossel é contínuo, com cerca de 20 a 25 metros, e há árvores emergentes mais altas, esparsas. Sobre os afloramentos rochosos aparecem campos rupestres, ricos em bromélias, orquídeas, cactos e samambaias.",
+        "O parque guarda parte da Hileia Baiana, um dos principais centros de endemismo da Mata Atlântica. Foram registradas 646 espécies de plantas, em 340 gêneros e 122 famílias, entre elas ao menos nove ameaçadas de extinção, como o xaxim-imperial, o palmito-juçara e a bicuíba.",
+        "Entre os registros raros estão o brinco-de-princesa-da-mata (Fuchsia regia), um gênero de áreas de altitude do Sul e Sudeste com poucos registros no Nordeste, e o pinheiro-bravo (Podocarpus sellowii), uma das poucas gimnospermas nativas do Brasil.",
+        "A floresta é bastante fragmentada: há uma grande mancha, de mais da metade da área do parque, e muitos fragmentos pequenos e médios, sobretudo onde há pasto e lavoura."
       ],
       "sourceIds": [
-        "plano-cariri",
-        "ficha-cariri"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Epifitismo.jpg?width=1200",
-          "alt": "Interior de mata montana com troncos e vegetação epífita, sob sombra da floresta.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Epifitismo.jpg/1280px-Epifitismo.jpg",
           "author": "Marcelino Dias",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Epifitismo.jpg",
-          "context": "Registro de sub-bosque com epífitas, identificado pelo autor no Parque Nacional do Alto Cariri; nenhum exemplar individual recebe espécie determinada pela foto. Localização: Sub-bosque de floresta montana no Parque Nacional do Alto Cariri, perto da divisa de Minas Gerais, conforme autor; ainda não homologada independentemente."
+          "width": 1280,
+          "height": 853,
+          "alt": "Sub-bosque úmido com tronco coberto de epífitas, rocha musgosa e uma flor vermelha em primeiro plano.",
+          "context": "Sub-bosque do Parque Nacional do Alto Cariri, com plantas epífitas sobre troncos e rochas."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Floresta_Montana.jpg/1280px-Floresta_Montana.jpg",
+          "author": "Marcelino Dias",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floresta_Montana.jpg",
+          "width": 1280,
+          "height": 853,
+          "alt": "Encosta coberta por floresta densa, com neblina nos topos, no Alto Cariri.",
+          "context": "Floresta ombrófila densa montana no Parque Nacional do Alto Cariri."
         }
       ]
     },
     {
       "id": "muriqui",
-      "eyebrow": "UM PRIMATA QUE LIGA ÁRVORES",
-      "title": "Para o muriqui, a floresta precisa continuar de pé",
-      "question": "Por que um macaco tão grande depende de ligações difíceis de ver?",
+      "eyebrow": "03 · A fauna",
+      "title": "O muriqui e seus vizinhos de copa",
+      "question": "Por que o Alto Cariri importa tanto para o maior primata das Américas?",
       "paragraphs": [
-        "O Alto Cariri abriga uma das populações documentadas do muriqui-do-norte (Brachyteles hypoxanthus), conhecido localmente como mono-carvoeiro. Ele usa as árvores para se deslocar e se alimentar. Ao consumir frutos e transportar sementes, participa da renovação da floresta — uma relação ecológica descrita pelo próprio plano da unidade.",
-        "Esse modo de vida também revela um limite das áreas protegidas no papel. Quando a mata fica muito fragmentada, circular, encontrar alimento e manter contato entre grupos pode se tornar mais difícil. Por isso o parque integra uma paisagem de unidades vizinhas, incluindo áreas estaduais e privadas de conservação, cuja conectividade importa para o futuro da espécie.",
-        "Os grupos de muriquis registrados no plano de 2025 mostram que o Alto Cariri permanece importante para a espécie. As estimativas descrevem o momento em que foram feitas, não uma contagem válida para qualquer ano seguinte. Mais importante do que fixar um número é compreender a necessidade de acompanhar os animais e as ligações entre as áreas de floresta que utilizam.",
-        "O ICMBio informa um Programa de Manejo Populacional do muriqui-do-norte para o ciclo 2026–2036, voltado à proteção e restauração de populações naturais em sua área de distribuição. A iniciativa amplia o horizonte de conservação para além de uma unidade específica; não constitui um novo censo do Alto Cariri. A reportagem conserva, portanto, a ocorrência local documentada no plano e distingue dela as ações nacionais propostas."
+        "O muriqui-do-norte, chamado localmente de mono-carvoeiro, é endêmico da Mata Atlântica e está criticamente ameaçado: restam pouco mais de mil indivíduos, em populações isoladas, e o Alto Cariri abriga a única população conhecida do animal na Bahia.",
+        "Até agora foram identificados dois grupos no parque, com pelo menos 20 animais, e o plano de manejo diz haver grande chance de existirem outros. A população é pequena, porém viável. O muriqui se alimenta de frutos e dispersa sementes, e por isso ajuda a refazer a floresta.",
+        "O parque tem ainda 267 espécies de aves, 40 de anfíbios, 29 de répteis e 28 de mamíferos terrestres, contando a zona de amortecimento. Ao menos 31 espécies ameaçadas ocorrem na área, entre elas a preguiça-de-coleira, o ouriço-preto, o crejoá e o papagaio-chauá.",
+        "A conservação do muriqui depende de um conjunto: o parque nacional, o Parque Estadual do Alto Cariri e o Refúgio de Vida Silvestre Mata dos Muriquis, criados em Minas Gerais em 2008, e a RPPN Loredano Aleixo somam mais de 28 mil hectares de Mata Atlântica."
       ],
       "sourceIds": [
-        "plano-cariri",
-        "muriqui-programa-v2110"
+        "pm",
+        "decreto"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15–16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 50"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º, II"
+        }
       ],
       "images": []
     },
     {
-      "id": "conservar",
-      "eyebrow": "GENTE, FLORESTA E NASCENTES",
-      "title": "A proteção do Alto Cariri também acontece fora do horizonte da fotografia",
-      "question": "O que falta para a serra permanecer viva?",
+      "id": "gente",
+      "eyebrow": "04 · A serra habitada",
+      "title": "Uma montanha com moradores",
+      "question": "Como proteger uma floresta que também é lugar de trabalho?",
       "paragraphs": [
-        "No entorno e em setores do território existem moradias e atividades agropecuárias documentadas. O plano registra problemas nas margens de córregos, pastagens em áreas frágeis e necessidade de regularização fundiária. O diagnóstico não autoriza dizer que todos os cursos d’água estão contaminados ou que cada morador provoca dano: o próprio documento aponta lacunas de monitoramento.",
-        "Também há iniciativas de gestão participativa. A elaboração do plano envolveu representantes de comunidades, gestores e pesquisadores, e o ICMBio reconheceu a necessidade de melhorar o diálogo com moradores. A conservação, nesse caso, não é uma abstração distante: inclui informação confiável, proteção das nascentes, recuperação de trechos e acordos sociais.",
-        "A serra conta duas histórias que não deveriam se separar. A água desce, abastecendo paisagens e populações muito além das encostas. Nas copas, animais e plantas dependem de uma floresta que não termina no ponto onde o observador para de olhar.",
-        "Na encosta, a água desce por cursos que deixam o parque, enquanto o muriqui depende da continuidade da cobertura arbórea para se deslocar. As duas relações revelam uma mesma fragilidade: limites jurídicos são fundamentais, mas nem rios nem animais interrompem seus caminhos exatamente na linha do mapa. O desafio da gestão é trabalhar com essas conexões sem apagar moradores, usos anteriores e informações ainda ausentes."
+        "O Alto Cariri está numa região de pecuária. Até agora foram identificadas 395 ocupações dentro do parque, em situações documentais muito diversas, e a regularização fundiária ainda não terminou. Os núcleos comunitários dentro do parque são Paxés, Barra Azul, Pinheiro, Córrego do Norte e Gustavo; São Tomé e Pinheirinho ficam em parte dentro e em parte fora.",
+        "Cerca de 27% da área do parque é de pastagem, e o plano de manejo estima que 44% dela esteja em uso, entre pasto, lavoura, instalações e estradas. Na zona de amortecimento, as pastagens ocupam 57%, e o eucalipto avança sobre elas. A principal ameaça é o desmatamento; também pesam o fogo mal controlado, a retirada seletiva de madeira, o pisoteio do gado nas nascentes e a caça.",
+        "O plano foi construído em oficina com moradores, prefeituras, universidades e órgãos ambientais. Entre as respostas previstas estão o manejo integrado do fogo, a recuperação de nascentes e o planejamento integrado das unidades do maciço do Cariri, com o órgão ambiental de Minas Gerais."
       ],
       "sourceIds": [
-        "plano-cariri"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 4"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12–13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/No_Alto_Cariri.jpg/1280px-No_Alto_Cariri.jpg",
+          "author": "Marcelino Dias",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:No_Alto_Cariri.jpg",
+          "width": 1280,
+          "height": 853,
+          "alt": "Paredão de rocha à direita e, ao fundo, vale com pastos e plantios sob nuvens, no Alto Cariri.",
+          "context": "Vista do Parque Nacional do Alto Cariri: a rocha e a mata da serra, e a paisagem rural que a cerca."
+        }
+      ]
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · A visita",
+      "title": "Cachoeiras, mirantes e uma visitação por organizar",
+      "question": "O que o parque oferece a quem quer conhecê-lo?",
+      "paragraphs": [
+        "O plano de manejo vê no parque grande potencial de visitação: serras que se avistam de longe, mirantes naturais, cachoeiras e floresta primária. Entre as quedas, destaca-se a Bel Preto, de 280 metros, no vale do córrego do Pinheiro, junto à cachoeira Tio Lucas.",
+        "As atividades previstas incluem banho de rio e cachoeira, contemplação, canionismo, escalada, trilhas, travessias e mountain bike, além da observação de fauna e da visitação científica e educacional.",
+        "Mas a estrutura ainda está por fazer. O plano aponta como problemas a falta de estrutura para receber visitantes, de sinalização e de mapeamento de trilhas e atrativos, o acesso precário, a visitação informal, além de motocross e jipeiros em áreas frágeis. Antes de ir, vale buscar informação atualizada com a chefia do parque."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 21–22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 33"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Dois caminhos para a água, um para a floresta",
-  "closing": "Uma vertente da serra entrega água à bacia do Buranhém; outra se liga ao Jequitinhonha. Entre essas direções, a floresta precisa continuar conectada para sustentar animais como o muriqui-do-norte. No Alto Cariri, a proteção das nascentes e a passagem entre copas são aspectos da mesma paisagem — e exigem cuidado dentro e fora dos limites do parque.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "gente",
+    "title": "Marcos do Alto Cariri",
+    "intro": "Do conjunto estadual em Minas ao plano de manejo do parque nacional.",
+    "items": [
+      {
+        "id": "2008",
+        "year": "2008",
+        "title": "Unidades em Minas Gerais",
+        "description": "Em 18 de fevereiro, decretos estaduais criam o Parque Estadual do Alto Cariri e o Refúgio de Vida Silvestre Mata dos Muriquis, vizinhos do futuro parque nacional.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "2010",
+        "title": "Criação do parque nacional",
+        "description": "O decreto de 11 de junho cria o Parque Nacional do Alto Cariri, em Guaratinga, e define sua zona de amortecimento.",
+        "sourceIds": [
+          "decreto",
+          "pm"
+        ]
+      },
+      {
+        "id": "2025",
+        "year": "2025",
+        "title": "Plano de manejo",
+        "description": "O ICMBio publica o plano de manejo do parque, construído em oficinas com a comunidade e instituições da região.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra e suas águas",
+  "closing": "O Alto Cariri mostra o que significa proteger uma serra pequena e habitada: manter as nascentes limpas, deixar a floresta se reconectar e dar ao muriqui um lugar para continuar a existir. Tudo isso depende, ao mesmo tempo, de pesquisa, de fiscalização e da parceria com quem vive nas encostas.",
   "references": [
     {
-      "id": "ficha-cariri",
-      "institution": "ICMBio",
-      "title": "Parque Nacional do Alto Cariri — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-alto-cariri/parna-do-alto-cariri",
-      "accessedAt": "2026-10-21",
-      "use": "Área 19.238,02 hectares, Guaratinga/BA, decreto de 2010 e instrumento de gestão"
-    },
-    {
-      "id": "plano-cariri",
+      "id": "pm",
       "institution": "ICMBio",
       "title": "Plano de Manejo do Parque Nacional do Alto Cariri (março de 2025)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-alto-cariri/arquivos/pm_pn_alto_cariri_versaofinal_07022025.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Divisor Buranhém/Jequitinhonha, chuvas, nascentes, florestas montanas, espécies com registro, muriqui e condições de conservação"
+      "accessedAt": "2026-10-23",
+      "use": "relevo, hidrografia, flora, fauna, ocupação, ameaças e visitação; páginas conforme a numeração do PDF"
     },
     {
-      "id": "muriqui-programa-v2110",
-      "title": "ICMBio — Programa de Manejo Populacional do muriqui-do-norte (2026–2036)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/muriqui-do-norte",
-      "institution": "ICMBio",
-      "accessedAt": "2026-10-22",
-      "use": "Fundamentação de trechos novos inseridos na revisão editorial v2.10.10, sem afirmar homologação integral da Expedição."
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 11 de junho de 2010, que cria o Parque Nacional do Alto Cariri",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/dnn/dnn12640.htm",
+      "accessedAt": "2026-10-23",
+      "use": "data de criação, município e objetivos"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_fotos_commons_metadados_e_licencas_verificados_qa_pendente",
-  "editorialNotes": "Reportagem original para revisão editorial humana; escopos locais e regionais distinguidos; imagens apenas após consulta das páginas individuais de licença Commons; geometria e renderer não alterados. A inspeção de screenshots dos PDFs pelo navegador falhou e foi registrada como pendência; conteúdo textual paginado consultado. | v2.10.10: aprofundamento temático de três passagens e curadoria visual em prévia quando aplicável; não altera status de aprovação.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: a área varia conforme a fonte (plano de manejo: 19.238 ha; decreto: cerca de 19.264 ha; cadastro: 19.260 ha); o plano cita população do Buranhém de mais de 250 mil (p. 11) e de mais de 150 mil (p. 16), adotado o menor valor; revisão humana."
 }

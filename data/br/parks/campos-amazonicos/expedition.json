@@ -1,168 +1,253 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional dos Campos Amazônicos",
-  "title": "Campos Amazônicos: o campo que vive dentro da floresta",
-  "subtitle": "Um enclave de Cerrado, campinaranas e florestas no sul da Amazônia revela por que conservar também significa entender solos, água e diferentes regimes de fogo.",
-  "centralQuestion": "Como uma paisagem de campos pode existir e se manter dentro da Amazônia?",
+  "title": "Campos Amazônicos: um Cerrado perdido no meio da floresta",
+  "subtitle": "No encontro entre Amazonas, Rondônia e Mato Grosso, quase um milhão de hectares guardam campos de Cerrado e campinaranas cercados de floresta úmida, onças-pintadas, primatas raros e rios de leito rochoso.",
+  "centralQuestion": "Por que existem campos de Cerrado no coração da Amazônia, e o que acontece quando se protege essa exceção?",
   "introduction": [
-    "No interior da Amazônia, o Parque Nacional dos Campos Amazônicos conserva uma paisagem que foge da imagem de floresta contínua: manchas de vegetação aberta convivem com matas, cursos d’água e faixas de transição. Os campos não são uma clareira ocasional no verde; fazem parte da história ecológica desse território.",
-    "Entre árvores como a lixeira, aves de ambientes abertos e espécies ligadas à floresta, a diversidade depende da existência desse mosaico. O fogo também entra na história — não como solução universal nem como ameaça sempre idêntica, mas como processo que precisa ser compreendido e manejado a partir de evidências."
+    "Quem sobrevoa o sul do Amazonas espera ver floresta até o horizonte. No Parque Nacional dos Campos Amazônicos, porém, a mata se abre em clareiras de capim, arbustos e árvores baixas, onde crescem plantas típicas do Cerrado brasileiro, como a lixeira e o bate-caixa. São os campos que dão nome ao parque.",
+    "Eles formam um enclave: uma ilha de vegetação aberta cercada de floresta ombrófila, que sobreviveu às mudanças de clima do passado. Ao redor dela correm rios com cachoeiras, vivem 332 espécies de aves e 13 de primatas, e se encontram três estados."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área total, após a ampliação de 2012",
+      "value": "961.539",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    },
+    {
+      "label": "da área do parque fica em dois municípios do Amazonas, Novo Aripuanã e Manicoré",
+      "value": "86,7%",
+      "sourceId": "pm",
+      "locator": "p. 13"
+    },
+    {
+      "label": "hectares de Cerrado contínuo na região, dos quais 189.400 estavam dentro do parque nos limites anteriores a 2012",
+      "value": "≈ 386.000",
+      "sourceId": "pm",
+      "locator": "p. 27"
+    },
+    {
+      "label": "espécies de aves registradas",
+      "value": "332",
+      "sourceId": "pm",
+      "locator": "p. 29"
+    },
+    {
+      "label": "espécies de primatas registradas",
+      "value": "13",
+      "sourceId": "pm",
+      "locator": "p. 31"
+    },
+    {
+      "label": "espécies de peixes registradas",
+      "value": "188",
+      "sourceId": "pm",
+      "locator": "p. 32"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Campinarana",
+      "definition": "Vegetação aberta que cresce em solos arenosos da Amazônia. É mais úmida que o Cerrado, o que permite a presença do líquen Cladonia, ausente nos campos de Cerrado.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Enclave de Cerrado",
+      "definition": "Mancha de Cerrado isolada dentro de outro bioma. No parque, é vista como refúgio ecológico: vegetação relíctual de climas anteriores, com grande propensão a endemismos.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Interflúvio Madeira–Tapajós",
+      "definition": "A grande área de terra entre os rios Madeira e Tapajós, conhecida pela alta diversidade e pelo endemismo de vertebrados, onde fica o parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Mosaico da Amazônia Meridional",
+      "definition": "Conjunto de cerca de 7 milhões de hectares de áreas protegidas no sul da Amazônia, reconhecido em 2011, que forma uma barreira contra o avanço da fronteira agropecuária.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_dos_Campos_Amaz%C3%B4nicos_-_Mariane_B_S_Novelli_(1).jpg?width=1200",
-    "alt": "Conjunto de inflorescências de uma planta herbácea, registrado em fotografia de campo com fundo natural.",
-    "author": "Marianebsnovelli (Mariane B. S. Novelli)",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Parque_Nacional_dos_Campos_Amaz%C3%B4nicos_-_Mariane_B_S_Novelli_(1).jpg/1280px-Parque_Nacional_dos_Campos_Amaz%C3%B4nicos_-_Mariane_B_S_Novelli_(1).jpg",
+    "author": "Marianebsnovelli",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_dos_Campos_Amaz%C3%B4nicos_-_Mariane_B_S_Novelli_(1).jpg",
-    "context": "Localização exata da fotografia nos limites do parque não confirmada. Planta apresentada no acervo como sempre-viva (Paepalanthus chiquitensis) no Parque Nacional dos Campos Amazônicos. Foto: Marianebsnovelli / Wikimedia Commons, CC BY-SA 4.0. Identificação visual pelo autor, sem laudo botânico independente."
+    "width": 1280,
+    "height": 853,
+    "alt": "Detalhe de uma sempre-viva com hastes finas abertas em leque e pequenos botões escuros nas pontas.",
+    "context": "Sempre-viva (Paepalanthus chiquitensis), fotografada em 2019 no Parque Nacional dos Campos Amazônicos (AM)."
   },
   "moments": [
     {
       "id": "enclave",
-      "eyebrow": "A PAISAGEM QUE INTERROMPE A FLORESTA",
-      "title": "O campo existe no meio da Amazônia",
-      "question": "Por que o nome Campos Amazônicos parece uma contradição?",
+      "eyebrow": "01 · Os campos",
+      "title": "Uma ilha de Cerrado na Amazônia",
+      "question": "Como o campo sobrevive no meio da mata?",
       "paragraphs": [
-        "Num mapa de biomas, a Amazônia costuma aparecer como um território contínuo de floresta. Mas há regiões em que essa imagem simplificada falha. No Parque Nacional Campos Amazônicos, áreas abertas de Cerrado e de campinarana convivem com formações florestais — cada uma com suas condições de solo, água e vida.",
-        "Essa paisagem aberta não é necessariamente resultado de uma derrubada recente de árvores. Estudos sobre o parque descrevem um grande enclave de Cerrado na Amazônia meridional: um conjunto de campos e savanas separado das extensões mais conhecidas do Cerrado brasileiro. Ao lado, outros trechos de vegetação baixa e arbórea compõem um mosaico que pede observação mais atenta.",
-        "A posição do Cerrado dentro da Amazônia tem consequências práticas. Espécies adaptadas a áreas abertas não são protegidas simplesmente pelo avanço de uma floresta fechada sobre elas; por outro lado, trechos florestais e zonas úmidas precisam ser resguardados dos efeitos de incêndios inadequados. Reconhecer o mosaico é condição para decidir o que manejar e o que deixar recuperar.",
-        "A distinção entre Cerrado e campinarana também importa. Em seu diagnóstico, o plano de manejo registra diferenças ambientais e de umidade entre formações que, de longe, poderiam parecer semelhantes. O que parece um mesmo campo pode guardar condições ecológicas bastante distintas."
+        "A região entre o norte de Mato Grosso, Rondônia e o sul do Amazonas é uma zona de transição entre as florestas úmidas e as formações mais secas do Cerrado. No parque, a floresta ombrófila densa cresce nos aluviões e nos solos mais profundos; a ombrófila aberta, nas depressões; e o Cerrado, nos testemunhos de arenito, onde também aparecem as campinaranas.",
+        "O Cerrado forma um contínuo de cerca de 386 mil hectares que ultrapassa os limites do parque: 189,4 mil estavam protegidos dentro do parque nos limites anteriores a 2012, e o resto fica em terras indígenas. Nesses campos, cercados de floresta, ocorrem espécies de várias regiões do Cerrado, como o bate-caixa (Palicourea rigida) e a lixeira (Curatella americana).",
+        "Para o plano de manejo, uma conjunção de fatores ambientais manteve essas espécies ao longo das mudanças de clima do Quaternário. Por isso, a área é considerada um refúgio ecológico, de vegetação relíctual e com tendência a endemismos.",
+        "As campinaranas crescem também em solos arenosos, mas num ambiente mais úmido, que permite a presença do líquen Cladonia, ausente nos campos de Cerrado."
       ],
       "sourceIds": [
-        "plano-campos",
-        "queima-prescrita"
+        "pm"
       ],
-      "images": []
-    },
-    {
-      "id": "flora",
-      "eyebrow": "PLANTAS DE UM MOSAICO",
-      "title": "Uma lixeira aqui, um bate-caixa ali",
-      "question": "O que as espécies de campos contam sobre o isolamento dessas áreas?",
-      "paragraphs": [
-        "Entre as plantas registradas pelo plano nos campos do parque estão a lixeira (Curatella americana), uma árvore característica de formações abertas, e o bate-caixa (Palicourea rigida). Esses nomes ajudam a deslocar o olhar: em vez de uma floresta simplesmente “faltando”, há comunidades vegetais com espécies e composições próprias.",
-        "Nas campinaranas, o plano destaca ambientes mais úmidos e menciona líquens do gênero Cladonia. O documento apresenta ainda espécies de aves mais associadas a formações savânicas, como o joão-bobo (Nystalus chacuru) e a cigarra-do-campo (Neothraupis fasciata), distintas de parte da avifauna registrada em áreas florestais.",
-        "Uma sempre-viva aparece no registro fotográfico atribuído à região e recebeu o nome de *Paepalanthus chiquitensis* na identificação original. O enquadramento revela a forma delicada da planta, mas não permite verificar sozinho o ponto exato da coleta nem realizar uma identificação botânica definitiva. Seu valor para a narrativa está em aproximar o leitor de uma flora que costuma desaparecer nas vistas amplas de satélite."
-      ],
-      "sourceIds": [
-        "plano-campos",
-        "kew-paepalanthus",
-        "nome-popular-paepalanthus",
-        "foto-campos"
-      ],
-      "images": []
-    },
-    {
-      "id": "fogo",
-      "eyebrow": "A ESCOLHA DA ÉPOCA",
-      "title": "Nem apagar todo fogo, nem aceitar qualquer queimada",
-      "question": "Como pesquisadores distinguem manejo de incêndio destrutivo?",
-      "paragraphs": [
-        "Em paisagens abertas, o fogo pode participar da dinâmica da vegetação. Isso não significa que qualquer incêndio seja benéfico. No enclave de Cerrado dos Campos Amazônicos, pesquisadores registraram queimadas extensas e recorrentes, relacionadas a causas humanas e a descargas elétricas. A frequência e a intensidade alteram o que sobrevive e o que consegue se recuperar.",
-        "Uma experiência de manejo começou em 2016. Equipes do ICMBio passaram a aplicar queimas prescritas no início do período seco, buscando dividir o combustível vegetal acumulado e diminuir o risco de incêndios de grandes proporções. O estudo descreve a escolha de uma janela em que os materiais mais secos queimam, enquanto brejos, buritizais e matas ciliares tendem a permanecer menos expostos.",
-        "O estudo publicado em 2019 apresenta medidas concretas desse experimento: na área que depois receberia manejo, um grande incêndio atingiu 31.548 hectares em 2014; em 2018, o levantamento registrou seis incêndios no período crítico de seca, somando 5.934 hectares. Os números descrevem anos, métodos e áreas delimitados — não um balanço de 2026 nem a promessa de extinguir todos os incêndios.",
-        "O resultado não deve virar fórmula universal. Monitoramento por satélite e observações de campo ajudam a entender onde e com que frequência houve fogo, mas a escolha de uma queima exige planejamento técnico, equipes autorizadas e atenção aos ambientes sensíveis. A pergunta ecológica é menos “fogo sim ou não?” e mais “em quais condições, para quais ambientes e com quais consequências?”."
-      ],
-      "sourceIds": [
-        "queima-prescrita",
-        "fogo-satelite"
-      ],
-      "images": []
-    },
-    {
-      "id": "conexoes",
-      "eyebrow": "ALÉM DOS CAMPOS",
-      "title": "As árvores também ligam os ambientes",
-      "question": "Por que conservar as partes abertas não basta?",
-      "paragraphs": [
-        "Os diagnósticos do parque registram tanto animais de áreas abertas quanto espécies que dependem de ambientes florestais. O plano menciona, por exemplo, comunidades de aves distintas nos campos e na floresta, além de mamíferos como onça-pintada, ariranha e primatas em setores pesquisados. O encontro de paisagens não deve ser lido como um zoológico em que todos os animais ocupam todos os espaços.",
-        "As matas que aparecem entre formações abertas podem funcionar como conexões para organismos florestais. O plano de manejo chama atenção para a continuidade de habitats, para a proteção de nascentes e para os ritmos de cheia e vazante dos rios Roosevelt e Machado. Campos e matas não são capítulos concorrentes: suas relações formam a própria identidade da unidade.",
-        "As mudanças territoriais ao longo do tempo também fazem parte da história. Criado em 2006 e com limites alterados por lei em 2012, o parque reúne responsabilidades de conservação que atravessam áreas de floresta e ecossistemas mais abertos. Conhecer suas diferenças é o primeiro passo para que uma mesma estratégia não seja aplicada indiscriminadamente a todo o território."
-      ],
-      "sourceIds": [
-        "plano-campos",
-        "icmbio-campos"
-      ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Flooded%20Forest.jpg?width=1200",
-          "alt": "Árvores parcialmente cobertas por água",
-          "author": "Nat13attack",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flooded%20Forest.jpg",
-          "context": "Fotografia de floresta alagada vinculada no Commons à categoria do parque. O ponto registrado não foi validado e não prova a ocorrência local de uma espécie. Localização: Fotografia catalogada na categoria Parque Nacional dos Campos Amazônicos; ponto exato não confirmado; ainda não homologada independentemente."
+          "sourceId": "pm",
+          "locator": "p. 25"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 27–28"
         }
-      ]
+      ],
+      "images": []
+    },
+    {
+      "id": "agua",
+      "eyebrow": "02 · A água",
+      "title": "Uma caixa d'água de arenito",
+      "question": "De onde vêm os rios que cortam o parque?",
+      "paragraphs": [
+        "O parque está na bacia do rio Madeira, com cinco sub-bacias: Roosevelt, Marmelos, Machado (ou Ji-Paraná), Manicoré e Guariba. A do Roosevelt é a mais representativa, com trechos de leito rochoso, cachoeiras e corredeiras, como a do Inferninho.",
+        "Nos campos de Cerrado e campinarana, o solo vem da formação sedimentar Palmeiral, onde a drenagem é pouco eficiente e a chuva é muito absorvida. A água recarrega um aquífero confinado e mantém o nível dos rios, de modo que os canais principais seguem perenes mesmo na estação seca, quando praticamente não chove."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 25"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "fauna",
+      "eyebrow": "03 · A fauna",
+      "title": "Onças, primatas e aves do campo",
+      "question": "Que animais vivem entre a mata e o campo?",
+      "paragraphs": [
+        "As 332 espécies de aves misturam moradores da floresta, como o mutum-cavalo e o gavião-real, com aves típicas de campos abertos, como o periquito-de-encontro-amarelo e o joão-bobo. Catorze eram pouco conhecidas na região: a cigarra-do-campo e o bico-de-pimenta tiveram os primeiros registros para a Amazônia.",
+        "Entre os 44 mamíferos de médio e grande porte, 22 estão sob algum grau de ameaça ou têm importância para a conservação. Há onça-pintada, onça-parda, ariranha, tatu-canastra e anta, e 13 espécies de primatas, entre elas o cuxiú e o macaco-aranha. Uma nova espécie de zogue-zogue, Callicebus miltoni, está em processo de descrição.",
+        "Os rios abrigam 188 espécies de peixes, e a herpetofauna soma 91 espécies, entre anfíbios e répteis, com serpentes de Cerrado registradas pela primeira vez no enclave. Os trechos do rio Roosevelt e da estrada do Estanho foram os mais ricos em espécies especiais."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 28–32"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "limites",
+      "eyebrow": "04 · Os limites",
+      "title": "Um parque que mudou de forma",
+      "question": "Por que os limites foram alterados em 2012?",
+      "paragraphs": [
+        "O decreto de 21 de junho de 2006 criou o parque para proteger a diversidade biológica e os processos ecológicos da região entre os rios Machado, Branco, Roosevelt e Guariba. Hoje, 86,7% da área está no Amazonas, 12,9% em Machadinho d'Oeste, em Rondônia, e 0,4% em Colniza, em Mato Grosso.",
+        "Em 25 de junho de 2012, a Lei 12.678 mudou o desenho do parque. Retirou cerca de 1.500 hectares que seriam alagados pelo reservatório da hidrelétrica de Tabajara e cerca de 32 mil hectares no ramal do Pito Aceso, para a regularização de posseiros. Em troca, incorporou 61 mil hectares de Cerrado ao longo da estrada do Estanho, a única parte do enclave ainda sem proteção, e outras áreas, num acréscimo de cerca de 152 mil hectares. O parque passou a ter 961.539 hectares.",
+        "O plano de manejo coloca o parque no Mosaico da Amazônia Meridional, de cerca de 7 milhões de hectares, que deve funcionar como uma barreira à expansão da fronteira agropecuária."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "gente",
+      "eyebrow": "05 · O entorno",
+      "title": "Terras indígenas, vilas e a fronteira agropecuária",
+      "question": "Quem vive ao redor do parque?",
+      "paragraphs": [
+        "Ao redor ficam as terras indígenas Tenharim Marmelos e Igarapé Preto, as comunidades ribeirinhas de Tabajara e Bela Vista do Rio Guariba, o assentamento Santa Maria II, a vila de Três Fronteiras e o distrito de Santo Antônio do Matupi, com cerca de 10 mil moradores e um dos maiores rebanhos do Amazonas. Em Tabajara e na Bela Vista, a castanha e outros produtos da floresta são fonte de renda.",
+        "A região cresce depressa: Humaitá, Manicoré e Novo Aripuanã ganharam 46,5 mil habitantes entre 1996 e 2013. A madeira ainda domina a economia do entorno, mas a agricultura de corte e queima e a pecuária avançam sobre ela. O plano aponta fragmentação, desmatamento, queimadas, madeira ilegal, garimpo, espécies exóticas e hidrelétricas como pressões.",
+        "Mesmo assim, na avaliação do diagnóstico ambiental, quatro dos cinco setores do parque foram classificados como \"muito bom\", e nenhum como excelente ou péssimo."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 33–38"
+        }
+      ],
+      "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "O que fica desta paisagem",
-  "closing": "Nos Campos Amazônicos, o que parece uma contradição se transforma numa lição de escala. O campo não é necessariamente o contrário da Amazônia, e a floresta não explica sozinha toda a diversidade do território. Diferentes ambientes e histórias de fogo pedem atenção específica. Proteger a paisagem é aprender a distinguir — sem separar aquilo que a natureza mantém em relação.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "limites",
+    "title": "Marcos do parque",
+    "intro": "Da criação às mudanças de limites.",
+    "items": [
+      {
+        "id": "2006",
+        "year": "2006",
+        "title": "Decreto de criação",
+        "description": "Em 21 de junho, o decreto cria o parque entre os rios Machado, Branco, Roosevelt e Guariba.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2011",
+        "year": "2011",
+        "title": "Mosaico da Amazônia Meridional",
+        "description": "A Portaria MMA nº 332, de 25 de agosto, reconhece o mosaico de cerca de 7 milhões de hectares, do qual o parque faz parte.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2012",
+        "year": "2012",
+        "title": "Lei 12.678",
+        "description": "A lei de 25 de junho exclui áreas do parque e incorpora o Cerrado da estrada do Estanho; a área passa a 961.539 hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "A exceção que vale proteger",
+  "closing": "Os Campos Amazônicos mostram que a Amazônia não é só floresta: ela guarda ilhas de Cerrado, solos arenosos que bebem a chuva e entregam água aos rios, e uma fauna que mistura os dois mundos. Manter essa exceção depende de controlar o fogo, o desmatamento e a madeira ilegal ao redor, e de conversar com quem vive nas vilas e aldeias vizinhas.",
   "references": [
     {
-      "id": "icmbio-campos",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Parna Campos Amazônicos — ficha institucional",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-campos-amazonicos",
-      "accessedAt": "2026-10-21",
-      "use": "Área institucional, criação em 2006, alteração em 2012 e espécies ameaçadas relacionadas."
-    },
-    {
-      "id": "plano-campos",
-      "institution": "ICMBio",
-      "title": "Plano de Manejo do Parque Nacional dos Campos Amazônicos — Resumo Executivo (2016)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-campos-amazonicos/arquivos/resumo_executivo_plano_de_majeno_parna_campos_amazonicos.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Vegetação de Cerrado e Campinarana, flora como bate-caixa/lixeira, fauna de campos e matas, rios e conservação; data histórica."
-    },
-    {
-      "id": "queima-prescrita",
-      "institution": "ICMBio / Biodiversidade Brasileira",
-      "title": "Queimas prescritas no enclave de cerrado do PNCA como instrumento de mitigação de incêndios florestais (2019)",
-      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/view/1183",
-      "accessedAt": "2026-10-21",
-      "use": "Início de queimas precoces prescritas em 2016, janela climática e áreas ambientais sensíveis."
-    },
-    {
-      "id": "fogo-satelite",
-      "institution": "Alves et al. / Biodiversidade Brasileira",
-      "title": "Séries multitemporais de sensoriamento remoto na análise da recorrência de áreas queimadas no enclave de Cerrado do PNCA (2019)",
-      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/view/1220",
-      "accessedAt": "2026-10-21",
-      "use": "Pesquisa 2000–2018, frequência de fogo e percentual de arborização."
-    },
-    {
-      "id": "kew-paepalanthus",
-      "institution": "Kew Science — Plants of the World Online",
-      "title": "Paepalanthus chiquitensis Herzog",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:180188-2",
-      "accessedAt": "2026-10-21",
-      "use": "Nome taxonômico aceito e distribuição ampla da espécie (não valida ocorrência local)."
-    },
-    {
-      "id": "nome-popular-paepalanthus",
-      "institution": "Rede de Sementes do Cerrado",
-      "title": "Paepalanthus chiquitensis — chuveirinho, sempre-viva",
-      "url": "https://rsc.org.br/listagem-de-especies/paepalanthus-chiquitensis-herzog-chuveirinho-sempre-viva/",
-      "accessedAt": "2026-10-21",
-      "use": "Nome popular documentado (não comprova identificação fotográfica por especialista)."
-    },
-    {
-      "id": "foto-campos",
-      "institution": "Wikimedia Commons / Marianebsnovelli",
-      "title": "Parque Nacional dos Campos Amazônicos - Mariane B S Novelli (1).jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_dos_Campos_Amaz%C3%B4nicos_-_Mariane_B_S_Novelli_(1).jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Arquivo atribuído à unidade; autoria, licença CC BY-SA 4.0, data, geotag e identificação declarada do sujeito."
+      "title": "Plano de Manejo do Parque Nacional dos Campos Amazônicos: Resumo Executivo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-campos-amazonicos/arquivos/resumo_executivo_plano_de_majeno_parna_campos_amazonicos.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "limites, geologia, hidrografia, vegetação, fauna e socioeconomia; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "1_foto_commons_licenca_conferida_identificacao_declarada",
-  "editorialNotes": "Foto Commons própria atribuída ao parque com licença confirmada; identificação visual feita pela autora e geotag ainda sujeitas a checagem independente. Números de área da unidade e enclave variam entre documentos. Manejo de fogo narrado como estudo histórico, sem aconselhamento operacional. Sem recurso interativo especial. | Rodada v1.2.3: reescrita de passagens explicativas e aprofundamento de capítulos; checagem factual integral e homologação ainda pendentes.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: usa o resumo executivo do plano de manejo (dados de fauna de cerca de 2011, população de 2013); conferir o decreto de 21/06/2006 e a Lei 12.678/2012 no Planalto; sem foto de paisagem no Commons com local confirmado; revisão pelas comunidades das terras indígenas Tenharim/Funai e revisão humana."
 }

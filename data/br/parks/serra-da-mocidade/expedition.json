@@ -1,197 +1,304 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Serra da Mocidade",
-  "title": "Serra da Mocidade: o que a ciência ainda não tinha visto",
-  "subtitle": "Numa montanha granítica do extremo norte, rios, florestas de altitude e pequenas espécies revelaram o quanto pode mudar quando uma região é estudada de perto.",
-  "centralQuestion": "Como uma expedição muda o que sabemos sobre uma montanha amazônica?",
+  "title": "Serra da Mocidade: a montanha de granito que a ciência só alcançou em 2016",
+  "subtitle": "No extremo norte de Roraima, uma serra de quase 2 mil metros, isolada por planícies alagadas, guarda florestas de altitude, nascentes do rio Branco e animais que ninguém havia registrado no Brasil.",
+  "centralQuestion": "O que se descobre quando uma montanha inteira, isolada há milênios, finalmente é visitada por pesquisadores?",
   "introduction": [
-    "Em 2016, uma expedição científica alcançou diferentes altitudes da Serra da Mocidade, em Roraima, e trouxe novos registros de anfíbios, répteis e aves. As montanhas não haviam mudado; o que mudou foi o conhecimento documentado sobre a vida que elas abrigam.",
-    "Entre riachos de leito rochoso e florestas montanas, pesquisadores precisaram de logística complexa para chegar a áreas pouco estudadas. As descobertas contam duas histórias ao mesmo tempo: a diversidade observada na serra e o quanto ainda depende de trabalho de campo para ser conhecido."
+    "A Serra da Mocidade se levanta como uma ilha de granito no meio da Amazônia: a floresta de altitude fica cercada por enormes extensões de terras baixas. Até 2016, a parte alta do parque nunca havia sido visitada por pesquisadores.",
+    "Em janeiro de 2016, cerca de 70 profissionais chegaram de helicóptero à parte alta da serra. O que registraram, de anfíbios a aves nunca antes documentadas no país, ampliou o que se sabe sobre as montanhas amazônicas."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Habitat_diversity_(10.3897-zookeys.715.20288)_Figure_8.jpg?width=1200",
-    "alt": "Prancha de seis fotografias com florestas em diferentes altitudes e cursos d’água de leito rochoso.",
-    "author": "Ramiro Melinski (painéis a–c, e–f); Moraes e colaboradores (2017), créditos dos demais painéis conforme artigo",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Habitat_diversity_(10.3897-zookeys.715.20288)_Figure_8.jpg",
-    "context": "Localização exata da fotografia nos limites do parque não confirmada. Ambientes amostrados na Serra da Mocidade: floresta, rio Pacú e riachos rochosos, conforme Moraes et al. 2017, CC BY 4.0."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares do parque, criado em 1998",
+      "value": "376.812",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "altitude que a serra alcança, no conjunto",
+      "value": "quase 2.000 m",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    },
+    {
+      "label": "altitude alcançada dentro do parque",
+      "value": "1.352 m",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    },
+    {
+      "label": "espécies de anfíbios e répteis registradas na expedição de 2016 (23 e 28)",
+      "value": "51",
+      "sourceId": "herpeto"
+    },
+    {
+      "label": "aves registradas pela primeira vez em território brasileiro",
+      "value": "3",
+      "sourceId": "aves"
+    },
+    {
+      "label": "espécies de animais e plantas registradas na expedição, segundo o balanço preliminar",
+      "value": "mais de 1.500",
+      "sourceId": "inpa-resultados"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Inselberg",
+      "definition": "Afloramento rochoso isolado que se levanta acima do terreno em volta; na Serra da Mocidade, as formações são de granito e ficam cobertas por floresta de montanha.",
+      "sourceId": "herpeto"
+    },
+    {
+      "term": "Floresta de altitude",
+      "definition": "Floresta ligada ao relevo, isolada por enormes extensões de terras baixas, com clima próprio e alto potencial de espécies exclusivas.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Campinarana",
+      "definition": "Vegetação de areias quartzosas e solos encharcados, típica das bacias dos rios Negro, Branco e Orinoco, com plantas de aspecto raquítico e pelo menos um gênero exclusivo, a piaçabarana.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Paleoduna",
+      "definition": "Elevação de areia formada por ventos antigos; as do parque têm idades que podem variar de 7.800 a 32.600 anos.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
-      "id": "pico",
-      "eyebrow": "O OUTRO ROSTO DAS SERRAS AMAZÔNICAS",
-      "title": "Não é todo monte amazônico que é um tepui",
-      "question": "O que existe entre uma floresta baixa e a montanha?",
+      "id": "serra",
+      "eyebrow": "01 · A serra",
+      "title": "Uma ilha de granito entre terras baixas",
+      "question": "Por que essa serra é tão especial?",
       "paragraphs": [
-        "O nome Serra da Mocidade aparece pouco fora dos mapas científicos. Quando uma expedição percorreu a região em 2016, encontrou uma sequência de paisagens que muda com a altitude: mata mais baixa, floresta montana e cursos d’água correndo entre pedras. Não é o mesmo cenário dos paredões areníticos do Monte Roraima. Pesquisadores descrevem aqui um maciço granítico, e essa diferença no substrato já muda as perguntas feitas sobre solo, água e vegetação.",
-        "Uma prancha de fotografias de campo ajuda a entender a transição. Ela reúne áreas amostradas em diferentes alturas, o rio Pacú e riachos de leito rochoso. Não é uma linha contínua de subida nem uma medição da floresta; são registros de ambientes estudados dentro de um mesmo trabalho científico.",
-        "A campanha de 2016 precisou de uma operação que dificilmente caberia na imagem romântica de um cientista sozinho na mata. O INPA trabalhou com apoio do ICMBio, do Exército Brasileiro e de outras instituições; helicópteros levaram equipes e suprimentos a uma região de acesso extremamente difícil. Conhecer a montanha exigiu logística, colaboração e limites claros de tempo de pesquisa."
+        "A Serra da Mocidade é um complexo de montanhas graníticas no município de Caracaraí, em Roraima, com altitude média de cerca de 1.000 metros e picos acima de 1.900. A serra mais próxima, a do Aracá, fica a aproximadamente 100 quilômetros a oeste.",
+        "Só uma parte do maciço está no parque, onde chega a 1.352 metros. O restante fica em áreas do Exército Brasileiro e na Terra Indígena Yanomami. O plano de manejo descreve a serra como ambiente sagrado dos Yanomami.",
+        "Sua floresta de altitude está isolada por enormes extensões de terras baixas, o que dá à serra alto potencial de espécies exclusivas. Nas baixadas, a temperatura fica entre 24 °C e 27 °C, e a chuva passa de 2.500 milímetros por ano."
       ],
       "sourceIds": [
-        "moc-herpeto",
-        "moc-commons-hab",
-        "moc-expedicao",
-        "moc-inpa-inicio"
+        "pm",
+        "herpeto"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 27"
+        },
+        {
+          "sourceId": "herpeto",
+          "locator": "Introdução e Área de estudo"
+        }
       ],
       "images": []
     },
     {
-      "id": "anfibios",
-      "eyebrow": "A FLORESTA SOB OS PÉS",
-      "title": "Quando a floresta esconde dezenas de pequenos vertebrados",
-      "question": "Como descobrir quem vive no chão, na vegetação e junto à água?",
+      "id": "expedicao",
+      "eyebrow": "02 · A expedição",
+      "title": "Helicópteros, 70 pesquisadores e uma montanha desconhecida",
+      "question": "Como se estuda um lugar onde ninguém chegava?",
       "paragraphs": [
-        "Rãs, sapos, serpentes e lagartos podem ser difíceis de detectar, mesmo durante uma pesquisa longa. Na Serra da Mocidade, cientistas combinaram observação, análise de cantos e outras técnicas para registrar 51 espécies de anfíbios e répteis durante uma campanha de campo. Dessas, 23 eram anfíbios e 28, répteis. O dado revela a diversidade encontrada pelos pesquisadores, não o número definitivo de espécies existentes no parque.",
-        "Na prancha de anfíbios do estudo, cada indivíduo ocupa um ambiente visual muito menor que a montanha mostrada nas fotos de paisagem. O detalhe também tem sua geografia: poças, folhas, pedras e riachos oferecem condições diferentes para os animais. Parte do material coletado ainda exigia estudos adicionais para identificação científica completa.",
-        "Uma amostragem breve pode revelar animais não registrados anteriormente pela ciência regional, mas não esgota o território. A expedição ocorreu entre janeiro e fevereiro de 2016: o que foi visto naquele intervalo depende do clima, dos percursos e dos métodos usados. Por isso, o inventário publicado funciona melhor como fotografia do esforço científico do que como contagem definitiva de toda a herpetofauna do parque."
+        "A expedição, liderada pelo Instituto Nacional de Pesquisas da Amazônia (INPA) com apoio do Exército Brasileiro e do ICMBio, aconteceu entre janeiro e fevereiro de 2016. Helicópteros levaram equipes, equipamentos e alimentos para um período de isolamento, sem comunicação.",
+        "Reuniu cerca de 70 profissionais, entre eles pelo menos 50 especialistas em morcegos, aves, mamíferos, peixes, répteis, anfíbios, aranhas, fungos, plantas e geologia. Foi a primeira vez que se acessou a parte alta do parque.",
+        "O balanço preliminar do INPA, divulgado em setembro de 2016, apontava mais de 1.500 espécies de animais e plantas registradas e dezenas de possíveis espécies novas, sobretudo de insetos. Cada uma só vale como espécie nova depois de descrita e publicada."
       ],
       "sourceIds": [
-        "moc-herpeto",
-        "moc-commons-anf",
-        "moc-commons-hab",
-        "moc-expedicao"
+        "inpa-icmbio",
+        "inpa-resultados"
       ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Amphibian_diversity_(10.3897-zookeys.715.20288)_Figure_4.jpg?width=1200",
-          "alt": "Prancha vertical com oito painéis de anfíbios de aspectos e cores diferentes, incluindo uma cecília alongada.",
-          "author": "Haroldo Palo Jr. (a,b,d–g); Marcos Amend (h); Moraes et al. 2017 (crédito da prancha)",
-          "license": "CC BY 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amphibian_diversity_(10.3897-zookeys.715.20288)_Figure_4.jpg",
-          "context": "Prancha de diferentes anfíbios fotografados na expedição científica; não apresenta uma única espécie. Localização: Registros de campo da Serra da Mocidade em estudo zoológico, sem confronto de cada ponto com polígono oficial; ainda não homologada independentemente."
+          "sourceId": "inpa-icmbio",
+          "locator": "notícia de 19/01/2016"
+        },
+        {
+          "sourceId": "inpa-resultados",
+          "locator": "notícia de 27/09/2016"
         }
-      ]
+      ],
+      "images": []
+    },
+    {
+      "id": "herpeto",
+      "eyebrow": "03 · Rãs e serpentes",
+      "title": "51 espécies em quatro altitudes",
+      "question": "Quem vive entre o pé da serra e o alto da floresta?",
+      "paragraphs": [
+        "Em 22 dias de campo, os herpetólogos amostraram quatro altitudes, de 600 a 1.365 metros, e registraram 51 espécies: 23 de anfíbios e 28 de répteis. Combinaram morfologia, análise de cantos e genética para identificar cada animal.",
+        "A fauna mistura elementos de outras serras e da floresta de baixada; a maioria é típica do Escudo das Guianas ou amplamente distribuída na Amazônia. Três animais são candidatos a espécies novas: uma rã do gênero Stefania, uma cobra-cega do gênero Epicrionops, que é o primeiro registro do gênero no Brasil, e outra cobra-cega do gênero Brasilotyphlus.",
+        "A serpente Chironius septentrionalis foi registrada pela primeira vez no Brasil, a mais de 500 quilômetros ao sul de onde se conhecia. O cágado Platemys platycephala melanonota e a rã Lithobates palmipes apareceram pela primeira vez em Roraima."
+      ],
+      "sourceIds": [
+        "herpeto"
+      ],
+      "citations": [
+        {
+          "sourceId": "herpeto",
+          "locator": "Resumo e Resultados"
+        }
+      ],
+      "images": []
     },
     {
       "id": "aves",
-      "eyebrow": "TRÊS REGISTROS QUE ALTERAM UM MAPA",
-      "title": "As aves já existiam. O Brasil ainda não tinha seus registros",
-      "question": "Por que encontrar uma ave muda a ciência sem criar uma espécie nova?",
+      "eyebrow": "04 · As aves",
+      "title": "Três aves novas para o Brasil",
+      "question": "Que aves a floresta de altitude escondia?",
       "paragraphs": [
-        "Em 2019, um artigo apresentou três aves documentadas na Serra da Mocidade durante a expedição de 2016. Elas já eram conhecidas pela ciência, mas não haviam sido registradas formalmente no território brasileiro. São Grallaria guatimalensis, Catharus aurantiirostris e Parkesia motacilla. O trabalho reuniu fotografias, gravações e, conforme a espécie, exemplares científicos.",
-        "O resultado não significa que as aves começaram a viver ali em 2016. Significa que o conhecimento documentado sobre sua distribuição mudou. As observações vieram do sub-bosque de florestas montanas em altitude, um ambiente que durante muito tempo recebeu poucas investigações sistemáticas. Em ciência, às vezes uma descoberta é descobrir que o mapa anterior estava incompleto."
+        "Na mesma expedição, ornitólogos documentaram três espécies que nunca haviam sido registradas em território brasileiro: Grallaria guatimalensis, Catharus aurantiirostris e Parkesia motacilla.",
+        "Todas foram encontradas no sub-bosque da floresta de montanha, entre 1.000 e 1.550 metros de altitude. Os autores acreditam que cada uma representa uma população regular na serra, que passou despercebida por razões diferentes."
       ],
       "sourceIds": [
-        "moc-aves",
-        "moc-expedicao"
+        "aves"
       ],
-      "images": [],
-      "note": {
-        "title": "Novas para o país, não para a ciência",
-        "body": "Os autores relatam primeiros registros em território brasileiro de três espécies já descritas. Não é anúncio de três espécies novas para a ciência."
-      }
+      "citations": [
+        {
+          "sourceId": "aves",
+          "locator": "Resumo"
+        }
+      ],
+      "images": []
     },
     {
-      "id": "lacunas",
-      "eyebrow": "O VALOR DO QUE AINDA NÃO SE SABE",
-      "title": "A lista de plantas também pede atenção aos limites",
-      "question": "O que uma pesquisa registra — e o que deixa em aberto?",
+      "id": "aguas",
+      "eyebrow": "05 · As águas",
+      "title": "Nascentes do rio Branco e areias antigas",
+      "question": "O que acontece embaixo da serra?",
       "paragraphs": [
-        "Os estudos da Serra da Mocidade oferecem pistas sobre a vegetação e os animais de uma região difícil de amostrar. Mas alguns inventários botânicos abrangem mais de uma unidade de conservação. Uma planta registrada na listagem conjunta do Parque Nacional e de uma estação ecológica próxima não deve ser anunciada, sem checagem do voucher, como encontrada exatamente dentro do parque.",
-        "Essa cautela não diminui o valor do território. A proteção começou antes de existir conhecimento completo sobre toda a sua flora e fauna. O melhor resultado de uma expedição não é encerrar uma lista: é deixar registros que outras pesquisas podem conferir, ampliar ou corrigir. A conservação precisa desse processo tanto quanto precisa da própria área protegida.",
-        "Divulgações preliminares do INPA ainda em 2016 relatavam dezenas de possíveis espécies novas de insetos da expedição. Esse tipo de notícia registra um momento da investigação; a confirmação de uma espécie exige descrição e publicação taxonômica. Na narrativa, a surpresa do campo deve caminhar junto da diferença entre hipótese, identificação provisória e nome científico validado."
+        "O parque protege nascentes de rios da bacia do rio Branco com elevado grau de conservação: Capivara, Ajarani, Xeriuini, Pacu, Branquinho e Camoji. Esses rios ligam a unidade a áreas vizinhas e a outros rios importantes da região, como o Água Boa do Univini e o Catrimani.",
+        "Nas planícies ao redor ocorrem campinas e campinaranas sobre areias quartzosas, com paleodunas de 7.800 a 32.600 anos. O peixe-boi já foi confirmado nos rios Xeriuini e Água Boa do Univini.",
+        "A caça clandestina de animais como anta, queixada, onça e tatu-canastra, ligada à pesca, ao garimpo e à extração de castanha, é uma pressão registrada pelo plano, que também cita a passagem eventual de garimpeiros pelas nascentes da serra."
       ],
       "sourceIds": [
-        "moc-flora",
-        "moc-ficha",
-        "moc-herpeto",
-        "moc-inpa-resultados"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 16–17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 20"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Conhecer sem inventar o desconhecido",
-  "closing": "A Serra da Mocidade não precisa ser chamada de inexplorada para despertar curiosidade. O que a torna extraordinária é a diferença entre tudo o que já vive ali e aquilo que conseguimos documentar. A cada levantamento, a serra deixa de ser apenas uma forma no mapa e ganha novos registros de rios, floresta e animais — com perguntas suficientes para a próxima pesquisa.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "expedicao",
+    "title": "Da criação às descobertas",
+    "intro": "Marcos do parque e do estudo da serra.",
+    "items": [
+      {
+        "id": "1998",
+        "year": "29 abr. 1998",
+        "title": "Criação do parque",
+        "description": "Decreto sem número cria o Parque Nacional Serra da Mocidade.",
+        "sourceIds": [
+          "icmbio",
+          "pm"
+        ]
+      },
+      {
+        "id": "2016",
+        "year": "jan.–fev. 2016",
+        "title": "A expedição do INPA",
+        "description": "Cerca de 70 profissionais chegam de helicóptero à parte alta da serra.",
+        "sourceIds": [
+          "inpa-icmbio",
+          "inpa-resultados"
+        ]
+      },
+      {
+        "id": "2017",
+        "year": "2017",
+        "title": "Herpetofauna publicada",
+        "description": "Artigo na ZooKeys apresenta 51 espécies de anfíbios e répteis.",
+        "sourceIds": [
+          "herpeto"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "10 abr. 2018",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 312 aprova o plano de manejo do parque.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2019",
+        "year": "2019",
+        "title": "Três aves novas para o Brasil",
+        "description": "Artigo na Revista Brasileira de Ornitologia documenta as três espécies.",
+        "sourceIds": [
+          "aves"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma montanha que ainda tem muito a dizer",
+  "closing": "A Serra da Mocidade mostra como um relevo isolado pode guardar mais do que a paisagem deixa ver: espécies que só existem ali, rios que alimentam o rio Branco e uma floresta sagrada para os Yanomami. Cada expedição ajuda a entender o que está em jogo.",
   "references": [
     {
-      "id": "moc-ficha",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parna Serra da Mocidade — ficha institucional",
+      "title": "Página institucional do Parque Nacional Serra da Mocidade",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-mocidade/parna-serra-da-mocidade",
-      "accessedAt": "2026-10-21",
-      "use": "Unidade instituída em 29/04/1998 e área institucional 376.812,61 ha"
+      "accessedAt": "2026-10-23",
+      "use": "área, ato de criação e aprovação do plano de manejo"
     },
     {
-      "id": "moc-expedicao",
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Serra da Mocidade e da Estação Ecológica Niquiá, Volume II: Planejamento (2018) (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-mocidade/arquivos/volume_ii_planejamento_plano_de_manejo_parna_serra_da_mocidade.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "alvos de conservação, altitude, rios, campinaranas e ameaças; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "inpa-icmbio",
       "institution": "ICMBio",
       "title": "INPA promove expedição na Serra da Mocidade",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/inpa-promove-expedicao-na-serra-da-mocidade",
-      "accessedAt": "2026-10-21",
-      "use": "Expedição 2016 ICMBio/INPA e esforços logísticos, fauna/flora"
+      "accessedAt": "2026-10-23",
+      "use": "datas, instituições, logística e equipe da expedição de 2016"
     },
     {
-      "id": "moc-herpeto",
-      "institution": "Moraes et al. / ZooKeys 715 (2017)",
-      "title": "Integrative overview of the herpetofauna from Serra da Mocidade, a granitic mountain range in northern Brazil",
-      "url": "https://doi.org/10.3897/zookeys.715.20288",
-      "accessedAt": "2026-10-21",
-      "use": "Estudo com quatro altitudes e 51 espécies de anfíbios/reptéis; locais florestais e cursos d’água"
-    },
-    {
-      "id": "moc-aves",
-      "institution": "Laranjeiras et al. / Ornithology Research 27 (2019)",
-      "title": "Three bird species new to Brazil from the Serra da Mocidade, a remote mountain in Roraima",
-      "url": "https://link.springer.com/article/10.1007/BF03546073",
-      "accessedAt": "2026-10-21",
-      "use": "Três primeiros registros para o território nacional, aves já conhecidas da ciência"
-    },
-    {
-      "id": "moc-flora",
-      "institution": "ICMBio / plano de manejo",
-      "title": "Plano de manejo PARNA Serra da Mocidade — Volume III, anexo, listas de flora",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-mocidade/arquivos/volume_iii_anexo_plano_de_manejo_parna_serra_da_mocidade.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Listagens regionais que podem abranger também ESEC Niquiá; não atribuir espécies individuais sem indicação clara"
-    },
-    {
-      "id": "moc-planos-csv",
-      "institution": "ICMBio dados abertos",
-      "title": "Planos de manejo de unidades de conservação federais (CSV)",
-      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/planos-de-manejo-de-unidades-de-conservacao-federais/planos-de-manejo.csv/view",
-      "accessedAt": "2026-10-21",
-      "use": "Comparar área da ficha versus metadados de planos e indicação RR/AM"
-    },
-    {
-      "id": "moc-commons-hab",
-      "institution": "Moraes et al. / Ramiro Melinski / Wikimedia Commons",
-      "title": "Habitat diversity (10.3897-zookeys.715.20288) Figure 8.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Habitat_diversity_(10.3897-zookeys.715.20288)_Figure_8.jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Prancha científica de floresta submontana/montana, rio Pacú e riachos rupestres, CC BY 4.0"
-    },
-    {
-      "id": "moc-commons-anf",
-      "institution": "Moraes et al. / Wikimedia Commons",
-      "title": "Amphibian diversity (10.3897-zookeys.715.20288) Figure 4.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Amphibian_diversity_(10.3897-zookeys.715.20288)_Figure_4.jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Prancha científica de anfíbios identificados com créditos por painel, CC BY 4.0"
-    },
-    {
-      "id": "moc-inpa-inicio",
+      "id": "inpa-resultados",
       "institution": "INPA",
-      "title": "Inpa realiza expedição para a Serra da Mocidade em parceria com CMA, Ufam e ICMBio",
-      "url": "https://antigo.inpa.gov.br/index.php/ultimas-noticias/2375-expedicao-serra-mocidade2",
-      "accessedAt": "2026-10-22",
-      "use": "Logística de campo, instituições envolvidas e propósito da campanha de 2016."
-    },
-    {
-      "id": "moc-inpa-resultados",
-      "institution": "INPA",
-      "title": "Resultados parciais da Expedição Serra da Mocidade, setembro de 2016",
+      "title": "Expedição Serra da Mocidade: resultados preliminares (novas espécies de insetos)",
       "url": "https://antigo.inpa.gov.br/index.php/ultimas-noticias/2618-22-novas-especies-de-insetos-foram-descobertas-na-expedicao-serra-da-mocidade",
-      "accessedAt": "2026-10-22",
-      "use": "Notícia contemporânea com estimativas preliminares de novos insetos; não tratar como descrições taxonômicas definitivas."
+      "accessedAt": "2026-10-23",
+      "use": "balanço preliminar de 2016: espécies registradas e possíveis espécies novas"
+    },
+    {
+      "id": "herpeto",
+      "institution": "ZooKeys 715",
+      "title": "Moraes et al. (2017). Integrative overview of the herpetofauna from Serra da Mocidade, a granitic mountain range in northern Brazil",
+      "url": "https://doi.org/10.3897/zookeys.715.20288",
+      "accessedAt": "2026-10-23",
+      "use": "geografia da serra, altitudes amostradas e inventário de anfíbios e répteis"
+    },
+    {
+      "id": "aves",
+      "institution": "Revista Brasileira de Ornitologia 27",
+      "title": "Laranjeiras et al. (2019). Three bird species new to Brazil from the Serra da Mocidade, a remote mountain in Roraima",
+      "url": "https://link.springer.com/article/10.1007/BF03546073",
+      "accessedAt": "2026-10-23",
+      "use": "três aves documentadas pela primeira vez no Brasil"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_arquivos_com_licenca_documentada",
-  "editorialNotes": "Edição original para REVISÃO do usuário. Evidências e limites nos arquivos paralelos. NÃO publicar; revisão editorial/factual, checagem de URLs e QA visual e cartográfico pela Central. Fotografias procedentes de áreas transfronteiriças ou amostragens locais não certificam polígonos. | v2.10.9: aprofundamento editorial documentado; novas fotografias em prévia sem homologação espacial; sem aprovação automática.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_verificada",
+  "editorialNotes": "Pendências: área do ICMBio (376.812 ha) difere do cadastro interno (359.371 ha); conferir no texto completo as páginas dos artigos (ZooKeys 715:103–159; Rev. Bras. Ornitol. 27:275–283) e os números do resumo; sem foto livre horizontal e nítida (só montagem de artigo, 1.496 px); revisão humana."
 }

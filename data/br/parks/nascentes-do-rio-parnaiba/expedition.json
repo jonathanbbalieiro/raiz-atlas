@@ -1,175 +1,289 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional das Nascentes do Rio Parnaíba",
-  "title": "Nascentes do Parnaíba: o começo invisível de um rio",
-  "subtitle": "Nas chapadas do Cerrado, veredas e pequenos cursos d’água alimentam uma rede que atravessa estados. Até os musgos ajudam a entender suas diferenças.",
-  "centralQuestion": "O que precisa ser protegido antes que a água se torne um grande rio?",
+  "title": "Nascentes do Parnaíba: onde um rio do Nordeste começa",
+  "subtitle": "Na Chapada das Mangabeiras, buritizais, paredões e o melhor refúgio da onça-pintada no Cerrado guardam as águas de três grandes bacias.",
+  "centralQuestion": "Por que proteger o alto de uma chapada é proteger um rio inteiro, até a foz?",
   "introduction": [
-    "Na nascente, um rio ainda não tem a largura nem a força que terá quilômetros adiante. Sua história pode começar num solo úmido, numa vereda ou num fio de água que corre entre campos e matas. No alto da Chapada das Mangabeiras, são essas escalas discretas que ajudam a explicar a importância do Parque Nacional das Nascentes do Rio Parnaíba.",
-    "O território conecta paisagem, vegetação e água. E guarda descobertas que passam despercebidas para quem procura apenas grandes cachoeiras: diferentes comunidades de plantas pequenas, animais registrados em áreas de campo e floresta e comunidades humanas cujas relações com o território fazem parte dos desafios da conservação."
+    "No alto da Chapada das Mangabeiras, a água ainda é um fio. Brota de veredas, desce por paredões de serra e só depois, no encontro dos rios Água Quente e Curriola, passa a se chamar Parnaíba, o rio que segue até o mar.",
+    "O Parque Nacional das Nascentes do Rio Parnaíba reúne esse começo em cerca de 750 mil hectares de Cerrado em bom estado de conservação, entre Maranhão, Piauí, Tocantins e Bahia. É a maior unidade de proteção integral do bioma."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/PARQUE_NACIONAL_DA_NASCENTE_DO_RIO_PARNAIBA.jpg?width=1200",
-    "alt": "Fotografia histórica da paisagem indicada como Parque Nacional das Nascentes do Rio Parnaíba.",
-    "author": "Danrley Alves",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARQUE_NACIONAL_DA_NASCENTE_DO_RIO_PARNAIBA.jpg",
-    "context": "Localização exata da fotografia nos limites do parque não confirmada. Paisagem atribuída pelo autor ao Parque Nacional das Nascentes do Rio Parnaíba. Foto: Danrley Alves / CC BY-SA 3.0."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares de área, a maior unidade de proteção integral do Cerrado",
+      "value": "749.774",
+      "sourceId": "pm",
+      "locator": "p. 10"
+    },
+    {
+      "label": "altitude média dos platôs da Chapada das Mangabeiras",
+      "value": "≈ 800 m",
+      "sourceId": "pm",
+      "locator": "p. 13"
+    },
+    {
+      "label": "milhões de anos desde o surgimento da chapada, no Cretáceo",
+      "value": "≈ 80",
+      "sourceId": "pm",
+      "locator": "p. 17"
+    },
+    {
+      "label": "espécies de peixes registradas no parque",
+      "value": "97",
+      "sourceId": "pm",
+      "locator": "p. 17"
+    },
+    {
+      "label": "espécies de aves identificadas até o momento",
+      "value": "254",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    },
+    {
+      "label": "espécies de mamíferos identificadas até o momento",
+      "value": "60",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Vereda",
+      "definition": "Ecossistema úmido típico do Cerrado, com brejos e buritizais, que ajuda a proteger as bacias hidrográficas.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Divisor de águas",
+      "definition": "Linha de terreno alto que separa bacias vizinhas; na Chapada das Mangabeiras, ele separa as do Parnaíba, do Tocantins e do São Francisco.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Capim-dourado",
+      "definition": "Planta associada às veredas, cujas hastes a comunidade local usa para fazer artesanato.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Manejo integrado do fogo",
+      "definition": "Conjunto de técnicas, como a queima prescrita de áreas pré-definidas, que reduz o acúmulo de material combustível e a destruição dos incêndios florestais.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
       "id": "divisor",
-      "eyebrow": "UM LUGAR, VÁRIOS CAMINHOS DA ÁGUA",
-      "title": "Aqui, a água ainda não é um grande rio",
-      "question": "Por que um divisor de águas merece um parque?",
+      "eyebrow": "01 · A chapada",
+      "title": "O divisor de três bacias",
+      "question": "Por que tanta água nasce num mesmo alto?",
       "paragraphs": [
-        "Nas alturas da Chapada das Mangabeiras, pequenos cursos d’água começam viagens diferentes. Parte deles alimenta o Parnaíba; a região do divisor também se relaciona com as bacias do Tocantins e do São Francisco. A paisagem é ampla, feita de chapadas e encostas onde o caminho da água muda conforme o relevo.",
-        "O nome do parque aponta para as cabeceiras do Parnaíba, mas não significa que todas as nascentes de três bacias estejam dentro de seu limite. É a posição estratégica no alto da rede hidrográfica, protegendo cursos iniciais e ambientes úmidos, que faz desse território uma peça importante para regiões muito além da serra.",
-        "A ficha institucional atual informa 729.774,18 hectares para a unidade, enquanto documentos de planejamento de outras datas podem trazer extensões diferentes. Essa divergência de base cadastral não altera o sentido ecológico da reportagem, mas impede usar mapas antigos como prova de limites atuais. O atlas distingue os dados administrativos recentes das paisagens e cabeceiras descritas no plano de manejo."
+        "A Chapada das Mangabeiras é o divisor de águas das bacias do Parnaíba, do Tocantins e do São Francisco. Ela surgiu há cerca de 80 milhões de anos, no período Cretáceo, e seus platôs têm altitude média de 800 metros.",
+        "A principal nascente do Parnaíba fica no rio Água Quente, que, ao se juntar ao Curriola, passa a ter esse nome. Na mesma bacia, o parque protege as nascentes dos rios Corrente, Gurguéia, Uruçuí-Vermelho, Parnaibinha e Riozinho. Já na bacia do Tocantins nasce o rio Prata.",
+        "Essa rede de nascentes e cursos d'água, alimentada por águas de superfície e subterrâneas, produz água abundante e de qualidade. Ela sustenta lavouras, pesca e o abastecimento de cidades rio abaixo, até a foz do Parnaíba, a segunda maior bacia do Nordeste.",
+        "Entre a barragem de Boa Esperança e as nascentes, o rio ainda corre sem barramento."
       ],
       "sourceIds": [
-        "parna-plano",
-        "parna-geografia",
-        "parna-ficha"
+        "pm"
       ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Beleza_Natural.jpg?width=1200",
-          "alt": "Paisagem associada à região das Nascentes do Rio Parnaíba na classificação do Wikimedia Commons; localização não verificada.",
-          "author": "Elegant Taurus",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beleza_Natural.jpg",
-          "context": "Paisagem da região da Chapada das Mangabeiras atribuída ao parque pelo Commons; local exato e enquadramento ainda não homologados"
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
         }
-      ]
-    },
-    {
-      "id": "veredas",
-      "eyebrow": "A ÁGUA QUE A VEGETAÇÃO SEGURA",
-      "title": "Uma vereda também é um sistema de proteção",
-      "question": "O que uma palmeira revela sobre o solo úmido?",
-      "paragraphs": [
-        "Em meio às formações de Cerrado aparecem veredas e buritizais. O buriti (Mauritia flexuosa) é uma palmeira ligada a ambientes encharcados; sua presença ajuda a reconhecer paisagens nas quais o solo e a água sustentam formas de vida diferentes das encontradas nos campos mais secos.",
-        "As veredas são espaços de alimentação, abrigo e reprodução para animais e participam da manutenção dos recursos hídricos. Porém sua conservação exige atenção concreta: o manejo registra incêndios, pisoteio de gado e assoreamento associados a estradas como riscos para áreas úmidas. A água depende também da condição do chão que a recebe."
-      ],
-      "sourceIds": [
-        "parna-plano",
-        "parna-samge",
-        "parna-buriti"
       ],
       "images": []
     },
     {
-      "id": "pequenas-plantas",
-      "eyebrow": "A DESCOBERTA EM ESCALA MÍNIMA",
-      "title": "As plantas menores contam uma história enorme",
-      "question": "O que se aprende ao procurar musgos e hepáticas?",
+      "id": "veredas",
+      "eyebrow": "02 · As veredas",
+      "title": "Buritizais que guardam a água",
+      "question": "O que as veredas fazem pelo rio?",
       "paragraphs": [
-        "A paisagem vista de longe é feita de paredes, campos e manchas de floresta. Um levantamento publicado em 2024 olhou para seres bem menores: as briófitas, grupo que inclui musgos e hepáticas. Pesquisadores identificaram 77 espécies e uma subespécie nos ambientes amostrados do Parque Nacional.",
-        "A maior riqueza apareceu nas florestas de galeria, enquanto veredas e savanas apresentaram conjuntos diferentes. Não é preciso saber reconhecer cada espécie para perceber a descoberta: ambientes que parecem próximos no mapa oferecem condições distintas para plantas pequenas, especialmente sensíveis ao lugar onde se fixam e à umidade disponível.",
-        "O estudo das briófitas faz uma pergunta que um panorama não responde: onde a água permanece tempo suficiente para plantas pequenas se estabelecerem? A comparação entre formações amostradas destaca as florestas de galeria como ambientes relevantes para a diversidade encontrada. O resultado não autoriza projetar a mesma composição para toda a chapada, muito menos identificar plantas numa fotografia distante."
+        "No alto da serra da Tabatinga, extensos campos limpos dão lugar, em direção à escarpa, a campo sujo e depois a cerrado típico. Na parte baixa, o ambiente é bem mais úmido, com brejos junto às cabeceiras dos riachos e matas ciliares nos cursos médios.",
+        "É nas veredas que a água se acumula. Elas são protegidas por lei e abrigam o buriti, a buritirana e o capim-dourado, espécies de importância econômica e cultural na região. Também são ambiente de alimentação e reprodução da fauna e abrigo de plantas endêmicas.",
+        "Entre os rios, predominam o cerrado típico e, de vez em quando, o cerradão. Pequi, ipê, jatobá, caju, buriti e mangaba estão entre as árvores mais citadas da flora do parque."
       ],
       "sourceIds": [
-        "parna-briofitas"
+        "pm"
       ],
-      "images": [],
-      "note": {
-        "title": "Um número de pesquisa, não de todo o Cerrado",
-        "body": "As 77 espécies e uma subespécie resultam de amostragem científica publicada em 2024 no parque, e não de um inventário completo de toda a vegetação do território."
-      }
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        }
+      ],
+      "images": []
     },
     {
       "id": "vida",
-      "eyebrow": "ANIMAIS E ESCARPAS",
-      "title": "A floresta e o campo não estão vazios",
-      "question": "Que vida precisa de um território tão variado?",
+      "eyebrow": "03 · A vida",
+      "title": "O melhor refúgio da onça-pintada no Cerrado",
+      "question": "Quem encontra abrigo nesse Cerrado preservado?",
       "paragraphs": [
-        "Na documentação de gestão aparecem animais como o tatu-bola (Tolypeutes tricinctus), a onça-pintada (Panthera onca) e a arara-azul-grande (Anodorhynchus hyacinthinus). A presença registrada de espécies ameaçadas reforça a importância de manter habitats conectados, sem sugerir que esses animais sejam facilmente encontrados em qualquer visita.",
-        "O parque reúne áreas úmidas, formações florestais e campos. Cada ambiente acrescenta condições de alimento e abrigo para um conjunto de espécies; juntos, formam uma paisagem que não se compreende pela fotografia de uma única cachoeira."
+        "O parque é considerado a melhor área para a conservação da onça-pintada no Cerrado. A Unidade de Conservação de Onça-pintada Nascentes do Parnaíba é a que tem a melhor população do bioma, e pesquisadores estimam que ela persista pelos próximos 120 anos, se toda a área for efetivamente protegida.",
+        "Também vivem ali o tatu-bola, o tatu-canastra, o lobo-guará, a onça-parda e a arara-azul-grande, que faz ninho nas fendas das escarpas. Já foram identificadas mais de 250 espécies de aves, 60 de mamíferos e 97 de peixes, entre elas 19 espécies endêmicas e 10 ameaçadas de extinção.",
+        "Entre os invertebrados, 18 espécies de mariposas do Cerrado só foram registradas no parque.",
+        "Na água, o surubim e o piau-cabeça-gorda são os peixes mais apreciados para alimentação, e quatro espécies de Melanorivulus chamam atenção pela forma e pela cor."
       ],
       "sourceIds": [
-        "parna-plano",
-        "parna-ficha"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "criacao",
+      "eyebrow": "04 · A criação",
+      "title": "Uma carta, um decreto e uma lei",
+      "question": "Como o parque ganhou seu desenho?",
+      "paragraphs": [
+        "A região foi protegida primeiro como Área de Proteção Ambiental Serra da Tabatinga, pelo Decreto nº 99.278, de 6 de junho de 1990, para resguardar as nascentes do Parnaíba. Em 16 de abril de 2001, a Carta do Parnaíba propôs um parque nacional, com apoio do Ministério do Meio Ambiente, dos governos do Maranhão e do Piauí e de prefeituras da bacia.",
+        "O decreto de 16 de julho de 2002 criou o parque, com o objetivo de ampliar a proteção das nascentes de uma bacia ameaçada pela ocupação e pelo uso desordenado dos recursos.",
+        "Em 2015, a Lei nº 13.090 mudou os limites. A área passou de 729.814 para 749.848 hectares, com a incorporação das nascentes do rio Corrente, da Serra do Lajeado e de parte da APA do Jalapão, embora o novo traçado tenha reduzido um trecho ao sul.",
+        "Hoje, o parque se distribui entre Maranhão (48,06%), Piauí (34,4%), Tocantins (17,4%) e Bahia (0,14%) e integra o Mosaico do Jalapão, na região que abriga o maior conjunto de áreas protegidas do Cerrado."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        }
       ],
       "images": []
     },
     {
       "id": "pessoas",
-      "eyebrow": "O TERRITÓRIO TAMBÉM É HUMANO",
-      "title": "Uma nascente tem muitas histórias ao redor",
-      "question": "Quem participa das decisões sobre conservar essas águas?",
+      "eyebrow": "05 · As pessoas e o fogo",
+      "title": "Quem vive e trabalha no entorno",
+      "question": "Como convivem a conservação, o uso dos recursos e o fogo?",
       "paragraphs": [
-        "O plano de manejo foi construído com representantes institucionais e pessoas de comunidades ligadas ao território e ao entorno. O documento também registra práticas culturais e atividades envolvendo buriti, capim-dourado e outros recursos locais. Isso não significa que cada tradição pertença a toda a área do parque ou a um único grupo.",
-        "A gestão registra tensões entre conservação, uso de recursos naturais, criação de gado e fogo. Proteger nascentes inclui lidar com direitos, conhecimento local, recuperação de veredas e manejo cuidadoso. A água que começa nas chapadas atravessa, desde cedo, relações humanas.",
-        "Quando uma vereda é pisoteada, queimada repetidamente ou afetada por sedimentos, a questão não termina na palmeira visível. Solo, lençol freático, uso de caminhos e práticas de manejo precisam ser considerados em conjunto. Essa é uma das razões para o plano de 2021 tratar o parque e a vizinha Área de Proteção Ambiental Serra da Tabatinga numa perspectiva integrada, sem confundir as duas unidades."
+        "Mesmo depois de 2015, ainda existem comunidades residentes dentro do parque. Elas fazem extrativismo de pequi e buriti, colhem capim-dourado e mantêm roças de subsistência.",
+        "A principal atividade do ICMBio hoje é o manejo integrado do fogo. A seca vai de maio a novembro, com agosto a outubro como os meses mais críticos para os incêndios.",
+        "Do outro lado do limite, a APA Serra da Tabatinga é uma paisagem bastante alterada, dominada por grandes propriedades de algodão e soja, enquanto o parque está em excelente estado de conservação. As duas unidades são planejadas juntas, mas funcionam de formas bem diferentes.",
+        "A visitação ainda é pequena e não monitorada. O parque tem vocação para caminhadas, banhos de rio e de cachoeira e observação de fauna e flora."
       ],
       "sourceIds": [
-        "parna-plano",
-        "parna-samge"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "O início invisível de um rio",
-  "closing": "Antes de atravessar cidades e formar o delta, o Parnaíba depende das cabeceiras, das veredas e das florestas que participam do equilíbrio hídrico. Proteger o início de um rio é cuidar de ambientes que quase nunca aparecem juntos numa mesma fotografia — e de decisões que continuam a produzir consequências muito longe dali.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "Marcos da proteção das nascentes",
+    "intro": "Da APA ao parque ampliado.",
+    "items": [
+      {
+        "id": "1990",
+        "year": "1990",
+        "title": "APA Serra da Tabatinga",
+        "description": "O Decreto nº 99.278, de 6 de junho, cria a APA para proteger as nascentes do Parnaíba.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2001",
+        "year": "2001",
+        "title": "Carta do Parnaíba",
+        "description": "Em 16 de abril, o documento propõe a criação de um parque nacional.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2002",
+        "year": "2002",
+        "title": "Criação do parque",
+        "description": "O decreto de 16 de julho cria o parque e altera os limites da APA.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2015",
+        "year": "2015",
+        "title": "Lei nº 13.090",
+        "description": "Em 12 de janeiro, a lei redefine os limites e amplia a área em cerca de 20 mil hectares.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2021",
+        "year": "2021",
+        "title": "Plano de manejo",
+        "description": "O plano do parque e da APA é publicado.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um rio que começa pequeno e vale muito",
+  "closing": "Quem olha o Parnaíba na foz vê um rio largo. Quem sobe até a Chapada das Mangabeiras encontra o começo: veredas, paredões e águas que ainda correm sem barragem. Proteger esse alto é garantir o que vem depois, e quem depende do rio por todo o Nordeste.",
   "references": [
     {
-      "id": "parna-ficha",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Parna das Nascentes do Rio Parnaíba — ficha institucional",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-nascentes-do-rio-parnaiba",
-      "accessedAt": "2026-10-21",
-      "use": "Área e marcos de criação/redelimitação; lista de espécies ameaçadas"
-    },
-    {
-      "id": "parna-plano",
-      "institution": "ICMBio",
-      "title": "Plano de Manejo do Parque Nacional das Nascentes do Rio Parnaíba e APA Serra da Tabatinga (2021)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-nascentes-do-rio-parnaiba/arquivos/Plano_Manejo_PNNRP_APAST_V5_2021_10_01.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Veredas, água, fauna, comunidade, gestão, delimitação do que é Parque versus APA"
-    },
-    {
-      "id": "parna-briofitas",
-      "institution": "Acta Botanica Brasilica / SciELO",
-      "title": "Bryophytes in one of the largest and little-studied conservation units in the Brazilian Cerrado: Nascentes do Rio Parnaíba National Park (2024)",
-      "url": "https://new.scielo.br/j/abb/a/4pP4sYLZgHqNXhy5RQfKjRk/abstract/?ilang=en&lang=en",
-      "accessedAt": "2026-10-21",
-      "use": "Amostragem científica local de musgos e hepáticas, variação entre floresta de galeria, vereda e savana"
-    },
-    {
-      "id": "parna-geografia",
-      "institution": "Lima, Lima e Augustin / Simpósio Brasileiro de Geografia Física Aplicada (UNICAMP)",
-      "title": "Nascentes do Rio Parnaíba: usos e conservação da terra e da água",
-      "url": "https://ocs.ige.unicamp.br/ojs/sbgfa/article/view/1829",
-      "accessedAt": "2026-10-21",
-      "use": "Contexto do divisor de águas e Chapada das Mangabeiras; distinguir parque e bacias do entorno"
-    },
-    {
-      "id": "parna-samge",
-      "institution": "ICMBio / SAMGe 2023",
-      "title": "Recursos e Valores das UCs federais — Nascentes do Rio Parnaíba",
-      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-analise-e-monitoramento-da-efetividade-de-gestao-samge/2___recursos_e_valores__rv____19062024.csv/view",
-      "accessedAt": "2026-10-21",
-      "use": "Registros de risco: incêndios, gado, estradas, áreas úmidas e proteção hídrica"
-    },
-    {
-      "id": "parna-buriti",
-      "institution": "Embrapa Gado de Corte",
-      "title": "Buriti — Mauritia flexuosa",
-      "url": "https://cloud.cnpgc.embrapa.br/faunaeflora/plantas-uteis/buriti-mauritia-flexuosa/",
-      "accessedAt": "2026-10-21",
-      "use": "Taxonomia e importância ecológica geral do buriti; a ocorrência específica no parque vem do plano ICMBio"
+      "title": "Plano de Manejo do Parque Nacional das Nascentes do Rio Parnaíba e da APA Serra da Tabatinga (2021)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-das-nascentes-do-rio-parnaiba/arquivos/Plano_Manejo_PNNRP_APAST_V5_2021_10_01.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "área, criação, hidrografia, vegetação, fauna e uso do território; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "galeria_com_novo_item_documentado_validacao_espacial_e_visual_pendente",
-  "editorialNotes": "Reportagem original sem publicação; dados externos consultados em 21/10/2026. Revisar as pendências e os escopos antes de integrar no renderer v1.8. Fotos apenas quando metadata e licença individual verificadas; não considerar fotografia prova de ocorrência local de espécie. | v2.10.10: aprofundamento temático de três passagens e curadoria visual em prévia quando aplicável; não altera status de aprovação.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Área: plano de 2021 traz 749.774,18 ha (ficha) e 749.848 ha (texto); cadastro 749.770. Peixes: 97 espécies no plano, com 45 endêmicas das três bacias em um trecho e 13 endêmicas do Parnaíba em outro; endemismos não detalhados. Estudo de briófitas do rascunho removido (sem conferência). Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons."
 }

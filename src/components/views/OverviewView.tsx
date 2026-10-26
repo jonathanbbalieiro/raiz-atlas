@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SITE } from "@/lib/site";
 import { JsonLd, websiteData } from "@/components/seo/JsonLd";
 import { ViewTransition } from "react";
 import { StateList } from "@/components/nav/StateList";
@@ -94,10 +95,14 @@ export async function OverviewView({ country }: { country: Country }) {
           </Carousel>
         </section>
       )}
-      <p className="px-5 pt-8 pb-6 text-center text-xs text-ink-soft">
+      <p className="px-5 pt-8 pb-6 text-center text-xs leading-relaxed text-ink-soft">
         <Link href="/sobre" className="underline underline-offset-2 hover:text-forest">
           Sobre e créditos
         </Link>
+        {" · "}
+        <a href={`mailto:${SITE.contact}`} className="underline underline-offset-2 hover:text-forest">
+          {SITE.contact}
+        </a>
       </p>
     </>
   );

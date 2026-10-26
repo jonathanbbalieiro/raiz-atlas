@@ -1,135 +1,303 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Nascentes do Lago Jari",
-  "title": "Nascentes do Lago Jari: o começo de muitos rios",
-  "subtitle": "No interflúvio Purus–Madeira, pequenas cabeceiras, florestas de terras baixas e a presença da BR-319 revelam como a água conecta paisagens e escolhas de conservação.",
-  "centralQuestion": "Como proteger o começo de rios que seguem caminhos diferentes?",
+  "title": "Nascentes do Lago Jari: uma floresta criada para segurar a estrada",
+  "subtitle": "Cabeceiras de rios que vão para o Purus e para o Madeira, mata de terras baixas quase contínua e um parque nascido do plano de recuperar a BR-319.",
+  "centralQuestion": "Como se protege uma floresta quando uma estrada é reaberta no meio dela?",
   "introduction": [
-    "Antes de formar um rio maior, a água do Parque Nacional Nascentes do Lago Jari percorre cabeceiras, igarapés e áreas de floresta entre os sistemas do Purus e do Madeira. No sul do Amazonas, é esse começo disperso — e não a margem de um único lago — que orienta a proteção do território.",
-    "A água liga florestas de terra firme, ambientes aquáticos e a fauna estudada na região. Mas o futuro dessas cabeceiras também depende de decisões tomadas além do parque: o planejamento da unidade examina pressões relacionadas à BR-319 e a conexão com áreas protegidas vizinhas."
+    "No sul do Amazonas, entre os rios Purus e Madeira, a água começa pequena. Brota em igarapés escondidos na mata e só depois ganha nome de rio. O Parque Nacional Nascentes do Lago Jari guarda as cabeceiras do rio Jari, que desce para o Purus, e as do rio Novo e do Jutaí, que seguem para o Madeira.",
+    "O parque tem 812.141 hectares e foi criado em 2008, no mesmo ano em que o governo retomou a recuperação da BR-319, a estrada que liga Manaus a Porto Velho. A ideia era simples: antes que o asfalto trouxesse a ocupação, garantir um bloco de floresta protegida no caminho."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área, nos municípios de Tapauá e Beruri",
+      "value": "812.141",
+      "sourceId": "diag",
+      "locator": "p. 35"
+    },
+    {
+      "label": "da área é de floresta ombrófila densa de terras baixas",
+      "value": "67,10%",
+      "sourceId": "diag",
+      "locator": "p. 41"
+    },
+    {
+      "label": "espécies de aves estimadas para o parque",
+      "value": "≈ 400",
+      "sourceId": "diag",
+      "locator": "p. 44"
+    },
+    {
+      "label": "espécies de mamíferos de médio e grande porte registradas",
+      "value": "47",
+      "sourceId": "diag",
+      "locator": "p. 46"
+    },
+    {
+      "label": "espécies ameaçadas entre peixes, anfíbios e répteis, aves e mamíferos",
+      "value": "27",
+      "sourceId": "diag",
+      "locator": "p. 44"
+    },
+    {
+      "label": "extensão total da BR-319, entre Manaus e Porto Velho",
+      "value": "885 km",
+      "sourceId": "diag",
+      "locator": "p. 48"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Interflúvio Purus-Madeira",
+      "definition": "Região de cerca de 270 mil km² entre os rios Purus e Madeira, onde predomina a floresta ombrófila e ocorrem áreas abertas naturais, várzeas, lagos e igapós.",
+      "sourceId": "diag"
+    },
+    {
+      "term": "Enclave",
+      "definition": "Mancha de ambiente aberto natural, como savana ou campinarana, cercada pela floresta.",
+      "sourceId": "diag"
+    },
+    {
+      "term": "Zona de recuperação",
+      "definition": "Parte do parque que sofreu impactos, como a extração de cascalho e solo para a estrada, e onde o objetivo é deter a degradação e restaurar o ambiente.",
+      "sourceId": "pm"
+    }
   ],
   "cover": null,
   "moments": [
     {
-      "id": "caminhos",
-      "eyebrow": "OS CAMINHOS QUE A ÁGUA ESCOLHE",
-      "title": "Um parque, mais de uma bacia",
-      "question": "Por que proteger o começo de um rio importa tão longe dele?",
+      "id": "nascentes",
+      "eyebrow": "01 · A água",
+      "title": "Rios que nascem no parque",
+      "question": "Para onde correm as águas que nascem aqui?",
       "paragraphs": [
-        "O Parque Nacional Nascentes do Lago Jari foi criado em 2008, entre Tapauá e Beruri, no Amazonas. Sua ficha oficial registra 812.752,81 hectares: uma escala que dá dimensão à proteção de nascentes dispersas em diferentes sistemas de drenagem. O plano de manejo descreve cabeceiras ligadas ao rio Jari, afluente do Purus, e também ao rio Novo e ao rio Jutaí, relacionados a outra rede de drenagem da região. Esses nomes não devem ser confundidos com o Parque Nacional do Rio Novo, no Pará: trata-se de territórios e sistemas fluviais diferentes.",
-        "Uma linha divisória de águas pode ser discreta na floresta e decisiva para a paisagem. De um lado, a água alimenta determinada rede de igarapés; de outro, segue para bacias vizinhas. Proteção de cabeceiras, mata e solo contribui para manter esses processos. O plano destaca explicitamente a continuidade dos fluxos em pontos associados à BR-319 e aos rios que cruzam a área.",
-        "Não é necessário inventar uma nascente espetacular para compreender o papel do parque. Às vezes, o valor de uma paisagem está justamente na sucessão de pequenos começos que compõem um sistema maior."
+        "A zona de preservação do parque tem duas áreas principais. Ao sul ficam as nascentes do rio Jari e do igarapé Jacinto, tributários do Purus, e também as nascentes do rio Piquiá, que pertence à bacia do Madeira. Ao norte estão as cabeceiras que alimentam o Lago Jari.",
+        "Ali nascem também o Jará e o Novo e o Jutaí, que juntos formam o rio Matupiri, um afluente do Madeira. O Novo e o Jutaí compõem uma bacia essencialmente interfluvial, que nasce entre os dois grandes rios.",
+        "Proteger esses riachos de cabeceira ajuda a manter o fluxo de água que cruza a BR-319 e a fauna aquática que vive neles. É a base de uma rede que sustenta peixes, comunidades e outros rios rio abaixo."
       ],
       "sourceIds": [
-        "jari_ficha",
-        "jari_plano"
+        "pm",
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 10"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 44"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 35"
+        }
       ],
       "images": []
     },
     {
-      "id": "matas",
-      "eyebrow": "QUANDO A MATA MUDA DE ALTURA",
-      "title": "Terra firme e ecossistemas de água doce",
-      "question": "O que diferencia uma floresta do ambiente ao seu lado?",
+      "id": "floresta",
+      "eyebrow": "02 · A mata",
+      "title": "Um grande maciço florestal",
+      "question": "Que floresta é essa?",
       "paragraphs": [
-        "O planejamento de 2018 dá importância especial às florestas ombrófilas densas e abertas de terras baixas, aos ambientes de terra firme e à rede que reúne rios, lagos e igarapés. Distinguir esses conjuntos evita tratar a Amazônia como um tapete de árvores idênticas.",
-        "Trechos de floresta que não inundam com frequência não funcionam exatamente como áreas submetidas à dinâmica dos rios. A frequência da água, o solo e a vegetação influenciam as oportunidades de vida. O próprio parque é tratado em seus documentos como parte de um mosaico conectado de áreas protegidas do interflúvio Purus–Madeira.",
-        "As formações descritas para a unidade mostram que floresta e água se combinam de maneiras diferentes no mesmo território. Conhecer esses ambientes exige observar tanto a cobertura vegetal quanto os cursos d’água: não basta olhar a extensão verde no mapa."
+        "O parque é formado por um grande maciço de floresta, onde predomina a floresta ombrófila densa de terras baixas, em 67,10% da área, seguida da floresta ombrófila aberta de terras baixas, com 25,47%.",
+        "Perto dos rios Jari e Purus e de igarapés como o Jacinto, o regime das águas muda a vegetação: aparecem florestas aluviais e formações pioneiras. Na região do interflúvio, há ainda enclaves de savana e campinarana, que formam as maiores áreas de habitat não florestal do oeste amazônico.",
+        "A mata guarda madeiras de interesse comercial, como copiúba, itaúba, cedro e angelim, que os moradores do entorno usam e que também tornam a extração seletiva uma das ameaças ao parque."
       ],
       "sourceIds": [
-        "jari_plano",
-        "jari_diag"
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 23"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 41"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 42"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 86"
+        }
       ],
       "images": []
     },
     {
-      "id": "animais",
-      "eyebrow": "UM LEVANTAMENTO NÃO É UMA LISTA DEFINITIVA",
-      "title": "Os animais que começam a aparecer na pesquisa",
-      "question": "Como separar observação, estimativa e esperança de conservação?",
+      "id": "fauna",
+      "eyebrow": "03 · A fauna",
+      "title": "Onças, botos e primatas ameaçados",
+      "question": "Quem vive na floresta do Jari?",
       "paragraphs": [
-        "O diagnóstico de 2018 apresenta uma estimativa de diversidade de peixes, anfíbios, répteis, aves e mamíferos no parque. Mas o próprio documento explica que os totais combinam registros diretamente feitos na unidade, extrapolações ambientais e informações secundárias. Portanto, não seriam honestos números apresentados como se cada espécie tivesse sido encontrada no mesmo levantamento de campo.",
-        "O plano identifica a onça-pintada (Panthera onca) e o peixe-boi-da-amazônia (Trichechus inunguis) entre os alvos relevantes de proteção. A existência do animal na discussão de gestão não equivale a fotografia comprovada de um indivíduo dentro do parque. No caso dos peixes, o plano também se preocupa com espécies migratórias e com as condições dos ambientes aquáticos em que sua conservação depende.",
-        "Pesquisadores ligados ao ICMBio e ao INPA também realizaram inventários de anfíbios e répteis na unidade. Esses estudos aproximam a história da fauna de registros locais, em vez de atribuir ao parque espécies conhecidas apenas em outras partes da Amazônia."
+        "Somando os registros diretos, as extrapolações por tipo de paisagem e os dados secundários, estima-se que o parque tenha cerca de 140 espécies de peixes, 80 de anfíbios, 84 de répteis, 400 de aves e 47 de mamíferos de médio e grande porte. São 27 espécies ameaçadas.",
+        "Entre os mamíferos, estão a onça-pintada, a onça-parda, o tatu-canastra, a anta, o queixada, o macaco-barrigudo e o boto-rosa, todos listados como ameaçados. O macaco-barrigudo é considerado em perigo no mundo, com declínio de cerca de 50% da população previsto para os próximos 45 anos, por causa do desmatamento, da caça e da captura de filhotes.",
+        "As populações de mamíferos de médio e grande porte parecem estáveis, inclusive as de presas que sustentam os grandes carnívoros. Mas os habitats de mamíferos aquáticos, como o rio Jari e seus afluentes, onde já houve registros de peixe-boi, não foram amostrados."
       ],
       "sourceIds": [
-        "jari_diag",
-        "jari_plano",
-        "jari_pesquisa"
+        "diag"
       ],
-      "images": [],
-      "note": {
-        "title": "Como ler os números de fauna",
-        "body": "O diagnóstico estima 140 peixes, 80 anfíbios, 84 répteis, 400 aves e 47 mamíferos médios/grandes, mas combina registros diretos, dados secundários e extrapolações. Esses valores não são um censo integral de campo nem totais atualizados para 2026."
-      }
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 44"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 46"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 47"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 71"
+        }
+      ],
+      "images": []
     },
     {
-      "id": "fronteira",
-      "eyebrow": "A ESTRADA AO LADO DA FLORESTA",
-      "title": "Uma obra muda o sentido de vigiar",
-      "question": "O que significa proteger nascentes próximas a uma rodovia?",
+      "id": "estrada",
+      "eyebrow": "04 · A estrada",
+      "title": "A BR-319 e a razão de ser do parque",
+      "question": "Por que um parque foi criado por causa de uma rodovia?",
       "paragraphs": [
-        "A BR-319 atravessa a discussão ambiental da região há décadas. No planejamento do parque, seus impactos potenciais aparecem associados a fragmentação de ambientes, alterações de drenagem, incêndios e aumento da pressão humana. O documento recomenda monitoramento e acompanhamento de medidas de licenciamento, em vez de supor que a floresta permaneça automaticamente protegida porque existe uma categoria legal.",
-        "O mesmo plano prevê espaços de proteção mais rigorosa em áreas de nascentes e articulação com unidades de conservação e territórios indígenas vizinhos. Essa continuidade territorial ajuda a entender por que a proteção de cabeceiras é também uma questão de governança, pesquisa e diálogo com quem vive no entorno.",
-        "A instituição de um conselho consultivo em 2012 abriu uma instância formal de participação com governo e sociedade civil. Isso não resolve, sozinho, as pressões sobre o parque, mas demonstra que a conservação também é feita de decisões compartilhadas e de acompanhamento constante."
+        "A BR-319, que liga Manaus a Porto Velho, foi inaugurada em 1976, no contexto da colonização da Amazônia. Poucos anos depois, na prática, tornou-se intransitável. Só em 2008 o governo federal retomou sua recuperação.",
+        "Nesse mesmo ano nasceu o parque. Junto com um mosaico de unidades de conservação federais e estaduais e terras indígenas, ele foi pensado como compensação pela retomada da estrada e como barreira ao avanço do desmatamento, que se espalha pela ocupação ilegal de terras públicas no sul do Amazonas.",
+        "Em volta da estrada, já se vê o que está em jogo: atropelamento de mamíferos, mesmo com pouco tráfego, e extração de cascalho e solo que deixou marcas ao longo da rodovia. Esses 5.262 hectares, 0,64% do parque, formam hoje uma zona de recuperação.",
+        "O decreto de criação previu ainda a rodovia AM-366, que ligaria Tapauá à BR-319. O leito e a faixa de domínio dessa via foram excluídos dos limites do parque, mas o plano alerta que sua abertura, atravessando a unidade, seria um agravante para o desmatamento."
       ],
       "sourceIds": [
-        "jari_plano",
-        "jari_conselho"
+        "diag",
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 47"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 48"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 86"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 52"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "vizinhos",
+      "eyebrow": "05 · A vizinhança",
+      "title": "Um parque que depende dos vizinhos",
+      "question": "Com quem o parque se conecta?",
+      "paragraphs": [
+        "O parque está no extremo norte do interflúvio, junto de outras unidades federais e estaduais e de terras indígenas, num grande conjunto de corredores terrestres e aquáticos. O plano busca manter a conectividade com áreas ao longo do Purus, como a Terra Indígena Apurinã do Igarapé Tauamirim, a Reserva Biológica do Abufari e a Reserva de Desenvolvimento Sustentável Piagaçu-Purus.",
+        "A visão do plano é conservar as nascentes do Jari, do Jutaí e do Novo e manter a conectividade entre as áreas protegidas do interflúvio, com serviços ambientais para a região e incentivo ao turismo ecológico, à pesquisa e à educação ambiental.",
+        "O Conselho Consultivo, criado em 16 de abril de 2012, reúne governo e sociedade. Na região do Tapauá, o plano prevê educação ambiental com as escolas e com os moradores do igarapé Jacinto."
+      ],
+      "sourceIds": [
+        "pm",
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 10"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 35"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "As águas começam longe dos olhos",
-  "closing": "Nascentes do Lago Jari protege cabeceiras que contribuem para mais de um sistema fluvial. Entre florestas de terra firme e ambientes aquáticos, o conhecimento da fauna ainda é construído por inventários de alcances diferentes. Com a BR-319 no horizonte das decisões de gestão, conservar essas águas significa acompanhar mudanças no território antes que cheguem aos rios maiores.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "estrada",
+    "title": "A estrada e o parque",
+    "intro": "Da inauguração da BR-319 ao plano de manejo.",
+    "items": [
+      {
+        "id": "1976",
+        "year": "1976",
+        "title": "BR-319 inaugurada",
+        "description": "A rodovia entre Manaus e Porto Velho abre no contexto de colonização da Amazônia.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2008",
+        "year": "2008",
+        "title": "Parque criado e estrada retomada",
+        "description": "O decreto de 8 de maio cria o parque; no mesmo ano o governo federal retoma a recuperação da BR-319.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2012",
+        "year": "2012",
+        "title": "Conselho Consultivo",
+        "description": "A Portaria nº 48, de 16 de abril, cria o conselho do parque.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "2018",
+        "title": "Plano de manejo",
+        "description": "O ICMBio conclui o planejamento do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Cabeceiras que valem pelo que ainda não aconteceu",
+  "closing": "O valor do Nascentes do Lago Jari está no que ele impede e no que guarda: um bloco de floresta quase contínuo, com rios que começam ali, no caminho de uma estrada que está sendo reaberta. Cuidar de cabeceiras é cuidar do que vem depois delas.",
   "references": [
     {
-      "id": "jari_ficha",
+      "id": "diag",
       "institution": "ICMBio",
-      "title": "Parna Nascentes do Lago Jari — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-nascentes-do-lago-jari/parna-nascentes-do-lago-jari",
-      "accessedAt": "2026-10-21",
-      "use": "Identidade, criação, área e existência do plano"
-    },
-    {
-      "id": "jari_plano",
-      "institution": "ICMBio",
-      "title": "Plano de Manejo do Parque Nacional Nascentes do Lago Jari — vol. 2, Planejamento (2018)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-nascentes-do-lago-jari/arquivos/plano_de_manejo_parna_nascentes_do_lago_jari_planejamento.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Bacias, fitofisionomias, espécies-alvo e ameaças, com páginas"
-    },
-    {
-      "id": "jari_diag",
-      "institution": "ICMBio",
-      "title": "Plano de Manejo do Parque Nacional Nascentes do Lago Jari — vol. 1, Diagnóstico (2018)",
+      "title": "Plano de Manejo do Parque Nacional Nascentes do Lago Jari, Volume 1: Diagnóstico",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-nascentes-do-lago-jari/arquivos/plano_de_manejo_parna_nascentes_do_lago_jari_diagnostico.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Estimativas de fauna compostas por diferentes tipos de evidência"
+      "accessedAt": "2026-10-23",
+      "use": "criação, área, vegetação, fauna, BR-319 e ameaças; páginas conforme a numeração do PDF"
     },
     {
-      "id": "jari_pesquisa",
-      "institution": "ICMBio / ICMBio-INPA",
-      "title": "Anais do III Seminário de Pesquisa e Iniciação Científica — inventário da herpetofauna (2011)",
-      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/anais-do-iii-seminario-2011-icmbio-pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Pesquisas em herpetofauna e limitações do conhecimento"
-    },
-    {
-      "id": "jari_conselho",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Parque Nascentes do Lago Jari cria conselho consultivo (2012)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/parque-nascentes-do-lago-jari-cria-conselho-consultivo",
-      "accessedAt": "2026-10-21",
-      "use": "Contexto de participação social desde 2012"
+      "title": "Plano de Manejo do Parque Nacional Nascentes do Lago Jari, Volume 2: Planejamento (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-nascentes-do-lago-jari/arquivos/plano_de_manejo_parna_nascentes_do_lago_jari_planejamento.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "visão, objetivos, nascentes, zoneamento e recomendações; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "institucional_em_previa_pendente_de_licenca_e_localizacao",
-  "editorialNotes": "Manuscrito original para análise humana, não aprovado nem publicado. Fontes com escopo identificável; imagens com metadados e limitações em assets.json. Não mexer em limites, IDs reais, React, CSS ou mapa. Faltam reconciliação CNUC/repositório e QA visual. | Edição v2.2: retiradas referências autorreferentes a vouchers ausentes do corpo da reportagem; manter pendência na auditoria. | Curadoria v2.8: data de criação e área confrontadas com ficha HTML ICMBio; detalhes de biodiversidade dependem de revisão dos planos de manejo. Curadoria 22/10/2026: fotografia institucional provisória exibível apenas em prévia local; autoria, direitos específicos e localização aguardam confirmação. | Capa institucional mantida somente em docs/merge/capas-pendentes.json; licença ND/abrangência não confirmada. Não exibir.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Área do diagnóstico (812.141 ha) difere do cadastro (808.599 ha) e da ficha do ICMBio (812.752,81 ha). Percentuais de zoneamento do plano não fecham com a área e não foram usados. Peixe-boi só consta como registro de comunicação pessoal. Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons."
 }

@@ -1,199 +1,320 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional do Viruá",
-  "title": "Viruá: a Amazônia que muda de chão",
-  "subtitle": "Campinaranas, florestas e áreas alagáveis convivem em uma paisagem onde a areia e a água ajudam a explicar a diversidade da vida.",
-  "centralQuestion": "Como um solo de areia pode sustentar uma Amazônia tão diversa?",
+  "title": "Viruá: o pantanal de areia branca no coração de Roraima",
+  "subtitle": "Campinaranas, igapós e lagos que secam e voltam a encher, no norte do Pantanal Setentrional: um dos parques mais ricos em aves e peixes do Brasil.",
+  "centralQuestion": "Como um chão de areia, plano e pobre em nutrientes, sustenta tanta vida?",
   "introduction": [
-    "No Viruá, em Roraima, a Amazônia muda de aparência conforme o chão. Solos arenosos, diferenças de drenagem e alagamentos sazonais ajudam a formar campinas, campinaranas, florestas e áreas úmidas lado a lado.",
-    "Essas variações não interessam apenas à botânica. As aves registradas pelos pesquisadores também se distribuem entre habitats distintos. O reconhecimento do Viruá como Sítio Ramsar reforça a importância de proteger esse conjunto de águas e vegetação, em vez de imaginar a unidade como uma floresta uniforme."
+    "O Viruá é uma Amazônia diferente. Em vez da mata alta e fechada, estende-se uma planície de areia clara, com árvores baixas e espaçadas, lagos que aparecem e somem e rios de água escura. O chão é pobre; a diversidade, não.",
+    "Nessa paisagem foi registrado o maior número de aves vistas em um só dia no país, 225 espécies, e a maior riqueza de peixes de água doce de uma unidade de conservação brasileira, cerca de 500. O parque tem pouco mais de 214 mil hectares e fica na beira da BR-174."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_do_Viru%C3%A1,_Roraima_(2).jpg?width=1200",
-    "alt": "Vista aérea de rio sinuoso cercado por cobertura florestal densa e faixas claras nas curvas.",
-    "author": "Carlos Marques; página menciona crédito/permissão de Antonio Laccovazo",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Viru%C3%A1,_Roraima_(2).jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Vista aérea de trecho do Viruá, Roraima. Carlos Marques (crédito adicional informado: Antonio Laccovazo) / Wikimedia Commons, CC BY-SA 2.0."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares protegidos, em Caracaraí (RR), criados em 1998",
+      "value": "214.951",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "espécies de aves registradas em um único dia, recorde nacional",
+      "value": "225",
+      "sourceId": "diag",
+      "locator": "p. 31"
+    },
+    {
+      "label": "espécies de peixes de água doce, a maior riqueza em uma UC brasileira",
+      "value": "≈ 500",
+      "sourceId": "diag",
+      "locator": "p. 31"
+    },
+    {
+      "label": "espécies de plantas registradas, de uma estimativa de quase 4.000",
+      "value": "1.262",
+      "sourceId": "diag",
+      "locator": "p. 129"
+    },
+    {
+      "label": "novas espécies de plantas para a ciência encontradas no parque",
+      "value": "9",
+      "sourceId": "diag",
+      "locator": "p. 129"
+    },
+    {
+      "label": "metros de altitude da Serra do Viruá, o ponto mais alto",
+      "value": "360 m",
+      "sourceId": "diag",
+      "locator": "p. 107"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Campinarana",
+      "definition": "Vegetação de solos arenosos encharcados, típica das bacias dos rios Negro, Branco e Orinoco, com plantas baixas e esparsas e espécies que só crescem nesse ambiente.",
+      "sourceId": "plan"
+    },
+    {
+      "term": "Igapó",
+      "definition": "Floresta que fica alagada por parte do ano, nas margens de rios de água escura.",
+      "sourceId": "diag"
+    },
+    {
+      "term": "Megaleque",
+      "definition": "Grande depósito de sedimentos em forma de leque, deixado por rios ao longo do tempo; o megaleque Viruá é a única feição desse tipo facilmente acessível no Pantanal Setentrional.",
+      "sourceId": "diag"
+    },
+    {
+      "term": "Pantanal Setentrional",
+      "definition": "Sistema de áreas úmidas em solos arenosos, com cerca de 8,6 milhões de hectares em Roraima e no Amazonas.",
+      "sourceId": "diag"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
-      "id": "areia",
-      "eyebrow": "A FLORESTA NÃO É UMA COBERTURA ÚNICA",
-      "title": "A areia ajuda a decidir o que cresce",
-      "question": "Por que a Amazônia pode mudar tanto em poucos quilômetros?",
+      "id": "chao",
+      "eyebrow": "01 · O chão",
+      "title": "Um leque de areia que enche e seca",
+      "question": "Por que a paisagem muda tanto ao longo do ano?",
       "paragraphs": [
-        "Viruá está na Amazônia, mas sua paisagem não se resume à imagem de árvores altas e próximas umas das outras. Há florestas, áreas abertas e campinaranas — comunidades vegetais associadas a solos muito arenosos. Em alguns trechos, árvores maiores dominam; em outros, o conjunto se torna baixo e espaçado.",
-        "Pesquisadores estudaram parcelas de vegetação dentro do parque e encontraram diferenças claras entre floresta e campinaranas, associadas às propriedades do solo. A quantidade de argila, as bases disponíveis e a matéria orgânica ajudam a explicar por que o mesmo território abriga estruturas vegetais tão diferentes.",
-        "Não é uma floresta incompleta. É outra maneira de existir sobre um chão que oferece condições próprias."
+        "O parque fica na borda norte do Pantanal Setentrional, um sistema de áreas úmidas em solos arenosos com cerca de 8,6 milhões de hectares. O relevo é muito plano e baixo, com cotas entre 40 e 55 metros, e lembra o Pantanal mato-grossense: leques aluviais arenosos e inundação periódica.",
+        "No Viruá está o megaleque que leva o nome do parque, cortado por canais e lagos temporários. A rede de drenagem é, em sua maior parte, temporária. No auge da seca, em fevereiro e março, a água escasseia e até o rio Iruá, o principal do parque, pode ter o fluxo interrompido; os trechos fundos do rio e alguns lagos permanecem como refúgio da fauna.",
+        "Das planícies de areia sobem as serras do Viruá e do Preto, de rochas vulcânicas e gnaisses, onde a Serra do Viruá alcança 360 metros."
       ],
       "sourceIds": [
-        "flora-2017",
-        "solo-2014",
-        "solo-2013"
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 61–62"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 66"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 107"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_(091).jpg?width=1200",
-          "alt": "Fotografia documental produzida durante expedição no Parque Nacional do Viruá, Roraima, sem identificação de espécie ou ponto exato.",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_%28017%29.jpg/1280px-Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_%28017%29.jpg",
           "author": "Rodrigo Tetsuo Argenton",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_(091).jpg",
-          "context": "Fotografia de expedição ao Viruá, conforme declaração do autor. Não demonstra propriedades do solo, distribuição das campinaranas ou ocorrência de qualquer espécie em particular. Localização: Parque Nacional do Viruá, Roraima (segundo o fotógrafo); ainda não homologada independentemente."
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_(017).jpg",
+          "width": 1280,
+          "height": 720,
+          "alt": "Lagoa rasa entre árvores baixas e palmeiras, ao entardecer, no Parque Nacional do Viruá.",
+          "context": "Área alagada entre vegetação baixa ao entardecer, em fotografia feita no Parque Nacional do Viruá."
         }
       ]
     },
     {
-      "id": "agua",
-      "eyebrow": "QUANDO O CHÃO SEGURA A ÁGUA",
-      "title": "O solo também conta uma história de inundação",
-      "question": "O que a água faz numa paisagem aparentemente plana?",
+      "id": "vegetacao",
+      "eyebrow": "02 · A vegetação",
+      "title": "Campinarana, igapó e floresta",
+      "question": "Que plantas crescem na areia?",
       "paragraphs": [
-        "Em Viruá, muitos solos de areia fina têm drenagem difícil e se conectam a mudanças sazonais do nível de água. Há campinaranas e florestas de igapó associadas a esse mosaico. Nem a mesma quantidade de chuva produz sempre a mesma paisagem: importa como a água entra, permanece ou se move no solo.",
-        "Um levantamento de solos descreveu campinaranas, planícies inundáveis e outros ambientes do parque e de seu entorno. O estudo também chamou atenção para o carbono guardado sob a superfície, especialmente em certos solos arenosos. Essa é uma dimensão menos visível da conservação: proteger vegetação e água também significa não ignorar a matéria orgânica acumulada no chão.",
-        "A fotografia aérea documenta uma parte da paisagem fluvial do parque. Ela não mede alagamentos, estoques de carbono nem a duração das cheias.",
-        "O Viruá recebeu reconhecimento internacional como Sítio Ramsar em março de 2017. A designação chama atenção para o valor dos ambientes úmidos e das conexões entre áreas alagáveis, florestas e cursos d’água. Não significa que cada setor permaneça inundado o ano inteiro: a duração e a profundidade das cheias ajudam justamente a diferenciar seus habitats."
+        "O parque reúne três grandes tipos de vegetação: floresta, campinarana e formações pioneiras, em um mosaico de dezenas de fisionomias. Cerca de 20% da área é de floresta de igapó sobre solos arenosos alagados, e outra parte importante é de transição entre campinarana e igapó.",
+        "Foram registradas 1.262 espécies de plantas, das quais 19 são novas ocorrências no Brasil e 150 novas para Roraima. Nove são novas para a ciência, entre elas uma orquídea, Lockhartia viruensis, e uma planta carnívora, Drosera amazonica.",
+        "Entre as plantas estudadas em detalhe, 21% são endêmicas: 52 do Escudo das Guianas, 26 das campinaranas e quatro exclusivas do parque."
       ],
       "sourceIds": [
-        "solo-2013",
-        "solo-2014",
-        "solos-2015",
-        "virua-visitacao-v29",
-        "virua-ramsar-v2110"
+        "diag",
+        "plan"
       ],
-      "images": []
-    },
-    {
-      "id": "aves",
-      "eyebrow": "UMA ASSEMBLEIA DE HABITATS",
-      "title": "Cada paisagem acrescenta outras aves à história",
-      "question": "Como tantos ambientes sustentam faunas diferentes?",
-      "paragraphs": [
-        "A diversidade do Viruá aparece com nitidez quando se observam aves de várias formações vegetais. Pesquisadores encontraram conjuntos diferentes em florestas de terra firme, campinas, campinaranas e áreas alagáveis. O mosaico não é apenas bonito: cada ambiente oferece condições e recursos distintos para as aves.",
-        "Um grande estudo acumulou registros de pelo menos 520 espécies no parque e nas áreas adjacentes, não apenas dentro da unidade. Esse detalhe importa. O próprio artigo distingue ocorrências externas aos limites e explica que a diversidade vem, em parte, do contato entre ambientes e regiões biogeográficas.",
-        "Conservar as aves do Viruá significa cuidar de ambientes diferentes, não apenas de uma grande mancha de floresta. Nas orientações oficiais de visitação, o ICMBio destaca o formigueiro-de-yapacana (*Aprositornis disjuncta*), a choquinha-de-peito-riscado (*Myrmotherula cherriei*) e o chororó-do-rio-branco (*Cercomacra carbonaria*), associados às campinaranas e áreas úmidas. Seus registros ajudam a compreender a diversidade de habitats, sem garantir que apareçam durante uma visita.",
-        "O chororó-do-rio-branco é outro exemplo destacado nas informações de visitação do ICMBio. Sua presença nas orientações para observação ajuda a mostrar como ambientes específicos concentram o interesse dos estudos ornitológicos. Conhecer o registro, porém, não garante avistamento nem permite presumir a espécie em qualquer ponto da unidade."
-      ],
-      "sourceIds": [
-        "aves-2014",
-        "virua-visitacao-v29"
-      ],
-      "images": []
-    },
-    {
-      "id": "gestao",
-      "eyebrow": "A PROTEÇÃO DE UM MOSAICO",
-      "title": "Uma fronteira administrativa não encerra os processos naturais",
-      "question": "O que a ciência pede da conservação?",
-      "paragraphs": [
-        "A unidade foi criada em 1998. Desde então, os estudos de solos, vegetação e aves mostram quanto ainda existe a compreender em um território que combina águas, florestas e áreas abertas. A pesquisa ajuda a tornar visíveis aspectos que um mapa de contorno não consegue demonstrar.",
-        "Documentos de gestão também apontam desafios, incluindo pressões relacionadas à pesca ilegal em certos recursos ambientais identificados pelo ICMBio. O registro não autoriza concluir que todo o parque sofre o mesmo problema com igual intensidade.",
-        "Preservar Viruá é conservar essa heterogeneidade: não apenas a mata mais alta, mas os solos arenosos, as áreas que alagam e as conexões entre ambientes aparentemente distantes.",
-        "O mirante da Serra do Viruá, divulgado pelo ICMBio a aproximadamente 170 metros de altitude, oferece uma leitura rara do mosaico entre campinarana, floresta de terra firme e áreas alagáveis. Não é um ponto de onde se possam contar todas as espécies, mas uma oportunidade de interpretar formas de vegetação lado a lado. Trilhas, pesquisa e visitação dependem de manutenção e regras de uso, não apenas da abertura de caminhos."
-      ],
-      "sourceIds": [
-        "icmbio-ficha",
-        "samge-2023",
-        "aves-2014",
-        "virua-visitacao-v29"
-      ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_(202).jpg?width=1200",
-          "alt": "Fotografia documental feita no Parque Nacional do Viruá, sem identificação de espécie ou coordenada homologada.",
-          "author": "Rodrigo Tetsuo Argenton",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Viru%C3%A1_por_Rodrigo_Tetsuo_Argenton_(202).jpg",
-          "context": "Registro feito durante expedição fotográfica ao Viruá em 2025, conforme informação do próprio autor. Não é base para identificar espécies, micro-habitats ou estado da gestão. Localização: Parque Nacional do Viruá, Roraima (declarado pelo fotógrafo); ainda não homologada independentemente."
+          "sourceId": "diag",
+          "locator": "p. 125"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 129"
+        },
+        {
+          "sourceId": "plan",
+          "locator": "p. 7"
         }
-      ]
+      ],
+      "images": []
+    },
+    {
+      "id": "fauna",
+      "eyebrow": "03 · Os bichos",
+      "title": "Recordes de aves e de peixes",
+      "question": "Por que o Viruá é um campeão de biodiversidade?",
+      "paragraphs": [
+        "O parque detém o recorde brasileiro de aves observadas em um único dia, 225 espécies, e a maior riqueza de peixes de água doce registrada em uma unidade de conservação do país, cerca de 500 espécies.",
+        "Ele protege habitat essencial para 43 espécies de aves endêmicas da região, 28 delas com registro confirmado no parque. Entre as ameaçadas está o chororó-do-rio-branco, criticamente ameaçado de extinção. As campinaranas abrigam outras aves de distribuição restrita, como o formigueiro-de-yapacana e a choquinha-de-peito-riscado.",
+        "O rio Iruá é refúgio da ariranha e do peixe-boi-da-amazônia, ambos ameaçados. Mamíferos, aves e quelônios ameaçados estão entre os critérios da proposta de designação do parque como sítio Ramsar."
+      ],
+      "sourceIds": [
+        "diag",
+        "visita"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 31"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 33"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 224"
+        },
+        {
+          "sourceId": "visita",
+          "locator": "observação de aves"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "criacao",
+      "eyebrow": "04 · A criação",
+      "title": "Um parque para proteger as campinaranas",
+      "question": "Por que e como o parque foi criado?",
+      "paragraphs": [
+        "O Parque Nacional do Viruá foi criado por decreto de 29 de abril de 1998, em cumprimento a um acordo no âmbito da Convenção sobre Diversidade Biológica, que fixou a meta de proteger dez por cento do território nacional em unidades de proteção integral. Junto com o Parque Nacional da Serra da Mocidade, buscou proteger amostras dos ecossistemas do centro-sul de Roraima, onde predominam as campinaranas.",
+        "Seus limites foram desenhados em terras da União, destinadas pelo Incra à proteção por causa da total inaptidão dos solos para assentamento humano. O nome vem do rio Iruá, grafado Viruá em cartas oficiais por um erro de levantamento.",
+        "O parque foi reconhecido como sítio Ramsar, de áreas úmidas de importância internacional, em 22 de março de 2017. O plano de manejo foi aprovado em 2014."
+      ],
+      "sourceIds": [
+        "diag",
+        "icmbio",
+        "visita"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        },
+        {
+          "sourceId": "visita",
+          "locator": "Ramsar"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · A visita",
+      "title": "Uma das unidades de acesso mais fácil da Amazônia",
+      "question": "Como é visitar o parque?",
+      "paragraphs": [
+        "A sede fica na BR-174, a cerca de 190 quilômetros de Boa Vista: no km 322, segue-se pela Estrada Perdida por 7 quilômetros de terra. A visita é gratuita e deve ser agendada com antecedência; o parque funciona diariamente, das 6h às 18h.",
+        "O mirante da Serra tem cerca de 170 metros de altitude, 3,54 quilômetros de trilha e nível difícil, com vista de campinaranas, florestas e áreas alagáveis. A Passarela da Samaúma, de 230 metros, é fácil e acessível. O sistema de trilhas do PPBio soma 60 quilômetros.",
+        "As campinaranas do Megaleque podem ser percorridas pela Estrada Perdida, e os rios Branco, Baruana e Anauá têm passeios de barco, caiaque e snorkel."
+      ],
+      "sourceIds": [
+        "visita"
+      ],
+      "citations": [
+        {
+          "sourceId": "visita",
+          "locator": "página de visitação"
+        }
+      ],
+      "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "A água muda o chão da Amazônia",
-  "closing": "Em Viruá, a areia, a água e a drenagem do solo criam diferenças que se revelam nas plantas e nas aves. Campinaranas, florestas e áreas alagáveis convivem sem formar um bloco homogêneo. Proteger essa parte da Amazônia é manter espaço para todos esses ambientes — inclusive os que não se parecem com a imagem mais conhecida de floresta.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "Marcos do parque",
+    "intro": "Da criação ao reconhecimento internacional.",
+    "items": [
+      {
+        "id": "1998",
+        "year": "29 abr. 1998",
+        "title": "Criação do parque",
+        "description": "Decreto sem número cria o Parque Nacional do Viruá, junto com o da Serra da Mocidade.",
+        "sourceIds": [
+          "diag",
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "2010",
+        "title": "Pesquisa sobre o megaleque",
+        "description": "Estudos coordenados pela geóloga Dilce Rossetti ampliam o conhecimento sobre a rede de drenagem do parque.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2014",
+        "year": "17 abr. 2014",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 47 aprova o plano de manejo.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2017",
+        "year": "22 mar. 2017",
+        "title": "Sítio Ramsar",
+        "description": "O parque é reconhecido internacionalmente como zona úmida.",
+        "sourceIds": [
+          "visita"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma planície de areia cheia de vida",
+  "closing": "O Viruá mostra que riqueza biológica não depende de solo rico. Entre lagos que somem e voltam, florestas baixas e rios escuros, cada ambiente guarda espécies que só vivem ali, e muito do parque ainda está por descrever.",
   "references": [
     {
-      "id": "icmbio-ficha",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parque Nacional do Viruá — ficha institucional",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua",
-      "accessedAt": "2026-10-21",
-      "use": "Nome, 1998, área de ficha, parque de Roraima e existência de PMIF 2026-2030."
+      "title": "Página institucional do Parque Nacional do Viruá",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua",
+      "accessedAt": "2026-10-23",
+      "use": "área, ato de criação e aprovação do plano de manejo"
     },
     {
-      "id": "solo-2013",
-      "institution": "Universidade Federal de Santa Maria / Ciência Florestal",
-      "title": "Solos e geoambientes do Parque Nacional do Viruá e entorno, Roraima",
-      "url": "https://periodicos.ufsm.br/cienciaflorestal/article/view/9287/0",
-      "accessedAt": "2026-10-21",
-      "use": "29 perfis do parque e entorno, ambientes arenosos, campinaranas, floresta de igapó e carbono."
-    },
-    {
-      "id": "solo-2014",
-      "institution": "Geoderma Regional / Elsevier",
-      "title": "Podzolized soils and paleoenvironmental implications of white-sand vegetation in the Viruá National Park",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2352009414000121",
-      "accessedAt": "2026-10-21",
-      "use": "Relação entre textura, drenagem, pobreza em nutrientes, carbono e vegetação."
-    },
-    {
-      "id": "flora-2017",
-      "institution": "Acta Botanica Brasilica / PubMed",
-      "title": "Soil-vegetation relationships and community structure in a terra-firme–white-sand gradient in Viruá National Park",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/28513782/",
-      "accessedAt": "2026-10-21",
-      "use": "Parcelas dentro da unidade: diferenças de composição, biomassa e estrutura conforme características do solo."
-    },
-    {
-      "id": "aves-2014",
-      "institution": "Revista Brasileira de Ornitologia / Springer",
-      "title": "The avifauna of Viruá National Park, Roraima, reveals megadiversity in northern Amazonia",
-      "url": "https://link.springer.com/article/10.1007/BF03544242",
-      "accessedAt": "2026-10-21",
-      "use": "520 espécies no parque MAIS entorno; distribuição por habitats; registro de espécies fora do polígono."
-    },
-    {
-      "id": "solos-2015",
-      "institution": "Ciência Florestal / SciELO",
-      "title": "Os solos das campinaranas na Amazônia brasileira: ecossistemas arenícolas oligotróficos",
-      "url": "https://www.scielo.br/j/cflo/a/67jTpbbbyvg7vk6JYfMV9Lv/?lang=pt",
-      "accessedAt": "2026-10-21",
-      "use": "Perfis de referência colhidos no Viruá e explicação do solo arenoso, água e ecossistema."
-    },
-    {
-      "id": "samge-2023",
-      "institution": "ICMBio (dados abertos)",
-      "title": "SAMGe — Recursos e Valores 2023",
-      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-analise-e-monitoramento-da-efetividade-de-gestao-samge/2___recursos_e_valores__rv____19062024.csv/view",
-      "accessedAt": "2026-10-21",
-      "use": "Registro de pressões como pesca ilegal; subitens da unidade em dados de gestão."
-    },
-    {
-      "id": "virua-visitacao-v29",
+      "id": "diag",
       "institution": "ICMBio",
-      "title": "Parque Nacional do Viruá — Informações sobre visitação e aves de diferentes ambientes",
+      "title": "Plano de Manejo do Parque Nacional do Viruá: Diagnóstico, parte 1 (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/arquivos/parna_virua_pm_diag1.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "relevo, águas, vegetação, fauna e história de criação; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "plan",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Viruá: Planejamento (2014) (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/arquivos/parna_virua_pm_plan.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "objetivos específicos e ecossistemas protegidos"
+    },
+    {
+      "id": "visita",
+      "institution": "ICMBio",
+      "title": "Informações sobre visitação do Parque Nacional do Viruá",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/informacoes-sobre-visitacao-2013-parna-do-virua",
-      "accessedAt": "2026-10-21",
-      "use": "Nomes populares, espécies citadas e associação a campinaranas/várzeas/rios; exemplos de avifauna sem reivindicar abundância atual."
-    },
-    {
-      "id": "virua-ramsar-v2110",
-      "title": "ICMBio — Informações sobre visitação, ambientes e reconhecimento Ramsar",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/informacoes-sobre-visitacao-2013-parna-do-virua",
-      "institution": "ICMBio",
-      "accessedAt": "2026-10-22",
-      "use": "Fundamentação de trechos novos inseridos na revisão editorial v2.10.10, sem afirmar homologação integral da Expedição."
+      "accessedAt": "2026-10-23",
+      "use": "acesso, trilhas, aves de campinarana, regras e título Ramsar"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "1_arquivos_licencas_documentadas_QA_visual_pendente",
-  "editorialNotes": "Reportagem inédita para revisão; não aprovada nem publicada. Não altera geometrias, IDs, React ou CSS. Escopo, taxonomia, licença e pendências auditáveis nos demais arquivos. Fotos de paisagem não comprovam ocorrência de espécies. Curadoria v2.9: avifauna com exemplos da ficha ICMBio e dois registros fotográficos adicionados somente em prévia com autoria/licença auditadas; localidade declarada, não homologada. | v2.10.10: aprofundamento temático de três passagens e curadoria visual em prévia quando aplicável; não altera status de aprovação.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: área do plano/Ramsar (216.427 ha) difere do ICMBio (214.950,52 ha), adotada a do ICMBio; texto do diagnóstico com extração ruidosa em algumas páginas, conferir números (p. 31, 125, 129) no PDF; sem fotos fortes (só uma foto de 1.280 px, sem capa); conferir se o plano de 2014 tem atualização; revisão humana."
 }

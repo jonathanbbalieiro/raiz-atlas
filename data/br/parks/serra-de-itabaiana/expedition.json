@@ -1,195 +1,334 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Serra de Itabaiana",
-  "title": "Itabaiana: o segredo das areias brancas",
-  "subtitle": "Entre a mata, os riachos e os campos de Sergipe, um tipo singular de vegetação mostra por que aparência e origem ecológica são coisas diferentes.",
-  "centralQuestion": "Por que as areias brancas da serra não são uma restinga comum?",
+  "title": "Itabaiana: a serra de onde vêm as águas, entre o litoral e o sertão",
+  "subtitle": "Três serras de Sergipe, areias brancas, mata estacional e mais de cem nascentes, uma delas responsável por cerca de 30% da água que abastece Aracaju.",
+  "centralQuestion": "Como uma serra pequena, no limite entre a Mata Atlântica e a Caatinga, sustenta água, plantas raras e a vida de uma região inteira?",
   "introduction": [
-    "Na Serra de Itabaiana, em Sergipe, campos, florestas, riachos e manchas de areia clara aparecem próximos uns dos outros. As chamadas Areias Brancas são mais que um detalhe visual: sua vegetação foi estudada como um ambiente com composição e estrutura próprias.",
-    "Ao passar desses trechos abertos para as áreas de mata, mudam o solo, a sombra e as relações entre plantas. O parque protege essa diversidade de ambientes em uma mesma serra, pressionada também pelas transformações do território à sua volta."
+    "O nome já diz o essencial. Segundo uma das explicações conhecidas, Itabaiana vem de uma expressão indígena que quer dizer algo como \"serra morada dos homens de onde vêm as águas\". É isso que a serra faz: de suas encostas descem riachos que abastecem cidades inteiras.",
+    "O parque tem pouco mais de 8 mil hectares, entre 60 e 659 metros de altitude. Cabem nele um paredão de quartzito, matas que perdem folhas na seca, campos de areia clara e um pinheiro que sobrevive de climas do passado."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares protegidos, criados por decreto de 2005",
+      "value": "8.025",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "altitude da Serra de Itabaiana, o segundo ponto mais alto de Sergipe",
+      "value": "659 m",
+      "sourceId": "pm",
+      "locator": "p. 62"
+    },
+    {
+      "label": "nascentes identificadas dentro do parque",
+      "value": "mais de 100",
+      "sourceId": "pm",
+      "locator": "p. 69"
+    },
+    {
+      "label": "da água potável de Aracaju vem do rio Poxim, que nasce na serra",
+      "value": "≈ 30%",
+      "sourceId": "pm",
+      "locator": "p. 69"
+    },
+    {
+      "label": "espécies de aves registradas, mais da metade das conhecidas em Sergipe",
+      "value": "205",
+      "sourceId": "pm",
+      "locator": "p. 86"
+    },
+    {
+      "label": "espécies de mamíferos registradas, voadores e não voadores",
+      "value": "34",
+      "sourceId": "pm",
+      "locator": "p. 88"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Areias Brancas",
+      "definition": "Formação aberta natural de solo arenoso claro, com vegetação rasteira diversificada de gramíneas e ciperáceas e manchas de areia exposta.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Relicto",
+      "definition": "Espécie que sobrevive em lugares isolados como resto de um clima passado; o pinheiro Podocarpus sellowii é um relicto no Nordeste.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Inselberg",
+      "definition": "Elevação isolada no interior de uma superfície aplainada; a Serra do Cajueiro, de 460 metros, pode ser considerada um dentro do pediplano sertanejo.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Floresta Estacional Semidecidual",
+      "definition": "Mata sempre-verde que perde parte das folhas nas estações mais secas, de novembro a fevereiro, no caso de Itabaiana.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Riacho_na_Serra_de_Itabaiana.JPG?width=1200",
-    "alt": "Água pouco profunda passa por rochas claras entre árvores e arbustos, com pequeno poço escuro ao centro.",
-    "author": "Alexandro Batista dos Santos",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riacho_na_Serra_de_Itabaiana.JPG",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Riacho no Parque Nacional Serra de Itabaiana. Foto: Alexandro Batista dos Santos (2014) / Wikimedia Commons, CC BY-SA 3.0."
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Serra_de_Itabaiana_SE_Brazil.jpg/1280px-Serra_de_Itabaiana_SE_Brazil.jpg",
+    "author": "Demóstenes Pereira",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_de_Itabaiana_SE_Brazil.jpg",
+    "width": 1280,
+    "height": 853,
+    "alt": "Vista panorâmica da Serra de Itabaiana, de topo plano, erguendo-se sobre pastagens em Sergipe.",
+    "context": "A Serra de Itabaiana vista de longe, com seu topo plano acima da paisagem do agreste sergipano."
   },
   "moments": [
     {
-      "id": "areias",
-      "eyebrow": "NÃO É RESTINGA SÓ POR SER AREIA",
-      "title": "As areias brancas de Itabaiana têm história própria",
-      "question": "Por que a aparência não basta para classificar um ecossistema?",
+      "id": "serra",
+      "eyebrow": "01 · A serra",
+      "title": "Três serras sobre o agreste",
+      "question": "O que se levanta no meio do agreste?",
       "paragraphs": [
-        "Um pedaço de chão claro, com plantas baixas e arbustos separados, pode lembrar uma restinga. Mas nem toda vegetação sobre areia tem a mesma origem. No Parque Nacional Serra de Itabaiana, pesquisadores estudaram formações conhecidas localmente como Areias Brancas e concluíram que elas não devem ser confundidas automaticamente com restinga ou Cerrado.",
-        "A diferença está na formação do solo e na história daquele ambiente. O estudo reuniu 193 espécies vegetais nessa formação, em áreas amostradas dentro do parque. A aparente simplicidade das plantas baixas escondia uma diversidade botânica surpreendente.",
-        "Embora lembrassem uma restinga à primeira vista, as Areias Brancas estudadas no parque apresentaram características próprias de solo e vegetação. A distinção ajuda a entender por que ambientes próximos na aparência não devem ser tratados como equivalentes.",
-        "No mapeamento publicado em 2010, os pesquisadores separaram aproximadamente 347 hectares de Areias Brancas de extensões maiores de campos rupestres e formações florestais. Esses valores dizem respeito às classes e ao recorte daquele estudo, não à área legal atual do parque. O resultado mostra como uma pequena faixa de solo pode exigir uma categoria própria para não desaparecer estatisticamente dentro do que parece ser apenas campo aberto."
+        "O parque está na zona de transição entre os mares de morros e as depressões do semiárido nordestino. Em direção ao litoral, passa do pediplano sertanejo às serras residuais e aos tabuleiros costeiros. As serras residuais, os restos mais duros de uma superfície antiga, ocupam 75% da unidade.",
+        "As três serras do parque são a de Itabaiana, a Comprida e a do Cajueiro. A de Itabaiana, com 659 metros, é o segundo ponto mais alto de Sergipe. Na face nordeste, o terreno salta de 490 para 630 metros em apenas 110 metros de distância, formando o paredão que domina a paisagem.",
+        "A Serra do Cajueiro, de 460 metros, pode ser considerada um inselberg dentro do pediplano. Na base do paredão de quartzito, na vertente oeste, há quatro cavidades naturais; a maior, a Gruta do Encantado, tem cerca de 40 metros de desenvolvimento, e o plano de manejo destaca o fato de ter se formado em área quartzosa, algo raro entre as cavernas."
       ],
       "sourceIds": [
-        "areias-2010",
-        "mosaico-2010"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 62"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 72"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 139"
+        }
       ],
       "images": []
     },
     {
-      "id": "plantas",
-      "eyebrow": "UMA PLANTA PODE VIVER SOBRE OUTRA",
-      "title": "Até entre os arbustos existem relações pouco visíveis",
-      "question": "Que encontros ecológicos aparecem quando a pesquisa se aproxima?",
+      "id": "aguas",
+      "eyebrow": "02 · As águas",
+      "title": "Mais de cem nascentes",
+      "question": "De onde vem a água que desce da serra?",
       "paragraphs": [
-        "Nas Areias Brancas, pesquisadores registraram a planta hemiparasita Psittacanthus dichrous associada a árvores e arbustos de espécies determinadas. Ela foi observada em Kielmeyera rugosa, e também em outros hospedeiros do levantamento. Diferentemente de um simples apoio físico, há uma relação biológica entre a hemiparasita e a planta que a sustenta.",
-        "A espécie foi identificada cientificamente no estudo, e o nome Psittacanthus dichrous continua aceito em uma base botânica internacional. Esse grau de verificação é importante: a relação é documentada no ambiente amostrado, não uma interação inventada para tornar a história mais interessante.",
-        "A mesma área abriga mangabeira (Hancornia speciosa), nome popular registrado para uma espécie também listada no levantamento. É uma lembrança de que a vegetação não é um tapete uniforme, mas uma reunião de indivíduos com formas de vida diferentes."
+        "A serra está num divisor de águas, entre as bacias do rio Sergipe, a leste, e do Vaza-Barris, a oeste, e tem mais de cem nascentes identificadas. O rio Poxim, que nasce em parte na Serra do Cajueiro, responde por cerca de 30% da água potável da Grande Aracaju.",
+        "Os riachos dos Negros, Coqueiro, Água Fria e Vermelho nascem na Serra de Itabaiana e correm para a barragem Jacarecica II, uma fonte de água para irrigação e abastecimento. O rio Cotinguiba, outro manancial importante para o estado, também nasce nas serras do parque.",
+        "As águas têm ainda um lado de lazer. O Poço das Moças e a Cachoeira Véu de Noiva recebem cerca de 30 mil pessoas por ano, segundo o plano de manejo; a cachoeira forma um véu na época das chuvas intensas."
       ],
       "sourceIds": [
-        "areias-2010",
-        "taxonomia-psittacanthus",
-        "taxonomia-mangaba"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 28"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 69"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 135"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 19"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 109"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Riacho_na_Serra_de_Itabaiana.JPG/1280px-Riacho_na_Serra_de_Itabaiana.JPG",
+          "author": "Alexandro Batista dos Santos",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Riacho_na_Serra_de_Itabaiana.JPG",
+          "width": 1280,
+          "height": 960,
+          "alt": "Riacho de leito rochoso correndo entre árvores e arbustos na Serra de Itabaiana.",
+          "context": "Riacho que nasce na Serra de Itabaiana, logo depois do Poço das Moças, no parque nacional."
+        }
+      ]
+    },
+    {
+      "id": "vegetacao",
+      "eyebrow": "03 · As plantas",
+      "title": "Mata, campo e areia branca",
+      "question": "Por que a vegetação muda tanto de um trecho para outro?",
+      "paragraphs": [
+        "Itabaiana fica na região de contato entre a Caatinga e a Mata Atlântica. A mata estacional ocupa o pé das serras e as margens dos riachos, com dossel de até 20 metros nos trechos mais preservados e lianas e epífitas em abundância. As áreas mais conservadas estão no sopé da Serra de Itabaiana e na Mata da Cafuz.",
+        "Ao lado das matas há formações abertas, como os campos graminosos e as Areias Brancas: terrenos de solo arenoso claro, cobertos de vegetação rasteira e com manchas de areia exposta. Em terras planas, a mata e as areias brancas se encontram, às vezes de forma abrupta, por causa das condições do solo e da água.",
+        "No topo da Serra de Itabaiana, ilhas de floresta guardam o pinheiro Podocarpus sellowii, uma conífera relicta ameaçada no mundo, com grande população no parque. O cacto cabeça-de-frade (Melocactus zehntneri) e a bromélia Cryptanthus sergipensis também estão entre as plantas que o parque protege.",
+        "A mangabeira, símbolo de Sergipe, está ameaçada no parque pelo corte ilegal para lenha, sobretudo nas casas de farinha."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 73–76"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 83"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 139"
+        }
       ],
       "images": []
     },
     {
-      "id": "mata",
-      "eyebrow": "A MATA MUDA PERTO DA ÁGUA",
-      "title": "O riacho separa e aproxima ambientes",
-      "question": "Como a água influencia o desenho da vegetação?",
+      "id": "fauna",
+      "eyebrow": "04 · Os bichos",
+      "title": "Aves, felinos e um lagartinho de restinga",
+      "question": "Quem vive na serra?",
       "paragraphs": [
-        "As florestas ribeirinhas fazem parte do mosaico de Itabaiana, ao lado de campos e areias brancas. Estudos compararam a abertura do dossel de vegetação mais aberta com o de mata ripária, mostrando que a quantidade de cobertura de folhas e a luz disponível variam entre esses lugares.",
-        "Entre pedras, água corrente e vegetação, um riacho da Serra de Itabaiana mostra a proximidade de ambientes que costumam ser descritos separadamente. O retrato não contém uma lista de espécies nem uma série de estações do ano; essas diferenças aparecem nas pesquisas que percorrem campos e matas ao longo da serra.",
-        "As diferenças entre mata e campo importam porque conservar um deles sem o outro não preservaria todo o mosaico da serra.",
-        "Um levantamento estimou cerca de 3.289 hectares de campos graminosos e 2.643 hectares de formações florestais. O desenho que emerge não é uma fronteira rígida entre dois biomas: áreas abertas acompanham sobretudo as encostas, enquanto manchas de mata ocupam diferentes situações de relevo e conservação. Os números pertencem à época do estudo e não descrevem, automaticamente, cada trecho em 2026.",
-        "O riacho que corta a serra não é mero detalhe de um roteiro. Água, sombra e solo úmido criam condições distintas das encostas expostas, e por isso a cobertura das matas ribeirinhas merece ser observada separadamente. Mesmo as fotografias de cursos d’água revelam apenas a aparência em uma data, não a permanência de vazão durante todo o ano."
+        "Estudos registraram 205 espécies de aves, mais da metade das 383 conhecidas em Sergipe. Entre elas estão a jacupemba e o aracuã, criticamente ameaçados no Brasil, e o chororozinho-de-papo-preto, ave da Caatinga ameaçada no mundo. A mastofauna soma 34 espécies, entre voadoras e não voadoras, e o gato-do-mato Leopardus tigrinus ainda encontra abrigo e alimento no parque.",
+        "Entre os répteis, o destaque é o lagartinho-de-abaeté (Ameivula abaetensis), classificado como Em Perigo no Brasil e endêmico de restingas, o que reforça a necessidade de proteger a área.",
+        "Alguns animais sofrem com a caça: o teiú, a perdiz e o veado correm risco de desaparecer localmente."
       ],
       "sourceIds": [
-        "dossel-2017",
-        "mosaico-2010"
+        "pm",
+        "icmbio"
       ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra_de_Itabaiana_Jos%C3%A9_Jonas_(02).jpg?width=1200",
-          "alt": "Folhas e palmeiras em primeiro plano contra o sol baixo, com vegetação e relevo ao fundo.",
-          "author": "José Jonas (Gosti)",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_de_Itabaiana_Jos%C3%A9_Jonas_(02).jpg",
-          "context": "Imagem de vegetação/horizonte atribuída ao parque; não serve à identificação de espécie. Localização: Fotografia atribuída pelo autor ao Parque Nacional Serra de Itabaiana; ainda não homologada independentemente."
+          "sourceId": "pm",
+          "locator": "p. 86"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 88"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 96"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 135"
         }
-      ]
+      ],
+      "images": []
     },
     {
-      "id": "proteger",
-      "eyebrow": "AS BORDAS TAMBÉM CONTAM",
-      "title": "Um mosaico pressionado ao redor",
-      "question": "O que as pesquisas mostram sobre o cuidado com o parque?",
+      "id": "criacao",
+      "eyebrow": "05 · A criação",
+      "title": "De estação ecológica a parque nacional",
+      "question": "Como a serra se tornou parque?",
       "paragraphs": [
-        "Criado em 2005, o Parque Nacional Serra de Itabaiana protege um conjunto de serras reconhecidas por suas formações abertas, matas e areias brancas. A ficha do ICMBio também registra o lagartinho-de-abaeté entre as espécies ameaçadas associadas à unidade — ocorrência institucional, não um animal fotografado nesta edição.",
-        "Um mapeamento publicado em 2010 identificou áreas alteradas sobretudo em bordas, caminhos e pontos próximos a usos humanos. Esses resultados são retratos da época do estudo, não uma medição das pressões em 2026.",
-        "A conservação ganha precisão quando respeita as diferenças: as areias brancas não são qualquer restinga; as matas não são um cenário único; e os pequenos cursos de água fazem parte da história do relevo e das plantas."
+        "A ideia começou em 1978, com uma proposta do governo de Sergipe de criar uma estação ecológica de 4.389,76 hectares. O projeto nunca foi decretado, embora a área já funcionasse como protegida, com infraestrutura básica e atividades de pesquisa e educação ambiental.",
+        "Em 1987, surgiu a proposta de mudar a categoria para parque, pelos atributos de visitação e lazer. Em 1989, a Constituição de Sergipe declarou a Serra de Itabaiana área de preservação permanente.",
+        "Em 18 de novembro de 2004, houve consultas públicas em Areia Branca e Itabaiana. O Parque Nacional Serra de Itabaiana foi criado por decreto de 15 de junho de 2005. O plano de manejo foi aprovado em 2016."
       ],
       "sourceIds": [
-        "icmbio-ficha",
-        "mosaico-2010",
-        "decreto-2005"
+        "pm",
+        "icmbio"
       ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/SERRA%20DE%20ITABAIANA.jpg?width=1200",
-          "alt": "Vista distante da Serra de Itabaiana em fotografia panorâmica feita de um povoado.",
-          "author": "Caias venta",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:SERRA_DE_ITABAIANA.jpg",
-          "context": "Panorama registrado fora do parque para situar o relevo na paisagem regional; não usar como comprovação de vegetação dentro da UC."
+          "sourceId": "pm",
+          "locator": "p. 22–24"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
         }
-      ]
+      ],
+      "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Uma transição cheia de identidade",
-  "closing": "Itabaiana mostra que a transição não é um lugar sem identidade. Os campos, as areias brancas, os riachos e as matas têm histórias e relações próprias. Olhar com atenção para essas diferenças é o primeiro passo para conservar o que só existe quando o mosaico permanece inteiro.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "Da proposta ao plano de manejo",
+    "intro": "Marcos da proteção da Serra de Itabaiana.",
+    "items": [
+      {
+        "id": "1978",
+        "year": "1978",
+        "title": "Proposta de estação ecológica",
+        "description": "O governo de Sergipe propõe proteger 4.389,76 hectares da serra.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1987",
+        "year": "1987",
+        "title": "Parque no lugar de estação",
+        "description": "Surge a ideia de mudar a categoria de estação ecológica para parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1989",
+        "year": "1989",
+        "title": "Preservação permanente",
+        "description": "A Constituição de Sergipe declara a Serra de Itabaiana área de preservação permanente.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2005",
+        "year": "15 jun. 2005",
+        "title": "Parque Nacional",
+        "description": "Decreto sem número cria o Parque Nacional Serra de Itabaiana.",
+        "sourceIds": [
+          "pm",
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2016",
+        "year": "19 jun. 2016",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 76 aprova o plano de manejo.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra que cuida de quem está embaixo",
+  "closing": "A serra tem pouco mais de 8 mil hectares, mas é o ponto de partida de rios que abastecem cidades, a casa de plantas relictas e de aves ameaçadas, e um lugar de lazer para milhares de pessoas. Conservá-la é cuidar da água de Sergipe.",
   "references": [
     {
-      "id": "icmbio-ficha",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parque Nacional Serra de Itabaiana — ficha oficial",
+      "title": "Página institucional do Parque Nacional Serra de Itabaiana",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-serra-de-itabaiana/parna-serra-de-itabaiana",
-      "accessedAt": "2026-10-21",
-      "use": "Criação, área de ficha, bioma oficial e lagartinho-de-abaeté."
+      "accessedAt": "2026-10-23",
+      "use": "área, ato de criação, plano de manejo e espécie ameaçada listada"
     },
     {
-      "id": "mosaico-2010",
-      "institution": "Biotemas / UFSC",
-      "title": "Caracterização da vegetação do Parque Nacional Serra de Itabaiana, Sergipe — Brasil",
-      "url": "https://periodicos.ufsc.br/index.php/biotemas/article/view/2175-7925.2010v23n4p9",
-      "accessedAt": "2026-10-21",
-      "use": "Categorias de fisionomia e mosaico de vegetação; estudo com dados de 2006-2008."
-    },
-    {
-      "id": "mosaico-pdf",
-      "institution": "Biotemas / UFSC",
-      "title": "Caracterização da vegetação — PDF (10 páginas)",
-      "url": "https://periodicos.ufsc.br/index.php/biotemas/article/download/2175-7925.2010v23n4p9/15597/52496",
-      "accessedAt": "2026-10-21",
-      "use": "Resumo, páginas impressas 9-11 / PDF 1-3, metodologia e tipologias."
-    },
-    {
-      "id": "areias-2010",
-      "institution": "Brazilian Journal of Botany / SciELO",
-      "title": "Florística e estrutura da vegetação arbustivo-arbórea das Areias Brancas do Parque Nacional Serra de Itabaiana",
-      "url": "https://www.scielo.br/j/rbb/a/zwwT7kZbV4zrn7hWc3MyPJw/?format=html&lang=pt",
-      "accessedAt": "2026-10-21",
-      "use": "193 espécies em levantamento local, fisionomia de areias brancas e interações entre hemi-parasitas e árvores."
-    },
-    {
-      "id": "dossel-2017",
-      "institution": "Ciência Florestal / UFSM",
-      "title": "Estrutura arbórea e sazonalidade da cobertura do dossel em vegetação florestada e aberta no parque",
-      "url": "https://periodicos.ufsm.br/cienciaflorestal/article/view/27757",
-      "accessedAt": "2026-10-21",
-      "use": "Comparação entre vegetação aberta de areias brancas e mata ripária."
-    },
-    {
-      "id": "flora-lista",
-      "institution": "Pesquisa e Ensino em Ciências Exatas e da Natureza / UFCG",
-      "title": "Lista atualizada da flora vascular do Parque Nacional Serra de Itabaiana, Sergipe",
-      "url": "https://cfp.revistas.ufcg.edu.br/cfp/index.php/RPECEN/article/view/1148",
-      "accessedAt": "2026-10-21",
-      "use": "Compilação de checklist com 830 espécies; acesso ao resumo de pesquisa, não verificação integral dos vouchers."
-    },
-    {
-      "id": "taxonomia-psittacanthus",
-      "institution": "Kew — Plants of the World Online",
-      "title": "Psittacanthus dichrous — accepted name",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:551377-1",
-      "accessedAt": "2026-10-21",
-      "use": "Taxonomia aceita da hemiparasita documentada no parque."
-    },
-    {
-      "id": "taxonomia-mangaba",
-      "institution": "Kew — Plants of the World Online",
-      "title": "Hancornia speciosa Gomes — accepted name",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:328991-2",
-      "accessedAt": "2026-10-21",
-      "use": "Aceitação taxonômica da mangabeira, registrada em coleta no parque pelo artigo."
-    },
-    {
-      "id": "decreto-2005",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Criação e situação de gestão do Parque Nacional Serra de Itabaiana",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-serra-de-itabaiana",
-      "accessedAt": "2026-10-21",
-      "use": "Ficha alternativa do ICMBio com decreto de 15 de junho de 2005."
+      "title": "Plano de Manejo do Parque Nacional Serra de Itabaiana (2016) (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-serra-de-itabaiana/arquivos/dcom_plano_de_manejo_parna_serra_de_itabaiana.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "relevo, águas, vegetação, fauna, histórico de criação e visitação; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_arquivos_licencas_documentadas_QA_visual_pendente",
-  "editorialNotes": "Reportagem inédita para revisão; não aprovada nem publicada. Não altera geometrias, IDs, React ou CSS. Escopo, taxonomia, licença e pendências auditáveis nos demais arquivos. Fotos de paisagem não comprovam ocorrência de espécies. | v2.10.9: aprofundamento editorial documentado; novas fotografias em prévia sem homologação espacial; sem aprovação automática.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: o decreto de 15/6/2005 não foi aberto no Planalto (data conferida no plano e na página do ICMBio); confirmar na legenda que a foto de capa (CC BY 2.0) mostra a serra vista de fora do parque; sem fotos de fauna e flora dentro do parque; revisão humana."
 }

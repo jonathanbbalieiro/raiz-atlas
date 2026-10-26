@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional da Serra das Confusões",
+  "title": "Serra das Confusões: a serra que muda de cor e esconde túneis de arenito",
+  "subtitle": "No sul do Piauí, o maior parque de Caatinga do país reúne chapadas, grutas abertas ao céu, arte rupestre e uma fauna de dois biomas.",
+  "centralQuestion": "O que fez uma serra de arenito, no meio do sertão, virar um dos maiores parques do Nordeste?",
+  "introduction": [
+    "Diz a lenda que a serra mudava de cor várias vezes ao dia, conforme o sol, e que isso confundia a cabeça de quem passava: muita gente se perdia no caminho. É a explicação mais aceita para o nome da Serra das Confusões.",
+    "Hoje o parque tem cerca de 824 mil hectares de Caatinga em contato com o Cerrado. Entre chapadas, baixões e paredões de arenito, esconde grutas em forma de túnel, com aberturas no teto como claraboias, sítios de arte rupestre e animais de dois biomas."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares do parque, após a ampliação de 2010",
+      "value": "823.855",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "hectares do parque no plano de manejo de 2003, antes da ampliação",
+      "value": "526.108",
+      "sourceId": "pm",
+      "locator": "p. 3"
+    },
+    {
+      "label": "espécies de aves observadas em um levantamento de campo na seca",
+      "value": "156",
+      "sourceId": "pm",
+      "locator": "p. 93"
+    },
+    {
+      "label": "das 18 aves endêmicas da Caatinga já foram registradas no parque",
+      "value": "13",
+      "sourceId": "pm",
+      "locator": "p. 93"
+    },
+    {
+      "label": "espécies de mamíferos observadas, de 17 famílias",
+      "value": "46",
+      "sourceId": "pm",
+      "locator": "p. 91"
+    },
+    {
+      "label": "novas espécies de lagartos encontradas no levantamento",
+      "value": "4",
+      "sourceId": "pm",
+      "locator": "p. 93"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Baixão",
+      "definition": "Vale amplo entre serras e chapadas, nome local de uma das feições mais marcantes do parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Gruta-túnel",
+      "definition": "Gruta de arenito de contorno em arco, aberta nos dois lados e com janelas no alto, como claraboias.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Ecótono",
+      "definition": "Faixa de transição em que as floras de dois tipos de vegetação, como Caatinga e Cerrado, se misturam.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Formação Cabeças",
+      "definition": "Camada de arenitos duros, do Devoniano, que forma os morros arredondados e cônicos de cor escura da paisagem do parque.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Parque_Nacional_da_Serra_das_Confus%C3%B5es_-_03.jpg/1280px-Parque_Nacional_da_Serra_das_Confus%C3%B5es_-_03.jpg",
+    "author": "Otávio Nogueira",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_das_Confus%C3%B5es_-_03.jpg",
+    "width": 1280,
+    "height": 848,
+    "alt": "Paisagem de morros arredondados de arenito escuro, cortados por vales, e uma planície ao fundo, no Parque Nacional da Serra das Confusões.",
+    "context": "Morros e paredões de arenito no interior do Parque Nacional da Serra das Confusões, no Piauí."
+  },
+  "moments": [
+    {
+      "id": "serra",
+      "eyebrow": "01 · A serra",
+      "title": "Chapadas, baixões e morros que parecem domos",
+      "question": "Que relevo o arenito desenhou?",
+      "paragraphs": [
+        "O parque se assenta numa faixa de contato entre o maciço da Formação Serra Grande e a Bacia Sedimentar do Parnaíba. A Serra Grande tem superfície plana, com altura média de 700 metros, cortada por vales amplos; a Chapada dos Gerais, a de maior área no parque, tem altitude média de 650 metros e é circundada por vales, os baixões, e por serras.",
+        "Na Formação Cabeças, arenitos duros afloram de forma incomum como estruturas monumentais, de modelado cônico ou arredondado, de superfície lisa e cor escura, espalhadas pelos baixões. Nas rochas há grutas-túnel de contorno em arco, com claraboias ou janelas no alto."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 65"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 69–70"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Pared%C3%B5es_da_Serra_das_Confus%C3%B5es.jpg/1280px-Pared%C3%B5es_da_Serra_das_Confus%C3%B5es.jpg",
+          "author": "Willame carvalho e silva",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pared%C3%B5es_da_Serra_das_Confus%C3%B5es.jpg",
+          "width": 1280,
+          "height": 2276,
+          "alt": "Fenda estreita entre paredões altos de arenito listrado de vermelho e ocre, com uma pessoa caminhando em chão de areia clara.",
+          "context": "Passagem entre paredões de arenito na Serra das Confusões, perto de Caracol, no Piauí."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "02 · A vida",
+      "title": "Caatinga, Cerrado e um rato de floresta",
+      "question": "Quem vive onde dois biomas se encontram?",
+      "paragraphs": [
+        "A vegetação é uma mistura. A Caatinga ocorre em suas formas de savana estéptica, de mata baixa com árvores de até 7 metros a campos espinhosos, com juremas, braúna, aroeira, angico e umbu. Nas encostas íngremes há floresta semidecídua, e nas áreas de contato as floras de Caatinga e Cerrado se interpenetram.",
+        "Um levantamento de aves na seca registrou 156 espécies em 39 famílias e confirmou 13 das 18 aves endêmicas da Caatinga, entre elas a jacucaca, caçada e ameaçada. Foram observadas 46 espécies de mamíferos, entre eles o maior morcego da região neotropical, Vampyrum spectrum, primeiro registro para a Caatinga, e um rato de floresta do gênero Rhipidomys, que apareceu em abundância, algo incomum no bioma.",
+        "Entre os répteis, 30 das 43 espécies são compartilhadas com o Cerrado, e quatro lagartos eram novos para a ciência. O parque também registra o primeiro caso de uma cobra-cega, ordem Gymnophiona, na Caatinga."
+      ],
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 77–80"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 91–93"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "arte",
+      "eyebrow": "03 · A arte nas pedras",
+      "title": "Sítios arqueológicos que justificaram o parque",
+      "question": "Que marcas humanas a serra guarda?",
+      "paragraphs": [
+        "A importância dos sítios arqueológicos, pelo número, pela variedade e pela qualidade dos vestígios, está entre os motivos que levaram pesquisadores a propor uma unidade de conservação no sul do Piauí desde 1975, quando a Missão Franco-Brasileira avaliou os trabalhos na região.",
+        "O plano de manejo prevê projetos para abrir à visitação os sítios Toca do Pinga, Moquém I e II, Toca das Andorinhas e Toca do Enoque, depois de aprovação do IPHAN.",
+        "As cavernas da região, com lagos ou secas, abrigam animais relictuais e endêmicos de ambientes cavernícolas, como peixes cegos, mas ainda não foram estudadas nem cadastradas."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 65"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 73"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 180"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "criacao",
+      "eyebrow": "04 · A criação",
+      "title": "De 526 mil a 824 mil hectares",
+      "question": "Como o parque foi criado e ampliado?",
+      "paragraphs": [
+        "Em agosto de 1997, técnicos do Ibama, da Embrapa e de instituições do Piauí foram ao local e propuseram o parque, depois de anos de artigos do fotógrafo e guia André Pessoa sobre as cavernas e os sítios da serra, que despertaram o apoio da comunidade.",
+        "O decreto sem número de 2 de outubro de 1998 criou o Parque Nacional da Serra das Confusões, então com 526.108 hectares. O primeiro plano de manejo foi aprovado pela Portaria nº 64, de 29 de junho de 2004. Um decreto de 30 de dezembro de 2010 ampliou o parque, que hoje tem 823.854,54 hectares.",
+        "O plano propôs incluir uma faixa para formar um corredor ecológico com o Parque Nacional da Serra da Capivara, considerado de extrema importância biológica."
+      ],
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 3"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 66"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "Marcos do parque",
+    "intro": "Da proposta à ampliação.",
+    "items": [
+      {
+        "id": "1975",
+        "year": "1975",
+        "title": "A primeira indicação",
+        "description": "A Missão Franco-Brasileira, ao avaliar os estudos da região, aponta a necessidade de uma unidade de conservação.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1997",
+        "year": "ago. 1997",
+        "title": "A proposta técnica",
+        "description": "Uma equipe do Ibama, da Embrapa e de órgãos do Piauí apresenta o relatório com a proposta do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1998",
+        "year": "2 out. 1998",
+        "title": "Criação do parque",
+        "description": "Decreto sem número cria o Parque Nacional da Serra das Confusões.",
+        "sourceIds": [
+          "pm",
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2004",
+        "year": "29 jun. 2004",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 64 aprova o plano de manejo.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "30 dez. 2010",
+        "title": "Ampliação",
+        "description": "Decreto amplia o parque, hoje com 823.854,54 hectares.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um sertão de pedra, arte e bichos de dois mundos",
+  "closing": "A Serra das Confusões guarda paisagens que parecem feitas por um escultor, vestígios de gente muito antiga e uma fauna que mistura Caatinga e Cerrado. Boa parte dela ainda espera para ser estudada.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Página institucional do Parque Nacional da Serra das Confusões",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-serra-das-confusoes",
+      "accessedAt": "2026-10-23",
+      "use": "área atual, decretos de criação e ampliação, plano de manejo e espécies ameaçadas"
+    },
+    {
+      "id": "pm",
+      "institution": "IBAMA",
+      "title": "Plano de Manejo do Parque Nacional da Serra das Confusões (2003) (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-serra-das-confusoes/arquivos/parna_serra_das_confusoes.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "origem do nome, relevo, vegetação, fauna, sítios arqueológicos e histórico de criação; páginas conforme a numeração do PDF"
+    }
+  ],
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: o plano de manejo é de 2003 (526 mil ha), anterior à ampliação de 2010; a página do ICMBio cita um 'decreto de ampliação' de 2026 sem data, conferir; conferir o número de aves endêmicas (14 na p. 91, 18 na p. 93); fotos de 1.280 px, a de passagem entre paredões é vertical; decretos não abertos no Planalto; revisão humana."
+}

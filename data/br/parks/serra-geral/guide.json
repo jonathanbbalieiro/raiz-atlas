@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-10-21",
   "hook": "Na borda do Cânion Fortaleza, uma pedra de 5 metros se equilibra sobre uma base de poucos centímetros.",
   "intro": "Criado em 1992, o parque protege cerca de 17 mil hectares em duas glebas, ao norte e ao sul do Parque Nacional de Aparados da Serra, entre Cambará do Sul (RS), Praia Grande e Jacinto Machado (SC). Nasceu para guardar cânions que tinham ficado de fora, como o Fortaleza e o Malacara.",
@@ -67,7 +67,17 @@
       "sourceIds": [
         "sgb"
       ],
-      "photo": null
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Pedra_do_Segredo_a_partir_de_teleobjetiva.jpg/1280px-Pedra_do_Segredo_a_partir_de_teleobjetiva.jpg",
+        "alt": "Pedra do Segredo, bloco de rocha equilibrado sobre outra na borda do Cânion Fortaleza",
+        "author": "Guilherme Nunes Serafina",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedra_do_Segredo_a_partir_de_teleobjetiva.jpg",
+        "width": 1280,
+        "height": 960,
+        "context": "A Pedra do Segredo, bloco de rocha equilibrado sobre outra na borda do Cânion Fortaleza, no Parque Nacional da Serra Geral."
+      }
     },
     {
       "title": "Piscinas do Malacara",

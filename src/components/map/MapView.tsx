@@ -22,7 +22,7 @@ import {
   setLayerGroupVisible,
 } from "./layers";
 import { MapControls } from "./MapControls";
-import { BASEMAP, BASEMAP_STYLE, DEM_SOURCE, NATURE, overviewSource } from "./theme";
+import { BASEMAP, BASEMAP_STYLE, DEM_SOURCE, overviewSource } from "./theme";
 
 type FC = GeoJSON.FeatureCollection;
 const EMPTY: FC = { type: "FeatureCollection", features: [] };
@@ -109,7 +109,8 @@ export function MapView({ getPadding }: Props) {
     let map: MlMap | undefined;
     let cancelled = false;
     (async () => {
-      const maplibregl = (await import("maplibre-gl")).default;
+      const maplibregl = await import("maplibre-gl");
+      maplibregl.setWorkerUrl(`${window.location.origin}/maplibre/maplibre-gl-worker.mjs`);
       if (cancelled || !containerRef.current) return;
       map = new maplibregl.Map({
         container: containerRef.current,
@@ -557,7 +558,7 @@ function setTerrain(map: MlMap, on: boolean, relief3d: boolean) {
           "hillshade-shadow-color": "#7d7a70",
           "hillshade-highlight-color": "#ffffff",
           "hillshade-accent-color": "#9b978b",
-          "hillshade-exaggeration": 0.55,
+          "hillshade-exaggeration": 0.3,
         },
       },
       firstSymbol,
@@ -565,6 +566,37 @@ function setTerrain(map: MlMap, on: boolean, relief3d: boolean) {
   }
   // O sombreamento do relevo fica sempre visível (visual de mapa de trilhas); só o 3D depende do parque.
   map.setTerrain(on && relief3d ? { source: "dem", exaggeration: 1.3 } : null);
+}
+
+/**
+ * Detalhe da cobertura em zoom alto: a imagem MODIS tem pixels de 500 m, então, a partir do zoom 8, entram
+ * os polígonos do OpenStreetMap (mata, campo, lavoura, banhado) nas mesmas cores, com bordas nítidas.
+ */
+function addLandDetail(map: MlMap) {
+  if (map.getLayer("detail-wood")) return;
+  const source = Object.keys(map.getStyle().sources ?? {}).find((k) => k !== "overview" && map.getSource(k)?.type === "vector");
+  if (!source) return;
+  const before = map.getLayer("water") ? "water" : undefined;
+  const fade = ["interpolate", ["linear"], ["zoom"], 8, 0, 10, 1] as unknown as number;
+  const add = (id: string, layer: string, filter: unknown, color: string) =>
+    map.addLayer(
+      {
+        id,
+        type: "fill",
+        source,
+        "source-layer": layer,
+        filter: filter as never,
+        minzoom: 8,
+        paint: { "fill-color": color, "fill-opacity": fade, "fill-antialias": false },
+      },
+      before,
+    );
+  add("detail-farmland", "landcover", ["==", ["get", "class"], "farmland"], "#e1f1d0");
+  add("detail-grass", "landcover", ["==", ["get", "class"], "grass"], "#d6edc6");
+  add("detail-wetland", "landcover", ["==", ["get", "class"], "wetland"], "#b2e0c2");
+  add("detail-sand", "landcover", ["in", ["get", "class"], ["literal", ["sand", "rock"]]], "#f1f5ec");
+  add("detail-wood", "landcover", ["==", ["get", "class"], "wood"], "#a6d89a");
+  add("detail-residential", "landuse", ["in", ["get", "class"], ["literal", ["residential", "suburb", "neighbourhood", "commercial", "industrial", "retail"]]], "#e3e7dc");
 }
 
 /**
@@ -576,23 +608,25 @@ function restyleBasemap(map: MlMap) {
   if (!map.getSource("overview")) {
     map.addSource("overview", overviewSource(window.location.origin));
     const first = map.getStyle().layers.find((l) => l.type !== "background")?.id;
-    // Verde pastel da vegetação que some ao aproximar (aí entram relevo e mapa de trilhas).
+    // Cobertura vegetal em verde, em todos os zooms (acima do 7 é ampliada); relevo e matas ficam por cima.
     map.addLayer(
       {
         id: "overview",
         type: "raster",
         source: "overview",
         paint: {
-          "raster-opacity": ["interpolate", ["linear"], ["zoom"], 7, 1, 9, 0],
+          "raster-opacity": 1,
+          "raster-resampling": "linear",
           "raster-fade-duration": 200,
         },
       },
       first,
     );
   }
+  addLandDetail(map);
   const set = (id: string, prop: string, value: unknown) => {
     try {
-      map.setPaintProperty(id, prop, value);
+      map.setPaintProperty(id, prop as never, value as never);
     } catch {
       /* camada sem essa propriedade: ignora */
     }
@@ -606,13 +640,7 @@ function restyleBasemap(map: MlMap) {
     }
     else if (id.startsWith("waterway") && type === "line") set(id, "line-color", BASEMAP.waterLine);
     else if (id !== "overview" && (id === "ne2_shaded" || type === "raster")) set(id, "raster-opacity", 0);
-    else if (id === "landcover_wood" && type === "fill") {
-      set(id, "fill-color", NATURE.wood);
-      set(id, "fill-opacity", 0.95);
-    } else if (id === "park" && type === "fill") {
-      set(id, "fill-color", NATURE.park);
-      set(id, "fill-opacity", 0.7);
-    } else if (/^(landcover|landuse)/.test(id) && type === "fill") set(id, "fill-opacity", 0.35);
+    else if (/^(park|landcover|landuse)/.test(id) && type === "fill") set(id, "fill-opacity", 0);
     else if (id.startsWith("boundary") && type === "line") {
       const national = /boundary_2|disputed/.test(id);
       set(id, "line-color", BASEMAP.foreignBorder);

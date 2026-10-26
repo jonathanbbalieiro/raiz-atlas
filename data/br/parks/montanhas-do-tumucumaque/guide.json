@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-10-21",
   "hook": "O maior parque nacional do Brasil: 355 km de leste a oeste de floresta em excelente estado, na fronteira com a Guiana Francesa.",
   "intro": "No Amapá, na fronteira com a Guiana Francesa, o Parque Nacional Montanhas do Tumucumaque protege cerca de 3,87 milhões de hectares de floresta tropical. Criado por decreto de 22 de agosto de 2002, é o maior parque nacional do Brasil e uma das áreas protegidas de floresta tropical mais extensas do mundo.",
@@ -66,7 +66,17 @@
       "sourceIds": [
         "pm"
       ],
-      "photo": null
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cachoeira-RioJari.JPG/1280px-Cachoeira-RioJari.JPG",
+        "alt": "Corredeiras e cachoeira no rio Jari",
+        "author": "Pedro Garibalde",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira-RioJari.JPG",
+        "width": 1280,
+        "height": 960,
+        "context": "Cachoeira do Desespero (Kumakakwarã), no rio Jari, Amapá."
+      }
     },
     {
       "title": "Roche Monpé",

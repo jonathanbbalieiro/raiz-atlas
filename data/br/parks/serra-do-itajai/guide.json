@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-10-21",
   "hook": "Às portas de Blumenau, uma floresta com cerca de 150 espécies de árvores e arbustos por hectare.",
   "intro": "No Vale do Itajaí, em Santa Catarina, o parque protege cerca de 57,5 mil hectares de Mata Atlântica em nove municípios, entre eles Blumenau, Indaial e Gaspar. Criado em 2004, é o segundo maior entre os últimos grandes remanescentes de floresta do estado. Nasceu de décadas de luta de moradores e ambientalistas da região.",
@@ -66,7 +66,17 @@
       "sourceIds": [
         "pm"
       ],
-      "photo": null
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Sol_na_trilha_do_Spitzkopf.JPG/1280px-Sol_na_trilha_do_Spitzkopf.JPG",
+        "alt": "Trilha em floresta com raios de sol entre árvores grandes",
+        "author": "Mussangui",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sol_na_trilha_do_Spitzkopf.JPG",
+        "width": 1280,
+        "height": 960,
+        "context": "Trilha na floresta do Parque Nacional da Serra do Itajaí, na região do Spitzkopf."
+      }
     }
   ],
   "curiosities": [

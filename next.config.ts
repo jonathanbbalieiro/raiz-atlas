@@ -10,7 +10,7 @@ const csp = [
   "default-src 'self'",
   "script-src 'self' 'unsafe-inline'",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://commons.wikimedia.org https://inaturalist-open-data.s3.amazonaws.com https://static.inaturalist.org https://tiles.openfreemap.org",
+  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://inaturalist-open-data.s3.amazonaws.com https://static.inaturalist.org https://tiles.openfreemap.org",
   "font-src 'self' data:",
   "connect-src 'self' https://tiles.openfreemap.org https://s3.amazonaws.com",
   "worker-src 'self' blob:",
@@ -28,14 +28,21 @@ const securityHeaders = [
   { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
   { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
   { key: "Cross-Origin-Opener-Policy", value: "same-origin" },
+  { key: "X-DNS-Prefetch-Control", value: "off" },
+  { key: "Origin-Agent-Cluster", value: "?1" },
+  { key: "X-Permitted-Cross-Domain-Policies", value: "none" },
   ...(process.env.NODE_ENV === "production" ? [{ key: "Content-Security-Policy", value: csp }] : []),
 ];
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Sem o selo do Next.js no canto da tela durante o desenvolvimento.
+  devIndicators: false,
   async headers() {
     return [{ source: "/:path*", headers: securityHeaders }];
   },
+  // Páginas de parque com guia e expedição aprovados são pesadas de gerar; evita falha por tempo.
+  staticPageGenerationTimeout: 300,
   cacheComponents: true,
   partialPrefetching: true,
   images: {
@@ -47,7 +54,6 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       { protocol: "https", hostname: "upload.wikimedia.org", pathname: "/wikipedia/commons/**" },
       { protocol: "https", hostname: "thumb.wikimedia.org", pathname: "/wikipedia/commons/**" },
-      { protocol: "https", hostname: "commons.wikimedia.org", pathname: "/wiki/Special:FilePath/**" },
       // Fotos de observações do iNaturalist (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA).
       { protocol: "https", hostname: "inaturalist-open-data.s3.amazonaws.com", pathname: "/photos/**" },
       { protocol: "https", hostname: "static.inaturalist.org", pathname: "/photos/**" },

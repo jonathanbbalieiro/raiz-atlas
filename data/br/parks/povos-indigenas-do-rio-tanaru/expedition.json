@@ -1,153 +1,316 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Povos Indígenas do Rio Tanaru",
-  "title": "Rio Tanaru: a floresta guarda uma ausência que não pode ser apagada",
-  "subtitle": "A proteção criada em 2026 reúne memória indígena, território, rios e biodiversidade. O desafio é contar essa história sem reduzir pessoas a símbolos nem transformar o lugar em espetáculo.",
-  "centralQuestion": "Como proteger um território quando sua memória humana é parte essencial da conservação?",
+  "title": "Rio Tanaru: uma floresta que guarda memória",
+  "subtitle": "Um remanescente de mata entre a Amazônia e o Cerrado, cercado de lavouras, onde viveu por décadas o último sobrevivente de um povo indígena isolado.",
+  "centralQuestion": "O que significa proteger uma floresta que também é lugar de memória?",
   "introduction": [
-    "Nem todo parque nacional nasce para proteger apenas uma forma de paisagem. Em Rondônia, uma nova área protegida recebeu o nome dos Povos Indígenas do Rio Tanaru. O decreto de 2026 menciona florestas, água e fauna, mas reserva também um lugar explícito à memória histórica e à resistência indígena.",
-    "Para compreender esse parque, é preciso reconhecer uma história difícil: o território foi acompanhado durante décadas por equipes responsáveis por proteger o último sobrevivente conhecido de uma comunidade indígena isolada. Sua morte, em 2022, não transformou a terra em espaço sem passado. Ao contrário: a proteção atual pede cuidado com o que se sabe, com o que permanece desconhecido e com o que não deve ser exibido."
+    "No sul de Rondônia, entre fazendas de soja, milho e gado, resta um bloco de floresta. Por décadas, a área foi mantida sob restrição de uso pelo Estado brasileiro para proteger uma pessoa: um indígena isolado, o último sobrevivente de um povo cujas aldeias foram atacadas e cujo território foi invadido.",
+    "Em junho de 2026, o decreto que criou o Parque Nacional Povos Indígenas do Rio Tanaru transformou essa área em unidade de conservação. O parque protege a floresta, a água e a fauna e preserva o lugar como espaço de memória do povo Tanaru e da resistência indígena."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área aproximada do parque",
+      "value": "7.638",
+      "sourceId": "decreto",
+      "locator": "art. 1º"
+    },
+    {
+      "label": "municípios de Rondônia: Chupinguaia, Corumbiara, Parecis e Pimenteiras do Oeste",
+      "value": "4",
+      "sourceId": "decreto",
+      "locator": "art. 1º"
+    },
+    {
+      "label": "data do decreto de criação (publicado em 11 de junho)",
+      "value": "10/06/2026",
+      "sourceId": "decreto"
+    },
+    {
+      "label": "espécies ameaçadas citadas no decreto: macaco-aranha, macaco-barrigudo e onça-pintada",
+      "value": "3",
+      "sourceId": "decreto",
+      "locator": "art. 1º, II"
+    },
+    {
+      "label": "hectares de pastagem consolidada dentro dos limites propostos",
+      "value": "≈ 141",
+      "sourceId": "analise",
+      "locator": "p. 17"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Ecótono",
+      "definition": "Zona de transição entre dois tipos de vegetação; no Tanaru, entre florestas ombrófilas e semideciduais, na passagem da Amazônia para o Cerrado.",
+      "sourceId": "analise"
+    },
+    {
+      "term": "Sistema Aquífero Parecis",
+      "definition": "Reservatório de água subterrânea cujas zonas de recarga o parque ajuda a proteger.",
+      "sourceId": "decreto"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em volta do parque, definida no decreto, onde as atividades humanas seguem regras para reduzir o impacto sobre a unidade.",
+      "sourceId": "decreto"
+    }
   ],
   "cover": null,
   "moments": [
     {
       "id": "memoria",
-      "eyebrow": "UM NOME, UMA HISTÓRIA",
-      "title": "O território não começou em 2026",
-      "question": "O que a criação de um parque pode preservar além da natureza?",
+      "eyebrow": "01 · A memória",
+      "title": "Um território que não começou em 2026",
+      "question": "Quem viveu aqui antes do parque?",
       "paragraphs": [
-        "O Parque Nacional Povos Indígenas do Rio Tanaru nasceu oficialmente em junho de 2026. Mas a história que seu nome carrega é muito anterior ao decreto. No sul de Rondônia, a floresta foi cenário de um processo de ocupação marcado por expulsões, ataques e perda de vidas indígenas. Falar do parque sem essa história seria confundir a proteção recente com a origem do território.",
-        "Durante décadas, equipes da Funai realizaram vigilância para proteger um indígena que vivia em isolamento e cuja comunidade já havia sofrido violências. A atuação se orientou pela necessidade de respeitar sua decisão de não estabelecer contato. O nome usado pelos órgãos oficiais, Tanaru, não autoriza inventar o nome de seu povo ou uma biografia contada em sua voz.",
-        "A floresta é parte dessa memória. Ela foi lugar de vida, alimentação, trabalho e autonomia. Reconhecer isso não a transforma num cenário vazio esperando um visitante: reafirma que havia uma história humana muito antes de existir uma unidade de conservação."
+        "O povo indígena que habitava a região sofreu diversos ataques nas décadas de 1980 e 1990. O grupo, que já era pequeno, foi dizimado, e um homem sobreviveu. Passou a viver sozinho, em abrigos simples, em estreita relação com a floresta.",
+        "Desde a década de 1990, a Funai manteve medidas especiais de restrição de uso e controle de acesso à área. Servidores tentaram se aproximar, mas ficou claro que ele não queria contato, e a política passou a ser respeitar essa decisão e apenas monitorá-lo, deixando eventualmente ferramentas e sementes nos locais por onde passava.",
+        "Em agosto de 2022, a Funai informou que ele havia morrido. Foi encontrado por equipe da Frente de Proteção Etnoambiental Guaporé, em sua moradia, sem sinais de violência. Sua etnia nunca foi identificada, e ele nunca aceitou contato.",
+        "As restrições, que antes protegiam uma vida, ganharam outro sentido. A área segue como espaço de memória de um povo exterminado e de respeito a quem resistiu."
       ],
       "sourceIds": [
-        "funai18",
-        "decreto"
+        "sintese",
+        "agbrasil"
+      ],
+      "citations": [
+        {
+          "sourceId": "sintese",
+          "locator": "p. 3"
+        },
+        {
+          "sourceId": "sintese",
+          "locator": "p. 4"
+        },
+        {
+          "sourceId": "sintese",
+          "locator": "p. 7"
+        },
+        {
+          "sourceId": "agbrasil",
+          "locator": "notícia de 28/08/2022"
+        }
       ],
       "images": []
     },
     {
-      "id": "presenca",
-      "eyebrow": "VIDA E RESISTÊNCIA",
-      "title": "Memória não é uma espécie de silêncio",
-      "question": "Como contar uma história cujos protagonistas não deixaram depoimentos públicos?",
+      "id": "floresta",
+      "eyebrow": "02 · A floresta",
+      "title": "Uma ilha de mata entre a Amazônia e o Cerrado",
+      "question": "O que cresce e vive no que sobrou da floresta?",
       "paragraphs": [
-        "Em seus relatos de acompanhamento, a Funai registrou vestígios da vida cotidiana do indígena, incluindo roças com plantas cultivadas. São referências concretas de relação com o território. A documentação, porém, não permite reconstruir suas ideias, crenças ou palavras. A diferença entre um vestígio documentado e uma interpretação imaginada é fundamental aqui.",
-        "Em agosto de 2022, a Funai anunciou a morte do último sobrevivente conhecido daquela comunidade, cuja identificação étnica permanecia desconhecida. A notícia não encerra a história dos povos indígenas de Rondônia, que seguem presentes e politicamente ativos. Também não faz desaparecer o significado histórico e cultural da terra onde essa pessoa viveu.",
-        "A criação do parque colocou essa memória entre as finalidades formais da proteção. Conservar sítios históricos e simbólicos significa reconhecer que a perda de vidas não pode apagar os vínculos do território com aqueles que o habitaram."
+        "A cobertura é predominantemente florestal, um mosaico de transições entre florestas ombrófilas e semideciduais. Os levantamentos de campo encontraram árvores de alto valor de conservação, como a castanheira e o mogno, e sinais de grandes mamíferos que se deslocam pelos corredores ao longo dos rios.",
+        "Entre os animais estão o macaco-aranha, o macaco-barrigudo, a onça-pintada, a anta e o queixada, espécies sensíveis à fragmentação do habitat. Armadilhas fotográficas da Funai registraram onça-parda e bandos de queixadas.",
+        "Num entorno de lavouras, o parque funciona como refúgio para a fauna e a flora e como elo entre remanescentes de mata. Dentro dos limites propostos, cerca de 141 hectares estão ocupados por pastagem, concentrados no sudeste e no oeste."
       ],
       "sourceIds": [
-        "funai18",
-        "funai22",
-        "decreto"
+        "decreto",
+        "sintese",
+        "analise"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º, I e II"
+        },
+        {
+          "sourceId": "sintese",
+          "locator": "p. 6"
+        },
+        {
+          "sourceId": "sintese",
+          "locator": "p. 7"
+        },
+        {
+          "sourceId": "analise",
+          "locator": "p. 10"
+        },
+        {
+          "sourceId": "analise",
+          "locator": "p. 17"
+        }
       ],
       "images": []
     },
     {
-      "id": "biodiversidade",
-      "eyebrow": "TERRA, ÁGUA E CORREDORES",
-      "title": "O que a floresta protege ao redor da memória?",
-      "question": "Por que rios, árvores e animais aparecem juntos no decreto?",
+      "id": "aguas",
+      "eyebrow": "03 · A água",
+      "title": "Corredores e recarga",
+      "question": "Por que um parque tão pequeno importa para a água e para outras áreas protegidas?",
       "paragraphs": [
-        "O novo parque protege um remanescente florestal numa zona de transição entre Amazônia e Cerrado. É uma paisagem em que a continuidade da vegetação importa não apenas pelas plantas, mas pelos ambientes que podem sustentar animais e pelos cursos d’água ligados à região.",
-        "O ato de criação destaca a onça-pintada, o macaco-aranha e o macaco-barrigudo como espécies para as quais se busca proteção. A lista é uma decisão de conservação, não a contagem de indivíduos observados em 2026. Da mesma forma, o objetivo de conectar as terras indígenas Rio Mequéns e Rio Omerê não equivale a provar que determinado animal atravessou esse corredor.",
-        "Água e solo entram nessa história de outro modo: a proteção inclui zonas de recarga do Sistema Aquífero Parecis. O valor de uma floresta não termina na superfície visível. Também se relaciona com o caminho das águas que alimentam sistemas maiores, ainda que o decreto não nos dê uma fotografia dessas correntes subterrâneas."
+        "O decreto inclui entre as finalidades do parque a proteção de recursos hídricos críticos e das zonas de recarga do Sistema Aquífero Parecis, além da consolidação de um corredor ecológico entre as Terras Indígenas Rio Mequéns e Rio Omerê.",
+        "Os estudos apontam que as margens dos rios são os trechos de maior pressão de acesso irregular e podem virar portas de entrada para atividades ilícitas. Em áreas de declive e de solos frágeis, no sudeste e no leste, qualquer intervenção adicional acelera a erosão."
       ],
       "sourceIds": [
         "decreto",
-        "ficha",
-        "consulta"
+        "analise"
       ],
-      "images": [],
-      "note": {
-        "title": "O limite de uma lista legal",
-        "body": "As espécies mencionadas são objetivos formais do decreto de criação. Não se trata de inventário completo nem de comprovação de indivíduos fotografados dentro do parque nesta edição."
-      }
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º, IV e V"
+        },
+        {
+          "sourceId": "analise",
+          "locator": "p. 10"
+        }
+      ],
+      "images": []
     },
     {
-      "id": "futuro",
-      "eyebrow": "PROTEÇÃO QUE PRECISA CONTINUAR",
-      "title": "Criar não é o mesmo que concluir",
-      "question": "O que ainda precisa acontecer depois do decreto?",
+      "id": "entorno",
+      "eyebrow": "04 · O entorno",
+      "title": "Soja, gado e uma floresta cercada",
+      "question": "Como é viver ao lado de uma fronteira agrícola?",
       "paragraphs": [
-        "Antes da criação, houve consulta pública com participação de lideranças indígenas. O Decreto nº 13.016, de 10 de junho de 2026, prevê gestão integrada com a Funai e em parceria com povos indígenas. Essa orientação é parte da própria estrutura legal do parque: a escuta não deve se encerrar com o ato de criação. A preservação da memória, a pesquisa e os usos futuros precisam respeitar pessoas, organizações e lugares culturais que não devem ser expostos.",
-        "Como em outras áreas protegidas, a existência jurídica do parque é um começo. A gestão precisa transformar objetivos em ações, acompanhar a situação do território e evitar que a curiosidade sobre uma história dolorosa leve à divulgação indevida de vestígios e lugares sensíveis. Há também questionamentos legislativos sobre o decreto, cuja tramitação não deve ser confundida com sua revogação.",
-        "O Parque Nacional Povos Indígenas do Rio Tanaru reúne duas responsabilidades que não podem ser separadas: proteger a vida que continua na floresta e reconhecer a violência que atingiu pessoas que viveram nela. Nenhuma das duas cabe numa fotografia solta do lugar."
+        "A economia dos municípios vizinhos se baseia em soja, milho e gado de corte, com irrigação por pivô central, grandes silos e pistas de pouso agrícola nas proximidades da área.",
+        "A pulverização aérea e terrestre de agrotóxicos na zona de amortecimento é um risco para a qualidade da água. Gramíneas exóticas, como a braquiária, já invadem as bordas da floresta, e o desmatamento e as queimadas seguem como ameaças ao parque.",
+        "Não há acesso público direto à área, hoje cercada por propriedades particulares. Isso significa que a gestão do parque dependerá de negociar passagens e desapropriações."
       ],
       "sourceIds": [
-        "consulta",
+        "sintese",
+        "analise"
+      ],
+      "citations": [
+        {
+          "sourceId": "sintese",
+          "locator": "p. 3"
+        },
+        {
+          "sourceId": "analise",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "analise",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "analise",
+          "locator": "p. 33"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "decreto",
+      "eyebrow": "05 · A criação",
+      "title": "Um decreto, seis finalidades",
+      "question": "O que o decreto determina para o parque?",
+      "paragraphs": [
+        "O Decreto nº 13.016, de 10 de junho de 2026, criou o parque, com área aproximada de 7.638 hectares nos municípios de Chupinguaia, Corumbiara, Parecis e Pimenteiras do Oeste. A proposta havia sido apresentada à consulta pública, com síntese dos estudos técnicos de fevereiro de 2026.",
+        "Entre as finalidades estão proteger o remanescente florestal da transição entre Amazônia e Cerrado, preservar os sítios arqueológicos, históricos e simbólicos ligados à memória do povo Tanaru e à resistência indígena e permitir pesquisa, educação ambiental e turismo ecológico, com ênfase na valorização da memória dos povos indígenas.",
+        "O ICMBio administra o parque e, segundo o decreto, deve fazê-lo em gestão conjunta com a Funai e em parceria com os povos indígenas."
+      ],
+      "sourceIds": [
         "decreto",
-        "pdl"
+        "sintese"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "arts. 1º e 7º"
+        },
+        {
+          "sourceId": "sintese",
+          "locator": "p. 1"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "A memória não termina no decreto",
-  "closing": "O nome Rio Tanaru remete a uma história humana que nenhuma descrição de flora ou fauna substitui. Floresta, nascentes e animais importam; importam também a memória de quem viveu ali, a proteção dos vestígios culturais e a participação dos povos indígenas na defesa do território. O desafio do parque é fazer a conservação olhar para tudo isso ao mesmo tempo — inclusive para aquilo que não deve ser mostrado.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "decreto",
+    "title": "Marcos do território",
+    "intro": "Da restrição de uso ao parque nacional.",
+    "items": [
+      {
+        "id": "1990",
+        "year": "Décadas de 1980–1990",
+        "title": "Ataques e invasões",
+        "description": "O povo indígena que vivia na região é atacado e dizimado; resta um sobrevivente.",
+        "sourceIds": [
+          "agbrasil",
+          "sintese"
+        ]
+      },
+      {
+        "id": "1990b",
+        "year": "Desde a década de 1990",
+        "title": "Restrição de uso",
+        "description": "A Funai passa a controlar o acesso à área para proteger o indígena isolado.",
+        "sourceIds": [
+          "sintese"
+        ]
+      },
+      {
+        "id": "2022",
+        "year": "2022",
+        "title": "Morte do último sobrevivente",
+        "description": "A Funai informa que ele foi encontrado morto em 23 de agosto, sem sinais de violência.",
+        "sourceIds": [
+          "agbrasil"
+        ]
+      },
+      {
+        "id": "2026a",
+        "year": "Fev. 2026",
+        "title": "Síntese dos estudos técnicos",
+        "description": "O ICMBio apresenta a proposta de criação do parque à consulta pública.",
+        "sourceIds": [
+          "sintese"
+        ]
+      },
+      {
+        "id": "2026b",
+        "year": "10 jun. 2026",
+        "title": "Decreto nº 13.016",
+        "description": "O decreto cria o Parque Nacional Povos Indígenas do Rio Tanaru.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Proteger a floresta e lembrar quem viveu nela",
+  "closing": "O Tanaru reúne duas tarefas que não se separam: manter de pé um remanescente de floresta numa região de lavouras e guardar a memória de um povo que não existe mais. O que está dentro do parque merece cuidado, e o que não se pode mostrar também.",
   "references": [
     {
       "id": "decreto",
-      "institution": "Presidência da República / Câmara dos Deputados",
-      "title": "Decreto nº 13.016, de 10 de junho de 2026 — criação do Parque Nacional Povos Indígenas do Rio Tanaru",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 13.016, de 10 de junho de 2026 (cria o Parque Nacional Povos Indígenas do Rio Tanaru)",
       "url": "https://www2.camara.leg.br/legin/fed/decret/2026/decreto-13016-10-junho-2026-799337-publicacaooriginal-179881-pe.html",
-      "accessedAt": "2026-10-21",
-      "use": "Art. 1º (objetivos e área), Art. 2º (limites legais sem reproduzir coordenadas) e Art. 4º (regime jurídico)"
+      "accessedAt": "2026-10-23",
+      "use": "área, municípios, finalidades, zona de amortecimento e gestão"
     },
     {
-      "id": "ficha",
+      "id": "sintese",
       "institution": "ICMBio",
-      "title": "Parna Povos Indígenas do Rio Tanaru — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-povos-indigenas-do-rio-tanaru",
-      "accessedAt": "2026-10-21",
-      "use": "Nome atual, data de criação, 7.638 hectares e classificação institucional na Amazônia"
+      "title": "Síntese dos estudos técnicos: Parque Nacional do Tanaru (fevereiro de 2026)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/criacao-de-unidades-de-conservacao/lista-de-consultas-publicas/Sintese_Parque_Nacional_do_Tanaru.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "histórico da proposta, biodiversidade, aspectos fundiários e simbólicos; páginas conforme a numeração do PDF"
     },
     {
-      "id": "funai18",
-      "institution": "Fundação Nacional dos Povos Indígenas — Funai",
-      "title": "Índio isolado da TI Tanaru — o sobrevivente que a Funai acompanha há 22 anos (18/07/2018)",
-      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2018/indio-isolado-da-ti-tanaru-o-sobrevivente-que-a-funai-acompanha-ha-22-anos",
-      "accessedAt": "2026-10-21",
-      "use": "Proteção territorial desde os anos 1990, política de não contato, violência histórica, roças registradas e atribuição institucional"
+      "id": "analise",
+      "institution": "ICMBio",
+      "title": "Proposta para a criação do Parque Nacional do Tanaru, em Rondônia: relatório de análise integrada",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/criacao-de-unidades-de-conservacao/lista-de-consultas-publicas/03_RELATORIO_ANALISE_INTEGRADA_TANARU.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "vegetação, uso da terra, entorno e pressões; páginas conforme a numeração do PDF"
     },
     {
-      "id": "funai22",
-      "institution": "Fundação Nacional dos Povos Indígenas — Funai",
-      "title": "Nota de pesar — Índio Tanaru (27/08/2022)",
-      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2022-02/nota-de-pesar-indio-tanaru",
-      "accessedAt": "2026-10-21",
-      "use": "Comunicação oficial sobre a morte do último sobrevivente conhecido da comunidade em 23/08/2022; origem étnica desconhecida"
-    },
-    {
-      "id": "consulta",
-      "institution": "Fundação Nacional dos Povos Indígenas — Funai",
-      "title": "Funai participa de consulta pública para criação do parque do Tanaru (27/02/2026)",
-      "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2026/funai-participa-de-consulta-publica-para-criacao-do-parque-nacional-dos-povos-indigenas-de-tanaru-em-rondonia",
-      "accessedAt": "2026-10-21",
-      "use": "Consulta de 26 de fevereiro de 2026, participação de lideranças e panorama de florestas, rios e nascentes"
-    },
-    {
-      "id": "pdl",
-      "institution": "Câmara dos Deputados",
-      "title": "PDL 609/2026 — proposta de sustação do decreto de criação",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2632224",
-      "accessedAt": "2026-10-21",
-      "use": "Contexto jurídico de questionamentos parlamentares, sem afirmar revogação do decreto"
-    },
-    {
-      "id": "taxon",
-      "institution": "ICMBio / Centro Nacional de Pesquisa e Conservação de Primatas Brasileiros",
-      "title": "Avaliação de risco de Lagothrix cana cana — macaco-barrigudo",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_lagothrix_cana_cana.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Nome popular e divergência de classificação taxonômica em relação ao decreto e a fontes globais"
+      "id": "agbrasil",
+      "institution": "Agência Brasil",
+      "title": "Morre último remanescente de grupo indígena isolado na Amazônia (28/08/2022)",
+      "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2022-08/morre-ultimo-remanescente-de-grupo-indigena-isolado-na-amazonia",
+      "accessedAt": "2026-10-23",
+      "use": "morte do indígena isolado, acompanhamento da Funai e contexto dos ataques"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "nenhuma_fotografia_liberada",
-  "editorialNotes": "Expedição nova em revisão. Decreto lido integralmente no texto de publicação original. Funai 2018/2022/2026 foi consultada por registros públicos indexados, com páginas que por vezes bloquearam abertura; a distinção é registrada. Nenhuma imagem liberada por ausência de licença/local e autorização editorial adequadas, sobretudo para referências culturais sensíveis. Nenhuma coordenada reproduzida. | Curadoria v2.8: gestão integrada ICMBio/Funai e parceria com povos indígenas confrontadas com Decreto 13.016/2026; sem adicionar coordenadas sensíveis ou imagem não licenciada.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Texto sensível: rever com a Funai e com as comunidades indígenas antes de aprovar. Sem retratos, sem coordenadas, sem localização de vestígios. Apelido popular do indígena omitido de propósito. Páginas da Funai (2018, 2022 e 2026) retornaram 'conteúdo restrito'; fatos de 2022 conferidos na Agência Brasil. Há PDL 610/2026 no Senado para sustar o decreto: acompanhar. Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons. Sem foto por respeito ao tema."
 }

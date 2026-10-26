@@ -1,158 +1,315 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional da Serra do Pardo",
-  "title": "Serra do Pardo: uma floresta ainda em investigação",
-  "subtitle": "Às margens do Xingu, árvores, rios e registros de aves revelam por que um grande território amazônico precisa de proteção e de ciência continuada.",
-  "centralQuestion": "O que sabemos sobre uma floresta — e o que ainda precisamos investigar?",
+  "title": "Serra do Pardo: duas serras, um rio imenso e a muralha da Terra do Meio",
+  "subtitle": "Às margens do Xingu, no Pará, 445 mil hectares de floresta guardam serras de mais de 500 metros, igarapés isolados no alto e uma fauna que a ciência só começou a conhecer.",
+  "centralQuestion": "Por que um parque pouco visitado e ainda pouco estudado pesa tanto na proteção da Amazônia?",
   "introduction": [
-    "No sudeste do Pará, o rio Xingu e seus afluentes ajudam a organizar a paisagem do Parque Nacional da Serra do Pardo. Das margens aos trechos de floresta mais afastados, a água cria ambientes diferentes para plantas, aves e mamíferos.",
-    "Uma castanheira registrada em campo e um inventário de aves realizado em nove pontos dão rosto a essa diversidade. São observações concretas, feitas em datas e lugares determinados — pistas importantes para conhecer o parque, mas não um retrato completo de toda a sua extensão."
+    "Visto do rio Xingu, ao nascer do sol, o Parque Nacional da Serra do Pardo é uma faixa escura de floresta. Para chegar à base do parque, saindo de Altamira, são cerca de dez horas de barco na cheia e dezesseis na seca.",
+    "Atrás dessa margem escondem-se duas serras, igarapés de nascentes isoladas e uma enorme continuidade de mata, que segura, na fronteira da Terra do Meio, o avanço do desmatamento."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares protegidos, em Altamira e São Félix do Xingu (PA)",
+      "value": "445.413",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "metros de altitude no ponto mais alto da serra principal",
+      "value": "546 m",
+      "sourceId": "pm",
+      "locator": "p. 83"
+    },
+    {
+      "label": "espécies de plantas identificadas, de mais de 90 famílias",
+      "value": "557",
+      "sourceId": "pm",
+      "locator": "p. 166"
+    },
+    {
+      "label": "espécies de aves, 19 delas restritas a interflúvios do Xingu e do Tapajós",
+      "value": "308",
+      "sourceId": "pm",
+      "locator": "p. 166"
+    },
+    {
+      "label": "espécies de mamíferos não voadores conhecidas",
+      "value": "67",
+      "sourceId": "pm",
+      "locator": "p. 166"
+    },
+    {
+      "label": "hectares de floresta e áreas protegidas na Terra do Meio, entre o Xingu e o Iriri",
+      "value": "8,3 milhões",
+      "sourceId": "pm",
+      "locator": "p. 166"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Inselberg",
+      "definition": "Pequena montanha isolada e arredondada; os inselbergs do parque, agrupados, formam as duas serras.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Igarapé",
+      "definition": "Curso d'água amazônico de pequeno porte; o igarapé Pontal é um dos principais do parque.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Arco do desmatamento",
+      "definition": "Faixa em que a fronteira agrícola do centro-sul avança sobre a floresta, onde estão os maiores índices de desmatamento da Amazônia.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Terra do Meio",
+      "definition": "Região do Pará entre os rios Xingu e Iriri, com um conjunto de unidades de conservação e terras indígenas.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/ParqueNacionalSerraDoPardo_Ricardo_Sol_Dagnino_2008.JPG?width=1200",
-    "alt": "Vista de rio amazônico ao amanhecer, atribuída pelo fotógrafo ao Parque Nacional da Serra do Pardo.",
-    "author": "Ricardo Dagnino (Ricardosdag)",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/ParqueNacionalSerraDoPardo_Esperando_a_chuva_no_Rio_Xingu_Ricardo_Dagnino_2008.JPG",
+    "author": "Ricardo de Sampaio Dagnino",
     "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParqueNacionalSerraDoPardo_Ricardo_Sol_Dagnino_2008.JPG",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Rio Xingu fotografado ao amanhecer no Parque Nacional da Serra do Pardo, segundo o autor. Ricardo Dagnino, 2008, CC BY-SA 3.0."
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParqueNacionalSerraDoPardo_Esperando_a_chuva_no_Rio_Xingu_Ricardo_Dagnino_2008.JPG",
+    "width": 1280,
+    "height": 960,
+    "alt": "Rio Xingu sob nuvens carregadas de chuva, com a floresta na outra margem.",
+    "context": "O rio Xingu antes da chuva, dentro do Parque Nacional da Serra do Pardo, em fotografia de 2008."
   },
   "moments": [
     {
-      "id": "rios",
-      "eyebrow": "O MAPA COMEÇA PELA ÁGUA",
-      "title": "O Xingu não é só a borda do parque",
-      "question": "Como rios e florestas ajudam a formar o território?",
+      "id": "serras",
+      "eyebrow": "01 · As serras",
+      "title": "Dois colares de pequenas montanhas",
+      "question": "Que relevo dá nome ao parque?",
       "paragraphs": [
-        "O Parque Nacional da Serra do Pardo fica numa parte do Pará em que rios grandes e pequenos ajudam a organizar o relevo. Seu decreto de criação menciona o Pardo, o Xingu e uma sucessão de igarapés. No mapa, eles delimitam setores do território; na paisagem, são parte das condições que fazem certos ambientes terem água, margens úmidas e vegetação própria.",
-        "A confluência de cursos d’água cria margens de formatos e condições distintos. Um igarapé sombreado pode atravessar floresta fechada antes de alcançar rios maiores; já áreas ribeirinhas mudam conforme a vazão. Essa variedade ajuda a explicar por que o estudo de uma única margem, por mais detalhado que seja, não representa todo o parque.",
-        "O Xingu não termina nas margens que vemos ao nascer do sol. Igarapés e trechos de floresta mais afastados fazem parte da mesma paisagem, com condições de água e abrigo que variam de um lugar para outro. Seguir essa rede permite passar do rio às pesquisas sobre árvores, aves e mamíferos dos próximos capítulos."
+        "O parque tem esse nome por causa da Serra do Rio Pardo e da cachoeira de mesmo nome, dentro de seus limites. O relevo é de colinas e de inúmeros morros residuais, os inselbergs, isolados ou agrupados em cristas, às vezes em forma de pão de açúcar.",
+        "Esses inselbergs formam as duas serras do parque. A primeira acompanha os limites sudoeste por cerca de 100 quilômetros, com altitude média acima de 400 metros e máxima de 546. A segunda tem formato de ferradura, cerca de 40 quilômetros de extensão e até 517 metros; não há estudos registrados sobre ela.",
+        "No alto, o plano de manejo descreve um estado de conservação excelente, preservado pela dificuldade de acesso."
       ],
       "sourceIds": [
-        "decreto-pardo"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 25"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 78"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 83–84"
+        }
       ],
       "images": []
     },
     {
-      "id": "floresta",
-      "eyebrow": "UMA FLORESTA DE ESCALAS",
-      "title": "Uma castanheira marcada pelo fogo",
-      "question": "O que se perde quando chamamos tudo apenas de floresta?",
+      "id": "aguas",
+      "eyebrow": "02 · As águas",
+      "title": "Peixes isolados acima de uma cachoeira",
+      "question": "Como a água organiza a vida na serra?",
       "paragraphs": [
-        "Uma castanheira chama a atenção na pesquisa de campo realizada na Serra do Pardo. Em uma fotografia de 2008, o autor a descreve como queimada, mas o registro não revela quando o fogo passou nem sua origem. Entre a árvore marcada e a história do incêndio existe uma lacuna: a floresta guarda sinais que nem sempre permitem reconstruir o acontecimento completo.",
-        "A floresta do parque reúne margens de rios, áreas de interior e trechos com histórias de perturbação distintas. Para aves, mamíferos e árvores, isso se traduz em oferta desigual de luz, água, abrigo e alimento. A castanheira fotografada em 2008 abre uma porta para essa diversidade; não explica sozinha o que aconteceu com o fogo nem resume o estado de conservação do entorno."
+        "A serra principal é uma das áreas mais importantes para a recarga dos aquíferos do parque. Seus igarapés formam as nascentes da bacia do igarapé Pontal, um dos principais corpos d'água de uma região de terra firme pobre em sistemas hídricos.",
+        "No alto, uma cachoeira de cerca de 30 metros funciona como barreira para boa parte dos peixes das terras baixas do Xingu. Acima dela, os pesquisadores encontraram apenas seis espécies, todas de pequeno porte. Sem peixes predadores por ali, um pequeno peixe, Rivulus aff. punctatus, nada abertamente na coluna d'água, algo incomum para a espécie.",
+        "O levantamento de 2012, em 18 locais, identificou 158 espécies de peixes, e as amostras do parque acrescentaram 54 espécies aos registros da Terra do Meio."
       ],
       "sourceIds": [
-        "expedicao-pardo",
-        "decreto-pardo"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 83"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 106"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 109"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "vida",
+      "eyebrow": "03 · A vida",
+      "title": "Floresta contínua, aves raras e grandes mamíferos",
+      "question": "O que o tamanho da floresta garante?",
+      "paragraphs": [
+        "A extensão contínua da floresta mantém animais de grande área de vida, como os grandes gaviões, mutuns e araras: o gavião-de-penacho, o mutum-cavalo e a arara-azul-grande. O parque abriga 308 espécies de aves; ao menos 19 têm distribuição restrita aos interflúvios Xingu–Tapajós e Tapajós–Madeira, e há registros de aves raras como o jacupiranga e o saurá-de-pescoço-preto.",
+        "A flora inventariada soma 557 espécies. Quatro delas constam da Lista Vermelha do Pará: a castanheira, a araracanga, a itaúba e o cedro. Por causa da geologia, ocorrem também plantas típicas do cerrado, como a canela-de-ema, o muruci-do-campo, o mandacaru e as sempre-vivas.",
+        "Entre os 67 mamíferos não voadores conhecidos, ao menos oito estão em risco, como a jaguatirica, a onça-pintada, a ariranha, o tatu-canastra e o tamanduá-bandeira. A ariranha foi registrada no rio Xingu e no igarapé Pontal."
+      ],
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 117"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 127"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 166"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "terra-do-meio",
+      "eyebrow": "04 · A Terra do Meio",
+      "title": "Uma barreira no limite do arco do desmatamento",
+      "question": "Por que o parque foi criado?",
+      "paragraphs": [
+        "A Terra do Meio se estende por cerca de 8,3 milhões de hectares entre os rios Xingu e Iriri e reúne unidades de conservação e terras indígenas. O parque ocupa uma posição estratégica, de frente para o arco do desmatamento, e serve, com as outras áreas protegidas, como barreira ao avanço do desflorestamento.",
+        "Ele foi criado por decreto de 17 de fevereiro de 2005, ao mesmo tempo que a Estação Ecológica da Terra do Meio, como parte do plano federal de combate ao desmatamento na Amazônia Legal, numa região fortemente pressionada pela grilagem de terras. O plano de manejo foi aprovado em 2015.",
+        "No desenho final, parte das áreas ocupadas por ribeirinhos que a proposta original destinava a uma reserva extrativista ficou dentro do parque, o que gerou conflitos."
+      ],
+      "sourceIds": [
+        "pm",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 32"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 35–36"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 166"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · O acesso",
+      "title": "Um parque que ainda não recebe visitantes",
+      "question": "É possível visitar?",
+      "paragraphs": [
+        "O uso público não ocorre, e ainda não foram feitos estudos para um plano de uso público. O acesso é por barco, por estrada desde São Félix do Xingu ou de avião fretado: cerca de uma hora de Altamira até a pista do parque, ou meia hora a partir de São Félix.",
+        "As pesquisas desenvolvidas se concentram no meio biótico e no etnográfico, e a fiscalização inclui operações anuais no rio Xingu. Os conflitos citados pelo plano são fazendas com gado, incêndios em pastos abandonados e pesca e caça ilegais nos igarapés Pontal e no rio Pardo."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 25"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 32"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/ParqueNacionalSerraDoPardo_Castanheira_Ricardo_Dagnino_2008.JPG?width=1200",
-          "alt": "Tronco de castanheira com sinais de queima, fotografado dentro do parque segundo o registro do autor.",
-          "author": "Ricardo Dagnino (Ricardosdag)",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/ParqueNacionalSerraDoPardo_Ricardo_Sol_Dagnino_2008.JPG",
+          "author": "Ricardo Dagnino",
           "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParqueNacionalSerraDoPardo_Castanheira_Ricardo_Dagnino_2008.JPG",
-          "context": "Castanheira descrita como queimada em fotografia do autor de 2008: não indica causa ou tendência temporal. Localização: Parque Nacional da Serra do Pardo, Pará, segundo descrição do autor; ainda não homologada independentemente."
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParqueNacionalSerraDoPardo_Ricardo_Sol_Dagnino_2008.JPG",
+          "width": 1280,
+          "height": 960,
+          "alt": "Sol baixo sobre o rio Xingu, com a floresta recortada contra o céu alaranjado.",
+          "context": "Nascer do sol sobre o rio Xingu, no Parque Nacional da Serra do Pardo, em fotografia de 2008."
         }
       ]
-    },
-    {
-      "id": "aves",
-      "eyebrow": "UM CONHECIMENTO QUE SE CONSTRÓI",
-      "title": "As vozes de uma floresta que ainda se conhece",
-      "question": "Como um pesquisador descobre quem vive numa floresta?",
-      "paragraphs": [
-        "Em maio de 2009, a Serra do Pardo foi escutada e observada em nove pontos de pesquisa. Os cientistas reconheceram 197 espécies de aves, distribuídas em 49 famílias, entre elas jacupiranga e arara-azul-grande. O número dá uma dimensão da diversidade encontrada naquela campanha, sem pretender encerrar o inventário de toda a floresta.",
-        "Nem toda ave precisa aparecer para ser percebida. No alto da copa, um canto pode denunciar a presença de uma espécie que continua escondida entre as folhas. Foi assim, combinando sons e observação, que o levantamento de 2009 reuniu sua lista. Outros percursos e estações podem revelar espécies que aqueles nove pontos não alcançaram.",
-        "Uma expedição posterior divulgou outro conjunto de números preliminares, diferente do primeiro. Isso não quer dizer que a população de aves cresceu de um ano para o outro. Pesquisas com épocas, rotas e esforço distintos registram recortes diferentes da realidade. A ciência se fortalece quando cada lista vem acompanhada do modo como foi produzida."
-      ],
-      "sourceIds": [
-        "aves-pardo",
-        "expedicao-pardo"
-      ],
-      "images": [],
-      "note": {
-        "title": "Listas não são censos de 2026",
-        "body": "197 espécies correspondem ao levantamento de maio de 2009 em nove pontos. A expedição de 2010 apresentou números preliminares; resultados não são diretamente comparáveis."
-      }
-    },
-    {
-      "id": "mamiferos",
-      "eyebrow": "MORADORES DIFÍCEIS DE OBSERVAR",
-      "title": "A presença pode ser conhecida sem encontro casual",
-      "question": "Quais animais entram na história desse território?",
-      "paragraphs": [
-        "Os registros institucionais incluem onça-pintada e ariranha entre as espécies protegidas pela unidade. Em levantamento de campo divulgado em 2010, pesquisadores também relacionaram mamíferos como anta, paca e capivara. Essas ocorrências ajudam a pensar numa paisagem que reúne áreas de floresta e ambientes de água, importantes de maneiras diferentes para os animais.",
-        "Mas ocorrência não é garantia de avistamento e nenhuma dessas listas estabelece quantos indivíduos restam hoje. O conhecimento depende de novas campanhas, de métodos adequados a cada grupo de animais e de proteção continuada do habitat. Um parque extenso não dispensa pesquisa: torna a pesquisa ainda mais necessária."
-      ],
-      "sourceIds": [
-        "icmbio-pardo",
-        "expedicao-pardo"
-      ],
-      "images": []
-    },
-    {
-      "id": "tempo",
-      "eyebrow": "O VALOR DO QUE AINDA FALTA SABER",
-      "title": "Conservar também é manter lugar para perguntas",
-      "question": "O que uma área protegida ganha com pesquisas sucessivas?",
-      "paragraphs": [
-        "Criado em 2005, o Parque Nacional da Serra do Pardo integra o esforço de conservar ecossistemas da região conhecida como Terra do Meio. O decreto prevê pesquisa científica, educação e interpretação ambiental. A decisão de proteger o território veio acompanhada da necessidade de descobrir mais sobre ele, porque listas iniciais de espécies jamais descrevem tudo.",
-        "A Serra do Pardo pertence à Terra do Meio, região onde proteger grandes blocos de floresta evita que rios, margens e habitats sejam reduzidos a fragmentos isolados. A extensão oficial de 445.413,45 hectares informa a dimensão administrativa da unidade, mas não substitui o trabalho de campo necessário para saber quais espécies ocupam cada ambiente.",
-        "Quando voltamos do mapa ao rio, da árvore às aves e dos animais aos pesquisadores, aparece a força desta história: conservar não depende de fingir que sabemos tudo. Depende de proteger os ambientes e registrar com precisão aquilo que foi observado, em qual época e com quais limites."
-      ],
-      "sourceIds": [
-        "decreto-pardo",
-        "aves-pardo",
-        "expedicao-pardo"
-      ],
-      "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "O que fica desta paisagem",
-  "closing": "A Serra do Pardo não se resume a um número de hectares nem a uma lista que pareça definitiva. Sua história é feita de rios, florestas e pessoas que voltam a observá-los. A proteção conserva habitats; a pesquisa ajuda a compreender o que a proteção significa para os seres que vivem neles.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "terra-do-meio",
+    "title": "Marcos da proteção",
+    "intro": "Da criação à aprovação do plano de manejo.",
+    "items": [
+      {
+        "id": "2005",
+        "year": "17 fev. 2005",
+        "title": "Criação do parque",
+        "description": "Decreto sem número cria o parque e, na mesma data, a Estação Ecológica da Terra do Meio.",
+        "sourceIds": [
+          "pm",
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2006",
+        "year": "2006–2008",
+        "title": "Completa-se a Terra do Meio",
+        "description": "São criadas as Resex do Rio Iriri e do Rio Xingu e áreas estaduais, completando o conjunto de unidades.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2010-2012",
+        "year": "2010–2012",
+        "title": "Levantamentos de fauna e flora",
+        "description": "Expedições de avaliação ecológica rápida e do PPBio inventariam peixes, aves e mamíferos.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2015",
+        "year": "22 dez. 2015",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 60 aprova o primeiro plano de manejo do parque.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que ainda se está conhecendo",
+  "closing": "Poucas pessoas viram as serras do alto, e muito da vida do parque ainda espera por inventário. O que já se sabe basta para entender o valor dessa muralha de floresta: ela mantém inteira uma paisagem que o desmatamento ameaça fragmentar.",
   "references": [
     {
-      "id": "icmbio-pardo",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parna da Serra do Pardo — ficha da unidade",
+      "title": "Página institucional do Parque Nacional da Serra do Pardo",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-pardo/parna-da-serra-do-pardo",
-      "accessedAt": "2026-10-21",
-      "use": "Área atual, criação e espécies ameaçadas listadas para a unidade"
+      "accessedAt": "2026-10-23",
+      "use": "área, ato de criação, plano de manejo e espécies ameaçadas listadas"
     },
     {
-      "id": "decreto-pardo",
-      "institution": "Presidência da República / Câmara dos Deputados",
-      "title": "Decreto de 17 de fevereiro de 2005 — criação do Parque Nacional da Serra do Pardo",
-      "url": "https://www2.camara.leg.br/legin/fed/decret_sn/2005/decreto-35344-17-fevereiro-2005-535744-publicacaooriginal-25103-pe.html",
-      "accessedAt": "2026-10-21",
-      "use": "Art. 1º, delimitação ligada aos rios Pardo e Xingu no art. 2º, município e finalidade"
-    },
-    {
-      "id": "aves-pardo",
-      "institution": "Fernando de Lima Fávaro / Ornithologia, ICMBio-CEMAVE",
-      "title": "Aves do Parque Nacional da Serra do Pardo, Pará, Brasil: Levantamento inicial (2011)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/aves-silvestres/produtos-e-servicos/revista-ornithologia/arquivos_pdf_revistas/ornithologia_04_2_2011.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Resumo e metodologia do levantamento realizado em nove pontos internos em maio de 2009; espécies e ambientes amostrados"
-    },
-    {
-      "id": "expedicao-pardo",
-      "institution": "WWF-Brasil / Ligia Paes de Barros",
-      "title": "Espécies encontradas no Parque Nacional da Serra do Pardo (21/12/2010)",
-      "url": "https://www.wwf.org.br/?27233%2FEspecies-encontradas-no-Parque-Nacional-da-Serra-do-Pardo=",
-      "accessedAt": "2026-10-21",
-      "use": "Relato de expedição 2010: diversidade observada em campanha; nomes de flora e fauna; números preliminares"
+      "id": "pm",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Serra do Pardo (2015) (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-pardo/arquivos/dcom_plano_de_manejo_parna_serra_do_pardo_18092015.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "relevo, águas, fauna, flora, criação e acesso; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_fotos_commons_licencas_documentadas_local_atribuido_por_autores",
-  "editorialNotes": "Reportagem inédita para análise editorial humana. Proveniência e limites estão em dossie.md, claims.json e pendencias.md. Nenhuma aprovação, integração, validação cartográfica ou publicação foi presumida. | Rodada v1.2.3: reescrita de passagens explicativas e aprofundamento de capítulos; checagem factual integral e homologação ainda pendentes.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: área do plano (446.552 ha) difere da página do ICMBio (445.413,45 ha), adotada a do ICMBio; fotos de 2008 com largura original de 1.280 px (abaixo do ideal, sem substituta livre com prova de lugar); conferir o decreto no Planalto; revisão humana."
 }

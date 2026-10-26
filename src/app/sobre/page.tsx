@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/sobre" },
 };
 
-const CONTACT = process.env.NEXT_PUBLIC_CONTACT_EMAIL;
+const CONTACT = SITE.contact;
 
 const SOURCES = [
   { name: "ICMBio", use: "limites, áreas, atos de criação, planos de manejo e fichas dos parques", url: "https://www.gov.br/icmbio" },

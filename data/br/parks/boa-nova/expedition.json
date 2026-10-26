@@ -1,161 +1,310 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional de Boa Nova",
-  "title": "Boa Nova: o pássaro que depende de uma floresta entre mundos",
-  "subtitle": "Entre a Caatinga mais seca e as matas úmidas, a mata de cipó abriga o gravatazeiro — e expõe por que conservar uma transição exige olhar também para seus fragmentos.",
-  "centralQuestion": "O que a vida de uma ave pequena revela sobre uma paisagem de grandes contrastes?",
+  "title": "Boa Nova: a mata de cipó onde mora o gravatazeiro",
+  "subtitle": "No sudoeste da Bahia, uma serra faz a Caatinga e a Mata Atlântica se encontrarem em poucos quilômetros, e entre elas cresce uma floresta de transição que abriga cerca de 450 espécies de aves.",
+  "centralQuestion": "O que acontece com a vida quando dois biomas se encontram em uma só serra?",
   "introduction": [
-    "Nem toda floresta na Bahia é igualmente úmida. Na região de Boa Nova, a paisagem muda ao longo de uma faixa relativamente estreita: de um lado há ambientes de Caatinga, no meio uma mata sazonal rica em cipós e, mais adiante, florestas de características atlânticas.",
-    "Nessa transição vive o gravatazeiro, uma ave que fez da mata de cipó um lugar de sobrevivência. Seu habitat ajuda a ler o Parque Nacional de Boa Nova de um jeito que uma única vista não conseguiria: entre formações vegetais, pequenas áreas de floresta que ainda existem e rios que as conectam."
+    "Em um percurso de 25 quilômetros em Boa Nova, é possível sair da Caatinga seca, atravessar uma floresta baixa e emaranhada de cipós e chegar a uma Mata Atlântica úmida, com árvores de mais de 20 metros. A serra explica o truque: ela barra os ventos úmidos do litoral e distribui a chuva de modo desigual.",
+    "O parque nacional, criado em 2010 junto com um refúgio de vida silvestre vizinho, protege esse mosaico em cinco áreas separadas. É um território todo ainda em mãos particulares, e é também a casa do gravatazeiro, ave que só existe na mata de cipó e virou símbolo da região."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares do parque, divididos em cinco blocos separados",
+      "value": "12.065",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    },
+    {
+      "label": "hectares do Refúgio de Vida Silvestre, que conecta os blocos do parque",
+      "value": "15.024",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    },
+    {
+      "label": "variação de altitude média da serra, em metros",
+      "value": "700 a 1.115",
+      "sourceId": "pm",
+      "locator": "p. 13"
+    },
+    {
+      "label": "espécies de aves, mais da metade da avifauna da Bahia",
+      "value": "≈ 450",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    },
+    {
+      "label": "espécies de aves ameaçadas de extinção",
+      "value": "35",
+      "sourceId": "pm",
+      "locator": "p. 18"
+    },
+    {
+      "label": "da vegetação do parque está preservada ou em regeneração",
+      "value": "81,3%",
+      "sourceId": "pm",
+      "locator": "p. 17"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Mata de cipó",
+      "definition": "Floresta estacional de transição entre a Caatinga e a Mata Atlântica, de árvores baixas, de 10 a 12 metros, com muitos cipós e o chão coberto de bromélias.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Lajedo",
+      "definition": "Afloramento rochoso de altitude, com pouco solo e pouca água, onde a vegetação cresce nas fissuras. O Lajedo dos Beija-flores concentra a observação dessas aves.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Refúgio de vida silvestre",
+      "definition": "Categoria de unidade de conservação que, em Boa Nova, forma blocos de conexão entre as áreas do parque nacional.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Cabruca",
+      "definition": "Sistema de cultivo de cacau sob a sombra da vegetação nativa, comum nos blocos de Mata Atlântica da região.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_de_Boa_Nova_-_Uanderson_Souza_(05).jpg?width=1200",
-    "alt": "Três pequenas aves verdes próximas umas das outras sobre um fio de arame, diante de folhas e madeira.",
-    "author": "Uanderson09",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Parna_Boa_Nova_-_Mata_de_Cipo.jpg/1280px-Parna_Boa_Nova_-_Mata_de_Cipo.jpg",
+    "author": "Rjsaneto",
     "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Boa_Nova_-_Uanderson_Souza_(05).jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Três aves verdes fotografadas em Boa Nova; espécie não determinada, e não são apresentadas como gravatazeiro. Foto: Uanderson09 / Wikimedia Commons, CC BY-SA 4.0."
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parna_Boa_Nova_-_Mata_de_Cipo.jpg",
+    "width": 1280,
+    "height": 851,
+    "alt": "Interior de mata de cipó, com troncos finos e retorcidos, cipós e chão coberto de folhas secas.",
+    "context": "Mata de cipó no Parque Nacional de Boa Nova (BA), a floresta estacional de transição entre a Caatinga e a Mata Atlântica."
   },
   "moments": [
     {
       "id": "transicao",
-      "eyebrow": "UM PARQUE, DIFERENTES FLORESTAS",
-      "title": "A mudança começa antes de o verde desaparecer",
-      "question": "Como a paisagem pode ser Caatinga e Mata Atlântica ao mesmo tempo?",
+      "eyebrow": "01 · A serra",
+      "title": "Três paisagens em 25 quilômetros",
+      "question": "Como uma serra separa o seco do úmido?",
       "paragraphs": [
-        "O parque não é um bloco florestal uniforme. Seu plano de manejo descreve cinco setores territorialmente separados, distribuídos entre a Caatinga, a mata de cipó e áreas de Mata Atlântica mais úmidas. A mata de cipó é uma floresta estacional: em períodos mais secos, parte das árvores perde folhas e a luz alcança de outra maneira o seu interior.",
-        "Há também plantas com modos distintos de lidar com a água. No levantamento dos ambientes secos da região protegida são citados o umbuzeiro (Spondias tuberosa) e o caroá (Neoglaziovia variegata), bromélia com nome popular confirmado em bases botânicas. A documentação, porém, descreve o conjunto do parque e do Refúgio de Vida Silvestre vizinho: esses nomes não autorizam localizar cada planta num setor específico do parque sem registro próprio.",
-        "A transição não funciona como três faixas perfeitamente desenhadas. Em encostas, vales e áreas de altitude diferente, a umidade e o tipo de solo mudam o aspecto da vegetação em distâncias relativamente curtas. A mata de cipó ocupa uma posição ecológica decisiva nesse encontro: conserva espécies de ambiente florestal sem ser idêntica às florestas mais úmidas da Mata Atlântica.",
-        "O limite administrativo é igualmente importante: o Parque Nacional e o Refúgio de Vida Silvestre de Boa Nova foram criados em 2010, mas são unidades diferentes. Uma protege cinco setores; o outro contribui para conectar porções da paisagem. Confundir seus mapas faria perder justamente o fenômeno ecológico que interessa contar."
+        "O parque e o refúgio ficam na Serra da Ouricana, com altitudes médias de 700 a 1.115 metros e o Morro do Inglês como ponto mais alto. Os ventos úmidos do litoral batem na serra e deixam sua vertente de frente para o mar mais chuvosa; do outro lado, a chuva é menor.",
+        "Da zona úmida, com mais de 1.200 mm de chuva por ano e Mata Atlântica de dossel acima de 20 metros, a paisagem passa a uma faixa de transição, entre 700 e 1.200 mm, onde está a mata de cipó, com neblina de julho a setembro. Depois vem a área seca, de 350 a 700 mm por ano, com caatinga arbóreo-arbustiva, cactos, umbuzeiros e caroá.",
+        "Os cursos d'água também nascem da serra. Os blocos de Mata Atlântica são um berço das águas, com riachos como o Engenho, o do Norte, o da Piabanha e os rios Preto e Vermelho."
       ],
       "sourceIds": [
-        "plano-boa",
-        "ficha-boa",
-        "revis-boa",
-        "caroa"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        }
       ],
       "images": []
     },
     {
-      "id": "gravatazeiro",
-      "eyebrow": "UM HABITANTE DO SUB-BOSQUE",
-      "title": "O gravatazeiro encontra alimento onde muita gente só vê folhas",
-      "question": "Por que a mata de cipó precisa continuar conectada?",
+      "id": "flora",
+      "eyebrow": "02 · A vegetação",
+      "title": "A floresta que não é nem seca nem úmida",
+      "question": "O que cresce na mata de cipó?",
       "paragraphs": [
-        "Entre as bromélias e os galhos das florestas secas de transição, o gravatazeiro (*Rhopornis ardesiacus*) procura pequenos invertebrados, muitas vezes perto do chão. Seu comportamento é descrito em estudos da espécie, enquanto a presença em Boa Nova é conhecida por registros próprios. Juntas, essas informações ajudam a imaginar a vida da ave sem fingir que cada movimento foi observado dentro do parque.",
-        "Seu habitat é conhecido por ter muitos cipós e manchas de bromélias terrestres. Quando a vegetação é interrompida por grandes áreas abertas, preservar cada fragmento e a conexão entre eles ganha importância: a ave não depende apenas do nome da floresta, mas de uma estrutura de sub-bosque que pode desaparecer com o desmatamento.",
-        "Para uma ave ligada ao sub-bosque, uma mata aparentemente verde pode não oferecer as mesmas condições depois da retirada da vegetação mais baixa. O gravatazeiro depende da estrutura desse ambiente, não apenas da presença de árvores vistas de longe. É por isso que a perda de fragmentos e o empobrecimento das áreas restantes devem ser considerados juntos.",
-        "O plano de manejo reconhece o gravatazeiro como símbolo dos ambientes protegidos e registra ameaças associadas à perda de cobertura, ao corte de árvores e a incêndios. Não informa um censo atual de indivíduos dentro do parque. Por isso não usamos um número de população local nem uma fotografia de outra ave como se fosse dele."
+        "A mata de cipó mistura árvores da Mata Atlântica a espécies da Caatinga. As árvores são relativamente baixas, mas muitas têm troncos grossos; o sub-bosque é um emaranhado de arbustos e lianas, e o solo é coberto por bromélias terrestres, dos gêneros Ananas e Aechmea.",
+        "Nas encostas mais altas e íngremes ficam as áreas mais bem conservadas. O levantamento florístico das duas unidades somou 445 espécies de angiospermas, das quais 144 são endêmicas do Brasil e 19 só ocorrem na Bahia, e 42 espécies de orquídeas, duas delas novas para o Nordeste.",
+        "No parque nacional há ainda 130 espécies de lianas, cipós e trepadeiras. Nos lajedos, a vegetação cresce nas fissuras da rocha, entre cactos como o Melocactus ernestii, bromélias e orquídeas."
       ],
       "sourceIds": [
-        "plano-boa",
-        "visitacao-boa",
-        "iucn-grav"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16–18"
+        }
       ],
       "images": []
     },
     {
-      "id": "agua",
-      "eyebrow": "A TRANSIÇÃO TAMBÉM É HIDROLÓGICA",
-      "title": "O que nasce na serra segue viagem por outros nomes",
-      "question": "Por que proteger um riacho em Boa Nova importa fora dali?",
+      "id": "aves",
+      "eyebrow": "03 · As aves",
+      "title": "O paraíso do gravatazeiro",
+      "question": "Por que Boa Nova é um destino de observação de aves?",
       "paragraphs": [
-        "A água conecta os ambientes de Boa Nova a uma escala maior. O plano registra riachos que alimentam o rio Uruba; ele chega ao Gongogi, depois ao rio de Contas e, finalmente, ao Atlântico. Essa cadeia de nomes ajuda a imaginar o movimento da água para além dos setores separados do parque.",
-        "A mudança na vegetação não é causada só pelo desenho do mapa. Altitude, chuvas, solos, rios e uso da terra participam da distribuição das formações vegetais. Na transição entre mata de cipó e floresta úmida, cada fragmento pode abrigar condições diferentes para plantas e animais.",
-        "O mesmo documento aponta como desafios os barramentos, a ocupação das margens e a necessidade de monitoramento da qualidade da água. A história de um pequeno riacho é também uma pergunta sobre o território no qual ele corre."
+        "Em Boa Nova são conhecidas cerca de 450 espécies de aves, mais da metade das registradas na Bahia, e 35 estão ameaçadas de extinção. O decreto de criação cita o gravatazeiro (Rhopornis ardesiacus) como espécie-alvo: endêmico da mata de cipó, ele é o célebre morador e o símbolo dos esforços de conservação.",
+        "Entre as espécies em perigo estão o anambezinho, o fruxu-baiano, a borboletinha-baiana, o sabiá-castanho e o tapaculo-preto-baiano. Também foi registrado o mico-leão-de-cara-dourada, espécie ameaçada, e há macaco-prego-de-peito-amarelo, guigó e tamanduá-mirim na região.",
+        "Os lajedos são sítios de alimentação onde se concentram beija-flores. No Lajedo dos Beija-flores, a estrutura instalada permite observar ao menos 12 espécies diferentes."
       ],
       "sourceIds": [
-        "plano-boa"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 21"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_de_Boa_Nova_-_Uanderson_Souza_(06).jpg?width=1200",
-          "alt": "Ave pequena de plumagem parda pousada entre galhos finos contra fundo azul.",
-          "author": "Uanderson09",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rhopornis_ardesiacus_-_Slender_antbird_(female).jpg/1280px-Rhopornis_ardesiacus_-_Slender_antbird_(female).jpg",
+          "author": "Hector Bottai",
           "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Boa_Nova_-_Uanderson_Souza_(06).jpg",
-          "context": "Uma ave fotografada pelo autor no parque, sem identificação taxonômica confirmada; imagem permite observar a diversidade de aves, não informa ecologia do gravatazeiro. Localização: Parque Nacional de Boa Nova, conforme autor; setor não informado; ainda não homologada independentemente."
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rhopornis_ardesiacus_-_Slender_antbird_(female).jpg",
+          "width": 1280,
+          "height": 1059,
+          "alt": "Fêmea de gravatazeiro de plumagem cinza-azulada e topo da cabeça acastanhado, pousada em um galho.",
+          "context": "Fêmea de gravatazeiro (Rhopornis ardesiacus), fotografada em Boa Nova (BA), segundo a legenda do Commons."
         }
       ]
     },
     {
-      "id": "protecao",
-      "eyebrow": "CONSERVAR É LIGAR PEÇAS",
-      "title": "A floresta não termina nas bordas de cada setor",
-      "question": "Qual é o trabalho de conservar um parque feito de partes separadas?",
+      "id": "gente",
+      "eyebrow": "04 · A gente e o fogo",
+      "title": "Um parque feito de propriedades",
+      "question": "O que significa proteger uma área que ainda é toda privada?",
       "paragraphs": [
-        "O parque e o refúgio de vida silvestre nasceram do mesmo decreto, mas respondem a funções territoriais distintas. A estratégia de proteger a mata de cipó inclui recuperar trechos degradados, diminuir pressões sobre a vegetação e pensar nas ligações entre habitats onde hoje existem pastagens e outras formas de uso humano.",
-        "Há uma história social concreta nessas paisagens: o plano registra moradores, pequenos produtores, pecuária e terras ainda em processo de regularização. Não se trata de escrever a conservação como se a região não tivesse gente. A solução para fragmentos ameaçados também exige diálogo, informação e ordenamento do uso do solo.",
-        "O gravatazeiro torna concreta uma questão maior: preservar espécies de distribuição restrita exige pensar na qualidade dos fragmentos e na ligação entre eles. Em Boa Nova, o mosaico de proteção também envolve propriedades, atividades rurais e diferentes categorias de unidade de conservação. A sobrevivência da mata de cipó passa por decisões que continuam além de cada placa de limite."
+        "Os cinco blocos do parque (Icó, Torre, Goiabeira, Timorante e Rio do Chumbo) ainda não tiveram a regularização fundiária resolvida: toda a área está em mãos de proprietários ou posseiros. Vivem ali famílias de baixa renda, agricultores familiares e trabalhadores de fazendas, com pecuária extensiva, capim, cacau em cabruca e pequenas lavouras.",
+        "O plano de manejo lista as pressões sobre cada bloco: pecuária intensa, caça, tráfico de aves, retirada de lenha e de madeira, incêndios, mineração de granito, areia e cascalho e a troca do cacau de cabruca por cacau clonado, que pede mais sol e leva ao corte de árvores. Nas áreas úmidas, o fogo abre espaço para a samambaia invasora conhecida como feto, que impede a floresta de se regenerar.",
+        "Mesmo assim, o parque é menos fragmentado que o refúgio: 81,3% de sua cobertura é vegetação natural ou em regeneração, contra 59,2% no refúgio."
       ],
       "sourceIds": [
-        "plano-boa",
-        "ficha-boa",
-        "revis-boa"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 14–17"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Parque_Nacional_de_Boa_Nova_X_jerbialdo_(05).jpg/1280px-Parque_Nacional_de_Boa_Nova_X_jerbialdo_(05).jpg",
+          "author": "Jerbialdo",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_de_Boa_Nova_X_jerbialdo_(05).jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "Linhas de fogo avançando por uma encosta coberta de mata, com fumaça subindo, vistas de uma vila.",
+          "context": "Incêndio em encosta do Parque Nacional de Boa Nova, em fotografia sem data; o plano de manejo aponta o fogo como pressão recorrente sobre a mata."
+        }
+      ]
+    },
+    {
+      "id": "visita",
+      "eyebrow": "05 · A visita",
+      "title": "Cachoeiras, lajedos e história de tropeiros",
+      "question": "O que há para ver, e que história vem junto?",
+      "paragraphs": [
+        "O conjunto das unidades tem cerca de 45 cachoeiras. Entre os atrativos estão a cachoeira Sete de Setembro, nos limites do refúgio, e o Lajedo dos Beija-flores. O plano prevê formar condutores locais, sobretudo jovens, e ordenar a visitação, hoje sem mapeamento dos atrativos.",
+        "Os primeiros habitantes da região foram os indígenas Aymoré, Kamakã e Pataxó. Em 1732, os europeus montaram ali o acampamento chamado Passagem da Conquista, e o último relato de indígenas vivendo na região é de 1932. Depois vieram os tropeiros, pois Boa Nova fazia parte da Estrada Geral, que ligava a Vila do Rio Pardo, em Minas, aos portos de Valença, no litoral baiano."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 26–27"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "O que fica desta paisagem",
-  "closing": "O gravatazeiro não precisa de uma floresta de cartão-postal. Precisa de um sub-bosque vivo, bromélias e continuidade entre fragmentos. Em Boa Nova, a transição entre Caatinga e Mata Atlântica deixa de ser uma linha abstrata: é o lugar onde muitas vidas dependem daquilo que permanece ligado.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "visita",
+    "title": "Marcos de Boa Nova",
+    "intro": "Dos primeiros povos ao plano de manejo.",
+    "items": [
+      {
+        "id": "1732",
+        "year": "1732",
+        "title": "Passagem da Conquista",
+        "description": "A primeira investida de europeus na região, com um acampamento.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1932",
+        "year": "1932",
+        "title": "Último relato indígena",
+        "description": "É a data do último relato sobre indígenas vivendo na região.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2005",
+        "year": "2005",
+        "title": "O apelo da SAVE Brasil",
+        "description": "A ONG elabora documento sobre a riqueza de aves e sugere criar uma unidade de conservação.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "2010",
+        "title": "Criação das unidades",
+        "description": "Em 11 de junho, um decreto cria o Parque Nacional e o Refúgio de Vida Silvestre de Boa Nova.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2024",
+        "year": "2024",
+        "title": "Plano de manejo",
+        "description": "É aprovado o plano de manejo conjunto das duas unidades.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma transição que precisa de todos os seus pedaços",
+  "closing": "Boa Nova mostra que proteger um limite entre biomas é proteger fragmentos pequenos e conexões entre eles. Cada bloco do parque e do refúgio guarda uma parte da transição, e o futuro do gravatazeiro depende de manter a mata de cipó em pé, com os moradores como parceiros.",
   "references": [
     {
-      "id": "ficha-boa",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Parque Nacional de Boa Nova — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-boa-nova",
-      "accessedAt": "2026-10-21",
-      "use": "Área 12.065,47 ha e criação em 11/06/2010"
-    },
-    {
-      "id": "plano-boa",
-      "institution": "ICMBio",
-      "title": "Plano de Manejo do Parque Nacional de Boa Nova e Refúgio de Vida Silvestre de Boa Nova (2024)",
+      "title": "Plano de Manejo do Parque Nacional e do Refúgio de Vida Silvestre de Boa Nova (2024)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-boa-nova/arquivos/PM_UCs_BOA_NOVA_aprovado_2024.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Cinco blocos do parque e quatro do REVIS, formações vegetais, gravatazeiro, água, comunidades e ameaças"
-    },
-    {
-      "id": "revis-boa",
-      "institution": "ICMBio",
-      "title": "Refúgio de Vida Silvestre de Boa Nova — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/revis-de-boa-nova/revis-de-boa-nova",
-      "accessedAt": "2026-10-21",
-      "use": "Distinguir a unidade vizinha do parque"
-    },
-    {
-      "id": "visitacao-boa",
-      "institution": "ICMBio",
-      "title": "Informações de visitação — Parque Nacional de Boa Nova",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-boa-nova/informacoes-sobre-visitacao-2013-parna-de-boa-nova",
-      "accessedAt": "2026-10-21",
-      "use": "Transição ecológica, mata de cipó, gravatazeiro; 428 aves referidas como riqueza da região, não do polígono"
-    },
-    {
-      "id": "caroa",
-      "institution": "Jardim Botânico do Rio de Janeiro",
-      "title": "Flora e Funga do Brasil — Neoglaziovia variegata",
-      "url": "https://floradobrasil2020.jbrj.gov.br/FB16612",
-      "accessedAt": "2026-10-21",
-      "use": "Taxonomia aceita e nomes populares regionais caroá, caruá, gravá; não comprova ocorrência dentro do parque"
-    },
-    {
-      "id": "iucn-grav",
-      "institution": "BirdLife International / IUCN Red List",
-      "title": "Rhopornis ardesiacus (Slender Antbird), avaliação 2025",
-      "url": "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T22701706A277173816.en",
-      "accessedAt": "2026-10-21",
-      "use": "Habitat, forrageamento em bromélias e invertebrados, limitações dos censos; comportamento geral, não flagrante local"
+      "accessedAt": "2026-10-23",
+      "use": "criação, relevo, clima, vegetação, fauna, uso da terra, ameaças e história; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_fotos_commons_metadados_e_licencas_verificados_qa_pendente",
-  "editorialNotes": "Reportagem original para revisão editorial humana; escopos locais e regionais distinguidos; imagens apenas após consulta das páginas individuais de licença Commons; geometria e renderer não alterados. A inspeção de screenshots dos PDFs pelo navegador falhou e foi registrada como pendência; conteúdo textual paginado consultado. | Rodada v1.2.3: reescrita de passagens explicativas e aprofundamento de capítulos; checagem factual integral e homologação ainda pendentes.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: conferir o decreto de criação (11/06/2010) no Planalto; números de aves e plantas valem para parque e refúgio juntos; a foto de incêndio não tem data (legenda do Commons); a fêmea de gravatazeiro tem local 'Boa Nova' sem confirmar se dentro do parque; revisão humana."
 }

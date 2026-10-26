@@ -1,132 +1,310 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Montanhas do Tumucumaque",
-  "title": "Tumucumaque: a floresta das águas que se separam",
-  "subtitle": "Entre serras, rios de destinos diferentes e espécies registradas em campo, um parque conhecido pelo tamanho revela outra escala de descoberta.",
-  "centralQuestion": "Para onde seguem as águas que começam no Tumucumaque?",
+  "title": "Tumucumaque: a floresta onde as águas se separam",
+  "subtitle": "O maior parque nacional do Brasil guarda nascentes que correm para o Amazonas e para o Atlântico, florestas quase intocadas e terras de povos que vivem aqui há muito tempo.",
+  "centralQuestion": "O que se descobre quando se mede uma floresta imensa não em hectares, mas rio por rio, espécie por espécie?",
   "introduction": [
-    "Visto num mapa do Brasil, o Parque Nacional Montanhas do Tumucumaque pode parecer um enorme bloco de floresta. A dimensão impressiona, mas não explica o que existe lá dentro. Um rio sai de uma serra e segue numa direção; outro desce pela vertente oposta. A paisagem ganha formas diferentes conforme solo, altitude e aproximação da água.",
-    "A chave para explorar esse território é acompanhar suas relações, e não somar quilômetros. As primeiras perguntas aparecem no curso dos rios; as seguintes surgem debaixo das copas, nos vestígios dos animais e na história humana das fronteiras."
+    "No extremo norte do Amapá, junto às fronteiras com a Guiana Francesa e o Suriname, a terra sobe em serras baixas e inselbergs de rocha nua, e a floresta se estende até onde a vista alcança. É o Parque Nacional Montanhas do Tumucumaque, o maior parque nacional do Brasil.",
+    "O tamanho impressiona, mas o parque conta outra história quando se segue a água. De suas cabeceiras saem rios que vão para o Jari e o Amazonas e rios que descem direto para o Oceano Atlântico, num território cercado por terras indígenas e unidades de conservação."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Dossel_do_Parque_Nacional_Montanhas_do_Tumucumaque.jpg?width=1200",
-    "alt": "Copas de árvores escuras enquadram o céu; raios do sol entram entre as folhas.",
-    "author": "Brenda Cunha Pereira",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dossel_do_Parque_Nacional_Montanhas_do_Tumucumaque.jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Dossel da floresta registrado no Parque Nacional Montanhas do Tumucumaque. Foto: Brenda Cunha Pereira, CC BY-SA 4.0."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares de área, o maior parque nacional do país",
+      "value": "3.846.427",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    },
+    {
+      "label": "de fronteira com a Guiana Francesa, entre o rio Oiapoque e a fronteira seca",
+      "value": "611 km",
+      "sourceId": "pm",
+      "locator": "p. 32"
+    },
+    {
+      "label": "espécies de aves registradas na expedição ao alto Anotaiê, afluente do Oiapoque",
+      "value": "304",
+      "sourceId": "pm",
+      "locator": "p. 160"
+    },
+    {
+      "label": "espécies de anfíbios e répteis registradas em cinco expedições",
+      "value": "158",
+      "sourceId": "pm",
+      "locator": "p. 158"
+    },
+    {
+      "label": "espécies de mamíferos não voadores registradas, além de 48 de morcegos",
+      "value": "60",
+      "sourceId": "pm",
+      "locator": "p. 161"
+    },
+    {
+      "label": "da área do parque está no Amapá; o restante, no Pará",
+      "value": "98,8%",
+      "sourceId": "pm",
+      "locator": "p. 15"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Escudo das Guianas",
+      "definition": "Região de rochas antigas e floresta tropical que abrange partes do Brasil, da Guiana Francesa, do Suriname, da Guiana, da Venezuela e da Colômbia.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Inselberg",
+      "definition": "Morro isolado de rocha nua que emerge da planície, em forma de pão de açúcar; na serra do Tumucumaque eles têm menos de 700 metros de altitude.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Tabocal",
+      "definition": "Mancha de taquaras ou bambus no meio da floresta de terra firme.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Faixa de fronteira",
+      "definition": "Faixa de 150 km ao longo das divisas do país, na qual o parque está quase inteiramente inserido e que envolve também a responsabilidade da Defesa Nacional.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
       "id": "divisor",
-      "eyebrow": "AS ÁGUAS QUE SE SEPARAM",
-      "title": "Uma floresta, vários caminhos para a água",
-      "question": "O que a posição do parque revela sobre seus rios?",
+      "eyebrow": "01 · A água",
+      "title": "Rios que correm para dois mares",
+      "question": "Para onde vai a água que cai no Tumucumaque?",
       "paragraphs": [
-        "O Tumucumaque costuma ser descrito pela dimensão. Mas a pergunta mais reveladora talvez seja outra: para onde segue a chuva que cai aqui? Na região protegida começam ou atravessam seus primeiros trechos cursos de água ligados ao Jari, ao Oiapoque, ao Araguari e ao Amapari. O desenho dessas drenagens ajuda a explicar por que um parque florestal também participa da história de rios que seguem rumos diferentes.",
-        "No oeste, a rede leva águas ao Jari e à bacia amazônica. Em outras porções do relevo, rios como Oiapoque e Araguari seguem até o Atlântico. As serras e elevações funcionam como divisores naturais: a água não lê o limite político entre estados e países. Tampouco obedece à ideia de uma Amazônia formada por um único rio.",
-        "O plano de manejo descreve corredeiras e trechos com leito rochoso. Quando a vazão cai, parte dessas pedras emerge. Uma fotografia de 2017 mostra essa condição no Jari; não é uma série de medições nem prova de que toda a bacia se comporte da mesma forma."
+        "O parque abriga as nascentes dos principais rios do Amapá: o Jari, no sudoeste, o Oiapoque, no norte, e o Araguari e o Amapari, no sudeste. Todos os rios do oeste deságuam no Jari e fazem parte da bacia do Amazonas, entre eles o Cuc, o Culari, o Curapi, o Ximim-Ximim e o Mapaoni.",
+        "Já o Araguari, o Amapari e o Oiapoque correm direto para o Atlântico. Na fronteira seca com a Guiana Francesa e o Suriname fica o divisor de águas que separa a bacia do Amazonas da bacia do Caribe.",
+        "A paisagem é de relevo suave e colinas, quase sempre abaixo de 500 metros de altitude. As exceções são pequenas serras, como a Lombarda, a Uassipein e a do Tumucumaque, de aspecto pitoresco, com afloramentos de rocha e morros em forma de pão de açúcar que não passam de 700 metros.",
+        "Por baixo da mata, as rochas são das mais antigas do planeta: complexos de gnaisse e migmatito com idade de 3,85 a 2,5 bilhões de anos."
       ],
       "sourceIds": [
-        "tum-plano",
-        "tum-flora"
+        "pm"
       ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedras_expostas_do_rio_Jari_no_per%C3%ADodo_de_seca_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg?width=1200",
-          "alt": "Rio escuro de corrente lenta em primeiro plano; pedras escuras visíveis e margem florestada ao fundo.",
-          "author": "Brenda Cunha Pereira",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedras_expostas_do_rio_Jari_no_per%C3%ADodo_de_seca_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg",
-          "context": "Rio Jari na estiagem; local declarado na borda do parque, sem precisão cartográfica de câmera. Localização: Rio Jari no Parque Nacional Montanhas do Tumucumaque, conforme descrição da fotógrafa; rio limítrofe; ainda não homologada independentemente."
+          "sourceId": "pm",
+          "locator": "p. 55"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 56"
         }
-      ]
+      ],
+      "images": []
     },
     {
-      "id": "arvores",
-      "eyebrow": "NO INTERIOR DA FLORESTA",
-      "title": "Debaixo do dossel existem outras paisagens",
-      "question": "A floresta é igual do rio até as serras?",
+      "id": "floresta",
+      "eyebrow": "02 · A floresta",
+      "title": "Mata em estágio clímax",
+      "question": "Como é uma floresta com pouquíssima interferência humana?",
       "paragraphs": [
-        "As copas altas fotografadas no Tumucumaque deixam entrever uma parte importante de sua cobertura: a floresta de terra firme. Mas a vegetação muda com solo, posição no relevo e proximidade da água. Inventários feitos em áreas do Amapari, Mapaoni e Anotaiê encontraram matas aluviais, florestas submontanas e manchas de taquara. Há também vegetação adaptada a afloramentos rochosos.",
-        "No levantamento realizado na confluência dos rios Amapari e Anacuí, os pesquisadores identificaram a palmeira do açaí (Euterpe oleracea) e o cupuí (Theobroma subincanum). São nomes que aproximam uma amostra botânica do cotidiano de quem conhece frutos amazônicos. O registro dessas plantas está ligado aos pontos amostrados; não significa que dominem cada trecho do parque.",
-        "A documentação recente do Jardim Botânico do Rio de Janeiro reconhece 664 espécies de plantas vasculares na lista compilada para a unidade. É um conhecimento ainda incompleto, construído a partir de coletas que puderam ser localizadas com segurança. Parte do que se chamava simplesmente Tumucumaque nos herbários antigos ficou de fora, porque não era possível afirmar de que lado do limite atual a planta havia sido colhida."
+        "A vegetação dominante é a floresta de terra firme, que cobre cerca de 72% do Amapá. As expedições encontraram ecossistemas em excepcional estado de conservação, com dossel acima de 30 metros, árvores emergentes que ultrapassam 50 metros e sub-bosque pouco denso.",
+        "Aqui e ali a regra muda: surgem tabocais, ou a vegetação de rocha junto às serras. Nas expedições de campo foram identificadas 485 espécies de plantas.",
+        "O Escudo das Guianas, onde o parque se insere, é considerado a região menos impactada de floresta tropical do mundo. É um dos poucos lugares do planeta onde a conservação e o desenvolvimento sustentável podem ser planejados sem a necessidade de reparar danos antigos.",
+        "Mesmo assim, a mata não é virgem. Os povos que vivem na região fazem roças e coletam há séculos, e esse uso tradicional não comprometeu a regeneração da floresta."
       ],
       "sourceIds": [
-        "tum-plano",
-        "tum-flora"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 32"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 56"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 153"
+        }
       ],
       "images": []
     },
     {
       "id": "fauna",
-      "eyebrow": "PASSOS E PEGADAS",
-      "title": "Os animais aparecem de maneiras diferentes para a ciência",
-      "question": "Como reconhecer moradores de uma floresta tão extensa?",
+      "eyebrow": "03 · A fauna",
+      "title": "Cinco expedições, centenas de espécies",
+      "question": "O que se encontrou quando a ciência chegou às cabeceiras?",
       "paragraphs": [
-        "Numa expedição de pesquisa, nem todo animal é visto diretamente. Pesquisadores também recolhem pistas: pegadas, fezes, sons e rastros de alimentação. Nos levantamentos que embasaram o plano do parque, foram registrados a anta (Tapirus terrestris), a ariranha (Pteronura brasiliensis) e a onça-pintada (Panthera onca), entre outros mamíferos.",
-        "A ariranha foi registrada nas expedições citadas no levantamento; sua ligação com rios e margens dá sentido à conexão entre floresta e água. A anta, por sua vez, apareceu tanto em avistamentos como em vestígios. Esses registros mostram presença nos locais e períodos amostrados — não uma população contada em 2026, nem garantia de avistamento.",
-        "A experiência muda quando a floresta deixa de ser um grande bloco verde e passa a ser entendida como um conjunto de ambientes onde bichos distintos encontram água, abrigo e alimento. O tamanho protege possibilidades; são as evidências de campo que mostram parte da vida que essas possibilidades sustentam."
+        "Entre setembro de 2004 e março de 2006, cinco expedições de cerca de duas semanas percorreram o parque: a confluência dos rios Amapari e Anacuí, o Mapaoni, o Anotaiê, o Mutum e o alto Anacuí. Os autores tratam os resultados como uma primeira aproximação da biodiversidade real.",
+        "Só entre as aves, as expedições listaram de 134 a 304 espécies por local, entre elas endemismos do Escudo das Guianas, como o jacumirim, a saripoca-de-bico-vermelho-e-preto e o dançarino-de-garganta-branca. Nos mamíferos, foram 60 espécies não voadoras e 48 de morcegos. Os primatas foram os mais registrados, com 9 espécies, e a anta é abundante nas margens dos rios.",
+        "Estão ali espécies ameaçadas, como a onça-pintada, a ariranha, o tatu-canastra e o cachorro-vinagre. Entre os anfíbios e répteis, foram 158 espécies, 80% das registradas no Amapá, e algumas, entre sapos, cobras-cegas e lagartos, podem ser novas para a ciência.",
+        "Quatorze dessas espécies de anfíbios e répteis, no Amapá, só foram registradas dentro do parque."
       ],
       "sourceIds": [
-        "tum-plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 151"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 158"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 159"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 160"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 161"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 162"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "povos",
+      "eyebrow": "04 · Os povos",
+      "title": "Uma floresta com muitas histórias",
+      "question": "Quem vive e viveu nos arredores do parque?",
+      "paragraphs": [
+        "O parque faz divisa com a Terra Indígena Wajãpi, ao longo de cerca de 370 quilômetros, e com o Parque Indígena do Tumucumaque, no extremo oeste. Os Wajãpi falam uma língua de origem tupi-guarani; Tiriyó, Wayana, Aparai e Kaxuyana, que vivem no Parque Indígena, falam línguas caribe.",
+        "A memória desses povos está inscrita na paisagem. Os Wayana associam episódios de sua história a cada um dos inselbergs da serra do Tumucumaque e dão a cada um deles um nome próprio. Entre os Wajãpi, lugares do rio Jari, como a cachoeira Kumakakwarã, guardam marcas da história do criador.",
+        "Os registros arqueológicos dentro do parque incluem polidores, arte rupestre e cerâmica, mas são poucos e quase sempre recentes. Trilhas antigas atravessavam a serra e ligavam as aldeias brasileiras às da Guiana Francesa e do Suriname até os anos 1970.",
+        "A ocupação colonial também deixou marcas na região: missões jesuítas do início do século XVIII, como a de Saint Paul, de 1733, e esconderijos de grupos cabanos nos rios Paru e Jari, entre 1830 e 1860."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 52"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 65"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 78"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 80"
+        }
       ],
       "images": []
     },
     {
       "id": "limites",
-      "eyebrow": "FRONTEIRAS E RESPONSABILIDADES",
-      "title": "Uma área protegida não existe separada de sua história",
-      "question": "Quem viveu e vive em relação com essa região?",
+      "eyebrow": "05 · O território",
+      "title": "Um parque que também é fronteira",
+      "question": "O que significa proteger uma floresta que toca dois países?",
       "paragraphs": [
-        "O parque foi criado em 2002, mas a história humana da região é muito anterior. O plano de manejo reúne referências a povos indígenas, comunidades afrodescendentes, disputas de fronteira entre potências coloniais e atividades econômicas posteriores. Nada disso autoriza tratar o território como uma floresta que só ganhou história quando surgiu o decreto.",
-        "As áreas protegidas e as terras indígenas vizinhas têm administrações e direitos próprios. Não devem ser confundidas apenas porque compartilham nomes de serras ou rios. A gestão do Tumucumaque também enfrenta desafios documentados de garimpo, caça e extração ilegal, cuja intensidade e localização precisam ser atualizadas antes de receber rótulos como situação atual.",
-        "Ao acompanhar o curso de um rio, a narrativa retorna à ideia inicial: proteger as cabeceiras e a floresta depende de decisões que atravessam limites administrativos. A paisagem parece contínua; a responsabilidade por ela exige reconhecer histórias, pessoas e instituições distintas."
+        "O parque foi criado por decreto de 22 de agosto de 2002, em terras públicas federais. Ele ocupa o noroeste do Amapá e entra no Pará por uma estreita faixa à margem direita do Jari, no município de Almeirim, que soma cerca de 1,2% da área.",
+        "A divisa com a Guiana Francesa tem 611 quilômetros, parte pelo rio Oiapoque e parte por fronteira seca. Com o Suriname são apenas 60 quilômetros, numa região de difícil acesso. Por estar quase todo na faixa de fronteira de 150 km, o território é também responsabilidade da Defesa Nacional.",
+        "Ao redor do parque há terras indígenas, a Reserva Biológica do Maicuru, as Florestas Estaduais do Paru e do Amapá e a Floresta Nacional do Amapá, num grande mosaico de áreas protegidas.",
+        "O parque funciona como defesa contra invasões e ações predatórias, especialmente o garimpo, a caça e a pesca predatórias."
       ],
       "sourceIds": [
-        "tum-plano",
-        "tum-flora",
-        "tum-ficha"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 32"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 34"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 52"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "O que o tamanho não explica",
-  "closing": "O Tumucumaque não é apenas um tamanho no mapa. Suas serras ajudam a separar rios, a floresta abriga ambientes distintos, os levantamentos registram vidas que raramente aparecem em fotografias e a conservação precisa lidar com memórias e pressões humanas reais. A descoberta começa quando a grande área deixa de ser uma abstração.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "limites",
+    "title": "Marcos do território e do conhecimento",
+    "intro": "Da presença jesuíta ao plano de manejo.",
+    "items": [
+      {
+        "id": "1733",
+        "year": "1733",
+        "title": "Missão Saint Paul",
+        "description": "Jesuítas fundam a missão na foz do rio Uanari.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1830",
+        "year": "1830–1860",
+        "title": "Grupos cabanos nos rios",
+        "description": "Os cabanos se escondem em lugares dos rios Paru e Jari.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2002",
+        "year": "2002",
+        "title": "Criação do parque",
+        "description": "O decreto de 22 de agosto cria o Parque Nacional Montanhas do Tumucumaque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2004",
+        "year": "2004–2006",
+        "title": "Cinco expedições",
+        "description": "Pesquisadores inventariam flora e fauna em cinco pontos do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2009",
+        "year": "2009",
+        "title": "Plano de manejo",
+        "description": "Publicado o plano de manejo do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que se conhece de rio em rio",
+  "closing": "O Tumucumaque é grande demais para ser entendido de uma vez. É preciso segui-lo por seus rios, serras, expedições e povos. O que as pesquisas já mostram é uma floresta bem conservada, ainda cheia de espécies por descrever, cercada de terras indígenas e de outras áreas protegidas.",
   "references": [
     {
-      "id": "tum-ficha",
-      "institution": "ICMBio",
-      "title": "Parque Nacional Montanhas do Tumucumaque — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-montanhas-do-tumucumaque",
-      "accessedAt": "2026-10-21",
-      "use": "Nome, criação em 2002, área declarada"
-    },
-    {
-      "id": "tum-plano",
+      "id": "pm",
       "institution": "ICMBio",
       "title": "Plano de Manejo do Parque Nacional Montanhas do Tumucumaque (2009)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-montanhas-do-tumucumaque/arquivos/parna_montanhasdotumucumaque.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Bacias, vegetação, expedições botânicas, mamíferos, contexto histórico e ameaças"
-    },
-    {
-      "id": "tum-flora",
-      "institution": "Jardim Botânico do Rio de Janeiro",
-      "title": "Catálogo de Plantas das UCs: Montanhas do Tumucumaque (Bochorny e colaboradores, 2025)",
-      "url": "https://catalogo-ucs-brasil.jbrj.gov.br/areas/PNMT",
-      "accessedAt": "2026-10-21",
-      "use": "Critério de amostragem, espécies documentadas e incerteza de localização"
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-montanhas-do-tumucumaque/arquivos/parna_montanhasdotumucumaque.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "área, fronteiras, hidrografia, flora, fauna, povos e história; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_arquivos_commons_autoria_licenca_conferidas_qa_visual_pendente",
-  "editorialNotes": "Reportagem para revisão humana; fonte por momento e claims em separado. Identificações e origens fotográficas apenas dentro dos limites documentados. Integração e QA em browser, fontes e geometria ficam para o Chat Central; não publicada. Sem interação especial: evidência insuficiente para timeline/photo_compare justificados.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Texto sobre povos indígenas (Wajãpi, Wayana, Tiriyó, Aparai, Kaxuyana) depende de revisão pela Funai e pelas comunidades. Dados do plano de 2009 (expedições 2004–2006): atualizar quando houver levantamento mais recente. Área do plano (3.846.427 ha) difere do decreto (3.867.000 ha) e do cadastro (3.865.169 ha). Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons."
 }

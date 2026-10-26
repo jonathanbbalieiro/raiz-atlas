@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Nacional do Boqueirão da Onça",
+  "title": "Boqueirão da Onça: o maior parque da Caatinga e o felino que dá nome ao sertão",
+  "subtitle": "No norte da Bahia, um complexo de serras de Caatinga protege a onça-pintada, a arara-azul-de-lear e o tatu-bola, ao lado de comunidades que criam seus rebanhos soltos no mato.",
+  "centralQuestion": "Como proteger um território imenso de Caatinga onde gente, gado e animais ameaçados dividem o mesmo chão?",
+  "introduction": [
+    "No sertão baiano, entre o lago de Sobradinho e as serras da Chapada, a Caatinga forma um bloco quase contínuo de serras e vales secos. É o território do Boqueirão da Onça, o maior parque nacional do bioma.",
+    "A onça-pintada, a arara-azul-de-lear e o tatu-bola são as espécies que o decreto de criação cita pelo nome. Mas o parque é também um lugar de gente: comunidades de fundo de pasto, quilombolas e indígenas vivem em volta e dependem do mesmo mato."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares protegidos pelo parque, criado em 2018",
+      "value": "346.908",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "hectares da APA vizinha, criada no mesmo dia",
+      "value": "505.692",
+      "sourceId": "pmif",
+      "locator": "p. 5"
+    },
+    {
+      "label": "da área do parque está no município de Sento Sé",
+      "value": "81,5%",
+      "sourceId": "pmif",
+      "locator": "p. 8"
+    },
+    {
+      "label": "espécies de mamíferos registradas, das quais 26 silvestres",
+      "value": "32",
+      "sourceId": "mamiferos"
+    },
+    {
+      "label": "armadilhas-dia de câmeras fotográficas, em 80 estações",
+      "value": "10.370",
+      "sourceId": "mamiferos"
+    },
+    {
+      "label": "anos entre a proposta do parque e sua criação (2002–2018)",
+      "value": "16",
+      "sourceId": "pmif",
+      "locator": "p. 9"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Fundo de pasto",
+      "definition": "Comunidade tradicional que usa terras comuns para criar animais soltos na Caatinga, em manejo extensivo.",
+      "sourceId": "pmif"
+    },
+    {
+      "term": "Formações cársticas",
+      "definition": "Paisagens de rochas solúveis, como cavernas e grutas; o decreto manda protegê-las, com os sítios paleontológicos e arqueológicos associados.",
+      "sourceId": "decreto"
+    },
+    {
+      "term": "Armadilha fotográfica",
+      "definition": "Câmera acionada por sensor de movimento, usada para registrar animais que raramente se deixam ver.",
+      "sourceId": "mamiferos"
+    },
+    {
+      "term": "Manejo integrado do fogo",
+      "definition": "Planejamento de prevenção, uso controlado e combate aos incêndios, feito junto com as comunidades.",
+      "sourceId": "pmif"
+    }
+  ],
+  "cover": null,
+  "moments": [
+    {
+      "id": "serras",
+      "eyebrow": "01 · O território",
+      "title": "Um complexo de serras no norte da Bahia",
+      "question": "Onde fica e o que protege esse parque?",
+      "paragraphs": [
+        "O Parque Nacional do Boqueirão da Onça fica em Sento Sé, Campo Formoso, Sobradinho e Juazeiro, no norte da Bahia, e é o maior parque nacional da Caatinga. Sento Sé abriga 81,5% de sua área. Ele e a Área de Proteção Ambiental do mesmo nome formam um único complexo de serras, contíguas na topografia.",
+        "O decreto de criação, de 5 de abril de 2018, manda proteger a diversidade biológica e os ambientes naturais da Caatinga, incluídas as transições de altitude, recuperar a vegetação e valorizar as paisagens e as belezas cênicas.",
+        "A área do decreto é de cerca de 347,5 mil hectares; a página do ICMBio registra 346.908 hectares."
+      ],
+      "sourceIds": [
+        "decreto",
+        "pmif",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º e 2º"
+        },
+        {
+          "sourceId": "pmif",
+          "locator": "p. 7–8"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "fauna",
+      "eyebrow": "02 · Os bichos",
+      "title": "Câmeras no sertão: 32 espécies de mamíferos",
+      "question": "Quem vive nas serras?",
+      "paragraphs": [
+        "Entre as espécies que o decreto manda manter em populações viáveis estão a onça-pintada, a arara-azul-de-lear e o tatu-bola, todas ameaçadas. A página do ICMBio lista as três como protegidas pela unidade.",
+        "Um levantamento publicado em 2019, com 80 estações de armadilhas fotográficas e 10.370 armadilhas-dia, registrou 28 espécies de mamíferos nas câmeras, 22 silvestres e seis domésticas, e quatro outras em registros ocasionais, somando 32. A riqueza de 26 mamíferos silvestres é alta em comparação com outras áreas da Caatinga, e cinco espécies constam da lista global de ameaçadas e sete da lista nacional.",
+        "Os autores também registraram caça ilegal e desmatamento, e pedem a publicação do plano de manejo."
+      ],
+      "sourceIds": [
+        "decreto",
+        "icmbio",
+        "mamiferos"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º"
+        },
+        {
+          "sourceId": "icmbio",
+          "locator": "ficha da unidade"
+        },
+        {
+          "sourceId": "mamiferos",
+          "locator": "Resumo"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "pedra",
+      "eyebrow": "03 · A pedra",
+      "title": "Grutas, fósseis e marcas de gente antiga",
+      "question": "O que há sob a Caatinga?",
+      "paragraphs": [
+        "Entre os objetivos do parque está proteger as formações cársticas e os sítios paleontológicos e arqueológicos associados.",
+        "As grutas mais conhecidas da região, a Toca da Boa Vista e a Toca da Barriguda, não ficam dentro do parque, e sim na APA vizinha, que as cita em seus objetivos. Dentro da APA, a Zona de Vida Silvestre da Toca da Boa Vista, de 11.651 hectares, é destinada a salvaguardar as áreas de interesse espeleológico e o habitat de espécies endêmicas, raras ou ameaçadas."
+      ],
+      "sourceIds": [
+        "decreto",
+        "pmif"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º"
+        },
+        {
+          "sourceId": "pmif",
+          "locator": "p. 7–8"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "gente",
+      "eyebrow": "04 · A gente",
+      "title": "Dezesseis anos de conversa e um parque sem moradores dentro",
+      "question": "Como gente e conservação se encontram no sertão?",
+      "paragraphs": [
+        "A proposta de criar o parque começou em 2002 e passou por consultas públicas e por levantamentos das áreas de uso comunal. O parque e a APA foram criados 16 anos depois, em 5 de abril de 2018, para conciliar interesses sociais, culturais, econômicos e ambientais.",
+        "Os aglomerados com moradores ficaram fora dos limites do parque, assim como grande parte das áreas comuns. Restaram no interior partes de propriedades sem moradias e pequenos trechos de fundos de pasto, onde as comunidades ainda criam rebanhos soltos, em manejo extensivo, como se faz há séculos. Quilombolas e indígenas também têm relação com o território.",
+        "O parque ainda não tem conselho consultivo nem plano de manejo. A equipe gestora tem apenas três servidores. O primeiro plano de manejo integrado do fogo, para 2024–2026, registra um incêndio de 3 mil hectares em 2018, cuja origem foi um acampamento de caçadores, e a seca de 2012 a 2015, a pior em 50 anos."
+      ],
+      "sourceIds": [
+        "pmif"
+      ],
+      "citations": [
+        {
+          "sourceId": "pmif",
+          "locator": "p. 8"
+        },
+        {
+          "sourceId": "pmif",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "pmif",
+          "locator": "p. 10–12"
+        },
+        {
+          "sourceId": "pmif",
+          "locator": "p. 14"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "gente",
+    "title": "Marcos do parque",
+    "intro": "Da proposta ao plano contra o fogo.",
+    "items": [
+      {
+        "id": "2002",
+        "year": "2002",
+        "title": "A proposta",
+        "description": "Abre-se o processo para criar unidades de conservação no Boqueirão da Onça.",
+        "sourceIds": [
+          "pmif"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "5 abr. 2018",
+        "title": "Parque e APA",
+        "description": "Os decretos nº 9.336 e nº 9.337 criam o Parque Nacional e a APA do Boqueirão da Onça.",
+        "sourceIds": [
+          "decreto",
+          "pmif"
+        ]
+      },
+      {
+        "id": "2018-fogo",
+        "year": "2018",
+        "title": "Incêndio de 3 mil hectares",
+        "description": "Um incêndio que começou em um acampamento de caçadores atinge a região no primeiro ano do parque.",
+        "sourceIds": [
+          "pmif"
+        ]
+      },
+      {
+        "id": "2019",
+        "year": "abr. 2019",
+        "title": "Mamíferos publicados",
+        "description": "Artigo apresenta 32 espécies de mamíferos registradas por câmeras e observações.",
+        "sourceIds": [
+          "mamiferos"
+        ]
+      },
+      {
+        "id": "2023",
+        "year": "2023",
+        "title": "Plano de manejo do fogo",
+        "description": "O ICMBio publica o primeiro plano de manejo integrado do fogo, para 2024 a 2026.",
+        "sourceIds": [
+          "pmif"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Um parque novo, ainda por conhecer",
+  "closing": "Com menos de uma década de existência, o Boqueirão da Onça é um parque em construção: sem plano de manejo, com muito ainda a inventariar e com comunidades que vivem no seu entorno. O que já se sabe basta para dizer que proteger essas serras é proteger a Caatinga em seu pedaço mais inteiro.",
+  "references": [
+    {
+      "id": "icmbio",
+      "institution": "ICMBio",
+      "title": "Página institucional do Parque Nacional do Boqueirão da Onça",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-do-boqueirao-da-onca",
+      "accessedAt": "2026-10-23",
+      "use": "área, decreto de criação e espécies ameaçadas protegidas"
+    },
+    {
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 9.336, de 5 de abril de 2018, cria o Parque Nacional do Boqueirão da Onça",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/decreto/d9336.htm",
+      "accessedAt": "2026-10-23",
+      "use": "criação, objetivos, municípios e área"
+    },
+    {
+      "id": "pmif",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo Integrado do Fogo do Parna e APA do Boqueirão da Onça (2024–2026) (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_PARNA_Boqueirao_da_Onca_v_07_11_2023.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "ficha técnica, objetivos, comunidades, histórico de criação e do fogo; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "mamiferos",
+      "institution": "Papéis Avulsos de Zoologia 59",
+      "title": "Campos et al. (2019). Medium and large sized mammals of the Boqueirão da Onça, North of Bahia State, Brazil",
+      "url": "https://revistas.usp.br/paz/article/view/150168",
+      "accessedAt": "2026-10-23",
+      "use": "inventário de mamíferos por armadilhas fotográficas e ameaças registradas"
+    }
+  ],
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_verificada",
+  "editorialNotes": "Sem plano de manejo (as UCs ainda não têm conselho): texto apoiado no decreto, na página do ICMBio, no plano de manejo integrado do fogo e em artigo científico. Pendências: abrir o decreto no Planalto (texto conferido por busca); área do decreto (347.557 ha) difere do ICMBio (346.908,10 ha); espécies ameaçadas do artigo de mamíferos não nomeadas na página; sem foto livre com prova de lugar; revisão humana."
+}

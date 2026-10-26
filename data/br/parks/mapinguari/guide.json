@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-10-21",
   "hook": "Ilhas de cerrado no meio da floresta amazônica, entre os rios Purus e Madeira.",
   "intro": "No sul do Amazonas, o Parque Nacional Mapinguari protege cerca de 1,78 milhão de hectares entre os rios Purus e Madeira. Criado por decreto de 5 de junho de 2008, guarda florestas, campinaranas e os maiores enclaves de cerrado da região, numa área pressionada pelo arco do desmatamento.",
@@ -212,6 +212,13 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "diag",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional Mapinguari, Volume I: Diagnóstico",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-mapinguari/arquivos/plano_manejo_parna_mapinguari_volume_i_diagnostico.pdf",
+      "accessed": "2026-10-23"
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Carousel } from "@/components/panel/Carousel";
+import { speciesObjectPosition } from "@/lib/photo-frame";
 import type { Biodiversity, IucnCategory, SpeciesCard } from "@/lib/data/types";
 
 export const IUCN_LABEL: Partial<Record<IucnCategory, string>> = {
@@ -74,6 +75,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
                       alt={f.card.photo.alt}
                       loading="lazy"
                       className="h-full w-full object-cover"
+                      style={{ objectPosition: speciesObjectPosition(f.card.photo) }}
                     />
                   }
                   {f.card?.iucn && IUCN_LABEL[f.card.iucn] && f.card.iucn !== "DD" && (
@@ -184,7 +186,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
 function SpeciesTile({ s }: { s: SpeciesCard }) {
   return (
     <li className="overflow-hidden rounded-xl border border-line bg-card">
-                <div className="relative aspect-square bg-paper-deep">
+                <div className="relative aspect-[4/3] bg-paper-deep">
                   {s.photo ? (
                     // eslint-disable-next-line @next/next/no-img-element -- miniatura padrão do Commons, sem reprocessar
                     <img
@@ -192,6 +194,7 @@ function SpeciesTile({ s }: { s: SpeciesCard }) {
                       alt={s.photo.alt}
                       loading="lazy"
                       className="h-full w-full object-cover"
+                      style={{ objectPosition: speciesObjectPosition(s.photo) }}
                     />
                   ) : (
                     <span className="flex h-full items-center justify-center px-3 text-center text-xs text-ink-soft">

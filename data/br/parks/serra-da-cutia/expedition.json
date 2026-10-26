@@ -1,166 +1,331 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Serra da Cutia",
-  "title": "Serra da Cutia: a floresta também se transforma em margem",
-  "subtitle": "Entre rios que transbordam, floresta de terra firme e pequenas áreas abertas, a unidade de Rondônia protege uma variedade de ambientes e uma ligação importante no vale do Guaporé.",
-  "centralQuestion": "Como uma serra amazônica conecta florestas, campos e rios que mudam de forma ao longo do ano?",
+  "title": "Serra da Cutia: um morro de arenito, rios que somem sob a vegetação e um barreiro de sal",
+  "subtitle": "No sudoeste de Rondônia, uma serra de 525 metros se ergue sobre a planície do Guaporé, cercada por floresta, campinarana, cerrado e igapó.",
+  "centralQuestion": "O que faz de uma serra baixa, no meio da floresta amazônica, o centro de um mosaico tão variado?",
   "introduction": [
-    "Quando os rios sobem no oeste de Rondônia, algumas margens da Serra da Cutia passam a conviver com a água; em outros pontos, a floresta permanece em terrenos que não alagam da mesma maneira. Essa diferença entre ambientes úmidos, terra firme e vegetação aberta estrutura a paisagem do parque.",
-    "As bacias dos rios Novo, Sotério e Cautário também conectam o território ao vale do Guaporé e a outras áreas protegidas. Seguir essas águas ajuda a compreender por que conservar a Serra da Cutia depende tanto do que acontece dentro da unidade quanto de suas relações com o entorno."
+    "De longe, a Serra da Cutia é pouco mais que um relevo suave no horizonte. De perto, é um inselberg de arenito de mais de 900 milhões de anos, com paredões que se esfarelam ao toque, topo de laje coberto de vegetação de cerrado e uma pequena queda d'água que depende da estação.",
+    "Ao redor, o Parque Nacional Serra da Cutia guarda cerca de 283,5 mil hectares de floresta de terra firme, campos, cerrados em manchas e rios que alagam suas margens. Em um ponto do norte, uma clareira de areia de 40 por 30 metros, com água salobra, atrai antas, queixadas e veados."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares protegidos, em Guajará-Mirim (RO)",
+      "value": "283.501",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "metros de altitude no ponto mais alto, no topo da serra",
+      "value": "525 m",
+      "sourceId": "enc3",
+      "locator": "p. 25"
+    },
+    {
+      "label": "da área é Floresta Ombrófila Aberta Submontana (terra firme)",
+      "value": "62%",
+      "sourceId": "enc3",
+      "locator": "p. 36"
+    },
+    {
+      "label": "espécies de aves registradas dentro do parque e no entorno imediato",
+      "value": "280",
+      "sourceId": "enc3",
+      "locator": "p. 62"
+    },
+    {
+      "label": "espécies de mamíferos de médio e grande porte vistas em 196,9 km de censo",
+      "value": "20",
+      "sourceId": "enc3",
+      "locator": "p. 52"
+    },
+    {
+      "label": "idade das rochas da Formação Palmeiral, que sustenta a serra",
+      "value": "≈ 900 milhões de anos",
+      "sourceId": "enc3",
+      "locator": "p. 17"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Inselberg",
+      "definition": "Morro isolado de rocha resistente que se levanta sobre uma superfície aplainada, como a Serra da Cutia sobre a planície do Guaporé.",
+      "sourceId": "enc3"
+    },
+    {
+      "term": "Campinarana",
+      "definition": "Formação florestal ligada a solos de areia branca, com transição gradual entre campina e floresta.",
+      "sourceId": "enc3"
+    },
+    {
+      "term": "Igapó",
+      "definition": "Floresta de margens de rio que fica inundada por longos períodos; só poucas espécies de árvores suportam esse alagamento.",
+      "sourceId": "enc3"
+    },
+    {
+      "term": "Barreiro",
+      "definition": "Terreno de solo argiloso ou arenoso, rico em sais minerais, que os animais frequentam para obter nutrientes raros na floresta de terra firme.",
+      "sourceId": "enc3"
+    }
   ],
   "cover": null,
   "moments": [
     {
-      "id": "margens",
-      "eyebrow": "RIO QUE EXPANDE",
-      "title": "Quando o rio sobe, a margem muda de tamanho",
-      "question": "Onde termina a água e começa a floresta?",
+      "id": "serra",
+      "eyebrow": "01 · A serra",
+      "title": "Um morro de arenito sobre a planície",
+      "question": "Por que uma serra de 525 metros chama tanta atenção?",
       "paragraphs": [
-        "Os rios Novo e Sotério atravessam a paisagem descrita nos estudos da Serra da Cutia. Nos meses de cheia, as águas alcançam áreas baixas das margens e formam campos inundáveis. Em outras épocas, essas superfícies aparecem de novo. A fronteira entre leito, brejo e vegetação não é uma linha fixa ao longo do ano.",
-        "O diagnóstico físico do parque registra faixas ribeirinhas periodicamente inundadas e ambientes de igapó. São condições diferentes das encontradas nos platôs de terra firme. Para as plantas, a duração do alagamento interfere nas condições de crescimento; para animais, muda a disponibilidade de abrigo e de recursos, sem que se possa adivinhar o comportamento de uma espécie a partir de uma descrição geral.",
-        "A cheia, portanto, não é só um evento que interrompe caminhos humanos. Ela ajuda a organizar onde a vegetação cresce e como a água se comunica com os ambientes ribeirinhos."
+        "A Serra da Cutia pertence aos Planaltos Residuais do Guaporé. É um inselberg formado por arenitos pré-cambrianos da Formação Palmeiral, de cerca de 900 milhões de anos, a mesma unidade que compõe as serras dos Pacaás Novos e dos Uopianes.",
+        "A serra se apresenta em três corpos de topo suave, com rebordos erosivos e paredes nuas. O primeiro, o mais baixo, tem um paredão íngreme de aproximadamente 30 metros; ao pé dele corre um pequeno igarapé de leito pedregoso, com seixos rolados e veios de quartzo.",
+        "O segundo corpo tem o topo coberto por laje de arenito e vegetação típica de cerrado, e uma cachoeira de pouco volume, que deve secar na estiagem. O ponto mais alto do parque, com 525 metros, fica no corpo principal. A rocha se parte e esfarela com facilidade, o que torna esse ambiente frágil.",
+        "No relevo ao redor predominam superfícies aplainadas de cerca de 200 metros de altitude. Nas encostas, o material solto que desce das escarpas se acumula no sopé em depósitos de tálus."
       ],
       "sourceIds": [
-        "cutia-fisico",
-        "cutia-plano",
-        "cutia-oficial"
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 25"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 26"
+        }
       ],
       "images": []
     },
     {
-      "id": "arvores",
-      "eyebrow": "MAIS DE UMA MATA",
-      "title": "A castanheira e o igapó não contam a mesma história",
-      "question": "Que plantas revelam o contraste entre terra firme e áreas inundáveis?",
+      "id": "aguas",
+      "eyebrow": "02 · As águas",
+      "title": "Rios que viram brejo, igapó e tapete de plantas",
+      "question": "O que acontece com os rios Novo e Sotério quando chove?",
       "paragraphs": [
-        "No levantamento de floresta de terra firme associado ao rio Novo, pesquisadores registraram a castanheira-do-brasil (*Bertholletia excelsa*) entre as árvores de grande diâmetro. É uma planta da família Lecythidaceae, muito conhecida por suas sementes. Aqui, o registro interessa por outra razão: a árvore ajuda a tornar concreta a diferença entre um ambiente florestal de platô e a margem atingida pela água.",
-        "Para o igapó, os inventários citam plantas como o ingá do gênero *Inga* e o bambu registrado como najatuba, mas a identidade botânica e os nomes regionais exigem atenção antes de virar prancha ilustrada. O próprio diagnóstico reconheceu limitações de amostragem. Inventário não é lista completa de tudo o que existe na floresta.",
-        "A Serra da Cutia também inclui campinaranas, cerrado e faixas de contato entre diferentes formações. Essas aberturas não devem ser confundidas com clareiras recém-desmatadas. São parte do mosaico de habitats considerado prioritário no planejamento da unidade."
+        "Os rios Novo e Sotério nascem na própria serra e correm depois por sedimentos recentes, em planícies muito planas. O Sotério tem leito divagante e pouca declividade; na cheia, a água se espalha por trechos de 200 a 300 metros para dentro da superfície aplainada.",
+        "Essas planícies são cobertas por campos e árvores baixas, com faixas de floresta junto aos rios. Nos terraços dos rios Novo e Sotério aparecem os bolsões, trechos em que o rio volta a se alargar, com muitos peixes e dinâmica ainda pouco conhecida.",
+        "No igapó do rio Novo, estudos registraram 19 espécies de árvores nas áreas amostradas, um número baixo, porque poucas plantas toleram o alagamento prolongado. Entre as mais frequentes estão o Macrolobium acaciifolium e o Inga punctata.",
+        "Na seca, de julho a setembro, grandes moitas de vegetação flutuante, as colchas, chegam a fechar o canal do rio Novo. Segundo moradores, o peixe-boi amazônico é visto com frequência no rio, onde cresce a cabomba, planta de que ele gosta; a vitória-régia só ocorre na cheia."
       ],
       "sourceIds": [
-        "cutia-flora",
-        "cutia-taxon",
-        "cutia-plano"
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 26–27"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 47–48"
+        }
       ],
       "images": []
     },
     {
-      "id": "animais",
-      "eyebrow": "O QUE UM REGISTRO PROVA",
-      "title": "A fauna pede mais do que uma lista de nomes",
-      "question": "Quando é possível dizer que um animal usa o parque?",
+      "id": "mosaico",
+      "eyebrow": "03 · O mosaico",
+      "title": "Floresta, campinarana e cerrado lado a lado",
+      "question": "Que vegetação cobre o parque?",
       "paragraphs": [
-        "Uma avaliação nacional de primatas cita trabalhos de campo relacionados à Serra da Cutia para o macaco-prego (*Sapajus apella*). Outro relatório de avaliação menciona levantamentos na unidade para um sauá do gênero *Pithecia*. Essas referências têm valor porque apontam para pesquisas feitas no território, e não apenas para animais conhecidos genericamente na Amazônia.",
-        "As listas históricas de fauna ajudam a revelar quem já foi registrado na Serra da Cutia, mas não dizem quantos animais ocupam hoje cada trecho da unidade. Entre a ocorrência documentada e a vida presente na floresta existe o trabalho contínuo de monitoramento. É por isso que conservar os ambientes não depende de prometer encontros com espécies raramente vistas.",
-        "A pergunta decisiva deixa de ser quantas espécies cabem num catálogo e passa a ser de que condições elas precisam — e como conservar o espaço entre os diferentes habitats."
+        "A Floresta Ombrófila Aberta Submontana, a floresta de terra firme, cobre 62% do parque. Seguem as formações pioneiras fluviais (cerca de 12%), a Floresta Aluvial (cerca de 10%) e o contato entre cerrado e floresta (cerca de 8%). Há ainda campinaranas, cerrados, campos e trechos de floresta com bambus.",
+        "Na região leste, o dossel tem de 20 a 25 metros e domina a palmeira patauá. Na região do rio Novo, ao norte, ela está ausente. O cerrado e a campinarana aparecem sobretudo ao longo da serra, onde os pesquisadores encontraram afloramentos rochosos, vegetação rupestre e uma grande variedade de transições.",
+        "A vegetação da serra e do morro da Cutiara merece destaque pela probabilidade de abrigar espécies endêmicas, raras ou ameaçadas, por causa da complexidade dos habitats e da fragilidade dos solos.",
+        "A área alterada pelo homem é pequena: cerca de 480 hectares, 0,2% do parque, no oeste, junto à Terra Indígena Uru-Eu-Wau-Wau, em terreno antes ocupado e abandonado há cerca de 15 anos, na época do levantamento."
       ],
       "sourceIds": [
-        "cutia-primata",
-        "cutia-pithecia",
-        "cutia-plano"
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 36"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 37–38"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 51"
+        }
       ],
       "images": []
     },
     {
-      "id": "conexao",
-      "eyebrow": "A PROTEÇÃO VAI ALÉM DO LIMITE",
-      "title": "Uma peça entre muitas áreas protegidas no Guaporé",
-      "question": "Por que a ligação com áreas vizinhas importa?",
+      "id": "barreiro",
+      "eyebrow": "04 · Os bichos",
+      "title": "O barreiro chupador e a fauna do Guaporé",
+      "question": "Para onde vão os animais buscar sal?",
       "paragraphs": [
-        "O Parque Nacional Serra da Cutia, criado em 1º de agosto de 2001, ocupa cerca de 283,5 mil hectares segundo a ficha atual do ICMBio. É um trecho importante de um conjunto maior de áreas protegidas no vale do Guaporé. A continuidade entre áreas vizinhas, no entanto, precisa ser analisada caso a caso, sem assumir que todo corredor visto no mapa já funcione para todas as espécies.",
-        "Essa configuração surgiu também de decisões políticas. O histórico da criação relata discussões públicas sobre a destinação da Gleba Samaúma e a constituição de duas reservas extrativistas ao lado do parque. São categorias distintas, com objetivos e regimes de uso diferentes; não há motivo para tratá-las como uma única unidade.",
-        "Proteger uma parcela desse mosaico pode contribuir para a continuidade dos ambientes, mas a ligação efetiva entre populações e habitats precisa ser investigada. O que o mapa sugere como oportunidade de conservação, a ciência e a gestão precisam acompanhar ao longo do tempo."
+        "No norte do parque, junto à Reserva Extrativista Barreiro das Antas, há uma clareira de areia branca de cerca de 30 por 40 metros, com água salobra. Chamam-na de Barreiro Chupador, porque os animais vão ali chupar o sal. A vegetação em volta é de igapó, de porte baixo, com buritis, grandes touceiras de taboca e muitas orquídeas e bromélias.",
+        "Nas areias, pesquisadores encontraram pegadas de anta, de caititu, de queixada e de veado, e viram dois adultos de anta. Na base Tiradentes, avistaram um bando de 30 a 40 queixadas; em uma praia do igarapé São João, pegadas de ariranha.",
+        "Em censos que somaram 196,9 km, foram registradas 20 espécies de mamíferos de médio e grande porte, e a lista de ocorrência possível chega a 31. As aves somam 280 espécies no parque e no entorno imediato, com expectativa de passar de 400 conforme novos estudos.",
+        "A caça pesa sobre essa fauna: moradores da Reserva Barreiro das Antas relataram ter abatido 102 animais em um ano, e o plano classifica a pressão de caça na região como intensa."
       ],
       "sourceIds": [
-        "cutia-historia",
-        "cutia-contexto",
-        "cutia-oficial"
+        "enc3"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 49"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 52"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 57"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 60"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 62"
+        },
+        {
+          "sourceId": "enc3",
+          "locator": "p. 75"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "criacao",
+      "eyebrow": "05 · A criação",
+      "title": "Da Gleba Samaúma a um parque nacional",
+      "question": "Como nasceu a unidade?",
+      "paragraphs": [
+        "Em julho de 1999, propôs-se criar, na Gleba Samaúma, um mosaico de quatro unidades de conservação: o parque, uma reserva biológica e duas reservas extrativistas. Dois meses depois, um seminário em Macapá classificou a região como de extrema importância biológica, também pelo papel de ligação entre as áreas protegidas do vale do Guaporé.",
+        "Em outubro de 2000, uma consulta pública em Guajará-Mirim decidiu dividir a gleba em três partes: as Reservas Extrativistas Barreiro das Antas e Rio Cautário e, entre elas, o parque. Na delimitação, os principais atrativos ambientais da região ficaram fora dos limites do parque.",
+        "O parque foi criado por decreto de 1º de agosto de 2001, para preservar amostras dos ecossistemas amazônicos e permitir pesquisa científica, educação ambiental e turismo ecológico. Integra o corredor ecológico binacional Guaporé/Itenez-Mamoré, entre Brasil e Bolívia, e é apoiado pelo programa ARPA desde a criação. O plano de manejo foi aprovado em 2008."
+      ],
+      "sourceIds": [
+        "enc3",
+        "enc1",
+        "icmbio"
+      ],
+      "citations": [
+        {
+          "sourceId": "enc3",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "enc1",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "enc1",
+          "locator": "p. 25"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Entre a terra firme e o igapó",
-  "closing": "Entre a terra firme e o igapó, a Serra da Cutia reúne ambientes que mudam com o relevo e a permanência da água. Parte de sua riqueza aparece em inventários que ainda não alcançam todos os lugares. Esse parque não depende de uma atração famosa para justificar sua proteção: sua importância está também nas transições pouco visíveis que mantêm a floresta diversa.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "criacao",
+    "title": "Como o parque foi criado",
+    "intro": "Marcos entre a proposta do mosaico e o plano de manejo.",
+    "items": [
+      {
+        "id": "1999-07",
+        "year": "jul. 1999",
+        "title": "A proposta do mosaico",
+        "description": "Pede-se, para a Gleba Samaúma, um mosaico de quatro unidades de conservação.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "id": "1999-09",
+        "year": "set. 1999",
+        "title": "Extrema importância biológica",
+        "description": "Seminário em Macapá aponta a região como área prioritária e propõe o parque.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "id": "2000",
+        "year": "out. 2000",
+        "title": "Consulta pública",
+        "description": "Em Guajará-Mirim, decide-se dividir a gleba entre duas reservas extrativistas e o parque.",
+        "sourceIds": [
+          "enc3"
+        ]
+      },
+      {
+        "id": "2001",
+        "year": "1º ago. 2001",
+        "title": "Decreto de criação",
+        "description": "O Parque Nacional Serra da Cutia é criado por decreto sem número.",
+        "sourceIds": [
+          "enc3",
+          "icmbio"
+        ]
+      },
+      {
+        "id": "2008",
+        "year": "8 ago. 2008",
+        "title": "Plano de manejo",
+        "description": "A Portaria nº 55 aprova o plano de manejo.",
+        "sourceIds": [
+          "icmbio"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra baixa que organiza uma paisagem inteira",
+  "closing": "Da laje de arenito ao igapó, do barreiro de sal à planície que alaga, a Serra da Cutia mostra que a Amazônia do Guaporé é feita de contrastes pequenos e decisivos. Boa parte desse mosaico ainda espera por inventários mais completos.",
   "references": [
     {
-      "id": "cutia-oficial",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parna Serra da Cutia — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia",
-      "accessedAt": "2026-10-21",
-      "use": "Nome, ato de criação, área e plano de manejo."
+      "title": "Página institucional do Parque Nacional Serra da Cutia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia",
+      "accessedAt": "2026-10-23",
+      "use": "área, ato de criação e aprovação do plano de manejo"
     },
     {
-      "id": "cutia-fisico",
+      "id": "enc3",
       "institution": "IBAMA / Kanindé / WWF-Brasil",
-      "title": "Plano de Manejo Serra da Cutia — Anexos Meio Físico",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_anexos_meio_fisico.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Bacias Novo, Sotério, Cautário e inundação das margens."
+      "title": "Plano de Manejo do Parque Nacional Serra da Cutia, Encarte 3: Análise da Unidade (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_4_enc3.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "relevo, geologia, hidrografia, vegetação, fauna e história da criação; páginas conforme a numeração do PDF"
     },
     {
-      "id": "cutia-flora",
-      "institution": "ICMBio",
-      "title": "Plano de Manejo da RESEX Barreiro das Antas — síntese dos levantamentos da Serra da Cutia",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/resex-barreiro-das-antas/arquivos/resex_barreiro_das_antas_pm.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Resumo de levantamento florístico do próprio parque e ressalva sobre suficiência de amostragem."
-    },
-    {
-      "id": "cutia-taxon",
-      "institution": "Royal Botanic Gardens, Kew",
-      "title": "Plants of the World Online — Bertholletia excelsa",
-      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:591270-1",
-      "accessedAt": "2026-10-21",
-      "use": "Taxonomia aceita da castanheira."
-    },
-    {
-      "id": "cutia-plano",
-      "institution": "IBAMA / ICMBio",
-      "title": "Plano de Manejo Serra da Cutia — Encarte 4, Planejamento",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_6_enc4.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Descrição de habitats e critérios de preservação."
-    },
-    {
-      "id": "cutia-historia",
-      "institution": "IBAMA / ICMBio",
-      "title": "Plano de Manejo Serra da Cutia — Encarte 3, Análise da Unidade",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_4_enc3.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "História de criação, gestão e reservas vizinhas."
-    },
-    {
-      "id": "cutia-contexto",
-      "institution": "IBAMA / ICMBio",
-      "title": "Plano de Manejo Serra da Cutia — Encarte 1, Contextualização",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_2_enc1.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Bloco de áreas protegidas no Guaporé e importância da conectividade."
-    },
-    {
-      "id": "cutia-primata",
-      "institution": "ICMBio / SALVE",
-      "title": "Ficha de Avaliação — Sapajus apella",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/2019_2022/cebidae/ficha-sapajus-apella.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Referência de ocorrência do macaco-prego em pesquisa da UC."
-    },
-    {
-      "id": "cutia-pithecia",
-      "institution": "ICMBio / SALVE",
-      "title": "Ficha de Avaliação — Pithecia irrorata",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/2019_2022/pitheciidae/ficha-pithecia-irrorata.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Referência de censo envolvendo a Serra da Cutia; identificação e recorte sob cautela."
+      "id": "enc1",
+      "institution": "IBAMA / Kanindé / WWF-Brasil",
+      "title": "Plano de Manejo do Parque Nacional Serra da Cutia, Encarte 1: Contextualização (PDF)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-serra-da-cutia/arquivos/parna_serra_da_cutia_pm_2_enc1.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "corredor ecológico Guaporé/Itenez-Mamoré e programa ARPA"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
   "photoStatus": "sem_foto_verificada",
-  "editorialNotes": "Reportagem original para revisão humana; documentos oficiais e artigos citados. Material visual apenas com licenças individuais identificadas; fotos autodeclaradas como do parque aguardam QA de localização. Sem alteração de limites, programação ou publicação. PDFs com leitura indexada e imagem de página não disponibilizada pelo serviço de captura; revisão visual em aberto. | Curadoria v2.8: ato de criação e área atual confrontados com ficha ICMBio; medidas de plano histórico e ficha atual divergem, registradas no dossiê sem alterações de limites.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "editorialNotes": "Pendências: área do plano (283.611 ha) difere da página do ICMBio (283.501,38 ha), adotada a do ICMBio; decreto no Planalto não pôde ser aberto, conferir data e área; texto do plano em OCR ruim, conferir percentuais de vegetação (p. 36) no PDF; sem foto livre verificada; revisão humana."
 }

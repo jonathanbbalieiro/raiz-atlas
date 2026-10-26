@@ -1,10 +1,10 @@
 {
   "name": "raiz-atlas",
-  "version": "1.1.0-alpha",
+  "version": "1.4.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/check-content.mjs",
+    "prebuild": "node scripts/copy-maplibre-worker.mjs && node scripts/check-content.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -16,10 +16,11 @@
     "photo:flagships": "node scripts/fill-flagship-photos.mjs",
     "approve": "node scripts/approve.mjs",
     "sources": "node scripts/source-pack.mjs",
-    "src": "node scripts/src-grep.mjs"
+    "src": "node scripts/src-grep.mjs",
+    "predev": "node scripts/copy-maplibre-worker.mjs"
   },
   "dependencies": {
-    "maplibre-gl": "^5.24.0",
+    "maplibre-gl": "^6.16.0",
     "next": "16.4.2",
     "react": "19.3.0",
     "react-dom": "19.3.0",
@@ -42,5 +43,8 @@
     "topojson-server": "^3.0.1",
     "tsx": "^4.23.15",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20.9"
   }
 }

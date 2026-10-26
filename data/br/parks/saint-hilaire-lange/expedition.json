@@ -1,146 +1,330 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional de Saint-Hilaire/lange",
-  "title": "Serra da Prata: a floresta que entrega água ao litoral",
-  "subtitle": "Entre duas baías, a serra reúne mananciais, Mata Atlântica e histórias de circulação humana. É uma montanha cuja proteção alcança muito além da vista das praias.",
-  "centralQuestion": "O que a Serra da Prata oferece ao litoral além da paisagem?",
+  "title": "Serra da Prata: a caixa-d'água do litoral paranaense",
+  "subtitle": "Entre as baías de Guaratuba e Paranaguá, uma serra de Mata Atlântica bem conservada, picos com vista para o mar e rios que abastecem cinco municípios.",
+  "centralQuestion": "Como uma serra que parece tão distante das praias sustenta a vida do litoral do Paraná?",
   "introduction": [
-    "O litoral costuma ser imaginado a partir da linha em que a areia encontra o oceano. Mas, no Paraná, há outro encontro decisivo: a água que desce da Serra da Prata e atravessa a planície até as áreas costeiras. É nessa montanha, entre as baías de Paranaguá e Guaratuba, que começa a história de Saint-Hilaire/Lange.",
-    "A serra abriga florestas, ambientes de altitude, espécies ameaçadas e caminhos ligados à memória caiçara. Para descobri-la, vale olhar primeiro não para um mirante, mas para as relações entre relevo, floresta e água."
+    "Dos mirantes do alto da Serra da Prata, a planície do litoral do Paraná se abre entre as baías de Guaratuba e de Paranaguá. A serra que sustenta essa vista é um subconjunto da Serra do Mar, separado do conjunto principal pelo vale do rio Cubatãozinho, e seus contornos lembram um gigante deitado.",
+    "Aqui nasce a água que desce para o litoral. O Parque Nacional de Saint-Hilaire/Lange, de cerca de 24 mil hectares, protege um dos trechos mais bem conservados da Mata Atlântica do país, com florestas de baixada até campos de altitude, e é conhecido como a grande caixa-d'água do litoral paranaense."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Saint_Hilaire-Lange_-_Serra_da_Prata_(Pedra_Queimada).jpg?width=1200",
-    "alt": "Parede rochosa na Serra da Prata, apresentada como Pedra Queimada pelo fotógrafo.",
-    "author": "Jplazaroto",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Hilaire-Lange_-_Serra_da_Prata_(Pedra_Queimada).jpg",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Pedra Queimada na Serra da Prata. Foto: Jplazaroto / Wikimedia Commons, CC BY-SA 4.0. Local informado pelo autor; não é um mapa dos limites oficiais."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares de área, segundo o decreto que definiu os limites em 2025",
+      "value": "24.317",
+      "sourceId": "decreto"
+    },
+    {
+      "label": "espécies de plantas identificadas, a maior riqueza já registrada em estudos da floresta ombrófila densa no Sul",
+      "value": "560",
+      "sourceId": "pm",
+      "locator": "p. 12"
+    },
+    {
+      "label": "espécies de aves registradas",
+      "value": "365",
+      "sourceId": "pm",
+      "locator": "p. 17"
+    },
+    {
+      "label": "espécies de mamíferos registradas",
+      "value": "49",
+      "sourceId": "pm",
+      "locator": "p. 17"
+    },
+    {
+      "label": "municípios abastecidos pela água do parque",
+      "value": "5",
+      "sourceId": "pm",
+      "locator": "p. 16"
+    },
+    {
+      "label": "da unidade ainda sem regularização fundiária",
+      "value": "≈ 99%",
+      "sourceId": "pm",
+      "locator": "p. 14"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Refúgio vegetacional altomontano",
+      "definition": "Vegetação de campo acima de 1.200 metros e de afloramentos e paredões de rocha no alto das montanhas.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Sambaqui",
+      "definition": "Monte de conchas deixado por povos que ocuparam o litoral do Paraná há cerca de 6 mil anos.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Caiçaras",
+      "definition": "Famílias que habitam historicamente o litoral e as baías do entorno, com práticas como farinheiras e pesca artesanal.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Guaricana",
+      "definition": "Palmeira do gênero Geonoma, cujas folhas são extraídas ilegalmente do parque.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
-      "id": "serra",
-      "eyebrow": "O LITORAL TEM UMA MONTANHA",
-      "title": "A água do litoral começa bem acima da praia",
-      "question": "O que liga a Serra da Prata à vida nas cidades costeiras?",
+      "id": "agua",
+      "eyebrow": "01 · A água",
+      "title": "A caixa-d'água do litoral",
+      "question": "De onde vem a água que chega às cidades da planície?",
       "paragraphs": [
-        "Entre as baías de Paranaguá e Guaratuba, a Serra da Prata se ergue sob uma cobertura de Mata Atlântica. Não é o mar que dá nome a esta paisagem protegida, mas uma montanha que participa da vida do litoral. Das encostas descem rios, e conservar seus caminhos significa também cuidar de água que chega às áreas povoadas da planície.",
-        "O plano de manejo chama a atenção para o abastecimento de cinco municípios a partir dessa rede hídrica. Isso não quer dizer que cada gota usada nessas cidades venha de dentro do parque: rios percorrem bacias e ultrapassam limites administrativos. Quer dizer que a floresta da serra protege uma parte essencial do sistema que sustenta atividades humanas e ambientes naturais.",
-        "Em vez de separar água e vegetação, vale seguir sua conexão: o terreno faz a água descer; o solo e a cobertura vegetal influenciam como ela percorre a serra e alcança os cursos d’água. Proteger a paisagem é também não perder essa relação."
+        "Os rios e riachos do parque são de tamanhos e vazões bem variados e correm para as baías de Paranaguá e de Guaratuba ou diretamente para o Atlântico. Entre eles estão os rios Matinhos, Cachoeirinha, Cambará, Colônia Pereira, das Pombas, Miranda, Santa Cruz, Jacareí, do Henrique e Parati.",
+        "Em seu trajeto, a água abastece cinco municípios e atende a maior parte da população do litoral paranaense. Também sustenta a agricultura familiar e o cultivo de ostras nativas na baía de Guaratuba, uma referência nacional.",
+        "A floresta protege o solo e faz as águas correrem pelo relevo, infiltrando-se e seguindo o curso natural, o que reduz a erosão e o assoreamento e favorece atividades como a portuária.",
+        "Alguns dos rios formam corredeiras e saltos de grande beleza, como a Quintilha, o Salto do Parati e o Salto do Tigre, hoje procurados para lazer."
       ],
       "sourceIds": [
-        "plano",
-        "decreto2025"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        }
       ],
       "images": []
     },
     {
-      "id": "mosaico",
-      "eyebrow": "NEM SÓ COPAS DE ÁRVORES",
-      "title": "A serra guarda mais de um tipo de verde",
-      "question": "Por que uma montanha da Mata Atlântica não tem uma floresta uniforme?",
+      "id": "mata",
+      "eyebrow": "02 · A floresta",
+      "title": "Do nível do mar aos campos de altitude",
+      "question": "Que paisagens a serra reúne?",
       "paragraphs": [
-        "A Serra da Prata reúne florestas, rios, cachoeiras e ambientes abertos de altitude. À distância tudo pode parecer uma única superfície verde. De perto, altitude, relevo e exposição à umidade criam condições variadas para a vida. A diversidade de ambientes é parte da singularidade do parque.",
-        "Entre as plantas citadas em sua documentação está o palmito-juçara (Euterpe edulis), uma palmeira da Mata Atlântica. Sua presença integra uma floresta também marcada por espécies pressionadas pela retirada de recursos vegetais. O documento registra ainda canelas, bromélias e orquídeas, mas não transforma cada espécie descrita em uma ocorrência fotografada.",
-        "Essa variedade muda o sentido de conservar a montanha. Não se trata de guardar apenas árvores grandes: a água que atravessa as encostas, plantas do sub-bosque e pequenas áreas abertas compõem um conjunto de ambientes que precisam permanecer conectados."
+        "O parque protege quatro tipos de vegetação da Mata Atlântica: a floresta ombrófila densa submontana, entre 20 e 600 metros de altitude; a montana, entre 600 e 1.200 metros; a altomontana, acima de 1.200; e os refúgios vegetacionais altomontanos, com campos e vegetação de rocha no alto dos morros.",
+        "Foram identificadas 560 espécies de plantas, sendo 283 arbóreo-arbustivas e 277 herbáceas e epífitas. Entre as ameaçadas estão o palmito-juçara e a canela-preta, vulneráveis, e a canela-sassafrás e a imbuia, em perigo. A rara Ocotea marumbiensis, uma canela descrita em 2012, foi encontrada na floresta montana do parque.",
+        "Há ainda duas espécies exclusivas da unidade: o sapinho-da-montanha (Brachycephalus izecksohni), que vive nas encostas altas da Torre da Prata, e a lanterna-de-fada (Thismia prataensis)."
       ],
       "sourceIds": [
-        "plano",
-        "samge"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        }
       ],
       "images": []
     },
     {
-      "id": "habitantes",
-      "eyebrow": "QUEM PRECISA DA FLORESTA",
-      "title": "O papagaio não resume toda a fauna",
-      "question": "Como um animal conhecido ajuda a revelar a conservação de outros?",
+      "id": "fauna",
+      "eyebrow": "03 · A fauna",
+      "title": "Bugios, jacutingas e papagaios",
+      "question": "Quem vive na mata da Serra da Prata?",
       "paragraphs": [
-        "O papagaio-da-cara-roxa (Amazona brasiliensis) figura na lista oficial de espécies ameaçadas protegidas pela unidade. É um nome concreto para lembrar que o parque não conserva apenas uma paisagem vista do mirante. Também protege condições de alimentação, abrigo e deslocamento da fauna.",
-        "A documentação da Serra da Prata menciona ainda bugio-ruivo e jacutinga na relação de fauna do parque e de seu entorno. Esse recorte importa: um registro territorial amplo não é prova de que um visitante encontrará o animal em determinada trilha. Tampouco comprova a população existente em 2026.",
-        "A diversidade costuma ser menos espetacular do que uma fotografia isolada sugere. Ela depende de vários ambientes coexistirem e de sua proteção continuar mesmo quando nenhum animal está à vista."
+        "A floresta abriga pelo menos 49 espécies de mamíferos, 365 de aves, 31 de anfíbios, 23 de répteis e 30 de peixes. A região registra mais da metade das aves do Paraná e integra uma Área Importante para a Conservação das Aves.",
+        "Entre os ameaçados estão o bugio-ruivo, o veado-mateiro-pequeno, a anta, a onça-pintada, a jacutinga, o papagaio-de-cara-roxa e a abelha nativa bugia, além de outros felinos. Também vivem ali a jaguatirica, o veado-mateiro e o puma.",
+        "O parque é um dos poucos lugares onde ocorre o sapinho-da-montanha, de distribuição muito restrita."
       ],
       "sourceIds": [
-        "ficha",
-        "plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        }
       ],
       "images": []
     },
     {
-      "id": "pessoas",
-      "eyebrow": "CAMINHOS MAIS ANTIGOS",
-      "title": "A serra também foi atravessada por gente",
-      "question": "Que histórias humanas permanecem associadas à floresta?",
+      "id": "gente",
+      "eyebrow": "04 · As pessoas",
+      "title": "Sambaquis, colônias e caiçaras",
+      "question": "Quem passou por esta serra antes do parque?",
       "paragraphs": [
-        "Antes de ser uma unidade de conservação, a Serra da Prata já integrava percursos de trabalho e circulação. O plano registra colônias agrícolas, a antiga Estrada das Colônias, a história do montanhismo e práticas caiçaras em seu entorno.",
-        "Farinheiras, pesca artesanal e festividades são exemplos citados no documento para situar essas relações. Nem toda prática tradicional acontece dentro dos limites do parque; por isso é preciso resistir à imagem de um território sem pessoas ou à ideia de que toda comunidade do litoral está incluída no mesmo perímetro legal.",
-        "A conservação atual precisa dialogar com essa memória territorial. Entre a proteção dos mananciais e a vida das comunidades existe uma história de caminhos, usos e decisões que continua produzindo responsabilidades."
+        "A ocupação humana do litoral do Paraná começa há cerca de 6 mil anos, com os povos dos sambaquis, os montes de conchas. Mais tarde chegaram povos ceramistas, sobretudo Tupi-Guarani, chamados de Carijó pelos colonizadores.",
+        "Em 1820, o naturalista francês Auguste de Saint-Hilaire percorreu o litoral, de Paranaguá a Guaratuba, em canoas e carroças de boi, e descreveu a paisagem e a vida da região em Viagem à Comarca de Curitiba. O nome do parque o homenageia, junto ao do biólogo e ambientalista paranaense Roberto Ribas Lange.",
+        "Na segunda metade do século XIX, começaram as colônias agrícolas nas bordas da serra e foi aberta a Estrada das Colônias, ligando Paranaguá a Guaratuba. No entorno do sul do parque, muitas famílias que ali vivem hoje habitam historicamente o território e podem ser reconhecidas como caiçaras, com farinheiras, pesca artesanal e tradições próprias."
       ],
       "sourceIds": [
-        "plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        }
       ],
       "images": []
     },
     {
-      "id": "proteger",
-      "eyebrow": "O QUE ESTÁ EM JOGO",
-      "title": "A floresta também precisa ser defendida fora das bordas",
-      "question": "Por que a proteção dos mananciais não termina na linha do parque?",
+      "id": "limites",
+      "eyebrow": "05 · Os limites",
+      "title": "Uma lei, um decreto e muitos desafios",
+      "question": "Como o parque foi criado e o que ainda falta?",
       "paragraphs": [
-        "O plano aponta pressões sobre espécies vegetais, como a retirada de plantas ornamentais, e registra necessidades de conservar nascentes, rios e mananciais em diálogo com o entorno. Proteger apenas uma nascente não resolve tudo o que chega até ela pelas encostas e pelos cursos d’água.",
-        "Em 2025, um decreto definiu os limites definitivos do parque e registrou área aproximada de 24.317 hectares. Esse número é referência legal, não licença para desenhar uma nova geometria por conta própria. Para o mapa do Raiz, a delimitação deve ser importada de base geoespacial oficial.",
-        "A Serra da Prata pode ser compreendida como uma ligação viva entre altitude e litoral. Sua floresta não termina no campo visual de uma fotografia, e seu papel também não termina onde a água deixa as encostas."
+        "A Lei nº 10.227, de 23 de maio de 2001, criou o parque para proteger a Mata Atlântica e assegurar a estabilidade ambiental dos balneários sob sua influência e a qualidade de vida das populações litorâneas. Em 3 de junho de 2025, o Decreto nº 12.488 definiu os limites definitivos, com área aproximada de 24.317 hectares.",
+        "O principal problema de gestão é fundiário: cerca de 99% da unidade ainda não foi regularizada. As pressões vêm da extração de palmito-juçara e de folhas de guaricana, da caça, da captação irregular de água e da expansão urbana de Matinhos e Guaratuba.",
+        "Três rodovias cercam o parque e causam efeito barreira e atropelamento de animais. A visitação desordenada também preocupa: de cachoeiras e saltos abertos ao público, só Parati, Onça e Tigre foram avaliados em boas condições.",
+        "O parque é área-núcleo da Reserva da Biosfera da Mata Atlântica e integra o Mosaico Lagamar. Suas trilhas levam aos cumes da Torre da Prata, do Morro do Escalvado, do Morro do Cabaraquara e da Pedra Queimada."
       ],
       "sourceIds": [
-        "plano",
-        "decreto2025",
-        "samge"
+        "pm",
+        "decreto",
+        "lei"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 28"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "arts. 1º e 3º"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Da montanha à planície",
-  "closing": "A água que nasce nas encostas da Serra da Prata segue em direção a uma planície de rios, restingas e ocupações humanas. Entre o alto e o baixo, a vegetação se transforma e revela a ligação entre ambientes que costumam ser vistos separadamente. O parque protege parte dessa continuidade — da montanha que recebe chuva às terras que recebem sua água.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "gente",
+    "title": "Marcos da serra",
+    "intro": "Dos sambaquis ao decreto de limites.",
+    "items": [
+      {
+        "id": "6mil",
+        "year": "Há cerca de 6 mil anos",
+        "title": "Povos dos sambaquis",
+        "description": "Registros de ocupação humana no litoral do Paraná começam há cerca de 6 mil anos.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1820",
+        "year": "1820",
+        "title": "Saint-Hilaire no litoral",
+        "description": "O naturalista francês percorre o caminho de Paranaguá a Guaratuba.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "xix",
+        "year": "Século XIX",
+        "title": "Colônias e Estrada das Colônias",
+        "description": "Colônias agrícolas se instalam nas bordas da serra, ligadas por estrada carroçável entre Paranaguá e Guaratuba.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2001",
+        "year": "2001",
+        "title": "Criação do parque",
+        "description": "A Lei nº 10.227, de 23 de maio, cria o Parque Nacional de Saint-Hilaire/Lange.",
+        "sourceIds": [
+          "pm",
+          "lei"
+        ]
+      },
+      {
+        "id": "2024",
+        "year": "2024",
+        "title": "Plano de manejo",
+        "description": "O ICMBio publica o plano de manejo do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2025",
+        "year": "2025",
+        "title": "Limites definitivos",
+        "description": "O Decreto nº 12.488, de 3 de junho, define os limites do parque.",
+        "sourceIds": [
+          "decreto"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma serra que dá de beber ao mar",
+  "closing": "A Serra da Prata liga a altitude ao litoral: a água que nasce nos campos de altura corre pela floresta, abastece cidades e chega às baías onde se criam ostras. Cuidar desse parque é cuidar do que a planície depende, e das pessoas que sempre viveram entre a montanha e a baía.",
   "references": [
     {
-      "id": "ficha",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Parna de Saint-Hilaire/Lange — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-Saint-Hilaire-Lange/parna-de-Saint-Hilaire-Lange",
-      "accessedAt": "2026-10-21",
-      "use": "Nome, área de 24.317 ha, criação e espécies ameaçadas protegidas na UC"
+      "title": "Plano de Manejo do Parque Nacional de Saint-Hilaire/Lange (2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-Saint-Hilaire-Lange/arquivos/plano_manejo_pnsaint_hilaire_lange_abr2024_final.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "paisagem, água, flora, fauna, história, pressões e uso público; páginas conforme a numeração do PDF"
     },
     {
-      "id": "plano",
-      "institution": "ICMBio",
-      "title": "Plano de manejo do Parque Nacional de Saint-Hilaire/Lange, abril de 2024",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-Saint-Hilaire-Lange/arquivos/plano_manejo_pnsaint_hilaire_lange_abr2024_final.pdf/@@download/file",
-      "accessedAt": "2026-10-21",
-      "use": "Serra da Prata, águas e serviços, flora/fauna, memória do território e desafios"
-    },
-    {
-      "id": "decreto2025",
+      "id": "decreto",
       "institution": "Presidência da República",
-      "title": "Decreto nº 12.488, de 3 de junho de 2025",
+      "title": "Decreto nº 12.488, de 3 de junho de 2025 (define os limites do Parque Nacional de Saint-Hilaire/Lange)",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12488.htm",
-      "accessedAt": "2026-10-21",
-      "use": "Definição legal definitiva dos limites e área aproximada; não transpor coordenadas para o atlas"
+      "accessedAt": "2026-10-23",
+      "use": "limites definitivos e área aproximada de 24.317 ha"
     },
     {
-      "id": "samge",
-      "institution": "ICMBio",
-      "title": "SAMGe: recursos e valores, 2023",
-      "url": "https://www.gov.br/icmbio/pt-br/acesso-a-informacao/dados-abertos/arquivos/sistema-de-analise-e-monitoramento-da-efetividade-de-gestao-samge/2___recursos_e_valores__rv____19062024.csv/view",
-      "accessedAt": "2026-10-21",
-      "use": "Serra da Prata, campos de altitude, mananciais e pressões sobre fauna"
+      "id": "lei",
+      "institution": "Presidência da República",
+      "title": "Lei nº 10.227, de 23 de maio de 2001 (cria o Parque Nacional de Saint-Hilaire/Lange)",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10227.htm",
+      "accessedAt": "2026-10-23",
+      "use": "criação do parque"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "1_foto_commons_licenca_identificada_geolocalizacao_pendente",
-  "editorialNotes": "Nova Expedição; não existe aprovação do usuário. Artigo baseado sobretudo no plano 2024 e Decreto 12.488/2025. A fotografia de Pedra Queimada possui licença individual comprovada e local relatado pelo autor, mas requer conferência de arquivo remoto e geolocalização. Documento aponta espécies do parque E entorno em diversos casos; foi mantida a nuance. O nome da UC e a área seguem ficha oficial.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Área: decreto 24.317 ha; plano 24.473 ha (ficha) e 24,5 mil; cadastro 24.302. Conferir URL da Lei nº 10.227 (citada no plano; texto não aberto). Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons."
 }

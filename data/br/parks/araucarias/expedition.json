@@ -1,159 +1,340 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional das Araucárias",
-  "title": "Araucárias: a floresta que reaprende uma voz",
-  "subtitle": "O parque protege uma mata antiga, mas uma de suas histórias mais importantes é o esforço de devolver o papagaio-de-peito-roxo à paisagem.",
-  "centralQuestion": "Como uma floresta recupera um habitante que deixou de viver nela?",
+  "title": "Araucárias: o que resta da mata de pinheiros no oeste catarinense",
+  "subtitle": "Em Passos Maia e Ponte Serrada, uma floresta que já cobriu o planalto sul quase inteiro sobrevive em um parque de pouco mais de 12 mil hectares, entre rios encachoeirados, campos e um papagaio que voltou a ser solto na mata.",
+  "centralQuestion": "O que ainda faz de um fragmento de floresta com araucárias um lugar insubstituível?",
   "introduction": [
-    "A copa de uma araucária parece ocupar sozinha a linha do horizonte. Mas uma floresta não se resume às árvores que a nomeiam. Ela é também feita de sementes, aves, pequenos abrigos e relações que podem desaparecer mesmo quando o verde permanece.",
-    "No oeste de Santa Catarina, o Parque Nacional das Araucárias guarda remanescentes dessa formação da Mata Atlântica. É também o cenário de uma tentativa cuidadosa de reintroduzir o papagaio-de-peito-roxo — uma história que começa com uma ausência."
+    "A araucária desenha o horizonte do planalto sul: tronco reto, copa em candelabro, pinhões que caem no outono e alimentam gente e bicho. Em Santa Catarina, porém, restam apenas de 1% a 2% das florestas com araucárias originais, e quase sempre em pedaços pequenos e isolados.",
+    "O Parque Nacional das Araucárias, criado em 2005 entre Passos Maia e Ponte Serrada, guarda cerca de 12,8 mil hectares desse mundo. Há ali floresta antiga e floresta em recuperação, campos de altitude, os rios Chapecó e Chapecozinho, gralhas-azuis e um projeto que tenta devolver à mata o papagaio-de-peito-roxo."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área do parque, segundo o plano de manejo",
+      "value": "12.841",
+      "sourceId": "pm",
+      "locator": "p. 22"
+    },
+    {
+      "label": "da Mata Atlântica preservada em Passos Maia e Ponte Serrada fica dentro do parque",
+      "value": "≈ 43,9%",
+      "sourceId": "pm",
+      "locator": "p. 43"
+    },
+    {
+      "label": "da área original das florestas com araucárias resta em Santa Catarina",
+      "value": "1 a 2%",
+      "sourceId": "pm",
+      "locator": "p. 42"
+    },
+    {
+      "label": "espécies de aves registradas, 48 delas endêmicas da Mata Atlântica",
+      "value": "234",
+      "sourceId": "pm",
+      "locator": "p. 133"
+    },
+    {
+      "label": "espécies de mamíferos registradas, cinco delas ameaçadas",
+      "value": "30",
+      "sourceId": "pm",
+      "locator": "p. 131"
+    },
+    {
+      "label": "papagaios-de-peito-roxo soltos pelo projeto de reintrodução, segundo o Instituto Fauna Brasil",
+      "value": "≈ 250",
+      "sourceId": "fauna"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Floresta Ombrófila Mista",
+      "definition": "A mata de araucária: o pinheiro-brasileiro forma o andar superior da floresta, sobre um sub-bosque bastante denso.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Campos de altitude",
+      "definition": "Vegetação herbácea ou herbáceo-arbustiva de serras e planaltos, que aparece em mosaico com a mata de araucária; no parque ocorre como estepe gramíneo-lenhosa.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Pinhão",
+      "definition": "Semente da araucária. Alimenta a fauna, em especial os papagaios no inverno, e é fonte de renda de pequenas propriedades da região.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em torno da unidade onde as atividades humanas seguem normas específicas. No parque, ela se estende por 500 metros a partir do perímetro.",
+      "sourceId": "pm"
+    }
   ],
   "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Amanhecer_nas_arauc%C3%A1rias.JPG?width=1200",
-    "alt": "Silhuetas de araucárias em uma paisagem sob a luz da manhã.",
-    "author": "Nikolaus Tarouquella",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amanhecer_nas_arauc%C3%A1rias.JPG",
-    "context": "Localização exata da fotografia nos limites do parque não confirmada. Amanhecer entre araucárias. O acervo categoriza a imagem junto ao parque, mas a página não confirma onde foi feita; ilustração de ambiente, não registro cartográfico."
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Araucaria_toca_o_c%C3%A9u.jpg/1280px-Araucaria_toca_o_c%C3%A9u.jpg",
+    "author": "Rodrigo DE PINHO FRANCO",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Araucaria_toca_o_c%C3%A9u.jpg",
+    "width": 1280,
+    "height": 853,
+    "alt": "Copa de araucária recortada contra o céu azul-claro no fim da tarde, no Parque Nacional das Araucárias.",
+    "context": "Araucária no Parque Nacional das Araucárias (SC), fotografada em fevereiro de 2017 para o concurso Wiki Loves Earth."
   },
   "moments": [
     {
-      "id": "arvore",
-      "eyebrow": "UMA FLORESTA DE MUITAS FORMAS",
-      "title": "A araucária é só o começo da floresta",
-      "question": "O que vive debaixo da árvore que dá nome ao parque?",
+      "id": "floresta",
+      "eyebrow": "01 · A mata",
+      "title": "Um pedaço do planalto de pinheiros",
+      "question": "O que o parque protege?",
       "paragraphs": [
-        "A araucária é reconhecível antes mesmo de alguém conhecer seu nome: o tronco se ergue e os galhos adultos abrem uma copa que parece desenhada contra o céu. No Parque Nacional das Araucárias, no oeste catarinense, ela faz parte de uma floresta que os botânicos chamam de ombrófila mista — uma formação da Mata Atlântica em que espécies de diferentes grupos crescem juntas.",
-        "A araucária, Araucaria angustifolia, divide a mata com a imbuia, com a erva-mate e com o xaxim. O último não é uma árvore de madeira convencional: é uma samambaia arborescente, que demora a construir seu porte e já foi muito explorada. Esses habitantes da floresta não são acessórios do pinheiro. A composição das plantas ajuda a criar sombra, abrigo, alimento e condições de vida para outros organismos.",
-        "Em certas épocas, as araucárias formam pinhões, sementes que servem de alimento a animais. A gralha-azul e o macuco estão entre as aves registradas na área. Isso não autoriza afirmar que cada ave fotografada carregou sementes neste parque; mostra por que uma floresta deve ser entendida por suas relações, não como uma fileira de árvores idênticas.",
-        "Uma floresta com araucárias não é uma coleção de árvores idênticas. Sob e entre as copas se formam diferentes condições de sombra, umidade e alimento. O pinhão é um recurso sazonal importante, mas a conservação envolve também outras plantas, aves, mamíferos e organismos pouco visíveis. A forma inconfundível da araucária ajuda a reconhecer o ambiente; não serve para medir sozinha sua qualidade ecológica."
+        "O decreto de 19 de outubro de 2005 criou o parque para preservar os remanescentes de Floresta Ombrófila Mista, a mata de araucária, e os campos de altitude, dois tipos de vegetação da Mata Atlântica muito ameaçados e pouco representados entre as unidades de conservação do país. O decreto foi republicado em 28 de outubro por uma incorreção no texto original.",
+        "Hoje, a floresta nativa de Passos Maia e Ponte Serrada soma cerca de 29 mil hectares, e o parque responde por quase 44% disso. A área se divide entre os dois municípios: 55,3% em Ponte Serrada e 44,7% em Passos Maia. Em volta dela corre uma zona de amortecimento de 500 metros.",
+        "A região fica no alto do planalto, em terreno ondulado, com altitudes médias acima de 800 metros perto dos rios Chapecó e Chapecozinho. Seus cursos d'água têm vales encaixados, trechos encachoeirados, corredeiras e saltos.",
+        "Para a gente da região, a araucária também é renda: a coleta de pinhão, inclusive dentro do parque, sustenta pequenas propriedades e comércios."
       ],
       "sourceIds": [
-        "apremavi",
-        "instituto-fauna"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 22"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 25"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 42–43"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 54"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 67"
+        }
       ],
       "images": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Araucaria_toca_o_c%C3%A9u.jpg?width=1200",
-          "alt": "Araucária adulta vista da base, com copa erguida sobre o céu.",
-          "author": "Rodrigo DE PINHO FRANCO",
-          "license": "CC BY-SA 4.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Araucaria_toca_o_c%C3%A9u.jpg",
-          "context": "Retrato da árvore; fotografia não usada como prova de ocorrência local. Localização: Local não especificado na página; arquivo incluído em categoria do parque no Commons; ainda não homologada independentemente."
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Espelho_das_arauc%C3%A1rias.jpg/1280px-Espelho_das_arauc%C3%A1rias.jpg",
+          "author": "Wilamir Branco",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Espelho_das_arauc%C3%A1rias.jpg",
+          "width": 1280,
+          "height": 960,
+          "alt": "Faixa de araucárias à beira de um lago, com colinas cobertas de mata ao fundo.",
+          "context": "Araucárias refletidas na água no Parque Nacional das Araucárias (SC), em fotografia de 2014. A imagem tem resolução baixa."
         }
       ]
     },
     {
-      "id": "ausencia",
-      "eyebrow": "A VOZ QUE FALTOU",
-      "title": "Quando uma espécie deixa de fazer parte da paisagem",
-      "question": "Como uma floresta pode permanecer e, ainda assim, perder um de seus sons?",
+      "id": "dentro",
+      "eyebrow": "02 · Por dentro da floresta",
+      "title": "Uma floresta em recomposição",
+      "question": "Em que estado está a mata dentro do parque?",
       "paragraphs": [
-        "O papagaio-de-peito-roxo não desapareceu de toda a Mata Atlântica. A história contada pelo projeto de conservação é mais localizada e igualmente preocupante: na região do Parque Nacional das Araucárias, a espécie teria deixado de manter uma população silvestre na década de 1980, em meio ao desmatamento e à captura de animais.",
-        "É uma perda que não aparece numa fotografia de árvores. Um habitat pode conservar parte de sua aparência e ter menos indivíduos de determinada espécie. A criação do parque, em 2005, protegeu remanescentes da floresta; mas recuperar uma ave que havia desaparecido localmente exigiu outro tipo de trabalho, com cuidados e decisões específicas."
+        "O plano de manejo mapeou o uso do solo do parque: 37% é floresta em estágio médio de regeneração e 34%, em estágio avançado. Outros 11,3% são mata primária pouco explorada e 8,6%, floresta em estágio inicial. Pastagens e lavouras ocupam 7,5%, e áreas reflorestadas com espécies exóticas, menos de 1%.",
+        "É uma mata que se refaz depois de décadas de exploração, e a araucária foi a madeira mais cobiçada: leve e sem falhas, foi cortada intensamente. Hoje o pinheiro-brasileiro, a imbuia e o xaxim constam da lista oficial de plantas ameaçadas de extinção, e o parque abriga as três.",
+        "Na vegetação se misturam espécies como a imbuia, a canela-sassafrás, a erva-mate e o xaxim, num sub-bosque denso. Em trechos de transição aparecem campos naturais, a estepe gramíneo-lenhosa, também ameaçada por conversão em lavoura, florestamento e gado."
       ],
       "sourceIds": [
-        "instituto-fauna",
-        "ficha-icmbio",
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 38"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 42"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 127"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 130"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "fauna",
+      "eyebrow": "03 · A fauna",
+      "title": "Gralhas, onças-pardas e quem não voltou",
+      "question": "Quem vive, e quem deixou de viver, na mata de araucária?",
+      "paragraphs": [
+        "O inventário do plano de manejo registrou 234 espécies de aves, entre elas a gralha-azul, o macuco e o grimpeiro, e 48 espécies endêmicas da Mata Atlântica. Entre os mamíferos, 30 espécies, entre elas o puma, a jaguatirica, o bugio, a lontra e o veado-poca.",
+        "A fauna também mostra o que se perdeu. Moradores ouvidos para o plano contaram que a anta e a onça-pintada não são vistas na região há mais de 50 anos, e que o queixada, muito caçado, declinou. O javali, espécie exótica, foi o animal mais citado nas entrevistas e revolve solo e nascentes.",
+        "Hoje, a caça, a captura de aves, a coleta desordenada de pinhão, o desmatamento e a criação de gado nos campos estão entre as principais pressões sobre a fauna, ao lado da pequena central hidrelétrica prevista para o rio Chapecó."
+      ],
+      "sourceIds": [
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 131"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 133"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 139–141"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "papagaio",
+      "eyebrow": "04 · O retorno",
+      "title": "O papagaio-de-peito-roxo volta à mata",
+      "question": "O que significa devolver uma ave a um lugar onde ela já não vive?",
+      "paragraphs": [
+        "O papagaio-de-peito-roxo (Amazona vinacea) é uma das aves mais visadas para captura, e o plano de manejo de 2010 não o registrou dentro do parque: só foi encontrado em uma fazenda do entorno. A coleta de pinhões, o principal alimento da espécie no inverno, e o corte das imbuias velhas, que têm ocos para ninho, comprometem sua permanência.",
+        "Segundo o Instituto Fauna Brasil, a espécie desapareceu da região na década de 1980. Em 2010 começou o projeto de reintrodução, com aves vindas de resgates, entregas voluntárias, apreensões e criadouros. Elas passam por avaliação de saúde, treinamento de voo e comportamento, recebem identificação e vão para um viveiro dentro do parque, aberto aos poucos, até a soltura.",
+        "O projeto soltou, até agora, cerca de 250 aves e conta com cidadãos-cientistas no monitoramento. Reintroduzir uma espécie é um trabalho de anos: saber se ela se mantém depende de acompanhar sobrevivência, reprodução e dispersão por muito tempo."
+      ],
+      "sourceIds": [
+        "pm",
+        "fauna",
         "apremavi"
       ],
-      "images": []
-    },
-    {
-      "id": "retorno",
-      "eyebrow": "A VOLTA EXIGE CUIDADOS",
-      "title": "De uma gaiola à mata: o caminho não é imediato",
-      "question": "O que precisa acontecer antes de devolver um papagaio à vida livre?",
-      "paragraphs": [
-        "Em 2010, começou um projeto de reintrodução do papagaio-de-peito-roxo. A equipe descreve animais vindos de resgates, entregas voluntárias, apreensões e instituições de manejo. Antes de voltar à mata, eles passam por avaliações de saúde e de comportamento. Não basta abrir uma porta: uma ave precisa conseguir voar, se alimentar e responder ao ambiente fora do cativeiro.",
-        "Os papagaios aprovados seguem para um viveiro de adaptação dentro do parque. A abertura gradual permite contato crescente com o ambiente, acompanhado por monitoramento. Identificação dos indivíduos, acompanhamento e participação de observadores ajudam a responder a uma pergunta difícil: a soltura resultou em animais capazes de permanecer na região?",
-        "Um número acumulado de solturas não é o tamanho da população selvagem atual, muito menos a prova de que ela está estabilizada. Para compreender o retorno, seria necessário acompanhar sobrevivência, reprodução e dispersão com dados temporalmente comparáveis.",
-        "Desde 2010, o projeto de reintrodução do papagaio-de-peito-roxo busca recuperar uma espécie que havia desaparecido localmente. Segundo o Instituto Fauna Brasil, os animais passam por reabilitação, soltura e acompanhamento. Cada retorno à mata é uma etapa; saber se a população consegue se manter ao longo das gerações depende de observar sua sobrevivência e reprodução por mais tempo."
-      ],
-      "sourceIds": [
-        "instituto-fauna",
-        "fauna-historia-v2110"
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 141"
+        },
+        {
+          "sourceId": "fauna",
+          "locator": "página do projeto"
+        },
+        {
+          "sourceId": "apremavi",
+          "locator": "página do parque"
+        }
       ],
       "images": []
     },
     {
-      "id": "pessoas",
-      "eyebrow": "A FLORESTA E QUEM A CUIDA",
-      "title": "A conservação também envolve os vizinhos",
-      "question": "Quem participa quando um animal volta a ocupar uma paisagem?",
+      "id": "gente",
+      "eyebrow": "05 · A região",
+      "title": "Contestado, erva-mate e colonos",
+      "question": "Que história cerca o parque?",
       "paragraphs": [
-        "O projeto trabalha com educação ambiental e relata oportunidades de participação e renda para mulheres das comunidades do entorno. Isso importa porque a relação entre pessoas e aves não é apenas a oposição entre captura e proibição. Também pode envolver observação responsável, comunicação e atividades que reconhecem a floresta como parte da vida regional.",
-        "Na história das Araucárias, a árvore empresta o nome ao parque, mas a ave devolvida à mata permite observar a dimensão menos visível da conservação. Um território protegido pode preservar árvores por lei. Manter as relações entre seus habitantes exige conhecimento, tempo e cuidado compartilhado.",
-        "Em seu relato das atividades de 2024, a equipe responsável destacou o monitoramento de aves já soltas e de filhotes nascidos em liberdade, além da educação ambiental e de iniciativas com moradores. A história do papagaio é, assim, uma história de longo prazo: conservar uma espécie exige habitat, vigilância sobre ameaças e relações locais que sobrevivam a uma única campanha de soltura."
+        "A região foi palco de grandes disputas antes da colonização: a Revolução Federalista (1891–1894) e a Guerra do Contestado (1912–1916), entre a população cabocla e os poderes estaduais e federal. Segundo a história local, um dos pontos de parada do monge José Maria ficava em Passos Maia, perto do parque.",
+        "A colonização efetiva do oeste catarinense veio depois da década de 1930, atraída pelas extensas florestas de araucária, imbuia e erva-mate. Ponte Serrada recebeu seus primeiros colonos por volta de 1913; o nome vem de uma ponte de madeira serrada à mão, construída por tropeiros e moradores sobre um lajeado. O município foi fundado em 1958 e é conhecido como a capital catarinense da erva-mate. Passos Maia foi emancipado em 1991.",
+        "O plano de manejo foi elaborado pela Apremavi entre 2007 e 2010, com apoio do PDA Mata Atlântica e da The Nature Conservancy, e hoje o parque é gerido pelo ICMBio."
       ],
       "sourceIds": [
-        "instituto-fauna",
-        "apremavi",
-        "fauna-historia-v2110"
+        "pm",
+        "apremavi"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 54–55"
+        },
+        {
+          "sourceId": "apremavi",
+          "locator": "página do parque"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "A floresta precisa de tempo",
-  "closing": "A floresta das araucárias não é uma fotografia congelada de pinheiros altos. É um conjunto de seres que se relacionam e de pessoas que tentam reparar perdas históricas. O retorno de um papagaio não se resume ao instante de sua soltura: a história continua enquanto houver monitoramento, floresta protegida e condições para uma vida realmente livre.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "gente",
+    "title": "Marcos da região e do parque",
+    "intro": "Da Guerra do Contestado ao projeto do papagaio.",
+    "items": [
+      {
+        "id": "1912",
+        "year": "1912–1916",
+        "title": "Guerra do Contestado",
+        "description": "Conflito entre a população cabocla e os poderes estaduais e federal, em uma área disputada por Paraná e Santa Catarina, próxima ao parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1958",
+        "year": "1958",
+        "title": "Ponte Serrada é fundada",
+        "description": "O município, que recebeu os primeiros colonos por volta de 1913, nasce como a futura capital catarinense da erva-mate.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1991",
+        "year": "1991",
+        "title": "Passos Maia é emancipado",
+        "description": "O município vizinho, a oeste do parque, se separa e passa a ter sua própria prefeitura.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2005",
+        "year": "2005",
+        "title": "Criação do parque",
+        "description": "O decreto de 19 de outubro cria o Parque Nacional das Araucárias, com 12.841 hectares; é republicado em 28 de outubro.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "2010",
+        "title": "Plano de manejo e papagaios",
+        "description": "Fica pronto o plano de manejo e começa o projeto de reintrodução do papagaio-de-peito-roxo.",
+        "sourceIds": [
+          "pm",
+          "apremavi",
+          "fauna"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que se mede em gerações",
+  "closing": "O parque guarda uma fração pequena do que foi a mata de araucária, e boa parte dela ainda se recompõe. O que está em jogo é manter a conexão entre os fragmentos, controlar o fogo e o javali, proteger as nascentes e dar tempo a espécies como o papagaio-de-peito-roxo para voltarem a ocupar a copa das araucárias.",
   "references": [
     {
-      "id": "ficha-icmbio",
-      "institution": "ICMBio",
-      "title": "Parna das Araucárias — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-das-araucarias",
-      "accessedAt": "2026-10-21",
-      "use": "Área oficial, criação, lista de espécies relevantes e documentação"
+      "id": "pm",
+      "institution": "ICMBio / Apremavi",
+      "title": "Plano de Manejo do Parque Nacional das Araucárias (2010)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-das-araucarias/arquivos/pm_parna_araucarias_1.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "criação, limites, vegetação, fauna, ameaças e história regional; páginas conforme a numeração do PDF"
     },
     {
       "id": "apremavi",
       "institution": "Apremavi",
       "title": "Parque Nacional das Araucárias",
       "url": "https://apremavi.org.br/areas-tematicas/conservacao-da-biodiversidade/parque-nacional-das-araucarias/",
-      "accessedAt": "2026-10-21",
-      "use": "Localidade, flora arbórea, fauna local e história de criação, área histórica divergente"
+      "accessedAt": "2026-10-23",
+      "use": "elaboração do plano de manejo e reintrodução do papagaio-de-peito-roxo"
     },
     {
-      "id": "instituto-fauna",
+      "id": "fauna",
       "institution": "Instituto Fauna Brasil",
       "title": "Projeto de reintrodução do papagaio-de-peito-roxo no Parque Nacional das Araucárias",
       "url": "https://institutofaunabrasil.org.br/projeto-de-reintroducao-do-papagaio-de-peito-roxo-no-parque-nacional-das-araucarias/",
-      "accessedAt": "2026-10-21",
-      "use": "História de extinção local, início 2010, protocolos de reabilitação, monitoramento e ações sociais"
-    },
-    {
-      "id": "foto-amanhecer",
-      "institution": "Wikimedia Commons / Nikolaus Tarouquella",
-      "title": "Amanhecer nas araucárias.JPG",
-      "url": "https://commons.wikimedia.org/wiki/File:Amanhecer_nas_arauc%C3%A1rias.JPG",
-      "accessedAt": "2026-10-21",
-      "use": "Paisagem ilustrativa de araucárias, sem confirmação independente de captura dentro do parque"
-    },
-    {
-      "id": "foto-arvore",
-      "institution": "Wikimedia Commons / Rodrigo de Pinho Franco",
-      "title": "Araucaria toca o céu.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Araucaria_toca_o_c%C3%A9u.jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Retrato da araucária em arquivo categorizado no Commons, localização exata ausente"
-    },
-    {
-      "id": "fauna-historia-v2110",
-      "title": "Instituto Fauna Brasil — Nossa história e projeto de reintrodução do papagaio-de-peito-roxo",
-      "url": "https://institutofaunabrasil.org.br/nossa-historia/",
-      "institution": "Instituto Fauna Brasil",
-      "accessedAt": "2026-10-22",
-      "use": "Fundamentação de trechos novos inseridos na revisão editorial v2.10.10, sem afirmar homologação integral da Expedição."
+      "accessedAt": "2026-10-23",
+      "use": "início do projeto, método de soltura e número aproximado de aves soltas"
     }
   ],
   "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_arquivos_commons_licenca_e_autoria_conferidas",
-  "editorialNotes": "Duas fotografias Commons com licença validada, mas localização dentro da UC não demonstrada; usar apenas como ilustração de habitat e árvore. Não há foto de papagaio com permissão de republicação validada; não induzir registro local via essas imagens. | v2.10.10: aprofundamento temático de três passagens e curadoria visual em prévia quando aplicável; não altera status de aprovação.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "status": "em_revisao_factual",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "Pendências: o plano de manejo é de 2010 e os números de fauna e ocupação precisam de atualização com o ICMBio; a área do cadastro (12.598 ha) difere da do plano (12.841 ha); número de papagaios soltos vem de página sem data, conferir com o projeto; foto 'Espelho das araucárias' tem baixa resolução (960 px), sem alternativa melhor no Commons; revisão humana."
 }

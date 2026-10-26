@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { Biodiversity, SpeciesCard } from "@/lib/data/types";
+import { speciesObjectPosition } from "@/lib/photo-frame";
 import { IUCN_LABEL } from "./SpeciesExplorer";
 
 const ROUNDS = 5;
@@ -110,6 +111,7 @@ export function ParkQuiz({ bio, parkName }: { bio: Biodiversity; parkName: strin
                 src={thumb(q.answer.photo!.src)}
                 alt={picked ? q.answer.photo!.alt : "Foto de uma espécie do parque"}
                 className="h-full w-full object-cover"
+                style={{ objectPosition: speciesObjectPosition(q.answer.photo) }}
               />
             }
           </div>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-10-21",
   "hook": "Mais de mil sítios arqueológicos nos paredões do sertão: a maior concentração conhecida nas Américas.",
   "intro": "No sudeste do Piauí, o Parque Nacional da Serra da Capivara protege 100 mil hectares de Caatinga, cânions de arenito e um arquivo de pedra da presença humana. Primeiro parque nacional criado inteiramente na Caatinga, é Patrimônio Cultural Mundial desde 1991.",
@@ -89,7 +89,17 @@
       "sourceIds": [
         "icmbio-visitacao"
       ],
-      "photo": null
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Serra_Branca_0.jpg/1280px-Serra_Branca_0.jpg",
+        "alt": "Afloramentos rochosos sobre a caatinga na Serra Branca",
+        "author": "Rubens de Camargo Vianna Filho",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_Branca_0.jpg",
+        "width": 1280,
+        "height": 960,
+        "context": "Afloramentos rochosos da Serra Branca, no Parque Nacional da Serra da Capivara."
+      }
     }
   ],
   "curiosities": [

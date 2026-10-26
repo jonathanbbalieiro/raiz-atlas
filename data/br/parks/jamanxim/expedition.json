@@ -1,156 +1,326 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional do Jamanxim",
-  "title": "Jamanxim: a floresta que precisa continuar ligada",
-  "subtitle": "Entre corredeiras, árvores e a BR-163, um parque amazônico mostra por que conservar é também manter relações entre rios, animais e territórios.",
-  "centralQuestion": "O que acontece com uma floresta quando seu futuro depende das conexões que atravessam suas fronteiras?",
+  "title": "Jamanxim: o elo de floresta no meio da BR-163",
+  "subtitle": "Corredeiras entre rochas, matas que ligam o Tapajós ao Xingu e um parque que divide espaço com a rodovia mais movimentada da região.",
+  "centralQuestion": "O que acontece com uma floresta quando uma estrada, o garimpo e uma ferrovia disputam o mesmo território?",
   "introduction": [
-    "Entre os rios Jamanxim e Aruri, corredeiras, ilhas fluviais e florestas formam uma paisagem amazônica que não cabe numa única mancha verde do mapa. O Parque Nacional do Jamanxim protege parte dessa continuidade no sudoeste do Pará.",
-    "A proximidade da BR-163 ajuda a explicar por que a palavra conexão é central aqui: animais usam ambientes que não terminam onde começa uma estrada ou a linha legal da unidade. Rios, árvores, vestígios de ocupações antigas e decisões sobre limites revelam diferentes camadas de um mesmo território."
+    "No sudoeste do Pará, a BR-163 atravessa uma sequência de áreas protegidas. Num único ponto, a rodovia passa por dentro de uma delas: o Parque Nacional do Jamanxim, no coração do trecho entre Cuiabá e Santarém.",
+    "É dali que o parque faz seu trabalho mais singular. Ele liga os blocos de florestas protegidas do lado do Tapajós e do lado do Xingu, e guarda no meio disso corredeiras como o Portão do Inferno, ilhas de mata alagável, sítios de ocupação indígena antiga e rios que servem de berçário para os peixes da bacia."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Nacional_Jamanxim.jpg?width=1200",
-    "alt": "Paisagem identificada no Wikimedia Commons como Parque Nacional do Jamanxim.",
-    "author": "Werick França Silva",
-    "license": "CC BY-SA 3.0 Unported",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Jamanxim.jpg",
-    "context": "Localização exata da fotografia nos limites do parque não confirmada. Vista atribuída pelo fotógrafo ao Parque Nacional do Jamanxim em arquivo do Wikimedia Commons. Local preciso e elemento retratado não constam do registro. Foto: Werick França Silva / CC BY-SA 3.0."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares de área do parque",
+      "value": "851.754",
+      "sourceId": "pm",
+      "locator": "p. 8"
+    },
+    {
+      "label": "da área está em Itaituba; o restante, em Trairão",
+      "value": "70,43%",
+      "sourceId": "pm",
+      "locator": "p. 8"
+    },
+    {
+      "label": "ano do decreto de criação (13 de fevereiro)",
+      "value": "2006",
+      "sourceId": "pm",
+      "locator": "p. 9"
+    },
+    {
+      "label": "hectares excluídos do parque pela Lei nº 13.452/2017, para a ferrovia EF-170 e a BR-163",
+      "value": "≈ 862",
+      "sourceId": "stf"
+    },
+    {
+      "label": "unidade de conservação que incide sobre a BR-163",
+      "value": "única",
+      "sourceId": "pm",
+      "locator": "p. 11"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Corredor ecológico",
+      "definition": "Região que liga áreas protegidas e permite o deslocamento de animais, a dispersão de sementes e o fluxo de genes entre populações.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Piracema",
+      "definition": "Período em que os peixes sobem os rios, grotas e igapós para se reproduzir e renovar o ciclo da vida.",
+      "sourceId": "pm"
+    },
+    {
+      "term": "Saleiros",
+      "definition": "Trechos de solo rico em sais, nas margens dos rios, que atraem antas, caititus e queixadas.",
+      "sourceId": "pm"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
-      "id": "ponte",
-      "eyebrow": "A FLORESTA DOS DOIS LADOS",
-      "title": "Uma estrada no caminho dos seres vivos",
-      "question": "Como um parque pode ligar territórios que a infraestrutura separa?",
+      "id": "elo",
+      "eyebrow": "01 · O elo",
+      "title": "A floresta que atravessa a estrada",
+      "question": "Por que um parque na BR-163 importa para tanta floresta ao redor?",
       "paragraphs": [
-        "No sul da Amazônia paraense, a BR-163 cruza uma região de grandes áreas protegidas. O Jamanxim tem uma particularidade documentada em seu plano de manejo: incide sobre a rodovia e participa da conexão florestal entre porções que se relacionam com as bacias do Tapajós e do Xingu. A continuidade ecológica não se resolve com uma linha verde no mapa; depende da existência real de ambientes adequados entre os trechos.",
-        "Quando árvores e vegetação permanecem conectadas, parte da fauna pode encontrar alimento, abrigo e caminhos de deslocamento em escalas maiores. A dispersão de sementes e o intercâmbio de indivíduos entre populações são processos associados a esses corredores. Isso não significa que cada animal do Jamanxim tenha sido rastreado atravessando a estrada. O plano descreve um papel ecológico territorial, e não a travessia observada de um indivíduo.",
-        "A proteção, aqui, precisa ser pensada em conjunto com áreas vizinhas. A fronteira administrativa de um parque é indispensável para a lei, mas não corresponde às fronteiras vividas pelas plantas, pelos animais nem pela água."
+        "O Jamanxim fica entre o Tapajós e o Xingu, numa região de grandes florestas protegidas. A oeste vêm a APA do Tapajós e as Florestas Nacionais de Itaituba I e II; a leste, as Florestas Nacionais de Altamira e do Trairão e a Reserva Extrativista Riozinho do Anfrísio.",
+        "O parque é a única unidade de conservação que incide sobre a BR-163 e, por isso, o único ponto de ligação entre os blocos de áreas protegidas dos dois lados da rodovia. É por esse elo que passam animais, sementes e genes, num corredor ecológico que ainda não tem reconhecimento formal.",
+        "O parque nasceu em 2006, em meio ao planejamento do entorno da estrada, o Plano BR-163 Sustentável. A ideia era reduzir os impactos da pavimentação e abrir espaço para um distrito florestal que conciliasse as demandas da região.",
+        "Hoje, o parque tem 851.754 hectares, distribuídos entre Itaituba (70,43%) e Trairão (29,57%). O Ministério do Meio Ambiente o reconhece como área prioritária para a conservação, com importância biológica e prioridade de ação classificadas como \"extremamente altas\"."
       ],
       "sourceIds": [
-        "jam_plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 8"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        }
       ],
       "images": []
     },
     {
       "id": "rios",
-      "eyebrow": "A ÁGUA ENCONTRA A ROCHA",
-      "title": "Corredeiras, ilhas e matas que mudam com o rio",
-      "question": "Por que o parque não é só floresta fechada?",
+      "eyebrow": "02 · A água e a rocha",
+      "title": "Rochas, rios e corredeiras",
+      "question": "O que dá ao rio Jamanxim sua paisagem de corredeiras e cachoeiras?",
       "paragraphs": [
-        "A bacia do Jamanxim pertence ao sistema do Tapajós. O plano descreve rios como Jamanxim e Aruri, afloramentos rochosos, ilhas fluviais e trechos de corredeiras. Há locais conhecidos em documentos de gestão por nomes como Portão do Inferno e cachoeiras da Fumaça e do Espelho. Esses nomes ajudam a imaginar a forma dos cursos d’água, mas não devem ser confundidos com indicação de acesso ou de visita segura.",
-        "Ao lado das rochas e da correnteza, a vegetação se modifica. Nas florestas aluviais e nos igapós mencionados pelo plano, as condições de água não são idênticas às do interior de uma floresta de terra firme. É esse mosaico de ambientes, e não uma única fotografia panorâmica, que torna a paisagem mais complexa.",
-        "O plano também registra o papel das margens para os recursos pesqueiros e a reprodução dos peixes. A afirmação relevante não é que qualquer visitante verá um animal específico, mas que proteger rios exige preservar as relações entre água, mata ciliar e a vida que depende delas."
+        "O Jamanxim nasce na Serra do Cachimbo e é o principal afluente do Tapajós. Entre seus afluentes estão o Tocantins, o Novo e o Aruri. Parte do curso é navegável, sobretudo rio abaixo das corredeiras do Portão do Inferno, que ficam dentro do parque.",
+        "As formações rochosas dos rios Aruri e Jamanxim criam corredeiras e cachoeiras como as da Fumaça e do Espelho. Nas ilhas fluviais, a mata alagável cresce sobre afloramentos de rocha.",
+        "Nas margens, os igapós e as matas ciliares guardam os tabuleiros onde os quelônios desovam e os trechos onde peixes como o pintado, a pescada, o tucunaré e o pacu se reproduzem na piracema.",
+        "É essa água, mais do que qualquer mirante, que sustenta as comunidades ribeirinhas e a pesca de toda a bacia do Tapajós."
       ],
       "sourceIds": [
-        "jam_plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 15"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 17"
+        }
       ],
       "images": []
     },
     {
-      "id": "plantas",
-      "eyebrow": "AS ÁRVORES NÃO SÃO UM PANO DE FUNDO",
-      "title": "Frutos, madeira, sombras e pressão de uso",
-      "question": "O que se perde quando a floresta vira apenas cobertura verde?",
+      "id": "floresta",
+      "eyebrow": "03 · A floresta",
+      "title": "Mata antiga, saleiros e bichos raros",
+      "question": "Quem vive nessa floresta e do que ela depende?",
       "paragraphs": [
-        "A vegetação do Jamanxim é descrita sobretudo como floresta ombrófila densa e floresta ombrófila aberta submontana, com áreas em que os cipós e as palmeiras participam da estrutura da mata. O documento registra entre os recursos vegetais nomes populares como jatobá, cedro, maçaranduba, ipê, castanheira, tucumã, andiroba e açaí.",
-        "Alguns desses nomes populares designam diferentes espécies, conforme a região. A lista do plano de manejo, portanto, descreve recursos da floresta, mas não identifica necessariamente cada árvore por seu nome científico. Madeira, frutos e sementes também atraem interesses econômicos, o que torna importante distinguir o uso desses recursos da proteção dos ambientes em que ocorrem.",
-        "Uma árvore pode produzir sementes e frutos, participar da estrutura da floresta e criar microambientes para outros seres vivos. Essa é uma relação ecológica geral, não a confirmação de que certo animal se alimentou de certo fruto no Jamanxim. Ainda assim, ela ajuda a entender por que floresta não se mede apenas por quantas árvores aparecem no horizonte."
+        "A mata é predominantemente floresta ombrófila, de dois tipos: a densa submontana, de copas emergentes, e a aberta submontana, onde cipós e palmeiras envolvem árvores espaçadas. Entre as espécies madeireiras estão o jatobá, o cedro, a maçaranduba e o ipê; entre os produtos não madeireiros, a andiroba, a castanheira, o tucumã e o açaí.",
+        "Em algumas serras, afloramentos rochosos no alto abrigam plantas que crescem sobre a pedra, como cactos e bromélias, ambientes de grande interesse para a conservação.",
+        "Dois primatas endêmicos vivem na região: o mico-souim-branco (Mico leucippe), restrito ao espaço entre os rios Tapajós, Cupari e Jamanxim, e o macaco cuamba (Ateles marginatus). Também ocorrem a ariranha, a anta, o tatu-canastra, a arara-azul e a ararajuba, além da rara doninha-amazônica.",
+        "Nas margens dos rios, os saleiros reúnem antas, caititus e queixadas, atraídos pelo solo rico em sais."
       ],
       "sourceIds": [
-        "jam_plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 14"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        }
       ],
       "images": []
     },
     {
-      "id": "oncas",
-      "eyebrow": "BICHOS QUE PRECISAM DE ESPAÇO",
-      "title": "Da ariranha à onça-pintada",
-      "question": "Como conciliar ocorrência documentada e proteção de habitat?",
+      "id": "gente",
+      "eyebrow": "04 · A ocupação",
+      "title": "Povos antigos, estrada e ouro",
+      "question": "Quem já passou por aqui e o que mudou com a BR-163?",
       "paragraphs": [
-        "A ficha do ICMBio aponta duas espécies ameaçadas protegidas na unidade: a onça-pintada (Panthera onca) e a ariranha (Pteronura brasiliensis). São animais de ecologias diferentes, mas ambos ajudam a tornar visível uma característica do parque: a conservação depende de habitat suficiente e dos recursos presentes nele.",
-        "Para predadores terrestres de grande porte, a continuidade de floresta ajuda a sustentar áreas de vida e acesso a presas. Para um mamífero semiaquático como a ariranha, a qualidade dos ambientes ribeirinhos e o alimento disponível nos cursos d’água são centrais. Esses são vínculos ecológicos conhecidos para as espécies; a edição não os apresenta como resultados de telemetria local.",
-        "O plano menciona ainda pressões de garimpo, abertura de áreas e mudanças associadas à rodovia. A proteção não se reduz a salvar dois nomes populares: envolve água, árvores, refúgios e rotas necessárias à sobrevivência de muitas formas de vida."
+        "As margens dos rios Jamanxim, Aruri e Tocantinzinho guardam sítios arqueológicos com cerâmicas, urnas funerárias e machadinhas indígenas, classificados como pré-coloniais. Poucos estão registrados e estudados no IPHAN.",
+        "A ocupação recente começou com a abertura da BR-163, na década de 1970, dentro do Programa de Integração Nacional. Migrantes do Sul chegaram em busca de terra própria e se instalaram à beira da rodovia.",
+        "A corrida do ouro trouxe outra leva, vinda do Nordeste, para a Reserva Garimpeira do Tapajós, e dela nasceram as comunidades do Aruri, de Moraes Almeida e do Jardim do Ouro. A Vila Aruri, no norte do parque, vive hoje sobretudo da pesca profissional.",
+        "O garimpo deixa marcas nos rios: nos afluentes das áreas de lavra, as águas do Jamanxim ficam turvas, e estudos na bacia do Tapajós apontam concentrações elevadas de mercúrio. A pecuária, a madeira ilegal e o atropelamento de animais na rodovia completam o quadro de pressões."
       ],
       "sourceIds": [
-        "jam_ficha",
-        "jam_plano"
+        "pm"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 11"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 12"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 13"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 18"
+        }
       ],
       "images": []
     },
     {
-      "id": "memoria",
-      "eyebrow": "A PAISAGEM TEM HISTÓRIA HUMANA",
-      "title": "Entre vestígios arqueológicos e decisões sobre limites",
-      "question": "Quem define o que deve permanecer protegido?",
+      "id": "limites",
+      "eyebrow": "05 · Os limites",
+      "title": "Uma ferrovia, 862 hectares e o Supremo",
+      "question": "Como a lei redesenhou o parque e o que o tribunal decidiu?",
       "paragraphs": [
-        "O plano de manejo registra vestígios arqueológicos nas margens do rio Jamanxim, incluindo materiais cerâmicos atribuídos a ocupações indígenas antigas. A existência desses registros permite reconhecer longa história de presença humana. Não permite reconstruir, sem estudos adicionais, qual povo produziu cada objeto ou divulgar localização de sítios sensíveis.",
-        "A história recente inclui disputas sobre fronteiras legais. Uma lei de junho de 2017 alterou parte dos limites do Parque Nacional do Jamanxim. O texto prevê exclusão aproximada de 862 hectares; dispositivos relativos à criação de uma APA de área muito maior foram vetados. O debate judicial teve desdobramentos em 2026. Por isso, proporções, bases cadastrais e mapas de diferentes anos precisam ser comparados antes de qualquer conclusão espacial.",
-        "Na defesa da floresta, ciência, legislação, fiscalização e participação social não são capítulos separados. São instrumentos diferentes para a mesma pergunta: como manter uma paisagem capaz de sustentar vida e memória sem transformar a área protegida em apenas uma figura no papel?"
+        "Em 2017, a Lei nº 13.452 alterou os limites do parque, criado pelo decreto de 2006 e localizado em Itaituba e Trairão. Ela excluiu polígonos com área aproximada de 862 hectares, destinados aos leitos e faixas de domínio da ferrovia EF-170, a Ferrogrão, e da BR-163.",
+        "A lei prevê que, instalada a ferrovia, as frações não utilizadas voltem ao parque. E deixa claro que a exclusão não dispensa o licenciamento ambiental do empreendimento.",
+        "Em 21 de maio de 2026, o Supremo Tribunal Federal concluiu o julgamento da ADI 6.553 e, por maioria, declarou a lei constitucional. O Informativo nº 1218 registra os argumentos: a medida provisória original ampliava a área protegida como compensação, a redução foi validada por lei votada no Congresso e o impacto territorial é pequeno diante do tamanho do parque.",
+        "O tribunal destacou ainda que a decisão não presume a viabilidade da ferrovia, que segue condicionada a licenciamento rigoroso, avaliação de impactos cumulativos e consulta prévia às comunidades indígenas afetadas."
       ],
       "sourceIds": [
-        "jam_plano",
-        "jam_lei",
-        "jam_stf"
+        "lei",
+        "stf",
+        "pm"
       ],
-      "images": [],
-      "note": {
-        "title": "A área aparece diferente em documentos oficiais",
-        "body": "A ficha web do ICMBio informa 862.895,27 ha; a ficha técnica do plano de manejo de 2021 registra 851.754 ha. Os números não foram harmonizados artificialmente. A reconciliação exige conferência legal e cartográfica pelo Chat Central."
-      }
+      "citations": [
+        {
+          "sourceId": "lei",
+          "locator": "arts. 1º a 3º"
+        },
+        {
+          "sourceId": "stf",
+          "locator": "ADI 6.553/DF"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 9"
+        }
+      ],
+      "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Uma floresta precisa de ligações",
-  "closing": "Estradas e pressões sobre a floresta tornam visível um desafio de conservação: o parque não funciona como uma ilha separada do entorno. Rios, animais e vegetação dependem de ligações que ultrapassam seu perímetro. No Jamanxim, proteger uma grande área significa também cuidar das continuidades que permitem à vida circular por ela.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "limites",
+    "title": "Marcos do território e da proteção",
+    "intro": "Do asfalto da BR-163 à decisão do STF.",
+    "items": [
+      {
+        "id": "1970",
+        "year": "Década de 1970",
+        "title": "A BR-163 chega à região",
+        "description": "A abertura da rodovia, no Programa de Integração Nacional, traz migrantes do Sul à beira da estrada.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "1998",
+        "year": "1998",
+        "title": "Florestas Nacionais vizinhas",
+        "description": "Decretos de 2 de fevereiro criam as Florestas Nacionais de Itaituba I e de Altamira, que depois delimitam o parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2006",
+        "year": "2006",
+        "title": "Criação do parque",
+        "description": "O decreto de 13 de fevereiro cria o Parque Nacional do Jamanxim, no contexto do Plano BR-163 Sustentável.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2017",
+        "year": "2017",
+        "title": "Lei nº 13.452",
+        "description": "Altera os limites do parque e exclui cerca de 862 hectares para a Ferrogrão e a BR-163.",
+        "sourceIds": [
+          "lei",
+          "stf"
+        ]
+      },
+      {
+        "id": "2021",
+        "year": "2021",
+        "title": "Plano de manejo",
+        "description": "O ICMBio publica o plano de manejo do parque.",
+        "sourceIds": [
+          "pm"
+        ]
+      },
+      {
+        "id": "2026",
+        "year": "2026",
+        "title": "Decisão do STF",
+        "description": "Em 21 de maio, o Plenário declara constitucional a Lei nº 13.452/2017.",
+        "sourceIds": [
+          "stf"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que depende de ligações",
+  "closing": "O Jamanxim não é uma ilha. Seus rios correm da serra ao Tapajós, seus animais cruzam a estrada e suas matas ligam duas bacias. Entender o parque é entender o que acontece nas bordas dele, onde a lei, a ferrovia, o garimpo e a pesca de quem vive no Aruri se encontram.",
   "references": [
     {
-      "id": "jam_ficha",
-      "institution": "ICMBio",
-      "title": "Parna do Jamanxim — ficha oficial",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jamanxim/parna-do-jamanxim",
-      "accessedAt": "2026-10-21",
-      "use": "Identidade, espécies ameaçadas e área cadastral"
-    },
-    {
-      "id": "jam_plano",
+      "id": "pm",
       "institution": "ICMBio",
       "title": "Plano de Manejo do Parque Nacional do Jamanxim (2021)",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jamanxim/arquivos/plano_de_manejo_pn_jamanxim_versao_V_13.12.2021.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Paisagens, hidrografia, flora, fauna, arqueologia e ameaças, páginas identificadas"
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-jamanxim/arquivos/plano_de_manejo_pn_jamanxim_versao_V_13.12.2021.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "área, localização, corredor ecológico, rios, flora, fauna, arqueologia, ocupação e ameaças; páginas conforme a numeração do PDF"
     },
     {
-      "id": "jam_lei",
-      "institution": "Câmara dos Deputados",
+      "id": "lei",
+      "institution": "Presidência da República",
       "title": "Lei nº 13.452, de 19 de junho de 2017",
-      "url": "https://www2.camara.leg.br/legin/fed/lei/2017/lei-13452-19-junho-2017-785055-publicacaooriginal-153119-pl.html",
-      "accessedAt": "2026-10-21",
-      "use": "Alteração legal pontual do perímetro, sem confundir com propostas vetadas"
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13452.htm",
+      "accessedAt": "2026-10-23",
+      "use": "alteração dos limites do parque e exclusão de cerca de 862 ha"
     },
     {
-      "id": "jam_stf",
+      "id": "stf",
       "institution": "Supremo Tribunal Federal",
-      "title": "Informativo STF nº 1218, junho de 2026 — discussão sobre Lei 13.452/2017",
+      "title": "Informativo STF nº 1218, de 1º de junho de 2026 (ADI 6.553/DF)",
       "url": "https://www.stf.jus.br/arquivo/informativo/documento/informativo1218.htm",
-      "accessedAt": "2026-10-21",
-      "use": "Discussão judicial de 2026 sobre redução de 862 ha"
-    },
-    {
-      "id": "jam_commons",
-      "institution": "Wikimedia Commons",
-      "title": "File: Parque Nacional Jamanxim.jpg",
-      "url": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Jamanxim.jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Licença e autoria da fotografia do parque"
+      "accessedAt": "2026-10-23",
+      "use": "julgamento da constitucionalidade da Lei nº 13.452/2017, concluído em 21 de maio de 2026"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "1_foto_commons_licenca_verificada_validacao_visual_e_local_pendente",
-  "editorialNotes": "Manuscrito original para análise humana, não aprovado nem publicado. Fontes com escopo identificável; imagens com metadados e limitações em assets.json. Não mexer em limites, IDs reais, React, CSS ou mapa. Faltam reconciliação CNUC/repositório e QA visual.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Informativo STF 1218 (ADI 6.553/DF) e 862 ha conferidos no texto do STF e da lei. Área: o plano de manejo registra 851.754 ha; o cadastro do ICMBio traz 862.895 ha (diferença a reconciliar). Onça-pintada e 'vulcão mais antigo da Amazônia' removidos (sem confirmação). Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons."
 }

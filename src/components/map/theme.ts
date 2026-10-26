@@ -19,7 +19,7 @@ export const MAP_COLORS = {
  * cinza-bege. O Brasil ganha um véu claro por cima (camada admin1-fill).
  */
 export const BASEMAP = {
-  land: "#f2efe8",
+  land: "#d3ebc5",
   water: "#a9cde8",
   waterLine: "#8fbde0",
   foreignBorder: "#a99bb8",

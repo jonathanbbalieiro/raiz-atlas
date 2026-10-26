@@ -1,105 +1,289 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional do Acari",
-  "title": "Acari: os rios que desenham uma proteção",
-  "subtitle": "No sul do Amazonas, a história começa por uma rede de águas. Ler o território com cuidado também significa reconhecer o que os documentos já demonstram — e o que ainda precisa ser pesquisado.",
-  "centralQuestion": "O que se protege quando um parque nasce em torno de vários rios?",
+  "title": "Quatro rios e um grande bloco de floresta no sul do Amazonas",
+  "subtitle": "Entre o Madeira e o Tapajós, um parque de quase 900 mil hectares nasceu para guardar corredeiras, cachoeiras e uma floresta que o mapa ainda mostra mais do que a ciência já visitou.",
+  "centralQuestion": "Por que proteger, de uma só vez, um bloco tão grande de floresta e as águas que correm por ele?",
   "introduction": [
-    "Acari, Camaiú, Sucunduri e Abacaxis atravessam a história de um parque que se entende melhor pela água. No sul do Amazonas, o decreto de criação de 2016 protege esses rios, seus afluentes e os ambientes ligados a eles.",
-    "Ao seguir seus cursos, o olhar encontra florestas de diferentes formações e percebe uma diferença importante: a rede dos rios continua além das linhas do mapa, mas a área legal do parque tem limites próprios. O Acari é uma história sobre conservar essas conexões sem confundir a natureza com a fronteira administrativa."
+    "No sul do Amazonas, os rios Acari, Camaiú, Sucunduri e Abacaxis atravessam uma floresta contínua que tem poucas ocupações em seu interior. Foi por eles que o decreto de 11 de maio de 2016 começou: o parque existe para proteger a diversidade biológica de parte desses rios e de seus afluentes.",
+    "É um parque jovem e grande, ainda sem plano de manejo publicado. Em estudos de campo, o rio Acari aparece com muitas corredeiras e afluentes com cachoeiras: uma paisagem de água que o decreto quer manter inteira."
+  ],
+  "keyFacts": [
+    {
+      "label": "hectares de área, segundo o cadastro do ICMBio",
+      "value": "896.410,95",
+      "sourceId": "icmbio"
+    },
+    {
+      "label": "rios nomeados no decreto de criação: Acari, Camaiú, Sucunduri e Abacaxis",
+      "value": "4",
+      "sourceId": "decreto",
+      "locator": "art. 1º, I"
+    },
+    {
+      "label": "municípios do Amazonas na área: Apuí, Borba e Novo Aripuanã",
+      "value": "3",
+      "sourceId": "decreto",
+      "locator": "art. 1º"
+    },
+    {
+      "label": "milhões de hectares nas cinco unidades criadas em maio de 2016 no sul do Amazonas",
+      "value": "≈ 2,7",
+      "sourceId": "isa-nota",
+      "locator": "p. 1"
+    },
+    {
+      "label": "espécies de primatas na região entre os rios Madeira e Tapajós, três delas endêmicas",
+      "value": "13",
+      "sourceId": "isa-nota",
+      "locator": "p. 4"
+    },
+    {
+      "label": "espécies de aves estimadas na região, quase metade da avifauna brasileira",
+      "value": "≈ 800",
+      "sourceId": "isa-nota",
+      "locator": "p. 4"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa em torno da unidade de conservação onde certas atividades são reguladas para reduzir impactos sobre ela. No Acari, será definida por ato específico do presidente do ICMBio.",
+      "sourceId": "decreto"
+    },
+    {
+      "term": "Interflúvio",
+      "definition": "Terreno que fica entre dois rios. O Acari está no interflúvio Madeira–Tapajós, onde, na avaliação feita em 2001, havia poucas unidades de proteção integral.",
+      "sourceId": "isa-nota"
+    },
+    {
+      "term": "Gleba pública",
+      "definition": "Terra pública federal ainda sem destinação definida. As glebas ao norte da Transamazônica (BR-230), já passadas ao Ministério do Meio Ambiente, foram o ponto de partida do conjunto de unidades criado em 2016.",
+      "sourceId": "isa-nota"
+    }
   ],
   "cover": null,
   "moments": [
     {
       "id": "rios",
-      "eyebrow": "A GEOGRAFIA COMEÇA PELA ÁGUA",
-      "title": "Quatro rios e seus afluentes em um ato de proteção",
-      "question": "Por que um parque de floresta é descrito também pelos nomes de seus rios?",
+      "eyebrow": "01 · A água",
+      "title": "Um parque desenhado pelos rios",
+      "question": "Por que o decreto começa nomeando rios?",
       "paragraphs": [
-        "Acari, Camaiú, Sucunduri e Abacaxis aparecem lado a lado no decreto que criou o parque, em maio de 2016. A proteção inclui seus afluentes e os ambientes associados à rede de rios. Situado em áreas dos municípios de Apuí, Borba e Novo Aripuanã, no Amazonas, o parque reúne trechos de floresta ligados por cursos d’água: não é apenas uma extensão de árvores vista de longe.",
-        "Um rio não é apenas o caminho que a água abre entre duas margens. Sua existência depende da área que recebe a chuva, dos terrenos por onde ela infiltra e escorre e das margens que o acompanham. No Acari, a decisão de conservar trechos de diferentes cursos d’água reconhece uma rede — não uma cachoeira célebre ou um único ponto bonito no mapa.",
-        "Água, floresta e vida não funcionam em partes isoladas. A chuva que alcança as encostas, a vegetação das margens e os afluentes menores ajudam a sustentar os rios nomeados no decreto. A proteção legal reconhece essa ligação; para saber como estão os peixes, as plantas ou a qualidade da água em cada trecho, seriam necessários levantamentos próprios.",
-        "A ficha atual do ICMBio atribui 896.410,95 hectares ao parque. É uma extensão expressiva de floresta e água, mas a medida não informa, por si, a quantidade de espécies ou o estado de conservação de cada trecho. O que dá unidade ao decreto são os rios Acari, Camaiú, Sucunduri e Abacaxis, citados como referências para preservar a rede hidrográfica."
+        "Acari, Camaiú, Sucunduri e Abacaxis aparecem lado a lado no primeiro artigo do decreto. O parque foi criado para proteger a diversidade biológica de parte desses rios e de seus afluentes, suas paisagens naturais e os valores abióticos associados, além de garantir a perenidade dos serviços ecossistêmicos.",
+        "O perímetro segue a mesma lógica. Em vários trechos ele acompanha margens e afluentes: ao norte, desce pela margem direita do rio Abacaxis e confronta o limite da Estação Ecológica Alto Maués; o traçado passa ainda por pontos nos rios Sucunduri e Camaiú e por um afluente do rio Acari.",
+        "Em março de 2015, uma equipe do ICMBio e do Serviço Florestal Brasileiro avaliou o rio Acari. Encontrou poucas ocupações, restritas à área próxima da estrada, um curso com muitas corredeiras e um afluente com duas cachoeiras.",
+        "O parque ocupa partes dos municípios de Apuí, Borba e Novo Aripuanã, e o decreto prevê, além da proteção, atividades de recreação em contato com a natureza e turismo ecológico."
       ],
       "sourceIds": [
-        "criacao",
-        "territorio-isa",
-        "ficha-icmbio"
+        "decreto",
+        "isa-nota"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto",
+          "locator": "art. 1º"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "art. 2º, § 1º"
+        },
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 3"
+        }
       ],
       "images": []
     },
     {
-      "id": "floresta",
-      "eyebrow": "UM MOSAICO VISTO DE LONGE",
-      "title": "A floresta não é uma cor única",
-      "question": "O que o mapeamento consegue mostrar — e o que ele ainda não revela?",
+      "id": "regiao",
+      "eyebrow": "02 · A região",
+      "title": "Entre o Madeira e o Tapajós",
+      "question": "O que torna essa floresta tão importante para a conservação?",
       "paragraphs": [
-        "Na representação territorial reunida pelo Instituto Socioambiental, predomina a floresta ombrófila densa. Aparecem ainda trechos mapeados como floresta ombrófila aberta e contato entre savana e floresta. São categorias de cobertura vegetal: ajudam a perceber que, mesmo numa paisagem amplamente florestada, existem diferenças de estrutura e ambiente.",
-        "Essas classes ajudam a entender a organização da paisagem, mas não identificam, por si, quais árvores ou animais habitam cada trecho. É uma leitura ampla do território: manchas de floresta e de transição, vistas à escala do mapa.",
-        "A diferença importa. Uma área pode ser representada como floresta densa e, ao mesmo tempo, abrigar muitos ambientes menores. O desenho cartográfico oferece a primeira aproximação, não um inventário de espécies.",
-        "Essa distinção evita dois atalhos: chamar de “intocada” toda mancha verde vista num mapa e atribuir ao Acari uma espécie apenas porque ela ocorre na Amazônia. O mapa de vegetação oferece hipóteses de ambientes; para descrever populações ou confirmar ocorrências no interior do parque, são necessários levantamentos próprios, com local e método conhecidos."
+        "A região entre os rios Madeira e Tapajós abriga, segundo estudo do ICMBio que subsidiou a criação das unidades, uma grande variedade de plantas e animais. Ali ocorrem pelo menos 13 espécies de primatas, três delas endêmicas e descritas recentemente, e estima-se cerca de 800 espécies de aves, quase metade de toda a avifauna brasileira. São números da região, não de um inventário do parque.",
+        "As áreas prioritárias para a conservação que incidem sobre o Acari e a Floresta Nacional do Aripuanã foram classificadas pelo Ministério do Meio Ambiente (Portaria nº 9/2007) com importância biológica extremamente alta e prioridade de ação muito alta. Diagnósticos de 2009 das áreas vizinhas destacaram a alta heterogeneidade ambiental, a grande diversidade biológica e a baixa ocupação humana.",
+        "Também pesou o tamanho. A extensão das áreas, dizem os mesmos diagnósticos, permite proteger vários complexos de vegetação e dar espaço a espécies que precisam de habitats amplos, além de criar conexão com outras áreas protegidas e formar um corredor ecológico contra o avanço do desmatamento.",
+        "Entre as árvores ameaçadas que ocorrem no conjunto de unidades criado na mesma data estão a castanheira-do-pará, a cerejeira e o mogno."
       ],
       "sourceIds": [
-        "territorio-isa"
+        "isa-nota"
       ],
-      "images": [],
-      "note": {
-        "title": "O limite do mapa",
-        "body": "As porcentagens de fitofisionomias da base ISA são classes cartográficas; não representam levantamento atual de espécies no interior do parque."
-      }
+      "citations": [
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 1"
+        },
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 3"
+        },
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 4"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "mosaico",
+      "eyebrow": "03 · O conjunto",
+      "title": "Uma de cinco unidades criadas no mesmo dia",
+      "question": "Como o Acari se encaixa no que foi decidido em 2016?",
+      "paragraphs": [
+        "Em 11 e 12 de maio de 2016 foram criadas cinco unidades de conservação federais no sul do Amazonas, somando quase 2,7 milhões de hectares: o Parque Nacional do Acari, a Reserva Biológica do Manicoré, as Florestas Nacionais do Aripuanã e de Urupadi e a Área de Proteção Ambiental dos Campos de Manicoré. As duas de proteção integral são o parque e a reserva biológica.",
+        "A ideia vinha de longe. Em 2001, um grupo de trabalho interministerial apontou a pouca representatividade de unidades de proteção integral entre o Madeira e o Tapajós. Em 2007, reuniões nas câmaras e prefeituras de Apuí, Borba, Maués, Novo Aripuanã e Manicoré discutiram propostas, e um estudo de campo percorreu a região por sobrevoos e por rios.",
+        "O desenho deixou ampla distância da Transamazônica (BR-230), para permitir que a ocupação humana organizada continue crescendo ao longo da estrada, e excluiu áreas já abertas para pasto, mineração ou com potencial hidrelétrico.",
+        "A pressão, no entanto, é real. Entre 2014 e 2015, os dados do Prodes mostram alta do desmatamento nos municípios do parque: em Apuí (41%), Borba (164%) e Novo Aripuanã (122%), e Apuí aparece entre os que mais desmataram em 2015. No rio Acari, um inventário hidrelétrico, aguardando aprovação da Aneel em 2017, propunha uma usina de 140 MW e duas pequenas centrais que somariam 28 MW."
+      ],
+      "sourceIds": [
+        "isa-nota",
+        "isa-noticia"
+      ],
+      "citations": [
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 1"
+        },
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 2–4"
+        },
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "isa-noticia",
+          "locator": "tabela de unidades"
+        }
+      ],
+      "images": []
     },
     {
       "id": "limites",
-      "eyebrow": "ÁGUA E FRONTEIRAS",
-      "title": "Nem todo encontro de rios vira limite do parque",
-      "question": "Como uma linha oficial se relaciona com uma rede natural?",
+      "eyebrow": "04 · Os limites",
+      "title": "Um perímetro que já foi posto em debate",
+      "question": "O que está em jogo quando se discute o tamanho de um parque?",
       "paragraphs": [
-        "Quem consulta o ato de criação encontra coordenadas, referências a afluentes, margens e pontos onde um rio se encontra com outro. O perímetro usa elementos naturais e segmentos traçados em cartas topográficas. Ao norte, um trecho acompanha o rio Abacaxis, na confrontação com a Estação Ecológica Alto Maués.",
-        "Para os rios, porém, as fronteiras administrativas não interrompem o movimento da água. E a floresta que cresce de um lado de uma linha legal não perde, por isso, suas relações com ambientes adjacentes. Proteger uma área extensa oferece condições para a conservação, mas a saúde de cursos d’água e habitats depende também do que acontece ao redor.",
-        "Não se deve confundir o memorial descritivo do decreto com um mapa atualizado de navegação. Coordenadas legais servem ao reconhecimento do território, não são indicações de porto, trilha ou lugar acessível. A versão pública do Raiz deve utilizar apenas limites oficiais reconciliados pela equipe de cartografia.",
-        "O encontro do perímetro com a Estação Ecológica Alto Maués revela outra ideia importante: unidades de conservação vizinhas têm categorias, regras e planos de gestão diferentes, mesmo quando compartilham uma continuidade ecológica. O rio atravessa essa paisagem sem obedecer aos nomes jurídicos que nós atribuímos ao território."
+        "Logo após a criação, parlamentares e representantes de agricultores do Amazonas pediram ao governo federal a revisão dos decretos. Em fevereiro de 2017, o Instituto Socioambiental obteve o esboço de um projeto de lei que reduziria o parque de 896.407 para 655.822 hectares, uma perda de 240.585, ou 26,8%.",
+        "O mesmo esboço previa reduzir outras três unidades e extinguir a APA dos Campos de Manicoré, num total de mais de 1 milhão de hectares. A UHE do Acari ficaria na área excluída do parque. Naquele momento, o cadastro do SICAR registrava 162 imóveis rurais sobrepostos ao conjunto das cinco unidades, e havia 205 processos minerários nelas, a maioria de ouro.",
+        "Hoje, o ICMBio mantém o parque com 896.410,95 hectares, administrado a partir do Núcleo de Gestão Integrada de Humaitá (AM), e a zona de amortecimento ainda precisa ser definida por ato específico."
       ],
       "sourceIds": [
-        "criacao",
-        "territorio-isa"
+        "isa-nota",
+        "icmbio",
+        "decreto"
+      ],
+      "citations": [
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 6"
+        },
+        {
+          "sourceId": "isa-nota",
+          "locator": "p. 7–9"
+        },
+        {
+          "sourceId": "decreto",
+          "locator": "art. 3º"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "Os rios não param no limite do parque",
-  "closing": "O decreto desenha o Acari a partir de cursos d’água, margens e encontros de rios. A floresta, porém, não se deixa reduzir às linhas do documento: varia de um trecho a outro e acompanha essa rede. É uma história de conservação que começa nomeando rios, mas só ganha sentido quando os ambientes ligados por eles permanecem vivos.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "mosaico",
+    "title": "Do estudo ao parque",
+    "intro": "Marcos do caminho que levou ao Parque Nacional do Acari.",
+    "items": [
+      {
+        "id": "2001",
+        "year": "2001",
+        "title": "Grupo de trabalho interministerial",
+        "description": "Avalia propostas de unidades de conservação na região e aponta a falta de áreas de proteção integral entre o Madeira e o Tapajós.",
+        "sourceIds": [
+          "isa-nota"
+        ]
+      },
+      {
+        "id": "2007",
+        "year": "2007",
+        "title": "Reuniões e estudo de campo",
+        "description": "Cinco reuniões nos municípios e um estudo por sobrevoos e rios, ao norte da BR-230.",
+        "sourceIds": [
+          "isa-nota"
+        ]
+      },
+      {
+        "id": "2015",
+        "year": "2015",
+        "title": "Avaliação do rio Acari",
+        "description": "Equipe do ICMBio e do Serviço Florestal Brasileiro percorre o rio em março.",
+        "sourceIds": [
+          "isa-nota"
+        ]
+      },
+      {
+        "id": "2016",
+        "year": "2016",
+        "title": "Decreto de criação",
+        "description": "Em 11 de maio, o decreto cria o parque nos municípios de Apuí, Borba e Novo Aripuanã.",
+        "sourceIds": [
+          "decreto"
+        ]
+      },
+      {
+        "id": "2017",
+        "year": "2017",
+        "title": "Esboço de redução",
+        "description": "Um esboço de projeto de lei propõe reduzir o parque a 655.822 hectares.",
+        "sourceIds": [
+          "isa-nota"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta lida pela água",
+  "closing": "O Acari é, antes de tudo, uma ideia de continuidade: rios que nascem e correm dentro de um bloco de mata, protegido na mesma decisão que reuniu cinco unidades no sul do Amazonas. Ainda há muito por inventariar, e é esse o tempo que um parque também compra: o de conhecer a floresta antes de decidir o que fazer com ela.",
   "references": [
     {
-      "id": "criacao",
-      "institution": "Presidência da República / Câmara dos Deputados",
-      "title": "Decreto de 11 de maio de 2016 — criação do Parque Nacional do Acari",
-      "url": "https://www2.camara.leg.br/legin/fed/decret_sn/2016/decreto-57325-11-maio-2016-783084-publicacaooriginal-150348-pe.html",
-      "accessedAt": "2026-10-21",
-      "use": "Objetivos expressos da criação, rios, municípios, atos de gestão e área aproximada legal."
+      "id": "decreto",
+      "institution": "Presidência da República",
+      "title": "Decreto de 11 de maio de 2016, que cria o Parque Nacional do Acari (DOU de 12/05/2016, p. 22)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-acari/arquivos/dcom_decreto_criacao_parna_do_acari.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "objetivos, municípios, perímetro, subsolo e zona de amortecimento"
     },
     {
-      "id": "ficha-icmbio",
+      "id": "icmbio",
       "institution": "ICMBio",
-      "title": "Parna do Acari — ficha institucional",
+      "title": "Parque Nacional do Acari (página institucional)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-acari",
-      "accessedAt": "2026-10-21",
-      "use": "Bioma Amazônia, área cadastrada, data de criação e gestão da unidade."
+      "accessedAt": "2026-10-23",
+      "use": "área cadastrada, bioma e gestão"
     },
     {
-      "id": "territorio-isa",
+      "id": "isa-nota",
       "institution": "Instituto Socioambiental (ISA)",
-      "title": "PARNA do Acari — Unidades de Conservação no Brasil",
-      "url": "https://uc.socioambiental.org/pt-br/arp/4847",
-      "accessedAt": "2026-10-21",
-      "use": "Distribuição cartográfica de fitofisionomias, bacia hidrográfica e dados de municípios; mapa temático não equivale a inventário botânico."
+      "title": "Nota Técnica sobre o Projeto de Lei de Redução e Revogação de Unidades de Conservação no Sul do Estado do Amazonas (março de 2017)",
+      "url": "https://site-antigo.socioambiental.org/sites/blog.socioambiental.org/files/nsa/arquivos/notatecnica_pl2017reducaoucssulamazonas_institutosocioambiental_final_1.pdf",
+      "accessedAt": "2026-10-23",
+      "use": "histórico do estudo de criação, importância biológica da região, desmatamento nos municípios, rio Acari, inventário hidrelétrico e esboço de redução"
+    },
+    {
+      "id": "isa-noticia",
+      "institution": "Instituto Socioambiental (ISA)",
+      "title": "Governo federal cria 2,6 milhões de hectares em Unidades de Conservação no sul do Amazonas (12/05/2016)",
+      "url": "https://site-antigo.socioambiental.org/en/print/5178",
+      "accessedAt": "2026-10-23",
+      "use": "lista e áreas das cinco unidades criadas em maio de 2016"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "institucional_em_previa_pendente_de_licenca_e_localizacao",
-  "editorialNotes": "Sem foto: imagem oficial de capa do ICMBio tem autoria/licença de reutilização não documentadas individualmente. Narrativa evita espécie local sem inventário. Texto em revisão; não publicar nem usar números mapeados como prova de levantamento. Nenhuma interação especial proposta. | Edição v2.2: seção de bastidor removida; afirmações botânicas mantidas no nível de classe de vegetação, sem extrapolação de espécies. | Curadoria v2.8: municípios conferidos no ato legal; área aproximada do decreto e área do cadastro ICMBio diferem ligeiramente e não foram usadas para recalcular mapa. Curadoria 22/10/2026: fotografia institucional provisória exibível apenas em prévia local; autoria, direitos específicos e localização aguardam confirmação. | v2.10.8: edição narrativa documentada, ainda requer homologação factual/fotográfica. | Capa institucional mantida somente em docs/merge/capas-pendentes.json; licença ND/abrangência não confirmada. Não exibir.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_verificada",
+  "editorialNotes": "Não há plano de manejo publicado; texto apoiado em decreto, página do ICMBio e nota técnica do ISA (2017). Conferir desfecho do esboço de projeto de lei de 2017 (cadastro atual do ICMBio mantém 896.410,95 ha). Sem foto com prova de lugar no Commons; adicionar quando houver."
 }

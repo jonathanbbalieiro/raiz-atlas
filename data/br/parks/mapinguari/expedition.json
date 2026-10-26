@@ -1,148 +1,310 @@
 {
   "schemaVersion": 2,
   "officialName": "Parque Nacional Mapinguari",
-  "title": "Mapinguari: onde a Amazônia se abre em campos",
-  "subtitle": "No encontro entre florestas de terra firme, savanas, rios e marcas de ocupação, o parque protege mais de uma maneira de existir na Amazônia.",
-  "centralQuestion": "O que os campos do Mapinguari revelam sobre a floresta ao redor?",
+  "title": "Mapinguari: ilhas de savana no coração da floresta",
+  "subtitle": "Campos abertos cercados de mata, nascentes que alimentam a pesca da região e um parque gigante criado para frear o avanço do desmatamento.",
+  "centralQuestion": "Por que existe savana no meio da Amazônia, e o que acontece quando ela fica isolada por uma floresta enorme?",
   "introduction": [
-    "Entre os rios Purus e Madeira, a paisagem do Parque Nacional Mapinguari alterna matas densas, trechos ricos em palmeiras e formações abertas. O encontro desses ambientes ajuda a explicar por que uma mesma área protegida pode abrigar animais com necessidades tão diferentes.",
-    "Veado-campeiro, primatas e espécies ligadas aos cursos d’água aparecem nos levantamentos da região. Ao lado dessa riqueza, os documentos de gestão registram pressões como desmatamento, queimadas e mineração em momentos distintos. Para entender o parque, é preciso olhar tanto para o mosaico de habitats quanto para as mudanças que podem afetá-lo."
+    "Entre os rios Purus e Madeira, no sul do Amazonas e no norte de Rondônia, a floresta se abre. Ali o Parque Nacional Mapinguari guarda campos de capim e arbustos, parentes do Cerrado e da campinarana, cercados por mata densa em todas as direções.",
+    "É um parque de escala rara: cerca de 1,77 milhão de hectares de floresta, savana, nascentes e serras. Foi criado em 2008 para proteger esses enclaves e também para servir de barreira ao avanço do desmatamento que vinha do norte de Rondônia."
   ],
-  "cover": {
-    "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Amaz%C3%B4nia_e_o_Rio_Madeira.JPG?width=1200",
-    "alt": "Trecho largo do Rio Madeira junto a uma margem coberta por vegetação amazônica.",
-    "author": "Renato Gaiga",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amaz%C3%B4nia_e_o_Rio_Madeira.JPG",
-    "context": "Local dentro do parque informado pela fonte fotográfica; geolocalização independente ainda não confirmada. Rio Madeira e floresta vistos de dentro do Parque Nacional Mapinguari, segundo Renato Gaiga (2011). CC BY-SA 3.0."
-  },
+  "keyFacts": [
+    {
+      "label": "hectares de área, segundo o memorial descritivo",
+      "value": "1.776.914",
+      "sourceId": "diag",
+      "locator": "p. 16"
+    },
+    {
+      "label": "espécies de mamíferos de médio e grande porte listadas",
+      "value": "40",
+      "sourceId": "diag",
+      "locator": "p. 90"
+    },
+    {
+      "label": "espécies de aves registradas nos levantamentos de campo",
+      "value": "177",
+      "sourceId": "diag",
+      "locator": "p. 84"
+    },
+    {
+      "label": "espécies de peixes registradas na área do parque",
+      "value": "134",
+      "sourceId": "diag",
+      "locator": "p. 77"
+    },
+    {
+      "label": "da área estão na zona de preservação, a mais protegida",
+      "value": "20,77%",
+      "sourceId": "pm",
+      "locator": "p. 62"
+    },
+    {
+      "label": "ano do decreto de criação (5 de junho)",
+      "value": "2008",
+      "sourceId": "diag",
+      "locator": "p. 16"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Campinarana",
+      "definition": "Vegetação aberta natural, arbustiva ou de capins e arbustos, também chamada de campina da Amazônia; é relativamente rara ao sul dos rios Amazonas e Negro.",
+      "sourceId": "diag"
+    },
+    {
+      "term": "Enclave de savana",
+      "definition": "Mancha de vegetação aberta cercada de floresta, isolada de outras áreas abertas talvez há milhares de anos.",
+      "sourceId": "diag"
+    },
+    {
+      "term": "Interflúvio Purus-Madeira",
+      "definition": "Região entre os rios Purus e Madeira, onde ficam o parque e outras dez unidades de conservação federais planejadas em conjunto.",
+      "sourceId": "diag"
+    }
+  ],
+  "cover": null,
   "moments": [
     {
-      "id": "campos",
-      "eyebrow": "POR TRÁS DA COPA DAS ÁRVORES",
-      "title": "Um campo aberto no meio da Amazônia",
-      "question": "Por que há espaços que não parecem floresta em um parque amazônico?",
+      "id": "savanas",
+      "eyebrow": "01 · Os campos",
+      "title": "Savana cercada de floresta",
+      "question": "Como campos abertos sobrevivem no meio da Amazônia?",
       "paragraphs": [
-        "Se um parque amazônico fosse sempre uma parede de árvores, Mapinguari contrariaria a regra. Entre grandes extensões florestais, seu território também guarda campos e savanas. As diferenças de vegetação aparecem no diagnóstico ambiental, que separa formações de Cerrado e florestas conforme o solo e a paisagem.",
-        "Nesses campos, a luz chega ao chão sem atravessar uma cobertura contínua de copas. Ali a vegetação baixa não é simplesmente floresta que deixou de crescer: é uma formação que merece ser reconhecida por suas próprias características. O levantamento botânico registrou inclusive gramíneas do gênero Paspalum. Antes de dar nomes populares a espécies individuais, é necessário confirmar qual nome é usado de fato.",
-        "O que parece ser um detalhe na escala de um mapa muda a história de todo o parque. A existência de ambientes diferentes significa que proteger apenas uma paisagem florestal não bastaria para compreender a biodiversidade encontrada ali."
+        "O decreto de criação cita expressamente os \"importantes enclaves de savana do interflúvio Purus-Madeira\". São áreas abertas naturais, com campinaranas arbustivas e de capins e arbustos, formações relativamente raras ao sul dos rios Amazonas e Negro.",
+        "Esses campos estão isolados de outras áreas abertas talvez há milhares de anos. O isolamento preserva uma diversidade genética que pode ser valiosa para toda a região, e a floresta ao redor funciona como um muro que mantém a identidade de cada ilha de savana.",
+        "O mais isolado desses enclaves de Cerrado fica na zona de preservação do Ciriquiqui, com 105 mil hectares, sem acessos terrestres identificados. Na área do rio Umari, buritizais alagados abrigam o cervo-do-pantanal e uma ave descrita pela ciência apenas em 2013, o cancão-da-campina (Cyanocorax hafferi).",
+        "Nas serras ao sul, os Três Irmãos e o Candomblé são os pontos mais altos de todo o interflúvio."
       ],
       "sourceIds": [
-        "diagnostico"
+        "pm",
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm",
+          "locator": "p. 9"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 41"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 62"
+        }
       ],
       "images": []
     },
     {
       "id": "fauna",
-      "eyebrow": "DUAS FORMAS DE VIVER NO MESMO PARQUE",
-      "title": "Entre o veado-campeiro e os primatas",
-      "question": "Como os ambientes ajudam a explicar animais tão diferentes?",
+      "eyebrow": "02 · A vida",
+      "title": "O veado-campeiro e os primatas da mata",
+      "question": "Quem vive nos campos e quem vive na floresta?",
       "paragraphs": [
-        "O veado-campeiro foi registrado nos ambientes abertos de Mapinguari. Sua presença ajuda a perceber como os campos guardam uma fauna que não seria explicada apenas pela floresta densa. Durante os levantamentos de mamíferos, esse veado apareceu associado às savanas e aos espaços de transição mais abertos.",
-        "Nos trechos de floresta, os levantamentos registram primatas como coatás e macacos-barrigudos, além de grandes mamíferos terrestres. Sua presença contrasta com a fauna dos ambientes abertos e mostra por que Mapinguari não cabe na expressão “uma só floresta”. Os registros têm datas e locais específicos; avistar esses animais hoje depende de muitas condições, não de uma lista publicada.",
-        "Uma fotografia feita no parque mostra ainda uma serpente verde de boca aberta. É um registro de um indivíduo, não uma amostragem da população. Sua força editorial está justamente nessa escala: lembrar que a conservação de um território enorme se relaciona também à vida de animais pequenos e frequentemente ignorados."
+        "A lista de mamíferos de médio e grande porte chega a 40 espécies, a maioria ligada à floresta de terra firme. Há tatu-canastra, tamanduá-bandeira, onça-pintada, onça-parda, anta, ariranha, boto-rosa e uma dúzia de primatas, entre eles o macaco-barrigudo, o coatá e o parauacu.",
+        "Nos campos, só uma espécie é exclusiva dos ambientes abertos: o veado-campeiro, que aparece nas savanas puras e nas faixas de transição entre campo e mata. O tamanduá-bandeira também é mais frequente nos campos abertos.",
+        "As bordas entre floresta e savana são o território preferido da anta-pretinha (Tapirus kabomani), uma espécie descrita há pouco tempo e conhecida na região entre o Purus e o Madeira.",
+        "Fora dos mamíferos, os levantamentos registraram 177 espécies de aves, número que os autores consideram uma pequena parte da riqueza real, e pelo menos 72 espécies de anfíbios e 47 de répteis."
       ],
       "sourceIds": [
-        "diagnostico",
-        "foto-serpente"
+        "diag"
       ],
-      "images": [
+      "citations": [
         {
-          "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Leptophis_ahaetulla_(2).jpg?width=1200",
-          "alt": "Close de serpente verde e amarela com boca aberta e olhos grandes.",
-          "author": "Renato Gaiga",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptophis_ahaetulla_(2).jpg",
-          "context": "Registro fotográfico atribuído ao próprio parque pelo autor. A espécie declarada no Wikimedia Commons aguarda revisão taxonômica; a imagem não estabelece abundância ou segurança de contato. Localização: Parque Nacional Mapinguari, local informado pelo fotógrafo (data de captura EXIF: 29/07/2012; descrição da página: upload 21/05/2014); ainda não homologada independentemente."
+          "sourceId": "diag",
+          "locator": "p. 84"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 90"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 91"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 42"
         }
-      ]
-    },
-    {
-      "id": "rios",
-      "eyebrow": "ÁGUA QUE LIGA PAISAGENS",
-      "title": "Quando o rio encontra a floresta",
-      "question": "O que os rios revelam sobre esse mosaico de habitats?",
-      "paragraphs": [
-        "A água percorre Mapinguari por caminhos distintos. O diagnóstico dá atenção aos ecossistemas aquáticos e identifica o rio Mucuim entre os lugares importantes para a conservação e para decisões sobre uso público. Rios e ambientes de margem não são uma pausa entre blocos de floresta: fazem parte da estrutura ecológica do território.",
-        "Da margem do Madeira, uma fotografia atribuída a um ponto dentro do parque permite enxergar a proporção entre a água e a mata. Não se vê toda a rede hidrográfica, muito menos seu perímetro legal. O que aparece é um encontro localizado entre rio e floresta, um fragmento da paisagem muito maior descrita nos estudos.",
-        "A ariranha aparece documentada nos levantamentos de mamíferos semiaquáticos. Sua ocorrência mostra a importância de conservar também ambientes ligados à água, sem presumir onde ou com que frequência seria vista atualmente."
-      ],
-      "sourceIds": [
-        "diagnostico",
-        "foto-rio"
       ],
       "images": []
     },
     {
-      "id": "pressao",
-      "eyebrow": "O QUE A PAISAGEM GUARDA",
-      "title": "Os mapas também registram feridas",
-      "question": "Como saber se diferentes ambientes continuam protegidos?",
+      "id": "aguas",
+      "eyebrow": "03 · A água",
+      "title": "Nascentes que sustentam a pesca",
+      "question": "Por que proteger cabeceiras de rios no meio do nada?",
       "paragraphs": [
-        "O diagnóstico do parque não descreveu somente espécies. Ele também reuniu mapas de desmatamento, registros de focos de calor e observações feitas em áreas afetadas por atividades humanas, incluindo mineração. Esses dados pertencem a períodos históricos específicos: são evidências de pressões, não uma fotografia automática do presente.",
-        "Nos levantamentos de aves, áreas alteradas mostraram diferenças em relação a trechos menos perturbados. A história é importante porque ter floresta ao redor não significa que cada ambiente funcione da mesma maneira depois de sofrer perturbações.",
-        "O parque foi criado em 2008 e passou por mudanças legais posteriores. Sua razão de existir se lê melhor quando o foco vai além do tamanho: preservar os campos em meio à floresta, a vida nas árvores, as águas e os lugares que já carregam marcas de transformação humana."
+        "O parque protege as nascentes dos rios Coti, Punicici e Mucuim e de parte do Açuã. Para as comunidades da região, o peixe é a principal fonte de alimento e de renda.",
+        "Esses riachos de cabeceira abrigam sobretudo peixes pequenos, a base da cadeia alimentar que sustenta os grandes bagres, como o jaú, os tucunarés, as matrinxãs e as jatuaranas. Na área do parque foram registradas 134 espécies de peixes, número que ainda deve crescer.",
+        "A fragilidade desses ambientes é conhecida: o desmatamento, a pecuária e o garimpo mudam a dinâmica da água e os efeitos podem aparecer a quilômetros de distância. Mais da metade dos trechos amostrados pela equipe já estava alterada.",
+        "Os rios Mucuim e Açuã também são hidrovias de livre trânsito, previstas no decreto de criação, e por isso concentram a pesca e a caça."
       ],
       "sourceIds": [
-        "diagnostico",
-        "ficha",
-        "planejamento"
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 41"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 77"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 99"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 161"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "territorio",
+      "eyebrow": "04 · O território",
+      "title": "Um parque que cresceu e foi recortado",
+      "question": "Como as hidrelétricas do Madeira mexeram nos limites do parque?",
+      "paragraphs": [
+        "O parque nasceu pelo decreto de 5 de junho de 2008, com área aproximada de 1.572.422 hectares. Dois anos depois, a Lei nº 12.249 o ampliou em cerca de 180.900 hectares, ao anexar quatro unidades estaduais de Rondônia.",
+        "Entre elas estava parte da Estação Ecológica Serra dos Três Irmãos, uma faixa de serra cujo limite sul é o rio Madeira. Ali, é comum o trânsito de balsas e dragas de garimpo de ouro.",
+        "Em 2012, a Lei nº 12.678 redefiniu os limites e excluiu áreas que seriam inundadas pelos lagos das usinas de Santo Antônio e Jirau e três polígonos ligados ao canteiro de obras de Jirau. O memorial descritivo atual registra 1.776.914 hectares, nos municípios de Canutama, Lábrea e Porto Velho.",
+        "O decreto também fixou uma zona de amortecimento de 10 quilômetros em torno do perímetro."
+      ],
+      "sourceIds": [
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 16"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 161"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "protecao",
+      "eyebrow": "05 · A proteção",
+      "title": "Zonas, fogo e o desafio de visitar",
+      "question": "Como se protege, e se visita, um parque desse tamanho?",
+      "paragraphs": [
+        "Um dos objetivos do parque é servir de barreira ao arco do desmatamento, o avanço de pastos e lavouras do norte de Rondônia rumo ao sul do Amazonas. A principal ameaça é justamente a transformação da paisagem natural em terra de pecuária e agricultura.",
+        "No zoneamento, 20,77% da área é de preservação, onde não há visitação e só pesquisa, monitoramento e proteção são permitidos. Outros 68,32% são zona primitiva, de intervenção humana mínima, que funciona como tampão da primeira. Os campos naturais são considerados sensíveis ao fogo, sobretudo onde se conectam com ramais e áreas ocupadas fora do parque.",
+        "A visitação está planejada para dois polos: os Campos do Norte, com atividades como caminhadas curtas, observação de fauna e cicloturismo, e o rio Mucuim, com canoagem, caiaque, flutuação e camping. O programa será implantado de forma gradual."
+      ],
+      "sourceIds": [
+        "pm",
+        "diag"
+      ],
+      "citations": [
+        {
+          "sourceId": "diag",
+          "locator": "p. 17"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 62"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 63"
+        },
+        {
+          "sourceId": "pm",
+          "locator": "p. 46"
+        },
+        {
+          "sourceId": "diag",
+          "locator": "p. 161"
+        }
       ],
       "images": []
     }
   ],
-  "feature": null,
-  "closingTitle": "A diversidade começa na diferença",
-  "closing": "Os campos de Mapinguari abrigam formas de vida que uma fotografia de floresta fechada não mostra. Nos rios e nas matas, a diversidade ganha outros contornos; nos mapas de pressão, aparecem marcas de atividades humanas. A força do parque está nessa reunião de ambientes e histórias, que pede observação cuidadosa em vez da imagem de uma Amazônia sempre uniforme.",
+  "feature": {
+    "type": "timeline",
+    "momentId": "territorio",
+    "title": "Marcos do território e da proteção",
+    "intro": "Da criação aos recortes das hidrelétricas.",
+    "items": [
+      {
+        "id": "2008",
+        "year": "2008",
+        "title": "Criação do parque",
+        "description": "O decreto de 5 de junho cria o parque, com cerca de 1,57 milhão de hectares, e fixa a zona de amortecimento de 10 km.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2010",
+        "year": "2010",
+        "title": "Ampliação",
+        "description": "A Lei nº 12.249, de 14 de junho, anexa unidades estaduais de Rondônia e soma cerca de 180.900 hectares.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2012",
+        "year": "2012",
+        "title": "Limites redefinidos",
+        "description": "A Lei nº 12.678, de 25 de junho, exclui áreas das usinas de Santo Antônio e Jirau.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2013",
+        "year": "2013",
+        "title": "Conselho Consultivo",
+        "description": "A Portaria nº 166, de 11 de março, cria o conselho do parque.",
+        "sourceIds": [
+          "diag"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "2018",
+        "title": "Plano de manejo",
+        "description": "O ICMBio conclui o planejamento do parque em dezembro.",
+        "sourceIds": [
+          "pm"
+        ]
+      }
+    ]
+  },
+  "closingTitle": "Uma floresta que guarda savanas",
+  "closing": "Mapinguari mostra que a Amazônia não é uma só. Entre a mata e a água, há campos isolados há milhares de anos, nascentes que alimentam a pesca e serras que vigiam o rio Madeira. Seu tamanho é a defesa mais forte, e também a maior tarefa de quem cuida dele.",
   "references": [
     {
-      "id": "ficha",
+      "id": "diag",
       "institution": "ICMBio",
-      "title": "Parna Mapinguari — ficha institucional",
-      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-mapinguari",
-      "accessedAt": "2026-10-21",
-      "use": "Nome, 1.776.914,18 ha, bioma Amazônia, decretos e leis da unidade"
-    },
-    {
-      "id": "diagnostico",
-      "institution": "ICMBio",
-      "title": "Plano de manejo PN Mapinguari, volume I — Diagnóstico (2018)",
+      "title": "Plano de Manejo do Parque Nacional Mapinguari, Volume I: Diagnóstico",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-mapinguari/arquivos/plano_manejo_parna_mapinguari_volume_i_diagnostico.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Inventário de campo, paisagem, vegetação, fauna, rios e pressões; p. 18, 60–95, 156–159"
+      "accessedAt": "2026-10-23",
+      "use": "histórico de limites, ecologia, fauna, águas e pressões; páginas conforme a numeração do PDF"
     },
     {
-      "id": "planejamento",
+      "id": "pm",
       "institution": "ICMBio",
-      "title": "Plano de manejo PN Mapinguari, volume II — Planejamento (2018)",
+      "title": "Plano de Manejo do Parque Nacional Mapinguari, Volume II: Planejamento (2018)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-mapinguari/arquivos/plano_manejo_parna_mapinguari_volume_ii_planejamento.pdf",
-      "accessedAt": "2026-10-21",
-      "use": "Planejamento da conservação e zoneamento, sem conversão dos mapas em geometria"
-    },
-    {
-      "id": "foto-rio",
-      "institution": "Wikimedia Commons / Renato Gaiga",
-      "title": "Amazônia e o Rio Madeira.JPG — licença e identificação fotográfica",
-      "url": "https://commons.wikimedia.org/wiki/File:Amaz%C3%B4nia_e_o_Rio_Madeira.JPG",
-      "accessedAt": "2026-10-21",
-      "use": "Arquivo declarado como Rio Madeira visto de dentro do Parque Nacional Mapinguari, CC BY-SA 3.0"
-    },
-    {
-      "id": "foto-serpente",
-      "institution": "Wikimedia Commons / Renato Gaiga",
-      "title": "Leptophis ahaetulla (2).jpg — ficha do arquivo e licença",
-      "url": "https://commons.wikimedia.org/wiki/File:Leptophis_ahaetulla_(2).jpg",
-      "accessedAt": "2026-10-21",
-      "use": "Serpente fotografada e identificada pelo autor dentro do parque; licença CC BY-SA 3.0"
+      "accessedAt": "2026-10-23",
+      "use": "objetivos, zoneamento e uso público; páginas conforme a numeração do PDF"
     }
   ],
-  "approved": false,
-  "status": "revisao_editorial",
-  "lastVerifiedAt": "2026-10-21",
-  "photoStatus": "2_fotos_commons_autoria_licenca_conferidas_local_informado_pelo_autor",
-  "editorialNotes": "Expedição para revisão. Ocorrência de fauna baseada no diagnóstico de campo 2018 e inventários anteriores citados no próprio documento; não afirmar abundância em 2026. Taxonomia de vários grupos a revisar. Duas fotos Commons com autoria e licença individualmente checadas e local informado pelo autor, mas sem geolocalização independente. Não foi alterada geometria.",
-  "editorialOrigin": "RAIZ Expedições v2.10.10",
-  "factCheckStatus": "verificacao_documental_parcial"
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-10-23",
+  "photoStatus": "sem_foto_adequada",
+  "editorialNotes": "Área do memorial (1.776.914 ha) difere do cadastro (1.775.085 ha). Origem do nome 'Mapinguari' não confirmada em fonte e por isso omitida. Textos do rascunho sobre serpente e rio Madeira removidos. Sem foto: nenhuma imagem com licença e prova de lugar encontrada no Commons."
 }
