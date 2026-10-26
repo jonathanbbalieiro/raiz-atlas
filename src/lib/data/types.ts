@@ -65,6 +65,8 @@ export interface Photo {
   licenseUrl: string;
   /** Página de origem (exigência de atribuição das licenças CC). */
   sourceUrl: string;
+  /** Contexto editorial da imagem: local, espécie ou limite de procedência. */
+  context?: string;
   width?: number;
   height?: number;
 }
@@ -296,6 +298,15 @@ export interface TimelineFeature {
   items: { id: string; year: string; title: string; description: string; sourceIds: string[] }[];
 }
 
+/** Comparação fotográfica: mantém imagem, contexto e fontes de cada item. */
+export interface PhotoCompareFeature {
+  type: "photo_compare";
+  momentId: string;
+  title: string;
+  intro: string;
+  items: { id: string; photo: ContextPhoto; title: string; description: string; sourceIds: string[] }[];
+}
+
 /** Número de destaque, sempre com a fonte de onde foi tirado. */
 export interface KeyFact {
   label: string;
@@ -323,7 +334,7 @@ export interface Expedition {
   introduction: string[];
   cover: ContextPhoto | null;
   moments: ExpeditionMoment[];
-  feature: TimelineFeature | null;
+  feature: TimelineFeature | PhotoCompareFeature | null;
   closingTitle: string;
   closing: string;
   references: ExpeditionReference[];
