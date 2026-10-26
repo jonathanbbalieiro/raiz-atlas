@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Credit, GalleryProvider, PhotoOpen } from "@/components/panel/Gallery";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
 import type {
   ContextPhoto,
   Expedition,
@@ -13,7 +12,6 @@ import type {
 import { BIOME_COLOR, BIOME_LABEL, href } from "@/lib/labels";
 import { ReadingProgress } from "./ReadingProgress";
 import { Timeline } from "./Timeline";
-import { PhotoCompare } from "./PhotoCompare";
 
 type Refs = Map<string, ExpeditionReference>;
 type Cite = { sourceId: string; locator: string }[];
@@ -138,9 +136,7 @@ export function ExpeditionView({
 
       {e.moments.map((m, i) => (
         <Moment key={m.id} moment={m} label={`${pad(i + 1)} / ${pad(total)}`} refs={refs} indexOf={at}>
-          {e.feature?.momentId === m.id && (e.feature.type === "timeline"
-            ? <Timeline feature={e.feature} refs={e.references} />
-            : <PhotoCompare feature={e.feature} refs={e.references} />)}
+          {e.feature?.momentId === m.id && <Timeline feature={e.feature} refs={e.references} />}
         </Moment>
       ))}
 
@@ -197,7 +193,7 @@ export function ExpeditionView({
                   {r.institution} · {r.title}
                 </span>
                 <span className="mt-0.5 block text-xs text-ink-soft">
-                  Consultado em {formatDate(r.accessedAt)}.{r.use ? ` Usado para: ${r.use}.` : ""}
+                  Consultado em {formatDate(r.accessedAt)}. Usado para: {r.use}.
                 </span>
               </a>
             </li>
@@ -272,17 +268,15 @@ function Prose({ paragraphs }: { paragraphs: string[] }) {
 function Figure({ photo, index, priority = false }: { photo: ContextPhoto; index: number; priority?: boolean }) {
   return (
     <figure className="mt-6">
-      <div className="relative w-full overflow-hidden bg-paper-deep md:mx-8 md:w-[calc(100%-4rem)] md:rounded-xl" style={{ aspectRatio: photoFrameAspect(photo, "gallery") }}>
+      <div className="relative aspect-[3/2] w-full overflow-hidden bg-paper-deep md:mx-8 md:w-[calc(100%-4rem)] md:rounded-xl">
         <PhotoOpen index={index} label={`Ampliar: ${photo.alt}`}>
-          <Image
+          <Image quality={90}
             src={photo.src}
             alt={photo.alt}
             fill
             priority={priority}
             sizes="(min-width: 768px) 680px, 100vw"
-            unoptimized={photo.src.includes("commons.wikimedia.org/wiki/Special:FilePath/") || photo.src.includes("www.gov.br/")}
             className="object-cover"
-            style={{ objectPosition: photoObjectPosition(photo, "gallery") }}
           />
         </PhotoOpen>
       </div>

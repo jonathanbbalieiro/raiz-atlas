@@ -49,13 +49,13 @@
         "pm"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Lar_doce_mar.jpg/1280px-Lar_doce_mar.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Lar_doce_mar.jpg/1920px-Lar_doce_mar.jpg",
         "author": "Fernanda Aguileri",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lar_doce_mar.jpg",
-        "width": 1280,
-        "height": 853,
+        "width": 1920,
+        "height": 1279,
         "alt": "Baía de Guaratuba com as serras do litoral paranaense ao fundo e uma gaivota em voo",
         "context": "As serras do Saint-Hilaire/Lange, a oeste da baía de Guaratuba, elevam-se direto da planície litorânea."
       }
@@ -67,13 +67,13 @@
         "pm"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Entre_nuvens_na_Torre_da_Prata.JPG/1280px-Entre_nuvens_na_Torre_da_Prata.JPG",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Entre_nuvens_na_Torre_da_Prata.JPG/1920px-Entre_nuvens_na_Torre_da_Prata.JPG",
         "author": "Alexandre Hofart Arins",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entre_nuvens_na_Torre_da_Prata.JPG",
-        "width": 1280,
-        "height": 1707,
+        "width": 1920,
+        "height": 2560,
         "alt": "O cume da Torre da Prata, ponto culminante da Serra da Prata, em dia nublado.",
         "context": "O cume da Torre da Prata, ponto culminante da Serra da Prata, em dia nublado."
       }
@@ -159,13 +159,13 @@
         "pm"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Brachycephalus_izecksohni.png/1280px-Brachycephalus_izecksohni.png",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Brachycephalus_izecksohni.png/1920px-Brachycephalus_izecksohni.png",
         "author": "Ribeiro LF, Blackburn DC, Stanley EL, Pie MR, Bornschein MR",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brachycephalus_izecksohni.png",
-        "width": 1280,
-        "height": 827,
+        "width": 1920,
+        "height": 1240,
         "alt": "Sapinho laranja sobre pedra escura",
         "context": "Sapinho-da-montanha (Brachycephalus izecksohni)."
       }
@@ -176,18 +176,7 @@
       "why": "O mamífero com mais registros dentro do parque. É classificada como quase ameaçada pela IUCN.",
       "sourceIds": [
         "gbif"
-      ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Lontra_longicaudis_2.jpeg/960px-Lontra_longicaudis_2.jpeg",
-        "author": "© 2006 Carla Antonini",
-        "license": "CC BY-SA 2.5 ar",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/ar/deed.en",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lontra_longicaudis_2.jpeg",
-        "width": 640,
-        "height": 480,
-        "alt": "Lontra-neotropical (Lontra longicaudis); fotografia da espécie",
-        "context": "Retrato ilustrativo de Lontra longicaudis. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     },
     {
       "scientificName": "Tangara seledon",
@@ -197,15 +186,15 @@
         "gbif"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Flickr_-_Dario_Sanches_-_SA%C3%8DRA-SETE-CORES_%28Tangara_seledon%29.jpg/960px-Flickr_-_Dario_Sanches_-_SA%C3%8DRA-SETE-CORES_%28Tangara_seledon%29.jpg",
-        "author": "Dario Sanches from São Paulo, Brasil",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Dario_Sanches_-_SA%C3%8DRA-SETE-CORES_(Tangara_seledon).jpg",
-        "width": 640,
-        "height": 573,
-        "alt": "Saíra-sete-cores (Tangara seledon); fotografia da espécie",
-        "context": "Retrato ilustrativo de Tangara seledon. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/539522462/original.jpg",
+        "alt": "Saíra-sete-cores de penas verdes, amarelas, azuis e laranja, pousada sobre uma pedra",
+        "author": "jonathan_rossouw",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/539522462",
+        "width": 2048,
+        "height": 1536,
+        "context": "Saíra-sete-cores (Tangara seledon) na mata atlântica do Rio de Janeiro."
       }
     }
   ],

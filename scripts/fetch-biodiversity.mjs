@@ -16,13 +16,14 @@
  * As respostas ficam em .geo-cache/bio: reexecuções não repetem chamadas.
  */
 import fs from "node:fs/promises";
+import fsSync from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const COUNTRY = "br";
 const UA = { "User-Agent": "raiz-atlas/1.1 (pipeline de biodiversidade; uso educativo)" };
-import { classifyCommonsLicense } from "./commons-license.mjs";
+const COMMERCIAL_OK = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+( [a-z]{2})?)$/i;
 const GRIIS_BRAZIL = "21cf83b3-fec6-4c42-95bc-b8555a991bc3";
 /** Pontos do polígono enviado ao GBIF (a geometria vai na URL, que tem limite de tamanho). */
 const WKT_POINTS = [140, 60];
@@ -36,7 +37,7 @@ const GROUPS = [
   { id: "anfibios", label: "Anfíbios", query: "classKey=131", facet: 12, take: 6 },
   { id: "peixes", label: "Peixes", query: "classKey=204&classKey=121", facet: 12, take: 6 },
   { id: "borboletas", label: "Borboletas e mariposas", query: "orderKey=797", facet: 12, take: 6 },
-  { id: "plantas", label: "Plantas", query: "phylumKey=7707728", facet: 120, take: 30 },
+  { id: "plantas", label: "Plantas", query: "phylumKey=7707728", facet: 30, take: 10 },
 ];
 const THREAT = ["CR", "EN", "VU"];
 /** Registros que o GRIIS não cobre como espécie (domésticos registrados como espécie selvagem). */
@@ -45,6 +46,16 @@ const IUCN_QID = {
   Q211005: "LC", Q719675: "NT", Q278113: "VU", Q11394: "EN", Q219127: "CR",
   Q239509: "EW", Q237350: "EX", Q3245245: "DD",
 };
+
+/** Cultivadas, domésticas e exóticas apontadas por scripts/clean-biodiversity.mjs: nunca voltam numa nova coleta. */
+const EXCL = (() => {
+  try {
+    return JSON.parse(fsSync.readFileSync(path.join(ROOT, "data", COUNTRY, "bio-exclusions.json"), "utf8"));
+  } catch {
+    return {};
+  }
+})();
+const excluded = (slug, name) => !!(EXCL.plants?.[name] || EXCL.animals?.[name] || EXCL.perPark?.[slug]?.[name]);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (h = "") => h.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
@@ -256,7 +267,7 @@ async function commonsInfo(titles) {
       if (!ii) continue;
       const m = ii.extmetadata ?? {};
       const lic = m.LicenseShortName?.value ?? "";
-      if (!classifyCommonsLicense(lic).allowed || !/jpeg|png|webp/.test(ii.mime ?? "") || !ii.thumburl) continue;
+      if (!COMMERCIAL_OK.test(lic) || !/jpeg|png|webp/.test(ii.mime ?? "") || !ii.thumburl) continue;
       commons.set(normalized.get(page.title) ?? page.title, {
         src: ii.thumburl.split("?")[0],
         author: strip(m.Artist?.value).slice(0, 80) || "Autor desconhecido",
@@ -323,7 +334,7 @@ for (const park of selected) {
 
   const card = (key, records) => {
     const info = speciesInfo.get(key);
-    if (!info || info.rank !== "SPECIES" || introduced.has(key) || BLOCK.has(key) || inat.get(key)?.introduced) return null;
+    if (!info || info.rank !== "SPECIES" || introduced.has(key) || BLOCK.has(key) || inat.get(key)?.introduced || excluded(park.slug, info.scientificName)) return null;
     const wd = wikidata.get(key);
     const photo = wd?.images.map((t) => commons.get(t)).find(Boolean) ?? null;
     const pt = wd?.names.find((n) => n.toLowerCase() !== info.scientificName.toLowerCase()) ?? inat.get(key)?.name ?? null;

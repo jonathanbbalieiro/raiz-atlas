@@ -8,7 +8,17 @@
     "Entre junho e novembro, o mar de Abrolhos vira berçário. As baleias-jubarte cruzam o Atlântico para ter seus filhotes em águas quentes, e quem está num barco ouve o sopro antes de ver o dorso. Abaixo da superfície, corais em forma de cogumelo desenham um labirinto que não existe em nenhum outro lugar do mundo.",
     "O Parque Nacional Marinho dos Abrolhos, no sul da Bahia, tem cerca de 88 mil hectares e foi o primeiro parque nacional marinho do Brasil. Aqui estão ilhas vulcânicas, recifes, baleias e uma história de proteção que já traz o peixe de volta para quem vive da pesca."
   ],
-  "cover": null,
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Abrolhos_Marine_National_ParkRobertoCostaPinto07.jpg/1920px-Abrolhos_Marine_National_ParkRobertoCostaPinto07.jpg",
+    "author": "RobertoCostaPinto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abrolhos_Marine_National_ParkRobertoCostaPinto07.jpg",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Ilhas e águas rasas do Parque Nacional Marinho dos Abrolhos",
+    "context": "Ilhas e águas rasas do Parque Nacional Marinho dos Abrolhos, no sul da Bahia."
+  },
   "moments": [
     {
       "id": "recifes",
@@ -26,13 +36,13 @@
       ],
       "images": [
         {
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Arquip%C3%A9lago_de_Abrolhos_1.jpg/1280px-Arquip%C3%A9lago_de_Abrolhos_1.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Arquip%C3%A9lago_de_Abrolhos_1.jpg/1920px-Arquip%C3%A9lago_de_Abrolhos_1.jpg",
           "author": "Crisferrari1500",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arquip%C3%A9lago_de_Abrolhos_1.jpg",
-          "width": 1280,
-          "height": 960,
+          "width": 1920,
+          "height": 1440,
           "alt": "A ilha principal do Arquipélago dos Abrolhos, no Parque Nacional Marinho dos Abrolhos (BA), onde fica o posto fixo da Marinha; foto catalogada no Commons como do parque.",
           "context": "A ilha principal do Arquipélago dos Abrolhos, no Parque Nacional Marinho dos Abrolhos (BA), onde fica o posto fixo da Marinha; foto catalogada no Commons como do parque."
         }
@@ -56,7 +66,19 @@
         "icmbio-quem-somos",
         "icmbio-visitacao"
       ],
-      "images": []
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Filhote_e_m%C3%A3e_jubarte_Abrolhos_por_Mia_Morete.jpg/1920px-Filhote_e_m%C3%A3e_jubarte_Abrolhos_por_Mia_Morete.jpg",
+          "author": "Mia Morete",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Filhote_e_m%C3%A3e_jubarte_Abrolhos_por_Mia_Morete.jpg",
+          "width": 1920,
+          "height": 1265,
+          "alt": "Baleia-jubarte e filhote nadando em água azul na região de Abrolhos",
+          "context": "Mãe e filhote de baleia-jubarte na região de Abrolhos, onde as jubartes vêm parir e amamentar."
+        }
+      ]
     },
     {
       "id": "parque",
@@ -72,7 +94,19 @@
         "icmbio-quem-somos",
         "icmbio-comunidade"
       ],
-      "images": []
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Abrolhos_Marine_National_ParkRobertoCostaPinto03.jpg/1920px-Abrolhos_Marine_National_ParkRobertoCostaPinto03.jpg",
+          "author": "RobertoCostaPinto",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abrolhos_Marine_National_ParkRobertoCostaPinto03.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Entardecer sobre uma ilha com farol no arquipélago dos Abrolhos",
+          "context": "Entardecer sobre uma ilha com farol no Parque Nacional Marinho dos Abrolhos."
+        }
+      ]
     }
   ],
   "feature": {

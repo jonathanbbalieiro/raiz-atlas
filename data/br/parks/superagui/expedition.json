@@ -68,7 +68,17 @@
       "sourceId": "pm"
     }
   ],
-  "cover": null,
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/PARNA_do_Superagui-Gabriel-Eloi-Marchi%28006%29.jpg/1920px-PARNA_do_Superagui-Gabriel-Eloi-Marchi%28006%29.jpg",
+    "alt": "Vista aérea de uma restinga de areia entre o mar e a mata da Ilha de Superagui",
+    "author": "Gabriel-Eloi-Marchi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PARNA_do_Superagui-Gabriel-Eloi-Marchi(006).jpg",
+    "width": 1920,
+    "height": 1080,
+    "context": "Vista aérea da ponta de areia e da mata da Ilha de Superagui, no litoral do Paraná."
+  },
   "moments": [
     {
       "id": "mico",
@@ -132,13 +142,13 @@
       ],
       "images": [
         {
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Superagui_-_A_praia_deserta.jpg/1280px-Superagui_-_A_praia_deserta.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Superagui_-_A_praia_deserta.jpg/1920px-Superagui_-_A_praia_deserta.jpg",
           "author": "Rubens Nemitz Jr",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Superagui_-_A_praia_deserta.jpg",
-          "width": 1280,
-          "height": 853,
+          "width": 1920,
+          "height": 1280,
           "alt": "Praia larga e vazia sob céu nublado",
           "context": "Faixa de areia da Praia Deserta, na Ilha do Superagui."
         }

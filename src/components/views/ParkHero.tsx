@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ViewTransition } from "react";
 import { CoverButton } from "@/components/panel/Gallery";
 import type { Photo } from "@/lib/data/types";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
 
 /**
  * Capa do parque: foto em sangria total com navegação e título por cima.
@@ -28,16 +27,14 @@ export function ParkHero({
     <div className="relative overflow-hidden md:rounded-t-2xl">
       <CoverButton label={label}>
         <ViewTransition name={`park-photo-${slug}`} share="morph" default="none">
-          <div className="relative w-full bg-paper-deep" style={{ aspectRatio: photoFrameAspect(photo, "hero") }}>
-            <Image
+          <div className="relative aspect-[4/3] w-full bg-paper-deep">
+            <Image quality={90}
               src={photo.src}
               alt={photo.alt}
               fill
               priority
-              unoptimized={photo.src.includes("commons.wikimedia.org/wiki/Special:FilePath/")}
               sizes="(min-width: 768px) 420px, 100vw"
               className="object-cover"
-              style={{ objectPosition: photoObjectPosition(photo, "hero") }}
             />
           </div>
         </ViewTransition>

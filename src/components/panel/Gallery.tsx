@@ -4,7 +4,6 @@ import Image from "next/image";
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Photo } from "@/lib/data/types";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
 
 /*
  * Galeria de fotos de um parque/atração:
@@ -121,21 +120,17 @@ export function PhotoStrip({ from = 1, heading = "Mais fotos" }: { from?: number
                 type="button"
                 onClick={() => open(from + i)}
                 aria-label={`Ampliar foto ${from + i + 1} de ${photos.length}`}
-                className="group relative block w-full cursor-zoom-in overflow-hidden rounded-xl bg-paper-deep"
-                style={{ aspectRatio: photoFrameAspect(p, "gallery") }}
+                className="group relative block aspect-[4/3] w-full cursor-zoom-in overflow-hidden rounded-xl bg-paper-deep"
               >
-                <Image
+                <Image quality={90}
                   src={p.src}
                   alt={p.alt}
                   fill
                   sizes="300px"
-                  unoptimized={p.src.includes("commons.wikimedia.org/wiki/Special:FilePath/")}
                   className="object-cover transition duration-300 group-hover:scale-[1.03]"
-                  style={{ objectPosition: photoObjectPosition(p, "gallery") }}
                 />
               </button>
-              {p.context && <figcaption className="pt-1.5 text-[12px] leading-snug text-ink-soft">{p.context}</figcaption>}
-              <Credit photo={p} className="pt-1" />
+              <Credit photo={p} className="pt-1.5" />
             </figure>
           </li>
         ))}
@@ -219,15 +214,13 @@ function Lightbox({
         </button>
       </div>
       <div className="relative min-h-0 flex-1" onClick={(e) => e.target === e.currentTarget && onClose()}>
-        <Image
+        <Image quality={90}
           key={p.src}
           src={p.src}
           alt={p.alt}
           fill
           sizes="100vw"
-          unoptimized={p.src.includes("commons.wikimedia.org/wiki/Special:FilePath/")}
           className="object-contain px-2 md:px-20"
-          style={{ objectPosition: photoObjectPosition(p, "lightbox") }}
         />
         {n > 1 && (
           <>
@@ -303,8 +296,8 @@ function Chevron({ dir }: { dir: 1 | -1 }) {
 export function Credit({ photo, className = "" }: { photo: Photo; className?: string }) {
   return (
     <p
-      className={`text-[11px] leading-snug text-ink-soft ${className}`}
-      title={`Foto: ${photo.author} · ${photo.license}${photo.context ? " · " + photo.context : ""}`}
+      className={`truncate text-[11px] text-ink-soft ${className}`}
+      title={`Foto: ${photo.author} · ${photo.license}`}
     >
       Foto:{" "}
       <a

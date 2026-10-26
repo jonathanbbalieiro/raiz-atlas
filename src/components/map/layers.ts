@@ -80,7 +80,7 @@ export function addLayers(map: MlMap) {
       maxzoom: NATIONAL_MAXZOOM,
       paint: {
         "fill-color": ["case", state("dimmed"), C.ink, state("hover"), C.forest, C.card],
-        "fill-opacity": ["case", state("current"), 0.85, state("dimmed"), 0.06, state("hover"), 0.08, 0.62],
+        "fill-opacity": ["case", state("current"), 0.35, state("dimmed"), 0.3, state("hover"), 0.1, 0],
         "fill-opacity-transition": { duration: 300 },
       },
     },
@@ -93,7 +93,8 @@ export function addLayers(map: MlMap) {
       source: "admin1",
       maxzoom: NATIONAL_MAXZOOM,
       paint: {
-        "line-color": "#b9b1a2",
+        "line-color": "#9a9590",
+        "line-opacity": 0.7,
         "line-width": ["interpolate", ["linear"], ["zoom"], 3, 0.5, 6, 0.9, 8, 1.3],
       },
     },
@@ -138,7 +139,7 @@ export function addLayers(map: MlMap) {
       paint: {
         "line-color": C.forest,
         "line-width": ["interpolate", ["linear"], ["zoom"], 3, 0.9, 7, 1.6],
-        "line-opacity": 0.75,
+        "line-opacity": 0.8,
       },
     },
     beforeLabels,

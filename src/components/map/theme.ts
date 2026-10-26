@@ -19,11 +19,28 @@ export const MAP_COLORS = {
  * cinza-bege. O Brasil ganha um véu claro por cima (camada admin1-fill).
  */
 export const BASEMAP = {
-  land: "#ebe7dd",
-  water: "#d9e3e6",
-  waterLine: "#c3d3d8",
-  foreignBorder: "#a59c8a",
+  land: "#f2efe8",
+  water: "#a9cde8",
+  waterLine: "#8fbde0",
+  foreignBorder: "#a99bb8",
 } as const;
+
+/** Cores da natureza no mapa: matas e áreas protegidas em verde suave. */
+export const NATURE = { wood: "#8fcb82", park: "#a6d697" } as const;
+
+/**
+ * Cobertura vegetal da visão do país e dos estados, em tons de verde: classificação MODIS (NASA, domínio
+ * público) recolorida por scripts/build-landcover-tiles.mjs e servida pelo próprio site.
+ */
+export const overviewSource = (origin: string) => ({
+  type: "raster" as const,
+  tiles: [`${origin}/tiles/landcover/{z}/{x}/{y}.png`],
+  tileSize: 256,
+  minzoom: 0,
+  maxzoom: 7,
+  bounds: [-82, -56, -34, 13] as [number, number, number, number],
+  attribution: 'Cobertura vegetal: <a href="https://earthdata.nasa.gov/gibs" target="_blank" rel="noopener">NASA MODIS</a>',
+});
 
 /** Estilo de base: OpenFreeMap (gratuito, sem chave; dados © OpenStreetMap, ODbL). */
 export const BASEMAP_STYLE = "https://tiles.openfreemap.org/styles/positron";

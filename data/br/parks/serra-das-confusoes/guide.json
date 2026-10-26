@@ -49,7 +49,17 @@
       "sourceIds": [
         "pm"
       ],
-      "photo": null
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Fresta_de_luz_em_caverna.jpg/1920px-Fresta_de_luz_em_caverna.jpg",
+        "alt": "Raios de sol entrando por uma fresta no teto de uma caverna coberta de samambaias",
+        "author": "Felipevannoni",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fresta_de_luz_em_caverna.jpg",
+        "width": 1920,
+        "height": 1280,
+        "context": "Luz entrando por uma abertura no alto de uma caverna da Serra das Confusões (PI)."
+      }
     },
     {
       "title": "Mirante Janela do Sertão",
@@ -58,13 +68,13 @@
         "pm"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Janela_do_Sert%C3%A3o.jpg/1280px-Janela_do_Sert%C3%A3o.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Janela_do_Sert%C3%A3o.jpg/1920px-Janela_do_Sert%C3%A3o.jpg",
         "author": "Otávio Nogueira",
         "license": "CC BY 2.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Janela_do_Sert%C3%A3o.jpg",
-        "width": 1280,
-        "height": 848,
+        "width": 1920,
+        "height": 1271,
         "alt": "Mirante Janela do Sertão, Serra das Confusões",
         "context": "Mirante Janela do Sertão. Paisagem com rochedos no interior do parque nacional da Serra das Confusões"
       }
@@ -76,15 +86,15 @@
         "pm"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Serra_das_Confus%C3%B5es_01.jpg/1280px-Serra_das_Confus%C3%B5es_01.jpg",
-        "author": "Otávio Nogueira",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_das_Confus%C3%B5es_01.jpg",
-        "width": 1280,
-        "height": 848,
-        "alt": "Formação de arenito no interior do parque",
-        "context": "Formação rochosa no interior do Parque Nacional da Serra das Confusões."
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Parque_Nacional_da_Serra_das_Confus%C3%B5es_Jos%C3%A9_Garcia_J%C3%BAnior_%2802%29.jpg/1920px-Parque_Nacional_da_Serra_das_Confus%C3%B5es_Jos%C3%A9_Garcia_J%C3%BAnior_%2802%29.jpg",
+        "alt": "Paredão de arenito arredondado, de cor laranja e cinza, sobre o campo seco",
+        "author": "Zegarciajr",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Serra_das_Confus%C3%B5es_Jos%C3%A9_Garcia_J%C3%BAnior_(02).jpg",
+        "width": 1920,
+        "height": 1280,
+        "context": "Monumentos de arenito da Formação Cabeças, no Parque Nacional da Serra das Confusões (PI)."
       }
     }
   ],
@@ -148,18 +158,7 @@
       "sourceIds": [
         "pm",
         "gbif"
-      ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Great_Xenops_Megaxenops_parnaguae.jpg/960px-Great_Xenops_Megaxenops_parnaguae.jpg",
-        "author": "Joao Quental",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_Xenops_Megaxenops_parnaguae.jpg",
-        "width": 640,
-        "height": 426,
-        "alt": "Bico-virado-da-caatinga (Megaxenops parnaguae); fotografia da espécie",
-        "context": "Retrato ilustrativo de Megaxenops parnaguae. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     },
     {
       "scientificName": "Xiphocolaptes falcirostris",
@@ -168,18 +167,7 @@
       "sourceIds": [
         "pm",
         "gbif"
-      ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Xiphocolaptes_falcirostris_-_Moustached_Woodcreeper%3B_Cod%C3%B3%2C_Maranh%C3%A3o%2C_Brazil.jpg/960px-Xiphocolaptes_falcirostris_-_Moustached_Woodcreeper%3B_Cod%C3%B3%2C_Maranh%C3%A3o%2C_Brazil.jpg",
-        "author": "Hector Bottai",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xiphocolaptes_falcirostris_-_Moustached_Woodcreeper;_Cod%C3%B3,_Maranh%C3%A3o,_Brazil.jpg",
-        "width": 640,
-        "height": 640,
-        "alt": "Arapaçu-do-nordeste (Xiphocolaptes falcirostris); fotografia da espécie",
-        "context": "Retrato ilustrativo de Xiphocolaptes falcirostris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     },
     {
       "scientificName": "Kerodon rupestris",
@@ -188,18 +176,7 @@
       "sourceIds": [
         "pm",
         "gbif"
-      ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg/960px-Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg",
-        "author": "Motorolaz1201",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201(001).jpg",
-        "width": 640,
-        "height": 430,
-        "alt": "Mocó (Kerodon rupestris); fotografia da espécie",
-        "context": "Retrato ilustrativo de Kerodon rupestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     }
   ],
   "sources": [

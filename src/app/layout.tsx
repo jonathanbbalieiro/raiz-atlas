@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Sans, Fraunces } from "next/font/google";
 import { SITE } from "@/lib/site";
-import { EDITORIAL_PREVIEW } from "@/lib/editorial";
 import "./globals.css";
 
 // Ambas sob SIL Open Font License; o next/font hospeda os arquivos junto do site.
@@ -13,8 +12,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: { default: `${SITE.name}: ${SITE.tagline}`, template: `%s · ${SITE.name}` },
   description: SITE.description,
-  robots: EDITORIAL_PREVIEW ? { index: false, follow: false } : undefined,
   openGraph: { siteName: SITE.name, locale: "pt_BR", type: "website" },
+  // Verificação do Google Search Console (opcional): NEXT_PUBLIC_GSC_VERIFICATION.
+  verification: process.env.NEXT_PUBLIC_GSC_VERIFICATION ? { google: process.env.NEXT_PUBLIC_GSC_VERIFICATION } : undefined,
 };
 
 export const viewport: Viewport = {

@@ -1,7 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
-import { dedupePhotos, photoQualityScore, photoIsPubliclyReusable, rankParkPhotos } from "@/lib/photos";
 import { BIOME_LABEL, formatArea, joinPt } from "@/lib/labels";
 import type { PlaceRepository } from "./repository";
 import {
@@ -67,104 +66,6 @@ const SHORT_DESCRIPTION_MAX = 300;
 /** Meia-largura (graus) do bbox em volta de uma atração. */
 const POINT_PADDING = 0.01;
 const ACCESSED = "2026-10-19";
-
-/** Sanitização na camada de exibição: os JSONs e seus créditos originais permanecem intactos. */
-const publiclyVisiblePhoto = (photo: Photo) =>
-  process.env.NODE_ENV !== "production" || photoIsPubliclyReusable(photo);
-const visiblePhotos = (photos: Photo[]): Photo[] => photos.filter(publiclyVisiblePhoto);
-
-function publicGuide(g: ParkGuide | null): ParkGuide | null {
-  if (!g || (g.status !== "revisado" && !SHOW_DRAFTS)) return null;
-  return {
-    ...g,
-    wonders: g.wonders.map((w) => ({ ...w, photo: w.photo && publiclyVisiblePhoto(w.photo) ? w.photo : null })),
-    flagships: g.flagships.map((f) => ({ ...f, photo: f.photo && publiclyVisiblePhoto(f.photo) ? f.photo : undefined })),
-  };
-}
-
-function publicBiodiversity(b: Biodiversity | null): Biodiversity | null {
-  if (!b || process.env.NODE_ENV !== "production") return b;
-  const safe = (s: Biodiversity["threatened"][number]) =>
-    s.photo && !publiclyVisiblePhoto(s.photo) ? { ...s, photo: null } : s;
-  return { ...b, groups: b.groups.map((g) => ({ ...g, species: g.species.map(safe) })), threatened: b.threatened.map(safe) };
-}
-
-function publicLostWorld(l: LostWorld | null): LostWorld | null {
-  if (!l || (l.status !== "revisado" && !SHOW_DRAFTS)) return null;
-  return { ...l, items: l.items.map((item) => ({
-    ...item,
-    photo: item.photo && publiclyVisiblePhoto(item.photo) ? item.photo : null,
-  })) };
-}
-
-function publicExpedition(e: Expedition | null): Expedition | null {
-  if (!e || (!e.approved && !SHOW_DRAFTS)) return null;
-  if (process.env.NODE_ENV !== "production") return e;
-  const feature = e.feature?.type === "photo_compare"
-    ? (e.feature.items.every((item) => publiclyVisiblePhoto(item.photo)) ? e.feature : null)
-    : e.feature;
-  return {
-    ...e,
-    cover: e.cover && publiclyVisiblePhoto(e.cover) ? e.cover : null,
-    moments: e.moments.map((moment) => ({ ...moment, images: moment.images.filter(publiclyVisiblePhoto) })),
-    feature,
-  };
-}
-
-
-
-function collectGuidePhotos(guide: ParkGuide | null): Photo[] {
-  if (!guide) return [];
-  return [
-    ...guide.wonders.flatMap((w) => (w.photo ? [w.photo] : [])),
-    ...guide.flagships.flatMap((f) => (f.photo ? [f.photo] : [])),
-  ];
-}
-
-function collectExpeditionPhotos(expedition: Expedition | null): Photo[] {
-  if (!expedition) return [];
-  return dedupePhotos([
-    ...(expedition.cover ? [expedition.cover] : []),
-    ...expedition.moments.flatMap((m) => m.images ?? []),
-  ]);
-}
-
-function collectLostWorldPhotos(lostWorld: LostWorld | null): Photo[] {
-  if (!lostWorld) return [];
-  return lostWorld.items.flatMap((item) => (item.photo ? [item.photo] : []));
-}
-
-function collectBiodiversityPhotos(biodiversity: Biodiversity | null, limit = 4): Photo[] {
-  if (!biodiversity) return [];
-  const species = biodiversity.groups.flatMap((group) =>
-    group.species
-      .filter((s) => s.photo)
-      .map((s) => ({ photo: s.photo!, records: s.records ?? 0 })),
-  );
-  return dedupePhotos(
-    species
-      .sort((a, b) => (b.records - a.records) || (photoQualityScore(b.photo) - photoQualityScore(a.photo)))
-      .slice(0, limit)
-      .map((x) => x.photo),
-  );
-}
-
-function collectParkPhotoPool(params: {
-  mediaPhotos: Photo[];
-  guide: ParkGuide | null;
-  expedition: Expedition | null;
-  biodiversity: Biodiversity | null;
-  lostWorld: LostWorld | null;
-}): Photo[] {
-  const { mediaPhotos, guide, expedition, biodiversity, lostWorld } = params;
-  const media = mediaPhotos ?? [];
-  const guidePhotos = collectGuidePhotos(guide);
-  const expeditionPhotos = collectExpeditionPhotos(expedition);
-  const lostPhotos = collectLostWorldPhotos(lostWorld);
-  const biodiversityPhotos = collectBiodiversityPhotos(biodiversity, media.length + guidePhotos.length + expeditionPhotos.length > 0 ? 2 : 6);
-  return dedupePhotos([...media, ...guidePhotos, ...expeditionPhotos, ...lostPhotos, ...biodiversityPhotos]);
-}
-
 
 async function readJson<T>(...parts: string[]): Promise<T> {
   return JSON.parse(await fs.readFile(path.join(DATA_DIR, ...parts), "utf8")) as T;
@@ -255,13 +156,10 @@ async function loadDataset(): Promise<Dataset> {
       const m = media[g.slug];
       const research = await readJsonOr<ParkResearch | null>(null, c, "parks", g.slug, "research.json");
       const expedition = await readJsonOr<Expedition | null>(null, c, "parks", g.slug, "expedition.json");
-      const readable = publicExpedition(expedition);
-      const guideRaw = await readJsonOr<ParkGuide | null>(null, c, "parks", g.slug, "guide.json");
-      const guide = publicGuide(guideRaw);
-      const biodiversityRaw = await readJsonOr<Biodiversity | null>(null, c, "parks", g.slug, "biodiversity.generated.json");
-      const biodiversity = publicBiodiversity(biodiversityRaw);
-      const lostWorldRaw = await readJsonOr<LostWorld | null>(null, c, "parks", g.slug, "lost-world.json");
-      const lostWorld = publicLostWorld(lostWorldRaw);
+      const readable = expedition && (expedition.approved || SHOW_DRAFTS) ? expedition : null;
+      const guide = await readJsonOr<ParkGuide | null>(null, c, "parks", g.slug, "guide.json");
+      const biodiversity = await readJsonOr<Biodiversity | null>(null, c, "parks", g.slug, "biodiversity.generated.json");
+      const lostWorld = await readJsonOr<LostWorld | null>(null, c, "parks", g.slug, "lost-world.json");
       if (readable) ds.expeditions[`${c}/${g.slug}`] = readable;
       const park: Park = {
         ...g,
@@ -274,12 +172,12 @@ async function loadDataset(): Promise<Dataset> {
             g.ufs.map((u) => ufInfo.get(u) ?? { name: u, prep: "em" }),
           ),
         longDescription: override.longDescription,
-        photos: rankParkPhotos(g.slug, collectParkPhotoPool({ mediaPhotos: visiblePhotos(m?.photos ?? []), guide, expedition: readable, biodiversity, lostWorld })),
+        photos: m?.photos ?? [],
         wikipediaUrl: m?.wikipediaUrl ?? null,
         research: research ?? undefined,
-        guide: guide ?? undefined,
+        guide: guide && (guide.status === "revisado" || SHOW_DRAFTS) ? guide : undefined,
         biodiversity: biodiversity ?? undefined,
-        lostWorld: lostWorld ?? undefined,
+        lostWorld: lostWorld && (lostWorld.status === "revisado" || SHOW_DRAFTS) ? lostWorld : undefined,
         expedition: readable
           ? { title: readable.title, subtitle: readable.subtitle, approved: readable.approved }
           : undefined,
@@ -320,7 +218,7 @@ async function loadDataset(): Promise<Dataset> {
               at.coordinates[1] + POINT_PADDING,
             ]
           : park.bbox;
-        attractions.push({ ...at, photos: visiblePhotos(at.photos ?? []), level: "attraction", path: [...park.path, at.slug], bbox });
+        attractions.push({ ...at, level: "attraction", path: [...park.path, at.slug], bbox });
       }
       ds.attractions[`${c}/${g.slug}`] = attractions.sort(byName);
     }

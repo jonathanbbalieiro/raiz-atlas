@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { JsonLd, websiteData } from "@/components/seo/JsonLd";
 import { ViewTransition } from "react";
 import { StateList } from "@/components/nav/StateList";
 import { Carousel } from "@/components/panel/Carousel";
@@ -24,6 +25,7 @@ export async function OverviewView({ country }: { country: Country }) {
 
   return (
     <>
+      <JsonLd data={websiteData()} />
       <div className="px-5 pt-2 md:pt-6">
         <p className="text-xs font-semibold tracking-[0.12em] text-earth uppercase">{country.name}</p>
         <h1 className="mt-1.5 font-display text-[32px] leading-[1.08] font-semibold text-forest-deep text-balance">
@@ -92,6 +94,11 @@ export async function OverviewView({ country }: { country: Country }) {
           </Carousel>
         </section>
       )}
+      <p className="px-5 pt-8 pb-6 text-center text-xs text-ink-soft">
+        <Link href="/sobre" className="underline underline-offset-2 hover:text-forest">
+          Sobre e créditos
+        </Link>
+      </p>
     </>
   );
 }

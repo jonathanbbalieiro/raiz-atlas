@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { JsonLd, breadcrumbs, parkData } from "@/components/seo/JsonLd";
 import { PanelHeader } from "@/components/nav/PanelHeader";
 import { ParkCards } from "@/components/nav/ParkCards";
 import { Credit, GalleryProvider, OpenGalleryButton, PhotoStrip } from "@/components/panel/Gallery";
@@ -50,6 +51,8 @@ export async function ParkView({
 
   return (
     <GalleryProvider photos={park.photos}>
+      <JsonLd data={parkData(park)} />
+      <JsonLd data={breadcrumbs(trail)} />
       <article className="pb-4">
         {cover ? (
           <>
@@ -62,10 +65,7 @@ export async function ParkView({
               {title(true)}
             </ParkHero>
             <div className="flex items-center justify-between gap-3 px-5 pt-2">
-              <div className="min-w-0">
-                {cover.context && <p className="text-[11px] leading-snug text-ink-soft">{cover.context}</p>}
-                <Credit photo={cover} className="min-w-0" />
-              </div>
+              <Credit photo={cover} className="min-w-0" />
               <OpenGalleryButton />
             </div>
           </>
@@ -128,17 +128,6 @@ export async function ParkView({
             hint="Ponto de referência no interior do parque"
           />
         </dl>
-
-        {park.slug === "sete-cidades" && (
-          <p className="mx-5 mt-2 text-xs leading-relaxed text-ink-soft">
-            A área exibida inclui a ampliação legal de setembro de 2026. O mapa ainda apresenta
-            uma geometria anterior, pendente de atualização e conferência dos limites oficiais. {" "}
-            <a href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13115.htm"
-               target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
-              Consultar decreto de ampliação
-            </a>.
-          </p>
-        )}
 
         <GuideBody guide={park.guide} bio={park.biodiversity} lost={park.lostWorld} parkName={park.shortName} />
 

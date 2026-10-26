@@ -9,7 +9,7 @@ import { ExpeditionView } from "@/components/views/ExpeditionView";
 import { OverviewView } from "@/components/views/OverviewView";
 import { ParkView } from "@/components/views/ParkView";
 import { repo, type Expedition, type Park, type PlaceNode } from "@/lib/data";
-import { EDITORIAL_PREVIEW, EXPEDITION_SEGMENT } from "@/lib/editorial";
+import { EXPEDITION_SEGMENT } from "@/lib/editorial";
 import { href, plural } from "@/lib/labels";
 import { buildMapFocus } from "@/lib/map-focus";
 
@@ -63,7 +63,7 @@ export async function generateMetadata({ params }: PageProps<"/[country]/[[...pa
     description,
     alternates: { canonical },
     // Rascunhos só aparecem em prévia (local ou de revisão): nunca indexar.
-    robots: EDITORIAL_PREVIEW || (expedition && !expedition.approved) ? { index: false, follow: false } : undefined,
+    robots: expedition && !expedition.approved ? { index: false, follow: false } : undefined,
     openGraph: {
       title,
       description,

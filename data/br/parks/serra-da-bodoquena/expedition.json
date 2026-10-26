@@ -8,7 +8,17 @@
     "Em Bodoquena, um rio entra na pedra e some. Mais de um quilômetro adiante, ele ressurge de uma caverna, já limpo e azulado, pronto para quem quiser flutuar sobre o fundo à vista.",
     "O Parque Nacional da Serra da Bodoquena foi criado em 21 de setembro de 2000 e tem cerca de 77 mil hectares, em dois fragmentos entre Bonito, Bodoquena e Jardim. É um enclave de Mata Atlântica no meio do Cerrado, onde cada rio parece uma pedra preciosa."
   ],
-  "cover": null,
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/C%C3%A2nion_do_Rio_Salobra_-_2026_4.jpg/1920px-C%C3%A2nion_do_Rio_Salobra_-_2026_4.jpg",
+    "alt": "Rio Salobra de águas verde-azuladas, com paredão de calcário ao fundo e mata nas margens",
+    "author": "Otávio Nogueira",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A2nion_do_Rio_Salobra_-_2026_4.jpg",
+    "width": 1920,
+    "height": 1281,
+    "context": "Rio Salobra no cânion, com paredão de calcário e mata nas margens, na Serra da Bodoquena (MS)."
+  },
   "moments": [
     {
       "id": "perdido",
@@ -68,13 +78,13 @@
       ],
       "images": [
         {
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg/1280px-C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg/1920px-C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg",
           "author": "Otávio Nogueira",
           "license": "CC BY 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A2nion_do_Rio_Salobra_-_2026_5.jpg",
-          "width": 1280,
-          "height": 854,
+          "width": 1920,
+          "height": 1281,
           "alt": "Corredeira de água azul-esverdeada com blocos de rocha no cânion do rio Salobra",
           "context": "Corredeira de águas turquesa entre blocos de rocha e mata no cânion do rio Salobra, em Bodoquena (MS)."
         }

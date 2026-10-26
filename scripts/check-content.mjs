@@ -11,8 +11,8 @@ const read = (...p) => JSON.parse(fs.readFileSync(path.join(DATA, ...p), "utf8")
 const exists = (...p) => fs.existsSync(path.join(DATA, ...p));
 
 const THEMES = new Set(["geologia", "hidrografia", "relevo", "clima", "biodiversidade", "conservação", "história", "patrimônio", "arqueologia", "visitação"]);
-const FEATURES = new Set(["timeline", "photo_compare"]); // só o que o ExpeditionView sabe desenhar
-const PHOTO_HOSTS = new Set(["upload.wikimedia.org", "thumb.wikimedia.org", "inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org", "commons.wikimedia.org", "www.gov.br"]); // next.config.ts
+const FEATURES = new Set(["timeline"]); // só o que o ExpeditionView sabe desenhar
+const PHOTO_HOSTS = new Set(["upload.wikimedia.org", "thumb.wikimedia.org", "inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org"]); // next.config.ts
 
 // Wikipédia pode ser consultada, nunca citada; licenças ND proíbem o recorte que o layout faz; NC é aceita (uso não comercial).
 const strings = function* (v) {
@@ -42,9 +42,7 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
       const e = read(country, "parks", slug, "expedition.json");
       const at = `${where}/expedition.json`;
       expeditions++;
-      // Notas internas podem citar limitações de licenças; só o material público é submetido ao filtro.
-      const { editorialNotes, photoStatus, factCheckStatus, ...publicExpedition } = e;
-      noWiki(publicExpedition, at);
+      noWiki(e, at);
       if (e.approved) approved++;
       assert.equal(e.schemaVersion, 2, `${at}: schemaVersion`);
       assert.equal(e.officialName, park.name, `${at}: officialName difere do cadastro (${park.name})`);
@@ -97,10 +95,6 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
         assert(ids.has(e.feature.momentId), `${at}: interação aponta para momento inexistente`);
         assert(e.feature.items.length >= 2, `${at}: linha do tempo com menos de 2 marcos`);
         for (const it of e.feature.items) {
-          if (e.feature.type === "photo_compare") {
-            assert(it.photo?.src && it.photo?.author && it.photo?.sourceUrl && it.sourceIds?.every((id) => refs.has(id)), `${at}: foto comparativa sem imagem/fonte`);
-            continue;
-          }
           assert(it.year && it.title && it.description && it.sourceIds.every((id) => refs.has(id)) && it.sourceIds.length, `${at}: marco ${it.id} incompleto`);
         }
       }
@@ -184,8 +178,10 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
       const b = read(country, "parks", slug, "biodiversity.generated.json");
       const at = `${where}/biodiversity.generated.json`;
       bios++;
+      const ex = exists(country, "bio-exclusions.json") ? read(country, "bio-exclusions.json") : {};
       for (const s of [...b.groups.flatMap((g) => g.species), ...b.threatened]) {
         species++;
+        assert(!(ex.plants?.[s.scientificName] || ex.animals?.[s.scientificName] || ex.perPark?.[slug]?.[s.scientificName]), `${at}: espécie excluída (cultivada, doméstica ou exótica): ${s.scientificName}`);
         assert(s.scientificName && Number.isInteger(s.gbifKey), `${at}: espécie sem nome científico ou chave GBIF`);
         if (s.photo) assert(PHOTO_HOSTS.has(new URL(s.photo.src).hostname) && s.photo.author && s.photo.license && s.photo.sourceUrl, `${at}: foto de ${s.scientificName} sem atribuição`);
       }

@@ -20,9 +20,7 @@ const ROOT = path.resolve(import.meta.dirname, "..");
 const PARKS = path.join(ROOT, "data", "br", "parks");
 const CACHE = path.join(ROOT, ".geo-cache", "photos");
 const UA = { "User-Agent": "raiz-atlas/1.1 (fotos de maravilhas com prova de lugar)" };
-import { classifyCommonsLicense } from "./commons-license.mjs";
-
-const accepts = (license) => { const result = classifyCommonsLicense(license); return result.allowed && !result.review; };
+const OK = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+( [a-z]{2})?)$/i;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (h = "") => h.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 const norm = (s) => s.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase();
@@ -100,7 +98,7 @@ async function info(titles) {
       if (!ii?.thumburl) continue;
       const m = ii.extmetadata ?? {};
       const license = m.LicenseShortName?.value ?? "";
-      if (!accepts(license) || !/jpeg|png|webp/.test(ii.mime ?? "") || ii.width < 900) continue;
+      if (!OK.test(license) || !/jpeg|png|webp/.test(ii.mime ?? "") || ii.width < 900) continue;
       out.set(page.title, {
         title: page.title,
         description: strip(m.ImageDescription?.value).slice(0, 220),

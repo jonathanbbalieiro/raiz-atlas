@@ -1,10 +1,10 @@
 {
   "name": "raiz-atlas",
-  "version": "1.3.4-publicacao-candidata",
+  "version": "1.1.0-alpha",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npm run check:content && node scripts/check-publication.mjs",
+    "prebuild": "node scripts/check-content.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -16,12 +16,7 @@
     "photo:flagships": "node scripts/fill-flagship-photos.mjs",
     "approve": "node scripts/approve.mjs",
     "sources": "node scripts/source-pack.mjs",
-    "src": "node scripts/src-grep.mjs",
-    "check:merge": "npm run check:content && node scripts/test-base-preferida.mjs",
-    "bio:expand": "node scripts/fetch-biodiversity.mjs",
-    "check:photos:v132": "npm run check:merge && node scripts/test-photos-v132.mjs",
-    "check:publish": "npm run check:content && node scripts/check-publication.mjs && node scripts/test-base-preferida.mjs && node scripts/test-photos-v132.mjs",
-    "release:verify": "npm run check:publish && node scripts/check-publication.mjs --strict"
+    "src": "node scripts/src-grep.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^5.24.0",
@@ -42,6 +37,7 @@
     "eslint-config-next": "16.4.2",
     "mapshaper": "^0.7.90",
     "pdfjs-dist": "^4.10.38",
+    "pngjs": "^7.0.0",
     "tailwindcss": "^4",
     "topojson-server": "^3.0.1",
     "tsx": "^4.23.15",

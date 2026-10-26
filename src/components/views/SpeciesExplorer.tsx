@@ -2,9 +2,7 @@
 
 import { useState } from "react";
 import { Carousel } from "@/components/panel/Carousel";
-import { FloraHighlight } from "./FloraHighlight";
 import type { Biodiversity, IucnCategory, SpeciesCard } from "@/lib/data/types";
-import { photoObjectPosition } from "@/lib/photos";
 
 export const IUCN_LABEL: Partial<Record<IucnCategory, string>> = {
   CR: "Criticamente em perigo",
@@ -58,10 +56,6 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
   return (
     <div>
       {flagships.length > 0 && (
-        <>
-        <p className="mt-3 text-[12px] leading-relaxed text-ink-soft">
-          Retratos ilustrativos das espécies. A documentação de ocorrência no parque não significa que cada fotografia tenha sido feita dentro dele.
-        </p>
         <Carousel
           label="Espécies-símbolo"
           className="-mx-5 mt-4 snap-x snap-mandatory scroll-px-5 gap-3 px-5 pb-1"
@@ -80,7 +74,6 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
                       alt={f.card.photo.alt}
                       loading="lazy"
                       className="h-full w-full object-cover"
-                      style={{ objectPosition: photoObjectPosition(f.card.photo, "card") }}
                     />
                   }
                   {f.card?.iucn && IUCN_LABEL[f.card.iucn] && f.card.iucn !== "DD" && (
@@ -101,10 +94,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
             </li>
           ))}
         </Carousel>
-        </>
       )}
-
-      <FloraHighlight species={bio.groups.find((g) => g.id === "plantas")?.species ?? []} />
 
       {showGauge && (
         <div className="mt-5 rounded-2xl border border-line bg-card p-3.5">
@@ -202,7 +192,6 @@ function SpeciesTile({ s }: { s: SpeciesCard }) {
                       alt={s.photo.alt}
                       loading="lazy"
                       className="h-full w-full object-cover"
-                      style={{ objectPosition: photoObjectPosition(s.photo, "square") }}
                     />
                   ) : (
                     <span className="flex h-full items-center justify-center px-3 text-center text-xs text-ink-soft">

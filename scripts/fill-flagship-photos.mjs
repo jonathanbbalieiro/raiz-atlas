@@ -12,9 +12,7 @@ import path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const PARKS = path.join(ROOT, "data", "br", "parks");
 const UA = { "User-Agent": "raiz-atlas/1.1 (fotos de espécies-símbolo)" };
-import { classifyCommonsLicense } from "./commons-license.mjs";
-
-const accepts = (license) => { const result = classifyCommonsLicense(license); return result.allowed && !result.review; };
+const OK = /^(CC0|Public domain|CC BY(-SA)? [0-9.]+( [a-z]{2})?)$/i;
 const strip = (h = "") => h.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const lower = (s) => s.toLowerCase();
@@ -77,7 +75,7 @@ for (let i = 0; i < titles.length; i += 25) {
     if (!ii) continue;
     const m = ii.extmetadata ?? {};
     const license = m.LicenseShortName?.value ?? "";
-    if (!accepts(license) || !/jpeg|png|webp/.test(ii.mime ?? "") || ii.width < 600 || !ii.thumburl) continue;
+    if (!OK.test(license) || !/jpeg|png|webp/.test(ii.mime ?? "") || ii.width < 600 || !ii.thumburl) continue;
     info.set(normalized.get(page.title) ?? page.title, {
       src: ii.thumburl.split("?")[0],
       author: strip(m.Artist?.value).slice(0, 80) || "Autor desconhecido",

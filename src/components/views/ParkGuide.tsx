@@ -5,8 +5,6 @@ import type { Biodiversity, GuideSource, LostWorld as LostWorldData, ParkGuide a
 import { LostWorld } from "./LostWorld";
 import { ParkQuiz } from "./ParkQuiz";
 import { SpeciesExplorer } from "./SpeciesExplorer";
-import { BiodiversityGallery } from "./BiodiversityGallery";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
 
 /*
  * Guia do parque: o conteúdo que encanta, em blocos curtos e visuais.
@@ -142,8 +140,8 @@ export function GuideBody({
                 className="w-[78%] max-w-72 shrink-0 snap-start overflow-hidden rounded-2xl border border-line bg-card"
               >
                 {w.photo && (
-                  <div className="relative bg-paper-deep" style={{ aspectRatio: photoFrameAspect(w.photo, "card") }}>
-                    <Image src={w.photo.src} alt={w.photo.alt} fill sizes="288px" className="object-cover" style={{ objectPosition: photoObjectPosition(w.photo, "card") }} />
+                  <div className="relative aspect-[4/3] bg-paper-deep">
+                    <Image quality={90} src={w.photo.src} alt={w.photo.alt} fill sizes="288px" className="object-cover" />
                   </div>
                 )}
                 <div className="p-4">
@@ -192,9 +190,6 @@ export function GuideBody({
           )}
         </section>
       )}
-
-
-      {bio && <BiodiversityGallery bio={bio} />}
 
       {bio && <ParkQuiz bio={bio} parkName={parkName} />}
 

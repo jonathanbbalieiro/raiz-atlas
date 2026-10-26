@@ -49,7 +49,7 @@
         "pm"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Pedras_expostas_do_rio_Jari_no_per%C3%ADodo_de_seca_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg/1280px-Pedras_expostas_do_rio_Jari_no_per%C3%ADodo_de_seca_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Pedras_expostas_do_rio_Jari_no_per%C3%ADodo_de_seca_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg/1280px-Pedras_expostas_do_rio_Jari_no_per%C3%ADodo_de_seca_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg",
         "author": "Brenda Cunha Pereira",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
@@ -66,17 +66,7 @@
       "sourceIds": [
         "pm"
       ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Cachoeira-RioJari.JPG/1280px-Cachoeira-RioJari.JPG",
-        "author": "Pedro Garibalde",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira-RioJari.JPG",
-        "width": 1280,
-        "height": 960,
-        "alt": "Corredeiras e quedas do rio Jari, de águas barrentas, cercadas de mata",
-        "context": "A Cachoeira Kumakakwarã, também chamada do Desespero, no rio Jari (AP)."
-      }
+      "photo": null
     },
     {
       "title": "Roche Monpé",
@@ -98,8 +88,8 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neblina_matinal_no_Parque_Nacional_Montanhas_do_Tumucumaque.jpg",
-        "width": 1280,
-        "height": 719,
+        "width": 960,
+        "height": 539,
         "alt": "Neblina sobre a copa da floresta pela manhã",
         "context": "Neblina matinal sobre a floresta do Parque Nacional Montanhas do Tumucumaque."
       }
@@ -177,15 +167,15 @@
         "gbif"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Ateles_paniscus.jpg/960px-Ateles_paniscus.jpg",
-        "author": "Hans Hillewaert",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_paniscus.jpg",
-        "width": 640,
-        "height": 853,
-        "alt": "Macaco-aranha-preto (Ateles paniscus); fotografia da espécie",
-        "context": "Retrato ilustrativo de Ateles paniscus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/504323394/original.jpg",
+        "alt": "Macaco-aranha-preto pendurado em um galho, com a face avermelhada voltada para a câmera",
+        "author": "botanils",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/504323394",
+        "width": 2048,
+        "height": 1536,
+        "context": "Macaco-aranha-preto (Ateles paniscus) na floresta da Guiana Francesa, ao lado do platô das Guianas."
       }
     },
     {
@@ -194,18 +184,7 @@
       "why": "Criticamente em perigo, tem registros dentro do parque.",
       "sourceIds": [
         "gbif"
-      ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Anomaloglossus_degranvillei06.jpg",
-        "author": "Hugo Claessen",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anomaloglossus_degranvillei06.jpg",
-        "width": 640,
-        "height": 480,
-        "alt": "Sapinho Anomaloglossus (Anomaloglossus degranvillei); fotografia da espécie",
-        "context": "Retrato ilustrativo de Anomaloglossus degranvillei. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     },
     {
       "scientificName": "Vouacapoua americana",
@@ -213,18 +192,7 @@
       "why": "Árvore criticamente em perigo, com registros dentro do parque.",
       "sourceIds": [
         "gbif"
-      ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Vouacapoua_americana_Aublet_1775_pl_373.jpg/960px-Vouacapoua_americana_Aublet_1775_pl_373.jpg",
-        "author": "Jean-Baptiste-Christophe FUSÉE-AUBLET (1720-1778)",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vouacapoua_americana_Aublet_1775_pl_373.jpg",
-        "width": 640,
-        "height": 839,
-        "alt": "Acapu (Vouacapoua americana); fotografia da espécie",
-        "context": "Retrato ilustrativo de Vouacapoua americana. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     }
   ],
   "sources": [

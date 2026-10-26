@@ -8,7 +8,17 @@
     "No Pantanal, o rio manda. De outubro a abril as chuvas cobrem a planície; a partir de maio as águas baixam, e a vida que se espalhou pelos campos se concentra nas baías e nos corixos, onde fica mais fácil de ver.",
     "O Parque Nacional do Pantanal Mato-Grossense, em Mato Grosso, só se alcança pela água e faz parte de um sítio de Patrimônio Mundial da UNESCO. Quem vai embarca em Porto Jofre ou em Corumbá e segue horas de rio até a sede."
   ],
-  "cover": null,
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Caminho_do_rio.jpg/1920px-River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Caminho_do_rio.jpg",
+    "alt": "Rio estreito entre árvores de copa dourada sob céu de nuvens, no fim de tarde",
+    "author": "Giovanna Colombi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Caminho_do_rio.jpg",
+    "width": 1920,
+    "height": 1280,
+    "context": "Rio de águas calmas entre árvores do Parque Nacional do Pantanal Matogrossense."
+  },
   "moments": [
     {
       "id": "aguas",
@@ -25,13 +35,13 @@
       ],
       "images": [
         {
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg/1280px-River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg/1920px-River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
           "author": "Giovanna Colombi",
           "license": "CC BY-SA 4.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_in_the_Parque_Nacional_do_Pantanal_Matogrossense_-_Por_dentro_do_pantanal.jpg",
-          "width": 1280,
-          "height": 853,
+          "width": 1920,
+          "height": 1280,
           "alt": "Rio calmo margeado por mata, com um barco ao longe",
           "context": "Rio visto do barco dentro do Parque Nacional do Pantanal Matogrossense."
         }

@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Credit } from "@/components/panel/Gallery";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
 import type { GuideSource, LostKind, LostSpecies, LostWorld as Lost } from "@/lib/data/types";
 
 const KIND: Record<LostKind, { label: string; tone: string }> = {
@@ -70,13 +69,13 @@ function Item({ item, sources, hidden }: { item: LostSpecies; sources: Map<strin
     <li hidden={hidden} className="overflow-hidden rounded-2xl border border-line bg-card">
       {item.photo && (
         <figure>
-          <div className="relative bg-paper-deep" style={{ aspectRatio: photoFrameAspect(item.photo, "card") }}>
-            <Image
+          <div className="relative aspect-[3/2] bg-paper-deep">
+            <Image quality={90}
               src={item.photo.src}
               alt={item.photo.alt}
               fill
               sizes="(min-width: 768px) 480px, 100vw"
-              className="object-cover sepia-[25%]" style={{ objectPosition: photoObjectPosition(item.photo, "card") }}
+              className="object-cover sepia-[25%]"
             />
             <span className={`absolute top-2.5 left-2.5 rounded-full px-2.5 py-1 text-[11px] font-semibold ${k.tone}`}>
               {k.label}

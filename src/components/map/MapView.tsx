@@ -22,7 +22,7 @@ import {
   setLayerGroupVisible,
 } from "./layers";
 import { MapControls } from "./MapControls";
-import { BASEMAP, BASEMAP_STYLE, DEM_SOURCE } from "./theme";
+import { BASEMAP, BASEMAP_STYLE, DEM_SOURCE, NATURE, overviewSource } from "./theme";
 
 type FC = GeoJSON.FeatureCollection;
 const EMPTY: FC = { type: "FeatureCollection", features: [] };
@@ -544,25 +544,26 @@ function tipContent(title: string, sub?: string, color?: string) {
 /** Sombreamento 2D sempre que há parque aberto; terreno 3D só se pedido. */
 function setTerrain(map: MlMap, on: boolean, relief3d: boolean) {
   if (relief3d && on && !map.getSource("dem")) map.addSource("dem", DEM_SOURCE);
-  if (on && !map.getSource("dem-shade")) {
+  if (!map.getSource("dem-shade")) {
     map.addSource("dem-shade", DEM_SOURCE);
-    const firstSymbol = map.getStyle().layers.find((l) => l.type === "symbol")?.id;
+    // Abaixo da água: o oceano (que também tem relevo no modelo) fica liso, só a terra recebe sombra.
+    const firstSymbol = map.getLayer("water") ? "water" : map.getStyle().layers.find((l) => l.type === "symbol")?.id;
     map.addLayer(
       {
         id: "hillshade",
         type: "hillshade",
         source: "dem-shade",
         paint: {
-          "hillshade-shadow-color": "#5a4b38",
-          "hillshade-highlight-color": "#fffdf6",
-          "hillshade-accent-color": "#6b5a43",
-          "hillshade-exaggeration": 0.45,
+          "hillshade-shadow-color": "#7d7a70",
+          "hillshade-highlight-color": "#ffffff",
+          "hillshade-accent-color": "#9b978b",
+          "hillshade-exaggeration": 0.55,
         },
       },
       firstSymbol,
     );
   }
-  if (map.getLayer("hillshade")) map.setLayoutProperty("hillshade", "visibility", on ? "visible" : "none");
+  // O sombreamento do relevo fica sempre visível (visual de mapa de trilhas); só o 3D depende do parque.
   map.setTerrain(on && relief3d ? { source: "dem", exaggeration: 1.3 } : null);
 }
 
@@ -572,6 +573,23 @@ function setTerrain(map: MlMap, on: boolean, relief3d: boolean) {
  * nacional, sem estradas nem cidades pequenas (os parques são os protagonistas).
  */
 function restyleBasemap(map: MlMap) {
+  if (!map.getSource("overview")) {
+    map.addSource("overview", overviewSource(window.location.origin));
+    const first = map.getStyle().layers.find((l) => l.type !== "background")?.id;
+    // Verde pastel da vegetação que some ao aproximar (aí entram relevo e mapa de trilhas).
+    map.addLayer(
+      {
+        id: "overview",
+        type: "raster",
+        source: "overview",
+        paint: {
+          "raster-opacity": ["interpolate", ["linear"], ["zoom"], 7, 1, 9, 0],
+          "raster-fade-duration": 200,
+        },
+      },
+      first,
+    );
+  }
   const set = (id: string, prop: string, value: unknown) => {
     try {
       map.setPaintProperty(id, prop, value);
@@ -582,14 +600,23 @@ function restyleBasemap(map: MlMap) {
   for (const layer of map.getStyle().layers) {
     const { id, type } = layer;
     if (type === "background") set(id, "background-color", BASEMAP.land);
-    else if (id === "water" && type === "fill") set(id, "fill-color", BASEMAP.water);
+    else if (id === "water" && type === "fill") {
+      set(id, "fill-color", BASEMAP.water);
+      set(id, "fill-opacity", 1);
+    }
     else if (id.startsWith("waterway") && type === "line") set(id, "line-color", BASEMAP.waterLine);
-    else if (id === "ne2_shaded" || type === "raster") set(id, "raster-opacity", 0.25);
-    else if (/^(park|landcover|landuse)/.test(id) && type === "fill") set(id, "fill-opacity", 0.25);
+    else if (id !== "overview" && (id === "ne2_shaded" || type === "raster")) set(id, "raster-opacity", 0);
+    else if (id === "landcover_wood" && type === "fill") {
+      set(id, "fill-color", NATURE.wood);
+      set(id, "fill-opacity", 0.95);
+    } else if (id === "park" && type === "fill") {
+      set(id, "fill-color", NATURE.park);
+      set(id, "fill-opacity", 0.7);
+    } else if (/^(landcover|landuse)/.test(id) && type === "fill") set(id, "fill-opacity", 0.35);
     else if (id.startsWith("boundary") && type === "line") {
       const national = /boundary_2|disputed/.test(id);
       set(id, "line-color", BASEMAP.foreignBorder);
-      set(id, "line-opacity", national ? 0.8 : 0.35);
+      set(id, "line-opacity", national ? 0.85 : 0.4);
       set(id, "line-width", national ? ["interpolate", ["linear"], ["zoom"], 2, 0.6, 6, 1.1, 10, 1.6] : 0.5);
     }
     // Estradas, ferrovias e prédios só aparecem de perto.
@@ -605,7 +632,9 @@ function restyleBasemap(map: MlMap) {
     const field = map.getLayoutProperty(id, "text-field");
     if (field && JSON.stringify(field).includes("name")) {
       map.setLayoutProperty(id, "text-field", ["coalesce", ["get", "name:pt"], ["get", "name"]]);
-      set(id, "text-color", "#6d6a60");
+      set(id, "text-color", "#4a4f55");
+      set(id, "text-halo-color", "#ffffff");
+      set(id, "text-halo-width", 1.5);
     }
   }
 }

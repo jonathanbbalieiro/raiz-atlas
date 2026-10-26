@@ -58,13 +58,13 @@
         "icmbio-salobra"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg/1280px-C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg/1920px-C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg",
         "author": "Otávio Nogueira",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A2nion_do_Rio_Salobra_-_2026_2.jpg",
-        "width": 1280,
-        "height": 854,
+        "width": 1920,
+        "height": 1281,
         "alt": "Águas turquesa do rio Salobra sob paredões calcários cobertos de mata",
         "context": "Águas turquesa do rio Salobra encaixadas entre paredões calcários, no cânion do rio Salobra, em Bodoquena (MS)."
       }
@@ -113,18 +113,7 @@
       "why": "Pequeno bagre registrado dentro do parque e classificado como vulnerável pela IUCN.",
       "sourceIds": [
         "gbif"
-      ],
-      "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_%289%29.jpg/960px-Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_%289%29.jpg",
-        "author": "Paulo Robson de Souza",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Serra_da_Bodoquena_Paulo_Robson_de_Souza_(9).jpg",
-        "width": 640,
-        "height": 428,
-        "alt": "Cambeva (Trichomycterus dali); fotografia da espécie",
-        "context": "Retrato ilustrativo de Trichomycterus dali. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
-      }
+      ]
     },
     {
       "scientificName": "Anodorhynchus hyacinthinus",
@@ -134,15 +123,15 @@
         "gbif"
       ],
       "photo": {
-        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
-        "author": "Giles Laurent",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
-        "width": 640,
-        "height": 800,
-        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus); fotografia da espécie",
-        "context": "Retrato ilustrativo de Anodorhynchus hyacinthinus. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217287300/original.jpg",
+        "alt": "Duas araras-azuis-grandes alçando voo de um galho seco, sob céu azul",
+        "author": "anudibranchmom",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/217287300",
+        "width": 2048,
+        "height": 1416,
+        "context": "Araras-azuis-grandes (Anodorhynchus hyacinthinus) alçando voo em Mato Grosso do Sul."
       }
     },
     {
@@ -153,15 +142,15 @@
         "gbif"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 640,
-        "height": 480,
-        "alt": "Anta (Tapirus terrestris); fotografia da espécie",
-        "context": "Retrato ilustrativo de Tapirus terrestris. A ocorrência no parque está registrada no levantamento; o local da fotografia pode ser outro."
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/606004152/original.jpg",
+        "alt": "Anta mastigando folhas, com a tromba e as orelhas em destaque",
+        "author": "anacampioto",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/606004152",
+        "width": 2048,
+        "height": 1356,
+        "context": "Anta (Tapirus terrestris), o maior mamífero terrestre do Brasil."
       }
     }
   ],

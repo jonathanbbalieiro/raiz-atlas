@@ -68,7 +68,17 @@
       "sourceId": "pm"
     }
   ],
-  "cover": null,
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Monte_Pascoal.jpg/1920px-Monte_Pascoal.jpg",
+    "alt": "O Monte Pascoal, coberto de mata, erguendo-se sobre pastos sob céu azul",
+    "author": "Mário C. Bucci",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monte_Pascoal.jpg",
+    "width": 1920,
+    "height": 1285,
+    "context": "O Monte Pascoal, de 536 metros, visto da área de entorno no sul da Bahia."
+  },
   "moments": [
     {
       "id": "monte",
@@ -99,15 +109,15 @@
       ],
       "images": [
         {
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Corumbau_-_BA_-_Monte_Pascoal_5.jpg/1280px-Corumbau_-_BA_-_Monte_Pascoal_5.jpg",
-          "author": "Cristina C. Lima",
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Monte_P%C3%A1scoal.jpg/1920px-Monte_P%C3%A1scoal.jpg",
+          "alt": "O Monte Pascoal de forma cônica sobre a costa, visto do mar de águas azul-turquesa",
+          "author": "Heris Luiz Cordeiro Rocha",
           "license": "CC BY-SA 3.0",
           "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corumbau_-_BA_-_Monte_Pascoal_5.jpg",
-          "width": 1280,
-          "height": 859,
-          "alt": "O Monte Pascoal ao fundo, visto de uma estrada de terra próxima a Corumbau (BA).",
-          "context": "O Monte Pascoal ao fundo, visto de uma estrada de terra próxima a Corumbau (BA); a foto mostra o monte à distância."
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monte_P%C3%A1scoal.jpg",
+          "width": 1920,
+          "height": 1275,
+          "context": "O Monte Pascoal visto do mar, com a costa da Bahia em primeiro plano."
         }
       ],
       "note": {

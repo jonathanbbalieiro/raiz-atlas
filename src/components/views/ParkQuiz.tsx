@@ -8,7 +8,7 @@ const ROUNDS = 5;
 
 /** Miniatura do Commons em largura padrão (500 px). */
 const thumb = (src: string) =>
-  src.replace(/\/(\d+)px-([^/]+)$/, (m, w, f) => (Number(w) > 500 ? `/500px-${f}` : m));
+  src.replace(/\/(\d+)px-([^/]+)$/, (m, w, f) => (Number(w) > 960 ? `/960px-${f}` : m));
 
 /** Gerador determinístico: servidor e cliente montam as mesmas perguntas. */
 function rng(seed: string) {

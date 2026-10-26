@@ -68,7 +68,17 @@
       "sourceId": "pm"
     }
   ],
-  "cover": null,
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Montes_Roraima_y_Kukenam.jpg/1920px-Montes_Roraima_y_Kukenam.jpg",
+    "alt": "Campos verdes com os tepuis Roraima e Kukenán cobertos de nuvens ao fundo",
+    "author": "PlanetAlvaro",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montes_Roraima_y_Kukenam.jpg",
+    "width": 1920,
+    "height": 1440,
+    "context": "Os tepuis Roraima e Kukenán emergindo das nuvens sobre os campos da Gran Sabana."
+  },
   "moments": [
     {
       "id": "montanha",
@@ -137,15 +147,15 @@
       ],
       "images": [
         {
-          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Parque_Nacional_do_Monte_Roraima_01.JPG/1280px-Parque_Nacional_do_Monte_Roraima_01.JPG",
-          "author": "Vinicius Matsumoto",
-          "license": "CC BY-SA 3.0",
-          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_do_Monte_Roraima_01.JPG",
-          "width": 1280,
-          "height": 960,
-          "alt": "Duas montanhas de topo plano no horizonte, acima de campos",
-          "context": "O Monte Roraima e o tepui vizinho Kukenán, vistos da Gran Sabana, na Venezuela."
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Planta_Carn%C3%ADvora_Heliamphora_nutans.jpg/1920px-Planta_Carn%C3%ADvora_Heliamphora_nutans.jpg",
+          "alt": "Planta carnívora Heliamphora nutans, com folhas em forma de jarro avermelhado, entre bromélias do topo",
+          "author": "Mauricio Campello",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Planta_Carn%C3%ADvora_Heliamphora_nutans.jpg",
+          "width": 1920,
+          "height": 1440,
+          "context": "Heliamphora nutans, planta carnívora de jarros avermelhados do topo do Monte Roraima."
         }
       ],
       "note": {
