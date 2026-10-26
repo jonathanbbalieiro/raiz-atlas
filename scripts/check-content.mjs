@@ -13,6 +13,20 @@ const exists = (...p) => fs.existsSync(path.join(DATA, ...p));
 const THEMES = new Set(["geologia", "hidrografia", "relevo", "clima", "biodiversidade", "conservação", "história", "patrimônio", "arqueologia", "visitação"]);
 const FEATURES = new Set(["timeline"]); // só o que o ExpeditionView sabe desenhar
 const PHOTO_HOSTS = new Set(["upload.wikimedia.org", "thumb.wikimedia.org", "inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org"]); // next.config.ts
+/** Wikimedia Commons: Special:FilePath redireciona a foto original para o CDN de arquivos. */
+const isAllowedPhotoUrl = (src) => {
+  try {
+    const url = new URL(src);
+    if (url.protocol !== "https:") return false;
+    if (url.hostname === "commons.wikimedia.org") {
+      const prefix = "/wiki/Special:FilePath/";
+      return url.pathname.startsWith(prefix) && url.pathname.length > prefix.length;
+    }
+    return PHOTO_HOSTS.has(url.hostname);
+  } catch {
+    return false;
+  }
+};
 
 // Wikipédia pode ser consultada, nunca citada; licenças ND proíbem o recorte que o layout faz; NC é aceita (uso não comercial).
 const strings = function* (v) {
@@ -63,7 +77,7 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
       const photos = [e.cover, ...e.moments.flatMap((m) => m.images)].filter(Boolean);
       const srcs = new Set();
       for (const p of photos) {
-        assert(PHOTO_HOSTS.has(new URL(p.src).hostname), `${at}: foto fora dos hosts permitidos: ${p.src}`);
+        assert(isAllowedPhotoUrl(p.src), `${at}: foto fora dos hosts permitidos: ${p.src}`);
         assert(p.alt && p.author && p.license && p.licenseUrl && p.sourceUrl, `${at}: atribuição incompleta em ${p.src}`);
         assert(p.context && p.context.length >= 20, `${at}: legenda sem contexto em ${p.src}`);
         assert(!srcs.has(p.src), `${at}: foto repetida ${p.src}`);
@@ -135,13 +149,13 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
       }
       for (const f of g.flagships) {
         assert(f.scientificName && f.name && f.why, `${at}: espécie-símbolo incompleta`);
-        if (f.photo) assert(PHOTO_HOSTS.has(new URL(f.photo.src).hostname) && f.photo.author && f.photo.license && f.photo.sourceUrl, `${at}: foto de ${f.scientificName} sem atribuição`);
+        if (f.photo) assert(isAllowedPhotoUrl(f.photo.src) && f.photo.author && f.photo.license && f.photo.sourceUrl, `${at}: foto de ${f.scientificName} sem atribuição`);
         cites(f.sourceIds, `espécie ${f.scientificName}`);
       }
       for (const w of g.wonders) {
         if (!w.photo) continue;
         const p = w.photo;
-        assert(PHOTO_HOSTS.has(new URL(p.src).hostname), `${at}: foto fora dos hosts permitidos: ${p.src}`);
+        assert(isAllowedPhotoUrl(p.src), `${at}: foto fora dos hosts permitidos: ${p.src}`);
         assert(p.alt && p.author && p.license && p.licenseUrl && p.sourceUrl && p.context, `${at}: foto de "${w.title}" sem atribuição completa`);
       }
       const texts = [g.intro, ...g.protects.items.map((i) => i.text), ...g.wonders.map((w) => w.text), ...g.curiosities.map((c) => c.text), ...g.stories.map((s) => s.text)].map((t) => t.trim());
@@ -168,7 +182,7 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
         seen.add(it.scientificName);
         assert(it.sourceIds?.length && it.sourceIds.every((id) => ids.has(id)), `${at}: "${it.name}" com fonte inexistente`);
         if (it.photo) {
-          assert(PHOTO_HOSTS.has(new URL(it.photo.src).hostname), `${at}: foto fora dos hosts permitidos: ${it.photo.src}`);
+          assert(isAllowedPhotoUrl(it.photo.src), `${at}: foto fora dos hosts permitidos: ${it.photo.src}`);
           assert(it.photo.alt && it.photo.author && it.photo.license && it.photo.licenseUrl && it.photo.sourceUrl && it.photo.context, `${at}: foto de "${it.name}" sem atribuição completa`);
         }
       }
@@ -183,7 +197,7 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
         species++;
         assert(!(ex.plants?.[s.scientificName] || ex.animals?.[s.scientificName] || ex.perPark?.[slug]?.[s.scientificName]), `${at}: espécie excluída (cultivada, doméstica ou exótica): ${s.scientificName}`);
         assert(s.scientificName && Number.isInteger(s.gbifKey), `${at}: espécie sem nome científico ou chave GBIF`);
-        if (s.photo) assert(PHOTO_HOSTS.has(new URL(s.photo.src).hostname) && s.photo.author && s.photo.license && s.photo.sourceUrl, `${at}: foto de ${s.scientificName} sem atribuição`);
+        if (s.photo) assert(isAllowedPhotoUrl(s.photo.src) && s.photo.author && s.photo.license && s.photo.sourceUrl, `${at}: foto de ${s.scientificName} sem atribuição`);
       }
     }
 
