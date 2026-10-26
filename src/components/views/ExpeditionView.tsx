@@ -12,6 +12,7 @@ import type {
 import { BIOME_COLOR, BIOME_LABEL, href } from "@/lib/labels";
 import { ReadingProgress } from "./ReadingProgress";
 import { Timeline } from "./Timeline";
+import { PhotoCompare } from "./PhotoCompare";
 
 type Refs = Map<string, ExpeditionReference>;
 type Cite = { sourceId: string; locator: string }[];
@@ -136,7 +137,9 @@ export function ExpeditionView({
 
       {e.moments.map((m, i) => (
         <Moment key={m.id} moment={m} label={`${pad(i + 1)} / ${pad(total)}`} refs={refs} indexOf={at}>
-          {e.feature?.momentId === m.id && <Timeline feature={e.feature} refs={e.references} />}
+          {e.feature?.momentId === m.id && (e.feature.type === "timeline"
+            ? <Timeline feature={e.feature} refs={e.references} />
+            : <PhotoCompare feature={e.feature} refs={e.references} />)}
         </Moment>
       ))}
 
