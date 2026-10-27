@@ -5,13 +5,13 @@ Gerada por `npm run audit:photos`. Auditoria de metadados locais. Não comprova 
 - parks: 77
 - selectedSpecies: 2695
 - missingSpeciesRaw: 156
-- missingSpeciesDisplayed: 151
-- missingPlantsDisplayed: 93
+- missingSpeciesDisplayed: 150
+- missingPlantsDisplayed: 92
 - missingThreatenedRaw: 249
 - missingThreatenedDisplayed: 241
 - missingFlagshipsRaw: 12
 - missingFlagshipsDisplayed: 8
-- filledSpeciesReferences: 7
+- filledSpeciesReferences: 8
 - removedSpeciesReferences: 2
 - reusedThreatened: 8
 - recoveredFlagships: 4
@@ -36,12 +36,12 @@ Os contadores Species referem-se às abas por grupo; Threatened refere-se à aba
 | Parque Nacional da Serra do Divisor | 3 | 3 | 6 | 0 |
 | Parque Nacional da Serra dos Órgãos | 3 | 3 | 6 | 0 |
 | Parque Nacional das Araucárias | 4 | 3 | 0 | 0 |
-| Parque Nacional de Anavilhanas | 3 | 3 | 4 | 0 |
 | Parque Nacional do Cabo Orange | 4 | 3 | 2 | 0 |
 | Parque Nacional do Jaú | 6 | 3 | 2 | 0 |
 | Parque Nacional do Viruá | 3 | 3 | 1 | 0 |
 | Parque Nacional dos Campos Gerais | 4 | 3 | 1 | 0 |
 | Parque Nacional Mapinguari | 3 | 3 | 6 | 0 |
+| Parque Nacional de Anavilhanas | 2 | 2 | 4 | 0 |
 | Parque Nacional do Jamanxim | 2 | 2 | 2 | 0 |
 | Parque Nacional de Pacaás Novos | 1 | 1 | 6 | 1 |
 | Parque Nacional da Chapada da Diamantina | 1 | 1 | 7 | 0 |

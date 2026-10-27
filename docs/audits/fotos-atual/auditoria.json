@@ -3,13 +3,13 @@
     "parks": 77,
     "selectedSpecies": 2695,
     "missingSpeciesRaw": 156,
-    "missingSpeciesDisplayed": 151,
-    "missingPlantsDisplayed": 93,
+    "missingSpeciesDisplayed": 150,
+    "missingPlantsDisplayed": 92,
     "missingThreatenedRaw": 249,
     "missingThreatenedDisplayed": 241,
     "missingFlagshipsRaw": 12,
     "missingFlagshipsDisplayed": 8,
-    "filledSpeciesReferences": 7,
+    "filledSpeciesReferences": 8,
     "removedSpeciesReferences": 2,
     "reusedThreatened": 8,
     "recoveredFlagships": 4
@@ -20,7 +20,7 @@
     "licenca_com_restricoes": 29,
     "localizacao_a_revisar": 1,
     "resolucao_baixa_para_o_uso": 798,
-    "sem_foto": 483
+    "sem_foto": 482
   },
   "limitations": "Auditoria de metadados locais. Não comprova identificação visual, integridade HTTP, autoria ou localização. Reuso restrito ao nome científico idêntico na base existente; nunca transfere ocorrência ou alega que a foto foi feita no parque.",
   "perPark": [
@@ -251,8 +251,8 @@
     {
       "slug": "anavilhanas",
       "name": "Parque Nacional de Anavilhanas",
-      "missingSpecies": 3,
-      "missingPlants": 3,
+      "missingSpecies": 2,
+      "missingPlants": 2,
       "missingThreatened": 4,
       "missingFlagships": 0
     },
@@ -4345,12 +4345,6 @@
       "park": "anavilhanas",
       "location": "plantas",
       "subject": "Simaba orinocensis",
-      "issue": "sem_foto"
-    },
-    {
-      "park": "anavilhanas",
-      "location": "plantas",
-      "subject": "Cattleya violacea",
       "issue": "sem_foto"
     },
     {

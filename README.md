@@ -139,6 +139,11 @@ O filtro de fotografias é opcional e não altera os critérios do levantamento.
 Clique em uma foto de espécie para ampliá-la no próprio site, com créditos e
 contexto; Escape fecha o visualizador e devolve o foco ao botão de origem.
 
+Os acessos “Animais” e “Plantas” levam às seleções por grupo. Em “Sobre esta
+espécie”, consulte família, registros, categoria de conservação e fontes.
+Os [critérios de evidência de fauna e flora](docs/FAUNA_FLORA.md) explicam os
+limites dessas informações e das consultas ao GBIF.
+
 ## Deploy na Vercel
 
 1. Suba o projeto para um repositório Git.
