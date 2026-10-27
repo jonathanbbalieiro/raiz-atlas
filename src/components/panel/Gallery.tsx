@@ -313,7 +313,7 @@ function Chevron({ dir }: { dir: 1 | -1 }) {
 export function Credit({ photo, className = "" }: { photo: Photo; className?: string }) {
   return (
     <p
-      className={`truncate text-[11px] text-ink-soft ${className}`}
+      className={`truncate text-[length:var(--reading-caption,0.6875rem)] text-ink-soft ${className}`}
       title={`Foto: ${photo.author} · ${photo.license}`}
     >
       Foto:{" "}

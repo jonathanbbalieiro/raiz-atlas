@@ -25,13 +25,13 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
         <li key={species.scientificName} className="w-60 shrink-0 snap-start overflow-hidden rounded-2xl border border-line bg-card">
           <div className="relative">
             <SpeciesPhoto photo={species.card?.photo} name={species.name} sizes="240px" />
-            {species.card?.iucn && IUCN_TONE[species.card.iucn] && <span className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${IUCN_TONE[species.card.iucn]}`}>{IUCN_LABEL[species.card.iucn]}</span>}
+            {species.card?.iucn && IUCN_TONE[species.card.iucn] && <span className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-xs font-semibold ${IUCN_TONE[species.card.iucn]}`}>{IUCN_LABEL[species.card.iucn]}</span>}
           </div>
           <div className="p-3.5">
             <p className="font-display text-lg leading-tight font-semibold text-forest-deep">{species.name}</p>
             <p className="mt-0.5 text-xs italic text-ink-soft">{species.scientificName}</p>
-            <p className="mt-2 text-[13px] leading-relaxed text-ink">{species.why}</p>
-            {species.sources.length > 0 && <p className="mt-2 text-[10px] leading-relaxed text-ink-soft">
+            <p className="mt-2 text-sm leading-relaxed text-ink">{species.why}</p>
+            {species.sources.length > 0 && <p className="mt-2 text-xs leading-relaxed text-ink-soft">
               {species.sources.map((source, index) => <span key={source.id}>{index > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer" className="underline">{source.institution}</a></span>)}
             </p>}
             {species.card?.photo && <PhotoCredit photo={species.card.photo} />}
@@ -55,7 +55,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
 }
 
 function PhotoCredit({ photo }: { photo: NonNullable<SpeciesCard["photo"]> }) {
-  return <p className="mt-1.5 truncate text-[10px] text-ink-soft" title={`Foto: ${photo.author} · ${photo.license}`}>
+  return <p className="mt-1.5 truncate text-xs text-ink-soft" title={`Foto: ${photo.author} · ${photo.license}`}>
     <a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">{photo.author}</a>{" · "}
     <a href={photo.licenseUrl} target="_blank" rel="license noopener noreferrer" className="hover:underline">{photo.license}</a>
   </p>;

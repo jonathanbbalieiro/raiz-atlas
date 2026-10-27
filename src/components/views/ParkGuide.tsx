@@ -26,12 +26,12 @@ const EMPTY_BIO: Biodiversity = {
 };
 
 const Kicker = ({ children }: { children: React.ReactNode }) => (
-  <p className="text-[11px] font-semibold tracking-[0.14em] text-earth uppercase">{children}</p>
+  <p className="text-xs font-semibold tracking-[0.14em] text-earth uppercase">{children}</p>
 );
 const H2 = ({ id, children }: { id: string; children: React.ReactNode }) => (
   <h2
     id={id}
-    className="mt-1 font-display text-[22px] leading-tight font-semibold text-balance text-forest-deep"
+    className="mt-1 font-display text-2xl leading-tight font-semibold text-balance text-forest-deep"
   >
     {children}
   </h2>
@@ -41,7 +41,7 @@ function Cite({ ids, sources }: { ids: string[]; sources: Map<string, GuideSourc
   const list = ids.flatMap((id) => sources.get(id) ?? []);
   if (!list.length) return null;
   return (
-    <span className="ml-1 text-[11px] whitespace-nowrap text-ink-soft">
+    <span className="ml-1 text-xs text-ink-soft">
       {list.map((s, i) => (
         <a
           key={s.id}
@@ -63,10 +63,10 @@ function Cite({ ids, sources }: { ids: string[]; sources: Map<string, GuideSourc
 export function GuideOpening({ guide, sources }: { guide: Guide; sources: Map<string, GuideSource> }) {
   return (
     <div className="px-5 pt-5">
-      <p className="font-display text-[21px] leading-snug font-medium text-balance text-forest-deep italic">
+      <p className="font-display text-2xl leading-snug font-medium text-balance text-forest-deep italic">
         {guide.hook}
       </p>
-      <p className="mt-3 text-[15px] leading-relaxed text-ink">
+      <p className="mt-3 text-base leading-relaxed text-ink">
         {guide.intro}
         <Cite ids={guide.sourceIds} sources={sources} />
       </p>
@@ -212,8 +212,8 @@ export function GuideBody({
                 <p className="font-display text-3xl leading-none font-semibold opacity-60">
                   {String(i + 1).padStart(2, "0")}
                 </p>
-                <p className="mt-2 text-[15px] leading-relaxed">{c.text}</p>
-                <p className="mt-2 text-[11px] opacity-75">
+                <p className="mt-2 text-base leading-relaxed">{c.text}</p>
+                <p className="mt-2 text-xs opacity-75">
                   {c.sourceIds
                     .flatMap((id) => sources.get(id) ?? [])
                     .map((s, k) => (

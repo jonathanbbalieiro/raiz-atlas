@@ -103,7 +103,7 @@ export function BiodiversityView({ park }: { park: Park }) {
     <a key={source.id} href={source.url} target="_blank" rel="noopener noreferrer" className="mr-3 underline underline-offset-2">{source.institution}: {source.title}</a>
   ));
 
-  return <article ref={rootRef} className="p-5 md:p-7">
+  return <article ref={rootRef} className="park-reading p-5 md:p-7">
     {!reading ? <>
       <Link href={href(park.path)} scroll={false} className="inline-flex min-h-11 items-center text-sm font-semibold text-forest">← Voltar ao parque</Link>
       <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-earth">Fauna e flora</p>
