@@ -101,7 +101,7 @@ export function ParkQuiz({ bio, parkName }: { bio: Biodiversity; parkName: strin
             <div className="h-full bg-[#e0b57a] transition-all" style={{ width: `${(step / questions.length) * 100}%` }} />
           </div>
           <div className="mt-3 aspect-[4/3] overflow-hidden rounded-xl bg-forest">
-            <SpeciesPhoto photo={q.answer.photo} name="Espécie a identificar" sizes="(min-width: 768px) 380px, 90vw" />
+            <SpeciesPhoto zoomable={false} photo={q.answer.photo} name="Espécie a identificar" sizes="(min-width: 768px) 380px, 90vw" />
           </div>
           <div role="group" aria-label="Alternativas" className="mt-3 grid gap-2">
             {q.options.map((o) => {

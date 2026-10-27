@@ -259,6 +259,8 @@ function Lightbox({
         )}
       </div>
       <div className="px-4 pt-2 pb-[calc(env(safe-area-inset-bottom)+14px)] text-center">
+        <p className="text-sm text-white">{p.alt}</p>
+        {p.context && <p className="mx-auto mt-1 max-h-24 max-w-3xl overflow-y-auto text-xs leading-relaxed text-white/75">{p.context}</p>}
         <Credit photo={p} className="text-white/75 [&_a]:decoration-white/40 [&_a:hover]:text-white" />
         {n > 1 && (
           <p className="mt-1 text-[11px] text-white/50 md:hidden">Deslize para o lado para ver as outras</p>
@@ -317,7 +319,8 @@ export function Credit({ photo, className = "" }: { photo: Photo; className?: st
       Foto:{" "}
       <a
         href={photo.sourceUrl}
-        rel="noopener"
+        target="_blank"
+        rel="noopener noreferrer"
         className="underline decoration-line underline-offset-2 hover:text-forest"
       >
         {photo.author}
@@ -325,7 +328,8 @@ export function Credit({ photo, className = "" }: { photo: Photo; className?: st
       ·{" "}
       <a
         href={photo.licenseUrl}
-        rel="license noopener"
+        target="_blank"
+        rel="license noopener noreferrer"
         className="underline decoration-line underline-offset-2 hover:text-forest"
       >
         {photo.license}

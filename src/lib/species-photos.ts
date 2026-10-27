@@ -1,5 +1,6 @@
 import type { Biodiversity, ParkGuide, Photo, SpeciesCard } from "./data/types";
 import { photoIsPubliclyReusable } from "./photos";
+import { mergeSpecies } from "./species-search";
 
 const taxonKey = (name: string) => name.trim().toLowerCase().replace(/\s+/g, " ");
 type SpeciesDataset = { biodiversity?: Biodiversity; guide?: ParkGuide };
@@ -29,7 +30,7 @@ export function applySpeciesPhotoReview<T extends SpeciesDataset>(park: T, revie
 }
 
 export function resolveFlagshipCard(flagship: ParkGuide["flagships"][number], bio?: Biodiversity): SpeciesCard | null {
-  const matches = [...(bio?.threatened ?? []), ...(bio?.groups.flatMap((g) => g.species) ?? [])]
+  const matches = mergeSpecies([...(bio?.groups.flatMap((g) => g.species) ?? []), ...(bio?.threatened ?? [])])
     .filter((species) => taxonKey(species.scientificName) === taxonKey(flagship.scientificName));
   const card = matches.find((species) => species.photo) ?? matches[0];
   if (card) return flagship.photo ? { ...card, photo: flagship.photo } : card;

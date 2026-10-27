@@ -79,6 +79,15 @@ test("curadoria do destaque prevalece sem perder os dados de ocorrência", () =>
   assert.equal(resolveFlagshipCard({ ...flagship, photo: undefined }, bio("Pteronura brasiliensis"))?.photo, null);
 });
 
+test("destaque mantém a categoria de ameaça mesmo quando a foto vem de outro grupo", () => {
+  const data = bio("Pteronura brasiliensis", photo);
+  data.threatened = [{ ...data.groups[0].species[0], iucn: "EN", photo: null, records: null }];
+  const card = resolveFlagshipCard({ scientificName: "Pteronura brasiliensis", name: "Ariranha", why: "Relação documentada", sourceIds: ["plano"] }, data);
+  assert.equal(card?.iucn, "EN");
+  assert.equal(card?.photo?.src, photo.src);
+  assert.equal(card?.records, 5);
+});
+
 test("capa explicitamente curada tem prioridade e galeria é deduplicada", () => {
   const chosen = { ...photo, sourceUrl: "https://commons.wikimedia.org/wiki/File:Parque_Nacional_Guaricana_-_Luiz_Alves_(02).jpg" };
   const result = rankParkPhotos("guaricana", [photo, chosen, chosen]);

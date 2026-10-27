@@ -4,6 +4,7 @@ import { useId, useState } from "react";
 import { Carousel } from "@/components/panel/Carousel";
 import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 import type { Biodiversity, IucnCategory, SpeciesCard } from "@/lib/data/types";
+import { filterSpecies, mergeSpecies } from "@/lib/species-search";
 
 export const IUCN_LABEL: Partial<Record<IucnCategory, string>> = {
   CR: "Criticamente em perigo",
@@ -39,14 +40,18 @@ type Flagship = { scientificName: string; name: string; why: string; card: Speci
  */
 export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagships: Flagship[] }) {
   const tabId = useId();
+  const [query, setQuery] = useState("");
+  const [photosOnly, setPhotosOnly] = useState(false);
+  const everyone = mergeSpecies([...bio.groups.flatMap((g) => g.species), ...bio.threatened]);
   const tabs = [
+    { id: "todas", label: "Todas", species: everyone },
     ...(bio.threatened.length ? [{ id: "ameacadas", label: "Ameaçadas", species: bio.threatened }] : []),
     ...bio.groups.map((g) => ({ id: g.id, label: g.label, species: g.species })),
   ];
   const [active, setActive] = useState(tabs.find((t) => t.id === "mamiferos")?.id ?? tabs[0]?.id);
   const current = tabs.find((t) => t.id === active) ?? tabs[0];
   const [cat, setCat] = useState<IucnCategory | null>(null);
-  const everyone = [...new Map([...bio.groups.flatMap((g) => g.species), ...bio.threatened].map((x) => [x.gbifKey, x])).values()];
+  const visible = filterSpecies(current?.species ?? [], query, photosOnly);
   const counts = GAUGE.map((g) => ({ ...g, n: everyone.filter((x) => x.iucn === g.cat).length }));
   const showGauge = counts.some((c) => c.cat !== "LC" && c.n > 0);
   const filtered = cat ? everyone.filter((x) => x.iucn === cat) : null;
@@ -101,6 +106,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
                   key={c.cat}
                   type="button"
                   aria-pressed={cat === c.cat}
+                  aria-label={`${c.label}: ${c.n} espécies`}
                   title={`${c.label}: ${c.n}`}
                   onClick={() => setCat(cat === c.cat ? null : c.cat)}
                   style={{ flexGrow: c.n, background: c.color, opacity: cat && cat !== c.cat ? 0.35 : 1 }}
@@ -142,6 +148,19 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
 
       {tabs.length > 0 && current && (
         <>
+          <div className="mt-5 rounded-xl border border-line bg-card p-3">
+            <label htmlFor={`${tabId}-search`} className="block text-sm font-semibold text-forest-deep">Buscar espécie neste parque</label>
+            <input id={`${tabId}-search`} type="search" value={query}
+              onChange={(event) => { setQuery(event.target.value); setActive("todas"); }}
+              placeholder="Nome popular, científico ou família"
+              className="mt-2 min-h-11 w-full rounded-lg border border-line bg-paper px-3 text-sm text-ink" />
+            <label className="mt-3 flex min-h-9 cursor-pointer items-center gap-2 text-sm text-ink-soft">
+              <input type="checkbox" checked={photosOnly} onChange={(event) => setPhotosOnly(event.target.checked)} className="h-4 w-4 accent-forest" />
+              Somente com fotografia cadastrada
+            </label>
+            {(query || photosOnly) && <button type="button" onClick={() => { setQuery(""); setPhotosOnly(false); }}
+              className="mt-1 min-h-9 text-sm font-semibold text-forest underline underline-offset-2">Limpar filtros de espécies</button>}
+          </div>
           <Carousel as="div" role="tablist" label="Grupos de espécies" className="-mx-5 mt-5 gap-1.5 px-5">
             {tabs.map((t) => (
               <button
@@ -174,10 +193,14 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
               </button>
             ))}
           </Carousel>
+          <p role="status" className="mt-3 text-xs text-ink-soft">{visible.length} {visible.length === 1 ? "espécie nesta seleção" : "espécies nesta seleção"}</p>
           <ul role="tabpanel" id={`${tabId}-panel`} aria-labelledby={`${tabId}-${current.id}`} className="mt-3 grid grid-cols-2 gap-2.5">
-            {current.species.map((s) => (
+            {visible.map((s) => (
               <SpeciesTile key={s.gbifKey} s={s} />
             ))}
+            {!visible.length && <li className="col-span-2 rounded-xl border border-dashed border-line p-5 text-center text-sm text-ink-soft">
+              Nenhuma espécie desta seleção corresponde aos filtros. Tente outro nome ou limpe os filtros.
+            </li>}
           </ul>
         </>
       )}

@@ -132,6 +132,13 @@ npm run check:publication
 Veja os [critérios de fotos e espécies](docs/CURADORIA_FOTOGRAFICA.md) e a
 [fila fotográfica por parque](docs/audits/fotos-atual/LEIA-ME.md).
 
+A busca aceita nome, UF e bioma combinados, como `Chapada GO` ou `Cerrado`.
+Em “Quem vive aqui”, pesquise pelo nome popular, científico ou família; a aba
+“Todas” reúne a seleção dos grupos e das ameaçadas sem duplicar espécies.
+O filtro de fotografias é opcional e não altera os critérios do levantamento.
+Clique em uma foto de espécie para ampliá-la no próprio site, com créditos e
+contexto; Escape fecha o visualizador e devolve o foco ao botão de origem.
+
 ## Deploy na Vercel
 
 1. Suba o projeto para um repositório Git.

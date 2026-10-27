@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useExplore } from "@/components/map/focus";
 import { BIOME_COLOR, BIOME_LABEL, formatArea, href, normalize, plural } from "@/lib/labels";
+import { searchMatchScore } from "@/lib/search";
 
 interface Result {
   key: string;
@@ -52,7 +53,10 @@ export function SearchBox() {
     };
     // Fecha ao clicar fora da barra.
     const onDown = (e: PointerEvent) => {
-      if (!rootRef.current?.contains(e.target as Node)) setOpen(false);
+      if (!rootRef.current?.contains(e.target as Node)) {
+        setOpen(false);
+        setHighlight(null);
+      }
     };
     window.addEventListener("keydown", onKey);
     window.addEventListener("pointerdown", onDown);
@@ -60,7 +64,7 @@ export function SearchBox() {
       window.removeEventListener("keydown", onKey);
       window.removeEventListener("pointerdown", onDown);
     };
-  }, []);
+  }, [setHighlight]);
 
   const all = useMemo<Result[]>(
     () => [
@@ -72,7 +76,7 @@ export function SearchBox() {
         title: p.shortName,
         subtitle: `${BIOME_LABEL[p.biome]} · ${p.ufs.join(", ")} · ${formatArea(p.areaHa, { short: true })}`,
         color: BIOME_COLOR[p.biome],
-        haystack: [normalize(p.shortName), normalize(p.name)],
+        haystack: [p.shortName, p.name, BIOME_LABEL[p.biome], ...p.ufs],
       })),
       ...index.admin1.map((a) => ({
         key: `a:${a.slug}`,
@@ -92,23 +96,8 @@ export function SearchBox() {
   const results = useMemo(() => {
     const q = normalize(query.trim());
     if (!q) return SUGGESTED.map((s) => all.find((r) => r.key === `p:${s}`)).filter((r) => r !== undefined);
-    // Começo de palavra vale mais que meio de palavra; siglas (UF) só por igualdade.
-    const score = (r: Result) => {
-      let best = Infinity;
-      for (const h of r.haystack) {
-        if (h.length <= 2) {
-          if (h === q) best = 0;
-          continue;
-        }
-        const i = h.indexOf(q);
-        if (i < 0) continue;
-        const wordStart = i === 0 || h[i - 1] === " ";
-        best = Math.min(best, wordStart ? i / 100 : 1 + i);
-      }
-      return best;
-    };
     const ranked = all
-      .map((r) => ({ r, s: score(r) }))
+      .map((r) => ({ r, s: searchMatchScore(r.haystack, q) }))
       .filter((x) => x.s < Infinity)
       .sort((a, b) => a.s - b.s || a.r.title.localeCompare(b.r.title, "pt"));
     const states = ranked.filter((x) => x.r.kind === "admin1").slice(0, 4);
@@ -129,6 +118,7 @@ export function SearchBox() {
     setActive(i);
     const r = results[i];
     setHighlight(r ? { kind: r.kind, slug: r.slug } : null);
+    document.getElementById(`${listId}-${i}`)?.scrollIntoView({ block: "nearest" });
   };
 
   const showList = open;
@@ -138,32 +128,35 @@ export function SearchBox() {
     <div ref={rootRef} className="min-w-0 flex-1">
       <label className="flex h-11 min-w-0 items-center gap-2 rounded-xl px-2.5 text-ink-soft focus-within:bg-paper-deep/70 hover:bg-paper-deep/50">
         <SearchIcon />
-        <span className="sr-only">Buscar parque ou estado</span>
+        <span className="sr-only">Buscar parque, estado ou bioma</span>
         <input
           ref={inputRef}
           value={query}
           onChange={(e) => {
             setQuery(e.target.value);
             setOpen(true);
-            move(0);
+            setActive(0);
+            setHighlight(null);
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => { setOpen(true); setActive(0); }}
           onKeyDown={(e) => {
             if (e.key === "Escape") {
+              e.preventDefault();
+              e.stopPropagation();
               setOpen(false);
               setHighlight(null);
               inputRef.current?.blur();
             } else if (e.key === "ArrowDown") {
               e.preventDefault();
               setOpen(true);
-              move(Math.min(active + 1, results.length - 1));
+              move(open ? Math.max(0, Math.min(active + 1, results.length - 1)) : 0);
             } else if (e.key === "ArrowUp") {
               e.preventDefault();
               move(Math.max(active - 1, 0));
             } else if (e.key === "Enter" && results[active]) {
               e.preventDefault();
               choose(results[active]);
-            } else if (e.key === "Tab") setOpen(false);
+            } else if (e.key === "Tab") { setOpen(false); setHighlight(null); }
           }}
           type="search"
           role="combobox"
@@ -171,7 +164,7 @@ export function SearchBox() {
           aria-controls={listId}
           aria-autocomplete="list"
           aria-activedescendant={showList && results[active] ? `${listId}-${active}` : undefined}
-          placeholder="Buscar parque ou estado"
+          placeholder="Parque, estado ou bioma"
           autoComplete="off"
           spellCheck={false}
           className="h-full min-w-0 flex-1 bg-transparent text-[15px] text-ink outline-none placeholder:text-ink-soft [&::-webkit-search-cancel-button]:hidden"
@@ -181,6 +174,8 @@ export function SearchBox() {
             type="button"
             onClick={() => {
               setQuery("");
+              setActive(0);
+              setHighlight(null);
               inputRef.current?.focus();
             }}
             aria-label="Limpar busca"
@@ -260,7 +255,7 @@ export function SearchBox() {
             {q && !results.length && (
               <li role="presentation" className="px-3 py-6 text-center text-sm text-ink-soft">
                 Nenhum parque ou estado encontrado para “{q}”.
-                <span className="mt-1 block text-xs">Tente parte do nome, como “Chapada” ou “Serra”.</span>
+                <span className="mt-1 block text-xs">Tente “Chapada”, “Cerrado” ou combine nome e UF, como “Chapada GO”.</span>
               </li>
             )}
           </ul>
