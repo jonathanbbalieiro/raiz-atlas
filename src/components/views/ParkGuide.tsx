@@ -162,51 +162,23 @@ export function GuideBody({
         <section aria-labelledby="quem-vive" className="px-5 pt-8">
           <Kicker>Quem vive aqui</Kicker>
           <H2 id="quem-vive">Fauna e flora do parque</H2>
-          <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
-            Os destaques editoriais explicam a relação de cada espécie com este território e indicam suas fontes.
-            Nas abas, o levantamento de ocorrências complementa essa seleção; registros não medem abundância ou facilidade de avistamento.
-          </p>
-          {bio && selectedSpecies.length > 0 && <p className="mt-3 text-sm leading-relaxed text-ink">
-            O levantamento apresentado reúne {selectedSpecies.length} espécies em {bio.groups.length} grupos.
-            {threatenedCount > 0 && <> Destas, {threatenedCount} têm classificação global de ameaça (vulnerável, em perigo ou criticamente em perigo) na base consultada.</>}
-            {" "}Essa contagem descreve apenas a seleção abaixo, não o total de espécies de {parkName}.
-            {bio.sources[0] && <> <a href={bio.sources[0].url} target="_blank" rel="noopener noreferrer" className="underline decoration-line underline-offset-2">Consultar levantamento e ocorrências</a>.</>}
-          </p>}
-          <details className="mt-3 rounded-xl border border-line bg-card p-3 text-sm text-ink-soft">
-            <summary className="cursor-pointer font-semibold text-forest-deep">Por que estas espécies?</summary>
-            <p className="mt-2 leading-relaxed">Os destaques vêm do guia editorial: sua justificativa e a fonte devem explicar o vínculo com o parque. Uma espécie pode representar mais de um parque; ela não precisa ser exclusiva para ser importante à conservação daquele território. Destaque editorial não significa símbolo oficial.</p>
-            <p className="mt-2 leading-relaxed">{bio?.selectionPolicy === "records-first"
-              ? "As abas priorizam o número de registros por grupo, independentemente de haver fotografia."
-              : "Este levantamento histórico selecionou candidatos por grupo, priorizando fotos e nomes populares e, dentro dessas faixas, o número de registros."}
-              {" "}A aba de ameaçadas usa a categoria de conservação. A cobertura varia entre grupos e regiões e não é um inventário completo. A ausência de uma espécie nesta lista não prova sua ausência no parque.</p>
-            <p className="mt-2 leading-relaxed">Uma fotografia ilustra a espécie identificada e pode ter sido feita em outro lugar. O registro de ocorrência e a fonte editorial, e não a foto, sustentam a ligação com o parque.</p>
-          </details>
-          {exploreHref && <Link href={exploreHref} scroll={false}
-            className="mt-5 flex min-h-12 items-center justify-between gap-3 rounded-xl border border-forest/30 bg-card px-4 py-3 text-sm font-semibold text-forest hover:bg-moss/15">
-            Explorar fauna e flora em detalhes <span aria-hidden="true">↗</span>
-          </Link>}
+          <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">Conheça algumas das espécies ligadas a este território.</p>
+          {bio && selectedSpecies.length > 0 && <p className="mt-2 text-xs text-ink-soft">{selectedSpecies.length} espécies na seleção · {bio.groups.length} grupos</p>}
           <SpeciesExplorer bio={bio ?? EMPTY_BIO} flagships={flagships} />
-          {bio?.boundary.includes("envoltória") && <p className="mt-3 rounded-xl border border-line p-3 text-xs leading-relaxed text-ink-soft">
-            Este levantamento usou uma envoltória aproximada do parque, que pode incluir áreas do entorno. Consulte as fontes de ocorrência antes de afirmar presença dentro do limite oficial.
-          </p>}
-          {bio && (
-            <p className="mt-3 text-[11px] leading-relaxed text-ink-soft">
-              Levantamento automático ({bio.boundary}): {bio.method} Fontes:{" "}
-              {bio.sources.map((s, i) => (
-                <span key={s.url}>
-                  {i > 0 && " · "}
-                  <a
-                    href={s.url}
-                    rel="noopener"
-                    className="underline decoration-line underline-offset-2 hover:text-forest"
-                  >
-                    {s.title}
-                  </a>
-                </span>
-              ))}
-              .
-            </p>
-          )}
+          {exploreHref && <Link href={exploreHref} scroll={false}
+            className="mt-4 flex min-h-12 items-center justify-between gap-3 rounded-xl border border-forest/30 bg-card px-4 py-3 text-sm font-semibold text-forest hover:bg-moss/15">
+            Explorar fauna e flora em detalhes <span aria-hidden="true">→</span>
+          </Link>}
+          <details className="mt-3 border-t border-line pt-3 text-xs leading-relaxed text-ink-soft">
+            <summary className="cursor-pointer py-1 font-semibold">Sobre a seleção e as fontes</summary>
+            {bio && selectedSpecies.length > 0 && <p className="mt-3">{selectedSpecies.length} espécies na seleção consultada{threatenedCount > 0 && <>, das quais {threatenedCount} têm classificação global de ameaça na base</>}. Não é um inventário completo de {parkName}; registros não medem abundância ou chance de avistamento.</p>}
+            <p className="mt-2">Os destaques têm justificativa editorial e fontes próprias. Não indicam exclusividade ou símbolo oficial. As fotos podem ter sido feitas fora do parque.</p>
+            {bio && <>
+              <p className="mt-2">{bio.selectionPolicy === "records-first" ? "O levantamento prioriza registros por grupo, independentemente de fotografia." : "A seleção histórica priorizou disponibilidade de fotos e nomes populares antes da contagem de registros."}</p>
+              <p className="mt-2">Área consultada: {bio.boundary}.{bio.boundary.includes("envoltória") && " A aproximação pode incluir áreas do entorno."} {bio.method}</p>
+              <ul className="mt-2 space-y-1">{bio.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">{source.title}</a></li>)}</ul>
+            </>}
+          </details>
         </section>
       )}
 

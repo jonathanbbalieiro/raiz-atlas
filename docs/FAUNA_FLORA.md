@@ -1,8 +1,11 @@
 # Fauna e flora: exploração e evidência
 
 As fichas dos parques mantêm uma apresentação compacta, com um link para
-`/biodiversidade`. Essa página usa um painel amplo e oferece lista pesquisável
-de espécies, filtros de animais/plantas/ameaçadas e uma ficha detalhada.
+`/biodiversidade`. Essa página oferece uma grade visual por categorias, busca opcional e fichas
+de leitura. Não há lista lateral com rolagem própria: a rolagem é a do painel.
+Voltar da ficha preserva categoria, consulta e posição da grade; voltar ao
+parque preserva a posição da leitura. Os destaques editoriais aparecem primeiro,
+sem favorecer automaticamente fotos ou contagens.
 As contagens exibidas não estimam o total de espécies protegidas, de indivíduos
 ou de espécies exclusivas do parque.
 
@@ -23,8 +26,7 @@ não como prova de ocorrência local. A consulta ao GBIF pode mudar com atualiza
 da base; o levantamento e sua aproximação geográfica continuam explicitados.
 
 As categorias da lista de ameaçadas complementam os registros dos grupos,
-preservando fotos e contagens. Essa mesma união agora é usada nas abas de
-animais, plantas e demais grupos. Espécies de ameaça sem grupo conhecido não são
+preservando fotos e contagens. Essa mesma união é usada nas categorias do explorador ampliado. Espécies de ameaça sem grupo conhecido não são
 classificadas automaticamente como animais ou plantas; continuam em Todas e
 Ameaçadas. Eventuais grupos futuros, como fungos, não são contados como animais.
 

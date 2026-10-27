@@ -133,15 +133,15 @@ Veja os [critérios de fotos e espécies](docs/CURADORIA_FOTOGRAFICA.md) e a
 [fila fotográfica por parque](docs/audits/fotos-atual/LEIA-ME.md).
 
 A busca aceita nome, UF e bioma combinados, como `Chapada GO` ou `Cerrado`.
-Em “Quem vive aqui”, pesquise pelo nome popular, científico ou família; a aba
-“Todas” reúne a seleção dos grupos e das ameaçadas sem duplicar espécies.
-O filtro de fotografias é opcional e não altera os critérios do levantamento.
-Clique em uma foto de espécie para ampliá-la no próprio site, com créditos e
-contexto; Escape fecha o visualizador e devolve o foco ao botão de origem.
+Em “Quem vive aqui”, uma prévia editorial apresenta até quatro espécies e um
+link para a exploração completa. A pesquisa de espécies fica somente no
+explorador ampliado, como ferramenta opcional.
 
-O link “Explorar fauna e flora em detalhes” abre uma página ampla, com lista
-de espécies, foto maior, relação com o parque, conservação, fontes e contexto
-histórico. A ficha lateral mantém a apresentação compacta e pode ser ampliada.
+O explorador abre em uma grade visual de destaques, animais, plantas ou
+ameaçadas. Selecionar uma espécie abre sua ficha no mesmo espaço; voltar
+preserva categoria, busca e posição de leitura. As fotos têm altura limitada,
+e os dados técnicos e o método ficam em segundo nível de leitura.
+A ficha lateral do parque mantém a apresentação compacta e pode ser ampliada.
 Os [critérios de evidência de fauna e flora](docs/FAUNA_FLORA.md) explicam os
 limites dessas informações e das consultas ao GBIF.
 

@@ -7,11 +7,12 @@ import type { Photo } from "@/lib/data/types";
 import { GalleryProvider, PhotoOpen } from "./Gallery";
 
 /** Retratos científicos preservam o espécime inteiro, inclusive panoramas e folhas. */
-export function SpeciesPhoto({ photo, name, zoomable = true, sizes = "(min-width: 768px) 220px, 45vw" }: {
+export function SpeciesPhoto({ photo, name, zoomable = true, frame = "card", sizes = "(min-width: 768px) 220px, 45vw" }: {
   photo?: Photo | null;
   name: string;
   sizes?: string;
   zoomable?: boolean;
+  frame?: "card" | "detail";
 }) {
   const [failedSrc, setFailedSrc] = useState<string | null>(null);
   const available = photo && failedSrc !== photo.src;
@@ -19,7 +20,7 @@ export function SpeciesPhoto({ photo, name, zoomable = true, sizes = "(min-width
     unoptimized={!supportsImageResizing(photo.src)} className="object-contain p-1"
     onError={() => setFailedSrc(photo.src)} />;
   return (
-    <div className="relative flex aspect-[4/3] w-full items-center justify-center overflow-hidden bg-paper-deep">
+    <div className={`relative flex w-full items-center justify-center overflow-hidden bg-paper-deep ${frame === "detail" ? "h-[min(34dvh,320px)] min-h-44" : "aspect-[4/3]"}`}>
       {available ? (
         <div className="absolute inset-0">
           {zoomable ? <GalleryProvider photos={[photo]}>

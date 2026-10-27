@@ -56,6 +56,7 @@ export function ExploreShell({ index, children }: { index: MapIndex; children: R
 function Shell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
   const panelRef = useRef<HTMLElement>(null);
+  const readingPositions = useRef(new Map<string, number>());
   const [snap, setSnap] = useState<Snap>(() => snapFor(pathname));
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   const [expanded, setExpanded] = useState(false);
@@ -72,7 +73,7 @@ function Shell({ children }: { children: ReactNode }) {
   }
 
   useEffect(() => {
-    panelRef.current?.scrollTo({ top: 0, behavior: "instant" });
+    panelRef.current?.scrollTo({ top: readingPositions.current.get(pathname) ?? 0, behavior: "instant" });
   }, [pathname]);
 
   const live = useRef({ snap, panelOpen });
@@ -123,6 +124,7 @@ function Shell({ children }: { children: ReactNode }) {
   return (
     <div
       className="shell fixed inset-0 overflow-hidden"
+      onClickCapture={() => readingPositions.current.set(pathname, panelRef.current?.scrollTop ?? 0)}
       data-panel={panelOpen ? "open" : "closed"}
       data-reading={isReading(pathname) ? "" : undefined}
       data-park={pathname.split("/").filter(Boolean).length >= 3 ? "" : undefined}
