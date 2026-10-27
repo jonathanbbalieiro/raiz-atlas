@@ -83,6 +83,15 @@
           "context": "Fotografada em junho de 2025; a coordenada registrada pela câmera fica dentro do parque. A descrição da obra não identifica o sítio arqueológico."
         }
       ]
+    },
+    "lencois-maranhenses": {
+      "cover": "https://commons.wikimedia.org/wiki/File:Len%C3%A7%C3%B3is_Maranhenses_2018_(cropped).jpg"
+    },
+    "ubajara": {
+      "cover": "https://commons.wikimedia.org/wiki/File:PARNA_de_Ubajara_-_VanessaRPF(006).jpg"
+    },
+    "restinga-de-jurubatiba": {
+      "cover": "https://commons.wikimedia.org/wiki/File:Parque_Nacional_da_Restinga_de_Jurubatiba_18.jpg"
     }
   },
   "rejected": [
@@ -95,6 +104,16 @@
       "park": "cavernas-do-peruacu",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crian%C3%A7a_ind%C3%ADgena_Xakriab%C3%A1_no_interior_da_caverna_Janel%C3%A3o.jpg",
       "reason": "Retrato de criança indígena: as regras do projeto não usam retratos de indígenas nem de crianças. É a imagem do parque no Wikidata, fonte do npm run media, e por isso fica bloqueada preventivamente."
+    },
+    {
+      "park": "descobrimento",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Costa_do_Descobrimento.JPG",
+      "reason": "A descrição da obra indica Cumuruxatiba, no litoral; o parque fica no interior, a oeste, e não inclui a costa."
+    },
+    {
+      "park": "descobrimento",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_do_descobrimento,_Rio_Cara%C3%ADva_(BA).jpg",
+      "reason": "Mostra o rio Caraíva, que fica fora do limite do parque (vila de Caraíva, a nordeste)."
     }
   ]
 }
