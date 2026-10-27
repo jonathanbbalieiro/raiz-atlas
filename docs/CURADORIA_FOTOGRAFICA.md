@@ -112,3 +112,49 @@ encontrou `403 CONNECT` nessas fontes e não conseguiu buscar ou validar fotos n
 Nunca trate uma categoria do Commons como prova suficiente para aprovar em massa.
 As ferramentas antigas têm heurísticas automáticas: seu resultado exige revisão.
 Mantenha novos textos factuais em rascunho com fontes primárias até revisão editorial.
+
+## Buscador de candidatas e armadilhas de prova de lugar
+
+`scripts/find-photo-candidates.mjs` reúne candidatas para maravilhas sem foto e para
+capas/galerias pequenas, e gera folhas de contato (HTML) para revisão visual. Não grava
+nada nos dados.
+
+```bash
+NODE_USE_ENV_PROXY=1 node --env-file=.env.local scripts/find-photo-candidates.mjs --wonders [parque...] --out <pasta>
+NODE_USE_ENV_PROXY=1 node --env-file=.env.local scripts/find-photo-candidates.mjs --covers  [parque...] --out <pasta>
+```
+
+Fontes: Commons (busca pelo nome do atrativo, fotos com coordenada dentro do polígono),
+Wikidata (itens com coordenada no parque e foto P18 ou categoria P373, por SPARQL) e
+Flickr (texto e GPS na área do parque). O Flickr exige `FLICKR_API_KEY` em `.env.local`,
+arquivo ignorado pelo git; a chave nunca vai para o site. Respostas ficam em cache em
+`.geo-cache/photo-finder`; respostas de erro ("ocupado", `maxlag`) nunca entram no cache.
+
+Armadilhas encontradas em 27/10/2026, todas já tratadas no buscador ou na curadoria:
+
+- **Fotos da Estação Espacial** ("ISS0xx-E-…", "View of Earth"): a coordenada é o ponto
+  sob a estação, não o assunto. Não provam lugar.
+- **Coordenada genérica do Wiki Loves Earth**: o concurso atribui a mesma coordenada a
+  todas as fotos de uma área protegida. Uma "Gruta do Lago Azul" (Bonito, fora do parque)
+  aparecia dentro da Serra da Bodoquena. Coordenada idêntica em dois ou mais arquivos não
+  conta como prova.
+- **Unidade com nome parecido**: Floresta Nacional do Jamanxim × Parque Nacional do
+  Jamanxim; Floresta Nacional do Tapajós em fotos de "Amazônia"; Reserva Extrativista Rio
+  Pacaás Novos. Leia a descrição, não só o nome do arquivo.
+- **Categoria do Commons errada**: a do Pau-Brasil continha uma RPPN em Camacan; a do
+  Nascentes do Rio Parnaíba, fotos da Chapada das Mesas. Categoria é pista, não prova.
+- **Visto de fora**: "Lar doce mar" mostra as serras do Guaricana a partir da baía de
+  Guaratuba. Pode ficar na galeria com legenda que diga isso, nunca como "paisagem do parque".
+
+O Openverse (índice de imagens abertas) não respondeu da rede usada em 27/10.
+
+## Capas e galerias: camada de curadoria
+
+`data/br/park-media.generated.json` é reescrito por `npm run media`. Correções de capa e
+galeria ficam em `data/br/park-photo-curation.json`, aplicado pelo repositório e pela
+auditoria: `photos` acrescenta fotos (com `context` obrigatório), `cover` escolhe a foto
+de abertura e `rejected` retira, com justificativa, fotos erradas do arquivo gerado. O
+validador confere hosts, crédito, contexto, ausência de ND e se a capa existe na galeria.
+
+Fotos do Flickr (`live.staticflickr.com`) são aceitas pelo site; o carregador troca entre
+os tamanhos z/c/b (mesmo segredo no endereço). Os tamanhos h e k são usados como estão.

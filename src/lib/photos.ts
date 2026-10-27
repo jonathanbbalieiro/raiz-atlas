@@ -60,10 +60,40 @@ const COVER_BY_PARK: Record<string, string> = {
   "virua": "Parque_Nacional_do_Viru%C3%A1,_Roraima_(2).jpg",
 };
 
-export function rankParkPhotos<T extends Photo>(parkSlug: string, photos: T[]): T[] {
+/**
+ * Curadoria de capas e galerias (data/<país>/park-photo-curation.json). Fica fora
+ * do arquivo gerado por `npm run media`, que é reescrito a cada execução.
+ */
+export interface ParkPhotoCuration {
+  reviewedAt: string;
+  parks: Record<string, {
+    /** sourceUrl da foto que abre o parque (curada ou já existente na galeria). */
+    cover?: string;
+    /** Fotos acrescentadas à galeria, cada uma com contexto do lugar. */
+    photos?: (Photo & { context: string })[];
+  }>;
+  /** Fotos da galeria gerada retiradas por erro de lugar ou identificação. */
+  rejected: { park: string; sourceUrl: string; reason: string }[];
+}
+
+export function applyParkPhotoCuration<T extends Photo>(parkSlug: string, generated: T[], curation?: ParkPhotoCuration): Photo[] {
+  if (!curation) return rankParkPhotos(parkSlug, generated);
+  const entry = curation.parks[parkSlug];
+  const rejected = new Set(curation.rejected.filter((r) => r.park === parkSlug).map((r) => r.sourceUrl));
+  // A versão curada de uma foto já existente substitui a gerada (legenda corrigida, por exemplo);
+  // fotos novas entram depois das existentes. A capa só muda com `cover` explícito.
+  const curated = new Map((entry?.photos ?? []).map((p) => [p.sourceUrl, p]));
+  const photos = dedupePhotos<Photo>([
+    ...generated.map((p) => curated.get(p.sourceUrl) ?? p),
+    ...(entry?.photos ?? []),
+  ]).filter((p) => !rejected.has(p.sourceUrl));
+  return rankParkPhotos(parkSlug, photos, entry?.cover);
+}
+
+export function rankParkPhotos<T extends Photo>(parkSlug: string, photos: T[], cover?: string): T[] {
   // Resolução ou palavras no título não comprovam o lugar. Preserve a curadoria.
   const ordered = dedupePhotos(photos);
-  const chosen = COVER_BY_PARK[parkSlug];
+  const chosen = cover ?? COVER_BY_PARK[parkSlug];
   if (!chosen) return ordered;
   const i = ordered.findIndex((p) => p.sourceUrl.includes(chosen) || p.src.includes(chosen));
   if (i <= 0) return ordered;

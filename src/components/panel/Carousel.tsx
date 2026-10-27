@@ -47,7 +47,9 @@ export function Carousel({
     const el = scroller.current;
     if (!el) return;
     const card = el.querySelector<HTMLElement>(":scope > :not([aria-hidden='true'])");
-    const step = (card?.clientWidth ?? el.clientWidth * 0.7) + 12;
+    const cardStep = (card?.clientWidth ?? el.clientWidth * 0.7) + 12;
+    // Avança uma "página": todos os cartões que cabem inteiros na faixa visível (pelo menos um).
+    const step = Math.max(1, Math.floor(el.clientWidth / cardStep)) * cardStep;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     el.scrollBy({ left: dir * step, behavior: reduce ? "auto" : "smooth" });
   };

@@ -5,11 +5,18 @@ escolher uma espécie e conhecer seus detalhes.
 
 ## Ficha do parque: descoberta
 
-Fauna e flora ocupa uma prévia, não um catálogo dentro da ficha. Antes das fotos
-há título, uma frase e uma linha de contagem. Até quatro destaques mantêm as
-justificativas e créditos. Pesquisa, checkbox, termômetro e grade duplicada foram
-retirados da lateral. O CTA leva ao explorador; método, limites e fontes ficam
-em uma única divulgação “Sobre a seleção e as fontes”, depois do conteúdo.
+Fauna e flora é um carrossel, sem busca nem filtros dentro da ficha. Antes das
+fotos há título, uma frase e uma linha de contagem. A faixa começa pelos
+destaques editoriais (etiqueta "Destaque", justificativa, fontes e créditos) e
+segue, sem limite, com as demais espécies da seleção na ordem do levantamento,
+marcadas como registro: "Registrada no levantamento: N registros na área
+consultada". Disponibilidade de foto não muda a ordem. Um cartão final e o CTA
+abaixo levam ao explorador; método, limites e fontes ficam em uma única
+divulgação “Sobre a seleção e as fontes”, depois do conteúdo.
+
+Até 27/10/2026 a prévia mostrava só até quatro destaques; como 60 parques têm
+três, a faixa acabava cedo. A seta dos carrosséis avança uma "página" (os
+cartões que cabem inteiros na largura visível), não um cartão por vez.
 
 ## Explorador: escolha
 

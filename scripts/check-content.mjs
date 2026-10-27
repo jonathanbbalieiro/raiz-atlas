@@ -12,7 +12,7 @@ const exists = (...p) => fs.existsSync(path.join(DATA, ...p));
 
 const THEMES = new Set(["geologia", "hidrografia", "relevo", "clima", "biodiversidade", "conservação", "história", "patrimônio", "arqueologia", "visitação"]);
 const FEATURES = new Set(["timeline"]); // só o que o ExpeditionView sabe desenhar
-const PHOTO_HOSTS = new Set(["upload.wikimedia.org", "thumb.wikimedia.org", "inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org"]); // next.config.ts
+const PHOTO_HOSTS = new Set(["upload.wikimedia.org", "thumb.wikimedia.org", "inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org", "live.staticflickr.com"]); // next.config.ts
 const THREAT_WORDS = [[/criticamente (em perigo|ameaçad)/i, "CR"], [/\bem perigo\b/i, "EN"], [/\bvulner[aá]ve(l|is)\b/i, "VU"], [/quase ameaçad/i, "NT"]];
 const THREAT_SCOPE = /lista nacional|lista estadual|\bMMA\b|plano de manejo|ICMBio|\bno (Brasil|Rio Grande do Sul|Paraná|estado)\b|\bna (Bahia|Paraíba)\b/i;
 /** Wikimedia Commons: Special:FilePath redireciona a foto original para o CDN de arquivos. */
@@ -79,6 +79,28 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
     for (const entry of review.rejected) assert(entry.scientificName && entry.sourceUrl && entry.reason, "Rejeição fotográfica sem identificação ou justificativa");
   }
   const parks = new Map(read(country, "parks.generated.json").map((p) => [p.slug, p]));
+  if (exists(country, "park-photo-curation.json")) {
+    const curation = read(country, "park-photo-curation.json");
+    const generated = exists(country, "park-media.generated.json") ? read(country, "park-media.generated.json") : {};
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(curation.reviewedAt), "Curadoria de galerias sem data de revisão");
+    for (const [slug, entry] of Object.entries(curation.parks)) {
+      assert(parks.has(slug), `Curadoria de galerias: parque desconhecido ${slug}`);
+      const seen = new Set();
+      for (const p of entry.photos ?? []) {
+        assert(isAllowedPhotoUrl(p.src), `Curadoria de galerias (${slug}): foto fora dos hosts permitidos: ${p.src}`);
+        assert(p.alt && p.author && p.license && p.licenseUrl && p.sourceUrl && p.context?.trim(), `Curadoria de galerias (${slug}): crédito ou contexto incompleto em ${p.sourceUrl}`);
+        assert(!/\bND\b/i.test(p.license), `Curadoria de galerias (${slug}): licença ND não permite o recorte do layout: ${p.sourceUrl}`);
+        assert(p.width > 0 && p.height > 0, `Curadoria de galerias (${slug}): dimensões ausentes em ${p.sourceUrl}`);
+        assert(!seen.has(p.sourceUrl), `Curadoria de galerias (${slug}): foto repetida ${p.sourceUrl}`);
+        seen.add(p.sourceUrl);
+      }
+      if (entry.cover) {
+        const available = [...(entry.photos ?? []), ...(generated[slug]?.photos ?? [])].map((p) => p.sourceUrl);
+        assert(available.includes(entry.cover), `Curadoria de galerias (${slug}): a capa não está na galeria: ${entry.cover}`);
+      }
+    }
+    for (const r of curation.rejected) assert(parks.has(r.park) && r.sourceUrl && r.reason?.trim(), "Rejeição de galeria sem parque, foto ou justificativa");
+  }
   if (!exists(country, "parks")) continue;
   for (const slug of fs.readdirSync(path.join(DATA, country, "parks"))) {
     const where = `${country}/parks/${slug}`;

@@ -172,7 +172,7 @@ export function GuideBody({
           <H2 id="quem-vive">Fauna e flora do parque</H2>
           <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">Conheça algumas das espécies ligadas a este território.</p>
           {bio && selectedSpecies.length > 0 && <p className="mt-2 text-xs text-ink-soft">{selectedSpecies.length} espécies na seleção · {bio.groups.length} grupos</p>}
-          <SpeciesExplorer bio={bio ?? EMPTY_BIO} flagships={flagships} />
+          <SpeciesExplorer bio={bio ?? EMPTY_BIO} flagships={flagships} exploreHref={exploreHref} />
           {exploreHref && <Link href={exploreHref} scroll={false}
             className="mt-4 flex min-h-12 items-center justify-between gap-3 rounded-xl border border-forest/30 bg-card px-4 py-3 text-sm font-semibold text-forest hover:bg-moss/15">
             Explorar fauna e flora em detalhes <span aria-hidden="true">→</span>

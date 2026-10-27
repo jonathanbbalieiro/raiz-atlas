@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import imageLoader from "../src/lib/image-loader";
-import { photoIsPubliclyReusable, rankParkPhotos } from "../src/lib/photos";
+import { applyParkPhotoCuration, photoIsPubliclyReusable, rankParkPhotos } from "../src/lib/photos";
 import { applySpeciesPhotoReview, biodiversityRoster, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, resolveFlagshipCard } from "../src/lib/species-photos";
 import type { Biodiversity, ParkGuide, Photo } from "../src/lib/data/types";
 
@@ -31,6 +31,35 @@ test("miniaturas usam degraus da CDN e nunca ampliam a fonte escolhida", () => {
   assert.match(imageLoader({ src: photo.src, width: 2400 }), /\/1280px-/);
   const original = "https://upload.wikimedia.org/wikipedia/commons/e/e2/Giantotter.jpg";
   assert.equal(imageLoader({ src: original, width: 500 }), original);
+});
+
+test("Flickr troca só entre tamanhos do mesmo segredo e nunca amplia", () => {
+  const b = "https://live.staticflickr.com/65535/51234567890_abcdef1234_b.jpg";
+  assert.equal(imageLoader({ src: b, width: 600 }), b.replace("_b.jpg", "_z.jpg"));
+  assert.equal(imageLoader({ src: b, width: 3000 }), b);
+  const c = b.replace("_b.jpg", "_c.jpg");
+  assert.equal(imageLoader({ src: c, width: 1200 }), c);
+  const k = "https://live.staticflickr.com/65535/51234567890_9f8e7d6c5b_k.jpg";
+  assert.equal(imageLoader({ src: k, width: 400 }), k);
+});
+
+test("curadoria de galeria acrescenta, escolhe a capa e retira fotos rejeitadas", () => {
+  const gen = (name: string): Photo => ({ ...photo, src: `https://upload.wikimedia.org/${name}`, sourceUrl: `https://commons.wikimedia.org/wiki/File:${name}` });
+  const added = { ...gen("nova.jpg"), context: "Feita no parque." };
+  const photos = applyParkPhotoCuration("x", [gen("a.jpg"), gen("errada.jpg"), gen("b.jpg")], {
+    reviewedAt: "2026-10-27",
+    parks: { x: { photos: [added], cover: gen("b.jpg").sourceUrl } },
+    rejected: [{ park: "x", sourceUrl: gen("errada.jpg").sourceUrl, reason: "outra unidade" }],
+  });
+  assert.deepEqual(photos.map((p) => p.sourceUrl.split(":").pop()), ["b.jpg", "a.jpg", "nova.jpg"]);
+  assert.equal(applyParkPhotoCuration("y", [gen("a.jpg")], undefined).length, 1);
+  // Sem capa explícita, a foto acrescentada não toma a abertura; a versão curada substitui a gerada.
+  const fixed = { ...gen("a.jpg"), alt: "Legenda corrigida", context: "Vista de fora do parque." };
+  const kept = applyParkPhotoCuration("z", [gen("a.jpg"), gen("b.jpg")], {
+    reviewedAt: "2026-10-27", parks: { z: { photos: [added, fixed] } }, rejected: [],
+  });
+  assert.deepEqual(kept.map((p) => p.sourceUrl.split(":").pop()), ["a.jpg", "b.jpg", "nova.jpg"]);
+  assert.equal(kept[0].alt, "Legenda corrigida");
 });
 
 test("reuso não confunde nome popular, não transfere ocorrência e preserva curadoria", () => {

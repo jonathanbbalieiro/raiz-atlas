@@ -16,8 +16,19 @@ const INAT_SIZES: [string, number][] = [
   ["large", 1024],
 ];
 
+/**
+ * Flickr: z (640), c (800) e b (1024) usam o mesmo segredo no endereço e podem
+ * ser trocados entre si; h (1600) e k (2048) têm segredos próprios e ficam como estão.
+ */
+const FLICKR_SIZES: [string, number][] = [
+  ["z", 640],
+  ["c", 800],
+  ["b", 1024],
+];
+const FLICKR = /^(https:\/\/live\.staticflickr\.com\/\d+\/\d+_[0-9a-f]+_)([zcb])(\.jpg)$/;
+
 export function supportsImageResizing(src: string): boolean {
-  return /^https:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/commons\/thumb\/.+\/\d+px-[^/]+$/.test(src) ||
+  return FLICKR.test(src) || /^https:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/commons\/thumb\/.+\/\d+px-[^/]+$/.test(src) ||
     /^https:\/\/(?:inaturalist-open-data\.s3\.amazonaws\.com|static\.inaturalist\.org)\/photos\/\d+\/(?:small|medium|large)\.[a-z]+$/i.test(src);
 }
 
@@ -37,6 +48,15 @@ export default function imageLoader({ src, width }: { src: string; width: number
     const order = INAT_SIZES.map(([n]) => n);
     const pick = order.indexOf(wanted) <= order.indexOf(own) ? wanted : own;
     return `${inat[1]}${pick}${inat[3]}`;
+  }
+
+  const flickr = src.match(FLICKR);
+  if (flickr) {
+    const order = FLICKR_SIZES.map(([n]) => n);
+    const wanted = FLICKR_SIZES.find(([, w]) => w >= width)?.[0] ?? "b";
+    // Nunca pede mais que o arquivo escolhido nos dados.
+    const pick = order.indexOf(wanted) <= order.indexOf(flickr[2]) ? wanted : flickr[2];
+    return `${flickr[1]}${pick}${flickr[3]}`;
   }
 
   // Arquivo original sem miniatura (pequeno demais para ser reduzido) ou outro host: usa como está.

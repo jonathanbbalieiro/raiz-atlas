@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { BIODIVERSITY_SEGMENT, EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
 import { BIOME_LABEL, formatArea, joinPt } from "@/lib/labels";
-import { rankParkPhotos } from "@/lib/photos";
+import { applyParkPhotoCuration, type ParkPhotoCuration } from "@/lib/photos";
 import { applySpeciesPhotoReview, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, type PhotoReview } from "@/lib/species-photos";
 import type { PlaceRepository } from "./repository";
 import {
@@ -155,6 +155,7 @@ async function loadDataset(): Promise<Dataset> {
 
     ds.parks[c] = [];
     const photoReview = await readJsonOr<PhotoReview>({ photos: {}, rejected: [] }, c, "photo-curation.json");
+    const parkPhotos = await readJsonOr<ParkPhotoCuration | undefined>(undefined, c, "park-photo-curation.json");
     for (const g of generated) {
       const override = await readJsonOr<ParkOverride>({}, c, "parks", g.slug, "park.json");
       const m = media[g.slug];
@@ -177,7 +178,7 @@ async function loadDataset(): Promise<Dataset> {
             g.ufs.map((u) => ufInfo.get(u) ?? { name: u, prep: "em" }),
           ),
         longDescription: override.longDescription,
-        photos: rankParkPhotos(g.slug, m?.photos ?? []),
+        photos: applyParkPhotoCuration(g.slug, m?.photos ?? [], parkPhotos),
         wikipediaUrl: m?.wikipediaUrl ?? null,
         research: research ?? undefined,
         guide: guide && (guide.status === "revisado" || SHOW_DRAFTS) ? guide : undefined,

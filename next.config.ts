@@ -10,7 +10,7 @@ const csp = [
   "default-src 'self'",
   "script-src 'self' 'unsafe-inline'",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://commons.wikimedia.org https://inaturalist-open-data.s3.amazonaws.com https://static.inaturalist.org https://tiles.openfreemap.org",
+  "img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org https://commons.wikimedia.org https://inaturalist-open-data.s3.amazonaws.com https://static.inaturalist.org https://live.staticflickr.com https://tiles.openfreemap.org",
   "font-src 'self' data:",
   "connect-src 'self' https://tiles.openfreemap.org https://s3.amazonaws.com",
   "worker-src 'self' blob:",
@@ -59,6 +59,7 @@ const nextConfig: NextConfig = {
       // Fotos de observações do iNaturalist (CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA).
       { protocol: "https", hostname: "inaturalist-open-data.s3.amazonaws.com", pathname: "/photos/**" },
       { protocol: "https", hostname: "static.inaturalist.org", pathname: "/photos/**" },
+      { protocol: "https", hostname: "live.staticflickr.com", pathname: "/**" },
     ],
   },
   turbopack: {

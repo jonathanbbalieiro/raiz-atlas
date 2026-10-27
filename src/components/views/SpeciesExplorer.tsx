@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Carousel } from "@/components/panel/Carousel";
 import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 import type { Biodiversity, IucnCategory, SpeciesCard } from "@/lib/data/types";
@@ -15,20 +16,33 @@ const IUCN_TONE: Partial<Record<IucnCategory, string>> = {
 };
 type Flagship = { scientificName: string; name: string; why: string; card: SpeciesCard | null; sources: { id: string; institution: string; url: string }[] };
 
-/** Prévia de leitura: a pesquisa e o catálogo completo pertencem ao explorador ampliado. */
-export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagships: Flagship[] }) {
-  const everyone = mergeSpecies([...bio.groups.flatMap((group) => group.species), ...bio.threatened]);
+const taxonKey = (name: string) => name.trim().toLowerCase();
+const CARD = "w-60 shrink-0 snap-start overflow-hidden rounded-2xl border border-line bg-card";
 
-  if (flagships.length > 0) return (
-    <Carousel label="Espécies em destaque" className="-mx-5 mt-4 snap-x snap-mandatory scroll-px-5 gap-3 px-5 pb-1">
-      {flagships.slice(0, 4).map((species) => (
-        <li key={species.scientificName} className="w-60 shrink-0 snap-start overflow-hidden rounded-2xl border border-line bg-card">
+/**
+ * Prévia de leitura em carrossel: primeiro os destaques editoriais, com
+ * justificativa e fontes; depois as demais espécies da seleção, na ordem do
+ * levantamento, marcadas como registro (não como escolha editorial). A busca e
+ * os filtros continuam no explorador ampliado.
+ */
+export function SpeciesExplorer({ bio, flagships, exploreHref }: { bio: Biodiversity; flagships: Flagship[]; exploreHref?: string }) {
+  const everyone = mergeSpecies([...bio.groups.flatMap((group) => group.species), ...bio.threatened]);
+  const editorial = new Set(flagships.map((f) => taxonKey(f.scientificName)));
+  const recorded = everyone.filter((s) => !editorial.has(taxonKey(s.scientificName)));
+  const total = recorded.length + flagships.length;
+  if (!total) return null;
+
+  return (
+    <Carousel label="Espécies do parque" className="-mx-5 mt-4 snap-x snap-mandatory scroll-px-5 gap-3 px-5 pb-1">
+      {flagships.map((species) => (
+        <li key={species.scientificName} className={CARD}>
           <div className="relative">
             <SpeciesPhoto photo={species.card?.photo} name={species.name} sizes="240px" />
-            {species.card?.iucn && IUCN_TONE[species.card.iucn] && <span title="Categoria global da Lista Vermelha da IUCN" className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${IUCN_TONE[species.card.iucn]}`}>{IUCN_LABEL[species.card.iucn]} · IUCN global</span>}
+            <IucnBadge iucn={species.card?.iucn} />
           </div>
           <div className="p-3.5">
-            <p className="font-display text-lg leading-tight font-semibold text-forest-deep">{species.name}</p>
+            <p className="text-[10px] font-semibold tracking-[0.12em] text-earth uppercase">Destaque</p>
+            <p className="mt-1 font-display text-lg leading-tight font-semibold text-forest-deep">{species.name}</p>
             <p className="mt-0.5 text-xs italic text-ink-soft">{species.scientificName}</p>
             <p className="mt-2 text-[13px] leading-relaxed text-ink">{species.why}</p>
             {species.sources.length > 0 && <p className="mt-2 text-[10px] leading-relaxed text-ink-soft">
@@ -38,20 +52,41 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
           </div>
         </li>
       ))}
+      {recorded.map((species) => (
+        <li key={species.gbifKey} className={CARD}>
+          <div className="relative">
+            <SpeciesPhoto photo={species.photo} name={species.name ?? species.scientificName} sizes="240px" />
+            <IucnBadge iucn={species.iucn} />
+          </div>
+          <div className="p-3.5">
+            <p className="font-display text-lg leading-tight font-semibold text-forest-deep">{species.name ?? species.scientificName}</p>
+            {species.name && <p className="mt-0.5 text-xs italic text-ink-soft">{species.scientificName}</p>}
+            <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">
+              {typeof species.records === "number" && species.records > 0
+                ? `Registrada no levantamento: ${species.records} ${species.records === 1 ? "registro" : "registros"} na área consultada.`
+                : "Registrada no levantamento de espécies ameaçadas da área consultada."}
+            </p>
+            {species.photo && <PhotoCredit photo={species.photo} />}
+          </div>
+        </li>
+      ))}
+      {exploreHref && (
+        <li className="w-48 shrink-0 snap-start">
+          <Link href={exploreHref} scroll={false}
+            className="flex h-full min-h-40 flex-col justify-center rounded-2xl border border-forest/30 bg-card p-4 text-sm font-semibold text-forest hover:bg-moss/15">
+            Conhecer as {total} espécies em detalhes
+            <span aria-hidden="true" className="mt-2 text-lg">→</span>
+          </Link>
+        </li>
+      )}
+      <li aria-hidden="true" className="w-2 shrink-0" />
     </Carousel>
   );
+}
 
-  const firstAnimals = bio.groups.filter((group) => group.id !== "plantas").flatMap((group) => group.species).slice(0, 2);
-  const firstPlants = bio.groups.find((group) => group.id === "plantas")?.species.slice(0, 2) ?? [];
-  const chosen = mergeSpecies([...firstAnimals, ...firstPlants, ...everyone]).slice(0, 4);
-  if (!chosen.length) return null;
-  const preview = chosen.map((species) => everyone.find((entry) => entry.gbifKey === species.gbifKey) ?? species);
-  return <ul className="mt-4 grid grid-cols-2 gap-3">
-    {preview.map((species) => <li key={species.gbifKey} className="overflow-hidden rounded-xl border border-line bg-card">
-      <SpeciesPhoto photo={species.photo} name={species.name ?? species.scientificName} />
-      <div className="p-2.5"><p className="text-sm font-semibold text-forest-deep">{species.name ?? species.scientificName}</p>{species.name && <p className="mt-1 text-xs italic text-ink-soft">{species.scientificName}</p>}{species.photo && <PhotoCredit photo={species.photo} />}</div>
-    </li>)}
-  </ul>;
+function IucnBadge({ iucn }: { iucn?: IucnCategory | null }) {
+  if (!iucn || !IUCN_TONE[iucn]) return null;
+  return <span title="Categoria global da Lista Vermelha da IUCN" className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${IUCN_TONE[iucn]}`}>{IUCN_LABEL[iucn]} · IUCN global</span>;
 }
 
 function PhotoCredit({ photo }: { photo: NonNullable<SpeciesCard["photo"]> }) {

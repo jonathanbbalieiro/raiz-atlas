@@ -3,6 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { applySpeciesPhotoReview, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, type PhotoReview } from "../src/lib/species-photos";
 import type { Biodiversity, ParkGuide, Photo } from "../src/lib/data/types";
+import { applyParkPhotoCuration, type ParkPhotoCuration } from "../src/lib/photos";
 
 const root = path.resolve(import.meta.dirname, "..");
 const read = async <T,>(file: string): Promise<T> => JSON.parse(await fs.readFile(path.join(root, file), "utf8"));
@@ -14,6 +15,7 @@ const datasets = await Promise.all(parks.map(async (park) => ({
   biodiversity: await read<Biodiversity>(`data/br/parks/${park.slug}/biodiversity.generated.json`),
 })));
 const review = await read<PhotoReview>("data/br/photo-curation.json");
+const parkPhotos = await read<ParkPhotoCuration>("data/br/park-photo-curation.json").catch(() => undefined);
 const reviewedDatasets = datasets.map((data) => applySpeciesPhotoReview(data, review));
 const catalog = buildSpeciesPhotoCatalog(reviewedDatasets);
 const issues: { park: string; location: string; subject: string; issue: string; sourceUrl?: string }[] = [];
@@ -59,7 +61,8 @@ for (const data of datasets) {
     if (/\bNC\b|\bND\b/i.test(photo.license)) add("licenca_com_restricoes");
     if (photo.context && /não confirmad|pode ser outro/i.test(photo.context)) add("localizacao_a_revisar");
   }
-  const gallery = media[data.slug]?.photos ?? [];
+  // Mesma galeria que o site mostra: gerada + curadoria (fotos acrescentadas, capa e rejeições).
+  const gallery = applyParkPhotoCuration(data.slug, media[data.slug]?.photos ?? [], parkPhotos);
   if (!gallery.length) issues.push({ park: data.slug, location: "galeria", subject: data.name, issue: "sem_foto" });
   gallery.forEach((p, i) => inspect(p, `galeria[${i}]`, p.alt, 1280));
   enriched.guide.wonders.forEach((w, i) => inspect(w.photo, `maravilhas[${i}]`, w.title, 960));
