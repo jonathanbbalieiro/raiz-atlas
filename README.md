@@ -86,6 +86,9 @@ lista navegável por teclado como alternativa ao mapa.
 
 Requer Node.js 20 ou superior.
 
+As fontes DM Sans e Fraunces são servidas localmente a partir dos pacotes
+Fontsource fixados no lockfile (SIL OFL); o build não consulta o Google Fonts.
+
 ```bash
 npm install
 ```
@@ -116,6 +119,18 @@ Build de produção (pré-renderiza todas as páginas como HTML estático):
 ```bash
 npm run build && npm start
 ```
+
+Verificações de manutenção:
+
+```bash
+npm test
+npm run lint
+npm run audit:photos
+npm run check:publication
+```
+
+Veja os [critérios de fotos e espécies](docs/CURADORIA_FOTOGRAFICA.md) e a
+[fila fotográfica por parque](docs/audits/fotos-atual/LEIA-ME.md).
 
 ## Deploy na Vercel
 

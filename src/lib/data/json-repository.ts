@@ -2,6 +2,8 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
 import { BIOME_LABEL, formatArea, joinPt } from "@/lib/labels";
+import { rankParkPhotos } from "@/lib/photos";
+import { applySpeciesPhotoReview, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, type PhotoReview } from "@/lib/species-photos";
 import type { PlaceRepository } from "./repository";
 import {
   isVerified,
@@ -151,6 +153,7 @@ async function loadDataset(): Promise<Dataset> {
     };
 
     ds.parks[c] = [];
+    const photoReview = await readJsonOr<PhotoReview>({ photos: {}, rejected: [] }, c, "photo-curation.json");
     for (const g of generated) {
       const override = await readJsonOr<ParkOverride>({}, c, "parks", g.slug, "park.json");
       const m = media[g.slug];
@@ -172,7 +175,7 @@ async function loadDataset(): Promise<Dataset> {
             g.ufs.map((u) => ufInfo.get(u) ?? { name: u, prep: "em" }),
           ),
         longDescription: override.longDescription,
-        photos: m?.photos ?? [],
+        photos: rankParkPhotos(g.slug, m?.photos ?? []),
         wikipediaUrl: m?.wikipediaUrl ?? null,
         research: research ?? undefined,
         guide: guide && (guide.status === "revisado" || SHOW_DRAFTS) ? guide : undefined,
@@ -199,7 +202,7 @@ async function loadDataset(): Promise<Dataset> {
       if (park.shortDescription.length > SHORT_DESCRIPTION_MAX) {
         throw new Error(`${g.slug}: shortDescription passa de ${SHORT_DESCRIPTION_MAX} caracteres`);
       }
-      ds.parks[c].push(park);
+      ds.parks[c].push(applySpeciesPhotoReview(park, photoReview));
 
       const attractions: Attraction[] = [];
       for (const file of await readDir(c, "parks", g.slug, "attractions")) {
@@ -222,6 +225,8 @@ async function loadDataset(): Promise<Dataset> {
       }
       ds.attractions[`${c}/${g.slug}`] = attractions.sort(byName);
     }
+    const speciesPhotos = buildSpeciesPhotoCatalog(ds.parks[c]);
+    ds.parks[c] = ds.parks[c].map((park) => fillSpeciesPhotoGaps(park, speciesPhotos));
     ds.parks[c].sort((a, b) => a.shortName.localeCompare(b.shortName, "pt"));
 
     // O enquadramento do país inclui os parques oceânicos (ex.: Fernando de

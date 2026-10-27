@@ -63,6 +63,10 @@ ocorrências do GBIF dentro do limite oficial com nomes, fotos e status IUCN
 
 ## Fotos
 
+Critérios detalhados de identificação, qualidade, localização e seleção de
+espécies: [Curadoria fotográfica](CURADORIA_FOTOGRAFICA.md). A relação da espécie
+com o parque e o local onde a foto foi feita são verificações independentes.
+
 Só Wikimedia Commons com CC0, domínio público, CC BY ou CC BY-SA, com autor e
 licença. A ferramenta faz a checagem:
 

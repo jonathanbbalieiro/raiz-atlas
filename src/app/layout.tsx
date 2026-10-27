@@ -1,12 +1,18 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Sans, Fraunces } from "next/font/google";
+import localFont from "next/font/local";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
 // Ambas sob SIL Open Font License; o next/font hospeda os arquivos junto do site.
 // Fraunces (serifada editorial) para títulos; DM Sans (sem serifa) para a interface.
-const dmSans = DM_Sans({ variable: "--font-dm-sans", subsets: ["latin"] });
-const fraunces = Fraunces({ variable: "--font-fraunces", subsets: ["latin"] });
+const dmSans = localFont({
+  src: "../../node_modules/@fontsource-variable/dm-sans/files/dm-sans-latin-wght-normal.woff2",
+  variable: "--font-dm-sans", weight: "100 1000", display: "swap",
+});
+const fraunces = localFont({
+  src: "../../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-wght-normal.woff2",
+  variable: "--font-fraunces", weight: "100 900", display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),

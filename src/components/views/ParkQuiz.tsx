@@ -2,14 +2,10 @@
 
 import { useMemo, useState } from "react";
 import type { Biodiversity, SpeciesCard } from "@/lib/data/types";
-import { speciesObjectPosition } from "@/lib/photo-frame";
+import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 import { IUCN_LABEL } from "./SpeciesExplorer";
 
 const ROUNDS = 5;
-
-/** Miniatura do Commons em largura padrão (500 px). */
-const thumb = (src: string) =>
-  src.replace(/\/(\d+)px-([^/]+)$/, (m, w, f) => (Number(w) > 960 ? `/960px-${f}` : m));
 
 /** Gerador determinístico: servidor e cliente montam as mesmas perguntas. */
 function rng(seed: string) {
@@ -105,15 +101,7 @@ export function ParkQuiz({ bio, parkName }: { bio: Biodiversity; parkName: strin
             <div className="h-full bg-[#e0b57a] transition-all" style={{ width: `${(step / questions.length) * 100}%` }} />
           </div>
           <div className="mt-3 aspect-[4/3] overflow-hidden rounded-xl bg-forest">
-            {
-              // eslint-disable-next-line @next/next/no-img-element -- miniatura padrão do Commons, sem reprocessar
-              <img
-                src={thumb(q.answer.photo!.src)}
-                alt={picked ? q.answer.photo!.alt : "Foto de uma espécie do parque"}
-                className="h-full w-full object-cover"
-                style={{ objectPosition: speciesObjectPosition(q.answer.photo) }}
-              />
-            }
+            <SpeciesPhoto photo={q.answer.photo} name="Espécie a identificar" sizes="(min-width: 768px) 380px, 90vw" />
           </div>
           <div role="group" aria-label="Alternativas" className="mt-3 grid gap-2">
             {q.options.map((o) => {

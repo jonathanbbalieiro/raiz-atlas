@@ -29,7 +29,7 @@ const GRIIS_BRAZIL = "21cf83b3-fec6-4c42-95bc-b8555a991bc3";
 const WKT_POINTS = [140, 60];
 const ACCESSED = new Date().toISOString().slice(0, 10);
 
-/** Grupos exibidos; `take` é quantas espécies aparecem (as com foto primeiro). */
+/** Grupos exibidos; `take` limita a seleção por registros, independentemente de foto. */
 const GROUPS = [
   { id: "mamiferos", label: "Mamíferos", query: "classKey=359", facet: 20, take: 8 },
   { id: "aves", label: "Aves", query: "classKey=212", facet: 20, take: 8 },
@@ -353,10 +353,9 @@ for (const park of selected) {
   const groups = raw
     .map((g) => {
       const all = (g.result?.species ?? []).map((s) => card(s.key, s.records)).filter(Boolean);
-      // Prioridade: com foto e nome popular, depois só com foto, depois o resto
-      // (dentro de cada faixa, a ordem por número de registros é mantida).
-      const rank = (s) => (s.photo ? 0 : 2) + (s.name ? 0 : 1);
-      const species = [...all].sort((x, y) => rank(x) - rank(y)).slice(0, g.take);
+      // Uma lacuna de imagem não deve excluir uma espécie melhor documentada.
+      const species = [...all].sort((x, y) => (y.records ?? 0) - (x.records ?? 0) ||
+        x.scientificName.localeCompare(y.scientificName)).slice(0, g.take);
       return { id: g.id, label: g.label, records: g.result?.records ?? 0, species };
     })
     .filter((g) => g.species.length);
@@ -373,6 +372,7 @@ for (const park of selected) {
   const out = {
     generatedAt: ACCESSED,
     boundary,
+    selectionPolicy: "records-first",
     method:
       "Espécies com ao menos 2 registros de ocorrência no GBIF dentro do limite do parque, sem registros de zoológicos/jardins e sem espécies introduzidas no Brasil (GRIIS). Ordem por número de registros: indica o que é mais documentado, não o que é mais abundante.",
     sources: [

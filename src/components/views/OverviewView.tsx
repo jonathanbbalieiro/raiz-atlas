@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import Link from "next/link";
 import { SITE } from "@/lib/site";
 import { JsonLd, websiteData } from "@/components/seo/JsonLd";

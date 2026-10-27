@@ -18,6 +18,7 @@ jobs:
       - run: npm audit --omit=dev --audit-level=high
       - run: node scripts/check-content.mjs
       - run: npx next typegen
-      - run: true
-      - run: true
+      - run: npx tsc --noEmit
+      - run: npm run lint
+      - run: npm test
       - run: npm run build

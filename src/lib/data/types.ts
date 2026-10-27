@@ -208,6 +208,8 @@ export interface SpeciesCard {
 
 export interface Biodiversity {
   generatedAt: string;
+  /** Ausente nos levantamentos históricos que priorizavam disponibilidade de fotos. */
+  selectionPolicy?: "records-first";
   boundary: string;
   method: string;
   sources: { title: string; url: string; accessed: string }[];

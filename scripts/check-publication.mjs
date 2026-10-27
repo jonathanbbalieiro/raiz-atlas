@@ -63,7 +63,7 @@ if (!validUrl) {
 const preview = process.env.RAIZ_PREVIEW_DRAFTS === '1';
 if (preview) console.warn('AVISO: RAIZ_PREVIEW_DRAFTS=1 publica páginas de revisão. Proteja o acesso na hospedagem; robots.txt não é autenticação.');
 console.log(`Publicação — ${counts.parks} parques; ${counts.guidesReady}/${counts.guides} guias liberados; ${counts.expeditionsReady}/${counts.expeditions} Expedições liberadas; ${counts.lostWorldReady}/${counts.lostWorld} Mundo Perdido liberados.`);
-console.log(`Fotografias: ${counts.photoReferences} referências auditadas; ${counts.photosNC} referências CC BY-NC protegidas contra exibição automática em produção.`);
+console.log(`Fotografias: ${counts.photoReferences} referências auditadas; ${counts.photosNC} referências CC BY-NC: exigem respeitar a restrição de uso não comercial; esta auditoria não remove imagens.`);
 if (counts.expeditionsReady === 0) console.warn('AVISO: nenhuma Expedição aprovada será publicada no modo público. Os arquivos estão preservados para revisão.');
 if (counts.guidesReady === 0) console.warn('AVISO: guias em rascunho não aparecerão no modo público; fichas oficiais e biodiversidade continuam disponíveis.');
 if (strict) {

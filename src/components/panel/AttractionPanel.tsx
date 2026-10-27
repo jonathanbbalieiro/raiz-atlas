@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import { PanelHeader } from "@/components/nav/PanelHeader";
 import { isVerified, TO_VERIFY, type Attraction, type PlaceSummary, type Verifiable } from "@/lib/data/types";
 import { DIFFICULTY_LABEL, TAG_LABEL, TYPE_LABEL } from "@/lib/labels";

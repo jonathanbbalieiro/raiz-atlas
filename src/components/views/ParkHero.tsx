@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import { ViewTransition } from "react";
 import { CoverButton } from "@/components/panel/Gallery";
 import type { Photo } from "@/lib/data/types";

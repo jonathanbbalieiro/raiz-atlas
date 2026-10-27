@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import Link from "next/link";
 import { Credit, GalleryProvider, PhotoOpen } from "@/components/panel/Gallery";
 import type {

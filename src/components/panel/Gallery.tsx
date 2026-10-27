@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Photo } from "@/lib/data/types";
@@ -17,7 +17,9 @@ const GalleryContext = createContext<{ photos: Photo[]; open: (i: number) => voi
 
 export function GalleryProvider({ photos, children }: { photos: Photo[]; children: ReactNode }) {
   const [current, setCurrent] = useState<number | null>(null);
-  const open = useCallback((i: number) => setCurrent(i), []);
+  const open = useCallback((i: number) => {
+    if (Number.isInteger(i) && i >= 0 && i < photos.length) setCurrent(i);
+  }, [photos.length]);
   return (
     <GalleryContext.Provider value={{ photos, open }}>
       {children}
@@ -25,7 +27,7 @@ export function GalleryProvider({ photos, children }: { photos: Photo[]; childre
       {current !== null &&
         photos.length > 0 &&
         createPortal(
-          <Lightbox photos={photos} index={current} onIndex={setCurrent} onClose={() => setCurrent(null)} />,
+          <Lightbox photos={photos} index={Math.min(current, photos.length - 1)} onIndex={setCurrent} onClose={() => setCurrent(null)} />,
           document.body,
         )}
     </GalleryContext.Provider>
@@ -127,7 +129,7 @@ export function PhotoStrip({ from = 1, heading = "Mais fotos" }: { from?: number
                   alt={p.alt}
                   fill
                   sizes="300px"
-                  className="object-cover transition duration-300 group-hover:scale-[1.03]"
+                  className="object-contain"
                 />
               </button>
               <Credit photo={p} className="pt-1.5" />
@@ -152,6 +154,7 @@ function Lightbox({
   onClose: () => void;
 }) {
   const closeRef = useRef<HTMLButtonElement>(null);
+  const dialogRef = useRef<HTMLDivElement>(null);
   const touch = useRef<number | null>(null);
   const n = photos.length;
   const prev = useCallback(() => onIndex((index - 1 + n) % n), [index, n, onIndex]);
@@ -159,12 +162,23 @@ function Lightbox({
 
   useEffect(() => {
     const returnTo = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     closeRef.current?.focus();
-    return () => returnTo?.focus?.();
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      returnTo?.focus?.();
+    };
   }, []);
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
+      if (e.key === "Tab") {
+        const elements = [...(dialogRef.current?.querySelectorAll<HTMLElement>('button:not(:disabled), a[href]') ?? [])]
+          .filter((element) => element.getClientRects().length > 0);
+        const first = elements[0], last = elements.at(-1);
+        if (e.shiftKey && document.activeElement === first && last) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last && first) { e.preventDefault(); first.focus(); }
+      } else if (e.key === "Escape") {
         // Impede que o Esc também feche o parque (atalho do botão "fechar").
         e.preventDefault();
         e.stopImmediatePropagation();
@@ -179,6 +193,7 @@ function Lightbox({
   const p = photos[index];
   return (
     <div
+      ref={dialogRef}
       role="dialog"
       aria-modal="true"
       aria-label={`Foto ${index + 1} de ${n}`}

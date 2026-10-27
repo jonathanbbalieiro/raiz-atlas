@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import { useState } from "react";
 import { Credit } from "@/components/panel/Gallery";
 import type { GuideSource, LostKind, LostSpecies, LostWorld as Lost } from "@/lib/data/types";

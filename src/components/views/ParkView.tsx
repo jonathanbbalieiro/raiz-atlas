@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import Link from "next/link";
 import { JsonLd, breadcrumbs, parkData } from "@/components/seo/JsonLd";
 import { PanelHeader } from "@/components/nav/PanelHeader";

@@ -1,10 +1,11 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import { Carousel } from "@/components/panel/Carousel";
 import { Credit } from "@/components/panel/Gallery";
 import type { Biodiversity, GuideSource, LostWorld as LostWorldData, ParkGuide as Guide } from "@/lib/data/types";
 import { LostWorld } from "./LostWorld";
 import { ParkQuiz } from "./ParkQuiz";
 import { SpeciesExplorer } from "./SpeciesExplorer";
+import { resolveFlagshipCard } from "@/lib/species-photos";
 
 /*
  * Guia do parque: o conteúdo que encanta, em blocos curtos e visuais.
@@ -84,24 +85,14 @@ export function GuideBody({
   parkName: string;
 }) {
   const sources = new Map((guide?.sources ?? []).map((s) => [s.id, s]));
+  const selectedSpecies = [...new Map([
+    ...(bio?.groups.flatMap((group) => group.species) ?? []), ...(bio?.threatened ?? []),
+  ].map((species) => [species.gbifKey, species])).values()];
+  const threatenedCount = selectedSpecies.filter((species) => species.iucn && ["CR", "EN", "VU"].includes(species.iucn)).length;
   const flagships = (guide?.flagships ?? []).map((f) => ({
     ...f,
-    card:
-      [...(bio?.groups.flatMap((g) => g.species) ?? []), ...(bio?.threatened ?? [])].find(
-        (s) => s.scientificName.toLowerCase() === f.scientificName.toLowerCase() && s.photo,
-      ) ??
-      (f.photo
-        ? {
-            gbifKey: 0,
-            scientificName: f.scientificName,
-            name: f.name,
-            family: null,
-            records: null,
-            iucn: null,
-            wikidata: null,
-            photo: f.photo,
-          }
-        : null),
+    sources: f.sourceIds.flatMap((id) => sources.get(id) ?? []),
+    card: resolveFlagshipCard(f, bio),
   }));
 
   return (
@@ -141,7 +132,7 @@ export function GuideBody({
               >
                 {w.photo && (
                   <div className="relative aspect-[4/3] bg-paper-deep">
-                    <Image quality={90} src={w.photo.src} alt={w.photo.alt} fill sizes="288px" className="object-cover" />
+                    <Image quality={90} src={w.photo.src} alt={w.photo.alt} fill sizes="288px" className="object-contain" />
                   </div>
                 )}
                 <div className="p-4">
@@ -152,7 +143,10 @@ export function GuideBody({
                     {w.text}
                     <Cite ids={w.sourceIds} sources={sources} />
                   </p>
-                  {w.photo && <Credit photo={w.photo} className="mt-2" />}
+                  {w.photo && <>
+                    <p className="mt-2 text-xs leading-relaxed text-ink-soft">{w.photo.context}</p>
+                    <Credit photo={w.photo} className="mt-2" />
+                  </>}
                 </div>
               </li>
             ))}
@@ -166,10 +160,28 @@ export function GuideBody({
           <Kicker>Quem vive aqui</Kicker>
           <H2 id="quem-vive">Fauna e flora do parque</H2>
           <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
-            Espécies com registros científicos dentro do limite do parque. As primeiras são as mais
-            documentadas, não necessariamente as mais fáceis de ver.
+            Os destaques editoriais explicam a relação de cada espécie com este território e indicam suas fontes.
+            Nas abas, o levantamento de ocorrências complementa essa seleção; registros não medem abundância ou facilidade de avistamento.
           </p>
+          {bio && selectedSpecies.length > 0 && <p className="mt-3 text-sm leading-relaxed text-ink">
+            O levantamento apresentado reúne {selectedSpecies.length} espécies em {bio.groups.length} grupos.
+            {threatenedCount > 0 && <> Destas, {threatenedCount} têm classificação global de ameaça (vulnerável, em perigo ou criticamente em perigo) na base consultada.</>}
+            {" "}Essa contagem descreve apenas a seleção abaixo, não o total de espécies de {parkName}.
+            {bio.sources[0] && <> <a href={bio.sources[0].url} target="_blank" rel="noopener noreferrer" className="underline decoration-line underline-offset-2">Consultar levantamento e ocorrências</a>.</>}
+          </p>}
+          <details className="mt-3 rounded-xl border border-line bg-card p-3 text-sm text-ink-soft">
+            <summary className="cursor-pointer font-semibold text-forest-deep">Por que estas espécies?</summary>
+            <p className="mt-2 leading-relaxed">Os destaques vêm do guia editorial: sua justificativa e a fonte devem explicar o vínculo com o parque. Uma espécie pode representar mais de um parque; ela não precisa ser exclusiva para ser importante à conservação daquele território. Destaque editorial não significa símbolo oficial.</p>
+            <p className="mt-2 leading-relaxed">{bio?.selectionPolicy === "records-first"
+              ? "As abas priorizam o número de registros por grupo, independentemente de haver fotografia."
+              : "Este levantamento histórico selecionou candidatos por grupo, priorizando fotos e nomes populares e, dentro dessas faixas, o número de registros."}
+              {" "}A aba de ameaçadas usa a categoria de conservação. A cobertura varia entre grupos e regiões e não é um inventário completo. A ausência de uma espécie nesta lista não prova sua ausência no parque.</p>
+            <p className="mt-2 leading-relaxed">Uma fotografia ilustra a espécie identificada e pode ter sido feita em outro lugar. O registro de ocorrência e a fonte editorial, e não a foto, sustentam a ligação com o parque.</p>
+          </details>
           <SpeciesExplorer bio={bio ?? EMPTY_BIO} flagships={flagships} />
+          {bio?.boundary.includes("envoltória") && <p className="mt-3 rounded-xl border border-line p-3 text-xs leading-relaxed text-ink-soft">
+            Este levantamento usou uma envoltória aproximada do parque, que pode incluir áreas do entorno. Consulte as fontes de ocorrência antes de afirmar presença dentro do limite oficial.
+          </p>}
           {bio && (
             <p className="mt-3 text-[11px] leading-relaxed text-ink-soft">
               Levantamento automático ({bio.boundary}): {bio.method} Fontes:{" "}

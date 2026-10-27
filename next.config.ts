@@ -46,6 +46,7 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
   images: {
+    qualities: [75, 90],
     // As fotos vêm de CDNs que já servem miniaturas em larguras padrão (Wikimedia, iNaturalist):
     // o loader próprio escolhe a largura e o host não faz otimização de imagem.
     loader: "custom",

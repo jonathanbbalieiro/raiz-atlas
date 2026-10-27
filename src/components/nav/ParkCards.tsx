@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import Link from "next/link";
 import { ViewTransition } from "react";
 import { useExplore } from "@/components/map/focus";

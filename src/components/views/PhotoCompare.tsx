@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/panel/PhotoImage";
 import { Credit } from "@/components/panel/Gallery";
 import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
 import type { ExpeditionReference, PhotoCompareFeature } from "@/lib/data/types";

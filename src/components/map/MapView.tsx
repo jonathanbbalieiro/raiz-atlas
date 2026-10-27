@@ -51,6 +51,7 @@ export function MapView({ getPadding }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MlMap | null>(null);
   const [ready, setReady] = useState(false);
+  const [mapUnavailable, setMapUnavailable] = useState(false);
   /** O usuário moveu o mapa para longe do enquadramento da seleção atual. */
   const [drifted, setDrifted] = useState(false);
   const { index, focus, biomes, visibleParks, highlight, setHighlight, panelOpen } = useExplore();
@@ -126,6 +127,9 @@ export function MapView({ getPadding }: Props) {
       });
       map.touchZoomRotate.disableRotation();
       mapRef.current = map;
+      map.on("error", () => {
+        if (!cancelled && !map?.isStyleLoaded()) setMapUnavailable(true);
+      });
       // Acesso para depuração no console durante o desenvolvimento.
       if (process.env.NODE_ENV === "development") Object.assign(window, { __map: map });
 
@@ -142,6 +146,7 @@ export function MapView({ getPadding }: Props) {
       };
 
       map.on("style.load", () => {
+        setMapUnavailable(false);
         restyleBasemap(map!);
         addLayers(map!);
         map!.setSky({
@@ -300,7 +305,9 @@ export function MapView({ getPadding }: Props) {
         popup.remove();
         r.push(href(target), { scroll: false });
       });
-    })();
+    })().catch(() => {
+      if (!cancelled) setMapUnavailable(true);
+    });
     return () => {
       cancelled = true;
       map?.remove();
@@ -503,6 +510,9 @@ export function MapView({ getPadding }: Props) {
           })
         }
       />
+      {mapUnavailable && <p role="status" className="absolute top-24 left-4 max-w-64 rounded-xl border border-line bg-card px-4 py-3 text-sm leading-relaxed text-ink shadow-sm max-md:top-20">
+        O mapa está indisponível no momento. Use a busca e as listas para explorar os parques.
+      </p>}
     </div>
   );
 }

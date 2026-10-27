@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import type { SpeciesCard } from "@/lib/data/types";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
+import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 
 /** Acrescenta uma vitrine botânica à interface original, sem substituir o explorador nem o quiz. */
 export function FloraHighlight({ species }: { species: SpeciesCard[] }) {
@@ -22,14 +22,7 @@ export function FloraHighlight({ species }: { species: SpeciesCard[] }) {
       <div className="mt-3 grid grid-cols-2 gap-2.5">
         {selected.map((plant) => (
           <article key={plant.gbifKey} className="overflow-hidden rounded-xl border border-line bg-paper">
-            <div className="relative overflow-hidden bg-paper-deep" style={{ aspectRatio: plant.photo ? photoFrameAspect(plant.photo, "card") : "4 / 3" }}>
-              {plant.photo ? (
-                <a className="block h-full w-full" href={plant.photo.sourceUrl} target="_blank" rel="noopener noreferrer" title="Abrir página original da fotografia">
-                  {/* eslint-disable-next-line @next/next/no-img-element -- Miniaturas do Commons com crédito junto da obra */}
-                  <img src={plant.photo.src} alt={plant.photo.alt || plant.scientificName} loading="lazy" className="h-full w-full object-cover" style={{ objectPosition: photoObjectPosition(plant.photo, "card") }} />
-                </a>
-              ) : <div className="flex h-full items-center justify-center p-2 text-center text-xs text-ink-soft">Fotografia não disponível</div>}
-            </div>
+            <SpeciesPhoto photo={plant.photo} name={plant.name ?? plant.scientificName} />
             <div className="px-3 py-3">
               <p className="font-display text-[16px] leading-tight font-semibold text-forest-deep">{plant.name || plant.scientificName}</p>
               {plant.name && <p className="mt-1 text-[11px] italic text-ink-soft">{plant.scientificName}</p>}

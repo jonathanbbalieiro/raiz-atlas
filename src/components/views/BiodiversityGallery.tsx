@@ -2,10 +2,7 @@
 
 import { Carousel } from "@/components/panel/Carousel";
 import type { Biodiversity, SpeciesCard } from "@/lib/data/types";
-import { photoFrameAspect, photoObjectPosition } from "@/lib/photos";
-
-const thumb = (src: string) =>
-  src.replace(/\/(\d+)px-([^/]+)$/, (m, w, f) => (Number(w) > 640 ? `/640px-${f}` : m));
+import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 
 function uniqueByPhoto(items: SpeciesCard[]) {
   const seen = new Set<string>();
@@ -42,15 +39,8 @@ export function BiodiversityGallery({ bio }: { bio: Biodiversity }) {
       <Carousel label="Seres do parque" className="mt-3 snap-x snap-mandatory scroll-px-5 gap-3 px-5 pb-1">
         {mix.map((s) => (
           <li key={`${s.gbifKey}-${s.tag}`} className="w-[74%] max-w-72 shrink-0 snap-start overflow-hidden rounded-2xl border border-line bg-card">
-            <div className="relative overflow-hidden bg-paper-deep" style={{ aspectRatio: photoFrameAspect(s.photo!, "gallery") }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={thumb(s.photo!.src)}
-                alt={s.photo!.alt || s.scientificName}
-                loading="lazy"
-                className="h-full w-full object-cover"
-                style={{ objectPosition: photoObjectPosition(s.photo!, "gallery") }}
-              />
+            <div className="relative">
+              <SpeciesPhoto photo={s.photo} name={s.name ?? s.scientificName} sizes="288px" />
               <span className="absolute left-2 top-2 rounded-full bg-black/55 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em] text-white">
                 {s.tag === "planta" ? "Planta" : "Animal"}
               </span>

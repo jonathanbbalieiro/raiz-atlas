@@ -16,6 +16,11 @@ const INAT_SIZES: [string, number][] = [
   ["large", 1024],
 ];
 
+export function supportsImageResizing(src: string): boolean {
+  return /^https:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/commons\/thumb\/.+\/\d+px-[^/]+$/.test(src) ||
+    /^https:\/\/(?:inaturalist-open-data\.s3\.amazonaws\.com|static\.inaturalist\.org)\/photos\/\d+\/(?:small|medium|large)\.[a-z]+$/i.test(src);
+}
+
 export default function imageLoader({ src, width }: { src: string; width: number; quality?: number }): string {
   const wiki = src.match(/^(https:\/\/(?:upload|thumb)\.wikimedia\.org\/wikipedia\/commons\/thumb\/.+\/)(\d+)px-([^/]+)$/);
   if (wiki) {

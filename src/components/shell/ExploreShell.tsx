@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   ViewTransition,
@@ -252,24 +253,7 @@ function Chevron({ dir }: { dir: "left" | "right" }) {
   );
 }
 
-/** Símbolo do Raiz: linha de serra e um curso d’água sinuoso. */
+/** A mesma marca na navegação, na aba e nos ícones de instalação. */
 function Logo() {
-  return (
-    <svg viewBox="0 0 48 48" width="24" height="24" aria-hidden="true" fill="none">
-      <path
-        d="M5 27.5 15.5 14 23.8 24.5 29.4 18 43 32"
-        stroke="currentColor"
-        strokeWidth="3"
-        strokeLinejoin="round"
-        strokeLinecap="round"
-      />
-      <path
-        d="M13 36.8c6.5-5 14.8-6.1 22-10.7M15 42c9-6 17-6 25-9.5"
-        stroke="var(--water)"
-        strokeWidth="2.8"
-        strokeLinecap="round"
-      />
-      <circle cx="35" cy="11.5" r="3.5" fill="#c7902f" />
-    </svg>
-  );
+  return <Image src="/brand/raiz-192.png" width={28} height={28} alt="" unoptimized className="rounded-md" />;
 }

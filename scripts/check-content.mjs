@@ -45,6 +45,17 @@ const noWiki = (data, at) => {
 
 let expeditions = 0, approved = 0, dossiers = 0, notes = 0, guides = 0, reviewed = 0, bios = 0, species = 0;
 for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && exists(d, "parks.generated.json"))) {
+  if (exists(country, "photo-curation.json")) {
+    const review = read(country, "photo-curation.json");
+    assert(/^\d{4}-\d{2}-\d{2}$/.test(review.reviewedAt), "Curadoria sem data de revisão");
+    for (const [taxon, photo] of Object.entries(review.photos)) {
+      assert(taxon && isAllowedPhotoUrl(photo.src), `Curadoria: URL inválida para ${taxon}`);
+      assert(photo.author && photo.license && photo.licenseUrl && photo.sourceUrl && photo.alt && photo.context,
+        `Curadoria: crédito ou contexto incompleto para ${taxon}`);
+      assert(photo.width > 0 && photo.height > 0, `Curadoria: dimensões ausentes para ${taxon}`);
+    }
+    for (const entry of review.rejected) assert(entry.scientificName && entry.sourceUrl && entry.reason, "Rejeição fotográfica sem identificação ou justificativa");
+  }
   const parks = new Map(read(country, "parks.generated.json").map((p) => [p.slug, p]));
   if (!exists(country, "parks")) continue;
   for (const slug of fs.readdirSync(path.join(DATA, country, "parks"))) {

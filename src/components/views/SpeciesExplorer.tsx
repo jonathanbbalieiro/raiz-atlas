@@ -1,8 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 import { Carousel } from "@/components/panel/Carousel";
-import { speciesObjectPosition } from "@/lib/photo-frame";
+import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 import type { Biodiversity, IucnCategory, SpeciesCard } from "@/lib/data/types";
 
 export const IUCN_LABEL: Partial<Record<IucnCategory, string>> = {
@@ -22,10 +22,6 @@ const IUCN_TONE: Partial<Record<IucnCategory, string>> = {
   DD: "bg-paper-deep text-ink-soft",
 };
 
-/** Miniatura do Commons em largura padrão (500 px), servida direto pelo Wikimedia. */
-const thumb = (src: string) =>
-  src.replace(/\/(\d+)px-([^/]+)$/, (m, w, f) => (Number(w) > 500 ? `/500px-${f}` : m));
-
 const GAUGE: { cat: IucnCategory; label: string; color: string }[] = [
   { cat: "CR", label: "Criticamente em perigo", color: "#9b2c1f" },
   { cat: "EN", label: "Em perigo", color: "#c2522d" },
@@ -34,7 +30,7 @@ const GAUGE: { cat: IucnCategory; label: string; color: string }[] = [
   { cat: "LC", label: "Pouco preocupante", color: "#5f8f5a" },
 ];
 
-type Flagship = { scientificName: string; name: string; why: string; card: SpeciesCard | null };
+type Flagship = { scientificName: string; name: string; why: string; card: SpeciesCard | null; sources: { id: string; institution: string; url: string }[] };
 
 /**
  * "Quem vive aqui": espécies-símbolo (escolha editorial) e abas por grupo com
@@ -42,6 +38,7 @@ type Flagship = { scientificName: string; name: string; why: string; card: Speci
  * ameaçadas. As espécies-símbolo vêm no HTML; as abas mostram um grupo por vez.
  */
 export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagships: Flagship[] }) {
+  const tabId = useId();
   const tabs = [
     ...(bio.threatened.length ? [{ id: "ameacadas", label: "Ameaçadas", species: bio.threatened }] : []),
     ...bio.groups.map((g) => ({ id: g.id, label: g.label, species: g.species })),
@@ -49,7 +46,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
   const [active, setActive] = useState(tabs.find((t) => t.id === "mamiferos")?.id ?? tabs[0]?.id);
   const current = tabs.find((t) => t.id === active) ?? tabs[0];
   const [cat, setCat] = useState<IucnCategory | null>(null);
-  const everyone = [...new Map([...bio.threatened, ...bio.groups.flatMap((g) => g.species)].map((x) => [x.gbifKey, x])).values()];
+  const everyone = [...new Map([...bio.groups.flatMap((g) => g.species), ...bio.threatened].map((x) => [x.gbifKey, x])).values()];
   const counts = GAUGE.map((g) => ({ ...g, n: everyone.filter((x) => x.iucn === g.cat).length }));
   const showGauge = counts.some((c) => c.cat !== "LC" && c.n > 0);
   const filtered = cat ? everyone.filter((x) => x.iucn === cat) : null;
@@ -58,7 +55,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
     <div>
       {flagships.length > 0 && (
         <Carousel
-          label="Espécies-símbolo"
+          label="Espécies em destaque"
           className="-mx-5 mt-4 snap-x snap-mandatory scroll-px-5 gap-3 px-5 pb-1"
         >
           {flagships.map((f) => (
@@ -66,31 +63,23 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
               key={f.scientificName}
               className="w-60 shrink-0 snap-start overflow-hidden rounded-2xl bg-forest-deep text-card"
             >
-              {f.card?.photo && (
-                <div className="relative aspect-[4/3] bg-forest">
-                  {
-                    // eslint-disable-next-line @next/next/no-img-element -- miniatura padrão do Commons, sem reprocessar
-                    <img
-                      src={thumb(f.card.photo.src)}
-                      alt={f.card.photo.alt}
-                      loading="lazy"
-                      className="h-full w-full object-cover"
-                      style={{ objectPosition: speciesObjectPosition(f.card.photo) }}
-                    />
-                  }
-                  {f.card?.iucn && IUCN_LABEL[f.card.iucn] && f.card.iucn !== "DD" && (
-                    <span
-                      className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${IUCN_TONE[f.card.iucn]}`}
-                    >
-                      {IUCN_LABEL[f.card.iucn]}
-                    </span>
-                  )}
-                </div>
-              )}
+              <div className="relative">
+                <SpeciesPhoto photo={f.card?.photo} name={f.name} sizes="240px" />
+                {f.card?.iucn && IUCN_TONE[f.card.iucn] && (
+                  <span className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${IUCN_TONE[f.card.iucn]}`}>
+                    {IUCN_LABEL[f.card.iucn]}
+                  </span>
+                )}
+              </div>
               <div className="p-3.5">
                 <p className="font-display text-lg leading-tight font-semibold">{f.name}</p>
                 <p className="text-xs italic opacity-75">{f.scientificName}</p>
                 <p className="mt-2 text-[13px] leading-relaxed opacity-90">{f.why}</p>
+                {f.sources.length > 0 && <p className="mt-2 text-[11px]">
+                  Por que está aqui: {f.sources.map((source, i) => <span key={source.id}>
+                    {i > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer" className="underline">{source.institution}</a>
+                  </span>)}
+                </p>}
                 {f.card?.photo && <PhotoCredit photo={f.card.photo} dark />}
               </div>
             </li>
@@ -102,7 +91,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
         <div className="mt-5 rounded-2xl border border-line bg-card p-3.5">
           <p className="text-[11px] font-semibold tracking-[0.14em] text-earth uppercase">Termômetro da vida</p>
           <p className="mt-0.5 text-[13px] text-ink-soft">
-            Toque numa faixa para ver as espécies de cada situação na lista de IUCN.
+            Situação global na IUCN das espécies desta seleção, não um diagnóstico da população local. Toque numa faixa para filtrar.
           </p>
           <div role="group" aria-label="Situação de conservação" className="mt-2.5 flex h-9 gap-0.5 overflow-hidden rounded-full">
             {counts
@@ -159,8 +148,21 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
                 key={t.id}
                 type="button"
                 role="tab"
+                id={`${tabId}-${t.id}`}
+                aria-controls={`${tabId}-panel`}
+                tabIndex={t.id === current.id ? 0 : -1}
                 aria-selected={t.id === current.id}
                 onClick={() => setActive(t.id)}
+                onKeyDown={(event) => {
+                  const index = tabs.findIndex((tab) => tab.id === t.id);
+                  const next = event.key === "ArrowRight" ? (index + 1) % tabs.length
+                    : event.key === "ArrowLeft" ? (index - 1 + tabs.length) % tabs.length
+                    : event.key === "Home" ? 0 : event.key === "End" ? tabs.length - 1 : null;
+                  if (next === null) return;
+                  event.preventDefault();
+                  setActive(tabs[next].id);
+                  document.getElementById(`${tabId}-${tabs[next].id}`)?.focus();
+                }}
                 className={[
                   "h-9 shrink-0 rounded-full border px-3.5 text-[13px] font-medium transition",
                   t.id === current.id
@@ -172,7 +174,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
               </button>
             ))}
           </Carousel>
-          <ul role="tabpanel" aria-label={current.label} className="mt-3 grid grid-cols-2 gap-2.5">
+          <ul role="tabpanel" id={`${tabId}-panel`} aria-labelledby={`${tabId}-${current.id}`} className="mt-3 grid grid-cols-2 gap-2.5">
             {current.species.map((s) => (
               <SpeciesTile key={s.gbifKey} s={s} />
             ))}
@@ -187,20 +189,7 @@ function SpeciesTile({ s }: { s: SpeciesCard }) {
   return (
     <li className="overflow-hidden rounded-xl border border-line bg-card">
                 <div className="relative aspect-[4/3] bg-paper-deep">
-                  {s.photo ? (
-                    // eslint-disable-next-line @next/next/no-img-element -- miniatura padrão do Commons, sem reprocessar
-                    <img
-                      src={thumb(s.photo.src)}
-                      alt={s.photo.alt}
-                      loading="lazy"
-                      className="h-full w-full object-cover"
-                      style={{ objectPosition: speciesObjectPosition(s.photo) }}
-                    />
-                  ) : (
-                    <span className="flex h-full items-center justify-center px-3 text-center text-xs text-ink-soft">
-                      Sem foto com licença livre
-                    </span>
-                  )}
+                  <SpeciesPhoto photo={s.photo} name={s.name ?? s.scientificName} />
                   {s.iucn && IUCN_TONE[s.iucn] && s.iucn !== "DD" && (
                     <span
                       className={`absolute top-1.5 left-1.5 rounded-full px-1.5 py-0.5 text-[10px] font-semibold ${IUCN_TONE[s.iucn]}`}
@@ -229,11 +218,11 @@ function PhotoCredit({ photo, dark = false }: { photo: NonNullable<SpeciesCard["
       className={`mt-1.5 truncate text-[10px] ${dark ? "opacity-60" : "text-ink-soft"}`}
       title={`Foto: ${photo.author} · ${photo.license}`}
     >
-      <a href={photo.sourceUrl} rel="noopener" className="hover:underline">
+      <a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
         {photo.author}
       </a>{" "}
       ·{" "}
-      <a href={photo.licenseUrl} rel="license noopener" className="hover:underline">
+      <a href={photo.licenseUrl} target="_blank" rel="license noopener noreferrer" className="hover:underline">
         {photo.license}
       </a>
     </p>

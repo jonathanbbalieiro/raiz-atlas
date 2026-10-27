@@ -1,9 +1,5 @@
 import type { Photo } from "@/lib/data/types";
 
-export function photoArea(photo?: Pick<Photo, "width" | "height"> | null) {
-  return Math.max(0, (photo?.width ?? 0) * (photo?.height ?? 0));
-}
-
 export function photoRatio(photo?: Pick<Photo, "width" | "height"> | null) {
   const w = photo?.width ?? 0;
   const h = photo?.height ?? 0;
@@ -17,24 +13,6 @@ export function photoOrientation(photo?: Pick<Photo, "width" | "height"> | null)
   if (ratio >= 0.8) return "square";
   if (ratio >= 0.62) return "portrait";
   return "tall";
-}
-
-function ratioScore(ratio: number) {
-  const target = 1.35;
-  return Math.max(0, 1 - Math.abs(ratio - target) / 1.35);
-}
-
-export function photoQualityScore(photo: Photo) {
-  const area = photoArea(photo);
-  const ratio = photoRatio(photo);
-  const areaScore = Math.min(area / (1600 * 1200), 1.5);
-  const extBonus = /\.(?:jpe?g|png|webp)$/i.test(photo.src) ? 0.12 : 0;
-  const commonsBonus = /wikimedia|upload\.wikimedia/i.test(photo.src) ? 0.08 : 0;
-  return ratioScore(ratio) * 2.2 + areaScore + extBonus + commonsBonus;
-}
-
-export function sortPhotosByQuality<T extends Photo>(photos: T[]) {
-  return [...photos].sort((a, b) => photoQualityScore(b) - photoQualityScore(a));
 }
 
 export type PhotoFrameMode = "hero" | "gallery" | "card" | "square" | "lightbox";
@@ -83,7 +61,8 @@ const COVER_BY_PARK: Record<string, string> = {
 };
 
 export function rankParkPhotos<T extends Photo>(parkSlug: string, photos: T[]): T[] {
-  const ordered = dedupePhotos([...photos]).sort((a, b) => parkCoverScore(b) - parkCoverScore(a));
+  // Resolução ou palavras no título não comprovam o lugar. Preserve a curadoria.
+  const ordered = dedupePhotos(photos);
   const chosen = COVER_BY_PARK[parkSlug];
   if (!chosen) return ordered;
   const i = ordered.findIndex((p) => p.sourceUrl.includes(chosen) || p.src.includes(chosen));
@@ -91,40 +70,6 @@ export function rankParkPhotos<T extends Photo>(parkSlug: string, photos: T[]): 
   return [ordered[i], ...ordered.slice(0, i), ...ordered.slice(i + 1)];
 }
 
-
-function includesAny(text: string, words: string[]) {
-  const low = text.toLowerCase();
-  return words.some((w) => low.includes(w));
-}
-
-const LANDSCAPE_HINTS = [
-  'parque nacional', 'paisagem', 'vista', 'panorama', 'montanha', 'serra', 'chapada', 'cachoeira', 'rio', 'lago', 'lagoa',
-  'duna', 'floresta', 'restinga', 'campo', 'cerrado', 'caverna', 'gruta', 'trilha', 'costão', 'falésia', 'praia', 'arquipélago'
-];
-const AMBIGUOUS_HINTS = [
-  'localização exata da fotografia', 'não confirmada', 'pode ser outro', 'retrato ilustrativo', 'fotografia da espécie', 'local da fotografia pode ser outro'
-];
-const SPECIES_HINTS = [
-  'retrato', 'espécie', 'ave', 'mamífero', 'réptil', 'anfíbio', 'peixe', 'planta', 'árvore', 'flor', 'folha'
-];
-
-export function isIllustrativeSpeciesPhoto(photo: Photo) {
-  const text = [photo.alt, photo.context, photo.sourceUrl].filter(Boolean).join(' · ');
-  return includesAny(text, AMBIGUOUS_HINTS) || includesAny(text, SPECIES_HINTS);
-}
-
-export function isLandscapePhoto(photo: Photo) {
-  const text = [photo.alt, photo.context, photo.sourceUrl].filter(Boolean).join(' · ');
-  return includesAny(text, LANDSCAPE_HINTS) && !includesAny(text, ['retrato ilustrativo', 'fotografia da espécie']);
-}
-
-export function parkCoverScore(photo: Photo) {
-  let score = photoQualityScore(photo);
-  if (isLandscapePhoto(photo)) score += 2.4;
-  if (isIllustrativeSpeciesPhoto(photo)) score -= 1.4;
-  if ((photo.context || '').toLowerCase().includes('não confirmada')) score -= 0.5;
-  return score;
-}
 
 export function dedupePhotos<T extends Photo>(photos: T[]) {
   const seen = new Set<string>();
@@ -148,5 +93,5 @@ export function photoIsPubliclyReusable(photo: Photo): boolean {
   if (!license || /(^|[-\s])(NC|ND)(?=[-\s]|$)/.test(license) || /GFDL|FAIR USE|ALL RIGHTS RESERVED/.test(license)) {
     return false;
   }
-  return /^(CC BY(?:-SA)?\s*[1-9](?:\.\d)?(?:\s+[A-Z]{2}(?:[-\s][A-Z]{2})?)?|CC0(?:\s*[1-9](?:\.\d)?)?|PUBLIC DOMAIN(?: MARK)?|PD|PDM|FAL|LAL|FREE ART LICEN[CS]E|LICENCE ART LIBRE)/.test(license);
+  return /^(CC BY(?:-SA)?\s*[1-9](?:\.\d)?(?:\s+[A-Z]{2}(?:[-\s][A-Z]{2})?)?|CC0(?:\s*[1-9](?:\.\d)?)?|PUBLIC DOMAIN(?: MARK)?|PD|PDM|FAL|LAL|FREE ART LICEN[CS]E|LICENCE ART LIBRE)$/.test(license);
 }
