@@ -23,7 +23,7 @@ Junção de dois projetos:
   créditos das fotos, hosts permitidos, parágrafos repetidos, status x
   aprovação). Roda sozinho antes de todo build.
 
-Estado atual: 49 Expedições em rascunho (4 a 5 momentos, "Em números", glossário e citações com página), nenhuma aprovada.
+Estado em 27/10/2026: 73 de 77 Expedições aprovadas; Albardão, Araucárias, Campos Ferruginosos e Guaricana seguem em revisão (`npm run check:publication` mostra a contagem atual).
 
 ## Guia de cada parque
 

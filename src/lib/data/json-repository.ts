@@ -18,6 +18,7 @@ import {
   type MapIndex,
   type Park,
   type LostWorld,
+  type ParkContext,
   type ParkGuide,
   type ParkResearch,
   type Photo,
@@ -163,6 +164,7 @@ async function loadDataset(): Promise<Dataset> {
       const guide = await readJsonOr<ParkGuide | null>(null, c, "parks", g.slug, "guide.json");
       const biodiversity = await readJsonOr<Biodiversity | null>(null, c, "parks", g.slug, "biodiversity.generated.json");
       const lostWorld = await readJsonOr<LostWorld | null>(null, c, "parks", g.slug, "lost-world.json");
+      const context = await readJsonOr<ParkContext | null>(null, c, "parks", g.slug, "context.generated.json");
       if (readable) ds.expeditions[`${c}/${g.slug}`] = readable;
       const park: Park = {
         ...g,
@@ -181,6 +183,7 @@ async function loadDataset(): Promise<Dataset> {
         guide: guide && (guide.status === "revisado" || SHOW_DRAFTS) ? guide : undefined,
         biodiversity: biodiversity ?? undefined,
         lostWorld: lostWorld && (lostWorld.status === "revisado" || SHOW_DRAFTS) ? lostWorld : undefined,
+        context: context ?? undefined,
         expedition: readable
           ? { title: readable.title, subtitle: readable.subtitle, approved: readable.approved }
           : undefined,

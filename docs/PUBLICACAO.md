@@ -6,9 +6,10 @@ reconferidos nos sites oficiais na hora da contratação.
 
 ## 1. O que vai ao ar (e o que não vai)
 
-O build de produção **esconde tudo que está em rascunho**. Hoje nenhum guia e nenhuma Expedição foi
-aprovado, então o site público mostraria o mapa, os dados oficiais, as fotos, a biodiversidade, o
-quiz, o Mundo Perdido e os dossiês, mas **não** os guias nem as Expedições.
+O build de produção **esconde tudo que está em rascunho**. Em 27/10/2026 estavam liberados os 77
+guias, 73 das 77 Expedições e os 19 arquivos do Mundo Perdido (`npm run check:publication`). As
+Expedições de Albardão, Araucárias, Campos Ferruginosos e Guaricana seguem em revisão: suas URLs
+respondem 404 e ficam fora do sitemap.
 
 Fluxo recomendado:
 

@@ -25,6 +25,26 @@ export const BASEMAP = {
   foreignBorder: "#a99bb8",
 } as const;
 
+/** Entorno do parque, por tipo de área (mapa e legenda do painel usam as mesmas cores). */
+export const CONTEXT_COLOR = {
+  "protecao-integral": "#2f6b4f",
+  "uso-sustentavel": "#7c9a6a",
+  rppn: "#a8762f",
+  "terra-indigena": "#b4532a",
+  quilombola: "#7a4e8c",
+} as const;
+
+export const CONTEXT_LABEL = {
+  "protecao-integral": "Unidades de proteção integral",
+  "uso-sustentavel": "Unidades de uso sustentável",
+  rppn: "Reservas particulares (RPPN)",
+  "terra-indigena": "Terras indígenas",
+  quilombola: "Territórios quilombolas",
+} as const;
+
+/** Quadrados de registros de uma espécie: contraste com os verdes do mapa. */
+export const OCCURRENCE_COLOR = "#c2522d";
+
 /** Cores da natureza no mapa: matas e áreas protegidas em verde suave. */
 export const NATURE = { wood: "#8fcb82", park: "#a6d697" } as const;
 

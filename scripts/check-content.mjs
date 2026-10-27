@@ -13,6 +13,8 @@ const exists = (...p) => fs.existsSync(path.join(DATA, ...p));
 const THEMES = new Set(["geologia", "hidrografia", "relevo", "clima", "biodiversidade", "conservação", "história", "patrimônio", "arqueologia", "visitação"]);
 const FEATURES = new Set(["timeline"]); // só o que o ExpeditionView sabe desenhar
 const PHOTO_HOSTS = new Set(["upload.wikimedia.org", "thumb.wikimedia.org", "inaturalist-open-data.s3.amazonaws.com", "static.inaturalist.org"]); // next.config.ts
+const THREAT_WORDS = [[/criticamente (em perigo|ameaçad)/i, "CR"], [/\bem perigo\b/i, "EN"], [/\bvulner[aá]ve(l|is)\b/i, "VU"], [/quase ameaçad/i, "NT"]];
+const THREAT_SCOPE = /lista nacional|lista estadual|\bMMA\b|plano de manejo|ICMBio|\bno (Brasil|Rio Grande do Sul|Paraná|estado)\b|\bna (Bahia|Paraíba)\b/i;
 /** Wikimedia Commons: Special:FilePath redireciona a foto original para o CDN de arquivos. */
 const isAllowedPhotoUrl = (src) => {
   try {
@@ -27,6 +29,26 @@ const isAllowedPhotoUrl = (src) => {
     return false;
   }
 };
+
+/** Ponto dentro do polígono do parque (public/geo/<país>/parks/<parque>.json), descontando buracos. */
+const insidePark = (country, slug, [x, y]) => {
+  const file = path.join(process.cwd(), "public", "geo", country, "parks", `${slug}.json`);
+  if (!fs.existsSync(file)) return false;
+  const { geometry } = JSON.parse(fs.readFileSync(file, "utf8"));
+  const inRing = (ring) => {
+    let inside = false;
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i], [xj, yj] = ring[j];
+      if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside;
+    }
+    return inside;
+  };
+  const polygons = geometry.type === "Polygon" ? [geometry.coordinates] : geometry.coordinates;
+  return polygons.some(([outer, ...holes]) => inRing(outer) && !holes.some(inRing));
+};
+const validLocation = (loc, ids) => Array.isArray(loc?.coordinates) && loc.coordinates.length === 2 &&
+  loc.coordinates.every(Number.isFinite) && ["ponto", "aproximado"].includes(loc.precision) &&
+  loc.sourceIds?.length > 0 && loc.sourceIds.every((id) => ids.has(id)) && (!loc.osm || /^(node|way|relation)\/\d+$/.test(loc.osm));
 
 // Wikipédia pode ser consultada, nunca citada; licenças ND proíbem o recorte que o layout faz; NC é aceita (uso não comercial).
 const strings = function* (v) {
@@ -107,6 +129,8 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
         assert(!ids.has(m.id), `${at}: momento duplicado ${m.id}`);
         ids.add(m.id);
         assert(m.paragraphs.length > 0, `${at}: momento ${m.id} sem texto`);
+        if (m.map) assert(m.map.label?.trim() && (m.map.frame === "entorno" || validLocation(m.map.location, refs)),
+          `${at}: lugar do momento ${m.id} sem rótulo, coordenadas, precisão ou fonte existente`);
         assert(m.sourceIds.length > 0 && m.sourceIds.every((id) => refs.has(id)), `${at}: momento ${m.id} com fonte inexistente`);
       }
 
@@ -162,8 +186,19 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
         assert(f.scientificName && f.name && f.why, `${at}: espécie-símbolo incompleta`);
         if (f.photo) assert(isAllowedPhotoUrl(f.photo.src) && f.photo.author && f.photo.license && f.photo.sourceUrl, `${at}: foto de ${f.scientificName} sem atribuição`);
         cites(f.sourceIds, `espécie ${f.scientificName}`);
+        // A ficha mostra a categoria global (IUCN); o texto com outra categoria precisa nomear a lista de origem.
+        const bioFile = exists(country, "parks", slug, "biodiversity.generated.json") && read(country, "parks", slug, "biodiversity.generated.json");
+        const card = bioFile && [...bioFile.groups.flatMap((x) => x.species), ...bioFile.threatened].find((s) => s.iucn && s.scientificName.toLowerCase() === f.scientificName.toLowerCase());
+        const said = THREAT_WORDS.filter(([re]) => re.test(f.why)).map(([, c]) => c);
+        const claims = said.includes("CR") ? said.filter((c) => c !== "EN") : said;
+        assert(!card || !claims.length || claims.includes(card.iucn) || THREAT_SCOPE.test(f.why),
+          `${at}: ${f.scientificName} diz ${claims.join("/")} no texto, mas a ficha mostra ${card?.iucn} (IUCN global). Nomeie a lista citada (nacional, estadual, plano de manejo) ou retire a categoria.`);
       }
       for (const w of g.wonders) {
+        if (w.location) {
+          assert(validLocation(w.location, ids), `${at}: lugar de "${w.title}" sem coordenadas, precisão ou fonte existente`);
+          assert(insidePark(country, slug, w.location.coordinates), `${at}: "${w.title}" fica fora do limite do parque (${w.location.coordinates.join(", ")})`);
+        }
         if (!w.photo) continue;
         const p = w.photo;
         assert(isAllowedPhotoUrl(p.src), `${at}: foto fora dos hosts permitidos: ${p.src}`);

@@ -22,6 +22,7 @@ import {
   setLayerGroupVisible,
 } from "./layers";
 import { MapControls } from "./MapControls";
+import { loadOccurrences, occurrenceFeatures } from "@/lib/occurrences";
 import { BASEMAP, BASEMAP_STYLE, DEM_SOURCE, overviewSource } from "./theme";
 
 type FC = GeoJSON.FeatureCollection;
@@ -55,7 +56,10 @@ export function MapView({ getPadding, layoutKey }: Props) {
   const [mapUnavailable, setMapUnavailable] = useState(false);
   /** O usuário moveu o mapa para longe do enquadramento da seleção atual. */
   const [drifted, setDrifted] = useState(false);
-  const { index, focus, biomes, visibleParks, highlight, setHighlight, panelOpen } = useExplore();
+  const {
+    index, focus, biomes, visibleParks, highlight, setHighlight, panelOpen,
+    activeWonder, setActiveWonder, speciesLayer, storyPlace, mapViewRequest,
+  } = useExplore();
   const router = useRouter();
   /**
    * Relevo 3D (terreno inclinado) é opcional e começa desligado: é o recurso
@@ -72,13 +76,13 @@ export function MapView({ getPadding, layoutKey }: Props) {
   });
 
   // Os handlers do MapLibre são registrados uma vez e leem os valores atuais por ref.
-  const live = useRef({ focus, index, router, getPadding, setHighlight, relief3d });
+  const live = useRef({ focus, index, router, getPadding, setHighlight, relief3d, setActiveWonder });
   useLayoutEffect(() => {
-    live.current = { focus, index, router, getPadding, setHighlight, relief3d };
+    live.current = { focus, index, router, getPadding, setHighlight, relief3d, setActiveWonder };
   });
 
   const geoCache = useRef(new Map<string, Promise<unknown>>());
-  const applied = useRef({ first: true, country: "", parkDetail: "" });
+  const applied = useRef({ first: true, country: "", parkDetail: "", context: "" });
 
   /** Aplica o enquadramento do foco atual (usado na navegação e no botão "recentralizar"). */
   // Estável: só usa refs e o setter de estado.
@@ -236,6 +240,14 @@ export function MapView({ getPadding, layoutKey }: Props) {
           case "attraction-hit":
             tip(p.name);
             break;
+          case "wonder-hit":
+            hovered = [{ source: "wonders", id: f.id! }];
+            tip(p.title, p.approximate ? "Localização aproximada · clique para ler" : "Clique para ler no painel");
+            break;
+          case "context-fill":
+            hovered = [{ source: "context-areas", id: f.id! }];
+            tip(p.name, p.category);
+            break;
           case "admin1-fill": {
             const a = idx.admin1.find((x) => x.slug === p.slug);
             if (!a || fo.path[1] === a.slug) {
@@ -291,6 +303,13 @@ export function MapView({ getPadding, layoutKey }: Props) {
           case "attraction-hit":
             target = [...fo.path.slice(0, 3), p.slug];
             break;
+          case "wonder-hit":
+            // A maravilha é lida no painel: o cartão rola até ficar visível.
+            live.current.setActiveWonder({ index: p.index, from: "map" });
+            return;
+          case "context-fill":
+            // Entorno é informativo: nome e categoria no tooltip, sem navegação.
+            return;
           case "park-hit":
           case "parks-fill": {
             const park = idx.parks.find((x) => x.slug === p.slug);
@@ -406,6 +425,8 @@ export function MapView({ getPadding, layoutKey }: Props) {
 
     setLayerGroupVisible(map, LAYER_GROUPS.parkDetail, deep);
     setLayerGroupVisible(map, LAYER_GROUPS.attractions, deep);
+    // Atrações no mesmo lugar das maravilhas numeradas: nome duplicado e agrupamento com número confundiam.
+    if (level === "park" && focus.wonders.length) setLayerGroupVisible(map, ["attraction-labels", "attraction-clusters", "attraction-cluster-count"], false);
     (map.getSource("attractions") as GeoJSONSource).setData({
       type: "FeatureCollection",
       features: focus.attractions.map((a, i) => ({
@@ -416,6 +437,28 @@ export function MapView({ getPadding, layoutKey }: Props) {
       })),
     });
     map.setFilter("attraction-selected", selectedFilter(currentAttraction ?? ""));
+
+    setLayerGroupVisible(map, LAYER_GROUPS.wonders, level === "park");
+    (map.getSource("wonders") as GeoJSONSource).setData({
+      type: "FeatureCollection",
+      features: (level === "park" ? focus.wonders : []).map((w, i) => ({
+        type: "Feature",
+        id: w.index,
+        properties: { index: w.index, number: i + 1, title: w.title, approximate: w.approximate },
+        geometry: { type: "Point", coordinates: w.coordinates },
+      })),
+    });
+
+    setLayerGroupVisible(map, LAYER_GROUPS.context, deep && focus.context);
+    const contextKey = deep && focus.context ? park : "";
+    if (applied.current.context !== contextKey) {
+      (async () => {
+        const areas = contextKey ? await fetchGeo<FC>(`/geo/${focus.country}/context/${park}.json`) : null;
+        if (stale) return;
+        (map.getSource("context-areas") as GeoJSONSource).setData(areas ?? EMPTY);
+        applied.current.context = contextKey;
+      })();
+    }
 
     (async () => {
       if (deep && applied.current.parkDetail !== park) {
@@ -479,6 +522,102 @@ export function MapView({ getPadding, layoutKey }: Props) {
     apply(highlight, true);
     lastHighlight.current = highlight;
   }, [highlight, ready, index]);
+
+  /*
+   * 6b. "Ver no mapa": a gaveta baixou no celular, então o parque é reenquadrado
+   * na área agora livre. Vem antes dos efeitos 7 e 9, cujo voo (maravilha,
+   * lugar da Expedição) substitui este quando o pedido veio deles.
+   */
+  const lastMapRequest = useRef(mapViewRequest);
+  useEffect(() => {
+    if (lastMapRequest.current === mapViewRequest) return;
+    lastMapRequest.current = mapViewRequest;
+    if (focus) applyFrame(focus, true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- só reage ao pedido
+  }, [mapViewRequest]);
+
+  /** Voa até um ponto, centralizado na área livre (fora do painel/sheet). */
+  const flyToPoint = useCallback((coordinates: [number, number], zoom: number) => {
+    const map = mapRef.current;
+    if (!map) return;
+    const pad = live.current.getPadding();
+    map.flyTo({
+      center: coordinates,
+      zoom,
+      offset: [((pad.left ?? 0) - (pad.right ?? 0)) / 2, ((pad.top ?? 0) - (pad.bottom ?? 0)) / 2],
+      duration: reduceMotion() ? 0 : 1200,
+      essential: true,
+    });
+    setDrifted(true);
+  }, []);
+
+  /* 7. Maravilha ativa: destaca o número; vinda do painel, o mapa vai até ela. */
+  const lastWonder = useRef<number | null>(null);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!ready || !map || !map.getSource("wonders")) return;
+    if (lastWonder.current !== null) map.setFeatureState({ source: "wonders", id: lastWonder.current }, { active: false });
+    lastWonder.current = activeWonder?.index ?? null;
+    if (!activeWonder) return;
+    map.setFeatureState({ source: "wonders", id: activeWonder.index }, { active: true });
+    const point = focus?.wonders.find((w) => w.index === activeWonder.index);
+    if (point && activeWonder.from === "panel") flyToPoint(point.coordinates, point.approximate ? 13.2 : 14);
+  }, [activeWonder, ready, focus, flyToPoint]);
+
+  /* 8. Espécie em leitura: quadrados com os registros dentro da área consultada. */
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!ready || !map) return;
+    let stale = false;
+    const source = map.getSource("occurrences") as GeoJSONSource;
+    if (!speciesLayer || !focus) {
+      source.setData(EMPTY);
+      return;
+    }
+    loadOccurrences(focus.country, speciesLayer.park).then((grid) => {
+      const entry = grid?.species[String(speciesLayer.gbifKey)];
+      if (!stale) source.setData(entry ? occurrenceFeatures(entry) : EMPTY);
+    });
+    return () => {
+      stale = true;
+    };
+  }, [speciesLayer, ready, focus]);
+
+  /* 9. Expedição: o mapa acompanha o lugar do trecho em leitura. */
+  const storyMoved = useRef(false);
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!ready || !map || !focus) return;
+    const source = map.getSource("story-place") as GeoJSONSource;
+    const emphasis = storyPlace && "frame" in storyPlace;
+    map.setPaintProperty("context-fill", "fill-opacity", ["case", ["boolean", ["feature-state", "hover"], false], 0.32, emphasis ? 0.3 : 0.12]);
+    if (map.getLayer("context-labels")) map.setLayerZoomRange("context-labels", emphasis ? 6 : 10, 24);
+    // Com um lugar da Expedição marcado, os nomes das maravilhas disputariam espaço com o dele.
+    setLayerGroupVisible(map, ["wonder-titles"], focus.level === "park" && !(storyPlace && "coordinates" in storyPlace));
+    if (!storyPlace) {
+      source.setData(EMPTY);
+      // Só reenquadra se a leitura moveu o mapa; ao abrir a Expedição o foco já cuidou disso.
+      if (storyMoved.current) applyFrame(focus, true);
+      storyMoved.current = false;
+      return;
+    }
+    storyMoved.current = true;
+    if ("frame" in storyPlace) {
+      source.setData(EMPTY);
+      const [w, s, e, n] = focus.bbox;
+      applyFrame({ ...focus, level: "admin1", bbox: [w - 0.4, s - 0.4, e + 0.4, n + 0.4] }, true);
+      return;
+    }
+    source.setData({
+      type: "FeatureCollection",
+      features: [{
+        type: "Feature",
+        properties: { label: storyPlace.label, approximate: storyPlace.approximate },
+        geometry: { type: "Point", coordinates: storyPlace.coordinates },
+      }],
+    });
+    flyToPoint(storyPlace.coordinates, storyPlace.approximate ? 12.8 : 13.6);
+  }, [storyPlace, ready, focus, applyFrame, flyToPoint]);
 
   return (
     // Wrapper posicionado: o CSS do MapLibre força `position: relative` no próprio contêiner.

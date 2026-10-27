@@ -1,0 +1,509 @@
+{
+  "generatedAt": "2026-10-27",
+  "marginDegrees": 0.4,
+  "sources": [
+    {
+      "id": "cnuc",
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2026_03",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows"
+    },
+    {
+      "id": "funai",
+      "title": "Funai: terras indígenas (polígonos)",
+      "url": "https://geoserver.funai.gov.br/geoserver/Funai/ows"
+    },
+    {
+      "id": "incra",
+      "title": "Incra: áreas de quilombolas (acervo fundiário)",
+      "url": "https://certificacao.incra.gov.br/csv_shp/zip/%C3%81reas%20de%20Quilombolas.zip"
+    }
+  ],
+  "areas": [
+    {
+      "id": "cnuc-0000.52.0900",
+      "kind": "uso-sustentavel",
+      "name": "Área de Proteção Ambiental Pouso Alto",
+      "category": "Área de Proteção Ambiental",
+      "detail": "Estadual · Decreto 5.419 de 07-05-2001",
+      "areaHa": 839486.29,
+      "source": "cnuc"
+    },
+    {
+      "id": "incra-112",
+      "kind": "quilombola",
+      "name": "Território Quilombola Kalunga",
+      "category": "Território quilombola",
+      "detail": "Cavalcante, Teresina de Goiás, Monte Alegre · situação: titulação parcial",
+      "areaHa": 263482.64,
+      "source": "incra"
+    },
+    {
+      "id": "cnuc-0803.52.5217",
+      "kind": "uso-sustentavel",
+      "name": "Área de Proteção Ambiental Águas da Serra",
+      "category": "Área de Proteção Ambiental",
+      "detail": "Municipal · Decreto 06/2025 de 09-05-2025",
+      "areaHa": 85463.17,
+      "source": "cnuc"
+    },
+    {
+      "id": "incra-101",
+      "kind": "quilombola",
+      "name": "Território Quilombola Kalunga do Mimoso",
+      "category": "Território quilombola",
+      "detail": "Arraias e Parana · situação: decreto publicado",
+      "areaHa": 57465.19,
+      "source": "incra"
+    },
+    {
+      "id": "funai-4602",
+      "kind": "terra-indigena",
+      "name": "Avá-Canoeiro",
+      "category": "Tradicionalmente ocupada",
+      "detail": "situação: regularizada",
+      "areaHa": 31427.29,
+      "source": "funai"
+    },
+    {
+      "id": "cnuc-0000.17.1492",
+      "kind": "uso-sustentavel",
+      "name": "Área de Proteção Ambiental Lago de São Salvador do Tocantins, Paranã e Palmeirópolis",
+      "category": "Área de Proteção Ambiental",
+      "detail": "Estadual · Decreto 1.559 de 01-08-2002",
+      "areaHa": 14224.55,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.2183",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural do Tombador",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 26 de 08-05-2009",
+      "areaHa": 8717.48,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1325",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Fazenda Campo Alegre",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 31/94-N de 29-03-1994",
+      "areaHa": 7445.88,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.3991",
+      "kind": "protecao-integral",
+      "name": "Estação Ecológica Chapada de Nova Roma",
+      "category": "Estação Ecológica",
+      "detail": "Estadual · Decreto 9023/2017 de 11-08-2017",
+      "areaHa": 6929.55,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.4128",
+      "kind": "protecao-integral",
+      "name": "Parque Estadual Aguas do Paraiso",
+      "category": "Parque",
+      "detail": "Estadual · Decreto 9.712 de 14-09-2020",
+      "areaHa": 5674.78,
+      "source": "cnuc"
+    },
+    {
+      "id": "incra-18",
+      "kind": "quilombola",
+      "name": "Território Quilombola Família Magalhães",
+      "category": "Território quilombola",
+      "detail": "Nova Roma · situação: decreto publicado",
+      "areaHa": 5492.14,
+      "source": "incra"
+    },
+    {
+      "id": "cnuc-1308.52.3849",
+      "kind": "uso-sustentavel",
+      "name": "Área de Proteção Ambiental Minaçu",
+      "category": "Área de Proteção Ambiental",
+      "detail": "Municipal · Decreto 1121/2018 de 31-10-2018",
+      "areaHa": 2419.79,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.0128",
+      "kind": "uso-sustentavel",
+      "name": "Floresta Nacional da Mata Grande",
+      "category": "Floresta",
+      "detail": "Federal · Decreto S/N de 13-10-2003",
+      "areaHa": 1951.61,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.2149",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Parque do Capetinga",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 73 de 13-10-2005",
+      "areaHa": 1582.23,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3686",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Flor do Cerrado",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 20 de 16-03-2016",
+      "areaHa": 1549.5,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3684",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Flor do Cerrado Iii",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 22 de 17-03-2016",
+      "areaHa": 1541.17,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4462",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Avá-canoeiro",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 241 de 29-03-2022",
+      "areaHa": 1016.52,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1330",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Cara Preta",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 10/99-N de 09-02-1999",
+      "areaHa": 970.94,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1333",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Fazenda Branca Terra dos Anões",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 108-N de 29-11-1996",
+      "areaHa": 595.63,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0080.52.3927",
+      "kind": "uso-sustentavel",
+      "name": "Área de Proteção Ambiental Lagoa Grande",
+      "category": "Área de Proteção Ambiental",
+      "detail": "Municipal · Decreto 19/2017 de 10-01-2017",
+      "areaHa": 402.33,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.5225",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Diamante",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Estadual · Portaria 124 de 09-06-2017",
+      "areaHa": 369.04,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3108",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Integra o Parque",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 250 de 13-11-2013",
+      "areaHa": 318.48,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1343",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Fazenda Mata Funda",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 27/N de 11-04-1997",
+      "areaHa": 309.35,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3105",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Nascentes do Rio Tocantins",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 98 de 02-12-2011",
+      "areaHa": 269.86,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.5262",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Terra Crua I",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria PORTARIA 5.815, DE 30 DE DEZEMBRO DE 2025 de 30-12-2025",
+      "areaHa": 173.97,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.5224",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Komodo",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Estadual · Portaria 123 de 09-06-2017",
+      "areaHa": 169.67,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1360",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Vita Parque",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 21 de 01-03-2001",
+      "areaHa": 144.99,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4553",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Recanto do Arco-íris (novo)",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 1087 de 03-11-2022",
+      "areaHa": 126.24,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3110",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Ponte da Pedra",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 248 de 13-11-2013",
+      "areaHa": 106.83,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1346",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Cachoeira das Pedras Bonitas",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 19/05-N de 11-04-2005",
+      "areaHa": 92.98,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1347",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Escarpas do Paraíso",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 46/2000 de 01-03-2001",
+      "areaHa": 82.09,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3681",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Flor do Cerrado Ii",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 21 de 16-03-2016",
+      "areaHa": 73.97,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3111",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural São Bartolomeu",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 249 de 13-11-2013",
+      "areaHa": 71.03,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4508",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Rio Almas",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 676 de 26-10-2021",
+      "areaHa": 62.06,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3107",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Catingueiro",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 256 de 05-12-2013",
+      "areaHa": 59.94,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1351",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Vale dos Sonhos",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 27/2001 de 01-03-2001",
+      "areaHa": 59.71,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0060.52.3234",
+      "kind": "uso-sustentavel",
+      "name": "Área de Relevante Interesse Ecológico da Cabeceira do Córrego Mahana",
+      "category": "Área de Relevante Interesse Ecológico",
+      "detail": "Municipal · Lei ordinária 764 de 26-12-2006",
+      "areaHa": 56,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4527",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Vale das Araras",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 42 de 01-06-2005",
+      "areaHa": 54.65,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4463",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Sol e Luz",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 158 de 11-03-2022",
+      "areaHa": 49.2,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3109",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Maria Batista",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 251 de 13-11-2013",
+      "areaHa": 47.58,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1355",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Soluar",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 17/2005 de 11-04-2005",
+      "areaHa": 43.95,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4493",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Murundu",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 716 de 08-11-2021",
+      "areaHa": 40.84,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4545",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Terra do Segredo",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 23 de 01-03-2001",
+      "areaHa": 39.94,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4507",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Bacupari",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 234 de 14-04-2021",
+      "areaHa": 36.77,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4477",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Flor das Águas do Cerrado",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 978 de 10-12-2021",
+      "areaHa": 27.82,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.3112",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Santuário das Pedras",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 50 de 30-04-2014",
+      "areaHa": 25.61,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4467",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Campos Úmidos Vochysias",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 558 de 01-09-2021",
+      "areaHa": 17.9,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.5305",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Águas da Manhana",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Estadual · Portaria 301 de 03-12-2021",
+      "areaHa": 13.52,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.5306",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Renascer",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Estadual · Portaria 300 de 06-12-2021",
+      "areaHa": 9.69,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.5267",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Capão da Onça",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria PORTARIA Nº 231, DE 29 DE JANEIRO DE 2024 de 29-01-2024",
+      "areaHa": 4.97,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.4498",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Biorregional",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 307 de 11-05-2021",
+      "areaHa": 2.5,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.52.5242",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Semente do Amor",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Estadual · Portaria 60 de 24-03-2021",
+      "areaHa": 1.53,
+      "source": "cnuc"
+    },
+    {
+      "id": "cnuc-0000.00.1368",
+      "kind": "rppn",
+      "name": "Reserva Particular do Patrimônio Natural Varanda da Serra",
+      "category": "Reserva Particular do Patrimônio Natural",
+      "detail": "Federal · Portaria 41 de 20-06-2005",
+      "areaHa": 1.43,
+      "source": "cnuc"
+    },
+    {
+      "id": "funai-73789",
+      "kind": "terra-indigena",
+      "name": "Reserva Indígena Avá Canoeiro",
+      "category": "Reserva Indígena",
+      "detail": "Povo Ava-Canoeiro · situação: em criação como reserva indígena",
+      "areaHa": null,
+      "source": "funai"
+    }
+  ]
+}

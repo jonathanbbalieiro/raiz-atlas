@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useExplore, type StoryPlace } from "@/components/map/focus";
+import type { ExpeditionMoment } from "@/lib/data/types";
 
 const scrollParent = (el: HTMLElement | null): HTMLElement | Window => {
   for (let p = el?.parentElement; p; p = p.parentElement) {
@@ -14,7 +16,7 @@ const scrollParent = (el: HTMLElement | null): HTMLElement | Window => {
  * Barra de leitura e capítulo atual da Expedição, dentro da barra fixa do
  * topo. Observa as seções pelos ids; sem JavaScript o texto segue completo.
  */
-export function ReadingProgress({ moments }: { moments: { id: string; title: string }[] }) {
+export function ReadingProgress({ moments }: { moments: Pick<ExpeditionMoment, "id" | "title" | "map">[] }) {
   const [progress, setProgress] = useState(0);
   const [current, setCurrent] = useState<number | null>(null);
   const [host, setHost] = useState<HTMLSpanElement | null>(null);
@@ -45,6 +47,18 @@ export function ReadingProgress({ moments }: { moments: { id: string; title: str
       window.removeEventListener("resize", read);
     };
   }, [host, moments]);
+
+  // O mapa acompanha o lugar do capítulo em leitura; sem lugar, volta ao parque.
+  const { setStoryPlace } = useExplore();
+  const map = current === null ? undefined : moments[current].map;
+  const place: StoryPlace = !map ? null : "frame" in map
+    ? { label: map.label, frame: map.frame }
+    : { label: map.label, coordinates: map.location.coordinates, approximate: map.location.precision === "aproximado" };
+  const placeKey = JSON.stringify(place);
+  useEffect(() => {
+    setStoryPlace(JSON.parse(placeKey) as StoryPlace);
+  }, [placeKey, setStoryPlace]);
+  useEffect(() => () => setStoryPlace(null), [setStoryPlace]);
 
   return (
     <>

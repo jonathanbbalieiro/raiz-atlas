@@ -52,6 +52,18 @@
         "height": 1073,
         "alt": "Salto de 120 metros do rio Preto",
         "context": "O Salto II do rio Preto, com 120 metros de queda livre."
+      },
+      "location": {
+        "coordinates": [
+          -47.84592,
+          -14.16499
+        ],
+        "precision": "aproximado",
+        "sourceIds": [
+          "osm",
+          "go-turismo"
+        ],
+        "osm": "node/2590164100"
       }
     },
     {
@@ -71,6 +83,18 @@
         "height": 1281,
         "alt": "Cânion do rio Preto entre paredões de pedra",
         "context": "Cânion do rio Preto, encaixado em fraturas da rocha."
+      },
+      "location": {
+        "coordinates": [
+          -47.81286,
+          -14.14529
+        ],
+        "precision": "aproximado",
+        "sourceIds": [
+          "osm",
+          "go-turismo"
+        ],
+        "osm": "node/6831097332"
       }
     },
     {
@@ -89,6 +113,17 @@
         "height": 1280,
         "alt": "Cachoeira das Cariocas, com várias quedas do rio Preto",
         "context": "Cachoeira das Cariocas, na Trilha dos Cânions."
+      },
+      "location": {
+        "coordinates": [
+          -47.82086,
+          -14.14457
+        ],
+        "precision": "ponto",
+        "sourceIds": [
+          "osm"
+        ],
+        "osm": "node/10311367993"
       }
     }
   ],
@@ -218,6 +253,13 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "osm",
+      "institution": "OpenStreetMap",
+      "title": "Localização dos atrativos (dados dos colaboradores do OpenStreetMap, licença ODbL)",
+      "url": "https://www.openstreetmap.org/copyright",
+      "accessed": "2026-10-27"
     }
   ]
 }

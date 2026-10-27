@@ -78,7 +78,13 @@ node scripts/upgrade-photo-resolution.mjs   # normaliza fotos para 1920 px (1280
 node scripts/warm-thumbs.mjs                # pré-aquece miniaturas no Commons (parou em 275/368)
 node scripts/clean-biodiversity.mjs         # tira exóticas/cultivadas (Flora e Funga do Brasil)
 node scripts/build-landcover-tiles.mjs      # gera os ladrilhos verdes do mapa (public/tiles)
+npm run context -- <slug>       # entorno: UCs, terras indígenas, quilombos (docs/MAPA.md)
+npm run occurrences -- <slug>   # grade de registros por espécie para o mapa (docs/MAPA.md)
 ```
+
+Mapa que acompanha a leitura (maravilhas numeradas, registros da espécie, entorno, Expedição):
+piloto só na Chapada dos Veadeiros, em 27/10/2026. Formato, fontes e passos para expandir em
+`docs/MAPA.md`.
 
 - `RAIZ_PREVIEW_DRAFTS=1` publica rascunhos (só para deploy de revisão). **Não deixar `.env.local`
   com essa variável num build de produção**: em 22/10 isso fez o build gerar 165 páginas e estourar
@@ -117,6 +123,11 @@ Detalhe em `docs/GUIA_EDITORIAL.md`.
 - Qualidade: horizontal, nítida, original ≥ 2.000 px (ideal 3.000), sem pessoas em destaque, sem
   retratos de indígenas ou crianças, **com prova de lugar** (categoria do parque no Commons ou
   nome do atrativo no arquivo). Sem foto confiável: `"photo": null`.
+- **Fotos de animais e plantas não precisam ter sido feitas no parque** (decisão de 27/10). Uma
+  boa foto da mesma espécie feita em outro lugar serve, desde que a identificação esteja confirmada
+  na fonte e o `context` diga que é ilustrativa. Prefira a melhor foto (nítida, organismo inteiro)
+  a uma foto fraca feita no parque. Continua proibido usar espécie aparentada, e a prova de lugar
+  segue obrigatória para capas, galerias, maravilhas e atrativos.
 - Cartões de espécie em 4:3 com enquadramento a partir do topo (para não cortar a cabeça).
 - O Commons limita requisições (erro 429): rodar em lotes pequenos, com pausa e cache; não rodar
   dois jobs de Commons ao mesmo tempo.
@@ -139,6 +150,11 @@ Faixas com seta (carrossel), visualizador de fotos em tela cheia, quiz "Que bich
 esse?" (5 perguntas; não aparece em Rio Novo e Rio Tanaru), termômetro de ameaça IUCN, "Mundo
 perdido", "Flora em destaque", barra de leitura e capítulo atual nas Expedições, busca (`/` ou
 Ctrl+K), filtros por bioma, "Surpreenda-me".
+
+Tipografia do painel: escala padrão do Tailwind (texto corrido de 14 a 15 px, rótulos de 11 px,
+títulos de seção de 22 px). Em 27/10 o Jonathan achou grandes demais as letras da escala ampliada
+do commit 9e575ce (texto de 20 px, descrições de 18 px, classe `.park-reading`) e pediu a volta da
+versão anterior: não reaplicar sem pedido dele.
 
 ## 9. Segurança e SEO (já feitos)
 

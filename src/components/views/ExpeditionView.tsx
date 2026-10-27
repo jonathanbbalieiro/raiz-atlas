@@ -54,7 +54,7 @@ export function ExpeditionView({
           </svg>
           {trail.at(-1)?.name ?? park.shortName}
         </Link>
-        <ReadingProgress moments={e.moments.map((m) => ({ id: m.id, title: m.title }))} />
+        <ReadingProgress moments={e.moments.map((m) => ({ id: m.id, title: m.title, map: m.map }))} />
       </div>
 
       {!e.approved && (
@@ -239,6 +239,16 @@ function Moment({
           {m.title}
         </h2>
         <p className="mt-2 font-display text-lg leading-snug text-ink-soft italic">{m.question}</p>
+        {m.map && (
+          <p className="mt-3 flex items-center gap-2 text-xs font-semibold text-earth">
+            <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" className="shrink-0">
+              <path d="M8 15s5-4.6 5-8.5A5 5 0 0 0 3 6.5C3 10.4 8 15 8 15Z" fill="none" stroke="currentColor" strokeWidth="1.6" />
+              <circle cx="8" cy="6.5" r="1.8" fill="currentColor" />
+            </svg>
+            No mapa: {m.map.label}
+            {"location" in m.map && m.map.location.precision === "aproximado" && " (localização aproximada)"}
+          </p>
+        )}
         <Prose paragraphs={m.paragraphs} />
       </div>
       {m.images.map((img) => (

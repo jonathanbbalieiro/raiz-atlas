@@ -66,3 +66,64 @@ do proxy falham com ECONNREFUSED; Node 24 funciona com `NODE_USE_ENV_PROXY=1`.
 Downloads Wikimedia exigiram um User-Agent que identifica o projeto. Não foi
 desativada verificação TLS. Os relatórios anteriores registram o bloqueio visto
 naquela rodada e não representam mais o estado atual do acesso à API.
+
+# Auditoria de prontidão — 27/10/2026 (tarde)
+
+## Situação recalculada
+
+`npm run audit:photos` regenerado sobre a base atual (os números abaixo já incluem
+as duas fotos desta rodada):
+
+- Destaques editoriais sem foto: 6 (Serra do Teixeira, Serra Geral, Tijuca,
+  Pacaás Novos, Ubajara, Guaricana). Antes desta rodada: 8.
+- Maravilhas naturais sem foto: 73, em 47 parques.
+- Galerias vazias: 10 parques (Serra das Lontras, Nascentes do Rio Parnaíba,
+  Acari, Albardão, Boqueirão da Onça, Campos Ferruginosos, Nascentes do Lago
+  Jari, Rio Tanaru, Serra da Cutia, Serra da Mocidade). Outros 7 têm 1 ou 2 fotos.
+- Espécies únicas sem foto nas abas por grupo e de ameaçadas: 331 nomes
+  científicos. As referências (`sem_foto`) somam 478, porque a mesma espécie
+  aparece em mais de um parque ou aba. Não somar os dois números.
+
+## Fotos incorporadas (abertas, conferidas visualmente, URL com HTTP 200)
+
+- **Tropidurus hygomi** (Serra de Itabaiana): Rony Almeida, CC BY-NC 4.0,
+  iNaturalist obs. 45035005. **Feita no parque**: coordenada com precisão de
+  ~150 m dentro do polígono do projeto; seis identificações concordantes.
+  Ressalva: assinatura pequena no canto inferior esquerdo.
+- **Placosoma cipoense** (Serra do Cipó): a_f_r, CC BY-NC 4.0, obs. 149061465.
+  **Ilustrativa**: sete identificações concordantes, localização ofuscada em
+  Minas Gerais, perto de −18,2° de latitude (fora da Serra do Cipó).
+
+## Candidatas rejeitadas
+
+- *Bothrops jabrensis*, obs. 237552436 e 215792789 (CC BY, 13 identificações):
+  quem publicou declara não ser o autor ("apenas recebi de uma amiga"). Sem
+  autoria, a licença não é válida.
+- *Placosoma cipoense*, `File:Placosoma cordylinum in Paraty, Brazil.jpg`:
+  arquivo nomeado como outra espécie, "supostamente" *P. cipoense*, em Paraty
+  (RJ). Identificação conflitante.
+- *Alouatta ululata*, obs. 223854589 (assinatura gravada, animal encoberto),
+  196060519 e 196060624 (desfocadas, rosto encoberto por folhas).
+- *Tropidurus hygomi*, obs. 314775481: feita no parque, mas o animal aparece
+  contido na mão, com laço de captura e relógio em destaque. Preterida pela
+  obs. 45035005. Obs. 200145176 (Bahia): cauda cortada, foco suave.
+- Sem resultado livre no Commons nem no iNaturalist: *Thoropa lutzi*,
+  *Brachycephalus pombali*, *Allobates pacaas* (a única observação não tem licença
+  aceita) e *Corvomeyenia epilithosa*.
+
+## Categoria de ameaça: escopo explícito
+
+A ficha mostra a categoria **global** (IUCN, via GBIF/Wikidata); vários planos de
+manejo usam a **Lista Nacional (MMA, 2022)**. Em Ubajara, o texto dizia "em perigo"
+e o selo dizia "Vulnerável" no mesmo cartão. Conferido no plano de manejo
+(p. 16): EN na Lista Nacional. Textos ajustados para nomear a lista em Ubajara
+(2), Jaú (1) e Sete Cidades (2). O selo agora diz "· IUCN global" e a ficha da
+espécie informa fonte, abrangência e data da base. O `check:content` reprova
+destaque cuja categoria no texto difere da categoria da ficha sem nomear a lista.
+
+## Build local
+
+No Windows desta máquina, `npm run build` gera todas as páginas do sitemap e
+então para sem uso de CPU, antes de gravar `prerender-manifest.json`. Isso também
+acontece fora do OneDrive. O site publicado corresponde ao último commit, então o
+build da Vercel passa. Até a causa ser encontrada, a validação local usa `next dev`.

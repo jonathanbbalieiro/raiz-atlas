@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import type { AttractionType, BBox, Biome, LngLat, MapIndex, PlaceLevel } from "@/lib/data/types";
 
 /**
@@ -16,7 +16,26 @@ export interface MapFocusState {
   bbox: BBox;
   /** Pins do parque aberto (só os com coordenadas confirmadas). */
   attractions: AttractionPoint[];
+  /** Maravilhas do guia com lugar, numeradas na ordem dos cartões do painel. */
+  wonders: WonderPoint[];
+  /** O parque tem camada de entorno em /geo/<país>/context/<parque>.json. */
+  context: boolean;
 }
+
+export interface WonderPoint {
+  /** Posição do cartão na lista de maravilhas do guia. */
+  index: number;
+  title: string;
+  coordinates: LngLat;
+  approximate: boolean;
+}
+
+/** Maravilha escolhida no painel ou no mapa; a origem decide quem reage. */
+export type ActiveWonder = { index: number; from: "panel" | "map" } | null;
+/** Espécie em leitura no explorador: o mapa mostra onde ela foi registrada. */
+export type SpeciesLayer = { park: string; gbifKey: number } | null;
+/** Lugar do trecho da Expedição em leitura; sem lugar, o mapa volta ao parque. */
+export type StoryPlace = { label: string; coordinates: LngLat; approximate: boolean } | { label: string; frame: "entorno" } | null;
 
 export interface AttractionPoint {
   slug: string;
@@ -48,6 +67,15 @@ interface ExploreState {
    * fechar de um parque volta para ele, preservando o caminho do usuário.
    */
   lastContextPath: string | null;
+  activeWonder: ActiveWonder;
+  setActiveWonder: (w: ActiveWonder) => void;
+  speciesLayer: SpeciesLayer;
+  setSpeciesLayer: (s: SpeciesLayer) => void;
+  storyPlace: StoryPlace;
+  setStoryPlace: (p: StoryPlace) => void;
+  /** Contador: cada pedido de "ver no mapa" baixa o bottom sheet no celular. */
+  mapViewRequest: number;
+  requestMapView: () => void;
 }
 
 const ExploreContext = createContext<ExploreState | null>(null);
@@ -57,6 +85,11 @@ export function ExploreProvider({ index, children }: { index: MapIndex; children
   const [biomes, setBiomes] = useState<Biome[] | null>(null);
   const [highlight, setHighlight] = useState<Highlight>(null);
   const [panelOpen, setPanelOpen] = useState(true);
+  const [activeWonder, setActiveWonder] = useState<ActiveWonder>(null);
+  const [speciesLayer, setSpeciesLayer] = useState<SpeciesLayer>(null);
+  const [storyPlace, setStoryPlace] = useState<StoryPlace>(null);
+  const [mapViewRequest, setMapViewRequest] = useState(0);
+  const requestMapView = useCallback(() => setMapViewRequest((n) => n + 1), []);
 
   // Guarda a página anterior se ela era a visão geral ou um estado (até 2
   // segmentos). Ajuste feito no render (estado derivado), sem efeito extra.
@@ -68,6 +101,10 @@ export function ExploreProvider({ index, children }: { index: MapIndex; children
   if (nav.current !== pathname) {
     const wasContext = nav.current.split("/").filter(Boolean).length <= 2;
     setNav({ current: pathname, lastContext: wasContext ? nav.current : nav.lastContext });
+    // Escolhas feitas no painel valem só para a página em que foram feitas.
+    setActiveWonder(null);
+    setStoryPlace(null);
+    setSpeciesLayer(null);
   }
   const lastContextPath = nav.lastContext;
 
@@ -96,8 +133,16 @@ export function ExploreProvider({ index, children }: { index: MapIndex; children
       panelOpen,
       setPanelOpen,
       lastContextPath,
+      activeWonder,
+      setActiveWonder,
+      speciesLayer,
+      setSpeciesLayer,
+      storyPlace,
+      setStoryPlace,
+      mapViewRequest,
+      requestMapView,
     }),
-    [index, focus, biomes, visibleParks, highlight, panelOpen, lastContextPath],
+    [index, focus, biomes, visibleParks, highlight, panelOpen, lastContextPath, activeWonder, speciesLayer, storyPlace, mapViewRequest, requestMapView],
   );
   return <ExploreContext.Provider value={value}>{children}</ExploreContext.Provider>;
 }

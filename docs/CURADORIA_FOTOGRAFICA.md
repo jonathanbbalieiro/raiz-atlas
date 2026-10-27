@@ -8,6 +8,21 @@ de uma espécie pode ilustrar diferentes parques se houver evidência independen
 de ocorrência em cada um e se a legenda deixar claro o caráter ilustrativo.
 Uma foto de espécie feita em outro país nunca deve virar uma capa do parque.
 
+**Fotos de animais e plantas podem ter sido feitas fora do parque** (decisão de
+27/10/2026). Para fichas, destaques e cartões de espécie, a qualidade e a
+identificação correta pesam mais que o local: prefira uma foto nítida, com o
+organismo inteiro, feita em qualquer lugar, a uma foto fraca feita no parque.
+Condições:
+
+- a identificação da **mesma espécie** precisa estar confirmada na página
+  original; espécie aparentada ou do mesmo gênero não serve;
+- o `context` diz que a imagem é ilustrativa e, quando souber, onde foi feita;
+  uma foto ilustrativa não serve como prova de que a espécie ocorre no parque;
+- se houver duas candidatas de qualidade equivalente, a feita no parque ganha.
+
+Essa liberdade vale só para organismos. Capas, galerias, maravilhas e atrativos
+continuam exigindo prova de lugar.
+
 O catálogo de `src/lib/species-photos.ts` reaproveita somente a identificação já
 registrada no projeto, por nome científico idêntico. Exige nome científico no
 texto alternativo, largura cadastrada de pelo menos 960 px, autor identificado

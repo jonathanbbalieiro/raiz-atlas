@@ -6,21 +6,21 @@
     "missingSpeciesDisplayed": 150,
     "missingPlantsDisplayed": 92,
     "missingThreatenedRaw": 249,
-    "missingThreatenedDisplayed": 241,
+    "missingThreatenedDisplayed": 239,
     "missingFlagshipsRaw": 12,
-    "missingFlagshipsDisplayed": 8,
+    "missingFlagshipsDisplayed": 6,
     "filledSpeciesReferences": 8,
     "removedSpeciesReferences": 2,
-    "reusedThreatened": 8,
-    "recoveredFlagships": 4
+    "reusedThreatened": 10,
+    "recoveredFlagships": 6
   },
   "counts": {
     "autoria_a_revisar": 59,
     "dimensoes_ausentes": 1,
-    "licenca_com_restricoes": 29,
+    "licenca_com_restricoes": 33,
     "localizacao_a_revisar": 1,
     "resolucao_baixa_para_o_uso": 798,
-    "sem_foto": 482
+    "sem_foto": 478
   },
   "limitations": "Auditoria de metadados locais. Não comprova identificação visual, integridade HTTP, autoria ou localização. Reuso restrito ao nome científico idêntico na base existente; nunca transfere ocorrência ou alega que a foto foi feita no parque.",
   "perPark": [
@@ -149,8 +149,8 @@
       "name": "Parque Nacional da Serra do Cipó",
       "missingSpecies": 0,
       "missingPlants": 0,
-      "missingThreatened": 8,
-      "missingFlagships": 1
+      "missingThreatened": 7,
+      "missingFlagships": 0
     },
     {
       "slug": "serra-do-divisor",
@@ -637,8 +637,8 @@
       "name": "Parque Nacional Serra de Itabaiana",
       "missingSpecies": 0,
       "missingPlants": 0,
-      "missingThreatened": 1,
-      "missingFlagships": 1
+      "missingThreatened": 0,
+      "missingFlagships": 0
     }
   ],
   "issues": [
@@ -2483,7 +2483,8 @@
       "park": "serra-do-cipo",
       "location": "destaques[0]",
       "subject": "Placosoma cipoense",
-      "issue": "sem_foto"
+      "issue": "licenca_com_restricoes",
+      "sourceUrl": "https://www.inaturalist.org/observations/149061465"
     },
     {
       "park": "serra-do-cipo",
@@ -2610,7 +2611,8 @@
       "park": "serra-do-cipo",
       "location": "ameacadas",
       "subject": "Placosoma cipoense",
-      "issue": "sem_foto"
+      "issue": "licenca_com_restricoes",
+      "sourceUrl": "https://www.inaturalist.org/observations/149061465"
     },
     {
       "park": "serra-do-cipo",
@@ -9693,7 +9695,8 @@
       "park": "serra-de-itabaiana",
       "location": "destaques[1]",
       "subject": "Tropidurus hygomi",
-      "issue": "sem_foto"
+      "issue": "licenca_com_restricoes",
+      "sourceUrl": "https://www.inaturalist.org/observations/45035005"
     },
     {
       "park": "serra-de-itabaiana",
@@ -9734,7 +9737,8 @@
       "park": "serra-de-itabaiana",
       "location": "ameacadas",
       "subject": "Tropidurus hygomi",
-      "issue": "sem_foto"
+      "issue": "licenca_com_restricoes",
+      "sourceUrl": "https://www.inaturalist.org/observations/45035005"
     },
     {
       "park": "serra-de-itabaiana",

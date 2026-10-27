@@ -1,16 +1,18 @@
 import type { ExpressionSpecification, FilterSpecification, Map as MlMap } from "maplibre-gl";
-import { MAP_COLORS as C, MAP_FONTS, TYPE_COLOR, biomeColorExpr } from "./theme";
+import { CONTEXT_COLOR, MAP_COLORS as C, MAP_FONTS, OCCURRENCE_COLOR, TYPE_COLOR, biomeColorExpr } from "./theme";
 
 /**
  * Camadas clicáveis, na ordem de prioridade do clique. As "-hit" são
  * invisíveis e maiores que o símbolo: área de toque generosa sem poluir o mapa.
  */
 export const INTERACTIVE_LAYERS = [
+  "wonder-hit",
   "attraction-clusters",
   "attraction-hit",
   "park-clusters",
   "park-hit",
   "parks-fill",
+  "context-fill",
   "admin1-fill",
 ] as const;
 
@@ -38,6 +40,13 @@ const typeColorExpr = [
 ] as unknown as string;
 
 const state = (key: string): ExpressionSpecification => ["boolean", ["feature-state", key], false];
+
+const contextColorExpr = [
+  "match",
+  ["get", "kind"],
+  ...Object.entries(CONTEXT_COLOR).flat(),
+  C.muted,
+] as unknown as string;
 
 /**
  * Cria todas as fontes (vazias) e camadas uma única vez. Depois disso o mapa só
@@ -156,6 +165,86 @@ export function addLayers(map: MlMap) {
     },
     beforeLabels,
   );
+
+  /*
+   * Entorno do parque aberto: unidades de conservação, terras indígenas e
+   * quilombos. Discreto por padrão; "emphasis" (feature-state global via
+   * paint) realça quando o painel ou a Expedição falam dele.
+   */
+  map.addSource("context-areas", { type: "geojson", data: EMPTY });
+  map.addLayer(
+    {
+      id: "context-fill",
+      type: "fill",
+      source: "context-areas",
+      paint: {
+        "fill-color": contextColorExpr,
+        "fill-opacity": ["case", state("hover"), 0.32, 0.12],
+      },
+    },
+    beforeLabels,
+  );
+  map.addLayer(
+    {
+      id: "context-line",
+      type: "line",
+      source: "context-areas",
+      paint: {
+        "line-color": contextColorExpr,
+        "line-width": ["interpolate", ["linear"], ["zoom"], 7, 0.8, 11, 1.6],
+        "line-dasharray": [2, 1.5],
+        "line-opacity": 0.75,
+      },
+    },
+    beforeLabels,
+  );
+  map.addLayer({
+    id: "context-labels",
+    type: "symbol",
+    source: "context-areas",
+    // RPPNs são muitas e pequenas: nome só no tooltip.
+    filter: ["!=", ["get", "kind"], "rppn"],
+    minzoom: 10,
+    layout: {
+      "text-field": ["get", "name"],
+      "text-font": MAP_FONTS.bold,
+      "text-size": 11,
+      "text-max-width": 10,
+      "text-optional": true,
+      "symbol-placement": "point",
+    },
+    paint: { "text-color": contextColorExpr, "text-halo-color": C.card, "text-halo-width": 1.6 },
+  });
+
+  // Onde a espécie em leitura foi registrada: quadrados agregados, nunca pontos.
+  map.addSource("occurrences", { type: "geojson", data: EMPTY });
+  map.addLayer({
+    id: "occurrence-cells",
+    type: "fill",
+    source: "occurrences",
+    filter: ["==", ["geometry-type"], "Polygon"],
+    paint: {
+      "fill-color": OCCURRENCE_COLOR,
+      "fill-opacity": ["interpolate", ["linear"], ["get", "share"], 0, 0.35, 1, 0.75],
+      "fill-outline-color": "#ffffff",
+    },
+  });
+  // Quadrados de 2 km somem na visão do parque inteiro: um marcador mínimo no
+  // centro de cada um, que desaparece quando o quadrado já é visível.
+  map.addLayer({
+    id: "occurrence-marks",
+    type: "circle",
+    source: "occurrences",
+    filter: ["==", ["geometry-type"], "Point"],
+    maxzoom: 11,
+    paint: {
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 6, 4, 10, 5],
+      "circle-color": OCCURRENCE_COLOR,
+      "circle-opacity": ["interpolate", ["linear"], ["get", "share"], 0, 0.55, 1, 0.95],
+      "circle-stroke-color": "#ffffff",
+      "circle-stroke-width": 1,
+    },
+  });
 
   // Parque selecionado: geometria detalhada, halo claro e contorno escuro.
   map.addLayer(
@@ -337,6 +426,95 @@ export function addLayers(map: MlMap) {
     },
     paint: { "text-color": C.ink, "text-halo-color": C.card, "text-halo-width": 1.6 },
   });
+
+  // Maravilhas do guia: número igual ao do cartão no painel.
+  map.addSource("wonders", { type: "geojson", data: EMPTY });
+  map.addLayer({
+    id: "wonder-hit",
+    type: "circle",
+    source: "wonders",
+    paint: { "circle-radius": 20, "circle-color": "#000000", "circle-opacity": 0 },
+  });
+  map.addLayer({
+    id: "wonders",
+    type: "circle",
+    source: "wonders",
+    paint: {
+      // De longe, ponto pequeno sem número: marcadores vizinhos sobrepostos pareciam outro número ("3" + "2" = "32").
+      "circle-radius": ["interpolate", ["linear"], ["zoom"], 10.5, ["case", state("active"), 8, 5], 11, ["case", state("active"), 15, state("hover"), 13.5, 12]],
+      "circle-color": ["case", state("active"), C.forestDeep, C.card],
+      "circle-stroke-color": C.forestDeep,
+      "circle-stroke-width": 2,
+    },
+  });
+  map.addLayer({
+    id: "wonder-labels",
+    type: "symbol",
+    source: "wonders",
+    minzoom: 11,
+    layout: {
+      "text-field": ["to-string", ["get", "number"]],
+      "text-font": MAP_FONTS.bold,
+      "text-size": 13,
+      "text-allow-overlap": true,
+      "text-ignore-placement": true,
+    },
+    paint: { "text-color": ["case", state("active"), C.card, C.forestDeep] },
+  });
+  map.addLayer({
+    id: "wonder-titles",
+    type: "symbol",
+    source: "wonders",
+    // De longe, só os números: os nomes se sobrepunham aos rótulos do parque.
+    minzoom: 10,
+    layout: {
+      "text-field": ["get", "title"],
+      "text-font": MAP_FONTS.bold,
+      "text-size": 12,
+      "text-variable-anchor": ["left", "right", "top", "bottom"],
+      "text-radial-offset": 1.5,
+      "text-max-width": 10,
+      "text-optional": true,
+    },
+    paint: { "text-color": C.forestDeep, "text-halo-color": C.card, "text-halo-width": 1.8 },
+  });
+
+  // Lugar do trecho da Expedição em leitura.
+  map.addSource("story-place", { type: "geojson", data: EMPTY });
+  map.addLayer({
+    id: "story-place-halo",
+    type: "circle",
+    source: "story-place",
+    paint: {
+      // Ponto aproximado: círculo maior e translúcido, sem sugerir precisão.
+      "circle-radius": ["case", ["get", "approximate"], 26, 14],
+      "circle-color": C.earth,
+      "circle-opacity": 0.22,
+      "circle-stroke-color": C.earth,
+      "circle-stroke-width": 1.5,
+    },
+  });
+  map.addLayer({
+    id: "story-place",
+    type: "circle",
+    source: "story-place",
+    paint: { "circle-radius": 6, "circle-color": C.earth, "circle-stroke-color": C.card, "circle-stroke-width": 2 },
+  });
+  map.addLayer({
+    id: "story-place-label",
+    type: "symbol",
+    source: "story-place",
+    layout: {
+      "text-field": ["get", "label"],
+      "text-font": MAP_FONTS.bold,
+      "text-size": 13,
+      "text-anchor": "top",
+      "text-offset": [0, 1.6],
+      "text-max-width": 12,
+      "text-allow-overlap": true,
+    },
+    paint: { "text-color": C.forestDeep, "text-halo-color": C.card, "text-halo-width": 2 },
+  });
 }
 
 /** Liga/desliga grupos de camadas conforme o nível da hierarquia. */
@@ -356,6 +534,8 @@ export const LAYER_GROUPS = {
     "attractions",
     "attraction-labels",
   ],
+  wonders: ["wonder-hit", "wonders", "wonder-labels", "wonder-titles"],
+  context: ["context-fill", "context-line", "context-labels"],
 } as const;
 
 export const selectedFilter = (slug: string): FilterSpecification => ["==", ["get", "slug"], slug];

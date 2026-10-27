@@ -135,7 +135,22 @@
           "alt": "Queda d’água do Rio Preto na Chapada dos Veadeiros, documentada em fotografia.",
           "context": "A queda do rio Preto é um exemplo da presença de desníveis na paisagem. A explicação geológica depende dos estudos citados, não da fotografia isolada."
         }
-      ]
+      ],
+      "map": {
+        "label": "Cânions I e II do rio Preto",
+        "location": {
+          "coordinates": [
+            -47.81286,
+            -14.14529
+          ],
+          "precision": "aproximado",
+          "sourceIds": [
+            "osm",
+            "turismo"
+          ],
+          "osm": "node/6831097332"
+        }
+      }
     },
     {
       "id": "cerrado",
@@ -236,7 +251,23 @@
           "alt": "O Salto I do rio Preto, de 80 metros. O garimpo do Garimpão, o maior da região, ficava logo depois do primeiro salto.",
           "context": "O Salto I do rio Preto, de 80 metros. O garimpo do Garimpão, o maior da região, ficava logo depois do primeiro salto."
         }
-      ]
+      ],
+      "map": {
+        "label": "Área do Garimpão, no percurso dos Saltos do rio Preto",
+        "location": {
+          "coordinates": [
+            -47.84457,
+            -14.16371
+          ],
+          "precision": "aproximado",
+          "sourceIds": [
+            "pm",
+            "turismo",
+            "osm"
+          ],
+          "osm": "node/5197196854"
+        }
+      }
     },
     {
       "id": "limites",
@@ -276,7 +307,11 @@
           "alt": "Corredeiras do rio Preto dentro do Parque Nacional da Chapada dos Veadeiros.",
           "context": "Registro das corredeiras do rio Preto. A relação entre o parque e suas nascentes externas exige a leitura dos documentos de manejo."
         }
-      ]
+      ],
+      "map": {
+        "label": "O parque e as áreas protegidas vizinhas",
+        "frame": "entorno"
+      }
     },
     {
       "id": "uso-publico",
@@ -313,7 +348,22 @@
           "alt": "Trilha dos Cânions, com vista do rio Preto.",
           "context": "Trilha dos Cânions, com vista do rio Preto."
         }
-      ]
+      ],
+      "map": {
+        "label": "Vila de São Jorge, portão de entrada do parque",
+        "location": {
+          "coordinates": [
+            -47.8151,
+            -14.17782
+          ],
+          "precision": "aproximado",
+          "sourceIds": [
+            "pm",
+            "osm"
+          ],
+          "osm": "node/504459602"
+        }
+      }
     }
   ],
   "feature": {
@@ -422,6 +472,14 @@
       "url": "https://whc.unesco.org/en/list/1035/",
       "accessedAt": "2026-10-20",
       "use": "reconhecimento do sítio em 2001"
+    },
+    {
+      "id": "osm",
+      "institution": "OpenStreetMap",
+      "title": "Dados dos colaboradores do OpenStreetMap (licença ODbL)",
+      "url": "https://www.openstreetmap.org/copyright",
+      "accessedAt": "2026-10-27",
+      "use": "localização dos lugares mostrados no mapa durante a leitura"
     }
   ],
   "approved": true,

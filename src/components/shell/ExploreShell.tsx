@@ -60,7 +60,7 @@ function Shell({ children }: { children: ReactNode }) {
   const [snap, setSnap] = useState<Snap>(() => snapFor(pathname));
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   const [expanded, setExpanded] = useState(false);
-  const { panelOpen, setPanelOpen } = useExplore();
+  const { panelOpen, setPanelOpen, mapViewRequest, activeWonder } = useExplore();
 
   // Ao trocar de nível o sheet se ajusta e o painel reabre (estado derivado,
   // ajustado no render para que o enquadramento do mapa já use a área nova).
@@ -75,6 +75,19 @@ function Shell({ children }: { children: ReactNode }) {
   useEffect(() => {
     panelRef.current?.scrollTo({ top: readingPositions.current.get(pathname) ?? 0, behavior: "instant" });
   }, [pathname]);
+
+  // "Ver no mapa" no celular: a gaveta baixa para o mapa aparecer. Ajuste no render, como o de navegação.
+  const [lastMapRequest, setLastMapRequest] = useState(mapViewRequest);
+  if (mapViewRequest !== lastMapRequest) {
+    setLastMapRequest(mapViewRequest);
+    if (typeof window !== "undefined" && !window.matchMedia(DESKTOP_QUERY).matches) setSnap("peek");
+  }
+  // Maravilha tocada no mapa com a gaveta recolhida: sobe o bastante para mostrar o cartão.
+  const [lastWonder, setLastWonder] = useState(activeWonder);
+  if (activeWonder !== lastWonder) {
+    setLastWonder(activeWonder);
+    if (activeWonder?.from === "map" && snap === "peek") setSnap("half");
+  }
 
   const live = useRef({ snap, panelOpen });
   // Atualizado antes dos efeitos de foco do mapa, que leem a área livre.
@@ -92,11 +105,14 @@ function Shell({ children }: { children: ReactNode }) {
     }
     const safeTop =
       Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--sat")) || 0;
+    const top = safeTop + 132;
     return {
-      top: safeTop + 132,
+      top,
       left: 20,
       right: 64,
-      bottom: window.innerHeight * SNAPS[live.current.snap] + 16,
+      // Com a gaveta inteira aberta, sobra uma faixa mínima: sem área livre o
+      // MapLibre não enquadra e o mapa ficaria no mundo inteiro ao baixar a gaveta.
+      bottom: Math.min(window.innerHeight * SNAPS[live.current.snap] + 16, window.innerHeight - top - 120),
     };
   }, []);
 

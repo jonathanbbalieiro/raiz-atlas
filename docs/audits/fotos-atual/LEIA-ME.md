@@ -8,13 +8,13 @@ Gerada por `npm run audit:photos`. Auditoria de metadados locais. Não comprova 
 - missingSpeciesDisplayed: 150
 - missingPlantsDisplayed: 92
 - missingThreatenedRaw: 249
-- missingThreatenedDisplayed: 241
+- missingThreatenedDisplayed: 239
 - missingFlagshipsRaw: 12
-- missingFlagshipsDisplayed: 8
+- missingFlagshipsDisplayed: 6
 - filledSpeciesReferences: 8
 - removedSpeciesReferences: 2
-- reusedThreatened: 8
-- recoveredFlagships: 4
+- reusedThreatened: 10
+- recoveredFlagships: 6
 
 Os contadores Species referem-se às abas por grupo; Threatened refere-se à aba de ameaçadas. Pode haver sobreposição de espécies entre essas seleções. Raw é a base em disco; Displayed inclui o reuso por nome científico no carregamento do site.
 
@@ -51,11 +51,9 @@ Os contadores Species referem-se às abas por grupo; Threatened refere-se à aba
 | Parque Nacional de Saint-Hilaire/lange | 1 | 1 | 11 | 0 |
 | Parque Nacional Marinho dos Abrolhos | 1 | 1 | 3 | 0 |
 | Parque Nacional Montanhas do Tumucumaque | 2 | 1 | 4 | 0 |
-| Parque Nacional da Serra do Cipó | 0 | 0 | 8 | 1 |
 | Parque Nacional da Serra do Teixeira | 4 | 0 | 1 | 1 |
 | Parque Nacional da Tijuca | 0 | 0 | 4 | 1 |
 | Parque Nacional de Ubajara | 0 | 0 | 1 | 1 |
-| Parque Nacional Serra de Itabaiana | 0 | 0 | 1 | 1 |
 | Parque Nacional Cavernas do Peruaçu | 0 | 0 | 4 | 0 |
 | Parque Nacional da Amazônia | 3 | 0 | 0 | 0 |
 | Parque Nacional da Chapada das Mesas | 2 | 0 | 0 | 0 |
@@ -66,6 +64,7 @@ Os contadores Species referem-se às abas por grupo; Threatened refere-se à aba
 | Parque Nacional da Serra da Bodoquena | 1 | 0 | 2 | 0 |
 | Parque Nacional da Serra da Canastra | 0 | 0 | 2 | 0 |
 | Parque Nacional da Serra da Capivara | 0 | 0 | 1 | 0 |
+| Parque Nacional da Serra do Cipó | 0 | 0 | 7 | 0 |
 | Parque Nacional da Serra do Gandarela | 0 | 0 | 6 | 0 |
 | Parque Nacional da Serra do Itajaí | 0 | 0 | 6 | 0 |
 | Parque Nacional da Serra do Pardo | 1 | 0 | 1 | 0 |

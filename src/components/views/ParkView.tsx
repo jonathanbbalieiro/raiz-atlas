@@ -11,6 +11,7 @@ import { BIOME_COLOR, BIOME_LABEL, TYPE_LABEL, formatArea, href, joinPt, plural 
 import { GuideBody, GuideOpening, GuideSources, guideSources } from "./ParkGuide";
 import { ParkHero } from "./ParkHero";
 import { ResearchNotes } from "./ResearchNotes";
+import { ParkSurroundings } from "./ParkSurroundings";
 
 /**
  * Estado C: ficha do parque. Layout editorial com hierarquia clara; só mostra
@@ -44,7 +45,7 @@ export async function ParkView({
       </p>
       <h1 className={`mt-1 font-display font-semibold text-balance ${onPhoto ? "" : "text-forest-deep"}`}>
         {prefix && <span className="block text-base leading-tight font-medium opacity-90">{prefix}</span>}
-        <span className="block text-3xl leading-[1.05]">{park.shortName}</span>
+        <span className="block text-[32px] leading-[1.05]">{park.shortName}</span>
       </h1>
     </>
   );
@@ -53,7 +54,7 @@ export async function ParkView({
     <GalleryProvider photos={park.photos}>
       <JsonLd data={parkData(park)} />
       <JsonLd data={breadcrumbs(trail)} />
-      <article className="park-reading pb-4">
+      <article className="pb-4">
         {cover ? (
           <>
             <ParkHero
@@ -79,7 +80,7 @@ export async function ParkView({
         {park.guide ? (
           <GuideOpening guide={park.guide} sources={guideSources(park.guide)} />
         ) : (
-          <div className="space-y-3 px-5 pt-5 text-base leading-relaxed text-ink">
+          <div className="space-y-3 px-5 pt-5 text-[15px] leading-relaxed text-ink">
             <p>{park.shortDescription}</p>
             {park.longDescription?.split(/\n\s*\n/).map((p, i) => (
               <p key={i}>{p}</p>
@@ -94,7 +95,7 @@ export async function ParkView({
             prefetch
             className="group mx-5 mt-5 block rounded-2xl bg-forest-deep p-5 text-card transition hover:bg-forest"
           >
-            <span className="flex items-center justify-between gap-3 text-xs font-semibold tracking-[0.14em] uppercase opacity-80">
+            <span className="flex items-center justify-between gap-3 text-[11px] font-semibold tracking-[0.14em] uppercase opacity-80">
               Raiz · Expedição
               {!park.expedition.approved && (
                 <span className="rounded-full bg-card/15 px-2 py-0.5 tracking-normal normal-case">
@@ -179,6 +180,8 @@ export async function ParkView({
         )}
 
         <PhotoStrip from={1} heading="Mais fotos" />
+
+        {park.context && park.context.areas.length > 0 && <ParkSurroundings context={park.context} parkName={park.shortName} />}
 
         <ParkCards items={nearby} heading="Parques próximos" filterable={false} />
 

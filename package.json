@@ -12,6 +12,8 @@
     "geo": "node scripts/build-geo.mjs",
     "media": "node scripts/fetch-park-media.mjs",
     "bio": "node scripts/fetch-biodiversity.mjs",
+    "context": "node scripts/build-park-context.mjs",
+    "occurrences": "node scripts/build-occurrence-grid.mjs",
     "photo": "node scripts/commons-photo.mjs",
     "photo:flagships": "node scripts/fill-flagship-photos.mjs",
     "approve": "node scripts/approve.mjs",

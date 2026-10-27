@@ -113,6 +113,8 @@ export interface Park extends PlaceBase {
   biodiversity?: Biodiversity;
   /** Espécies extintas, extintas localmente e megafauna fóssil ligadas ao parque (opcional). */
   lostWorld?: LostWorld;
+  /** Unidades de conservação, terras indígenas e quilombos no entorno (opcional). */
+  context?: ParkContext;
 }
 
 /* ---------- Mundo perdido (data/<país>/parks/<parque>/lost-world.json) ---------- */
@@ -164,6 +166,35 @@ export interface GuideItem {
   sourceIds: string[];
 }
 
+/**
+ * Lugar de uma maravilha ou de um momento da Expedição. "aproximado" quando o
+ * ponto representa uma área (cânion, trecho de rio) ou um lugar sem marco exato.
+ */
+export interface MapLocation {
+  coordinates: LngLat;
+  precision: "ponto" | "aproximado";
+  /** Ids das fontes do guia (ou da Expedição) que sustentam o lugar. */
+  sourceIds: string[];
+  /** Elemento do OpenStreetMap usado como referência, ex.: "node/2590164100". */
+  osm?: string;
+}
+
+/** Áreas protegidas e territórios no entorno (scripts/build-park-context.mjs). */
+export interface ParkContext {
+  generatedAt: string;
+  marginDegrees: number;
+  sources: { id: string; title: string; url: string }[];
+  areas: {
+    id: string;
+    kind: "protecao-integral" | "uso-sustentavel" | "rppn" | "terra-indigena" | "quilombola";
+    name: string;
+    category: string;
+    detail: string;
+    areaHa: number | null;
+    source: string;
+  }[];
+}
+
 export interface ParkGuide {
   schemaVersion: 1;
   /** "rascunho" aparece só em prévia; "revisado" é publicado. */
@@ -175,7 +206,7 @@ export interface ParkGuide {
   intro: string;
   sourceIds: string[];
   protects: { summary: string; items: GuideItem[] };
-  wonders: (GuideItem & { photo: ContextPhoto | null })[];
+  wonders: (GuideItem & { photo: ContextPhoto | null; location?: MapLocation })[];
   curiosities: { text: string; sourceIds: string[] }[];
   stories: GuideItem[];
   /** Espécies-símbolo escolhidas pela edição; a foto vem do levantamento de biodiversidade. */
@@ -290,6 +321,11 @@ export interface ExpeditionMoment {
   citations?: ExpeditionCitation[];
   images: ContextPhoto[];
   note?: { title: string; body: string };
+  /**
+   * Para onde o mapa vai enquanto o momento é lido: um lugar com fonte, ou
+   * "entorno" (parque inteiro e áreas vizinhas). Sem campo, volta ao parque.
+   */
+  map?: { label: string } & ({ location: MapLocation } | { frame: "entorno" });
 }
 
 export interface TimelineFeature {

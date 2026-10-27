@@ -11,6 +11,9 @@ import { biodiversityNavigation, orderBiodiversityRoster } from "@/lib/biodivers
 import Image from "@/components/panel/PhotoImage";
 import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 import { Credit } from "@/components/panel/Gallery";
+import { useExplore } from "@/components/map/focus";
+import { OCCURRENCE_COLOR } from "@/components/map/theme";
+import { cellKm, loadOccurrences, type OccurrenceGrid } from "@/lib/occurrences";
 
 export function BiodiversityView({ park }: { park: Park }) {
   const bio = park.biodiversity!;
@@ -47,6 +50,24 @@ export function BiodiversityView({ park }: { park: Park }) {
   const flagship = guide?.flagships.find((f) => f.scientificName.toLowerCase() === active?.scientificName.toLowerCase());
   const conservation = active?.iucn ? CONSERVATION_INFO[active.iucn] : null;
   const evidence = active ? speciesEvidenceLink(bio, active) : null;
+  const surveyDate = bio.generatedAt.split("-").reverse().join("/");
+  const { setSpeciesLayer, requestMapView } = useExplore();
+  const [country, , parkSlug] = park.path;
+  const [grid, setGrid] = useState<OccurrenceGrid | null>(null);
+  useEffect(() => {
+    let current = true;
+    loadOccurrences(country, parkSlug).then((g) => current && setGrid(g));
+    return () => {
+      current = false;
+    };
+  }, [country, parkSlug]);
+  const occurrence = reading && active ? grid?.species[String(active.gbifKey)] : undefined;
+  // O mapa mostra onde a espécie em leitura foi registrada; na grade, nada.
+  const layerKey = occurrence && active ? active.gbifKey : null;
+  useEffect(() => {
+    setSpeciesLayer(layerKey ? { park: parkSlug, gbifKey: layerKey } : null);
+  }, [layerKey, parkSlug, setSpeciesLayer]);
+  useEffect(() => () => setSpeciesLayer(null), [setSpeciesLayer]);
   const panel = () => rootRef.current?.closest<HTMLElement>(".panel");
   const cardId = (item: SpeciesCard) => `${id}-species-${item.gbifKey}`;
   const restoreSelection = useCallback(() => {
@@ -103,7 +124,7 @@ export function BiodiversityView({ park }: { park: Park }) {
     <a key={source.id} href={source.url} target="_blank" rel="noopener noreferrer" className="mr-3 underline underline-offset-2">{source.institution}: {source.title}</a>
   ));
 
-  return <article ref={rootRef} className="park-reading p-5 md:p-7">
+  return <article ref={rootRef} className="p-5 md:p-7">
     {!reading ? <>
       <Link href={href(park.path)} scroll={false} className="inline-flex min-h-11 items-center text-sm font-semibold text-forest">← Voltar ao parque</Link>
       <p className="mt-4 text-xs font-semibold uppercase tracking-[0.16em] text-earth">Fauna e flora</p>
@@ -154,16 +175,31 @@ export function BiodiversityView({ park }: { park: Park }) {
         </figure>
         <section aria-label="Relação da espécie com o parque" className="min-w-0">
           <h2 className="font-display text-xl font-semibold text-forest-deep">Por que está aqui</h2>
-          <p className="mt-2 text-sm leading-relaxed text-ink">{flagship?.why ?? "A espécie integra a seleção de ocorrências consultada para esta unidade. Sua presença na lista não significa exclusividade ou facilidade de avistamento."}</p>
+          <p className="mt-2 text-sm leading-relaxed text-ink">{flagship?.why ?? (typeof active.records === "number" && active.records > 0
+            ? `Tem ${active.records} ${active.records === 1 ? "registro" : "registros"} de ocorrência no GBIF na área consultada para ${park.shortName} (levantamento de ${surveyDate}). Estar na lista não significa exclusividade nem facilidade de avistamento.`
+            : "A espécie integra a seleção de ocorrências consultada para esta unidade. Sua presença na lista não significa exclusividade ou facilidade de avistamento.")}</p>
           {flagship && <p className="mt-3 text-xs leading-relaxed text-ink-soft">{sourceLinks(flagship.sourceIds)}</p>}
+          {occurrence && occurrence.records > 0 && <div className="mt-4 rounded-xl border border-line bg-card px-4 py-3 text-sm leading-relaxed text-ink">
+            <p className="flex items-start gap-2">
+              <span aria-hidden="true" className="mt-1.5 h-3 w-3 shrink-0 rounded-sm" style={{ background: OCCURRENCE_COLOR }} />
+              <span>
+                No mapa: {occurrence.records} {occurrence.records === 1 ? "registro" : "registros"} em {occurrence.cells.length}{" "}
+                {occurrence.cells.length === 1 ? "quadrado" : "quadrados"} de cerca de {cellKm(occurrence.cell)} km. Quanto mais forte a cor, mais registros.
+              </span>
+            </p>
+            {occurrence.cell >= 0.1 && <p className="mt-1 text-xs text-ink-soft">Espécie ameaçada: os quadrados são maiores para não indicar onde encontrá-la.</p>}
+            <p className="mt-1 text-xs text-ink-soft">Registros mostram onde houve observação ou coleta, não onde a espécie é mais comum.</p>
+            <button type="button" onClick={requestMapView} className="mt-2 min-h-11 font-semibold text-forest underline underline-offset-2 md:hidden">Ver no mapa</button>
+          </div>}
           <h2 className="mt-5 font-display text-xl font-semibold text-forest-deep">Conservação</h2>
           <p className="mt-2 text-sm font-semibold text-forest">{conservation?.label ?? "Categoria não informada na base"}</p>
           <p className="mt-1 text-sm leading-relaxed text-ink-soft">{conservation?.explanation ?? "A ausência de uma categoria na base não permite concluir que a espécie esteja fora de risco."}</p>
+          {conservation && <p className="mt-2 text-xs leading-relaxed text-ink-soft">Fonte: Lista Vermelha da IUCN, avaliação global, conforme a base consultada em {surveyDate}. Listas nacionais ou estaduais podem atribuir outra categoria.</p>}
         </section>
       </div>
       <details className="mt-6 border-t border-line pt-4 text-sm leading-relaxed text-ink-soft">
         <summary className="cursor-pointer py-2 font-semibold text-forest-deep">Dados do levantamento e fontes</summary>
-        <dl className="mt-3 grid gap-3 sm:grid-cols-3"><div><dt>Família</dt><dd className="font-semibold text-ink">{active.family ?? "Não informada"}</dd></div><div><dt>Registros</dt><dd className="font-semibold text-ink">{active.records ?? "Contagem não informada"}</dd></div><div><dt>Levantamento</dt><dd className="font-semibold text-ink">{bio.generatedAt}</dd></div></dl>
+        <dl className="mt-3 grid gap-3 sm:grid-cols-3"><div><dt>Família</dt><dd className="font-semibold text-ink">{active.family ?? "Não informada"}</dd></div><div><dt>Registros</dt><dd className="font-semibold text-ink">{active.records ?? "Contagem não informada"}</dd></div><div><dt>Levantamento</dt><dd className="font-semibold text-ink">{surveyDate}</dd></div></dl>
         <p className="mt-3">Registros não representam o número de indivíduos. A categoria de conservação é global, não uma avaliação da população local.</p>
         {evidence && <a href={evidence.url} target="_blank" rel="noopener noreferrer" className="mt-3 inline-block font-semibold text-forest underline">{evidence.label}</a>}
         {active.iucn && <a href="https://www.iucnredlist.org/resources/categories-and-criteria" target="_blank" rel="noopener noreferrer" className="mt-3 ml-4 inline-block text-forest underline">Categorias da IUCN</a>}

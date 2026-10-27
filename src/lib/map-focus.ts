@@ -5,6 +5,7 @@ import { isVerified, repo, type PlaceNode } from "@/lib/data";
 export async function buildMapFocus(node: PlaceNode): Promise<MapFocusState> {
   const [country, , park] = node.path;
   const attractions = park ? await repo.listAttractions(country, park) : [];
+  const parkNode = node.level === "park" ? node : null;
   return {
     country,
     level: node.level,
@@ -15,5 +16,11 @@ export async function buildMapFocus(node: PlaceNode): Promise<MapFocusState> {
         ? [{ slug: a.slug, name: a.name, type: a.type, coordinates: a.coordinates }]
         : [],
     ),
+    wonders: (parkNode?.guide?.wonders ?? []).flatMap((w, index) =>
+      w.location
+        ? [{ index, title: w.title, coordinates: w.location.coordinates, approximate: w.location.precision === "aproximado" }]
+        : [],
+    ),
+    context: !!parkNode?.context,
   };
 }
