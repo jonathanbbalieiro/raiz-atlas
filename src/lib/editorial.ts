@@ -8,3 +8,4 @@ export const SHOW_DRAFTS =
 
 /** Último segmento da URL da Expedição: /br/go/chapada-dos-veadeiros/expedicao. */
 export const EXPEDITION_SEGMENT = "expedicao";
+export const BIODIVERSITY_SEGMENT = "biodiversidade";

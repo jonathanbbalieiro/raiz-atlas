@@ -40,6 +40,24 @@ export function resolveFlagshipCard(flagship: ParkGuide["flagships"][number], bi
   } : null;
 }
 
+/** Reúne as entradas do explorador sem transformar destaque editorial em ocorrência. */
+export function biodiversityRoster(bio: Biodiversity, guide?: ParkGuide): SpeciesCard[] {
+  const roster = mergeSpecies([...bio.groups.flatMap((g) => g.species), ...bio.threatened]);
+  for (const [index, flagship] of (guide?.flagships ?? []).entries()) {
+    const existing = roster.findIndex((s) => taxonKey(s.scientificName) === taxonKey(flagship.scientificName));
+    const card = resolveFlagshipCard(flagship, bio);
+    if (existing >= 0) {
+      if (card) roster[existing] = { ...roster[existing], photo: card.photo };
+      continue;
+    }
+    roster.push(card ? { ...card, gbifKey: -(index + 1) } : {
+      gbifKey: -(index + 1), scientificName: flagship.scientificName, name: flagship.name,
+      family: null, records: null, iucn: null, wikidata: null, photo: null,
+    });
+  }
+  return roster;
+}
+
 /** Reuso de identificação já presente na base, nunca inferência por nome popular.
  * Não comprova o local da fotografia nem cria uma ocorrência em outro parque. */
 export function buildSpeciesPhotoCatalog(parks: SpeciesDataset[]): Map<string, Photo> {

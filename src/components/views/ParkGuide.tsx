@@ -1,4 +1,5 @@
 import Image from "@/components/panel/PhotoImage";
+import Link from "next/link";
 import { Carousel } from "@/components/panel/Carousel";
 import { Credit } from "@/components/panel/Gallery";
 import type { Biodiversity, GuideSource, LostWorld as LostWorldData, ParkGuide as Guide } from "@/lib/data/types";
@@ -78,11 +79,13 @@ export function GuideBody({
   bio,
   lost,
   parkName,
+  exploreHref,
 }: {
   guide?: Guide;
   bio?: Biodiversity;
   lost?: LostWorldData;
   parkName: string;
+  exploreHref?: string;
 }) {
   const sources = new Map((guide?.sources ?? []).map((s) => [s.id, s]));
   const selectedSpecies = [...new Map([
@@ -178,6 +181,10 @@ export function GuideBody({
               {" "}A aba de ameaçadas usa a categoria de conservação. A cobertura varia entre grupos e regiões e não é um inventário completo. A ausência de uma espécie nesta lista não prova sua ausência no parque.</p>
             <p className="mt-2 leading-relaxed">Uma fotografia ilustra a espécie identificada e pode ter sido feita em outro lugar. O registro de ocorrência e a fonte editorial, e não a foto, sustentam a ligação com o parque.</p>
           </details>
+          {exploreHref && <Link href={exploreHref} scroll={false}
+            className="mt-5 flex min-h-12 items-center justify-between gap-3 rounded-xl border border-forest/30 bg-card px-4 py-3 text-sm font-semibold text-forest hover:bg-moss/15">
+            Explorar fauna e flora em detalhes <span aria-hidden="true">↗</span>
+          </Link>}
           <SpeciesExplorer bio={bio ?? EMPTY_BIO} flagships={flagships} />
           {bio?.boundary.includes("envoltória") && <p className="mt-3 rounded-xl border border-line p-3 text-xs leading-relaxed text-ink-soft">
             Este levantamento usou uma envoltória aproximada do parque, que pode incluir áreas do entorno. Consulte as fontes de ocorrência antes de afirmar presença dentro do limite oficial.

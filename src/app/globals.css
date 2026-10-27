@@ -90,9 +90,21 @@ body {
 }
 
 @media (min-width: 768px) {
+  .shell[data-park] {
+    --panel-w: clamp(400px, 40vw, 600px);
+  }
   /* Expedição: o painel alarga para leitura longa; o mapa segue visível ao lado. */
   .shell[data-reading] {
     --panel-w: clamp(420px, calc(100vw - 360px), 760px);
+  }
+  .shell[data-explorer], .shell[data-expanded][data-park] {
+    --panel-w: min(calc(100vw - 160px), 1120px);
+  }
+  .shell[data-explorer] > header, .shell[data-expanded] > header {
+    right: auto;
+  }
+  .shell[data-explorer][data-panel="open"] [data-map-search], .shell[data-expanded][data-panel="open"] [data-map-search] {
+    display: none;
   }
   .shell[data-panel="open"] {
     --panel-offset: calc(var(--panel-w) + 2 * var(--gap));

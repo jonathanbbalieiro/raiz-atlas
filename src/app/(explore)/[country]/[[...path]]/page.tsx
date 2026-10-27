@@ -8,8 +8,9 @@ import { Admin1View } from "@/components/views/Admin1View";
 import { ExpeditionView } from "@/components/views/ExpeditionView";
 import { OverviewView } from "@/components/views/OverviewView";
 import { ParkView } from "@/components/views/ParkView";
+import { BiodiversityView } from "@/components/views/BiodiversityView";
 import { repo, type Expedition, type Park, type PlaceNode } from "@/lib/data";
-import { EXPEDITION_SEGMENT } from "@/lib/editorial";
+import { BIODIVERSITY_SEGMENT, EXPEDITION_SEGMENT } from "@/lib/editorial";
 import { href, plural } from "@/lib/labels";
 import { buildMapFocus } from "@/lib/map-focus";
 
@@ -28,11 +29,16 @@ export async function generateStaticParams() {
 }
 
 type Params = PageProps<"/[country]/[[...path]]">["params"];
-type Resolved = { node: PlaceNode; expedition?: undefined } | { node: Park; expedition: Expedition };
+type Resolved = { node: PlaceNode; expedition?: undefined; biodiversity?: false } | { node: Park; expedition: Expedition; biodiversity?: false } | { node: Park; expedition?: undefined; biodiversity: true };
 
 async function resolve(params: Params): Promise<Resolved> {
   const { country, path = [] } = await params;
   const full = [country, ...path];
+  if (full.length === 4 && full[3] === BIODIVERSITY_SEGMENT) {
+    const park = await repo.getNode(full.slice(0, 3));
+    if (park?.level !== "park" || !park.biodiversity) notFound();
+    return { node: park, biodiversity: true };
+  }
   if (full.length === 4 && full[3] === EXPEDITION_SEGMENT) {
     const park = await repo.getNode(full.slice(0, 3));
     if (park?.level !== "park") notFound();
@@ -46,16 +52,16 @@ async function resolve(params: Params): Promise<Resolved> {
 }
 
 export async function generateMetadata({ params }: PageProps<"/[country]/[[...path]]">): Promise<Metadata> {
-  const { node, expedition } = await resolve(params);
+  const { node, expedition, biodiversity } = await resolve(params);
   const trail = await repo.getTrail(node.path);
   const where = trail
     .slice(0, -1)
     .reverse()
     .map((t) => t.name)
     .join(", ");
-  const title = expedition ? `${expedition.title} · ${node.name}` : where ? `${node.name}, ${where}` : node.name;
-  const description = expedition ? expedition.subtitle : await describe(node);
-  const canonical = href(expedition ? [...node.path, EXPEDITION_SEGMENT] : node.path);
+  const title = biodiversity ? `Fauna e flora · ${node.name}` : expedition ? `${expedition.title} · ${node.name}` : where ? `${node.name}, ${where}` : node.name;
+  const description = biodiversity ? `Explore animais e plantas de ${node.name}, com fotografias, conservação e fontes de ocorrência.` : expedition ? expedition.subtitle : await describe(node);
+  const canonical = href(biodiversity ? [...node.path, BIODIVERSITY_SEGMENT] : expedition ? [...node.path, EXPEDITION_SEGMENT] : node.path);
   const image =
     expedition?.cover ?? (node.level === "attraction" || node.level === "park" ? node.photos[0] : undefined);
   return {
@@ -117,7 +123,7 @@ function PanelSkeleton() {
 }
 
 async function PlaceContent({ params }: { params: Params }) {
-  const { node, expedition } = await resolve(params);
+  const { node, expedition, biodiversity } = await resolve(params);
   const [trail, children, focus] = await Promise.all([
     repo.getTrail(node.path),
     repo.getChildren(node.path),
@@ -128,7 +134,7 @@ async function PlaceContent({ params }: { params: Params }) {
     <>
       {/* Na Expedição o mapa continua enquadrado no parque, ao lado da leitura. */}
       <MapFocus {...focus} />
-      {expedition ? (
+      {biodiversity ? <BiodiversityView park={node} /> : expedition ? (
         <ExpeditionView park={node} expedition={expedition} trail={trail} />
       ) : (
         <>

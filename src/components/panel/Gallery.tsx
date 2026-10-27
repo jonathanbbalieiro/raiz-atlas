@@ -342,7 +342,7 @@ export function Credit({ photo, className = "" }: { photo: Photo; className?: st
 export function PhotoOpen({ index, label, children }: { index: number; label: string; children: ReactNode }) {
   const { open } = useGallery();
   return (
-    <button type="button" onClick={() => open(index)} aria-label={label} className="block h-full w-full cursor-zoom-in">
+    <button type="button" onClick={() => open(index)} aria-label={label} className="relative block h-full w-full cursor-zoom-in">
       {children}
     </button>
   );

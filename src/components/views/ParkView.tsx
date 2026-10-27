@@ -129,7 +129,7 @@ export async function ParkView({
           />
         </dl>
 
-        <GuideBody guide={park.guide} bio={park.biodiversity} lost={park.lostWorld} parkName={park.shortName} />
+        <GuideBody guide={park.guide} bio={park.biodiversity} lost={park.lostWorld} parkName={park.shortName} exploreHref={`${href(park.path)}/biodiversidade`} />
 
         {park.research && <ResearchNotes research={park.research} />}
 

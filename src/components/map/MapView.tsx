@@ -41,13 +41,14 @@ const CAMERA = {
 interface Props {
   /** Área ocupada pelo painel/bottom sheet, para o enquadramento não ficar por baixo dele. */
   getPadding: () => PaddingOptions;
+  layoutKey?: string;
 }
 
 const reduceMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const isNarrow = () => window.innerWidth < 768;
 const RELIEF_KEY = "raiz:relevo-3d";
 
-export function MapView({ getPadding }: Props) {
+export function MapView({ getPadding, layoutKey }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MlMap | null>(null);
   const [ready, setReady] = useState(false);
@@ -457,7 +458,7 @@ export function MapView({ getPadding }: Props) {
     }
     if (focus) applyFrame(focus, true);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- só reage ao painel
-  }, [panelOpen]);
+  }, [panelOpen, layoutKey]);
 
   /* 6. Destaque vindo da lista do painel. */
   const lastHighlight = useRef<typeof highlight>(null);

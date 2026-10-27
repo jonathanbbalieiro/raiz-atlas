@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import imageLoader from "../src/lib/image-loader";
 import { photoIsPubliclyReusable, rankParkPhotos } from "../src/lib/photos";
-import { applySpeciesPhotoReview, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, resolveFlagshipCard } from "../src/lib/species-photos";
+import { applySpeciesPhotoReview, biodiversityRoster, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, resolveFlagshipCard } from "../src/lib/species-photos";
 import type { Biodiversity, ParkGuide, Photo } from "../src/lib/data/types";
 
 const photo: Photo = {
@@ -68,6 +68,21 @@ test("licença desconhecida não passa por correspondência parcial", () => {
   for (const license of ["", "CC BY-NC 4.0", "CC BY 4.0 ou outra condição", "CC0 PROPRIETARY"]) {
     assert.equal(photoIsPubliclyReusable({ ...photo, license }), false);
   }
+});
+
+test("explorador preserva a foto escolhida e não inventa registros dos destaques editoriais", () => {
+  const chosen = { ...photo, src: "/foto-editorial.jpg" };
+  const guide = { flagships: [
+    { scientificName: "Pteronura brasiliensis", name: "Ariranha", why: "Fonte", sourceIds: ["plano"], photo: chosen },
+    { scientificName: "Espécie editorial", name: "Destaque", why: "Fonte", sourceIds: ["plano"] },
+  ] } as ParkGuide;
+  const roster = biodiversityRoster(bio("Pteronura brasiliensis", photo), guide);
+  assert.equal(roster.length, 2);
+  assert.equal(roster[0].photo?.src, chosen.src);
+  assert.equal(roster[0].records, 5);
+  assert.equal(roster[1].records, null);
+  assert(roster[1].gbifKey < 0);
+  assert.equal(roster[1].photo, null);
 });
 
 test("curadoria do destaque prevalece sem perder os dados de ocorrência", () => {

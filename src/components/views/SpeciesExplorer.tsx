@@ -5,7 +5,6 @@ import { Carousel } from "@/components/panel/Carousel";
 import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
 import type { Biodiversity, IucnCategory, SpeciesCard } from "@/lib/data/types";
 import { filterSpecies, mergeSpecies } from "@/lib/species-search";
-import { biodiversitySelections, CONSERVATION_INFO, speciesEvidenceLink } from "@/lib/species-evidence";
 
 export const IUCN_LABEL: Partial<Record<IucnCategory, string>> = {
   CR: "Criticamente em perigo",
@@ -44,16 +43,10 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
   const [query, setQuery] = useState("");
   const [photosOnly, setPhotosOnly] = useState(false);
   const everyone = mergeSpecies([...bio.groups.flatMap((g) => g.species), ...bio.threatened]);
-  const selections = biodiversitySelections(bio);
-  const withEvidence = (entries: SpeciesCard[]) => {
-    const ids = new Set(entries.map((entry) => entry.gbifKey));
-    return everyone.filter((entry) => ids.has(entry.gbifKey));
-  };
   const tabs = [
     { id: "todas", label: "Todas", species: everyone },
-    ...(selections.animals.length ? [{ id: "animais", label: "Animais", species: selections.animals }] : []),
-    ...(bio.threatened.length ? [{ id: "ameacadas", label: "Ameaçadas", species: withEvidence(bio.threatened) }] : []),
-    ...bio.groups.map((g) => ({ id: g.id, label: g.label, species: withEvidence(g.species) })),
+    ...(bio.threatened.length ? [{ id: "ameacadas", label: "Ameaçadas", species: bio.threatened }] : []),
+    ...bio.groups.map((g) => ({ id: g.id, label: g.label, species: g.species })),
   ];
   const [active, setActive] = useState(tabs.find((t) => t.id === "mamiferos")?.id ?? tabs[0]?.id);
   const current = tabs.find((t) => t.id === active) ?? tabs[0];
@@ -65,17 +58,6 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
 
   return (
     <div>
-      <div className="mt-4 grid grid-cols-2 gap-3" aria-label="Explorar fauna e flora">
-        {[{ id: "animais", label: "Animais", species: selections.animals }, { id: "plantas", label: "Plantas", species: selections.plants }].filter((item) => item.species.length).map((item) => (
-          <button key={item.id} type="button" aria-controls={`${tabId}-panel`}
-            onClick={() => { setActive(item.id); setQuery(""); setPhotosOnly(false); document.getElementById(`${tabId}-search`)?.focus(); }}
-            className="rounded-2xl border border-line bg-card p-4 text-left transition hover:border-forest">
-            <span className="block font-display text-xl font-semibold text-forest-deep">{item.label}</span>
-            <span className="mt-1 block text-sm text-ink-soft">{item.species.length} espécies na seleção por grupos</span>
-            <span className="mt-2 block text-xs font-semibold text-forest">Explorar {item.label.toLowerCase()} →</span>
-          </button>
-        ))}
-      </div>
       {flagships.length > 0 && (
         <Carousel
           label="Espécies em destaque"
@@ -156,7 +138,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
               </div>
               <ul className="mt-2 grid grid-cols-2 gap-2.5">
                 {filtered.map((x) => (
-                  <SpeciesTile key={x.gbifKey} s={x} bio={bio} />
+                  <SpeciesTile key={x.gbifKey} s={x} />
                 ))}
               </ul>
             </div>
@@ -212,10 +194,9 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
             ))}
           </Carousel>
           <p role="status" className="mt-3 text-xs text-ink-soft">{visible.length} {visible.length === 1 ? "espécie nesta seleção" : "espécies nesta seleção"}</p>
-          {/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(bio.generatedAt) && <p className="mt-1 text-xs text-ink-soft">Levantamento de <time dateTime={bio.generatedAt}>{bio.generatedAt.split("-").reverse().join("/")}</time>. A seleção não é um inventário completo.</p>}
           <ul role="tabpanel" id={`${tabId}-panel`} aria-labelledby={`${tabId}-${current.id}`} className="mt-3 grid grid-cols-2 gap-2.5">
             {visible.map((s) => (
-              <SpeciesTile key={s.gbifKey} s={s} bio={bio} />
+              <SpeciesTile key={s.gbifKey} s={s} />
             ))}
             {!visible.length && <li className="col-span-2 rounded-xl border border-dashed border-line p-5 text-center text-sm text-ink-soft">
               Nenhuma espécie desta seleção corresponde aos filtros. Tente outro nome ou limpe os filtros.
@@ -227,9 +208,7 @@ export function SpeciesExplorer({ bio, flagships }: { bio: Biodiversity; flagshi
   );
 }
 
-function SpeciesTile({ s, bio }: { s: SpeciesCard; bio: Biodiversity }) {
-  const evidence = speciesEvidenceLink(bio, s);
-  const conservation = s.iucn ? CONSERVATION_INFO[s.iucn] : null;
+function SpeciesTile({ s }: { s: SpeciesCard }) {
   return (
     <li className="overflow-hidden rounded-xl border border-line bg-card">
                 <div className="relative aspect-[4/3] bg-paper-deep">
@@ -251,17 +230,6 @@ function SpeciesTile({ s, bio }: { s: SpeciesCard; bio: Biodiversity }) {
                     <p className="mt-0.5 truncate text-[11px] text-ink-soft italic">{s.scientificName}</p>
                   )}
                   {s.photo && <PhotoCredit photo={s.photo} />}
-                  <details className="mt-3 border-t border-line pt-2 text-xs leading-relaxed text-ink-soft">
-                    <summary className="cursor-pointer py-1 font-semibold text-forest">Sobre esta espécie</summary>
-                    <p className="mt-2 italic">{s.scientificName}</p>
-                    {s.family && <p className="mt-2">Família: {s.family}.</p>}
-                    <p className="mt-2">{s.records === null ? "Contagem de registros não informada nesta seleção." : `${s.records} ${s.records === 1 ? "registro no levantamento" : "registros no levantamento"}. Registros não representam o número de indivíduos.`}</p>
-                    <p className="mt-2"><strong>{conservation?.label ?? "Categoria global não informada"}.</strong> {conservation?.explanation ?? "A ausência de uma categoria nesta base não permite concluir que a espécie esteja fora de risco."}</p>
-                    {conservation && <a href="https://www.iucnredlist.org/resources/categories-and-criteria" target="_blank" rel="noopener noreferrer" className="mt-2 block underline">Entender as categorias da IUCN</a>}
-                    {evidence && <><a href={evidence.url} target="_blank" rel="noopener noreferrer" className="mt-2 block font-semibold text-forest underline">{evidence.label}</a>
-                      {evidence.spatial && <p className="mt-1">A consulta pode mudar desde o levantamento e usa a mesma área aproximada da fonte.</p>}</>}
-                    {s.photo && <p className="mt-2">A foto ilustra a espécie e pode ter sido feita fora deste parque.</p>}
-                  </details>
                 </div>
               </li>
   );

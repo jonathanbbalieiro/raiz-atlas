@@ -1,10 +1,12 @@
 # Fauna e flora: exploração e evidência
 
-As fichas dos parques oferecem acessos diretos a **Animais** e **Plantas**,
-com contagens da seleção por grupos. Esses números não são estimativas do total
-de espécies protegidas, de indivíduos ou de espécies exclusivas do parque.
+As fichas dos parques mantêm uma apresentação compacta, com um link para
+`/biodiversidade`. Essa página usa um painel amplo e oferece lista pesquisável
+de espécies, filtros de animais/plantas/ameaçadas e uma ficha detalhada.
+As contagens exibidas não estimam o total de espécies protegidas, de indivíduos
+ou de espécies exclusivas do parque.
 
-Cada cartão do explorador permite abrir “Sobre esta espécie” para consultar:
+A ficha do explorador ampliado permite consultar:
 
 - nome científico completo e família, quando informada;
 - número de registros no levantamento, preservando a distinção entre contagem

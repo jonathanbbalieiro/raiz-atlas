@@ -47,6 +47,7 @@ export function SearchBox() {
     const onKey = (e: KeyboardEvent) => {
       const typing = (e.target as HTMLElement)?.closest("input, textarea, select, [contenteditable]");
       if ((e.key === "/" && !typing) || (e.key.toLowerCase() === "k" && (e.metaKey || e.ctrlKey))) {
+        if (!inputRef.current?.getClientRects().length) return;
         e.preventDefault();
         inputRef.current?.focus();
       }

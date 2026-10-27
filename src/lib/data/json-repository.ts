@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
+import { BIODIVERSITY_SEGMENT, EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
 import { BIOME_LABEL, formatArea, joinPt } from "@/lib/labels";
 import { rankParkPhotos } from "@/lib/photos";
 import { applySpeciesPhotoReview, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, type PhotoReview } from "@/lib/species-photos";
@@ -207,8 +207,8 @@ async function loadDataset(): Promise<Dataset> {
       const attractions: Attraction[] = [];
       for (const file of await readDir(c, "parks", g.slug, "attractions")) {
         const at = await readJson<AttractionFile>(c, "parks", g.slug, "attractions", file);
-        if (at.slug === EXPEDITION_SEGMENT) {
-          throw new Error(`${file}: o slug "${EXPEDITION_SEGMENT}" é reservado para a Expedição`);
+        if ([EXPEDITION_SEGMENT, BIODIVERSITY_SEGMENT].includes(at.slug)) {
+          throw new Error(`${file}: o slug "${at.slug}" é reservado para uma seção do parque`);
         }
         if (at.shortDescription.length > SHORT_DESCRIPTION_MAX) {
           throw new Error(`${file}: shortDescription passa de ${SHORT_DESCRIPTION_MAX} caracteres`);
@@ -367,6 +367,7 @@ export class JsonRepository implements PlaceRepository {
       for (const a of ds.admin1[c.slug]) paths.push(a.path);
       for (const p of ds.parks[c.slug]) {
         paths.push(p.path);
+        if (p.biodiversity) paths.push([...p.path, BIODIVERSITY_SEGMENT]);
         if (ds.expeditions[`${c.slug}/${p.slug}`]) paths.push([...p.path, EXPEDITION_SEGMENT]);
         for (const at of ds.attractions[`${c.slug}/${p.slug}`] ?? []) paths.push(at.path);
       }

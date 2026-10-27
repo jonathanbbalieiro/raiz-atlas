@@ -15,7 +15,7 @@ import {
 import { ExploreProvider, useExplore } from "@/components/map/focus";
 import { MapView } from "@/components/map/MapView";
 import type { MapIndex } from "@/lib/data/types";
-import { EXPEDITION_SEGMENT } from "@/lib/editorial";
+import { BIODIVERSITY_SEGMENT, EXPEDITION_SEGMENT } from "@/lib/editorial";
 import { SITE } from "@/lib/site";
 import { BiomeFilter } from "./BiomeFilter";
 import { SearchBox } from "./SearchBox";
@@ -36,7 +36,7 @@ const SNAP_LABEL: Record<Snap, string> = {
  * Na visão do Brasil o mapa é o protagonista; em estado/parque o conteúdo sobe.
  * Na Expedição a leitura é o protagonista: o sheet abre inteiro.
  */
-const isReading = (pathname: string) => pathname.endsWith(`/${EXPEDITION_SEGMENT}`);
+const isReading = (pathname: string) => [EXPEDITION_SEGMENT, BIODIVERSITY_SEGMENT].some((segment) => pathname.endsWith(`/${segment}`));
 const snapFor = (pathname: string): Snap =>
   isReading(pathname) ? "full" : pathname.split("/").filter(Boolean).length >= 2 ? "half" : "peek";
 
@@ -58,6 +58,7 @@ function Shell({ children }: { children: ReactNode }) {
   const panelRef = useRef<HTMLElement>(null);
   const [snap, setSnap] = useState<Snap>(() => snapFor(pathname));
   const [dragHeight, setDragHeight] = useState<number | null>(null);
+  const [expanded, setExpanded] = useState(false);
   const { panelOpen, setPanelOpen } = useExplore();
 
   // Ao trocar de nível o sheet se ajusta e o painel reabre (estado derivado,
@@ -66,6 +67,7 @@ function Shell({ children }: { children: ReactNode }) {
   if (pathname !== lastPath) {
     setLastPath(pathname);
     setSnap(snapFor(pathname));
+    setExpanded(false);
     if (!panelOpen) setPanelOpen(true);
   }
 
@@ -123,6 +125,9 @@ function Shell({ children }: { children: ReactNode }) {
       className="shell fixed inset-0 overflow-hidden"
       data-panel={panelOpen ? "open" : "closed"}
       data-reading={isReading(pathname) ? "" : undefined}
+      data-park={pathname.split("/").filter(Boolean).length >= 3 ? "" : undefined}
+      data-explorer={pathname.endsWith(`/${BIODIVERSITY_SEGMENT}`) ? "" : undefined}
+      data-expanded={expanded ? "" : undefined}
     >
       <a
         href="#conteudo"
@@ -131,7 +136,7 @@ function Shell({ children }: { children: ReactNode }) {
         Pular para o conteúdo
       </a>
 
-      <MapView getPadding={getPadding} />
+      <MapView getPadding={getPadding} layoutKey={`${expanded}-${isReading(pathname)}`} />
 
       {/* Barra superior unificada: marca, busca e descoberta. */}
       <header className="pointer-events-none absolute top-[calc(var(--sat)+12px)] right-3 left-3 z-40 md:top-4 md:right-[calc(var(--panel-offset)+16px)] md:left-4 md:transition-[right] md:duration-200">
@@ -148,9 +153,11 @@ function Shell({ children }: { children: ReactNode }) {
             </span>
             <span className="sr-only lg:hidden">{SITE.name}: início</span>
           </Link>
-          <span aria-hidden="true" className="mx-1 h-7 w-px shrink-0 bg-line" />
-          <SearchBox />
-          <SurpriseButton />
+          <div className="contents" data-map-search>
+            <span aria-hidden="true" className="mx-1 h-7 w-px shrink-0 bg-line" />
+            <SearchBox />
+            <SurpriseButton />
+          </div>
         </div>
       </header>
 
@@ -224,6 +231,13 @@ function Shell({ children }: { children: ReactNode }) {
             <span className="h-1.5 w-11 rounded-full bg-ink/20" />
           </button>
         </div>
+
+        {!isReading(pathname) && pathname.split("/").filter(Boolean).length >= 3 && <div className="hidden justify-end border-b border-line bg-paper px-4 py-1.5 md:flex">
+          <button type="button" aria-label={expanded ? "Reduzir painel do parque" : "Ampliar painel do parque"} aria-expanded={expanded} aria-controls="conteudo"
+            onClick={() => setExpanded((value) => !value)} className="min-h-9 rounded-lg px-3 text-xs font-semibold text-forest hover:bg-paper-deep">
+            {expanded ? "↙ Reduzir largura" : "↗ Ampliar largura"}
+          </button>
+        </div>}
 
         {/* Só o conteúdo do painel participa da transição; o mapa segue vivo. */}
         <ViewTransition key={pathname} enter="panel-in" exit="panel-out" default="none">
