@@ -28,6 +28,11 @@ export function BiodiversityView({ park }: { park: Park }) {
   const [selected, setSelected] = useState<string>();
   const [reading, setReading] = useState(false);
   const [tagOpenFor, setTagOpenFor] = useState("");
+  // A espécie aberta precisa estar na seleção atual; senão a leitura cai no primeiro item da lista.
+  const showInSelection = (name: string) => {
+    setQuery("");
+    setGroup(editorialNames.has(name.trim().toLowerCase()) ? "destaques" : "todas");
+  };
   const rootRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
@@ -107,6 +112,7 @@ export function BiodiversityView({ park }: { park: Park }) {
       if (window.location.pathname !== explorerPath) return;
       const entry = event.state?.raizSpecies;
       if (entry?.path === explorerPath && typeof entry.name === "string") {
+        showInSelection(entry.name);
         setSelected(entry.name);
         setReading(true);
         requestAnimationFrame(() => {
@@ -117,6 +123,7 @@ export function BiodiversityView({ park }: { park: Park }) {
     };
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [explorerPath, restoreSelection]);
 
   useLayoutEffect(() => {
@@ -132,6 +139,7 @@ export function BiodiversityView({ park }: { park: Park }) {
       }
       const found = species.find((s) => s.scientificName.trim().toLowerCase() === name);
       if (!found) return;
+      showInSelection(found.scientificName);
       setSelected(found.scientificName);
       setReading(true);
       requestAnimationFrame(() => {
