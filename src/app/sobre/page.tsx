@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { SOURCES } from "@/lib/about";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -10,17 +11,6 @@ export const metadata: Metadata = {
 
 const CONTACT = SITE.contact;
 
-const SOURCES = [
-  { name: "ICMBio", use: "limites, áreas, atos de criação, planos de manejo e fichas dos parques", url: "https://www.gov.br/icmbio" },
-  { name: "IBGE", use: "malha de estados e municípios", url: "https://www.ibge.gov.br" },
-  { name: "GBIF", use: "registros de espécies dentro do limite de cada parque", url: "https://www.gbif.org" },
-  { name: "Flora e Funga do Brasil (JBRJ)", use: "origem das plantas (nativa, exótica, cultivada)", url: "https://floradobrasil.jbrj.gov.br" },
-  { name: "Wikimedia Commons e Wikidata", use: "fotografias livres, nomes populares e situação de conservação", url: "https://commons.wikimedia.org" },
-  { name: "iNaturalist", use: "fotografias de espécies e nomes populares", url: "https://www.inaturalist.org" },
-  { name: "NASA MODIS (GIBS)", use: "cobertura vegetal do mapa, recolorida pelo Raiz; dados de domínio público", url: "https://earthdata.nasa.gov/gibs" },
-  { name: "OpenFreeMap e OpenStreetMap", use: "nomes, água e limites do mapa de base", url: "https://openfreemap.org" },
-  { name: "Terrain Tiles (Mapzen, AWS)", use: "relevo em 3D", url: "https://registry.opendata.aws/terrain-tiles/" },
-];
 
 export default function SobrePage() {
   return (
@@ -60,8 +50,7 @@ export default function SobrePage() {
       <h2 className="mt-10 font-display text-2xl font-semibold text-forest-deep">Textos e revisão</h2>
       <p className="mt-3 leading-relaxed">
         Os textos editoriais são escritos a partir de fontes oficiais citadas em cada página e passam por revisão
-        antes de serem publicados. Textos sobre povos indígenas e comunidades tradicionais são revisados com as
-        próprias comunidades e com a Funai. Encontrou um erro? Avise e corrigimos.
+        antes de serem publicados. Encontrou um erro? Avise e corrigimos.
       </p>
 
       <h2 className="mt-10 font-display text-2xl font-semibold text-forest-deep">Privacidade</h2>

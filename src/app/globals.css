@@ -247,3 +247,16 @@ body {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* Troca de aba do painel inicial: entrada discreta. */
+@media (prefers-reduced-motion: no-preference) {
+  .tab-pane:not([hidden]) {
+    animation: tab-in 220ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+}
+@keyframes tab-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}

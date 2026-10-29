@@ -10,7 +10,7 @@ import { href, plural } from "@/lib/labels";
  * biomas (o rótulo acessível diz entre quantos). O dado gira a cada clique e
  * o botão mostra que está carregando até a ficha abrir.
  */
-export function SurpriseButton() {
+export function SurpriseButton({ wide = false }: { wide?: boolean } = {}) {
   const { index, focus, biomes, visibleParks } = useExplore();
   const router = useRouter();
   const [pending, startTransition] = useTransition();
@@ -59,7 +59,9 @@ export function SurpriseButton() {
       aria-label={label}
       title={label}
       aria-busy={pending}
-      className="flex h-11 shrink-0 items-center gap-2 rounded-xl bg-forest px-3 text-sm font-medium text-card transition hover:bg-forest-deep active:scale-[0.97] disabled:opacity-50 md:px-3.5"
+      className={wide
+        ? "flex h-12 items-center justify-center gap-2 rounded-xl bg-forest px-5 text-[15px] font-medium text-card transition hover:bg-forest-deep active:scale-[0.98] disabled:opacity-50"
+        : "flex h-11 shrink-0 items-center gap-2 rounded-xl bg-forest px-3 text-sm font-medium text-card transition hover:bg-forest-deep active:scale-[0.97] disabled:opacity-50 md:px-3.5"}
     >
       <svg
         key={spin}
@@ -77,8 +79,8 @@ export function SurpriseButton() {
         <circle cx="15.5" cy="15.5" r="1.3" fill="currentColor" />
         <circle cx="12" cy="12" r="1.3" fill="currentColor" />
       </svg>
-      <span className="hidden xl:inline" aria-hidden="true">
-        {pending ? "Sorteando…" : "Surpreenda-me"}
+      <span className={wide ? "" : "hidden xl:inline"} aria-hidden="true">
+        {pending ? "Sorteando…" : wide ? "Descubra um parque" : "Surpreenda-me"}
       </span>
     </button>
   );
