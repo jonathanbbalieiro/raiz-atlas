@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useId, useRef, useState } from "react";
+import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import type { Park, SpeciesCard } from "@/lib/data/types";
 import { href } from "@/lib/labels";
 import { filterSpecies } from "@/lib/species-search";
@@ -118,6 +118,32 @@ export function BiodiversityView({ park }: { park: Park }) {
     return () => window.removeEventListener("popstate", onPop);
   }, [explorerPath, restoreSelection]);
 
+  useLayoutEffect(() => {
+    // Link direto (#especie=nome científico): abre o perfil sem passar pela grade.
+    const openFromHash = () => {
+      const match = window.location.hash.match(/^#especie=(.+)$/);
+      if (!match) return;
+      let name: string;
+      try {
+        name = decodeURIComponent(match[1]).trim().toLowerCase();
+      } catch {
+        return;
+      }
+      const found = species.find((s) => s.scientificName.trim().toLowerCase() === name);
+      if (!found) return;
+      setSelected(found.scientificName);
+      setReading(true);
+      requestAnimationFrame(() => {
+        rootRef.current?.closest<HTMLElement>(".panel")?.scrollTo({ top: 0, behavior: "instant" });
+        titleRef.current?.focus({ preventScroll: true });
+      });
+    };
+    openFromHash();
+    window.addEventListener("hashchange", openFromHash);
+    return () => window.removeEventListener("hashchange", openFromHash);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [explorerPath]);
+
   const choose = (item: SpeciesCard) => {
     if (!reading) {
       selectionScroll.current = panel()?.scrollTop ?? 0;
@@ -180,7 +206,10 @@ export function BiodiversityView({ park }: { park: Park }) {
     </> : active && <>
       <div className="flex items-center justify-between gap-3">
         <button type="button" onClick={returnToSelection} className="min-h-11 text-sm font-semibold text-forest">← Voltar às espécies</button>
-        <p className="text-xs text-ink-soft">{navigation.index + 1} de {navigation.total}</p>
+        <div className="flex items-center gap-2">
+          <p className="text-xs text-ink-soft">{navigation.index + 1} de {navigation.total}</p>
+          <Link href={href(park.path)} scroll={false} aria-label={`Fechar e voltar ao parque ${park.shortName}`} className="flex size-11 items-center justify-center rounded-full border border-line bg-card text-lg leading-none text-ink hover:border-forest"><span aria-hidden="true">×</span></Link>
+        </div>
       </div>
       <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-earth">{park.shortName} · Fauna e flora</p>
       <h1 ref={titleRef} tabIndex={-1} className="mt-2 font-display text-3xl font-semibold text-forest-deep [overflow-wrap:anywhere] md:text-4xl">{active.name ?? active.scientificName}</h1>
