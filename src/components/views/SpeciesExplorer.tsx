@@ -10,7 +10,7 @@ export const IUCN_LABEL: Partial<Record<IucnCategory, string>> = {
   CR: "Criticamente em perigo", EN: "Em perigo", VU: "Vulnerável",
   NT: "Quase ameaçada", DD: "Dados insuficientes", EW: "Extinta na natureza", EX: "Extinta",
 };
-const IUCN_TONE: Partial<Record<IucnCategory, string>> = {
+export const IUCN_TONE: Partial<Record<IucnCategory, string>> = {
   CR: "bg-[#9b2c1f] text-white", EN: "bg-[#c2522d] text-white", VU: "bg-[#d99a2b] text-ink",
   NT: "bg-paper-deep text-ink", DD: "bg-paper-deep text-ink-soft",
 };

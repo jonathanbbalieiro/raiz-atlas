@@ -10,7 +10,7 @@ import { biodiversityRoster } from "@/lib/species-photos";
 import { biodiversityNavigation, orderBiodiversityRoster } from "@/lib/biodiversity-navigation";
 import Image from "@/components/panel/PhotoImage";
 import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
-import { IucnBadge } from "./SpeciesExplorer";
+import { IUCN_TONE, IucnBadge } from "./SpeciesExplorer";
 import { Credit } from "@/components/panel/Gallery";
 import { useExplore } from "@/components/map/focus";
 import { OCCURRENCE_COLOR } from "@/components/map/theme";
@@ -27,6 +27,7 @@ export function BiodiversityView({ park }: { park: Park }) {
   const [group, setGroup] = useState(editorialNames.size ? "destaques" : "todas");
   const [selected, setSelected] = useState<string>();
   const [reading, setReading] = useState(false);
+  const [tagOpenFor, setTagOpenFor] = useState("");
   const rootRef = useRef<HTMLElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
@@ -213,56 +214,59 @@ export function BiodiversityView({ park }: { park: Park }) {
       </div>
       <p className="mt-4 text-xs font-semibold uppercase tracking-[0.14em] text-earth">{park.shortName} · Fauna e flora</p>
       <h1 ref={titleRef} tabIndex={-1} className="mt-2 font-display text-3xl font-semibold text-forest-deep [overflow-wrap:anywhere] md:text-4xl">{active.name ?? active.scientificName}</h1>
-      <p className="mt-1 text-sm italic text-ink-soft">{active.scientificName}</p>
+      <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-2">
+        <p className="text-sm italic text-ink-soft">{active.scientificName}</p>
+        <button type="button" aria-expanded={tagOpenFor === activeKey} aria-controls={`${id}-conservation`} onClick={() => setTagOpenFor(tagOpenFor === activeKey ? "" : activeKey)}
+          className={`inline-flex min-h-8 items-center gap-1.5 rounded-full px-3 text-xs font-semibold ${(active.iucn && IUCN_TONE[active.iucn]) || "border border-line bg-card text-ink"}`}>
+          {conservation ? conservation.label : "Sem avaliação IUCN"}<span aria-hidden="true" className="opacity-70">· IUCN {tagOpenFor === activeKey ? "−" : "+"}</span>
+        </button>
+      </div>
+      {tagOpenFor === activeKey && <div id={`${id}-conservation`} className="mt-3 rounded-xl border border-line bg-card px-4 py-3 text-xs leading-relaxed text-ink-soft">
+        <p>{conservation?.explanation ?? "A ausência de uma categoria na base não permite concluir que a espécie esteja fora de risco."}</p>
+        <p className="mt-1">Categoria global da Lista Vermelha da IUCN, conforme a base consultada em {surveyDate}. Listas nacionais ou estaduais podem atribuir outra categoria.</p>
+      </div>}
       <div className="mt-5 grid items-start gap-5 md:grid-cols-2 md:gap-7">
         <figure className="min-w-0">
           <div className="overflow-hidden rounded-2xl"><SpeciesPhoto frame="detail" photo={active.photo} name={active.name ?? active.scientificName} sizes="(min-width: 768px) 500px, 90vw" /></div>
           {active.photo && <figcaption className="mt-2"><Credit photo={active.photo} /><details className="mt-2 text-xs leading-relaxed text-ink-soft"><summary className="cursor-pointer py-1">Contexto da fotografia</summary><p className="mt-1">{active.photo.context ?? "Imagem ilustrativa da espécie; o local pode ser diferente deste parque."}</p></details></figcaption>}
         </figure>
-        <section aria-label="Relação da espécie com o parque" className="min-w-0">
-          <h2 className="font-display text-xl font-semibold text-forest-deep">Por que está aqui</h2>
-          <p className="mt-2 text-sm leading-relaxed text-ink">{flagship?.why ?? (typeof active.records === "number" && active.records > 0
-            ? `Tem ${active.records} ${active.records === 1 ? "registro" : "registros"} de ocorrência no GBIF na área consultada para ${park.shortName} (levantamento de ${surveyDate}). Estar na lista não significa exclusividade nem facilidade de avistamento.`
-            : "A espécie integra a seleção de ocorrências consultada para esta unidade. Sua presença na lista não significa exclusividade ou facilidade de avistamento.")}</p>
-          {flagship && <p className="mt-3 text-xs leading-relaxed text-ink-soft">{sourceLinks(flagship.sourceIds)}</p>}
-          {occurrence && occurrence.records > 0 && <div className="mt-4 rounded-xl border border-line bg-card px-4 py-3 text-sm leading-relaxed text-ink">
-            <p className="flex items-start gap-2">
-              <span aria-hidden="true" className="mt-1.5 h-3 w-3 shrink-0 rounded-sm" style={{ background: OCCURRENCE_COLOR }} />
-              <span>
-                No mapa: {occurrence.records} {occurrence.records === 1 ? "registro" : "registros"} em {occurrence.cells.length}{" "}
-                {occurrence.cells.length === 1 ? "quadrado" : "quadrados"} de cerca de {cellKm(occurrence.cell)} km. Quanto mais forte a cor, mais registros.
-              </span>
+        <div className="min-w-0 space-y-4">
+          <section aria-label="Quem é">
+            <h2 className="text-xs font-semibold uppercase tracking-[0.14em] text-earth">Quem é</h2>
+            <p className="mt-2 text-base leading-relaxed text-ink">
+              {profile?.summary ?? `${active.name ?? active.scientificName}${groupLabel ? ` faz parte do grupo ${groupLabel.toLowerCase()}` : " integra o levantamento"}${active.family ? `, na família ${active.family}` : ""}. Nome científico: ${active.scientificName}.`}
             </p>
-            {occurrence.cell >= 0.1 && <p className="mt-1 text-xs text-ink-soft">Espécie ameaçada: os quadrados são maiores para não indicar onde encontrá-la.</p>}
-            <p className="mt-1 text-xs text-ink-soft">Registros mostram onde houve observação ou coleta, não onde a espécie é mais comum.</p>
-            <button type="button" onClick={requestMapView} className="mt-2 min-h-11 font-semibold text-forest underline underline-offset-2 md:hidden">Ver no mapa</button>
-          </div>}
-          <h2 className="mt-5 font-display text-xl font-semibold text-forest-deep">Conservação</h2>
-          <p className="mt-2 text-sm font-semibold text-forest">{conservation?.label ?? "Categoria não informada na base"}</p>
-          <p className="mt-1 text-sm leading-relaxed text-ink-soft">{conservation?.explanation ?? "A ausência de uma categoria na base não permite concluir que a espécie esteja fora de risco."}</p>
-          {conservation && <p className="mt-2 text-xs leading-relaxed text-ink-soft">Fonte: Lista Vermelha da IUCN, avaliação global, conforme a base consultada em {surveyDate}. Listas nacionais ou estaduais podem atribuir outra categoria.</p>}
-        </section>
-      </div>
-      <section aria-label="Conhecer a espécie" className="mt-7 grid gap-5 border-t border-line pt-6 md:grid-cols-2">
-        <div className="min-w-0 md:col-span-2">
-          <h2 className="font-display text-xl font-semibold text-forest-deep">Quem é</h2>
-          <p className="mt-2 text-sm leading-relaxed text-ink">
-            {profile?.summary ?? `${active.name ?? active.scientificName}${groupLabel ? ` faz parte do grupo ${groupLabel.toLowerCase()}` : " integra o levantamento"}${active.family ? `, na família ${active.family}` : ""}. Nome científico: ${active.scientificName}.`}
-          </p>
+          </section>
+          <section aria-label="Relação da espécie com o parque" className="rounded-xl border border-line bg-card px-4 py-3">
+            <h2 className="text-xs font-semibold uppercase tracking-[0.14em] text-earth">Neste parque</h2>
+            <p className="mt-1.5 text-sm leading-relaxed text-ink">{flagship?.why ?? (typeof active.records === "number" && active.records > 0
+              ? `Tem ${active.records} ${active.records === 1 ? "registro" : "registros"} de ocorrência no GBIF na área consultada para ${park.shortName} (levantamento de ${surveyDate}). Estar na lista não significa exclusividade nem facilidade de avistamento.`
+              : "A espécie integra a seleção de ocorrências consultada para esta unidade. Sua presença na lista não significa exclusividade ou facilidade de avistamento.")}</p>
+            {flagship && <p className="mt-2 text-xs leading-relaxed text-ink-soft">{sourceLinks(flagship.sourceIds)}</p>}
+            {occurrence && occurrence.records > 0 && <div className="mt-3 border-t border-line pt-3 text-xs leading-relaxed text-ink-soft">
+              <p className="flex items-start gap-2">
+                <span aria-hidden="true" className="mt-0.5 h-3 w-3 shrink-0 rounded-sm" style={{ background: OCCURRENCE_COLOR }} />
+                <span>No mapa: {occurrence.records} {occurrence.records === 1 ? "registro" : "registros"} em {occurrence.cells.length} {occurrence.cells.length === 1 ? "quadrado" : "quadrados"} de cerca de {cellKm(occurrence.cell)} km. Quanto mais forte a cor, mais registros. Registros mostram onde houve observação ou coleta, não onde a espécie é mais comum.{occurrence.cell >= 0.1 && " Espécie ameaçada: os quadrados são maiores para não indicar onde encontrá-la."}</span>
+              </p>
+              <button type="button" onClick={requestMapView} className="mt-1 min-h-11 font-semibold text-forest underline underline-offset-2 md:hidden">Ver no mapa</button>
+            </div>}
+          </section>
         </div>
-        {profile?.habits && <div className="min-w-0"><h2 className="font-display text-xl font-semibold text-forest-deep">Hábitos e lugar na natureza</h2><p className="mt-2 text-sm leading-relaxed text-ink">{profile.habits}</p></div>}
-        {profile?.history && <div className="min-w-0"><h2 className="font-display text-xl font-semibold text-forest-deep">História</h2><p className="mt-2 text-sm leading-relaxed text-ink">{profile.history}</p></div>}
-        {!!profile?.curiosities?.length && <div className="min-w-0 md:col-span-2"><h2 className="font-display text-xl font-semibold text-forest-deep">Curiosidades</h2>
-          <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink">{profile.curiosities.map((item) => <li key={item}>{item}</li>)}</ul></div>}
-        {profile && <p className="min-w-0 text-xs leading-relaxed text-ink-soft md:col-span-2">Fontes: {profile.sources.map((source, i) => <span key={source.url}>{i > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">{source.institution}: {source.title}</a></span>)}</p>}
-        {otherParks.length > 0 && <div className="min-w-0 md:col-span-2">
-          <h2 className="font-display text-xl font-semibold text-forest-deep">Também registrada em</h2>
-          <ul className="mt-2 flex flex-wrap gap-2">{otherParks.map((slug) => <li key={slug}>
-            <Link href={`${href([country, index!.parks[slug].uf, slug])}/biodiversidade#especie=${encodeURIComponent(active.scientificName)}`} scroll={false} className="inline-flex min-h-11 items-center rounded-full border border-line bg-card px-4 text-sm font-semibold text-forest hover:border-forest">{index!.parks[slug].name}</Link>
-          </li>)}</ul>
-          <p className="mt-2 text-xs text-ink-soft">Parques do atlas em cujo levantamento a espécie também consta.</p>
-        </div>}
-      </section>
+      </div>
+      {profile && <section aria-label="Conhecer a espécie" className="mt-6 grid gap-4 md:grid-cols-2">
+        {profile.habits && <div className="min-w-0 rounded-2xl bg-paper-deep/60 p-4 md:p-5"><h2 className="font-display text-lg font-semibold text-forest-deep">Hábitos e lugar na natureza</h2><p className="mt-2 text-sm leading-relaxed text-ink">{profile.habits}</p></div>}
+        {profile.history && <div className="min-w-0 rounded-2xl bg-paper-deep/60 p-4 md:p-5"><h2 className="font-display text-lg font-semibold text-forest-deep">História</h2><p className="mt-2 text-sm leading-relaxed text-ink">{profile.history}</p></div>}
+        {!!profile.curiosities?.length && <div className="min-w-0 md:col-span-2"><h2 className="font-display text-lg font-semibold text-forest-deep">Curiosidades</h2>
+          <ul className="mt-2 grid gap-3 md:grid-cols-3">{profile.curiosities.map((item, i) => <li key={item} className="rounded-2xl border border-line bg-card p-4 text-sm leading-relaxed text-ink"><span className="mb-1 block font-display text-lg text-earth" aria-hidden="true">{i + 1}</span>{item}</li>)}</ul></div>}
+        <p className="min-w-0 text-xs leading-relaxed text-ink-soft md:col-span-2">Fontes: {profile.sources.map((source, i) => <span key={source.url}>{i > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">{source.institution}: {source.title}</a></span>)}</p>
+      </section>}
+      {otherParks.length > 0 && <section aria-label="Também registrada em" className="mt-6">
+        <h2 className="font-display text-lg font-semibold text-forest-deep">Também registrada em</h2>
+        <ul className="mt-2 flex flex-wrap gap-2">{otherParks.map((slug) => <li key={slug}>
+          <Link href={`${href([country, index!.parks[slug].uf, slug])}/biodiversidade#especie=${encodeURIComponent(active.scientificName)}`} scroll={false} className="inline-flex min-h-11 items-center rounded-full border border-line bg-card px-4 text-sm font-semibold text-forest hover:border-forest">{index!.parks[slug].name}</Link>
+        </li>)}</ul>
+        <p className="mt-2 text-xs text-ink-soft">Parques do atlas em cujo levantamento a espécie também consta.</p>
+      </section>}
       <details className="mt-6 border-t border-line pt-4 text-sm leading-relaxed text-ink-soft">
         <summary className="cursor-pointer py-2 font-semibold text-forest-deep">Dados do levantamento e fontes</summary>
         <dl className="mt-3 grid gap-3 sm:grid-cols-3"><div><dt>Família</dt><dd className="font-semibold text-ink">{active.family ?? "Não informada"}</dd></div><div><dt>Registros</dt><dd className="font-semibold text-ink">{active.records ?? "Contagem não informada"}</dd></div><div><dt>Levantamento</dt><dd className="font-semibold text-ink">{surveyDate}</dd></div></dl>
