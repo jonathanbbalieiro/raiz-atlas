@@ -201,6 +201,33 @@
       "sourceIds": [
         "gbif"
       ]
+    },
+    {
+      "scientificName": "Pyrrhura perlata",
+      "name": "Tiriba-de-barriga-vermelha",
+      "why": "Restrita ao sul da Amazônia, no interflúvio Madeira-Tapajós, foi registrada no parque.",
+      "sourceIds": [
+        "res"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/121027757/original.jpg",
+        "author": "Edson Guilherme",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/121027757",
+        "width": 2048,
+        "height": 1536,
+        "alt": "Tiriba-de-barriga-vermelha pousada em uma palmeira com cachos de frutos, no sul do Pará",
+        "context": "Tiriba-de-barriga-vermelha fotografada em Itaituba (PA), na região amazônica onde a espécie ocorre."
+      }
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Vulnerável, tem registros no parque, onde floresta e cerrado se encontram.",
+      "sourceIds": [
+        "gbif"
+      ]
     }
   ],
   "sources": [

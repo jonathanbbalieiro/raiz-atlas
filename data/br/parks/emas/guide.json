@@ -194,6 +194,26 @@
       "sourceIds": [
         "gbif"
       ]
+    },
+    {
+      "scientificName": "Taoniscus nanus",
+      "name": "Inhambu-carapé",
+      "why": "Em perigo segundo a IUCN e protegida pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "gbif"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/349350838/large.jpeg",
+        "author": "luiz_alberto_santos",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/349350838",
+        "width": 1024,
+        "height": 757,
+        "alt": "Inhambu-carapé (Taoniscus nanus)",
+        "context": "Inhambu-carapé (Taoniscus nanus) fotografado em liberdade no cerrado de Minas Gerais; imagem ilustrativa da espécie, identificação confirmada no iNaturalist (grau pesquisa)."
+      }
     }
   ],
   "sources": [
