@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { BIODIVERSITY_SEGMENT, EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
 import { BIOME_LABEL, formatArea, joinPt } from "@/lib/labels";
-import { applyParkPhotoCuration, type ParkPhotoCuration } from "@/lib/photos";
+import { applyParkPhotoCuration, matchWonderPhoto, type ParkPhotoCuration } from "@/lib/photos";
 import { applySpeciesPhotoReview, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, type PhotoReview } from "@/lib/species-photos";
 import type { PlaceRepository } from "./repository";
 import {
@@ -108,6 +108,15 @@ const BIOME_WITH_ARTICLE: Record<Biome, string> = {
   marinho: "de ambiente costeiro-marinho",
 };
 
+/** Maravilha sem foto própria usa a foto da galeria que cita o mesmo lugar. */
+function withGalleryPhotos(guide: ParkGuide, gallery: Photo[]): ParkGuide {
+  return { ...guide, wonders: guide.wonders.map((w) => {
+    if (w.photo) return w;
+    const photo = matchWonderPhoto(w.title, gallery);
+    return photo ? { ...w, photo: { ...photo, context: photo.context ?? w.title } } : w;
+  }) };
+}
+
 function describePark(p: GeneratedPark, states: { name: string; prep: string }[]): string {
   const biomes = joinPt(p.biomes.map((b: Biome) => BIOME_WITH_ARTICLE[b]));
   // "no Paraná", "na Bahia", "em Goiás" (preposição vem dos dados do estado).
@@ -167,6 +176,7 @@ async function loadDataset(): Promise<Dataset> {
       const lostWorld = await readJsonOr<LostWorld | null>(null, c, "parks", g.slug, "lost-world.json");
       const context = await readJsonOr<ParkContext | null>(null, c, "parks", g.slug, "context.generated.json");
       if (readable) ds.expeditions[`${c}/${g.slug}`] = readable;
+      const galleryPhotos = applyParkPhotoCuration(g.slug, m?.photos ?? [], parkPhotos);
       const park: Park = {
         ...g,
         level: "park",
@@ -178,10 +188,10 @@ async function loadDataset(): Promise<Dataset> {
             g.ufs.map((u) => ufInfo.get(u) ?? { name: u, prep: "em" }),
           ),
         longDescription: override.longDescription,
-        photos: applyParkPhotoCuration(g.slug, m?.photos ?? [], parkPhotos),
+        photos: galleryPhotos,
         wikipediaUrl: m?.wikipediaUrl ?? null,
         research: research ?? undefined,
-        guide: guide && (guide.status === "revisado" || SHOW_DRAFTS) ? guide : undefined,
+        guide: guide && (guide.status === "revisado" || SHOW_DRAFTS) ? withGalleryPhotos(guide, galleryPhotos) : undefined,
         biodiversity: biodiversity ?? undefined,
         lostWorld: lostWorld && (lostWorld.status === "revisado" || SHOW_DRAFTS) ? lostWorld : undefined,
         context: context ?? undefined,

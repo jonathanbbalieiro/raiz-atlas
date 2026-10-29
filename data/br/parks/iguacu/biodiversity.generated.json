@@ -110,13 +110,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -175,6 +175,82 @@
             "width": 1280,
             "height": 988,
             "alt": "Irara (Eira barbara)"
+          }
+        },
+        {
+          "gbifKey": 2434950,
+          "scientificName": "Leopardus wiedii",
+          "name": "Gato-do-mato",
+          "family": "Felidae",
+          "records": 36,
+          "iucn": "NT",
+          "wikidata": "Q192421",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/239567366/large.jpg",
+            "author": "Sam Eberhard",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/239567366",
+            "width": 1024,
+            "height": 683,
+            "alt": "Gato-do-mato (Leopardus wiedii)"
+          }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 33,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 32,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/large.jpg",
+            "author": "pfaucher",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9834553",
+            "width": 1024,
+            "height": 683,
+            "alt": "suçuarana (Puma concolor)"
+          }
+        },
+        {
+          "gbifKey": 4263039,
+          "scientificName": "Cuniculus paca",
+          "name": "Paca",
+          "family": "Cuniculidae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q33936",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27060623/large.jpeg",
+            "author": "Silvano LG",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/27060623",
+            "width": 1024,
+            "height": 683,
+            "alt": "paca (Cuniculus paca)"
           }
         }
       ]
@@ -335,6 +411,139 @@
             "height": 853,
             "alt": "Tucano-toco (Ramphastos toco)"
           }
+        },
+        {
+          "gbifKey": 2490109,
+          "scientificName": "Herpsilochmus rufimarginatus",
+          "name": "Chorozinho-de-asa-vermelha",
+          "family": "Thamnophilidae",
+          "records": 1371,
+          "iucn": "LC",
+          "wikidata": "Q589704",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/271772701/large.jpeg",
+            "author": "Júlio Castellain",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/271772701",
+            "width": 1024,
+            "height": 741,
+            "alt": "Chorozinho-de-asa-vermelha (Herpsilochmus rufimarginatus)"
+          }
+        },
+        {
+          "gbifKey": 7341895,
+          "scientificName": "Setophaga pitiayumi",
+          "name": "Mariquita",
+          "family": "Parulidae",
+          "records": 1336,
+          "iucn": "LC",
+          "wikidata": "Q27075912",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/465541370/large.jpg",
+            "author": "MarvalPhotography19",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/465541370",
+            "width": 1024,
+            "height": 727,
+            "alt": "mariquita (Setophaga pitiayumi)"
+          }
+        },
+        {
+          "gbifKey": 2479907,
+          "scientificName": "Pionus maximiliani",
+          "name": "Maitaca-verde",
+          "family": "Psittacidae",
+          "records": 1313,
+          "iucn": "LC",
+          "wikidata": "Q1087201",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/745409241/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/745409241",
+            "width": 1024,
+            "height": 768,
+            "alt": "Maitaca-verde (Pionus maximiliani)"
+          }
+        },
+        {
+          "gbifKey": 2496634,
+          "scientificName": "Trogon surrucura",
+          "name": "Surucuá-variado",
+          "family": "Trogonidae",
+          "records": 1228,
+          "iucn": "LC",
+          "wikidata": "Q1267847",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/445801423/large.jpeg",
+            "author": "Pedro Henrique Maloso Ramos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/445801423",
+            "width": 1024,
+            "height": 836,
+            "alt": "surucuá-variado (Trogon surrucura)"
+          }
+        },
+        {
+          "gbifKey": 5229146,
+          "scientificName": "Vanellus chilensis",
+          "name": "Quero-quero",
+          "family": "Charadriidae",
+          "records": 1152,
+          "iucn": "LC",
+          "wikidata": "Q855348",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473406155/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473406155",
+            "width": 1024,
+            "height": 683,
+            "alt": "Quero-quero (Vanellus chilensis)"
+          }
+        },
+        {
+          "gbifKey": 2478822,
+          "scientificName": "Pteroglossus castanotis",
+          "name": "Araçari-castanho",
+          "family": "Ramphastidae",
+          "records": 1050,
+          "iucn": "LC",
+          "wikidata": "Q790670",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12461687/large.jpg",
+            "author": "Luis G Restrepo",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/12461687",
+            "width": 1024,
+            "height": 768,
+            "alt": "araçari-castanho (Pteroglossus castanotis)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 1300,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
         }
       ]
     },
@@ -455,6 +664,44 @@
             "width": 1280,
             "height": 850,
             "alt": "cascavel (Crotalus durissus)"
+          }
+        },
+        {
+          "gbifKey": 5220804,
+          "scientificName": "Bothrops jararacussu",
+          "name": "Jararacuçu",
+          "family": "Viperidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q146536",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345512619/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/345512619",
+            "width": 1024,
+            "height": 673,
+            "alt": "Jararacuçu (Bothrops jararacussu)"
+          }
+        },
+        {
+          "gbifKey": 2471948,
+          "scientificName": "Tupinambis teguixin",
+          "name": "Teiú-branco",
+          "family": "Teiidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q546279",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/728196136/large.jpg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/728196136",
+            "width": 1024,
+            "height": 752,
+            "alt": "Teiú-branco (Tupinambis teguixin)"
           }
         }
       ]
@@ -698,6 +945,25 @@
             "height": 1092,
             "alt": "Doxocopa agathina"
           }
+        },
+        {
+          "gbifKey": 1902406,
+          "scientificName": "Zaretis itys",
+          "name": "Borboleta-folha",
+          "family": "Nymphalidae",
+          "records": 12,
+          "iucn": null,
+          "wikidata": "Q3574857",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/173921876/large.jpeg",
+            "author": "Roger Rittmaster",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/173921876",
+            "width": 1024,
+            "height": 819,
+            "alt": "Borboleta-folha (Zaretis itys)"
+          }
         }
       ]
     },
@@ -864,7 +1130,7 @@
           "name": "Sanhaçaiba",
           "family": "Rubiaceae",
           "records": 38,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q7256517",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gentianales_-_Psychotria_carthagenensis_-_kew_1.jpg",
@@ -880,7 +1146,7 @@
         {
           "gbifKey": 3771127,
           "scientificName": "Justicia brasiliana",
-          "name": null,
+          "name": "Jacobina-vermelha",
           "family": "Acanthaceae",
           "records": 59,
           "iucn": null,
@@ -894,6 +1160,63 @@
             "width": 960,
             "height": 1279,
             "alt": "Justicia brasiliana"
+          }
+        },
+        {
+          "gbifKey": 5293403,
+          "scientificName": "Euterpe edulis",
+          "name": "Içara",
+          "family": "Arecaceae",
+          "records": 34,
+          "iucn": "LC",
+          "wikidata": "Q311356",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/358148714/large.jpeg",
+            "author": "agujaceratops",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/358148714",
+            "width": 1024,
+            "height": 768,
+            "alt": "Içara (Euterpe edulis)"
+          }
+        },
+        {
+          "gbifKey": 7304142,
+          "scientificName": "Ocotea puberula",
+          "name": "Canela-guaicá",
+          "family": "Lauraceae",
+          "records": 36,
+          "iucn": "LC",
+          "wikidata": "Q1334039",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/74970343/large.jpg",
+            "author": "João Vitor Andriola",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/74970343",
+            "width": 1024,
+            "height": 683,
+            "alt": "Canela-guaicá (Ocotea puberula)"
+          }
+        },
+        {
+          "gbifKey": 5830619,
+          "scientificName": "Dolichandra unguis-cati",
+          "name": "Macfadyena unguis-cati",
+          "family": "Bignoniaceae",
+          "records": 34,
+          "iucn": null,
+          "wikidata": "Q3108604",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/4417643/large.jpeg",
+            "author": "Francisco Farriols Sarabia",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/4417643",
+            "width": 1024,
+            "height": 697,
+            "alt": "Macfadyena unguis-cati (Dolichandra unguis-cati)"
           }
         }
       ]
@@ -1036,7 +1359,7 @@
     {
       "gbifKey": 2338980,
       "scientificName": "Steindachneridion scriptum",
-      "name": null,
+      "name": "Bocudo",
       "family": "Pimelodidae",
       "records": null,
       "iucn": "EN",
@@ -1110,5 +1433,6 @@
         "alt": "Cocão (Erythroxylum deciduum)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

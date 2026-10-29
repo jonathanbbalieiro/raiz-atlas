@@ -34,13 +34,13 @@
           "iucn": "NT",
           "wikidata": "Q2649322",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Descri%C3%A7%C3%A3o_in%C3%ADcio_ou_comportamento.jpg",
-            "author": "Instituto Boto Cinza",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Descri%C3%A7%C3%A3o_in%C3%ADcio_ou_comportamento.jpg",
-            "width": 388,
-            "height": 360,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/456711601/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/456711601",
+            "width": 1024,
+            "height": 683,
             "alt": "Boto-cinza (Sotalia guianensis)"
           }
         },
@@ -110,13 +110,13 @@
           "iucn": "LC",
           "wikidata": "Q2144297",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Rorcual_Edeni.jpg",
-            "author": "Lycaon.cl",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rorcual_Edeni.jpg",
-            "width": 499,
-            "height": 240,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/544731330/large.jpg",
+            "author": "Ian Dugdale",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/544731330",
+            "width": 1024,
+            "height": 768,
             "alt": "Baleia-de-bryde (Balaenoptera edeni)"
           }
         },
@@ -316,6 +316,158 @@
             "height": 1742,
             "alt": "bem-te-vi (Pitangus sulphuratus)"
           }
+        },
+        {
+          "gbifKey": 2480975,
+          "scientificName": "Sula leucogaster",
+          "name": "Atobá-pardo",
+          "family": "Sulidae",
+          "records": 39,
+          "iucn": "LC",
+          "wikidata": "Q320193",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/266738470/large.jpeg",
+            "author": "Henrik Kibak",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/266738470",
+            "width": 1024,
+            "height": 786,
+            "alt": "atobá-pardo (Sula leucogaster)"
+          }
+        },
+        {
+          "gbifKey": 5229204,
+          "scientificName": "Eudocimus ruber",
+          "name": "Guará",
+          "family": "Threskiornithidae",
+          "records": 35,
+          "iucn": "LC",
+          "wikidata": "Q467996",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106850987/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/106850987",
+            "width": 1024,
+            "height": 683,
+            "alt": "guará (Eudocimus ruber)"
+          }
+        },
+        {
+          "gbifKey": 5229146,
+          "scientificName": "Vanellus chilensis",
+          "name": "Quero-quero",
+          "family": "Charadriidae",
+          "records": 34,
+          "iucn": "LC",
+          "wikidata": "Q855348",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473406155/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473406155",
+            "width": 1024,
+            "height": 683,
+            "alt": "Quero-quero (Vanellus chilensis)"
+          }
+        },
+        {
+          "gbifKey": 9752617,
+          "scientificName": "Ardea alba",
+          "name": "Garça-branca-grande",
+          "family": "Ardeidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q130730",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/123196245/large.jpg",
+            "author": "Shiva Shenoy",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/123196245",
+            "width": 1024,
+            "height": 819,
+            "alt": "Garça-branca-grande (Ardea alba)"
+          }
+        },
+        {
+          "gbifKey": 2491862,
+          "scientificName": "Sicalis flaveola",
+          "name": "Canário-da-terra-verdadeiro",
+          "family": "Thraupidae",
+          "records": 30,
+          "iucn": "LC",
+          "wikidata": "Q1064372",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263906744/large.jpg",
+            "author": "Gabriel Brachetti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/263906744",
+            "width": 1024,
+            "height": 698,
+            "alt": "canário-da-terra-verdadeiro (Sicalis flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2480295,
+          "scientificName": "Charadrius semipalmatus",
+          "name": "Batuíra-de-bando",
+          "family": "Charadriidae",
+          "records": 29,
+          "iucn": "LC",
+          "wikidata": "Q468009",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/23981362/large.jpeg",
+            "author": "Quinten Wiegersma",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/23981362",
+            "width": 1024,
+            "height": 683,
+            "alt": "Batuíra-de-bando (Charadrius semipalmatus)"
+          }
+        },
+        {
+          "gbifKey": 2480873,
+          "scientificName": "Egretta thula",
+          "name": "Garça-branca-pequena",
+          "family": "Ardeidae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q59785",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2415216/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2415216",
+            "width": 1024,
+            "height": 682,
+            "alt": "Garça-branca-pequena (Egretta thula)"
+          }
+        },
+        {
+          "gbifKey": 7341035,
+          "scientificName": "Cantorchilus longirostris",
+          "name": "Garrinchão-de-bico-grande",
+          "family": "Troglodytidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q625446",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/290024894/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/290024894",
+            "width": 1024,
+            "height": 655,
+            "alt": "garrinchão-de-bico-grande (Cantorchilus longirostris)"
+          }
         }
       ]
     },
@@ -391,12 +543,21 @@
         {
           "gbifKey": 10782364,
           "scientificName": "Boana albomarginata",
-          "name": null,
+          "name": "Perereca-araponga",
           "family": "Hylidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39268066/large.jpg",
+            "author": "B. Phalan",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/39268066",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Boana albomarginata)"
+          }
         }
       ]
     },
@@ -517,6 +678,44 @@
             "width": 891,
             "height": 405,
             "alt": "Tubarão-corre-costa (Carcharhinus plumbeus)"
+          }
+        },
+        {
+          "gbifKey": 2418036,
+          "scientificName": "Carcharhinus leucas",
+          "name": "Tubarão-cabeça-chata",
+          "family": "Carcharhinidae",
+          "records": 19,
+          "iucn": "VU",
+          "wikidata": "Q190469",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/168237268/large.jpg",
+            "author": "Ewout Knoester",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/168237268",
+            "width": 1024,
+            "height": 683,
+            "alt": "tubarão-cabeça-chata (Carcharhinus leucas)"
+          }
+        },
+        {
+          "gbifKey": 2418173,
+          "scientificName": "Carcharhinus brachyurus",
+          "name": "Tubarão-cobre",
+          "family": "Carcharhinidae",
+          "records": 19,
+          "iucn": "VU",
+          "wikidata": "Q928469",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/347969713/large.png",
+            "author": "sgeange",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/347969713",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tubarão-cobre (Carcharhinus brachyurus)"
           }
         }
       ]
@@ -694,13 +893,13 @@
           "iucn": null,
           "wikidata": "Q5197540",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Cyathea.jpg",
-            "author": "Autor desconhecido",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyathea.jpg",
-            "width": 388,
-            "height": 470,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/378812479/large.jpeg",
+            "author": "agujaceratops",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/378812479",
+            "width": 1024,
+            "height": 768,
             "alt": "Xaxim-de-espinho (Cyathea corcovadensis)"
           }
         },
@@ -751,20 +950,20 @@
           "iucn": "LC",
           "wikidata": "Q2391176",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fruta_do_Bacupari.jpg",
-            "author": "Carolqk",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fruta_do_Bacupari.jpg",
-            "width": 384,
-            "height": 482,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/346703404/large.jpeg",
+            "author": "Jonathan Lorencetti Ehlert",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/346703404",
+            "width": 1024,
+            "height": 682,
             "alt": "Bacupari (Garcinia gardneriana)"
           }
         },
         {
           "gbifKey": 3155769,
           "scientificName": "Guatteria australis",
-          "name": null,
+          "name": "Pindaíba-preta",
           "family": "Annonaceae",
           "records": 9,
           "iucn": "LC",
@@ -802,7 +1001,7 @@
         {
           "gbifKey": 5589388,
           "scientificName": "Nematanthus fissus",
-          "name": null,
+          "name": "Arnica-do-mato",
           "family": "Gesneriaceae",
           "records": 7,
           "iucn": null,
@@ -816,6 +1015,25 @@
             "width": 1280,
             "height": 960,
             "alt": "Nematanthus fissus"
+          }
+        },
+        {
+          "gbifKey": 5331148,
+          "scientificName": "Casearia sylvestris",
+          "name": "Guaçatonga",
+          "family": "Salicaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q5558895",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/226508042/large.jpeg",
+            "author": "aacocucci",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/226508042",
+            "width": 1024,
+            "height": 680,
+            "alt": "Guaçatonga (Casearia sylvestris)"
           }
         }
       ]
@@ -1050,5 +1268,6 @@
         "alt": "Tubarão-limão (Negaprion brevirostris)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

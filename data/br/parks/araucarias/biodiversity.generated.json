@@ -221,6 +221,139 @@
             "height": 1148,
             "alt": "Choca-da-mata (Thamnophilus caerulescens)"
           }
+        },
+        {
+          "gbifKey": 2484057,
+          "scientificName": "Phyllomyias fasciatus",
+          "name": "Piolhinho",
+          "family": "Tyrannidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q514673",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/753900330/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/753900330",
+            "width": 1024,
+            "height": 683,
+            "alt": "Piolhinho (Phyllomyias fasciatus)"
+          }
+        },
+        {
+          "gbifKey": 5229816,
+          "scientificName": "Cacicus chrysopterus",
+          "name": "Japim-soldado",
+          "family": "Icteridae",
+          "records": 42,
+          "iucn": "LC",
+          "wikidata": "Q1300826",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/612750911/large.jpg",
+            "author": "Miguel A. Paixão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/612750911",
+            "width": 1024,
+            "height": 767,
+            "alt": "Japim-soldado (Cacicus chrysopterus)"
+          }
+        },
+        {
+          "gbifKey": 2490752,
+          "scientificName": "Turdus amaurochalinus",
+          "name": "Sabiá-poca",
+          "family": "Turdidae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q1588979",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747990098/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/747990098",
+            "width": 1024,
+            "height": 683,
+            "alt": "sabiá-poca (Turdus amaurochalinus)"
+          }
+        },
+        {
+          "gbifKey": 2487430,
+          "scientificName": "Vireo olivaceus",
+          "name": "Juruviara",
+          "family": "Vireonidae",
+          "records": 39,
+          "iucn": "LC",
+          "wikidata": "Q582976",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158043683/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/158043683",
+            "width": 1024,
+            "height": 683,
+            "alt": "Juruviara (Vireo olivaceus)"
+          }
+        },
+        {
+          "gbifKey": 5230725,
+          "scientificName": "Stephanophorus diadematus",
+          "name": "Sanhaço-frade",
+          "family": "Thraupidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q931663",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/51069292/large.jpg",
+            "author": "Sebastián Lescano",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/51069292",
+            "width": 1024,
+            "height": 696,
+            "alt": "Sanhaço-frade (Stephanophorus diadematus)"
+          }
+        },
+        {
+          "gbifKey": 2483567,
+          "scientificName": "Myiarchus swainsoni",
+          "name": "Irré",
+          "family": "Tyrannidae",
+          "records": 42,
+          "iucn": "LC",
+          "wikidata": "Q1262874",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/436950508/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/436950508",
+            "width": 1024,
+            "height": 683,
+            "alt": "Irré (Myiarchus swainsoni)"
+          }
+        },
+        {
+          "gbifKey": 2478382,
+          "scientificName": "Veniliornis spilogaster",
+          "name": "Picapauzinho-verde-carijó",
+          "family": "Picidae",
+          "records": 38,
+          "iucn": "LC",
+          "wikidata": "Q582557",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14148819/large.jpg",
+            "author": "João Vitor Andriola",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/14148819",
+            "width": 1024,
+            "height": 683,
+            "alt": "picapauzinho-verde-carijó (Veniliornis spilogaster)"
+          }
         }
       ]
     },
@@ -453,7 +586,16 @@
           "records": 2,
           "iucn": null,
           "wikidata": "Q13530778",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/246107839/large.jpeg",
+            "author": "E Santos Ortega",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/246107839",
+            "width": 1024,
+            "height": 681,
+            "alt": "null (Phaloe cruenta)"
+          }
         }
       ]
     },
@@ -544,7 +686,7 @@
           "name": null,
           "family": "Piperaceae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q11815584",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Peperomia_glabella_%60Variegata%60_-OB9.jpg/1280px-Peperomia_glabella_%60Variegata%60_-OB9.jpg",
@@ -560,7 +702,7 @@
         {
           "gbifKey": 3129567,
           "scientificName": "Baccharis anomala",
-          "name": null,
+          "name": "Cambará-de-cipó",
           "family": "Asteraceae",
           "records": 2,
           "iucn": null,
@@ -603,17 +745,16 @@
           "records": 6,
           "iucn": null,
           "wikidata": "Q17112264",
-          "photo": null
-        },
-        {
-          "gbifKey": 4027920,
-          "scientificName": "Pecluma recurvata",
-          "name": null,
-          "family": "Polypodiaceae",
-          "records": 5,
-          "iucn": null,
-          "wikidata": "Q15349813",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/363179776/large.jpeg",
+            "author": "Romi Galeota Lencina",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/363179776",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Pleopeltis minima)"
+          }
         },
         {
           "gbifKey": 4257847,
@@ -623,7 +764,16 @@
           "records": 5,
           "iucn": null,
           "wikidata": "Q17065431",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/153399056/large.jpg",
+            "author": "Martin Coronel Varela",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/153399056",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Asplenium gastonis)"
+          }
         }
       ]
     }
@@ -686,5 +836,6 @@
         "alt": "pica-pau-de-cara-canela (Celeus galeatus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

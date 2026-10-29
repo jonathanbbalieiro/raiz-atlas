@@ -326,14 +326,147 @@
           "iucn": "LC",
           "wikidata": "Q955203",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Monasa_leofleck.jpg",
-            "author": "© Leonardo C. Fleck (leonardofleck@yahoo.com.br)",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monasa_leofleck.jpg",
-            "width": 227,
-            "height": 400,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93309231/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/93309231",
+            "width": 1024,
+            "height": 768,
             "alt": "Chora-chuva-preto (Monasa nigrifrons)"
+          }
+        },
+        {
+          "gbifKey": 2478122,
+          "scientificName": "Melanerpes cruentatus",
+          "name": "Pica-pau-de-barriga-vermelha",
+          "family": "Picidae",
+          "records": 92,
+          "iucn": "LC",
+          "wikidata": "Q557447",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89684970/large.jpeg",
+            "author": "jorgehenao",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/89684970",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pica-pau-de-barriga-vermelha (Melanerpes cruentatus)"
+          }
+        },
+        {
+          "gbifKey": 5230528,
+          "scientificName": "Lepidothrix coronata",
+          "name": "Uirapuru-de-chapéu-azul",
+          "family": "Pipridae",
+          "records": 92,
+          "iucn": "LC",
+          "wikidata": "Q1060510",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95554247/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/95554247",
+            "width": 1024,
+            "height": 683,
+            "alt": "Uirapuru-de-chapéu-azul (Lepidothrix coronata)"
+          }
+        },
+        {
+          "gbifKey": 2486506,
+          "scientificName": "Lipaugus vociferans",
+          "name": "Cri-crió",
+          "family": "Cotingidae",
+          "records": 90,
+          "iucn": "LC",
+          "wikidata": "Q1067401",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339541586/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/339541586",
+            "width": 1024,
+            "height": 682,
+            "alt": "Cri-crió (Lipaugus vociferans)"
+          }
+        },
+        {
+          "gbifKey": 2496647,
+          "scientificName": "Trogon viridis",
+          "name": "Surucuá-de-barriga-amarela",
+          "family": "Trogonidae",
+          "records": 90,
+          "iucn": "LC",
+          "wikidata": "Q925086",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/561370299/large.jpg",
+            "author": "Enéas V. Gouvêa Junior",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/561370299",
+            "width": 1024,
+            "height": 683,
+            "alt": "surucuá-de-barriga-amarela (Trogon viridis)"
+          }
+        },
+        {
+          "gbifKey": 5230746,
+          "scientificName": "Atticora fasciata",
+          "name": "Peitoril",
+          "family": "Hirundinidae",
+          "records": 88,
+          "iucn": "LC",
+          "wikidata": "Q1587061",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172075839/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172075839",
+            "width": 1024,
+            "height": 769,
+            "alt": "Peitoril (Atticora fasciata)"
+          }
+        },
+        {
+          "gbifKey": 2487708,
+          "scientificName": "Tyranneutes stolzmanni",
+          "name": "Uirapuruzinho",
+          "family": "Pipridae",
+          "records": 84,
+          "iucn": "LC",
+          "wikidata": "Q843354",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/132818882/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/132818882",
+            "width": 1024,
+            "height": 683,
+            "alt": "uirapuruzinho (Tyranneutes stolzmanni)"
+          }
+        },
+        {
+          "gbifKey": 2482929,
+          "scientificName": "Myiozetetes granadensis",
+          "name": "Bem-te-vi-de-cabeça-cinza",
+          "family": "Tyrannidae",
+          "records": 83,
+          "iucn": "LC",
+          "wikidata": "Q1263174",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/366707423/large.jpeg",
+            "author": "Viktor",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/366707423",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi-de-cabeça-cinza (Myiozetetes granadensis)"
           }
         }
       ]
@@ -384,7 +517,7 @@
         {
           "gbifKey": 2467558,
           "scientificName": "Anolis fuscoauratus",
-          "name": null,
+          "name": "Calango-Bandeira",
           "family": "Dactyloidae",
           "records": 53,
           "iucn": "LC",
@@ -455,6 +588,44 @@
             "width": 1280,
             "height": 763,
             "alt": "Plica umbra"
+          }
+        },
+        {
+          "gbifKey": 5220775,
+          "scientificName": "Bothrops atrox",
+          "name": "Jararaca-do-norte",
+          "family": "Viperidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q900848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13606734/large.jpeg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/13606734",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jararaca-do-norte (Bothrops atrox)"
+          }
+        },
+        {
+          "gbifKey": 2459658,
+          "scientificName": "Iguana iguana",
+          "name": "Iguana-verde",
+          "family": "Iguanidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q215376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/365307657/large.jpeg",
+            "author": "Daniel Manzur",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/365307657",
+            "width": 1024,
+            "height": 683,
+            "alt": "iguana-verde (Iguana iguana)"
           }
         }
       ]
@@ -530,14 +701,14 @@
           "iucn": "LC",
           "wikidata": "Q1346482",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Ameerega_hahneli_%28Boulenger%2C_1884%29_%28part%29.jpg",
-            "author": "George Albert Boulenger",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_hahneli_(Boulenger,_1884)_(part).jpg",
-            "width": 438,
-            "height": 595,
-            "alt": "Ameerega hahneli"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250984203/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/250984203",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Ameerega hahneli)"
           }
         },
         {
@@ -549,14 +720,14 @@
           "iucn": "LC",
           "wikidata": "Q2842567",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ameerega_trivittata02.jpg",
-            "author": "Hugo Claessen",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_trivittata02.jpg",
-            "width": 321,
-            "height": 324,
-            "alt": "Ameerega trivittata"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58425028/large.jpg",
+            "author": "Rafael Bernhard",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58425028",
+            "width": 1024,
+            "height": 576,
+            "alt": "null (Ameerega trivittata)"
           }
         },
         {
@@ -568,14 +739,33 @@
           "iucn": "LC",
           "wikidata": "Q4459439",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pristimantis_ockendeni_%2810.3897-zookeys.762.22634%29_Figure_3_%28cropped%29.jpg",
-            "author": "Silva e Silva YB, Costa-Campos CE (2018) Anuran species composition of Cancão Mu",
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9271598/large.jpeg",
+            "author": "Michael Bakker Paiva",
             "license": "CC BY 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pristimantis_ockendeni_(10.3897-zookeys.762.22634)_Figure_3_(cropped).jpg",
-            "width": 346,
-            "height": 302,
-            "alt": "Pristimantis ockendeni"
+            "sourceUrl": "https://www.inaturalist.org/photos/9271598",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Pristimantis ockendeni)"
+          }
+        },
+        {
+          "gbifKey": 2426171,
+          "scientificName": "Lithodytes lineatus",
+          "name": "Leptodactylus lineatus",
+          "family": "Leptodactylidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q2210071",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/393108827/large.jpg",
+            "author": "Mike Ostrowski",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/393108827",
+            "width": 1024,
+            "height": 681,
+            "alt": "Leptodactylus lineatus (Lithodytes lineatus)"
           }
         }
       ]
@@ -826,7 +1016,7 @@
           "name": null,
           "family": "Melastomataceae",
           "records": 19,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q89175898",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Tococa_guianensis_Aublet_1775_pl_174.jpg/1280px-Tococa_guianensis_Aublet_1775_pl_174.jpg",
@@ -847,7 +1037,16 @@
           "records": 18,
           "iucn": "LC",
           "wikidata": "Q10262384",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249983151/large.jpeg",
+            "author": "Sébastien SANT",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/249983151",
+            "width": 1024,
+            "height": 768,
+            "alt": "Cupuí (Theobroma subincanum)"
+          }
         },
         {
           "gbifKey": 3074956,
@@ -857,7 +1056,16 @@
           "records": 30,
           "iucn": "LC",
           "wikidata": "Q15357245",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/733785524/large.jpg",
+            "author": "Guillaume Delaitre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/733785524",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Conceveiba guianensis)"
+          }
         },
         {
           "gbifKey": 2736953,
@@ -865,9 +1073,56 @@
           "name": null,
           "family": "Arecaceae",
           "records": 26,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15470820",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146889261/large.jpeg",
+            "author": "Jared Shorma",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/146889261",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Wettinia augusta)"
+          }
+        },
+        {
+          "gbifKey": 2732630,
+          "scientificName": "Lepidocaryum tenue",
+          "name": "Lepidocaryum",
+          "family": "Arecaceae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q141910",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/601339515/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/601339515",
+            "width": 1024,
+            "height": 768,
+            "alt": "Lepidocaryum (Lepidocaryum tenue)"
+          }
+        },
+        {
+          "gbifKey": 5361926,
+          "scientificName": "Ficus americana",
+          "name": "Mata-pau",
+          "family": "Moraceae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q3585536",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/7625738/large.jpeg",
+            "author": "Mateo Hernandez Schmidt",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/7625738",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mata-pau (Ficus americana)"
+          }
         }
       ]
     }
@@ -939,7 +1194,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15608243",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/215396925/large.jpeg",
+        "author": "Andrés Ramírez-Barrera, alguns direitos reservados (CC BY), carregado por Andrés Ramírez-Barrera",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/215396925",
+        "width": 1024,
+        "height": 683,
+        "alt": "Piper obliquum (Piper obliquum)"
+      }
     },
     {
       "gbifKey": 2479441,
@@ -963,7 +1227,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -1011,12 +1275,21 @@
     {
       "gbifKey": 2945824,
       "scientificName": "Amburana acreana",
-      "name": null,
+      "name": "Camaru-de-cheiro",
       "family": "Fabaceae",
       "records": null,
       "iucn": "VU",
       "wikidata": "Q4741995",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/601346778/large.jpg",
+        "author": "Diogo Luiz",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/601346778",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Amburana acreana)"
+      }
     },
     {
       "gbifKey": 5685675,
@@ -1047,5 +1320,6 @@
         "alt": "Tracajá (Podocnemis unifilis)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

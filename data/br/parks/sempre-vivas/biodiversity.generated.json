@@ -72,13 +72,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -176,6 +176,82 @@
             "height": 492,
             "alt": "cuíca-de-rabo-curto (Monodelphis domestica)"
           }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
+          }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 2434883,
+          "scientificName": "Conepatus semistriatus",
+          "name": "Jaritataca",
+          "family": "Mephitidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q688635",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60280410/large.jpeg",
+            "author": "Ramón Trinchan",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/60280410",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jaritataca (Conepatus semistriatus)"
+          }
+        },
+        {
+          "gbifKey": 2436340,
+          "scientificName": "Tamandua tetradactyla",
+          "name": "Tamanduá-mirim",
+          "family": "Myrmecophagidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q267514",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10425251/large.jpg",
+            "author": "Instituto Últimos Refúgios",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10425251",
+            "width": 1024,
+            "height": 685,
+            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+          }
         }
       ]
     },
@@ -250,14 +326,14 @@
           "iucn": "LC",
           "wikidata": "Q1433700",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cyanocorax_cristatellus%28m%29P5051282.JPG",
-            "author": "Ave watcher at English Wikipedia",
-            "license": "CC BY 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyanocorax_cristatellus(m)P5051282.JPG",
-            "width": 250,
-            "height": 252,
-            "alt": "gralha-do-campo (Cyanocorax cristatellus)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312055694/large.jpeg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/312055694",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gralha-do-campo (Cyanocorax cristatellus)"
           }
         },
         {
@@ -285,7 +361,7 @@
           "name": "Sanhaço-cinzento",
           "family": "Thraupidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1588073",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/1280px-Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
@@ -334,6 +410,25 @@
             "width": 1280,
             "height": 1050,
             "alt": "Tico-tico-rei-cinza (Coryphospingus pileatus)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
           }
         }
       ]
@@ -660,6 +755,25 @@
             "height": 719,
             "alt": "Heliopetes arsalte"
           }
+        },
+        {
+          "gbifKey": 1914465,
+          "scientificName": "Chlosyne lacinia",
+          "name": "Lagarta-do-girassol",
+          "family": "Nymphalidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q5103236",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/731251174/large.jpg",
+            "author": "Rosario Douglas",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/731251174",
+            "width": 1024,
+            "height": 908,
+            "alt": "Lagarta-do-girassol (Chlosyne lacinia)"
+          }
         }
       ]
     },
@@ -690,7 +804,7 @@
         {
           "gbifKey": 2949909,
           "scientificName": "Chamaecrista desvauxii",
-          "name": null,
+          "name": "Erva-de-coração",
           "family": "Fabaceae",
           "records": 31,
           "iucn": "LC",
@@ -790,7 +904,16 @@
           "records": 34,
           "iucn": null,
           "wikidata": "Q15603800",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/622618147/large.jpg",
+            "author": "B. Phalan",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/622618147",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Vellozia albiflora)"
+          }
         },
         {
           "gbifKey": 3190957,
@@ -800,17 +923,16 @@
           "records": 31,
           "iucn": null,
           "wikidata": "Q17246077",
-          "photo": null
-        },
-        {
-          "gbifKey": 2692750,
-          "scientificName": "Xyris pterygoblephara",
-          "name": null,
-          "family": "Xyridaceae",
-          "records": 30,
-          "iucn": null,
-          "wikidata": "Q15479564",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/581902856/large.jpg",
+            "author": "johannesundolli",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/581902856",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Drosera villosa)"
+          }
         },
         {
           "gbifKey": 6312033,
@@ -820,7 +942,16 @@
           "records": 30,
           "iucn": null,
           "wikidata": "Q17352025",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/49256881/large.jpeg",
+            "author": "Márcia Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/49256881",
+            "width": 1024,
+            "height": 576,
+            "alt": "null (Comanthera centauroides)"
+          }
         }
       ]
     }
@@ -902,7 +1033,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15388925",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/255166327/large.jpeg",
+        "author": "Pedro Quinellato Dantas",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/255166327",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Clusia diamantina)"
+      }
     },
     {
       "gbifKey": 11058397,
@@ -952,13 +1092,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -991,5 +1131,6 @@
         "alt": "Proceratophrys cururu"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

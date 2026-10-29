@@ -148,13 +148,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -175,6 +175,44 @@
             "width": 1280,
             "height": 922,
             "alt": "caititu (Pecari tajacu)"
+          }
+        },
+        {
+          "gbifKey": 5219659,
+          "scientificName": "Sciurus aestuans",
+          "name": "Caxinguelê",
+          "family": "Sciuridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q582376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/274281962/large.jpeg",
+            "author": "Sébastien SANT",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/274281962",
+            "width": 1024,
+            "height": 768,
+            "alt": "Caxinguelê (Sciurus aestuans)"
+          }
+        },
+        {
+          "gbifKey": 2436340,
+          "scientificName": "Tamandua tetradactyla",
+          "name": "Tamanduá-mirim",
+          "family": "Myrmecophagidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q267514",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10425251/large.jpg",
+            "author": "Instituto Últimos Refúgios",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10425251",
+            "width": 1024,
+            "height": 685,
+            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
           }
         }
       ]
@@ -335,6 +373,158 @@
             "height": 1279,
             "alt": "Periquito-de-asa-dourada (Brotogeris chrysoptera)"
           }
+        },
+        {
+          "gbifKey": 5844398,
+          "scientificName": "Rupornis magnirostris",
+          "name": "Gavião-carijó",
+          "family": "Accipitridae",
+          "records": 163,
+          "iucn": "LC",
+          "wikidata": "Q426708",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164775267/large.jpeg",
+            "author": "Kai Squires",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/164775267",
+            "width": 1024,
+            "height": 769,
+            "alt": "Gavião-carijó (Rupornis magnirostris)"
+          }
+        },
+        {
+          "gbifKey": 2482965,
+          "scientificName": "Myiopagis gaimardii",
+          "name": "Maria-pechim",
+          "family": "Tyrannidae",
+          "records": 157,
+          "iucn": "LC",
+          "wikidata": "Q840136",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/576811280/large.jpg",
+            "author": "Jo Roberts",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/576811280",
+            "width": 1024,
+            "height": 768,
+            "alt": "maria-pechim (Myiopagis gaimardii)"
+          }
+        },
+        {
+          "gbifKey": 2475190,
+          "scientificName": "Monasa atra",
+          "name": "Chora-chuva-de-asa-branca",
+          "family": "Bucconidae",
+          "records": 156,
+          "iucn": "LC",
+          "wikidata": "Q1264128",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/722962163/large.jpg",
+            "author": "Joao Quental",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/722962163",
+            "width": 1024,
+            "height": 683,
+            "alt": "chora-chuva-de-asa-branca (Monasa atra)"
+          }
+        },
+        {
+          "gbifKey": 2475466,
+          "scientificName": "Megaceryle torquata",
+          "name": "Martim-pescador-grande",
+          "family": "Alcedinidae",
+          "records": 155,
+          "iucn": "LC",
+          "wikidata": "Q1272848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172098685/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172098685",
+            "width": 1024,
+            "height": 768,
+            "alt": "martim-pescador-grande (Megaceryle torquata)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 153,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 5230841,
+          "scientificName": "Hypocnemis cantator",
+          "name": "Papa-formiga-cantador",
+          "family": "Thamnophilidae",
+          "records": 151,
+          "iucn": "LC",
+          "wikidata": "Q1270845",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/428404474/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/428404474",
+            "width": 1024,
+            "height": 683,
+            "alt": "Papa-formiga-cantador (Hypocnemis cantator)"
+          }
+        },
+        {
+          "gbifKey": 5959204,
+          "scientificName": "Thamnophilus punctatus",
+          "name": "Choca-bate-cabo",
+          "family": "Thamnophilidae",
+          "records": 148,
+          "iucn": "LC",
+          "wikidata": "Q903087",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/729286290/large.jpg",
+            "author": "Viktor",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/729286290",
+            "width": 1024,
+            "height": 768,
+            "alt": "choca-bate-cabo (Thamnophilus punctatus)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 165,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
         }
       ]
     },
@@ -409,13 +599,13 @@
           "iucn": "LC",
           "wikidata": "Q289823",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Leptodeira_annulata01.jpg",
-            "author": "Andreas Schlüter",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodeira_annulata01.jpg",
-            "width": 473,
-            "height": 770,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498891317/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/498891317",
+            "width": 1024,
+            "height": 768,
             "alt": "Serpente-olho-de-gato-anelada (Leptodeira annulata)"
           }
         },
@@ -455,6 +645,44 @@
             "width": 591,
             "height": 394,
             "alt": "jacaré-açu (Melanosuchus niger)"
+          }
+        },
+        {
+          "gbifKey": 2471948,
+          "scientificName": "Tupinambis teguixin",
+          "name": "Teiú-branco",
+          "family": "Teiidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q546279",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/728196136/large.jpg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/728196136",
+            "width": 1024,
+            "height": 752,
+            "alt": "Teiú-branco (Tupinambis teguixin)"
+          }
+        },
+        {
+          "gbifKey": 2441394,
+          "scientificName": "Paleosuchus trigonatus",
+          "name": "Jacaré-coroa",
+          "family": "Alligatoridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q473521",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111117810/large.jpeg",
+            "author": "Diego Naranjo-Cruz",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111117810",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jacaré-coroa (Paleosuchus trigonatus)"
           }
         }
       ]
@@ -576,6 +804,25 @@
             "width": 600,
             "height": 381,
             "alt": "Adenomera andreae"
+          }
+        },
+        {
+          "gbifKey": 2426171,
+          "scientificName": "Lithodytes lineatus",
+          "name": "Leptodactylus lineatus",
+          "family": "Leptodactylidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q2210071",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/393108827/large.jpg",
+            "author": "Mike Ostrowski",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/393108827",
+            "width": 1024,
+            "height": 681,
+            "alt": "Leptodactylus lineatus (Lithodytes lineatus)"
           }
         }
       ]
@@ -866,24 +1113,23 @@
           }
         },
         {
-          "gbifKey": 2902155,
-          "scientificName": "Pagamea coriacea",
-          "name": null,
-          "family": "Rubiaceae",
-          "records": 70,
-          "iucn": "LC",
-          "wikidata": "Q15482802",
-          "photo": null
-        },
-        {
           "gbifKey": 3993719,
           "scientificName": "Protium crassipetalum",
           "name": null,
           "family": "Burseraceae",
           "records": 58,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15544698",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/662249041/large.jpg",
+            "author": "Fernanda Mylena S França",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/662249041",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Protium crassipetalum)"
+          }
         },
         {
           "gbifKey": 8122614,
@@ -893,7 +1139,35 @@
           "records": 49,
           "iucn": null,
           "wikidata": "Q17526011",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249405691/large.jpeg",
+            "author": "Thiago Mouzinho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/249405691",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Clusia nitida)"
+          }
+        },
+        {
+          "gbifKey": 2885366,
+          "scientificName": "Manilkara bidentata",
+          "name": "Balata",
+          "family": "Sapotaceae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q804658",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/437898588/large.jpg",
+            "author": "Nils Servientis - Bivouac Naturaliste",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/437898588",
+            "width": 1024,
+            "height": 683,
+            "alt": "Balata (Manilkara bidentata)"
+          }
         }
       ]
     }
@@ -959,7 +1233,7 @@
     {
       "gbifKey": 8236133,
       "scientificName": "Garcinia albuquerquei",
-      "name": null,
+      "name": "Bacupari-miúdo",
       "family": "Clusiaceae",
       "records": null,
       "iucn": "EN",
@@ -969,7 +1243,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -1013,13 +1287,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -1099,5 +1373,6 @@
         "alt": "Camboim (Myrciaria floribunda)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

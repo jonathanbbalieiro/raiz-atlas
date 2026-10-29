@@ -110,13 +110,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -129,14 +129,14 @@
           "iucn": "LC",
           "wikidata": "Q267514",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
-            "author": "Sinara Conessa",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-            "width": 492,
-            "height": 640,
-            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg",
+            "author": "Manu Santa-Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473054518",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-mirim (Tamandua tetradactyla)"
           }
         },
         {
@@ -175,6 +175,82 @@
             "width": 1280,
             "height": 988,
             "alt": "Irara (Eira barbara)"
+          }
+        },
+        {
+          "gbifKey": 2434584,
+          "scientificName": "Cerdocyon thous",
+          "name": "Guaraxaim",
+          "family": "Canidae",
+          "records": 27,
+          "iucn": "LC",
+          "wikidata": "Q321376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444962719/large.jpeg",
+            "author": "David F. Belmonte",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444962719",
+            "width": 1024,
+            "height": 711,
+            "alt": "Guaraxaim (Cerdocyon thous)"
+          }
+        },
+        {
+          "gbifKey": 9686324,
+          "scientificName": "Metachirus nudicaudatus",
+          "name": "Cuíca-cauda-de-rato",
+          "family": "Didelphidae",
+          "records": 16,
+          "iucn": "LC",
+          "wikidata": "Q367378",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/382926271/large.jpeg",
+            "author": "Vincent Rufray",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/382926271",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cuíca-cauda-de-rato (Metachirus nudicaudatus)"
+          }
+        },
+        {
+          "gbifKey": 2434950,
+          "scientificName": "Leopardus wiedii",
+          "name": "Gato-do-mato",
+          "family": "Felidae",
+          "records": 7,
+          "iucn": "NT",
+          "wikidata": "Q192421",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/239567366/large.jpg",
+            "author": "Sam Eberhard",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/239567366",
+            "width": 1024,
+            "height": 683,
+            "alt": "Gato-do-mato (Leopardus wiedii)"
+          }
+        },
+        {
+          "gbifKey": 2440799,
+          "scientificName": "Euphractus sexcinctus",
+          "name": "Tatupeba",
+          "family": "Dasypodidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q902876",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284959585/large.jpeg",
+            "author": "Jan Ebr &amp; Ivana Ebrová",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284959585",
+            "width": 1024,
+            "height": 684,
+            "alt": "Tatupeba (Euphractus sexcinctus)"
           }
         }
       ]
@@ -335,6 +411,158 @@
             "height": 1093,
             "alt": "Saí-azul (Dacnis cayana)"
           }
+        },
+        {
+          "gbifKey": 5230139,
+          "scientificName": "Xiphorhynchus guttatus",
+          "name": "Arapaçu-de-garganta-amarela",
+          "family": "Furnariidae",
+          "records": 37,
+          "iucn": "LC",
+          "wikidata": "Q1265676",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/570047912/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/570047912",
+            "width": 1024,
+            "height": 768,
+            "alt": "arapaçu-de-garganta-amarela (Xiphorhynchus guttatus)"
+          }
+        },
+        {
+          "gbifKey": 2476636,
+          "scientificName": "Phaethornis ruber",
+          "name": "Besourinho-da-mata",
+          "family": "Trochilidae",
+          "records": 32,
+          "iucn": "LC",
+          "wikidata": "Q1267401",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475410145/large.jpeg",
+            "author": "Inacio Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/475410145",
+            "width": 1024,
+            "height": 819,
+            "alt": "Besourinho-da-mata (Phaethornis ruber)"
+          }
+        },
+        {
+          "gbifKey": 2487672,
+          "scientificName": "Manacus manacus",
+          "name": "Rendeira",
+          "family": "Pipridae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q74588",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449924582/large.jpeg",
+            "author": "Henrique Bitencourt",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/449924582",
+            "width": 1024,
+            "height": 784,
+            "alt": "Rendeira (Manacus manacus)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 30,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2487430,
+          "scientificName": "Vireo olivaceus",
+          "name": "Juruviara",
+          "family": "Vireonidae",
+          "records": 29,
+          "iucn": "LC",
+          "wikidata": "Q582976",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158043683/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/158043683",
+            "width": 1024,
+            "height": 683,
+            "alt": "Juruviara (Vireo olivaceus)"
+          }
+        },
+        {
+          "gbifKey": 2490042,
+          "scientificName": "Formicivora grisea",
+          "name": "Papa-formiga-pardo",
+          "family": "Thamnophilidae",
+          "records": 29,
+          "iucn": "LC",
+          "wikidata": "Q1272909",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101351835/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/101351835",
+            "width": 1024,
+            "height": 818,
+            "alt": "papa-formiga-pardo (Formicivora grisea)"
+          }
+        },
+        {
+          "gbifKey": 2483676,
+          "scientificName": "Rhytipterna simplex",
+          "name": "Vissiá",
+          "family": "Tyrannidae",
+          "records": 36,
+          "iucn": "LC",
+          "wikidata": "Q1272329",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/342216952/large.jpg",
+            "author": "Bruno Siqueira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/342216952",
+            "width": 1024,
+            "height": 683,
+            "alt": "vissiá (Rhytipterna simplex)"
+          }
+        },
+        {
+          "gbifKey": 2482866,
+          "scientificName": "Myiornis auricularis",
+          "name": "Miudinho",
+          "family": "Tyrannidae",
+          "records": 30,
+          "iucn": "LC",
+          "wikidata": "Q1267663",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/391918713/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/391918713",
+            "width": 1024,
+            "height": 685,
+            "alt": "miudinho (Myiornis auricularis)"
+          }
         }
       ]
     },
@@ -410,7 +638,7 @@
         {
           "gbifKey": 2428401,
           "scientificName": "Dendropsophus branneri",
-          "name": null,
+          "name": "Pererequinha-de-pintinha",
           "family": "Hylidae",
           "records": 2,
           "iucn": "LC",
@@ -429,7 +657,7 @@
         {
           "gbifKey": 5217935,
           "scientificName": "Scinax alter",
-          "name": null,
+          "name": "Perereca-do-litoral",
           "family": "Hylidae",
           "records": 2,
           "iucn": "LC",
@@ -448,12 +676,21 @@
         {
           "gbifKey": 5218006,
           "scientificName": "Boana semilineata",
-          "name": null,
+          "name": "Perereca dormideira",
           "family": "Hylidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101100341/large.jpeg",
+            "author": "Shiva Pires",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/101100341",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Boana semilineata)"
+          }
         }
       ]
     },
@@ -570,7 +807,7 @@
           "name": "Içara",
           "family": "Arecaceae",
           "records": 29,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q311356",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Euterpe_edulis.jpg",
@@ -608,7 +845,7 @@
           "name": "Pau-piranha",
           "family": "Nyctaginaceae",
           "records": 23,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q17244760",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Guapira_opposita_%28Vell.%29_Reitz_%2810745895313%29.jpg/1280px-Guapira_opposita_%28Vell.%29_Reitz_%2810745895313%29.jpg",
@@ -676,6 +913,25 @@
             "width": 1280,
             "height": 960,
             "alt": "cajueirinho (Chrysophyllum splendens)"
+          }
+        },
+        {
+          "gbifKey": 2920891,
+          "scientificName": "Psychotria carthagenensis",
+          "name": "Sanhaçaiba",
+          "family": "Rubiaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q7256517",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57666329/large.jpg",
+            "author": "Sune Holt",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/57666329",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaçaiba (Psychotria carthagenensis)"
           }
         }
       ]
@@ -808,13 +1064,13 @@
       "iucn": "EN",
       "wikidata": "Q42675898",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Paubrasil5.jpg",
-        "author": "Mauroguanandi",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paubrasil5.jpg",
-        "width": 375,
-        "height": 500,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/429733661/large.jpeg",
+        "author": "Henrique Bitencourt",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/429733661",
+        "width": 1024,
+        "height": 683,
         "alt": "Pau Brasil (Paubrasilia echinata)"
       }
     },
@@ -838,5 +1094,6 @@
       "wikidata": "Q17134842",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

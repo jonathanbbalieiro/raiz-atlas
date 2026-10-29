@@ -185,16 +185,6 @@
           }
         },
         {
-          "gbifKey": 3867110,
-          "scientificName": "Miconia egensis",
-          "name": null,
-          "family": "Melastomataceae",
-          "records": 6,
-          "iucn": "LC",
-          "wikidata": "Q15394572",
-          "photo": null
-        },
-        {
           "gbifKey": 3157048,
           "scientificName": "Xylopia cuspidata",
           "name": null,
@@ -202,7 +192,16 @@
           "records": 4,
           "iucn": "LC",
           "wikidata": "Q15366700",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32140437/large.jpeg",
+            "author": "Michael D. Pirie",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32140437",
+            "width": 1024,
+            "height": 672,
+            "alt": "null (Xylopia cuspidata)"
+          }
         },
         {
           "gbifKey": 3157191,
@@ -212,7 +211,16 @@
           "records": 4,
           "iucn": "LC",
           "wikidata": "Q15367496",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111353761/large.jpeg",
+            "author": "Enrique Salazar",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111353761",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Xylopia benthamii)"
+          }
         },
         {
           "gbifKey": 5532847,
@@ -222,17 +230,16 @@
           "records": 4,
           "iucn": null,
           "wikidata": "Q15607191",
-          "photo": null
-        },
-        {
-          "gbifKey": 3174143,
-          "scientificName": "Myrcia paivae",
-          "name": null,
-          "family": "Myrtaceae",
-          "records": 3,
-          "iucn": "LC",
-          "wikidata": "Q15375563",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/211823241/large.jpg",
+            "author": "Zac Peterson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/211823241",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Trichomanes hostmannianum)"
+          }
         },
         {
           "gbifKey": 7661791,
@@ -242,7 +249,16 @@
           "records": 3,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/81902992/large.jpeg",
+            "author": "Eduardo Chacón Madrigal",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/81902992",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Miconia punctata)"
+          }
         },
         {
           "gbifKey": 8267213,
@@ -252,7 +268,16 @@
           "records": 3,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/257881316/large.jpeg",
+            "author": "Hervé GALLIFFET",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/257881316",
+            "width": 1024,
+            "height": 861,
+            "alt": "null (Compsoneura ulei)"
+          }
         },
         {
           "gbifKey": 11013835,
@@ -262,10 +287,20 @@
           "records": 2,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/310938194/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/310938194",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Taquara micrantha)"
+          }
         }
       ]
     }
   ],
-  "threatened": []
+  "threatened": [],
+  "expandedAt": "2026-10-28"
 }

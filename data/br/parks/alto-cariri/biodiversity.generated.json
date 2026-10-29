@@ -34,13 +34,13 @@
           "iucn": "LC",
           "wikidata": "Q1587330",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Tangara_cyanoventris.jpg",
-            "author": "Gustavo Magnago",
-            "license": "CC BY 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tangara_cyanoventris.jpg",
-            "width": 498,
-            "height": 374,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/690184450/large.jpg",
+            "author": "Romilson Silva Lopes Junior",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/690184450",
+            "width": 1024,
+            "height": 726,
             "alt": "Saíra-dourada (Tangara cyanoventris)"
           }
         },
@@ -176,6 +176,158 @@
             "height": 1152,
             "alt": "Jandaia-de-testa-vermelha (Aratinga auricapillus)"
           }
+        },
+        {
+          "gbifKey": 2480989,
+          "scientificName": "Caracara plancus",
+          "name": "Carcará",
+          "family": "Falconidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q755119",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350512706/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/350512706",
+            "width": 1024,
+            "height": 682,
+            "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2481923,
+          "scientificName": "Sarcoramphus papa",
+          "name": "Urubu-rei",
+          "family": "Cathartidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q192705",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/547248731/large.jpg",
+            "author": "Conrado Pável de Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/547248731",
+            "width": 1024,
+            "height": 683,
+            "alt": "Urubu-rei (Sarcoramphus papa)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2482874,
+          "scientificName": "Tolmomyias flaviventris",
+          "name": "Bico-chato-amarelo",
+          "family": "Tyrannidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q1270583",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164130/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111164130",
+            "width": 1024,
+            "height": 855,
+            "alt": "Bico-chato-amarelo (Tolmomyias flaviventris)"
+          }
+        },
+        {
+          "gbifKey": 2481928,
+          "scientificName": "Cathartes burrovianus",
+          "name": "Urubu-de-cabeça-amarela",
+          "family": "Cathartidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q852751",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/260941303/large.jpg",
+            "author": "Anthony Batista",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/260941303",
+            "width": 1024,
+            "height": 683,
+            "alt": "Urubu-de-cabeça-amarela (Cathartes burrovianus)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 2483511,
+          "scientificName": "Camptostoma obsoletum",
+          "name": "Risadinha",
+          "family": "Tyrannidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q857875",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747236249/large.jpg",
+            "author": "Ad Konings",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/747236249",
+            "width": 1024,
+            "height": 730,
+            "alt": "Risadinha (Camptostoma obsoletum)"
+          }
         }
       ]
     },
@@ -250,14 +402,14 @@
           "iucn": "LC",
           "wikidata": "Q4684559",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Proceratophrys_renalis_IRDias_2014.jpg",
-            "author": "Dias, I",
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/245968000/large.jpeg",
+            "author": "Carlos Otávio Gussoni",
             "license": "CC BY 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Proceratophrys_renalis_IRDias_2014.jpg",
-            "width": 359,
-            "height": 279,
-            "alt": "Proceratophrys renalis"
+            "sourceUrl": "https://www.inaturalist.org/photos/245968000",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Proceratophrys renalis)"
           }
         },
         {
@@ -269,14 +421,14 @@
           "iucn": "LC",
           "wikidata": "Q3011561",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Phasmahyla_spectabilis_IRDias2014_%28cropped%29.jpg",
-            "author": "Dias, I",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phasmahyla_spectabilis_IRDias2014_(cropped).jpg",
-            "width": 341,
-            "height": 257,
-            "alt": "Phasmahyla spectabilis"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63039175/large.jpeg",
+            "author": "Matheus Moroti",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/63039175",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Phasmahyla spectabilis)"
           }
         }
       ]
@@ -403,7 +555,7 @@
         {
           "gbifKey": 9404220,
           "scientificName": "Miconia crenata",
-          "name": null,
+          "name": "Pixirica",
           "family": "Melastomataceae",
           "records": 4,
           "iucn": null,
@@ -564,7 +716,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q42750830",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/275449325/large.jpg",
+        "author": "Nils Servientis - Bivouac Naturaliste",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/275449325",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Pecluma dulcis)"
+      }
     },
     {
       "gbifKey": 2479660,
@@ -604,5 +765,6 @@
         "alt": "Cigarra-verdadeira (Sporophila falcirostris)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

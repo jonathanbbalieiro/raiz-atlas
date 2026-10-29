@@ -167,14 +167,90 @@
           "iucn": "LC",
           "wikidata": "Q267514",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
-            "author": "Sinara Conessa",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-            "width": 492,
-            "height": 640,
-            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg",
+            "author": "Manu Santa-Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473054518",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-mirim (Tamandua tetradactyla)"
+          }
+        },
+        {
+          "gbifKey": 5220123,
+          "scientificName": "Mazama americana",
+          "name": "Veado-mateiro",
+          "family": "Cervidae",
+          "records": 7,
+          "iucn": "DD",
+          "wikidata": "Q1763357",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/73723109/large.jpeg",
+            "author": "Fábio Olmos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/73723109",
+            "width": 1024,
+            "height": 767,
+            "alt": "Veado-mateiro (Mazama americana)"
+          }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
+          }
+        },
+        {
+          "gbifKey": 2436652,
+          "scientificName": "Alouatta caraya",
+          "name": "Bugio-preto e dourado",
+          "family": "Atelidae",
+          "records": 5,
+          "iucn": "NT",
+          "wikidata": "Q856342",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/167857590/large.jpeg",
+            "author": "Andy Jordan",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/167857590",
+            "width": 1024,
+            "height": 683,
+            "alt": "bugio-preto e dourado (Alouatta caraya)"
+          }
+        },
+        {
+          "gbifKey": 2440779,
+          "scientificName": "Dasypus novemcinctus",
+          "name": "Tatu-galinha",
+          "family": "Dasypodidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q649549",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552761863/large.jpg",
+            "author": "Bruno Henrique Aranda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/552761863",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tatu-galinha (Dasypus novemcinctus)"
           }
         }
       ]
@@ -228,7 +304,7 @@
           "name": "Periquito-da-caatinga",
           "family": "Psittacidae",
           "records": 45,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q595526",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aratinga_cactorum_-Brazil-8-2c.jpg",
@@ -334,6 +410,158 @@
             "width": 1280,
             "height": 1280,
             "alt": "Arapaçu-de-cerrado (Lepidocolaptes angustirostris)"
+          }
+        },
+        {
+          "gbifKey": 2495888,
+          "scientificName": "Columbina squammata",
+          "name": "Fogo-apagou",
+          "family": "Columbidae",
+          "records": 37,
+          "iucn": "LC",
+          "wikidata": "Q1259412",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/21908232/large.jpeg",
+            "author": "Douglas",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/21908232",
+            "width": 1024,
+            "height": 681,
+            "alt": "Fogo-apagou (Columbina squammata)"
+          }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 33,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 2482874,
+          "scientificName": "Tolmomyias flaviventris",
+          "name": "Bico-chato-amarelo",
+          "family": "Tyrannidae",
+          "records": 32,
+          "iucn": "LC",
+          "wikidata": "Q1270583",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164130/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111164130",
+            "width": 1024,
+            "height": 855,
+            "alt": "Bico-chato-amarelo (Tolmomyias flaviventris)"
+          }
+        },
+        {
+          "gbifKey": 2482204,
+          "scientificName": "Penelope superciliaris",
+          "name": "Jacupemba",
+          "family": "Cracidae",
+          "records": 31,
+          "iucn": "NT",
+          "wikidata": "Q1270743",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/186888549/large.jpeg",
+            "author": "Breno Figueiredo",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/186888549",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jacupemba (Penelope superciliaris)"
+          }
+        },
+        {
+          "gbifKey": 2482947,
+          "scientificName": "Myiopagis viridicata",
+          "name": "Guaracava-de-crista-alaranjada",
+          "family": "Tyrannidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q942878",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/238081536/large.jpeg",
+            "author": "Oscar Alejandro Morales Juárez",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/238081536",
+            "width": 1024,
+            "height": 768,
+            "alt": "Guaracava-de-crista-alaranjada (Myiopagis viridicata)"
+          }
+        },
+        {
+          "gbifKey": 2483497,
+          "scientificName": "Myiodynastes maculatus",
+          "name": "Bem-te-vi-rajado",
+          "family": "Tyrannidae",
+          "records": 35,
+          "iucn": "LC",
+          "wikidata": "Q875860",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620371179/large.jpg",
+            "author": "Anthony Batista",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/620371179",
+            "width": 1024,
+            "height": 683,
+            "alt": "bem-te-vi-rajado (Myiodynastes maculatus)"
+          }
+        },
+        {
+          "gbifKey": 2482999,
+          "scientificName": "Hemitriccus margaritaceiventer",
+          "name": "Sebinho-de-olho-de-ouro",
+          "family": "Tyrannidae",
+          "records": 33,
+          "iucn": "LC",
+          "wikidata": "Q1263117",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/437861670/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/437861670",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sebinho-de-olho-de-ouro (Hemitriccus margaritaceiventer)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/416376009",
+            "width": 1024,
+            "height": 684,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
           }
         }
       ]
@@ -455,6 +683,44 @@
             "width": 597,
             "height": 435,
             "alt": "Falsa-Coral-de-Barriga-Branca (Oxyrhopus trigeminus)"
+          }
+        },
+        {
+          "gbifKey": 2459658,
+          "scientificName": "Iguana iguana",
+          "name": "Iguana-verde",
+          "family": "Iguanidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q215376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/365307657/large.jpeg",
+            "author": "Daniel Manzur",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/365307657",
+            "width": 1024,
+            "height": 683,
+            "alt": "iguana-verde (Iguana iguana)"
+          }
+        },
+        {
+          "gbifKey": 2444433,
+          "scientificName": "Crotalus durissus",
+          "name": "Cascavel",
+          "family": "Viperidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q854864",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/696835095/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/696835095",
+            "width": 1024,
+            "height": 683,
+            "alt": "cascavel (Crotalus durissus)"
           }
         }
       ]
@@ -677,12 +943,12 @@
           "iucn": "LC",
           "wikidata": "Q149169",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Tacinga_inamonena_cv.Marlons_Dwarf.jpg",
-            "author": "Süleyman Demir",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tacinga_inamonena_cv.Marlons_Dwarf.jpg",
-            "width": 478,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/725713590/large.jpg",
+            "author": "Celso Henrique Varela Rios",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/725713590",
+            "width": 1024,
             "height": 768,
             "alt": "Quipá (Tacinga inamoena)"
           }
@@ -753,13 +1019,13 @@
           "iucn": "LC",
           "wikidata": "Q9694262",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Caneleiro.jpg",
-            "author": "Hudsonfas",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caneleiro.jpg",
-            "width": 250,
-            "height": 300,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/662447683/large.jpg",
+            "author": "Suzana Ehlin Martins",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/662447683",
+            "width": 1024,
+            "height": 768,
             "alt": "Caneleiro (árvore) (Cenostigma macrophyllum)"
           }
         },
@@ -800,6 +1066,63 @@
             "height": 524,
             "alt": "Ameixa-do-mato (Ximenia americana)"
           }
+        },
+        {
+          "gbifKey": 3698829,
+          "scientificName": "Combretum leprosum",
+          "name": "Mofumbo",
+          "family": "Combretaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q3896004",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28717404/large.jpeg",
+            "author": "Germaine Alexander Parada",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/28717404",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mofumbo (Combretum leprosum)"
+          }
+        },
+        {
+          "gbifKey": 7288348,
+          "scientificName": "Qualea parviflora",
+          "name": "Pau Terra",
+          "family": "Vochysiaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15336649",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/100050879/large.jpg",
+            "author": "nelson_filho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/100050879",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau Terra (Qualea parviflora)"
+          }
+        },
+        {
+          "gbifKey": 7327118,
+          "scientificName": "Terminalia fagifolia",
+          "name": "Cachaporra-do-gentio",
+          "family": "Combretaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q9671725",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29523167/large.jpeg",
+            "author": "Germaine Alexander Parada",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/29523167",
+            "width": 1024,
+            "height": 682,
+            "alt": "Cachaporra-do-gentio (Terminalia fagifolia)"
+          }
         }
       ]
     }
@@ -808,12 +1131,21 @@
     {
       "gbifKey": 4092004,
       "scientificName": "Handroanthus spongiosus",
-      "name": null,
+      "name": "Ipê-sete-cascas",
       "family": "Bignoniaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15549923",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58826607/large.jpeg",
+        "author": "Clara Matos",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/58826607",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Handroanthus spongiosus)"
+      }
     },
     {
       "gbifKey": 2440793,
@@ -872,5 +1204,6 @@
         "alt": "Jacucaca (Penelope jacucaca)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

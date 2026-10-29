@@ -249,7 +249,16 @@
           "records": 2,
           "iucn": "VU",
           "wikidata": "Q463154",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/616016929/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/616016929",
+            "width": 1024,
+            "height": 683,
+            "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus)"
+          }
         }
       ]
     },
@@ -319,13 +328,13 @@
           "iucn": "VU",
           "wikidata": "Q81671",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
-            "author": "Autor desconhecido",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
-            "width": 149,
-            "height": 225,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/661198/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/661198",
+            "width": 1024,
+            "height": 683,
             "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
           }
         },
@@ -449,7 +458,7 @@
           "name": null,
           "family": "Passifloraceae",
           "records": 6,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15607332",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Vellosia_%2815747680747%29.jpg/1280px-Vellosia_%2815747680747%29.jpg",
@@ -470,17 +479,16 @@
           "records": 10,
           "iucn": null,
           "wikidata": "Q15612842",
-          "photo": null
-        },
-        {
-          "gbifKey": 7739893,
-          "scientificName": "Fridericia nigrescens",
-          "name": null,
-          "family": "Bignoniaceae",
-          "records": 10,
-          "iucn": null,
-          "wikidata": "Q15549386",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/405140166/large.jpg",
+            "author": "Guillermo Menéndez",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/405140166",
+            "width": 1024,
+            "height": 684,
+            "alt": "null (Diplazium cristatum)"
+          }
         }
       ]
     }
@@ -562,13 +570,13 @@
       "iucn": "VU",
       "wikidata": "Q81671",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
-        "author": "Autor desconhecido",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
-        "width": 149,
-        "height": 225,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/661198/large.jpg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/661198",
+        "width": 1024,
+        "height": 683,
         "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
       }
     },
@@ -580,7 +588,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q3761530",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/220319145/large.jpeg",
+        "author": "Jennifer Rycenga",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/220319145",
+        "width": 1024,
+        "height": 768,
+        "alt": "Harttia dissidens (Harttia dissidens)"
+      }
     },
     {
       "gbifKey": 5219526,
@@ -609,7 +626,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q463154",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/616016929/large.jpg",
+        "author": "Donald Davesne",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/616016929",
+        "width": 1024,
+        "height": 683,
+        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus)"
+      }
     },
     {
       "gbifKey": 5786091,
@@ -630,5 +656,6 @@
         "alt": "Bugio-de-mãos-vermelhas-de-spix (Alouatta discolor)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

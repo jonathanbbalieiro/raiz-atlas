@@ -147,17 +147,16 @@
           "records": 7,
           "iucn": "LC",
           "wikidata": "Q194488",
-          "photo": null
-        },
-        {
-          "gbifKey": 2438283,
-          "scientificName": "Oligoryzomys microtis",
-          "name": null,
-          "family": "Cricetidae",
-          "records": 2,
-          "iucn": "LC",
-          "wikidata": "Q1769195",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/488435678/large.jpg",
+            "author": "Guilherme Siniciato Terra Garbino",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/488435678",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Monodelphis glirina)"
+          }
         }
       ]
     },
@@ -317,6 +316,139 @@
             "height": 960,
             "alt": "caçula (Myiornis ecaudatus)"
           }
+        },
+        {
+          "gbifKey": 2496432,
+          "scientificName": "Piaya cayana",
+          "name": "Alma-de-gato",
+          "family": "Cuculidae",
+          "records": 46,
+          "iucn": "LC",
+          "wikidata": "Q1270495",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552914159/large.jpg",
+            "author": "Davidson Moreira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/552914159",
+            "width": 1024,
+            "height": 715,
+            "alt": "Alma-de-gato (Piaya cayana)"
+          }
+        },
+        {
+          "gbifKey": 2486345,
+          "scientificName": "Phoenicircus carnifex",
+          "name": "Saurá",
+          "family": "Cotingidae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q1301753",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/610045401/large.jpg",
+            "author": "Lindolfo Souto",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/610045401",
+            "width": 1024,
+            "height": 703,
+            "alt": "Saurá (Phoenicircus carnifex)"
+          }
+        },
+        {
+          "gbifKey": 5959225,
+          "scientificName": "Ara chloropterus",
+          "name": "Arara-vermelha",
+          "family": "Psittacidae",
+          "records": 41,
+          "iucn": "LC",
+          "wikidata": "Q739089",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/538934372/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/538934372",
+            "width": 1024,
+            "height": 683,
+            "alt": "Arara-vermelha (Ara chloropterus)"
+          }
+        },
+        {
+          "gbifKey": 7340182,
+          "scientificName": "Pyrrhura amazonum",
+          "name": "Tiriba-de-hellmayr",
+          "family": "Psittacidae",
+          "records": 39,
+          "iucn": "NT",
+          "wikidata": "Q2996196",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/306793857/large.jpg",
+            "author": "Ronaldo Francisco",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/306793857",
+            "width": 1024,
+            "height": 683,
+            "alt": "tiriba-de-hellmayr (Pyrrhura amazonum)"
+          }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 38,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 2495321,
+          "scientificName": "Patagioenas subvinacea",
+          "name": "Pomba-botafogo",
+          "family": "Columbidae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q1260727",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104726050/large.jpeg",
+            "author": "Santi MD",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/104726050",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pomba-botafogo (Patagioenas subvinacea)"
+          }
+        },
+        {
+          "gbifKey": 2488442,
+          "scientificName": "Ramphocelus carbo",
+          "name": "Pipira-vermelha",
+          "family": "Thraupidae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q906965",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/121438781/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/121438781",
+            "width": 1024,
+            "height": 768,
+            "alt": "pipira-vermelha (Ramphocelus carbo)"
+          }
         }
       ]
     },
@@ -353,13 +485,13 @@
           "iucn": "LC",
           "wikidata": "Q2701091",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Oxybelis_aeneus.jpg",
-            "author": "Tod Baker from Tianjin, China",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxybelis_aeneus.jpg",
-            "width": 435,
-            "height": 435,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/543476061/large.jpg",
+            "author": "Henrique Nogueira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/543476061",
+            "width": 1024,
+            "height": 683,
             "alt": "Cobra-cipó-mexicana (Oxybelis aeneus)"
           }
         },
@@ -423,7 +555,7 @@
         {
           "gbifKey": 8415066,
           "scientificName": "Chatogekko amazonicus",
-          "name": null,
+          "name": "Lagartixa-da-amazônia",
           "family": "Sphaerodactylidae",
           "records": 4,
           "iucn": "LC",
@@ -471,7 +603,7 @@
           "name": null,
           "family": "Bufonidae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q2868928",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Atelopus_hoogmoedi_12982604.jpg/1280px-Atelopus_hoogmoedi_12982604.jpg",
@@ -511,7 +643,16 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q63523524",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/326614150/large.jpeg",
+            "author": "Igor Gerolineto Alves",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/326614150",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Allobates carajas)"
+          }
         },
         {
           "gbifKey": 5217510,
@@ -521,7 +662,16 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q2212604",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/154943354/large.jpeg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/154943354",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Leptodactylus leptodactyloides)"
+          }
         }
       ]
     },
@@ -679,20 +829,20 @@
           "iucn": "LC",
           "wikidata": "Q309552",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Andirobajovem.jpg",
-            "author": "Mauroguanandi",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andirobajovem.jpg",
-            "width": 375,
-            "height": 500,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/530759303/large.jpg",
+            "author": "Mario Guzmán",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/530759303",
+            "width": 1024,
+            "height": 768,
             "alt": "Andiroba (Carapa guianensis)"
           }
         },
         {
           "gbifKey": 2970136,
           "scientificName": "Mimosa skinneri",
-          "name": null,
+          "name": "Mimosa-de-carajás",
           "family": "Fabaceae",
           "records": 14,
           "iucn": null,
@@ -774,7 +924,16 @@
           "records": 33,
           "iucn": null,
           "wikidata": "Q42814009",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345073118/large.jpeg",
+            "author": "Mayara Marques",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/345073118",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Brasilianthus carajensis)"
+          }
         },
         {
           "gbifKey": 8202750,
@@ -784,17 +943,16 @@
           "records": 32,
           "iucn": null,
           "wikidata": "Q42889854",
-          "photo": null
-        },
-        {
-          "gbifKey": 2692817,
-          "scientificName": "Xyris brachysepala",
-          "name": null,
-          "family": "Xyridaceae",
-          "records": 23,
-          "iucn": null,
-          "wikidata": "Q15475565",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/699514607/large.jpg",
+            "author": "Robin Heymans",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/699514607",
+            "width": 1024,
+            "height": 682,
+            "alt": "null (Borreria elaiosulcata)"
+          }
         }
       ]
     }
@@ -909,7 +1067,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -992,5 +1150,6 @@
       "wikidata": null,
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

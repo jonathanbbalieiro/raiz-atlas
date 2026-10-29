@@ -72,13 +72,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -209,7 +209,7 @@
           "name": "Cabeça-encarnada",
           "family": "Pipridae",
           "records": 26,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q842522",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pipra_rubrocapilla_1838.jpg/1280px-Pipra_rubrocapilla_1838.jpg",
@@ -228,7 +228,7 @@
           "name": "Sanhaço-cinzento",
           "family": "Thraupidae",
           "records": 24,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1588073",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/1280px-Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
@@ -258,6 +258,139 @@
             "width": 1280,
             "height": 1093,
             "alt": "Saí-azul (Dacnis cayana)"
+          }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 22,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 2487672,
+          "scientificName": "Manacus manacus",
+          "name": "Rendeira",
+          "family": "Pipridae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q74588",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449924582/large.jpeg",
+            "author": "Henrique Bitencourt",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/449924582",
+            "width": 1024,
+            "height": 784,
+            "alt": "Rendeira (Manacus manacus)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2482874,
+          "scientificName": "Tolmomyias flaviventris",
+          "name": "Bico-chato-amarelo",
+          "family": "Tyrannidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q1270583",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164130/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111164130",
+            "width": 1024,
+            "height": 855,
+            "alt": "Bico-chato-amarelo (Tolmomyias flaviventris)"
+          }
+        },
+        {
+          "gbifKey": 2487430,
+          "scientificName": "Vireo olivaceus",
+          "name": "Juruviara",
+          "family": "Vireonidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q582976",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158043683/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/158043683",
+            "width": 1024,
+            "height": 683,
+            "alt": "Juruviara (Vireo olivaceus)"
+          }
+        },
+        {
+          "gbifKey": 5230942,
+          "scientificName": "Saltator maximus",
+          "name": "Trinca-ferro",
+          "family": "Thraupidae",
+          "records": 22,
+          "iucn": "LC",
+          "wikidata": "Q918325",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/7729848/large.jpg",
+            "author": "Marv Elliott",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/7729848",
+            "width": 1024,
+            "height": 819,
+            "alt": "Trinca-ferro (Saltator maximus)"
+          }
+        },
+        {
+          "gbifKey": 2486447,
+          "scientificName": "Schiffornis turdina",
+          "name": "Flautim-marrom",
+          "family": "Cotingidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q1308722",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89595820/large.jpg",
+            "author": "Justyn Stahl",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/89595820",
+            "width": 1024,
+            "height": 683,
+            "alt": "flautim-marrom (Schiffornis turdina)"
           }
         }
       ]
@@ -351,17 +484,35 @@
           "records": 3,
           "iucn": "LC",
           "wikidata": "Q5242230",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/641157593/large.jpg",
+            "author": "Samuel Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/641157593",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Enyalius pictus)"
+          }
         },
         {
           "gbifKey": 8536149,
           "scientificName": "Enyalius catenatus",
-          "name": null,
+          "name": "Aniju-acanga",
           "family": "Leiosauridae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/606396160/large.jpg",
+            "author": "fabioamaralmonte",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/606396160",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Enyalius catenatus)"
+          }
         }
       ]
     },
@@ -430,7 +581,7 @@
         {
           "gbifKey": 10863437,
           "scientificName": "Boana faber",
-          "name": null,
+          "name": "Perereca-martelo",
           "family": "Hylidae",
           "records": 4,
           "iucn": "LC",
@@ -482,6 +633,25 @@
             "width": 1280,
             "height": 850,
             "alt": "Physalaemus signifer"
+          }
+        },
+        {
+          "gbifKey": 5216847,
+          "scientificName": "Rhinella hoogmoedi",
+          "name": "Sapo-Folha-da-Mata-Atlântica",
+          "family": "Bufonidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q4672342",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498626844/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/498626844",
+            "width": 1024,
+            "height": 768,
+            "alt": "Sapo-Folha-da-Mata-Atlântica (Rhinella hoogmoedi)"
           }
         }
       ]
@@ -637,7 +807,7 @@
           "name": "Barbatimão-branco",
           "family": "Fabaceae",
           "records": 23,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q114703647",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Wild_Abarema_filamentosa_flowering.jpg",
@@ -801,6 +971,63 @@
             "height": 853,
             "alt": "Miconia mirabilis"
           }
+        },
+        {
+          "gbifKey": 7317391,
+          "scientificName": "Himatanthus bracteatus",
+          "name": "Janaúba",
+          "family": "Apocynaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q388205",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252782004/large.jpeg",
+            "author": "Carlos Otávio Gussoni",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/252782004",
+            "width": 1024,
+            "height": 768,
+            "alt": "Janaúba (Himatanthus bracteatus)"
+          }
+        },
+        {
+          "gbifKey": 5357068,
+          "scientificName": "Cassia ferruginea",
+          "name": "Chuva-de-ouro",
+          "family": "Fabaceae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q15290941",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/234953029/large.jpeg",
+            "author": "Donizete Carvalho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/234953029",
+            "width": 1024,
+            "height": 683,
+            "alt": "Chuva-de-ouro (Cassia ferruginea)"
+          }
+        },
+        {
+          "gbifKey": 7316790,
+          "scientificName": "Tabernaemontana laeta",
+          "name": "Peschiera laeta",
+          "family": "Apocynaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q15377742",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/161960124/large.jpeg",
+            "author": "Leandro Cardoso",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/161960124",
+            "width": 1024,
+            "height": 768,
+            "alt": "Peschiera laeta (Tabernaemontana laeta)"
+          }
         }
       ]
     }
@@ -828,7 +1055,7 @@
     {
       "gbifKey": 5630372,
       "scientificName": "Swartzia euxylophora",
-      "name": null,
+      "name": "Arrudão,",
       "family": "Fabaceae",
       "records": null,
       "iucn": "EN",
@@ -857,12 +1084,21 @@
     {
       "gbifKey": 3788361,
       "scientificName": "Melicoccus espiritosantensis",
-      "name": null,
+      "name": "Pitombarana",
       "family": "Sapindaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q18083275",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/235583167/large.jpeg",
+        "author": "Geovane Siqueira",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/235583167",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Melicoccus espiritosantensis)"
+      }
     },
     {
       "gbifKey": 2884783,
@@ -973,12 +1209,13 @@
     {
       "gbifKey": 2984809,
       "scientificName": "Couepia schottii",
-      "name": null,
+      "name": "Oiti-boi",
       "family": "Chrysobalanaceae",
       "records": null,
       "iucn": "VU",
       "wikidata": "Q2998718",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

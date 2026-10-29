@@ -3,6 +3,11 @@ import { mergeSpecies } from "./species-search";
 
 const ANIMAL_GROUPS = new Set(["mamiferos", "aves", "repteis", "anfibios", "peixes", "borboletas"]);
 
+export const THREATENED_CATEGORIES: readonly IucnCategory[] = ["CR", "EN", "VU"];
+
+/** Ameaçada = categoria global CR, EN ou VU. A lista `threatened` do levantamento não define o filtro. */
+export const isThreatened = (species: Pick<SpeciesCard, "iucn">) => !!species.iucn && THREATENED_CATEGORIES.includes(species.iucn);
+
 export function biodiversitySelections(bio: Biodiversity) {
   const everyone = mergeSpecies([...bio.groups.flatMap((g) => g.species), ...bio.threatened]);
   const animals = new Set(bio.groups.filter((g) => ANIMAL_GROUPS.has(g.id)).flatMap((g) => g.species.map((s) => s.gbifKey)));

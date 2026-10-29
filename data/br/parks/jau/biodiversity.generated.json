@@ -119,26 +119,6 @@
             "height": 1280,
             "alt": "Macaco-prego-castanho (Sapajus apella)"
           }
-        },
-        {
-          "gbifKey": 2439312,
-          "scientificName": "Oecomys roberti",
-          "name": null,
-          "family": "Cricetidae",
-          "records": 2,
-          "iucn": "LC",
-          "wikidata": "Q1767440",
-          "photo": null
-        },
-        {
-          "gbifKey": 8219932,
-          "scientificName": "Artibeus bogotensis",
-          "name": null,
-          "family": "Phyllostomidae",
-          "records": 2,
-          "iucn": null,
-          "wikidata": "Q16687474",
-          "photo": null
         }
       ]
     },
@@ -298,6 +278,158 @@
             "height": 853,
             "alt": "suiriri (Tyrannus melancholicus)"
           }
+        },
+        {
+          "gbifKey": 2478774,
+          "scientificName": "Ramphastos tucanus",
+          "name": "Tucano-de-peito-branco",
+          "family": "Ramphastidae",
+          "records": 101,
+          "iucn": "LC",
+          "wikidata": "Q384839",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172081278/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172081278",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tucano-de-peito-branco (Ramphastos tucanus)"
+          }
+        },
+        {
+          "gbifKey": 2479652,
+          "scientificName": "Amazona festiva",
+          "name": "Papa-cacau",
+          "family": "Psittacidae",
+          "records": 91,
+          "iucn": "LC",
+          "wikidata": "Q882404",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62660460/large.jpg",
+            "author": "Dan Riskin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/62660460",
+            "width": 1024,
+            "height": 683,
+            "alt": "Papa-cacau (Amazona festiva)"
+          }
+        },
+        {
+          "gbifKey": 2475482,
+          "scientificName": "Chloroceryle amazona",
+          "name": "Martim-pescador-verde",
+          "family": "Alcedinidae",
+          "records": 90,
+          "iucn": "LC",
+          "wikidata": "Q456421",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/189405444/large.jpg",
+            "author": "Daniel Pineda Vera",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/189405444",
+            "width": 1024,
+            "height": 683,
+            "alt": "Martim-pescador-verde (Chloroceryle amazona)"
+          }
+        },
+        {
+          "gbifKey": 2475187,
+          "scientificName": "Monasa nigrifrons",
+          "name": "Chora-chuva-preto",
+          "family": "Bucconidae",
+          "records": 88,
+          "iucn": "LC",
+          "wikidata": "Q955203",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93309231/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/93309231",
+            "width": 1024,
+            "height": 768,
+            "alt": "Chora-chuva-preto (Monasa nigrifrons)"
+          }
+        },
+        {
+          "gbifKey": 2496817,
+          "scientificName": "Nyctiprogne leucopyga",
+          "name": "Bacurau-de-cauda-barrada",
+          "family": "Caprimulgidae",
+          "records": 86,
+          "iucn": "LC",
+          "wikidata": "Q1261746",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/754121971/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/754121971",
+            "width": 1024,
+            "height": 683,
+            "alt": "Bacurau-de-cauda-barrada (Nyctiprogne leucopyga)"
+          }
+        },
+        {
+          "gbifKey": 2479666,
+          "scientificName": "Amazona amazonica",
+          "name": "Papagaio-do-mangue",
+          "family": "Psittacidae",
+          "records": 81,
+          "iucn": "LC",
+          "wikidata": "Q586803",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/374570027/large.jpg",
+            "author": "Imrick B.",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/374570027",
+            "width": 1024,
+            "height": 684,
+            "alt": "Papagaio-do-mangue (Amazona amazonica)"
+          }
+        },
+        {
+          "gbifKey": 2483015,
+          "scientificName": "Hemitriccus minor",
+          "name": "Maria-sebinha",
+          "family": "Tyrannidae",
+          "records": 80,
+          "iucn": "LC",
+          "wikidata": "Q1266015",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/169153034/large.jpeg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/169153034",
+            "width": 1024,
+            "height": 839,
+            "alt": "Maria-sebinha (Hemitriccus minor)"
+          }
+        },
+        {
+          "gbifKey": 2481929,
+          "scientificName": "Cathartes melambrotus",
+          "name": "Urubu-da-mata",
+          "family": "Cathartidae",
+          "records": 78,
+          "iucn": "LC",
+          "wikidata": "Q250490",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/332164081/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/332164081",
+            "width": 1024,
+            "height": 641,
+            "alt": "Urubu-da-mata (Cathartes melambrotus)"
+          }
         }
       ]
     },
@@ -419,6 +551,44 @@
             "height": 646,
             "alt": "Jabuti-manchado (Platemys platycephala)"
           }
+        },
+        {
+          "gbifKey": 8953936,
+          "scientificName": "Caiman crocodilus",
+          "name": "Jacaretinga",
+          "family": "Alligatoridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q272582",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359316071/large.jpeg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/359316071",
+            "width": 1024,
+            "height": 705,
+            "alt": "Jacaretinga (Caiman crocodilus)"
+          }
+        },
+        {
+          "gbifKey": 5220775,
+          "scientificName": "Bothrops atrox",
+          "name": "Jararaca-do-norte",
+          "family": "Viperidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q900848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13606734/large.jpeg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/13606734",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jararaca-do-norte (Bothrops atrox)"
+          }
         }
       ]
     },
@@ -487,7 +657,7 @@
         {
           "gbifKey": 2427639,
           "scientificName": "Osteocephalus taurinus",
-          "name": null,
+          "name": "Perereca-de-perna-fina",
           "family": "Hylidae",
           "records": 4,
           "iucn": "LC",
@@ -585,16 +755,6 @@
             "height": 1679,
             "alt": "Stalachtis calliope"
           }
-        },
-        {
-          "gbifKey": 6228464,
-          "scientificName": "Callizona acesta",
-          "name": null,
-          "family": "Nymphalidae",
-          "records": 2,
-          "iucn": null,
-          "wikidata": "Q13450055",
-          "photo": null
         }
       ]
     },
@@ -631,13 +791,13 @@
           "iucn": "LC",
           "wikidata": "Q309552",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Andirobajovem.jpg",
-            "author": "Mauroguanandi",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andirobajovem.jpg",
-            "width": 375,
-            "height": 500,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/530759303/large.jpg",
+            "author": "Mario Guzmán",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/530759303",
+            "width": 1024,
+            "height": 768,
             "alt": "Andiroba (Carapa guianensis)"
           }
         },
@@ -669,13 +829,13 @@
           "iucn": null,
           "wikidata": "Q15469067",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Oncidium_cebolleta.jpg",
-            "author": "No machine-readable author provided. Javier martin assumed (based on copyright c",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oncidium_cebolleta.jpg",
-            "width": 480,
-            "height": 360,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/137094572/large.jpg",
+            "author": "desertnaturalist",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/137094572",
+            "width": 1024,
+            "height": 782,
             "alt": "Orquídea-cebolinha (Trichocentrum cebolleta)"
           }
         },
@@ -737,16 +897,6 @@
           }
         },
         {
-          "gbifKey": 3071812,
-          "scientificName": "Mabea nitida",
-          "name": null,
-          "family": "Euphorbiaceae",
-          "records": 693,
-          "iucn": "LC",
-          "wikidata": "Q15357579",
-          "photo": null
-        },
-        {
           "gbifKey": 7285048,
           "scientificName": "Burdachia prismatocarpa",
           "name": null,
@@ -754,17 +904,35 @@
           "records": 466,
           "iucn": "LC",
           "wikidata": "Q15387862",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/206801184/large.jpeg",
+            "author": "Enrique Salazar",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/206801184",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Burdachia prismatocarpa)"
+          }
         },
         {
-          "gbifKey": 3054668,
-          "scientificName": "Maprounea amazonica",
-          "name": null,
-          "family": "Euphorbiaceae",
-          "records": 394,
+          "gbifKey": 2895593,
+          "scientificName": "Genipa americana",
+          "name": "Jenipapeiro",
+          "family": "Rubiaceae",
+          "records": 8,
           "iucn": "LC",
-          "wikidata": "Q15363977",
-          "photo": null
+          "wikidata": "Q1353278",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/168275564/large.jpg",
+            "author": "Kristof Zyskowski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/168275564",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jenipapeiro (Genipa americana)"
+          }
         }
       ]
     }
@@ -883,7 +1051,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q5472622",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420226869/large.jpeg",
+        "author": "esa_bt, alguns direitos reservados (CC BY-NC)",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/420226869",
+        "width": 1024,
+        "height": 768,
+        "alt": "Lecythis prancei (Lecythis prancei)"
+      }
     },
     {
       "gbifKey": 2442785,
@@ -970,15 +1147,16 @@
       "iucn": "VU",
       "wikidata": "Q81671",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
-        "author": "Autor desconhecido",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
-        "width": 149,
-        "height": 225,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/661198/large.jpg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/661198",
+        "width": 1024,
+        "height": 683,
         "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

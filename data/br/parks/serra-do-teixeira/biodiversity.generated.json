@@ -123,12 +123,21 @@
         {
           "gbifKey": 8661793,
           "scientificName": "Histiotus diaphanopterus",
-          "name": null,
+          "name": "Morcego marrom orelhudo de asas transparentes",
           "family": "Vespertilionidae",
           "records": 4,
           "iucn": null,
           "wikidata": "Q21994994",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/212503154/large.jpeg",
+            "author": "Frederico Acaz Sonntag",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/212503154",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Histiotus diaphanopterus)"
+          }
         }
       ]
     },
@@ -181,7 +190,7 @@
           "name": "Sanhaço-cinzento",
           "family": "Thraupidae",
           "records": 26,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1588073",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/1280px-Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
@@ -288,6 +297,158 @@
             "height": 960,
             "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
           }
+        },
+        {
+          "gbifKey": 2483242,
+          "scientificName": "Hirundinea ferruginea",
+          "name": "Gibão-de-couro",
+          "family": "Tyrannidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q979415",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752318883/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/752318883",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gibão-de-couro (Hirundinea ferruginea)"
+          }
+        },
+        {
+          "gbifKey": 5844398,
+          "scientificName": "Rupornis magnirostris",
+          "name": "Gavião-carijó",
+          "family": "Accipitridae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q426708",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164775267/large.jpeg",
+            "author": "Kai Squires",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/164775267",
+            "width": 1024,
+            "height": 769,
+            "alt": "Gavião-carijó (Rupornis magnirostris)"
+          }
+        },
+        {
+          "gbifKey": 5959208,
+          "scientificName": "Thamnophilus doliatus",
+          "name": "Choca-barrada",
+          "family": "Thamnophilidae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q863581",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141529941/large.jpeg",
+            "author": "Daniel Cavallari",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/141529941",
+            "width": 1024,
+            "height": 768,
+            "alt": "choca-barrada (Thamnophilus doliatus)"
+          }
+        },
+        {
+          "gbifKey": 2476149,
+          "scientificName": "Anopetia gounellei",
+          "name": "Rabo-branco-de-cauda-larga",
+          "family": "Trochilidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q518531",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/169120222/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/169120222",
+            "width": 1024,
+            "height": 683,
+            "alt": "rabo-branco-de-cauda-larga (Anopetia gounellei)"
+          }
+        },
+        {
+          "gbifKey": 2487964,
+          "scientificName": "Euphonia chlorotica",
+          "name": "Fim-fim",
+          "family": "Fringillidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q268032",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114805174/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114805174",
+            "width": 1024,
+            "height": 683,
+            "alt": "Fim-fim (Euphonia chlorotica)"
+          }
+        },
+        {
+          "gbifKey": 7341895,
+          "scientificName": "Setophaga pitiayumi",
+          "name": "Mariquita",
+          "family": "Parulidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q27075912",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/465541370/large.jpg",
+            "author": "MarvalPhotography19",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/465541370",
+            "width": 1024,
+            "height": 727,
+            "alt": "mariquita (Setophaga pitiayumi)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
         }
       ]
     },
@@ -318,12 +479,21 @@
         {
           "gbifKey": 8957561,
           "scientificName": "Tropidurus hispidus",
-          "name": null,
+          "name": "Calango-de-pedra",
           "family": "Tropiduridae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29017539/large.jpg",
+            "author": "B. Phalan",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/29017539",
+            "width": 1024,
+            "height": 688,
+            "alt": "null (Tropidurus hispidus)"
+          }
         }
       ]
     },
@@ -359,17 +529,35 @@
           "records": 4,
           "iucn": "LC",
           "wikidata": "Q2705366",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/140911318/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/140911318",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Scinax pachycrus)"
+          }
         },
         {
           "gbifKey": 10697747,
           "scientificName": "Boana crepitans",
-          "name": null,
+          "name": "Perereca-olhos-de-esmeralda",
           "family": "Hylidae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/151104760/large.jpeg",
+            "author": "Carlos Santana",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/151104760",
+            "width": 1024,
+            "height": 671,
+            "alt": "null (Boana crepitans)"
+          }
         }
       ]
     },
@@ -581,7 +769,7 @@
           "name": "Periquiteira",
           "family": "Cannabaceae",
           "records": 21,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q5694996",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Trema_micranthum_kz07.jpg/1280px-Trema_micranthum_kz07.jpg",
@@ -600,7 +788,7 @@
           "name": "Cumichá-branco",
           "family": "Sapindaceae",
           "records": 20,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15469219",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Allophylus_laevigatus_%28Turcz.%29_Radlk._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%282%29.jpg",
@@ -688,6 +876,25 @@
             "height": 787,
             "alt": "Balãozinho (Cardiospermum corindum)"
           }
+        },
+        {
+          "gbifKey": 5331148,
+          "scientificName": "Casearia sylvestris",
+          "name": "Guaçatonga",
+          "family": "Salicaceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q5558895",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/226508042/large.jpeg",
+            "author": "aacocucci",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/226508042",
+            "width": 1024,
+            "height": 680,
+            "alt": "Guaçatonga (Casearia sylvestris)"
+          }
         }
       ]
     }
@@ -720,7 +927,16 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q5490977",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/670259191/large.jpg",
+        "author": "Robin Heymans",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/670259191",
+        "width": 1024,
+        "height": 682,
+        "alt": "null (Solanum ovum-fringillae)"
+      }
     },
     {
       "gbifKey": 3191373,
@@ -760,5 +976,6 @@
         "alt": "Guabiraba-de-rama (Campomanesia aromatica)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

@@ -5,15 +5,17 @@ import { useCallback, useEffect, useId, useRef, useState } from "react";
 import type { Park, SpeciesCard } from "@/lib/data/types";
 import { href } from "@/lib/labels";
 import { filterSpecies } from "@/lib/species-search";
-import { biodiversitySelections, CONSERVATION_INFO, speciesEvidenceLink } from "@/lib/species-evidence";
+import { biodiversitySelections, CONSERVATION_INFO, isThreatened, speciesEvidenceLink } from "@/lib/species-evidence";
 import { biodiversityRoster } from "@/lib/species-photos";
 import { biodiversityNavigation, orderBiodiversityRoster } from "@/lib/biodiversity-navigation";
 import Image from "@/components/panel/PhotoImage";
 import { SpeciesPhoto } from "@/components/panel/SpeciesPhoto";
+import { IucnBadge } from "./SpeciesExplorer";
 import { Credit } from "@/components/panel/Gallery";
 import { useExplore } from "@/components/map/focus";
 import { OCCURRENCE_COLOR } from "@/components/map/theme";
 import { cellKm, loadOccurrences, type OccurrenceGrid } from "@/lib/occurrences";
+import { loadSpeciesIndex, loadSpeciesProfiles, type SpeciesIndex, type SpeciesProfile } from "@/lib/species-extra";
 
 export function BiodiversityView({ park }: { park: Park }) {
   const bio = park.biodiversity!;
@@ -42,7 +44,7 @@ export function BiodiversityView({ park }: { park: Park }) {
     { id: "todas", label: "Todas", entries: species },
     { id: "animais", label: "Animais", entries: selectKeys(selections.animals) },
     { id: "plantas", label: "Plantas", entries: selectKeys(selections.plants) },
-    { id: "ameacadas", label: "Ameaçadas", entries: selectKeys(bio.threatened) },
+    { id: "ameacadas", label: "Ameaçadas", entries: species.filter(isThreatened) },
   ].filter((item) => item.entries.length);
   const results = filterSpecies(groups.find((item) => item.id === group)?.entries ?? species, query);
   const navigation = biodiversityNavigation(results, selected);
@@ -61,6 +63,21 @@ export function BiodiversityView({ park }: { park: Park }) {
       current = false;
     };
   }, [country, parkSlug]);
+  const [index, setIndex] = useState<SpeciesIndex | null>(null);
+  const [profiles, setProfiles] = useState<Record<string, SpeciesProfile> | null>(null);
+  useEffect(() => {
+    if (!reading) return;
+    let current = true;
+    loadSpeciesIndex(country).then((i) => current && setIndex(i));
+    loadSpeciesProfiles(country).then((p) => current && setProfiles(p));
+    return () => {
+      current = false;
+    };
+  }, [reading, country]);
+  const activeKey = active?.scientificName.trim().toLowerCase() ?? "";
+  const profile = profiles?.[activeKey];
+  const otherParks = (index?.species[activeKey] ?? []).filter((slug) => slug !== parkSlug && index?.parks[slug]);
+  const groupLabel = active ? bio.groups.find((g) => g.species.some((s) => s.gbifKey === active.gbifKey))?.label : undefined;
   const occurrence = reading && active ? grid?.species[String(active.gbifKey)] : undefined;
   // O mapa mostra onde a espécie em leitura foi registrada; na grade, nada.
   const layerKey = occurrence && active ? active.gbifKey : null;
@@ -142,7 +159,7 @@ export function BiodiversityView({ park }: { park: Park }) {
       <ul className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-3 lg:gap-4">
         {results.map((item) => <li key={item.scientificName}>
           <button type="button" id={cardId(item)} onClick={() => choose(item)} aria-label={`Conhecer ${item.name ?? item.scientificName}`} className="h-full w-full overflow-hidden rounded-2xl border border-line bg-card text-left transition hover:border-forest hover:shadow-sm">
-            <span className="relative block aspect-[4/3] bg-paper-deep">{item.photo ? <Image src={item.photo.src} alt="" fill sizes="(min-width: 1024px) 340px, 45vw" className="object-contain p-1" /> : <span className="absolute inset-0 flex items-center justify-center px-3 text-center text-xs text-ink-soft">Foto em curadoria</span>}</span>
+            <span className="relative block aspect-[4/3] bg-paper-deep">{item.photo ? <Image src={item.photo.src} alt="" fill sizes="(min-width: 1024px) 340px, 45vw" className="object-contain p-1" /> : <span className="absolute inset-0 flex items-center justify-center px-3 text-center text-xs text-ink-soft">Foto em curadoria</span>}<IucnBadge iucn={item.iucn} /></span>
             <span className="block p-3 md:p-4"><span className="block font-display text-lg font-semibold leading-tight text-forest-deep">{item.name ?? item.scientificName}</span>{item.name && <span className="mt-1 block text-xs italic text-ink-soft">{item.scientificName}</span>}
               <span className="mt-3 block text-xs font-semibold text-forest">Conhecer a espécie →</span>
             </span>
@@ -197,6 +214,26 @@ export function BiodiversityView({ park }: { park: Park }) {
           {conservation && <p className="mt-2 text-xs leading-relaxed text-ink-soft">Fonte: Lista Vermelha da IUCN, avaliação global, conforme a base consultada em {surveyDate}. Listas nacionais ou estaduais podem atribuir outra categoria.</p>}
         </section>
       </div>
+      <section aria-label="Conhecer a espécie" className="mt-7 grid gap-5 border-t border-line pt-6 md:grid-cols-2">
+        <div className="min-w-0 md:col-span-2">
+          <h2 className="font-display text-xl font-semibold text-forest-deep">Quem é</h2>
+          <p className="mt-2 text-sm leading-relaxed text-ink">
+            {profile?.summary ?? `${active.name ?? active.scientificName}${groupLabel ? ` faz parte do grupo ${groupLabel.toLowerCase()}` : " integra o levantamento"}${active.family ? `, na família ${active.family}` : ""}. Nome científico: ${active.scientificName}.`}
+          </p>
+        </div>
+        {profile?.habits && <div className="min-w-0"><h2 className="font-display text-xl font-semibold text-forest-deep">Hábitos e lugar na natureza</h2><p className="mt-2 text-sm leading-relaxed text-ink">{profile.habits}</p></div>}
+        {profile?.history && <div className="min-w-0"><h2 className="font-display text-xl font-semibold text-forest-deep">História</h2><p className="mt-2 text-sm leading-relaxed text-ink">{profile.history}</p></div>}
+        {!!profile?.curiosities?.length && <div className="min-w-0 md:col-span-2"><h2 className="font-display text-xl font-semibold text-forest-deep">Curiosidades</h2>
+          <ul className="mt-2 list-disc space-y-2 pl-5 text-sm leading-relaxed text-ink">{profile.curiosities.map((item) => <li key={item}>{item}</li>)}</ul></div>}
+        {profile && <p className="min-w-0 text-xs leading-relaxed text-ink-soft md:col-span-2">Fontes: {profile.sources.map((source, i) => <span key={source.url}>{i > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">{source.institution}: {source.title}</a></span>)}</p>}
+        {otherParks.length > 0 && <div className="min-w-0 md:col-span-2">
+          <h2 className="font-display text-xl font-semibold text-forest-deep">Também registrada em</h2>
+          <ul className="mt-2 flex flex-wrap gap-2">{otherParks.map((slug) => <li key={slug}>
+            <Link href={`${href([country, index!.parks[slug].uf, slug])}/biodiversidade#especie=${encodeURIComponent(active.scientificName)}`} scroll={false} className="inline-flex min-h-11 items-center rounded-full border border-line bg-card px-4 text-sm font-semibold text-forest hover:border-forest">{index!.parks[slug].name}</Link>
+          </li>)}</ul>
+          <p className="mt-2 text-xs text-ink-soft">Parques do atlas em cujo levantamento a espécie também consta.</p>
+        </div>}
+      </section>
       <details className="mt-6 border-t border-line pt-4 text-sm leading-relaxed text-ink-soft">
         <summary className="cursor-pointer py-2 font-semibold text-forest-deep">Dados do levantamento e fontes</summary>
         <dl className="mt-3 grid gap-3 sm:grid-cols-3"><div><dt>Família</dt><dd className="font-semibold text-ink">{active.family ?? "Não informada"}</dd></div><div><dt>Registros</dt><dd className="font-semibold text-ink">{active.records ?? "Contagem não informada"}</dd></div><div><dt>Levantamento</dt><dd className="font-semibold text-ink">{surveyDate}</dd></div></dl>

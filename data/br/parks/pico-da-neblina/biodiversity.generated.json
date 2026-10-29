@@ -72,14 +72,14 @@
           "iucn": "LC",
           "wikidata": "Q56120636",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cheracebus_lugens.jpg",
-            "author": "Gustavo Alarcón-Nieto",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cheracebus_lugens.jpg",
-            "width": 476,
-            "height": 635,
-            "alt": "Cheracebus lugens"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/206398272/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/206398272",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Cheracebus lugens)"
           }
         },
         {
@@ -109,7 +109,16 @@
           "records": 4,
           "iucn": "VU",
           "wikidata": "Q1365871",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/69586088/large.jpg",
+            "author": "jean boubli",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/69586088",
+            "width": 1024,
+            "height": 949,
+            "alt": "Uacari (Cacajao hosomi)"
+          }
         }
       ]
     },
@@ -222,13 +231,13 @@
           "iucn": "LC",
           "wikidata": "Q1260727",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Patagioenas_subvinacea_-NW_Ecuador-8.jpg",
-            "author": "Michael Woodruff",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patagioenas_subvinacea_-NW_Ecuador-8.jpg",
-            "width": 495,
-            "height": 600,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114354642/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114354642",
+            "width": 1024,
+            "height": 770,
             "alt": "Pomba-botafogo (Patagioenas subvinacea)"
           }
         },
@@ -268,6 +277,158 @@
             "width": 1280,
             "height": 853,
             "alt": "Martim-pescador-pequeno (Chloroceryle americana)"
+          }
+        },
+        {
+          "gbifKey": 5230759,
+          "scientificName": "Tachycineta albiventer",
+          "name": "Andorinha-do-rio",
+          "family": "Hirundinidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q3136328",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160619092/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/160619092",
+            "width": 1024,
+            "height": 642,
+            "alt": "andorinha-do-rio (Tachycineta albiventer)"
+          }
+        },
+        {
+          "gbifKey": 2475466,
+          "scientificName": "Megaceryle torquata",
+          "name": "Martim-pescador-grande",
+          "family": "Alcedinidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1272848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172098685/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172098685",
+            "width": 1024,
+            "height": 768,
+            "alt": "martim-pescador-grande (Megaceryle torquata)"
+          }
+        },
+        {
+          "gbifKey": 2479652,
+          "scientificName": "Amazona festiva",
+          "name": "Papa-cacau",
+          "family": "Psittacidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q882404",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62660460/large.jpg",
+            "author": "Dan Riskin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/62660460",
+            "width": 1024,
+            "height": 683,
+            "alt": "Papa-cacau (Amazona festiva)"
+          }
+        },
+        {
+          "gbifKey": 2482965,
+          "scientificName": "Myiopagis gaimardii",
+          "name": "Maria-pechim",
+          "family": "Tyrannidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q840136",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/576811280/large.jpg",
+            "author": "Jo Roberts",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/576811280",
+            "width": 1024,
+            "height": 768,
+            "alt": "maria-pechim (Myiopagis gaimardii)"
+          }
+        },
+        {
+          "gbifKey": 2488007,
+          "scientificName": "Euphonia rufiventris",
+          "name": "Gaturamo-do-norte",
+          "family": "Fringillidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1300993",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160799017/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/160799017",
+            "width": 1024,
+            "height": 640,
+            "alt": "Gaturamo-do-norte (Euphonia rufiventris)"
+          }
+        },
+        {
+          "gbifKey": 2495339,
+          "scientificName": "Patagioenas speciosa",
+          "name": "Pomba-trocal",
+          "family": "Columbidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1273870",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/35617670/large.jpeg",
+            "author": "Jan Meerman",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/35617670",
+            "width": 1024,
+            "height": 768,
+            "alt": "pomba-trocal (Patagioenas speciosa)"
+          }
+        },
+        {
+          "gbifKey": 5228593,
+          "scientificName": "Topaza pyra",
+          "name": "Topázio-de-fogo",
+          "family": "Trochilidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1189971",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/230070705/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/230070705",
+            "width": 1024,
+            "height": 684,
+            "alt": "Topázio-de-fogo (Topaza pyra)"
+          }
+        },
+        {
+          "gbifKey": 5230046,
+          "scientificName": "Nasica longirostris",
+          "name": "Arapaçu-de-bico-comprido",
+          "family": "Furnariidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1055812",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/395402729/large.jpeg",
+            "author": "Teresa Shaefer Randall",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/395402729",
+            "width": 1024,
+            "height": 768,
+            "alt": "Arapaçu-de-bico-comprido (Nasica longirostris)"
           }
         }
       ]
@@ -337,7 +498,7 @@
         {
           "gbifKey": 2467558,
           "scientificName": "Anolis fuscoauratus",
-          "name": null,
+          "name": "Calango-Bandeira",
           "family": "Dactyloidae",
           "records": 3,
           "iucn": "LC",
@@ -361,17 +522,35 @@
           "records": 4,
           "iucn": "LC",
           "wikidata": "Q28946653",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177704551/large.jpg",
+            "author": "Marco Aurelio de Sena",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/177704551",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Loxopholis percarinatum)"
+          }
         },
         {
           "gbifKey": 10362429,
           "scientificName": "Leptophis ahaetulla",
-          "name": null,
+          "name": "Azulão-boia",
           "family": "Colubridae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/470624557/large.jpeg",
+            "author": "augustinbussac",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/470624557",
+            "width": 1024,
+            "height": 683,
+            "alt": "Leptophis ahaetulla (Leptophis ahaetulla)"
+          }
         }
       ]
     },
@@ -478,7 +657,7 @@
         {
           "gbifKey": 2427639,
           "scientificName": "Osteocephalus taurinus",
-          "name": null,
+          "name": "Perereca-de-perna-fina",
           "family": "Hylidae",
           "records": 7,
           "iucn": "LC",
@@ -590,31 +769,11 @@
         {
           "gbifKey": 3851119,
           "scientificName": "Trichilia silvatica",
-          "name": null,
+          "name": "Catiguá-branco",
           "family": "Meliaceae",
           "records": 21,
           "iucn": "LC",
           "wikidata": "Q5466506",
-          "photo": null
-        },
-        {
-          "gbifKey": 5599932,
-          "scientificName": "Graffenrieda reticulata",
-          "name": null,
-          "family": "Melastomataceae",
-          "records": 20,
-          "iucn": "LC",
-          "wikidata": "Q15389343",
-          "photo": null
-        },
-        {
-          "gbifKey": 10877077,
-          "scientificName": "Miconia pachystachya",
-          "name": null,
-          "family": "Melastomataceae",
-          "records": 17,
-          "iucn": null,
-          "wikidata": "Q89172407",
           "photo": null
         },
         {
@@ -625,7 +784,16 @@
           "records": 14,
           "iucn": "LC",
           "wikidata": "Q80700853",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420115079/large.jpeg",
+            "author": "esa_bt",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/420115079",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Hymenopus heteromorphus)"
+          }
         }
       ]
     }
@@ -649,7 +817,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15472129",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/143748304/large.jpeg",
+        "author": "Nicole Mitidieri-Rivera",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/143748304",
+        "width": 1024,
+        "height": 684,
+        "alt": "null (Ficus caballina)"
+      }
     },
     {
       "gbifKey": 3157478,
@@ -703,7 +880,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -727,7 +904,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q1365871",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/69586088/large.jpg",
+        "author": "jean boubli",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/69586088",
+        "width": 1024,
+        "height": 949,
+        "alt": "Uacari (Cacajao hosomi)"
+      }
     },
     {
       "gbifKey": 2908001,
@@ -769,5 +955,6 @@
       "wikidata": "Q3021215",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

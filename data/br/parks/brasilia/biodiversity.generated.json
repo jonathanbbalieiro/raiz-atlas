@@ -53,13 +53,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -175,6 +175,82 @@
             "width": 1280,
             "height": 850,
             "alt": "Veado-campeiro (Ozotoceros bezoarticus)"
+          }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
+          }
+        },
+        {
+          "gbifKey": 2434584,
+          "scientificName": "Cerdocyon thous",
+          "name": "Guaraxaim",
+          "family": "Canidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q321376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444962719/large.jpeg",
+            "author": "David F. Belmonte",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444962719",
+            "width": 1024,
+            "height": 711,
+            "alt": "Guaraxaim (Cerdocyon thous)"
+          }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 5220096,
+          "scientificName": "Priodontes maximus",
+          "name": "Tatu-canastra",
+          "family": "Dasypodidae",
+          "records": 13,
+          "iucn": "VU",
+          "wikidata": "Q755719",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/373271593/large.jpeg",
+            "author": "Luiz Alberto Santos",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/373271593",
+            "width": 1024,
+            "height": 682,
+            "alt": "Tatu-canastra (Priodontes maximus)"
           }
         }
       ]
@@ -335,6 +411,139 @@
             "height": 853,
             "alt": "Quero-quero (Vanellus chilensis)"
           }
+        },
+        {
+          "gbifKey": 5228236,
+          "scientificName": "Galbula ruficauda",
+          "name": "Bico-de-agulha-de-rabo-vermelho",
+          "family": "Galbulidae",
+          "records": 202,
+          "iucn": "LC",
+          "wikidata": "Q765770",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177334058/large.jpg",
+            "author": "Trevor Van Loon",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/177334058",
+            "width": 1024,
+            "height": 683,
+            "alt": "Bico-de-agulha-de-rabo-vermelho (Galbula ruficauda)"
+          }
+        },
+        {
+          "gbifKey": 2487964,
+          "scientificName": "Euphonia chlorotica",
+          "name": "Fim-fim",
+          "family": "Fringillidae",
+          "records": 195,
+          "iucn": "LC",
+          "wikidata": "Q268032",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114805174/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114805174",
+            "width": 1024,
+            "height": 683,
+            "alt": "Fim-fim (Euphonia chlorotica)"
+          }
+        },
+        {
+          "gbifKey": 2488072,
+          "scientificName": "Hemithraupis guira",
+          "name": "Saíra-de-papo-preto",
+          "family": "Thraupidae",
+          "records": 185,
+          "iucn": "LC",
+          "wikidata": "Q1028619",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/459930388/large.jpg",
+            "author": "Zac Peterson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/459930388",
+            "width": 1024,
+            "height": 758,
+            "alt": "Saíra-de-papo-preto (Hemithraupis guira)"
+          }
+        },
+        {
+          "gbifKey": 2495888,
+          "scientificName": "Columbina squammata",
+          "name": "Fogo-apagou",
+          "family": "Columbidae",
+          "records": 177,
+          "iucn": "LC",
+          "wikidata": "Q1259412",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/21908232/large.jpeg",
+            "author": "Douglas",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/21908232",
+            "width": 1024,
+            "height": 681,
+            "alt": "Fogo-apagou (Columbina squammata)"
+          }
+        },
+        {
+          "gbifKey": 2490718,
+          "scientificName": "Turdus rufiventris",
+          "name": "Sabiá-laranjeira",
+          "family": "Turdidae",
+          "records": 210,
+          "iucn": "LC",
+          "wikidata": "Q609283",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507197/large.jpg",
+            "author": "Nigel Voaden",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1507197",
+            "width": 1024,
+            "height": 683,
+            "alt": "sabiá-laranjeira (Turdus rufiventris)"
+          }
+        },
+        {
+          "gbifKey": 2495287,
+          "scientificName": "Patagioenas picazuro",
+          "name": "Asa-branca",
+          "family": "Columbidae",
+          "records": 208,
+          "iucn": "LC",
+          "wikidata": "Q1269659",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48616256/large.jpeg",
+            "author": "Pablo Balduvino",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/48616256",
+            "width": 1024,
+            "height": 576,
+            "alt": "Asa-branca (Patagioenas picazuro)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 182,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
         }
       ]
     },
@@ -455,6 +664,44 @@
             "width": 1280,
             "height": 960,
             "alt": "Calango bandeira (Anolis meridionalis)"
+          }
+        },
+        {
+          "gbifKey": 2464899,
+          "scientificName": "Boa constrictor",
+          "name": "Jiboia-constritora",
+          "family": "Boidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q215388",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591372805/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/591372805",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-constritora (Boa constrictor)"
+          }
+        },
+        {
+          "gbifKey": 2444433,
+          "scientificName": "Crotalus durissus",
+          "name": "Cascavel",
+          "family": "Viperidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q854864",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/696835095/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/696835095",
+            "width": 1024,
+            "height": 683,
+            "alt": "cascavel (Crotalus durissus)"
           }
         }
       ]
@@ -750,7 +997,7 @@
           "name": "Gabiroba",
           "family": "Myrtaceae",
           "records": 45,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q8261233",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Guabiroba_fruto.jpg/1280px-Guabiroba_fruto.jpg",
@@ -788,7 +1035,7 @@
           "name": "Pau-Santo",
           "family": "Calophyllaceae",
           "records": 38,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q6405268",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kielmeyera_coriacea.jpg/960px-Kielmeyera_coriacea.jpg",
@@ -894,12 +1141,21 @@
     {
       "gbifKey": 4124635,
       "scientificName": "Schizachyrium microstachyum",
-      "name": null,
+      "name": "Capim-andaime",
       "family": "Poaceae",
       "records": null,
       "iucn": "CR",
       "wikidata": "Q21300356",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345475767/large.jpeg",
+        "author": "Kevin Faccenda",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/345475767",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Schizachyrium microstachyum)"
+      }
     },
     {
       "gbifKey": 3191373,
@@ -1082,5 +1338,6 @@
         "alt": "Inhambu-carapé (Taoniscus nanus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

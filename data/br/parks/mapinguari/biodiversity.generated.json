@@ -53,14 +53,14 @@
           "iucn": "LC",
           "wikidata": "Q267514",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
-            "author": "Sinara Conessa",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-            "width": 492,
-            "height": 640,
-            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg",
+            "author": "Manu Santa-Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473054518",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-mirim (Tamandua tetradactyla)"
           }
         },
         {
@@ -175,6 +175,63 @@
             "width": 850,
             "height": 575,
             "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
+          }
+        },
+        {
+          "gbifKey": 5218906,
+          "scientificName": "Galictis vittata",
+          "name": "Furão-grande",
+          "family": "Mustelidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q283426",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594142/large.jpg",
+            "author": "Daniel Pineda Vera",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/594142",
+            "width": 1024,
+            "height": 683,
+            "alt": "Furão-grande (Galictis vittata)"
+          }
+        },
+        {
+          "gbifKey": 5786458,
+          "scientificName": "Mico rondoni",
+          "name": "Mico-de-rondônia",
+          "family": "Callitrichidae",
+          "records": 3,
+          "iucn": "VU",
+          "wikidata": "Q1187101",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/103597547/large.jpeg",
+            "author": "Fábio Olmos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/103597547",
+            "width": 1024,
+            "height": 683,
+            "alt": "Mico-de-rondônia (Mico rondoni)"
+          }
+        },
+        {
+          "gbifKey": 2433716,
+          "scientificName": "Eira barbara",
+          "name": "Irara",
+          "family": "Mustelidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q247774",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/151904110/large.jpeg",
+            "author": "Patricio Cowper Coles",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/151904110",
+            "width": 1024,
+            "height": 768,
+            "alt": "Irara (Eira barbara)"
           }
         }
       ]
@@ -335,6 +392,139 @@
             "height": 960,
             "alt": "garrinchão-pai-avô (Pheugopedius genibarbis)"
           }
+        },
+        {
+          "gbifKey": 2479113,
+          "scientificName": "Aratinga weddellii",
+          "name": "Periquito-de-cabeça-suja",
+          "family": "Psittacidae",
+          "records": 243,
+          "iucn": "LC",
+          "wikidata": "Q740580",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/108121265/large.jpeg",
+            "author": "Tristan Jobin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/108121265",
+            "width": 1024,
+            "height": 768,
+            "alt": "Periquito-de-cabeça-suja (Aratinga weddellii)"
+          }
+        },
+        {
+          "gbifKey": 2477533,
+          "scientificName": "Crypturellus cinereus",
+          "name": "Inhambu-pixuna",
+          "family": "Tinamidae",
+          "records": 238,
+          "iucn": "LC",
+          "wikidata": "Q870092",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/463612357/large.jpeg",
+            "author": "Jan Ebr &amp; Ivana Ebrová",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/463612357",
+            "width": 1024,
+            "height": 854,
+            "alt": "Inhambu-pixuna (Crypturellus cinereus)"
+          }
+        },
+        {
+          "gbifKey": 2479031,
+          "scientificName": "Capito auratus",
+          "name": "Capitão-de-fronte-dourada",
+          "family": "Capitonidae",
+          "records": 230,
+          "iucn": "LC",
+          "wikidata": "Q135469",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/112929618/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/112929618",
+            "width": 1024,
+            "height": 683,
+            "alt": "Capitão-de-fronte-dourada (Capito auratus)"
+          }
+        },
+        {
+          "gbifKey": 2476636,
+          "scientificName": "Phaethornis ruber",
+          "name": "Besourinho-da-mata",
+          "family": "Trochilidae",
+          "records": 225,
+          "iucn": "LC",
+          "wikidata": "Q1267401",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475410145/large.jpeg",
+            "author": "Inacio Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/475410145",
+            "width": 1024,
+            "height": 819,
+            "alt": "Besourinho-da-mata (Phaethornis ruber)"
+          }
+        },
+        {
+          "gbifKey": 2478122,
+          "scientificName": "Melanerpes cruentatus",
+          "name": "Pica-pau-de-barriga-vermelha",
+          "family": "Picidae",
+          "records": 211,
+          "iucn": "LC",
+          "wikidata": "Q557447",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89684970/large.jpeg",
+            "author": "jorgehenao",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/89684970",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pica-pau-de-barriga-vermelha (Melanerpes cruentatus)"
+          }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 211,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 5230139,
+          "scientificName": "Xiphorhynchus guttatus",
+          "name": "Arapaçu-de-garganta-amarela",
+          "family": "Furnariidae",
+          "records": 209,
+          "iucn": "LC",
+          "wikidata": "Q1265676",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/570047912/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/570047912",
+            "width": 1024,
+            "height": 768,
+            "alt": "arapaçu-de-garganta-amarela (Xiphorhynchus guttatus)"
+          }
         }
       ]
     },
@@ -428,13 +618,13 @@
           "iucn": "LC",
           "wikidata": "Q289823",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Leptodeira_annulata01.jpg",
-            "author": "Andreas Schlüter",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodeira_annulata01.jpg",
-            "width": 473,
-            "height": 770,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498891317/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/498891317",
+            "width": 1024,
+            "height": 768,
             "alt": "Serpente-olho-de-gato-anelada (Leptodeira annulata)"
           }
         },
@@ -455,6 +645,44 @@
             "width": 1280,
             "height": 1600,
             "alt": "Corallus hortulanus (Corallus hortulana)"
+          }
+        },
+        {
+          "gbifKey": 2464899,
+          "scientificName": "Boa constrictor",
+          "name": "Jiboia-constritora",
+          "family": "Boidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q215388",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591372805/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/591372805",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-constritora (Boa constrictor)"
+          }
+        },
+        {
+          "gbifKey": 2465228,
+          "scientificName": "Epicrates cenchria",
+          "name": "Jiboia-vermelha",
+          "family": "Boidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q281531",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/98218832/large.jpg",
+            "author": "dhfischer",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/98218832",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-vermelha (Epicrates cenchria)"
           }
         }
       ]
@@ -524,7 +752,7 @@
         {
           "gbifKey": 2427639,
           "scientificName": "Osteocephalus taurinus",
-          "name": null,
+          "name": "Perereca-de-perna-fina",
           "family": "Hylidae",
           "records": 116,
           "iucn": "LC",
@@ -576,6 +804,25 @@
             "width": 1280,
             "height": 960,
             "alt": "Leptodactylus rhodomystax"
+          }
+        },
+        {
+          "gbifKey": 2429156,
+          "scientificName": "Adelphobates quinquevittatus",
+          "name": "Dendrobates quinquevittatus",
+          "family": "Dendrobatidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q141097",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/153649335/large.jpg",
+            "author": "Marco Aurelio de Sena",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/153649335",
+            "width": 1024,
+            "height": 768,
+            "alt": "Dendrobates quinquevittatus (Adelphobates quinquevittatus)"
           }
         }
       ]
@@ -804,7 +1051,7 @@
         {
           "gbifKey": 3174691,
           "scientificName": "Myrcia splendens",
-          "name": null,
+          "name": "Batinga-Roxa",
           "family": "Myrtaceae",
           "records": 27,
           "iucn": "VU",
@@ -823,7 +1070,7 @@
         {
           "gbifKey": 9404220,
           "scientificName": "Miconia crenata",
-          "name": null,
+          "name": "Pixirica",
           "family": "Melastomataceae",
           "records": 23,
           "iucn": null,
@@ -847,7 +1094,16 @@
           "records": 19,
           "iucn": "LC",
           "wikidata": "Q10327268",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/654836718/large.jpg",
+            "author": "Guillaume Léotard",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/654836718",
+            "width": 1024,
+            "height": 768,
+            "alt": "Matamatá (Eschweilera coriacea)"
+          }
         },
         {
           "gbifKey": 10451142,
@@ -857,7 +1113,16 @@
           "records": 36,
           "iucn": "LC",
           "wikidata": "Q80700853",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420115079/large.jpeg",
+            "author": "esa_bt",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/420115079",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Hymenopus heteromorphus)"
+          }
         },
         {
           "gbifKey": 2930406,
@@ -867,7 +1132,16 @@
           "records": 33,
           "iucn": "LC",
           "wikidata": "Q2298272",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/242837312/large.jpg",
+            "author": "Guillaume Delaitre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/242837312",
+            "width": 1024,
+            "height": 680,
+            "alt": "null (Solanum leucocarpon)"
+          }
         }
       ]
     }
@@ -900,7 +1174,16 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q133735982",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/328649659/large.jpg",
+        "author": "fern Wildtruth",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/328649659",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Jupunba laeta)"
+      }
     },
     {
       "gbifKey": 7143828,
@@ -910,7 +1193,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15608243",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/215396925/large.jpeg",
+        "author": "Andrés Ramírez-Barrera, alguns direitos reservados (CC BY), carregado por Andrés Ramírez-Barrera",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/215396925",
+        "width": 1024,
+        "height": 683,
+        "alt": "Piper obliquum (Piper obliquum)"
+      }
     },
     {
       "gbifKey": 10284729,
@@ -1047,5 +1339,6 @@
         "alt": "Marianinha-de-cabeça-amarela (Pionites leucogaster)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

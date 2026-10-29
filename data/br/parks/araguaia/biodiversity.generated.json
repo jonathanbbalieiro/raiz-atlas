@@ -72,13 +72,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         }
@@ -240,6 +240,25 @@
             "height": 638,
             "alt": "Acurana (Hydropsalis climacocerca)"
           }
+        },
+        {
+          "gbifKey": 5229213,
+          "scientificName": "Phaetusa simplex",
+          "name": "Trinta-réis-grande",
+          "family": "Laridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1073630",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/333616150/large.jpg",
+            "author": "Matt Felperin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/333616150",
+            "width": 1024,
+            "height": 683,
+            "alt": "Trinta-réis-grande (Phaetusa simplex)"
+          }
         }
       ]
     },
@@ -339,7 +358,16 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q853493",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/611898758/large.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/611898758",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Pseudis tocantins)"
+          }
         },
         {
           "gbifKey": 5216956,
@@ -349,17 +377,35 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q28031865",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/156101784/large.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/156101784",
+            "width": 1024,
+            "height": 760,
+            "alt": "null (Rhinella ocellata)"
+          }
         },
         {
           "gbifKey": 9854382,
           "scientificName": "Boana raniceps",
-          "name": null,
+          "name": "Perereca quarenta-e-três",
           "family": "Hylidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/599113852/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/599113852",
+            "width": 1024,
+            "height": 767,
+            "alt": "null (Boana raniceps)"
+          }
         }
       ]
     },
@@ -374,7 +420,7 @@
           "name": "Jenipapo-bravo",
           "family": "Rubiaceae",
           "records": 11,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15460984",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Tocoyena_formosa_%281%29.jpg",
@@ -393,7 +439,7 @@
           "name": "Sanhaçaiba",
           "family": "Rubiaceae",
           "records": 9,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q7256517",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Gentianales_-_Psychotria_carthagenensis_-_kew_1.jpg",
@@ -412,7 +458,7 @@
           "name": "Erva-d'água",
           "family": "Rubiaceae",
           "records": 7,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15483244",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Palicourea_crocea_in_the_Argentina-Brazil_border.jpg/960px-Palicourea_crocea_in_the_Argentina-Brazil_border.jpg",
@@ -557,6 +603,44 @@
             "height": 853,
             "alt": "Funastrum clausum"
           }
+        },
+        {
+          "gbifKey": 2893703,
+          "scientificName": "Coutarea hexandra",
+          "name": "Murta-do-mato",
+          "family": "Rubiaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q15290491",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66018318/large.jpeg",
+            "author": "aacocucci",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/66018318",
+            "width": 1024,
+            "height": 680,
+            "alt": "Murta-do-mato (Coutarea hexandra)"
+          }
+        },
+        {
+          "gbifKey": 7288348,
+          "scientificName": "Qualea parviflora",
+          "name": "Pau Terra",
+          "family": "Vochysiaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q15336649",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/100050879/large.jpg",
+            "author": "nelson_filho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/100050879",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau Terra (Qualea parviflora)"
+          }
         }
       ]
     }
@@ -618,7 +702,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q2715516",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/417055626/large.jpeg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/417055626",
+        "width": 1024,
+        "height": 768,
+        "alt": "Baru (Dipteryx alata)"
+      }
     },
     {
       "gbifKey": 2440963,
@@ -642,7 +735,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -658,5 +751,6 @@
         "alt": "Myrcia splendens"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

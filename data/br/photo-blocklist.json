@@ -1,0 +1,793 @@
+{
+ "note": "Fotos de espécie rejeitadas na revisão visual de 28/10/2026 (animal minúsculo/escondido, mão, animal morto, armadilha, sobreposição de texto). Usadas por scripts/expand-biodiversity.mjs.",
+ "rejected": [
+  {
+   "sci": "Egretta thula",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/258308451/large.jpeg"
+  },
+  {
+   "sci": "Kogia sima",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/346810289/large.jpeg"
+  },
+  {
+   "sci": "Balaenoptera physalus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/469840763/large.jpeg"
+  },
+  {
+   "sci": "Cathartes burrovianus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/75971180/large.jpeg"
+  },
+  {
+   "sci": "Cathartes aura",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/349683482/large.jpg"
+  },
+  {
+   "sci": "Coragyps atratus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/342659116/large.jpeg"
+  },
+  {
+   "sci": "Camptostoma obsoletum",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/619332815/large.jpg"
+  },
+  {
+   "sci": "Capito brunneipectus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/755978201/large.jpg"
+  },
+  {
+   "sci": "Brotogeris chrysoptera",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339543515/large.jpg"
+  },
+  {
+   "sci": "Pteroglossus aracari",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/598763624/large.jpg"
+  },
+  {
+   "sci": "Attila spadiceus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8777551/large.jpeg"
+  },
+  {
+   "sci": "Xylopia aromatica",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/598973985/large.jpg"
+  },
+  {
+   "sci": "Aegiphila integrifolia",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/682791799/large.jpg"
+  },
+  {
+   "sci": "Tamandua tetradactyla",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg"
+  },
+  {
+   "sci": "Patagioenas cayennensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259039910/large.jpg"
+  },
+  {
+   "sci": "Calophyllum brasiliense",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/494560386/large.jpeg"
+  },
+  {
+   "sci": "Lontra longicaudis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259891996/large.jpeg"
+  },
+  {
+   "sci": "Phylloscartes ventralis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/548396035/large.jpg"
+  },
+  {
+   "sci": "Leptasthenura setaria",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/446172461/large.jpeg"
+  },
+  {
+   "sci": "Patagioenas picazuro",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/727864953/large.jpg"
+  },
+  {
+   "sci": "Qualea parviflora",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/438690531/large.jpeg"
+  },
+  {
+   "sci": "Sittasomus griseicapillus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/513753763/large.jpg"
+  },
+  {
+   "sci": "Stephanophorus diadematus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/108551414/large.jpg"
+  },
+  {
+   "sci": "Myiarchus swainsoni",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/467697387/large.jpg"
+  },
+  {
+   "sci": "Veniliornis spilogaster",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/356517796/large.jpeg"
+  },
+  {
+   "sci": "Megarynchus pitangua",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/353242837/large.jpeg"
+  },
+  {
+   "sci": "Ilicura militaris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/377669110/large.jpeg"
+  },
+  {
+   "sci": "Thraupis sayaca",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/101539714/large.jpg"
+  },
+  {
+   "sci": "Coereba flaveola",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/505470044/large.jpg"
+  },
+  {
+   "sci": "Myiarchus tyrannulus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/555233656/large.jpg"
+  },
+  {
+   "sci": "Turdus rufiventris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/390134267/large.jpeg"
+  },
+  {
+   "sci": "Enterolobium timbouva",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/713737269/large.jpg"
+  },
+  {
+   "sci": "Neoglaziovia variegata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29830244/large.jpg"
+  },
+  {
+   "sci": "Crotalus durissus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/127098226/large.jpg"
+  },
+  {
+   "sci": "Molothrus bonariensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/59404747/large.jpeg"
+  },
+  {
+   "sci": "Panthera onca",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3063091/large.jpg"
+  },
+  {
+   "sci": "Epinecrophylla haematonota",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252786362/large.jpg"
+  },
+  {
+   "sci": "Glyphorynchus spirurus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/467345810/large.jpeg"
+  },
+  {
+   "sci": "Patagioenas subvinacea",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114354642/large.jpeg"
+  },
+  {
+   "sci": "Ramphocelus carbo",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/121500855/large.jpg"
+  },
+  {
+   "sci": "Cercomacra cinerascens",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160432740/large.jpeg"
+  },
+  {
+   "sci": "Puma concolor",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/187431857/large.jpg"
+  },
+  {
+   "sci": "Nectomys squamipes",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/745038105/large.jpg"
+  },
+  {
+   "sci": "Ammodramus humeralis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/514814033/large.jpg"
+  },
+  {
+   "sci": "Cacicus haemorrhous",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/453738084/large.jpeg"
+  },
+  {
+   "sci": "Thamnophilus ruficapillus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/226870866/large.jpg"
+  },
+  {
+   "sci": "Saltator similis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/598511436/large.jpg"
+  },
+  {
+   "sci": "Iguana iguana",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/254713112/large.jpeg"
+  },
+  {
+   "sci": "Diploglossus lessonae",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/332878367/large.jpeg"
+  },
+  {
+   "sci": "Conepatus semistriatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/570849159/large.jpg"
+  },
+  {
+   "sci": "Coendou prehensilis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/363293345/large.jpeg"
+  },
+  {
+   "sci": "Thrichomys apereoides",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/328178696/large.jpeg"
+  },
+  {
+   "sci": "Myiodynastes maculatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/744810892/large.jpg"
+  },
+  {
+   "sci": "Dendrocolaptes platyrostris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/723899879/large.jpg"
+  },
+  {
+   "sci": "Turdus leucomelas",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/199711735/large.jpeg"
+  },
+  {
+   "sci": "Crypturellus noctivagus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/688238364/large.jpg"
+  },
+  {
+   "sci": "Turdus albicollis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/750082889/large.jpg"
+  },
+  {
+   "sci": "Troglodytes musculus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/320613507/large.jpeg"
+  },
+  {
+   "sci": "Luetzelburgia andrade-limae",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93188842/large.jpeg"
+  },
+  {
+   "sci": "Holocalyx balansae",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252595954/large.jpeg"
+  },
+  {
+   "sci": "Hebanthe erianthos",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/560711032/large.jpg"
+  },
+  {
+   "sci": "Dalbergia nigra",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/479470942/large.jpeg"
+  },
+  {
+   "sci": "Streptostachys asperifolia",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/392573041/large.jpg"
+  },
+  {
+   "sci": "Stilpnia cayana",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/22859610/large.jpeg"
+  },
+  {
+   "sci": "Pheugopedius genibarbis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/418609683/large.jpg"
+  },
+  {
+   "sci": "Chironius diamantina",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/732247773/large.jpg"
+  },
+  {
+   "sci": "Spilotes pullatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/344182096/large.jpg"
+  },
+  {
+   "sci": "Senna cana",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/461218313/large.jpg"
+  },
+  {
+   "sci": "Anthurium affine",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/353441160/large.jpg"
+  },
+  {
+   "sci": "Sauvagesia erecta",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/376068072/large.jpeg"
+  },
+  {
+   "sci": "Humiria balsamifera",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/200614699/large.jpeg"
+  },
+  {
+   "sci": "Elaenia flavogaster",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350111740/large.jpg"
+  },
+  {
+   "sci": "Celeus ochraceus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/436939288/large.jpeg"
+  },
+  {
+   "sci": "Psarocolius decumanus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/464996283/large.jpeg"
+  },
+  {
+   "sci": "Melanopareia torquata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/708335955/large.jpg"
+  },
+  {
+   "sci": "Empidonomus varius",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30234951/large.jpeg"
+  },
+  {
+   "sci": "Cyclarhis gujanensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/726374615/large.jpg"
+  },
+  {
+   "sci": "Mouriri elliptica",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/443914266/large.jpg"
+  },
+  {
+   "sci": "Diospyros lasiocalyx",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/612436899/large.jpg"
+  },
+  {
+   "sci": "Hirtella ciliata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/402517985/large.jpeg"
+  },
+  {
+   "sci": "Curatella americana",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/113542521/large.jpeg"
+  },
+  {
+   "sci": "Copaifera langsdorffii",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/332770325/large.jpg"
+  },
+  {
+   "sci": "Gracilinanus agilis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/652886206/large.jpg"
+  },
+  {
+   "sci": "Marmosa murina",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/652470219/large.jpg"
+  },
+  {
+   "sci": "Furnarius rufus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/99908278/large.jpg"
+  },
+  {
+   "sci": "Neothraupis fasciata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/726619229/large.jpg"
+  },
+  {
+   "sci": "Athene cunicularia",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/352308304/large.jpg"
+  },
+  {
+   "sci": "Ameiva ameiva",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/674315045/large.jpg"
+  },
+  {
+   "sci": "Pouteria torta",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/320272652/large.jpg"
+  },
+  {
+   "sci": "Ananas comosus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/246422077/large.jpg"
+  },
+  {
+   "sci": "Lasiacis ligulata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/369713109/large.jpeg"
+  },
+  {
+   "sci": "Protium heptaphyllum",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/115813709/large.jpeg"
+  },
+  {
+   "sci": "Saltator maximus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/22042867/large.jpeg"
+  },
+  {
+   "sci": "Schiffornis turdina",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594544449/large.jpg"
+  },
+  {
+   "sci": "Tabernaemontana laeta",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471398465/large.jpeg"
+  },
+  {
+   "sci": "Colaptes campestris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/255071970/large.jpeg"
+  },
+  {
+   "sci": "Ramphastos toco",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/145999537/large.jpeg"
+  },
+  {
+   "sci": "Bowdichia virgilioides",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350375623/large.jpg"
+  },
+  {
+   "sci": "Numenius phaeopus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/189302362/large.jpg"
+  },
+  {
+   "sci": "Pluvialis squatarola",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/122761865/large.jpg"
+  },
+  {
+   "sci": "Hemitriccus margaritaceiventer",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/79055963/large.jpeg"
+  },
+  {
+   "sci": "Chlorostilbon lucidus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/338075662/large.jpg"
+  },
+  {
+   "sci": "Casiornis fuscus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/150389518/large.jpg"
+  },
+  {
+   "sci": "Mimosa ophthalmocentra",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/139532438/large.jpeg"
+  },
+  {
+   "sci": "Piptadenia retusa",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/65273923/large.jpeg"
+  },
+  {
+   "sci": "Cenostigma pyramidale",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/334570746/large.jpg"
+  },
+  {
+   "sci": "Lachesiodendron viridiflorum",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/334568645/large.jpg"
+  },
+  {
+   "sci": "Taccarum ulei",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/128513083/large.jpeg"
+  },
+  {
+   "sci": "Cuniculus paca",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53853757/large.jpeg"
+  },
+  {
+   "sci": "Ocotea puberula",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/254447063/large.jpeg"
+  },
+  {
+   "sci": "Dolichandra unguis-cati",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/468685681/large.jpeg"
+  },
+  {
+   "sci": "Phacellodomus ruber",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/161168373/large.jpeg"
+  },
+  {
+   "sci": "Combretum leprosum",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/130156028/large.jpeg"
+  },
+  {
+   "sci": "Chrysobalanus icaco",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/76491613/large.jpg"
+  },
+  {
+   "sci": "Dendrocincla merula",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26402286/large.jpeg"
+  },
+  {
+   "sci": "Axonopus purpusii",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/643534954/large.jpg"
+  },
+  {
+   "sci": "Saguinus midas",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594749003/large.jpg"
+  },
+  {
+   "sci": "Alouatta macconnelli",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/384220824/large.jpeg"
+  },
+  {
+   "sci": "Crypturellus variegatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/346736950/large.jpg"
+  },
+  {
+   "sci": "Deroptyus accipitrinus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/422132283/large.jpg"
+  },
+  {
+   "sci": "Myiozetetes similis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/211126293/large.jpeg"
+  },
+  {
+   "sci": "Eschweilera ovata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/611765253/large.jpg"
+  },
+  {
+   "sci": "Mionectes macconnelli",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177636891/large.jpeg"
+  },
+  {
+   "sci": "Euphonia rufiventris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/569424276/large.jpg"
+  },
+  {
+   "sci": "Myrmotherula axillaris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/414779143/large.jpg"
+  },
+  {
+   "sci": "Eschweilera coriacea",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/654836718/large.jpg"
+  },
+  {
+   "sci": "Symmeria paniculata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/479277791/large.jpeg"
+  },
+  {
+   "sci": "Osteophloeum platyspermum",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/656320160/large.jpg"
+  },
+  {
+   "sci": "Lepidocolaptes angustirostris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/728656345/large.jpg"
+  },
+  {
+   "sci": "Aratinga jandaya",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/450181936/large.jpeg"
+  },
+  {
+   "sci": "Thamnophilus schistaceus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/79938754/large.jpg"
+  },
+  {
+   "sci": "Capito dayi",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/718681803/large.jpg"
+  },
+  {
+   "sci": "Paleosuchus trigonatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12983206/large.jpeg"
+  },
+  {
+   "sci": "Guarea guidonia",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/488971825/large.jpeg"
+  },
+  {
+   "sci": "Minquartia guianensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/343569871/large.jpeg"
+  },
+  {
+   "sci": "Buteogallus urubitinga",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/413656505/large.jpeg"
+  },
+  {
+   "sci": "Cyperus giganteus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/476286932/large.jpeg"
+  },
+  {
+   "sci": "Rhytipterna simplex",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228251851/large.jpeg"
+  },
+  {
+   "sci": "Myiornis auricularis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/239957281/large.jpg"
+  },
+  {
+   "sci": "Psychotria carthagenensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/237560075/large.jpeg"
+  },
+  {
+   "sci": "Patagioenas speciosa",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339535563/large.jpg"
+  },
+  {
+   "sci": "Topaza pyra",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/549588689/large.jpg"
+  },
+  {
+   "sci": "Nasica longirostris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/617600498/large.jpg"
+  },
+  {
+   "sci": "Progne chalybea",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/442963427/large.jpg"
+  },
+  {
+   "sci": "Eugenia uniflora",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/385718690/large.jpeg"
+  },
+  {
+   "sci": "Picumnus temminckii",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620217037/large.jpg"
+  },
+  {
+   "sci": "Leptopogon amaurocephalus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/132480242/large.jpeg"
+  },
+  {
+   "sci": "Saltator maxillosus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/5353236/large.jpg"
+  },
+  {
+   "sci": "Lepidocolaptes falcinellus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/612476922/large.jpg"
+  },
+  {
+   "sci": "Physalaemus gracilis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/174757731/large.jpeg"
+  },
+  {
+   "sci": "Sotalia guianensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/456711601/large.jpg"
+  },
+  {
+   "sci": "Galictis cuja",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/54377581/large.jpeg"
+  },
+  {
+   "sci": "Hylophilus poicilotis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345510476/large.jpeg"
+  },
+  {
+   "sci": "Terminalia triflora",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164766878/large.jpg"
+  },
+  {
+   "sci": "Culicivora caudacuta",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/330631375/large.jpg"
+  },
+  {
+   "sci": "Lonomia obliqua",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/347361071/large.jpeg"
+  },
+  {
+   "sci": "Terminalia fagifolia",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/538918303/large.jpg"
+  },
+  {
+   "sci": "Chloroceryle americana",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/433739386/large.jpeg"
+  },
+  {
+   "sci": "Glaucis hirsutus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91831950/large.jpg"
+  },
+  {
+   "sci": "Ficus americana",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263414805/large.jpeg"
+  },
+  {
+   "sci": "Polioptila plumbea",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/470797453/large.jpg"
+  },
+  {
+   "sci": "Cnemotriccus fuscatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/647194731/large.jpg"
+  },
+  {
+   "sci": "Thamnophilus ambiguus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/489895870/large.jpg"
+  },
+  {
+   "sci": "Xolmis velatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/558044855/large.jpg"
+  },
+  {
+   "sci": "Patagioenas plumbea",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/465454795/large.jpg"
+  },
+  {
+   "sci": "Trichothraupis melanops",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/538223559/large.jpg"
+  },
+  {
+   "sci": "Galbula cyanicollis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/709266130/large.jpg"
+  },
+  {
+   "sci": "Platyrinchus platyrhynchos",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/709136636/large.jpg"
+  },
+  {
+   "sci": "Automolus ochrolaemus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/457601398/large.jpeg"
+  },
+  {
+   "sci": "Thraupis ornata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/469275966/large.jpeg"
+  },
+  {
+   "sci": "Dysithamnus mentalis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/269755490/large.jpeg"
+  },
+  {
+   "sci": "Xiphorhynchus fuscus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/746001950/large.jpg"
+  },
+  {
+   "sci": "Elaenia mesoleuca",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/170778395/large.jpeg"
+  },
+  {
+   "sci": "Cyanocorax caeruleus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/163799247/large.jpeg"
+  },
+  {
+   "sci": "Thamnophilus pelzelni",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30431381/large.jpeg"
+  },
+  {
+   "sci": "Cantorchilus longirostris",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/216063331/large.jpeg"
+  },
+  {
+   "sci": "Chelonoidis denticulatus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/162783094/large.jpeg"
+  },
+  {
+   "sci": "Thamnophilus caerulescens",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/83390558/large.jpg"
+  },
+  {
+   "sci": "Thalurania furcata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/743295522/large.jpg"
+  },
+  {
+   "sci": "Synallaxis scutata",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/368540283/large.jpg"
+  },
+  {
+   "sci": "Sittasomus griseicapillus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/255793701/large.jpg"
+  },
+  {
+   "sci": "Enterolobium timbouva",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/156963938/large.jpg"
+  },
+  {
+   "sci": "Panthera onca",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/257447209/large.jpeg"
+  },
+  {
+   "sci": "Glyphorynchus spirurus",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26763822/large.jpeg"
+  },
+  {
+   "sci": "Oligoryzomys microtis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106167708/large.jpeg"
+  },
+  {
+   "sci": "Cercomacra cinerascens",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/116313251/large.jpg"
+  },
+  {
+   "sci": "Monogereion carajensis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/72876792/large.jpeg"
+  },
+  {
+   "sci": "Cacicus haemorrhous",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/20752440/large.jpeg"
+  },
+  {
+   "sci": "Bowdichia virgilioides",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62297613/large.jpeg"
+  },
+  {
+   "sci": "Isoetes martii",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/232681308/large.jpeg"
+  },
+  {
+   "sci": "Dendrocincla merula",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/167153687/large.jpeg"
+  },
+  {
+   "sci": "Axonopus purpusii",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345717294/large.jpeg"
+  },
+  {
+   "sci": "Brotogeris chrysoptera",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/599860900/large.jpg"
+  },
+  {
+   "sci": "Eschweilera coriacea",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/234074275/large.jpeg"
+  },
+  {
+   "sci": "Trichilia silvatica",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/593637081/large.jpg"
+  },
+  {
+   "sci": "Lonomia obliqua",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/664908102/large.jpg"
+  },
+  {
+   "sci": "Oligoryzomys microtis",
+   "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106167660/large.jpeg"
+  }
+ ]
+}

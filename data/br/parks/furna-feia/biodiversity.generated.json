@@ -110,13 +110,13 @@
           "iucn": "LC",
           "wikidata": "Q717028",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Hairyvampireskull.jpg",
-            "author": "Elliot, Daniel Giraud, 1835-1915",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hairyvampireskull.jpg",
-            "width": 309,
-            "height": 273,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/192627340/large.jpeg",
+            "author": "Juan Cruzado Cortés",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/192627340",
+            "width": 1024,
+            "height": 683,
             "alt": "Morcego-vampiro-de-pernas-peludas (Diphylla ecaudata)"
           }
         },
@@ -176,6 +176,139 @@
             "height": 853,
             "alt": "Macaco-prego-amarelo (Sapajus libidinosus)"
           }
+        },
+        {
+          "gbifKey": 2440799,
+          "scientificName": "Euphractus sexcinctus",
+          "name": "Tatupeba",
+          "family": "Dasypodidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q902876",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284959585/large.jpeg",
+            "author": "Jan Ebr &amp; Ivana Ebrová",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284959585",
+            "width": 1024,
+            "height": 684,
+            "alt": "Tatupeba (Euphractus sexcinctus)"
+          }
+        },
+        {
+          "gbifKey": 2432769,
+          "scientificName": "Furipterus horrens",
+          "name": "Morcego",
+          "family": "Furipteridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q301278",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/205905788/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/205905788",
+            "width": 1024,
+            "height": 633,
+            "alt": "Morcego (Furipterus horrens)"
+          }
+        },
+        {
+          "gbifKey": 2433176,
+          "scientificName": "Carollia perspicillata",
+          "name": "Morcego-de-cauda-curta-comum",
+          "family": "Phyllostomidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q302191",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/466149931/large.jpeg",
+            "author": "Gabriel Jovêncio Ribeiro",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/466149931",
+            "width": 1024,
+            "height": 768,
+            "alt": "Morcego-de-cauda-curta-comum (Carollia perspicillata)"
+          }
+        },
+        {
+          "gbifKey": 2433298,
+          "scientificName": "Desmodus rotundus",
+          "name": "Morcego-vampiro-comum",
+          "family": "Phyllostomidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q300981",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/149103976/large.jpg",
+            "author": "Tomás Carranza Perales",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/149103976",
+            "width": 1024,
+            "height": 683,
+            "alt": "Morcego-vampiro-comum (Desmodus rotundus)"
+          }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
+          }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
+          }
         }
       ]
     },
@@ -190,7 +323,7 @@
           "name": "Periquito-da-caatinga",
           "family": "Psittacidae",
           "records": 29,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q595526",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aratinga_cactorum_-Brazil-8-2c.jpg",
@@ -334,6 +467,177 @@
             "width": 800,
             "height": 665,
             "alt": "corruíra (Troglodytes musculus)"
+          }
+        },
+        {
+          "gbifKey": 2490043,
+          "scientificName": "Formicivora melanogaster",
+          "name": "Formigueiro-de-barriga-preta",
+          "family": "Thamnophilidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q1269805",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/578819798/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/578819798",
+            "width": 1024,
+            "height": 768,
+            "alt": "Formigueiro-de-barriga-preta (Formicivora melanogaster)"
+          }
+        },
+        {
+          "gbifKey": 2482874,
+          "scientificName": "Tolmomyias flaviventris",
+          "name": "Bico-chato-amarelo",
+          "family": "Tyrannidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q1270583",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164130/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111164130",
+            "width": 1024,
+            "height": 855,
+            "alt": "Bico-chato-amarelo (Tolmomyias flaviventris)"
+          }
+        },
+        {
+          "gbifKey": 2483274,
+          "scientificName": "Todirostrum cinereum",
+          "name": "Ferreirinho-relógio",
+          "family": "Tyrannidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q619229",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/424304765/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/424304765",
+            "width": 1024,
+            "height": 683,
+            "alt": "ferreirinho-relógio (Todirostrum cinereum)"
+          }
+        },
+        {
+          "gbifKey": 5844398,
+          "scientificName": "Rupornis magnirostris",
+          "name": "Gavião-carijó",
+          "family": "Accipitridae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q426708",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164775267/large.jpeg",
+            "author": "Kai Squires",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/164775267",
+            "width": 1024,
+            "height": 769,
+            "alt": "Gavião-carijó (Rupornis magnirostris)"
+          }
+        },
+        {
+          "gbifKey": 2487964,
+          "scientificName": "Euphonia chlorotica",
+          "name": "Fim-fim",
+          "family": "Fringillidae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q268032",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114805174/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114805174",
+            "width": 1024,
+            "height": 683,
+            "alt": "Fim-fim (Euphonia chlorotica)"
+          }
+        },
+        {
+          "gbifKey": 5228782,
+          "scientificName": "Picumnus limae",
+          "name": "Picapauzinho-da-caatinga",
+          "family": "Picidae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q1270324",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/460832745/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/460832745",
+            "width": 1024,
+            "height": 768,
+            "alt": "picapauzinho-da-caatinga (Picumnus limae)"
+          }
+        },
+        {
+          "gbifKey": 2495853,
+          "scientificName": "Columbina minuta",
+          "name": "Rolinha-de-asa-canela",
+          "family": "Columbidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q244422",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/561208412/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/561208412",
+            "width": 1024,
+            "height": 683,
+            "alt": "Rolinha-de-asa-canela (Columbina minuta)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2490224,
+          "scientificName": "Taraba major",
+          "name": "Choró-boi",
+          "family": "Thamnophilidae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q383575",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/740161878/large.jpg",
+            "author": "avocat",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/740161878",
+            "width": 1024,
+            "height": 843,
+            "alt": "Choró-boi (Taraba major)"
           }
         }
       ]
@@ -558,6 +862,177 @@
             "height": 1004,
             "alt": "Juazeiro (Sarcomphalus joazeiro)"
           }
+        },
+        {
+          "gbifKey": 2952938,
+          "scientificName": "Bauhinia cheilantha",
+          "name": "Mororó",
+          "family": "Fabaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q15458914",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/269270002/large.jpeg",
+            "author": "pedrosantoss",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/269270002",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mororó (Bauhinia cheilantha)"
+          }
+        },
+        {
+          "gbifKey": 3059075,
+          "scientificName": "Croton blanchetianus",
+          "name": "Marmeleiro",
+          "family": "Euphorbiaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q3004017",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/468520560/large.jpg",
+            "author": "Célio Moura Neto",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/468520560",
+            "width": 1024,
+            "height": 768,
+            "alt": "Marmeleiro (Croton blanchetianus)"
+          }
+        },
+        {
+          "gbifKey": 5287952,
+          "scientificName": "Bromelia arenaria",
+          "name": "Macambira-rosa",
+          "family": "Bromeliaceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q15510128",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/248239710/large.jpeg",
+            "author": "Alexandre S. Michelotto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/248239710",
+            "width": 1024,
+            "height": 768,
+            "alt": "Macambira-rosa (Bromelia arenaria)"
+          }
+        },
+        {
+          "gbifKey": 4091191,
+          "scientificName": "Tabebuia aurea",
+          "name": "Paratudo",
+          "family": "Bignoniaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q2707018",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/292704529/large.jpeg",
+            "author": "Romi Galeota Lencina",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/292704529",
+            "width": 1024,
+            "height": 683,
+            "alt": "Paratudo (Tabebuia aurea)"
+          }
+        },
+        {
+          "gbifKey": 5353847,
+          "scientificName": "Arachis dardani",
+          "name": "Amendoim-de-carcará",
+          "family": "Fabaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q15523473",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/355493789/large.jpeg",
+            "author": "Frederico Acaz Sonntag",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/355493789",
+            "width": 1024,
+            "height": 680,
+            "alt": "Amendoim-de-carcará (Arachis dardani)"
+          }
+        },
+        {
+          "gbifKey": 5661249,
+          "scientificName": "Cordia oncocalyx",
+          "name": "Pau-Branco-do-Sertão",
+          "family": "Cordiaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15580552",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/274030624/large.jpeg",
+            "author": "Breno Figueiredo",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/274030624",
+            "width": 1024,
+            "height": 771,
+            "alt": "Pau-Branco-do-Sertão (Cordia oncocalyx)"
+          }
+        },
+        {
+          "gbifKey": 7282182,
+          "scientificName": "Cereus jamacaru",
+          "name": "Mandacaru",
+          "family": "Cactaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q140991",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/511038950/large.jpg",
+            "author": "Tony Rebelo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/511038950",
+            "width": 1024,
+            "height": 684,
+            "alt": "Mandacaru (Cereus jamacaru)"
+          }
+        },
+        {
+          "gbifKey": 2738262,
+          "scientificName": "Copernicia prunifera",
+          "name": "Carnaúba",
+          "family": "Arecaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q1043918",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/469901439/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/469901439",
+            "width": 1024,
+            "height": 683,
+            "alt": "carnaúba (Copernicia prunifera)"
+          }
+        },
+        {
+          "gbifKey": 2895593,
+          "scientificName": "Genipa americana",
+          "name": "Jenipapeiro",
+          "family": "Rubiaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1353278",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/168275564/large.jpg",
+            "author": "Kristof Zyskowski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/168275564",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jenipapeiro (Genipa americana)"
+          }
         }
       ]
     }
@@ -639,5 +1114,6 @@
         "alt": "Jacucaca (Penelope jacucaca)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

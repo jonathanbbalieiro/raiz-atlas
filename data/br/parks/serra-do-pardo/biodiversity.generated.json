@@ -53,13 +53,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -175,6 +175,82 @@
             "width": 1280,
             "height": 852,
             "alt": "queixada (Tayassu pecari)"
+          }
+        },
+        {
+          "gbifKey": 5786666,
+          "scientificName": "Hydrochoerus hydrochaeris",
+          "name": "Capivara",
+          "family": "Caviidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q131538",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10691626/large.jpg",
+            "author": "avocat",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10691626",
+            "width": 1024,
+            "height": 683,
+            "alt": "Capivara (Hydrochoerus hydrochaeris)"
+          }
+        },
+        {
+          "gbifKey": 2440779,
+          "scientificName": "Dasypus novemcinctus",
+          "name": "Tatu-galinha",
+          "family": "Dasypodidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q649549",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552761863/large.jpg",
+            "author": "Bruno Henrique Aranda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/552761863",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tatu-galinha (Dasypus novemcinctus)"
+          }
+        },
+        {
+          "gbifKey": 2434584,
+          "scientificName": "Cerdocyon thous",
+          "name": "Guaraxaim",
+          "family": "Canidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q321376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444962719/large.jpeg",
+            "author": "David F. Belmonte",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444962719",
+            "width": 1024,
+            "height": 711,
+            "alt": "Guaraxaim (Cerdocyon thous)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/large.jpg",
+            "author": "pfaucher",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9834553",
+            "width": 1024,
+            "height": 683,
+            "alt": "suçuarana (Puma concolor)"
           }
         }
       ]
@@ -335,6 +411,82 @@
             "height": 1280,
             "alt": "Uirapuru-laranja (Pipra fasciicauda)"
           }
+        },
+        {
+          "gbifKey": 2490125,
+          "scientificName": "Myrmoborus myotherinus",
+          "name": "Formigueiro-de-cara-preta",
+          "family": "Thamnophilidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1269836",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/347185226/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/347185226",
+            "width": 1024,
+            "height": 683,
+            "alt": "Formigueiro-de-cara-preta (Myrmoborus myotherinus)"
+          }
+        },
+        {
+          "gbifKey": 2496647,
+          "scientificName": "Trogon viridis",
+          "name": "Surucuá-de-barriga-amarela",
+          "family": "Trogonidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q925086",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/561370299/large.jpg",
+            "author": "Enéas V. Gouvêa Junior",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/561370299",
+            "width": 1024,
+            "height": 683,
+            "alt": "surucuá-de-barriga-amarela (Trogon viridis)"
+          }
+        },
+        {
+          "gbifKey": 5228248,
+          "scientificName": "Galbula cyanicollis",
+          "name": "Ariramba-da-mata",
+          "family": "Galbulidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1266619",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/385227/large.JPG",
+            "author": "Carmelo López Abad",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/385227",
+            "width": 1024,
+            "height": 841,
+            "alt": "Ariramba-da-mata (Galbula cyanicollis)"
+          }
+        },
+        {
+          "gbifKey": 5230249,
+          "scientificName": "Automolus ochrolaemus",
+          "name": "Barranqueiro-camurça",
+          "family": "Furnariidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1266962",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/733619964/large.jpg",
+            "author": "Augusto Alves",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/733619964",
+            "width": 1024,
+            "height": 682,
+            "alt": "Barranqueiro-camurça (Automolus ochrolaemus)"
+          }
         }
       ]
     },
@@ -403,7 +555,7 @@
         {
           "gbifKey": 8415066,
           "scientificName": "Chatogekko amazonicus",
-          "name": null,
+          "name": "Lagartixa-da-amazônia",
           "family": "Sphaerodactylidae",
           "records": 12,
           "iucn": "LC",
@@ -441,12 +593,21 @@
         {
           "gbifKey": 2460007,
           "scientificName": "Uranoscodon superciliosus",
-          "name": null,
+          "name": "Calango-Cabeçudo",
           "family": "Tropiduridae",
           "records": 7,
           "iucn": "LC",
           "wikidata": "Q2175290",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/418646477/large.jpg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/418646477",
+            "width": 1024,
+            "height": 918,
+            "alt": "null (Uranoscodon superciliosus)"
+          }
         }
       ]
     },
@@ -687,13 +848,13 @@
           "iucn": "LC",
           "wikidata": "Q156538",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Hevea_brasiliensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-071.jpg",
-            "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hevea_brasiliensis_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-071.jpg",
-            "width": 431,
-            "height": 597,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/30552279/large.jpeg",
+            "author": "Ong Jyh Seng",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/30552279",
+            "width": 1024,
+            "height": 576,
             "alt": "Seringueira (Hevea brasiliensis)"
           }
         },
@@ -706,13 +867,13 @@
           "iucn": "VU",
           "wikidata": "Q81671",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
-            "author": "Autor desconhecido",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
-            "width": 149,
-            "height": 225,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/661198/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/661198",
+            "width": 1024,
+            "height": 683,
             "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
           }
         },
@@ -771,6 +932,25 @@
             "width": 900,
             "height": 868,
             "alt": "Davilla nitida"
+          }
+        },
+        {
+          "gbifKey": 2971008,
+          "scientificName": "Dialium guianense",
+          "name": "Jataipeva",
+          "family": "Fabaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q10306429",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63162004/large.jpeg",
+            "author": "Silvano LG",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/63162004",
+            "width": 1024,
+            "height": 653,
+            "alt": "Jataipeva (Dialium guianense)"
           }
         }
       ]
@@ -843,13 +1023,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -900,13 +1080,13 @@
       "iucn": "VU",
       "wikidata": "Q81671",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg",
-        "author": "Autor desconhecido",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertholletia_excelsa.jpg",
-        "width": 149,
-        "height": 225,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/661198/large.jpg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/661198",
+        "width": 1024,
+        "height": 683,
         "alt": "Castanheira-do-Pará (Bertholletia excelsa)"
       }
     },
@@ -939,5 +1119,6 @@
       "wikidata": "Q6414058",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

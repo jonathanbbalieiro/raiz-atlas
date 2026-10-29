@@ -12,6 +12,7 @@ const KIND: Record<LostKind, { label: string; tone: string }> = {
   extinta_localmente: { label: "Extinta no local", tone: "bg-[#c2522d] text-white" },
   megafauna_fossil: { label: "Megafauna fóssil", tone: "bg-earth text-white" },
   reintroduzida: { label: "Voltou", tone: "bg-forest text-white" },
+  recolonizada: { label: "Voltou sozinha", tone: "bg-forest text-white" },
 };
 
 /**

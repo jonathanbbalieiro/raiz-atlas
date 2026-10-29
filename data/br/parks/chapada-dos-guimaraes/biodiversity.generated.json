@@ -53,13 +53,13 @@
           "iucn": "LC",
           "wikidata": "Q83592",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Intro_wide_polls_intro_vertebrate_species_3.jpg",
-            "author": "NBII",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intro_wide_polls_intro_vertebrate_species_3.jpg",
-            "width": 300,
-            "height": 450,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259409573/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/259409573",
+            "width": 1024,
+            "height": 768,
             "alt": "Morcego-Focinhudo (Anoura geoffroyi)"
           }
         },
@@ -164,7 +164,7 @@
           "name": "Dermanura glaucus",
           "family": "Phyllostomidae",
           "records": 5,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q308293",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Dermanura_quadrivittatum.jpg",
@@ -175,6 +175,101 @@
             "width": 329,
             "height": 318,
             "alt": "Dermanura glaucus (Artibeus glaucus)"
+          }
+        },
+        {
+          "gbifKey": 4262995,
+          "scientificName": "Thrichomys pachyurus",
+          "name": "Punaré-do-Pantanal",
+          "family": "Echimyidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q1761808",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/661134584/large.jpg",
+            "author": "Lucas Mantelo Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/661134584",
+            "width": 1024,
+            "height": 819,
+            "alt": "Punaré-do-Pantanal (Thrichomys pachyurus)"
+          }
+        },
+        {
+          "gbifKey": 2434584,
+          "scientificName": "Cerdocyon thous",
+          "name": "Guaraxaim",
+          "family": "Canidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q321376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444962719/large.jpeg",
+            "author": "David F. Belmonte",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444962719",
+            "width": 1024,
+            "height": 711,
+            "alt": "Guaraxaim (Cerdocyon thous)"
+          }
+        },
+        {
+          "gbifKey": 2434450,
+          "scientificName": "Chrysocyon brachyurus",
+          "name": "Lobo-guará",
+          "family": "Canidae",
+          "records": 4,
+          "iucn": "NT",
+          "wikidata": "Q184389",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53854095/large.jpeg",
+            "author": "Matt Muir",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/53854095",
+            "width": 1024,
+            "height": 679,
+            "alt": "Lobo-guará (Chrysocyon brachyurus)"
+          }
+        },
+        {
+          "gbifKey": 2437582,
+          "scientificName": "Dasyprocta azarae",
+          "name": "Cutia-de-Azara",
+          "family": "Dasyproctidae",
+          "records": 4,
+          "iucn": "DD",
+          "wikidata": "Q643741",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305628453/large.jpeg",
+            "author": "Luciano Massa",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/305628453",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cutia-de-Azara (Dasyprocta azarae)"
+          }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
           }
         }
       ]
@@ -209,7 +304,7 @@
           "name": "Sanhaço-cinzento",
           "family": "Thraupidae",
           "records": 934,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1588073",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/1280px-Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
@@ -247,7 +342,7 @@
           "name": "Periquitão",
           "family": "Psittacidae",
           "records": 741,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q840159",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Aratinga_leucophthalma_-Piraju_-Brazil-8.jpg/1280px-Aratinga_leucophthalma_-Piraju_-Brazil-8.jpg",
@@ -323,7 +418,7 @@
           "name": "Periquito-rei",
           "family": "Psittacidae",
           "records": 648,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q775485",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
@@ -334,6 +429,215 @@
             "width": 570,
             "height": 736,
             "alt": "Periquito-rei (Aratinga aurea)"
+          }
+        },
+        {
+          "gbifKey": 2488545,
+          "scientificName": "Tersina viridis",
+          "name": "Saí-andorinha",
+          "family": "Thraupidae",
+          "records": 623,
+          "iucn": "LC",
+          "wikidata": "Q583812",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/197935350/large.jpeg",
+            "author": "Guillermo Debandi",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/197935350",
+            "width": 1024,
+            "height": 768,
+            "alt": "saí-andorinha (Tersina viridis)"
+          }
+        },
+        {
+          "gbifKey": 9421922,
+          "scientificName": "Saltatricula atricollis",
+          "name": "Batuqueiro",
+          "family": "Thraupidae",
+          "records": 618,
+          "iucn": null,
+          "wikidata": "Q58295209",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/604080705/large.jpg",
+            "author": "Arthur Bruck",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/604080705",
+            "width": 1024,
+            "height": 683,
+            "alt": "Batuqueiro (Saltatricula atricollis)"
+          }
+        },
+        {
+          "gbifKey": 2482561,
+          "scientificName": "Cyanocorax cristatellus",
+          "name": "Gralha-do-campo",
+          "family": "Corvidae",
+          "records": 605,
+          "iucn": "LC",
+          "wikidata": "Q1433700",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312055694/large.jpeg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/312055694",
+            "width": 1024,
+            "height": 768,
+            "alt": "gralha-do-campo (Cyanocorax cristatellus)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 571,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 5229640,
+          "scientificName": "Elaenia cristata",
+          "name": "Guaracava-de-topete-uniforme",
+          "family": "Tyrannidae",
+          "records": 533,
+          "iucn": "LC",
+          "wikidata": "Q906558",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/689340556/large.jpg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/689340556",
+            "width": 1024,
+            "height": 768,
+            "alt": "Guaracava-de-topete-uniforme (Elaenia cristata)"
+          }
+        },
+        {
+          "gbifKey": 2491984,
+          "scientificName": "Coryphospingus cucullatus",
+          "name": "Tico-tico-rei",
+          "family": "Thraupidae",
+          "records": 466,
+          "iucn": "LC",
+          "wikidata": "Q1587819",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/92382820/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/92382820",
+            "width": 1024,
+            "height": 744,
+            "alt": "Tico-tico-rei (Coryphospingus cucullatus)"
+          }
+        },
+        {
+          "gbifKey": 2475192,
+          "scientificName": "Nystalus chacuru",
+          "name": "João-bobo",
+          "family": "Bucconidae",
+          "records": 465,
+          "iucn": "LC",
+          "wikidata": "Q1268888",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/567889266/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/567889266",
+            "width": 1024,
+            "height": 768,
+            "alt": "João-bobo (Nystalus chacuru)"
+          }
+        },
+        {
+          "gbifKey": 2495858,
+          "scientificName": "Columbina talpacoti",
+          "name": "Rolinha-roxa",
+          "family": "Columbidae",
+          "records": 463,
+          "iucn": "LC",
+          "wikidata": "Q1386698",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/700442559/large.jpg",
+            "author": "Anthony Batista",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/700442559",
+            "width": 1024,
+            "height": 683,
+            "alt": "Rolinha-roxa (Columbina talpacoti)"
+          }
+        },
+        {
+          "gbifKey": 2488583,
+          "scientificName": "Tachyphonus rufus",
+          "name": "Pipira-preta",
+          "family": "Thraupidae",
+          "records": 446,
+          "iucn": "LC",
+          "wikidata": "Q3116434",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/163888776/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/163888776",
+            "width": 1024,
+            "height": 768,
+            "alt": "pipira-preta (Tachyphonus rufus)"
+          }
+        },
+        {
+          "gbifKey": 2488352,
+          "scientificName": "Dacnis cayana",
+          "name": "Saí-azul",
+          "family": "Thraupidae",
+          "records": 433,
+          "iucn": "LC",
+          "wikidata": "Q779743",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305624335/large.jpeg",
+            "author": "Luciano Massa",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/305624335",
+            "width": 1024,
+            "height": 683,
+            "alt": "Saí-azul (Dacnis cayana)"
+          }
+        },
+        {
+          "gbifKey": 2479270,
+          "scientificName": "Primolius maracana",
+          "name": "Maracanã-verdadeira",
+          "family": "Psittacidae",
+          "records": 431,
+          "iucn": "LC",
+          "wikidata": "Q1164807",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591973597/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/591973597",
+            "width": 1024,
+            "height": 576,
+            "alt": "Maracanã-verdadeira (Primolius maracana)"
           }
         }
       ]
@@ -456,6 +760,63 @@
             "height": 722,
             "alt": "Papa-vento (Polychrus acutirostris)"
           }
+        },
+        {
+          "gbifKey": 2455026,
+          "scientificName": "Oxyrhopus rhombifer",
+          "name": "Falsa-coral",
+          "family": "Colubridae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q3359152",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/742995600/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/742995600",
+            "width": 1024,
+            "height": 683,
+            "alt": "Falsa-coral (Oxyrhopus rhombifer)"
+          }
+        },
+        {
+          "gbifKey": 2464899,
+          "scientificName": "Boa constrictor",
+          "name": "Jiboia-constritora",
+          "family": "Boidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q215388",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591372805/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/591372805",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-constritora (Boa constrictor)"
+          }
+        },
+        {
+          "gbifKey": 2471987,
+          "scientificName": "Kentropyx paulensis",
+          "name": "Calanguinho-de-boettger",
+          "family": "Teiidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q3195312",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/119476905/large.jpeg",
+            "author": "Bruno R. Möller",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/119476905",
+            "width": 1024,
+            "height": 768,
+            "alt": "Calanguinho-de-boettger (Kentropyx paulensis)"
+          }
         }
       ]
     },
@@ -576,6 +937,63 @@
             "width": 1280,
             "height": 960,
             "alt": "Perereca-de-banheiro (Scinax fuscovarius)"
+          }
+        },
+        {
+          "gbifKey": 10881038,
+          "scientificName": "Boana albopunctata",
+          "name": "Perereca-carneiro",
+          "family": "Hylidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/357124764/large.jpg",
+            "author": "Henrique Nogueira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/357124764",
+            "width": 1024,
+            "height": 686,
+            "alt": "Perereca-carneiro (Boana albopunctata)"
+          }
+        },
+        {
+          "gbifKey": 5216992,
+          "scientificName": "Rhinella diptycha",
+          "name": "Sapo-boi",
+          "family": "Bufonidae",
+          "records": 2,
+          "iucn": "DD",
+          "wikidata": "Q27987572",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/623922151/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/623922151",
+            "width": 1024,
+            "height": 768,
+            "alt": "Sapo-boi (Rhinella diptycha)"
+          }
+        },
+        {
+          "gbifKey": 9854382,
+          "scientificName": "Boana raniceps",
+          "name": "Perereca quarenta-e-três",
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/599113852/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/599113852",
+            "width": 1024,
+            "height": 767,
+            "alt": "Perereca quarenta-e-três (Boana raniceps)"
           }
         }
       ]
@@ -698,6 +1116,82 @@
             "height": 853,
             "alt": "Borboleta-emília (Leptotes cassius)"
           }
+        },
+        {
+          "gbifKey": 11701883,
+          "scientificName": "Dione vanillae",
+          "name": "Borboleta-paixão",
+          "family": "Nymphalidae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q130279113",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/157464906/large.jpeg",
+            "author": "Clay",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/157464906",
+            "width": 1024,
+            "height": 683,
+            "alt": "Borboleta-paixão (Dione vanillae)"
+          }
+        },
+        {
+          "gbifKey": 1900872,
+          "scientificName": "Heliconius erato",
+          "name": "Borboleta Castanha-Vermelha",
+          "family": "Nymphalidae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q2427227",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/360441668/large.jpeg",
+            "author": "Sophia Sperduto",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/360441668",
+            "width": 1024,
+            "height": 683,
+            "alt": "Borboleta Castanha-Vermelha (Heliconius erato)"
+          }
+        },
+        {
+          "gbifKey": 5124607,
+          "scientificName": "Rothschildia speculifer",
+          "name": "Mariposa-de-espelho",
+          "family": "Saturniidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q15653610",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/146756926/large.jpeg",
+            "author": "Léo Pimenta",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/146756926",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mariposa-de-espelho (Rothschildia speculifer)"
+          }
+        },
+        {
+          "gbifKey": 9255328,
+          "scientificName": "Hamadryas laodamia",
+          "name": "Estaladeira-estrelada",
+          "family": "Nymphalidae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q3013308",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/128097895/large.jpeg",
+            "author": "Victor Farjalla Pontes",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/128097895",
+            "width": 1024,
+            "height": 768,
+            "alt": "Estaladeira-estrelada (Hamadryas laodamia)"
+          }
         }
       ]
     },
@@ -750,7 +1244,7 @@
           "name": "Pau Terra",
           "family": "Vochysiaceae",
           "records": 18,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15336649",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flickr_-_BioDivLibrary_-_n81_w1150.jpg/1280px-Flickr_-_BioDivLibrary_-_n81_w1150.jpg",
@@ -807,7 +1301,7 @@
           "name": "Coquinho-do-cerrado",
           "family": "Arecaceae",
           "records": 11,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15469718",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Elaeis_oleifera_%28Kunth%29_Cort%C3%A9s_as_Elaeis_melanococca_Mart._%283%29.jpg/1280px-Elaeis_oleifera_%28Kunth%29_Cort%C3%A9s_as_Elaeis_melanococca_Mart._%283%29.jpg",
@@ -845,7 +1339,7 @@
           "name": "Pau-Santo",
           "family": "Calophyllaceae",
           "records": 11,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q6405268",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Kielmeyera_coriacea.jpg/960px-Kielmeyera_coriacea.jpg",
@@ -895,6 +1389,177 @@
             "height": 720,
             "alt": "Murici-do-cerrado (Byrsonima coccolobifolia)"
           }
+        },
+        {
+          "gbifKey": 3060817,
+          "scientificName": "Manihot caerulescens",
+          "name": "Maniçoba",
+          "family": "Euphorbiaceae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q15363233",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/373367852/large.jpeg",
+            "author": "alexandre callou sampaio",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/373367852",
+            "width": 1024,
+            "height": 707,
+            "alt": "Maniçoba (Manihot caerulescens)"
+          }
+        },
+        {
+          "gbifKey": 2898841,
+          "scientificName": "Palicourea rigida",
+          "name": "Bate-caixa",
+          "family": "Rubiaceae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q15483319",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/622027047/large.jpg",
+            "author": "Davidson Moreira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/622027047",
+            "width": 1024,
+            "height": 682,
+            "alt": "Bate-caixa (Palicourea rigida)"
+          }
+        },
+        {
+          "gbifKey": 7316773,
+          "scientificName": "Aspidosperma tomentosum",
+          "name": "Peroba-do-cerrado",
+          "family": "Apocynaceae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q4808038",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/687050362/large.jpg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/687050362",
+            "width": 1024,
+            "height": 768,
+            "alt": "Peroba-do-cerrado (Aspidosperma tomentosum)"
+          }
+        },
+        {
+          "gbifKey": 3784329,
+          "scientificName": "Matayba guianensis",
+          "name": "Pitombuçu",
+          "family": "Sapindaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q15526133",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58561726/large.jpeg",
+            "author": "Marcondes Oliveira",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58561726",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pitombuçu (Matayba guianensis)"
+          }
+        },
+        {
+          "gbifKey": 2947119,
+          "scientificName": "Cenostigma macrophyllum",
+          "name": "Caneleiro (árvore)",
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q9694262",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/662447683/large.jpg",
+            "author": "Suzana Ehlin Martins",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/662447683",
+            "width": 1024,
+            "height": 768,
+            "alt": "Caneleiro (árvore) (Cenostigma macrophyllum)"
+          }
+        },
+        {
+          "gbifKey": 5406635,
+          "scientificName": "Piptocarpha rotundifolia",
+          "name": "Candeia",
+          "family": "Asteraceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q15594472",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58064722/large.jpg",
+            "author": "luedemann_g",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58064722",
+            "width": 1024,
+            "height": 768,
+            "alt": "Candeia (Piptocarpha rotundifolia)"
+          }
+        },
+        {
+          "gbifKey": 5407096,
+          "scientificName": "Annona crassiflora",
+          "name": "Araticum-do-Cerrado",
+          "family": "Annonaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q3926733",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/615088968/large.jpg",
+            "author": "Thomaz Ricardo Favreto Sinani",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/615088968",
+            "width": 1024,
+            "height": 577,
+            "alt": "Araticum-do-Cerrado (Annona crassiflora)"
+          }
+        },
+        {
+          "gbifKey": 5417919,
+          "scientificName": "Eugenia florida",
+          "name": "Guamirim",
+          "family": "Myrtaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15359859",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/329341494/large.jpg",
+            "author": "Denis Zabin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/329341494",
+            "width": 1024,
+            "height": 819,
+            "alt": "Guamirim (Eugenia florida)"
+          }
+        },
+        {
+          "gbifKey": 7288359,
+          "scientificName": "Qualea multiflora",
+          "name": "Cinzeiro",
+          "family": "Vochysiaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15336214",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/306252922/large.jpg",
+            "author": "Kleber E. S. Filho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/306252922",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cinzeiro (Qualea multiflora)"
+          }
         }
       ]
     }
@@ -941,7 +1606,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -975,7 +1640,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q5237884",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/558690375/large.jpg",
+        "author": "Carlos Otávio Gussoni",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/558690375",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Bachia bresslaui)"
+      }
     },
     {
       "gbifKey": 2482174,
@@ -1043,13 +1717,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -1110,5 +1784,6 @@
         "alt": "cujubi (Pipile cujubi)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

@@ -148,13 +148,13 @@
           "iucn": "LC",
           "wikidata": "Q307153",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Stavenn_Aotus_trivirgatus_00.jpg",
-            "author": "Stavenn",
-            "license": "CC BY 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stavenn_Aotus_trivirgatus_00.jpg",
-            "width": 360,
-            "height": 480,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/44490359/large.jpg",
+            "author": "daniesser",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/44490359",
+            "width": 1024,
+            "height": 731,
             "alt": "Macaco-da-noite-do-norte (Aotus trivirgatus)"
           }
         },
@@ -175,6 +175,25 @@
             "width": 1280,
             "height": 1343,
             "alt": "Pithecia irrorata"
+          }
+        },
+        {
+          "gbifKey": 8885431,
+          "scientificName": "Saimiri ustus",
+          "name": "Mão-de-ouro",
+          "family": "Cebidae",
+          "records": 2,
+          "iucn": "NT",
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/248999739/large.jpg",
+            "author": "Conrado Pável de Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/248999739",
+            "width": 1024,
+            "height": 683,
+            "alt": "Mão-de-ouro (Saimiri ustus)"
           }
         }
       ]
@@ -323,7 +342,7 @@
           "name": "Cabeça-encarnada",
           "family": "Pipridae",
           "records": 114,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q842522",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pipra_rubrocapilla_1838.jpg/1280px-Pipra_rubrocapilla_1838.jpg",
@@ -334,6 +353,234 @@
             "width": 1280,
             "height": 1553,
             "alt": "Cabeça-encarnada (Pipra rubrocapilla)"
+          }
+        },
+        {
+          "gbifKey": 2496647,
+          "scientificName": "Trogon viridis",
+          "name": "Surucuá-de-barriga-amarela",
+          "family": "Trogonidae",
+          "records": 113,
+          "iucn": "LC",
+          "wikidata": "Q925086",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/561370299/large.jpg",
+            "author": "Enéas V. Gouvêa Junior",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/561370299",
+            "width": 1024,
+            "height": 683,
+            "alt": "surucuá-de-barriga-amarela (Trogon viridis)"
+          }
+        },
+        {
+          "gbifKey": 2487708,
+          "scientificName": "Tyranneutes stolzmanni",
+          "name": "Uirapuruzinho",
+          "family": "Pipridae",
+          "records": 112,
+          "iucn": "LC",
+          "wikidata": "Q843354",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/132818882/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/132818882",
+            "width": 1024,
+            "height": 683,
+            "alt": "uirapuruzinho (Tyranneutes stolzmanni)"
+          }
+        },
+        {
+          "gbifKey": 2490125,
+          "scientificName": "Myrmoborus myotherinus",
+          "name": "Formigueiro-de-cara-preta",
+          "family": "Thamnophilidae",
+          "records": 111,
+          "iucn": "LC",
+          "wikidata": "Q1269836",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/347185226/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/347185226",
+            "width": 1024,
+            "height": 683,
+            "alt": "Formigueiro-de-cara-preta (Myrmoborus myotherinus)"
+          }
+        },
+        {
+          "gbifKey": 5228262,
+          "scientificName": "Chelidoptera tenebrosa",
+          "name": "Urubuzinho",
+          "family": "Bucconidae",
+          "records": 106,
+          "iucn": "LC",
+          "wikidata": "Q1274755",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/563795799/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/563795799",
+            "width": 1024,
+            "height": 768,
+            "alt": "Urubuzinho (Chelidoptera tenebrosa)"
+          }
+        },
+        {
+          "gbifKey": 5230520,
+          "scientificName": "Lepidothrix nattereri",
+          "name": "Uirapuru-de-chapéu-branco",
+          "family": "Pipridae",
+          "records": 106,
+          "iucn": "LC",
+          "wikidata": "Q1308683",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/355436905/large.jpeg",
+            "author": "Fernando Rodrigues | Biólogo.",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/355436905",
+            "width": 1024,
+            "height": 683,
+            "alt": "Uirapuru-de-chapéu-branco (Lepidothrix nattereri)"
+          }
+        },
+        {
+          "gbifKey": 5229832,
+          "scientificName": "Cacicus cela",
+          "name": "Xexéu",
+          "family": "Icteridae",
+          "records": 99,
+          "iucn": "LC",
+          "wikidata": "Q580297",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172071912/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172071912",
+            "width": 1024,
+            "height": 768,
+            "alt": "Xexéu (Cacicus cela)"
+          }
+        },
+        {
+          "gbifKey": 2484230,
+          "scientificName": "Psarocolius bifasciatus",
+          "name": "Japuguaçu",
+          "family": "Icteridae",
+          "records": 98,
+          "iucn": "LC",
+          "wikidata": "Q290672",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160473767/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/160473767",
+            "width": 1024,
+            "height": 641,
+            "alt": "japuguaçu (Psarocolius bifasciatus)"
+          }
+        },
+        {
+          "gbifKey": 2477533,
+          "scientificName": "Crypturellus cinereus",
+          "name": "Inhambu-pixuna",
+          "family": "Tinamidae",
+          "records": 96,
+          "iucn": "LC",
+          "wikidata": "Q870092",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/463612357/large.jpeg",
+            "author": "Jan Ebr &amp; Ivana Ebrová",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/463612357",
+            "width": 1024,
+            "height": 854,
+            "alt": "Inhambu-pixuna (Crypturellus cinereus)"
+          }
+        },
+        {
+          "gbifKey": 7341385,
+          "scientificName": "Hypocnemis striata",
+          "name": "Cantador-estriado",
+          "family": "Thamnophilidae",
+          "records": 95,
+          "iucn": "LC",
+          "wikidata": "Q1265299",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/755696963/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/755696963",
+            "width": 1024,
+            "height": 682,
+            "alt": "cantador-estriado (Hypocnemis striata)"
+          }
+        },
+        {
+          "gbifKey": 2482868,
+          "scientificName": "Myiornis ecaudatus",
+          "name": "Caçula",
+          "family": "Tyrannidae",
+          "records": 94,
+          "iucn": "LC",
+          "wikidata": "Q1269145",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/88964808/large.jpeg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/88964808",
+            "width": 1024,
+            "height": 768,
+            "alt": "caçula (Myiornis ecaudatus)"
+          }
+        },
+        {
+          "gbifKey": 2496432,
+          "scientificName": "Piaya cayana",
+          "name": "Alma-de-gato",
+          "family": "Cuculidae",
+          "records": 93,
+          "iucn": "LC",
+          "wikidata": "Q1270495",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552914159/large.jpg",
+            "author": "Davidson Moreira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/552914159",
+            "width": 1024,
+            "height": 715,
+            "alt": "Alma-de-gato (Piaya cayana)"
+          }
+        },
+        {
+          "gbifKey": 2478756,
+          "scientificName": "Selenidera gouldii",
+          "name": "Saripoca-de-gould",
+          "family": "Ramphastidae",
+          "records": 91,
+          "iucn": "LC",
+          "wikidata": "Q1273513",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/584368323/large.jpg",
+            "author": "Kevin Brix",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/584368323",
+            "width": 1024,
+            "height": 699,
+            "alt": "saripoca-de-gould (Selenidera gouldii)"
           }
         }
       ]
@@ -384,12 +631,21 @@
         {
           "gbifKey": 2446452,
           "scientificName": "Lepidoblepharis heyerorum",
-          "name": null,
+          "name": "Lagartixinha",
           "family": "Sphaerodactylidae",
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q3229860",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/155875384/large.jpeg",
+            "author": "Marco Aurelio de Sena",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/155875384",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Lepidoblepharis heyerorum)"
+          }
         },
         {
           "gbifKey": 7790380,
@@ -397,9 +653,18 @@
           "name": null,
           "family": "Dactyloidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/210718974/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/210718974",
+            "width": 1024,
+            "height": 718,
+            "alt": "null (Anolis tandai)"
+          }
         }
       ]
     },
@@ -417,14 +682,14 @@
           "iucn": "LC",
           "wikidata": "Q2842567",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Ameerega_trivittata02.jpg",
-            "author": "Hugo Claessen",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ameerega_trivittata02.jpg",
-            "width": 321,
-            "height": 324,
-            "alt": "Ameerega trivittata"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58425028/large.jpg",
+            "author": "Rafael Bernhard",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58425028",
+            "width": 1024,
+            "height": 576,
+            "alt": "null (Ameerega trivittata)"
           }
         },
         {
@@ -445,16 +710,6 @@
             "height": 308,
             "alt": "Amazophrynella bokermanni"
           }
-        },
-        {
-          "gbifKey": 11168549,
-          "scientificName": "Adenomera amicorum",
-          "name": null,
-          "family": "Leptodactylidae",
-          "records": 2,
-          "iucn": "LC",
-          "wikidata": "Q108068521",
-          "photo": null
         }
       ]
     },
@@ -669,14 +924,14 @@
           "iucn": null,
           "wikidata": "Q10929002",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lycopodium_plant.jpg",
-            "author": "Eric Guinther",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lycopodium_plant.jpg",
-            "width": 400,
-            "height": 533,
-            "alt": "licopódio-de-valongo (Palhinhaea cernua)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/645159073/large.jpg",
+            "author": "Cricket Raspet",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/645159073",
+            "width": 1024,
+            "height": 768,
+            "alt": "Licopódio-de-valongo (Palhinhaea cernua)"
           }
         },
         {
@@ -753,6 +1008,234 @@
             "width": 1280,
             "height": 1707,
             "alt": "Clitoria arborea"
+          }
+        },
+        {
+          "gbifKey": 2732630,
+          "scientificName": "Lepidocaryum tenue",
+          "name": "Lepidocaryum",
+          "family": "Arecaceae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q141910",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/601339515/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/601339515",
+            "width": 1024,
+            "height": 768,
+            "alt": "Lepidocaryum (Lepidocaryum tenue)"
+          }
+        },
+        {
+          "gbifKey": 2650434,
+          "scientificName": "Lygodium volubile",
+          "name": "Abre-caminho",
+          "family": "Lygodiaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q17046785",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252167575/large.jpg",
+            "author": "Nils Servientis - Bivouac Naturaliste",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/252167575",
+            "width": 1024,
+            "height": 683,
+            "alt": "Abre-caminho (Lygodium volubile)"
+          }
+        },
+        {
+          "gbifKey": 10779983,
+          "scientificName": "Dipteryx odorata",
+          "name": "Cumaru",
+          "family": "Fabaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/164241048/large.jpeg",
+            "author": "Miguel A. Casado",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/164241048",
+            "width": 1024,
+            "height": 768,
+            "alt": "Cumaru (Dipteryx odorata)"
+          }
+        },
+        {
+          "gbifKey": 2957158,
+          "scientificName": "Senna multijuga",
+          "name": "Pau-cigarra",
+          "family": "Fabaceae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q15537762",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104479307/large.jpeg",
+            "author": "Francisco Emilio Roldán Velasco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/104479307",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau-cigarra (Senna multijuga)"
+          }
+        },
+        {
+          "gbifKey": 2650437,
+          "scientificName": "Lygodium venustum",
+          "name": "Abre-caminho",
+          "family": "Lygodiaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q15726557",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/723335014/large.jpg",
+            "author": "zebedeugalinha",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/723335014",
+            "width": 1024,
+            "height": 768,
+            "alt": "Abre-caminho (Lygodium venustum)"
+          }
+        },
+        {
+          "gbifKey": 2903528,
+          "scientificName": "Isertia hypoleuca",
+          "name": "Rabo-de-arara",
+          "family": "Rubiaceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q15464231",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/641144954/large.jpg",
+            "author": "Carlos Otávio Gussoni",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/641144954",
+            "width": 1024,
+            "height": 768,
+            "alt": "Rabo-de-arara (Isertia hypoleuca)"
+          }
+        },
+        {
+          "gbifKey": 2928636,
+          "scientificName": "Ipomoea setifera",
+          "name": "Algodão-bravo",
+          "family": "Convolvulaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q1672257",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/179819067/large.jpeg",
+            "author": "donbull",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/179819067",
+            "width": 1024,
+            "height": 768,
+            "alt": "Algodão-bravo (Ipomoea setifera)"
+          }
+        },
+        {
+          "gbifKey": 2959433,
+          "scientificName": "Calopogonium mucunoides",
+          "name": "Calopogônio",
+          "family": "Fabaceae",
+          "records": 3,
+          "iucn": null,
+          "wikidata": "Q9674680",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/336887608/large.jpeg",
+            "author": "renjus box",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/336887608",
+            "width": 1024,
+            "height": 768,
+            "alt": "Calopogônio (Calopogonium mucunoides)"
+          }
+        },
+        {
+          "gbifKey": 10342163,
+          "scientificName": "Myrciaria dubia",
+          "name": "Camu-camu",
+          "family": "Myrtaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/204174945/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/204174945",
+            "width": 1024,
+            "height": 638,
+            "alt": "Camu-camu (Myrciaria dubia)"
+          }
+        },
+        {
+          "gbifKey": 2733118,
+          "scientificName": "Bactris acanthocarpa",
+          "name": "Maraial",
+          "family": "Arecaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15458622",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/607513952/large.jpg",
+            "author": "D.F.Silva",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/607513952",
+            "width": 1024,
+            "height": 683,
+            "alt": "maraial (Bactris acanthocarpa)"
+          }
+        },
+        {
+          "gbifKey": 2760824,
+          "scientificName": "Heliconia chartacea",
+          "name": "Caetê-bravo",
+          "family": "Heliconiaceae",
+          "records": 2,
+          "iucn": null,
+          "wikidata": "Q3926643",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/357095517/large.jpg",
+            "author": "Connie Rutherford",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/357095517",
+            "width": 1024,
+            "height": 674,
+            "alt": "caetê-bravo (Heliconia chartacea)"
+          }
+        },
+        {
+          "gbifKey": 2957544,
+          "scientificName": "Senna latifolia",
+          "name": "Ingá de Morcego",
+          "family": "Fabaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q15536525",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/619470247/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/619470247",
+            "width": 1024,
+            "height": 768,
+            "alt": "Ingá de Morcego (Senna latifolia)"
           }
         }
       ]
@@ -911,5 +1394,6 @@
         "alt": "Macaco prego de spix (Cebus unicolor)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

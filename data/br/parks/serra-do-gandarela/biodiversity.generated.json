@@ -148,13 +148,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -335,6 +335,158 @@
             "height": 986,
             "alt": "Pula-Pula (Basileuterus culicivorus)"
           }
+        },
+        {
+          "gbifKey": 2483906,
+          "scientificName": "Poecilotriccus plumbeiceps",
+          "name": "Tororó",
+          "family": "Tyrannidae",
+          "records": 151,
+          "iucn": "LC",
+          "wikidata": "Q916761",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/712321422/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/712321422",
+            "width": 1024,
+            "height": 768,
+            "alt": "tororó (Poecilotriccus plumbeiceps)"
+          }
+        },
+        {
+          "gbifKey": 2484057,
+          "scientificName": "Phyllomyias fasciatus",
+          "name": "Piolhinho",
+          "family": "Tyrannidae",
+          "records": 151,
+          "iucn": "LC",
+          "wikidata": "Q514673",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/753900330/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/753900330",
+            "width": 1024,
+            "height": 683,
+            "alt": "Piolhinho (Phyllomyias fasciatus)"
+          }
+        },
+        {
+          "gbifKey": 5230499,
+          "scientificName": "Hylophilus amaurocephalus",
+          "name": "Vite-vite-de-olho-cinza",
+          "family": "Vireonidae",
+          "records": 140,
+          "iucn": "LC",
+          "wikidata": "Q1588380",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/169120242/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/169120242",
+            "width": 1024,
+            "height": 683,
+            "alt": "Vite-vite-de-olho-cinza (Hylophilus amaurocephalus)"
+          }
+        },
+        {
+          "gbifKey": 2482882,
+          "scientificName": "Tolmomyias sulphurescens",
+          "name": "Bico-chato-de-orelha-preta",
+          "family": "Tyrannidae",
+          "records": 137,
+          "iucn": "LC",
+          "wikidata": "Q948121",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/247017924/large.jpeg",
+            "author": "Andrea Gantzer",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/247017924",
+            "width": 1024,
+            "height": 681,
+            "alt": "Bico-chato-de-orelha-preta (Tolmomyias sulphurescens)"
+          }
+        },
+        {
+          "gbifKey": 2496634,
+          "scientificName": "Trogon surrucura",
+          "name": "Surucuá-variado",
+          "family": "Trogonidae",
+          "records": 127,
+          "iucn": "LC",
+          "wikidata": "Q1267847",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/445801423/large.jpeg",
+            "author": "Pedro Henrique Maloso Ramos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/445801423",
+            "width": 1024,
+            "height": 836,
+            "alt": "surucuá-variado (Trogon surrucura)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 148,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2495314,
+          "scientificName": "Patagioenas plumbea",
+          "name": "Pomba-amargosa",
+          "family": "Columbidae",
+          "records": 148,
+          "iucn": "LC",
+          "wikidata": "Q1268856",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/39667639/large.jpg",
+            "author": "Martin Acosta",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/39667639",
+            "width": 1024,
+            "height": 576,
+            "alt": "Pomba-amargosa (Patagioenas plumbea)"
+          }
+        },
+        {
+          "gbifKey": 5788555,
+          "scientificName": "Chlorostilbon lucidus",
+          "name": "Besourinho-de-bico-vermelho",
+          "family": "Trochilidae",
+          "records": 138,
+          "iucn": "LC",
+          "wikidata": "Q1262955",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32687025/large.jpeg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32687025",
+            "width": 1024,
+            "height": 768,
+            "alt": "Besourinho-de-bico-vermelho (Chlorostilbon lucidus)"
+          }
         }
       ]
     },
@@ -455,6 +607,25 @@
             "width": 1280,
             "height": 854,
             "alt": "Tropiduro-comum (Tropidurus torquatus)"
+          }
+        },
+        {
+          "gbifKey": 5220834,
+          "scientificName": "Bothrops neuwiedi",
+          "name": "Jararaca-cruzeira",
+          "family": "Viperidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2606164",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/468614708/large.jpeg",
+            "author": "Henrique Nogueira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/468614708",
+            "width": 1024,
+            "height": 576,
+            "alt": "Jararaca-cruzeira (Bothrops neuwiedi)"
           }
         }
       ]
@@ -883,9 +1054,18 @@
           "name": null,
           "family": "Asteraceae",
           "records": 40,
-          "iucn": null,
+          "iucn": "NT",
           "wikidata": "Q15553140",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/285045884/large.jpeg",
+            "author": "Yoannis Domínguez",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/285045884",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Lychnophora pinaster)"
+          }
         }
       ]
     }
@@ -932,12 +1112,21 @@
     {
       "gbifKey": 3942136,
       "scientificName": "Cipocereus laniflorus",
-      "name": null,
+      "name": "Tuna-azul-lanosa",
       "family": "Cactaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q2669716",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/313305843/large.jpeg",
+        "author": "entreespinhoseferroes",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/313305843",
+        "width": 1024,
+        "height": 680,
+        "alt": "null (Cipocereus laniflorus)"
+      }
     },
     {
       "gbifKey": 2340208,
@@ -972,7 +1161,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -996,7 +1185,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q89002468",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/637074098/large.jpg",
+        "author": "Eduardo Franco",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/637074098",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Eremanthus syncephalus)"
+      }
     },
     {
       "gbifKey": 5789073,
@@ -1063,7 +1261,17 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q7255785",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/375331179/large.jpg",
+        "author": "Luciano Bernardes",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/375331179",
+        "width": 1024,
+        "height": 683,
+        "alt": "Araçá-cagão (Psidium rufum)"
+      }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

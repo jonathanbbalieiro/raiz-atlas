@@ -17,6 +17,7 @@ const IUCN_TONE: Partial<Record<IucnCategory, string>> = {
 type Flagship = { scientificName: string; name: string; why: string; card: SpeciesCard | null; sources: { id: string; institution: string; url: string }[] };
 
 const taxonKey = (name: string) => name.trim().toLowerCase();
+export const speciesHref = (exploreHref: string, scientificName: string) => `${exploreHref}#especie=${encodeURIComponent(scientificName)}`;
 const CARD = "w-60 shrink-0 snap-start overflow-hidden rounded-2xl border border-line bg-card";
 
 /**
@@ -35,14 +36,14 @@ export function SpeciesExplorer({ bio, flagships, exploreHref }: { bio: Biodiver
   return (
     <Carousel label="Espécies do parque" className="-mx-5 mt-4 snap-x snap-mandatory scroll-px-5 gap-3 px-5 pb-1">
       {flagships.map((species) => (
-        <li key={species.scientificName} className={CARD}>
+        <li key={species.scientificName} className={`${CARD} relative`}>
           <div className="relative">
             <SpeciesPhoto photo={species.card?.photo} name={species.name} sizes="240px" />
             <IucnBadge iucn={species.card?.iucn} />
           </div>
           <div className="p-3.5">
             <p className="text-[10px] font-semibold tracking-[0.12em] text-earth uppercase">Destaque</p>
-            <p className="mt-1 font-display text-lg leading-tight font-semibold text-forest-deep">{species.name}</p>
+            <p className="mt-1 font-display text-lg leading-tight font-semibold text-forest-deep">{exploreHref ? <Link href={speciesHref(exploreHref, species.scientificName)} scroll={false} className="after:absolute after:inset-0 hover:underline">{species.name}</Link> : species.name}</p>
             <p className="mt-0.5 text-xs italic text-ink-soft">{species.scientificName}</p>
             <p className="mt-2 text-[13px] leading-relaxed text-ink">{species.why}</p>
             {species.sources.length > 0 && <p className="mt-2 text-[10px] leading-relaxed text-ink-soft">
@@ -53,18 +54,18 @@ export function SpeciesExplorer({ bio, flagships, exploreHref }: { bio: Biodiver
         </li>
       ))}
       {recorded.map((species) => (
-        <li key={species.gbifKey} className={CARD}>
+        <li key={species.gbifKey} className={`${CARD} relative`}>
           <div className="relative">
             <SpeciesPhoto photo={species.photo} name={species.name ?? species.scientificName} sizes="240px" />
             <IucnBadge iucn={species.iucn} />
           </div>
           <div className="p-3.5">
-            <p className="font-display text-lg leading-tight font-semibold text-forest-deep">{species.name ?? species.scientificName}</p>
+            <p className="font-display text-lg leading-tight font-semibold text-forest-deep">{exploreHref ? <Link href={speciesHref(exploreHref, species.scientificName)} scroll={false} className="after:absolute after:inset-0 hover:underline">{species.name ?? species.scientificName}</Link> : (species.name ?? species.scientificName)}</p>
             {species.name && <p className="mt-0.5 text-xs italic text-ink-soft">{species.scientificName}</p>}
             <p className="mt-2 text-[13px] leading-relaxed text-ink-soft">
               {typeof species.records === "number" && species.records > 0
                 ? `Registrada no levantamento: ${species.records} ${species.records === 1 ? "registro" : "registros"} na área consultada.`
-                : "Registrada no levantamento de espécies ameaçadas da área consultada."}
+                : "Registrada no levantamento da área consultada."}
             </p>
             {species.photo && <PhotoCredit photo={species.photo} />}
           </div>
@@ -84,7 +85,7 @@ export function SpeciesExplorer({ bio, flagships, exploreHref }: { bio: Biodiver
   );
 }
 
-function IucnBadge({ iucn }: { iucn?: IucnCategory | null }) {
+export function IucnBadge({ iucn }: { iucn?: IucnCategory | null }) {
   if (!iucn || !IUCN_TONE[iucn]) return null;
   return <span title="Categoria global da Lista Vermelha da IUCN" className={`absolute top-2 left-2 rounded-full px-2 py-0.5 text-[10px] font-semibold ${IUCN_TONE[iucn]}`}>{IUCN_LABEL[iucn]} · IUCN global</span>;
 }

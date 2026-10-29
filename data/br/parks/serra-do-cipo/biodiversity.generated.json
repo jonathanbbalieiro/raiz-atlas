@@ -110,13 +110,13 @@
           "iucn": "LC",
           "wikidata": "Q194930",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Marmosops_incanus_%28cropped%29.jpg",
-            "author": "Ramon Campos",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marmosops_incanus_(cropped).jpg",
-            "width": 390,
-            "height": 455,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/690735301/large.jpg",
+            "author": "Samuel Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/690735301",
+            "width": 1024,
+            "height": 683,
             "alt": "Cuíca-cinza (Marmosops incanus)"
           }
         },
@@ -176,6 +176,82 @@
             "height": 1217,
             "alt": "Morcego-vampiro-comum (Desmodus rotundus)"
           }
+        },
+        {
+          "gbifKey": 2436346,
+          "scientificName": "Myrmecophaga tridactyla",
+          "name": "Tamanduá-bandeira",
+          "family": "Myrmecophagidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q203033",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345917023/large.jpeg",
+            "author": "djcooker",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/345917023",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
+          }
+        },
+        {
+          "gbifKey": 2440799,
+          "scientificName": "Euphractus sexcinctus",
+          "name": "Tatupeba",
+          "family": "Dasypodidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q902876",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284959585/large.jpeg",
+            "author": "Jan Ebr &amp; Ivana Ebrová",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284959585",
+            "width": 1024,
+            "height": 684,
+            "alt": "Tatupeba (Euphractus sexcinctus)"
+          }
+        },
+        {
+          "gbifKey": 5219704,
+          "scientificName": "Cavia aperea",
+          "name": "Preá",
+          "family": "Caviidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q679706",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57093876/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/57093876",
+            "width": 1024,
+            "height": 768,
+            "alt": "preá (Cavia aperea)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/large.jpg",
+            "author": "pfaucher",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9834553",
+            "width": 1024,
+            "height": 683,
+            "alt": "suçuarana (Puma concolor)"
+          }
         }
       ]
     },
@@ -228,7 +304,7 @@
           "name": "Periquito-rei",
           "family": "Psittacidae",
           "records": 204,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q775485",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
@@ -334,6 +410,158 @@
             "width": 1280,
             "height": 853,
             "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2488060,
+          "scientificName": "Schistochlamys ruficapillus",
+          "name": "Bico-de-veludo",
+          "family": "Thraupidae",
+          "records": 164,
+          "iucn": "LC",
+          "wikidata": "Q2668144",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/578891764/large.jpg",
+            "author": "Miguel A. Paixão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/578891764",
+            "width": 1024,
+            "height": 575,
+            "alt": "Bico-de-veludo (Schistochlamys ruficapillus)"
+          }
+        },
+        {
+          "gbifKey": 2491862,
+          "scientificName": "Sicalis flaveola",
+          "name": "Canário-da-terra-verdadeiro",
+          "family": "Thraupidae",
+          "records": 150,
+          "iucn": "LC",
+          "wikidata": "Q1064372",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263906744/large.jpg",
+            "author": "Gabriel Brachetti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/263906744",
+            "width": 1024,
+            "height": 698,
+            "alt": "canário-da-terra-verdadeiro (Sicalis flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 147,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 2488622,
+          "scientificName": "Thraupis sayaca",
+          "name": "Sanhaço-cinzento",
+          "family": "Thraupidae",
+          "records": 146,
+          "iucn": "LC",
+          "wikidata": "Q1588073",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9892758/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9892758",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaço-cinzento (Thraupis sayaca)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 142,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/416376009",
+            "width": 1024,
+            "height": 684,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
+        },
+        {
+          "gbifKey": 2483511,
+          "scientificName": "Camptostoma obsoletum",
+          "name": "Risadinha",
+          "family": "Tyrannidae",
+          "records": 137,
+          "iucn": "LC",
+          "wikidata": "Q857875",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747236249/large.jpg",
+            "author": "Ad Konings",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/747236249",
+            "width": 1024,
+            "height": 730,
+            "alt": "Risadinha (Camptostoma obsoletum)"
+          }
+        },
+        {
+          "gbifKey": 2485821,
+          "scientificName": "Furnarius rufus",
+          "name": "João-de-barro",
+          "family": "Furnariidae",
+          "records": 131,
+          "iucn": "LC",
+          "wikidata": "Q852731",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27783973/large.jpeg",
+            "author": "Nelson Wisnik",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/27783973",
+            "width": 1024,
+            "height": 768,
+            "alt": "João-de-barro (Furnarius rufus)"
+          }
+        },
+        {
+          "gbifKey": 2482736,
+          "scientificName": "Xolmis velatus",
+          "name": "Pombinha-das-almas",
+          "family": "Tyrannidae",
+          "records": 130,
+          "iucn": "LC",
+          "wikidata": "Q1274244",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/224324821/large.jpg",
+            "author": "lappuggla",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/224324821",
+            "width": 1024,
+            "height": 683,
+            "alt": "Pombinha-das-almas (Xolmis velatus)"
           }
         }
       ]
@@ -455,6 +683,25 @@
             "width": 1280,
             "height": 722,
             "alt": "Papa-vento (Polychrus acutirostris)"
+          }
+        },
+        {
+          "gbifKey": 2464899,
+          "scientificName": "Boa constrictor",
+          "name": "Jiboia-constritora",
+          "family": "Boidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q215388",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591372805/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/591372805",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-constritora (Boa constrictor)"
           }
         }
       ]
@@ -769,7 +1016,7 @@
           "name": "Pau Terra",
           "family": "Vochysiaceae",
           "records": 25,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15336649",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flickr_-_BioDivLibrary_-_n81_w1150.jpg/1280px-Flickr_-_BioDivLibrary_-_n81_w1150.jpg",
@@ -880,7 +1127,7 @@
         {
           "gbifKey": 5418067,
           "scientificName": "Eugenia punicifolia",
-          "name": null,
+          "name": "Pitanguinha-da-mata",
           "family": "Myrtaceae",
           "records": 27,
           "iucn": "LC",
@@ -903,12 +1150,21 @@
     {
       "gbifKey": 2863602,
       "scientificName": "Vellozia gigantea",
-      "name": null,
+      "name": "Canela D'ema Gigante",
       "family": "Velloziaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q10389605",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/460228217/large.jpeg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/460228217",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Vellozia gigantea)"
+      }
     },
     {
       "gbifKey": 7885116,
@@ -918,7 +1174,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q91437663",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449043535/large.jpg",
+        "author": "AJDeberdt, alguns direitos reservados (CC BY-NC), carregado por AJDeberdt",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/449043535",
+        "width": 1024,
+        "height": 683,
+        "alt": "Lychnophora rupestris (Lychnophora rupestris)"
+      }
     },
     {
       "gbifKey": 2706096,
@@ -947,7 +1212,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15332650",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/574217092/large.jpg",
+        "author": "Gustavo Shimizu",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/574217092",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Vochysia rotundifolia)"
+      }
     },
     {
       "gbifKey": 7284845,
@@ -976,7 +1250,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q93961618",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/657930529/large.jpg",
+        "author": "Eduardo Franco",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/657930529",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Lychnocephalus sellovii)"
+      }
     },
     {
       "gbifKey": 2970211,
@@ -996,7 +1279,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q5313707",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256798408/large.jpeg",
+        "author": "a_f_r",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/256798408",
+        "width": 1024,
+        "height": 683,
+        "alt": "Largatinho-do-cipó (Placosoma cipoense)"
+      }
     },
     {
       "gbifKey": 5285917,
@@ -1035,7 +1327,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q38757290",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/298875424/large.jpeg",
+        "author": "Joey Santore",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/298875424",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Lychnophora damazioi)"
+      }
     },
     {
       "gbifKey": 5789073,
@@ -1056,5 +1357,6 @@
         "alt": "macuquinho-da-várzea (Scytalopus iraiensis)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

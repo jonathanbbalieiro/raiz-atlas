@@ -53,13 +53,13 @@
           "iucn": "LC",
           "wikidata": "Q838812",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Rough_toothed_dolphin.jpg",
-            "author": "Autor desconhecido",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rough_toothed_dolphin.jpg",
-            "width": 370,
-            "height": 242,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/368901016/large.jpeg",
+            "author": "Fábio Olmos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/368901016",
+            "width": 1024,
+            "height": 683,
             "alt": "Golfinho-de-dentes-rugosos (Steno bredanensis)"
           }
         }
@@ -221,6 +221,158 @@
             "height": 960,
             "alt": "Bobo-pequeno (Puffinus puffinus)"
           }
+        },
+        {
+          "gbifKey": 9752617,
+          "scientificName": "Ardea alba",
+          "name": "Garça-branca-grande",
+          "family": "Ardeidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q130730",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/123196245/large.jpg",
+            "author": "Shiva Shenoy",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/123196245",
+            "width": 1024,
+            "height": 819,
+            "alt": "Garça-branca-grande (Ardea alba)"
+          }
+        },
+        {
+          "gbifKey": 2480972,
+          "scientificName": "Sula sula",
+          "name": "Atobá-de-pé-vermelho",
+          "family": "Sulidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q217122",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/113737626/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/113737626",
+            "width": 1024,
+            "height": 896,
+            "alt": "atobá-de-pé-vermelho (Sula sula)"
+          }
+        },
+        {
+          "gbifKey": 5229146,
+          "scientificName": "Vanellus chilensis",
+          "name": "Quero-quero",
+          "family": "Charadriidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q855348",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473406155/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473406155",
+            "width": 1024,
+            "height": 683,
+            "alt": "Quero-quero (Vanellus chilensis)"
+          }
+        },
+        {
+          "gbifKey": 5229231,
+          "scientificName": "Sterna hirundinacea",
+          "name": "Trinta-réis-de-bico-vermelho",
+          "family": "Laridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q1260013",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/613265003/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/613265003",
+            "width": 1024,
+            "height": 660,
+            "alt": "Trinta-réis-de-bico-vermelho (Sterna hirundinacea)"
+          }
+        },
+        {
+          "gbifKey": 2480790,
+          "scientificName": "Theristicus caudatus",
+          "name": "Curicaca",
+          "family": "Threskiornithidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q574693",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620383320/large.jpg",
+            "author": "Gonzalo Romero",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/620383320",
+            "width": 1024,
+            "height": 714,
+            "alt": "curicaca (Theristicus caudatus)"
+          }
+        },
+        {
+          "gbifKey": 2480989,
+          "scientificName": "Caracara plancus",
+          "name": "Carcará",
+          "family": "Falconidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q755119",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350512706/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/350512706",
+            "width": 1024,
+            "height": 682,
+            "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2481399,
+          "scientificName": "Thalassarche chlororhynchos",
+          "name": "Albatroz-de-bico-amarelo-do-atlântico",
+          "family": "Diomedeidae",
+          "records": 2,
+          "iucn": "EN",
+          "wikidata": "Q1146629",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104274/large.jpg",
+            "author": "Brian Gratwicke",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/104274",
+            "width": 1024,
+            "height": 683,
+            "alt": "Albatroz-de-bico-amarelo-do-atlântico (Thalassarche chlororhynchos)"
+          }
+        },
+        {
+          "gbifKey": 2480873,
+          "scientificName": "Egretta thula",
+          "name": "Garça-branca-pequena",
+          "family": "Ardeidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q59785",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2415216/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2415216",
+            "width": 1024,
+            "height": 682,
+            "alt": "Garça-branca-pequena (Egretta thula)"
+          }
         }
       ]
     },
@@ -308,12 +460,21 @@
         {
           "gbifKey": 8841716,
           "scientificName": "Eretmochelys imbricata",
-          "name": null,
+          "name": "Tartaruga-de-pente",
           "family": "Cheloniidae",
           "records": 18,
           "iucn": "CR",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1375632/large.JPG",
+            "author": "Iván Cumpián",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1375632",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Eretmochelys imbricata)"
+          }
         }
       ]
     },
@@ -449,7 +610,7 @@
           "name": null,
           "family": "Talinaceae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q3276822",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Talinum_crassifolium_2.jpg",
@@ -465,7 +626,7 @@
         {
           "gbifKey": 3084883,
           "scientificName": "Sesuvium portulacastrum",
-          "name": null,
+          "name": "Beldroega-da-praia",
           "family": "Aizoaceae",
           "records": 2,
           "iucn": "LC",
@@ -489,7 +650,16 @@
           "records": 3,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/310938194/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/310938194",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Taquara micrantha)"
+          }
         }
       ]
     }
@@ -579,7 +749,16 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q5564172",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/708364776/large.jpg",
+        "author": "Gabriel Victorino",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/708364776",
+        "width": 1024,
+        "height": 626,
+        "alt": "null (Malacoctenus brunoi)"
+      }
     },
     {
       "gbifKey": 2265087,
@@ -622,12 +801,21 @@
     {
       "gbifKey": 8841716,
       "scientificName": "Eretmochelys imbricata",
-      "name": null,
+      "name": "Tartaruga-de-pente",
       "family": "Cheloniidae",
       "records": null,
       "iucn": "CR",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1375632/large.JPG",
+        "author": "Iván Cumpián",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/1375632",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Eretmochelys imbricata)"
+      }
     },
     {
       "gbifKey": 2260507,
@@ -656,17 +844,35 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q1864899",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252984859/large.jpeg",
+        "author": "S Ribeiro",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/252984859",
+        "width": 1024,
+        "height": 576,
+        "alt": "null (Millepora braziliensis)"
+      }
     },
     {
       "gbifKey": 2393679,
       "scientificName": "Scarus trispinosus",
-      "name": null,
+      "name": "Peixe-papagaio-azul-brasileiro",
       "family": "Scaridae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q2843760",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/234716030/large.jpg",
+        "author": "João D'Andretta",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/234716030",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Scarus trispinosus)"
+      }
     },
     {
       "gbifKey": 2260320,
@@ -686,6 +892,26 @@
         "height": 1115,
         "alt": "coral-couve-flor (Mussismilia harttii)"
       }
+    },
+    {
+      "gbifKey": 2481399,
+      "scientificName": "Thalassarche chlororhynchos",
+      "name": "Albatroz-de-bico-amarelo-do-atlântico",
+      "family": "Diomedeidae",
+      "records": 2,
+      "iucn": "EN",
+      "wikidata": "Q1146629",
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/104274/large.jpg",
+        "author": "Brian Gratwicke",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/104274",
+        "width": 1024,
+        "height": 683,
+        "alt": "Albatroz-de-bico-amarelo-do-atlântico (Thalassarche chlororhynchos)"
+      }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

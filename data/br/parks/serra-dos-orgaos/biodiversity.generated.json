@@ -91,13 +91,13 @@
           "iucn": "LC",
           "wikidata": "Q194930",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Marmosops_incanus_%28cropped%29.jpg",
-            "author": "Ramon Campos",
-            "license": "CC BY-SA 4.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marmosops_incanus_(cropped).jpg",
-            "width": 390,
-            "height": 455,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/690735301/large.jpg",
+            "author": "Samuel Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/690735301",
+            "width": 1024,
+            "height": 683,
             "alt": "Cuíca-cinza (Marmosops incanus)"
           }
         },
@@ -175,6 +175,82 @@
             "width": 1280,
             "height": 772,
             "alt": "Tatu-galinha (Dasypus novemcinctus)"
+          }
+        },
+        {
+          "gbifKey": 2433716,
+          "scientificName": "Eira barbara",
+          "name": "Irara",
+          "family": "Mustelidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q247774",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/151904110/large.jpeg",
+            "author": "Patricio Cowper Coles",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/151904110",
+            "width": 1024,
+            "height": 768,
+            "alt": "Irara (Eira barbara)"
+          }
+        },
+        {
+          "gbifKey": 2436353,
+          "scientificName": "Bradypus variegatus",
+          "name": "Preguiça-comum",
+          "family": "Bradypodidae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q148752",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89053400/large.jpeg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/89053400",
+            "width": 1024,
+            "height": 718,
+            "alt": "Preguiça-comum (Bradypus variegatus)"
+          }
+        },
+        {
+          "gbifKey": 9686324,
+          "scientificName": "Metachirus nudicaudatus",
+          "name": "Cuíca-cauda-de-rato",
+          "family": "Didelphidae",
+          "records": 33,
+          "iucn": "LC",
+          "wikidata": "Q367378",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/382926271/large.jpeg",
+            "author": "Vincent Rufray",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/382926271",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cuíca-cauda-de-rato (Metachirus nudicaudatus)"
+          }
+        },
+        {
+          "gbifKey": 2434584,
+          "scientificName": "Cerdocyon thous",
+          "name": "Guaraxaim",
+          "family": "Canidae",
+          "records": 23,
+          "iucn": "LC",
+          "wikidata": "Q321376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444962719/large.jpeg",
+            "author": "David F. Belmonte",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444962719",
+            "width": 1024,
+            "height": 711,
+            "alt": "Guaraxaim (Cerdocyon thous)"
           }
         }
       ]
@@ -335,6 +411,158 @@
             "height": 1742,
             "alt": "bem-te-vi (Pitangus sulphuratus)"
           }
+        },
+        {
+          "gbifKey": 2476548,
+          "scientificName": "Thalurania glaucopis",
+          "name": "Beija-flor-de-fronte-violeta",
+          "family": "Trochilidae",
+          "records": 292,
+          "iucn": "LC",
+          "wikidata": "Q941515",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/685516059/large.jpg",
+            "author": "Wout Dutoit",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/685516059",
+            "width": 1024,
+            "height": 683,
+            "alt": "beija-flor-de-fronte-violeta (Thalurania glaucopis)"
+          }
+        },
+        {
+          "gbifKey": 2488590,
+          "scientificName": "Tachyphonus coronatus",
+          "name": "Tiê-preto",
+          "family": "Thraupidae",
+          "records": 290,
+          "iucn": "LC",
+          "wikidata": "Q948674",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/293467117/large.jpeg",
+            "author": "Laura Veronica Bianchi",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/293467117",
+            "width": 1024,
+            "height": 768,
+            "alt": "tiê-preto (Tachyphonus coronatus)"
+          }
+        },
+        {
+          "gbifKey": 7342122,
+          "scientificName": "Turdus flavipes",
+          "name": "Sabiaúna",
+          "family": "Turdidae",
+          "records": 260,
+          "iucn": "LC",
+          "wikidata": "Q541001",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/276384930/large.jpeg",
+            "author": "Júlio Castellain",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/276384930",
+            "width": 1024,
+            "height": 768,
+            "alt": "Sabiaúna (Turdus flavipes)"
+          }
+        },
+        {
+          "gbifKey": 2488778,
+          "scientificName": "Trichothraupis melanops",
+          "name": "Tiê-de-topete",
+          "family": "Thraupidae",
+          "records": 319,
+          "iucn": "LC",
+          "wikidata": "Q1589845",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27445973/large.jpg",
+            "author": "João Paulo Rosa",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/27445973",
+            "width": 1024,
+            "height": 644,
+            "alt": "tiê-de-topete (Trichothraupis melanops)"
+          }
+        },
+        {
+          "gbifKey": 2488601,
+          "scientificName": "Thraupis ornata",
+          "name": "Sanhaço-rei",
+          "family": "Thraupidae",
+          "records": 302,
+          "iucn": "LC",
+          "wikidata": "Q1588033",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/49947/large.jpg",
+            "author": "Dario Sanches",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/49947",
+            "width": 1024,
+            "height": 779,
+            "alt": "Sanhaço-rei (Thraupis ornata)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 281,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2490033,
+          "scientificName": "Dysithamnus mentalis",
+          "name": "Choquinha-lisa",
+          "family": "Thamnophilidae",
+          "records": 265,
+          "iucn": "LC",
+          "wikidata": "Q903045",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/278394308/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/278394308",
+            "width": 1024,
+            "height": 684,
+            "alt": "choquinha-lisa (Dysithamnus mentalis)"
+          }
+        },
+        {
+          "gbifKey": 5230128,
+          "scientificName": "Xiphorhynchus fuscus",
+          "name": "Arapaçu-rajado",
+          "family": "Furnariidae",
+          "records": 264,
+          "iucn": "LC",
+          "wikidata": "Q910301",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/359130874/large.jpg",
+            "author": "Claudio Martins de Souza",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/359130874",
+            "width": 1024,
+            "height": 683,
+            "alt": "arapaçu-rajado (Xiphorhynchus fuscus)"
+          }
         }
       ]
     },
@@ -409,13 +637,13 @@
           "iucn": "LC",
           "wikidata": "Q289823",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Leptodeira_annulata01.jpg",
-            "author": "Andreas Schlüter",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodeira_annulata01.jpg",
-            "width": 473,
-            "height": 770,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498891317/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/498891317",
+            "width": 1024,
+            "height": 768,
             "alt": "Serpente-olho-de-gato-anelada (Leptodeira annulata)"
           }
         },
@@ -577,6 +805,25 @@
             "height": 456,
             "alt": "Ischnocnema parva"
           }
+        },
+        {
+          "gbifKey": 5217423,
+          "scientificName": "Brachycephalus didactylus",
+          "name": "Sapo-pulga",
+          "family": "Brachycephalidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q2700345",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64511256/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/64511256",
+            "width": 1024,
+            "height": 768,
+            "alt": "Sapo-pulga (Brachycephalus didactylus)"
+          }
         }
       ]
     },
@@ -626,7 +873,7 @@
         {
           "gbifKey": 10375186,
           "scientificName": "Callicore hydaspes",
-          "name": null,
+          "name": "Borboleta-pequena-callicore",
           "family": "Nymphalidae",
           "records": 5,
           "iucn": null,
@@ -728,7 +975,7 @@
         {
           "gbifKey": 2910821,
           "scientificName": "Psychotria leiocarpa",
-          "name": null,
+          "name": "Cafeeiro-do-mato",
           "family": "Rubiaceae",
           "records": 48,
           "iucn": null,
@@ -766,7 +1013,7 @@
         {
           "gbifKey": 3185702,
           "scientificName": "Myrceugenia myrcioides",
-          "name": null,
+          "name": "Araçarana",
           "family": "Myrtaceae",
           "records": 47,
           "iucn": "NT",
@@ -785,7 +1032,7 @@
         {
           "gbifKey": 2923315,
           "scientificName": "Psychotria suterella",
-          "name": null,
+          "name": "Cafezinho-roxo-do-mato",
           "family": "Rubiaceae",
           "records": 41,
           "iucn": null,
@@ -840,16 +1087,6 @@
           }
         },
         {
-          "gbifKey": 3861934,
-          "scientificName": "Meriania paniculata",
-          "name": null,
-          "family": "Melastomataceae",
-          "records": 88,
-          "iucn": "NT",
-          "wikidata": "Q17585737",
-          "photo": null
-        },
-        {
           "gbifKey": 7303416,
           "scientificName": "Begonia fruticosa",
           "name": null,
@@ -857,7 +1094,16 @@
           "records": 64,
           "iucn": null,
           "wikidata": "Q15330382",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/675723811/large.jpg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/675723811",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Begonia fruticosa)"
+          }
         },
         {
           "gbifKey": 10711122,
@@ -867,7 +1113,16 @@
           "records": 58,
           "iucn": null,
           "wikidata": "Q89175367",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/356574418/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/356574418",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Miconia sublanata)"
+          }
         }
       ]
     }
@@ -910,7 +1165,16 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q15357758",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/287065500/large.jpeg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/287065500",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Eugenia brevistyla)"
+      }
     },
     {
       "gbifKey": 3175434,
@@ -997,7 +1261,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15375312",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/484506086/large.jpeg",
+        "author": "Victor Hugo Rebecchi Siqueira",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/484506086",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Myrcia laxiflora)"
+      }
     },
     {
       "gbifKey": 5620092,
@@ -1040,12 +1313,22 @@
     {
       "gbifKey": 8827576,
       "scientificName": "Callithrix aurita",
-      "name": null,
+      "name": "Sagui-da-serra-escuro",
       "family": "Callitrichidae",
       "records": null,
       "iucn": "EN",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/86166813/large.jpeg",
+        "author": "Larissa Vaccarini Ávila",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/86166813",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Callithrix aurita)"
+      }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

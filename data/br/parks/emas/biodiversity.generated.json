@@ -91,13 +91,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -176,6 +176,82 @@
             "height": 1012,
             "alt": "Tatupeba (Euphractus sexcinctus)"
           }
+        },
+        {
+          "gbifKey": 2436346,
+          "scientificName": "Myrmecophaga tridactyla",
+          "name": "Tamanduá-bandeira",
+          "family": "Myrmecophagidae",
+          "records": 15,
+          "iucn": "VU",
+          "wikidata": "Q203033",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345917023/large.jpeg",
+            "author": "djcooker",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/345917023",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
+          }
+        },
+        {
+          "gbifKey": 2440776,
+          "scientificName": "Dasypus septemcinctus",
+          "name": "Tatu-galinha-pequeno",
+          "family": "Dasypodidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q1761577",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/576665055/large.jpg",
+            "author": "Enéas V. Gouvêa Junior",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/576665055",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tatu-galinha-pequeno (Dasypus septemcinctus)"
+          }
+        },
+        {
+          "gbifKey": 2440963,
+          "scientificName": "Blastocerus dichotomus",
+          "name": "Cervo-do-pantanal",
+          "family": "Cervidae",
+          "records": 11,
+          "iucn": "VU",
+          "wikidata": "Q504501",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/597676814/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/597676814",
+            "width": 1024,
+            "height": 768,
+            "alt": "cervo-do-pantanal (Blastocerus dichotomus)"
+          }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
+          }
         }
       ]
     },
@@ -209,7 +285,7 @@
           "name": "Periquito-rei",
           "family": "Psittacidae",
           "records": 505,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q775485",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
@@ -250,14 +326,14 @@
           "iucn": "LC",
           "wikidata": "Q1433700",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cyanocorax_cristatellus%28m%29P5051282.JPG",
-            "author": "Ave watcher at English Wikipedia",
-            "license": "CC BY 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyanocorax_cristatellus(m)P5051282.JPG",
-            "width": 250,
-            "height": 252,
-            "alt": "gralha-do-campo (Cyanocorax cristatellus)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312055694/large.jpeg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/312055694",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gralha-do-campo (Cyanocorax cristatellus)"
           }
         },
         {
@@ -326,14 +402,166 @@
           "iucn": "LC",
           "wikidata": "Q1274244",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/NOIVINHA-BRANCA_%28Xolmis_velatus%29.jpg",
-            "author": "Dario Sanches from SÃO PAULO, BRASIL",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:NOIVINHA-BRANCA_(Xolmis_velatus).jpg",
-            "width": 417,
-            "height": 471,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/558044855/large.jpg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/558044855",
+            "width": 1024,
+            "height": 768,
             "alt": "Pombinha-das-almas (Xolmis velatus)"
+          }
+        },
+        {
+          "gbifKey": 2491741,
+          "scientificName": "Volatinia jacarina",
+          "name": "Tiziu",
+          "family": "Thraupidae",
+          "records": 371,
+          "iucn": "LC",
+          "wikidata": "Q1099397",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10093264/large.jpeg",
+            "author": "Oscar Alejandro Morales Juárez",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10093264",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tiziu (Volatinia jacarina)"
+          }
+        },
+        {
+          "gbifKey": 2495165,
+          "scientificName": "Rhea americana",
+          "name": "Ema",
+          "family": "Rheidae",
+          "records": 363,
+          "iucn": "NT",
+          "wikidata": "Q192044",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67921206/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/67921206",
+            "width": 1024,
+            "height": 860,
+            "alt": "Ema (Rhea americana)"
+          }
+        },
+        {
+          "gbifKey": 5231675,
+          "scientificName": "Mimus saturninus",
+          "name": "Sabiá-do-campo",
+          "family": "Mimidae",
+          "records": 350,
+          "iucn": "LC",
+          "wikidata": "Q1591533",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/666019431/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/666019431",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sabiá-do-campo (Mimus saturninus)"
+          }
+        },
+        {
+          "gbifKey": 2480655,
+          "scientificName": "Buteogallus meridionalis",
+          "name": "Gavião-caboclo",
+          "family": "Accipitridae",
+          "records": 348,
+          "iucn": "LC",
+          "wikidata": "Q600791",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/681989519/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/681989519",
+            "width": 1024,
+            "height": 683,
+            "alt": "Gavião-caboclo (Buteogallus meridionalis)"
+          }
+        },
+        {
+          "gbifKey": 2497240,
+          "scientificName": "Athene cunicularia",
+          "name": "Coruja-buraqueira",
+          "family": "Strigidae",
+          "records": 393,
+          "iucn": "LC",
+          "wikidata": "Q467068",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/105784586/large.jpeg",
+            "author": "Bill Levine",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/105784586",
+            "width": 1024,
+            "height": 683,
+            "alt": "Coruja-buraqueira (Athene cunicularia)"
+          }
+        },
+        {
+          "gbifKey": 2478233,
+          "scientificName": "Colaptes campestris",
+          "name": "Pica-pau-do-campo",
+          "family": "Picidae",
+          "records": 389,
+          "iucn": "LC",
+          "wikidata": "Q1274176",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26374853/large.jpeg",
+            "author": "joelsilvero",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/26374853",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pica-pau-do-campo (Colaptes campestris)"
+          }
+        },
+        {
+          "gbifKey": 2478765,
+          "scientificName": "Ramphastos toco",
+          "name": "Tucano-toco",
+          "family": "Ramphastidae",
+          "records": 364,
+          "iucn": "LC",
+          "wikidata": "Q376038",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63281117/large.jpg",
+            "author": "Paul Steeves",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/63281117",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tucano-toco (Ramphastos toco)"
+          }
+        },
+        {
+          "gbifKey": 2491303,
+          "scientificName": "Ammodramus humeralis",
+          "name": "Tico-tico-do-campo",
+          "family": "Passerellidae",
+          "records": 349,
+          "iucn": "LC",
+          "wikidata": "Q3314713",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/68180/large.jpg",
+            "author": "Cláudio Dias Timm",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/68180",
+            "width": 1024,
+            "height": 749,
+            "alt": "Tico-tico-do-campo (Ammodramus humeralis)"
           }
         }
       ]
@@ -456,6 +684,44 @@
             "height": 942,
             "alt": "Caiçaca (Bothrops moojeni)"
           }
+        },
+        {
+          "gbifKey": 9533689,
+          "scientificName": "Chelonoidis carbonarius",
+          "name": "Jabuti-piranga",
+          "family": "Testudinidae",
+          "records": 8,
+          "iucn": null,
+          "wikidata": "Q277794",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141437146/large.jpeg",
+            "author": "Andrés Ramírez-Barrera",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/141437146",
+            "width": 1024,
+            "height": 683,
+            "alt": "jabuti-piranga (Chelonoidis carbonarius)"
+          }
+        },
+        {
+          "gbifKey": 5225712,
+          "scientificName": "Eunectes murinus",
+          "name": "Sucuri-verde",
+          "family": "Boidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q207347",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160176914/large.jpeg",
+            "author": "Fábio Olmos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/160176914",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sucuri-verde (Eunectes murinus)"
+          }
         }
       ]
     },
@@ -576,6 +842,25 @@
             "width": 570,
             "height": 376,
             "alt": "Rã-assobiadora (Leptodactylus fuscus)"
+          }
+        },
+        {
+          "gbifKey": 2423528,
+          "scientificName": "Physalaemus nattereri",
+          "name": "Rã-quatro-olhos",
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q27914557",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/459436526/large.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/459436526",
+            "width": 1024,
+            "height": 798,
+            "alt": "Rã-quatro-olhos (Physalaemus nattereri)"
           }
         }
       ]
@@ -788,7 +1073,7 @@
           "name": "Erva-d'água",
           "family": "Rubiaceae",
           "records": 10,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15483244",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Palicourea_crocea_in_the_Argentina-Brazil_border.jpg/960px-Palicourea_crocea_in_the_Argentina-Brazil_border.jpg",
@@ -894,6 +1179,44 @@
             "width": 960,
             "height": 720,
             "alt": "Mimosa foliolosa"
+          }
+        },
+        {
+          "gbifKey": 5294777,
+          "scientificName": "Mauritia flexuosa",
+          "name": "Buriti",
+          "family": "Arecaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q1016320",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8263767/large.jpeg",
+            "author": "Carlos Ruiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/8263767",
+            "width": 1024,
+            "height": 768,
+            "alt": "Buriti (Mauritia flexuosa)"
+          }
+        },
+        {
+          "gbifKey": 3169679,
+          "scientificName": "Hancornia speciosa",
+          "name": "Mangaba",
+          "family": "Apocynaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q3894762",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/346696237/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/346696237",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mangaba (Hancornia speciosa)"
           }
         }
       ]
@@ -1042,13 +1365,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -1061,13 +1384,13 @@
       "iucn": "VU",
       "wikidata": "Q1262693",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/6/63/Nothura_minor.jpg",
-        "author": "Autor desconhecido",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nothura_minor.jpg",
-        "width": 171,
-        "height": 251,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176299395/large.jpeg",
+        "author": "Luiz Alberto Santos",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/176299395",
+        "width": 1024,
+        "height": 709,
         "alt": "Codorna-mineira (Nothura minor)"
       }
     },
@@ -1128,5 +1451,6 @@
         "alt": "queixada (Tayassu pecari)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

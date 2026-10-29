@@ -18,9 +18,7 @@ Fluxo recomendado:
    `npm run approve -- expedition <slug>` (ou `--all` quando um lote inteiro for aprovado).
 3. **Deploy de produção** sem `RAIZ_PREVIEW_DRAFTS`: só o aprovado aparece.
 
-Prioridade de revisão humana (maior risco): textos sobre povos indígenas e comunidades tradicionais
-(Pico da Neblina, Monte Pascoal, Monte Roraima, Amazônia, Catimbau, Araguaia, Descobrimento, Cabo
-Orange, Sempre-Vivas, Rio Tanaru), fatos legais recentes (Sete Cidades, Jamanxim, Ilha Grande) e
+Prioridade de revisão humana (maior risco): fatos legais recentes (Sete Cidades, Jamanxim, Ilha Grande) e
 números de áreas.
 
 ## 2. Hospedagem
@@ -84,7 +82,6 @@ selo de Brasil) e, se quiser proteger a marca, `raizatlas.app` apontando para el
 
 - [ ] `npm run build` limpo (já roda a validação de conteúdo antes).
 - [ ] Guias e Expedições aprovados por revisão humana (ou assumido que só o mapa vai ao ar).
-- [ ] Revisão por lideranças e pela Funai dos textos sobre povos indígenas.
 - [ ] **Licenças das fotos:** todas têm autor e licença visíveis. Cerca de 30 fotos são **CC BY-NC**
       (uso não comercial). Se o site tiver anúncio, patrocínio, venda ou for de empresa, troque-as ou
       peça licença ao autor; use `grep -l "BY-NC" data -r` para listá-las.

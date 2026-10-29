@@ -82,6 +82,17 @@ npm run context -- <slug>       # entorno: UCs, terras indígenas, quilombos (do
 npm run occurrences -- <slug>   # grade de registros por espécie para o mapa (docs/MAPA.md)
 ```
 
+npm run species-index           # índice "também registrada em" + valida/publica data/br/species-profiles.json
+node scripts/fill-iucn.mjs [--apply]   # completa a categoria IUCN pelo GBIF (cache em .geo-cache/iucn-fill.json)
+node scripts/flickr-geo-candidates.mjs <parque...> --out .geo-cache/flickr-geo   # candidatas de foto por coordenada
+
+Perfis das espécies (29/10/2026): `data/br/species-profiles.json` (110 das 156 espécies-símbolo; resumo, hábitos,
+história, curiosidades e fontes; Wikipédia proibida). Aparecem na página da espécie. Faltam 46 (sem segunda fonte
+legível). Cartões de fauna e flora levam à espécie por `/biodiversidade#especie=<nome científico>`. O filtro
+"Ameaçadas" e os selos usam a categoria IUCN (CR/EN/VU), não a lista `threatened`. Mundo perdido tem o tipo
+`recolonizada` ("Voltou sozinha"). Maravilha sem foto reaproveita foto da galeria cuja legenda cite o lugar.
+Decisão de 29/10: a revisão por povos indígenas/Funai não é mais pendência do projeto.
+
 Mapa que acompanha a leitura (maravilhas numeradas, registros da espécie, entorno, Expedição):
 piloto só na Chapada dos Veadeiros, em 27/10/2026. Formato, fontes e passos para expandir em
 `docs/MAPA.md`.
@@ -110,7 +121,7 @@ Detalhe em `docs/GUIA_EDITORIAL.md`.
 7. Texto sem markdown: o `ExpeditionView` não renderiza `*itálico*`.
 8. Correções pontuais já pedidas: Guaricana ("descoberta de novas espécies", "água para o litoral e
    a capital", decreto de 23/03/2006, zona de amortecimento); Canastra reescrita; Sempre-Vivas
-   escrita para encantar; Monte Pascoal sem contradições nem seção "Revisão com os Pataxó".
+   escrita para encantar; Monte Pascoal sem contradições.
 
 ## 6. Regras de fotos
 
@@ -186,17 +197,15 @@ detalhe, segurança, contato e ícone"*, no branch `feat/blend-raiz-expedicoes`.
    há fim comercial) e `raizatlas.com.br` no Registro.br (cerca de R$ 40/ano; livre na consulta
    RDAP de 22/10, confirmar). Opcional: `raizatlas.app` redirecionando. Passo a passo em
    `docs/PUBLICACAO.md`; variável obrigatória `NEXT_PUBLIC_SITE_URL`.
-2. ~76 maravilhas sem foto e as galerias de cerca de 10 parques vazias (Acari, Albardão, Campos
-   Ferruginosos, Serra da Mocidade, Serra das Lontras, Nascentes do Rio Parnaíba, Jari, Tanaru…):
-   o Commons não tem foto livre com prova de lugar. Não usar foto genérica.
+2. 70 maravilhas sem foto e 15 parques com galeria vazia ou com menos de 3 fotos (Acari, Albardão, Boqueirão da Onça,
+   Campos Amazônicos, Campos Ferruginosos, Jamanxim, Tumucumaque, Jari, Parnaíba, Pacaás Novos, Pau-Brasil, Tanaru,
+   Serra da Cutia, Serra da Mocidade, Serra das Lontras): Commons, iNaturalist e Flickr esgotados; depende de fotos
+   fornecidas pelo Jonathan (com autor e licença). Não usar foto genérica.
 3. Foto fraca do **inhambu-carapé**; conferir no navegador as outras espécies trocadas.
 4. Terminar `node scripts/warm-thumbs.mjs`.
-5. Revisão posterior, pela Funai e pelas comunidades, dos textos sobre povos indígenas (Pico da
-   Neblina, Monte Pascoal, Monte Roraima, Amazônia, Catimbau, Araguaia, Descobrimento/Maturembá,
-   Cabo Orange, Sempre-Vivas, Rio Tanaru).
-6. Fatos legais a reconferir: ampliação de Sete Cidades (Decreto 13.115/2026, ~13.502 ha), Jamanxim
+5. Fatos legais a reconferir: ampliação de Sete Cidades (Decreto 13.115/2026, ~13.502 ha), Jamanxim
    (informativo STF 1218, 862 ha) e a situação jurídica de Ilha Grande.
-7. Depois do ar: Search Console + sitemap, Bing, Lighthouse e securityheaders.com, 2FA no GitHub,
+6. Depois do ar: Search Console + sitemap, Bing, Lighthouse e securityheaders.com, 2FA no GitHub,
    na Vercel e no Registro.br, DNSSEC.
 
 ## 11. Ambiente e hábitos

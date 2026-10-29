@@ -34,13 +34,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -175,6 +175,44 @@
             "width": 652,
             "height": 457,
             "alt": "Gambá-comum (Didelphis marsupialis)"
+          }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
+          }
+        },
+        {
+          "gbifKey": 2436340,
+          "scientificName": "Tamandua tetradactyla",
+          "name": "Tamanduá-mirim",
+          "family": "Myrmecophagidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q267514",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10425251/large.jpg",
+            "author": "Instituto Últimos Refúgios",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10425251",
+            "width": 1024,
+            "height": 685,
+            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
           }
         }
       ]
@@ -335,6 +373,139 @@
             "height": 638,
             "alt": "arapaçu-elegante (Xiphorhynchus elegans)"
           }
+        },
+        {
+          "gbifKey": 2475187,
+          "scientificName": "Monasa nigrifrons",
+          "name": "Chora-chuva-preto",
+          "family": "Bucconidae",
+          "records": 35,
+          "iucn": "LC",
+          "wikidata": "Q955203",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93309231/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/93309231",
+            "width": 1024,
+            "height": 768,
+            "alt": "Chora-chuva-preto (Monasa nigrifrons)"
+          }
+        },
+        {
+          "gbifKey": 2479902,
+          "scientificName": "Pionus menstruus",
+          "name": "Maitaca-de-cabeça-azul",
+          "family": "Psittacidae",
+          "records": 33,
+          "iucn": "LC",
+          "wikidata": "Q641947",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/565068800/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/565068800",
+            "width": 1024,
+            "height": 768,
+            "alt": "Maitaca-de-cabeça-azul (Pionus menstruus)"
+          }
+        },
+        {
+          "gbifKey": 2487708,
+          "scientificName": "Tyranneutes stolzmanni",
+          "name": "Uirapuruzinho",
+          "family": "Pipridae",
+          "records": 33,
+          "iucn": "LC",
+          "wikidata": "Q843354",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/132818882/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/132818882",
+            "width": 1024,
+            "height": 683,
+            "alt": "uirapuruzinho (Tyranneutes stolzmanni)"
+          }
+        },
+        {
+          "gbifKey": 2490217,
+          "scientificName": "Thamnomanes caesius",
+          "name": "Ipecuá",
+          "family": "Thamnophilidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q1273014",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250715894/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/250715894",
+            "width": 1024,
+            "height": 683,
+            "alt": "Ipecuá (Thamnomanes caesius)"
+          }
+        },
+        {
+          "gbifKey": 5230520,
+          "scientificName": "Lepidothrix nattereri",
+          "name": "Uirapuru-de-chapéu-branco",
+          "family": "Pipridae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q1308683",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/355436905/large.jpeg",
+            "author": "Fernando Rodrigues | Biólogo.",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/355436905",
+            "width": 1024,
+            "height": 683,
+            "alt": "Uirapuru-de-chapéu-branco (Lepidothrix nattereri)"
+          }
+        },
+        {
+          "gbifKey": 5230746,
+          "scientificName": "Atticora fasciata",
+          "name": "Peitoril",
+          "family": "Hirundinidae",
+          "records": 31,
+          "iucn": "LC",
+          "wikidata": "Q1587061",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172075839/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172075839",
+            "width": 1024,
+            "height": 769,
+            "alt": "Peitoril (Atticora fasciata)"
+          }
+        },
+        {
+          "gbifKey": 7370153,
+          "scientificName": "Herpsilochmus stotzi",
+          "name": "Chorozinho-do-aripuanã",
+          "family": "Thamnophilidae",
+          "records": 35,
+          "iucn": "LC",
+          "wikidata": "Q15707876",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/82435150/large.jpg",
+            "author": "Fabio Schunck",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/82435150",
+            "width": 1024,
+            "height": 842,
+            "alt": "chorozinho-do-aripuanã (Herpsilochmus stotzi)"
+          }
         }
       ]
     },
@@ -456,6 +627,44 @@
             "height": 640,
             "alt": "Cobra-corre-campo (Thamnodynastes pallidus)"
           }
+        },
+        {
+          "gbifKey": 2441396,
+          "scientificName": "Paleosuchus palpebrosus",
+          "name": "Jacaré-anão",
+          "family": "Alligatoridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q757363",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/251003890/large.jpeg",
+            "author": "....Christopher Borges....",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/251003890",
+            "width": 1024,
+            "height": 681,
+            "alt": "Jacaré-anão (Paleosuchus palpebrosus)"
+          }
+        },
+        {
+          "gbifKey": 2464899,
+          "scientificName": "Boa constrictor",
+          "name": "Jiboia-constritora",
+          "family": "Boidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q215388",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591372805/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/591372805",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-constritora (Boa constrictor)"
+          }
         }
       ]
     },
@@ -576,6 +785,25 @@
             "width": 600,
             "height": 381,
             "alt": "Adenomera andreae"
+          }
+        },
+        {
+          "gbifKey": 2426171,
+          "scientificName": "Lithodytes lineatus",
+          "name": "Leptodactylus lineatus",
+          "family": "Leptodactylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2210071",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/393108827/large.jpg",
+            "author": "Mike Ostrowski",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/393108827",
+            "width": 1024,
+            "height": 681,
+            "alt": "Leptodactylus lineatus (Lithodytes lineatus)"
           }
         }
       ]
@@ -759,7 +987,7 @@
         {
           "gbifKey": 2949909,
           "scientificName": "Chamaecrista desvauxii",
-          "name": null,
+          "name": "Erva-de-coração",
           "family": "Fabaceae",
           "records": 12,
           "iucn": "LC",
@@ -773,6 +1001,25 @@
             "width": 960,
             "height": 720,
             "alt": "Chamaecrista desvauxii"
+          }
+        },
+        {
+          "gbifKey": 7288348,
+          "scientificName": "Qualea parviflora",
+          "name": "Pau Terra",
+          "family": "Vochysiaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q15336649",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/100050879/large.jpg",
+            "author": "nelson_filho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/100050879",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau Terra (Qualea parviflora)"
           }
         }
       ]
@@ -845,13 +1092,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -877,7 +1124,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -950,5 +1197,6 @@
         "alt": "Tatu-canastra (Priodontes maximus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

@@ -176,6 +176,63 @@
             "height": 506,
             "alt": "Ariranha (Pteronura brasiliensis)"
           }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 2436645,
+          "scientificName": "Ateles paniscus",
+          "name": "Macaco-aranha-preto",
+          "family": "Atelidae",
+          "records": 2,
+          "iucn": "VU",
+          "wikidata": "Q781191",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/620582244/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/620582244",
+            "width": 1024,
+            "height": 716,
+            "alt": "Macaco-aranha-preto (Ateles paniscus)"
+          }
+        },
+        {
+          "gbifKey": 2436340,
+          "scientificName": "Tamandua tetradactyla",
+          "name": "Tamanduá-mirim",
+          "family": "Myrmecophagidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q267514",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10425251/large.jpg",
+            "author": "Instituto Últimos Refúgios",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10425251",
+            "width": 1024,
+            "height": 685,
+            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+          }
         }
       ]
     },
@@ -335,6 +392,158 @@
             "height": 959,
             "alt": "Choquinha-do-tapajós (Myrmotherula klagesi)"
           }
+        },
+        {
+          "gbifKey": 2490124,
+          "scientificName": "Myrmoborus lugubris",
+          "name": "Formigueiro-liso",
+          "family": "Thamnophilidae",
+          "records": 476,
+          "iucn": "LC",
+          "wikidata": "Q1268056",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/729142585/large.jpg",
+            "author": "Jim Moore (Maryland)",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/729142585",
+            "width": 1024,
+            "height": 798,
+            "alt": "formigueiro-liso (Myrmoborus lugubris)"
+          }
+        },
+        {
+          "gbifKey": 5230759,
+          "scientificName": "Tachycineta albiventer",
+          "name": "Andorinha-do-rio",
+          "family": "Hirundinidae",
+          "records": 464,
+          "iucn": "LC",
+          "wikidata": "Q3136328",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/160619092/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/160619092",
+            "width": 1024,
+            "height": 642,
+            "alt": "andorinha-do-rio (Tachycineta albiventer)"
+          }
+        },
+        {
+          "gbifKey": 2475187,
+          "scientificName": "Monasa nigrifrons",
+          "name": "Chora-chuva-preto",
+          "family": "Bucconidae",
+          "records": 461,
+          "iucn": "LC",
+          "wikidata": "Q955203",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93309231/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/93309231",
+            "width": 1024,
+            "height": 768,
+            "alt": "Chora-chuva-preto (Monasa nigrifrons)"
+          }
+        },
+        {
+          "gbifKey": 2478774,
+          "scientificName": "Ramphastos tucanus",
+          "name": "Tucano-de-peito-branco",
+          "family": "Ramphastidae",
+          "records": 450,
+          "iucn": "LC",
+          "wikidata": "Q384839",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172081278/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172081278",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tucano-de-peito-branco (Ramphastos tucanus)"
+          }
+        },
+        {
+          "gbifKey": 2490201,
+          "scientificName": "Myrmotherula assimilis",
+          "name": "Choquinha-da-várzea",
+          "family": "Thamnophilidae",
+          "records": 448,
+          "iucn": "LC",
+          "wikidata": "Q1268126",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/617585605/large.jpg",
+            "author": "Lindolfo Souto",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/617585605",
+            "width": 1024,
+            "height": 703,
+            "alt": "Choquinha-da-várzea (Myrmotherula assimilis)"
+          }
+        },
+        {
+          "gbifKey": 2496210,
+          "scientificName": "Crotophaga major",
+          "name": "Anu-coroca",
+          "family": "Cuculidae",
+          "records": 443,
+          "iucn": "LC",
+          "wikidata": "Q730129",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172075604/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172075604",
+            "width": 1024,
+            "height": 768,
+            "alt": "anu-coroca (Crotophaga major)"
+          }
+        },
+        {
+          "gbifKey": 2483015,
+          "scientificName": "Hemitriccus minor",
+          "name": "Maria-sebinha",
+          "family": "Tyrannidae",
+          "records": 431,
+          "iucn": "LC",
+          "wikidata": "Q1266015",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/169153034/large.jpeg",
+            "author": "Sidnei Dantas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/169153034",
+            "width": 1024,
+            "height": 839,
+            "alt": "Maria-sebinha (Hemitriccus minor)"
+          }
+        },
+        {
+          "gbifKey": 2495295,
+          "scientificName": "Patagioenas cayennensis",
+          "name": "Pomba-galega",
+          "family": "Columbidae",
+          "records": 452,
+          "iucn": "LC",
+          "wikidata": "Q1263074",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/61715963/large.jpg",
+            "author": "Carol McDougall",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/61715963",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pomba-galega (Patagioenas cayennensis)"
+          }
         }
       ]
     },
@@ -456,6 +665,44 @@
             "height": 1000,
             "alt": "Calango-verde (Ameiva ameiva)"
           }
+        },
+        {
+          "gbifKey": 5220775,
+          "scientificName": "Bothrops atrox",
+          "name": "Jararaca-do-norte",
+          "family": "Viperidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q900848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13606734/large.jpeg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/13606734",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jararaca-do-norte (Bothrops atrox)"
+          }
+        },
+        {
+          "gbifKey": 2442782,
+          "scientificName": "Podocnemis unifilis",
+          "name": "Tracajá",
+          "family": "Podocnemididae",
+          "records": 3,
+          "iucn": "VU",
+          "wikidata": "Q863041",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/589922520/large.jpg",
+            "author": "Matheus Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/589922520",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tracajá (Podocnemis unifilis)"
+          }
         }
       ]
     },
@@ -524,7 +771,7 @@
         {
           "gbifKey": 2426313,
           "scientificName": "Allobates femoralis",
-          "name": null,
+          "name": "Rã-de-coxa-brilhante",
           "family": "Aromobatidae",
           "records": 23,
           "iucn": "LC",
@@ -562,7 +809,7 @@
         {
           "gbifKey": 2427639,
           "scientificName": "Osteocephalus taurinus",
-          "name": null,
+          "name": "Perereca-de-perna-fina",
           "family": "Hylidae",
           "records": 4,
           "iucn": "LC",
@@ -811,7 +1058,7 @@
         {
           "gbifKey": 3039162,
           "scientificName": "Cissus erosa",
-          "name": null,
+          "name": "Uvinha-do-mato",
           "family": "Vitaceae",
           "records": 14,
           "iucn": null,
@@ -836,14 +1083,14 @@
           "iucn": "LC",
           "wikidata": "Q1292003",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Strophocactus_wittii_1-88_Foto_W.Barthlott.jpg",
-            "author": "Wilhelm Barthlott",
-            "license": "CC BY-SA 3.0 de",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strophocactus_wittii_1-88_Foto_W.Barthlott.jpg",
-            "width": 272,
-            "height": 178,
-            "alt": "Strophocactus wittii"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/613281517/large.jpg",
+            "author": "Charlotte Kirchner",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/613281517",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Strophocactus wittii)"
           }
         },
         {
@@ -911,7 +1158,16 @@
           "records": 38,
           "iucn": "LC",
           "wikidata": "Q15525417",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/353018004/large.jpeg",
+            "author": "Enrique Salazar",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/353018004",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Simaba orinocensis)"
+          }
         },
         {
           "gbifKey": 7499732,
@@ -921,7 +1177,16 @@
           "records": 17,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62963540/large.jpeg",
+            "author": "Kai Squires",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/62963540",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Cattleya violacea)"
+          }
         }
       ]
     }
@@ -992,7 +1257,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q17528149",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339811105/large.jpeg",
+        "author": "Lucas C. Marinho, alguns direitos reservados (CC BY-NC), carregado por Lucas C. Marinho",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/339811105",
+        "width": 1024,
+        "height": 1132,
+        "alt": "Lorostemon coelhoi (Lorostemon coelhoi)"
+      }
     },
     {
       "gbifKey": 2958898,
@@ -1002,7 +1276,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15539593",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/718597727/large.jpg",
+        "author": "Léna Sardini, alguns direitos reservados (CC BY-NC), carregado por Léna Sardini",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/718597727",
+        "width": 1024,
+        "height": 768,
+        "alt": "Paloue induta (Paloue induta)"
+      }
     },
     {
       "gbifKey": 2433681,
@@ -1119,5 +1402,6 @@
         "alt": "Gavião-real (Harpia harpyja)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

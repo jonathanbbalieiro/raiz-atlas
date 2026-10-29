@@ -14,6 +14,7 @@
     "bio": "node scripts/fetch-biodiversity.mjs",
     "context": "node scripts/build-park-context.mjs",
     "occurrences": "node scripts/build-occurrence-grid.mjs",
+    "species-index": "node scripts/build-species-index.mjs",
     "photo": "node scripts/commons-photo.mjs",
     "photo:flagships": "node scripts/fill-flagship-photos.mjs",
     "approve": "node scripts/approve.mjs",

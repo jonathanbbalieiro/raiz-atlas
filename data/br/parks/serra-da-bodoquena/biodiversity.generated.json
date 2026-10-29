@@ -72,13 +72,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -335,6 +335,158 @@
             "height": 914,
             "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
           }
+        },
+        {
+          "gbifKey": 2476599,
+          "scientificName": "Phaethornis pretrei",
+          "name": "Rabo-branco-acanelado",
+          "family": "Trochilidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q204159",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/153809006/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/153809006",
+            "width": 1024,
+            "height": 683,
+            "alt": "Rabo-branco-acanelado (Phaethornis pretrei)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2496209,
+          "scientificName": "Crotophaga ani",
+          "name": "Anu-preto",
+          "family": "Cuculidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q256046",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114344471/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114344471",
+            "width": 1024,
+            "height": 768,
+            "alt": "Anu-preto (Crotophaga ani)"
+          }
+        },
+        {
+          "gbifKey": 2496659,
+          "scientificName": "Trogon curucui",
+          "name": "Surucuá-de-barriga-vermelha",
+          "family": "Trogonidae",
+          "records": 48,
+          "iucn": "LC",
+          "wikidata": "Q688318",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/397076529/large.jpg",
+            "author": "Tomás Carranza Perales",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/397076529",
+            "width": 1024,
+            "height": 683,
+            "alt": "Surucuá-de-barriga-vermelha (Trogon curucui)"
+          }
+        },
+        {
+          "gbifKey": 2480989,
+          "scientificName": "Caracara plancus",
+          "name": "Carcará",
+          "family": "Falconidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q755119",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350512706/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/350512706",
+            "width": 1024,
+            "height": 682,
+            "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2488622,
+          "scientificName": "Thraupis sayaca",
+          "name": "Sanhaço-cinzento",
+          "family": "Thraupidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q1588073",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9892758/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9892758",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaço-cinzento (Thraupis sayaca)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 2482999,
+          "scientificName": "Hemitriccus margaritaceiventer",
+          "name": "Sebinho-de-olho-de-ouro",
+          "family": "Tyrannidae",
+          "records": 42,
+          "iucn": "LC",
+          "wikidata": "Q1263117",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/437861670/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/437861670",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sebinho-de-olho-de-ouro (Hemitriccus margaritaceiventer)"
+          }
         }
       ]
     },
@@ -370,7 +522,16 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q3498230",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/427985932/large.jpeg",
+            "author": "Ramon and Suzanne Vargas",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/427985932",
+            "width": 1024,
+            "height": 865,
+            "alt": "null (Stenocercus caducus)"
+          }
         }
       ]
     },
@@ -810,6 +971,44 @@
             "height": 1707,
             "alt": "Esporão-de-galo (Randia armata)"
           }
+        },
+        {
+          "gbifKey": 2920891,
+          "scientificName": "Psychotria carthagenensis",
+          "name": "Sanhaçaiba",
+          "family": "Rubiaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q7256517",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57666329/large.jpg",
+            "author": "Sune Holt",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/57666329",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaçaiba (Psychotria carthagenensis)"
+          }
+        },
+        {
+          "gbifKey": 3190500,
+          "scientificName": "Guarea guidonia",
+          "name": "Carrapeta-verdadeira",
+          "family": "Meliaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q5479016",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/49858996/large.jpeg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/49858996",
+            "width": 1024,
+            "height": 768,
+            "alt": "Carrapeta-verdadeira (Guarea guidonia)"
+          }
         }
       ]
     }
@@ -939,13 +1138,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -1025,5 +1224,6 @@
         "alt": "Pilrito-de-uropígio-branco (Calidris fuscicollis)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

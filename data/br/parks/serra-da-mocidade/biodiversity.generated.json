@@ -107,7 +107,7 @@
           "name": "Dermanura gnoma",
           "family": "Phyllostomidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q308262",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Artibeusfamilia.jpg/960px-Artibeusfamilia.jpg",
@@ -129,14 +129,14 @@
           "iucn": "LC",
           "wikidata": "Q139432",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Phyllostoma_obscurum.jpg",
-            "author": "Johann Christian Daniel von Schreber",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phyllostoma_obscurum.jpg",
-            "width": 190,
-            "height": 161,
-            "alt": "Artibeus obscurus"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/483677495/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/483677495",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Artibeus obscurus)"
           }
         },
         {
@@ -231,13 +231,13 @@
           "iucn": "LC",
           "wikidata": "Q528567",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Abre-asa_15_08_11.jpg",
-            "author": "Ziemyk",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abre-asa_15_08_11.jpg",
-            "width": 180,
-            "height": 144,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/34587878/large.jpeg",
+            "author": "Carlos Domínguez-Rodríguez",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/34587878",
+            "width": 1024,
+            "height": 683,
             "alt": "Abre-asa-comum (Mionectes oleagineus)"
           }
         },
@@ -335,6 +335,139 @@
             "height": 578,
             "alt": "beija-flor-de-leque-canela (Lophornis ornatus)"
           }
+        },
+        {
+          "gbifKey": 2480951,
+          "scientificName": "Ardea cocoi",
+          "name": "Garça-moura",
+          "family": "Ardeidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q911449",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/611522976/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/611522976",
+            "width": 1024,
+            "height": 768,
+            "alt": "Garça-moura (Ardea cocoi)"
+          }
+        },
+        {
+          "gbifKey": 2482082,
+          "scientificName": "Anhinga anhinga",
+          "name": "Biguatinga",
+          "family": "Anhingidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q469940",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177629323/large.png",
+            "author": "Eridan Xharahi",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/177629323",
+            "width": 1024,
+            "height": 683,
+            "alt": "biguatinga (Anhinga anhinga)"
+          }
+        },
+        {
+          "gbifKey": 2485007,
+          "scientificName": "Synallaxis gujanensis",
+          "name": "João-teneném-becuá",
+          "family": "Furnariidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q1271412",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/724115547/large.jpg",
+            "author": "Joao Quental",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/724115547",
+            "width": 1024,
+            "height": 683,
+            "alt": "joão-teneném-becuá (Synallaxis gujanensis)"
+          }
+        },
+        {
+          "gbifKey": 2490218,
+          "scientificName": "Thamnomanes ardesiacus",
+          "name": "Uirapuru-de-garganta-preta",
+          "family": "Thamnophilidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q576662",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250715920/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/250715920",
+            "width": 1024,
+            "height": 683,
+            "alt": "uirapuru-de-garganta-preta (Thamnomanes ardesiacus)"
+          }
+        },
+        {
+          "gbifKey": 2475466,
+          "scientificName": "Megaceryle torquata",
+          "name": "Martim-pescador-grande",
+          "family": "Alcedinidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1272848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172098685/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172098685",
+            "width": 1024,
+            "height": 768,
+            "alt": "martim-pescador-grande (Megaceryle torquata)"
+          }
+        },
+        {
+          "gbifKey": 2475486,
+          "scientificName": "Chloroceryle americana",
+          "name": "Martim-pescador-pequeno",
+          "family": "Alcedinidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q580159",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/125716996/large.jpeg",
+            "author": "Rosabel Miro",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/125716996",
+            "width": 1024,
+            "height": 684,
+            "alt": "Martim-pescador-pequeno (Chloroceryle americana)"
+          }
+        },
+        {
+          "gbifKey": 2476892,
+          "scientificName": "Glaucis hirsutus",
+          "name": "Balança-rabo-de-bico-torto",
+          "family": "Trochilidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1266303",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/330283256/large.jpeg",
+            "author": "Christoph Moning",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/330283256",
+            "width": 1024,
+            "height": 641,
+            "alt": "balança-rabo-de-bico-torto (Glaucis hirsutus)"
+          }
         }
       ]
     },
@@ -428,13 +561,13 @@
           "iucn": "LC",
           "wikidata": "Q473521",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Paleosuchus-trigonatus.jpg",
-            "author": "Mokele at en.wikipedia",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paleosuchus-trigonatus.jpg",
-            "width": 481,
-            "height": 349,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12983206/large.jpeg",
+            "author": "Julien Renoult",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/12983206",
+            "width": 1024,
+            "height": 768,
             "alt": "Jacaré-coroa (Paleosuchus trigonatus)"
           }
         },
@@ -455,6 +588,25 @@
             "width": 1280,
             "height": 1920,
             "alt": "Cobra-caracoleira-de-catesby (Dipsas catesbyi)"
+          }
+        },
+        {
+          "gbifKey": 5220775,
+          "scientificName": "Bothrops atrox",
+          "name": "Jararaca-do-norte",
+          "family": "Viperidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q900848",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13606734/large.jpeg",
+            "author": "Vincent A. Vos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/13606734",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jararaca-do-norte (Bothrops atrox)"
           }
         }
       ]
@@ -629,7 +781,7 @@
           "name": "Bacurizeiro",
           "family": "Clusiaceae",
           "records": 5,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15371504",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Bacuri_Platonia_insignis_3.JPG/1280px-Bacuri_Platonia_insignis_3.JPG",
@@ -705,7 +857,7 @@
           "name": null,
           "family": "Melastomataceae",
           "records": 4,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q89176041",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Topobea_ssp.jpg/1280px-Topobea_ssp.jpg",
@@ -721,7 +873,7 @@
         {
           "gbifKey": 3039162,
           "scientificName": "Cissus erosa",
-          "name": null,
+          "name": "Uvinha-do-mato",
           "family": "Vitaceae",
           "records": 4,
           "iucn": null,
@@ -773,6 +925,25 @@
             "width": 1280,
             "height": 1989,
             "alt": "Microgramma megalophylla"
+          }
+        },
+        {
+          "gbifKey": 5361926,
+          "scientificName": "Ficus americana",
+          "name": "Mata-pau",
+          "family": "Moraceae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q3585536",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/7625738/large.jpeg",
+            "author": "Mateo Hernandez Schmidt",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/7625738",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mata-pau (Ficus americana)"
           }
         }
       ]
@@ -827,5 +998,6 @@
         "alt": "jabuti-tinga (Chelonoidis denticulatus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

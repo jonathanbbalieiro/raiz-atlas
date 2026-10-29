@@ -72,14 +72,14 @@
           "iucn": "LC",
           "wikidata": "Q267514",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
-            "author": "Sinara Conessa",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-            "width": 492,
-            "height": 640,
-            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg",
+            "author": "Manu Santa-Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473054518",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-mirim (Tamandua tetradactyla)"
           }
         },
         {
@@ -175,6 +175,25 @@
             "width": 600,
             "height": 492,
             "alt": "cuíca-de-rabo-curto (Monodelphis domestica)"
+          }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
           }
         }
       ]
@@ -335,6 +354,158 @@
             "height": 1163,
             "alt": "Formigueiro-pintalgado (Myrmorchilus strigilatus)"
           }
+        },
+        {
+          "gbifKey": 2482874,
+          "scientificName": "Tolmomyias flaviventris",
+          "name": "Bico-chato-amarelo",
+          "family": "Tyrannidae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q1270583",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164130/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111164130",
+            "width": 1024,
+            "height": 855,
+            "alt": "Bico-chato-amarelo (Tolmomyias flaviventris)"
+          }
+        },
+        {
+          "gbifKey": 2482576,
+          "scientificName": "Cyanocorax cyanopogon",
+          "name": "Gralha-cancã",
+          "family": "Corvidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q2667854",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/403424784/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/403424784",
+            "width": 1024,
+            "height": 629,
+            "alt": "Gralha-cancã (Cyanocorax cyanopogon)"
+          }
+        },
+        {
+          "gbifKey": 2483589,
+          "scientificName": "Myiarchus tyrannulus",
+          "name": "Maria-cavaleira-de-rabo-enferrujado",
+          "family": "Tyrannidae",
+          "records": 12,
+          "iucn": "LC",
+          "wikidata": "Q903898",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387448295/large.jpg",
+            "author": "Alberto Cueto",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/387448295",
+            "width": 1024,
+            "height": 768,
+            "alt": "maria-cavaleira-de-rabo-enferrujado (Myiarchus tyrannulus)"
+          }
+        },
+        {
+          "gbifKey": 2483982,
+          "scientificName": "Casiornis fuscus",
+          "name": "Caneleiro-enxofre",
+          "family": "Tyrannidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q1260760",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/11040345/large.jpg",
+            "author": "fabiomanfredini",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/11040345",
+            "width": 1024,
+            "height": 667,
+            "alt": "caneleiro-enxofre (Casiornis fuscus)"
+          }
+        },
+        {
+          "gbifKey": 2487583,
+          "scientificName": "Polioptila plumbea",
+          "name": "Balança-rabo-de-chapéu-preto",
+          "family": "Polioptilidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q773487",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3111714/large.jpg",
+            "author": "Leslie Flint",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/3111714",
+            "width": 1024,
+            "height": 819,
+            "alt": "balança-rabo-de-chapéu-preto (Polioptila plumbea)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        },
+        {
+          "gbifKey": 2486024,
+          "scientificName": "Lepidocolaptes angustirostris",
+          "name": "Arapaçu-de-cerrado",
+          "family": "Furnariidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q1269465",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471334630/large.jpeg",
+            "author": "María Cecilia Rey",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/471334630",
+            "width": 1024,
+            "height": 819,
+            "alt": "Arapaçu-de-cerrado (Lepidocolaptes angustirostris)"
+          }
+        },
+        {
+          "gbifKey": 2483387,
+          "scientificName": "Cnemotriccus fuscatus",
+          "name": "Guaracavuçu",
+          "family": "Tyrannidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q868088",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26920862/large.jpeg",
+            "author": "guyincognito",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/26920862",
+            "width": 1024,
+            "height": 764,
+            "alt": "guaracavuçu (Cnemotriccus fuscatus)"
+          }
         }
       ]
     },
@@ -455,6 +626,25 @@
             "width": 1280,
             "height": 848,
             "alt": "Briba (género) (Hemidactylus brasilianus)"
+          }
+        },
+        {
+          "gbifKey": 2459658,
+          "scientificName": "Iguana iguana",
+          "name": "Iguana-verde",
+          "family": "Iguanidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q215376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/365307657/large.jpeg",
+            "author": "Daniel Manzur",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/365307657",
+            "width": 1024,
+            "height": 683,
+            "alt": "iguana-verde (Iguana iguana)"
           }
         }
       ]
@@ -620,13 +810,13 @@
           "iucn": "LC",
           "wikidata": "Q9694262",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Caneleiro.jpg",
-            "author": "Hudsonfas",
-            "license": "CC BY-SA 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caneleiro.jpg",
-            "width": 250,
-            "height": 300,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/662447683/large.jpg",
+            "author": "Suzana Ehlin Martins",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/662447683",
+            "width": 1024,
+            "height": 768,
             "alt": "Caneleiro (árvore) (Cenostigma macrophyllum)"
           }
         },
@@ -674,7 +864,7 @@
           "name": "Pau Terra",
           "family": "Vochysiaceae",
           "records": 17,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15336649",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flickr_-_BioDivLibrary_-_n81_w1150.jpg/1280px-Flickr_-_BioDivLibrary_-_n81_w1150.jpg",
@@ -790,7 +980,35 @@
           "records": 31,
           "iucn": null,
           "wikidata": "Q15459800",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/388174768/large.jpeg",
+            "author": "vitordematos12",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/388174768",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Bauhinia acuruana)"
+          }
+        },
+        {
+          "gbifKey": 2950750,
+          "scientificName": "Hymenaea courbaril",
+          "name": "Jatobá",
+          "family": "Fabaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q2234016",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/119040093/large.jpeg",
+            "author": "Viacheslav Shalisko",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/119040093",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jatobá (Hymenaea courbaril)"
+          }
         }
       ]
     }
@@ -823,12 +1041,21 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q18076363",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/388171848/large.jpeg",
+        "author": "vitordematos12, alguns direitos reservados (CC BY-SA), carregado por vitordematos12",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/388171848",
+        "width": 1024,
+        "height": 768,
+        "alt": "Pilocarpus trachylophus (Pilocarpus trachylophus)"
+      }
     },
     {
       "gbifKey": 3157501,
       "scientificName": "Duguetia sooretamae",
-      "name": null,
+      "name": "Pindaúva-de-restinga",
       "family": "Annonaceae",
       "records": null,
       "iucn": "EN",
@@ -838,7 +1065,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -862,7 +1089,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q42753430",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14624508/large.jpg",
+        "author": "Gustavo Shimizu",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/14624508",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Qualea insignis)"
+      }
     },
     {
       "gbifKey": 2485458,
@@ -912,5 +1148,6 @@
       "wikidata": "Q17557370",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

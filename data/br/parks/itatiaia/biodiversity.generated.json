@@ -176,6 +176,82 @@
             "height": 354,
             "alt": "Morcego-de-Ombros-Amarelos-Pequeno (Sturnira lilium)"
           }
+        },
+        {
+          "gbifKey": 2436860,
+          "scientificName": "Sylvilagus brasiliensis",
+          "name": "Tapiti",
+          "family": "Leporidae",
+          "records": 5,
+          "iucn": "EN",
+          "wikidata": "Q856610",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/231309240/large.jpeg",
+            "author": "Ben Costamagna",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/231309240",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tapiti (Sylvilagus brasiliensis)"
+          }
+        },
+        {
+          "gbifKey": 2436353,
+          "scientificName": "Bradypus variegatus",
+          "name": "Preguiça-comum",
+          "family": "Bradypodidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q148752",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89053400/large.jpeg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/89053400",
+            "width": 1024,
+            "height": 718,
+            "alt": "Preguiça-comum (Bradypus variegatus)"
+          }
+        },
+        {
+          "gbifKey": 2439928,
+          "scientificName": "Didelphis aurita",
+          "name": "Gambá-de-orelha-preta",
+          "family": "Didelphidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q194238",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/240636840/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/240636840",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-preta (Didelphis aurita)"
+          }
+        },
+        {
+          "gbifKey": 2440779,
+          "scientificName": "Dasypus novemcinctus",
+          "name": "Tatu-galinha",
+          "family": "Dasypodidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q649549",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552761863/large.jpg",
+            "author": "Bruno Henrique Aranda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/552761863",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tatu-galinha (Dasypus novemcinctus)"
+          }
         }
       ]
     },
@@ -323,7 +399,7 @@
           "name": "Sanhaço-rei",
           "family": "Thraupidae",
           "records": 3102,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1588033",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Thraupis_ornata_-Reserva_Guainumbi%2C_Sao_Luis_do_Paraitinga%2C_Sao_Paulo%2C_Brasil-8.jpg/1280px-Thraupis_ornata_-Reserva_Guainumbi%2C_Sao_Luis_do_Paraitinga%2C_Sao_Paulo%2C_Brasil-8.jpg",
@@ -334,6 +410,120 @@
             "width": 1280,
             "height": 974,
             "alt": "Sanhaço-rei (Thraupis ornata)"
+          }
+        },
+        {
+          "gbifKey": 2478770,
+          "scientificName": "Ramphastos dicolorus",
+          "name": "Tucano-de-bico-verde",
+          "family": "Ramphastidae",
+          "records": 2720,
+          "iucn": "LC",
+          "wikidata": "Q373031",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/458922544/large.jpeg",
+            "author": "Cajá-manga",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/458922544",
+            "width": 1024,
+            "height": 683,
+            "alt": "tucano-de-bico-verde (Ramphastos dicolorus)"
+          }
+        },
+        {
+          "gbifKey": 2483242,
+          "scientificName": "Hirundinea ferruginea",
+          "name": "Gibão-de-couro",
+          "family": "Tyrannidae",
+          "records": 2584,
+          "iucn": "LC",
+          "wikidata": "Q979415",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752318883/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/752318883",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gibão-de-couro (Hirundinea ferruginea)"
+          }
+        },
+        {
+          "gbifKey": 2491862,
+          "scientificName": "Sicalis flaveola",
+          "name": "Canário-da-terra-verdadeiro",
+          "family": "Thraupidae",
+          "records": 2580,
+          "iucn": "LC",
+          "wikidata": "Q1064372",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263906744/large.jpg",
+            "author": "Gabriel Brachetti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/263906744",
+            "width": 1024,
+            "height": 698,
+            "alt": "canário-da-terra-verdadeiro (Sicalis flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2490718,
+          "scientificName": "Turdus rufiventris",
+          "name": "Sabiá-laranjeira",
+          "family": "Turdidae",
+          "records": 3055,
+          "iucn": "LC",
+          "wikidata": "Q609283",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507197/large.jpg",
+            "author": "Nigel Voaden",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1507197",
+            "width": 1024,
+            "height": 683,
+            "alt": "sabiá-laranjeira (Turdus rufiventris)"
+          }
+        },
+        {
+          "gbifKey": 2488622,
+          "scientificName": "Thraupis sayaca",
+          "name": "Sanhaço-cinzento",
+          "family": "Thraupidae",
+          "records": 2597,
+          "iucn": "LC",
+          "wikidata": "Q1588073",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9892758/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9892758",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaço-cinzento (Thraupis sayaca)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 2560,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
           }
         }
       ]
@@ -543,7 +733,7 @@
         {
           "gbifKey": 10863437,
           "scientificName": "Boana faber",
-          "name": null,
+          "name": "Perereca-martelo",
           "family": "Hylidae",
           "records": 15,
           "iucn": "LC",
@@ -560,14 +750,23 @@
           }
         },
         {
-          "gbifKey": 5217908,
-          "scientificName": "Scinax duartei",
-          "name": null,
+          "gbifKey": 2428044,
+          "scientificName": "Bokermannohyla circumdata",
+          "name": "Perereca-da-serra-do-mar",
           "family": "Hylidae",
-          "records": 83,
+          "records": 12,
           "iucn": "LC",
-          "wikidata": "Q919687",
-          "photo": null
+          "wikidata": "Q2707365",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/319327876/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/319327876",
+            "width": 1024,
+            "height": 768,
+            "alt": "Perereca-da-serra-do-mar (Bokermannohyla circumdata)"
+          }
         }
       ]
     },
@@ -617,7 +816,7 @@
         {
           "gbifKey": 1862198,
           "scientificName": "Xylophanes tersa",
-          "name": null,
+          "name": "Esfinge-tersa",
           "family": "Sphingidae",
           "records": 29,
           "iucn": null,
@@ -689,6 +888,25 @@
             "height": 1640,
             "alt": "Xylophanes schausi"
           }
+        },
+        {
+          "gbifKey": 9563837,
+          "scientificName": "Vanessa braziliensis",
+          "name": "Dama-brasileira",
+          "family": "Nymphalidae",
+          "records": 11,
+          "iucn": null,
+          "wikidata": "Q3554559",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106256934/large.jpeg",
+            "author": "aacocucci",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106256934",
+            "width": 1024,
+            "height": 680,
+            "alt": "Dama-brasileira (Vanessa braziliensis)"
+          }
         }
       ]
     },
@@ -703,7 +921,7 @@
           "name": "Içara",
           "family": "Arecaceae",
           "records": 235,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q311356",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Euterpe_edulis.jpg",
@@ -819,37 +1037,35 @@
           "records": 89,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/597822074/large.jpg",
+            "author": "D.F.Silva",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/597822074",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Pleroma hospitum)"
+          }
         },
         {
-          "gbifKey": 10808033,
-          "scientificName": "Miconia sulfurea",
-          "name": null,
-          "family": "Melastomataceae",
-          "records": 80,
+          "gbifKey": 7322827,
+          "scientificName": "Fuchsia regia",
+          "name": "Brinco-de-princesa-da-mata",
+          "family": "Onagraceae",
+          "records": 48,
           "iucn": null,
-          "wikidata": "Q89175582",
-          "photo": null
-        },
-        {
-          "gbifKey": 8312451,
-          "scientificName": "Isoetes martii",
-          "name": null,
-          "family": "Isoetaceae",
-          "records": 70,
-          "iucn": null,
-          "wikidata": null,
-          "photo": null
-        },
-        {
-          "gbifKey": 3059431,
-          "scientificName": "Croton dichrous",
-          "name": null,
-          "family": "Euphorbiaceae",
-          "records": 64,
-          "iucn": null,
-          "wikidata": "Q3004242",
-          "photo": null
+          "wikidata": "Q11301535",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/463728871/large.jpg",
+            "author": "João D'Andretta",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/463728871",
+            "width": 1024,
+            "height": 683,
+            "alt": "Brinco-de-princesa-da-mata (Fuchsia regia)"
+          }
         }
       ]
     }
@@ -882,7 +1098,16 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q303696",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/724032165/large.jpg",
+        "author": "Ivan Sazima",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/724032165",
+        "width": 1024,
+        "height": 682,
+        "alt": "null (Holoaden bradei)"
+      }
     },
     {
       "gbifKey": 5218096,
@@ -902,7 +1127,16 @@
       "records": null,
       "iucn": "CR",
       "wikidata": "Q2698850",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/724032867/large.jpg",
+        "author": "Ivan Sazima",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/724032867",
+        "width": 1024,
+        "height": 717,
+        "alt": "null (Paratelmatobius lutzii)"
+      }
     },
     {
       "gbifKey": 2651305,
@@ -992,6 +1226,26 @@
       "iucn": "EN",
       "wikidata": "Q15360363",
       "photo": null
+    },
+    {
+      "gbifKey": 2436860,
+      "scientificName": "Sylvilagus brasiliensis",
+      "name": "Tapiti",
+      "family": "Leporidae",
+      "records": 5,
+      "iucn": "EN",
+      "wikidata": "Q856610",
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/231309240/large.jpeg",
+        "author": "Ben Costamagna",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/231309240",
+        "width": 1024,
+        "height": 576,
+        "alt": "Tapiti (Sylvilagus brasiliensis)"
+      }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

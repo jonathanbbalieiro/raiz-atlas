@@ -4,7 +4,7 @@
  * Só mexe em `biodiversity.generated.json`; nunca em fotos escolhidas no guide.json.
  *
  *   node scripts/upgrade-species-photos-inat.mjs                 (simulação: grava .geo-cache/species-photo-plan.json)
- *   node scripts/upgrade-species-photos-inat.mjs --apply         (aplica o plano já gravado)
+ *   node scripts/upgrade-species-photos-inat.mjs --apply [--max-width 500]   (aplica o plano; só troca fotos abaixo da largura dada)
  *   node scripts/upgrade-species-photos-inat.mjs --limit 20      (testa com poucas espécies)
  *
  * A identificação é a do iNaturalist (nome científico idêntico, grau pesquisa); o contexto da foto
@@ -32,7 +32,8 @@ const LIC = {
 
 const parkFiles = fs.readdirSync(PARKS).map((p) => path.join(PARKS, p, "biodiversity.generated.json")).filter((f) => fs.existsSync(f));
 const speciesOf = (j) => [...(j.groups ?? []).flatMap((g) => g.species ?? []), ...(j.threatened ?? [])];
-const weak = (s) => !s.photo || (s.photo.width ?? 0) < 800;
+const MAXW = args.includes("--max-width") ? Number(args[args.indexOf("--max-width") + 1]) : 800;
+const weak = (s) => !s.photo || (s.photo.width ?? 0) < MAXW;
 
 async function getJson(url) {
   for (let i = 0; i < 5; i++) {

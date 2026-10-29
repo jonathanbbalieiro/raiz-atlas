@@ -241,7 +241,7 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
       assert(l.items.length >= 1 && l.items.length <= 5, `${at}: de 1 a 5 itens`);
       const ids = new Set(l.sources.map((s) => s.id));
       for (const s of l.sources) assert(s.id && s.institution && s.title && s.url?.startsWith("https://") && s.accessed, `${at}: fonte ${s.id} incompleta`);
-      const kinds = new Set(["extinta", "extinta_na_natureza", "possivelmente_extinta", "extinta_localmente", "megafauna_fossil", "reintroduzida"]);
+      const kinds = new Set(["extinta", "extinta_na_natureza", "possivelmente_extinta", "extinta_localmente", "megafauna_fossil", "reintroduzida", "recolonizada"]);
       const seen = new Set();
       for (const it of l.items) {
         assert(kinds.has(it.kind), `${at}: tipo desconhecido "${it.kind}"`);

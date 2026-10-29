@@ -50,7 +50,7 @@
           "name": "Cuíca",
           "family": "Didelphidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q195023",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Cu%C3%ADca_-_Marmosa_paraguayana.jpg/1280px-Cu%C3%ADca_-_Marmosa_paraguayana.jpg",
@@ -109,7 +109,16 @@
           "records": 10,
           "iucn": null,
           "wikidata": "Q18485327",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/483953050/large.jpg",
+            "author": "Henrique Nogueira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/483953050",
+            "width": 1024,
+            "height": 683,
+            "alt": "Rato-do-chão (Cerradomys goytaca)"
+          }
         },
         {
           "gbifKey": 4262948,
@@ -119,7 +128,16 @@
           "records": 3,
           "iucn": "NT",
           "wikidata": "Q1764880",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/630106479/large.jpg",
+            "author": "henio",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/630106479",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Trinomys eliasi)"
+          }
         }
       ]
     },
@@ -279,6 +297,158 @@
             "height": 985,
             "alt": "Asa-branca (Patagioenas picazuro)"
           }
+        },
+        {
+          "gbifKey": 2496209,
+          "scientificName": "Crotophaga ani",
+          "name": "Anu-preto",
+          "family": "Cuculidae",
+          "records": 46,
+          "iucn": "LC",
+          "wikidata": "Q256046",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114344471/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114344471",
+            "width": 1024,
+            "height": 768,
+            "alt": "Anu-preto (Crotophaga ani)"
+          }
+        },
+        {
+          "gbifKey": 2490752,
+          "scientificName": "Turdus amaurochalinus",
+          "name": "Sabiá-poca",
+          "family": "Turdidae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q1588979",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747990098/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/747990098",
+            "width": 1024,
+            "height": 683,
+            "alt": "sabiá-poca (Turdus amaurochalinus)"
+          }
+        },
+        {
+          "gbifKey": 2481846,
+          "scientificName": "Jacana jacana",
+          "name": "Jaçanã",
+          "family": "Jacanidae",
+          "records": 41,
+          "iucn": "LC",
+          "wikidata": "Q856201",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/293276426/large.jpeg",
+            "author": "Agustina Medina",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/293276426",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jaçanã (Jacana jacana)"
+          }
+        },
+        {
+          "gbifKey": 2491862,
+          "scientificName": "Sicalis flaveola",
+          "name": "Canário-da-terra-verdadeiro",
+          "family": "Thraupidae",
+          "records": 41,
+          "iucn": "LC",
+          "wikidata": "Q1064372",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263906744/large.jpg",
+            "author": "Gabriel Brachetti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/263906744",
+            "width": 1024,
+            "height": 698,
+            "alt": "canário-da-terra-verdadeiro (Sicalis flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2496462,
+          "scientificName": "Guira guira",
+          "name": "Anu-branco",
+          "family": "Cuculidae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q911917",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60230959/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/60230959",
+            "width": 1024,
+            "height": 750,
+            "alt": "anu-branco (Guira guira)"
+          }
+        },
+        {
+          "gbifKey": 2487964,
+          "scientificName": "Euphonia chlorotica",
+          "name": "Fim-fim",
+          "family": "Fringillidae",
+          "records": 39,
+          "iucn": "LC",
+          "wikidata": "Q268032",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114805174/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114805174",
+            "width": 1024,
+            "height": 683,
+            "alt": "Fim-fim (Euphonia chlorotica)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 2489133,
+          "scientificName": "Progne chalybea",
+          "name": "Andorinha-doméstica-grande",
+          "family": "Hirundinidae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q3136297",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172076738/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172076738",
+            "width": 1024,
+            "height": 768,
+            "alt": "Andorinha-doméstica-grande (Progne chalybea)"
+          }
         }
       ]
     },
@@ -334,13 +504,13 @@
           "iucn": "LC",
           "wikidata": "Q2410091",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gymno_darwinii_face.jpg",
-            "author": "José Cassimiro",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gymno_darwinii_face.jpg",
-            "width": 400,
-            "height": 285,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444805307/large.jpeg",
+            "author": "Gustavo Sandres",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444805307",
+            "width": 1024,
+            "height": 687,
             "alt": "Lagartixa-da-Mata (Gymnodactylus darwinii)"
           }
         },
@@ -399,6 +569,44 @@
             "width": 597,
             "height": 435,
             "alt": "Falsa-Coral-de-Barriga-Branca (Oxyrhopus trigeminus)"
+          }
+        },
+        {
+          "gbifKey": 7522971,
+          "scientificName": "Erythrolamprus miliaris",
+          "name": "Cobra-lisa",
+          "family": "Colubridae",
+          "records": 16,
+          "iucn": "LC",
+          "wikidata": "Q2712325",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/18416073/large.jpg",
+            "author": "alessandradalia",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/18416073",
+            "width": 1024,
+            "height": 576,
+            "alt": "Cobra-lisa (Erythrolamprus miliaris)"
+          }
+        },
+        {
+          "gbifKey": 2454954,
+          "scientificName": "Leptodeira annulata",
+          "name": "Serpente-olho-de-gato-anelada",
+          "family": "Colubridae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q289823",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498891317/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/498891317",
+            "width": 1024,
+            "height": 768,
+            "alt": "Serpente-olho-de-gato-anelada (Leptodeira annulata)"
           }
         }
       ]
@@ -468,7 +676,7 @@
         {
           "gbifKey": 5217935,
           "scientificName": "Scinax alter",
-          "name": null,
+          "name": "Perereca-do-litoral",
           "family": "Hylidae",
           "records": 199,
           "iucn": "LC",
@@ -694,7 +902,7 @@
           "name": "Cravo-do-mato",
           "family": "Bromeliaceae",
           "records": 7,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q2709996",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tillandsia_recurvata.jpg/1280px-Tillandsia_recurvata.jpg",
@@ -744,6 +952,44 @@
             "height": 960,
             "alt": "Feijão da praia (Canavalia rosea)"
           }
+        },
+        {
+          "gbifKey": 4060951,
+          "scientificName": "Varronia curassavica",
+          "name": "Cordia curassavica",
+          "family": "Cordiaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q17414888",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/180003702/large.jpeg",
+            "author": "Diego Dos Anjos Souza",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/180003702",
+            "width": 1024,
+            "height": 768,
+            "alt": "Cordia curassavica (Varronia curassavica)"
+          }
+        },
+        {
+          "gbifKey": 5416458,
+          "scientificName": "Eugenia uniflora",
+          "name": "Pitanga",
+          "family": "Myrtaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q306504",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28753807/large.jpeg",
+            "author": "Peter Vos",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/28753807",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pitanga (Eugenia uniflora)"
+          }
         }
       ]
     }
@@ -752,22 +998,40 @@
     {
       "gbifKey": 11188375,
       "scientificName": "Glaucomastix littoralis",
-      "name": null,
+      "name": "Lagarto-da-cauda-verde-do-litoral",
       "family": "Teiidae",
       "records": null,
       "iucn": "EN",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/245773383/large.jpg",
+        "author": "Henrique Nogueira",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/245773383",
+        "width": 1024,
+        "height": 683,
+        "alt": "null (Glaucomastix littoralis)"
+      }
     },
     {
       "gbifKey": 5357781,
       "scientificName": "Inga maritima",
-      "name": null,
+      "name": "Ingá-da-restinga",
       "family": "Fabaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q1387908",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/150444217/large.jpeg",
+        "author": "Victor Farjalla Pontes",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/150444217",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Inga maritima)"
+      }
     },
     {
       "gbifKey": 9304784,
@@ -872,7 +1136,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q15375446",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/507991881/large.jpg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/507991881",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Myrcia ovata)"
+      }
     },
     {
       "gbifKey": 3186420,
@@ -931,5 +1204,6 @@
         "alt": "Coroa-de-Frade-Violeta-da-Praia (Melocactus violaceus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

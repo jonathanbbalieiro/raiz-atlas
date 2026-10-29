@@ -53,13 +53,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -176,6 +176,82 @@
             "height": 1012,
             "alt": "Tatupeba (Euphractus sexcinctus)"
           }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
+          }
+        },
+        {
+          "gbifKey": 2433716,
+          "scientificName": "Eira barbara",
+          "name": "Irara",
+          "family": "Mustelidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q247774",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/151904110/large.jpeg",
+            "author": "Patricio Cowper Coles",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/151904110",
+            "width": 1024,
+            "height": 768,
+            "alt": "Irara (Eira barbara)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/large.jpg",
+            "author": "pfaucher",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9834553",
+            "width": 1024,
+            "height": 683,
+            "alt": "suçuarana (Puma concolor)"
+          }
+        },
+        {
+          "gbifKey": 2436340,
+          "scientificName": "Tamandua tetradactyla",
+          "name": "Tamanduá-mirim",
+          "family": "Myrmecophagidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q267514",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10425251/large.jpg",
+            "author": "Instituto Últimos Refúgios",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10425251",
+            "width": 1024,
+            "height": 685,
+            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+          }
         }
       ]
     },
@@ -190,7 +266,7 @@
           "name": "Periquito-rei",
           "family": "Psittacidae",
           "records": 60,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q775485",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
@@ -231,14 +307,14 @@
           "iucn": "LC",
           "wikidata": "Q1433700",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cyanocorax_cristatellus%28m%29P5051282.JPG",
-            "author": "Ave watcher at English Wikipedia",
-            "license": "CC BY 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyanocorax_cristatellus(m)P5051282.JPG",
-            "width": 250,
-            "height": 252,
-            "alt": "gralha-do-campo (Cyanocorax cristatellus)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312055694/large.jpeg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/312055694",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gralha-do-campo (Cyanocorax cristatellus)"
           }
         },
         {
@@ -335,6 +411,158 @@
             "height": 853,
             "alt": "Tucano-toco (Ramphastos toco)"
           }
+        },
+        {
+          "gbifKey": 2488060,
+          "scientificName": "Schistochlamys ruficapillus",
+          "name": "Bico-de-veludo",
+          "family": "Thraupidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q2668144",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/578891764/large.jpg",
+            "author": "Miguel A. Paixão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/578891764",
+            "width": 1024,
+            "height": 575,
+            "alt": "Bico-de-veludo (Schistochlamys ruficapillus)"
+          }
+        },
+        {
+          "gbifKey": 5229640,
+          "scientificName": "Elaenia cristata",
+          "name": "Guaracava-de-topete-uniforme",
+          "family": "Tyrannidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q906558",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/689340556/large.jpg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/689340556",
+            "width": 1024,
+            "height": 768,
+            "alt": "Guaracava-de-topete-uniforme (Elaenia cristata)"
+          }
+        },
+        {
+          "gbifKey": 5231675,
+          "scientificName": "Mimus saturninus",
+          "name": "Sabiá-do-campo",
+          "family": "Mimidae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q1591533",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/666019431/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/666019431",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sabiá-do-campo (Mimus saturninus)"
+          }
+        },
+        {
+          "gbifKey": 2495295,
+          "scientificName": "Patagioenas cayennensis",
+          "name": "Pomba-galega",
+          "family": "Columbidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q1263074",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/61715963/large.jpg",
+            "author": "Carol McDougall",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/61715963",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pomba-galega (Patagioenas cayennensis)"
+          }
+        },
+        {
+          "gbifKey": 2483511,
+          "scientificName": "Camptostoma obsoletum",
+          "name": "Risadinha",
+          "family": "Tyrannidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q857875",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747236249/large.jpg",
+            "author": "Ad Konings",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/747236249",
+            "width": 1024,
+            "height": 730,
+            "alt": "Risadinha (Camptostoma obsoletum)"
+          }
+        },
+        {
+          "gbifKey": 2488550,
+          "scientificName": "Neothraupis fasciata",
+          "name": "Cigarra-do-campo",
+          "family": "Thraupidae",
+          "records": 20,
+          "iucn": "NT",
+          "wikidata": "Q916871",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/120460904/large.jpg",
+            "author": "Nick Athanas",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/120460904",
+            "width": 1024,
+            "height": 768,
+            "alt": "cigarra-do-campo (Neothraupis fasciata)"
+          }
+        },
+        {
+          "gbifKey": 2483589,
+          "scientificName": "Myiarchus tyrannulus",
+          "name": "Maria-cavaleira-de-rabo-enferrujado",
+          "family": "Tyrannidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q903898",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/387448295/large.jpg",
+            "author": "Alberto Cueto",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/387448295",
+            "width": 1024,
+            "height": 768,
+            "alt": "maria-cavaleira-de-rabo-enferrujado (Myiarchus tyrannulus)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/416376009",
+            "width": 1024,
+            "height": 684,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
         }
       ]
     },
@@ -422,12 +650,21 @@
         {
           "gbifKey": 7370154,
           "scientificName": "Rodriguesophis iglesiasi",
-          "name": null,
+          "name": "Cobra corredeira dos campos",
           "family": "Colubridae",
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q3381311",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/692327337/large.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/692327337",
+            "width": 1024,
+            "height": 869,
+            "alt": "null (Rodriguesophis iglesiasi)"
+          }
         }
       ]
     },
@@ -563,7 +800,7 @@
           "name": "Jenipapo-bravo",
           "family": "Rubiaceae",
           "records": 19,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15460984",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flickr_-_Jo%C3%A3o_de_Deus_Medeiros_-_Tocoyena_formosa_%281%29.jpg",
@@ -658,7 +895,7 @@
           "name": "Pau Terra",
           "family": "Vochysiaceae",
           "records": 13,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15336649",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flickr_-_BioDivLibrary_-_n81_w1150.jpg/1280px-Flickr_-_BioDivLibrary_-_n81_w1150.jpg",
@@ -674,7 +911,7 @@
         {
           "gbifKey": 5418067,
           "scientificName": "Eugenia punicifolia",
-          "name": null,
+          "name": "Pitanguinha-da-mata",
           "family": "Myrtaceae",
           "records": 61,
           "iucn": "LC",
@@ -731,7 +968,7 @@
         {
           "gbifKey": 3174691,
           "scientificName": "Myrcia splendens",
-          "name": null,
+          "name": "Batinga-Roxa",
           "family": "Myrtaceae",
           "records": 16,
           "iucn": "VU",
@@ -745,6 +982,44 @@
             "width": 960,
             "height": 626,
             "alt": "Myrcia splendens"
+          }
+        },
+        {
+          "gbifKey": 2863569,
+          "scientificName": "Vellozia squamata",
+          "name": "Canela-de-ema",
+          "family": "Velloziaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q15605043",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284753284/large.jpeg",
+            "author": "Bruno Luka de Souza Bambirra Silveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284753284",
+            "width": 1024,
+            "height": 683,
+            "alt": "Canela-de-ema (Vellozia squamata)"
+          }
+        },
+        {
+          "gbifKey": 5342608,
+          "scientificName": "Pterodon emarginatus",
+          "name": "Sucupira",
+          "family": "Fabaceae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q7215085",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/736520899/large.jpg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/736520899",
+            "width": 1024,
+            "height": 768,
+            "alt": "Sucupira (Pterodon emarginatus)"
           }
         }
       ]
@@ -817,13 +1092,13 @@
       "iucn": "VU",
       "wikidata": "Q220271",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-        "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-        "license": "CC BY-SA 2.5",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-        "width": 448,
-        "height": 336,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
         "alt": "Anta (Tapirus terrestris)"
       }
     },
@@ -925,7 +1200,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -944,12 +1219,21 @@
     {
       "gbifKey": 5570992,
       "scientificName": "Ficus calyptroceras",
-      "name": null,
+      "name": "Gameleira-branca",
       "family": "Moraceae",
       "records": null,
       "iucn": "VU",
       "wikidata": "Q5446602",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/364662547/large.jpeg",
+        "author": "Thomaz Ricardo Favreto Sinani, alguns direitos reservados (CC BY), carregado por Thomaz Ricardo Favreto Sinani",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/364662547",
+        "width": 1024,
+        "height": 683,
+        "alt": "Ficus calyptroceras (Ficus calyptroceras)"
+      }
     },
     {
       "gbifKey": 5938537,
@@ -959,7 +1243,17 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q17587895",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/430661706/large.jpeg",
+        "author": "vitordematos12",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/430661706",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Mouriri gardneri)"
+      }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

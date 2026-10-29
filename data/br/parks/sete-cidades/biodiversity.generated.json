@@ -91,13 +91,13 @@
           "iucn": "LC",
           "wikidata": "Q1548283",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Phyllostomus_hastatus.jpg",
-            "author": "Karin Schneeberger alias Felineora",
-            "license": "CC BY 3.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phyllostomus_hastatus.jpg",
-            "width": 467,
-            "height": 700,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/89981984/large.jpg",
+            "author": "Bruno de Medeiros",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/89981984",
+            "width": 1024,
+            "height": 683,
             "alt": "Morcego-Nariz-de-Lança-Grande (Phyllostomus hastatus)"
           }
         },
@@ -209,7 +209,7 @@
           "name": "Periquito-rei",
           "family": "Psittacidae",
           "records": 27,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q775485",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
@@ -304,7 +304,7 @@
           "name": "Sanhaço-cinzento",
           "family": "Thraupidae",
           "records": 24,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1588073",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg/1280px-Thraupis_sayaca_-_Sayaca_Tanager_-_Bertioga%2C_S%C3%A3o_Paulo%2C_Brazil.jpg",
@@ -334,6 +334,158 @@
             "width": 1280,
             "height": 1281,
             "alt": "pica-pau-ocráceo (Celeus ochraceus)"
+          }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 23,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 2482576,
+          "scientificName": "Cyanocorax cyanopogon",
+          "name": "Gralha-cancã",
+          "family": "Corvidae",
+          "records": 22,
+          "iucn": "LC",
+          "wikidata": "Q2667854",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/403424784/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/403424784",
+            "width": 1024,
+            "height": 629,
+            "alt": "Gralha-cancã (Cyanocorax cyanopogon)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2482913,
+          "scientificName": "Myiozetetes similis",
+          "name": "Bentevizinho-de-penacho-vermelho",
+          "family": "Tyrannidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q1265429",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2964634/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2964634",
+            "width": 1024,
+            "height": 682,
+            "alt": "bentevizinho-de-penacho-vermelho (Myiozetetes similis)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2487583,
+          "scientificName": "Polioptila plumbea",
+          "name": "Balança-rabo-de-chapéu-preto",
+          "family": "Polioptilidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q773487",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/3111714/large.jpg",
+            "author": "Leslie Flint",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/3111714",
+            "width": 1024,
+            "height": 819,
+            "alt": "balança-rabo-de-chapéu-preto (Polioptila plumbea)"
+          }
+        },
+        {
+          "gbifKey": 6093318,
+          "scientificName": "Thamnophilus pelzelni",
+          "name": "Choca-do-planalto",
+          "family": "Thamnophilidae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q1076023",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473405412/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473405412",
+            "width": 1024,
+            "height": 683,
+            "alt": "choca-do-planalto (Thamnophilus pelzelni)"
+          }
+        },
+        {
+          "gbifKey": 2483410,
+          "scientificName": "Megarynchus pitangua",
+          "name": "Neinei",
+          "family": "Tyrannidae",
+          "records": 17,
+          "iucn": "LC",
+          "wikidata": "Q876231",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/15496895/large.jpg",
+            "author": "Ken Chamberlain",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/15496895",
+            "width": 1024,
+            "height": 682,
+            "alt": "Neinei (Megarynchus pitangua)"
           }
         }
       ]
@@ -645,7 +797,7 @@
         {
           "gbifKey": 1864316,
           "scientificName": "Erinnyis ello",
-          "name": null,
+          "name": "Mandarová-da-mandioca",
           "family": "Sphingidae",
           "records": 2,
           "iucn": null,
@@ -688,7 +840,16 @@
           "records": 2,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/95401989/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/95401989",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Isognathus menechus)"
+          }
         }
       ]
     },
@@ -706,14 +867,14 @@
           "iucn": "LC",
           "wikidata": "Q34007",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Anacardium_occidentale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-010.jpg",
-            "author": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anacardium_occidentale_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-010.jpg",
-            "width": 425,
-            "height": 589,
-            "alt": "cajueiro (Anacardium occidentale)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250741175/large.jpeg",
+            "author": "Ericson Cernawsky Igual",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/250741175",
+            "width": 1024,
+            "height": 768,
+            "alt": "Cajueiro (Anacardium occidentale)"
           }
         },
         {
@@ -820,14 +981,14 @@
           "iucn": "LC",
           "wikidata": "Q15610091",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Ocotea_canaliculata_%28Rich.%29_Mez_-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%2817%29.jpg",
-            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocotea_canaliculata_(Rich.)_Mez_-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(17).jpg",
-            "width": 449,
-            "height": 800,
-            "alt": "louro-canela (Ocotea canaliculata)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/478583616/large.jpeg",
+            "author": "Tarciso Leão",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/478583616",
+            "width": 1024,
+            "height": 768,
+            "alt": "Louro-canela (Ocotea canaliculata)"
           }
         },
         {
@@ -874,7 +1035,7 @@
           "name": "Pau Terra",
           "family": "Vochysiaceae",
           "records": 16,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15336649",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flickr_-_BioDivLibrary_-_n81_w1150.jpg/1280px-Flickr_-_BioDivLibrary_-_n81_w1150.jpg",
@@ -885,6 +1046,25 @@
             "width": 1280,
             "height": 1732,
             "alt": "Pau Terra (Qualea parviflora)"
+          }
+        },
+        {
+          "gbifKey": 3698829,
+          "scientificName": "Combretum leprosum",
+          "name": "Mofumbo",
+          "family": "Combretaceae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q3896004",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28717404/large.jpeg",
+            "author": "Germaine Alexander Parada",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/28717404",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mofumbo (Combretum leprosum)"
           }
         }
       ]
@@ -900,13 +1080,13 @@
       "iucn": "EN",
       "wikidata": "Q5047715",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Piqui.jpg",
-        "author": "Rapper Ouriço",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piqui.jpg",
-        "width": 320,
-        "height": 240,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/608210987/large.jpg",
+        "author": "Centro Nacional de Conservação da Flora (CNCFlora/JBRJ)",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/608210987",
+        "width": 1024,
+        "height": 683,
         "alt": "Piqui (Caryocar coriaceum)"
       }
     },
@@ -951,7 +1131,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -1024,5 +1204,6 @@
         "alt": "Jacarandá-mimoso (Jacaranda mimosifolia)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

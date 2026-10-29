@@ -212,14 +212,14 @@
           "iucn": "LC",
           "wikidata": "Q1308722",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Schiffornis_turdina.jpg",
-            "author": "Dominic Sherony",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schiffornis_turdina.jpg",
-            "width": 498,
-            "height": 538,
-            "alt": "flautim-marrom (Schiffornis turdina)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/594544449/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/594544449",
+            "width": 1024,
+            "height": 683,
+            "alt": "Flautim-marrom (Schiffornis turdina)"
           }
         },
         {
@@ -250,14 +250,14 @@
           "iucn": "LC",
           "wikidata": "Q744905",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Glyphorynchus_spirurus_-NW_Ecuador-8.jpg",
-            "author": "Michael Woodruff",
-            "license": "CC BY-SA 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glyphorynchus_spirurus_-NW_Ecuador-8.jpg",
-            "width": 441,
-            "height": 600,
-            "alt": "arapaçu-bico-de-cunha (Glyphorynchus spirurus)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/467345810/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/467345810",
+            "width": 1024,
+            "height": 683,
+            "alt": "Arapaçu-bico-de-cunha (Glyphorynchus spirurus)"
           }
         },
         {
@@ -335,6 +335,139 @@
             "height": 961,
             "alt": "Tucano-de-peito-branco (Ramphastos tucanus)"
           }
+        },
+        {
+          "gbifKey": 2486506,
+          "scientificName": "Lipaugus vociferans",
+          "name": "Cri-crió",
+          "family": "Cotingidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q1067401",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339541586/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/339541586",
+            "width": 1024,
+            "height": 682,
+            "alt": "Cri-crió (Lipaugus vociferans)"
+          }
+        },
+        {
+          "gbifKey": 5230149,
+          "scientificName": "Xiphorhynchus obsoletus",
+          "name": "Arapaçu-riscado",
+          "family": "Furnariidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q931633",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/626532845/large.jpg",
+            "author": "Lindolfo Souto",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/626532845",
+            "width": 1024,
+            "height": 738,
+            "alt": "arapaçu-riscado (Xiphorhynchus obsoletus)"
+          }
+        },
+        {
+          "gbifKey": 7341385,
+          "scientificName": "Hypocnemis striata",
+          "name": "Cantador-estriado",
+          "family": "Thamnophilidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q1265299",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/755696963/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/755696963",
+            "width": 1024,
+            "height": 682,
+            "alt": "cantador-estriado (Hypocnemis striata)"
+          }
+        },
+        {
+          "gbifKey": 2476667,
+          "scientificName": "Eupetomena macroura",
+          "name": "Beija-Flor Tesoura",
+          "family": "Trochilidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q906894",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/475410853/large.jpeg",
+            "author": "Inacio Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/475410853",
+            "width": 1024,
+            "height": 819,
+            "alt": "Beija-Flor Tesoura (Eupetomena macroura)"
+          }
+        },
+        {
+          "gbifKey": 2477560,
+          "scientificName": "Crypturellus undulatus",
+          "name": "Jaó",
+          "family": "Tinamidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q510118",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/734723288/large.jpg",
+            "author": "avocat",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/734723288",
+            "width": 1024,
+            "height": 797,
+            "alt": "Jaó (Crypturellus undulatus)"
+          }
+        },
+        {
+          "gbifKey": 2482965,
+          "scientificName": "Myiopagis gaimardii",
+          "name": "Maria-pechim",
+          "family": "Tyrannidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q840136",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/576811280/large.jpg",
+            "author": "Jo Roberts",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/576811280",
+            "width": 1024,
+            "height": 768,
+            "alt": "maria-pechim (Myiopagis gaimardii)"
+          }
+        },
+        {
+          "gbifKey": 2483861,
+          "scientificName": "Ramphotrigon ruficauda",
+          "name": "Bico-chato-de-rabo-vermelho",
+          "family": "Tyrannidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q1274141",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/477088747/large.jpg",
+            "author": "Attila Oláh",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/477088747",
+            "width": 1024,
+            "height": 683,
+            "alt": "bico-chato-de-rabo-vermelho (Ramphotrigon ruficauda)"
+          }
         }
       ]
     },
@@ -390,13 +523,13 @@
           "iucn": "LC",
           "wikidata": "Q289823",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Leptodeira_annulata01.jpg",
-            "author": "Andreas Schlüter",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leptodeira_annulata01.jpg",
-            "width": 473,
-            "height": 770,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/498891317/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/498891317",
+            "width": 1024,
+            "height": 768,
             "alt": "Serpente-olho-de-gato-anelada (Leptodeira annulata)"
           }
         },
@@ -422,7 +555,7 @@
         {
           "gbifKey": 2467558,
           "scientificName": "Anolis fuscoauratus",
-          "name": null,
+          "name": "Calango-Bandeira",
           "family": "Dactyloidae",
           "records": 5,
           "iucn": "LC",
@@ -562,7 +695,7 @@
         {
           "gbifKey": 2427639,
           "scientificName": "Osteocephalus taurinus",
-          "name": null,
+          "name": "Perereca-de-perna-fina",
           "family": "Hylidae",
           "records": 5,
           "iucn": "LC",
@@ -861,7 +994,7 @@
         {
           "gbifKey": 3174691,
           "scientificName": "Myrcia splendens",
-          "name": null,
+          "name": "Batinga-Roxa",
           "family": "Myrtaceae",
           "records": 22,
           "iucn": "VU",
@@ -894,6 +1027,44 @@
             "width": 1280,
             "height": 1650,
             "alt": "Apeiba petoumo"
+          }
+        },
+        {
+          "gbifKey": 4939555,
+          "scientificName": "Theobroma subincanum",
+          "name": "Cupuí",
+          "family": "Malvaceae",
+          "records": 21,
+          "iucn": "LC",
+          "wikidata": "Q10262384",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/249983151/large.jpeg",
+            "author": "Sébastien SANT",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/249983151",
+            "width": 1024,
+            "height": 768,
+            "alt": "Cupuí (Theobroma subincanum)"
+          }
+        },
+        {
+          "gbifKey": 3157126,
+          "scientificName": "Xylopia aromatica",
+          "name": "Pimenta-de-macaco",
+          "family": "Annonaceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q8045504",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/238922836/large.jpeg",
+            "author": "Guilherme A. Fischer",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/238922836",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pimenta-de-macaco (Xylopia aromatica)"
           }
         }
       ]
@@ -994,7 +1165,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q5446650",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/165887255/large.jpeg",
+        "author": "Riley Fortier, alguns direitos reservados (CC BY-NC), carregado por Riley Fortier",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/165887255",
+        "width": 1024,
+        "height": 683,
+        "alt": "Ficus ursina (Ficus ursina)"
+      }
     },
     {
       "gbifKey": 5571955,
@@ -1009,7 +1189,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -1092,5 +1272,6 @@
       "wikidata": "Q690941",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

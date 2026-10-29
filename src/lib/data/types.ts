@@ -125,7 +125,8 @@ export type LostKind =
   | "possivelmente_extinta"
   | "extinta_localmente"
   | "megafauna_fossil"
-  | "reintroduzida";
+  | "reintroduzida"
+  | "recolonizada";
 
 export interface LostSpecies {
   kind: LostKind;

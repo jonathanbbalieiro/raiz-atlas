@@ -91,14 +91,14 @@
           "iucn": "LC",
           "wikidata": "Q267514",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
-            "author": "Sinara Conessa",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-            "width": 492,
-            "height": 640,
-            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg",
+            "author": "Manu Santa-Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473054518",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-mirim (Tamandua tetradactyla)"
           }
         },
         {
@@ -278,6 +278,158 @@
             "height": 960,
             "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
           }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 2480989,
+          "scientificName": "Caracara plancus",
+          "name": "Carcará",
+          "family": "Falconidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q755119",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350512706/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/350512706",
+            "width": 1024,
+            "height": 682,
+            "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2487430,
+          "scientificName": "Vireo olivaceus",
+          "name": "Juruviara",
+          "family": "Vireonidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q582976",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158043683/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/158043683",
+            "width": 1024,
+            "height": 683,
+            "alt": "Juruviara (Vireo olivaceus)"
+          }
+        },
+        {
+          "gbifKey": 2487970,
+          "scientificName": "Euphonia violacea",
+          "name": "Gaturamo-verdadeiro",
+          "family": "Fringillidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q1051007",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109218734/large.jpeg",
+            "author": "Daniel Cavallari",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/109218734",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gaturamo-verdadeiro (Euphonia violacea)"
+          }
+        },
+        {
+          "gbifKey": 6093310,
+          "scientificName": "Thamnophilus ambiguus",
+          "name": "Choca-de-sooretama",
+          "family": "Thamnophilidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q1075996",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507241/large.jpg",
+            "author": "Nigel Voaden",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1507241",
+            "width": 1024,
+            "height": 683,
+            "alt": "choca-de-sooretama (Thamnophilus ambiguus)"
+          }
+        },
+        {
+          "gbifKey": 7341176,
+          "scientificName": "Pheugopedius genibarbis",
+          "name": "Garrinchão-pai-avô",
+          "family": "Troglodytidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q4767732",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/710268599/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/710268599",
+            "width": 1024,
+            "height": 683,
+            "alt": "garrinchão-pai-avô (Pheugopedius genibarbis)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/416376009",
+            "width": 1024,
+            "height": 684,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
         }
       ]
     },
@@ -399,6 +551,25 @@
             "height": 594,
             "alt": "Lagartixinha-Anã (Coleodactylus meridionalis)"
           }
+        },
+        {
+          "gbifKey": 2464899,
+          "scientificName": "Boa constrictor",
+          "name": "Jiboia-constritora",
+          "family": "Boidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q215388",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/591372805/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/591372805",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jiboia-constritora (Boa constrictor)"
+          }
         }
       ]
     },
@@ -448,7 +619,7 @@
         {
           "gbifKey": 10863437,
           "scientificName": "Boana faber",
-          "name": null,
+          "name": "Perereca-martelo",
           "family": "Hylidae",
           "records": 11,
           "iucn": "LC",
@@ -658,13 +829,13 @@
           "iucn": "LC",
           "wikidata": "Q17140701",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Xylopia_frutescens_Aubl._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%2813%29.jpg",
-            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xylopia_frutescens_Aubl._-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(13).jpg",
-            "width": 449,
-            "height": 800,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/606120715/large.jpg",
+            "author": "fmunoz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/606120715",
+            "width": 1024,
+            "height": 683,
             "alt": "Embira (Xylopia frutescens)"
           }
         },
@@ -810,14 +981,14 @@
           "iucn": null,
           "wikidata": "Q15589273",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Coccoloba_laevis_Casar._-_Flickr_-_Alex_Popovkin%2C_Bahia%2C_Brazil_%285%29.jpg",
-            "author": "Alex Popovkin, Bahia, Brazil from Brazil",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coccoloba_laevis_Casar._-_Flickr_-_Alex_Popovkin,_Bahia,_Brazil_(5).jpg",
-            "width": 449,
-            "height": 800,
-            "alt": "Coccoloba laevis"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/404747627/large.jpeg",
+            "author": "vitordematos12",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/404747627",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Coccoloba laevis)"
           }
         },
         {
@@ -846,12 +1017,21 @@
     {
       "gbifKey": 11150593,
       "scientificName": "Glaucomastix abaetensis",
-      "name": null,
+      "name": "Calango-de-abaeté",
       "family": "Teiidae",
       "records": null,
       "iucn": "EN",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/507518142/large.jpg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/507518142",
+        "width": 1024,
+        "height": 648,
+        "alt": "null (Glaucomastix abaetensis)"
+      }
     },
     {
       "gbifKey": 5285917,
@@ -875,12 +1055,21 @@
     {
       "gbifKey": 5224842,
       "scientificName": "Tropidurus hygomi",
-      "name": null,
+      "name": "Lagartixa-de-Restinga",
       "family": "Tropiduridae",
       "records": null,
       "iucn": "VU",
       "wikidata": "Q3540748",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/12746698/large.jpeg",
+        "author": "B. Phalan",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/12746698",
+        "width": 1024,
+        "height": 684,
+        "alt": "null (Tropidurus hygomi)"
+      }
     },
     {
       "gbifKey": 2490108,
@@ -904,7 +1093,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -939,5 +1128,6 @@
         "alt": "Camboim (Myrciaria floribunda)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

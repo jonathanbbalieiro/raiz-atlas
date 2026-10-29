@@ -176,6 +176,82 @@
             "height": 853,
             "alt": "Capivara (Hydrochoerus hydrochaeris)"
           }
+        },
+        {
+          "gbifKey": 5219704,
+          "scientificName": "Cavia aperea",
+          "name": "Preá",
+          "family": "Caviidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q679706",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57093876/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/57093876",
+            "width": 1024,
+            "height": 768,
+            "alt": "preá (Cavia aperea)"
+          }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
+          }
+        },
+        {
+          "gbifKey": 2436340,
+          "scientificName": "Tamandua tetradactyla",
+          "name": "Tamanduá-mirim",
+          "family": "Myrmecophagidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q267514",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/10425251/large.jpg",
+            "author": "Instituto Últimos Refúgios",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/10425251",
+            "width": 1024,
+            "height": 685,
+            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+          }
+        },
+        {
+          "gbifKey": 2433738,
+          "scientificName": "Lontra longicaudis",
+          "name": "Lontra-neotropical",
+          "family": "Mustelidae",
+          "records": 3,
+          "iucn": "NT",
+          "wikidata": "Q839828",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/13141335/large.jpg",
+            "author": "Rich Hoyer",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/13141335",
+            "width": 1024,
+            "height": 798,
+            "alt": "Lontra-neotropical (Lontra longicaudis)"
+          }
         }
       ]
     },
@@ -228,7 +304,7 @@
           "name": "Gralha-azul",
           "family": "Corvidae",
           "records": 161,
-          "iucn": null,
+          "iucn": "NT",
           "wikidata": "Q794340",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gralha-azul-PARNA_de_S%C3%A3o_Joaquim-RicFotos%28001%29.jpg/1280px-Gralha-azul-PARNA_de_S%C3%A3o_Joaquim-RicFotos%28001%29.jpg",
@@ -334,6 +410,158 @@
             "width": 960,
             "height": 638,
             "alt": "Quete-do-sul (Microspingus cabanisi)"
+          }
+        },
+        {
+          "gbifKey": 2491862,
+          "scientificName": "Sicalis flaveola",
+          "name": "Canário-da-terra-verdadeiro",
+          "family": "Thraupidae",
+          "records": 109,
+          "iucn": "LC",
+          "wikidata": "Q1064372",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263906744/large.jpg",
+            "author": "Gabriel Brachetti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/263906744",
+            "width": 1024,
+            "height": 698,
+            "alt": "canário-da-terra-verdadeiro (Sicalis flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2485067,
+          "scientificName": "Cinclodes pabsti",
+          "name": "Pedreirinho",
+          "family": "Furnariidae",
+          "records": 108,
+          "iucn": "NT",
+          "wikidata": "Q1269639",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/613977964/large.jpg",
+            "author": "Jonathan Lorencetti Ehlert",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/613977964",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pedreirinho (Cinclodes pabsti)"
+          }
+        },
+        {
+          "gbifKey": 2492002,
+          "scientificName": "Embernagra platensis",
+          "name": "Sabiá-do-banhado",
+          "family": "Thraupidae",
+          "records": 96,
+          "iucn": "LC",
+          "wikidata": "Q948074",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/549583274/large.jpg",
+            "author": "Luciano Silveira",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/549583274",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sabiá-do-banhado (Embernagra platensis)"
+          }
+        },
+        {
+          "gbifKey": 2480989,
+          "scientificName": "Caracara plancus",
+          "name": "Carcará",
+          "family": "Falconidae",
+          "records": 93,
+          "iucn": "LC",
+          "wikidata": "Q755119",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/350512706/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/350512706",
+            "width": 1024,
+            "height": 682,
+            "alt": "carcará (Caracara plancus)"
+          }
+        },
+        {
+          "gbifKey": 2485139,
+          "scientificName": "Leptasthenura striolata",
+          "name": "Grimpeirinho",
+          "family": "Furnariidae",
+          "records": 87,
+          "iucn": "LC",
+          "wikidata": "Q1266888",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/494116014/large.jpeg",
+            "author": "Marcelo Schmidt Roberti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/494116014",
+            "width": 1024,
+            "height": 886,
+            "alt": "Grimpeirinho (Leptasthenura striolata)"
+          }
+        },
+        {
+          "gbifKey": 2483229,
+          "scientificName": "Phylloscartes ventralis",
+          "name": "Borboletinha-do-mato",
+          "family": "Tyrannidae",
+          "records": 112,
+          "iucn": "LC",
+          "wikidata": "Q1271621",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27858355/large.jpeg",
+            "author": "Rob Van Epps",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/27858355",
+            "width": 1024,
+            "height": 712,
+            "alt": "borboletinha-do-mato (Phylloscartes ventralis)"
+          }
+        },
+        {
+          "gbifKey": 2485140,
+          "scientificName": "Leptasthenura setaria",
+          "name": "Grimpeiro",
+          "family": "Furnariidae",
+          "records": 112,
+          "iucn": "LC",
+          "wikidata": "Q1259849",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/258124502/large.jpg",
+            "author": "sobania",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/258124502",
+            "width": 1024,
+            "height": 769,
+            "alt": "grimpeiro (Leptasthenura setaria)"
+          }
+        },
+        {
+          "gbifKey": 2495287,
+          "scientificName": "Patagioenas picazuro",
+          "name": "Asa-branca",
+          "family": "Columbidae",
+          "records": 99,
+          "iucn": "LC",
+          "wikidata": "Q1269659",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48616256/large.jpeg",
+            "author": "Pablo Balduvino",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/48616256",
+            "width": 1024,
+            "height": 576,
+            "alt": "Asa-branca (Patagioenas picazuro)"
           }
         }
       ]
@@ -857,16 +1085,6 @@
             "height": 1417,
             "alt": "Pleopeltis macrocarpa"
           }
-        },
-        {
-          "gbifKey": 2970134,
-          "scientificName": "Mimosa involucrata",
-          "name": null,
-          "family": "Fabaceae",
-          "records": 13,
-          "iucn": null,
-          "wikidata": "Q15448802",
-          "photo": null
         }
       ]
     }
@@ -951,12 +1169,21 @@
     {
       "gbifKey": 3597154,
       "scientificName": "Citronella engleriana",
-      "name": null,
+      "name": "Guaríba",
       "family": "Cardiopteridaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15379501",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109766711/large.jpeg",
+        "author": "Luís A. Funez, alguns direitos reservados (CC BY-NC), carregado por Luís A. Funez",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/109766711",
+        "width": 1024,
+        "height": 768,
+        "alt": "Citronella engleriana (Citronella engleriana)"
+      }
     },
     {
       "gbifKey": 2969460,
@@ -966,7 +1193,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15453708",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420406823/large.jpeg",
+        "author": "Micael De Bona",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/420406823",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Mimosa taimbensis)"
+      }
     },
     {
       "gbifKey": 7888715,
@@ -986,7 +1222,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": "Q27075171",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/647208115/large.jpg",
+        "author": "Marcelo Schmidt Roberti",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/647208115",
+        "width": 1024,
+        "height": 844,
+        "alt": "Noivinha-de-rabo-preto (Heteroxolmis dominicana)"
+      }
     },
     {
       "gbifKey": 2479639,
@@ -1029,12 +1274,21 @@
     {
       "gbifKey": 11029392,
       "scientificName": "Stilpnia peruviana",
-      "name": null,
+      "name": "Saíra-sapucaia",
       "family": "Thraupidae",
       "records": null,
       "iucn": "VU",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/386384074/large.jpg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/386384074",
+        "width": 1024,
+        "height": 576,
+        "alt": "null (Stilpnia peruviana)"
+      }
     },
     {
       "gbifKey": 2434930,
@@ -1055,5 +1309,6 @@
         "alt": "gato-do-mato-pequeno (Leopardus tigrinus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

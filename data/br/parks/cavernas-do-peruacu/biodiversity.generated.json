@@ -129,14 +129,14 @@
           "iucn": "LC",
           "wikidata": "Q267514",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
-            "author": "Sinara Conessa",
-            "license": "CC BY 2.0",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-            "width": 492,
-            "height": 640,
-            "alt": "tamanduá-mirim (Tamandua tetradactyla)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/473054518/large.jpeg",
+            "author": "Manu Santa-Cruz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/473054518",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-mirim (Tamandua tetradactyla)"
           }
         },
         {
@@ -175,6 +175,101 @@
             "width": 1280,
             "height": 1920,
             "alt": "suçuarana (Puma concolor)"
+          }
+        },
+        {
+          "gbifKey": 2437582,
+          "scientificName": "Dasyprocta azarae",
+          "name": "Cutia-de-Azara",
+          "family": "Dasyproctidae",
+          "records": 18,
+          "iucn": "DD",
+          "wikidata": "Q643741",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305628453/large.jpeg",
+            "author": "Luciano Massa",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/305628453",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cutia-de-Azara (Dasyprocta azarae)"
+          }
+        },
+        {
+          "gbifKey": 2440779,
+          "scientificName": "Dasypus novemcinctus",
+          "name": "Tatu-galinha",
+          "family": "Dasypodidae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q649549",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/552761863/large.jpg",
+            "author": "Bruno Henrique Aranda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/552761863",
+            "width": 1024,
+            "height": 683,
+            "alt": "Tatu-galinha (Dasypus novemcinctus)"
+          }
+        },
+        {
+          "gbifKey": 2433716,
+          "scientificName": "Eira barbara",
+          "name": "Irara",
+          "family": "Mustelidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q247774",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/151904110/large.jpeg",
+            "author": "Patricio Cowper Coles",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/151904110",
+            "width": 1024,
+            "height": 768,
+            "alt": "Irara (Eira barbara)"
+          }
+        },
+        {
+          "gbifKey": 2440799,
+          "scientificName": "Euphractus sexcinctus",
+          "name": "Tatupeba",
+          "family": "Dasypodidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q902876",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284959585/large.jpeg",
+            "author": "Jan Ebr &amp; Ivana Ebrová",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284959585",
+            "width": 1024,
+            "height": 684,
+            "alt": "Tatupeba (Euphractus sexcinctus)"
+          }
+        },
+        {
+          "gbifKey": 2433173,
+          "scientificName": "Diphylla ecaudata",
+          "name": "Morcego-vampiro-de-pernas-peludas",
+          "family": "Phyllostomidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q717028",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/192627340/large.jpeg",
+            "author": "Juan Cruzado Cortés",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/192627340",
+            "width": 1024,
+            "height": 683,
+            "alt": "Morcego-vampiro-de-pernas-peludas (Diphylla ecaudata)"
           }
         }
       ]
@@ -247,7 +342,7 @@
           "name": "Periquito-da-caatinga",
           "family": "Psittacidae",
           "records": 217,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q595526",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Aratinga_cactorum_-Brazil-8-2c.jpg",
@@ -334,6 +429,158 @@
             "width": 1280,
             "height": 1087,
             "alt": "Fogo-apagou (Columbina squammata)"
+          }
+        },
+        {
+          "gbifKey": 2496060,
+          "scientificName": "Leptotila verreauxi",
+          "name": "Juriti-pupu",
+          "family": "Columbidae",
+          "records": 179,
+          "iucn": "LC",
+          "wikidata": "Q1066498",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/328583079/large.jpeg",
+            "author": "Forest Botial-Jarvis",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/328583079",
+            "width": 1024,
+            "height": 645,
+            "alt": "Juriti-pupu (Leptotila verreauxi)"
+          }
+        },
+        {
+          "gbifKey": 2490113,
+          "scientificName": "Herpsilochmus atricapillus",
+          "name": "Chorozinho-de-chapéu-preto",
+          "family": "Thamnophilidae",
+          "records": 174,
+          "iucn": "LC",
+          "wikidata": "Q512096",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256377659/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/256377659",
+            "width": 1024,
+            "height": 576,
+            "alt": "Chorozinho-de-chapéu-preto (Herpsilochmus atricapillus)"
+          }
+        },
+        {
+          "gbifKey": 2496634,
+          "scientificName": "Trogon surrucura",
+          "name": "Surucuá-variado",
+          "family": "Trogonidae",
+          "records": 174,
+          "iucn": "LC",
+          "wikidata": "Q1267847",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/445801423/large.jpeg",
+            "author": "Pedro Henrique Maloso Ramos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/445801423",
+            "width": 1024,
+            "height": 836,
+            "alt": "surucuá-variado (Trogon surrucura)"
+          }
+        },
+        {
+          "gbifKey": 5232118,
+          "scientificName": "Glaucidium brasilianum",
+          "name": "Caburé",
+          "family": "Strigidae",
+          "records": 166,
+          "iucn": "LC",
+          "wikidata": "Q518608",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/256364645/large.jpg",
+            "author": "Corey Farwell",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/256364645",
+            "width": 1024,
+            "height": 684,
+            "alt": "Caburé (Glaucidium brasilianum)"
+          }
+        },
+        {
+          "gbifKey": 2482882,
+          "scientificName": "Tolmomyias sulphurescens",
+          "name": "Bico-chato-de-orelha-preta",
+          "family": "Tyrannidae",
+          "records": 163,
+          "iucn": "LC",
+          "wikidata": "Q948121",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/247017924/large.jpeg",
+            "author": "Andrea Gantzer",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/247017924",
+            "width": 1024,
+            "height": 681,
+            "alt": "Bico-chato-de-orelha-preta (Tolmomyias sulphurescens)"
+          }
+        },
+        {
+          "gbifKey": 2491988,
+          "scientificName": "Coryphospingus pileatus",
+          "name": "Tico-tico-rei-cinza",
+          "family": "Thraupidae",
+          "records": 160,
+          "iucn": "LC",
+          "wikidata": "Q2668333",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/382760668/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/382760668",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tico-tico-rei-cinza (Coryphospingus pileatus)"
+          }
+        },
+        {
+          "gbifKey": 2475195,
+          "scientificName": "Nystalus maculatus",
+          "name": "Rapazinho-dos-velhos",
+          "family": "Bucconidae",
+          "records": 151,
+          "iucn": "LC",
+          "wikidata": "Q1268455",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/756434416/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/756434416",
+            "width": 1024,
+            "height": 683,
+            "alt": "rapazinho-dos-velhos (Nystalus maculatus)"
+          }
+        },
+        {
+          "gbifKey": 2485785,
+          "scientificName": "Dendrocolaptes platyrostris",
+          "name": "Arapaçu-grande",
+          "family": "Furnariidae",
+          "records": 110,
+          "iucn": "LC",
+          "wikidata": "Q1274502",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/278377638/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/278377638",
+            "width": 1024,
+            "height": 683,
+            "alt": "Arapaçu-grande (Dendrocolaptes platyrostris)"
           }
         }
       ]
@@ -456,6 +703,82 @@
             "height": 722,
             "alt": "Papa-vento (Polychrus acutirostris)"
           }
+        },
+        {
+          "gbifKey": 5224839,
+          "scientificName": "Tropidurus etheridgei",
+          "name": "Calango-de-Colar",
+          "family": "Tropiduridae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q3540743",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449661546/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/449661546",
+            "width": 1024,
+            "height": 683,
+            "alt": "Calango-de-Colar (Tropidurus etheridgei)"
+          }
+        },
+        {
+          "gbifKey": 8957561,
+          "scientificName": "Tropidurus hispidus",
+          "name": "Calango-de-pedra",
+          "family": "Tropiduridae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/29017539/large.jpg",
+            "author": "B. Phalan",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/29017539",
+            "width": 1024,
+            "height": 688,
+            "alt": "Calango-de-pedra (Tropidurus hispidus)"
+          }
+        },
+        {
+          "gbifKey": 2459858,
+          "scientificName": "Stenocercus quinarius",
+          "name": "Lagarto-de-Chifres",
+          "family": "Tropiduridae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q3012701",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/69158707/large.jpg",
+            "author": "Reuber Brandão",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/69158707",
+            "width": 1024,
+            "height": 819,
+            "alt": "Lagarto-de-Chifres (Stenocercus quinarius)"
+          }
+        },
+        {
+          "gbifKey": 7811691,
+          "scientificName": "Micrurus brasiliensis",
+          "name": "Coral Cola Corta Brasileña",
+          "family": "Elapidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q3312503",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/90829083/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/90829083",
+            "width": 1024,
+            "height": 768,
+            "alt": "Coral Cola Corta Brasileña (Micrurus brasiliensis)"
+          }
         }
       ]
     },
@@ -576,6 +899,82 @@
             "width": 960,
             "height": 720,
             "alt": "Sapinho-Cachorro (Physalaemus cicada)"
+          }
+        },
+        {
+          "gbifKey": 5218010,
+          "scientificName": "Boana lundii",
+          "name": "Perereca-usina",
+          "family": "Hylidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": null,
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60218559/large.jpg",
+            "author": "Carlos Otávio Gussoni",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/60218559",
+            "width": 1024,
+            "height": 732,
+            "alt": "Perereca-usina (Boana lundii)"
+          }
+        },
+        {
+          "gbifKey": 2428456,
+          "scientificName": "Dendropsophus rubicundulus",
+          "name": "Pererequinha-verde",
+          "family": "Hylidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2702662",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/171809081/large.jpeg",
+            "author": "Mario Barroso",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/171809081",
+            "width": 1024,
+            "height": 683,
+            "alt": "pererequinha-verde (Dendropsophus rubicundulus)"
+          }
+        },
+        {
+          "gbifKey": 5216900,
+          "scientificName": "Rhinella granulosa",
+          "name": "Sapo-da-areia",
+          "family": "Bufonidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2212394",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/444962987/large.jpeg",
+            "author": "Jean Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/444962987",
+            "width": 1024,
+            "height": 772,
+            "alt": "Sapo-da-areia (Rhinella granulosa)"
+          }
+        },
+        {
+          "gbifKey": 5216992,
+          "scientificName": "Rhinella diptycha",
+          "name": "Sapo-boi",
+          "family": "Bufonidae",
+          "records": 2,
+          "iucn": "DD",
+          "wikidata": "Q27987572",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/623922151/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/623922151",
+            "width": 1024,
+            "height": 768,
+            "alt": "Sapo-boi (Rhinella diptycha)"
           }
         }
       ]
@@ -788,7 +1187,7 @@
           "name": "Barriguda-lisa",
           "family": "Malvaceae",
           "records": 17,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15360513",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Cavanillesia_umbellata_-_20090913.jpg/960px-Cavanillesia_umbellata_-_20090913.jpg",
@@ -895,6 +1294,158 @@
             "height": 450,
             "alt": "Alfazema-brava (Mesosphaerum suaveolens)"
           }
+        },
+        {
+          "gbifKey": 5660277,
+          "scientificName": "Cordia americana",
+          "name": "Guajuvira",
+          "family": "Cordiaceae",
+          "records": 25,
+          "iucn": "LC",
+          "wikidata": "Q15576348",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471098620/large.jpeg",
+            "author": "Cecilia Fer Díaz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/471098620",
+            "width": 1024,
+            "height": 768,
+            "alt": "Guajuvira (Cordia americana)"
+          }
+        },
+        {
+          "gbifKey": 9416767,
+          "scientificName": "Cenostigma pluviosum",
+          "name": "Faveira",
+          "family": "Fabaceae",
+          "records": 10,
+          "iucn": null,
+          "wikidata": "Q42669493",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/209435305/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/209435305",
+            "width": 1024,
+            "height": 653,
+            "alt": "Faveira (Cenostigma pluviosum)"
+          }
+        },
+        {
+          "gbifKey": 2950722,
+          "scientificName": "Hymenaea stigonocarpa",
+          "name": "Jatobá-do-cerrado",
+          "family": "Fabaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q15488584",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/283867143/large.jpeg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/283867143",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jatobá-do-cerrado (Hymenaea stigonocarpa)"
+          }
+        },
+        {
+          "gbifKey": 2957438,
+          "scientificName": "Senna spectabilis",
+          "name": "Cassia spectabilis",
+          "family": "Fabaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q2720974",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/239131058/large.jpg",
+            "author": "Neptalí Ramírez Marcial",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/239131058",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cassia spectabilis (Senna spectabilis)"
+          }
+        },
+        {
+          "gbifKey": 7284033,
+          "scientificName": "Tacinga saxatilis",
+          "name": "Quipá-açú",
+          "family": "Cactaceae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q149171",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/153971332/large.jpeg",
+            "author": "Meri Oliveira",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/153971332",
+            "width": 1024,
+            "height": 768,
+            "alt": "Quipá-açú (Tacinga saxatilis)"
+          }
+        },
+        {
+          "gbifKey": 5289673,
+          "scientificName": "Setaria vulpiseta",
+          "name": "Capim-rabo-de-raposa",
+          "family": "Poaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q7456365",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/66381648/large.jpg",
+            "author": "Liu Idárraga Orozco",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/66381648",
+            "width": 1024,
+            "height": 576,
+            "alt": "Capim-rabo-de-raposa (Setaria vulpiseta)"
+          }
+        },
+        {
+          "gbifKey": 5415377,
+          "scientificName": "Ruellia brevifolia",
+          "name": "Pingo-de-sangue",
+          "family": "Acanthaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q3005936",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/98791804/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/98791804",
+            "width": 1024,
+            "height": 683,
+            "alt": "Pingo-de-sangue (Ruellia brevifolia)"
+          }
+        },
+        {
+          "gbifKey": 2952692,
+          "scientificName": "Peltogyne confertiflora",
+          "name": "Pau-roxo",
+          "family": "Fabaceae",
+          "records": 4,
+          "iucn": null,
+          "wikidata": "Q15539889",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/352068068/large.jpg",
+            "author": "Thomaz Ricardo Favreto Sinani",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/352068068",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau-roxo (Peltogyne confertiflora)"
+          }
         }
       ]
     }
@@ -941,12 +1492,21 @@
     {
       "gbifKey": 8216459,
       "scientificName": "Ceiba rubriflora",
-      "name": null,
+      "name": "Barriguda-vermelha",
       "family": "Malvaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q17573394",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/301279886/large.jpg",
+        "author": "Martin Lowry, alguns direitos reservados (CC BY-NC), carregado por Martin Lowry",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/301279886",
+        "width": 1024,
+        "height": 684,
+        "alt": "Ceiba rubriflora (Ceiba rubriflora)"
+      }
     },
     {
       "gbifKey": 2982345,
@@ -995,7 +1555,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q18076363",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/388171848/large.jpeg",
+        "author": "vitordematos12, alguns direitos reservados (CC BY-SA), carregado por vitordematos12",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/388171848",
+        "width": 1024,
+        "height": 768,
+        "alt": "Pilocarpus trachylophus (Pilocarpus trachylophus)"
+      }
     },
     {
       "gbifKey": 5622772,
@@ -1092,5 +1661,6 @@
         "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

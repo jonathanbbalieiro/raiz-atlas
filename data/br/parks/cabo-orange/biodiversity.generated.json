@@ -28,12 +28,21 @@
         {
           "gbifKey": 9518324,
           "scientificName": "Procyon cancrivorus",
-          "name": null,
+          "name": "Guaxinim-sul-americano",
           "family": "Procyonidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/140948898/large.jpg",
+            "author": "João Vitor Oliveira de Souza",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/140948898",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Procyon cancrivorus)"
+          }
         }
       ]
     },
@@ -193,6 +202,158 @@
             "height": 1634,
             "alt": "Savacu-de-coroa (Nyctanassa violacea)"
           }
+        },
+        {
+          "gbifKey": 6065844,
+          "scientificName": "Leucophaeus atricilla",
+          "name": "Gaivota-alegre",
+          "family": "Laridae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q528764",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/380868920/large.jpeg",
+            "author": "Jared Shorma",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/380868920",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gaivota-alegre (Leucophaeus atricilla)"
+          }
+        },
+        {
+          "gbifKey": 2481720,
+          "scientificName": "Tringa melanoleuca",
+          "name": "Perna-amarela-grande",
+          "family": "Scolopacidae",
+          "records": 6,
+          "iucn": "NT",
+          "wikidata": "Q570379",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/433087980/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/433087980",
+            "width": 1024,
+            "height": 683,
+            "alt": "Perna-amarela-grande (Tringa melanoleuca)"
+          }
+        },
+        {
+          "gbifKey": 5229662,
+          "scientificName": "Tyrannus melancholicus",
+          "name": "Suiriri",
+          "family": "Tyrannidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1273578",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/233887054/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/233887054",
+            "width": 1024,
+            "height": 683,
+            "alt": "suiriri (Tyrannus melancholicus)"
+          }
+        },
+        {
+          "gbifKey": 9752617,
+          "scientificName": "Ardea alba",
+          "name": "Garça-branca-grande",
+          "family": "Ardeidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q130730",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/123196245/large.jpg",
+            "author": "Shiva Shenoy",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/123196245",
+            "width": 1024,
+            "height": 819,
+            "alt": "Garça-branca-grande (Ardea alba)"
+          }
+        },
+        {
+          "gbifKey": 2480295,
+          "scientificName": "Charadrius semipalmatus",
+          "name": "Batuíra-de-bando",
+          "family": "Charadriidae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q468009",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/23981362/large.jpeg",
+            "author": "Quinten Wiegersma",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/23981362",
+            "width": 1024,
+            "height": 683,
+            "alt": "Batuíra-de-bando (Charadrius semipalmatus)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 2484396,
+          "scientificName": "Molothrus bonariensis",
+          "name": "Chupim",
+          "family": "Icteridae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1586890",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/158695164/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/158695164",
+            "width": 1024,
+            "height": 750,
+            "alt": "Chupim (Molothrus bonariensis)"
+          }
         }
       ]
     },
@@ -302,7 +463,7 @@
           "name": null,
           "family": "Fabaceae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q109860640",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Abarema_jupunba_%28Willd.%29_Britton_%26_Killip_%287559083470%29.jpg/1280px-Abarema_jupunba_%28Willd.%29_Britton_%26_Killip_%287559083470%29.jpg",
@@ -342,7 +503,16 @@
           "records": 12,
           "iucn": "LC",
           "wikidata": "Q10348424",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/372501211/large.jpg",
+            "author": "Guillaume Léotard",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/372501211",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pepino-do-mato (Ambelania acida)"
+          }
         },
         {
           "gbifKey": 5333899,
@@ -350,9 +520,18 @@
           "name": null,
           "family": "Sapotaceae",
           "records": 19,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q15333454",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/657031403/large.jpg",
+            "author": "Guillaume Léotard",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/657031403",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Micropholis mensalis)"
+          }
         },
         {
           "gbifKey": 7286876,
@@ -362,7 +541,111 @@
           "records": 17,
           "iucn": "LC",
           "wikidata": "Q15547485",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/650103293/large.jpg",
+            "author": "Guillaume Léotard",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/650103293",
+            "width": 1024,
+            "height": 771,
+            "alt": "null (Protium opacum)"
+          }
+        },
+        {
+          "gbifKey": 2884608,
+          "scientificName": "Pouteria venosa",
+          "name": "Aboirana",
+          "family": "Sapotaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q9561047",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/263580145/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/263580145",
+            "width": 1024,
+            "height": 768,
+            "alt": "Aboirana (Pouteria venosa)"
+          }
+        },
+        {
+          "gbifKey": 2971008,
+          "scientificName": "Dialium guianense",
+          "name": "Jataipeva",
+          "family": "Fabaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q10306429",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63162004/large.jpeg",
+            "author": "Silvano LG",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/63162004",
+            "width": 1024,
+            "height": 653,
+            "alt": "Jataipeva (Dialium guianense)"
+          }
+        },
+        {
+          "gbifKey": 3086528,
+          "scientificName": "Rhizophora mangle",
+          "name": "Mangue-vermelho",
+          "family": "Rhizophoraceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q853914",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109052911/large.jpg",
+            "author": "Reid Hardin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/109052911",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mangue-vermelho (Rhizophora mangle)"
+          }
+        },
+        {
+          "gbifKey": 3189382,
+          "scientificName": "Laguncularia racemosa",
+          "name": "Mangue-branco",
+          "family": "Combretaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q1760533",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/119482003/large.jpeg",
+            "author": "Stuart Fisher",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/119482003",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mangue-branco (Laguncularia racemosa)"
+          }
+        },
+        {
+          "gbifKey": 3190513,
+          "scientificName": "Carapa guianensis",
+          "name": "Andiroba",
+          "family": "Meliaceae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q309552",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/530759303/large.jpg",
+            "author": "Mario Guzmán",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/530759303",
+            "width": 1024,
+            "height": 768,
+            "alt": "Andiroba (Carapa guianensis)"
+          }
         }
       ]
     }
@@ -407,5 +690,6 @@
         "alt": "Perna-amarela-pequeno (Tringa flavipes)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

@@ -53,13 +53,13 @@
           "iucn": "LC",
           "wikidata": "Q717028",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Hairyvampireskull.jpg",
-            "author": "Elliot, Daniel Giraud, 1835-1915",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hairyvampireskull.jpg",
-            "width": 309,
-            "height": 273,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/192627340/large.jpeg",
+            "author": "Juan Cruzado Cortés",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/192627340",
+            "width": 1024,
+            "height": 683,
             "alt": "Morcego-vampiro-de-pernas-peludas (Diphylla ecaudata)"
           }
         },
@@ -72,13 +72,13 @@
           "iucn": "LC",
           "wikidata": "Q1833011",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lonchorhina.jpg",
-            "author": "Autor desconhecido",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lonchorhina.jpg",
-            "width": 209,
-            "height": 142,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/62172188/large.jpeg",
+            "author": "Juan Cruzado Cortés",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/62172188",
+            "width": 1024,
+            "height": 683,
             "alt": "Morcego (Lonchorhina aurita)"
           }
         },
@@ -110,13 +110,13 @@
           "iucn": "LC",
           "wikidata": "Q83592",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Intro_wide_polls_intro_vertebrate_species_3.jpg",
-            "author": "NBII",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intro_wide_polls_intro_vertebrate_species_3.jpg",
-            "width": 300,
-            "height": 450,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/259409573/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/259409573",
+            "width": 1024,
+            "height": 768,
             "alt": "Morcego-Focinhudo (Anoura geoffroyi)"
           }
         },
@@ -175,6 +175,25 @@
             "width": 1280,
             "height": 1217,
             "alt": "Morcego-vampiro-comum (Desmodus rotundus)"
+          }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
           }
         }
       ]
@@ -335,6 +354,158 @@
             "height": 1163,
             "alt": "Formigueiro-pintalgado (Myrmorchilus strigilatus)"
           }
+        },
+        {
+          "gbifKey": 5231103,
+          "scientificName": "Zonotrichia capensis",
+          "name": "Tico-tico",
+          "family": "Passerellidae",
+          "records": 99,
+          "iucn": "LC",
+          "wikidata": "Q587505",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111624314/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111624314",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tico-tico (Zonotrichia capensis)"
+          }
+        },
+        {
+          "gbifKey": 5231675,
+          "scientificName": "Mimus saturninus",
+          "name": "Sabiá-do-campo",
+          "family": "Mimidae",
+          "records": 74,
+          "iucn": "LC",
+          "wikidata": "Q1591533",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/666019431/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/666019431",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sabiá-do-campo (Mimus saturninus)"
+          }
+        },
+        {
+          "gbifKey": 2487964,
+          "scientificName": "Euphonia chlorotica",
+          "name": "Fim-fim",
+          "family": "Fringillidae",
+          "records": 73,
+          "iucn": "LC",
+          "wikidata": "Q268032",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/114805174/large.jpg",
+            "author": "Thibaud Aronson",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/114805174",
+            "width": 1024,
+            "height": 683,
+            "alt": "Fim-fim (Euphonia chlorotica)"
+          }
+        },
+        {
+          "gbifKey": 2492086,
+          "scientificName": "Paroaria dominicana",
+          "name": "Cardeal-do-nordeste",
+          "family": "Thraupidae",
+          "records": 72,
+          "iucn": "LC",
+          "wikidata": "Q2668576",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/639691578/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/639691578",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cardeal-do-nordeste (Paroaria dominicana)"
+          }
+        },
+        {
+          "gbifKey": 5959208,
+          "scientificName": "Thamnophilus doliatus",
+          "name": "Choca-barrada",
+          "family": "Thamnophilidae",
+          "records": 63,
+          "iucn": "LC",
+          "wikidata": "Q863581",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/141529941/large.jpeg",
+            "author": "Daniel Cavallari",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/141529941",
+            "width": 1024,
+            "height": 768,
+            "alt": "choca-barrada (Thamnophilus doliatus)"
+          }
+        },
+        {
+          "gbifKey": 5230499,
+          "scientificName": "Hylophilus amaurocephalus",
+          "name": "Vite-vite-de-olho-cinza",
+          "family": "Vireonidae",
+          "records": 61,
+          "iucn": "LC",
+          "wikidata": "Q1588380",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/169120242/large.jpg",
+            "author": "Thomaz de Carvalho Callado",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/169120242",
+            "width": 1024,
+            "height": 683,
+            "alt": "Vite-vite-de-olho-cinza (Hylophilus amaurocephalus)"
+          }
+        },
+        {
+          "gbifKey": 2483511,
+          "scientificName": "Camptostoma obsoletum",
+          "name": "Risadinha",
+          "family": "Tyrannidae",
+          "records": 66,
+          "iucn": "LC",
+          "wikidata": "Q857875",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/747236249/large.jpg",
+            "author": "Ad Konings",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/747236249",
+            "width": 1024,
+            "height": 730,
+            "alt": "Risadinha (Camptostoma obsoletum)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 59,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
         }
       ]
     },
@@ -456,6 +627,44 @@
             "height": 1248,
             "alt": "bribinha-da-caatinga (Lygodactylus klugei)"
           }
+        },
+        {
+          "gbifKey": 2459658,
+          "scientificName": "Iguana iguana",
+          "name": "Iguana-verde",
+          "family": "Iguanidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q215376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/365307657/large.jpeg",
+            "author": "Daniel Manzur",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/365307657",
+            "width": 1024,
+            "height": 683,
+            "alt": "iguana-verde (Iguana iguana)"
+          }
+        },
+        {
+          "gbifKey": 2468217,
+          "scientificName": "Diploglossus lessonae",
+          "name": "Briba",
+          "family": "Diploglossidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2546359",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/108112726/large.jpg",
+            "author": "Célio Moura Neto",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/108112726",
+            "width": 1024,
+            "height": 780,
+            "alt": "Briba (Diploglossus lessonae)"
+          }
         }
       ]
     },
@@ -508,9 +717,18 @@
           "name": null,
           "family": "Leptodactylidae",
           "records": 3,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/243984335/large.jpeg",
+            "author": "Samuel Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/243984335",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Leptodactylus payaya)"
+          }
         },
         {
           "gbifKey": 5217986,
@@ -520,7 +738,16 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q2707133",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/706872384/large.jpg",
+            "author": "Inacio Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/706872384",
+            "width": 1024,
+            "height": 819,
+            "alt": "null (Phyllodytes acuminatus)"
+          }
         }
       ]
     },
@@ -786,7 +1013,7 @@
         {
           "gbifKey": 5293875,
           "scientificName": "Syagrus coronata",
-          "name": null,
+          "name": "Licurí",
           "family": "Arecaceae",
           "records": 201,
           "iucn": "LC",
@@ -838,6 +1065,63 @@
             "width": 960,
             "height": 720,
             "alt": "Guapira noxia"
+          }
+        },
+        {
+          "gbifKey": 3957919,
+          "scientificName": "Tacinga palmadora",
+          "name": "Palmatória (planta)",
+          "family": "Cactaceae",
+          "records": 45,
+          "iucn": "LC",
+          "wikidata": "Q148275",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/706308842/large.jpg",
+            "author": "Inacio Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/706308842",
+            "width": 1024,
+            "height": 683,
+            "alt": "Palmatória (planta) (Tacinga palmadora)"
+          }
+        },
+        {
+          "gbifKey": 2874847,
+          "scientificName": "Turnera diffusa",
+          "name": "Damiana",
+          "family": "Turneraceae",
+          "records": 19,
+          "iucn": "LC",
+          "wikidata": "Q932516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/168391898/large.jpg",
+            "author": "John Rosford",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/168391898",
+            "width": 1024,
+            "height": 837,
+            "alt": "Damiana (Turnera diffusa)"
+          }
+        },
+        {
+          "gbifKey": 2966693,
+          "scientificName": "Geoffroea spinosa",
+          "name": "Umarizeiro",
+          "family": "Fabaceae",
+          "records": 18,
+          "iucn": "LC",
+          "wikidata": "Q5877379",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67842739/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/67842739",
+            "width": 1024,
+            "height": 683,
+            "alt": "Umarizeiro (Geoffroea spinosa)"
           }
         }
       ]
@@ -911,5 +1195,6 @@
         "alt": "Camboim (Myrciaria floribunda)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

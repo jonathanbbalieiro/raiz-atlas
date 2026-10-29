@@ -148,13 +148,13 @@
           "iucn": "VU",
           "wikidata": "Q220271",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tapirus_terrestris.jpg",
-            "author": "No machine-readable author provided. Exlibris~commonswiki assumed (based on copy",
-            "license": "CC BY-SA 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tapirus_terrestris.jpg",
-            "width": 448,
-            "height": 336,
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+            "author": "Thomas Galewski",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+            "width": 1024,
+            "height": 683,
             "alt": "Anta (Tapirus terrestris)"
           }
         },
@@ -175,6 +175,63 @@
             "width": 960,
             "height": 1050,
             "alt": "Veado-mateiro (Mazama americana)"
+          }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 20,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 2436346,
+          "scientificName": "Myrmecophaga tridactyla",
+          "name": "Tamanduá-bandeira",
+          "family": "Myrmecophagidae",
+          "records": 9,
+          "iucn": "VU",
+          "wikidata": "Q203033",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/345917023/large.jpeg",
+            "author": "djcooker",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/345917023",
+            "width": 1024,
+            "height": 576,
+            "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)"
+          }
+        },
+        {
+          "gbifKey": 2434883,
+          "scientificName": "Conepatus semistriatus",
+          "name": "Jaritataca",
+          "family": "Mephitidae",
+          "records": 35,
+          "iucn": "LC",
+          "wikidata": "Q688635",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60280410/large.jpeg",
+            "author": "Ramón Trinchan",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/60280410",
+            "width": 1024,
+            "height": 768,
+            "alt": "Jaritataca (Conepatus semistriatus)"
           }
         }
       ]
@@ -209,7 +266,7 @@
           "name": "Periquito-rei",
           "family": "Psittacidae",
           "records": 112,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q775485",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Aratinga_aurea-0.jpg",
@@ -269,14 +326,14 @@
           "iucn": "LC",
           "wikidata": "Q1433700",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cyanocorax_cristatellus%28m%29P5051282.JPG",
-            "author": "Ave watcher at English Wikipedia",
-            "license": "CC BY 2.5",
-            "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyanocorax_cristatellus(m)P5051282.JPG",
-            "width": 250,
-            "height": 252,
-            "alt": "gralha-do-campo (Cyanocorax cristatellus)"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/312055694/large.jpeg",
+            "author": "Nicolas Olejnik",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/312055694",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gralha-do-campo (Cyanocorax cristatellus)"
           }
         },
         {
@@ -334,6 +391,158 @@
             "width": 1280,
             "height": 985,
             "alt": "Asa-branca (Patagioenas picazuro)"
+          }
+        },
+        {
+          "gbifKey": 5231675,
+          "scientificName": "Mimus saturninus",
+          "name": "Sabiá-do-campo",
+          "family": "Mimidae",
+          "records": 55,
+          "iucn": "LC",
+          "wikidata": "Q1591533",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/666019431/large.jpg",
+            "author": "Wallace Carneiro Almeida",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/666019431",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sabiá-do-campo (Mimus saturninus)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 53,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 5231103,
+          "scientificName": "Zonotrichia capensis",
+          "name": "Tico-tico",
+          "family": "Passerellidae",
+          "records": 52,
+          "iucn": "LC",
+          "wikidata": "Q587505",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111624314/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111624314",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tico-tico (Zonotrichia capensis)"
+          }
+        },
+        {
+          "gbifKey": 2483242,
+          "scientificName": "Hirundinea ferruginea",
+          "name": "Gibão-de-couro",
+          "family": "Tyrannidae",
+          "records": 51,
+          "iucn": "LC",
+          "wikidata": "Q979415",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/752318883/large.jpg",
+            "author": "Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/752318883",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gibão-de-couro (Hirundinea ferruginea)"
+          }
+        },
+        {
+          "gbifKey": 5231162,
+          "scientificName": "Emberizoides herbicola",
+          "name": "Canário-do-campo",
+          "family": "Thraupidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q2668579",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/543025853/large.jpg",
+            "author": "Álvaro Rivas Godin",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/543025853",
+            "width": 1024,
+            "height": 877,
+            "alt": "Canário-do-campo (Emberizoides herbicola)"
+          }
+        },
+        {
+          "gbifKey": 2495888,
+          "scientificName": "Columbina squammata",
+          "name": "Fogo-apagou",
+          "family": "Columbidae",
+          "records": 48,
+          "iucn": "LC",
+          "wikidata": "Q1259412",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/21908232/large.jpeg",
+            "author": "Douglas",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/21908232",
+            "width": 1024,
+            "height": 681,
+            "alt": "Fogo-apagou (Columbina squammata)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        },
+        {
+          "gbifKey": 2488622,
+          "scientificName": "Thraupis sayaca",
+          "name": "Sanhaço-cinzento",
+          "family": "Thraupidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q1588073",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9892758/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9892758",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaço-cinzento (Thraupis sayaca)"
           }
         }
       ]
@@ -455,6 +664,44 @@
             "width": 596,
             "height": 346,
             "alt": "Cobra-cipó (Philodryas nattereri)"
+          }
+        },
+        {
+          "gbifKey": 9246453,
+          "scientificName": "Erythrolamprus almadensis",
+          "name": "Jararaquinha-do-campo",
+          "family": "Colubridae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q3242025",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/639058670/large.jpg",
+            "author": "Inacio Oliveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/639058670",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jararaquinha-do-campo (Erythrolamprus almadensis)"
+          }
+        },
+        {
+          "gbifKey": 2444433,
+          "scientificName": "Crotalus durissus",
+          "name": "Cascavel",
+          "family": "Viperidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q854864",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/696835095/large.jpg",
+            "author": "Lucas Botelho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/696835095",
+            "width": 1024,
+            "height": 683,
+            "alt": "cascavel (Crotalus durissus)"
           }
         }
       ]
@@ -645,7 +892,7 @@
         {
           "gbifKey": 1862198,
           "scientificName": "Xylophanes tersa",
-          "name": null,
+          "name": "Esfinge-tersa",
           "family": "Sphingidae",
           "records": 32,
           "iucn": null,
@@ -697,6 +944,25 @@
             "width": 1280,
             "height": 1409,
             "alt": "Callionima parce"
+          }
+        },
+        {
+          "gbifKey": 1864951,
+          "scientificName": "Dirphia rubricauda",
+          "name": "Mariposa-marte",
+          "family": "Saturniidae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q13475682",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/244247112/large.jpeg",
+            "author": "Samuel Martins",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/244247112",
+            "width": 1024,
+            "height": 768,
+            "alt": "Mariposa-marte (Dirphia rubricauda)"
           }
         }
       ]
@@ -861,7 +1127,7 @@
         {
           "gbifKey": 2949909,
           "scientificName": "Chamaecrista desvauxii",
-          "name": null,
+          "name": "Erva-de-coração",
           "family": "Fabaceae",
           "records": 52,
           "iucn": "LC",
@@ -894,6 +1160,44 @@
             "width": 952,
             "height": 768,
             "alt": "Stipecoma peltigera"
+          }
+        },
+        {
+          "gbifKey": 2863569,
+          "scientificName": "Vellozia squamata",
+          "name": "Canela-de-ema",
+          "family": "Velloziaceae",
+          "records": 34,
+          "iucn": "LC",
+          "wikidata": "Q15605043",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284753284/large.jpeg",
+            "author": "Bruno Luka de Souza Bambirra Silveira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284753284",
+            "width": 1024,
+            "height": 683,
+            "alt": "Canela-de-ema (Vellozia squamata)"
+          }
+        },
+        {
+          "gbifKey": 7288348,
+          "scientificName": "Qualea parviflora",
+          "name": "Pau Terra",
+          "family": "Vochysiaceae",
+          "records": 37,
+          "iucn": "LC",
+          "wikidata": "Q15336649",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/100050879/large.jpg",
+            "author": "nelson_filho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/100050879",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau Terra (Qualea parviflora)"
           }
         }
       ]
@@ -957,7 +1261,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q107054775",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/304780240/large.jpg",
+        "author": "Mauricio Mercadante",
+        "license": "CC BY-NC-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/304780240",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Mimosa rheiptera)"
+      }
     },
     {
       "gbifKey": 3133631,
@@ -1045,7 +1358,17 @@
       "records": null,
       "iucn": "EN",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/418844233/large.jpeg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/418844233",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Hyptis penaeoides)"
+      }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

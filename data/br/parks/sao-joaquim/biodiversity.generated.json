@@ -176,6 +176,82 @@
             "height": 870,
             "alt": "Morcego-orelhudo-da-montanha (Histiotus montanus)"
           }
+        },
+        {
+          "gbifKey": 2440995,
+          "scientificName": "Pecari tajacu",
+          "name": "Caititu",
+          "family": "Tayassuidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q741516",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/106082486/large.jpeg",
+            "author": "Alejandro Alfredo Aguirre",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/106082486",
+            "width": 1024,
+            "height": 768,
+            "alt": "caititu (Pecari tajacu)"
+          }
+        },
+        {
+          "gbifKey": 5220123,
+          "scientificName": "Mazama americana",
+          "name": "Veado-mateiro",
+          "family": "Cervidae",
+          "records": 4,
+          "iucn": "DD",
+          "wikidata": "Q1763357",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/73723109/large.jpeg",
+            "author": "Fábio Olmos",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/73723109",
+            "width": 1024,
+            "height": 767,
+            "alt": "Veado-mateiro (Mazama americana)"
+          }
+        },
+        {
+          "gbifKey": 2434982,
+          "scientificName": "Leopardus pardalis",
+          "name": "Jaguatirica",
+          "family": "Felidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q33261",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+            "author": "Emily Turteltaub Nelson",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+            "width": 1024,
+            "height": 682,
+            "alt": "Jaguatirica (Leopardus pardalis)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 4,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/large.jpg",
+            "author": "pfaucher",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9834553",
+            "width": 1024,
+            "height": 683,
+            "alt": "suçuarana (Puma concolor)"
+          }
         }
       ]
     },
@@ -228,7 +304,7 @@
           "name": "Gralha-azul",
           "family": "Corvidae",
           "records": 49,
-          "iucn": null,
+          "iucn": "NT",
           "wikidata": "Q794340",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gralha-azul-PARNA_de_S%C3%A3o_Joaquim-RicFotos%28001%29.jpg/1280px-Gralha-azul-PARNA_de_S%C3%A3o_Joaquim-RicFotos%28001%29.jpg",
@@ -334,6 +410,139 @@
             "width": 500,
             "height": 382,
             "alt": "Sanhaço-frade (Stephanophorus diadematus)"
+          }
+        },
+        {
+          "gbifKey": 2477535,
+          "scientificName": "Crypturellus obsoletus",
+          "name": "Inhambu-guaçu",
+          "family": "Tinamidae",
+          "records": 32,
+          "iucn": "LC",
+          "wikidata": "Q843266",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/634973892/large.jpg",
+            "author": "Eduardo Gomyde",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/634973892",
+            "width": 1024,
+            "height": 651,
+            "alt": "Inhambu-guaçu (Crypturellus obsoletus)"
+          }
+        },
+        {
+          "gbifKey": 2485139,
+          "scientificName": "Leptasthenura striolata",
+          "name": "Grimpeirinho",
+          "family": "Furnariidae",
+          "records": 27,
+          "iucn": "LC",
+          "wikidata": "Q1266888",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/494116014/large.jpeg",
+            "author": "Marcelo Schmidt Roberti",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/494116014",
+            "width": 1024,
+            "height": 886,
+            "alt": "Grimpeirinho (Leptasthenura striolata)"
+          }
+        },
+        {
+          "gbifKey": 2478233,
+          "scientificName": "Colaptes campestris",
+          "name": "Pica-pau-do-campo",
+          "family": "Picidae",
+          "records": 30,
+          "iucn": "LC",
+          "wikidata": "Q1274176",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/26374853/large.jpeg",
+            "author": "joelsilvero",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/26374853",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pica-pau-do-campo (Colaptes campestris)"
+          }
+        },
+        {
+          "gbifKey": 2483229,
+          "scientificName": "Phylloscartes ventralis",
+          "name": "Borboletinha-do-mato",
+          "family": "Tyrannidae",
+          "records": 30,
+          "iucn": "LC",
+          "wikidata": "Q1271621",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/27858355/large.jpeg",
+            "author": "Rob Van Epps",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/27858355",
+            "width": 1024,
+            "height": 712,
+            "alt": "borboletinha-do-mato (Phylloscartes ventralis)"
+          }
+        },
+        {
+          "gbifKey": 2481942,
+          "scientificName": "Coragyps atratus",
+          "name": "Urubu-de-cabeça-preta",
+          "family": "Cathartidae",
+          "records": 28,
+          "iucn": "LC",
+          "wikidata": "Q213366",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/176419188/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/176419188",
+            "width": 1024,
+            "height": 682,
+            "alt": "Urubu-de-cabeça-preta (Coragyps atratus)"
+          }
+        },
+        {
+          "gbifKey": 5230924,
+          "scientificName": "Saltator maxillosus",
+          "name": "Bico-grosso",
+          "family": "Thraupidae",
+          "records": 28,
+          "iucn": "LC",
+          "wikidata": "Q221540",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/118924869/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/118924869",
+            "width": 1024,
+            "height": 657,
+            "alt": "bico-grosso (Saltator maxillosus)"
+          }
+        },
+        {
+          "gbifKey": 2486043,
+          "scientificName": "Lepidocolaptes falcinellus",
+          "name": "Arapaçu-escamado-do-sul",
+          "family": "Furnariidae",
+          "records": 27,
+          "iucn": "LC",
+          "wikidata": "Q1268140",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/253159/large.jpg",
+            "author": "Cláudio Dias Timm",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/253159",
+            "width": 1024,
+            "height": 807,
+            "alt": "Arapaçu-escamado-do-sul (Lepidocolaptes falcinellus)"
           }
         }
       ]
@@ -508,7 +717,7 @@
           "name": null,
           "family": "Hylidae",
           "records": 17,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q137806985",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg/1280px-Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg",
@@ -538,6 +747,25 @@
             "width": 579,
             "height": 385,
             "alt": "Scinax perereca"
+          }
+        },
+        {
+          "gbifKey": 2423564,
+          "scientificName": "Physalaemus gracilis",
+          "name": "Caçote",
+          "family": "Leptodactylidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q693600",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/193837820/large.jpeg",
+            "author": "João Gava Just",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/193837820",
+            "width": 1024,
+            "height": 683,
+            "alt": "Caçote (Physalaemus gracilis)"
           }
         }
       ]
@@ -612,7 +840,16 @@
           "records": 5,
           "iucn": null,
           "wikidata": "Q21278667",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/547126052/large.jpg",
+            "author": "Maria Isabel Weyermanns",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/547126052",
+            "width": 1024,
+            "height": 671,
+            "alt": "null (Lonomia parobliqua)"
+          }
         },
         {
           "gbifKey": 1809971,
@@ -622,7 +859,16 @@
           "records": 2,
           "iucn": null,
           "wikidata": "Q13398910",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/258620125/large.jpg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/258620125",
+            "width": 1024,
+            "height": 684,
+            "alt": "null (Leucanopsis leucanina)"
+          }
         }
       ]
     },
@@ -672,7 +918,7 @@
         {
           "gbifKey": 3185702,
           "scientificName": "Myrceugenia myrcioides",
-          "name": null,
+          "name": "Araçarana",
           "family": "Myrtaceae",
           "records": 72,
           "iucn": "NT",
@@ -701,22 +947,40 @@
         {
           "gbifKey": 5646025,
           "scientificName": "Drimys angustifolia",
-          "name": null,
+          "name": "Casca d'anta",
           "family": "Winteraceae",
           "records": 60,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q17245797",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/471645633/large.jpeg",
+            "author": "João Gava Just",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/471645633",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Drimys angustifolia)"
+          }
         },
         {
           "gbifKey": 3185674,
           "scientificName": "Myrceugenia euosma",
-          "name": null,
+          "name": "Guamirim-de-folha-fina",
           "family": "Myrtaceae",
           "records": 58,
           "iucn": null,
           "wikidata": "Q15373081",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/351670206/large.jpeg",
+            "author": "Enrique Salazar",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/351670206",
+            "width": 1024,
+            "height": 576,
+            "alt": "null (Myrceugenia euosma)"
+          }
         },
         {
           "gbifKey": 2969460,
@@ -726,27 +990,35 @@
           "records": 48,
           "iucn": "EN",
           "wikidata": "Q15453708",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420406823/large.jpeg",
+            "author": "Micael De Bona",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/420406823",
+            "width": 1024,
+            "height": 768,
+            "alt": "null (Mimosa taimbensis)"
+          }
         },
         {
-          "gbifKey": 3891901,
-          "scientificName": "Glechon discolor",
-          "name": null,
-          "family": "Lamiaceae",
-          "records": 48,
-          "iucn": null,
-          "wikidata": "Q15356972",
-          "photo": null
-        },
-        {
-          "gbifKey": 4127001,
-          "scientificName": "Chusquea windischii",
-          "name": null,
-          "family": "Poaceae",
-          "records": 48,
-          "iucn": null,
-          "wikidata": "Q15514061",
-          "photo": null
+          "gbifKey": 2970213,
+          "scientificName": "Mimosa scabrella",
+          "name": "Bracatinga",
+          "family": "Fabaceae",
+          "records": 16,
+          "iucn": "LC",
+          "wikidata": "Q6862341",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/316927372/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/316927372",
+            "width": 1024,
+            "height": 768,
+            "alt": "Bracatinga (Mimosa scabrella)"
+          }
         }
       ]
     }
@@ -789,17 +1061,35 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15453708",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/420406823/large.jpeg",
+        "author": "Micael De Bona",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/420406823",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Mimosa taimbensis)"
+      }
     },
     {
       "gbifKey": 4031051,
       "scientificName": "Crinodendron brasiliense",
-      "name": null,
+      "name": "Cinzeiro",
       "family": "Elaeocarpaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15336560",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/109767875/large.jpeg",
+        "author": "Luís A. Funez",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/109767875",
+        "width": 1024,
+        "height": 768,
+        "alt": "Crinodendron brasiliense (Crinodendron brasiliense)"
+      }
     },
     {
       "gbifKey": 2930362,
@@ -809,7 +1099,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15536413",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/448349295/large.jpeg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/448349295",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Solanum pabstii)"
+      }
     },
     {
       "gbifKey": 8048287,
@@ -819,7 +1118,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/323603811/large.jpg",
+        "author": "Cesar Ormazabal",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/323603811",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Anemone decapetala)"
+      }
     },
     {
       "gbifKey": 2479617,
@@ -867,17 +1175,35 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q42748894",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/268482151/large.jpeg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/268482151",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Myrcia ferruginosa)"
+      }
     },
     {
       "gbifKey": 3186541,
       "scientificName": "Myrciaria plinioides",
-      "name": null,
+      "name": "Mini-jabuticaba-azul",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15379435",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/630211528/large.jpg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/630211528",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Myrciaria plinioides)"
+      }
     },
     {
       "gbifKey": 3994755,
@@ -887,7 +1213,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15586809",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/229912401/large.jpg",
+        "author": "Júlia Gava Sandrini",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/229912401",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Roupala asplenioides)"
+      }
     },
     {
       "gbifKey": 2434930,
@@ -908,5 +1243,6 @@
         "alt": "gato-do-mato-pequeno (Leopardus tigrinus)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

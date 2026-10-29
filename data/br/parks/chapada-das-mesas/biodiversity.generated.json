@@ -69,7 +69,7 @@
           "name": "Dermanura cinerea",
           "family": "Phyllostomidae",
           "records": 2,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q428359",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Artibeus_cinereus_tenda.jpg/1280px-Artibeus_cinereus_tenda.jpg",
@@ -110,14 +110,14 @@
           "iucn": "LC",
           "wikidata": "Q139432",
           "photo": {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Phyllostoma_obscurum.jpg",
-            "author": "Johann Christian Daniel von Schreber",
-            "license": "Public domain",
-            "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-            "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phyllostoma_obscurum.jpg",
-            "width": 190,
-            "height": 161,
-            "alt": "Artibeus obscurus"
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/483677495/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/483677495",
+            "width": 1024,
+            "height": 683,
+            "alt": "null (Artibeus obscurus)"
           }
         },
         {
@@ -147,7 +147,16 @@
           "records": 4,
           "iucn": "LC",
           "wikidata": "Q1768860",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/743845682/large.jpg",
+            "author": "Claudio Martins de Souza",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/743845682",
+            "width": 1024,
+            "height": 683,
+            "alt": "Rato-do-chão (Thalpomys lasiotis)"
+          }
         }
       ]
     },
@@ -307,6 +316,158 @@
             "height": 985,
             "alt": "Asa-branca (Patagioenas picazuro)"
           }
+        },
+        {
+          "gbifKey": 2486400,
+          "scientificName": "Procnias averano",
+          "name": "Araponga-do-Nordeste",
+          "family": "Cotingidae",
+          "records": 15,
+          "iucn": "NT",
+          "wikidata": "Q776062",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/63556952/large.jpg",
+            "author": "William Stephens",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/63556952",
+            "width": 1024,
+            "height": 768,
+            "alt": "Araponga-do-Nordeste (Procnias averano)"
+          }
+        },
+        {
+          "gbifKey": 2495888,
+          "scientificName": "Columbina squammata",
+          "name": "Fogo-apagou",
+          "family": "Columbidae",
+          "records": 15,
+          "iucn": "LC",
+          "wikidata": "Q1259412",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/21908232/large.jpeg",
+            "author": "Douglas",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/21908232",
+            "width": 1024,
+            "height": 681,
+            "alt": "Fogo-apagou (Columbina squammata)"
+          }
+        },
+        {
+          "gbifKey": 2482874,
+          "scientificName": "Tolmomyias flaviventris",
+          "name": "Bico-chato-amarelo",
+          "family": "Tyrannidae",
+          "records": 14,
+          "iucn": "LC",
+          "wikidata": "Q1270583",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/111164130/large.jpg",
+            "author": "Helio Lourencini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/111164130",
+            "width": 1024,
+            "height": 855,
+            "alt": "Bico-chato-amarelo (Tolmomyias flaviventris)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 13,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 5959225,
+          "scientificName": "Ara chloropterus",
+          "name": "Arara-vermelha",
+          "family": "Psittacidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q739089",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/538934372/large.jpg",
+            "author": "Francisco V. Bezerra Neto",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/538934372",
+            "width": 1024,
+            "height": 683,
+            "alt": "Arara-vermelha (Ara chloropterus)"
+          }
+        },
+        {
+          "gbifKey": 2479606,
+          "scientificName": "Amazona farinosa",
+          "name": "Papagaio-moleiro",
+          "family": "Psittacidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q927429",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/172081088/large.jpeg",
+            "author": "Esteban Poveda",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/172081088",
+            "width": 1024,
+            "height": 767,
+            "alt": "Papagaio-moleiro (Amazona farinosa)"
+          }
+        },
+        {
+          "gbifKey": 2482921,
+          "scientificName": "Myiozetetes cayanensis",
+          "name": "Bentevizinho-de-asa-ferrugínea",
+          "family": "Tyrannidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q1271552",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/37968139/large.jpeg",
+            "author": "Esteban Villa Restrepo",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/37968139",
+            "width": 1024,
+            "height": 768,
+            "alt": "Bentevizinho-de-asa-ferrugínea (Myiozetetes cayanensis)"
+          }
+        },
+        {
+          "gbifKey": 2475187,
+          "scientificName": "Monasa nigrifrons",
+          "name": "Chora-chuva-preto",
+          "family": "Bucconidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q955203",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/93309231/large.jpeg",
+            "author": "no rights reserved",
+            "license": "CC0",
+            "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "sourceUrl": "https://www.inaturalist.org/photos/93309231",
+            "width": 1024,
+            "height": 768,
+            "alt": "Chora-chuva-preto (Monasa nigrifrons)"
+          }
         }
       ]
     },
@@ -428,6 +589,44 @@
             "height": 960,
             "alt": "Lagartinho-do-folhiço (Notomabuya frenata)"
           }
+        },
+        {
+          "gbifKey": 7745167,
+          "scientificName": "Ameivula mumbuca",
+          "name": "Calanguinho-mumbuca",
+          "family": "Teiidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q2980961",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/244316520/large.jpeg",
+            "author": "Tulio Dornas",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/244316520",
+            "width": 1024,
+            "height": 768,
+            "alt": "Calanguinho-mumbuca (Ameivula mumbuca)"
+          }
+        },
+        {
+          "gbifKey": 8215919,
+          "scientificName": "Copeoglossum nigropunctatum",
+          "name": "Calango-liso",
+          "family": "Scincidae",
+          "records": 2,
+          "iucn": "LC",
+          "wikidata": "Q2996743",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/60639816/large.jpeg",
+            "author": "Carlos Otávio Gussoni",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/60639816",
+            "width": 1024,
+            "height": 732,
+            "alt": "Calango-liso (Copeoglossum nigropunctatum)"
+          }
         }
       ]
     },
@@ -496,12 +695,21 @@
         {
           "gbifKey": 9854382,
           "scientificName": "Boana raniceps",
-          "name": null,
+          "name": "Perereca quarenta-e-três",
           "family": "Hylidae",
           "records": 4,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/599113852/large.jpg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/599113852",
+            "width": 1024,
+            "height": 767,
+            "alt": "null (Boana raniceps)"
+          }
         }
       ]
     },
@@ -554,7 +762,7 @@
           "name": "Santa-rita",
           "family": "Phyllanthaceae",
           "records": 12,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q2908949",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Richeria_grandis_Vahl_2.jpg/1280px-Richeria_grandis_Vahl_2.jpg",
@@ -665,7 +873,7 @@
         {
           "gbifKey": 2949909,
           "scientificName": "Chamaecrista desvauxii",
-          "name": null,
+          "name": "Erva-de-coração",
           "family": "Fabaceae",
           "records": 20,
           "iucn": "LC",
@@ -698,6 +906,139 @@
             "width": 873,
             "height": 768,
             "alt": "Perama hirsuta"
+          }
+        },
+        {
+          "gbifKey": 3060817,
+          "scientificName": "Manihot caerulescens",
+          "name": "Maniçoba",
+          "family": "Euphorbiaceae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q15363233",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/373367852/large.jpeg",
+            "author": "alexandre callou sampaio",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/373367852",
+            "width": 1024,
+            "height": 707,
+            "alt": "Maniçoba (Manihot caerulescens)"
+          }
+        },
+        {
+          "gbifKey": 2907406,
+          "scientificName": "Chiococca alba",
+          "name": "Catucá",
+          "family": "Rubiaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q5101397",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/339008356/large.jpg",
+            "author": "Douglas Goldman",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/339008356",
+            "width": 1024,
+            "height": 686,
+            "alt": "Catucá (Chiococca alba)"
+          }
+        },
+        {
+          "gbifKey": 3698267,
+          "scientificName": "Terminalia lucida",
+          "name": "Tanibuca",
+          "family": "Combretaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q10378088",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/598550522/large.jpg",
+            "author": "Sébastien SANT",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/598550522",
+            "width": 1024,
+            "height": 768,
+            "alt": "Tanibuca (Terminalia lucida)"
+          }
+        },
+        {
+          "gbifKey": 3860779,
+          "scientificName": "Miconia albicans",
+          "name": "Canela-de-velho",
+          "family": "Melastomataceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q15394456",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1660684/large.JPG",
+            "author": "Neptalí Ramírez Marcial",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1660684",
+            "width": 1024,
+            "height": 768,
+            "alt": "Canela-de-velho (Miconia albicans)"
+          }
+        },
+        {
+          "gbifKey": 5421063,
+          "scientificName": "Platonia insignis",
+          "name": "Bacurizeiro",
+          "family": "Clusiaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q15371504",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/220835519/large.jpeg",
+            "author": "Lucas C. Marinho",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/220835519",
+            "width": 1024,
+            "height": 767,
+            "alt": "Bacurizeiro (Platonia insignis)"
+          }
+        },
+        {
+          "gbifKey": 7314425,
+          "scientificName": "Emmotum nitens",
+          "name": "Pau-de-sobre",
+          "family": "Metteniusaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q18072642",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/413415531/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/413415531",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau-de-sobre (Emmotum nitens)"
+          }
+        },
+        {
+          "gbifKey": 7330272,
+          "scientificName": "Kielmeyera coriacea",
+          "name": "Pau-Santo",
+          "family": "Calophyllaceae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q6405268",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64728846/large.jpeg",
+            "author": "Leonardo Bergamini",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/64728846",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pau-Santo (Kielmeyera coriacea)"
           }
         }
       ]
@@ -732,13 +1073,13 @@
       "iucn": "EN",
       "wikidata": "Q5047715",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Piqui.jpg",
-        "author": "Rapper Ouriço",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piqui.jpg",
-        "width": 320,
-        "height": 240,
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/608210987/large.jpg",
+        "author": "Centro Nacional de Conservação da Flora (CNCFlora/JBRJ)",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/608210987",
+        "width": 1024,
+        "height": 683,
         "alt": "Piqui (Caryocar coriaceum)"
       }
     },
@@ -764,7 +1105,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -799,5 +1140,6 @@
         "alt": "Vinhático (Plathymenia reticulata)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }

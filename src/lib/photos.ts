@@ -125,3 +125,21 @@ export function photoIsPubliclyReusable(photo: Photo): boolean {
   }
   return /^(CC BY(?:-SA)?\s*[1-9](?:\.\d)?(?:\s+[A-Z]{2}(?:[-\s][A-Z]{2})?)?|CC0(?:\s*[1-9](?:\.\d)?)?|PUBLIC DOMAIN(?: MARK)?|PD|PDM|FAL|LAL|FREE ART LICEN[CS]E|LICENCE ART LIBRE)$/.test(license);
 }
+
+const WONDER_STOPWORDS = new Set(["de", "da", "do", "das", "dos", "e", "o", "a", "os", "as", "em", "na", "no", "para", "com", "parque", "nacional"]);
+const plain = (text: string) => text.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+/** Maravilha sem foto própria reaproveita uma foto da galeria do parque cuja legenda cite o mesmo lugar
+ * (ao menos duas palavras distintivas do título, ou a única, quando o título tem uma só). */
+export function matchWonderPhoto<T extends Photo>(title: string, gallery: T[]): T | undefined {
+  const words = [...new Set(plain(title).split(/[^a-z0-9]+/).filter((w) => w.length >= 4 && !WONDER_STOPWORDS.has(w)))];
+  if (!words.length) return undefined;
+  const need = Math.min(2, words.length);
+  let best: { photo: T; hits: number } | undefined;
+  for (const photo of gallery) {
+    const text = plain(`${photo.alt} ${photo.context ?? ""}`);
+    const hits = words.filter((w) => text.includes(w)).length;
+    if (hits >= need && (!best || hits > best.hits)) best = { photo, hits };
+  }
+  return best?.photo;
+}

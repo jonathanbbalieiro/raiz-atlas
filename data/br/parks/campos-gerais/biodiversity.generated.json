@@ -107,7 +107,7 @@
           "name": "Jaguarundi",
           "family": "Felidae",
           "records": 4,
-          "iucn": null,
+          "iucn": "NT",
           "wikidata": "Q182304",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Puma_yagouaroundi.jpg/1280px-Puma_yagouaroundi.jpg",
@@ -175,6 +175,82 @@
             "width": 960,
             "height": 746,
             "alt": "Guaraxaim (Cerdocyon thous)"
+          }
+        },
+        {
+          "gbifKey": 2439928,
+          "scientificName": "Didelphis aurita",
+          "name": "Gambá-de-orelha-preta",
+          "family": "Didelphidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q194238",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/240636840/large.jpeg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/240636840",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-preta (Didelphis aurita)"
+          }
+        },
+        {
+          "gbifKey": 2439930,
+          "scientificName": "Didelphis albiventris",
+          "name": "Gambá-de-orelha-branca",
+          "family": "Didelphidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q194685",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/32129066/large.jpg",
+            "author": "Eduardo Luis Beltrocco",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/32129066",
+            "width": 1024,
+            "height": 768,
+            "alt": "Gambá-de-orelha-branca (Didelphis albiventris)"
+          }
+        },
+        {
+          "gbifKey": 2435099,
+          "scientificName": "Puma concolor",
+          "name": "Suçuarana",
+          "family": "Felidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q35255",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/large.jpg",
+            "author": "pfaucher",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9834553",
+            "width": 1024,
+            "height": 683,
+            "alt": "suçuarana (Puma concolor)"
+          }
+        },
+        {
+          "gbifKey": 5219856,
+          "scientificName": "Nectomys squamipes",
+          "name": "Rato-d’água",
+          "family": "Cricetidae",
+          "records": 3,
+          "iucn": "LC",
+          "wikidata": "Q1770124",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/297279866/large.jpeg",
+            "author": "Vejota Marcelino",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/297279866",
+            "width": 1024,
+            "height": 768,
+            "alt": "Rato-d’água (Nectomys squamipes)"
           }
         }
       ]
@@ -335,6 +411,139 @@
             "height": 545,
             "alt": "curicaca (Theristicus caudatus)"
           }
+        },
+        {
+          "gbifKey": 2495358,
+          "scientificName": "Zenaida auriculata",
+          "name": "Avoante",
+          "family": "Columbidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q1006452",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/64350537/large.jpeg",
+            "author": "Romi Galeota Lencina",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/64350537",
+            "width": 1024,
+            "height": 683,
+            "alt": "Avoante (Zenaida auriculata)"
+          }
+        },
+        {
+          "gbifKey": 2482755,
+          "scientificName": "Pitangus sulphuratus",
+          "name": "Bem-te-vi",
+          "family": "Tyrannidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q202804",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/138182686/large.jpeg",
+            "author": "Luis Mora",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/138182686",
+            "width": 1024,
+            "height": 768,
+            "alt": "bem-te-vi (Pitangus sulphuratus)"
+          }
+        },
+        {
+          "gbifKey": 2483028,
+          "scientificName": "Knipolegus lophotes",
+          "name": "Maria-preta-de-penacho",
+          "family": "Tyrannidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q1262539",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/343453758/large.jpeg",
+            "author": "Lucas Lopes",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/343453758",
+            "width": 1024,
+            "height": 576,
+            "alt": "Maria-preta-de-penacho (Knipolegus lophotes)"
+          }
+        },
+        {
+          "gbifKey": 2488545,
+          "scientificName": "Tersina viridis",
+          "name": "Saí-andorinha",
+          "family": "Thraupidae",
+          "records": 9,
+          "iucn": "LC",
+          "wikidata": "Q583812",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/197935350/large.jpeg",
+            "author": "Guillermo Debandi",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/197935350",
+            "width": 1024,
+            "height": 768,
+            "alt": "saí-andorinha (Tersina viridis)"
+          }
+        },
+        {
+          "gbifKey": 2490718,
+          "scientificName": "Turdus rufiventris",
+          "name": "Sabiá-laranjeira",
+          "family": "Turdidae",
+          "records": 11,
+          "iucn": "LC",
+          "wikidata": "Q609283",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507197/large.jpg",
+            "author": "Nigel Voaden",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1507197",
+            "width": 1024,
+            "height": 683,
+            "alt": "sabiá-laranjeira (Turdus rufiventris)"
+          }
+        },
+        {
+          "gbifKey": 2481930,
+          "scientificName": "Cathartes aura",
+          "name": "Urubu-de-cabeça-vermelha",
+          "family": "Cathartidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q245181",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/large.jpg",
+            "author": "Seig",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/52277010",
+            "width": 1024,
+            "height": 790,
+            "alt": "urubu-de-cabeça-vermelha (Cathartes aura)"
+          }
+        },
+        {
+          "gbifKey": 2491303,
+          "scientificName": "Ammodramus humeralis",
+          "name": "Tico-tico-do-campo",
+          "family": "Passerellidae",
+          "records": 10,
+          "iucn": "LC",
+          "wikidata": "Q3314713",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/68180/large.jpg",
+            "author": "Cláudio Dias Timm",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/68180",
+            "width": 1024,
+            "height": 749,
+            "alt": "Tico-tico-do-campo (Ammodramus humeralis)"
+          }
         }
       ]
     },
@@ -394,7 +603,7 @@
           "name": null,
           "family": "Hylidae",
           "records": 5,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q137806985",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg/1280px-Boana_bischoffi_-_Rafael_Bernhard_-_58451360.jpeg",
@@ -472,7 +681,16 @@
           "records": 2,
           "iucn": "LC",
           "wikidata": "Q127433185",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/67946076/large.jpg",
+            "author": "Celso Henrique Varela Rios",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/67946076",
+            "width": 1024,
+            "height": 670,
+            "alt": "null (Boana prasina)"
+          }
         }
       ]
     },
@@ -684,7 +902,7 @@
           "name": null,
           "family": "Orchidaceae",
           "records": 10,
-          "iucn": null,
+          "iucn": "LC",
           "wikidata": "Q1094025",
           "photo": {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Epidendrum_secundum_-_Peru.jpg/1280px-Epidendrum_secundum_-_Peru.jpg",
@@ -719,7 +937,7 @@
         {
           "gbifKey": 3174691,
           "scientificName": "Myrcia splendens",
-          "name": null,
+          "name": "Batinga-Roxa",
           "family": "Myrtaceae",
           "records": 9,
           "iucn": "VU",
@@ -734,36 +952,6 @@
             "height": 626,
             "alt": "Myrcia splendens"
           }
-        },
-        {
-          "gbifKey": 2970099,
-          "scientificName": "Mimosa regnellii",
-          "name": null,
-          "family": "Fabaceae",
-          "records": 21,
-          "iucn": "LC",
-          "wikidata": "Q15452815",
-          "photo": null
-        },
-        {
-          "gbifKey": 3059592,
-          "scientificName": "Croton heterodoxus",
-          "name": null,
-          "family": "Euphorbiaceae",
-          "records": 20,
-          "iucn": null,
-          "wikidata": "Q3004441",
-          "photo": null
-        },
-        {
-          "gbifKey": 3799417,
-          "scientificName": "Calibrachoa paranensis",
-          "name": null,
-          "family": "Solanaceae",
-          "records": 17,
-          "iucn": null,
-          "wikidata": "Q15547554",
-          "photo": null
         }
       ]
     }
@@ -848,7 +1036,7 @@
     {
       "gbifKey": 3174691,
       "scientificName": "Myrcia splendens",
-      "name": null,
+      "name": "Batinga-Roxa",
       "family": "Myrtaceae",
       "records": null,
       "iucn": "VU",
@@ -905,12 +1093,21 @@
     {
       "gbifKey": 7427554,
       "scientificName": "Ocotea porosa",
-      "name": null,
+      "name": "Imbuia",
       "family": "Lauraceae",
       "records": null,
       "iucn": "VU",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/351752587/large.jpeg",
+        "author": "Fabrício Mil Homens Riella",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/351752587",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Ocotea porosa)"
+      }
     },
     {
       "gbifKey": 2434930,
@@ -959,15 +1156,16 @@
       "iucn": "VU",
       "wikidata": "Q1248461",
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Parodia_ottonis.jpg",
-        "author": "Mary Emily Eaton (1873-1961)",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parodia_ottonis.jpg",
-        "width": 448,
-        "height": 586,
-        "alt": "Parodia ottonis"
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/166285362/large.jpeg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/166285362",
+        "width": 1024,
+        "height": 768,
+        "alt": "null (Parodia ottonis)"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-10-28"
 }
