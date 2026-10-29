@@ -131,35 +131,52 @@
     {
       "scientificName": "Pontoporia blainvillei",
       "name": "Toninha",
-      "why": "Pequeno golfinho ameaçado, destacado pela proposta do parque e registrado dentro de seus limites.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Considerada o cetáceo mais ameaçado do Atlântico Sul Ocidental, é uma das espécies que o Albardão quer proteger. Só em dezembro de 2025, 139 toninhas apareceram mortas na praia do Cassino, em grande parte presas em redes de pesca industrial.",
       "sourceIds": [
         "proposta",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Caretta caretta",
-      "name": "Tartaruga-comum",
-      "why": "A espécie com mais registros dentro do parque. É vulnerável segundo a IUCN.",
-      "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Procellaria aequinoctialis",
-      "name": "Pardelão-de-queixo-branco",
-      "why": "Ave pelágica vulnerável, uma das mais registradas no parque.",
-      "sourceIds": [
-        "gbif"
+        "neomondo",
+        "fl-e4bf8bb1"
       ]
     },
     {
       "scientificName": "Pseudobatos horkelii",
-      "name": "Cação-viola",
-      "why": "Raia criticamente ameaçada, com registros dentro do parque.",
+      "name": "Raia-viola",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "A proposta de criação do parque lista a raia-viola entre os tubarões e raias muito ameaçados da área, ao lado dos cações-anjo e do tubarão-martelo. Redes de emalhe prendem esses animais, e a proteção marinha busca reduzir essas capturas.",
       "sourceIds": [
-        "gbif",
-        "proposta"
+        "proposta",
+        "fl-1813ebc0"
+      ]
+    },
+    {
+      "scientificName": "Arctocephalus australis",
+      "name": "Lobo-marinho-sul-americano",
+      "criteria": [
+        "habitat_critico",
+        "papel_ecologico"
+      ],
+      "why": "Lobos e leões-marinhos estão entre os mamíferos que a proposta do parque destaca na área, e reportagem os apresenta como atraídos pela fartura de alimento do mar do Albardão, ao lado de baleias e outros predadores.",
+      "sourceIds": [
+        "proposta",
+        "fl-1813ebc0"
+      ]
+    },
+    {
+      "scientificName": "Eubalaena australis",
+      "name": "Baleia-franca-austral",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "A proposta de criação do parque destaca a baleia-franca entre os mamíferos marinhos da área, e reportagem de 2026 lembra que, na migração para reprodução em Santa Catarina, ela usa as águas costeiras da região, onde enfrenta riscos da pesca.",
+      "sourceIds": [
+        "proposta",
+        "fl-e4bf8bb1"
       ]
     }
   ],
@@ -191,6 +208,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-e4bf8bb1",
+      "institution": "Brasil de Fato",
+      "title": "Parque do Albardão preserva ecossistemas e redefine uso do litoral sul do RS",
+      "url": "https://www.brasildefato.com.br/2026/04/10/parque-do-albardao-preserva-ecossistemas-e-redefine-uso-do-litoral-sul-do-rs/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-1813ebc0",
+      "institution": "eCycle",
+      "title": "Albardão: como é o mais novo e maior parque nacional marinho do Brasil",
+      "url": "https://www.ecycle.com.br/albardao-como-e-o-mais-novo-e-maior-parque-nacional-marinho-do-brasil/",
+      "accessed": "2026-10-29"
     }
   ]
 }

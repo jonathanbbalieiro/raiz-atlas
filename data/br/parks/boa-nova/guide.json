@@ -128,9 +128,15 @@
     {
       "scientificName": "Rhopornis ardesiacus",
       "name": "Gravatazeiro",
-      "why": "Espécie-símbolo de Boa Nova, endêmica da Mata-de-Cipó e ameaçada de extinção.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Considerado uma das aves mais raras das Américas, é citado nominalmente entre os objetivos do parque, criado em 2010 para proteger a transição entre Mata Atlântica e Caatinga, em especial a Mata-de-Cipó, e manter populações viáveis de aves ameaçadas.",
       "sourceIds": [
-        "pm"
+        "fl-f2209335",
+        "fl-15e87913",
+        "fl-1921508e"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Rhopornis_ardesiacus_-_Slender_antbird_%28female%29.jpg/1920px-Rhopornis_ardesiacus_-_Slender_antbird_%28female%29.jpg",
@@ -142,14 +148,20 @@
         "height": 1589,
         "alt": "Fêmea de gravatazeiro",
         "context": "Fêmea de gravatazeiro fotografada em Boa Nova, na Bahia."
-      }
+      },
+      "iucn": "NT"
     },
     {
       "scientificName": "Scytalopus gonzagai",
       "name": "Tapaculo-preto-baiano",
-      "why": "Ave em perigo de extinção, registrada dentro do parque.",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Ave descrita em 2014 e hoje classificada Em Perigo, vive em apenas cinco remanescentes de floresta no sul da Bahia, entre eles as encostas do Planalto da Conquista, perto de Boa Nova e Iguaí. Consta na lista de aves do guia do parque e refúgio.",
       "sourceIds": [
-        "gbif"
+        "fl-d77f30dd",
+        "fl-f2209335"
       ]
     },
     {
@@ -182,6 +194,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-f2209335",
+      "institution": "ICMBio",
+      "title": "Guia de aves do Parque Nacional e Refúgio de Vida Silvestre de Boa Nova",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/guia-boa-nova-1.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-15e87913",
+      "institution": "Universidade Federal de Juiz de Fora",
+      "title": "Informativo 272: aves ameaçadas (criação do Parque Nacional de Boa Nova)",
+      "url": "https://www2.ufjf.br/biologia/2010/06/10/informativo-272-aves-ameacadas-ameaca-nas-profundezas-megadiversidade-brasileira-e-nasa-desmente-ipcc/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-1921508e",
+      "institution": "((o))eco",
+      "title": "Novos parques na Bahia",
+      "url": "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/24042-parques-para-aves-ameacadas.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d77f30dd",
+      "institution": "Mongabay",
+      "title": "New endangered bird species discovered in Brazil",
+      "url": "https://news.mongabay.com/2014/12/new-endangered-bird-species-discovered-in-brazil/",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -158,9 +158,14 @@
     {
       "scientificName": "Blastocerus dichotomus",
       "name": "Cervo-do-pantanal",
-      "why": "Cervo típico das planícies de inundação. O parque guarda uma de suas populações mais ao sul.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O plano de manejo destaca o parque por abrigar uma das populações mais ao sul do cervo. O Livro Vermelho do ICMBio conta 1.078 cervos em 1.081 km² nas várzeas do Paraná, entre PR e MS, incluindo os últimos remanescentes da região do parque.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "fl-3301e0ea"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/110501365/original.jpg",
@@ -172,7 +177,8 @@
         "height": 1308,
         "alt": "Cervo-do-pantanal macho com a galhada, olhando de frente, em meio a capim alto de área alagável",
         "context": "O cervo-do-pantanal (Blastocerus dichotomus), maior cervídeo do Brasil, fotografado em liberdade em campo de várzea em Miranda (MS)."
-      }
+      },
+      "iucn": "VU"
     },
     {
       "scientificName": "Brycon orbignyanus",
@@ -213,6 +219,13 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-3301e0ea",
+      "institution": "ICMBio / Embrapa",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Blastocerus dichotomus",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1118730/1/Blasto.pdf",
+      "accessed": "2026-10-29"
     }
   ]
 }

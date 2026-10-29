@@ -147,29 +147,66 @@
     {
       "scientificName": "Leontopithecus caissara",
       "name": "Mico-leão-da-cara-preta",
-      "why": "Primata em perigo, descrito em 1990, com a maior população protegida pelo parque.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Descrito em 1990, só vive no litoral norte do Paraná e sul de São Paulo, e o parque protege a maior população da espécie, segundo o plano de manejo. A ficha do ICMBio o dá como em perigo e ligado à Ilha de Superagui, onde um canal isolou populações.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-4531473d"
       ]
     },
     {
       "scientificName": "Amazona brasiliensis",
       "name": "Papagaio-de-cara-roxa",
-      "why": "Dorme nas ilhas do Pinheiro e do Pinheirinho, dentro do parque. É foco de pesquisa e educação ambiental.",
+      "criteria": [
+        "ameacada_com_acao",
+        "icone_da_paisagem"
+      ],
+      "why": "O parque inclui as ilhas do Pinheiro e do Pinheirinho, dormitório da espécie. Guias de viagem descrevem como principal atração da Ilha dos Pinheiros as revoadas ruidosas, no fim da tarde, do raro papagaio-da-cara-roxa.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-ced6b744"
       ]
     },
     {
       "scientificName": "Sotalia guianensis",
       "name": "Boto-cinza",
-      "why": "O mamífero mais registrado no parque. Os botos são observados nas baías da região.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O plano de manejo trata a Baía das Laranjeiras, no complexo estuarino do parque, como habitat de grande importância do boto-cinza, vulnerável na lista nacional. Guias do parque dizem que botos são vistos com facilidade nadando entre os barcos de pescadores em frente à ilha.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-c1f6679d"
       ]
+    },
+    {
+      "scientificName": "Rhizophora mangle",
+      "name": "Mangue-vermelho",
+      "criteria": [
+        "habitat_critico",
+        "cultural"
+      ],
+      "why": "Forma, com a siriúba e o mangue-branco, os manguezais do parque. Em suas raízes aéreas crescem as ostras que moradores locais extraem de forma tradicional dentro da unidade, e o cenário de manguezais e restingas abriga espécies ameaçadas como o mico-leão-da-cara-preta.",
+      "sourceIds": [
+        "pm",
+        "fl-c1f6679d"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Mangrove%2C_Petit-Canal%2C_Grande-Terre%2C_Guadeloupe%2C_2010-03-28-.jpg/1280px-Mangrove%2C_Petit-Canal%2C_Grande-Terre%2C_Guadeloupe%2C_2010-03-28-.jpg",
+        "author": "Slaunger",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mangrove,_Petit-Canal,_Grande-Terre,_Guadeloupe,_2010-03-28-.jpg",
+        "width": 1280,
+        "height": 351,
+        "alt": "Mangue-vermelho (Rhizophora mangle)",
+        "context": "Mangue-vermelho, Rhizophora mangle."
+      }
     }
   ],
   "sources": [
@@ -193,6 +230,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-4531473d",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Leontopithecus caissara (ficha, Centro Nacional de Primatas Brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/CALLITRICHIDAE/ficha_leontopithecus_caissara.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ced6b744",
+      "institution": "Catraca Livre",
+      "title": "Parque de Superagui é surpresa do litoral do Paraná",
+      "url": "https://catracalivre.com.br/geral/roteiro-viagem/indicacao/parque-de-superagui-e-surpresa-do-litoral-do-parana/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c1f6679d",
+      "institution": "Viaje Paraná",
+      "title": "Ilha de Superagui",
+      "url": "https://www.viajeparana.com/print/pdf/node/5275",
+      "accessed": "2026-10-29"
     }
   ]
 }

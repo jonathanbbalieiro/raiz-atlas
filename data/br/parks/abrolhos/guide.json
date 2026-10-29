@@ -156,18 +156,40 @@
     {
       "scientificName": "Megaptera novaeangliae",
       "name": "Baleia-jubarte",
-      "why": "Usa o Banco dos Abrolhos como principal berçário no Atlântico Sul.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O Banco dos Abrolhos é o principal berçário de jubartes do Atlântico Sul ocidental: as baleias chegam sobretudo entre junho e novembro para reproduzir, parir e amamentar os filhotes, e o parque protege parte desse berçário.",
       "sourceIds": [
-        "icmbio-visitacao",
-        "icmbio-quem-somos"
+        "fl-0b285fca",
+        "fl-1c1f1a28"
       ]
     },
     {
       "scientificName": "Mussismilia braziliensis",
       "name": "Coral-cérebro",
-      "why": "Coral de aspecto peculiar que, segundo o ICMBio, só vive nesta região.",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "É o coral mais conspícuo nos recifes rasos de Abrolhos, onde crescem os chapeirões, estruturas em forma de cogumelo cujas comunidades têm mais diversidade e cobertura de corais que os recifes de franja. O gênero Mussismilia é endêmico do Brasil.",
       "sourceIds": [
-        "icmbio-visitacao"
+        "fl-69d359a4",
+        "fl-1c1f1a28"
+      ]
+    },
+    {
+      "scientificName": "Scarus trispinosus",
+      "name": "Peixe-papagaio-azul",
+      "criteria": [
+        "endemica",
+        "papel_ecologico"
+      ],
+      "why": "Peixe-papagaio endêmico do Brasil e listado como Em Perigo pela IUCN; a maior parte da população remanescente está concentrada no Banco dos Abrolhos. Os indivíduos acima de 40 cm escavam o substrato dos recifes ao se alimentar.",
+      "sourceIds": [
+        "fl-e20c8db9",
+        "fl-62a5f3c7"
       ]
     },
     {
@@ -218,6 +240,41 @@
       "title": "Programa Comunidade em Abrolhos",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-dos-abrolhos/visite_abrolhos/visite-abrolhos",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-0b285fca",
+      "institution": "ABC do ABC (cita o ICMBio)",
+      "title": "ICMBio suspende visitas a Abrolhos por causa do óleo",
+      "url": "https://abcdoabc.com.br/icmbio-suspende-visitas-a-abrolhos-por-causa-do-oleo/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-1c1f1a28",
+      "institution": "Estado de Minas",
+      "title": "Em foco: Abrolhos, o arquipélago do sul da Bahia",
+      "url": "https://www.em.com.br/emfoco/?p=254756",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-69d359a4",
+      "institution": "Revista Brasileira de Oceanografia (SciELO)",
+      "title": "Benthic communities of shallow-water reefs of Abrolhos, Brazil (Villaça & Pitombo, 1997)",
+      "url": "https://scielo.br/j/rboce/a/kWmY8qMS4cD9DxPyySvdcvB/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-e20c8db9",
+      "institution": "PeerJ (PMC)",
+      "title": "Age, growth, reproduction and management of Southwestern Atlantic's largest and endangered herbivorous reef fish, Scarus trispinosus",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6718160/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-62a5f3c7",
+      "institution": "Frontiers in Ecology and Evolution",
+      "title": "Scarus trispinosus: revisão da espécie na costa brasileira (2025)",
+      "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2025.1557132/full",
+      "accessed": "2026-10-29"
     }
   ]
 }

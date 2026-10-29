@@ -149,19 +149,27 @@
     {
       "scientificName": "Sula leucogaster",
       "name": "Atobá-pardo",
-      "why": "Forma colônia na ilha Grapirá, onde seu cuidado com os filhotes foi estudado em detalhe.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O arquipélago é usado para sua reprodução, segundo o guia de aves marinhas do ICMBio. Na ilha Grapirá, pesquisadores acompanharam 140 ninhos entre 1998 e 1999 e mostraram que machos e fêmeas dividem a incubação e o cuidado dos filhotes.",
       "sourceIds": [
-        "martins2003",
-        "gbif"
+        "fl-6a7aa0e3",
+        "martins2003"
       ]
     },
     {
       "scientificName": "Fregata magnificens",
       "name": "Fragata-comum",
-      "why": "Ave marinha com registros dentro do parque, cuja lei de criação protege os ninhais de aves.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O guia de aves marinhas do ICMBio inclui as Ilhas dos Currais entre os locais de reprodução da fragata. O parque nasceu dos ninhais: mais de 8 mil aves vivem nas ilhas, que são só costões rochosos, sem praias.",
       "sourceIds": [
-        "gbif",
-        "lei"
+        "fl-6a7aa0e3",
+        "senado"
       ]
     },
     {
@@ -208,6 +216,13 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-6a7aa0e3",
+      "institution": "ICMBio",
+      "title": "Guia de Boas Práticas para a Observação de Aves Marinhas (2025)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/202506_guia-aves-marinhas-junho-2025-web_isbn.pdf",
+      "accessed": "2026-10-29"
     }
   ]
 }

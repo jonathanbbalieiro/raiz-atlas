@@ -165,25 +165,50 @@
   ],
   "flagships": [
     {
+      "scientificName": "Fernseea itatiaiae",
+      "name": "Bromélia-do-Itatiaia",
+      "criteria": [
+        "endemica",
+        "habitat_critico",
+        "papel_ecologico"
+      ],
+      "why": "Bromélia de endemismo estreito nos campos de altitude do planalto, onde forma tapetes pioneiros sobre a rocha. Depende dos beija-flores para se reproduzir, tem distribuição restrita aos campos de altitude do parque e está classificada como em perigo.",
+      "sourceIds": [
+        "fl-1f6983d7",
+        "fl-7c73cd03"
+      ]
+    },
+    {
+      "scientificName": "Melanophryniscus moreirae",
+      "name": "Sapo-flamenguinho",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Sapinho de costas escuras e patas vermelhas, endêmico dos campos de altitude da Mantiqueira e apontado como animal-símbolo do parque pelo O Eco. Aparece junto às trilhas do planalto na época reprodutiva, de setembro a abril.",
+      "sourceIds": [
+        "fl-d7122e1a",
+        "pm2"
+      ]
+    },
+    {
       "scientificName": "Araucaria angustifolia",
       "name": "Araucária",
-      "why": "Pinheiro das serras frias, criticamente em perigo segundo a IUCN e registrado dentro do parque.",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "No parque, a Floresta Ombrófila Mista Montana, por volta de 1.200 m, forma verdadeiras florestas de araucária. Estudo da PUC-Rio trata o pinheiro-do-paraná do Itatiaia como relíquia antiga adaptada aos ambientes alto-montanos da Mantiqueira.",
       "sourceIds": [
-        "gbif"
+        "pm2",
+        "fl-831dd7a6"
       ]
     },
     {
       "scientificName": "Leopardus guttulus",
       "name": "Gato-do-mato-pequeno",
       "why": "Felino da Mata Atlântica, vulnerável segundo a IUCN, com registros dentro do parque.",
-      "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Clytolaema rubricauda",
-      "name": "Beija-flor-rubi",
-      "why": "Beija-flor da Mata Atlântica com registros dentro do parque.",
       "sourceIds": [
         "gbif"
       ]
@@ -245,6 +270,34 @@
       "title": "Câmera ao vivo do Parque Nacional do Itatiaia registra as menores temperaturas do Brasil em 2025",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/camera-ao-vivo-do-parque-nacional-do-itatiaia-registra-as-menores-temperaturas-registradas-em-2025-no-brasil",
       "accessed": "2026-10-22"
+    },
+    {
+      "id": "fl-1f6983d7",
+      "institution": "Brazilian Journal of Botany (SciELO)",
+      "title": "Species composition and biogeographic relations of the rock outcrop flora on the high plateau of Itatiaia, SE-Brazil (Ribeiro, Medina e Scarano, 2007)",
+      "url": "https://www.scielo.br/j/rbb/a/nzssHbtD8QqFTSCY9tjjcbt/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-7c73cd03",
+      "institution": "UNIFAL-MG",
+      "title": "Sucesso reprodutivo de Fernseea itatiaiae no contexto comunitário das interações planta-polinizador (Rigotto, 2024)",
+      "url": "https://bdtd.ibict.br/vufind/Record/UNIFAL_4cb1b09c73e731bc512dcb511c958045",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d7122e1a",
+      "institution": "((o))eco",
+      "title": "Uma travessia nos céus: os caminhos da Serra da Mantiqueira",
+      "url": "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/uma-travessia-nos-ceus-os-caminhos-da-serra-da-mantiqueira.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-831dd7a6",
+      "institution": "GeoPUC (PUC-Rio)",
+      "title": "Análise do padrão de distribuição da flora vascular dos campos de altitude do Maciço do Itatiaia, RJ/MG (Alves, 2015)",
+      "url": "https://geopuc.emnuvens.com.br/revista/article/download/144/131/284",
+      "accessed": "2026-10-29"
     }
   ]
 }

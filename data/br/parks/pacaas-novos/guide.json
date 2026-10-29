@@ -138,10 +138,15 @@
     {
       "scientificName": "Harpia harpyja",
       "name": "Gavião-real",
-      "why": "Seu registro no parque é apontado pelo plano de manejo como prova do bom estado de conservação.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "O plano de manejo cita a harpia entre os registros notáveis de aves do parque, e O Eco a aponta entre as espécies ameaçadas que a vegetação de transição entre Cerrado e Floresta Amazônica protege. Como predador de topo, indica floresta bem conservada.",
       "sourceIds": [
         "pm",
-        "icmbio"
+        "fl-935f6b3b",
+        "fl-d0c56322"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/447088675/original.jpeg",
@@ -153,23 +158,46 @@
         "width": 2048,
         "height": 1366,
         "context": "Gavião-real (Harpia harpyja) pousado na floresta, no Pará."
-      }
+      },
+      "iucn": "VU"
     },
     {
-      "scientificName": "Allobates pacaas",
-      "name": "Sapinho Allobates pacaas",
-      "why": "Vulnerável, tem nome que lembra a região e registros dentro do parque.",
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Consta entre os animais registrados no parque, que O Eco descreve como barreira ao desmatamento em Rondônia e onde fica o Pico do Tracoá (1.230 m), ponto mais alto do estado. O plano de manejo a inclui entre os carnívoros da unidade.",
       "sourceIds": [
-        "gbif"
-      ]
+        "fl-935f6b3b",
+        "fl-d0c56322",
+        "pm"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
     },
     {
       "scientificName": "Speothos venaticus",
       "name": "Cachorro-vinagre",
-      "why": "Naturalmente muito raro, está entre os mamíferos registrados no parque e na lista de ameaçadas da unidade.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "O plano de manejo o cita como espécie rara entre os mamíferos do parque, e o ICMBio o inclui na lista de ameaçadas protegidas pela unidade, ao lado do cachorro-vinagre-de-orelhas-curtas.",
       "sourceIds": [
         "pm",
-        "icmbio"
+        "icmbio",
+        "fl-d0c56322"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bush_dog.JPG",
@@ -181,6 +209,32 @@
         "height": 685,
         "alt": "Cachorro-vinagre (Speothos venaticus)",
         "context": "Cachorro-vinagre, Speothos venaticus."
+      },
+      "iucn": "NT"
+    },
+    {
+      "scientificName": "Ateles chamek",
+      "name": "Macaco-aranha-de-cara-preta",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Primata de grande porte que o ICMBio lista entre as espécies ameaçadas protegidas pelo parque. A imprensa regional o cita como um dos primatas da área, fauna que depende da floresta contínua da serra dos Pacaás Novos.",
+      "sourceIds": [
+        "icmbio",
+        "fl-d0c56322"
+      ],
+      "iucn": "EN",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Ateles_chamek.jpg/1280px-Ateles_chamek.jpg",
+        "author": "Ivan Mlinaric",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ateles_chamek.jpg",
+        "width": 1280,
+        "height": 857,
+        "alt": "Macaco-aranha-de-cara-preta (Ateles chamek)",
+        "context": "Macaco-aranha-de-cara-preta, Ateles chamek."
       }
     }
   ],
@@ -205,6 +259,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-935f6b3b",
+      "institution": "((o))eco",
+      "title": "Parque Nacional de Pacaás Novos é barreira ao desmatamento em Rondônia",
+      "url": "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/29196-parque-nacional-de-pacaas-novos-e-barreira-ao-desmatamento-em-rondonia.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d0c56322",
+      "institution": "Portal Amazônia",
+      "title": "Parna dos Pacaás Novos protege mais de 15 espécies ameaçadas em Rondônia",
+      "url": "https://portalamazonia.com/amazonia/parque-nacional-pacaas-novos-ro/",
+      "accessed": "2026-10-29"
     }
   ]
 }

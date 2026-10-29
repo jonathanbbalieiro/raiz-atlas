@@ -147,29 +147,64 @@
   ],
   "flagships": [
     {
+      "scientificName": "Glaucomastix itabaianensis",
+      "name": "Calango-de-itabaiana",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Lagarto descrito como espécie nova a partir da população da Serra de Itabaiana, hoje isolada das populações do litoral, o que preocupa pela perda de variabilidade genética. O ICMBio lista o lagartinho-de-abaeté entre as espécies ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "fl-0410f091",
+        "icmbio"
+      ]
+    },
+    {
+      "scientificName": "Vellozia dasypus",
+      "name": "Canela-de-ema",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "Planta das areias brancas do topo da serra, onde forma moitas com cactos e bromélias. Só ocorre em Sergipe e na Bahia, e dá ao domo de Itabaiana feições que lembram campos rupestres, embora esteja perto do litoral.",
+      "sourceIds": [
+        "fl-f0de7a04",
+        "pm",
+        "fl-31898616"
+      ]
+    },
+    {
+      "scientificName": "Melocactus zehntneri",
+      "name": "Cabeça-de-frade",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "Cacto globoso das áreas abertas de areias brancas da serra, citado entre as plantas que marcam a vegetação rasteira do domo de Itabaiana e que também aparecem em restingas litorâneas de areia branca.",
+      "sourceIds": [
+        "fl-f0de7a04",
+        "pm",
+        "fl-64595797"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Melocactus_zehntneri_169982687.jpg/1280px-Melocactus_zehntneri_169982687.jpg",
+        "author": "Thomaz de Carvalho Callado",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melocactus_zehntneri_169982687.jpg",
+        "width": 1280,
+        "height": 854,
+        "alt": "Cabeça-de-frade (Melocactus zehntneri)",
+        "context": "Cabeça-de-frade, Melocactus zehntneri."
+      }
+    },
+    {
       "scientificName": "Glaucomastix abaetensis",
       "name": "Lagartinho-de-abaeté",
       "why": "Lagarto de restinga em perigo de extinção, protegido pelo parque.",
       "sourceIds": [
         "icmbio",
         "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Tropidurus hygomi",
-      "name": "Calango",
-      "why": "Vulnerável e endêmico de restingas, sua presença no parque reforça a importância da área.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Podocarpus sellowii",
-      "name": "Pinheiro-da-mata",
-      "why": "Conífera nativa em perigo de extinção, com registros dentro do parque.",
-      "sourceIds": [
         "gbif"
       ]
     }
@@ -195,6 +230,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-0410f091",
+      "institution": "ICMBio",
+      "title": "ICMBio em Foco nº 539: nova espécie de lagarto no Parna Serra de Itabaiana (2019)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/icmbio-em-foco/pdf/icmbioemfoco539.pdf/@@download/file",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-f0de7a04",
+      "institution": "Biologia Geral e Experimental (UFS/Ibama)",
+      "title": "Parque Nacional Serra de Itabaiana: levantamento da biota (2005)",
+      "url": "https://biologiageralexperimental.bio.br/livros-e-series/parque-nacional-serra-de-itabaiana/VersaoIntegral.PDF",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-31898616",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Vellozia dasypus (ficha na API)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Vellozia%20dasypus",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-64595797",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Melocactus zehntneri (ficha na API)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Melocactus%20zehntneri",
+      "accessed": "2026-10-29"
     }
   ]
 }

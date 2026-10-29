@@ -145,27 +145,89 @@
     {
       "scientificName": "Scytalopus novacapitalis",
       "name": "Tapaculo-de-brasília",
-      "why": "Ave que leva a capital no nome, em perigo segundo a IUCN e registrada dentro do parque.",
+      "criteria": [
+        "habitat_critico",
+        "endemica"
+      ],
+      "why": "Pequena ave de mata fechada, desconhecida da ciência até a construção de Brasília, que o plano de manejo registra nas matas ciliares do parque. Estudo em outra área mostra que é rara, ameaçada e sensível a queimadas à beira de rios.",
       "sourceIds": [
-        "gbif"
+        "fl-9a9b8786",
+        "fl-4a96afe6"
       ]
+    },
+    {
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Marca as veredas do parque, que o plano de manejo descreve como pouco numerosas e de grande apelo visual, ligadas a nascentes e brejos. É também fonte de frutos para a fauna, e o buriti aparece como palmeira que marca a transição da mata ciliar para o campo.",
+      "sourceIds": [
+        "fl-9a9b8786",
+        "fl-5dbb9cf3"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg/1280px-Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moriche_Palm_(Mauritia_flexuosa)_fruits_(40136103811).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa."
+      }
+    },
+    {
+      "scientificName": "Caryocar brasiliense",
+      "name": "Pequi",
+      "criteria": [
+        "icone_da_paisagem",
+        "cultural"
+      ],
+      "why": "Árvore típica do cerrado do parque. O plano de manejo a lista entre as plantas nativas de uso alimentício e oleífero, vendidas em feiras, e a imprensa a cita, com a canela-de-ema, entre as mais de 700 plantas do Cerrado do parque.",
+      "sourceIds": [
+        "fl-9a9b8786",
+        "fl-4f48bc81"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pequi01.JPG",
+        "author": "No machine-readable author provided. Conrado assumed (based on copyright claims)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pequi01.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Pequi (Caryocar brasiliense)",
+        "context": "Pequi, Caryocar brasiliense."
+      }
     },
     {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Está na lista de espécies ameaçadas protegidas pelo parque.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Consta na lista de espécies ameaçadas protegidas pelo parque, segundo o ICMBio. O plano de manejo o aponta com populações aparentemente razoáveis, apesar da presença de cães asselvajados, e visitantes só o veem com paciência e silêncio.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "fl-9a9b8786",
+        "fl-4f48bc81"
       ]
     },
     {
       "scientificName": "Chrysocyon brachyurus",
       "name": "Lobo-guará",
-      "why": "Um dos bichos raros que o ICMBio destaca no parque, vizinho da cidade.",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Circula entre o cerrado do parque e as propriedades vizinhas, segundo moradores ouvidos no plano de manejo, que o considera de população aparentemente razoável. É dos animais maiores do parque, difíceis de ver e que exigem silêncio.",
       "sourceIds": [
-        "icmbio-visita",
-        "gbif"
+        "fl-9a9b8786",
+        "fl-4f48bc81"
       ]
     }
   ],
@@ -190,6 +252,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-9a9b8786",
+      "institution": "ICMBio / FUNATURA",
+      "title": "Plano de Manejo do Parque Nacional de Brasília",
+      "url": "https://documentacao.socioambiental.org/ato_normativo/UC/1573_20140808_153448.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-4a96afe6",
+      "institution": "Brazilian Journal of Biology",
+      "title": "Cunha et al. (2021). Tapaculo-de-Brasília (Scytalopus novacapitalis) em matas ripárias",
+      "url": "https://scielo.br/j/bjb/a/F5RJ8ZyZZcgfFzNYRrZWHtM/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-5dbb9cf3",
+      "institution": "Portal São Francisco",
+      "title": "Parque Nacional de Brasília",
+      "url": "https://www.portalsaofrancisco.com.br/?p=13392",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-4f48bc81",
+      "institution": "O Hoje",
+      "title": "Parque em Brasília vira refúgio perfeito longe do caos urbano",
+      "url": "https://ohoje.com/2026/07/07/parque-em-brasilia-vira-refugio-perfeito-longe-do-caos-urbano/",
+      "accessed": "2026-10-29"
     }
   ]
 }

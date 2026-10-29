@@ -125,12 +125,42 @@
   ],
   "flagships": [
     {
-      "scientificName": "Anodorhynchus hyacinthinus",
-      "name": "Arara-azul-grande",
-      "why": "Vulnerável, faz ninhos nos paredões da chapada, um comportamento diferente das araras do Pantanal.",
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico",
+        "papel_ecologico"
+      ],
+      "why": "Os buritizais marcam as veredas e brejos onde nascem as águas do Parnaíba: as nascentes surgem entre brejos e buritizais, que são inúmeros. A palmeira, que vive até 400 anos, tem frutos que alimentam boa parte da fauna local, inclusive os bugios.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-fef81427"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg/1280px-Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moriche_Palm_(Mauritia_flexuosa)_fruits_(40136103811).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa."
+      }
+    },
+    {
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O plano de manejo ressalta a arara-azul-grande entre as aves do parque, e o sítio Nascentes do Rio Parnaíba é uma Área-Chave para a Biodiversidade qualificada justamente por essa espécie, vulnerável segundo a IUCN.",
+      "sourceIds": [
+        "pm",
+        "fl-ef45290e"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217287300/original.jpg",
@@ -147,10 +177,14 @@
     {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "A região abriga a população de onças considerada a melhor do Cerrado.",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "Predadora de topo que ainda vive no parque, segundo relato de visita, e consta da lista de espécies ameaçadas protegidas pela unidade, que guarda as cabeceiras do Parnaíba e é descrita como o maior parque do Cerrado brasileiro.",
       "sourceIds": [
-        "pm",
-        "icmbio"
+        "icmbio",
+        "fl-fef81427"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1920px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
@@ -162,7 +196,8 @@
         "height": 1280,
         "alt": "Onça-pintada (Panthera onca)",
         "context": "Onça-pintada, Panthera onca."
-      }
+      },
+      "iucn": "NT"
     },
     {
       "scientificName": "Caryocar coriaceum",
@@ -206,6 +241,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-fef81427",
+      "institution": "Entre Parques BR",
+      "title": "Parque Nacional das Nascentes do Rio Parnaíba: o parque nada óbvio",
+      "url": "https://entreparquesbr.com.br/nascentes-do-rio-parnaiba/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ef45290e",
+      "institution": "Key Biodiversity Areas",
+      "title": "Nascentes do Rio Parnaíba (KBA 20210)",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/20210/assessment",
+      "accessed": "2026-10-29"
     }
   ]
 }

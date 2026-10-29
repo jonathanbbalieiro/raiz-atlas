@@ -154,9 +154,14 @@
     {
       "scientificName": "Brachycephalus izecksohni",
       "name": "Sapinho-da-montanha",
-      "why": "Pequeno sapo endêmico das encostas altas da Torre da Prata, com distribuição muito restrita.",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Anfíbio de cerca de 1,2 cm, endêmico da Serra da Prata e descoberto em 2005. Vive no chão da floresta, entre as folhas caídas, nas partes mais altas da serra, e é o animal mais conhecido do parque.",
       "sourceIds": [
-        "pm"
+        "fl-50517d39",
+        "fl-ca676c3a"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Brachycephalus_izecksohni.png/1920px-Brachycephalus_izecksohni.png",
@@ -168,14 +173,45 @@
         "height": 1240,
         "alt": "Sapinho laranja sobre pedra escura",
         "context": "Sapinho-da-montanha (Brachycephalus izecksohni)."
+      },
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Euterpe edulis",
+      "name": "Palmito-juçara",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Palmeira ameaçada pela extração do palmito, está entre as espécies ameaçadas que o parque protege. Tem um único caule, que morre ao ser cortado, e seus frutos, parecidos com os do açaí, são recurso importante para a fauna.",
+      "sourceIds": [
+        "fl-50517d39",
+        "fl-bd427765"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Euterpe_edulis.jpg",
+        "author": "João Medeiros",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euterpe_edulis.jpg",
+        "width": 1280,
+        "height": 2145,
+        "alt": "Palmito-juçara (Euterpe edulis)",
+        "context": "Palmito-juçara, Euterpe edulis."
       }
     },
     {
       "scientificName": "Lontra longicaudis",
-      "name": "Lontra-neotropical",
-      "why": "O mamífero com mais registros dentro do parque. É classificada como quase ameaçada pela IUCN.",
+      "name": "Lontra",
+      "criteria": [
+        "papel_ecologico",
+        "habitat_critico"
+      ],
+      "why": "A lontra está entre os animais citados para o parque, e a equipe da unidade anunciou em 2012 um projeto de pesquisa sobre a ecologia das lontras, predadoras ligadas aos rios que descem da serra.",
       "sourceIds": [
-        "gbif"
+        "fl-50517d39",
+        "fl-ca676c3a"
       ]
     },
     {
@@ -219,6 +255,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-50517d39",
+      "institution": "Instituto Socioambiental",
+      "title": "PARNA de Saint-Hilaire/Lange",
+      "url": "https://uc.socioambiental.org/arp/2577",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ca676c3a",
+      "institution": "ICMBio",
+      "title": "Blog do PARNA Saint-Hilaire/Lange: Fauna",
+      "url": "https://parnasainthilairelange.wordpress.com/sobre/fauna/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-bd427765",
+      "institution": "((o))eco",
+      "title": "Por que preservar uma espécie?",
+      "url": "https://oeco.org.br/analises/por-que-preservar-uma-especie/",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -99,10 +99,14 @@
     {
       "scientificName": "Anodorhynchus leari",
       "name": "Arara-azul-de-lear",
-      "why": "Arara ameaçada de extinção citada no decreto de criação do parque.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "O Boqueirão da Onça abriga uma das duas populações conhecidas da arara, ainda pouco estudada e sem dormitório localizado. O Plano de Ação do ICMBio destaca suas serras de arenito com paredões e licuri, e o decreto do parque a cita entre as espécies a proteger.",
       "sourceIds": [
-        "decreto",
-        "icmbio"
+        "fl-acf12734",
+        "decreto"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Anodorhynchus_leari_-Rio_de_Janeiro_Zoo%2C_Brazil-8a.jpg/1920px-Anodorhynchus_leari_-Rio_de_Janeiro_Zoo%2C_Brazil-8a.jpg",
@@ -114,24 +118,45 @@
         "height": 1440,
         "alt": "Arara-azul-de-lear (Anodorhynchus leari)",
         "context": "Arara-azul-de-lear, Anodorhynchus leari."
-      }
+      },
+      "iucn": "EN"
     },
     {
-      "scientificName": "Panthera onca",
-      "name": "Onça-pintada",
-      "why": "Grande felino ameaçado, é uma das espécies que o decreto manda proteger.",
+      "scientificName": "Syagrus coronata",
+      "name": "Licuri",
+      "criteria": [
+        "papel_ecologico",
+        "habitat_critico"
+      ],
+      "why": "Palmeira que é o principal alimento da arara-azul-de-lear. O Plano de Ação registra manchas de grande densidade de licuri na área do mosaico do Boqueirão da Onça. A Flora do Brasil a dá como endêmica do Brasil, na Caatinga e no Cerrado.",
       "sourceIds": [
-        "decreto",
-        "icmbio"
-      ]
+        "fl-acf12734",
+        "fl-4bc4d8da"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Syagrus_coronata.jpg",
+        "author": "Alex Popovkin, Bahia, Brazil from Brazil",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syagrus_coronata.jpg",
+        "width": 1280,
+        "height": 2273,
+        "alt": "Licuri (Syagrus coronata)",
+        "context": "Licuri, Syagrus coronata."
+      }
     },
     {
       "scientificName": "Tolypeutes tricinctus",
       "name": "Tatu-bola",
-      "why": "Ameaçado de extinção, está entre as espécies-alvo do decreto de criação.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "O decreto de criação cita o tatu-bola, ao lado da arara-azul-de-lear e da onça-pintada, entre as espécies ameaçadas, raras ou endêmicas cujas populações o parque deve manter viáveis; o plano de manejo do fogo o classifica como em perigo de extinção.",
       "sourceIds": [
         "decreto",
-        "icmbio"
+        "pmif"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EdmontonZooArmadillo.JPG/1280px-EdmontonZooArmadillo.JPG",
@@ -143,7 +168,17 @@
         "height": 960,
         "alt": "Tatu-bola (Tolypeutes tricinctus)",
         "context": "Tatu-bola, Tolypeutes tricinctus."
-      }
+      },
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "why": "Grande felino ameaçado, é uma das espécies que o decreto manda proteger.",
+      "sourceIds": [
+        "decreto",
+        "icmbio"
+      ]
     }
   ],
   "sources": [
@@ -167,6 +202,20 @@
       "title": "Plano de Manejo Integrado do Fogo do Parna e APA do Boqueirão da Onça (2024-2026)",
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_PARNA_Boqueirao_da_Onca_v_07_11_2023.pdf",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-acf12734",
+      "institution": "ICMBio",
+      "title": "PAN Arara-azul-de-lear, 2º ciclo (livro)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-arara-azul-de-lear/2-ciclo/pan-arara-azul-de-lear-livro.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-4bc4d8da",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Syagrus coronata (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Syagrus%20coronata",
+      "accessed": "2026-10-29"
     }
   ]
 }

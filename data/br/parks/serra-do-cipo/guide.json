@@ -169,29 +169,57 @@
   ],
   "flagships": [
     {
-      "scientificName": "Placosoma cipoense",
-      "name": "Lagartinho-do-cipó",
-      "why": "Leva o nome da serra, está na lista de espécies ameaçadas protegidas pelo parque e é classificado como em perigo pela IUCN.",
+      "scientificName": "Vellozia gigantea",
+      "name": "Canela-de-ema-gigante",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Pode chegar a 6 m de altura com um falso tronco de apenas 1 cm de espessura, e só existe na Serra do Cipó. No parque, no Alto do Palácio, está uma das únicas populações, hoje roteiro de visitação (Santuário das Vellozias). Sua descoberta impulsionou a criação do parque.",
       "sourceIds": [
-        "icmbio",
-        "gbif"
+        "fl-167f7a7c",
+        "fl-ba8393ea",
+        "pm"
       ]
     },
     {
       "scientificName": "Augastes scutatus",
       "name": "Beija-flor-de-gravata-verde",
-      "why": "Beija-flor dos campos rupestres do Espinhaço, com registros dentro do parque.",
+      "criteria": [
+        "endemica",
+        "papel_ecologico"
+      ],
+      "why": "Beija-flor dos campos rupestres do Espinhaço, restrito aos campos de altitude do Cerrado. Levantamento de aves do vale do rio Cipó, no parque, o inclui entre as espécies endêmicas do bioma, e o ICMBio o destaca como polinizador das flores dos campos rupestres.",
       "sourceIds": [
-        "gbif"
+        "fl-ace5b80f",
+        "fl-167f7a7c"
       ]
     },
     {
       "scientificName": "Chrysocyon brachyurus",
       "name": "Lobo-guará",
-      "why": "Está na lista de ameaçadas do parque e circula pelos campos e cerrados da serra.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Maior canídeo da América do Sul, está na lista de ameaçadas protegidas pelo parque. Publicação do ICMBio sobre o Cipó o apresenta como andarilho solitário das montanhas ao entardecer e dispersor de sementes: come os frutos e espalha as sementes por lugares distantes.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "fl-167f7a7c"
+      ]
+    },
+    {
+      "scientificName": "Placosoma cipoense",
+      "name": "Lagartinho-do-cipó",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Lagarto minúsculo descrito na Serra do Cipó, que lhe deu o nome, com ocorrência conhecida em Minas Gerais e classificado como em perigo (EN) pela IUCN. Consta da lista de espécies ameaçadas protegidas pelo parque.",
+      "sourceIds": [
+        "icmbio",
+        "fl-75f40535"
       ]
     }
   ],
@@ -223,6 +251,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-167f7a7c",
+      "institution": "ICMBio",
+      "title": "A Menina Ema e a vida secreta do Espinhaço (Parque Nacional da Serra do Cipó, 2024)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/infantil/a-menina-ema-e-a-vida-secreta-do-espinhaco-versao-digital-2024-1-1.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ba8393ea",
+      "institution": "Revista Pesquisa FAPESP",
+      "title": "Ambiente único (edição 45, 1999)",
+      "url": "https://revistapesquisa.fapesp.br/ambiente-unico/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ace5b80f",
+      "institution": "Revista Brasileira de Zoologia",
+      "title": "The birds of Parque Nacional da Serra do Cipó: the Rio Cipó valley, Minas Gerais, Brazil (Rodrigues et al., 2005)",
+      "url": "https://www.scielo.br/j/rbzool/a/QRqsx9X8rCqWj6pvDP5bvTm/abstract/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-75f40535",
+      "institution": "The Reptile Database",
+      "title": "Placosoma cipoense",
+      "url": "https://reptile-database.reptarium.cz/species?genus=Placosoma&species=cipoense",
+      "accessed": "2026-10-29"
     }
   ]
 }

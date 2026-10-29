@@ -171,27 +171,12 @@
   ],
   "flagships": [
     {
-      "scientificName": "Caryocar coriaceum",
-      "name": "Piqui",
-      "why": "Árvore frutífera do Cerrado da chapada, classificada como em perigo pela IUCN e registrada dentro do parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Hancornia speciosa",
-      "name": "Mangaba",
-      "why": "Uma das frutas do Cerrado citadas no plano de manejo e registrada no parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Ameaçado de extinção, está na lista de espécies protegidas pelo parque.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Está entre as seis espécies ameaçadas que o ICMBio lista como protegidas pelo parque. O plano de manejo o registra no encontro de Cerrado, Caatinga e Amazônia, junto com anta, veado-campeiro e onça-parda.",
       "sourceIds": [
         "icmbio",
         "pm"
@@ -206,7 +191,42 @@
         "width": 2048,
         "height": 1301,
         "context": "Tamanduá-bandeira (Myrmecophaga tridactyla), espécie símbolo do Cerrado."
-      }
+      },
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Caryocar coriaceum",
+      "name": "Pequi",
+      "criteria": [
+        "icone_da_paisagem",
+        "cultural"
+      ],
+      "why": "O plano de manejo cita o pequi à frente das muitas árvores frutíferas do Cerrado da chapada, ao lado do bacuri e da mangaba. O estudo botânico do parque mostra flora com mais afinidade com a Amazônia e a Caatinga do que com outros cerrados.",
+      "sourceIds": [
+        "pm",
+        "fl-39ea6555"
+      ]
+    },
+    {
+      "scientificName": "Ara chloropterus",
+      "name": "Arara-vermelha-grande",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "O plano de manejo a destaca entre as aves do parque e a cita, com a onça-pintada e o macaco-de-cheiro, como exemplo da riqueza de espécies que vem do encontro de três biomas. Reportagem registra araras na região da chapada.",
+      "sourceIds": [
+        "pm",
+        "fl-61dc0a4a"
+      ]
+    },
+    {
+      "scientificName": "Hancornia speciosa",
+      "name": "Mangaba",
+      "why": "Uma das frutas do Cerrado citadas no plano de manejo e registrada no parque.",
+      "sourceIds": [
+        "pm",
+        "gbif"
+      ]
     }
   ],
   "sources": [
@@ -230,6 +250,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-39ea6555",
+      "institution": "Anais da Academia Brasileira de Ciências",
+      "title": "Cerrado physiognomies in Chapada das Mesas National Park, Maranhão: floristic similarity in a transition zone",
+      "url": "https://www.scielo.br/j/aabc/a/C646GVVcszKrgX5RHgMG4qr/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-61dc0a4a",
+      "institution": "O Imparcial",
+      "title": "8 motivos imperdíveis para você visitar a Chapada das Mesas, no Maranhão",
+      "url": "https://oimparcial.com.br/entretenimento-e-cultura/2018/12/8-motivos-imperdiveis-para-voce-visitar-a-chapada-das-mesas-no-maranhao/",
+      "accessed": "2026-10-29"
     }
   ]
 }

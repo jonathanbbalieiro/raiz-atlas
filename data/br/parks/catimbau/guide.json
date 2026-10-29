@@ -142,6 +142,43 @@
   ],
   "flagships": [
     {
+      "scientificName": "Scriptosaura catimbau",
+      "name": "Lagarto-escrivão-do-Catimbau",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Lagarto sem patas dianteiras que nada na areia e deixa rastros, daí o apelido de escrivão. Foi descrito em 2008 a partir de exemplares da área hoje dentro do parque e só é conhecido em Pernambuco; o levantamento do parque o cita entre os endêmicos.",
+      "sourceIds": [
+        "fl-02633ef2",
+        "fl-ebdad1f5"
+      ]
+    },
+    {
+      "scientificName": "Tillandsia catimbauensis",
+      "name": "Tillandsia-do-Catimbau",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "Bromélia restrita à área do parque, conhecida de poucas populações dispersas e classificada como criticamente em perigo. É uma das quatro plantas exclusivas da área entre as 613 espécies de angiospermas inventariadas no Catimbau.",
+      "sourceIds": [
+        "fl-a1189b14",
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Tillandsia_catimbauensis_-_Marcello_Mastroianni_Albuquerque_Ara%C3%BAjo_-_700476797.jpeg/1280px-Tillandsia_catimbauensis_-_Marcello_Mastroianni_Albuquerque_Ara%C3%BAjo_-_700476797.jpeg",
+        "author": "Marcello Mastroianni Albuquerque Araújo",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tillandsia_catimbauensis_-_Marcello_Mastroianni_Albuquerque_Ara%C3%BAjo_-_700476797.jpeg",
+        "width": 1280,
+        "height": 1707,
+        "alt": "Tillandsia-do-Catimbau (Tillandsia catimbauensis)",
+        "context": "Tillandsia-do-Catimbau, Tillandsia catimbauensis."
+      }
+    },
+    {
       "scientificName": "Penelope jacucaca",
       "name": "Jacucaca",
       "why": "Ave da Caatinga ameaçada de extinção, registrada no parque.",
@@ -158,7 +195,8 @@
         "height": 1280,
         "alt": "Jacucaca (Penelope jacucaca) caminhando no chão de mata seca, com a garganta vermelha à mostra",
         "context": "A jacucaca, ave ameaçada da Caatinga, forrageando no solo; o registro é de um indivíduo no Brasil."
-      }
+      },
+      "iucn": "VU"
     },
     {
       "scientificName": "Crypturellus noctivagus",
@@ -166,26 +204,8 @@
       "why": "Ave sensível e ameaçada registrada no parque.",
       "sourceIds": [
         "pmif"
-      ]
-    },
-    {
-      "scientificName": "Puma concolor",
-      "name": "Onça-parda",
-      "why": "Ameaçada de extinção, foi flagrada por armadilhas fotográficas dentro do parque.",
-      "sourceIds": [
-        "pmif"
       ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/660076399/original.jpg",
-        "author": "Lucas Leuzinger",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/660076399",
-        "width": 2048,
-        "height": 1367,
-        "alt": "Onça-parda caminhando em um campo aberto",
-        "context": "A onça-parda (Puma concolor) fotografada em liberdade, em Aquidauana (MS); o felino ocorre em todos os biomas brasileiros, inclusive na Caatinga."
-      }
+      "iucn": "NT"
     }
   ],
   "sources": [
@@ -209,6 +229,27 @@
       "title": "Plano de Manejo Integrado do Fogo do Parque Nacional do Catimbau (2023)",
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_Catimbau_1.pdf",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-02633ef2",
+      "institution": "Biota Neotropica",
+      "title": "Herpetofauna of protected areas in the Caatinga III: The Catimbau National Park, Pernambuco, Brazil",
+      "url": "https://www.biotaneotropica.org.br/BN/article/view/1151",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ebdad1f5",
+      "institution": "The Reptile Database",
+      "title": "Scriptosaura catimbau",
+      "url": "https://reptile-database.reptarium.cz/species?genus=Scriptosaura&species=catimbau",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-a1189b14",
+      "institution": "Biota Neotropica",
+      "title": "Phanerogamic flora of the Catimbau National Park, Pernambuco, Brazil (Athiê-Souza et al., 2019)",
+      "url": "https://scielo.br/scielo.php?pid=S1676-06032019000100302&script=sci_arttext",
+      "accessed": "2026-10-29"
     }
   ]
 }

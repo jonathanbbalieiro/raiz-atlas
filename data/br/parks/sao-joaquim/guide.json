@@ -147,11 +147,15 @@
   "flagships": [
     {
       "scientificName": "Araucaria angustifolia",
-      "name": "Araucária",
-      "why": "O parque guarda extensos remanescentes de mata de araucária, espécie criticamente ameaçada.",
+      "name": "Pinheiro-brasileiro (araucária)",
+      "criteria": [
+        "icone_da_paisagem",
+        "ameacada_com_acao"
+      ],
+      "why": "O parque foi criado em 1961 pelo Decreto 50.922 para proteger os remanescentes das florestas de araucária, espécie muito explorada pela indústria madeireira na primeira metade do século XX e hoje ameaçada. O plano de manejo a cita entre as espécies de flora que caracterizam o parque.",
       "sourceIds": [
-        "pm",
-        "gbif"
+        "fl-ec41f93c",
+        "pm"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Parque_Nacional_de_S%C3%A3o_Joaquim_-_Jo%C3%A3o_Felipe_Garbers_%2809%29.jpg/1920px-Parque_Nacional_de_S%C3%A3o_Joaquim_-_Jo%C3%A3o_Felipe_Garbers_%2809%29.jpg",
@@ -163,6 +167,30 @@
         "width": 1920,
         "height": 1080,
         "context": "Araucária solitária em campo de altitude no Parque Nacional de São Joaquim (SC)."
+      }
+    },
+    {
+      "scientificName": "Dicksonia sellowiana",
+      "name": "Xaxim",
+      "criteria": [
+        "habitat_critico",
+        "endemica"
+      ],
+      "why": "As áreas de xaxim, ao lado das matinhas nebulares e da floresta de araucária, são citadas por entidades científicas como florestas únicas do parque, ameaçadas pelos incêndios frequentes. O plano de manejo trata o xaxim como espécie endêmica ou ameaçada que caracteriza o parque.",
+      "sourceIds": [
+        "fl-ec41f93c",
+        "pm"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dicksonia_sellowiana_in_a_Brasilian_Forest.jpg",
+        "author": "Walter Henrique Pedron Moschen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dicksonia_sellowiana_in_a_Brasilian_Forest.jpg",
+        "width": 1280,
+        "height": 1919,
+        "alt": "Xaxim (Dicksonia sellowiana)",
+        "context": "Xaxim, Dicksonia sellowiana."
       }
     },
     {
@@ -193,25 +221,6 @@
         "height": 1536,
         "context": "Papagaio-de-peito-roxo (Amazona vinacea) sobre uma araucária em Santa Catarina."
       }
-    },
-    {
-      "scientificName": "Cinclodes pabsti",
-      "name": "Pedreirinho",
-      "why": "Uma das aves mais registradas no parque, classificada como quase ameaçada pela IUCN.",
-      "sourceIds": [
-        "gbif"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/613977964/original.jpg",
-        "alt": "Pedreirinho de bico fino andando sobre o capim",
-        "author": "jonathan_ehlert",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/613977964",
-        "width": 2048,
-        "height": 1536,
-        "context": "Pedreirinho (Cinclodes pabsti) nos campos de Santa Catarina."
-      }
     }
   ],
   "sources": [
@@ -235,6 +244,13 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-ec41f93c",
+      "institution": "SBPC-SC, UFSC e outras entidades",
+      "title": "Manifestação de entidades científicas e ambientais catarinenses sobre o Parque Nacional de São Joaquim",
+      "url": "https://rbma.org.br/n/wp-content/uploads/2020/11/MANIFESTACAO-DE-ENTIDADES-CIENTIFICAS-CATARINENSES.pdf",
+      "accessed": "2026-10-29"
     }
   ]
 }

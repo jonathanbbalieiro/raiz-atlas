@@ -146,12 +146,65 @@
   "flagships": [
     {
       "scientificName": "Puma concolor",
-      "name": "Puma",
-      "why": "Citado pelo plano de manejo entre as espécies ameaçadas, é o mamífero com mais registros dentro do parque.",
+      "name": "Onça-parda",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "O plano de manejo registrou uma fêmea com filhote no parque e o define como espécie guarda-chuva. O projeto Pró-Carnívoros o tomou como foco e apontou a caça e o conflito com a pecuária como principais ameaças na unidade.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-75f1e20c"
       ]
+    },
+    {
+      "scientificName": "Euterpe edulis",
+      "name": "Palmito-juçara",
+      "criteria": [
+        "papel_ecologico",
+        "icone_da_paisagem"
+      ],
+      "why": "O plano de manejo encontrou milhares de estipes cortados nas encostas por extração clandestina, mas também densas populações onde não houve corte. Seu fruto alimenta a fauna no outono e inverno. A Flora do Brasil o registra como nativo da Mata Atlântica.",
+      "sourceIds": [
+        "pm",
+        "fl-d5edac83"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Euterpe_edulis.jpg",
+        "author": "João Medeiros",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euterpe_edulis.jpg",
+        "width": 1280,
+        "height": 2145,
+        "alt": "Palmito-juçara (Euterpe edulis)",
+        "context": "Palmito-juçara, Euterpe edulis."
+      }
+    },
+    {
+      "scientificName": "Dicksonia sellowiana",
+      "name": "Xaxim",
+      "criteria": [
+        "habitat_critico",
+        "ameacada_com_acao"
+      ],
+      "why": "No Faxinal do Bepe, em Indaial, o plano de manejo descreve densos núcleos de xaxim com indivíduos de cerca de 10 m e mais de 50 cm de diâmetro, espécie vulnerável por décadas de extração para vasos. A Flora do Brasil a registra como nativa em Santa Catarina.",
+      "sourceIds": [
+        "pm",
+        "fl-53a29b7a"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dicksonia_sellowiana_in_a_Brasilian_Forest.jpg",
+        "author": "Walter Henrique Pedron Moschen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dicksonia_sellowiana_in_a_Brasilian_Forest.jpg",
+        "width": 1280,
+        "height": 1919,
+        "alt": "Xaxim (Dicksonia sellowiana)",
+        "context": "Xaxim, Dicksonia sellowiana."
+      }
     },
     {
       "scientificName": "Leopardus pardalis",
@@ -159,14 +212,6 @@
       "why": "Felino que depende de grandes áreas de floresta, citado entre as espécies ameaçadas do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Amazona vinacea",
-      "name": "Papagaio-de-peito-roxo",
-      "why": "Ave em perigo de extinção com registros dentro do parque.",
-      "sourceIds": [
         "gbif"
       ]
     }
@@ -192,6 +237,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-75f1e20c",
+      "institution": "Pró-Carnívoros",
+      "title": "Conservation of Carnivores in Serra do Itajaí National Park, SC",
+      "url": "https://procarnivoros.org.br/en/projeto/conservation-of-carnivores-in-serra-do-itajai-national-park-sc/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d5edac83",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Euterpe edulis (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Euterpe%20edulis",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-53a29b7a",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Dicksonia sellowiana (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Dicksonia%20sellowiana",
+      "accessed": "2026-10-29"
     }
   ]
 }

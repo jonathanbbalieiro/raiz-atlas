@@ -177,9 +177,14 @@
     {
       "scientificName": "Araucaria angustifolia",
       "name": "Araucária",
-      "why": "Domina as florestas do planalto e está criticamente ameaçada. O parque espalha pólen e sementes que ajudam a produção de pinhão no entorno.",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Domina o estrato superior da floresta com araucária do parque, que divide a paisagem com os campos e os penhascos dos cânions. É a árvore que define a mata do planalto onde Aparados da Serra se assenta.",
       "sourceIds": [
-        "pm"
+        "fl-395938f7",
+        "fl-3ab2dedd"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Arauc%C3%A1rias_verdejantes.jpg/1920px-Arauc%C3%A1rias_verdejantes.jpg",
@@ -196,9 +201,15 @@
     {
       "scientificName": "Amazona vinacea",
       "name": "Papagaio-de-peito-roxo",
-      "why": "Está entre as aves raras ou ameaçadas que o plano de manejo destaca como razão de ser do parque e do vizinho Serra Geral.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "É a primeira espécie que o ICMBio cita entre as ameaçadas protegidas pelo parque, e a Agência Brasil o destaca entre os animais da Mata Atlântica e das florestas de araucária do local. Observadores o listam entre as aves-alvo de Aparados da Serra.",
       "sourceIds": [
-        "pm"
+        "fl-1c98639b",
+        "fl-3ab2dedd",
+        "fl-662ef928"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Amazona_vinacea_-_Aline_Fernanda_Antunes_-_627185267.jpeg/1920px-Amazona_vinacea_-_Aline_Fernanda_Antunes_-_627185267.jpeg",
@@ -211,6 +222,32 @@
         "alt": "Papagaio-de-peito-roxo pousado num galho, em meio à mata",
         "context": "Papagaio-de-peito-roxo (Amazona vinacea) na Mata Atlântica do sul do Brasil, registrado em Santa Catarina."
       }
+    },
+    {
+      "scientificName": "Amazona pretrei",
+      "name": "Papagaio-charão",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica"
+      ],
+      "why": "O ICMBio o relaciona entre as espécies ameaçadas protegidas pelo parque. Listas de aves de Aparados da Serra o apontam como vulnerável e de distribuição quase endêmica, ligada aos campos e às florestas de araucária do sul do Brasil.",
+      "sourceIds": [
+        "fl-1c98639b",
+        "fl-662ef928"
+      ]
+    },
+    {
+      "scientificName": "Xanthopsar flavus",
+      "name": "Veste-amarela",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Ave dos campos naturais do sul, de distribuição restrita e ameaçada de extinção. O ICMBio a inclui entre as espécies protegidas pelo parque, onde os campos de altitude ao lado dos cânions lhe oferecem habitat.",
+      "sourceIds": [
+        "fl-1c98639b",
+        "fl-662ef928"
+      ]
     }
   ],
   "sources": [
@@ -262,6 +299,34 @@
       "title": "Relatório do Cadastro Nacional de UCs: Parque Nacional de Aparados da Serra",
       "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/158",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-395938f7",
+      "institution": "Portal São Francisco",
+      "title": "Parque Nacional de Aparados da Serra",
+      "url": "https://www.portalsaofrancisco.com.br/meio-ambiente/parque-nacional-de-aparados-da-serra",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-3ab2dedd",
+      "institution": "Agência Brasil (via eCycle)",
+      "title": "Projeto de lei propõe redução de parque nacional no RS",
+      "url": "https://www.ecycle.com.br/projeto-de-lei-propoe-reducao-de-parque-nacional-no-rs/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-1c98639b",
+      "institution": "ICMBio",
+      "title": "Parque Nacional de Aparados da Serra (espécies ameaçadas protegidas)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-de-aparados-da-serra",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-662ef928",
+      "institution": "Exotic Birding",
+      "title": "Aparados da Serra: special birds (status IUCN)",
+      "url": "https://www.exoticbirding.com/brazil/aparados-da-serra/special-birds.html",
+      "accessed": "2026-10-29"
     }
   ]
 }

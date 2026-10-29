@@ -165,31 +165,102 @@
   ],
   "flagships": [
     {
-      "scientificName": "Ateles chamek",
-      "name": "Macaco-aranha-de-cara-preta",
-      "why": "Ameaçado, é um dos treze primatas do parque e uma das razões de ele estar entre as áreas mais ricas em macacos das Américas.",
+      "scientificName": "Trichechus inunguis",
+      "name": "Peixe-boi-da-amazônia",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O ICMBio lista o peixe-boi entre as espécies ameaçadas protegidas pelo Parque Nacional da Amazônia, e a imprensa paraense o cita entre os animais ameaçados que podem ser avistados na unidade, às margens do rio Tapajós.",
       "sourceIds": [
-        "pm",
-        "gbif"
-      ]
+        "icmbio",
+        "fl-24f72a83"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Trichechus_inunguis_%28Peixe-boi_amaz%C3%B4nico%29_por_F%C3%A1bia_Luna_ICMBioCMA.png",
+        "author": "Fábia Luna/ICMBioCMA",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichechus_inunguis_(Peixe-boi_amaz%C3%B4nico)_por_F%C3%A1bia_Luna_ICMBioCMA.png",
+        "width": 1280,
+        "height": 1113,
+        "alt": "Peixe-boi-da-amazônia (Trichechus inunguis)",
+        "context": "Peixe-boi-da-amazônia, Trichechus inunguis."
+      }
     },
     {
-      "scientificName": "Guaruba guarouba",
-      "name": "Ararajuba",
-      "why": "Uma das aves mais procuradas por observadores no parque, onde é avistada com facilidade. É ameaçada de extinção.",
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Está na lista de espécies ameaçadas protegidas pelo parque, segundo o ICMBio, e o Diário do Pará o aponta, ao lado da ariranha e do peixe-boi, entre os animais ameaçados que o visitante pode encontrar na floresta da Transamazônica.",
       "sourceIds": [
-        "pm",
-        "gbif"
-      ]
+        "icmbio",
+        "fl-24f72a83"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+        "width": 1280,
+        "height": 866,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)",
+        "context": "Tamanduá-bandeira, Myrmecophaga tridactyla."
+      }
     },
     {
-      "scientificName": "Harpia harpyja",
-      "name": "Gavião-real",
-      "why": "Ameaçado e fácil de avistar no parque, segundo o plano de manejo, que o descreve como a maior ave de rapina.",
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "A onça-pintada consta entre as espécies ameaçadas protegidas pelo parque (ICMBio), e a reportagem do Portal Amazônia sobre os 50 anos da unidade a cita, com o gato-maracajá, entre os animais raros ou ameaçados do primeiro parque nacional amazônico.",
       "sourceIds": [
-        "pm",
-        "gbif"
-      ]
+        "icmbio",
+        "fl-66a266a1"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
+    },
+    {
+      "scientificName": "Bertholletia excelsa",
+      "name": "Castanheira-do-brasil",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Entre as árvores mais comuns do parque, segundo a reportagem dos 50 anos da unidade, estão a seringueira, a castanheira e a gameleira, ao lado de ipês. A castanheira se distribui por quase toda a Amazônia, em florestas de terra firme.",
+      "sourceIds": [
+        "fl-66a266a1",
+        "fl-c65aed80"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/BrazilNut1.JPG",
+        "author": "Deathworm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BrazilNut1.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Castanheira-do-brasil (Bertholletia excelsa)",
+        "context": "Castanheira-do-brasil, Bertholletia excelsa."
+      }
     }
   ],
   "sources": [
@@ -227,6 +298,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-24f72a83",
+      "institution": "Diário do Pará",
+      "title": "Itaituba: lazer na floresta em plena Transamazônica",
+      "url": "https://diariodopara.com.br/encartes/na-estrada-com-o-diario/itaituba-lazer-na-floresta-em-plena-transamazonica/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-66a266a1",
+      "institution": "Portal Amazônia",
+      "title": "Primeiro parque nacional da Amazônia brasileira celebra 50 anos",
+      "url": "https://portalamazonia.com/noticias/primeiro-parque-nacional-da-amazonia-brasileira-celebra-50-anos/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c65aed80",
+      "institution": "BMC Proceedings",
+      "title": "Genetic diversity of Bertholletia excelsa, an Amazonian species of wide distribution (Sujii et al., 2011)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3240071/",
+      "accessed": "2026-10-29"
     }
   ]
 }

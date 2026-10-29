@@ -174,27 +174,49 @@
   ],
   "flagships": [
     {
+      "scientificName": "Alouatta guariba",
+      "name": "Bugio-ruivo",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Sumiu das florestas do Rio por mais de um século. Desde 2015 o projeto Refauna o reintroduz no parque, e a soltura de sete animais em 2024 elevou a população para 15 bugios, após aclimatação e vacina contra febre amarela.",
+      "sourceIds": [
+        "fl-a925d391",
+        "fl-e7079aad"
+      ]
+    },
+    {
+      "scientificName": "Dasyprocta leporina",
+      "name": "Cutia-vermelha",
+      "criteria": [
+        "papel_ecologico"
+      ],
+      "why": "Dispersora de sementes fundamental para a Mata Atlântica, sumiu da Tijuca no início dos anos 2000. As 31 cutias reintroduzidas no setor Floresta já estão na quarta geração nascida na natureza, e novas solturas chegam à área das Paineiras.",
+      "sourceIds": [
+        "fl-c4d7d308",
+        "fl-6a2ded70"
+      ]
+    },
+    {
+      "scientificName": "Chelonoidis denticulatus",
+      "name": "Jabuti-tinga",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "Extinto na floresta havia cerca de 200 anos, voltou em 2020, quando 28 jabutis com rádio-transmissores foram soltos no parque. A esperança é que dispersem frutos de árvores nativas; a equipe também os viu comendo plantas invasoras.",
+      "sourceIds": [
+        "fl-c7be7a88",
+        "fl-6a2ded70"
+      ]
+    },
+    {
       "scientificName": "Thoropa lutzi",
       "name": "Rãzinha",
       "why": "Está na lista de espécies ameaçadas protegidas pelo parque e é classificada como criticamente em perigo pela IUCN.",
       "sourceIds": [
         "icmbio",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Coleocephalocereus fluminensis",
-      "name": "Cacto-redondo",
-      "why": "Cacto criticamente em perigo segundo a IUCN, com registros dentro do parque.",
-      "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Alouatta guariba",
-      "name": "Bugio-ruivo",
-      "why": "Primata da Mata Atlântica, vulnerável segundo a IUCN e registrado dentro do parque.",
-      "sourceIds": [
         "gbif"
       ]
     }
@@ -234,6 +256,41 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-a925d391",
+      "institution": "((o))eco",
+      "title": "Sete bugios são soltos para reforçar população no Parque Nacional da Tijuca",
+      "url": "https://oeco.org.br/noticias/sete-bugios-sao-soltos-para-reforcar-populacao-no-parque-nacional-da-tijuca/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-e7079aad",
+      "institution": "((o))eco",
+      "title": "Integração: palavra-chave para salvar o bugio-ruivo",
+      "url": "https://oeco.org.br/reportagens/integracao-palavra-chave-para-salvar-o-bugio-ruivo/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c4d7d308",
+      "institution": "((o))eco",
+      "title": "O início de mais um ciclo para devolver as cutias ao Parque Nacional da Tijuca",
+      "url": "https://oeco.org.br/reportagens/o-inicio-de-mais-um-ciclo-para-devolver-as-cutias-ao-parque-nacional-da-tijuca/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-6a2ded70",
+      "institution": "((o))eco",
+      "title": "Refauna inicia financiamento coletivo para repovoar o Parque Nacional da Tijuca com araras-canindé",
+      "url": "https://oeco.org.br/salada-verde/refauna-inicia-financiamento-coletivo-para-repovoar-parque-nacional-tijuca-com-araras-caninde/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c7be7a88",
+      "institution": "((o))eco",
+      "title": "Extintos há 200 anos, jabutis são reintroduzidos no Parque Nacional da Tijuca",
+      "url": "https://oeco.org.br/reportagens/extintos-ha-200-anos-jabutis-sao-reintroduzidos-no-parque-nacional-da-tijuca/",
+      "accessed": "2026-10-29"
     }
   ]
 }

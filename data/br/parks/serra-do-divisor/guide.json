@@ -158,9 +158,14 @@
     {
       "scientificName": "Thamnophilus divisorius",
       "name": "Choca-do-acre",
-      "why": "Ave rara, com poucos registros, cujo nome científico remete à serra. Virou um dos destaques para os observadores no parque.",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "Ave-símbolo do parque e conhecida apenas nessa região: ocorre só na parte alta da serra, perto do mirante, em um trecho específico da trilha. É o principal chamariz dos observadores de aves no parque.",
       "sourceIds": [
-        "icmbio-turismo"
+        "fl-0e94b917",
+        "fl-7d200219"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Thamnophilus_divisorius_-_Acre_Antshrike_%28male%29%2C_Serra_do_Divisor_National_Park%2C_Acre%2C_Brazil.jpg/1920px-Thamnophilus_divisorius_-_Acre_Antshrike_%28male%29%2C_Serra_do_Divisor_National_Park%2C_Acre%2C_Brazil.jpg",
@@ -172,6 +177,32 @@
         "height": 1442,
         "alt": "Macho de choca-do-acre",
         "context": "Macho de choca-do-acre no Parque Nacional da Serra do Divisor."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Está entre os mamíferos ameaçados listados pelo ICMBio no parque e foi registrada na expedição de 2019, que instalou 30 armadilhas fotográficas por cerca de 40 dias na região norte, junto de anta e cachorro-do-mato-vinagre.",
+      "sourceIds": [
+        "fl-b022788b",
+        "fl-7d200219"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
       }
     },
     {
@@ -201,7 +232,8 @@
         "height": 1275,
         "alt": "Soim-preto (Callimico goeldii)",
         "context": "Soim-preto, Callimico goeldii."
-      }
+      },
+      "iucn": "VU"
     }
   ],
   "sources": [
@@ -253,6 +285,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-0e94b917",
+      "institution": "ICMBio",
+      "title": "Passarinhar: uma janela da Amazônia para o mundo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/passarinhar-uma-janela-da-amazonia-para-o-mundo",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-7d200219",
+      "institution": "National Geographic Brasil",
+      "title": "Expedição científica registra fauna de uma das regiões mais biodiversas da Amazônia",
+      "url": "https://www.nationalgeographicbrasil.com/meio-ambiente/2020/06/expedicao-cientifica-registra-fauna-de-uma-das-regioes-mais-biodiversas-da",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-b022788b",
+      "institution": "ICMBio",
+      "title": "Parna da Serra do Divisor (página da unidade)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/parna-da-serra-do-divisor-1",
+      "accessed": "2026-10-29"
     }
   ]
 }

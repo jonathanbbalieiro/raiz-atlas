@@ -165,30 +165,66 @@
     {
       "scientificName": "Cercomacra carbonaria",
       "name": "Chororó-do-rio-branco",
-      "why": "Vulnerável e restrito às várzeas da região, é um dos alvos dos observadores de aves no parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O diagnóstico do plano de manejo o classifica como criticamente ameaçado, e o ICMBio o cita entre as aves procuradas por observadores nas margens do rio Branco, dentro do parque.",
       "sourceIds": [
         "visita",
-        "plan",
-        "gbif"
+        "diag"
       ]
+    },
+    {
+      "scientificName": "Aprositornis disjuncta",
+      "name": "Formigueiro-das-campinaranas",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "No plano de manejo, entre as unidades listadas, só o Viruá o registra. O ICMBio o cita entre as aves endêmicas das campinaranas do Megaleque, onde observadores também procuram o dançarino-de-crista-amarela.",
+      "sourceIds": [
+        "visita",
+        "diag"
+      ],
+      "iucn": "LC"
     },
     {
       "scientificName": "Pteronura brasiliensis",
       "name": "Ariranha",
-      "why": "Em perigo, está entre os 43 vertebrados ameaçados que o parque protege, e tem registros dentro dele.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "O ICMBio a indica entre os mamíferos vistos no rio Baruana, e o plano de manejo a lista como ameaçada no parque, onde já foi tema de estudo de conservação no rio Iruá, junto ao peixe-boi-da-amazônia.",
       "sourceIds": [
-        "plan",
-        "gbif"
+        "visita",
+        "diag"
       ]
     },
     {
-      "scientificName": "Ateles paniscus",
-      "name": "Macaco-aranha-preto",
-      "why": "Vulnerável, é um dos mamíferos ameaçados cuja população e hábitat o parque se propõe a preservar.",
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Forma buritizais ao longo dos igarapés e em depressões alagadas, com buritirana e açaí. O ICMBio cita os buritizais que drenam para o rio Iruá entre os ambientes do parque.",
       "sourceIds": [
-        "plan",
-        "gbif"
-      ]
+        "visita",
+        "diag"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg/1280px-Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moriche_Palm_(Mauritia_flexuosa)_fruits_(40136103811).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa."
+      }
     }
   ],
   "sources": [

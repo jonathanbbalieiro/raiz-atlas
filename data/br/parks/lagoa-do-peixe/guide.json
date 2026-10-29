@@ -164,11 +164,40 @@
     {
       "scientificName": "Calidris subruficollis",
       "name": "Maçarico-acanelado",
-      "why": "Migrante que cruza o continente, está na lista de aves ameaçadas protegidas pelo parque e tem registros na laguna.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Cria no Ártico e voa cerca de 15 mil km até a Lagoa do Peixe, onde fica de outubro a abril nos campos alagáveis. O parque pode receber de 3 mil a 5 mil indivíduos, a maior população da espécie no Brasil.",
       "sourceIds": [
-        "icmbio",
-        "gbif"
+        "fl-0da455cf",
+        "icmbio"
       ]
+    },
+    {
+      "scientificName": "Calidris canutus",
+      "name": "Maçarico-de-papo-vermelho",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Nas praias do parque quase dobra de peso, de cerca de 120 g para 250 g, antes de seguir em voo de seis dias até a Baía de Delaware (EUA). O parque abriga mais de 10% da população da espécie, o que levou ao seu ingresso na rede hemisférica de reservas para aves limícolas em 1991.",
+      "sourceIds": [
+        "fl-0da455cf",
+        "fl-0fd88702"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Red_Knot_1_-_Boat_Harbour.jpg/1280px-Red_Knot_1_-_Boat_Harbour.jpg",
+        "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Knot_1_-_Boat_Harbour.jpg",
+        "width": 1280,
+        "height": 856,
+        "alt": "Maçarico-de-papo-vermelho (Calidris canutus)",
+        "context": "Maçarico-de-papo-vermelho, Calidris canutus."
+      }
     },
     {
       "scientificName": "Calidris fuscicollis",
@@ -208,6 +237,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-0da455cf",
+      "institution": "((o))eco",
+      "title": "Parque Nacional da Lagoa do Peixe: área úmida essencial para conservação de aves",
+      "url": "https://oeco.org.br/analises/parque-nacional-da-lagoa-do-peixe-area-umida-essencial-para-conservacao-de-aves/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-0fd88702",
+      "institution": "((o))eco",
+      "title": "Parque Nacional da Lagoa do Peixe completa 39 anos com futuro incerto",
+      "url": "https://oeco.org.br/reportagens/parque-nacional-da-lagoa-do-peixe-completa-39-anos-com-futuro-incerto/",
+      "accessed": "2026-10-29"
     }
   ]
 }

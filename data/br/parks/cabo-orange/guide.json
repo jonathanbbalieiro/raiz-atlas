@@ -167,18 +167,27 @@
     {
       "scientificName": "Eudocimus ruber",
       "name": "Guará",
-      "why": "Forma dormitórios com garças e colhereiros no Igarapé do Marrecal e tem muitos registros no parque.",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Nos manguezais do parque os guarás formam grandes dormitórios junto com garças e colhereiros, com destaque para o Igarapé do Marrecal. O guia de aves do ICMBio descreve a plumagem escarlate como inconfundível e a reprodução em colônias nas árvores do mangue.",
       "sourceIds": [
-        "enc3",
-        "gbif"
+        "fl-7e23a478",
+        "fl-84b86c74"
       ]
     },
     {
       "scientificName": "Phoenicopterus ruber",
       "name": "Flamingo",
-      "why": "No Brasil só ocorre no Amapá, e a ponta do Cabo Orange é um dos raros lugares onde se reproduz no país.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O Amapá é o único estado brasileiro de ocorrência atual do flamingo, e a ponta do Cabo Orange é área de alimentação e um dos poucos locais com colônias reprodutivas da espécie no país, segundo o guia de aves do ICMBio.",
       "sourceIds": [
-        "enc3"
+        "fl-7e23a478",
+        "fl-84b86c74"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Caribbean_Flamingo.jpg/1280px-Caribbean_Flamingo.jpg",
@@ -190,15 +199,19 @@
         "height": 914,
         "alt": "Flamingo (Phoenicopterus ruber)",
         "context": "Flamingo, Phoenicopterus ruber."
-      }
+      },
+      "iucn": "LC"
     },
     {
       "scientificName": "Tringa flavipes",
       "name": "Maçarico-de-perna-amarela",
-      "why": "Migrante do hemisfério Norte, vulnerável, passa o inverno boreal nas praias e mangues do parque.",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Na ponta do Cabo Orange se concentram maçaricos e batuíras vindos do Hemisfério Norte entre setembro e abril. O maçarico-de-perna-amarela está entre os mais comuns e, segundo pesquisadores, chega ao Amapá voando do Canadá e do Alasca.",
       "sourceIds": [
-        "enc3",
-        "gbif"
+        "fl-7e23a478",
+        "fl-ce16cd9a"
       ]
     }
   ],
@@ -230,6 +243,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-7e23a478",
+      "institution": "ICMBio",
+      "title": "Guia de campo: Aves do Parque Nacional do Cabo Orange (Souza et al., 2008)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/souzaetal-_2008_avesdoparquenacionaldocaboorangeavesdoparquenacionaldocaboorange.pdf/@@download/file",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-84b86c74",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo Integrado do Fogo do Parque Nacional do Cabo Orange",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/Plano_de_Manejo_Integrado_do_Fogo_CaboOrange.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ce16cd9a",
+      "institution": "Portal Amazônia",
+      "title": "Caranguejos e manguezal em área de parque nacional no Amapá passam a ser monitorados por pesquisadores",
+      "url": "https://portalamazonia.com/meio-ambiente/caranguejos-e-manguezal-em-area-de-parque-nacional-no-amapa-passam-a-ser-monitorados/",
+      "accessed": "2026-10-29"
     }
   ]
 }

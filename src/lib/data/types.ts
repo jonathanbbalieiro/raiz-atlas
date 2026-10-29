@@ -196,6 +196,8 @@ export interface ParkContext {
   }[];
 }
 
+export type FlagshipCriterion = "endemica" | "ameacada_com_acao" | "habitat_critico" | "papel_ecologico" | "icone_da_paisagem" | "cultural";
+
 export interface ParkGuide {
   schemaVersion: 1;
   /** "rascunho" aparece só em prévia; "revisado" é publicado. */
@@ -214,6 +216,10 @@ export interface ParkGuide {
   flagships: {
     scientificName: string;
     name: string;
+    /** Por que é característica deste parque (docs/DESTAQUES.md). */
+    criteria?: FlagshipCriterion[];
+    /** Categoria IUCN global, quando o destaque não consta do levantamento (scripts/fill-flagship-iucn.mjs). */
+    iucn?: IucnCategory | null;
     why: string;
     sourceIds: string[];
     /** Só quando o levantamento de biodiversidade não traz foto da espécie. */

@@ -148,29 +148,65 @@
     {
       "scientificName": "Blastocerus dichotomus",
       "name": "Cervo-do-pantanal",
-      "why": "Já teve no parque uma das maiores concentrações conhecidas numa área protegida da América Latina e segue na lista de ameaçadas da unidade.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Em 1976 o parque abrigava de 300 a 400 cervos, possivelmente a maior concentração da espécie em uma área protegida da América Latina, segundo o plano de manejo. Proteger o cervo-do-pantanal é um dos objetivos da unidade, que preserva as matas e campos alagáveis da Ilha do Bananal.",
       "sourceIds": [
-        "pm",
         "icmbio",
-        "gbif"
+        "pm"
       ]
     },
     {
       "scientificName": "Pteronura brasiliensis",
       "name": "Ariranha",
-      "why": "Em perigo, está na lista de ameaçadas da unidade e tem registros dentro do parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Predadora de topo dos rios Araguaia e Javaés, a ariranha ocorre em densidades que o plano de manejo considera altas, a julgar pelos rastros e pelos relatos dos funcionários. O plano a inclui entre os temas das trilhas interpretativas da Sede, da Ponta da Ilha e da Barreira da Cruz.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "pm"
       ]
     },
     {
-      "scientificName": "Opisthocomus hoazin",
-      "name": "Jacu-cigano",
-      "why": "Ave de beira d'água com muitos registros dentro do parque.",
+      "scientificName": "Podocnemis expansa",
+      "name": "Tartaruga-da-amazônia",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "A maior concentração de desova da espécie no Centro-Oeste ocorre no entorno da Ilha do Bananal. No rio Javaés, limite do parque, dez barras de areia somaram 337 ninhos de tartaruga-da-amazônia e 490 de tracajá na temporada de 2000. A espécie consta do levantamento de répteis do plano de manejo.",
       "sourceIds": [
-        "gbif"
+        "fl-017af1b5",
+        "pm"
       ]
+    },
+    {
+      "scientificName": "Inia araguaiaensis",
+      "name": "Boto-do-araguaia",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "O plano de manejo registra botos observados várias vezes nos rios Araguaia e Javaés, quase sem interrupção junto à base da Ponta da Ilha. Hoje reconhecidos como espécie própria, os botos da bacia Araguaia-Tocantins encurralam cardumes nas praias de areia na seca.",
+      "sourceIds": [
+        "pm",
+        "fl-2662d95a"
+      ],
+      "iucn": "EN",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Inia_araguaiaensis_cranium_%26_mandible_PLoS_ONE.jpg/1280px-Inia_araguaiaensis_cranium_%26_mandible_PLoS_ONE.jpg",
+        "author": "Tomas Hrbek, Vera Maria Ferreira da Silva, Nicole Dutra, Waleska Gravena, Anthon",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inia_araguaiaensis_cranium_%26_mandible_PLoS_ONE.jpg",
+        "width": 1280,
+        "height": 1207,
+        "alt": "Boto-do-araguaia (Inia araguaiaensis)",
+        "context": "Boto-do-araguaia, Inia araguaiaensis."
+      }
     }
   ],
   "sources": [
@@ -194,6 +230,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-017af1b5",
+      "institution": "Universidade Federal de Minas Gerais",
+      "title": "Caracterização ecogeomorfológica das áreas de desova de quelônios de água doce (gênero Podocnemis) no entorno da Ilha do Bananal, rio Araguaia (Castro e Ferreira Júnior, Geografias, 2008)",
+      "url": "https://periodicos.ufmg.br/index.php/geografias/article/download/13247/31633/139610",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-2662d95a",
+      "institution": "((o))eco",
+      "title": "Botos do Araguaia não nadam no Amazonas (2016)",
+      "url": "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/27953-botos-do-araguaia-nao-nadam-no-amazonas.pdf",
+      "accessed": "2026-10-29"
     }
   ]
 }

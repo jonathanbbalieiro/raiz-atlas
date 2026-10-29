@@ -196,6 +196,8 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
       sized(g.curiosities, 0, 8, "curiosities");
       sized(g.stories, 0, 6, "stories");
       sized(g.flagships, 0, 6, "flagships");
+      const CRITERIA = ["endemica", "ameacada_com_acao", "habitat_critico", "papel_ecologico", "icone_da_paisagem", "cultural"];
+      for (const f of g.flagships) assert(!f.criteria || (f.criteria.length > 0 && f.criteria.every((x) => CRITERIA.includes(x))), `${at}: critério de destaque inválido em ${f.scientificName}`);
       for (const it of [...g.protects.items, ...g.wonders, ...g.stories]) {
         assert(it.title?.trim() && it.text?.trim(), `${at}: item sem título ou texto`);
         cites(it.sourceIds, `"${it.title}"`);

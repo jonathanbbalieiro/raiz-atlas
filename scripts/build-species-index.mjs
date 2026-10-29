@@ -36,7 +36,12 @@ for (const slug of fs.readdirSync(PARKS)) {
   if (fs.existsSync(guide)) for (const f of JSON.parse(fs.readFileSync(guide, "utf8")).flagships ?? []) known.add(f.scientificName.trim().toLowerCase());
 }
 for (const [name, p] of Object.entries(profiles)) {
-  if (!known.has(name.trim().toLowerCase())) throw new Error(`species-profiles: "${name}" não consta em nenhum levantamento nem guia`);
+  if (!known.has(name.trim().toLowerCase())) {
+    // Perfil de espécie que saiu dos destaques e não consta de levantamento: guardado, mas não publicado.
+    console.warn(`species-profiles: "${name}" não consta em nenhum levantamento nem guia (perfil não publicado)`);
+    delete profiles[name];
+    continue;
+  }
   if (!p.sources?.length || p.sources.some((x) => !x.institution || !x.title || !x.url?.startsWith("https://"))) throw new Error(`species-profiles: "${name}" precisa de fontes (institution, title, url https)`);
   if (!(p.summary || p.habits || p.history || p.curiosities?.length)) throw new Error(`species-profiles: "${name}" sem texto`);
   if (/wikip[eé]dia/i.test(JSON.stringify(p))) throw new Error(`species-profiles: "${name}" cita a Wikipédia`);

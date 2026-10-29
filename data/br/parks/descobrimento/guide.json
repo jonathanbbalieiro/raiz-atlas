@@ -136,10 +136,39 @@
     {
       "scientificName": "Crax blumenbachii",
       "name": "Mutum-do-sudeste",
-      "why": "Ave ameaçada para a qual o parque é um dos únicos e últimos redutos.",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica"
+      ],
+      "why": "Ave endêmica da Mata Atlântica e ameaçada de extinção: o parque guarda, segundo o Instituto Socioambiental, os últimos redutos do mutum-do-sudeste, e o WWF-Brasil o apresenta como espécie ameaçada que o visitante pode encontrar na mata de Prado.",
       "sourceIds": [
-        "icmbio-bio"
+        "fl-f65bd4fa",
+        "fl-09c60e38"
       ]
+    },
+    {
+      "scientificName": "Parkia pendula",
+      "name": "Juerana",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Dá nome a uma das trilhas do parque e é uma das árvores gigantes que o tornam conhecido: no fim da trilha da Juerana ergue-se uma árvore imponente cujas raízes formam bancos naturais, e o guia a descreve como a dona do espaço ao redor.",
+      "sourceIds": [
+        "fl-f65bd4fa",
+        "fl-c6a70629"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/558543251/large.jpg",
+        "author": "geovane_siqueira",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/558543251",
+        "width": 1024,
+        "height": 680,
+        "alt": "Galhos de juerana com folhas finas e flores globosas penduradas",
+        "context": "Juerana (Parkia pendula) com suas flores penduradas, registrada em Linhares (ES), na mesma Mata Atlântica do sul da Bahia."
+      },
+      "iucn": "LC"
     },
     {
       "scientificName": "Harpia harpyja",
@@ -158,27 +187,8 @@
         "width": 2048,
         "height": 1366,
         "context": "Gavião-real (Harpia harpyja), a maior águia das florestas brasileiras."
-      }
-    },
-    {
-      "scientificName": "Parkia pendula",
-      "name": "Juerana",
-      "why": "Árvore gigante e centenária, símbolo da Hileia Baiana protegida pelo parque.",
-      "sourceIds": [
-        "icmbio-bio",
-        "icmbio-nome"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/558543251/large.jpg",
-        "author": "geovane_siqueira",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/558543251",
-        "width": 1024,
-        "height": 680,
-        "alt": "Galhos de juerana com folhas finas e flores globosas penduradas",
-        "context": "Juerana (Parkia pendula) com suas flores penduradas, registrada em Linhares (ES), na mesma Mata Atlântica do sul da Bahia."
-      }
+      },
+      "iucn": "VU"
     }
   ],
   "sources": [
@@ -223,6 +233,27 @@
       "title": "Discovery Coast Atlantic Forest Reserves",
       "url": "https://whc.unesco.org/en/list/892/",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-f65bd4fa",
+      "institution": "WWF-Brasil",
+      "title": "Parque Nacional do Descobrimento: um santuário de biodiversidade",
+      "url": "https://www.wwf.org.br/?89761%2FParque-Nacional-do-Descobrimento-um-santuario-de-biodiversidade=",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-09c60e38",
+      "institution": "Instituto Socioambiental",
+      "title": "PARNA do Descobrimento",
+      "url": "https://uc.socioambiental.org/arp/2518",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c6a70629",
+      "institution": "Entre Parques BR",
+      "title": "Parque Nacional do Descobrimento: o parque das árvores gigantes",
+      "url": "https://entreparquesbr.com.br/descobrimento/",
+      "accessed": "2026-10-29"
     }
   ]
 }

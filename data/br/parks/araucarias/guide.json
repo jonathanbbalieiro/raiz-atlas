@@ -136,25 +136,58 @@
     {
       "scientificName": "Araucaria angustifolia",
       "name": "Araucária",
-      "why": "Dá nome ao parque e é criticamente ameaçada. Proteger sua diversidade genética foi um dos motivos da criação.",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Dá nome ao parque, criado em 2005 em Ponte Serrada e Passos Maia (SC) para preservar remanescentes de Floresta Ombrófila Mista, a floresta com araucária, da qual restam apenas cerca de 12% da área original.",
       "sourceIds": [
-        "pm",
-        "gbif"
+        "fl-b136ed94",
+        "fl-0d6e0005"
       ]
+    },
+    {
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Típico da região, deixou de ser localizado no interior do parque e foi reintroduzido: em 2011 o ICMBio soltou 15 aves e, desde 2013, o Instituto Espaço Silvestre mantém ali um projeto de soltura. Come pinhão e pode espalhar as sementes da araucária.",
+      "sourceIds": [
+        "fl-ad88ac92",
+        "fl-ede5563b"
+      ]
+    },
+    {
+      "scientificName": "Puma concolor",
+      "name": "Onça-parda",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "Uma armadilha fotográfica a flagrou no parque em 12 de janeiro de 2022, na área onde se soltam papagaios; o ICMBio a lista entre os animais ameaçados protegidos ali. Seu retorno foi ligado à retirada dos animais domésticos após a criação do parque.",
+      "sourceIds": [
+        "fl-0da0d17c",
+        "fl-219e06f2"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/1280px-Puma_-_49044464307.jpg",
+        "author": "Carlos",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puma_-_49044464307.jpg",
+        "width": 1280,
+        "height": 1920,
+        "alt": "Onça-parda (Puma concolor)",
+        "context": "Onça-parda, Puma concolor."
+      }
     },
     {
       "scientificName": "Pyrrhura frontalis",
       "name": "Tiriba-de-testa-vermelha",
       "why": "A ave mais abundante nos levantamentos do plano de manejo e a mais registrada no parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Celeus galeatus",
-      "name": "Pica-pau-de-cara-canela",
-      "why": "Pica-pau ameaçado de extinção, registrado no parque durante os estudos do plano de manejo.",
       "sourceIds": [
         "pm",
         "gbif"
@@ -182,6 +215,48 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-b136ed94",
+      "institution": "Presidência da República",
+      "title": "Decreto de 19 de outubro de 2005 (cria o Parque Nacional das Araucárias)",
+      "url": "https://www.normasbrasil.com.br/norma/decreto-2005_56240.html",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-0d6e0005",
+      "institution": "((o))eco",
+      "title": "As araucárias e o grande Festival dos Papagaios de Urupema",
+      "url": "https://oeco.org.br/analises/as-araucarias-e-o-grande-festival-dos-papagaios-de-urupema/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ad88ac92",
+      "institution": "ICMBio",
+      "title": "Quinze papagaios-de-peito-roxo são reintroduzidos no Parque Nacional das Araucárias",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/quinze-papagaios-de-peito-roxo-sao-reintroduzidos-no-parque-nacional-das-araucarias",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ede5563b",
+      "institution": "IHU Unisinos",
+      "title": "Em Santa Catarina, projeto protege ave ameaçada de extinção e gera renda em comunidade",
+      "url": "https://ihu.unisinos.br/categorias/562439-em-santa-catarina-projeto-protege-ave-ameacada-de-extincao-e-gera-renda-em-comunidade",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-0da0d17c",
+      "institution": "NSC Total",
+      "title": "Puma é visto caminhando em parque de Santa Catarina; veja vídeo",
+      "url": "https://www.nsctotal.com.br/?p=2419966",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-219e06f2",
+      "institution": "ICMBio",
+      "title": "Parna das Araucárias (página da unidade)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-das-araucarias",
+      "accessed": "2026-10-29"
     }
   ]
 }

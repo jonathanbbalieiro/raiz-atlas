@@ -156,40 +156,67 @@
   ],
   "flagships": [
     {
-      "scientificName": "Penelope jacucaca",
-      "name": "Jacucaca",
-      "why": "Ave da Caatinga ameaçada de extinção, registrada dentro do parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Leopardus tigrinus",
-      "name": "Gato-do-mato-pequeno",
-      "why": "Felino ameaçado que vive na Caatinga do parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
       "scientificName": "Myracrodruon urundeuva",
       "name": "Aroeira-do-sertão",
-      "why": "Árvore da Caatinga declarada imune ao corte, presente no parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "icone_da_paisagem"
+      ],
+      "why": "Árvore típica da caatinga que o plano de manejo cita como especialmente protegida, declarada imune ao corte. No levantamento prévio da área do parque aparece entre os principais representantes do estrato arbóreo, com abundância destacada, e consta da lista oficial de flora ameaçada.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-6e5b0d65"
       ]
     },
     {
       "scientificName": "Phyllostomus discolor",
       "name": "Morcego-nariz-de-lança-pálido",
-      "why": "Um dos morcegos que fazem da Furna Feia um ponto quente de espécies de morcegos.",
+      "criteria": [
+        "habitat_critico",
+        "papel_ecologico"
+      ],
+      "why": "Na caverna Furna Feia, que dá nome ao parque, uma colônia de cerca de mil indivíduos ocupa os salões inferiores. A caverna teve a maior riqueza de morcegos (10 espécies) entre 13 cavernas do Rio Grande do Norte e é tratada no plano de manejo como hotspot de morcegos.",
+      "sourceIds": [
+        "fl-fd861cab",
+        "pm"
+      ]
+    },
+    {
+      "scientificName": "Penelope jacucaca",
+      "name": "Jacucaca",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica"
+      ],
+      "why": "Ave de mata seca do Nordeste, consta entre os animais ameaçados de extinção encontrados no parque, ao lado do gato-do-mato-pintado e dos morcegos Furipterus horrens e Natalus macrourus, segundo o plano de manejo e o plano de manejo integrado do fogo da unidade.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-fc7c5208"
       ]
+    },
+    {
+      "scientificName": "Kerodon rupestris",
+      "name": "Mocó",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Roedor dos lajedos e pedras da caatinga, o mocó é citado pelo ICMBio como endêmico do bioma e figura entre os animais ameaçados registrados no parque, que protege cavernas e afloramentos rochosos de caatinga hiperxerófila.",
+      "sourceIds": [
+        "pm",
+        "fl-fc7c5208"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg/1280px-Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201%28001%29.jpg",
+        "author": "Motorolaz1201",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moc%C3%B3-PARNA_da_Serra_da_Capivara-Motorolaz1201(001).jpg",
+        "width": 1280,
+        "height": 860,
+        "alt": "Mocó (Kerodon rupestris)",
+        "context": "Mocó, Kerodon rupestris."
+      }
     }
   ],
   "sources": [
@@ -213,6 +240,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-6e5b0d65",
+      "institution": "Sociedade Brasileira de Espeleologia",
+      "title": "Complexo espeleológico da Furna Feia (RN): uma proposta de unidade de conservação (30º Congresso Brasileiro de Espeleologia, 2009)",
+      "url": "https://www.cavernas.org.br/wp-content/uploads/2021/07/30cbe_029-035.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-fd861cab",
+      "institution": "Mastozoología Neotropical",
+      "title": "Diversity of cave bats in the Brazilian tropical dry forest of Rio Grande do Norte State (Vargas-Mena et al., 2018)",
+      "url": "https://www.redalyc.org/journal/457/45758865016/html/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-fc7c5208",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo Integrado do Fogo 2023-2027 do Parque Nacional da Furna Feia",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_2023_2027_PNFF.pdf",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -181,8 +181,13 @@
     {
       "scientificName": "Podocnemis expansa",
       "name": "Tartaruga-da-amazônia",
-      "why": "Os quelônios são um dos valores fundamentais do parque. Muito caçados para alimentação, dependem das praias da vazante para desovar.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Desova nas praias do parque: em 2018, 42 ninhos da espécie eclodiram na foz do rio Jaú e os filhotes foram soltos por monitores do projeto do IPÊ com o ICMBio. O plano de manejo lista a espécie entre os quelônios do parque e aponta o tráfico de quelônios como ameaça.",
       "sourceIds": [
+        "fl-eaa286ea",
         "pm"
       ],
       "photo": {
@@ -196,6 +201,31 @@
         "alt": "Tartaruga-da-amazônia",
         "context": "Tartaruga-da-amazônia fotografada no INPA, em Manaus."
       }
+    },
+    {
+      "scientificName": "Cacajao melanocephalus",
+      "name": "Uacari-preto",
+      "criteria": [
+        "habitat_critico",
+        "ameacada_com_acao"
+      ],
+      "why": "Primata de igapó: no Jaú foram observados grupos de 2 a 26 indivíduos, que usam áreas de floresta alagada de 0,8 a 2,5 km². A ficha do ICMBio o associa ao igapó e a migrações para a terra firme. O parque o inclui entre as espécies ameaçadas que protege.",
+      "sourceIds": [
+        "fl-c981f395",
+        "fl-22d7021b"
+      ]
+    },
+    {
+      "scientificName": "Bertholletia excelsa",
+      "name": "Castanheira-do-pará",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Na floresta densa do Jaú, os grupos de castanheira-do-pará são frequentes, ao lado do angelim-rajado, da quaruba, das sucupiras e das ucuúbas. Ela marca a paisagem de terra firme do parque, que fica entre Novo Airão e Barcelos, no Amazonas.",
+      "sourceIds": [
+        "pm",
+        "fl-22d7021b"
+      ]
     },
     {
       "scientificName": "Nyctibius leucopterus",
@@ -214,15 +244,8 @@
         "height": 1440,
         "alt": "Urutau-de-asa-branca (Nyctibius leucopterus)",
         "context": "Urutau-de-asa-branca, Nyctibius leucopterus."
-      }
-    },
-    {
-      "scientificName": "Inia geoffrensis",
-      "name": "Boto-cor-de-rosa",
-      "why": "Aparece nos rios do parque e está entre as espécies ameaçadas registradas na unidade.",
-      "sourceIds": [
-        "pm"
-      ]
+      },
+      "iucn": "LC"
     }
   ],
   "sources": [
@@ -246,6 +269,27 @@
       "title": "Central Amazon Conservation Complex",
       "url": "https://whc.unesco.org/en/list/998/",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-eaa286ea",
+      "institution": "IPÊ",
+      "title": "Parna Jaú e Resex Unini tiveram recorde de soltura de filhotes de quelônios",
+      "url": "https://ipe.org.br/noticias/parna-jau-e-resex-unini-tiveram-recorde-de-soltura-de-filhotes-de-quelonios-pelo-projeto-monitoramento-participativo-da-biodiversidade/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c981f395",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Cacajao melanocephalus (ficha dos primatas brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/PITHECIIDAE/ficha_cacajao_melanocephalus.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-22d7021b",
+      "institution": "Portal Amazônia",
+      "title": "Parque Nacional do Jaú",
+      "url": "https://portalamazonia.com/amazonia-de-a-a-z/parque-nacional-do-jau/",
+      "accessed": "2026-10-29"
     }
   ]
 }

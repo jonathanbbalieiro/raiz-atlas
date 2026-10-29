@@ -103,10 +103,16 @@
   "flagships": [
     {
       "scientificName": "Leontopithecus chrysomelas",
-      "name": "Mico-leão-de-cara-dourada",
-      "why": "Primata ameaçado do sul da Bahia, na lista de espécies protegidas pelo parque.",
+      "name": "Mico-leão-da-cara-dourada",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Primata endêmico da Mata Atlântica, residente na Bahia, com área de ocupação inferior a 1.000 km². Consta da lista de ameaçadas protegidas pelo parque, cuja mata cobre um gradiente de 300 a pouco mais de 1.000 m no sul baiano.",
       "sourceIds": [
-        "icmbio"
+        "icmbio",
+        "fl-0b1ef150",
+        "zookeys"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Golden-headed_Lion_Tamarin_095.jpg/1920px-Golden-headed_Lion_Tamarin_095.jpg",
@@ -118,6 +124,45 @@
         "height": 1384,
         "alt": "Mico-leão-de-cara-dourada (Leontopithecus chrysomelas)",
         "context": "Mico-leão-de-cara-dourada, Leontopithecus chrysomelas."
+      },
+      "iucn": "EN"
+    },
+    {
+      "scientificName": "Crossodactylodes septentrionalis",
+      "name": "Rã-de-bromélia",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Entre 100 espécies de anfíbios e répteis do parque, 53 são endêmicas da Mata Atlântica e duas só são conhecidas daqui. Esta rã de bromélia tem registros em Serra das Lontras, num parque com gradiente de 300 a 1.000 m no sul da Bahia.",
+      "sourceIds": [
+        "zookeys",
+        "fl-cf3a32ff"
+      ],
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Callicebus melanochir",
+      "name": "Guigó-da-bahia",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Primata endêmico da Mata Atlântica do sul e extremo sul da Bahia, nordeste de Minas e norte do Espírito Santo. Consta da lista de ameaçadas protegidas pelo parque, que guarda mata de encosta do sul baiano.",
+      "sourceIds": [
+        "icmbio",
+        "fl-ed60d2b9"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Casal_de_Guig%C3%B3s_Bahia_2021.png",
+        "author": "Rodrigo Costa-Araújo",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casal_de_Guig%C3%B3s_Bahia_2021.png",
+        "width": 1280,
+        "height": 853,
+        "alt": "Guigó-da-bahia (Callicebus melanochir)",
+        "context": "Guigó-da-bahia, Callicebus melanochir."
       }
     },
     {
@@ -127,34 +172,6 @@
       "sourceIds": [
         "gbif"
       ]
-    },
-    {
-      "scientificName": "Carpornis melanocephala",
-      "name": "Sabiá-pimenta",
-      "why": "Ave ameaçada da Mata Atlântica, protegida pelo parque e registrada ali.",
-      "sourceIds": [
-        "icmbio",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Bradypus torquatus",
-      "name": "Preguiça-de-coleira",
-      "why": "Preguiça ameaçada de extinção, na lista de espécies protegidas pelo parque.",
-      "sourceIds": [
-        "icmbio"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/408981960/original.jpeg",
-        "author": "Thiago Gonçalves Coronado Antunes",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/408981960",
-        "width": 2048,
-        "height": 1365,
-        "alt": "Preguiça-de-coleira pendurada em galho, com a juba escura no pescoço, na Mata Atlântica da Bahia",
-        "context": "Preguiça-de-coleira fotografada na Mata Atlântica baiana, onde a espécie vive."
-      }
     }
   ],
   "sources": [
@@ -178,6 +195,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-0b1ef150",
+      "institution": "ICMBio",
+      "title": "Ficha de Leontopithecus chrysomelas (primatas brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/CALLITRICHIDAE/ficha_leontopithecus_chrysomelas.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-cf3a32ff",
+      "institution": "GBIF",
+      "title": "Ocorrências de Crossodactylodes septentrionalis",
+      "url": "https://www.gbif.org/occurrence/search?taxon_key=8516127",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ed60d2b9",
+      "institution": "ICMBio",
+      "title": "Ficha de Callicebus melanochir (primatas brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/PITHECIIDAE/ficha_callicebus_melanochir.pdf",
+      "accessed": "2026-10-29"
     }
   ]
 }

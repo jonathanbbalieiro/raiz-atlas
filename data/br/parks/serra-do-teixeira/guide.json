@@ -108,9 +108,14 @@
     {
       "scientificName": "Bothrops jabrensis",
       "name": "Jararaca-do-jabre",
-      "why": "Serpente criticamente ameaçada que só é conhecida dentro do parque.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Serpente conhecida só no parque, isolada nas serras altas da região, como o Pico do Jabre, há milhões de anos. Foi catalogada em 2022 e está criticamente ameaçada por fogo, desmatamento e coleta; o ICMBio participa da pesquisa e da educação ambiental.",
       "sourceIds": [
-        "auniao"
+        "auniao",
+        "decreto"
       ]
     },
     {

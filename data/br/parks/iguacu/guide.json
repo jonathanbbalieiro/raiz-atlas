@@ -176,37 +176,56 @@
     {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "Símbolo do parque. O Corredor Verde abriga a maior população de onças-pintadas da Mata Atlântica.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico",
+        "icone_da_paisagem"
+      ],
+      "why": "Símbolo do parque e predadora de topo: o Corredor Verde com a Argentina abriga a maior população de onças da Mata Atlântica. O censo de 2022 contou 35 onças (26 adultas e 9 filhotes) no parque, após o risco de extinção local nos anos 2000.",
       "sourceIds": [
-        "pm",
-        "gbif"
+        "fl-d2fb54b4",
+        "fl-b56235b6"
       ]
+    },
+    {
+      "scientificName": "Aburria jacutinga",
+      "name": "Jacutinga",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Ave de floresta extinta em várias regiões do Sul, aqui ainda é espécie-chave do parque. Come frutos de palmeiras como a juçara e, ao dispersar suas sementes, ajuda a manter os frutos grandes e a floresta saudável.",
+      "sourceIds": [
+        "fl-b4b92401",
+        "fl-7cd4868f",
+        "fl-d2fb54b4"
+      ],
+      "iucn": "EN"
     },
     {
       "scientificName": "Steindachneridion melanodermatum",
       "name": "Surubim-do-iguaçu",
-      "why": "Bagre endêmico da bacia do Iguaçu, em perigo de extinção, citado entre as espécies-chave do parque.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Bagre que só existe na bacia do rio Iguaçu, onde o parque protege trechos de água limpa. O plano de manejo o cita entre as espécies-chave do parque; a Copel reproduz a espécie em cativeiro para repovoar o rio.",
       "sourceIds": [
-        "pm",
-        "gbif"
+        "fl-d2fb54b4",
+        "fl-98b3d516"
       ]
     },
     {
-      "scientificName": "Pipile jacutinga",
-      "name": "Jacutinga",
-      "why": "Ave em perigo de extinção, citada entre as espécies-chave para conservação no parque.",
+      "scientificName": "Euterpe edulis",
+      "name": "Palmito-juçara",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "Palmeira importante na Floresta Estacional do parque, alvo de corte ilegal por causa do palmito. Seus frutos alimentam dezenas de aves e mamíferos, e o plano de manejo a cita entre as espécies-chave do Iguaçu, indicadoras da qualidade da floresta.",
       "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Cypseloides senex",
-      "name": "Andorinhão-velho",
-      "why": "Uma das aves mais registradas no parque, com mais de 1.700 registros. É o protagonista do voo diante das quedas.",
-      "sourceIds": [
-        "gbif",
-        "pm"
+        "fl-d2fb54b4",
+        "fl-7cd4868f"
       ]
     }
   ],
@@ -238,6 +257,41 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-d2fb54b4",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional do Iguaçu (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-iguacu/pagina/documentos-de-gestao/plano-de-manejo-2018.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-b56235b6",
+      "institution": "ICMBio (via eCycle)",
+      "title": "Projeto Onças do Iguaçu registra resultados promissores em 2022",
+      "url": "https://www.ecycle.com.br/projeto-oncas-do-iguacu-registra-resultados-promissores-em-2022/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-b4b92401",
+      "institution": "WWF-Brasil",
+      "title": "Guia de Fauna do Parque Nacional do Iguaçu (2014)",
+      "url": "https://wwfbr.awsassets.panda.org/downloads/guia_fauna_parna_iguacu.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-7cd4868f",
+      "institution": "Agência FAPESP",
+      "title": "O futuro incerto do palmito juçara",
+      "url": "https://agencia.fapesp.br/index.php/o-futuro-incerto-do-palmito-jucara/25258",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-98b3d516",
+      "institution": "Publicatio UEPG (Ludwig, Gomes e Artoni)",
+      "title": "Um método de reprodução induzida para o surubim Steindachneridion melanodermatum do rio Iguaçu",
+      "url": "https://revistas.uepg.br/index.php/biologica/article/download/417/420/1302",
+      "accessed": "2026-10-29"
     }
   ]
 }

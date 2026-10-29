@@ -170,11 +170,30 @@
   ],
   "flagships": [
     {
+      "scientificName": "Kerodon rupestris",
+      "name": "Mocó",
+      "criteria": [
+        "papel_ecologico",
+        "icone_da_paisagem"
+      ],
+      "why": "Roedor típico da Caatinga entre os mamíferos do parque. No guia de aves do ICMBio, a águia-serrana aparece como grande caçadora de mocós nas encostas rochosas e nidifica nos talhados de pedra das formações de arenito.",
+      "sourceIds": [
+        "fl-8e15149a",
+        "fl-a5a0f174",
+        "pm"
+      ]
+    },
+    {
       "scientificName": "Penelope jacucaca",
       "name": "Jacucaca",
-      "why": "Ave da Caatinga registrada no parque e apontada pelo ICMBio, no plano de manejo, entre as espécies vulneráveis.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Cracídeo endêmico da Caatinga do Nordeste, classificado como vulnerável. O plano de manejo o registra entre as duas espécies vulneráveis levantadas no parque, que fica na transição entre Caatinga e Cerrado.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "fl-d25de5d2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Naturalis_Biodiversity_Center_-_ZMA.AVES.56985_-_Penelope_jacucaca_Spix%2C_1825_-_Cracidae_-_skin_specimen.jpeg/1920px-Naturalis_Biodiversity_Center_-_ZMA.AVES.56985_-_Penelope_jacucaca_Spix%2C_1825_-_Cracidae_-_skin_specimen.jpeg",
@@ -186,6 +205,31 @@
         "height": 1224,
         "alt": "Jacucaca (Penelope jacucaca)",
         "context": "Jacucaca, Penelope jacucaca."
+      },
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Bromelia laciniosa",
+      "name": "Macambira",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Bromélia espinhosa de Caatinga que consta da lista de plantas do parque, onde predomina a flora de cerrado. Ajuda a mostrar a transição entre os dois biomas que dá identidade à vegetação de Sete Cidades.",
+      "sourceIds": [
+        "fl-8e15149a",
+        "pm",
+        "fl-652c2e88"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Bromelia_laciniosa_%28TS%29_1-01097.jpg",
+        "author": "Timm Stolten",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bromelia_laciniosa_(TS)_1-01097.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Macambira (Bromelia laciniosa)",
+        "context": "Macambira, Bromelia laciniosa."
       }
     },
     {
@@ -205,7 +249,8 @@
         "height": 720,
         "alt": "Gato-mourisco (Herpailurus yagouaroundi)",
         "context": "Gato-mourisco, Herpailurus yagouaroundi."
-      }
+      },
+      "iucn": "NT"
     }
   ],
   "sources": [
@@ -229,6 +274,34 @@
       "title": "Plano de Manejo do Parque Nacional de Sete Cidades (2025)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-sete-cidades/arquivos/PlanodeManejoPARNASeteCidades.pdf",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-8e15149a",
+      "institution": "Portal São Francisco",
+      "title": "Parque Nacional de Sete Cidades",
+      "url": "https://www.portalsaofrancisco.com.br/meio-ambiente/parque-nacional-de-sete-cidades",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-a5a0f174",
+      "institution": "ICMBio",
+      "title": "Guia de Aves do Parque Nacional de Sete Cidades",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/guia_aves_parque_nacional_sete_cidades_compressed.pdf/@@download/file",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d25de5d2",
+      "institution": "Birds of the World",
+      "title": "White-browed Guan (Penelope jacucaca)",
+      "url": "https://birdsoftheworld.org/bow/redirect/hbw.com/node/53294",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-652c2e88",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Bromelia laciniosa (ficha na API)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Bromelia%20laciniosa",
+      "accessed": "2026-10-29"
     }
   ]
 }

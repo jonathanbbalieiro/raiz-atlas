@@ -137,6 +137,31 @@
   ],
   "flagships": [
     {
+      "scientificName": "Actinocephalus bongardii",
+      "name": "Sempre-viva",
+      "criteria": [
+        "cultural",
+        "habitat_critico"
+      ],
+      "why": "Eriocaulácea dos campos do parque, registrada em levantamento botânico na unidade. As sempre-vivas, flores que mantêm a forma depois de secas, dão nome ao parque e sua colheita é renda de comunidades tradicionais; a coleta predatória reduziu populações do grupo.",
+      "sourceIds": [
+        "fl-97c8770d",
+        "fl-a100a72f",
+        "fl-0adb779e"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Actinocephalus_bongardii_1_Jo%C3%A3o_de_Deus_Medeiros.jpg",
+        "author": "João de Deus Medeiros",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Actinocephalus_bongardii_1_Jo%C3%A3o_de_Deus_Medeiros.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Sempre-viva (Actinocephalus bongardii)",
+        "context": "Sempre-viva, Actinocephalus bongardii."
+      }
+    },
+    {
       "scientificName": "Uebelmannia pectinifera",
       "name": "Uebelmannia",
       "why": "Cacto em perigo de extinção segundo a IUCN e registrado dentro do parque.",
@@ -215,6 +240,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-97c8770d",
+      "institution": "Universidade de Brasília",
+      "title": "Comunidades herbáceo-arbustivas no Parque Nacional das Sempre-Vivas, MG (dissertação, 2012)",
+      "url": "https://repositorio.unb.br/bitstream/10482/12515/1/2012_ThiagodeRoureBandeiradeMello.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-a100a72f",
+      "institution": "Prefeitura de Belo Horizonte",
+      "title": "Jardim Botânico: campos rupestres (sempre-vivas)",
+      "url": "https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/jardim-botanico/nossos-jardins/campos%20rupestres",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-0adb779e",
+      "institution": "UFMG",
+      "title": "Sempre Vivas National Park (Fip Cerrado)",
+      "url": "https://csr.ufmg.br/fipcerrado/sempre-vivas-national-park/",
+      "accessed": "2026-10-29"
     }
   ]
 }

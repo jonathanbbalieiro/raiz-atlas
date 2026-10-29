@@ -152,27 +152,71 @@
   ],
   "flagships": [
     {
+      "scientificName": "Penelope jacucaca",
+      "name": "Jacucaca",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica"
+      ],
+      "why": "Ave da Caatinga ameaçada de extinção, está na lista de espécies protegidas pelo parque. A região de Confusões reúne 13 das 18 aves consideradas exclusivas da Caatinga, e a jacucaca é a que a imprensa ambiental destaca como ameaçada.",
+      "sourceIds": [
+        "icmbio",
+        "fl-34ceb500",
+        "fl-07d265e4"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Naturalis_Biodiversity_Center_-_ZMA.AVES.56985_-_Penelope_jacucaca_Spix%2C_1825_-_Cracidae_-_skin_specimen.jpeg/1280px-Naturalis_Biodiversity_Center_-_ZMA.AVES.56985_-_Penelope_jacucaca_Spix%2C_1825_-_Cracidae_-_skin_specimen.jpeg",
+        "author": "Spix, 1825",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naturalis_Biodiversity_Center_-_ZMA.AVES.56985_-_Penelope_jacucaca_Spix,_1825_-_Cracidae_-_skin_specimen.jpeg",
+        "width": 1280,
+        "height": 816,
+        "alt": "Jacucaca (Penelope jacucaca)",
+        "context": "Jacucaca, Penelope jacucaca."
+      }
+    },
+    {
+      "scientificName": "Mesoclemmys perplexa",
+      "name": "Cágado",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Cágado descrito em 2005 a partir da região de Confusões, com localidade-tipo no sul do parque (Olho d'Água da Santa e Baixão do Fausto) e distribuição restrita ao Piauí e ao Ceará. É uma das cinco espécies descritas a partir do parque.",
+      "sourceIds": [
+        "fl-03bd9315",
+        "fl-581e6aba"
+      ]
+    },
+    {
+      "scientificName": "Cereus jamacaru",
+      "name": "Mandacaru",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "O cacto-candelabro é a imagem da caatinga do parque: a imprensa ambiental diz que o mandacaru reina na região, e a divulgação turística o cita entre os representantes da flora de uma unidade de vegetação quase intocada.",
+      "sourceIds": [
+        "fl-34ceb500",
+        "fl-38cf11b3"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Cereus_jamacaru_00.jpg/1280px-Cereus_jamacaru_00.jpg",
+        "author": "Prince Molokomme",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cereus_jamacaru_00.jpg",
+        "width": 1280,
+        "height": 1707,
+        "alt": "Mandacaru (Cereus jamacaru)",
+        "context": "Mandacaru, Cereus jamacaru."
+      }
+    },
+    {
       "scientificName": "Megaxenops parnaguae",
       "name": "Bico-virado-da-caatinga",
       "why": "Ave endêmica da Caatinga, muito dependente do seu habitat, registrada dentro do parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Xiphocolaptes falcirostris",
-      "name": "Arapaçu-do-nordeste",
-      "why": "Endêmico e ameaçado, é visto raramente no parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Kerodon rupestris",
-      "name": "Mocó",
-      "why": "Roedor das pedras, típico da Caatinga, registrado nos levantamentos do parque.",
       "sourceIds": [
         "pm",
         "gbif"
@@ -207,6 +251,41 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-34ceb500",
+      "institution": "Folha do Meio Ambiente",
+      "title": "Parque Nacional da Serra das Confusões",
+      "url": "https://folhadomeio.com/2011/02/bio216/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-07d265e4",
+      "institution": "Agência Brasil",
+      "title": "Serra das Confusões: fogo atinge áreas de Caatinga do Parque Nacional",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2023-10/serra-das-confusoes-fogo-atinge-areas-de-caatinga-do-parque-nacional",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-03bd9315",
+      "institution": "Biota Neotropica",
+      "title": "The herpetofauna of Parque Nacional da Serra das Confusões, Piauí (Dal Vechio et al., 2016)",
+      "url": "https://www.scielo.br/j/bn/a/R34tLSqmY5MktMLqyNDd9dC/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-581e6aba",
+      "institution": "The Reptile Database",
+      "title": "Mesoclemmys perplexa",
+      "url": "https://reptile-database.reptarium.cz/species?genus=Mesoclemmys&species=perplexa",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-38cf11b3",
+      "institution": "Portal Sustentabilidade",
+      "title": "Conheça o Parque Nacional Serra das Confusões",
+      "url": "https://portalsustentabilidade.com/2022/10/28/conheca-o-parque-nacional-serra-das-confusoes/",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -125,6 +125,33 @@
   ],
   "flagships": [
     {
+      "scientificName": "Isoetes serracarajensis",
+      "name": "Isoetes-de-carajás",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Planta aquática primitiva restrita às cangas da Serra dos Carajás, onde cresce submersa ou na borda de lagoas que se enchem na estação chuvosa. Está na lista de espécies endêmicas do parque, cujas serras da Bocaina e do Tarzan guardam esses campos ferruginosos.",
+      "sourceIds": [
+        "fl-bafaf77f",
+        "fl-d75c9328",
+        "pm"
+      ]
+    },
+    {
+      "scientificName": "Perama carajensis",
+      "name": "Perama-de-carajás",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Arbusto da família do café que, segundo a Pesquisa FAPESP, existe só nas cangas de Carajás, sobre rocha rica em ferro. Consta da lista de espécies endêmicas identificadas no parque, criado em 2017 justamente pelo alto endemismo vegetal desses campos ferruginosos.",
+      "sourceIds": [
+        "fl-b353a3ba",
+        "pm"
+      ]
+    },
+    {
       "scientificName": "Harpia harpyja",
       "name": "Gavião-real",
       "why": "Valor fundamental do parque, encontra ali floresta segura para fazer ninhos e se reproduzir.",
@@ -137,15 +164,6 @@
       "scientificName": "Mimosa skinneri",
       "name": "Mimosa de Carajás",
       "why": "Uma variedade desta mimosa, ameaçada, cresce nos campos ferruginosos protegidos pelo parque.",
-      "sourceIds": [
-        "pm",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Panthera onca",
-      "name": "Onça-pintada",
-      "why": "O plano de manejo a chama de maior predador da terra. Tem registros no parque e depende da floresta em volta das serras.",
       "sourceIds": [
         "pm",
         "gbif"
@@ -173,6 +191,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-bafaf77f",
+      "institution": "PLoS One",
+      "title": "Quillworts from the Amazon: a multidisciplinary populational study on Isoetes serracarajensis and Isoetes cangae (Nunes et al., 2018)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6082551",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d75c9328",
+      "institution": "Rodriguésia",
+      "title": "Flora of the cangas of Serra dos Carajás, Pará, Brazil: Isoetaceae (Pereira, Arruda & Salino, 2017)",
+      "url": "https://www.scielo.br/j/rod/a/8TzgyJ6HHr6Y7cFMBDxv6dz/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-b353a3ba",
+      "institution": "Pesquisa FAPESP",
+      "title": "Plantas que crescem no ferro",
+      "url": "https://revistapesquisa.fapesp.br/plantas-que-crescem-no-ferro/",
+      "accessed": "2026-10-29"
     }
   ]
 }

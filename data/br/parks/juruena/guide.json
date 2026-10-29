@@ -134,29 +134,103 @@
   ],
   "flagships": [
     {
-      "scientificName": "Rhegmatorhina gymnops",
-      "name": "Mãe-de-taoca-de-cara-branca",
-      "why": "Ave endêmica da região, vulnerável, registrada no parque.",
-      "sourceIds": [
-        "enc3",
-        "gbif"
-      ]
-    },
-    {
       "scientificName": "Ateles chamek",
       "name": "Macaco-aranha-de-cara-preta",
-      "why": "Em perigo, tem registros dentro do parque.",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "Foi registrado nos censos de mamíferos do parque, entre os 15 primatas inventariados. Segundo o ICMBio, é importante dispersor de sementes, vive em densidades muito baixas e está ameaçado (vulnerável no Brasil, em perigo global) pelo desmatamento no sul e sudeste de sua distribuição.",
       "sourceIds": [
-        "gbif"
+        "enc3",
+        "fl-2565950d"
       ]
     },
     {
-      "scientificName": "Inia geoffrensis",
-      "name": "Boto-vermelho",
-      "why": "Em perigo, tem registros nos rios do parque.",
+      "scientificName": "Chiropotes albinasus",
+      "name": "Cuxiú-de-nariz-branco",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Primata endêmico do Brasil, que ocorre apenas em manchas no Amazonas, Mato Grosso, Pará e Rondônia, e foi registrado em transectos do plano de manejo do parque. A ficha do ICMBio aponta como ameaça as hidrelétricas no rio Juruena e em outros rios da região.",
       "sourceIds": [
-        "gbif"
+        "enc3",
+        "fl-533644a8"
       ]
+    },
+    {
+      "scientificName": "Harpia harpyja",
+      "name": "Harpia",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "O gavião-real está na lista de aves do parque, onde o plano de manejo o enquadra como quase ameaçado. Reportagem de 2006 sobre a expedição que cercou o parque o cita entre as espécies que correm risco em outras partes da Amazônia e aqui encontram abrigo.",
+      "sourceIds": [
+        "enc3",
+        "fl-0c68a6ff"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/1280px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 1280,
+        "height": 448,
+        "alt": "Harpia (Harpia harpyja)",
+        "context": "Harpia, Harpia harpyja."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "papel_ecologico",
+        "ameacada_com_acao"
+      ],
+      "why": "Predadora de topo, foi registrada pela vocalização nos censos do plano de manejo do parque. Reportagem de 2006 a cita, com a ariranha e o gavião-real, entre as espécies ameaçadas em outras regiões da Amazônia que o Juruena abriga.",
+      "sourceIds": [
+        "enc3",
+        "fl-0c68a6ff"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Mamífero aquático listado entre os carnívoros do parque, com registro nos censos do plano de manejo. Dependente de rios de água limpa, a ariranha aparece, na cobertura da expedição de 2006, entre as espécies ameaçadas em outras áreas da Amazônia que o parque abriga.",
+      "sourceIds": [
+        "enc3",
+        "fl-0c68a6ff"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/1280px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 1280,
+        "height": 506,
+        "alt": "Ariranha (Pteronura brasiliensis)",
+        "context": "Ariranha, Pteronura brasiliensis."
+      }
     }
   ],
   "sources": [
@@ -187,6 +261,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-2565950d",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Ateles chamek (ficha, Centro Nacional de Primatas Brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_ateles_chamek.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-533644a8",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Chiropotes albinasus (ficha, Centro Nacional de Primatas Brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/PITHECIIDAE/ficha_chiropotes_albinasus.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-0c68a6ff",
+      "institution": "Tribuna do Paraná",
+      "title": "Novo parque na Amazônia recebe expedição de ambientalistas (2006)",
+      "url": "https://www.tribunapr.com.br/noticias/novo-parque-na-amazonia-recebe-expedicao-de-ambientalistas/",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -175,28 +175,68 @@
   ],
   "flagships": [
     {
-      "scientificName": "Lepidochelys olivacea",
-      "name": "Tartaruga-oliva",
-      "why": "Tartaruga marinha vulnerável, com registros no litoral do parque.",
+      "scientificName": "Trachemys adiutrix",
+      "name": "Tartaruga-pininga",
+      "criteria": [
+        "endemica",
+        "habitat_critico",
+        "ameacada_com_acao"
+      ],
+      "why": "Cágado restrito a uma pequena faixa da costa do Maranhão e do Piauí, vive nas lagoas interdunares e é tratado pelo ICMBio como símbolo do parque. Na seca, concentra-se nas poucas lagoas que restam e é caçado; está em perigo.",
       "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Calidris fuscicollis",
-      "name": "Pilrito-de-uropígio-branco",
-      "why": "Ave migratória vulnerável, registrada nas praias e lagoas do parque.",
-      "sourceIds": [
-        "gbif"
+        "fl-4e8051b2",
+        "fl-c6720d84",
+        "fl-8cef5b90"
       ]
     },
     {
       "scientificName": "Chrysobalanus icaco",
       "name": "Guajuru",
-      "why": "Arbusto de restinga registrado no parque, onde a restinga cobre mais de 40 mil hectares.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "Arbusto que forma a restinga arbustiva ao lado de cajueiros e umiris, cercando as lagoas entre as dunas. É uma das plantas mais comuns dessa vegetação no parque, que o levantamento botânico registrou com 289 espécies de restinga.",
       "sourceIds": [
-        "gbif",
-        "unesco"
+        "fl-05164ea6",
+        "fl-4e8051b2"
+      ]
+    },
+    {
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Palmeira das matas de galeria e dos cocais do parque, que dá nome ao atrativo Buritizal. Os buritizais e carnaubais compõem, com mangues e restingas, a paisagem mais conservada do polo de Primeira Cruz.",
+      "sourceIds": [
+        "fl-05164ea6",
+        "fl-4e8051b2"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg/1280px-Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moriche_Palm_(Mauritia_flexuosa)_fruits_(40136103811).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa."
+      }
+    },
+    {
+      "scientificName": "Drosera sessilifolia",
+      "name": "Drósera (planta carnívora)",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Planta carnívora dos campos de restinga, de solo arenoso pobre em nutrientes, que captura insetos com folhas pegajosas. O plano de uso público destaca a região da Lagoa do Mário, no povoado Ponta do Mangue, pelos registros de plantas carnívoras.",
+      "sourceIds": [
+        "fl-05164ea6",
+        "fl-4e8051b2"
       ]
     }
   ],
@@ -249,6 +289,34 @@
       "title": "Plano de Manejo do Parque Nacional dos Lençóis Maranhenses, Encarte 5",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/pdfs-do-site-do-parna-dos-lencois-maranhenses-ma/plano-de-manejo-volumes/07encarte_5.pdf",
       "accessed": "2026-10-22"
+    },
+    {
+      "id": "fl-4e8051b2",
+      "institution": "ICMBio",
+      "title": "Plano de Uso Público do Parque Nacional dos Lençóis Maranhenses (2022)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-dos-lencois-maranhenses/pdfs-do-site-do-parna-dos-lencois-maranhenses-ma/copy_of_plano_uso_publico_pnlm.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c6720d84",
+      "institution": "ZooKeys (Miranda, Costa e Rocha)",
+      "title": "Reptiles from Lençóis Maranhenses National Park, Maranhão, northeastern Brazil",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3520146",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-8cef5b90",
+      "institution": "Reptiles Magazine",
+      "title": "Why is this Brazilian water turtle traveling across the desert?",
+      "url": "https://reptilesmagazine.com/why-is-this-brazilian-water-turtle-traveling-across-the-desert/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-05164ea6",
+      "institution": "Acta Botanica Brasilica (Rodrigues et al.)",
+      "title": "Vascular flora of Lençóis Maranhenses National Park, Maranhão State, Brazil: checklist and phytophysiognomies of restingas",
+      "url": "https://www.scielo.br/j/abb/a/Hn6VMvc8ydVKpGdDFT5PtSH/",
+      "accessed": "2026-10-29"
     }
   ]
 }

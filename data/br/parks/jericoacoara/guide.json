@@ -170,17 +170,27 @@
     {
       "scientificName": "Hippocampus reidi",
       "name": "Cavalo-marinho",
-      "why": "Vive no manguezal do rio Guriú e é uma das atrações de observação do parque.",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O manguezal do Rio Guriú, no lado oeste do parque, abriga um berçário de cavalos-marinhos, hoje atração de canoa oferecida pelo parque. A espécie é considerada vulnerável e, segundo especialista ouvido pela imprensa, está ficando rara no mundo todo.",
       "sourceIds": [
-        "icmbio-visitacao"
-      ]
+        "icmbio-visitacao",
+        "fl-839d05cd"
+      ],
+      "iucn": "NT"
     },
     {
       "scientificName": "Eretmochelys imbricata",
       "name": "Tartaruga-de-pente",
-      "why": "Ameaçada de extinção, está na lista de espécies protegidas pelo parque.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Uma das três tartarugas marinhas ameaçadas que o ICMBio lista como protegidas pelo parque, ao lado da cabeçuda e da oliva. A reportagem destaca o mapeamento de ninhos e a proteção das fêmeas como ações que elevam a sobrevivência dos filhotes.",
       "sourceIds": [
-        "icmbio"
+        "icmbio",
+        "fl-ae7dea00"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/A_Tartaruga_na_Imensid%C3%A3o_Azul.jpg/1920px-A_Tartaruga_na_Imensid%C3%A3o_Azul.jpg",
@@ -224,6 +234,20 @@
       "title": "Plano de Manejo do Parque Nacional de Jericoacoara: análise da unidade de conservação",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-de-jericoacoara/arquivos/analise_unidade.pdf",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-839d05cd",
+      "institution": "Diário do Nordeste",
+      "title": "Jericoacoara é berçário de cavalo-marinho (2008)",
+      "url": "https://diariodonordeste.verdesmares.com.br/regiao/jericoacoara-e-bercario-de-cavalo-marinho-1.25703",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ae7dea00",
+      "institution": "Catraca Livre",
+      "title": "Parque cearense protege a Pedra Furada e três espécies de tartarugas marinhas",
+      "url": "https://catracalivre.com.br/noticias/dunas-que-ocupam-quase-toda-a-extensao-manguezais-e-lagoas-temporarias-o-parque-cearense-de-mais-de-88-mil-hectares-que-protege-a-pedra-furada-e-tres-especies-de-tartarugas-marinhas/",
+      "accessed": "2026-10-29"
     }
   ]
 }

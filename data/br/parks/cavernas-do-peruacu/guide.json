@@ -164,25 +164,72 @@
   ],
   "flagships": [
     {
-      "scientificName": "Myrmecophaga tridactyla",
-      "name": "Tamanduá-bandeira",
-      "why": "Vulnerável segundo a IUCN, tem registros dentro do parque, nas áreas de Cerrado do vale.",
+      "scientificName": "Trichomycterus itacarambiensis",
+      "name": "Cambeva-de-Itacarambi",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Bagrinho de caverna conhecido apenas da Gruta Olhos d'Água, em Itacarambi, onde vive isolado por quedas d'água e canalização, e avaliado como Criticamente em Perigo pelo ICMBio. Está na lista de espécies ameaçadas protegidas pelo parque.",
       "sourceIds": [
-        "gbif"
-      ]
+        "icmbio",
+        "fl-6fcd93e8"
+      ],
+      "iucn": "CR",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Trichomycterus_itacarambiensis_%2810.3897-subtbiol.22.9759%29_Figure_1.jpg/1280px-Trichomycterus_itacarambiensis_%2810.3897-subtbiol.22.9759%29_Figure_1.jpg",
+        "author": "Trajano E, Carvalho MR (2017) Towards a biologically meaningful classification o",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichomycterus_itacarambiensis_(10.3897-subtbiol.22.9759)_Figure_1.jpg",
+        "width": 1280,
+        "height": 1604,
+        "alt": "Cambeva-de-Itacarambi (Trichomycterus itacarambiensis)",
+        "context": "Cambeva-de-Itacarambi, Trichomycterus itacarambiensis."
+      }
     },
     {
-      "scientificName": "Campylopterus calcirupicola",
-      "name": "Asa-de-sabre-da-mata-seca",
-      "why": "Beija-flor das matas secas, classificado como vulnerável pela IUCN e registrado dentro do parque.",
+      "scientificName": "Phylloscartes roquettei",
+      "name": "Cara-dourada",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Pequena ave da mata seca, avaliada como Criticamente em Perigo pela BirdLife, está entre as espécies ameaçadas que o parque protege e entre as aves do Vale do Peruaçu, reconhecido como Área-Chave para a Biodiversidade.",
       "sourceIds": [
-        "gbif"
-      ]
+        "icmbio",
+        "fl-bd1f5e60"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Phylloscartes_roquettei_Minas_Gerais_Tyrannulet%3B_Botumitim%2C_Minas_Gerais%2C_Brazil.jpg/1280px-Phylloscartes_roquettei_Minas_Gerais_Tyrannulet%3B_Botumitim%2C_Minas_Gerais%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phylloscartes_roquettei_Minas_Gerais_Tyrannulet;_Botumitim,_Minas_Gerais,_Brazil.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Cara-dourada (Phylloscartes roquettei)",
+        "context": "Cara-dourada, Phylloscartes roquettei."
+      }
     },
     {
       "scientificName": "Amburana cearensis",
-      "name": "Cumaru-nordestino",
-      "why": "Árvore em perigo de extinção segundo a IUCN, com registros na mata seca do parque.",
+      "name": "Amburana-de-cheiro",
+      "criteria": [
+        "habitat_critico",
+        "papel_ecologico"
+      ],
+      "why": "Os anéis de crescimento de 39 amburanas do parque revelaram refúgios climáticos na mata seca: quase um quarto da área não degradada, mais de 100 km², em terrenos baixos de solo profundo, afloramentos rochosos e à beira do rio Peruaçu.",
+      "sourceIds": [
+        "fl-02ee9ab0",
+        "fl-1f07d4ab"
+      ]
+    },
+    {
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
+      "why": "Vulnerável segundo a IUCN, tem registros dentro do parque, nas áreas de Cerrado do vale.",
       "sourceIds": [
         "gbif"
       ]
@@ -223,6 +270,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-6fcd93e8",
+      "institution": "Cave Fishes of the World",
+      "title": "Trichomycterus itacarambiensis",
+      "url": "https://cavefishes.org.uk/species-record.php?id=121",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-bd1f5e60",
+      "institution": "Key Biodiversity Areas",
+      "title": "Vale do Peruaçu (KBA 20152)",
+      "url": "https://www.keybiodiversityareas.org/en/site/factsheet/20152/assessment",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-02ee9ab0",
+      "institution": "Agência FAPESP",
+      "title": "Pesquisa identifica refúgios climáticos na mata seca do Parque Nacional Cavernas do Peruaçu",
+      "url": "https://agencia.fapesp.br/35406",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-1f07d4ab",
+      "institution": "eCycle",
+      "title": "Pesquisa identifica área de refúgio climático em região de mata seca",
+      "url": "https://www.ecycle.com.br/pesquisa-identifica-area-de-refugio-climatico-em-regiao-de-mata-seca/amp/",
+      "accessed": "2026-10-29"
     }
   ]
 }

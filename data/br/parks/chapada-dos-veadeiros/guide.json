@@ -193,29 +193,95 @@
   ],
   "flagships": [
     {
-      "scientificName": "Chrysocyon brachyurus",
-      "name": "Lobo-guará",
-      "why": "Símbolo do Cerrado, é uma das espécies ameaçadas que a ampliação do parque passou a proteger.",
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "É a palmeira das veredas da Chapada: os buritis, de 12 a 15 metros de altura, se erguem nos campos úmidos que acompanham as matas de galeria e as nascentes. Quem faz as travessias do parque os vê pontuando a paisagem de cerrado.",
       "sourceIds": [
-        "icmbio"
+        "fl-9c4d713e",
+        "fl-3c8905ce"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg/1280px-Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moriche_Palm_(Mauritia_flexuosa)_fruits_(40136103811).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa."
+      }
+    },
+    {
+      "scientificName": "Ara ararauna",
+      "name": "Arara-canindé",
+      "criteria": [
+        "icone_da_paisagem",
+        "papel_ecologico"
+      ],
+      "why": "Entra na lista de aves do parque e é a arara dos buritizais: come o fruto do buriti e ajuda a espalhar suas sementes pelas veredas. Seu voo sobre as palmeiras faz parte da imagem que o visitante leva da Chapada.",
+      "sourceIds": [
+        "fl-c26a6be4",
+        "fl-a5457d07"
       ]
     },
     {
       "scientificName": "Mergus octosetaceus",
       "name": "Pato-mergulhão",
-      "why": "Criticamente em perigo, é uma das espécies ameaçadas que o parque protege e tem registros dentro dele.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Ave rara dos rios de água limpa e corrente, chamada de Embaixador das Águas Brasileiras no plano de manejo. Os trechos conservados de nascentes e rios do parque são seu refúgio, e cerca de 70 dos 200 indivíduos conhecidos viviam na região da Chapada.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "fl-61f212c1",
+        "fl-9c4d713e"
       ]
     },
     {
-      "scientificName": "Tapirus terrestris",
-      "name": "Anta",
-      "why": "Registrada dentro do parque e classificada como vulnerável pela IUCN.",
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Está na lista de espécies ameaçadas que o parque protege. Precisa de áreas amplas para caçar e se reproduzir, por isso foi um dos argumentos para que a ampliação da Chapada seguisse a proposta técnica e não um modelo de áreas fragmentadas.",
       "sourceIds": [
-        "gbif"
+        "icmbio",
+        "fl-61f212c1"
       ]
+    },
+    {
+      "scientificName": "Paepalanthus chiquitensis",
+      "name": "Sempre-viva (chuveirinho)",
+      "criteria": [
+        "habitat_critico",
+        "ameacada_com_acao",
+        "cultural"
+      ],
+      "why": "Os chuveirinhos colorem os campos da Chapada e figuram entre as plantas ameaçadas que o parque preserva. É uma das 24 espécies de Paepalanthus da área, onde mais da metade das sempre-vivas (22 de 42) só existe ali.",
+      "sourceIds": [
+        "fl-9c4d713e",
+        "fl-a03944cc",
+        "fl-3c8905ce"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Cf_Paepalanthus_chiquitensis_na_Chapada_dos_Veadeiros_-_Goi%C3%A1s_2.jpg/1280px-Cf_Paepalanthus_chiquitensis_na_Chapada_dos_Veadeiros_-_Goi%C3%A1s_2.jpg",
+        "author": "André Ganzarolli Martins",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cf_Paepalanthus_chiquitensis_na_Chapada_dos_Veadeiros_-_Goi%C3%A1s_2.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Sempre-viva (chuveirinho) (Paepalanthus chiquitensis)",
+        "context": "Sempre-viva (chuveirinho), Paepalanthus chiquitensis."
+      }
     }
   ],
   "sources": [
@@ -260,6 +326,48 @@
       "title": "Localização dos atrativos (dados dos colaboradores do OpenStreetMap, licença ODbL)",
       "url": "https://www.openstreetmap.org/copyright",
       "accessed": "2026-10-27"
+    },
+    {
+      "id": "fl-9c4d713e",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Chapada dos Veadeiros (2021)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-veadeiros/linha-de-atuacao/arquivos/Plano_de_Manejo_9730998_PM_VERSAO_FINAL_PNCV_2021_10_01_versao_final_pos_portaria.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-3c8905ce",
+      "institution": "((o))eco",
+      "title": "A Travessia das Sete Quedas: uma caminhada pela imensidão do Cerrado",
+      "url": "https://oeco.org.br/reportagens/a-travessia-das-sete-quedas-uma-caminhada-pela-imensidao-do-cerrado/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c26a6be4",
+      "institution": "ICMBio",
+      "title": "Plano de Manejo do Parque Nacional da Chapada dos Veadeiros (Anexos: lista de aves)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-veadeiros/linha-de-atuacao/arquivos/pm_chapada_dos_veadeiros_3.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-a5457d07",
+      "institution": "Jornal de Brasília",
+      "title": "Cerrado, semeie vida! (buriti e arara-canindé)",
+      "url": "https://jornaldebrasilia.com.br/brasilia/cerrado-semeie-vida/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-61f212c1",
+      "institution": "Agência Brasil (via eCycle)",
+      "title": "Ampliação adequada do Parque dos Veadeiros pode garantir proteção a 50 espécies",
+      "url": "https://www.ecycle.com.br/ampliacao-adequada-do-parque-dos-veadeiros-pode-garantir-protecao-a-50-especies/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-a03944cc",
+      "institution": "European Journal of Taxonomy (Trovó e Echternacht)",
+      "title": "The Paepalanthoideae (Eriocaulaceae) of the Chapada dos Veadeiros National Park, Brazil",
+      "url": "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/1899",
+      "accessed": "2026-10-29"
     }
   ]
 }

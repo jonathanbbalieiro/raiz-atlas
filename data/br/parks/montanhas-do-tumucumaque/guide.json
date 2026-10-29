@@ -170,11 +170,65 @@
   ],
   "flagships": [
     {
+      "scientificName": "Dinizia excelsa",
+      "name": "Angelim-vermelho",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "É a árvore gigante do Tumucumaque: em quatro dias de trabalho na região, pesquisadores registraram mais de 80 árvores desproporcionais, 56 delas angelins-vermelhos, com 60 a 80 m de altura. É a maior entre as grandes árvores da floresta amapaense.",
+      "sourceIds": [
+        "fl-2bfd82a0",
+        "fl-4cc76552",
+        "fl-2406b732"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Dinizia_excelsa.jpg/1280px-Dinizia_excelsa.jpg",
+        "author": "Gorgens",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dinizia_excelsa.jpg",
+        "width": 1280,
+        "height": 1920,
+        "alt": "Angelim-vermelho (Dinizia excelsa)",
+        "context": "Angelim-vermelho, Dinizia excelsa."
+      }
+    },
+    {
+      "scientificName": "Speothos venaticus",
+      "name": "Cachorro-vinagre",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Em 2024 as câmeras do monitoramento do ICMBio (mais de 60 no parque) flagraram pela primeira vez uma matilha, até então só conhecida por relatos de moradores. O plano de manejo já o apontava como espécie rara em toda a sua distribuição.",
+      "sourceIds": [
+        "fl-43a09add",
+        "pm"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Bush_dog.JPG",
+        "author": "Bonne1978",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bush_dog.JPG",
+        "width": 1280,
+        "height": 941,
+        "alt": "Cachorro-vinagre (Speothos venaticus)",
+        "context": "Cachorro-vinagre, Speothos venaticus."
+      }
+    },
+    {
       "scientificName": "Ateles paniscus",
       "name": "Macaco-aranha-preto",
-      "why": "Vulnerável, tem registros dentro do parque, um dos maiores blocos contínuos de floresta protegida do Brasil.",
+      "criteria": [
+        "papel_ecologico",
+        "endemica"
+      ],
+      "why": "Foi o primata mais registrado nas expedições do plano de manejo, que o inclui entre as espécies endêmicas do Escudo das Guianas. A imprensa o cita entre os moradores da floresta, ao lado de onças e preguiças.",
       "sourceIds": [
-        "gbif"
+        "pm",
+        "fl-ca67eb29"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/504323394/original.jpg",
@@ -189,20 +243,29 @@
       }
     },
     {
-      "scientificName": "Anomaloglossus degranvillei",
-      "name": "Sapinho Anomaloglossus",
-      "why": "Criticamente em perigo, tem registros dentro do parque.",
+      "scientificName": "Harpia harpyja",
+      "name": "Gavião-real",
+      "criteria": [
+        "papel_ecologico",
+        "habitat_critico"
+      ],
+      "why": "Predador de topo do dossel, foi um dos registros importantes da expedição às aves feita para o plano de manejo. O parque aparece como área-chave de biodiversidade, onde a espécie consta como quase ameaçada.",
       "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Vouacapoua americana",
-      "name": "Acapu",
-      "why": "Árvore criticamente em perigo, com registros dentro do parque.",
-      "sourceIds": [
-        "gbif"
-      ]
+        "pm",
+        "fl-039ee523"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/1280px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 1280,
+        "height": 448,
+        "alt": "Gavião-real (Harpia harpyja)",
+        "context": "Gavião-real, Harpia harpyja."
+      }
     }
   ],
   "sources": [
@@ -226,6 +289,48 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-2bfd82a0",
+      "institution": "Revista Pesquisa FAPESP",
+      "title": "Pesquisadores investigam os mistérios das árvores gigantes da Amazônia",
+      "url": "https://revistapesquisa.fapesp.br/pesquisadores-investigam-os-misterios-das-arvores-gigantes-da-amazonia/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-4cc76552",
+      "institution": "Revista Pesquisa FAPESP",
+      "title": "Roteiro de viagem: Parque Nacional Montanhas do Tumucumaque",
+      "url": "https://revistapesquisa.fapesp.br/roteiro-de-viagem/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-2406b732",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Dinizia excelsa (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Dinizia%20excelsa",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-43a09add",
+      "institution": "Agência Brasil",
+      "title": "Ameaçado de extinção, cachorro-vinagre é flagrado em parque no Amapá",
+      "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2024-02/ameacado-de-extincao-cachorro-vinagre-e-flagrado-em-parque-no-amapa",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ca67eb29",
+      "institution": "NBC News",
+      "title": "Brazil creates largest tropical park",
+      "url": "https://www.nbcnews.com/id/wbna3077248",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-039ee523",
+      "institution": "Key Biodiversity Areas",
+      "title": "Parque Nacional Montanhas do Tumucumaque (KBA 23880)",
+      "url": "https://www.keybiodiversityareas.org/site/factsheet/23880/assessment",
+      "accessed": "2026-10-29"
     }
   ]
 }

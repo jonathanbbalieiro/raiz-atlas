@@ -152,9 +152,14 @@
     {
       "scientificName": "Brachyteles hypoxanthus",
       "name": "Muriqui-do-norte",
-      "why": "Criticamente em perigo, tem no Alto Cariri sua única população conhecida na Bahia.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O decreto de criação do parque cita o muriqui-do-norte como espécie-alvo: a unidade protege o complexo de serras do Alto Cariri, remanescente contínuo de Mata Atlântica em Guaratinga, para manter populações viáveis de mamíferos e aves ameaçados.",
       "sourceIds": [
-        "pm"
+        "fl-66c6e042",
+        "fl-6a4c8cc2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Muriqui-do-norte-REBIO_da_Mata_Escura-Ednardo_Martins_Mata_Escura%28001%29.jpg/1920px-Muriqui-do-norte-REBIO_da_Mata_Escura-Ednardo_Martins_Mata_Escura%28001%29.jpg",
@@ -166,7 +171,8 @@
         "height": 1280,
         "alt": "Muriqui-do-norte sentado num galho coberto de líquens, na mata",
         "context": "Muriqui-do-norte (Brachyteles hypoxanthus) numa árvore da Mata Atlântica; a espécie tem no Alto Cariri sua única população conhecida na Bahia."
-      }
+      },
+      "iucn": "CR"
     },
     {
       "scientificName": "Cotinga maculata",
@@ -216,6 +222,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-66c6e042",
+      "institution": "Presidência da República",
+      "title": "Decreto de 11 de junho de 2010 (cria o Parque Nacional do Alto Cariri)",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2010/dnn/dnn12640.htm",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-6a4c8cc2",
+      "institution": "Instituto Socioambiental",
+      "title": "PARNA do Alto Cariri (Unidades de Conservação no Brasil)",
+      "url": "https://uc.socioambiental.org/arp/5140",
+      "accessed": "2026-10-29"
     }
   ]
 }

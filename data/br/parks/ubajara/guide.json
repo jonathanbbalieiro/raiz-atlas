@@ -164,12 +164,27 @@
   ],
   "flagships": [
     {
+      "scientificName": "Sapajus libidinosus",
+      "name": "Macaco-prego-galego",
+      "criteria": [
+        "cultural"
+      ],
+      "why": "Os macacos-prego do parque usam pedras para escavar raízes e aranhas: 214 casos em 21 meses, com pedras em 51,4% das tentativas. Pesquisadores falam de uma rara tradição de uso de ferramentas e, em 2026, relataram ali o primeiro caso de leucismo da espécie.",
+      "sourceIds": [
+        "fl-92eeaaea",
+        "fl-63f0672a"
+      ]
+    },
+    {
       "scientificName": "Hemitriccus mirandae",
       "name": "Maria-do-nordeste",
-      "why": "Pequena ave das matas úmidas do parque, classificada como em perigo de extinção na Lista Nacional (MMA, 2022).",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "É uma das espécies que a página do ICMBio cita ao falar da fauna de Ubajara, e o plano de manejo a classifica como em perigo (EN) na Lista Nacional de 2022, associada às matas úmidas da serra.",
       "sourceIds": [
-        "pm",
-        "icmbio-quem-somos"
+        "icmbio-quem-somos",
+        "pm"
       ]
     },
     {
@@ -178,7 +193,8 @@
       "why": "Macaco em perigo de extinção segundo a Lista Nacional (Portaria MMA nº 300/2022), com bandos avistados recentemente no parque.",
       "sourceIds": [
         "pm"
-      ]
+      ],
+      "iucn": "EN"
     },
     {
       "scientificName": "Carollia perspicillata",
@@ -197,7 +213,8 @@
         "height": 1239,
         "alt": "Morcego-de-cauda-curta (Carollia perspicillata)",
         "context": "Morcego-de-cauda-curta, Carollia perspicillata."
-      }
+      },
+      "iucn": "LC"
     }
   ],
   "sources": [
@@ -235,6 +252,20 @@
       "title": "Plano de Manejo do Parque Nacional de Ubajara",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-de-ubajara/arquivos/plano-de-manejo-parna-ubajara.pdf",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-92eeaaea",
+      "institution": "Olhar Digital",
+      "title": "Macacos-prego conseguem usar ferramentas para cavar o solo",
+      "url": "https://olhardigital.com.br/2024/05/15/ciencia-e-espaco/macacos-prego-conseguem-usar-ferramentas-para-cavar-o-solo/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-63f0672a",
+      "institution": "Jornal da USP",
+      "title": "O Fantasma de Ubajara: cientistas registram macaco-prego sem pigmentação",
+      "url": "https://jornal.usp.br/?p=978598",
+      "accessed": "2026-10-29"
     }
   ]
 }

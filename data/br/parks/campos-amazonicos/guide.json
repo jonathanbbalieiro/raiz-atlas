@@ -120,36 +120,84 @@
   ],
   "flagships": [
     {
-      "scientificName": "Ozotoceros bezoarticus",
-      "name": "Veado-campeiro",
-      "why": "Um veado de campo aberto com registros no parque, graças ao enclave de cerrado.",
-      "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Pyrrhura perlata",
-      "name": "Tiriba-de-barriga-vermelha",
-      "why": "Restrita ao sul da Amazônia, no interflúvio Madeira-Tapajós, foi registrada no parque.",
-      "sourceIds": [
-        "res"
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
       ],
+      "why": "O ICMBio inclui a onça-pintada entre as espécies ameaçadas protegidas pelo parque, e o Portal Amazônia a destaca entre os grandes predadores da unidade, que une floresta, mata de galeria e um dos maiores enclaves de Cerrado dentro da Amazônia.",
+      "sourceIds": [
+        "icmbio",
+        "fl-e9442f1f",
+        "fl-add1b882"
+      ],
+      "iucn": "NT",
       "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/121027757/original.jpg",
-        "author": "Edson Guilherme",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/121027757",
-        "width": 2048,
-        "height": 1536,
-        "alt": "Tiriba-de-barriga-vermelha pousada em uma palmeira com cachos de frutos, no sul do Pará",
-        "context": "Tiriba-de-barriga-vermelha fotografada em Itaituba (PA), na região amazônica onde a espécie ocorre."
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
       }
     },
     {
-      "scientificName": "Myrmecophaga tridactyla",
-      "name": "Tamanduá-bandeira",
-      "why": "Vulnerável, tem registros no parque, onde floresta e cerrado se encontram.",
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "A ariranha está na lista de espécies ameaçadas protegidas pelo parque, segundo o ICMBio, e o Portal Amazônia a cita entre os mamíferos ameaçados da unidade, que abriga rios e matas de galeria no encontro de Amazonas, Rondônia e Mato Grosso.",
+      "sourceIds": [
+        "icmbio",
+        "fl-e9442f1f"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Giantotter.jpg/1280px-Giantotter.jpg",
+        "author": "Autor desconhecido",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giantotter.jpg",
+        "width": 1280,
+        "height": 506,
+        "alt": "Ariranha (Pteronura brasiliensis)",
+        "context": "Ariranha, Pteronura brasiliensis."
+      }
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "O Portal Amazônia o lista entre as espécies típicas do Cerrado que o parque abriga, num enclave de campos dentro da Amazônia. O lobo-guará ocorre naturalmente em ambientes campestres e savânicos, e a Amazônia é historicamente o limite norte de sua distribuição.",
+      "sourceIds": [
+        "fl-e9442f1f",
+        "fl-50d3bbf2"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/1280px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Lobo-guará (Chrysocyon brachyurus)",
+        "context": "Lobo-guará, Chrysocyon brachyurus."
+      }
+    },
+    {
+      "scientificName": "Ozotoceros bezoarticus",
+      "name": "Veado-campeiro",
+      "why": "Um veado de campo aberto com registros no parque, graças ao enclave de cerrado.",
       "sourceIds": [
         "gbif"
       ]
@@ -176,6 +224,27 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-e9442f1f",
+      "institution": "Portal Amazônia",
+      "title": "Parque Nacional dos Campos Amazônicos: onde Amazonas, Rondônia e Mato Grosso se encontram",
+      "url": "https://portalamazonia.com/meio-ambiente/parque-nacional-campos-amazonicos/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-add1b882",
+      "institution": "((o))eco",
+      "title": "Campos Amazônicos: oásis de diversidade",
+      "url": "https://oeco.org.br/reportagens/20460-campos-amazonicos-oasis-de-diversidade/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-50d3bbf2",
+      "institution": "Mongabay Brasil",
+      "title": "Estudo aponta registros inéditos do lobo-guará na Amazônia (e isso não é bom)",
+      "url": "https://brasil.mongabay.com/2020/11/estudo-aponta-registros-ineditos-do-lobo-guara-na-amazonia-e-isso-nao-e-bom/",
+      "accessed": "2026-10-29"
     }
   ]
 }

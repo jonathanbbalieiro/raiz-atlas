@@ -116,10 +116,14 @@
     {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "Está na lista de espécies ameaçadas protegidas pelo parque e tem registros dentro dele.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "A onça-pintada está na lista de espécies ameaçadas protegidas pelo parque. A reportagem sobre a ampliação de 2026 (183 mil ha) afirma que as matas ciliares e os cursos de água garantem alimento abundante e áreas tranquilas para os grandes carnívoros como ela.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "fl-3c256f46"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/On%C3%A7a-pintada-PARNA_do_Pantanal_Matogrossense-Claudiarlfranco%28008%29.jpg/1920px-On%C3%A7a-pintada-PARNA_do_Pantanal_Matogrossense-Claudiarlfranco%28008%29.jpg",
@@ -136,10 +140,14 @@
     {
       "scientificName": "Pteronura brasiliensis",
       "name": "Ariranha",
-      "why": "Em perigo segundo a IUCN, vive nos rios do parque e está na lista oficial de ameaçadas da unidade.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "A ariranha figura entre as espécies ameaçadas protegidas pelo parque. A cobertura da ampliação de 2026 aponta os cursos de água e as matas ciliares como refúgio de alimento e de reprodução dos grandes carnívoros, como ela.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "fl-3c256f46"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Ariranha-PARNA_do_Pantanal_Matogrossense-Silvaninha2542%28001%29.jpg/1920px-Ariranha-PARNA_do_Pantanal_Matogrossense-Silvaninha2542%28001%29.jpg",
@@ -156,10 +164,14 @@
     {
       "scientificName": "Blastocerus dichotomus",
       "name": "Cervo-do-pantanal",
-      "why": "Vulnerável segundo a IUCN e protegido pelo parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O cervo-do-pantanal está na lista de ameaçadas protegidas pelo parque. A reportagem de 2026 sobre a ampliação o apresenta como dependente das savanas e terras secas da unidade, e afirma que sofre com a perda de habitat.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "fl-3c256f46"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cervo-do-pantanal_f%C3%AAmea.jpg/1920px-Cervo-do-pantanal_f%C3%AAmea.jpg",
@@ -171,6 +183,31 @@
         "width": 1920,
         "height": 1280,
         "context": "Cervo-do-pantanal fêmea em capim alto, em seu habitat de áreas alagáveis."
+      }
+    },
+    {
+      "scientificName": "Priodontes maximus",
+      "name": "Tatu-canastra",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "O tatu-canastra consta da lista de espécies ameaçadas protegidas pelo parque. A reportagem de 2026 sobre a ampliação o chama de raro e diz que, como o cervo-pantaneiro, depende das savanas e terras secas da unidade e sofre com a perda de habitat.",
+      "sourceIds": [
+        "icmbio",
+        "fl-3c256f46"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Priodontes_maximus_at_R%C3%A9gina.jpg/1280px-Priodontes_maximus_at_R%C3%A9gina.jpg",
+        "author": "Guillaume Delaitre",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Priodontes_maximus_at_R%C3%A9gina.jpg",
+        "width": 1280,
+        "height": 852,
+        "alt": "Tatu-canastra (Priodontes maximus)",
+        "context": "Tatu-canastra, Priodontes maximus."
       }
     }
   ],
@@ -223,6 +260,13 @@
       "title": "Pantanal Conservation Area",
       "url": "https://whc.unesco.org/en/list/999/",
       "accessed": "2026-10-22"
+    },
+    {
+      "id": "fl-3c256f46",
+      "institution": "Catraca Livre",
+      "title": "Ampliado em 2026 para 183.095 hectares: o parque no coração do Pantanal que protege espécies ameaçadas (15/10/2026)",
+      "url": "https://catracalivre.com.br/noticias/ampliado-em-2026-para-183-095-hectares-o-parque-no-coracao-do-pantanal-que-protege-especies-ameacadas-como-onca-pintada-ariranha-tatu-canastra-e-cervo-do-pantanal/",
+      "accessed": "2026-10-29"
     }
   ]
 }

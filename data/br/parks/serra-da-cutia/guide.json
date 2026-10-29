@@ -97,6 +97,31 @@
   ],
   "flagships": [
     {
+      "scientificName": "Tayassu pecari",
+      "name": "Queixada",
+      "criteria": [
+        "papel_ecologico",
+        "habitat_critico"
+      ],
+      "why": "Na base Tiradentes, pesquisadores avistaram um bando de 30 a 40 queixadas, e moradores dizem que a espécie é vista com frequência na área, o que indica alta densidade para uma espécie migratória.",
+      "sourceIds": [
+        "enc3",
+        "fl-ec19e0c6"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg/1920px-Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg",
+        "author": "Rafael Mitsuo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queixada-RPPN_Cristalino_I-Rodrigo.Argenton(001).jpg",
+        "width": 1920,
+        "height": 1279,
+        "alt": "Queixada (Tayassu pecari)",
+        "context": "Queixada, Tayassu pecari."
+      },
+      "iucn": "VU"
+    },
+    {
       "scientificName": "Tapirus terrestris",
       "name": "Anta",
       "why": "No Barreiro Chupador, pesquisadores avistaram antas e registraram pegadas de animais de várias idades.",
@@ -113,26 +138,8 @@
         "height": 960,
         "alt": "Anta (Tapirus terrestris)",
         "context": "Anta, Tapirus terrestris."
-      }
-    },
-    {
-      "scientificName": "Tayassu pecari",
-      "name": "Queixada",
-      "why": "Suas pegadas aparecem no Barreiro Chupador, área muito usada por porcos-do-mato e veados.",
-      "sourceIds": [
-        "enc3"
-      ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg/1920px-Queixada-RPPN_Cristalino_I-Rodrigo.Argenton%28001%29.jpg",
-        "author": "Rafael Mitsuo",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queixada-RPPN_Cristalino_I-Rodrigo.Argenton(001).jpg",
-        "width": 1920,
-        "height": 1279,
-        "alt": "Queixada (Tayassu pecari)",
-        "context": "Queixada, Tayassu pecari."
-      }
+      },
+      "iucn": "VU"
     }
   ],
   "sources": [
@@ -163,6 +170,13 @@
       "title": "Decreto de 1º de agosto de 2001 (cria o Parque Nacional Serra da Cutia)",
       "url": "https://planalto.gov.br/ccivil_03/dnn/2001/Dnn9273.htm",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-ec19e0c6",
+      "institution": "Portal São Francisco",
+      "title": "Parque Nacional da Serra da Cutia",
+      "url": "https://www.portalsaofrancisco.com.br/?p=13379",
+      "accessed": "2026-10-29"
     }
   ]
 }

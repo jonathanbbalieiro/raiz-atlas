@@ -190,36 +190,64 @@
     {
       "scientificName": "Callicebus barbarabrownae",
       "name": "Guigó-da-caatinga",
-      "why": "Macaco criticamente ameaçado que está na lista de espécies protegidas pelo parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica"
+      ],
+      "why": "O parque abriga a maior população e a maior densidade conhecidas do guigó: um levantamento de 2021 a 2023 em cinco áreas de mata estimou 873 indivíduos. A espécie consta entre as ameaçadas que o ICMBio lista como protegidas na unidade.",
       "sourceIds": [
         "icmbio",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Sapajus xanthosternos",
-      "name": "Macaco-prego-do-peito-amarelo",
-      "why": "Ameaçado de extinção, aparece em bandos na trilha da Cachoeira Encantada e representa a Mata Atlântica dentro do parque.",
-      "sourceIds": [
-        "icmbio-visitacao",
-        "pm"
+        "fl-1c38de45"
       ]
     },
     {
       "scientificName": "Augastes lumachella",
       "name": "Beija-flor-de-gravata-vermelha",
-      "why": "Beija-flor endêmico da Chapada Diamantina, com registros dentro do parque.",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Ave endêmica da Chapada: o ornitólogo Augusto Ruschi defendeu a criação de uma unidade de conservação justamente para protegê-la, segundo o plano de manejo. Vive nos campos rupestres, onde visita flores de cactos como o Melocactus e de arbustos como o hortelã-bravo.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "fl-87200115"
       ]
     },
     {
-      "scientificName": "Formicivora grantsaui",
-      "name": "Papa-formiga-do-sincorá",
-      "why": "Ave vulnerável que leva no nome a Serra do Sincorá, protegida pelo parque.",
+      "scientificName": "Cattleya sincorana",
+      "name": "Orquídea-do-sincorá",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Orquídea de campo rupestre que o plano de manejo cita como comum na Serra do Sincorá, entre Mucugê e Ibicoara, e entre as plantas visadas pelo tráfico. A Flora do Brasil a registra como endêmica da Bahia, em campos rupestres e afloramentos rochosos.",
       "sourceIds": [
-        "gbif"
+        "pm",
+        "fl-613b619f"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Cattleya_sincorana_%E2%80%98Black_Willow%E2%80%99_%28Schltr.%29_Van_den_Berg%2C_Neodiversity_3-_11_%282008%29_%2833521070394%29.jpg/1280px-Cattleya_sincorana_%E2%80%98Black_Willow%E2%80%99_%28Schltr.%29_Van_den_Berg%2C_Neodiversity_3-_11_%282008%29_%2833521070394%29.jpg",
+        "author": "snotch from Sapporo, Hokkaido, Japan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattleya_sincorana_%E2%80%98Black_Willow%E2%80%99_(Schltr.)_Van_den_Berg,_Neodiversity_3-_11_(2008)_(33521070394).jpg",
+        "width": 1280,
+        "height": 854,
+        "alt": "Orquídea-do-sincorá (Cattleya sincorana)",
+        "context": "Orquídea-do-sincorá, Cattleya sincorana."
+      }
+    },
+    {
+      "scientificName": "Vellozia sincorana",
+      "name": "Candombá",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "Canela-de-ema da Serra do Sincorá, citada no plano de manejo entre as plantas exclusivas da Chapada e como abundante na região de Mucugê e Ibicoara. Cresce nos campos rupestres, que cobrem cerca de 65% do parque, e a Flora do Brasil a dá como endêmica da Bahia.",
+      "sourceIds": [
+        "pm",
+        "fl-ae68e7b1"
       ]
     }
   ],
@@ -251,6 +279,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-1c38de45",
+      "institution": "Mohamed bin Zayed Species Conservation Fund",
+      "title": "Blond titi monkey (Callicebus barbarabrownae): estudo de caso no Parque Nacional da Chapada Diamantina",
+      "url": "https://speciesconservation.org/case-studies-projects/x/27289",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-87200115",
+      "institution": "Revista Nordestina de Biologia (UFPB)",
+      "title": "Biologia e abundância de Augastes lumachellus em Morro do Chapéu, Bahia (Almeida e Raposo, 2012)",
+      "url": "https://periodicos.ufpb.br/index.php/revnebio/article/view/13820",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-613b619f",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Cattleya sincorana (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Cattleya%20sincorana",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ae68e7b1",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Vellozia sincorana (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Vellozia%20sincorana",
+      "accessed": "2026-10-29"
     }
   ]
 }

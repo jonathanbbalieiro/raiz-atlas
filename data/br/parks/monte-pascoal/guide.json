@@ -137,6 +137,55 @@
   ],
   "flagships": [
     {
+      "scientificName": "Harpia harpyja",
+      "name": "Harpia",
+      "criteria": [
+        "papel_ecologico",
+        "cultural"
+      ],
+      "why": "Em novembro de 2025, pataxós guiados pelo jovem Caxiló registraram uma harpia na trilha do Monte Pascoal. A gestora disse que o registro comprova o saber tradicional indígena. A maior águia das Américas indica floresta íntegra.",
+      "sourceIds": [
+        "fl-16ae967d",
+        "pm"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Harpia-harpyja-001.jpg/1280px-Harpia-harpyja-001.jpg",
+        "author": "Mdf",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harpia-harpyja-001.jpg",
+        "width": 1280,
+        "height": 448,
+        "alt": "Harpia (Harpia harpyja)",
+        "context": "Harpia, Harpia harpyja."
+      }
+    },
+    {
+      "scientificName": "Rhizophora mangle",
+      "name": "Mangue-vermelho",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Uma das três árvores principais dos manguezais da costa do parque, segundo o plano de manejo, que descreve matas densas de raízes longas e emaranhadas. O ICMBio lista o manguezal entre os ambientes do parque, ao lado da restinga e da Mata Atlântica.",
+      "sourceIds": [
+        "pm",
+        "icmbio-visitacao"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/732312994/original.jpg",
+        "alt": "Raízes-escora do mangue-vermelho emergindo da lama, sob a folhagem",
+        "author": "zebedeugalinha",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/732312994",
+        "width": 2048,
+        "height": 1536,
+        "context": "Raízes-escora do mangue-vermelho (Rhizophora mangle) em um manguezal do Maranhão."
+      },
+      "iucn": "LC"
+    },
+    {
       "scientificName": "Patagioenas speciosa",
       "name": "Pomba-trocal",
       "why": "Provável pomba seixa da carta de Caminha, registrada na região do parque.",
@@ -153,26 +202,8 @@
         "width": 2048,
         "height": 1364,
         "context": "Pomba-trocal (Patagioenas speciosa) pousada em Mato Grosso."
-      }
-    },
-    {
-      "scientificName": "Rhizophora mangle",
-      "name": "Mangue-vermelho",
-      "why": "Uma das árvores que formam os manguezais protegidos na costa do parque.",
-      "sourceIds": [
-        "pm"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/732312994/original.jpg",
-        "alt": "Raízes-escora do mangue-vermelho emergindo da lama, sob a folhagem",
-        "author": "zebedeugalinha",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/732312994",
-        "width": 2048,
-        "height": 1536,
-        "context": "Raízes-escora do mangue-vermelho (Rhizophora mangle) em um manguezal do Maranhão."
-      }
+      },
+      "iucn": "LC"
     }
   ],
   "sources": [
@@ -210,6 +241,13 @@
       "title": "Decreto nº 3.421, de 20 de abril de 2000",
       "url": "https://legis.senado.leg.br/norma/400704",
       "accessed": "2026-10-22"
+    },
+    {
+      "id": "fl-16ae967d",
+      "institution": "ICMBio (republicado pelo eCycle)",
+      "title": "Registro inédito de harpia reforça riqueza da biodiversidade no Parque Nacional e Histórico do Monte Pascoal",
+      "url": "https://www.ecycle.com.br/registro-inedito-de-harpia-reforca-riqueza-da-biodiversidade-no-parque-nacional-e-historico-do-monte-pascoal/",
+      "accessed": "2026-10-29"
     }
   ]
 }

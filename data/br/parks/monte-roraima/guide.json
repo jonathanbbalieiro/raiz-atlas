@@ -184,6 +184,44 @@
   ],
   "flagships": [
     {
+      "scientificName": "Bonnetia roraimae",
+      "name": "Bonnétia-do-Roraima",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Arbusto dos bosques e campos rupestres dos tepuis, citado no plano de manejo como exemplo de endemismo da região. No Brasil, a Flora e Funga registra a espécie apenas em Roraima, em campo rupestre, sobre rocha ou solo.",
+      "sourceIds": [
+        "pm",
+        "fl-43634721"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bonnetia_roraimae_detail.jpg/1920px-Bonnetia_roraimae_detail.jpg",
+        "alt": "Arbusto Bonnetia roraimae com folhas alaranjadas e flores rosadas",
+        "author": "Claire Taylor from Cyprus",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonnetia_roraimae_detail.jpg",
+        "width": 1920,
+        "height": 1440,
+        "context": "Bonnetia roraimae, arbusto característico do topo do Monte Roraima, com flores rosadas."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Heliamphora nutans",
+      "name": "Heliamphora",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "O plano de manejo destaca as plantas carnívoras do gênero Heliamphora entre os endemismos dos tepuis, que deixam esses ambientes parecidos com jardins. A Flora e Funga registra H. nutans em Roraima, sobre afloramentos rochosos.",
+      "sourceIds": [
+        "pm",
+        "fl-c9fe3cd9"
+      ]
+    },
+    {
       "scientificName": "Oreophrynella quelchii",
       "name": "Sapinho dos tepuis",
       "why": "Uma das rãs endêmicas dos tepuis citadas no plano de manejo como valor fundamental do parque.",
@@ -203,25 +241,6 @@
       }
     },
     {
-      "scientificName": "Bonnetia roraimae",
-      "name": "Arbusto dos tepuis",
-      "why": "Arbusto típico dos bosques de neblina dos tepuis, citado entre as plantas endêmicas que o parque protege.",
-      "sourceIds": [
-        "pm"
-      ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bonnetia_roraimae_detail.jpg/1920px-Bonnetia_roraimae_detail.jpg",
-        "alt": "Arbusto Bonnetia roraimae com folhas alaranjadas e flores rosadas",
-        "author": "Claire Taylor from Cyprus",
-        "license": "CC BY-SA 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bonnetia_roraimae_detail.jpg",
-        "width": 1920,
-        "height": 1440,
-        "context": "Bonnetia roraimae, arbusto característico do topo do Monte Roraima, com flores rosadas."
-      }
-    },
-    {
       "scientificName": "Pipreola whitelyi",
       "name": "Pássaro dos tepuis",
       "why": "Ave de distribuição restrita às montanhas da região, exemplo da avifauna endêmica dos tepuis.",
@@ -238,7 +257,8 @@
         "height": 1280,
         "alt": "Pássaro dos tepuis (Pipreola whitelyi)",
         "context": "Pássaro dos tepuis, Pipreola whitelyi."
-      }
+      },
+      "iucn": "LC"
     }
   ],
   "sources": [
@@ -269,6 +289,20 @@
       "title": "Decreto de 15 de abril de 2005 (homologa a demarcação da Terra Indígena Raposa Serra do Sol)",
       "url": "https://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2005/Dnn/Dnn10495.htm",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-43634721",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Bonnetia roraimae (registro no Flora e Funga do Brasil)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Bonnetia%20roraimae",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c9fe3cd9",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Heliamphora nutans (registro no Flora e Funga do Brasil)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Heliamphora%20nutans",
+      "accessed": "2026-10-29"
     }
   ]
 }

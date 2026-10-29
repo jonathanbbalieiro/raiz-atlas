@@ -129,6 +129,44 @@
   ],
   "flagships": [
     {
+      "scientificName": "Monotrema bracteatum",
+      "name": "Monotrema",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Erva da família das rapateáceas, endêmica do Brasil e ligada às campinaranas de Roraima, uma das paisagens do parque. O plano de manejo a destaca entre as plantas endêmicas, raras ou ameaçadas que a unidade deve conservar.",
+      "sourceIds": [
+        "pm",
+        "fl-45835c97"
+      ]
+    },
+    {
+      "scientificName": "Bertholletia excelsa",
+      "name": "Castanheira",
+      "criteria": [
+        "ameacada_com_acao",
+        "icone_da_paisagem"
+      ],
+      "why": "A castanheira está entre as árvores ameaçadas de extinção que o plano de manejo manda conservar no parque. A Flora e Funga registra a espécie como árvore de floresta de terra firme em Roraima, entre outros estados.",
+      "sourceIds": [
+        "pm",
+        "fl-671a5073"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/BrazilNut1.JPG",
+        "author": "Deathworm",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BrazilNut1.JPG",
+        "width": 1280,
+        "height": 960,
+        "alt": "Castanheira (Bertholletia excelsa)",
+        "context": "Castanheira, Bertholletia excelsa."
+      }
+    },
+    {
       "scientificName": "Lophornis ornatus",
       "name": "Beija-flor-de-leque-canela",
       "why": "Está entre as aves que o plano de manejo destaca como endêmicas, raras ou ameaçadas a conservar no parque, e tem registros dentro dele.",
@@ -154,26 +192,8 @@
         "height": 1281,
         "alt": "Macaco-aranha (Ateles belzebuth)",
         "context": "Macaco-aranha, Ateles belzebuth."
-      }
-    },
-    {
-      "scientificName": "Crax alector",
-      "name": "Mutum-poranga",
-      "why": "Ave grande e muito caçada, citada entre as espécies que o parque precisa manter em equilíbrio.",
-      "sourceIds": [
-        "pm"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/449076224/original.jpg",
-        "author": "moschini",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/449076224",
-        "width": 2048,
-        "height": 1316,
-        "alt": "Mutum-poranga (Crax alector) caminhando no chão da floresta, em Caracaraí, Roraima",
-        "context": "Mutum-poranga, Crax alector, registrado em Caracaraí (RR), na mesma região amazônica do parque."
-      }
+      },
+      "iucn": "EN"
     }
   ],
   "sources": [
@@ -197,6 +217,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-45835c97",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Monotrema bracteatum (registro no Flora e Funga do Brasil)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Monotrema%20bracteatum",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-671a5073",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Bertholletia excelsa (registro no Flora e Funga do Brasil)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Bertholletia%20excelsa",
+      "accessed": "2026-10-29"
     }
   ]
 }

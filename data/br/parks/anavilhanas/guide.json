@@ -183,10 +183,16 @@
     {
       "scientificName": "Inia geoffrensis",
       "name": "Boto-cor-de-rosa",
-      "why": "Ameaçado, é o morador mais famoso do parque, e o turismo com ele segue regras próprias definidas com o conselho da unidade.",
+      "criteria": [
+        "icone_da_paisagem",
+        "cultural",
+        "ameacada_com_acao"
+      ],
+      "why": "O boto-vermelho é símbolo de Novo Airão, a cidade-sede do parque, e figura entre os alvos de conservação priorizados no plano de manejo. Está na lista de ameaçadas protegidas pela unidade, e o Flutuante dos Botos, perto de Novo Airão, é um dos pontos de visita da região.",
       "sourceIds": [
         "icmbio",
-        "pm"
+        "fl-b3293454",
+        "fl-dc9c8902"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Parque_Nacional_de_Anavilhanas_Silvio_Batista_Piotto_Junior_%2802%29.jpg/1920px-Parque_Nacional_de_Anavilhanas_Silvio_Batista_Piotto_Junior_%2802%29.jpg",
@@ -203,19 +209,29 @@
     {
       "scientificName": "Trichechus inunguis",
       "name": "Peixe-boi-da-amazônia",
-      "why": "Está na lista de ameaçadas da unidade e foi um dos motivos para proteger o labirinto de ilhas e lagos.",
+      "criteria": [
+        "ameacada_com_acao",
+        "cultural"
+      ],
+      "why": "Junto com o boto, é símbolo de Novo Airão, sede do parque, e é um dos alvos de conservação priorizados no plano de manejo de Anavilhanas. Consta da lista de espécies ameaçadas protegidas pela unidade, que guarda o labirinto de ilhas e lagos do rio Negro.",
       "sourceIds": [
         "icmbio",
+        "fl-b3293454",
         "pm"
       ]
     },
     {
       "scientificName": "Pteronura brasiliensis",
       "name": "Ariranha",
-      "why": "A lontra gigante da Amazônia é uma das espécies ameaçadas protegidas no parque e no sítio da UNESCO.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "A lontra gigante é um dos mamíferos aquáticos do arquipélago, ao lado de botos, peixe-boi e lontra, e consta da lista de ameaçadas protegidas pela unidade. O plano de manejo reconhece que pouco se sabe sobre sua abundância e distribuição no local, o que orienta as pesquisas em curso.",
       "sourceIds": [
         "icmbio",
-        "unesco"
+        "fl-b3293454",
+        "pm"
       ]
     }
   ],
@@ -240,6 +256,20 @@
       "title": "Central Amazon Conservation Complex",
       "url": "https://whc.unesco.org/en/list/998/",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-b3293454",
+      "institution": "Aventura do Brasil",
+      "title": "Anavilhanas Archipelago: A Labyrinth of Water",
+      "url": "https://aventuradobrasil.com/blog/anavilhanas-archipelago-a-labyrinth-of-water",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-dc9c8902",
+      "institution": "Portal Amazônia",
+      "title": "Parque Nacional de Anavilhanas",
+      "url": "https://portalamazonia.com/amazonia-az/parque-nacional-de-anavilhanas",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -185,10 +185,14 @@
     {
       "scientificName": "Mergus octosetaceus",
       "name": "Pato-mergulhão",
-      "why": "Criticamente em perigo. O parque protege seus locais de alimentação e de ninho, e a região abriga cerca de 42% da população conhecida.",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "A Canastra abriga a principal população conhecida do pato-mergulhão, a mais bem estudada. A ave é arredia à presença humana e se afasta de trechos com visitação intensa, o que pesa no manejo do uso público dos rios do parque.",
       "sourceIds": [
-        "icmbio-historia",
-        "pmif"
+        "fl-16fcdda0",
+        "fl-057bc641"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/412304811/original.jpg",
@@ -201,6 +205,43 @@
         "height": 1368,
         "context": "Pato-mergulhão (Mergus octosetaceus), uma das aves mais ameaçadas do Brasil, em rio de Minas Gerais."
       }
+    },
+    {
+      "scientificName": "Priodontes maximus",
+      "name": "Tatu-canastra",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Segundo o ICMBio, já desapareceu do Paraná e está restrito a poucos locais do Sudeste. Na Canastra foi fotografado em pleno dia, em registro raro dentro do parque, numa estrada rumo a Sacramento, em dia de chuva.",
+      "sourceIds": [
+        "fl-16fcdda0",
+        "fl-90262b78"
+      ],
+      "iucn": "VU",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Priodontes_maximus_at_R%C3%A9gina.jpg/1280px-Priodontes_maximus_at_R%C3%A9gina.jpg",
+        "author": "Guillaume Delaitre",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Priodontes_maximus_at_R%C3%A9gina.jpg",
+        "width": 1280,
+        "height": 852,
+        "alt": "Tatu-canastra (Priodontes maximus)",
+        "context": "Tatu-canastra, Priodontes maximus."
+      }
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Um programa de pesquisa na Canastra capturou 66 lobos-guarás em oito anos para desvendar hábitos que ajudam a conservar a espécie do Cerrado; o pesquisador Rogério Cunha de Paula trabalha com o lobo na região desde 1997.",
+      "sourceIds": [
+        "fl-16fcdda0",
+        "fl-2dc997b7",
+        "fl-6f29d3e4"
+      ]
     },
     {
       "scientificName": "Ozotoceros bezoarticus",
@@ -219,25 +260,6 @@
         "width": 1920,
         "height": 1440,
         "context": "Veado-campeiro macho nos campos do Parque Nacional da Serra da Canastra (MG)."
-      }
-    },
-    {
-      "scientificName": "Myrmecophaga tridactyla",
-      "name": "Tamanduá-bandeira",
-      "why": "Vulnerável segundo a IUCN, é um dos mamíferos que dependem das grandes áreas contínuas do parque.",
-      "sourceIds": [
-        "gbif"
-      ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28001%29.jpg/1920px-Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28001%29.jpg",
-        "alt": "Tamanduá-bandeira cheirando o solo de campo aberto ao lado de um cupinzeiro",
-        "author": "RaulMRTFonseca",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca(001).jpg",
-        "width": 1920,
-        "height": 1440,
-        "context": "Tamanduá-bandeira em campo aberto no Parque Nacional da Serra da Canastra (MG)."
       }
     }
   ],
@@ -269,6 +291,41 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-16fcdda0",
+      "institution": "ICMBio",
+      "title": "Espécies da fauna do PARNA Serra da Canastra (atualizado em 11/07/2025)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-serra-da-canastra/arquivos/fauna-da-serra-canastra-atualizado-em-11-07-2025.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-057bc641",
+      "institution": "((o))eco",
+      "title": "Um lugar para o pato-mergulhão",
+      "url": "https://oeco.org.br/analises/16737-oeco-12850/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-90262b78",
+      "institution": "((o))eco",
+      "title": "Tatu-canastra é fotografado durante o dia, em Minas Gerais",
+      "url": "https://oeco.org.br/salada-verde/tatu-canastra-e-fotografado-durante-o-dia-em-minas-gerais/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-2dc997b7",
+      "institution": "((o))eco",
+      "title": "Lobos da Canastra",
+      "url": "https://oeco.org.br/biblioteca/lobos-da-canastra/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-6f29d3e4",
+      "institution": "((o))eco",
+      "title": "Serra da Canastra: diversidade infinita",
+      "url": "https://oeco.org.br/colunas/25202-serra-da-canastra-diversidade-infinita/",
+      "accessed": "2026-10-29"
     }
   ]
 }

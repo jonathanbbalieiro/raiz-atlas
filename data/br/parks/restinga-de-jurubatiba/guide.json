@@ -158,31 +158,16 @@
   ],
   "flagships": [
     {
-      "scientificName": "Melocactus violaceus",
-      "name": "Coroa-de-frade",
-      "why": "Cacto da restinga citado pelo ICMBio entre as plantas do parque e classificado como vulnerável pela IUCN.",
-      "sourceIds": [
-        "icmbio-bio",
-        "gbif"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14919978/original.jpeg",
-        "alt": "Coroa-de-frade com flores rosa-vivo no topo, sobre areia branca de restinga",
-        "author": "flaviomendes",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/14919978",
-        "width": 2048,
-        "height": 1536,
-        "context": "Coroa-de-frade (Melocactus violaceus) em flor sobre a areia da restinga, no Espírito Santo."
-      }
-    },
-    {
       "scientificName": "Allagoptera arenaria",
       "name": "Guriri",
-      "why": "Palmeira baixa típica da restinga, base da dieta do ratinho-goitacá, que espalha suas sementes.",
+      "criteria": [
+        "icone_da_paisagem",
+        "papel_ecologico"
+      ],
+      "why": "Palmeira baixa da restinga de Jurubatiba, citada pelo ICMBio entre as plantas do parque. Seus coquinhos alimentam o ratinho-goitacá, que também dispersa as sementes, e formam a base das moitas de palmeiras da planície arenosa.",
       "sourceIds": [
-        "icmbio-bio"
+        "icmbio-bio",
+        "fl-90b3d725"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/126316881/original.jpeg",
@@ -197,11 +182,67 @@
       }
     },
     {
+      "scientificName": "Melocactus violaceus",
+      "name": "Coroa-de-frade",
+      "criteria": [
+        "habitat_critico",
+        "endemica"
+      ],
+      "why": "Cacto globoso da restinga, ameaçado, estudado dentro do parque: em uma população a 5 m de altitude, a maioria dos indivíduos ainda era jovem. O ICMBio o cita entre as plantas do parque, onde a vegetação aberta de moitas domina a planície.",
+      "sourceIds": [
+        "icmbio-bio",
+        "fl-015001b7"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/14919978/original.jpeg",
+        "alt": "Coroa-de-frade com flores rosa-vivo no topo, sobre areia branca de restinga",
+        "author": "flaviomendes",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/14919978",
+        "width": 2048,
+        "height": 1536,
+        "context": "Coroa-de-frade (Melocactus violaceus) em flor sobre a areia da restinga, no Espírito Santo."
+      }
+    },
+    {
+      "scientificName": "Clusia hilariana",
+      "name": "Abaneiro",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Forma as moitas da vegetação dominante do parque, a restinga arbustiva aberta de Clusia. As moitas com Clusia são mais altas e têm menos espécies de plantas, e abrigam o roedor Oryzomys subflavus, único pequeno mamífero capturado ali em estudo de 2001 a 2002.",
+      "sourceIds": [
+        "icmbio-bio",
+        "fl-893ebdf2"
+      ],
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Cerradomys goytaca",
+      "name": "Ratinho-goitacá",
+      "criteria": [
+        "endemica",
+        "papel_ecologico"
+      ],
+      "why": "Roedor descrito em 2011 a partir de exemplares de Jurubatiba e exclusivo das restingas do norte fluminense. Vive nas ilhas de vegetação arbustiva e come os coquinhos de guriri, ajudando a dispersar suas sementes.",
+      "sourceIds": [
+        "fl-16857dcc",
+        "fl-90b3d725",
+        "icmbio-bio"
+      ]
+    },
+    {
       "scientificName": "Mimus gilvus",
       "name": "Sabiá-da-praia",
-      "why": "Ameaçado no estado do Rio, encontra no parque uma das suas populações mais abundantes.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Já ausente de boa parte do litoral fluminense por caça e perda de hábitat, entrou na lista estadual de ameaçadas. Em Jurubatiba, o canto que quase o levou à extinção ainda é comum: a ave ocorre em abundância relativamente alta no parque.",
       "sourceIds": [
-        "icmbio-bio"
+        "icmbio-bio",
+        "fl-7d22d478"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/562074280/original.jpg",
@@ -214,14 +255,6 @@
         "height": 1186,
         "context": "Sabiá-da-praia (Mimus gilvus) em área de restinga em Alagoas."
       }
-    },
-    {
-      "scientificName": "Cerradomys goytaca",
-      "name": "Ratinho-goitacá",
-      "why": "Roedor endêmico das restingas, vive nas ilhas de vegetação arbustiva do parque.",
-      "sourceIds": [
-        "icmbio-bio"
-      ]
     }
   ],
   "sources": [
@@ -259,6 +292,41 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-90b3d725",
+      "institution": "Super Rádio Tupi",
+      "title": "Ratinho-goytacá: animal ameaçado surpreende câmeras em reserva no RJ",
+      "url": "https://www.tupi.fm/rio/ratinho-goytaca-animal-ameacado-surpreende-cameras-reserva-rj/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-015001b7",
+      "institution": "Oecologia Australis (UFRJ)",
+      "title": "Figueiredo (2016). Reproductive biology of Melocactus violaceus, Restinga de Jurubatiba National Park",
+      "url": "https://revistas.ufrj.br/index.php/oa/article/view/8342/6860",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-893ebdf2",
+      "institution": "Brazilian Journal of Biology",
+      "title": "Bergallo et al. (2005). Uso do hábitat por Oryzomys subflavus em moitas abertas da Restinga de Jurubatiba",
+      "url": "https://scielo.br/j/bjb/a/QnmKrYGZNnDXtHVmxpm33NM/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-16857dcc",
+      "institution": "Mongabay",
+      "title": "Photo: new mouse species discovered in Brazil",
+      "url": "https://news.mongabay.com/2011/07/photo-new-mouse-species-discovered-in-brazil/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-7d22d478",
+      "institution": "UFJF",
+      "title": "Parque Nacional da Restinga de Jurubatiba (Biologia UFJF)",
+      "url": "https://www2.ufjf.br/biologia/?p=1968",
+      "accessed": "2026-10-29"
     }
   ]
 }

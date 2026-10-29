@@ -36,7 +36,7 @@ export function resolveFlagshipCard(flagship: ParkGuide["flagships"][number], bi
   if (card) return flagship.photo ? { ...card, photo: flagship.photo } : card;
   return flagship.photo ? {
     gbifKey: 0, scientificName: flagship.scientificName, name: flagship.name,
-    family: null, records: null, iucn: null, wikidata: null, photo: flagship.photo,
+    family: null, records: null, iucn: flagship.iucn ?? null, wikidata: null, photo: flagship.photo,
   } : null;
 }
 
@@ -50,9 +50,9 @@ export function biodiversityRoster(bio: Biodiversity, guide?: ParkGuide): Specie
       if (card) roster[existing] = { ...roster[existing], photo: card.photo };
       continue;
     }
-    roster.push(card ? { ...card, gbifKey: -(index + 1) } : {
+    roster.push(card ? { ...card, iucn: card.iucn ?? flagship.iucn ?? null, gbifKey: -(index + 1) } : {
       gbifKey: -(index + 1), scientificName: flagship.scientificName, name: flagship.name,
-      family: null, records: null, iucn: null, wikidata: null, photo: null,
+      family: null, records: null, iucn: flagship.iucn ?? null, wikidata: null, photo: null,
     });
   }
   return roster;

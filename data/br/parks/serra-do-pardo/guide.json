@@ -136,19 +136,48 @@
   ],
   "flagships": [
     {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Uma das duas espécies ameaçadas que o ICMBio lista como protegidas no parque. O plano de manejo prevê estudar sua população nos igarapés e no trecho do rio Xingu que margeia o parque e a trata como indicadora de qualidade ambiental.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "A outra espécie ameaçada que o ICMBio lista como protegida no parque. O plano de manejo a registra na área e a inclui entre as espécies indicadoras de alta qualidade ambiental, a monitorar nas áreas em recuperação.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ],
+      "iucn": "NT",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca."
+      }
+    },
+    {
       "scientificName": "Ateles marginatus",
       "name": "Macaco-aranha-de-cara-branca",
       "why": "Em perigo, tem registros dentro do parque.",
       "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Pteronura brasiliensis",
-      "name": "Ariranha",
-      "why": "Em perigo, está na lista de espécies ameaçadas protegidas pelo parque.",
-      "sourceIds": [
-        "icmbio",
         "gbif"
       ]
     },

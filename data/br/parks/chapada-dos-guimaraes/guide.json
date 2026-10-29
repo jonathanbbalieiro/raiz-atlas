@@ -140,20 +140,41 @@
   ],
   "flagships": [
     {
-      "scientificName": "Tapirus terrestris",
-      "name": "Anta",
-      "why": "Está na lista de espécies ameaçadas protegidas pelo parque e tem registros dentro dele.",
+      "scientificName": "Ara chloropterus",
+      "name": "Arara-vermelha",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Nidifica nos paredões de arenito, como o da cachoeira Véu de Noiva, e sobrevoa os mirantes da Cidade de Pedra em pares ou pequenos grupos, fazendo ninho nas fendas da rocha: é o voo que muitos visitantes associam à Chapada.",
       "sourceIds": [
-        "icmbio",
-        "gbif"
+        "fl-fb2f939f",
+        "fl-85089688"
       ]
     },
     {
-      "scientificName": "Ara chloropterus",
-      "name": "Arara-vermelha",
-      "why": "Uma das aves mais vistosas do Cerrado, com registros dentro do parque.",
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "A anta consta, como vulnerável, na lista de espécies ameaçadas protegidas pelo parque. Em 2026, armadilhas fotográficas do Instituto Impacto, em parceria com o ICMBio, registraram a espécie dentro da unidade.",
       "sourceIds": [
-        "gbif"
+        "fl-e52ac2c1",
+        "fl-24e77100"
+      ]
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Canídeo do Cerrado listado como vulnerável entre as espécies protegidas pelo parque, que reúne dez tipos de vegetação de Cerrado. Foi flagrado em 2026 pelas câmeras do projeto do Instituto Impacto com o ICMBio.",
+      "sourceIds": [
+        "fl-e52ac2c1",
+        "fl-24e77100"
       ]
     },
     {
@@ -186,6 +207,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-fb2f939f",
+      "institution": "Correio Braziliense",
+      "title": "Com 487 cachoeiras e paredões de 500 milhões de anos, esse parque nacional geológico guarda raridades a 65 km de Cuiabá",
+      "url": "https://www.correiobraziliense.com.br/cbradar/com-487-cachoeiras-e-paredoes-de-500-milhoes-de-anos-esse-parque-nacional-geologico-guarda-raridades-a-65-km-de-cuiaba/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-85089688",
+      "institution": "Pé na Estrada",
+      "title": "Cidade de Pedra na Chapada dos Guimarães: como visitar",
+      "url": "https://www.penaestrada.blog.br/cidade-de-pedra-na-chapada-dos-guimaraes/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-e52ac2c1",
+      "institution": "ICMBio",
+      "title": "Parna da Chapada dos Guimarães",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-da-chapada-dos-guimaraes",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-24e77100",
+      "institution": "Revista Cenarium",
+      "title": "Câmeras captam onças, casal de jaguatiricas e lobo-guará em MT",
+      "url": "https://revistacenarium.com.br/cameras-captam-oncas-casal-de-jaguatiricas-e-lobo-guara-em-mt/",
+      "accessed": "2026-10-29"
     }
   ]
 }

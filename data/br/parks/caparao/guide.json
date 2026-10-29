@@ -171,27 +171,27 @@
     {
       "scientificName": "Brachyteles hypoxanthus",
       "name": "Muriqui-do-norte",
-      "why": "Criticamente em perigo segundo a IUCN, está na lista de ameaçadas protegidas pelo parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica"
+      ],
+      "why": "Endêmico da Mata Atlântica e criticamente em perigo, com cerca de mil indivíduos no total. O ICMBio inclui o Caparaó entre as quatro áreas capazes de abrigar populações viáveis da espécie, e o parque o lista entre as ameaçadas que protege.",
       "sourceIds": [
         "icmbio-bio",
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Amazona vinacea",
-      "name": "Papagaio-de-peito-roxo",
-      "why": "Em perigo segundo a IUCN e protegido pelo parque.",
-      "sourceIds": [
-        "icmbio-bio",
-        "gbif"
+        "fl-50f1817a"
       ]
     },
     {
       "scientificName": "Callithrix flaviceps",
       "name": "Sagui-da-serra",
-      "why": "Pequeno primata das serras da Mata Atlântica, na lista de ameaçadas protegidas pelo parque.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Endêmico da Mata Atlântica, de distribuição restrita, tem o Parque Nacional do Caparaó (cerca de 31,7 mil ha) entre as áreas protegidas onde ocorre. Está em perigo pela perda de mata e pela hibridação com saguis introduzidos, e o parque o lista entre as ameaçadas que protege.",
       "sourceIds": [
-        "icmbio-bio"
+        "icmbio-bio",
+        "fl-d5b82453"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/53250193/original.jpg",
@@ -203,7 +203,30 @@
         "height": 1365,
         "alt": "Sagui-da-serra agarrado ao tronco de uma árvore na mata atlântica do Espírito Santo",
         "context": "Sagui-da-serra (Callithrix flaviceps) fotografado em floresta de montanha capixaba, na Mata Atlântica."
-      }
+      },
+      "iucn": "CR"
+    },
+    {
+      "scientificName": "Gaylussacia caparoensis",
+      "name": "Gaylussacia-do-Caparaó",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Arbusto endêmico da Mata Atlântica, típico de campo de altitude. No Pico do Calçado Mirim, dentro do parque, está entre as cinco espécies de maior importância na vegetação, ao lado de Eryngium elegans e Baccharis opuntioides, sobre afloramentos de rocha acima de 1.600 m.",
+      "sourceIds": [
+        "fl-0821a0b3",
+        "fl-38cae7f1"
+      ]
+    },
+    {
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "why": "Em perigo segundo a IUCN e protegido pelo parque.",
+      "sourceIds": [
+        "icmbio-bio",
+        "gbif"
+      ]
     }
   ],
   "sources": [
@@ -283,6 +306,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-50f1817a",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Brachyteles hypoxanthus (ficha, Centro Nacional de Primatas Brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_brachyteles_hypoxanthus.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d5b82453",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Callithrix flaviceps (ficha, Centro Nacional de Primatas Brasileiros)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/CALLITRICHIDAE/ficha_callithrix_flaviceps.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-0821a0b3",
+      "institution": "Universidade do Estado de Minas Gerais",
+      "title": "Caracterização estrutural da vegetação do Pico do Calçado Mirim, Parque Nacional do Caparaó MG/ES",
+      "url": "https://revista.uemg.br/index.php/sps/article/download/3426/pdf/11387",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-38cae7f1",
+      "institution": "Jardim Botânico do Rio de Janeiro",
+      "title": "Flora e Funga do Brasil: Gaylussacia caparoensis Sleumer",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Gaylussacia_caparoensis",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -142,11 +142,29 @@
   ],
   "flagships": [
     {
-      "scientificName": "Melanophryniscus alipioi",
-      "name": "Sapinho Melanophryniscus alipioi",
-      "why": "Pequeno sapo registrado no parque e classificado como vulnerável pela IUCN.",
+      "scientificName": "Parodia carambeiensis",
+      "name": "Cacto-de-Carambeí",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Cacto de afloramentos rochosos dos Campos Gerais e a única cactácea endêmica do Paraná. Parte das populações estudadas está dentro do parque, mas as mais densas ficam em terras vizinhas. Os pesquisadores propõem classificá-lo como em perigo no Brasil (na IUCN global, a avaliação é pouco preocupante).",
       "sourceIds": [
-        "gbif"
+        "fl-c599417d",
+        "fl-17820274"
+      ]
+    },
+    {
+      "scientificName": "Araucaria angustifolia",
+      "name": "Araucária",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "No parque, os campos nativos convivem com as matas de araucária, em capões e matas de galeria. Uma das trilhas de acesso a um atrativo do parque cruza justamente a transição entre campo nativo e mata com araucária.",
+      "sourceIds": [
+        "fl-4189aea7",
+        "fl-ff398259"
       ]
     },
     {
@@ -194,6 +212,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-c599417d",
+      "institution": "Rodriguésia",
+      "title": "Population ecology and conservation status of Parodia carambeiensis (Cactaceae), 2021",
+      "url": "https://scielo.br/j/rod/a/yzWTR4fRDDKLNfcCtk6BDhj/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-17820274",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Parodia carambeiensis (ficha na API)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Parodia%20carambeiensis",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-4189aea7",
+      "institution": "Publicatio UEPG",
+      "title": "Eficácia de gestão do Parque Nacional dos Campos Gerais, Paraná (2016)",
+      "url": "https://revistas.uepg.br/index.php/biologica/article/download/9753/6083/38001",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ff398259",
+      "institution": "Terr@Plural (UEPG)",
+      "title": "Interpretando a biodiversidade: a avifauna do Parque Nacional dos Campos Gerais (2021)",
+      "url": "https://revistas.uepg.br/index.php/tp/article/download/16911/209209214088/",
+      "accessed": "2026-10-29"
     }
   ]
 }

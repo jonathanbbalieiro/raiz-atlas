@@ -185,10 +185,14 @@
     {
       "scientificName": "Stenella longirostris",
       "name": "Golfinho-rotador",
-      "why": "Usa a Baía dos Golfinhos para reprodução e cria, numa das maiores concentrações conhecidas da espécie.",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Usa a Baía dos Golfinhos, no parque nacional marinho, para descansar; banho e barcos são proibidos ali. Segundo o Projeto Golfinho Rotador, a permanência na baía caiu de cerca de 8 horas por dia para menos de 3, com o aumento do tráfego de barcos.",
       "sourceIds": [
-        "pm",
-        "unesco"
+        "fl-a746f80b",
+        "fl-e286b1f5"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Stenella_longirostris%2C_ou_golfinho_rotador%2C_em_Fernando_de_Noronha_%281%29.jpg/1920px-Stenella_longirostris%2C_ou_golfinho_rotador%2C_em_Fernando_de_Noronha_%281%29.jpg",
@@ -203,39 +207,42 @@
       }
     },
     {
-      "scientificName": "Eretmochelys imbricata",
-      "name": "Tartaruga-de-pente",
-      "why": "Ameaçada, se reproduz nas ilhas e é uma das prioridades de conservação do sítio.",
-      "sourceIds": [
-        "unesco",
-        "icmbio"
+      "scientificName": "Chelonia mydas",
+      "name": "Tartaruga-verde",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
       ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/A_Tartaruga_na_Imensid%C3%A3o_Azul.jpg/1920px-A_Tartaruga_na_Imensid%C3%A3o_Azul.jpg",
-        "alt": "Tartaruga-marinha nadando em água azul",
-        "author": "Ronaldo Guillen",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Tartaruga_na_Imensid%C3%A3o_Azul.jpg",
-        "width": 1920,
-        "height": 1280,
-        "context": "Tartaruga-marinha nadando em Fernando de Noronha."
-      }
+      "why": "Está entre as quatro tartarugas marinhas que o ICMBio lista no parque. O Projeto Tamar registra que, no Brasil, a espécie se reproduz nas ilhas oceânicas, entre elas Fernando de Noronha, onde o projeto atua desde 1984.",
+      "sourceIds": [
+        "fl-14ade999",
+        "fl-5f5330ab"
+      ]
     },
     {
       "scientificName": "Vireo gracilirostris",
       "name": "Juruviara-de-noronha",
-      "why": "Leva o nome do arquipélago e está na lista de espécies ameaçadas protegidas pelo parque.",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Ave terrestre endêmica do arquipélago, vulnerável segundo a IUCN. Estudo de campo mostrou que é mais abundante onde a vegetação é conservada e distante das vilas, o que realça o papel das áreas protegidas para a espécie.",
       "sourceIds": [
-        "icmbio"
+        "fl-14ade999",
+        "fl-79a0fdb9"
       ]
     },
     {
       "scientificName": "Elaenia ridleyana",
       "name": "Cocoruta",
-      "why": "Pequena ave da ilha que consta na lista de espécies ameaçadas protegidas pelo parque.",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Passeriforme endêmico de Fernando de Noronha, classificado como vulnerável. Aparece em maior número em trechos com mais árvores e arbustos e longe das vilas, segundo levantamento com 120 pontos de escuta no arquipélago.",
       "sourceIds": [
-        "icmbio"
+        "fl-14ade999",
+        "fl-79a0fdb9"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Elaenia_ridleyana_-_Noronha_elaenia.jpg/960px-Elaenia_ridleyana_-_Noronha_elaenia.jpg",
@@ -248,6 +255,45 @@
         "alt": "Cocoruta (Elaenia ridleyana)",
         "context": "Cocoruta, Elaenia ridleyana."
       }
+    },
+    {
+      "scientificName": "Puffinus lherminieri",
+      "name": "Pardela-de-asa-larga",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Ave marinha ameaçada que tem no arquipélago seu único sítio reprodutivo no Brasil, junto com o atobá-de-pé-vermelho. Noronha reúne a maior riqueza de aves marinhas do país: cerca de 30 mil indivíduos de 11 espécies se reproduzem ali todo ano.",
+      "sourceIds": [
+        "fl-14ade999",
+        "fl-8952d3ab"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Audobon%27s_Shearwater.jpg/1280px-Audobon%27s_Shearwater.jpg",
+        "author": "dominic sherony",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audobon%27s_Shearwater.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Pardela-de-asa-larga (Puffinus lherminieri)",
+        "context": "Pardela-de-asa-larga, Puffinus lherminieri."
+      }
+    },
+    {
+      "scientificName": "Cereus insularis",
+      "name": "Cacto-de-noronha",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "Cacto colunar endêmico do arquipélago e elemento dominante da vegetação das ilhas, de aspecto semelhante ao da Caatinga. É uma das três plantas endêmicas citadas para Fernando de Noronha, ao lado de Combretum rupicola e Ficus noronhae.",
+      "sourceIds": [
+        "fl-efda50f6",
+        "fl-d7f1eb03",
+        "fl-e30f0d3a"
+      ]
     }
   ],
   "sources": [
@@ -271,6 +317,69 @@
       "title": "Brazilian Atlantic Islands: Fernando de Noronha and Atol das Rocas Reserves",
       "url": "https://whc.unesco.org/en/list/1000/",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-a746f80b",
+      "institution": "Catraca Livre",
+      "title": "Golfinhos-rotadores descansam na baía de Fernando de Noronha",
+      "url": "https://catracalivre.com.br/noticias/ao-amanhecer-grupos-de-golfinhos-rotadores-entram-em-uma-baia-de-fernando-de-noronha-para-descansar-mas-ninguem-pode-descer-ate-suas-aguas-o-parque-nacional-marinho-onde-visitantes-observam-os-anim/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-e286b1f5",
+      "institution": "((o))eco",
+      "title": "Projeto Golfinho Rotador completa 21 anos",
+      "url": "https://oeco.org.br/noticias/25263-projeto-golfinho-rotator-completa-21-anos/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-14ade999",
+      "institution": "ICMBio",
+      "title": "Parque Nacional Marinho de Fernando de Noronha (espécies ameaçadas protegidas)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/parna-marinho-de-fernando-de-noronha",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-5f5330ab",
+      "institution": "Projeto Tamar",
+      "title": "Tartarugas marinhas: Projeto TAMAR (1992)",
+      "url": "https://www.tamar.org.br/publicacoes_html/pdf/1992/1992_Tartarugas_Marinhas_Projeto_TAMAR.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-79a0fdb9",
+      "institution": "Ornitologia Neotropical",
+      "title": "Abundância e preferência de habitat de aves terrestres em Fernando de Noronha (Mestre et al., 2016)",
+      "url": "https://ornneo.journals.publicknowledgeproject.org/index.php/ornneo/article/download/123/44/495",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-8952d3ab",
+      "institution": "ICMBio",
+      "title": "Relatório anual 2021: Projeto Aves de Noronha (PAN Aves Marinhas)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/2021-pan-aves-marinhas-relatorio-anual-projeto-aves-noronha.pdf/@@download/file",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-efda50f6",
+      "institution": "Botanical Journal of the Linnean Society (via FAPESP)",
+      "title": "Generalizations of genetic conservation principles in islands are not always likely: a Neotropical insular cactus (2021)",
+      "url": "https://bv.fapesp.br/pt/publicacao/229269",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-d7f1eb03",
+      "institution": "Pesquisas, Botânica (Instituto Anchietano)",
+      "title": "Briófloras da ilha de Fernando de Noronha, Brasil (2015)",
+      "url": "https://www.anchietano.unisinos.br/publicacoes/botanica/volumes/067/011.pdf",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-e30f0d3a",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Cereus insularis (ficha na API)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Cereus%20insularis",
+      "accessed": "2026-10-29"
     }
   ]
 }

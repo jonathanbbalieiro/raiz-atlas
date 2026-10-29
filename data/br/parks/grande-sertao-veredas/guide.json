@@ -165,35 +165,60 @@
   ],
   "flagships": [
     {
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico",
+        "cultural"
+      ],
+      "why": "A palmeira das veredas do sertão: nas áreas de turfa os buritis dependem do solo encharcado e um fogo subterrâneo pode derrubá-los. Moradores da região usam a palha para o telhado e extraem óleo do coco; o ICMBio vê buritis jovens brotando onde o fogo é evitado.",
+      "sourceIds": [
+        "fl-15a55b04",
+        "fl-f7908557"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg/1280px-Moriche_Palm_%28Mauritia_flexuosa%29_fruits_%2840136103811%29.jpg",
+        "author": "Bernard DUPONT from FRANCE",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moriche_Palm_(Mauritia_flexuosa)_fruits_(40136103811).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa."
+      }
+    },
+    {
       "scientificName": "Chrysocyon brachyurus",
       "name": "Lobo-guará",
-      "why": "Símbolo do Cerrado, está na lista de espécies ameaçadas protegidas pelo parque e tem registros ali.",
+      "criteria": [
+        "ameacada_com_acao",
+        "icone_da_paisagem"
+      ],
+      "why": "Está na lista de espécies ameaçadas protegidas pelo parque. Na região do Trijunção, perto do parque, é avistado nos campos abertos e acompanhado de forma permanente pela equipe do Onçafari; o desmatamento para a agricultura é a principal ameaça.",
       "sourceIds": [
-        "icmbio",
-        "gbif"
+        "fl-54a19ad4",
+        "fl-dfe83ea0"
       ]
     },
     {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Vulnerável, vive nos campos e cerrados do parque.",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Consta entre as espécies ameaçadas abrigadas no parque. Estudo do Instituto Biotrópicos citado pela imprensa mineira mostra que os tamanduás-bandeira são ao menos cinco vezes mais comuns em unidades de proteção integral do que em áreas menos protegidas.",
       "sourceIds": [
-        "icmbio",
-        "gbif"
+        "fl-54a19ad4",
+        "fl-15a55b04"
       ]
     },
     {
       "scientificName": "Ozotoceros bezoarticus",
       "name": "Veado-campeiro",
       "why": "Veado dos campos abertos, registrado dentro do parque.",
-      "sourceIds": [
-        "gbif"
-      ]
-    },
-    {
-      "scientificName": "Ara ararauna",
-      "name": "Arara-canindé",
-      "why": "Arara azul e amarela dos buritizais, com registros dentro do parque.",
       "sourceIds": [
         "gbif"
       ]
@@ -227,6 +252,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-15a55b04",
+      "institution": "Estado de Minas",
+      "title": "Bolsões de vida: as unidades que tentam barrar a destruição no sertão de MG",
+      "url": "https://www.em.com.br/especiais/2024/07/6905933-bolsoes-de-vida-as-unidades-que-tentam-barrar-a-destruicao-no-sertao-de-mg.html",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-f7908557",
+      "institution": "Estado de Minas",
+      "title": "Veredas mortas",
+      "url": "https://www.em.com.br/gerais/2024/07/6902956-cobrimos-o-corpo-com-palmas-de-buritis-novo-fizemos-quarto-todos.html",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-54a19ad4",
+      "institution": "ICMBio",
+      "title": "Parna Grande Sertão Veredas (página da unidade)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/parna-grande-sertao-veredas",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-dfe83ea0",
+      "institution": "Forbes Brasil",
+      "title": "Marina B. Klink: uma jornada imersiva no coração do Cerrado",
+      "url": "https://forbes.com.br/colunas/2026/04/marina-b-klink-uma-jornada-imersiva-no-coracao-do-cerrado/",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -113,9 +113,15 @@
     {
       "scientificName": "Paubrasilia echinata",
       "name": "Pau-brasil",
-      "why": "Espécie-bandeira que dá nome ao parque, uma das árvores mais ameaçadas da Mata Atlântica.",
+      "criteria": [
+        "icone_da_paisagem",
+        "cultural",
+        "habitat_critico"
+      ],
+      "why": "Única unidade do país com o nome da árvore que deu nome ao Brasil. Na Trilha Ibirapitanga (tronco vermelho, em tupi) brotam centenas de mudas protegidas por cordas, e há exemplares centenários, de casca grossa e sem os acúleos dos jovens.",
       "sourceIds": [
-        "pm"
+        "fl-214aed81",
+        "fl-ab48d606"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/429733661/original.jpeg",
@@ -127,6 +133,29 @@
         "width": 2048,
         "height": 1365,
         "context": "Flores do pau-brasil (Paubrasilia echinata), árvore que deu nome ao país."
+      }
+    },
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "criteria": [
+        "papel_ecologico"
+      ],
+      "why": "Considerada a jardineira da mata: suas fezes espalham sementes e é onde brotam mudas novas. A Trilha das Antas, plana e de 2,4 km, é indicada para ver pegadas do animal e para observar aves.",
+      "sourceIds": [
+        "fl-30b5300f",
+        "fl-c8829449"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/606004152/original.jpg",
+        "alt": "Anta mastigando folhas, com a tromba e as orelhas em destaque",
+        "author": "anacampioto",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/606004152",
+        "width": 2048,
+        "height": 1356,
+        "context": "Anta (Tapirus terrestris), o maior mamífero terrestre do Brasil."
       }
     },
     {
@@ -146,26 +175,8 @@
         "width": 2048,
         "height": 1366,
         "context": "Gavião-real (Harpia harpyja) pousado na floresta, no Pará."
-      }
-    },
-    {
-      "scientificName": "Tapirus terrestris",
-      "name": "Anta",
-      "why": "Grande herbívoro que já desapareceu de outras matas do sul da Bahia, mas ainda vive no parque.",
-      "sourceIds": [
-        "pm"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/606004152/original.jpg",
-        "alt": "Anta mastigando folhas, com a tromba e as orelhas em destaque",
-        "author": "anacampioto",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
-        "sourceUrl": "https://www.inaturalist.org/photos/606004152",
-        "width": 2048,
-        "height": 1356,
-        "context": "Anta (Tapirus terrestris), o maior mamífero terrestre do Brasil."
-      }
+      },
+      "iucn": "VU"
     }
   ],
   "sources": [
@@ -189,6 +200,34 @@
       "title": "Discovery Coast Atlantic Forest Reserves",
       "url": "https://whc.unesco.org/en/list/892/",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-214aed81",
+      "institution": "ICMBio",
+      "title": "Parna do Pau Brasil (página da unidade)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-do-pau-brasil",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-ab48d606",
+      "institution": "Entre Parques BR",
+      "title": "Parque Nacional do Pau-Brasil: o parque denso e leve",
+      "url": "https://entreparquesbr.com.br/pau-brasil/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-30b5300f",
+      "institution": "Entre Parques BR",
+      "title": "Roteiro da Grande Mata Ancestral: PNPB",
+      "url": "https://entreparquesbr.com.br/grande-mata-ancestral-pnpb/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-c8829449",
+      "institution": "Prefeitura de Porto Seguro",
+      "title": "Turismo de Natureza: Parque Nacional do Pau Brasil garante princípios de sustentabilidade nos passeios",
+      "url": "https://portoseguro.ba.gov.br/noticia/turismo-de-natureza-parque-nacional-do-pau-brasil-garante-principios-de-sustentabilidade-nos-passeios",
+      "accessed": "2026-10-29"
     }
   ]
 }

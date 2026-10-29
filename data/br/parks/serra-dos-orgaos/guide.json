@@ -176,9 +176,15 @@
     {
       "scientificName": "Brachyteles arachnoides",
       "name": "Muriqui-do-sul",
-      "why": "O maior primata das Américas é destaque entre as 120 espécies ameaçadas protegidas pelo parque.",
+      "criteria": [
+        "ameacada_com_acao",
+        "endemica",
+        "cultural"
+      ],
+      "why": "Em 1824 o naturalista Freycinet chamou a Serra dos Órgãos de lar dos muriquis, e o parque segue entre as poucas áreas protegidas fluminenses onde o maior primata das Américas ainda é encontrado. O ICMBio o classifica como Em Perigo.",
       "sourceIds": [
-        "icmbio-fauna"
+        "fl-43dca4c2",
+        "fl-1a16e89e"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/391279257/original.jpeg",
@@ -190,7 +196,8 @@
         "height": 1536,
         "alt": "Muriqui-do-sul fêmea com filhote no colo, olhando para a câmera entre os galhos",
         "context": "O muriqui-do-sul (Brachyteles arachnoides), primata ameaçado e símbolo da Mata Atlântica, fotografado em liberdade em área de mata no estado de São Paulo."
-      }
+      },
+      "iucn": "CR"
     },
     {
       "scientificName": "Brachycephalus ephippium",
@@ -217,7 +224,8 @@
         "height": 617,
         "alt": "Saudade-de-asa-cinza (Tijuca condita)",
         "context": "Saudade-de-asa-cinza, Tijuca condita."
-      }
+      },
+      "iucn": "VU"
     }
   ],
   "sources": [
@@ -269,6 +277,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-43dca4c2",
+      "institution": "Iheringia, Série Zoologia",
+      "title": "From XVI to XXI century: old and recent records of Brachyteles arachnoides in the State of Rio de Janeiro (Breves et al., 2023)",
+      "url": "https://scielo.br/j/isz/a/WMfrRcnCtjnqdP4PmxMkTDJ/?lang=en",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-1a16e89e",
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional: Muriqui-do-sul",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/muriqui-do-sul",
+      "accessed": "2026-10-29"
     }
   ]
 }

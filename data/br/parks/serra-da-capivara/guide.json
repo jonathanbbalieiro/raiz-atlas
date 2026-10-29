@@ -178,42 +178,80 @@
   ],
   "flagships": [
     {
-      "scientificName": "Tolypeutes tricinctus",
-      "name": "Tatu-bola",
-      "why": "Ameaçado de extinção e alvo de caçadores, é uma das espécies protegidas pelo parque.",
-      "sourceIds": [
-        "pm",
-        "icmbio",
-        "gbif"
-      ]
-    },
-    {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "Ameaçada na Caatinga, tem registros dentro do parque e está na lista de espécies protegidas.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Em 2007, armadilhas fotográficas no parque identificaram 12 onças adultas e estimaram cerca de 2,7 por 100 km², a primeira estimativa de densidade da espécie na Caatinga e maior que a da maioria dos outros biomas. O ICMBio a lista entre as ameaçadas protegidas aqui.",
       "sourceIds": [
-        "pm",
-        "gbif"
+        "icmbio",
+        "fl-d1625d7b"
       ]
     },
     {
-      "scientificName": "Tropidurus helenae",
-      "name": "Labigó",
-      "why": "Lagartixa-da-serra considerada endêmica da região, citada no plano de manejo.",
+      "scientificName": "Tolypeutes tricinctus",
+      "name": "Tatu-bola",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Tese da UFMG baseada em armadilhas fotográficas no parque em 2018 obteve 118 registros independentes do tatu-bola e mostrou que ele prefere mata mais densa e reduz a atividade noturna perto de grandes felinos. A caça é a principal ameaça; o ICMBio o lista como protegido na unidade.",
       "sourceIds": [
-        "pm",
-        "gbif"
+        "icmbio",
+        "fl-debda542"
       ]
     },
     {
       "scientificName": "Penelope jacucaca",
       "name": "Jacucaca",
-      "why": "Ave da Caatinga ameaçada e alvo preferencial de caçadores.",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "O plano de manejo a inclui entre as espécies endêmicas da Caatinga e da região e entre as aves mais visadas por caçadores no parque. O ICMBio também a lista entre as ameaçadas protegidas na unidade.",
+      "sourceIds": [
+        "icmbio",
+        "pm"
+      ]
+    },
+    {
+      "scientificName": "Tropidurus helenae",
+      "name": "Labigó",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "A lagartixa-da-serra consta no plano de manejo entre as espécies endêmicas da região. Vive sobre rochas e foi descrita de Toca de Cima dos Pilão, em São Raimundo Nonato (PI), com distribuição conhecida apenas no Piauí.",
       "sourceIds": [
         "pm",
-        "icmbio",
-        "gbif"
+        "fl-2181b680"
       ]
+    },
+    {
+      "scientificName": "Spondias tuberosa",
+      "name": "Umbuzeiro",
+      "criteria": [
+        "endemica",
+        "icone_da_paisagem"
+      ],
+      "why": "O plano de manejo o cita, com a coroa-de-frade, entre as plantas endêmicas da Caatinga que o parque protege. A Flora do Brasil o registra como nativo e endêmico do Brasil, na Caatinga e no carrasco, com ocorrência no Piauí.",
+      "sourceIds": [
+        "pm",
+        "fl-de11f272"
+      ],
+      "iucn": "LC",
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Spondias_tuberosa_Umbu.jpg/1280px-Spondias_tuberosa_Umbu.jpg",
+        "author": "Daniele Gidsicki",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spondias_tuberosa_Umbu.jpg",
+        "width": 1280,
+        "height": 960,
+        "alt": "Umbuzeiro (Spondias tuberosa)",
+        "context": "Umbuzeiro, Spondias tuberosa."
+      }
     }
   ],
   "sources": [
@@ -244,6 +282,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "fl-d1625d7b",
+      "institution": "Oryx (Silveira et al., 2010)",
+      "title": "Density of the Near Threatened jaguar Panthera onca in the caatinga of north-eastern Brazil",
+      "url": "https://cris.upc.edu.pe/en/publications/density-of-the-near-threatened-jaguar-panthera-onca-in-the-caatin-2/",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-debda542",
+      "institution": "UFMG (Sena, 2020)",
+      "title": "Ocupação, atividade e efeito da caça de tatu-bola Tolypeutes tricinctus na Caatinga, Nordeste do Brasil",
+      "url": "https://bdtd.ibict.br/vufind/Record/UFMG_ba690cd42a4b376d5853aad79c9d2b0c",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-2181b680",
+      "institution": "The Reptile Database",
+      "title": "Tropidurus helenae (distribuição e localidade-tipo)",
+      "url": "https://reptile-database.reptarium.cz/Tropidurus/helenae",
+      "accessed": "2026-10-29"
+    },
+    {
+      "id": "fl-de11f272",
+      "institution": "Flora e Funga do Brasil (JBRJ)",
+      "title": "Registro de Spondias tuberosa (nome aceito, origem, distribuição)",
+      "url": "https://servicos.jbrj.gov.br/flora/taxon/Spondias%20tuberosa",
+      "accessed": "2026-10-29"
     }
   ]
 }

@@ -159,11 +159,29 @@
   ],
   "flagships": [
     {
+      "scientificName": "Araucaria angustifolia",
+      "name": "Pinheiro-brasileiro (araucária)",
+      "criteria": [
+        "icone_da_paisagem",
+        "ameacada_com_acao"
+      ],
+      "why": "A Floresta Ombrófila Mista, ou floresta de araucárias, tem dominância fisionômica do pinheiro-brasileiro, espécie criticamente ameaçada, e rara riqueza de epífitas. O plano de manejo a cita entre as espécies que se refugiam nos microambientes frágeis dos parques.",
+      "sourceIds": [
+        "pm",
+        "pm2004"
+      ]
+    },
+    {
       "scientificName": "Chrysocyon brachyurus",
       "name": "Lobo-guará",
-      "why": "Reproduz-se dentro do parque, como mostram imagens de armadilha fotográfica. É criticamente ameaçado no Rio Grande do Sul.",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Apelidado de Fantasma dos Aparados pelas raras aparições, tem reprodução registrada no parque, com filhote nascido em 2024 e um macho recebendo radiocolar na Fazenda Mangueirinha. Vive nos campos, onde o plano de 2004 já apontava sua baixa densidade.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "pm2004"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Lobo_Guar%C3%A1_andando.jpg/1920px-Lobo_Guar%C3%A1_andando.jpg",
@@ -175,6 +193,30 @@
         "height": 1242,
         "alt": "Lobo-guará caminhando",
         "context": "Lobo-guará (Chrysocyon brachyurus)."
+      },
+      "iucn": "NT"
+    },
+    {
+      "scientificName": "Dicksonia sellowiana",
+      "name": "Xaxim",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Samambaia arborescente que cresce no interior da Floresta Ombrófila Mista, ao lado da araucária, e que o plano de manejo destaca entre as espécies raras e ameaçadas refugiadas nos microambientes frágeis das bordas do planalto e dos cânions.",
+      "sourceIds": [
+        "pm",
+        "pm2004"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dicksonia_sellowiana_in_a_Brasilian_Forest.jpg",
+        "author": "Walter Henrique Pedron Moschen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dicksonia_sellowiana_in_a_Brasilian_Forest.jpg",
+        "width": 1280,
+        "height": 1919,
+        "alt": "Xaxim (Dicksonia sellowiana)",
+        "context": "Xaxim, Dicksonia sellowiana."
       }
     },
     {
@@ -184,25 +226,6 @@
       "sourceIds": [
         "pm"
       ]
-    },
-    {
-      "scientificName": "Melanophryniscus cambaraensis",
-      "name": "Sapinho-de-barriga-vermelha",
-      "why": "Pequeno anfíbio citado pelo plano de manejo entre as espécies raras e ameaçadas que os parques protegem.",
-      "sourceIds": [
-        "pm"
-      ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Melanophryniscus_cambaraensis_-_Fernando_Bondan_-_726639198.jpeg/1920px-Melanophryniscus_cambaraensis_-_Fernando_Bondan_-_726639198.jpeg",
-        "author": "Fernando Bondan",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanophryniscus_cambaraensis_-_Fernando_Bondan_-_726639198.jpeg",
-        "width": 1920,
-        "height": 1080,
-        "alt": "Sapinho-de-barriga-vermelha",
-        "context": "Sapinho-de-barriga-vermelha (Melanophryniscus cambaraensis)."
-      }
     }
   ],
   "sources": [
