@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { cache } from "react";
 import { BIODIVERSITY_SEGMENT, EXPEDITION_SEGMENT, SHOW_DRAFTS } from "@/lib/editorial";
 import { BIOME_LABEL, formatArea, joinPt } from "@/lib/labels";
 import { applyParkPhotoCuration, matchWonderPhoto, type ParkPhotoCuration } from "@/lib/photos";
@@ -126,9 +127,17 @@ function describePark(p: GeneratedPark, states: { name: string; prep: string }[]
   return p.createdYear ? `Criado em ${p.createdYear}, ${body}` : body.charAt(0).toUpperCase() + body.slice(1);
 }
 
-/** Lê e valida todo o conteúdo uma vez; com Cache Components, entra no shell estático. */
-async function loadDataset(): Promise<Dataset> {
-  "use cache";
+/** A base completa fica em memória no servidor, fora do cache serializado das rotas. */
+let datasetPromise: Promise<Dataset> | undefined;
+const loadDataset = cache((): Promise<Dataset> => {
+  if (process.env.NODE_ENV !== "production") return readDataset();
+  return datasetPromise ??= readDataset().catch((error: unknown) => {
+    datasetPromise = undefined;
+    throw error;
+  });
+});
+
+async function readDataset(): Promise<Dataset> {
   const geo = await readJson<GeoIndex>("generated", "geo-index.json");
   const ds: Dataset = { countries: [], admin1: {}, parks: {}, attractions: {}, expeditions: {} };
   const countryDirs = (await fs.readdir(DATA_DIR, { withFileTypes: true }))
@@ -259,7 +268,7 @@ async function loadDataset(): Promise<Dataset> {
   return ds;
 }
 
-export class JsonRepository implements PlaceRepository {
+class DatasetRepository implements PlaceRepository {
   async listCountries() {
     return (await loadDataset()).countries;
   }
@@ -411,6 +420,38 @@ export class JsonRepository implements PlaceRepository {
         return { ...base, count: 0, type: node.type, photo: node.photos[0] };
     }
   }
+}
+
+const datasetRepository = new DatasetRepository();
+
+/** Somente o resultado solicitado entra no resume cache de cada página. */
+async function queryRepository<M extends Exclude<keyof PlaceRepository, "nearbyParks">>(
+  method: M,
+  args: Parameters<PlaceRepository[M]>,
+): Promise<Awaited<ReturnType<PlaceRepository[M]>>> {
+  "use cache";
+  return Reflect.apply(datasetRepository[method], datasetRepository, args);
+}
+
+async function nearbyParkSummaries(parkPath: string[], limit: number): Promise<PlaceSummary[]> {
+  "use cache";
+  const park = await datasetRepository.getNode(parkPath);
+  return park?.level === "park" ? datasetRepository.nearbyParks(park, limit) : [];
+}
+
+/** Fachada cacheada: as chamadas internas não gravam a coleção inteira por rota. */
+export class JsonRepository implements PlaceRepository {
+  listCountries() { return queryRepository("listCountries", []); }
+  listAdmin1(country: string) { return queryRepository("listAdmin1", [country]); }
+  listParks(country: string, admin1?: string) { return queryRepository("listParks", [country, admin1]); }
+  listAttractions(country: string, park: string) { return queryRepository("listAttractions", [country, park]); }
+  getExpedition(country: string, park: string) { return queryRepository("getExpedition", [country, park]); }
+  getNode(p: string[]) { return queryRepository("getNode", [p]); }
+  getChildren(p: string[]) { return queryRepository("getChildren", [p]); }
+  getTrail(p: string[]) { return queryRepository("getTrail", [p]); }
+  nearbyParks(park: Park, limit: number) { return nearbyParkSummaries(park.path, limit); }
+  getMapIndex(country: string) { return queryRepository("getMapIndex", [country]); }
+  listAllPaths() { return queryRepository("listAllPaths", []); }
 }
 
 /**

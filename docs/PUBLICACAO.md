@@ -70,7 +70,7 @@ selo de Brasil) e, se quiser proteger a marca, `raizatlas.app` apontando para el
 ## 4. Passo a passo do primeiro deploy
 
 1. Criar o repositório (GitHub) e enviar o projeto (a pasta `.geo-cache` e `node_modules` não vão).
-2. Vercel → **Add New → Project** → importar. Framework: Next.js (detectado). Node 20 ou superior.
+2. Vercel → **Add New → Project** → importar. Framework: Next.js (detectado). Node **24.x**, fixado em `package.json` e no lockfile para evitar atualizações automáticas de versão principal.
 3. Variáveis de ambiente: `NEXT_PUBLIC_SITE_URL` (obrigatória). `RAIZ_PREVIEW_DRAFTS=1` **só** no
    ambiente de revisão.
 4. Primeiro deploy → conferir `/`, um parque (`/br/go/chapada-dos-veadeiros`), `/robots.txt` e
