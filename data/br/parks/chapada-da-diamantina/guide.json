@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "Serras de rocha com 1,6 bilhão de anos, onde um rio despenca mais de 340 metros e vira névoa no ar.",
   "intro": "No centro da Bahia, o Parque Nacional da Chapada Diamantina protege 152 mil hectares da Serra do Sincorá, o braço norte da Serra do Espinhaço. Num mesmo território se encontram Caatinga, Cerrado e Mata Atlântica, com cerca de 300 km de trilhas, 33 cachoeiras e antigos caminhos de garimpeiros.",
   "sourceIds": [
@@ -80,10 +80,10 @@
     },
     {
       "title": "Marimbus",
-      "text": "Vários rios se espalham numa planície alagada, coberta de plantas aquáticas. É o pantanal da Chapada, percorrido de caiaque e canoa.",
+      "text": "No entorno do parque, a leste, o Pantanal dos Marimbus fica na APA Marimbus-Iraquara. Rios se espalham por uma planície alagada, com plantas aquáticas e passeios de canoa e caiaque.",
       "sourceIds": [
         "icmbio-visitacao",
-        "pm"
+        "marimbus-estudo"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vista_do_barco_no_Pantanal_do_Marimbus_na_Chapada_Diamantina%2C_Bahia%2C_Brasil.jpg/1920px-Vista_do_barco_no_Pantanal_do_Marimbus_na_Chapada_Diamantina%2C_Bahia%2C_Brasil.jpg",
@@ -94,7 +94,7 @@
         "width": 1920,
         "height": 1440,
         "alt": "Lagoa do Marimbus vista de um barco",
-        "context": "O Marimbus, planície alagada conhecida como o pantanal da Chapada Diamantina."
+        "context": "Pantanal dos Marimbus, na APA Marimbus-Iraquara, no entorno do Parque Nacional da Chapada Diamantina."
       }
     },
     {
@@ -324,6 +324,13 @@
       "title": "Registro de Vellozia sincorana (nome aceito, origem, distribuição)",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Vellozia%20sincorana",
       "accessed": "2026-10-29"
+    },
+    {
+      "id": "marimbus-estudo",
+      "institution": "Engenharia Sanitária e Ambiental / SciELO",
+      "title": "Avaliação dos níveis de metais pesados no pantanal dos Marimbus, Bahia, Brasil",
+      "url": "https://www.scielo.br/j/esa/a/kxzpttJyLbwSwT3ynjR74Jr/?format=html",
+      "accessed": "2026-10-30"
     }
   ]
 }

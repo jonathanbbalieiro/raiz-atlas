@@ -11,15 +11,15 @@
   "keyFacts": [
     {
       "label": "altitude do Pico da Neblina (Yaripo)",
-      "value": "2.995,30 m",
-      "sourceId": "pm",
-      "locator": "p. 18"
+      "value": "2.995,3 m",
+      "sourceId": "ibge-altitudes-2024",
+      "locator": "tabela 1.3.2.2"
     },
     {
       "label": "altitude do Pico 31 de Março, a menos de 1 km do Neblina",
-      "value": "2.972,66 m",
-      "sourceId": "pm",
-      "locator": "p. 18"
+      "value": "2.974,2 m",
+      "sourceId": "ibge-altitudes-2024",
+      "locator": "tabela 1.3.2.2"
     },
     {
       "label": "de área do parque",
@@ -86,12 +86,13 @@
       "title": "O ponto mais alto do Brasil",
       "question": "O que é, geologicamente, a montanha mais alta do país?",
       "paragraphs": [
-        "Os dois pontos mais altos do Brasil ficam no parque, na mesma montanha: o Pico da Neblina, com 2.995,30 metros e cerca de 200 m² de área no topo, e o Pico 31 de Março, a menos de um quilômetro dele, com 2.972,66 metros.",
+        "Os dois pontos mais altos do Brasil ficam no parque, na mesma montanha: o Pico da Neblina, com 2.995,3 metros e cerca de 200 m² de área no topo, e o Pico 31 de Março, a menos de um quilômetro dele, com 2.974,2 metros.",
         "O Pico da Neblina é um belíssimo hogback esculpido em rochas sedimentares do Supergrupo Roraima, na porção mais alta da Serra do Imeri.",
         "Para os Yanomami, o Yaripo é um lugar sagrado. O parque também guarda nascentes que alimentam parte das águas do rio Negro."
       ],
       "sourceIds": [
-        "pm"
+        "pm",
+        "ibge-altitudes-2024"
       ],
       "citations": [
         {
@@ -105,6 +106,10 @@
         {
           "sourceId": "pm",
           "locator": "p. 21"
+        },
+        {
+          "sourceId": "ibge-altitudes-2024",
+          "locator": "tabela 1.3.2.2"
         }
       ],
       "images": [
@@ -211,13 +216,14 @@
       "question": "Como o turismo no Yaripo foi discutido?",
       "paragraphs": [
         "A notícia de jazidas minerais, vinda do projeto RADAM, desencadeou uma invasão garimpeira que, a partir de 1987, virou corrida do ouro. A zona ao redor do Pico da Neblina foi muito afetada, e há áreas de garimpo no Morro dos Seis Lagos e nos rios Cauaburis, Tukano e Marauiá.",
-        "Em 2003, o Ministério Público Federal recomendou suspender a visitação ao parque e elaborar o plano de manejo. Segundo o plano de visitação, de 2017, o Yaripo está fechado a atividades turísticas desde então.",
+        "A visitação foi suspensa em 2003 por recomendação do Ministério Público Federal. Em março de 2022, foi retomada pelo Projeto Yaripo, após a aprovação do plano de visitação, a anuência da Funai e o credenciamento das operadoras, em parceria com os Yanomami.",
         "A partir de 2013, os Yanomami fizeram capacitações em turismo. Em 2014, durante a Reahu, o povo construiu a própria visão sobre o turismo. Em 2015, foi criada a Associação das Mulheres Yanomami Kumirayoma. O Plano de Visitação Yaripo, elaborado pelos próprios Yanomami, foi aprovado pela Portaria ICMBio nº 458/2018.",
         "O plano descreve uma travessia de 8 dias, com altitudes de 95 a 2.995 metros, e propõe o ecoturismo conduzido pelos Yanomami como alternativa ao garimpo."
       ],
       "sourceIds": [
         "pm",
-        "pv"
+        "pv",
+        "yaripo-2026"
       ],
       "citations": [
         {
@@ -247,6 +253,10 @@
         {
           "sourceId": "pv",
           "locator": "p. 19"
+        },
+        {
+          "sourceId": "yaripo-2026",
+          "locator": "item 1.5.2"
         }
       ],
       "images": []
@@ -256,7 +266,7 @@
     "type": "timeline",
     "momentId": "visitacao",
     "title": "Marcos do parque e da visitação",
-    "intro": "Datas do plano de manejo e do plano de visitação.",
+    "intro": "Da criação do parque à retomada da visitação conduzida com os Yanomami.",
     "items": [
       {
         "id": "1979",
@@ -312,6 +322,15 @@
         "sourceIds": [
           "pm"
         ]
+      },
+      {
+        "id": "2022",
+        "year": "mar. 2022",
+        "title": "Retomada da visitação",
+        "description": "Em março, a visitação é retomada pelo Projeto Yaripo, em parceria com os Yanomami e com operadoras credenciadas.",
+        "sourceIds": [
+          "yaripo-2026"
+        ]
       }
     ]
   },
@@ -333,11 +352,27 @@
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-pico-da-neblina/arquivos/plano_de_visitacao_parna_pico_da_neblina.pdf",
       "accessedAt": "2026-10-22",
       "use": "travessia, fechamento desde 2003 e ecoturismo como alternativa ao garimpo"
+    },
+    {
+      "id": "ibge-altitudes-2024",
+      "institution": "IBGE",
+      "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
+      "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
+      "accessedAt": "2026-10-30",
+      "use": "altitudes dos pontos culminantes segundo a tabela de 2024"
+    },
+    {
+      "id": "yaripo-2026",
+      "institution": "ICMBio",
+      "title": "Edital de credenciamento de operação turística no Pico da Neblina (2026)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2026/copy_of_SEI_023144826_Edital_de_Credenciamento.pdf",
+      "accessedAt": "2026-10-30",
+      "use": "item 1.5.2: suspensão em 2003 e reabertura em março de 2022"
     }
   ],
   "approved": true,
   "status": "aprovado",
   "lastVerifiedAt": "2026-10-22",
   "photoStatus": "curadoria_parcial",
-  "editorialNotes": "Pendência: conferir com o ICMBio a situação atual da visitação ao Yaripo."
+  "editorialNotes": "Revisão de 30/10/2026: retomada em março de 2022 confirmada no edital ICMBio de 2026, item 1.5.2. Condições e disponibilidade de cada viagem dependem do Projeto Yaripo e das operadoras credenciadas."
 }

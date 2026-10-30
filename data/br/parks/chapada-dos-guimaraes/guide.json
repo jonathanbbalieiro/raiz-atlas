@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "Na borda do planalto, paredões de arenito vermelho guardam rochas de antigos desertos e mares, e a água que corre para o Pantanal.",
   "intro": "Entre Cuiabá e Chapada dos Guimarães, em Mato Grosso, o parque nacional protege cerca de 32,6 mil hectares de Cerrado nas escarpas do Planalto dos Guimarães. Criado em 1989, guarda nascentes de rios formadores do Pantanal, dez tipos de vegetação, sítios arqueológicos e a Cachoeira Véu de Noiva, seu cartão-postal.",
   "sourceIds": [
@@ -171,10 +171,11 @@
         "ameacada_com_acao",
         "habitat_critico"
       ],
-      "why": "Canídeo do Cerrado listado como vulnerável entre as espécies protegidas pelo parque, que reúne dez tipos de vegetação de Cerrado. Foi flagrado em 2026 pelas câmeras do projeto do Instituto Impacto com o ICMBio.",
+      "why": "Canídeo do Cerrado vulnerável na avaliação nacional do ICMBio e protegido pelo parque, que reúne dez tipos de vegetação de Cerrado. Foi flagrado em 2026 pelas câmeras do projeto do Instituto Impacto com o ICMBio.",
       "sourceIds": [
         "fl-e52ac2c1",
-        "fl-24e77100"
+        "fl-24e77100",
+        "icmbio-monitora-2025"
       ]
     },
     {
@@ -235,6 +236,13 @@
       "title": "Câmeras captam onças, casal de jaguatiricas e lobo-guará em MT",
       "url": "https://revistacenarium.com.br/cameras-captam-oncas-casal-de-jaguatiricas-e-lobo-guara-em-mt/",
       "accessed": "2026-10-29"
+    },
+    {
+      "id": "icmbio-monitora-2025",
+      "institution": "ICMBio / Biodiversidade Brasileira",
+      "title": "Programa Monitora: espécies com potencial de amostragem e categorias da avaliação nacional (2025), Apêndice 1",
+      "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/download/2529/1843?inline=1",
+      "accessed": "2026-10-30"
     }
   ]
 }

@@ -32,6 +32,14 @@ licença atual, resposta HTTP ou localização: isso continua exigindo revisão 
 
 ## Critérios de aceitação de novas imagens
 
+Decisão de 30/10/2026: por instrução explícita do responsável, imagens enviadas
+manualmente podem ser incorporadas com a licença de reutilização ainda não confirmada.
+Nesses casos, registrar `license: "Licença de reutilização não confirmada"`, preservar
+os créditos conhecidos, apontar `licenseUrl` para a fonte e registrar a condição na
+auditoria. Isso não transforma a imagem em conteúdo de licença livre. Arquivos locais
+ficam em `public/media/species/`, sem recorte ou alteração do original. Identificação
+da espécie e distinção entre foto, ilustração e exemplar de coleção continuam obrigatórias.
+
 1. Abra a página original e confira o organismo ou o local descrito. Nome do
    arquivo, categoria e resultado de busca são pistas, não provas suficientes.
 2. Para paisagens, compare o relevo e os elementos visíveis com uma fonte do

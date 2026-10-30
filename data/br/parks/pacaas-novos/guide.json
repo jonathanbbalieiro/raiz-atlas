@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "A caixa d'água de Rondônia: paredões de arenito, cachoeiras e o ponto mais alto do estado.",
   "intro": "No centro de Rondônia, o Parque Nacional de Pacaás Novos, criado pelo Decreto 84.019, de 21 de setembro de 1979, protege cerca de 708 mil hectares na transição entre a Amazônia e o Cerrado. Sobreposto à Terra Indígena Uru-Eu-Wau-Wau, guarda as nascentes dos rios de cinco grandes bacias do estado.",
   "sourceIds": [
@@ -66,7 +66,17 @@
       "sourceIds": [
         "pm"
       ],
-      "photo": null
+      "photo": {
+        "src": "/media/parks/pico-tracoa.jpg",
+        "alt": "Pico do Tracoá erguendo-se sobre a floresta dos Pacaás Novos",
+        "author": "R. Machado",
+        "license": "Licença de reutilização não confirmada",
+        "licenseUrl": "https://www.gentedeopiniao.com.br/meio-ambiente/o-misterioso-e-exotico-pico-do-tracua",
+        "sourceUrl": "https://www.gentedeopiniao.com.br/meio-ambiente/o-misterioso-e-exotico-pico-do-tracua",
+        "width": 1000,
+        "height": 635,
+        "context": "Pico do Tracoá, chamado Tracuá na reportagem Gente de Opinião. A matéria identifica sua localização no Parque Nacional de Pacaás Novos e credita as fotografias a R. Machado. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+      }
     },
     {
       "title": "Cachoeiras do rio Pacaás Novos",

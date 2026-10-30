@@ -1,22 +1,24 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
-  "hook": "Mais de 820 mil hectares de Caatinga, com grutas de arenito que abrem janelas para o céu.",
-  "intro": "No sul do Piauí, o Parque Nacional da Serra das Confusões protege cerca de 824 mil hectares de Caatinga em contato com o Cerrado. Entre serras, platôs e cânions, há grutas, fendas enormes e sítios arqueológicos ainda pouco estudados.",
+  "updatedAt": "2026-10-30",
+  "hook": "Mais de 900 mil hectares de Caatinga, com grutas de arenito que abrem janelas para o céu.",
+  "intro": "No sul do Piauí, o Parque Nacional da Serra das Confusões protege mais de 900 mil hectares de Caatinga em contato com o Cerrado. Entre serras, platôs e cânions, há grutas, fendas enormes e sítios arqueológicos ainda pouco estudados.",
   "sourceIds": [
     "icmbio",
-    "pm"
+    "pm",
+    "ampliacao-2026"
   ],
   "protects": {
     "summary": "Um imenso bloco de Caatinga, com brejos úmidos e cavernas",
     "items": [
       {
         "title": "Caatinga em escala gigante",
-        "text": "Depois da ampliação de 2010, o parque chegou a cerca de 824 mil hectares, área várias vezes maior que a da vizinha Serra da Capivara.",
+        "text": "Ampliado em 2010 e novamente em 2026, o parque protege mais de 900 mil hectares. A expansão de 2026 incorporou 92.243 hectares para preservar a Serra Vermelha.",
         "sourceIds": [
           "icmbio",
-          "capivara-visitacao"
+          "capivara-visitacao",
+          "ampliacao-2026"
         ]
       },
       {
@@ -147,6 +149,13 @@
       "text": "Um decreto de 30 de dezembro amplia o parque, que passa a ter cerca de 824 mil hectares.",
       "sourceIds": [
         "icmbio"
+      ]
+    },
+    {
+      "title": "2026 · A Serra Vermelha",
+      "text": "O Decreto nº 13.017, de 10 de junho, acrescenta 92.243 hectares ao parque para proteger a Serra Vermelha.",
+      "sourceIds": [
+        "ampliacao-2026"
       ]
     }
   ],
@@ -304,6 +313,13 @@
       "title": "Conheça o Parque Nacional Serra das Confusões",
       "url": "https://portalsustentabilidade.com/2022/10/28/conheca-o-parque-nacional-serra-das-confusoes/",
       "accessed": "2026-10-29"
+    },
+    {
+      "id": "ampliacao-2026",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 13.017, de 10 de junho de 2026 — ampliação do Parque Nacional da Serra das Confusões",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13017.htm",
+      "accessed": "2026-10-30"
     }
   ]
 }

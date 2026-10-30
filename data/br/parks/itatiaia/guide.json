@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
-  "hook": "O primeiro parque nacional do Brasil vai da Mata Atlântica a 600 metros até as rochas das Agulhas Negras, a 2.791.",
+  "updatedAt": "2026-10-30",
+  "hook": "O primeiro parque nacional do Brasil vai da Mata Atlântica a 600 metros até as rochas das Agulhas Negras, a 2.791,1.",
   "intro": "Na Serra da Mantiqueira, entre Rio de Janeiro e Minas Gerais, o Parque Nacional do Itatiaia protege 28 mil hectares de Mata Atlântica, campos de altitude e nascentes. Criado em 1937, foi o primeiro parque nacional do país. Tem duas faces: a parte baixa, de mata e cachoeiras, e a parte alta, de picos e pedras.",
   "sourceIds": [
     "icmbio",
     "icmbio-alta",
-    "icmbio-baixa"
+    "icmbio-baixa",
+    "ibge-altitudes-2024"
   ],
   "protects": {
     "summary": "Uma montanha inteira, da floresta aos campos de altitude",
@@ -38,10 +39,11 @@
   "wonders": [
     {
       "title": "Pico das Agulhas Negras",
-      "text": "Com 2.791 metros, é o ponto culminante do parque e, segundo o ICMBio, o quinto mais alto do Brasil. Atrai montanhistas e pesquisadores.",
+      "text": "Com 2.791,1 metros, é o ponto culminante do parque e, segundo o ICMBio, o quinto mais alto do Brasil. Atrai montanhistas e pesquisadores.",
       "sourceIds": [
         "icmbio-alta",
-        "icmbio"
+        "icmbio",
+        "ibge-altitudes-2024"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Parque_Nacional_do_Itatiaia_-_parte_alta_-_pico_Agulhas_Negras_-_Marcio_Metello_%2804%29.jpg/1920px-Parque_Nacional_do_Itatiaia_-_parte_alta_-_pico_Agulhas_Negras_-_Marcio_Metello_%2804%29.jpg",
@@ -306,6 +308,13 @@
       "title": "Análise do padrão de distribuição da flora vascular dos campos de altitude do Maciço do Itatiaia, RJ/MG (Alves, 2015)",
       "url": "https://geopuc.emnuvens.com.br/revista/article/download/144/131/284",
       "accessed": "2026-10-29"
+    },
+    {
+      "id": "ibge-altitudes-2024",
+      "institution": "IBGE",
+      "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
+      "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
+      "accessed": "2026-10-30"
     }
   ]
 }

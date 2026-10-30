@@ -27,13 +27,14 @@
       "question": "Por que as montanhas do Itatiaia parecem tão diferentes das serras ao redor?",
       "paragraphs": [
         "O maciço do Itatiaia não é feito do granito comum. Ele faz parte de um maciço alcalino, e nas áreas mais externas, de altitudes menores, as rochas são classificadas como nefelina-sienitos. É uma pedra de composição incomum, e é ela que sustenta as formas que tornaram o parque famoso.",
-        "No planalto, acima de 2.250 metros, ficam os principais picos: o Pico das Agulhas Negras, com 2.791 metros, as Prateleiras, a Pedra do Altar e outros. Quase tudo é rocha exposta e campo de altitude, num cenário que contrasta com o verde da parte baixa.",
+        "No planalto, acima de 2.250 metros, ficam os principais picos: o Pico das Agulhas Negras, com 2.791,1 metros, as Prateleiras, a Pedra do Altar e outros. Quase tudo é rocha exposta e campo de altitude, num cenário que contrasta com o verde da parte baixa.",
         "Lá embaixo, a serra aparece de outro jeito: em água, com cachoeiras como o Véu de Noiva, entre as mais visitadas do parque."
       ],
       "sourceIds": [
         "pm2",
         "icmbio-alta",
-        "icmbio-baixa"
+        "icmbio-baixa",
+        "ibge-altitudes-2024"
       ],
       "images": [
         {
@@ -71,6 +72,10 @@
         {
           "sourceId": "icmbio-baixa",
           "locator": "página oficial"
+        },
+        {
+          "sourceId": "ibge-altitudes-2024",
+          "locator": "tabela 1.3.2.2"
         }
       ]
     },
@@ -234,6 +239,14 @@
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIFParnadoItatiaia_compressed.pdf",
       "accessedAt": "2026-10-22",
       "use": "geadas e temperaturas abaixo de zero na parte alta"
+    },
+    {
+      "id": "ibge-altitudes-2024",
+      "institution": "IBGE",
+      "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
+      "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
+      "accessedAt": "2026-10-30",
+      "use": "altitudes dos pontos culminantes segundo a tabela de 2024"
     }
   ],
   "approved": true,
@@ -244,9 +257,9 @@
   "keyFacts": [
     {
       "label": "metros de altitude do Pico das Agulhas Negras, ponto mais alto do parque",
-      "value": "2.791",
-      "sourceId": "pm2",
-      "locator": "p. 12"
+      "value": "2.791,1",
+      "sourceId": "ibge-altitudes-2024",
+      "locator": "tabela 1.3.2.2"
     },
     {
       "label": "hectares do parque hoje",

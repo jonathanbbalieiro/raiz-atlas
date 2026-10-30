@@ -6,13 +6,14 @@
   "centralQuestion": "Como um chão de areia, plano e pobre em nutrientes, sustenta tanta vida?",
   "introduction": [
     "O Viruá é uma Amazônia diferente. Em vez da mata alta e fechada, estende-se uma planície de areia clara, com árvores baixas e espaçadas, lagos que aparecem e somem e rios de água escura. O chão é pobre; a diversidade, não.",
-    "Nessa paisagem foi registrado o maior número de aves vistas em um só dia no país, 225 espécies, e a maior riqueza de peixes de água doce de uma unidade de conservação brasileira, cerca de 500. O parque tem pouco mais de 214 mil hectares e fica na beira da BR-174."
+    "Nessa paisagem foi registrado o maior número de aves vistas em um só dia no país, 225 espécies, e a maior riqueza de peixes de água doce de uma unidade de conservação brasileira, cerca de 500. Após a ampliação de 2023, o parque protege cerca de 281 mil hectares e fica na beira da BR-174."
   ],
   "keyFacts": [
     {
-      "label": "hectares protegidos, em Caracaraí (RR), criados em 1998",
-      "value": "214.951",
-      "sourceId": "icmbio"
+      "label": "hectares protegidos, aproximadamente, após a ampliação de 2023",
+      "value": "281 mil",
+      "sourceId": "ampliacao-2023",
+      "locator": "art. 2º, § 1º"
     },
     {
       "label": "espécies de aves registradas em um único dia, recorde nacional",
@@ -186,12 +187,14 @@
       "paragraphs": [
         "O Parque Nacional do Viruá foi criado por decreto de 29 de abril de 1998, em cumprimento a um acordo no âmbito da Convenção sobre Diversidade Biológica, que fixou a meta de proteger dez por cento do território nacional em unidades de proteção integral. Junto com o Parque Nacional da Serra da Mocidade, buscou proteger amostras dos ecossistemas do centro-sul de Roraima, onde predominam as campinaranas.",
         "Seus limites foram desenhados em terras da União, destinadas pelo Incra à proteção por causa da total inaptidão dos solos para assentamento humano. O nome vem do rio Iruá, grafado Viruá em cartas oficiais por um erro de levantamento.",
-        "O parque foi reconhecido como sítio Ramsar, de áreas úmidas de importância internacional, em 22 de março de 2017. O plano de manejo foi aprovado em 2014."
+        "O parque foi reconhecido como sítio Ramsar, de áreas úmidas de importância internacional, em 22 de março de 2017. O plano de manejo foi aprovado em 2014.",
+        "Em 5 de setembro, o Decreto nº 11.683 amplia o parque, que passa a proteger cerca de 281 mil hectares."
       ],
       "sourceIds": [
         "diag",
         "icmbio",
-        "visita"
+        "visita",
+        "ampliacao-2023"
       ],
       "citations": [
         {
@@ -205,6 +208,10 @@
         {
           "sourceId": "visita",
           "locator": "Ramsar"
+        },
+        {
+          "sourceId": "ampliacao-2023",
+          "locator": "arts. 1º e 2º"
         }
       ],
       "images": []
@@ -273,6 +280,15 @@
         "sourceIds": [
           "visita"
         ]
+      },
+      {
+        "id": "2023",
+        "year": "5 set. 2023",
+        "title": "Ampliação do parque",
+        "description": "Em 5 de setembro, o Decreto nº 11.683 amplia o parque, que passa a proteger cerca de 281 mil hectares.",
+        "sourceIds": [
+          "ampliacao-2023"
+        ]
       }
     ]
   },
@@ -310,11 +326,19 @@
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-virua/informacoes-sobre-visitacao-2013-parna-do-virua",
       "accessedAt": "2026-10-23",
       "use": "acesso, trilhas, aves de campinarana, regras e título Ramsar"
+    },
+    {
+      "id": "ampliacao-2023",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 11.683, de 5 de setembro de 2023 — ampliação do Parque Nacional do Viruá",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11683.htm",
+      "accessedAt": "2026-10-30",
+      "use": "ampliação e perímetro descrito no art. 2º, § 1º, com cerca de 281 mil hectares"
     }
   ],
   "approved": true,
   "status": "aprovado",
   "lastVerifiedAt": "2026-10-23",
   "photoStatus": "curadoria_parcial",
-  "editorialNotes": "Pendências: área do plano/Ramsar (216.427 ha) difere do ICMBio (214.950,52 ha), adotada a do ICMBio; texto do diagnóstico com extração ruidosa em algumas páginas, conferir números (p. 31, 125, 129) no PDF; sem fotos fortes (só uma foto de 1.280 px, sem capa); conferir se o plano de 2014 tem atualização; revisão humana."
+  "editorialNotes": "Área editorial atualizada em 30/10/2026 para cerca de 281 mil hectares, considerando a ampliação de 2023. Números do diagnóstico de 2014 e do reconhecimento Ramsar têm recortes históricos; não representam necessariamente o território ampliado. Permanecem pendentes de leitura visual os números das páginas 31, 125 e 129 do diagnóstico."
 }

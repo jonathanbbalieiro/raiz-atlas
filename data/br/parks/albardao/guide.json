@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "Um milhão de hectares de mar no extremo sul do Brasil, refúgio de toninhas, tartarugas marinhas e aves pelágicas.",
   "intro": "No extremo sul do litoral gaúcho, o Parque Nacional do Albardão protege cerca de 1 milhão de hectares de costa e plataforma continental. Criado pelo decreto de 6 de março de 2026, inclui a coluna d'água, o fundo do mar e o subsolo. Guarda áreas de reprodução e alimentação de espécies ameaçadas e sítios paleontológicos na praia.",
   "sourceIds": [
@@ -49,7 +49,17 @@
         "proposta",
         "decreto"
       ],
-      "photo": null
+      "photo": {
+        "src": "/media/parks/concheiros-albardao.jpg",
+        "alt": "Depósito de conchas na praia do Parque Nacional do Albardão",
+        "author": "Leandro Cagiano",
+        "license": "Licença de reutilização não confirmada",
+        "licenseUrl": "https://brasil.mongabay.com/2026/03/albardao-como-e-o-mais-novo-e-maior-parque-nacional-marinho-do-brasil/",
+        "sourceUrl": "https://imgs.mongabay.com/wp-content/uploads/sites/29/2026/03/11160913/Concheiros.-Deposito-de-fosseis-1200x800.jpg",
+        "width": 1200,
+        "height": 800,
+        "context": "Depósito de conchas no Parque Nacional do Albardão, identificado e creditado a Leandro Cagiano na reportagem da Mongabay. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+      }
     },
     {
       "title": "Mar aberto do extremo sul",

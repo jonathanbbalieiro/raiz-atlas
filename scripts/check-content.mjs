@@ -17,6 +17,11 @@ const THREAT_WORDS = [[/criticamente (em perigo|ameaçad)/i, "CR"], [/\bem perig
 const THREAT_SCOPE = /lista nacional|lista estadual|\bMMA\b|plano de manejo|ICMBio|\bno (Brasil|Rio Grande do Sul|Paraná|estado)\b|\bna (Bahia|Paraíba)\b/i;
 /** Wikimedia Commons: Special:FilePath redireciona a foto original para o CDN de arquivos. */
 const isAllowedPhotoUrl = (src) => {
+  // Arquivos incorporados manualmente: apenas nomes simples e arquivos existentes.
+  if (/^\/media\/(?:species|parks)\/[a-z0-9-]+\.(?:jpe?g|png|webp)$/.test(src)) {
+    const file = path.join(process.cwd(), "public", src.slice(1));
+    return fs.existsSync(file) && fs.statSync(file).isFile();
+  }
   try {
     const url = new URL(src);
     if (url.protocol !== "https:") return false;

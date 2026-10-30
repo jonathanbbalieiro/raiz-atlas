@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
-  "hook": "Gente sobe o Pico da Bandeira de madrugada, no frio de julho, só para ver o sol nascer a 2.892 metros.",
+  "updatedAt": "2026-10-30",
+  "hook": "Gente sobe o Pico da Bandeira de madrugada, no frio de julho, só para ver o sol nascer a 2.891,4 metros.",
   "intro": "Na divisa entre Espírito Santo e Minas Gerais, o Parque Nacional do Caparaó foi criado em 1961 para proteger o Pico da Bandeira, terceiro ponto mais alto do Brasil. Em volta dele há picos de mais de 2.700 metros, campos de altitude, brejos, lagoas que congelam no inverno e florestas de Mata Atlântica nas encostas.",
   "sourceIds": [
     "icmbio-quem",
     "icmbio-historia",
-    "icmbio-bandeira"
+    "icmbio-bandeira",
+    "ibge-altitudes-2024"
   ],
   "protects": {
     "summary": "Os picos mais altos do Sudeste e seus campos de altitude",
@@ -40,9 +41,10 @@
   "wonders": [
     {
       "title": "Pico da Bandeira",
-      "text": "Com 2.892 metros, é o principal atrativo do parque. Do cume se avistam o Pico do Cristal, a Pedra Menina, o Pico do Calçado e cidades ao longe.",
+      "text": "Com 2.891,4 metros, é o principal atrativo do parque. Do cume se avistam o Pico do Cristal, a Pedra Menina, o Pico do Calçado e cidades ao longe.",
       "sourceIds": [
-        "icmbio-bandeira"
+        "icmbio-bandeira",
+        "ibge-altitudes-2024"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Parque_Nacional_do_Capara%C3%B3_por_Eltuir_Umbelina_09.jpg/1920px-Parque_Nacional_do_Capara%C3%B3_por_Eltuir_Umbelina_09.jpg",
@@ -58,9 +60,10 @@
     },
     {
       "title": "Pico do Cristal",
-      "text": "Tem 2.770 metros e leva o nome da abundância de quartzo. No caminho ficam as Três Lagoas, que formam lâminas de gelo nos dias mais frios.",
+      "text": "Tem 2.769,1 metros e leva o nome da abundância de quartzo. No caminho ficam as Três Lagoas, que formam lâminas de gelo nos dias mais frios.",
       "sourceIds": [
-        "icmbio-cristal"
+        "icmbio-cristal",
+        "ibge-altitudes-2024"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pico_da_Bandeira_2.jpg/1920px-Pico_da_Bandeira_2.jpg",
@@ -334,6 +337,13 @@
       "title": "Flora e Funga do Brasil: Gaylussacia caparoensis Sleumer",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Gaylussacia_caparoensis",
       "accessed": "2026-10-29"
+    },
+    {
+      "id": "ibge-altitudes-2024",
+      "institution": "IBGE",
+      "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
+      "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
+      "accessed": "2026-10-30"
     }
   ]
 }

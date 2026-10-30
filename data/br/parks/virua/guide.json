@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "Um pantanal no norte da Amazônia, com cerca de 500 espécies de peixes de água doce registradas.",
-  "intro": "Em Caracaraí, no centro-sul de Roraima, o Parque Nacional do Viruá protege cerca de 215 mil hectares de campinaranas, florestas e áreas alagáveis do Pantanal Setentrional. Na beira da BR-174, é uma das unidades de acesso mais fácil da Amazônia.",
+  "intro": "Em Caracaraí, no centro-sul de Roraima, o Parque Nacional do Viruá protege cerca de 281 mil hectares de campinaranas, florestas e áreas alagáveis do Pantanal Setentrional. Na beira da BR-174, é uma das unidades de acesso mais fácil da Amazônia.",
   "sourceIds": [
     "icmbio",
     "visita",
-    "diag"
+    "diag",
+    "ampliacao-2023"
   ],
   "protects": {
     "summary": "Campinaranas, rios de água preta e um recorde de peixes",
@@ -159,6 +160,13 @@
       "sourceIds": [
         "visita"
       ]
+    },
+    {
+      "title": "2023 · Ampliação do parque",
+      "text": "Em 5 de setembro, o Decreto nº 11.683 amplia o parque, que passa a proteger cerca de 281 mil hectares.",
+      "sourceIds": [
+        "ampliacao-2023"
+      ]
     }
   ],
   "flagships": [
@@ -271,6 +279,13 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "ampliacao-2023",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 11.683, de 5 de setembro de 2023 — ampliação do Parque Nacional do Viruá",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11683.htm",
+      "accessed": "2026-10-30"
     }
   ]
 }

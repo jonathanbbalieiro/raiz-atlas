@@ -1,0 +1,1116 @@
+{
+  "totals": {
+    "parks": 77,
+    "galleriesWithoutPhotos": 8,
+    "galleriesBelowThree": 16,
+    "wonders": 232,
+    "wondersWithoutPhotos": 53,
+    "flagshipReferences": 325,
+    "flagshipReferencesWithoutProfiles": 96,
+    "uniqueFlagshipsWithoutProfiles": 84
+  },
+  "parks": [
+    {
+      "slug": "cavernas-do-peruacu",
+      "name": "Parque Nacional Cavernas do Peruaçu",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [
+        "Gruta do Rezar"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Trichomycterus itacarambiensis",
+        "Phylloscartes roquettei",
+        "Campylopterus calcirupicola"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "amazonia",
+      "name": "Parque Nacional da Amazônia",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [
+        "Trilhas na floresta"
+      ],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Bertholletia excelsa"
+      ],
+      "weakPhotoReferences": 2
+    },
+    {
+      "slug": "chapada-da-diamantina",
+      "name": "Parque Nacional da Chapada da Diamantina",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [
+        "Vellozia sincorana"
+      ],
+      "profilesMissing": [
+        "Cattleya sincorana",
+        "Vellozia sincorana"
+      ],
+      "weakPhotoReferences": 11
+    },
+    {
+      "slug": "chapada-das-mesas",
+      "name": "Parque Nacional da Chapada das Mesas",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 10
+    },
+    {
+      "slug": "chapada-dos-guimaraes",
+      "name": "Parque Nacional da Chapada dos Guimarães",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 6
+    },
+    {
+      "slug": "chapada-dos-veadeiros",
+      "name": "Parque Nacional da Chapada dos Veadeiros",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Mauritia flexuosa",
+        "Paepalanthus chiquitensis"
+      ],
+      "weakPhotoReferences": 12
+    },
+    {
+      "slug": "furna-feia",
+      "name": "Parque Nacional da Furna Feia",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Phyllostomus discolor"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "lagoa-do-peixe",
+      "name": "Parque Nacional da Lagoa do Peixe",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Calidris canutus"
+      ],
+      "weakPhotoReferences": 11
+    },
+    {
+      "slug": "restinga-de-jurubatiba",
+      "name": "Parque Nacional da Restinga de Jurubatiba",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [
+        "Lagoa de Carapebus",
+        "Lagoa Encantada"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Melocactus violaceus",
+        "Clusia hilariana"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "serra-da-bocaina",
+      "name": "Parque Nacional da Serra da Bocaina",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Callithrix aurita"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "serra-da-bodoquena",
+      "name": "Parque Nacional da Serra da Bodoquena",
+      "gallery": 6,
+      "wonders": 2,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Ancistrus formoso"
+      ],
+      "weakPhotoReferences": 5
+    },
+    {
+      "slug": "serra-da-canastra",
+      "name": "Parque Nacional da Serra da Canastra",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Priodontes maximus"
+      ],
+      "weakPhotoReferences": 11
+    },
+    {
+      "slug": "serra-da-capivara",
+      "name": "Parque Nacional da Serra da Capivara",
+      "gallery": 7,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Tropidurus helenae",
+        "Spondias tuberosa"
+      ],
+      "weakPhotoReferences": 6
+    },
+    {
+      "slug": "serra-das-confusoes",
+      "name": "Parque Nacional da Serra das Confusões",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Mesoclemmys perplexa",
+        "Cereus jamacaru",
+        "Xiphocolaptes falcirostris"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "serra-das-lontras",
+      "name": "Parque Nacional da Serra das Lontras",
+      "gallery": 0,
+      "wonders": 1,
+      "wondersMissing": [
+        "Trilha Peito de Moça"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [
+        "Crossodactylodes septentrionalis"
+      ],
+      "profilesMissing": [
+        "Crossodactylodes septentrionalis",
+        "Callicebus melanochir"
+      ],
+      "weakPhotoReferences": 7
+    },
+    {
+      "slug": "serra-do-cipo",
+      "name": "Parque Nacional da Serra do Cipó",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Vellozia gigantea"
+      ],
+      "weakPhotoReferences": 10
+    },
+    {
+      "slug": "serra-do-divisor",
+      "name": "Parque Nacional da Serra do Divisor",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [
+        "Buraco da Central"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Thamnophilus divisorius"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "serra-do-gandarela",
+      "name": "Parque Nacional da Serra do Gandarela",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [
+        "Cachoeira do Índio"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "serra-do-itajai",
+      "name": "Parque Nacional da Serra do Itajaí",
+      "gallery": 6,
+      "wonders": 2,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Euterpe edulis",
+        "Dicksonia sellowiana"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "serra-do-pardo",
+      "name": "Parque Nacional da Serra do Pardo",
+      "gallery": 3,
+      "wonders": 3,
+      "wondersMissing": [
+        "Serra em ferradura",
+        "Cachoeira do Pardo"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "serra-do-teixeira",
+      "name": "Parque Nacional da Serra do Teixeira",
+      "gallery": 4,
+      "wonders": 1,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [
+        "Bothrops jabrensis"
+      ],
+      "profilesMissing": [],
+      "weakPhotoReferences": 5
+    },
+    {
+      "slug": "serra-dos-orgaos",
+      "name": "Parque Nacional da Serra dos Órgãos",
+      "gallery": 7,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 10
+    },
+    {
+      "slug": "serra-geral",
+      "name": "Parque Nacional da Serra Geral",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [
+        "Corvomeyenia epilithosa"
+      ],
+      "profilesMissing": [
+        "Dicksonia sellowiana",
+        "Corvomeyenia epilithosa"
+      ],
+      "weakPhotoReferences": 12
+    },
+    {
+      "slug": "tijuca",
+      "name": "Parque Nacional da Tijuca",
+      "gallery": 7,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Dasyprocta leporina",
+        "Chelonoidis denticulatus",
+        "Thoropa lutzi"
+      ],
+      "weakPhotoReferences": 13
+    },
+    {
+      "slug": "araucarias",
+      "name": "Parque Nacional das Araucárias",
+      "gallery": 5,
+      "wonders": 2,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Pyrrhura frontalis"
+      ],
+      "weakPhotoReferences": 13
+    },
+    {
+      "slug": "emas",
+      "name": "Parque Nacional das Emas",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Pyrearinus termitilluminans"
+      ],
+      "weakPhotoReferences": 6
+    },
+    {
+      "slug": "nascentes-do-rio-parnaiba",
+      "name": "Parque Nacional das Nascentes do Rio Parnaíba",
+      "gallery": 0,
+      "wonders": 2,
+      "wondersMissing": [
+        "Chapada das Mangabeiras",
+        "Veredas e buritizais"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Mauritia flexuosa"
+      ],
+      "weakPhotoReferences": 6
+    },
+    {
+      "slug": "sempre-vivas",
+      "name": "Parque Nacional das Sempre-Vivas",
+      "gallery": 4,
+      "wonders": 2,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Actinocephalus bongardii",
+        "Uebelmannia pectinifera"
+      ],
+      "weakPhotoReferences": 12
+    },
+    {
+      "slug": "anavilhanas",
+      "name": "Parque Nacional de Anavilhanas",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 18
+    },
+    {
+      "slug": "aparados-da-serra",
+      "name": "Parque Nacional de Aparados da Serra",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Amazona pretrei",
+        "Xanthopsar flavus"
+      ],
+      "weakPhotoReferences": 10
+    },
+    {
+      "slug": "boa-nova",
+      "name": "Parque Nacional de Boa Nova",
+      "gallery": 4,
+      "wonders": 3,
+      "wondersMissing": [
+        "Serra do Timorante",
+        "Lajedos",
+        "Morro do Inglês"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Callithrix kuhlii"
+      ],
+      "weakPhotoReferences": 2
+    },
+    {
+      "slug": "brasilia",
+      "name": "Parque Nacional de Brasília",
+      "gallery": 4,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Mauritia flexuosa",
+        "Caryocar brasiliense"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "caparao",
+      "name": "Parque Nacional de Caparaó",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [
+        "Gaylussacia caparoensis"
+      ],
+      "profilesMissing": [
+        "Gaylussacia caparoensis"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "ilha-grande",
+      "name": "Parque Nacional de Ilha Grande",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 7
+    },
+    {
+      "slug": "itatiaia",
+      "name": "Parque Nacional de Itatiaia",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Fernseea itatiaiae",
+        "Melanophryniscus moreirae",
+        "Clytolaema rubricauda"
+      ],
+      "weakPhotoReferences": 5
+    },
+    {
+      "slug": "jericoacoara",
+      "name": "Parque Nacional de Jericoacoara",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 4
+    },
+    {
+      "slug": "pacaas-novos",
+      "name": "Parque Nacional de Pacaás Novos",
+      "gallery": 2,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Allobates pacaas"
+      ],
+      "weakPhotoReferences": 14
+    },
+    {
+      "slug": "saint-hilaire-lange",
+      "name": "Parque Nacional de Saint-Hilaire/lange",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Brachycephalus izecksohni",
+        "Euterpe edulis"
+      ],
+      "weakPhotoReferences": 3
+    },
+    {
+      "slug": "sao-joaquim",
+      "name": "Parque Nacional de São Joaquim",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Dicksonia sellowiana"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "sete-cidades",
+      "name": "Parque Nacional de Sete Cidades",
+      "gallery": 8,
+      "wonders": 4,
+      "wondersMissing": [
+        "Cachoeira do Riachão"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Bromelia laciniosa"
+      ],
+      "weakPhotoReferences": 7
+    },
+    {
+      "slug": "ubajara",
+      "name": "Parque Nacional de Ubajara",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Sapajus libidinosus",
+        "Hemitriccus mirandae"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "acari",
+      "name": "Parque Nacional do Acari",
+      "gallery": 1,
+      "wonders": 1,
+      "wondersMissing": [],
+      "flagships": 1,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 3
+    },
+    {
+      "slug": "albardao",
+      "name": "Parque Nacional do Albardão",
+      "gallery": 2,
+      "wonders": 2,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Arctocephalus australis",
+        "Eubalaena australis"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "alto-cariri",
+      "name": "Parque Nacional do Alto Cariri",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 4
+    },
+    {
+      "slug": "araguaia",
+      "name": "Parque Nacional do Araguaia",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [
+        "Mata do Mamão"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Inia araguaiaensis"
+      ],
+      "weakPhotoReferences": 5
+    },
+    {
+      "slug": "boqueirao-da-onca",
+      "name": "Parque Nacional do Boqueirão da Onça",
+      "gallery": 0,
+      "wonders": 0,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Syagrus coronata"
+      ],
+      "weakPhotoReferences": 1
+    },
+    {
+      "slug": "cabo-orange",
+      "name": "Parque Nacional do Cabo Orange",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [
+        "Lago Maruani"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 3
+    },
+    {
+      "slug": "catimbau",
+      "name": "Parque Nacional do Catimbau",
+      "gallery": 6,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Scriptosaura catimbau",
+        "Tillandsia catimbauensis"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "descobrimento",
+      "name": "Parque Nacional do Descobrimento",
+      "gallery": 4,
+      "wonders": 3,
+      "wondersMissing": [
+        "Aldeias Pataxó"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "iguacu",
+      "name": "Parque Nacional do Iguaçu",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Aburria jacutinga",
+        "Euterpe edulis",
+        "Cypseloides senex"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "jamanxim",
+      "name": "Parque Nacional do Jamanxim",
+      "gallery": 1,
+      "wonders": 4,
+      "wondersMissing": [
+        "Corredeiras do Portão do Inferno",
+        "Cachoeiras da Fumaça e do Espelho",
+        "Saleiros",
+        "Tabuleiros de quelônios"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 7
+    },
+    {
+      "slug": "jau",
+      "name": "Parque Nacional do Jaú",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Bertholletia excelsa"
+      ],
+      "weakPhotoReferences": 12
+    },
+    {
+      "slug": "juruena",
+      "name": "Parque Nacional do Juruena",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [
+        "Cavernas junto às quedas"
+      ],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Chiropotes albinasus"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "monte-roraima",
+      "name": "Parque Nacional do Monte Roraima",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [
+        "Monte Caburaí"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Bonnetia roraimae",
+        "Heliamphora nutans",
+        "Pipreola whitelyi"
+      ],
+      "weakPhotoReferences": 17
+    },
+    {
+      "slug": "pantanal-mato-grossense",
+      "name": "Parque Nacional do Pantanal Mato-Grossense",
+      "gallery": 5,
+      "wonders": 2,
+      "wondersMissing": [
+        "Baía do Burro"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Priodontes maximus"
+      ],
+      "weakPhotoReferences": 3
+    },
+    {
+      "slug": "pau-brasil",
+      "name": "Parque Nacional do Pau Brasil",
+      "gallery": 2,
+      "wonders": 2,
+      "wondersMissing": [
+        "Floresta de tabuleiro",
+        "Muçunungas"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "pico-da-neblina",
+      "name": "Parque Nacional do Pico da Neblina",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Heliamphora tatei"
+      ],
+      "weakPhotoReferences": 6
+    },
+    {
+      "slug": "rio-novo",
+      "name": "Parque Nacional do Rio Novo",
+      "gallery": 2,
+      "wonders": 0,
+      "wondersMissing": [],
+      "flagships": 0,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 0
+    },
+    {
+      "slug": "superagui",
+      "name": "Parque Nacional do Superagui",
+      "gallery": 7,
+      "wonders": 2,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 12
+    },
+    {
+      "slug": "virua",
+      "name": "Parque Nacional do Viruá",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [
+        "Lago da Baixa Verde",
+        "Mirante da Serra do Viruá"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Cercomacra carbonaria",
+        "Aprositornis disjuncta",
+        "Mauritia flexuosa"
+      ],
+      "weakPhotoReferences": 11
+    },
+    {
+      "slug": "campos-amazonicos",
+      "name": "Parque Nacional dos Campos Amazônicos",
+      "gallery": 1,
+      "wonders": 3,
+      "wondersMissing": [
+        "Campos do Tenharim",
+        "Rio Roosevelt",
+        "Serras do Machado e do Manicoré"
+      ],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "campos-ferruginosos",
+      "name": "Parque Nacional dos Campos Ferruginosos",
+      "gallery": 0,
+      "wonders": 3,
+      "wondersMissing": [
+        "Cavernas de ferro",
+        "Lagoas da canga",
+        "Cachoeiras Águas Claras e do Goiano"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [
+        "Isoetes serracarajensis",
+        "Perama carajensis"
+      ],
+      "profilesMissing": [
+        "Isoetes serracarajensis",
+        "Perama carajensis",
+        "Mimosa skinneri"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "campos-gerais",
+      "name": "Parque Nacional dos Campos Gerais",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Parodia carambeiensis"
+      ],
+      "weakPhotoReferences": 9
+    },
+    {
+      "slug": "lencois-maranhenses",
+      "name": "Parque Nacional dos Lençóis Maranhenses",
+      "gallery": 5,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Trachemys adiutrix",
+        "Mauritia flexuosa",
+        "Drosera sessilifolia"
+      ],
+      "weakPhotoReferences": 4
+    },
+    {
+      "slug": "monte-pascoal",
+      "name": "Parque Nacional e Histórico do Monte Pascoal",
+      "gallery": 4,
+      "wonders": 2,
+      "wondersMissing": [
+        "Aldeia Barra Velha"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Patagioenas speciosa"
+      ],
+      "weakPhotoReferences": 4
+    },
+    {
+      "slug": "grande-sertao-veredas",
+      "name": "Parque Nacional Grande Sertão Veredas",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [
+        "Cachoeira do Mato Grande"
+      ],
+      "flagships": 5,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Mauritia flexuosa"
+      ],
+      "weakPhotoReferences": 11
+    },
+    {
+      "slug": "guaricana",
+      "name": "Parque Nacional Guaricana",
+      "gallery": 3,
+      "wonders": 2,
+      "wondersMissing": [
+        "Campos de altitude",
+        "Rios de águas cristalinas"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [
+        "Brachycephalus pombali"
+      ],
+      "profilesMissing": [
+        "Brachycephalus pombali"
+      ],
+      "weakPhotoReferences": 7
+    },
+    {
+      "slug": "mapinguari",
+      "name": "Parque Nacional Mapinguari",
+      "gallery": 4,
+      "wonders": 4,
+      "wondersMissing": [
+        "Campos do Norte",
+        "Cachoeira da Cobra",
+        "Primeira cachoeira do Karipunas"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Pionites leucogaster"
+      ],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "ilhas-dos-currais",
+      "name": "Parque Nacional Marinho das Ilhas dos Currais",
+      "gallery": 3,
+      "wonders": 3,
+      "wondersMissing": [],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Aetobatus narinari"
+      ],
+      "weakPhotoReferences": 3
+    },
+    {
+      "slug": "fernando-de-noronha",
+      "name": "Parque Nacional Marinho de Fernando de Noronha",
+      "gallery": 6,
+      "wonders": 4,
+      "wondersMissing": [],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Puffinus lherminieri",
+        "Cereus insularis"
+      ],
+      "weakPhotoReferences": 5
+    },
+    {
+      "slug": "abrolhos",
+      "name": "Parque Nacional Marinho dos Abrolhos",
+      "gallery": 3,
+      "wonders": 3,
+      "wondersMissing": [
+        "Recife de Timbebas"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Scarus trispinosus"
+      ],
+      "weakPhotoReferences": 5
+    },
+    {
+      "slug": "montanhas-do-tumucumaque",
+      "name": "Parque Nacional Montanhas do Tumucumaque",
+      "gallery": 2,
+      "wonders": 4,
+      "wondersMissing": [
+        "Roche Monpé"
+      ],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Dinizia excelsa",
+        "Anomaloglossus degranvillei",
+        "Vouacapoua americana"
+      ],
+      "weakPhotoReferences": 11
+    },
+    {
+      "slug": "nascentes-do-lago-jari",
+      "name": "Parque Nacional Nascentes do Lago Jari",
+      "gallery": 0,
+      "wonders": 3,
+      "wondersMissing": [
+        "Nascentes do Jari",
+        "Rio Jari até o lago",
+        "Maciço de floresta de terras baixas"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 8
+    },
+    {
+      "slug": "povos-indigenas-do-rio-tanaru",
+      "name": "Parque Nacional Povos Indígenas do Rio Tanaru",
+      "gallery": 0,
+      "wonders": 1,
+      "wondersMissing": [
+        "Sítios da memória Tanaru"
+      ],
+      "flagships": 3,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Lagothrix lagothricha cana"
+      ],
+      "weakPhotoReferences": 0
+    },
+    {
+      "slug": "serra-da-cutia",
+      "name": "Parque Nacional Serra da Cutia",
+      "gallery": 0,
+      "wonders": 2,
+      "wondersMissing": [
+        "Serra da Cutia",
+        "Barreiro Chupador"
+      ],
+      "flagships": 2,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [],
+      "weakPhotoReferences": 0
+    },
+    {
+      "slug": "serra-da-mocidade",
+      "name": "Parque Nacional Serra da Mocidade",
+      "gallery": 0,
+      "wonders": 3,
+      "wondersMissing": [
+        "Paleodunas",
+        "Rios de pulso de inundação"
+      ],
+      "flagships": 4,
+      "flagshipPhotosMissing": [
+        "Monotrema bracteatum"
+      ],
+      "profilesMissing": [
+        "Monotrema bracteatum",
+        "Bertholletia excelsa",
+        "Lophornis ornatus"
+      ],
+      "weakPhotoReferences": 12
+    },
+    {
+      "slug": "serra-de-itabaiana",
+      "name": "Parque Nacional Serra de Itabaiana",
+      "gallery": 5,
+      "wonders": 3,
+      "wondersMissing": [
+        "Gruta do Encantado"
+      ],
+      "flagships": 6,
+      "flagshipPhotosMissing": [],
+      "profilesMissing": [
+        "Glaucomastix itabaianensis",
+        "Vellozia dasypus",
+        "Melocactus zehntneri"
+      ],
+      "weakPhotoReferences": 3
+    }
+  ]
+}

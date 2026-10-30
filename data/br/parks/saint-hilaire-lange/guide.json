@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "A Serra da Prata, um gigante deitado entre duas baías, é a caixa d'água do litoral do Paraná.",
   "intro": "Entre as baías de Paranaguá e Guaratuba, o parque protege cerca de 24 mil hectares de Mata Atlântica na Serra da Prata, do nível do mar a cerca de 1.500 metros. Criado pela Lei nº 10.227, de 23 de maio de 2001, homenageia o naturalista francês Auguste de Saint-Hilaire e o ambientalista paranaense Roberto Ribas Lange.",
   "sourceIds": [
@@ -84,7 +84,17 @@
       "sourceIds": [
         "pm"
       ],
-      "photo": null
+      "photo": {
+        "src": "/media/parks/cachoeiras-serra.jpg",
+        "alt": "Cachoeira da Quintilha de baixo entre rochas e floresta",
+        "author": "Entre Parques BR (crédito individual não informado)",
+        "license": "Licença de reutilização não confirmada",
+        "licenseUrl": "https://entreparquesbr.com.br/sainthilaire-lange/",
+        "sourceUrl": "https://entreparquesbr.com.br/sainthilaire-lange/",
+        "width": 2560,
+        "height": 1920,
+        "context": "Cachoeira da Quintilha de baixo, identificada na seção correspondente do relato de visita ao Parque Nacional de Saint-Hilaire/Lange. O acesso descrito pela fonte passa por propriedade privada. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+      }
     }
   ],
   "curiosities": [

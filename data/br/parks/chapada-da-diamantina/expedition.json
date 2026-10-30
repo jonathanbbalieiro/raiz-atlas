@@ -89,10 +89,11 @@
         "O parque protege amostras da serra do Sincorá, uma das feições da Chapada Diamantina, que por sua vez faz parte da serra do Espinhaço. O plano o descreve como uma área rica em nascentes numa região seca, de exuberante beleza cênica.",
         "O relevo é cheio de contrastes: planaltos, escarpas e picos, com altitudes entre 380 e 1.700 metros dentro do parque. O ponto mais alto é o morro do Esbarrancado.",
         "Os cânions profundos dão origem às cachoeiras que simbolizam o parque. A da Fumaça, a mais famosa, tem mais de 340 metros de altura, e a Encantada passa dos 200 metros.",
-        "Praticamente todas as nascentes do parque alimentam o rio Paraguaçu, em cuja bacia ele está inteiro. O rio abastece cerca de 60% da população da região metropolitana de Salvador. Os Marimbus, uma grande região alagada formada pela junção dos rios São José, Santo Antônio e Utinga, ficam na área leste."
+        "Praticamente todas as nascentes do parque alimentam o rio Paraguaçu, em cuja bacia ele está inteiro. O rio abastece cerca de 60% da população da região metropolitana de Salvador. A leste do parque, na APA Marimbus-Iraquara, o Pantanal dos Marimbus recebe águas dos rios Santo Antônio e Utinga. É uma paisagem do entorno, distinta do território do parque."
       ],
       "sourceIds": [
-        "pm"
+        "pm",
+        "marimbus-estudo"
       ],
       "citations": [
         {
@@ -106,6 +107,10 @@
         {
           "sourceId": "pm",
           "locator": "p. 41"
+        },
+        {
+          "sourceId": "marimbus-estudo",
+          "locator": "área de estudo"
         }
       ],
       "images": [
@@ -317,6 +322,14 @@
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-chapada-da-diamantina/arquivos/plano_de_manejo_parna_chapada_diamantina.pdf",
       "accessedAt": "2026-10-22",
       "use": "geologia, hidrografia, vegetação, fauna, ciclo do diamante, comunidades e fogo; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "marimbus-estudo",
+      "institution": "Engenharia Sanitária e Ambiental / SciELO",
+      "title": "Avaliação dos níveis de metais pesados no pantanal dos Marimbus, Bahia, Brasil",
+      "url": "https://www.scielo.br/j/esa/a/kxzpttJyLbwSwT3ynjR74Jr/?format=html",
+      "accessedAt": "2026-10-30",
+      "use": "situa o Pantanal dos Marimbus a leste do parque, na APA Marimbus-Iraquara"
     }
   ],
   "approved": true,

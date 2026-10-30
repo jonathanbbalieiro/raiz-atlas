@@ -6,13 +6,14 @@
   "centralQuestion": "O que fez uma serra de arenito, no meio do sertão, virar um dos maiores parques do Nordeste?",
   "introduction": [
     "Diz a lenda que a serra mudava de cor várias vezes ao dia, conforme o sol, e que isso confundia a cabeça de quem passava: muita gente se perdia no caminho. É a explicação mais aceita para o nome da Serra das Confusões.",
-    "Hoje o parque tem cerca de 824 mil hectares de Caatinga em contato com o Cerrado. Entre chapadas, baixões e paredões de arenito, esconde grutas em forma de túnel, com aberturas no teto como claraboias, sítios de arte rupestre e animais de dois biomas."
+    "Após a ampliação de 2026, o parque protege mais de 900 mil hectares de Caatinga em contato com o Cerrado. Entre chapadas, baixões e paredões de arenito, esconde grutas em forma de túnel, com aberturas no teto como claraboias, sítios de arte rupestre e animais de dois biomas."
   ],
   "keyFacts": [
     {
-      "label": "hectares do parque, após a ampliação de 2010",
-      "value": "823.855",
-      "sourceId": "icmbio"
+      "label": "hectares incorporados na ampliação de 2026 para proteger a Serra Vermelha",
+      "value": "92.243",
+      "sourceId": "ampliacao-2026",
+      "locator": "art. 2º, § 1º"
     },
     {
       "label": "hectares do parque no plano de manejo de 2003, antes da ampliação",
@@ -177,16 +178,18 @@
     {
       "id": "criacao",
       "eyebrow": "04 · A criação",
-      "title": "De 526 mil a 824 mil hectares",
+      "title": "Da criação à proteção da Serra Vermelha",
       "question": "Como o parque foi criado e ampliado?",
       "paragraphs": [
         "Em agosto de 1997, técnicos do Ibama, da Embrapa e de instituições do Piauí foram ao local e propuseram o parque, depois de anos de artigos do fotógrafo e guia André Pessoa sobre as cavernas e os sítios da serra, que despertaram o apoio da comunidade.",
-        "O decreto sem número de 2 de outubro de 1998 criou o Parque Nacional da Serra das Confusões, então com 526.108 hectares. O primeiro plano de manejo foi aprovado pela Portaria nº 64, de 29 de junho de 2004. Um decreto de 30 de dezembro de 2010 ampliou o parque, que hoje tem 823.854,54 hectares.",
-        "O plano propôs incluir uma faixa para formar um corredor ecológico com o Parque Nacional da Serra da Capivara, considerado de extrema importância biológica."
+        "O decreto sem número de 2 de outubro de 1998 criou o Parque Nacional da Serra das Confusões, então com 526.108 hectares. O primeiro plano de manejo foi aprovado pela Portaria nº 64, de 29 de junho de 2004. Um decreto de 30 de dezembro de 2010 ampliou o parque, que passou então a ter cerca de 824 mil hectares.",
+        "O plano propôs incluir uma faixa para formar um corredor ecológico com o Parque Nacional da Serra da Capivara, considerado de extrema importância biológica.",
+        "O Decreto nº 13.017, de 10 de junho, acrescenta 92.243 hectares ao parque para proteger a Serra Vermelha."
       ],
       "sourceIds": [
         "pm",
-        "icmbio"
+        "icmbio",
+        "ampliacao-2026"
       ],
       "citations": [
         {
@@ -204,6 +207,10 @@
         {
           "sourceId": "icmbio",
           "locator": "ficha da unidade"
+        },
+        {
+          "sourceId": "ampliacao-2026",
+          "locator": "arts. 1º e 2º"
         }
       ],
       "images": []
@@ -256,9 +263,18 @@
         "id": "2010",
         "year": "30 dez. 2010",
         "title": "Ampliação",
-        "description": "Decreto amplia o parque, hoje com 823.854,54 hectares.",
+        "description": "Decreto amplia o parque, que passa então a ter cerca de 824 mil hectares.",
         "sourceIds": [
           "icmbio"
+        ]
+      },
+      {
+        "id": "2026",
+        "year": "10 jun. 2026",
+        "title": "Serra Vermelha incorporada",
+        "description": "O Decreto nº 13.017, de 10 de junho, acrescenta 92.243 hectares ao parque para proteger a Serra Vermelha.",
+        "sourceIds": [
+          "ampliacao-2026"
         ]
       }
     ]
@@ -281,11 +297,19 @@
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/caatinga/lista-de-ucs/parna-da-serra-das-confusoes/arquivos/parna_serra_das_confusoes.pdf",
       "accessedAt": "2026-10-23",
       "use": "origem do nome, relevo, vegetação, fauna, sítios arqueológicos e histórico de criação; páginas conforme a numeração do PDF"
+    },
+    {
+      "id": "ampliacao-2026",
+      "institution": "Presidência da República",
+      "title": "Decreto nº 13.017, de 10 de junho de 2026 — ampliação do Parque Nacional da Serra das Confusões",
+      "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13017.htm",
+      "accessedAt": "2026-10-30",
+      "use": "incorporação de 92.243 hectares para proteger a Serra Vermelha"
     }
   ],
   "approved": true,
   "status": "aprovado",
   "lastVerifiedAt": "2026-10-23",
   "photoStatus": "curadoria_parcial",
-  "editorialNotes": "Pendências: o plano de manejo é de 2003 (526 mil ha), anterior à ampliação de 2010; a página do ICMBio cita um 'decreto de ampliação' de 2026 sem data, conferir; conferir o número de aves endêmicas (14 na p. 91, 18 na p. 93); fotos de 1.280 px, a de passagem entre paredões é vertical; decretos não abertos no Planalto; revisão humana."
+  "editorialNotes": "Ampliação de 2026 confirmada no Decreto nº 13.017: 92.243 hectares acrescentados. A página institucional ainda informa 823.854,54 hectares, referentes à situação anterior. O atlas cartográfico calcula 916.155 hectares; por isso o texto usa mais de 900 mil, sem apresentar soma ou área geométrica como medição oficial consolidada. Dados de fauna do plano de 2003 têm recorte anterior às ampliações; permanece pendente a divergência de aves endêmicas nas páginas 91 e 93."
 }

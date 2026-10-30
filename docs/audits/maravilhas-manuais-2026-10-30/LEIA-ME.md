@@ -1,0 +1,37 @@
+# Maravilhas: imagens enviadas em 30/10/2026
+
+25 links analisados; 17 imagens incorporadas, preenchendo 15 maravilhas; 2 fotos adicionais apenas na galeria; 8 imagens sem associação ao local pedido. Os arquivos publicados preservam os bytes originais. Licença não confirmada foi mantida explicitamente, conforme instrução do responsável.
+
+## Cavernas no Parque Nacional da Amazônia
+
+O plano de manejo oficial de 2021 menciona cavidades naturais em rochas carbonáticas e sedimentares da Formação Itaituba, na página impressa 15. A retirada do cartão atende ao pedido editorial; não comprova inexistência de cavernas. A Expedição conserva a informação respaldada pelo plano. [Plano oficial](https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-amazonia/copy_of_plano_manejo_parna_amazonia_2021.pdf).
+
+## Imagens
+
+| Identificador | Parque | Item | Situação | Verificação |
+| --- | --- | --- | --- | --- |
+| rio-acari | acari | Rios Acari, Camaiú, Sucunduri e Abacaxis | incorporada_maravilha | A fotografia integra o relato da chegada ao Parque Nacional do Acari pelo rio Sucunduri, na seção sobre rios voadores. A identificação foi corrigida: a fonte não a apresenta como uma fotografia do rio Acari. |
+| concheiros-albardao | albardao | Dunas e concheiros do Albardão | incorporada_maravilha | Depósito de conchas no Parque Nacional do Albardão, identificado e creditado a Leandro Cagiano na reportagem da Mongabay. |
+| dunas-albardao | albardao | Dunas e concheiros do Albardão | incorporada_galeria | Dunas no Parque Nacional do Albardão, com a Lagoa Mangueira ao fundo; imagem de abertura creditada a Leandro Cagiano pela Mongabay. Complementa a fotografia dos concheiros. |
+| arvores-anavilhanas | anavilhanas | Árvores para escalar | incorporada_maravilha | Escalada em árvores no Parque Nacional de Anavilhanas. A imagem aparece na apresentação do parque pelo Instituto Semeia, com crédito de divulgação da Viare Travel. |
+| corredeiras-chapeco | araucarias | Corredeiras do rio Chapecó | incorporada_maravilha | Paisagem do Parque Nacional das Araucárias, assim identificada na legenda da reportagem Oeste Mais. Associada às corredeiras do rio Chapecó por indicação do responsável; a fonte não individualiza o fotógrafo. |
+| furnas-gemeas | campos-gerais | Furnas Gêmeas | incorporada_maravilha | Furnas Gêmeas, também chamadas Dolinas Gêmeas ou Furnas do Passo do Pupo, em Ponta Grossa. A fonte identifica o lugar e sua gestão de visitação vinculada ao Parque Nacional dos Campos Gerais; marca autoral preservada. |
+| serra-jerusalem | catimbau | Serra de Jerusalém | incorporada_maravilha | Fotografia identificada como Trilha de Jerusalém no Vale do Catimbau, com crédito ao guia Anderson na página Viagens e Caminhos. |
+| morro-figuras | chapada-das-mesas | Morro das Figuras | incorporada_maravilha | Imagem indicada pelo responsável como registro do Morro das Figuras, no Parque Nacional da Chapada das Mesas. A identificação do arquivo depende dessa indicação; autor e publicação original do Facebook não individualizados. |
+| arvores-gigantes | descobrimento | Árvores gigantes | incorporada_maravilha | Gameleira fotografada no Parque Nacional do Descobrimento; a imagem integra a seção sobre as árvores gigantes no relato de visita do Entre Parques BR. |
+| lagoa-so-nao-vou | descobrimento | Lagoa Só Não Vou | incorporada_maravilha | Imagem da Lagoa Só Não Vou no Parque Nacional do Descobrimento, publicada na página do roteiro da Grande Mata Ancestral dedicada ao parque. |
+| mirante-tres-irmaos | grande-sertao-veredas | Mirante Três Irmãos | incorporada_maravilha | Quadro de vídeo indicado pelo responsável como vista do Mirante Três Irmãos, no Parque Nacional Grande Sertão Veredas. Autor e publicação original do Instagram não individualizados; resolução original preservada. |
+| campos-guaricana | guaricana | Campos de altitude | incorporada_galeria | Vista da vegetação e do relevo do interior do Parque Nacional Guaricana, identificada na legenda e creditada a Emerson A. Oliveira por ((o))eco. Mostra encostas florestadas; por isso entra somente na galeria e não ilustra a formação aberta dos cumes. |
+| petroglifos-jau | jau | Petróglifos | incorporada_maravilha | Imagem atribuída aos petróglifos do Jaú na reportagem Brasil 247 enviada pelo responsável. A publicação cita Wikimedia Commons, mas não foi localizado o arquivo original nem o fotógrafo; essa atribuição não confirma uma licença livre. |
+| pico-tracoa | pacaas-novos | Pico do Tracoá | incorporada_maravilha | Pico do Tracoá, chamado Tracuá na reportagem Gente de Opinião. A matéria identifica sua localização no Parque Nacional de Pacaás Novos e credita as fotografias a R. Machado. |
+| cachoeiras-serra | saint-hilaire-lange | Cachoeiras da serra | incorporada_maravilha | Cachoeira da Quintilha de baixo, identificada na seção correspondente do relato de visita ao Parque Nacional de Saint-Hilaire/Lange. O acesso descrito pela fonte passa por propriedade privada. |
+| canion-funil | sao-joaquim | Cânion do Funil | incorporada_maravilha | Cânion do Funil no Parque Nacional de São Joaquim, identificado no registro de mídia e na reportagem da Apremavi, com fotografias creditadas a Carolina Schäffer. |
+| rio-perdido | serra-da-bodoquena | Sumidouro e Ressurgência do Rio Perdido | incorporada_maravilha | Poço no início da trilha do Sumidouro e Ressurgência do Rio Perdido, na porção sul do Parque Nacional da Serra da Bodoquena. A legenda do Entre Parques BR identifica o ponto como o sumidouro. |
+| rio-camaiu | acari | Rios Acari, Camaiú, Sucunduri e Abacaxis | pendente_trecho | O arquivo é apresentado como rio Camaiú, mas o trecho fotografado não foi localizado dentro do Parque Nacional do Acari. Não usar fotografia regional como comprovação de paisagem interna. |
+| rio-sucunduri | acari | Rios Acari, Camaiú, Sucunduri e Abacaxis | pendente_trecho | O relato de pesca identifica o rio Sucunduri, mas não estabelece que a fotografia foi feita no trecho do Parque Nacional do Acari. |
+| trilhas-amazonia | amazonia | Trilhas na floresta | pendente_origem | O link é uma miniatura do Google, sem identificação da página original, autor ou trilha; localização no Parque Nacional da Amazônia não confirmada. |
+| gruta-rezar | cavernas-do-peruacu | Gruta do Rezar | outro_atrativo_ja_presente | A imagem coincide com a fotografia de Patrícia Carluccio (03), identificada no Commons como Gruta do Janelão, já presente na galeria. Não é fotografia da Gruta do Rezar. |
+| nascentes-jari | nascentes-do-lago-jari | Nascentes do Jari | pendente_trecho | A fotografia aparece na seção sobre acessos por igarapés junto à BR-319. A fonte não a identifica como nascente do Jari nem como o Rio Jari; não associar ao cartão de nascentes. |
+| chapada-mangabeiras | nascentes-do-rio-parnaiba | Chapada das Mangabeiras | pendente_trecho | A matéria do Portal Corrente trata da região da Chapada das Mangabeiras e de obras rodoviárias. Não situa o trecho fotografado dentro do Parque Nacional das Nascentes do Rio Parnaíba. |
+| cachoeira-indio | serra-do-gandarela | Cachoeira do Índio | pendente_origem | A imagem foi baixada, mas a página da trilha Wikiloc responde HTTP 403. Localização no Parque Nacional da Serra do Gandarela e autoria não confirmadas. |
+| serra-ferradura | serra-do-pardo | Serra em ferradura | rejeitada_local | A fonte identifica o Parque da Ferradura em Canela/RS. Não representa a serra em ferradura do Parque Nacional da Serra do Pardo/PA. |

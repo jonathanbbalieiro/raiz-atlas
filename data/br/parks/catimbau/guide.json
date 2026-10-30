@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "Paredões de arenito coloridos, esculpidos pelo vento, guardam 64 sítios de arte rupestre no sertão pernambucano.",
   "intro": "Entre o agreste e o sertão de Pernambuco, o Parque Nacional do Catimbau protege cerca de 62 mil hectares de Caatinga em Buíque, Ibimirim e Tupanatinga. Serras, cânions, chapadões e abrigos de arenito escondem pinturas de milhares de anos e muita água sob a pedra.",
   "sourceIds": [
@@ -49,7 +49,17 @@
       "sourceIds": [
         "pmif"
       ],
-      "photo": null
+      "photo": {
+        "src": "/media/parks/serra-jerusalem.jpg",
+        "alt": "Paredões e formações rochosas da Serra de Jerusalém no Catimbau",
+        "author": "Guia Anderson, via Viagens e Caminhos",
+        "license": "Licença de reutilização não confirmada",
+        "licenseUrl": "https://www.viagensecaminhos.com/vale-do-catimbau/",
+        "sourceUrl": "https://www.viagensecaminhos.com/vale-do-catimbau/",
+        "width": 1000,
+        "height": 667,
+        "context": "Fotografia identificada como Trilha de Jerusalém no Vale do Catimbau, com crédito ao guia Anderson na página Viagens e Caminhos. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+      }
     },
     {
       "title": "Esculturas de vento e água",

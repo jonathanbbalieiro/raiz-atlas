@@ -46,10 +46,13 @@ ocorrências do GBIF dentro do limite oficial com nomes, fotos e status IUCN
    instituições de pesquisa (Embrapa, universidades, IBGE, CPRM); governos
    estaduais de turismo para atrativos; **Wikipédia só como apoio**, e de
    preferência confirmada por uma fonte primária.
-3. **Dentro do parque.** Maravilhas e histórias precisam estar *na unidade*.
-   Muitas atrações famosas ficam no entorno (ex.: Cachoeira de Santa Bárbara
-   fica no território Kalunga, fora da Chapada dos Veadeiros). Em caso de
-   dúvida, deixe de fora.
+3. **Localização explícita.** Priorize maravilhas e histórias da unidade.
+   Por orientação do responsável, atrativos próximos também podem aparecer
+   nas maravilhas, desde que o texto identifique claramente que ficam no
+   entorno e informe a área protegida correspondente, quando houver.
+   Marimbus, na APA Marimbus-Iraquara, é um exemplo autorizado. Proximidade
+   não comprova inclusão no território do parque; não invente coordenadas
+   internas para representar um atrativo externo.
 4. **Sem superlativos não documentados** ("o maior", "o único", "o mais
    antigo") e sem especulação ("especula-se", "acredita-se").
 5. **Números conflitantes** (área, altura): use o da fonte oficial e não

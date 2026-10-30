@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-30",
   "hook": "Os dois pontos mais altos do Brasil ficam na mesma montanha, que os Yanomami chamam de Yaripo, a Serra dos Ventos.",
   "intro": "No noroeste do Amazonas, na fronteira com a Venezuela, o Parque Nacional do Pico da Neblina protege mais de 2,2 milhões de hectares, da planície do rio Negro ao topo do Brasil. Mais de 70% da área se sobrepõe a terras indígenas, onde vivem 14 etnias.",
   "sourceIds": [
@@ -46,7 +46,8 @@
       "title": "Pico da Neblina (Yaripo)",
       "text": "Com 2.995,3 metros, é o ponto mais alto do Brasil. O cume, de cerca de 200 m², é uma crista de rochas sedimentares do Supergrupo Roraima.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "ibge-altitudes-2024"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pico_da_Neblina_%28FAB%29.jpg/960px-Pico_da_Neblina_%28FAB%29.jpg",
@@ -62,9 +63,10 @@
     },
     {
       "title": "Pico 31 de Março",
-      "text": "A menos de um quilômetro do Neblina, na mesma montanha, o segundo ponto mais alto do país chega a 2.972,66 metros.",
+      "text": "A menos de um quilômetro do Neblina, na mesma montanha, o segundo ponto mais alto do país chega a 2.974,2 metros.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "ibge-altitudes-2024"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Pico_31_de_Mar%C3%A7o.JPG/1920px-Pico_31_de_Mar%C3%A7o.JPG",
@@ -184,6 +186,13 @@
         "pv",
         "pm"
       ]
+    },
+    {
+      "title": "2022 · Retomada do Yaripo",
+      "text": "Em março, a visitação é retomada pelo Projeto Yaripo, em parceria com os Yanomami e com operadoras credenciadas.",
+      "sourceIds": [
+        "yaripo-2026"
+      ]
     }
   ],
   "flagships": [
@@ -268,6 +277,20 @@
       "title": "Plano de Visitação Yaripo: Ecoturismo Yanomami",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-do-pico-da-neblina/arquivos/plano_de_visitacao_parna_pico_da_neblina.pdf",
       "accessed": "2026-10-21"
+    },
+    {
+      "id": "ibge-altitudes-2024",
+      "institution": "IBGE",
+      "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
+      "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
+      "accessed": "2026-10-30"
+    },
+    {
+      "id": "yaripo-2026",
+      "institution": "ICMBio",
+      "title": "Edital de credenciamento de operação turística no Pico da Neblina (2026)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2026/copy_of_SEI_023144826_Edital_de_Credenciamento.pdf",
+      "accessed": "2026-10-30"
     }
   ]
 }

@@ -15,15 +15,15 @@
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
-      "park": "amazonia",
-      "location": "guide.curiosities[3].text",
-      "text": "Apenas uma pequena parte do parque foi estudada pela ciência. A maior parte ainda é desconhecida."
+      "park": "abrolhos",
+      "location": "guide.flagships[2].why",
+      "text": "Peixe-papagaio endêmico do Brasil e listado como Em Perigo pela IUCN; a maior parte da população remanescente está concentrada no Banco dos Abrolhos. Os indivíduos acima de 40 cm escavam o substrato dos recifes ao se alimentar."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "amazonia",
-      "location": "guide.flagships[2].why",
-      "text": "Ameaçado e fácil de avistar no parque, segundo o plano de manejo, que o descreve como a maior ave de rapina."
+      "location": "guide.curiosities[3].text",
+      "text": "Apenas uma pequena parte do parque foi estudada pela ciência. A maior parte ainda é desconhecida."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -57,6 +57,18 @@
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
+      "park": "araguaia",
+      "location": "guide.flagships[0].why",
+      "text": "Em 1976 o parque abrigava de 300 a 400 cervos, possivelmente a maior concentração da espécie em uma área protegida da América Latina, segundo o plano de manejo. Proteger o cervo-do-pantanal é um dos objetivos da unidade, que preserva as matas e campos alagáveis da Ilha do Bananal."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "araguaia",
+      "location": "guide.flagships[2].why",
+      "text": "A maior concentração de desova da espécie no Centro-Oeste ocorre no entorno da Ilha do Bananal. No rio Javaés, limite do parque, dez barras de areia somaram 337 ninhos de tartaruga-da-amazônia e 490 de tracajá na temporada de 2000. A espécie consta do levantamento de répteis do plano de manejo."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
       "park": "boqueirao-da-onca",
       "location": "guide.intro",
       "text": "No norte da Bahia, o Parque Nacional do Boqueirão da Onça protege cerca de 347 mil hectares de serras de Caatinga em Sento Sé, Juazeiro, Sobradinho e Campo Formoso. Criado pelo decreto de 5 de abril de 2018, nasceu no mesmo dia que uma APA vizinha, ainda maior."
@@ -70,8 +82,14 @@
     {
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "campos-ferruginosos",
-      "location": "guide.flagships[2].why",
+      "location": "guide.flagships[4].why",
       "text": "O plano de manejo a chama de maior predador da terra. Tem registros no parque e depende da floresta em volta das serras."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "caparao",
+      "location": "guide.flagships[2].why",
+      "text": "Arbusto endêmico da Mata Atlântica, típico de campo de altitude. No Pico do Calçado Mirim, dentro do parque, está entre as cinco espécies de maior importância na vegetação, ao lado de Eryngium elegans e Baccharis opuntioides, sobre afloramentos de rocha acima de 1.600 m."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -81,15 +99,47 @@
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
+      "park": "chapada-da-diamantina",
+      "location": "guide.flagships[0].why",
+      "text": "O parque abriga a maior população e a maior densidade conhecidas do guigó: um levantamento de 2021 a 2023 em cinco áreas de mata estimou 873 indivíduos. A espécie consta entre as ameaçadas que o ICMBio lista como protegidas na unidade."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
       "park": "chapada-das-mesas",
       "location": "guide.wonders[0].text",
       "text": "No rio Farinha, é uma das cachoeiras com maior volume de água do Maranhão. Antes do parque, havia planos de instalar uma pequena hidrelétrica ali."
+    },
+    {
+      "kind": "categoria_divergente",
+      "park": "chapada-dos-guimaraes",
+      "scientificName": "Chrysocyon brachyurus",
+      "text": "Canídeo do Cerrado vulnerável na avaliação nacional do ICMBio e protegido pelo parque, que reúne dez tipos de vegetação de Cerrado. Foi flagrado em 2026 pelas câmeras do projeto do Instituto Impacto com o ICMBio.",
+      "statuses": [
+        "NT"
+      ],
+      "sourceIds": [
+        "fl-e52ac2c1",
+        "fl-24e77100",
+        "icmbio-monitora-2025"
+      ]
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "fernando-de-noronha",
       "location": "guide.protects.items[1].text",
       "text": "O arquipélago abriga a maior concentração de aves marinhas tropicais do Atlântico Ocidental e é um centro global de aves endêmicas."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "fernando-de-noronha",
+      "location": "guide.flagships[3].why",
+      "text": "Passeriforme endêmico de Fernando de Noronha, classificado como vulnerável. Aparece em maior número em trechos com mais árvores e arbustos e longe das vilas, segundo levantamento com 120 pontos de escuta no arquipélago."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "fernando-de-noronha",
+      "location": "guide.flagships[4].why",
+      "text": "Ave marinha ameaçada que tem no arquipélago seu único sítio reprodutivo no Brasil, junto com o atobá-de-pé-vermelho. Noronha reúne a maior riqueza de aves marinhas do país: cerca de 30 mil indivíduos de 11 espécies se reproduzem ali todo ano."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -102,6 +152,12 @@
       "park": "furna-feia",
       "location": "guide.wonders[1].text",
       "text": "A segunda maior caverna do parque guarda a maior cortina de pedra do Rio Grande do Norte, com mais de seis metros, e um ninho de pérolas de calcita."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "furna-feia",
+      "location": "guide.flagships[1].why",
+      "text": "Na caverna Furna Feia, que dá nome ao parque, uma colônia de cerca de mil indivíduos ocupa os salões inferiores. A caverna teve a maior riqueza de morcegos (10 espécies) entre 13 cavernas do Rio Grande do Norte e é tratada no plano de manejo como hotspot de morcegos."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -125,7 +181,7 @@
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "iguacu",
       "location": "guide.flagships[0].why",
-      "text": "Símbolo do parque. O Corredor Verde abriga a maior população de onças-pintadas da Mata Atlântica."
+      "text": "Símbolo do parque e predadora de topo: o Corredor Verde com a Argentina abriga a maior população de onças da Mata Atlântica. O censo de 2022 contou 35 onças (26 adultas e 9 filhotes) no parque, após o risco de extinção local nos anos 2000."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -134,10 +190,29 @@
       "text": "As ilhas não têm praias de areia, só costões de rocha que afloram do mar. A maior delas, Grapirá, tem 55 metros de altitude e pouco mais de 7 hectares."
     },
     {
+      "kind": "categoria_divergente",
+      "park": "juruena",
+      "scientificName": "Ateles chamek",
+      "text": "Foi registrado nos censos de mamíferos do parque, entre os 15 primatas inventariados. Segundo o ICMBio, é importante dispersor de sementes, vive em densidades muito baixas e está ameaçado (vulnerável no Brasil, em perigo global) pelo desmatamento no sul e sudeste de sua distribuição.",
+      "statuses": [
+        "EN"
+      ],
+      "sourceIds": [
+        "enc3",
+        "fl-2565950d"
+      ]
+    },
+    {
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "juruena",
       "location": "guide.protects.items[2].text",
       "text": "O parque tem 39 sub-bacias. A maior, a do rio São Tomé, ocupa 23% da área e nasce inteira dentro dele."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "lagoa-do-peixe",
+      "location": "guide.flagships[0].why",
+      "text": "Cria no Ártico e voa cerca de 15 mil km até a Lagoa do Peixe, onde fica de outubro a abril nos campos alagáveis. O parque pode receber de 3 mil a 5 mil indivíduos, a maior população da espécie no Brasil."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -177,9 +252,21 @@
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
+      "park": "montanhas-do-tumucumaque",
+      "location": "guide.flagships[0].why",
+      "text": "É a árvore gigante do Tumucumaque: em quatro dias de trabalho na região, pesquisadores registraram mais de 80 árvores desproporcionais, 56 delas angelins-vermelhos, com 60 a 80 m de altura. É a maior entre as grandes árvores da floresta amapaense."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
       "park": "monte-pascoal",
       "location": "guide.protects.items[1].text",
       "text": "A maior parte do parque é coberta por floresta úmida, a mata higrófila sul-baiana, seguida de campos, capoeiras, restingas e manguezais."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "monte-pascoal",
+      "location": "guide.flagships[0].why",
+      "text": "Em novembro de 2025, pataxós guiados pelo jovem Caxiló registraram uma harpia na trilha do Monte Pascoal. A gestora disse que o registro comprova o saber tradicional indígena. A maior águia das Américas indica floresta íntegra."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -204,6 +291,12 @@
       "park": "nascentes-do-rio-parnaiba",
       "location": "guide.curiosities[1].text",
       "text": "O plano de manejo aponta o parque como a maior unidade de conservação do bioma Cerrado."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "nascentes-do-rio-parnaiba",
+      "location": "guide.flagships[2].why",
+      "text": "Predadora de topo que ainda vive no parque, segundo relato de visita, e consta da lista de espécies ameaçadas protegidas pela unidade, que guarda as cabeceiras do Parnaíba e é descrita como o maior parque do Cerrado brasileiro."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -233,7 +326,7 @@
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "serra-da-bocaina",
       "location": "guide.flagships[0].why",
-      "text": "O maior primata das Américas vive nos grotões de mata mais preservados e de difícil acesso do parque."
+      "text": "Considerado o maior primata da América, vive em grotões de mata de difícil acesso na Bocaina e ainda é caçado no entorno. A ficha do ICMBio cita o parque como a população do sul fluminense, de onde a distribuição da espécie segue até o nordeste do Paraná."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -249,15 +342,21 @@
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
-      "park": "serra-das-confusoes",
-      "location": "guide.protects.items[0].text",
-      "text": "Depois da ampliação de 2010, o parque chegou a cerca de 824 mil hectares, área várias vezes maior que a da vizinha Serra da Capivara."
+      "park": "serra-da-capivara",
+      "location": "guide.flagships[0].why",
+      "text": "Em 2007, armadilhas fotográficas no parque identificaram 12 onças adultas e estimaram cerca de 2,7 por 100 km², a primeira estimativa de densidade da espécie na Caatinga e maior que a da maioria dos outros biomas. O ICMBio a lista entre as ameaçadas protegidas aqui."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "serra-de-itabaiana",
       "location": "guide.wonders[2].text",
       "text": "A maior das quatro cavernas do parque, com cerca de 40 metros, se abriu lentamente no quartzito, rocha muito pouco solúvel."
+    },
+    {
+      "kind": "comparacao_a_conferir_na_fonte",
+      "park": "serra-do-cipo",
+      "location": "guide.flagships[2].why",
+      "text": "Maior canídeo da América do Sul, está na lista de ameaçadas protegidas pelo parque. Publicação do ICMBio sobre o Cipó o apresenta como andarilho solitário das montanhas ao entardecer e dispersor de sementes: come os frutos e espalha as sementes por lugares distantes."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -281,7 +380,20 @@
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "serra-dos-orgaos",
       "location": "guide.flagships[0].why",
-      "text": "O maior primata das Américas é destaque entre as 120 espécies ameaçadas protegidas pelo parque."
+      "text": "Em 1824 o naturalista Freycinet chamou a Serra dos Órgãos de lar dos muriquis, e o parque segue entre as poucas áreas protegidas fluminenses onde o maior primata das Américas ainda é encontrado. O ICMBio o classifica como Em Perigo."
+    },
+    {
+      "kind": "categoria_divergente",
+      "park": "superagui",
+      "scientificName": "Sotalia guianensis",
+      "text": "O plano de manejo trata a Baía das Laranjeiras, no complexo estuarino do parque, como habitat de grande importância do boto-cinza, vulnerável na lista nacional. Guias do parque dizem que botos são vistos com facilidade nadando entre os barcos de pescadores em frente à ilha.",
+      "statuses": [
+        "NT"
+      ],
+      "sourceIds": [
+        "pm",
+        "fl-c1f6679d"
+      ]
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -293,7 +405,7 @@
       "kind": "comparacao_a_conferir_na_fonte",
       "park": "superagui",
       "location": "guide.flagships[0].why",
-      "text": "Primata em perigo, descrito em 1990, com a maior população protegida pelo parque."
+      "text": "Descrito em 1990, só vive no litoral norte do Paraná e sul de São Paulo, e o parque protege a maior população da espécie, segundo o plano de manejo. A ficha do ICMBio o dá como em perigo e ligado à Ilha de Superagui, onde um canal isolou populações."
     },
     {
       "kind": "comparacao_a_conferir_na_fonte",
@@ -343,20 +455,6 @@
     },
     {
       "kind": "justificativa_repetida_revisar_especificidade",
-      "text": "Está na lista de espécies ameaçadas protegidas pelo parque e tem registros dentro dele.",
-      "parks": [
-        {
-          "park": "chapada-dos-guimaraes",
-          "scientificName": "Tapirus terrestris"
-        },
-        {
-          "park": "pantanal-mato-grossense",
-          "scientificName": "Panthera onca"
-        }
-      ]
-    },
-    {
-      "kind": "justificativa_repetida_revisar_especificidade",
       "text": "Vulnerável segundo a IUCN, com registros dentro do parque.",
       "parks": [
         {
@@ -366,20 +464,6 @@
         {
           "park": "serra-da-bodoquena",
           "scientificName": "Anodorhynchus hyacinthinus"
-        }
-      ]
-    },
-    {
-      "kind": "justificativa_repetida_revisar_especificidade",
-      "text": "Em perigo, tem registros dentro do parque.",
-      "parks": [
-        {
-          "park": "juruena",
-          "scientificName": "Ateles chamek"
-        },
-        {
-          "park": "serra-do-pardo",
-          "scientificName": "Ateles marginatus"
         }
       ]
     },
