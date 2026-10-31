@@ -260,9 +260,11 @@
     {
       "scientificName": "Alouatta guariba",
       "name": "Bugio-ruivo",
-      "why": "Um dos cinco mamíferos endêmicos da Mata Atlântica que ocorrem no parque.",
+      "why": "Os rugidos servem para afastar rivais e mostrar a força do grupo, evitando brigas diretas entre bandos. Um dos cinco mamíferos endêmicos da Mata Atlântica que ocorrem no parque.",
       "sourceIds": [
-        "icmbio-fauna"
+        "icmbio-fauna",
+        "perfil-alouatta-guariba-1",
+        "perfil-alouatta-guariba-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/308532652/original.jpeg",
@@ -382,6 +384,20 @@
       "title": "A distribuição natural das Florestas com Araucária nos estados do Sul e São Paulo: localização, clima e relevo (Fritzsons, Mantovani e Wrege, 2021)",
       "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1137543/1/EmbrapaFlorestas-2021-LV-AraucariaEmbrapa-cap4.pdf",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-alouatta-guariba-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Alouatta guariba (brown howler)",
+      "url": "https://animaldiversity.org/accounts/Alouatta_guariba/",
+      "id": "perfil-alouatta-guariba-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

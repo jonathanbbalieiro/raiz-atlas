@@ -177,7 +177,7 @@
         "ameacada_com_acao",
         "habitat_critico"
       ],
-      "why": "O diagnóstico do plano de manejo o classifica como criticamente ameaçado, e o ICMBio o cita entre as aves procuradas por observadores nas margens do rio Branco, dentro do parque.",
+      "why": "Nas margens do rio Branco, os observadores procuram uma ave de distribuição restrita: o chororó-do-rio-branco. Proteger a vegetação desses rios é essencial para conservar esse pequeno habitante ameaçado.",
       "sourceIds": [
         "visita",
         "diag"
@@ -190,7 +190,7 @@
         "endemica",
         "habitat_critico"
       ],
-      "why": "No plano de manejo, entre as unidades listadas, só o Viruá o registra. O ICMBio o cita entre as aves endêmicas das campinaranas do Megaleque, onde observadores também procuram o dançarino-de-crista-amarela.",
+      "why": "As campinaranas, florestas sobre solos arenosos, guardam aves muito particulares. O formigueiro-das-campinaranas é uma delas e está entre as espécies que fazem do Viruá um destino especial para observar aves.",
       "sourceIds": [
         "visita",
         "diag"
@@ -203,7 +203,7 @@
       "criteria": [
         "ameacada_com_acao"
       ],
-      "why": "O ICMBio a indica entre os mamíferos vistos no rio Baruana, e o plano de manejo a lista como ameaçada no parque, onde já foi tema de estudo de conservação no rio Iruá, junto ao peixe-boi-da-amazônia.",
+      "why": "No rio Baruana, a ariranha está entre os mamíferos que podem aparecer durante a navegação. Sua vida também já foi estudada no rio Iruá, junto à do peixe-boi-da-amazônia: dois habitantes que conectam a conservação da floresta à dos rios.",
       "sourceIds": [
         "visita",
         "diag"
@@ -237,10 +237,12 @@
     {
       "scientificName": "Ateles paniscus",
       "name": "Macaco-aranha-preto",
-      "why": "Vulnerável, é um dos mamíferos ameaçados cuja população e hábitat o parque se propõe a preservar.",
+      "why": "Fêmeas e machos atingem a maturidade com 4 a 5 anos. Vulnerável, é um dos mamíferos ameaçados cuja população e hábitat o parque se propõe a preservar.",
       "sourceIds": [
         "plan",
-        "gbif"
+        "gbif",
+        "perfil-ateles-paniscus-1",
+        "perfil-ateles-paniscus-2"
       ]
     }
   ],
@@ -286,6 +288,20 @@
       "title": "Decreto nº 11.683, de 5 de setembro de 2023 — ampliação do Parque Nacional do Viruá",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11683.htm",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "ICMBio / CPB",
+      "title": "Mamíferos: Ateles paniscus, macaco-aranha (avaliação do risco de extinção)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_ateles_paniscus.pdf",
+      "id": "perfil-ateles-paniscus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Ateles paniscus (black spider monkey)",
+      "url": "https://animaldiversity.org/accounts/Ateles_paniscus/",
+      "id": "perfil-ateles-paniscus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

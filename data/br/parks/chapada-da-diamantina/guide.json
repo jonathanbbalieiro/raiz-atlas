@@ -262,9 +262,11 @@
     {
       "scientificName": "Formicivora grantsaui",
       "name": "Papa-formiga-do-sincorá",
-      "why": "Ave vulnerável que leva no nome a Serra do Sincorá, protegida pelo parque.",
+      "why": "Seus registros se limitam aos municípios de Mucugê, Andaraí, Lençóis e Palmeiras. Ave vulnerável que leva no nome a Serra do Sincorá, protegida pelo parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-formicivora-grantsaui-1",
+        "perfil-formicivora-grantsaui-2"
       ]
     }
   ],
@@ -331,6 +333,20 @@
       "title": "Avaliação dos níveis de metais pesados no pantanal dos Marimbus, Bahia, Brasil",
       "url": "https://www.scielo.br/j/esa/a/kxzpttJyLbwSwT3ynjR74Jr/?format=html",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-formicivora-grantsaui-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "Mudanças climáticas encurralam aves nas montanhas da Chapada Diamantina",
+      "url": "https://oeco.org.br/noticias/mudancas-climaticas-encurralam-aves-nas-montanhas-da-chapada-diamantina/",
+      "id": "perfil-formicivora-grantsaui-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

@@ -99,9 +99,11 @@
     {
       "scientificName": "Ateles chamek",
       "name": "Macaco-aranha-de-cara-preta",
-      "why": "Citado no decreto de criação como espécie ameaçada que o parque deve proteger.",
+      "why": "Os figos podem chegar a quase metade da alimentação do macaco-aranha-de-cara-preta. Citado no decreto de criação como espécie ameaçada que o parque deve proteger.",
       "sourceIds": [
-        "decreto"
+        "decreto",
+        "perfil-ateles-chamek-1",
+        "perfil-ateles-chamek-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ateles_chamek.jpg/1920px-Ateles_chamek.jpg",
@@ -139,9 +141,12 @@
     {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "Uma das espécies ameaçadas que o parque foi criado para salvaguardar.",
+      "why": "A densidade de onças varia muito: na Reserva Mamirauá (AM) chega a quase 10 por 100 km², e na Reserva do Cuieiras fica abaixo de 1. Uma das espécies ameaçadas que o parque foi criado para salvaguardar.",
       "sourceIds": [
-        "decreto"
+        "decreto",
+        "perfil-panthera-onca-1",
+        "perfil-panthera-onca-2",
+        "perfil-panthera-onca-3"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1920px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
@@ -178,6 +183,41 @@
       "title": "Nota de pesar: Índio Tanaru",
       "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2022-02/nota-de-pesar-indio-tanaru",
       "accessed": "2026-10-22"
+    },
+    {
+      "institution": "ICMBio / CPB",
+      "title": "Mamíferos: Ateles chamek, macaco-aranha-da-cara-preta (avaliação do risco de extinção)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_ateles_chamek.pdf",
+      "id": "perfil-ateles-chamek-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "New England Primate Conservancy",
+      "title": "Black-faced black spider monkey",
+      "url": "https://neprimateconservancy.org/black-faced-black-spider-monkey/",
+      "id": "perfil-ateles-chamek-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-panthera-onca-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Áreas protegidas da Amazônia abrigam mais de seis mil onças-pintadas, aponta estudo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/areas-protegidas-da-amazonia-abrigam-mais-de-seis-mil-oncas-pintadas-aponta-estudo",
+      "id": "perfil-panthera-onca-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Panthera onca (jaguar)",
+      "url": "https://animaldiversity.org/accounts/Panthera_onca/",
+      "id": "perfil-panthera-onca-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

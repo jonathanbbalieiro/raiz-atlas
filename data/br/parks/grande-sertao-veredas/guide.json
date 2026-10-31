@@ -96,7 +96,7 @@
         "sourceUrl": "https://scontent-bsb1-1.cdninstagram.com/v/t51.71878-15/497279075_1328323331561967_3296940743125585398_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=103&ig_cache_key=MzI2NDQxNTExNTU3OTAwMjAyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjU0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=odP6U_LRi2QQ7kNvwFq5QTb&_nc_oc=AdqS_OsIdUfhUAIloxGprEzhS91czveuBSUsYNVAT-6znhO6fra9L-MB_C4MQqQ53JbHlbZjm_AG7Mzg8SEOdDMY&_nc_zt=23&_nc_ht=scontent-bsb1-1.cdninstagram.com&_nc_gid=GiCqMqt6lXBCluYWJWw9-A&_nc_ss=7b6a8&oh=00_AQSsJ1byPzPbh4sl4h0FETLD_ufAzRdG09_MZeuCcbPvCg&oe=6AEA6BD5",
         "width": 540,
         "height": 960,
-        "context": "Quadro de vídeo indicado pelo responsável como vista do Mirante Três Irmãos, no Parque Nacional Grande Sertão Veredas. Autor e publicação original do Instagram não individualizados; resolução original preservada. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Cerrado e serras vistos do Mirante Três Irmãos."
       }
     },
     {
@@ -228,17 +228,21 @@
     {
       "scientificName": "Ozotoceros bezoarticus",
       "name": "Veado-campeiro",
-      "why": "Veado dos campos abertos, registrado dentro do parque.",
+      "why": "O veado-campeiro troca a galhada todos os anos, no meio do inverno. Veado dos campos abertos, registrado dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ozotoceros-bezoarticus-1",
+        "perfil-ozotoceros-bezoarticus-2"
       ]
     },
     {
       "scientificName": "Ara ararauna",
       "name": "Arara-canindé",
-      "why": "Arara azul e amarela dos buritizais, com registros dentro do parque.",
+      "why": "Os jovens têm asas e cauda marrom-acinzentadas e olhos pardos. Arara azul e amarela dos buritizais, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ara-ararauna-1",
+        "perfil-ara-ararauna-2"
       ]
     }
   ],
@@ -298,6 +302,34 @@
       "title": "Marina B. Klink: uma jornada imersiva no coração do Cerrado",
       "url": "https://forbes.com.br/colunas/2026/04/marina-b-klink-uma-jornada-imersiva-no-coracao-do-cerrado/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ozotoceros-bezoarticus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Ozotoceros bezoarticus (Pampas deer)",
+      "url": "https://animaldiversity.org/accounts/Ozotoceros_bezoarticus/",
+      "id": "perfil-ozotoceros-bezoarticus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Zoológico de Brasília (Governo do Distrito Federal)",
+      "title": "Arara-canindé (Ara ararauna)",
+      "url": "https://www.zoo.df.gov.br/arara-caninde-ara-ararauna",
+      "id": "perfil-ara-ararauna-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Guia de identificação de aves traficadas (Plano de Ação Nacional para a Conservação das Aves da Mata Atlântica)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/2019-pan-aves-da-mata-atlantica-guia-identificacao-aves-traficadas.pdf",
+      "id": "perfil-ara-ararauna-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

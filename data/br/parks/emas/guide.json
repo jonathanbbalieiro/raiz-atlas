@@ -190,18 +190,22 @@
     {
       "scientificName": "Ozotoceros bezoarticus",
       "name": "Veado-campeiro",
-      "why": "Cervo dos campos, quase ameaçado segundo a IUCN e registrado dentro do parque.",
+      "why": "O veado-campeiro troca a galhada todos os anos, no meio do inverno. Cervo dos campos, quase ameaçado segundo a IUCN e registrado dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ozotoceros-bezoarticus-1",
+        "perfil-ozotoceros-bezoarticus-2"
       ]
     },
     {
       "scientificName": "Taoniscus nanus",
       "name": "Inhambu-carapé",
-      "why": "Em perigo segundo a IUCN e protegida pelo parque.",
+      "why": "O Livro Vermelho aponta que a intensa urbanização do Distrito Federal parece ter causado efeitos negativos nas populações e contribuído para a escassez regional da ave. Em perigo segundo a IUCN e protegida pelo parque.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "gbif",
+        "perfil-taoniscus-nanus-1",
+        "perfil-taoniscus-nanus-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/349350838/large.jpeg",
@@ -272,6 +276,34 @@
       "title": "Mais de 132 mil hectares preservam campos, veredas e matas ciliares do Cerrado (Parque Nacional das Emas)",
       "url": "https://catracalivre.com.br/noticias/mais-de-132-mil-hectares-preservam-campos-veredas-e-matas-ciliares-do-cerrado-o-parque-entre-goias-e-mato-grosso-do-sul-que-protege-lobo-guara-tamandua-bandeira-onca-pintada-e-tatu-canastra/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ozotoceros-bezoarticus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Ozotoceros bezoarticus (Pampas deer)",
+      "url": "https://animaldiversity.org/accounts/Ozotoceros_bezoarticus/",
+      "id": "perfil-ozotoceros-bezoarticus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III - Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-taoniscus-nanus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+      "title": "Sumário Executivo do Plano de Ação Nacional para a Conservação das Aves do Cerrado e Pantanal",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-aves-do-cerrado-e-pantanal/1-ciclo/pan-aves-do-cerrado-pantanal-sumario.pdf",
+      "id": "perfil-taoniscus-nanus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

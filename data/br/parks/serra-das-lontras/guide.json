@@ -168,18 +168,22 @@
     {
       "scientificName": "Scytalopus gonzagai",
       "name": "Tapaculo-preto-baiano",
-      "why": "Pássaro em perigo de extinção, com registros dentro do parque.",
+      "why": "A espécie ficou por mais de 20 anos confundida com outra, até que o canto e a plumagem mostraram que era diferente. Pássaro em perigo de extinção, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-scytalopus-gonzagai-1",
+        "perfil-scytalopus-gonzagai-2"
       ]
     },
     {
       "scientificName": "Carpornis melanocephala",
       "name": "Sabiá-pimenta",
-      "why": "Ave ameaçada da Mata Atlântica, protegida pelo parque e registrada ali.",
+      "why": "O nome científico significa pássaro-das-frutas de cabeça negra. Ave ameaçada da Mata Atlântica, protegida pelo parque e registrada ali.",
       "sourceIds": [
         "icmbio",
-        "gbif"
+        "gbif",
+        "perfil-carpornis-melanocephala-1",
+        "perfil-carpornis-melanocephala-2"
       ]
     }
   ],
@@ -225,6 +229,34 @@
       "title": "Ficha de Callicebus melanochir (primatas brasileiros)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/PITHECIIDAE/ficha_callicebus_melanochir.pdf",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Mongabay",
+      "title": "New endangered bird species discovered in Brazil",
+      "url": "https://news.mongabay.com/2014/12/new-endangered-bird-species-discovered-in-brazil/",
+      "id": "perfil-scytalopus-gonzagai-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Scientific American",
+      "title": "Deforestation Threatens Newly Identified Bird in Brazil",
+      "url": "https://www.scientificamerican.com/blog/extinction-countdown/deforestation-threatens-newly-identified-bird-in-brazil/",
+      "id": "perfil-scytalopus-gonzagai-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "Sabiá-pimenta: sobrevivência nos olhos e refresco (série Espécies em Risco)",
+      "url": "https://oeco.org.br/noticias/28501-sabia-pimenta-sobrevivencia-nos-olhos-e-refresco/",
+      "id": "perfil-carpornis-melanocephala-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "WikiAves",
+      "title": "sabiá-pimenta (Carpornis melanocephala)",
+      "url": "https://www.wikiaves.com.br/wiki/sabia-pimenta",
+      "id": "perfil-carpornis-melanocephala-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

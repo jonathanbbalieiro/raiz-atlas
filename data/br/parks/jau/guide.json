@@ -111,7 +111,7 @@
         "sourceUrl": "https://www.brasil247.com/tendencias/2026/10/29/os-petroglifos-do-jau-so-aparecem-na-seca-na-entrada-do-parque-amazonico-pedras-gravadas-e-uma-cidade-abandonada-contam-a-historia-do-rio-negro/",
         "width": 1200,
         "height": 720,
-        "context": "Imagem atribuída aos petróglifos do Jaú na reportagem Brasil 247 enviada pelo responsável. A publicação cita Wikimedia Commons, mas não foi localizado o arquivo original nem o fotógrafo; essa atribuição não confirma uma licença livre. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Imagem de petróglifos em rochas junto à água atribuída ao Jaú pela publicação."
       }
     }
   ],
@@ -227,7 +227,7 @@
     },
     {
       "scientificName": "Bertholletia excelsa",
-      "name": "Castanheira-do-pará",
+      "name": "Castanheira-do-brasil",
       "criteria": [
         "icone_da_paisagem"
       ],
@@ -240,9 +240,11 @@
     {
       "scientificName": "Nyctibius leucopterus",
       "name": "Urutau-de-asa-branca",
-      "why": "Tem registro no parque, e o plano de manejo o classifica como criticamente em perigo.",
+      "why": "Até a década de 1980 a espécie era conhecida apenas por peles de museu, quase todas sem localidade precisa. Tem registro no parque, e o plano de manejo o classifica como criticamente em perigo.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-nyctibius-leucopterus-1",
+        "perfil-nyctibius-leucopterus-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Nyctibius_leucopterus_White-winged_Potoo%3B_Presidente_Figueiredo%2C_Amazonas%2C_Brazil_%28cropped%29.jpg/1920px-Nyctibius_leucopterus_White-winged_Potoo%3B_Presidente_Figueiredo%2C_Amazonas%2C_Brazil_%28cropped%29.jpg",
@@ -260,9 +262,11 @@
     {
       "scientificName": "Inia geoffrensis",
       "name": "Boto-cor-de-rosa",
-      "why": "Aparece nos rios do parque e está entre as espécies ameaçadas registradas na unidade.",
+      "why": "A cor rosada dos adultos vem de cicatrizes e abrasão em brigas, que despigmentam a pele; os filhotes são cinza-escuros. Aparece nos rios do parque e está entre as espécies ameaçadas registradas na unidade.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-inia-geoffrensis-1",
+        "perfil-inia-geoffrensis-2"
       ]
     }
   ],
@@ -308,6 +312,34 @@
       "title": "Parque Nacional do Jaú",
       "url": "https://portalamazonia.com/amazonia-de-a-a-z/parque-nacional-do-jau/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III (Aves): Nyctibius leucopterus",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-nyctibius-leucopterus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Bulletin of the British Ornithologists' Club",
+      "title": "Discovery of White-winged Potoo Nyctibius leucopterus in Espirito Santo, Brazil, with remarks on its distribution and conservation in the Atlantic Forest (Costa et al., 2010)",
+      "url": "https://biostor.org/reference/145796",
+      "id": "perfil-nyctibius-leucopterus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume II – Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-inia-geoffrensis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Folha de Pernambuco",
+      "title": "Botos do Amapá têm comportamento inusitado e habitat inesperado, mostra pesquisa",
+      "url": "https://www.folhape.com.br/noticias/botos-do-amapa-tem-comportamento-inusitado-e-habitat-inesperado/191523/",
+      "id": "perfil-inia-geoffrensis-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

@@ -246,9 +246,11 @@
     {
       "scientificName": "Ozotoceros bezoarticus",
       "name": "Veado-campeiro",
-      "why": "Cervo dos campos abertos, com registros dentro do parque e classificado como quase ameaçado pela IUCN.",
+      "why": "O veado-campeiro troca a galhada todos os anos, no meio do inverno. Cervo dos campos abertos, com registros dentro do parque e classificado como quase ameaçado pela IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ozotoceros-bezoarticus-1",
+        "perfil-ozotoceros-bezoarticus-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Veado-campeiro_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28002%29.jpg/1920px-Veado-campeiro_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28002%29.jpg",
@@ -265,9 +267,11 @@
     {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Vulnerável segundo a IUCN, é um dos mamíferos que dependem das grandes áreas contínuas do parque.",
+      "why": "Num estudo no Cerrado de Mato Grosso do Sul, cupins apareciam em 93% das amostras e formigas em todos os animais analisados. Vulnerável segundo a IUCN, é um dos mamíferos que dependem das grandes áreas contínuas do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-myrmecophaga-tridactyla-1",
+        "perfil-myrmecophaga-tridactyla-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28001%29.jpg/1920px-Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28001%29.jpg",
@@ -345,6 +349,34 @@
       "title": "Serra da Canastra: diversidade infinita",
       "url": "https://oeco.org.br/colunas/25202-serra-da-canastra-diversidade-infinita/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ozotoceros-bezoarticus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Ozotoceros bezoarticus (Pampas deer)",
+      "url": "https://animaldiversity.org/accounts/Ozotoceros_bezoarticus/",
+      "id": "perfil-ozotoceros-bezoarticus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Ficha da espécie Myrmecophaga tridactyla (Avaliação do Risco de Extinção, SALVE)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/ficha-myrmecophaga-tridactyla.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional de Tamanduá-bandeira (Myrmecophaga tridactyla)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/programa_de_manejo_tamandua_bandeira.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

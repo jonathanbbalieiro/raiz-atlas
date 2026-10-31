@@ -210,9 +210,11 @@
     {
       "scientificName": "Leopardus guttulus",
       "name": "Gato-do-mato-pequeno",
-      "why": "Felino da Mata Atlântica, vulnerável segundo a IUCN, com registros dentro do parque.",
+      "why": "Indivíduos melânicos, pretos, são comuns, e ainda dá para ver a marca das rosetas. Felino da Mata Atlântica, vulnerável segundo a IUCN, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-leopardus-guttulus-1",
+        "perfil-leopardus-guttulus-2"
       ]
     },
     {
@@ -315,6 +317,20 @@
       "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
       "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "Zoo de Brasília (Governo do Distrito Federal)",
+      "title": "Gato-do-mato-pequeno",
+      "url": "https://www.zoo.df.gov.br/gato-do-mato-pequeno",
+      "id": "perfil-leopardus-guttulus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Biodiversity and Conservation",
+      "title": "Prioritizing conservation areas to mitigate connectivity loss and local extinction risk of a small carnivore (Leopardus guttulus) in South America",
+      "url": "https://doi.org/10.1007/s10531-024-02817-w",
+      "id": "perfil-leopardus-guttulus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

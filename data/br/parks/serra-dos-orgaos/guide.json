@@ -202,9 +202,11 @@
     {
       "scientificName": "Brachycephalus ephippium",
       "name": "Pingo-de-ouro",
-      "why": "Sapinho alaranjado do chão da Mata Atlântica, com registros dentro do parque.",
+      "why": "A cor viva funciona como aviso: é o que os cientistas chamam de coloração aposemática. Sapinho alaranjado do chão da Mata Atlântica, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-brachycephalus-ephippium-1",
+        "perfil-brachycephalus-ephippium-2"
       ]
     },
     {
@@ -291,6 +293,20 @@
       "title": "Programa de Manejo Populacional: Muriqui-do-sul",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/muriqui-do-sul",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Museu Nacional / UFRJ",
+      "title": "Nomes científicos de anfíbios do Brasil são explicados em nova publicação",
+      "url": "https://harpia.mn.ufrj.br/etimologia/",
+      "id": "perfil-brachycephalus-ephippium-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Conselho Regional de Biologia (CRBio-05)",
+      "title": "Pesquisadores da UFV descobrem nova espécie de sapo e homenageiam banda de rock",
+      "url": "https://www.crbio05.gov.br/site/noticias-detalhe/pesquisadores-da-ufv-descobrem-nova-especie-de-sapo-e-homenageiam-banda-de-rock/4206",
+      "id": "perfil-brachycephalus-ephippium-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

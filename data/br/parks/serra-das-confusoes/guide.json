@@ -225,10 +225,12 @@
     {
       "scientificName": "Megaxenops parnaguae",
       "name": "Bico-virado-da-caatinga",
-      "why": "Ave endêmica da Caatinga, muito dependente do seu habitat, registrada dentro do parque.",
+      "why": "O nome científico quer dizer, aproximadamente, grande xenops de Parnaguá. Ave endêmica da Caatinga, muito dependente do seu habitat, registrada dentro do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-megaxenops-parnaguae-1",
+        "perfil-megaxenops-parnaguae-2"
       ]
     },
     {
@@ -243,10 +245,12 @@
     {
       "scientificName": "Kerodon rupestris",
       "name": "Mocó",
-      "why": "Roedor das pedras, típico da Caatinga, registrado nos levantamentos do parque.",
+      "why": "O mocó está na base da cadeia alimentar de predadores da Caatinga, como onça-pintada, onça-parda e jaguatirica. Roedor das pedras, típico da Caatinga, registrado nos levantamentos do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-kerodon-rupestris-1",
+        "perfil-kerodon-rupestris-2"
       ]
     }
   ],
@@ -320,6 +324,34 @@
       "title": "Decreto nº 13.017, de 10 de junho de 2026 — ampliação do Parque Nacional da Serra das Confusões",
       "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d13017.htm",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "WikiAves",
+      "title": "bico-virado-da-caatinga (Megaxenops parnaguae)",
+      "url": "https://www.wikiaves.com.br/wiki/bico-virado-da-caatinga",
+      "id": "perfil-megaxenops-parnaguae-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Biota Neotropica (SciELO)",
+      "title": "As aves da Estação Ecológica Serra Geral do Tocantins, Centro do Brasil",
+      "url": "https://www.scielo.br/j/bn/a/R6jQ4RvqYnQx5WVzTThvh8d/?lang=pt",
+      "id": "perfil-megaxenops-parnaguae-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume II – Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-kerodon-rupestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "PLOS ONE / PubMed Central",
+      "title": "Assessing anthropogenic impact on the habitat of threatened rock cavy (Kerodon rupestris) through its alarm calls",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12124852/",
+      "id": "perfil-kerodon-rupestris-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

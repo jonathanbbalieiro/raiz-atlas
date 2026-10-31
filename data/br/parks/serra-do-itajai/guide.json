@@ -151,7 +151,7 @@
         "papel_ecologico",
         "ameacada_com_acao"
       ],
-      "why": "O plano de manejo registrou uma fêmea com filhote no parque e o define como espécie guarda-chuva. O projeto Pró-Carnívoros o tomou como foco e apontou a caça e o conflito com a pecuária como principais ameaças na unidade.",
+      "why": "Uma fêmea acompanhada do filhote já foi registrada nesta floresta. A onça-parda precisa de grandes áreas para viver: proteger seus caminhos também conserva a mata e muitos outros animais que dividem esse espaço.",
       "sourceIds": [
         "pm",
         "fl-75f1e20c"
@@ -164,7 +164,7 @@
         "papel_ecologico",
         "icone_da_paisagem"
       ],
-      "why": "O plano de manejo encontrou milhares de estipes cortados nas encostas por extração clandestina, mas também densas populações onde não houve corte. Seu fruto alimenta a fauna no outono e inverno. A Flora do Brasil o registra como nativo da Mata Atlântica.",
+      "why": "No outono e no inverno, os frutos da juçara ajudam a alimentar os animais da mata. Onde escapou da extração de palmito, a palmeira ainda forma grandes conjuntos nas encostas, mostrando como seria uma floresta com alimento em abundância.",
       "sourceIds": [
         "pm",
         "fl-d5edac83"
@@ -189,7 +189,7 @@
         "habitat_critico",
         "ameacada_com_acao"
       ],
-      "why": "No Faxinal do Bepe, em Indaial, o plano de manejo descreve densos núcleos de xaxim com indivíduos de cerca de 10 m e mais de 50 cm de diâmetro, espécie vulnerável por décadas de extração para vasos. A Flora do Brasil a registra como nativa em Santa Catarina.",
+      "why": "No Faxinal do Bepe, os xaxins formam um pequeno mundo de samambaias gigantes: alguns chegam a cerca de dez metros de altura. Muito explorados para fabricar vasos, encontram aqui um refúgio para continuar crescendo.",
       "sourceIds": [
         "pm",
         "fl-53a29b7a"
@@ -209,18 +209,23 @@
     {
       "scientificName": "Leopardus pardalis",
       "name": "Jaguatirica",
-      "why": "Felino que depende de grandes áreas de floresta, citado entre as espécies ameaçadas do parque.",
+      "why": "Os filhotes nascem com olhos azuis, que ficam marrons por volta dos três meses. Felino que depende de grandes áreas de floresta, citado entre as espécies ameaçadas do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-leopardus-pardalis-1",
+        "perfil-leopardus-pardalis-2"
       ]
     },
     {
       "scientificName": "Amazona vinacea",
       "name": "Papagaio-de-peito-roxo",
-      "why": "Ave em perigo de extinção com registros dentro do parque.",
+      "why": "O censo de 2015 foi marcado para o início de maio, quando a oferta de pinhão é maior e os papagaios se concentram. Ave em perigo de extinção com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-amazona-vinacea-1",
+        "perfil-amazona-vinacea-2",
+        "perfil-amazona-vinacea-3"
       ]
     }
   ],
@@ -266,6 +271,41 @@
       "title": "Registro de Dicksonia sellowiana (nome aceito, origem, distribuição)",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Dicksonia%20sellowiana",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Embrapa Gado de Corte",
+      "title": "Jaguatirica, Leopardus pardalis (Fauna e Flora do Cerrado)",
+      "url": "https://cloud.cnpgc.embrapa.br/faunaeflora/mamiferos/jaguatirica-leopardus-pardalis/",
+      "id": "perfil-leopardus-pardalis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Zoológico de Brasília (Governo do Distrito Federal)",
+      "title": "Jaguatirica",
+      "url": "https://www.zoo.df.gov.br/jaguatirica",
+      "id": "perfil-leopardus-pardalis-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-amazona-vinacea-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Censo do papagaio-de-peito-roxo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/censo-do-papagaio-de-peito-roxo",
+      "id": "perfil-amazona-vinacea-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Quinze papagaios-de-peito-roxo são reintroduzidos no Parque Nacional das Araucárias",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/quinze-papagaios-de-peito-roxo-sao-reintroduzidos-no-parque-nacional-das-araucarias",
+      "id": "perfil-amazona-vinacea-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

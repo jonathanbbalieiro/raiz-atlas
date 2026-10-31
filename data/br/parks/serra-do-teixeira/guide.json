@@ -121,17 +121,21 @@
     {
       "scientificName": "Kerodon rupestris",
       "name": "Mocó",
-      "why": "Roedor das pedras, típico da Caatinga, com registros dentro do parque.",
+      "why": "O mocó está na base da cadeia alimentar de predadores da Caatinga, como onça-pintada, onça-parda e jaguatirica. Roedor das pedras, típico da Caatinga, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-kerodon-rupestris-1",
+        "perfil-kerodon-rupestris-2"
       ]
     },
     {
       "scientificName": "Cedrela odorata",
       "name": "Cedro-cheiroso",
-      "why": "Árvore criticamente ameaçada, segundo a IUCN, registrada dentro do parque.",
+      "why": "O nome cedro vem do grego kedros, ligado ao costume de queimar o lenho para perfumar ambientes. Árvore criticamente ameaçada, segundo a IUCN, registrada dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-cedrela-odorata-1",
+        "perfil-cedrela-odorata-2"
       ]
     }
   ],
@@ -163,6 +167,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume II – Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-kerodon-rupestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "PLOS ONE / PubMed Central",
+      "title": "Assessing anthropogenic impact on the habitat of threatened rock cavy (Kerodon rupestris) through its alarm calls",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12124852/",
+      "id": "perfil-kerodon-rupestris-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Embrapa Florestas",
+      "title": "Cedro-vermelho: Cedrela odorata (Espécies Arbóreas Brasileiras, vol. 4)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1139862/1/Especies-Arboreas-Brasileiras-vol-4-Cedro-Vermelho.pdf",
+      "id": "perfil-cedrela-odorata-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "CNCFlora / Jardim Botânico do Rio de Janeiro",
+      "title": "Cedrela odorata L.",
+      "url": "https://proflora.jbrj.gov.br/html/Cedrela%20odorata_2012.html",
+      "id": "perfil-cedrela-odorata-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

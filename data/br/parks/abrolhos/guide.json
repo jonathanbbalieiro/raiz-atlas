@@ -173,7 +173,7 @@
         "endemica",
         "habitat_critico"
       ],
-      "why": "É o coral mais conspícuo nos recifes rasos de Abrolhos, onde crescem os chapeirões, estruturas em forma de cogumelo cujas comunidades têm mais diversidade e cobertura de corais que os recifes de franja. O gênero Mussismilia é endêmico do Brasil.",
+      "why": "Nos recifes rasos de Abrolhos, o coral-cérebro chama a atenção entre os chapeirões, torres de coral que lembram enormes cogumelos. Essas construções vivas abrigam uma grande variedade de corais e dão ao mar do parque sua paisagem tão particular.",
       "sourceIds": [
         "fl-69d359a4",
         "fl-1c1f1a28"
@@ -186,7 +186,7 @@
         "endemica",
         "papel_ecologico"
       ],
-      "why": "Peixe-papagaio endêmico do Brasil e listado como Em Perigo pela IUCN; a maior parte da população remanescente está concentrada no Banco dos Abrolhos. Os indivíduos acima de 40 cm escavam o substrato dos recifes ao se alimentar.",
+      "why": "Ao se alimentar, os maiores peixes-papagaio-azuis chegam a raspar e escavar a superfície dos recifes. Só encontrado no Brasil, esse peixe tem no Banco dos Abrolhos um de seus últimos grandes refúgios.",
       "sourceIds": [
         "fl-e20c8db9",
         "fl-62a5f3c7"
@@ -195,9 +195,11 @@
     {
       "scientificName": "Eretmochelys imbricata",
       "name": "Tartaruga-de-pente",
-      "why": "Uma das tartarugas marinhas ameaçadas que se alimentam e descansam no parque.",
+      "why": "A carapaça pode chegar a 114 cm de comprimento no Brasil. Uma das tartarugas marinhas ameaçadas que se alimentam e descansam no parque.",
       "sourceIds": [
-        "icmbio-visitacao"
+        "icmbio-visitacao",
+        "perfil-eretmochelys-imbricata-1",
+        "perfil-eretmochelys-imbricata-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg/1920px-Tortuga_carey_%28Eretmochelys_imbricata%29%2C_parque_nacional_Ras_Muhammad%2C_Egipto%2C_2022-03-28%2C_DD_56.jpg",
@@ -275,6 +277,20 @@
       "title": "Scarus trispinosus: revisão da espécie na costa brasileira (2025)",
       "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2025.1557132/full",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Projeto Tamar",
+      "title": "Tartaruga-de-pente ou Tartaruga-legítima",
+      "url": "https://www.tamar.org.br/tartaruga.php?cod=19",
+      "id": "perfil-eretmochelys-imbricata-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Projeto Tamar",
+      "title": "Rio Grande do Norte é o segundo sítio de desova da tartaruga-de-pente",
+      "url": "https://tamar.org.br/noticia1.php?cod=238",
+      "id": "perfil-eretmochelys-imbricata-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

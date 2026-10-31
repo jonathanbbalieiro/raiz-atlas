@@ -156,7 +156,7 @@
         "ameacada_com_acao",
         "habitat_critico"
       ],
-      "why": "O decreto de criação do parque cita o muriqui-do-norte como espécie-alvo: a unidade protege o complexo de serras do Alto Cariri, remanescente contínuo de Mata Atlântica em Guaratinga, para manter populações viáveis de mamíferos e aves ameaçados.",
+      "why": "As serras do Alto Cariri guardam uma faixa contínua de Mata Atlântica onde o muriqui-do-norte encontra espaço para viver. Proteger esse macaco foi uma das razões para criar o parque: sua sobrevivência depende de manter a floresta de pé e conectada.",
       "sourceIds": [
         "fl-66c6e042",
         "fl-6a4c8cc2"
@@ -177,27 +177,35 @@
     {
       "scientificName": "Cotinga maculata",
       "name": "Crejoá",
-      "why": "Ave criticamente ameaçada citada no plano de manejo e registrada no parque.",
+      "why": "Ele aparece na lista brasileira de animais ameaçados desde 1969, a primeira edição da lista. Ave criticamente ameaçada citada no plano de manejo e registrada no parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-cotinga-maculata-1",
+        "perfil-cotinga-maculata-2",
+        "perfil-cotinga-maculata-3"
       ]
     },
     {
       "scientificName": "Amazona rhodocorytha",
       "name": "Papagaio-chauá",
-      "why": "Papagaio ameaçado da Mata Atlântica, com registros dentro do parque.",
+      "why": "A população mais representativa está no Espírito Santo, onde foram contados 2.295 chauás ao longo de três anos de incursões a campo. Papagaio ameaçado da Mata Atlântica, com registros dentro do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-amazona-rhodocorytha-1",
+        "perfil-amazona-rhodocorytha-2",
+        "perfil-amazona-rhodocorytha-3"
       ]
     },
     {
       "scientificName": "Pyrrhura cruentata",
       "name": "Tiriba-grande",
-      "why": "Periquito vulnerável, registrado no parque.",
+      "why": "Ela usa os ocos das árvores tanto para fazer o ninho quanto para dormir, por isso a paralisação do desmatamento é considerada fundamental para ela. Periquito vulnerável, registrado no parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-pyrrhura-cruentata-1",
+        "perfil-pyrrhura-cruentata-2"
       ]
     }
   ],
@@ -236,6 +244,62 @@
       "title": "PARNA do Alto Cariri (Unidades de Conservação no Brasil)",
       "url": "https://uc.socioambiental.org/arp/5140",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio / Sistema SALVE",
+      "title": "Ficha de avaliação do risco de extinção: Cotinga maculata",
+      "url": "https://salve.icmbio.gov.br/salve-api/api/fichaEspecie?sqFichaVersao=17854&language=pt-br&download=true&cache=true",
+      "id": "perfil-cotinga-maculata-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "SAVE Brasil",
+      "title": "Drone térmico ajuda pesquisadores a localizar uma das aves mais raras da Mata Atlântica no sul da Bahia",
+      "url": "https://www.savebrasil.org.br/post/drone-t%C3%A9rmico-ajuda-pesquisadores-a-localizar-uma-das-aves-mais-raras-da-mata-atl%C3%A2ntica-no-sul-da-ba",
+      "id": "perfil-cotinga-maculata-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Olhar Digital",
+      "title": "8 aves curiosas que só podem ser encontradas no Brasil",
+      "url": "https://olhardigital.com.br/2025/04/08/ciencia-e-espaco/8-aves-curiosas-que-so-podem-ser-encontradas-no-brasil/",
+      "id": "perfil-cotinga-maculata-3",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III - Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-amazona-rhodocorytha-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Programa Papagaios do Brasil / ICMBio (PAN Papagaios)",
+      "title": "Manual de Identificação dos papagaios do Programa Papagaios do Brasil",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-papagaios/2-ciclo/produtos/2021-pan-papagaios-manual-de-identificacao-dos-papagaios-do-programa-papagaios-do-brasil.pdf",
+      "id": "perfil-amazona-rhodocorytha-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "Chauá, o papagaio de muitos apelidos",
+      "url": "https://www.oeco.org.br/blogs/especies-em-risco/27911-chaua-o-papagaio-de-muitos-apelidos/",
+      "id": "perfil-amazona-rhodocorytha-3",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-pyrrhura-cruentata-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Guia de identificação de aves traficadas (Plano de Ação Nacional para a Conservação das Aves da Mata Atlântica)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/2019-pan-aves-da-mata-atlantica-guia-identificacao-aves-traficadas.pdf",
+      "id": "perfil-pyrrhura-cruentata-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

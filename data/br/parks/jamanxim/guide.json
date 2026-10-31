@@ -138,7 +138,7 @@
   "flagships": [
     {
       "scientificName": "Ateles marginatus",
-      "name": "Cuamba (macaco-aranha-de-cara-branca)",
+      "name": "Macaco-aranha-de-cara-branca",
       "why": "Em perigo e restrito ao miolo entre Tapajós, Xingu e Teles Pires, depende da floresta contínua que o parque mantém.",
       "sourceIds": [
         "pm"
@@ -166,9 +166,11 @@
     {
       "scientificName": "Guaruba guarouba",
       "name": "Ararajuba",
-      "why": "Vulnerável, está entre as aves cujo trânsito pelo corredor do parque ajuda a manter o fluxo genético.",
+      "why": "O bando é cooperativo: enquanto uns se alimentam, outros ficam na copa como vigias. Vulnerável, está entre as aves cujo trânsito pelo corredor do parque ajuda a manter o fluxo genético.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-guaruba-guarouba-1",
+        "perfil-guaruba-guarouba-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/706177489/original.jpg",
@@ -212,6 +214,20 @@
       "title": "Lei 13.452/2017 (altera os limites do Parque Nacional do Jamanxim)",
       "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13452.htm",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "Ararajuba, o pássaro tão especial quanto o ouro",
+      "url": "https://oeco.org.br/noticias/27684-ararajuba-o-passaro-tao-especial-quanto-o-ouro/",
+      "id": "perfil-guaruba-guarouba-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Ideflor-Bio (Governo do Pará)",
+      "title": "Reintrodução e Monitoramento da Ararajuba",
+      "url": "https://ideflorbio.pa.gov.br/reintroducao-e-monitoramento-da-ararajuba/",
+      "id": "perfil-guaruba-guarouba-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

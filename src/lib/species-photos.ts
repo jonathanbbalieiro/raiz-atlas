@@ -1,6 +1,7 @@
 import type { Biodiversity, ParkGuide, Photo, SpeciesCard } from "./data/types";
 import { photoIsPubliclyReusable } from "./photos";
 import { mergeSpecies } from "./species-search";
+import speciesNames from "../../data/br/species-names.json";
 
 const taxonKey = (name: string) => name.trim().toLowerCase().replace(/\s+/g, " ");
 type SpeciesDataset = { biodiversity?: Biodiversity; guide?: ParkGuide };
@@ -12,6 +13,9 @@ export type PhotoReview = {
 
 export function applySpeciesPhotoReview<T extends SpeciesDataset>(park: T, review: PhotoReview): T {
   const clean = <S extends { scientificName: string; photo?: Photo | null }>(species: S): S => {
+    const names: Record<string, string> = speciesNames;
+    const name = names[species.scientificName];
+    if (name) species = { ...species, name };
     const selected = review.photos[species.scientificName];
     const rejected = review.rejected.some((entry) => taxonKey(entry.scientificName) === taxonKey(species.scientificName) && entry.sourceUrl === species.photo?.sourceUrl);
     return selected ? { ...species, photo: selected } : rejected ? { ...species, photo: null } : species;
@@ -71,7 +75,7 @@ export function buildSpeciesPhotoCatalog(parks: SpeciesDataset[]): Map<string, P
     for (const species of candidates) {
       const photo = species.photo;
       const key = taxonKey(species.scientificName);
-      if (!photo || !photoIsPubliclyReusable(photo) || (photo.width ?? 0) < 960 ||
+      if (!photo || !photoIsPubliclyReusable(photo) || (photo.width ?? 0) <= 0 ||
         !photo.author.trim() || /desconhecid|unknown/i.test(photo.author) ||
         !taxonKey(photo.alt).includes(key)) continue;
       const previous = catalog.get(key);
@@ -83,13 +87,14 @@ export function buildSpeciesPhotoCatalog(parks: SpeciesDataset[]): Map<string, P
   return catalog;
 }
 
+/** Uma imagem por táxon em todos os parques, com prioridade para a curadoria. */
 export function fillSpeciesPhotoGaps<T extends SpeciesDataset>(park: T, catalog: Map<string, Photo>): T {
   const find = (scientificName: string) => {
     const photo = catalog.get(taxonKey(scientificName));
-    return photo ? { ...photo, context: `Fotografia ilustrativa de ${scientificName}. Pode ter sido feita fora deste parque; a ocorrência é sustentada pelo levantamento ou pela fonte editorial, não pela imagem.` } : undefined;
+    return photo ? { ...photo, context: `Fotografia ilustrativa de ${scientificName}, feita fora deste parque.` } : undefined;
   };
   const fill = <S extends { scientificName: string; photo: Photo | null }>(species: S): S =>
-    species.photo ? species : { ...species, photo: find(species.scientificName) ?? null };
+    ({ ...species, photo: find(species.scientificName) ?? species.photo });
   return {
     ...park,
     biodiversity: park.biodiversity && {
@@ -100,8 +105,7 @@ export function fillSpeciesPhotoGaps<T extends SpeciesDataset>(park: T, catalog:
     guide: park.guide && {
       ...park.guide,
       flagships: park.guide.flagships.map((s) => {
-        if (s.photo || resolveFlagshipCard(s, park.biodiversity)?.photo) return s;
-        return { ...s, photo: find(s.scientificName) };
+        return { ...s, photo: find(s.scientificName) ?? s.photo };
       }),
     },
   };

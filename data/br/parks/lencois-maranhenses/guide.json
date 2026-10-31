@@ -242,17 +242,21 @@
     {
       "scientificName": "Lepidochelys olivacea",
       "name": "Tartaruga-oliva",
-      "why": "Tartaruga marinha vulnerável, com registros no litoral do parque.",
+      "why": "Também é chamada de tartaruga-pequena e xibirro. Tartaruga marinha vulnerável, com registros no litoral do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-lepidochelys-olivacea-1",
+        "perfil-lepidochelys-olivacea-2"
       ]
     },
     {
       "scientificName": "Calidris fuscicollis",
       "name": "Pilrito-de-uropígio-branco",
-      "why": "Ave migratória vulnerável, registrada nas praias e lagoas do parque.",
+      "why": "Na planície do Araguaia, a espécie foi registrada em novembro e de fevereiro a abril, o que indica permanência durante todo o verão do hemisfério sul. Ave migratória vulnerável, registrada nas praias e lagoas do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-calidris-fuscicollis-1",
+        "perfil-calidris-fuscicollis-2"
       ]
     }
   ],
@@ -333,6 +337,34 @@
       "title": "Vascular flora of Lençóis Maranhenses National Park, Maranhão State, Brazil: checklist and phytophysiognomies of restingas",
       "url": "https://www.scielo.br/j/abb/a/Hn6VMvc8ydVKpGdDFT5PtSH/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Fundação Projeto Tamar",
+      "title": "Tartaruga-oliva",
+      "url": "https://www.tamar.org.br/tartaruga.php?cod=21",
+      "id": "perfil-lepidochelys-olivacea-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação das Tartarugas Marinhas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-tartarugas-marinhas/1-ciclo/pan-tartarugas-sumario.pdf",
+      "id": "perfil-lepidochelys-olivacea-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio / CEMAVE",
+      "title": "Relatório de Rotas e Áreas de Concentração de Aves Migratórias no Brasil (3ª edição, 2019)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/relatorios/relatorio_de_rotas_e_areas_de_concentracao_de_aves_migratorias_brasil_3edicao_2019.pdf",
+      "id": "perfil-calidris-fuscicollis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Conservation International Brasil",
+      "title": "Conservação de aves migratórias neárticas no Brasil",
+      "url": "https://ppbio.inpa.gov.br/sites/default/files/Livro_Aves_migratorias_nearticas_no_brasil_Conservation_International.pdf",
+      "id": "perfil-calidris-fuscicollis-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

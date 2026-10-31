@@ -58,7 +58,7 @@
         "sourceUrl": "https://imgs.mongabay.com/wp-content/uploads/sites/29/2026/03/11160913/Concheiros.-Deposito-de-fosseis-1200x800.jpg",
         "width": 1200,
         "height": 800,
-        "context": "Depósito de conchas no Parque Nacional do Albardão, identificado e creditado a Leandro Cagiano na reportagem da Mongabay. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Depósito de conchas na praia do Parque Nacional do Albardão."
       }
     },
     {
@@ -145,7 +145,7 @@
         "ameacada_com_acao",
         "habitat_critico"
       ],
-      "why": "Considerada o cetáceo mais ameaçado do Atlântico Sul Ocidental, é uma das espécies que o Albardão quer proteger. Só em dezembro de 2025, 139 toninhas apareceram mortas na praia do Cassino, em grande parte presas em redes de pesca industrial.",
+      "why": "Pequena e discreta, a toninha quase não salta para fora d’água. Este trecho do litoral é um dos lugares onde sua vida depende de um mar mais seguro: reduzir as capturas acidentais em redes está entre as grandes razões para proteger o Albardão.",
       "sourceIds": [
         "proposta",
         "neomondo",
@@ -158,7 +158,7 @@
       "criteria": [
         "ameacada_com_acao"
       ],
-      "why": "A proposta de criação do parque lista a raia-viola entre os tubarões e raias muito ameaçados da área, ao lado dos cações-anjo e do tubarão-martelo. Redes de emalhe prendem esses animais, e a proteção marinha busca reduzir essas capturas.",
+      "why": "A raia-viola faz parte de um conjunto de raias e tubarões ameaçados que vivem nestas águas. A proteção do Albardão busca dar a esses animais mais espaço para viver, com menos risco de ficarem presos em redes de pesca.",
       "sourceIds": [
         "proposta",
         "fl-1813ebc0"
@@ -171,7 +171,7 @@
         "habitat_critico",
         "papel_ecologico"
       ],
-      "why": "Lobos e leões-marinhos estão entre os mamíferos que a proposta do parque destaca na área, e reportagem os apresenta como atraídos pela fartura de alimento do mar do Albardão, ao lado de baleias e outros predadores.",
+      "why": "A fartura de alimento do mar do Albardão atrai lobos e leões-marinhos, além de baleias. O lobo-marinho-sul-americano é um dos visitantes que revelam a riqueza destas águas frias do extremo sul brasileiro.",
       "sourceIds": [
         "proposta",
         "fl-1813ebc0"
@@ -183,7 +183,7 @@
       "criteria": [
         "habitat_critico"
       ],
-      "why": "A proposta de criação do parque destaca a baleia-franca entre os mamíferos marinhos da área, e reportagem de 2026 lembra que, na migração para reprodução em Santa Catarina, ela usa as águas costeiras da região, onde enfrenta riscos da pesca.",
+      "why": "Na viagem até as águas de Santa Catarina, onde se reproduz, a baleia-franca passa pelo litoral do Albardão. Proteger esse caminho ajuda a cuidar de uma história que atravessa o oceano e se renova a cada filhote.",
       "sourceIds": [
         "proposta",
         "fl-e4bf8bb1"
@@ -192,17 +192,21 @@
     {
       "scientificName": "Caretta caretta",
       "name": "Tartaruga-comum",
-      "why": "A espécie com mais registros dentro do parque. É vulnerável segundo a IUCN.",
+      "why": "A carapaça é óssea, com cinco pares de placas laterais de cor marrom-amarelada. A espécie com mais registros dentro do parque. É vulnerável segundo a IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-caretta-caretta-1",
+        "perfil-caretta-caretta-2"
       ]
     },
     {
       "scientificName": "Procellaria aequinoctialis",
       "name": "Pardelão-de-queixo-branco",
-      "why": "Ave pelágica vulnerável, uma das mais registradas no parque.",
+      "why": "É uma das espécies mais frequentemente capturadas por espinhéis de pesca no Brasil. Ave pelágica vulnerável, uma das mais registradas no parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-procellaria-aequinoctialis-1",
+        "perfil-procellaria-aequinoctialis-2"
       ]
     }
   ],
@@ -248,6 +252,34 @@
       "title": "Albardão: como é o mais novo e maior parque nacional marinho do Brasil",
       "url": "https://www.ecycle.com.br/albardao-como-e-o-mais-novo-e-maior-parque-nacional-marinho-do-brasil/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Fundação Projeto Tamar",
+      "title": "Tartaruga-cabeçuda ou Tartaruga-mestiça",
+      "url": "https://www.tamar.org.br/tartaruga.php?cod=18",
+      "id": "perfil-caretta-caretta-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação das Tartarugas Marinhas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-tartarugas-marinhas/1-ciclo/pan-tartarugas-sumario.pdf",
+      "id": "perfil-caretta-caretta-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III - Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-procellaria-aequinoctialis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Marine Ornithology (University of South Florida Digital Commons)",
+      "title": "Bycatch of White-chinned Petrels Procellaria aequinoctialis in southern Brazil (Santa Catarina Island)",
+      "url": "https://digitalcommons.usf.edu/marine_ornithology/vol49/iss2/6",
+      "id": "perfil-procellaria-aequinoctialis-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

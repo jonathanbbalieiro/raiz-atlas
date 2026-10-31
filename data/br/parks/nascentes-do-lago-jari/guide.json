@@ -118,9 +118,12 @@
     {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "Alvo de conservação do parque: manter onças viáveis protege toda a rede de espécies de que elas dependem.",
+      "why": "A densidade de onças varia muito: na Reserva Mamirauá (AM) chega a quase 10 por 100 km², e na Reserva do Cuieiras fica abaixo de 1. Alvo de conservação do parque: manter onças viáveis protege toda a rede de espécies de que elas dependem.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-panthera-onca-1",
+        "perfil-panthera-onca-2",
+        "perfil-panthera-onca-3"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1920px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
@@ -138,9 +141,11 @@
     {
       "scientificName": "Trichechus inunguis",
       "name": "Peixe-boi-da-amazônia",
-      "why": "Ameaçado, tem populações na unidade, e o plano de manejo quer garantir os hábitats onde vivem.",
+      "why": "Pode chegar a 2,75 metros de comprimento e 420 quilos. Ameaçado, tem populações na unidade, e o plano de manejo quer garantir os hábitats onde vivem.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-trichechus-inunguis-1",
+        "perfil-trichechus-inunguis-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Trichechus_inunguis_%28Peixe-boi_amaz%C3%B4nico%29_por_F%C3%A1bia_Luna_ICMBioCMA.png",
@@ -158,9 +163,11 @@
     {
       "scientificName": "Peltocephalus dumerilianus",
       "name": "Cabeçuda",
-      "why": "Quelônio caçado na região, depende da proteção das áreas de desova do parque.",
+      "why": "Os ninhos são tão bem camuflados entre as folhas que dificilmente são encontrados. Quelônio caçado na região, depende da proteção das áreas de desova do parque.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-peltocephalus-dumerilianus-1",
+        "perfil-peltocephalus-dumerilianus-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Peltocephalus_dumerilianus_Tapajos.jpg/1920px-Peltocephalus_dumerilianus_Tapajos.jpg",
@@ -204,6 +211,55 @@
       "title": "Relatório do CNUC: Parque Nacional Nascentes do Lago Jari",
       "url": "https://cnuc-backend.mma.gov.br/api/v1/report/uc/1626",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-panthera-onca-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Áreas protegidas da Amazônia abrigam mais de seis mil onças-pintadas, aponta estudo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/areas-protegidas-da-amazonia-abrigam-mais-de-seis-mil-oncas-pintadas-aponta-estudo",
+      "id": "perfil-panthera-onca-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Panthera onca (jaguar)",
+      "url": "https://animaldiversity.org/accounts/Panthera_onca/",
+      "id": "perfil-panthera-onca-3",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-trichechus-inunguis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Trichechus inunguis (Amazonian manatee)",
+      "url": "https://animaldiversity.org/accounts/Trichechus_inunguis/",
+      "id": "perfil-trichechus-inunguis-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "INPA / PPBio",
+      "title": "Peltocephalus dumeriliana (Cheloniateca)",
+      "url": "https://ppbio.inpa.gov.br/en/Cheloniateca/Peltocephalus_dumeriliana",
+      "id": "perfil-peltocephalus-dumerilianus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Ibama / ICMBio",
+      "title": "2º Ciclo do Plano de Ação Nacional para a Conservação dos Quelônios Amazônicos (sumário)",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/biodiversidade/fauna-silvestre/arquivos/pqa/20250923_Sumario2_Ciclo2025_4_ajustado.pdf",
+      "id": "perfil-peltocephalus-dumerilianus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

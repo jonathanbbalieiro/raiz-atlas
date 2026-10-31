@@ -60,7 +60,7 @@
         "sourceUrl": "https://entreparquesbr.com.br/descobrimento/",
         "width": 4032,
         "height": 3024,
-        "context": "Gameleira fotografada no Parque Nacional do Descobrimento; a imagem integra a seção sobre as árvores gigantes no relato de visita do Entre Parques BR. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Raízes e tronco de uma gameleira no Parque Nacional do Descobrimento."
       }
     },
     {
@@ -78,7 +78,7 @@
         "sourceUrl": "https://entreparquesbr.com.br/grande-mata-ancestral-pnd/",
         "width": 768,
         "height": 538,
-        "context": "Imagem da Lagoa Só Não Vou no Parque Nacional do Descobrimento, publicada na página do roteiro da Grande Mata Ancestral dedicada ao parque. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Vista aérea da Lagoa Só Não Vou cercada pela floresta."
       }
     },
     {
@@ -193,9 +193,11 @@
     {
       "scientificName": "Harpia harpyja",
       "name": "Gavião-real",
-      "why": "Grande ave de rapina, está entre as aves ameaçadas que encontram abrigo no parque.",
+      "why": "É capaz de arrancar uma preguiça da copa de uma árvore em pleno voo. Grande ave de rapina, está entre as aves ameaçadas que encontram abrigo no parque.",
       "sourceIds": [
-        "icmbio-bio"
+        "icmbio-bio",
+        "perfil-harpia-harpyja-1",
+        "perfil-harpia-harpyja-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/706644401/original.jpg",
@@ -274,6 +276,20 @@
       "title": "Parque Nacional do Descobrimento: o parque das árvores gigantes",
       "url": "https://entreparquesbr.com.br/descobrimento/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "WWF-Brasil",
+      "title": "Gavião-real: a gigante das florestas brasileiras",
+      "url": "https://www.wwf.org.br/?2825%2F=",
+      "id": "perfil-harpia-harpyja-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Filhote de gavião-real encontrado em parque na Bahia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/filhote-de-gaviao-real-encontrado-em-parque-na-bahia",
+      "id": "perfil-harpia-harpyja-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

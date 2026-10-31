@@ -124,9 +124,11 @@
     {
       "scientificName": "Tapirus terrestris",
       "name": "Anta",
-      "why": "No Barreiro Chupador, pesquisadores avistaram antas e registraram pegadas de animais de várias idades.",
+      "why": "Um estudo na transição entre Amazônia e Cerrado mostrou que sementes que passaram pelo intestino da anta germinaram em maior proporção e mais rápido que as sementes de controle. No Barreiro Chupador, pesquisadores avistaram antas e registraram pegadas de animais de várias idades.",
       "sourceIds": [
-        "enc3"
+        "enc3",
+        "perfil-tapirus-terrestris-1",
+        "perfil-tapirus-terrestris-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brazilian_tapir_zoo.JPG/1280px-Brazilian_tapir_zoo.JPG",
@@ -177,6 +179,20 @@
       "title": "Parque Nacional da Serra da Cutia",
       "url": "https://www.portalsaofrancisco.com.br/?p=13379",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Acta Amazonica / SciELO",
+      "title": "Endozoocoria por antas brasileiras aumenta a germinabilidade e acelera o tempo de germinação de sementes de espécies de plantas nativas (Pinto et al., 2025)",
+      "url": "https://www.scielo.br/j/aa/a/tcyw5Y5qmppHJnjhxFkGdXm/?lang=en",
+      "id": "perfil-tapirus-terrestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Prefeitura de São Paulo, Secretaria do Verde e do Meio Ambiente",
+      "title": "Anta (Tapirus terrestris), espécies da cidade",
+      "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/servicos/fauna/especies_da_cidade/8902",
+      "id": "perfil-tapirus-terrestris-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

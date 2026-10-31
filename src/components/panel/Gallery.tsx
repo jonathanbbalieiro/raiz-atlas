@@ -4,6 +4,7 @@ import Image from "@/components/panel/PhotoImage";
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import type { Photo } from "@/lib/data/types";
+import { hasPhotoLicense } from "@/lib/photos";
 
 /*
  * Galeria de fotos de um parque/atração:
@@ -132,7 +133,8 @@ export function PhotoStrip({ from = 1, heading = "Mais fotos" }: { from?: number
                   className="object-contain"
                 />
               </button>
-              <Credit photo={p} className="pt-1.5" />
+              <figcaption className="pt-1.5 text-xs text-ink-soft">{p.alt}</figcaption>
+              <Credit photo={p} />
             </figure>
           </li>
         ))}
@@ -260,7 +262,6 @@ function Lightbox({
       </div>
       <div className="px-4 pt-2 pb-[calc(env(safe-area-inset-bottom)+14px)] text-center">
         <p className="text-sm text-white">{p.alt}</p>
-        {p.context && <p className="mx-auto mt-1 max-h-24 max-w-3xl overflow-y-auto text-xs leading-relaxed text-white/75">{p.context}</p>}
         <Credit photo={p} className="text-white/75 [&_a]:decoration-white/40 [&_a:hover]:text-white" />
         {n > 1 && (
           <p className="mt-1 text-[11px] text-white/50 md:hidden">Deslize para o lado para ver as outras</p>
@@ -311,6 +312,7 @@ function Chevron({ dir }: { dir: 1 | -1 }) {
 
 /** Crédito exigido pelas licenças: autor, licença e origem (uma linha). */
 export function Credit({ photo, className = "" }: { photo: Photo; className?: string }) {
+  if (!hasPhotoLicense(photo)) return null;
   return (
     <p
       className={`truncate text-[11px] text-ink-soft ${className}`}

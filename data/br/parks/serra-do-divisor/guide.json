@@ -208,19 +208,23 @@
     {
       "scientificName": "Ateles chamek",
       "name": "Macaco-aranha-de-cara-preta",
-      "why": "Ameaçado, precisa de grandes áreas de floresta pouco perturbada e some facilmente com a caça.",
+      "why": "Os figos podem chegar a quase metade da alimentação do macaco-aranha-de-cara-preta. Ameaçado, precisa de grandes áreas de floresta pouco perturbada e some facilmente com a caça.",
       "sourceIds": [
         "icmbio-fauna2",
-        "gbif"
+        "gbif",
+        "perfil-ateles-chamek-1",
+        "perfil-ateles-chamek-2"
       ]
     },
     {
       "scientificName": "Callimico goeldii",
       "name": "Soim-preto",
-      "why": "Naturalmente raro, no Brasil só vive no Acre e no trecho do Juruá no Amazonas. Prefere matas com bambu.",
+      "why": "Tem muitos nomes populares, como mico-preto, calimico e taboqueiro. Naturalmente raro, no Brasil só vive no Acre e no trecho do Juruá no Amazonas. Prefere matas com bambu.",
       "sourceIds": [
         "icmbio-fauna2",
-        "icmbio-turismo"
+        "icmbio-turismo",
+        "perfil-callimico-goeldii-1",
+        "perfil-callimico-goeldii-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Springtamarin.jpg/1920px-Springtamarin.jpg",
@@ -306,6 +310,34 @@
       "title": "Parna da Serra do Divisor (página da unidade)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/amazonia/lista-de-ucs/parna-da-serra-do-divisor/parna-da-serra-do-divisor-1",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio / CPB",
+      "title": "Mamíferos: Ateles chamek, macaco-aranha-da-cara-preta (avaliação do risco de extinção)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_ateles_chamek.pdf",
+      "id": "perfil-ateles-chamek-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "New England Primate Conservancy",
+      "title": "Black-faced black spider monkey",
+      "url": "https://neprimateconservancy.org/black-faced-black-spider-monkey/",
+      "id": "perfil-ateles-chamek-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio / Centro Nacional de Pesquisa e Conservação de Primatas Brasileiros",
+      "title": "Avaliação do risco de extinção de Callimico goeldii no Brasil",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/2019_2022/callitrichidae/ficha-callimico-goeldii.pdf",
+      "id": "perfil-callimico-goeldii-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Universidade Federal do Acre / PPBio-INPA",
+      "title": "Abundância de mamíferos de médio e grande porte em resposta ao grau de distanciamento do Rio Chandless, Parque Estadual Chandless, Acre, Brasil (dissertação)",
+      "url": "https://ppbio.inpa.gov.br/sites/default/files/Dissertacao_BORGES_L_H_M.pdf",
+      "id": "perfil-callimico-goeldii-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

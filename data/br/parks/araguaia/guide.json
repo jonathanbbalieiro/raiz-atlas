@@ -152,7 +152,7 @@
         "ameacada_com_acao",
         "habitat_critico"
       ],
-      "why": "Em 1976 o parque abrigava de 300 a 400 cervos, possivelmente a maior concentração da espécie em uma área protegida da América Latina, segundo o plano de manejo. Proteger o cervo-do-pantanal é um dos objetivos da unidade, que preserva as matas e campos alagáveis da Ilha do Bananal.",
+      "why": "As matas e os campos alagáveis da Ilha do Bananal guardam um refúgio para o cervo-do-pantanal. Já na década de 1970, o parque se destacava por reunir centenas desses animais, cuja proteção faz parte da sua razão de existir.",
       "sourceIds": [
         "icmbio",
         "pm"
@@ -165,7 +165,7 @@
         "ameacada_com_acao",
         "papel_ecologico"
       ],
-      "why": "Predadora de topo dos rios Araguaia e Javaés, a ariranha ocorre em densidades que o plano de manejo considera altas, a julgar pelos rastros e pelos relatos dos funcionários. O plano a inclui entre os temas das trilhas interpretativas da Sede, da Ponta da Ilha e da Barreira da Cruz.",
+      "why": "Nos rios Araguaia e Javaés, rastros nas margens revelam os caminhos das ariranhas. Esses grandes caçadores dos rios fazem parte das histórias que as trilhas do parque ajudam a contar.",
       "sourceIds": [
         "icmbio",
         "pm"
@@ -177,7 +177,7 @@
       "criteria": [
         "habitat_critico"
       ],
-      "why": "A maior concentração de desova da espécie no Centro-Oeste ocorre no entorno da Ilha do Bananal. No rio Javaés, limite do parque, dez barras de areia somaram 337 ninhos de tartaruga-da-amazônia e 490 de tracajá na temporada de 2000. A espécie consta do levantamento de répteis do plano de manejo.",
+      "why": "Na temporada de desova, as praias de areia do rio Javaés viram berçário de tartarugas. O entorno da Ilha do Bananal reúne a maior concentração de desovas da tartaruga-da-amazônia no Centro-Oeste.",
       "sourceIds": [
         "fl-017af1b5",
         "pm"
@@ -190,7 +190,7 @@
         "endemica",
         "icone_da_paisagem"
       ],
-      "why": "O plano de manejo registra botos observados várias vezes nos rios Araguaia e Javaés, quase sem interrupção junto à base da Ponta da Ilha. Hoje reconhecidos como espécie própria, os botos da bacia Araguaia-Tocantins encurralam cardumes nas praias de areia na seca.",
+      "why": "Na seca, os botos da bacia Araguaia-Tocantins encurralam cardumes junto às praias de areia. Nos rios Araguaia e Javaés, eles fazem parte da paisagem de água que dá vida ao parque.",
       "sourceIds": [
         "pm",
         "fl-2662d95a"
@@ -211,9 +211,11 @@
     {
       "scientificName": "Opisthocomus hoazin",
       "name": "Jacu-cigano",
-      "why": "Ave de beira d'água com muitos registros dentro do parque.",
+      "why": "O fóssil Hoazinavis lacustris, achado no Brasil, indica que essa ave antiga provavelmente já tinha um papo grande, como o da cigana atual. Ave de beira d'água com muitos registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-opisthocomus-hoazin-1",
+        "perfil-opisthocomus-hoazin-2"
       ]
     }
   ],
@@ -252,6 +254,20 @@
       "title": "Botos do Araguaia não nadam no Amazonas (2016)",
       "url": "https://oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/27953-botos-do-araguaia-nao-nadam-no-amazonas.pdf",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Revista Pesquisa FAPESP",
+      "title": "A longa viagem da cigana",
+      "url": "https://revistapesquisa.fapesp.br/a-longa-viagem-da-cigana/",
+      "id": "perfil-opisthocomus-hoazin-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "PeerJ",
+      "title": "Blood parasites infecting the Hoatzin (Opisthocomus hoazin), a unique neotropical folivorous bird",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6368046/",
+      "id": "perfil-opisthocomus-hoazin-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

@@ -235,9 +235,11 @@
     {
       "scientificName": "Herpailurus yagouaroundi",
       "name": "Gato-mourisco",
-      "why": "Felino registrado no parque e apontado pelo ICMBio, no plano de manejo, entre as espécies vulneráveis.",
+      "why": "Já foi registrado em áreas tão diferentes quanto o entorno de Belo Monte, no Pará, e a Mata Atlântica do Rio de Janeiro. Felino registrado no parque e apontado pelo ICMBio, no plano de manejo, entre as espécies vulneráveis.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-herpailurus-yagouaroundi-1",
+        "perfil-herpailurus-yagouaroundi-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Herpailurus_yagouaroundi_26409745.jpeg/960px-Herpailurus_yagouaroundi_26409745.jpeg",
@@ -302,6 +304,20 @@
       "title": "Bromelia laciniosa (ficha na API)",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Bromelia%20laciniosa",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Instituto Água e Terra (Paraná)",
+      "title": "IAT devolve à natureza gato-mourisco resgatado em galinheiro de Campo Mourão",
+      "url": "https://www.iat.pr.gov.br/Noticia/IAT-devolve-natureza-gato-mourisco-resgatado-em-galinheiro-de-Campo-Mourao",
+      "id": "perfil-herpailurus-yagouaroundi-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Ibama",
+      "title": "Gato-mourisco é visto nas proximidades da hidrelétrica de Belo Monte",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2025/gato-mourisco-e-visto-nas-proximidades-da-hidreletrica-de-belo-monte",
+      "id": "perfil-herpailurus-yagouaroundi-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

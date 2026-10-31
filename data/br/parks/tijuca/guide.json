@@ -223,9 +223,12 @@
     {
       "scientificName": "Coleocephalocereus fluminensis",
       "name": "Cacto-redondo",
-      "why": "Cacto criticamente em perigo segundo a IUCN, com registros dentro do parque.",
+      "why": "Rupícola quer dizer que a planta cresce sobre rochas. Cacto criticamente em perigo segundo a IUCN, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-coleocephalocereus-fluminensis-1",
+        "perfil-coleocephalocereus-fluminensis-2",
+        "perfil-coleocephalocereus-fluminensis-3"
       ]
     }
   ],
@@ -299,6 +302,27 @@
       "title": "Extintos há 200 anos, jabutis são reintroduzidos no Parque Nacional da Tijuca",
       "url": "https://oeco.org.br/reportagens/extintos-ha-200-anos-jabutis-sao-reintroduzidos-no-parque-nacional-da-tijuca/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Jardim Botânico do Rio de Janeiro / Rodriguésia",
+      "title": "Flora do Rio de Janeiro: Cactaceae",
+      "url": "https://www.scielo.br/j/rod/a/MNrS9zS6HNxwLG9JKt9kTqG/?format=html&lang=pt",
+      "id": "perfil-coleocephalocereus-fluminensis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Jardim Botânico do Rio de Janeiro / Rodriguésia",
+      "title": "Cactaceae no Parque Estadual da Serra da Tiririca, Rio de Janeiro, Brasil",
+      "url": "https://www.scielo.br/j/rod/a/SW9jGPTsmNXbcFkxxBGng8B/?lang=pt",
+      "id": "perfil-coleocephalocereus-fluminensis-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Plano de Ação Nacional para a Conservação das Cactáceas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-cactaceas/1-ciclo/pan-cactaceas-livro.pdf",
+      "id": "perfil-coleocephalocereus-fluminensis-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

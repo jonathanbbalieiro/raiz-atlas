@@ -249,6 +249,7 @@ async function readDataset(): Promise<Dataset> {
       ds.attractions[`${c}/${g.slug}`] = attractions.sort(byName);
     }
     const speciesPhotos = buildSpeciesPhotoCatalog(ds.parks[c]);
+    for (const [name, photo] of Object.entries(photoReview.photos)) speciesPhotos.set(name.trim().toLowerCase(), photo);
     ds.parks[c] = ds.parks[c].map((park) => fillSpeciesPhotoGaps(park, speciesPhotos));
     ds.parks[c].sort((a, b) => a.shortName.localeCompare(b.shortName, "pt"));
 

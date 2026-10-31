@@ -143,7 +143,7 @@
     },
     {
       "scientificName": "Bertholletia excelsa",
-      "name": "Castanheira",
+      "name": "Castanheira-do-brasil",
       "criteria": [
         "ameacada_com_acao",
         "icone_da_paisagem"
@@ -178,9 +178,11 @@
     {
       "scientificName": "Ateles belzebuth",
       "name": "Macaco-aranha",
-      "why": "Ameaçado e caçado na região, é uma das espécies para as quais o parque serve de área-fonte.",
+      "why": "Machos têm áreas de vida maiores que as fêmeas: em média 140 hectares contra 87,5 hectares num estudo em Roraima. Ameaçado e caçado na região, é uma das espécies para as quais o parque serve de área-fonte.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-ateles-belzebuth-1",
+        "perfil-ateles-belzebuth-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ateles_belzebuth_belzebuth.jpg/1920px-Ateles_belzebuth_belzebuth.jpg",
@@ -231,6 +233,20 @@
       "title": "Bertholletia excelsa (registro no Flora e Funga do Brasil)",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Bertholletia%20excelsa",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume II – Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ateles-belzebuth-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio / Centro Nacional de Pesquisa e Conservação de Primatas Brasileiros",
+      "title": "Ficha de avaliação do risco de extinção de Ateles belzebuth",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_ateles_belzebuth.pdf",
+      "id": "perfil-ateles-belzebuth-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

@@ -224,9 +224,11 @@
     {
       "scientificName": "Oreophrynella quelchii",
       "name": "Sapinho dos tepuis",
-      "why": "Uma das rãs endêmicas dos tepuis citadas no plano de manejo como valor fundamental do parque.",
+      "why": "O estudo de 2024 usou radar harmônico para seguir 100 sapinhos e capturou 596 indivíduos para marcação e recaptura. Uma das rãs endêmicas dos tepuis citadas no plano de manejo como valor fundamental do parque.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-oreophrynella-quelchii-1",
+        "perfil-oreophrynella-quelchii-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oreophrynella_nigra.JPG/1920px-Oreophrynella_nigra.JPG",
@@ -303,6 +305,20 @@
       "title": "Heliamphora nutans (registro no Flora e Funga do Brasil)",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Heliamphora%20nutans",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Ecology and Evolution (PMC)",
+      "title": "Thriving in a hostile world: Insights from the dietary strategy of two allopatric, closely related tepui summit endemic amphibians",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8258209/",
+      "id": "perfil-oreophrynella-quelchii-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "BMC Ecology and Evolution (PubMed)",
+      "title": "Lost in space and time: robust demography and enhanced resilience buffer adverse environmental effects in a highly isolated and sedentary pre-pleistocene landscape vertebrate",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39394073/",
+      "id": "perfil-oreophrynella-quelchii-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

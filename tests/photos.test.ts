@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import imageLoader from "../src/lib/image-loader";
-import { applyParkPhotoCuration, photoIsPubliclyReusable, rankParkPhotos } from "../src/lib/photos";
+import { applyParkPhotoCuration, hasPhotoLicense, photoIsPubliclyReusable, rankParkPhotos } from "../src/lib/photos";
 import { applySpeciesPhotoReview, biodiversityRoster, buildSpeciesPhotoCatalog, fillSpeciesPhotoGaps, resolveFlagshipCard } from "../src/lib/species-photos";
 import type { Biodiversity, ParkGuide, Photo } from "../src/lib/data/types";
 
@@ -11,6 +11,12 @@ const photo: Photo = {
   alt: "Ariranha (Pteronura brasiliensis)", author: "Fotógrafa identificada",
   license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0/", width: 1280, height: 506,
 };
+
+test("legendas omitem licença ausente ou não confirmada", () => {
+  assert.equal(hasPhotoLicense({ license: "" }), false);
+  assert.equal(hasPhotoLicense({ license: "Licença de reutilização não confirmada" }), false);
+  assert.equal(hasPhotoLicense(photo), true);
+});
 const bio = (scientificName: string, image: Photo | null = null): Biodiversity => ({
   generatedAt: "2026-10-26", boundary: "limite oficial simplificado", method: "", sources: [], threatened: [],
   groups: [{ id: "mamiferos", label: "Mamíferos", records: 5, species: [{
@@ -62,7 +68,7 @@ test("curadoria de galeria acrescenta, escolhe a capa e retira fotos rejeitadas"
   assert.equal(kept[0].alt, "Legenda corrigida");
 });
 
-test("reuso não confunde nome popular, não transfere ocorrência e preserva curadoria", () => {
+test("reuso padroniza fotos por táxon sem transferir ocorrências", () => {
   const catalog = buildSpeciesPhotoCatalog([{ biodiversity: bio("Pteronura brasiliensis", photo) }]);
   const source = { biodiversity: bio("Pteronura brasiliensis") };
   const filled = fillSpeciesPhotoGaps(source, catalog);
@@ -72,13 +78,13 @@ test("reuso não confunde nome popular, não transfere ocorrência e preserva cu
   assert.equal(filled.biodiversity.groups[0].species[0].records, 5);
   assert.equal(fillSpeciesPhotoGaps({ biodiversity: bio("Lontra longicaudis") }, catalog).biodiversity.groups[0].species[0].photo, null);
   const curated = { ...photo, src: "/curadoria.jpg" };
-  assert.equal(fillSpeciesPhotoGaps({ biodiversity: bio("Pteronura brasiliensis", curated) }, catalog).biodiversity.groups[0].species[0].photo?.src, curated.src);
+  assert.equal(fillSpeciesPhotoGaps({ biodiversity: bio("Pteronura brasiliensis", curated) }, catalog).biodiversity.groups[0].species[0].photo?.src, photo.src);
 });
 
 test("catálogo rejeita associação sem identificação, crédito, resolução ou licença adequados", () => {
   for (const bad of [
     { ...photo, alt: "Paisagem com animal" }, { ...photo, author: "Autor desconhecido" },
-    { ...photo, width: 330 }, { ...photo, license: "CC BY-NC 4.0" },
+    { ...photo, width: 0 }, { ...photo, license: "CC BY-NC 4.0" },
     { ...photo, license: "CC BY 4.0 all rights reserved" },
   ]) assert.equal(buildSpeciesPhotoCatalog([{ biodiversity: bio("Pteronura brasiliensis", bad) }]).size, 0);
 });

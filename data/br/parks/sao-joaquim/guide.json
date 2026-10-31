@@ -93,7 +93,7 @@
         "sourceUrl": "https://apremavi.org.br/canion-do-funil-pode-ser-afetado-por-complexo-eolico/",
         "width": 1200,
         "height": 900,
-        "context": "Cânion do Funil no Parque Nacional de São Joaquim, identificado no registro de mídia e na reportagem da Apremavi, com fotografias creditadas a Carolina Schäffer. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Agulhas rochosas e paredões do Cânion do Funil."
       }
     }
   ],
@@ -157,7 +157,7 @@
   "flagships": [
     {
       "scientificName": "Araucaria angustifolia",
-      "name": "Pinheiro-brasileiro (araucária)",
+      "name": "Araucária",
       "criteria": [
         "icone_da_paisagem",
         "ameacada_com_acao"
@@ -206,19 +206,24 @@
     {
       "scientificName": "Leopardus tigrinus",
       "name": "Gato-do-mato-pequeno",
-      "why": "Felino citado pelo plano de manejo e o mamífero com mais registros no parque. Vulnerável segundo a IUCN.",
+      "why": "A cauda tem de 7 a 13 anéis escuros e termina em ponta escura. Felino citado pelo plano de manejo e o mamífero com mais registros no parque. Vulnerável segundo a IUCN.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-leopardus-tigrinus-1",
+        "perfil-leopardus-tigrinus-2"
       ]
     },
     {
       "scientificName": "Amazona vinacea",
       "name": "Papagaio-de-peito-roxo",
-      "why": "Ave das matas de araucária, citada pelo plano de manejo e classificada como em perigo.",
+      "why": "O censo de 2015 foi marcado para o início de maio, quando a oferta de pinhão é maior e os papagaios se concentram. Ave das matas de araucária, citada pelo plano de manejo e classificada como em perigo.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-amazona-vinacea-1",
+        "perfil-amazona-vinacea-2",
+        "perfil-amazona-vinacea-3"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/234396435/original.jpeg",
@@ -235,9 +240,11 @@
     {
       "scientificName": "Cinclodes pabsti",
       "name": "Pedreirinho",
-      "why": "Uma das aves mais registradas no parque, classificada como quase ameaçada pela IUCN.",
+      "why": "Quando um parente do pedreirinho foi encontrado na Serra do Cipó, em Minas Gerais, pesquisadores acharam que era uma população isolada do pedreirinho; o DNA mostrou que é outra espécie, o pedreiro-do-espinhaço. Uma das aves mais registradas no parque, classificada como quase ameaçada pela IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-cinclodes-pabsti-1",
+        "perfil-cinclodes-pabsti-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/613977964/original.jpg",
@@ -280,6 +287,55 @@
       "title": "Manifestação de entidades científicas e ambientais catarinenses sobre o Parque Nacional de São Joaquim",
       "url": "https://rbma.org.br/n/wp-content/uploads/2020/11/MANIFESTACAO-DE-ENTIDADES-CIENTIFICAS-CATARINENSES.pdf",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-leopardus-tigrinus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Leopardus tigrinus (oncilla)",
+      "url": "https://animaldiversity.org/accounts/Leopardus_tigrinus/",
+      "id": "perfil-leopardus-tigrinus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-amazona-vinacea-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Censo do papagaio-de-peito-roxo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/censo-do-papagaio-de-peito-roxo",
+      "id": "perfil-amazona-vinacea-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Quinze papagaios-de-peito-roxo são reintroduzidos no Parque Nacional das Araucárias",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/quinze-papagaios-de-peito-roxo-sao-reintroduzidos-no-parque-nacional-das-araucarias",
+      "id": "perfil-amazona-vinacea-3",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "O raro caso em que o fogo protege a natureza",
+      "url": "https://oeco.org.br/reportagens/o-raro-caso-em-que-o-fogo-protege-a-natureza/",
+      "id": "perfil-cinclodes-pabsti-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "Nova espécie descoberta: um pedreiro de Minas Gerais",
+      "url": "https://oeco.org.br/reportagens/26406-nova-especie-descoberta-um-pedreiro-de-minas-gerais/",
+      "id": "perfil-cinclodes-pabsti-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

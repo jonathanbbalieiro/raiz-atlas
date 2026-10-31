@@ -169,27 +169,34 @@
     {
       "scientificName": "Chrysocyon brachyurus",
       "name": "Lobo-guará",
-      "why": "Predador de topo que usa as áreas elevadas do parque, como os arredores da Lagoa do Metro.",
+      "why": "O nome guará vem do tupi e significa vermelho. Predador de topo que usa as áreas elevadas do parque, como os arredores da Lagoa do Metro.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-chrysocyon-brachyurus-1",
+        "perfil-chrysocyon-brachyurus-2",
+        "perfil-chrysocyon-brachyurus-3"
       ]
     },
     {
       "scientificName": "Puma concolor",
       "name": "Onça-parda",
-      "why": "Sua presença nas partes altas mostra o bom estado de conservação do parque.",
+      "why": "Ao contrário da onça-pintada, ela não ruge: a voz lembra um miado. Sua presença nas partes altas mostra o bom estado de conservação do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-puma-concolor-1",
+        "perfil-puma-concolor-2"
       ]
     },
     {
       "scientificName": "Tapirus terrestris",
       "name": "Anta",
-      "why": "Vulnerável segundo a IUCN e registrado dentro do parque.",
+      "why": "Um estudo na transição entre Amazônia e Cerrado mostrou que sementes que passaram pelo intestino da anta germinaram em maior proporção e mais rápido que as sementes de controle. Vulnerável segundo a IUCN e registrado dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-tapirus-terrestris-1",
+        "perfil-tapirus-terrestris-2"
       ]
     }
   ],
@@ -221,6 +228,55 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-chrysocyon-brachyurus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação do Lobo-guará",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-lobo-guara/1-ciclo/pan-lobo-guara-sumario.pdf",
+      "id": "perfil-chrysocyon-brachyurus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Chrysocyon brachyurus (maned wolf)",
+      "url": "https://animaldiversity.org/accounts/Chrysocyon_brachyurus/",
+      "id": "perfil-chrysocyon-brachyurus-3",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação da Onça-parda",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-onca-parda/1-ciclo/pan-onca-parda-sumario.pdf",
+      "id": "perfil-puma-concolor-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Prefeitura de Belo Horizonte, Fundação de Parques e Zoobotânica",
+      "title": "Dia Internacional do Puma",
+      "url": "https://prefeitura.pbh.gov.br/fundacao-de-parques-e-zoobotanica/dia-internacional-do-puma",
+      "id": "perfil-puma-concolor-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Acta Amazonica / SciELO",
+      "title": "Endozoocoria por antas brasileiras aumenta a germinabilidade e acelera o tempo de germinação de sementes de espécies de plantas nativas (Pinto et al., 2025)",
+      "url": "https://www.scielo.br/j/aa/a/tcyw5Y5qmppHJnjhxFkGdXm/?lang=en",
+      "id": "perfil-tapirus-terrestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Prefeitura de São Paulo, Secretaria do Verde e do Meio Ambiente",
+      "title": "Anta (Tapirus terrestris), espécies da cidade",
+      "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/servicos/fauna/especies_da_cidade/8902",
+      "id": "perfil-tapirus-terrestris-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

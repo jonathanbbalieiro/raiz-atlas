@@ -183,9 +183,11 @@
     {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Vulnerável segundo a IUCN, está entre os mamíferos ameaçados com registros dentro do parque.",
+      "why": "Num estudo no Cerrado de Mato Grosso do Sul, cupins apareciam em 93% das amostras e formigas em todos os animais analisados. Vulnerável segundo a IUCN, está entre os mamíferos ameaçados com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-myrmecophaga-tridactyla-1",
+        "perfil-myrmecophaga-tridactyla-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28001%29.jpg/1920px-Tamandu%C3%A1-bandeira_-_PARNA_da_Serra_da_Canastra_-_RaulMRTFonseca%28001%29.jpg",
@@ -202,9 +204,11 @@
     {
       "scientificName": "Eurolophosaurus nanuzae",
       "name": "Lagartinho-de-crista-do-espinhaço",
-      "why": "Lagartinho que leva o Espinhaço no nome popular, com registros dentro do parque.",
+      "why": "No auge do calor, o vento funciona como refrigerador para o lagarto. Lagartinho que leva o Espinhaço no nome popular, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-eurolophosaurus-nanuzae-1",
+        "perfil-eurolophosaurus-nanuzae-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/177535996/original.jpeg",
@@ -261,6 +265,34 @@
       "title": "Sempre Vivas National Park (Fip Cerrado)",
       "url": "https://csr.ufmg.br/fipcerrado/sempre-vivas-national-park/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Ficha da espécie Myrmecophaga tridactyla (Avaliação do Risco de Extinção, SALVE)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/ficha-myrmecophaga-tridactyla.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional de Tamanduá-bandeira (Myrmecophaga tridactyla)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/programa_de_manejo_tamandua_bandeira.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Journal of Thermal Biology (PubMed)",
+      "title": "To warm on the rocks, to cool in the wind: Thermal relations of a small-sized lizard from a mountain environment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30143297/",
+      "id": "perfil-eurolophosaurus-nanuzae-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Zoology (PubMed)",
+      "title": "Lizard reproductive biology beyond the gonads: An investigation of sperm storage structures and renal sexual segments",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31383295/",
+      "id": "perfil-eurolophosaurus-nanuzae-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

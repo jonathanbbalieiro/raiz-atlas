@@ -154,10 +154,12 @@
     {
       "scientificName": "Harpia harpyja",
       "name": "Gavião-real",
-      "why": "Valor fundamental do parque, encontra ali floresta segura para fazer ninhos e se reproduzir.",
+      "why": "É capaz de arrancar uma preguiça da copa de uma árvore em pleno voo. Valor fundamental do parque, encontra ali floresta segura para fazer ninhos e se reproduzir.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-harpia-harpyja-1",
+        "perfil-harpia-harpyja-2"
       ]
     },
     {
@@ -221,6 +223,20 @@
       "title": "Plantas que crescem no ferro",
       "url": "https://revistapesquisa.fapesp.br/plantas-que-crescem-no-ferro/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "WWF-Brasil",
+      "title": "Gavião-real: a gigante das florestas brasileiras",
+      "url": "https://www.wwf.org.br/?2825%2F=",
+      "id": "perfil-harpia-harpyja-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Filhote de gavião-real encontrado em parque na Bahia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/filhote-de-gaviao-real-encontrado-em-parque-na-bahia",
+      "id": "perfil-harpia-harpyja-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

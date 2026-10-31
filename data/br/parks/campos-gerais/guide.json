@@ -88,7 +88,7 @@
         "sourceUrl": "https://www.viagensecaminhos.com/furnas-gemeas/",
         "width": 1280,
         "height": 720,
-        "context": "Furnas Gêmeas, também chamadas Dolinas Gêmeas ou Furnas do Passo do Pupo, em Ponta Grossa. A fonte identifica o lugar e sua gestão de visitação vinculada ao Parque Nacional dos Campos Gerais; marca autoral preservada. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Vista aérea das Furnas Gêmeas com vegetação no interior das depressões."
       }
     }
   ],
@@ -180,17 +180,21 @@
     {
       "scientificName": "Alouatta guariba",
       "name": "Bugio-ruivo",
-      "why": "Primata da Mata Atlântica registrado no parque e classificado como vulnerável pela IUCN.",
+      "why": "Os rugidos servem para afastar rivais e mostrar a força do grupo, evitando brigas diretas entre bandos. Primata da Mata Atlântica registrado no parque e classificado como vulnerável pela IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-alouatta-guariba-1",
+        "perfil-alouatta-guariba-2"
       ]
     },
     {
       "scientificName": "Theristicus caudatus",
       "name": "Curicaca",
-      "why": "Uma das aves com mais registros dentro do parque.",
+      "why": "Também é conhecida como curucaca. Uma das aves com mais registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-theristicus-caudatus-1",
+        "perfil-theristicus-caudatus-2"
       ]
     }
   ],
@@ -250,6 +254,34 @@
       "title": "Interpretando a biodiversidade: a avifauna do Parque Nacional dos Campos Gerais (2021)",
       "url": "https://revistas.uepg.br/index.php/tp/article/download/16911/209209214088/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-alouatta-guariba-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Alouatta guariba (brown howler)",
+      "url": "https://animaldiversity.org/accounts/Alouatta_guariba/",
+      "id": "perfil-alouatta-guariba-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio / UEPG",
+      "title": "Aves do Parque Nacional dos Campos Gerais (guia)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/guias-de-aves/avespnebook.pdf",
+      "id": "perfil-theristicus-caudatus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Iheringia - Série Zoologia (SciELO)",
+      "title": "Nest support plants and breeding season of two ibis (Theristicus) species in the Pantanal wetland, Brazil",
+      "url": "https://www.scielo.br/j/isz/a/gmGXZ7bMvjbWQDjBdqyQBrh/?lang=en",
+      "id": "perfil-theristicus-caudatus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

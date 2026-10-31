@@ -225,10 +225,13 @@
     {
       "scientificName": "Amazona vinacea",
       "name": "Papagaio-de-peito-roxo",
-      "why": "Em perigo segundo a IUCN e protegido pelo parque.",
+      "why": "O censo de 2015 foi marcado para o início de maio, quando a oferta de pinhão é maior e os papagaios se concentram. Em perigo segundo a IUCN e protegido pelo parque.",
       "sourceIds": [
         "icmbio-bio",
-        "gbif"
+        "gbif",
+        "perfil-amazona-vinacea-1",
+        "perfil-amazona-vinacea-2",
+        "perfil-amazona-vinacea-3"
       ]
     }
   ],
@@ -344,6 +347,27 @@
       "title": "Anuário Estatístico do Brasil 2024 — tabela 1.3.2.2: pontos mais altos do Brasil",
       "url": "https://anuario.ibge.gov.br/images/aeb/2024/s1/2_pdf/s1t3202.pdf",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-amazona-vinacea-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Censo do papagaio-de-peito-roxo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/destaque/censo-do-papagaio-de-peito-roxo",
+      "id": "perfil-amazona-vinacea-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Quinze papagaios-de-peito-roxo são reintroduzidos no Parque Nacional das Araucárias",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/quinze-papagaios-de-peito-roxo-sao-reintroduzidos-no-parque-nacional-das-araucarias",
+      "id": "perfil-amazona-vinacea-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

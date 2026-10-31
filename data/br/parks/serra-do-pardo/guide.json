@@ -142,7 +142,7 @@
         "ameacada_com_acao",
         "papel_ecologico"
       ],
-      "why": "Uma das duas espécies ameaçadas que o ICMBio lista como protegidas no parque. O plano de manejo prevê estudar sua população nos igarapés e no trecho do rio Xingu que margeia o parque e a trata como indicadora de qualidade ambiental.",
+      "why": "Os igarapés e o trecho do Xingu que acompanha o parque são o mundo da ariranha. Conhecer seus caminhos ajuda a acompanhar a saúde desses ambientes e a cuidar das águas que sustentam a floresta.",
       "sourceIds": [
         "icmbio",
         "pm"
@@ -155,7 +155,7 @@
         "ameacada_com_acao",
         "papel_ecologico"
       ],
-      "why": "A outra espécie ameaçada que o ICMBio lista como protegida no parque. O plano de manejo a registra na área e a inclui entre as espécies indicadoras de alta qualidade ambiental, a monitorar nas áreas em recuperação.",
+      "why": "A onça-pintada é uma das grandes habitantes desta floresta. Acompanhar sua presença, inclusive nas áreas em recuperação, ajuda a entender como a vida retorna e se mantém no parque.",
       "sourceIds": [
         "icmbio",
         "pm"
@@ -176,17 +176,21 @@
     {
       "scientificName": "Ateles marginatus",
       "name": "Macaco-aranha-de-cara-branca",
-      "why": "Em perigo, tem registros dentro do parque.",
+      "why": "Cuamba é o nome usado no Pará, e guatá o nome usado em Mato Grosso. Em perigo, tem registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ateles-marginatus-1",
+        "perfil-ateles-marginatus-2"
       ]
     },
     {
       "scientificName": "Potamotrygon leopoldi",
       "name": "Arraia-xingu",
-      "why": "Peixe vulnerável, com registros dentro do parque.",
+      "why": "A bacia do Amazonas, da qual o Xingu faz parte, foi inundada pelo mar durante o Pleistoceno, e o ancestral dessa raia passou do ambiente marinho para a água doce. Peixe vulnerável, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-potamotrygon-leopoldi-1",
+        "perfil-potamotrygon-leopoldi-2"
       ]
     }
   ],
@@ -211,6 +215,34 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume II – Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ateles-marginatus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio / Centro Nacional de Pesquisa e Conservação de Primatas Brasileiros",
+      "title": "Ficha de avaliação do risco de extinção de Ateles marginatus",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_ateles_marginatus.pdf",
+      "id": "perfil-ateles-marginatus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "PubMed Central (periódico revisado por pares)",
+      "title": "Analysis of the Entire Mitogenome of the Threatened Freshwater Stingray Potamotrygon leopoldi in the Xingu River, Brazilian Amazon",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12428016/",
+      "id": "perfil-potamotrygon-leopoldi-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "PubMed Central (periódico revisado por pares)",
+      "title": "Draft Genome of White-blotched River Stingray Provides Novel Clues for Niche Adaptation and Skeleton Formation",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10787021/",
+      "id": "perfil-potamotrygon-leopoldi-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

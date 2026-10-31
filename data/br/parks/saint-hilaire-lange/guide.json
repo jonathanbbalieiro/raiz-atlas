@@ -93,7 +93,7 @@
         "sourceUrl": "https://entreparquesbr.com.br/sainthilaire-lange/",
         "width": 2560,
         "height": 1920,
-        "context": "Cachoeira da Quintilha de baixo, identificada na seção correspondente do relato de visita ao Parque Nacional de Saint-Hilaire/Lange. O acesso descrito pela fonte passa por propriedade privada. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Cachoeira da Quintilha de baixo entre rochas e floresta."
       }
     }
   ],
@@ -227,9 +227,11 @@
     {
       "scientificName": "Tangara seledon",
       "name": "Saíra-sete-cores",
-      "why": "Uma das aves com mais registros dentro do parque.",
+      "why": "O macho tem cabeça azul-turquesa e dorso quase todo preto, enquanto a fêmea é mais pálida e esverdeada. Uma das aves com mais registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-tangara-seledon-1",
+        "perfil-tangara-seledon-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/539522462/original.jpg",
@@ -286,6 +288,20 @@
       "title": "Por que preservar uma espécie?",
       "url": "https://oeco.org.br/analises/por-que-preservar-uma-especie/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Prefeitura de Ivoti (RS)",
+      "title": "Quarta Ambiental: conheça a saíra-sete-cores, uma das aves mais coloridas da fauna brasileira",
+      "url": "https://www.ivoti.rs.gov.br/noticia/quarta-ambiental-conheca-a-saira-sete-cores-uma-das-aves-mais-coloridas-da-fauna-brasileira",
+      "id": "perfil-tangara-seledon-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Ibama",
+      "title": "Ibama impede tráfico internacional de 18 aves nativas no Aeroporto de Guarulhos, em SP",
+      "url": "https://www.gov.br/ibama/pt-br/assuntos/noticias/2025/ibama-impede-trafico-internacional-de-18-aves-nativas-no-aeroporto-de-guarulhos-em-sp",
+      "id": "perfil-tangara-seledon-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

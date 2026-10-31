@@ -75,7 +75,7 @@
         "sourceUrl": "https://www.oestemais.com/geral/2016/12/11/parque-nacional-das-araucarias-recebera-83-mudas-da-especie-no-proximo-sabado/",
         "width": 800,
         "height": 558,
-        "context": "Paisagem do Parque Nacional das Araucárias, assim identificada na legenda da reportagem Oeste Mais. Associada às corredeiras do rio Chapecó por indicação do responsável; a fonte não individualiza o fotógrafo. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Corredeiras entre rochas e vegetação no Parque Nacional das Araucárias."
       }
     }
   ],
@@ -206,10 +206,12 @@
     {
       "scientificName": "Celeus galeatus",
       "name": "Pica-pau-de-cara-canela",
-      "why": "Pica-pau ameaçado de extinção, registrado no parque durante os estudos do plano de manejo.",
+      "why": "Já houve quem acreditasse que o pica-pau-de-cara-canela estivesse extinto no Rio Grande do Sul, mas há registros recentes no município de Derrubadas. Pica-pau ameaçado de extinção, registrado no parque durante os estudos do plano de manejo.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-celeus-galeatus-1",
+        "perfil-celeus-galeatus-2"
       ]
     }
   ],
@@ -276,6 +278,20 @@
       "title": "Parna das Araucárias (página da unidade)",
       "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/mata-atlantica/lista-de-ucs/parna-das-araucarias",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-celeus-galeatus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Plano de Manejo da RPPN Refúgio do Macuco",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/cerrado/lista-de-ucs/rppn-refugio-do-macuco/arquivos/pm_rppn_r-macucoplanodemanejo.pdf",
+      "id": "perfil-celeus-galeatus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

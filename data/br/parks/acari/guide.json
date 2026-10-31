@@ -52,7 +52,7 @@
         "sourceUrl": "https://entreparquesbr.com.br/acari/",
         "width": 1024,
         "height": 576,
-        "context": "A fotografia integra o relato da chegada ao Parque Nacional do Acari pelo rio Sucunduri, na seção sobre rios voadores. A identificação foi corrigida: a fonte não a apresenta como uma fotografia do rio Acari. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Vista aérea do rio Sucunduri e da floresta no Parque Nacional do Acari."
       }
     }
   ],
@@ -90,9 +90,11 @@
     {
       "scientificName": "Pipile cujubi",
       "name": "Cujubi",
-      "why": "Ave vulnerável com registros dentro do parque.",
+      "why": "Em 31 horas de observação de uma única espécie de árvore, 23 espécies de aves foram vistas comendo seus frutos, e o cujubi foi o campeão de consumo. Ave vulnerável com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-pipile-cujubi-1",
+        "perfil-pipile-cujubi-2"
       ]
     }
   ],
@@ -124,6 +126,20 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Acta Amazonica / INPA",
+      "title": "Frugivory by birds on Schefflera morototoni (Araliaceae) in a Cerrado-Amazon Forest transition area, eastern Mato Grosso, Brazil",
+      "url": "https://acta.inpa.gov.br/fasciculos/45-1/PDF/AA-2014-0240.pdf",
+      "id": "perfil-pipile-cujubi-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume I (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol1.pdf",
+      "id": "perfil-pipile-cujubi-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

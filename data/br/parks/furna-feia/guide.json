@@ -221,10 +221,12 @@
     {
       "scientificName": "Leopardus tigrinus",
       "name": "Gato-do-mato-pequeno",
-      "why": "Felino ameaçado que vive na Caatinga do parque.",
+      "why": "A cauda tem de 7 a 13 anéis escuros e termina em ponta escura. Felino ameaçado que vive na Caatinga do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-leopardus-tigrinus-1",
+        "perfil-leopardus-tigrinus-2"
       ]
     }
   ],
@@ -270,6 +272,20 @@
       "title": "Plano de Manejo Integrado do Fogo 2023-2027 do Parque Nacional da Furna Feia",
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/planos-de-manejo-integrado-do-fogo/PMIF_2023_2027_PNFF.pdf",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-leopardus-tigrinus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Leopardus tigrinus (oncilla)",
+      "url": "https://animaldiversity.org/accounts/Leopardus_tigrinus/",
+      "id": "perfil-leopardus-tigrinus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

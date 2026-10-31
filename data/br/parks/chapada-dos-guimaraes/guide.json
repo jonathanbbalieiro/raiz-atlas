@@ -141,7 +141,7 @@
   "flagships": [
     {
       "scientificName": "Ara chloropterus",
-      "name": "Arara-vermelha",
+      "name": "Arara-vermelha-grande",
       "criteria": [
         "icone_da_paisagem"
       ],
@@ -181,9 +181,11 @@
     {
       "scientificName": "Anodorhynchus hyacinthinus",
       "name": "Arara-azul-grande",
-      "why": "Vulnerável segundo a IUCN, com registros dentro do parque.",
+      "why": "Um estudo de 30 anos, com 473 ninhos naturais e 415 artificiais, confirmou a existência de araras-azuis anãs, cerca de um quinto menores que as de tamanho normal. Vulnerável segundo a IUCN, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-anodorhynchus-hyacinthinus-1",
+        "perfil-anodorhynchus-hyacinthinus-2"
       ]
     }
   ],
@@ -243,6 +245,20 @@
       "title": "Programa Monitora: espécies com potencial de amostragem e categorias da avaliação nacional (2025), Apêndice 1",
       "url": "https://revistaeletronica.icmbio.gov.br/BioBR/article/download/2529/1843?inline=1",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "Pesquisa FAPESP",
+      "title": "Do ninho ao voo",
+      "url": "https://revistapesquisa.fapesp.br/wp-content/uploads/2022/10/047-049_arara-azul_321.pdf",
+      "id": "perfil-anodorhynchus-hyacinthinus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Anodorhynchus hyacinthinus (hyacinth macaw)",
+      "url": "https://animaldiversity.org/accounts/Anodorhynchus_hyacinthinus/",
+      "id": "perfil-anodorhynchus-hyacinthinus-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

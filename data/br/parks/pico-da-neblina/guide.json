@@ -198,10 +198,12 @@
   "flagships": [
     {
       "scientificName": "Cacajao melanocephalus",
-      "name": "Uacari-preto (bicó)",
-      "why": "Andam em grupos atrás de frutos e folhas, sobretudo nos igapós e matas de beira de rio do parque.",
+      "name": "Uacari-preto",
+      "why": "Os adultos carregam os filhotes nas costas durante os meses de cheia. Andam em grupos atrás de frutos e folhas, sobretudo nos igapós e matas de beira de rio do parque.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-cacajao-melanocephalus-1",
+        "perfil-cacajao-melanocephalus-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Cacajao_melanocephalus.png/960px-Cacajao_melanocephalus.png",
@@ -219,9 +221,11 @@
     {
       "scientificName": "Rupicola rupicola",
       "name": "Galo-da-serra",
-      "why": "Vive nos pedrais das serras de granito e gnaisse do parque e é um dos atrativos para observadores de aves.",
+      "why": "O nome científico significa, em latim, aquele que habita as rochas. Vive nos pedrais das serras de granito e gnaisse do parque e é um dos atrativos para observadores de aves.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-rupicola-rupicola-1",
+        "perfil-rupicola-rupicola-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/453691931/original.jpg",
@@ -291,6 +295,34 @@
       "title": "Edital de credenciamento de operação turística no Pico da Neblina (2026)",
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2026/copy_of_SEI_023144826_Edital_de_Credenciamento.pdf",
       "accessed": "2026-10-30"
+    },
+    {
+      "institution": "ICMBio / CPB",
+      "title": "Mamíferos: Cacajao melanocephalus, uacari-preto (avaliação do risco de extinção)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/PITHECIIDAE/ficha_cacajao_melanocephalus.pdf",
+      "id": "perfil-cacajao-melanocephalus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Cacajao melanocephalus (black uakari)",
+      "url": "https://animaldiversity.org/accounts/Cacajao_melanocephalus",
+      "id": "perfil-cacajao-melanocephalus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "WikiAves",
+      "title": "galo-da-serra (Rupicola rupicola)",
+      "url": "https://www.wikiaves.com.br/wiki/galo-da-serra",
+      "id": "perfil-rupicola-rupicola-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio / CEMAVE, revista Ornithologia",
+      "title": "Dieta de galos-da-serra Rupicola rupicola durante o período reprodutivo ao norte de Manaus, Amazonas",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/aves-silvestres/produtos-e-servicos/revista-ornithologia/arquivos_pdf_revistas/ornithologia_04_1_2010.pdf",
+      "id": "perfil-rupicola-rupicola-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

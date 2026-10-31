@@ -207,9 +207,11 @@
     {
       "scientificName": "Chelonia mydas",
       "name": "Tartaruga-verde",
-      "why": "Registrada no mar do parque durante os levantamentos do plano de manejo.",
+      "why": "As tartarugas marinhas demoram mais de uma década para atingir a maturidade e podem levar de 40 a 60 anos para voltar à praia de nascimento pela primeira vez para se reproduzir. Registrada no mar do parque durante os levantamentos do plano de manejo.",
       "sourceIds": [
-        "pm"
+        "pm",
+        "perfil-chelonia-mydas-1",
+        "perfil-chelonia-mydas-2"
       ]
     }
   ],
@@ -248,6 +250,20 @@
       "title": "Parque cearense protege a Pedra Furada e três espécies de tartarugas marinhas",
       "url": "https://catracalivre.com.br/noticias/dunas-que-ocupam-quase-toda-a-extensao-manguezais-e-lagoas-temporarias-o-parque-cearense-de-mais-de-88-mil-hectares-que-protege-a-pedra-furada-e-tres-especies-de-tartarugas-marinhas/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Projeto Tamar",
+      "title": "Berço privilegiado para as tartarugas verdes no meio do Atlântico",
+      "url": "https://tamar.org.br/noticia1.php?cod=286",
+      "id": "perfil-chelonia-mydas-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. IV: Répteis (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol4.pdf",
+      "id": "perfil-chelonia-mydas-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

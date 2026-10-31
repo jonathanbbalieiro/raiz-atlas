@@ -286,9 +286,11 @@
     {
       "scientificName": "Tapirus terrestris",
       "name": "Anta",
-      "why": "Registrada dentro do parque e classificada como vulnerável pela IUCN.",
+      "why": "Um estudo na transição entre Amazônia e Cerrado mostrou que sementes que passaram pelo intestino da anta germinaram em maior proporção e mais rápido que as sementes de controle. Registrada dentro do parque e classificada como vulnerável pela IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-tapirus-terrestris-1",
+        "perfil-tapirus-terrestris-2"
       ]
     }
   ],
@@ -376,6 +378,20 @@
       "title": "The Paepalanthoideae (Eriocaulaceae) of the Chapada dos Veadeiros National Park, Brazil",
       "url": "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/1899",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Acta Amazonica / SciELO",
+      "title": "Endozoocoria por antas brasileiras aumenta a germinabilidade e acelera o tempo de germinação de sementes de espécies de plantas nativas (Pinto et al., 2025)",
+      "url": "https://www.scielo.br/j/aa/a/tcyw5Y5qmppHJnjhxFkGdXm/?lang=en",
+      "id": "perfil-tapirus-terrestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Prefeitura de São Paulo, Secretaria do Verde e do Meio Ambiente",
+      "title": "Anta (Tapirus terrestris), espécies da cidade",
+      "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/servicos/fauna/especies_da_cidade/8902",
+      "id": "perfil-tapirus-terrestris-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

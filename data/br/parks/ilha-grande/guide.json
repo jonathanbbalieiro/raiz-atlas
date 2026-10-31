@@ -183,18 +183,24 @@
     {
       "scientificName": "Brycon orbignyanus",
       "name": "Piracanjuba",
-      "why": "Peixe do rio Paraná registrado no parque e classificado como em perigo pela IUCN.",
+      "why": "Dezembro e janeiro são os meses indicados para induzir a reprodução da piracanjuba em cativeiro. Peixe do rio Paraná registrado no parque e classificado como em perigo pela IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-brycon-orbignyanus-1",
+        "perfil-brycon-orbignyanus-2",
+        "perfil-brycon-orbignyanus-3"
       ]
     },
     {
       "scientificName": "Caiman latirostris",
       "name": "Jacaré-do-papo-amarelo",
-      "why": "Habitante das várzeas, registrado dentro do parque.",
+      "why": "Foi a primeira vez que se observou o jacaré-do-papo-amarelo fazendo ninho sobre vegetação flutuante. Habitante das várzeas, registrado dentro do parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-caiman-latirostris-1",
+        "perfil-caiman-latirostris-2",
+        "perfil-caiman-latirostris-3"
       ]
     }
   ],
@@ -226,6 +232,48 @@
       "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção: Blastocerus dichotomus",
       "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1118730/1/Blasto.pdf",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. VI: Peixes (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol6.pdf",
+      "id": "perfil-brycon-orbignyanus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Revista Ceres (UFV)",
+      "title": "Dose inseminante utilizada na fertilização artificial de oócito de piracanjuba (Brycon orbignyanus)",
+      "url": "https://ojs.ceres.ufv.br/ceres/article/download/3841/1684/5566",
+      "id": "perfil-brycon-orbignyanus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Boletim do Instituto de Pesca",
+      "title": "Análise morfológica do desenvolvimento ovocitário de piracanjuba, Brycon orbignyanus, durante o ciclo reprodutivo",
+      "url": "https://institutodepesca.org/index.php/bip/article/download/27%5B2%5D-art_02/27%5B2%5D-art_02/875",
+      "id": "perfil-brycon-orbignyanus-3",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Embrapa Pantanal",
+      "title": "Biologia reprodutiva de jacaré-do-papo-amarelo no rio Paraná, Brasil (Comunicado Técnico 33)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/811095/1/COT33.pdf",
+      "id": "perfil-caiman-latirostris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Embrapa Pantanal",
+      "title": "Uso do helicóptero nos estudos de reprodução do jacaré-do-papo-amarelo",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/812636/1/ADM064.pdf",
+      "id": "perfil-caiman-latirostris-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Embrapa",
+      "title": "O período reprodutivo de Caiman latirostris latirostris em Flores de Goiás (resumos)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/972247/1/O-periodo-reprodutvo-de-Caiman.pdf",
+      "id": "perfil-caiman-latirostris-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

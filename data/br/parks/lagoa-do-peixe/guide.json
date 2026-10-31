@@ -210,9 +210,11 @@
     {
       "scientificName": "Ctenomys flamarioni",
       "name": "Tuco-tuco",
-      "why": "Pequeno roedor que vive em túneis nas dunas, registrado no parque e classificado como em perigo pela IUCN.",
+      "why": "A cauda é muito mais curta que o corpo e tem pelos que cobrem as escamas. Pequeno roedor que vive em túneis nas dunas, registrado no parque e classificado como em perigo pela IUCN.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ctenomys-flamarioni-1",
+        "perfil-ctenomys-flamarioni-2"
       ]
     }
   ],
@@ -251,6 +253,20 @@
       "title": "Parque Nacional da Lagoa do Peixe completa 39 anos com futuro incerto",
       "url": "https://oeco.org.br/reportagens/parque-nacional-da-lagoa-do-peixe-completa-39-anos-com-futuro-incerto/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ctenomys-flamarioni-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Brazilian Journal of Biology (UFRGS)",
+      "title": "The conservation status of the tuco-tucos, genus Ctenomys (Rodentia: Ctenomyidae), in southern Brazil (2007)",
+      "url": "https://lume.ufrgs.br/handle/10183/20594",
+      "id": "perfil-ctenomys-flamarioni-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

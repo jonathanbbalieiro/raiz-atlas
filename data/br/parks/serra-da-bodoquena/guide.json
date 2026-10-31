@@ -58,7 +58,7 @@
         "sourceUrl": "https://entreparquesbr.com.br/serra-da-bodoquena/",
         "width": 1920,
         "height": 2560,
-        "context": "Poço no início da trilha do Sumidouro e Ressurgência do Rio Perdido, na porção sul do Parque Nacional da Serra da Bodoquena. A legenda do Entre Parques BR identifica o ponto como o sumidouro. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Poço do Rio Perdido junto a um deque e à mata."
       }
     },
     {
@@ -172,9 +172,11 @@
     {
       "scientificName": "Anodorhynchus hyacinthinus",
       "name": "Arara-azul-grande",
-      "why": "Vulnerável segundo a IUCN, com registros dentro do parque.",
+      "why": "Um estudo de 30 anos, com 473 ninhos naturais e 415 artificiais, confirmou a existência de araras-azuis anãs, cerca de um quinto menores que as de tamanho normal. Vulnerável segundo a IUCN, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-anodorhynchus-hyacinthinus-1",
+        "perfil-anodorhynchus-hyacinthinus-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/217287300/original.jpg",
@@ -191,9 +193,11 @@
     {
       "scientificName": "Tapirus terrestris",
       "name": "Anta",
-      "why": "Vulnerável segundo a IUCN, é um dos mamíferos registrados nas matas do parque.",
+      "why": "Um estudo na transição entre Amazônia e Cerrado mostrou que sementes que passaram pelo intestino da anta germinaram em maior proporção e mais rápido que as sementes de controle. Vulnerável segundo a IUCN, é um dos mamíferos registrados nas matas do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-tapirus-terrestris-1",
+        "perfil-tapirus-terrestris-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/606004152/original.jpg",
@@ -264,6 +268,34 @@
       "title": "Parque Nacional da Serra da Bodoquena",
       "url": "https://www.turismo.bonito.ms.gov.br/parque-nacional-da-serra-da-bodoquena",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Pesquisa FAPESP",
+      "title": "Do ninho ao voo",
+      "url": "https://revistapesquisa.fapesp.br/wp-content/uploads/2022/10/047-049_arara-azul_321.pdf",
+      "id": "perfil-anodorhynchus-hyacinthinus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Anodorhynchus hyacinthinus (hyacinth macaw)",
+      "url": "https://animaldiversity.org/accounts/Anodorhynchus_hyacinthinus/",
+      "id": "perfil-anodorhynchus-hyacinthinus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Acta Amazonica / SciELO",
+      "title": "Endozoocoria por antas brasileiras aumenta a germinabilidade e acelera o tempo de germinação de sementes de espécies de plantas nativas (Pinto et al., 2025)",
+      "url": "https://www.scielo.br/j/aa/a/tcyw5Y5qmppHJnjhxFkGdXm/?lang=en",
+      "id": "perfil-tapirus-terrestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Prefeitura de São Paulo, Secretaria do Verde e do Meio Ambiente",
+      "title": "Anta (Tapirus terrestris), espécies da cidade",
+      "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/servicos/fauna/especies_da_cidade/8902",
+      "id": "perfil-tapirus-terrestris-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

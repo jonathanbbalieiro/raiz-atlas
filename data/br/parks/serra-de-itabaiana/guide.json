@@ -201,28 +201,34 @@
     {
       "scientificName": "Glaucomastix abaetensis",
       "name": "Lagartinho-de-abaeté",
-      "why": "Lagarto de restinga em perigo de extinção, protegido pelo parque.",
+      "why": "Alcança temperaturas corporais de até 37 graus Celsius enquanto está ativo. Lagarto de restinga em perigo de extinção, protegido pelo parque.",
       "sourceIds": [
         "icmbio",
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-glaucomastix-abaetensis-1",
+        "perfil-glaucomastix-abaetensis-2"
       ]
     },
     {
       "scientificName": "Tropidurus hygomi",
       "name": "Calango",
-      "why": "Vulnerável e endêmico de restingas, sua presença no parque reforça a importância da área.",
+      "why": "Foram registrados mais de 3.000 indivíduos no litoral norte da Bahia entre 2010 e 2013, o que a torna relativamente comum em restingas, apesar da tendência de declínio. Vulnerável e endêmico de restingas, sua presença no parque reforça a importância da área.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-tropidurus-hygomi-1",
+        "perfil-tropidurus-hygomi-2"
       ]
     },
     {
       "scientificName": "Podocarpus sellowii",
       "name": "Pinheiro-da-mata",
-      "why": "Conífera nativa em perigo de extinção, com registros dentro do parque.",
+      "why": "A espécie é registrada em 17 estados e no Distrito Federal, do Pará ao Rio Grande do Sul. Conífera nativa em perigo de extinção, com registros dentro do parque.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-podocarpus-sellowii-1",
+        "perfil-podocarpus-sellowii-2"
       ]
     }
   ],
@@ -275,6 +281,48 @@
       "title": "Melocactus zehntneri (ficha na API)",
       "url": "https://servicos.jbrj.gov.br/flora/taxon/Melocactus%20zehntneri",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume IV – Répteis (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol4.pdf",
+      "id": "perfil-glaucomastix-abaetensis-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Academia Brasileira de Ciências (Anais)",
+      "title": "Clutch size in populations and species of cnemidophorines (Squamata: Teiidae) on the eastern coast of Brazil",
+      "url": "https://scielo.br/scielo.php?pid=S0001-37652014000200707&script=sci_arttext",
+      "id": "perfil-glaucomastix-abaetensis-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. IV - Répteis (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol4.pdf",
+      "id": "perfil-tropidurus-hygomi-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Universidade Federal de Santa Catarina (Biotemas)",
+      "title": "Uso de microhabitat por Tropidurus hygomi em restingas do litoral norte da Bahia (Martins, Dias & Rocha, 2010)",
+      "url": "https://periodicos.ufsc.br/index.php/biotemas/article/view/2175-7925.2010v23n4p71",
+      "id": "perfil-tropidurus-hygomi-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "CNCFlora / Jardim Botânico do Rio de Janeiro",
+      "title": "Podocarpus sellowii Klotzsch ex Endl.",
+      "url": "https://proflora.jbrj.gov.br/html/Podocarpus%20sellowii_2012.html",
+      "id": "perfil-podocarpus-sellowii-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Embrapa Florestas",
+      "title": "Pinheiro-Bravo: Podocarpus lambertii (Espécies Arbóreas Brasileiras, vol. 1)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1140112/1/Especies-Arboreas-Brasileiras-vol-1-Pinheiro-Bravo.pdf",
+      "id": "perfil-podocarpus-sellowii-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

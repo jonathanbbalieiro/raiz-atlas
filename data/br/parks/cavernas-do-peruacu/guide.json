@@ -229,9 +229,11 @@
     {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Vulnerável segundo a IUCN, tem registros dentro do parque, nas áreas de Cerrado do vale.",
+      "why": "Num estudo no Cerrado de Mato Grosso do Sul, cupins apareciam em 93% das amostras e formigas em todos os animais analisados. Vulnerável segundo a IUCN, tem registros dentro do parque, nas áreas de Cerrado do vale.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-myrmecophaga-tridactyla-1",
+        "perfil-myrmecophaga-tridactyla-2"
       ]
     },
     {
@@ -306,6 +308,20 @@
       "title": "Pesquisa identifica área de refúgio climático em região de mata seca",
       "url": "https://www.ecycle.com.br/pesquisa-identifica-area-de-refugio-climatico-em-regiao-de-mata-seca/amp/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Ficha da espécie Myrmecophaga tridactyla (Avaliação do Risco de Extinção, SALVE)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/ficha-myrmecophaga-tridactyla.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional de Tamanduá-bandeira (Myrmecophaga tridactyla)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/programa_de_manejo_tamandua_bandeira.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

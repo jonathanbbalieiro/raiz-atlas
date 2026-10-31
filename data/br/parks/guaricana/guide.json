@@ -130,19 +130,24 @@
     {
       "scientificName": "Tapirus terrestris",
       "name": "Anta",
-      "why": "Grande herbívoro citado pelo plano de manejo e registrado dentro do parque. É vulnerável segundo a IUCN.",
+      "why": "Um estudo na transição entre Amazônia e Cerrado mostrou que sementes que passaram pelo intestino da anta germinaram em maior proporção e mais rápido que as sementes de controle. Grande herbívoro citado pelo plano de manejo e registrado dentro do parque. É vulnerável segundo a IUCN.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-tapirus-terrestris-1",
+        "perfil-tapirus-terrestris-2"
       ]
     },
     {
       "scientificName": "Panthera onca",
       "name": "Onça-pintada",
-      "why": "Predador de topo citado entre as espécies ameaçadas do parque, com registros dentro da unidade.",
+      "why": "A densidade de onças varia muito: na Reserva Mamirauá (AM) chega a quase 10 por 100 km², e na Reserva do Cuieiras fica abaixo de 1. Predador de topo citado entre as espécies ameaçadas do parque, com registros dentro da unidade.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-panthera-onca-1",
+        "perfil-panthera-onca-2",
+        "perfil-panthera-onca-3"
       ]
     }
   ],
@@ -167,6 +172,41 @@
       "title": "Ocorrências de espécies dentro do limite do parque",
       "url": "https://www.gbif.org/occurrence/search",
       "accessed": "2026-10-21"
+    },
+    {
+      "institution": "Acta Amazonica / SciELO",
+      "title": "Endozoocoria por antas brasileiras aumenta a germinabilidade e acelera o tempo de germinação de sementes de espécies de plantas nativas (Pinto et al., 2025)",
+      "url": "https://www.scielo.br/j/aa/a/tcyw5Y5qmppHJnjhxFkGdXm/?lang=en",
+      "id": "perfil-tapirus-terrestris-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Prefeitura de São Paulo, Secretaria do Verde e do Meio Ambiente",
+      "title": "Anta (Tapirus terrestris), espécies da cidade",
+      "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/servicos/fauna/especies_da_cidade/8902",
+      "id": "perfil-tapirus-terrestris-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-panthera-onca-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Áreas protegidas da Amazônia abrigam mais de seis mil onças-pintadas, aponta estudo",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/noticias/ultimas-noticias/areas-protegidas-da-amazonia-abrigam-mais-de-seis-mil-oncas-pintadas-aponta-estudo",
+      "id": "perfil-panthera-onca-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Panthera onca (jaguar)",
+      "url": "https://animaldiversity.org/accounts/Panthera_onca/",
+      "id": "perfil-panthera-onca-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

@@ -197,17 +197,21 @@
     {
       "scientificName": "Ozotoceros bezoarticus",
       "name": "Veado-campeiro",
-      "why": "Um veado de campo aberto com registros no parque, graças ao enclave de cerrado.",
+      "why": "O veado-campeiro troca a galhada todos os anos, no meio do inverno. Um veado de campo aberto com registros no parque, graças ao enclave de cerrado.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-ozotoceros-bezoarticus-1",
+        "perfil-ozotoceros-bezoarticus-2"
       ]
     },
     {
       "scientificName": "Pyrrhura perlata",
       "name": "Tiriba-de-barriga-vermelha",
-      "why": "Restrita ao sul da Amazônia, no interflúvio Madeira-Tapajós, foi registrada no parque.",
+      "why": "O jovem se reconhece pela barriga com poucas manchas vermelhas e menos azul nas asas. Restrita ao sul da Amazônia, no interflúvio Madeira-Tapajós, foi registrada no parque.",
       "sourceIds": [
-        "res"
+        "res",
+        "perfil-pyrrhura-perlata-1",
+        "perfil-pyrrhura-perlata-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/121027757/original.jpg",
@@ -224,9 +228,11 @@
     {
       "scientificName": "Myrmecophaga tridactyla",
       "name": "Tamanduá-bandeira",
-      "why": "Vulnerável, tem registros no parque, onde floresta e cerrado se encontram.",
+      "why": "Num estudo no Cerrado de Mato Grosso do Sul, cupins apareciam em 93% das amostras e formigas em todos os animais analisados. Vulnerável, tem registros no parque, onde floresta e cerrado se encontram.",
       "sourceIds": [
-        "gbif"
+        "gbif",
+        "perfil-myrmecophaga-tridactyla-1",
+        "perfil-myrmecophaga-tridactyla-2"
       ]
     }
   ],
@@ -272,6 +278,48 @@
       "title": "Estudo aponta registros inéditos do lobo-guará na Amazônia (e isso não é bom)",
       "url": "https://brasil.mongabay.com/2020/11/estudo-aponta-registros-ineditos-do-lobo-guara-na-amazonia-e-isso-nao-e-bom/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "id": "perfil-ozotoceros-bezoarticus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Animal Diversity Web, Universidade de Michigan",
+      "title": "Ozotoceros bezoarticus (Pampas deer)",
+      "url": "https://animaldiversity.org/accounts/Ozotoceros_bezoarticus/",
+      "id": "perfil-ozotoceros-bezoarticus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Zoo de Brasília (Governo do Distrito Federal)",
+      "title": "Tiriba-de-barriga-vermelha",
+      "url": "https://www.zoo.df.gov.br/tiriba-de-barriga-vermelha",
+      "id": "perfil-pyrrhura-perlata-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "WikiAves",
+      "title": "tiriba-de-barriga-vermelha (Pyrrhura perlata)",
+      "url": "https://www.wikiaves.com.br/wiki/tiriba-de-barriga-vermelha",
+      "id": "perfil-pyrrhura-perlata-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Ficha da espécie Myrmecophaga tridactyla (Avaliação do Risco de Extinção, SALVE)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/ficha-myrmecophaga-tridactyla.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional de Tamanduá-bandeira (Myrmecophaga tridactyla)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/programa_de_manejo_tamandua_bandeira.pdf",
+      "id": "perfil-myrmecophaga-tridactyla-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

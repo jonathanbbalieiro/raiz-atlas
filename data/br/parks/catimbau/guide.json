@@ -58,7 +58,7 @@
         "sourceUrl": "https://www.viagensecaminhos.com/vale-do-catimbau/",
         "width": 1000,
         "height": 667,
-        "context": "Fotografia identificada como Trilha de Jerusalém no Vale do Catimbau, com crédito ao guia Anderson na página Viagens e Caminhos. Licença de reutilização não confirmada; imagem incorporada por indicação do responsável em 30/10/2026."
+        "context": "Paredões e formações rochosas da Serra de Jerusalém no Catimbau."
       }
     },
     {
@@ -191,9 +191,11 @@
     {
       "scientificName": "Penelope jacucaca",
       "name": "Jacucaca",
-      "why": "Ave da Caatinga ameaçada de extinção, registrada no parque.",
+      "why": "Também é conhecida como jacu-verdadeiro, jacu-da-testa-branca e jacu-goela. Ave da Caatinga ameaçada de extinção, registrada no parque.",
       "sourceIds": [
-        "pmif"
+        "pmif",
+        "perfil-penelope-jacucaca-1",
+        "perfil-penelope-jacucaca-2"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Penelope_jacucaca_349233095.jpg/1920px-Penelope_jacucaca_349233095.jpg",
@@ -211,9 +213,12 @@
     {
       "scientificName": "Crypturellus noctivagus",
       "name": "Zabelê",
-      "why": "Ave sensível e ameaçada registrada no parque.",
+      "why": "O nome vem do pio longo e assobiado, que parece dizer 'Eu sou Jaó'. Ave sensível e ameaçada registrada no parque.",
       "sourceIds": [
-        "pmif"
+        "pmif",
+        "perfil-crypturellus-noctivagus-1",
+        "perfil-crypturellus-noctivagus-2",
+        "perfil-crypturellus-noctivagus-3"
       ],
       "iucn": "NT"
     }
@@ -260,6 +265,41 @@
       "title": "Phanerogamic flora of the Catimbau National Park, Pernambuco, Brazil (Athiê-Souza et al., 2019)",
       "url": "https://scielo.br/scielo.php?pid=S1676-06032019000100302&script=sci_arttext",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, Volume III – Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-penelope-jacucaca-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Plano de Ação Nacional para a Conservação das Aves da Caatinga, 2º ciclo (sumário)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-aves-da-caatinga/2-ciclo/pan-aves-da-caatinga-sumario.pdf",
+      "id": "perfil-penelope-jacucaca-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio)",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III - Aves (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-crypturellus-noctivagus-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "((o))eco",
+      "title": "Jaó-do-litoral: desconfiado, e com razão",
+      "url": "https://www.oeco.org.br/blogs/especies-em-risco/28415-jao-do-litoral-desconfiado-e-com-razao/",
+      "id": "perfil-crypturellus-noctivagus-2",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Universidade Federal do Rio de Janeiro (Oecologia Australis)",
+      "title": "Occurrence and predictive distribution of Crypturellus noctivagus (Aves, Tinamidae) in Brazil",
+      "url": "https://revistas.ufrj.br/index.php/oa/article/view/19439",
+      "id": "perfil-crypturellus-noctivagus-3",
+      "accessed": "2026-10-31"
     }
   ]
 }

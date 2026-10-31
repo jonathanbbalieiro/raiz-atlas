@@ -160,7 +160,7 @@
     },
     {
       "scientificName": "Harpia harpyja",
-      "name": "Harpia",
+      "name": "Gavião-real",
       "criteria": [
         "papel_ecologico",
         "ameacada_com_acao"
@@ -235,10 +235,12 @@
     {
       "scientificName": "Rhegmatorhina gymnops",
       "name": "Mãe-de-taoca-de-cara-branca",
-      "why": "Ave endêmica da região, vulnerável, registrada no parque.",
+      "why": "O nome gymnops quer dizer cara pelada, em grego. Ave endêmica da região, vulnerável, registrada no parque.",
       "sourceIds": [
         "enc3",
-        "gbif"
+        "gbif",
+        "perfil-rhegmatorhina-gymnops-1",
+        "perfil-rhegmatorhina-gymnops-2"
       ]
     }
   ],
@@ -291,6 +293,20 @@
       "title": "Novo parque na Amazônia recebe expedição de ambientalistas (2006)",
       "url": "https://www.tribunapr.com.br/noticias/novo-parque-na-amazonia-recebe-expedicao-de-ambientalistas/",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "WikiAves",
+      "title": "mãe-de-taoca-de-cara-branca (Rhegmatorhina gymnops)",
+      "url": "https://www.wikiaves.com.br/wiki/mae-de-taoca-de-cara-branca",
+      "id": "perfil-rhegmatorhina-gymnops-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação das Aves da Amazônia",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-aves-da-amazonia/1-ciclo/pan-aves-da-amazonia-sumario.pdf",
+      "id": "perfil-rhegmatorhina-gymnops-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

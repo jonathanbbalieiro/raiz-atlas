@@ -201,11 +201,13 @@
     },
     {
       "scientificName": "Caryocar coriaceum",
-      "name": "Piqui",
-      "why": "Árvore do Cerrado em perigo de extinção, com registros dentro do parque e citada no plano de manejo.",
+      "name": "Pequi",
+      "why": "Os frutos de pequizeiros diferentes variam bastante em acidez, açúcares e proteína, segundo análises de 35 plantas nativas da Chapada do Araripe. Árvore do Cerrado em perigo de extinção, com registros dentro do parque e citada no plano de manejo.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-caryocar-coriaceum-1",
+        "perfil-caryocar-coriaceum-2"
       ],
       "photo": {
         "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/200938326/original.jpeg",
@@ -255,6 +257,20 @@
       "title": "Nascentes do Rio Parnaíba (KBA 20210)",
       "url": "https://www.keybiodiversityareas.org/site/factsheet/20210/assessment",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "Embrapa Agroindústria Tropical",
+      "title": "Obtenção do óleo da polpa de pequi por separação física utilizando-se centrifugação (Comunicado Técnico 254)",
+      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1112148/1/CT254.pdf",
+      "id": "perfil-caryocar-coriaceum-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "Embrapa / Revista Brasileira de Fruticultura",
+      "title": "Características químicas e físico-químicas de pequis da Chapada do Araripe, Ceará",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/857165/1/PC10001.pdf",
+      "id": "perfil-caryocar-coriaceum-2",
+      "accessed": "2026-10-31"
     }
   ]
 }

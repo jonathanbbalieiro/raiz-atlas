@@ -1,5 +1,10 @@
 import type { Photo } from "@/lib/data/types";
 
+/** Informação de licença só aparece quando há uma licença identificada. */
+export function hasPhotoLicense(photo: Pick<Photo, "license">): boolean {
+  return !!photo.license.trim() && !/não confirmada|desconhecida|unknown|não informada/i.test(photo.license);
+}
+
 export function photoRatio(photo?: Pick<Photo, "width" | "height"> | null) {
   const w = photo?.width ?? 0;
   const h = photo?.height ?? 0;

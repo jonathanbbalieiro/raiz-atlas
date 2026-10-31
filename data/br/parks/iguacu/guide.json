@@ -231,10 +231,12 @@
     {
       "scientificName": "Pipile jacutinga",
       "name": "Jacutinga",
-      "why": "Ave em perigo de extinção, citada entre as espécies-chave para conservação no parque.",
+      "why": "Um estudo com 2.246 km de transectos em 11 áreas protegidas de São Paulo encontrou as maiores densidades em ilhas e nas florestas contínuas do maciço de Paranapiacaba, e nenhuma ave em alguns trechos da Serra do Mar. Ave em perigo de extinção, citada entre as espécies-chave para conservação no parque.",
       "sourceIds": [
         "pm",
-        "gbif"
+        "gbif",
+        "perfil-pipile-jacutinga-1",
+        "perfil-pipile-jacutinga-2"
       ]
     },
     {
@@ -310,6 +312,20 @@
       "title": "Um método de reprodução induzida para o surubim Steindachneridion melanodermatum do rio Iguaçu",
       "url": "https://revistas.uepg.br/index.php/biologica/article/download/417/420/1302",
       "accessed": "2026-10-29"
+    },
+    {
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III (Aves): Aburria jacutinga",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "id": "perfil-pipile-jacutinga-1",
+      "accessed": "2026-10-31"
+    },
+    {
+      "institution": "UNESP, Instituto de Biociências de Rio Claro / Wilson Journal of Ornithology",
+      "title": "Density estimates of the Black-fronted Piping Guan in the Brazilian Atlantic rainforest (Bernardo et al., 2011)",
+      "url": "https://repositorio.unesp.br/handle/11449/20536",
+      "id": "perfil-pipile-jacutinga-2",
+      "accessed": "2026-10-31"
     }
   ]
 }
