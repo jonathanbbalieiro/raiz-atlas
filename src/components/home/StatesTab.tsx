@@ -11,7 +11,7 @@ import { href, normalize, plural } from "@/lib/labels";
  * passar o mouse (ou focar) destaca o estado no mapa.
  */
 export function StatesTab() {
-  const { index, visibleParks, biomes, setHighlight, clearBiomes } = useExplore();
+  const { index, visibleParks, filtered, setHighlight, clearBiomes } = useExplore();
   const [query, setQuery] = useState("");
   const inputId = useId();
   const q = normalize(query.trim());
@@ -61,9 +61,9 @@ export function StatesTab() {
       <p className="text-xs font-semibold tracking-[0.14em] text-earth uppercase">Território</p>
       <h2 id="estados-titulo" className="mt-1 font-display text-[28px] leading-tight font-semibold text-forest-deep">Parques por estado</h2>
       <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
-        {total} {total === 1 ? "unidade da federação tem" : "unidades da federação têm"} áreas protegidas{biomes ? " no filtro atual" : ""}. Parques que cruzam divisas contam em cada estado que abrangem.
+        {total} {total === 1 ? "unidade da federação tem" : "unidades da federação têm"} áreas protegidas{filtered ? " no filtro atual" : ""}. Parques que cruzam divisas contam em cada estado que abrangem.
       </p>
-      {biomes && (
+      {filtered && (
         <p className="mt-1 text-xs text-ink-soft">
           Contagens filtradas por bioma.{" "}
           <button type="button" onClick={clearBiomes} className="font-medium text-forest underline underline-offset-2">Limpar filtros</button>
@@ -85,7 +85,7 @@ export function StatesTab() {
       </ul>
       {without.length > 0 && (
         <>
-          <h3 className="mt-6 text-xs font-semibold tracking-[0.14em] text-ink-soft uppercase">Sem área protegida{biomes ? " no filtro" : ""}</h3>
+          <h3 className="mt-6 text-xs font-semibold tracking-[0.14em] text-ink-soft uppercase">Sem área protegida{filtered ? " no filtro" : ""}</h3>
           <ul className="mt-1 border-t border-line" onMouseLeave={() => setHighlight(null)}>{without.map(item)}</ul>
         </>
       )}

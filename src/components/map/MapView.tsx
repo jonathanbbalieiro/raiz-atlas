@@ -57,7 +57,7 @@ export function MapView({ getPadding, layoutKey }: Props) {
   /** O usuário moveu o mapa para longe do enquadramento da seleção atual. */
   const [drifted, setDrifted] = useState(false);
   const {
-    index, focus, biomes, visibleParks, highlight, setHighlight, panelOpen,
+    index, focus, biomes, sphere, visibleParks, highlight, setHighlight, panelOpen,
     activeWonder, setActiveWonder, speciesLayer, storyPlace, mapViewRequest,
   } = useExplore();
   const router = useRouter();
@@ -394,10 +394,10 @@ export function MapView({ getPadding, layoutKey }: Props) {
           : [],
       ),
     });
-    const f = biomeFilter(biomes);
+    const f = biomeFilter(biomes, sphere ? visibleParks.map((p) => p.slug) : null);
     map.setFilter("parks-fill", f);
     map.setFilter("parks-line", f);
-  }, [ready, index, visibleParks, biomes, currentPark]);
+  }, [ready, index, visibleParks, biomes, sphere, currentPark]);
 
   /* 4. Reação ao foco: destaque por nível, parque detalhado, relevo e câmera. */
   useEffect(() => {

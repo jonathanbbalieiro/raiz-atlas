@@ -47,6 +47,8 @@ export interface AttractionPoint {
 /** Destaque cruzado entre lista e mapa (hover/foco num item da lista). */
 export type Highlight = { kind: "park" | "admin1"; slug: string } | null;
 
+export type Sphere = "nacional" | "estadual";
+
 interface ExploreState {
   index: MapIndex;
   focus: MapFocusState | null;
@@ -55,6 +57,11 @@ interface ExploreState {
   biomes: Biome[] | null;
   toggleBiome: (b: Biome) => void;
   clearBiomes: () => void;
+  /** Esfera: parques nacionais ou unidades estaduais (null = todas). Limpar filtros limpa as duas. */
+  sphere: Sphere | null;
+  setSphere: (s: Sphere | null) => void;
+  /** Algum filtro (bioma ou esfera) está ativo. */
+  filtered: boolean;
   /** Parques que passam no filtro de biomas (derivado do índice). */
   visibleParks: MapIndex["parks"];
   highlight: Highlight;
@@ -83,6 +90,7 @@ const ExploreContext = createContext<ExploreState | null>(null);
 export function ExploreProvider({ index, children }: { index: MapIndex; children: ReactNode }) {
   const [focus, setFocus] = useState<MapFocusState | null>(null);
   const [biomes, setBiomes] = useState<Biome[] | null>(null);
+  const [sphere, setSphereState] = useState<Sphere | null>(null);
   const [highlight, setHighlight] = useState<Highlight>(null);
   const [panelOpen, setPanelOpen] = useState(true);
   const [activeWonder, setActiveWonder] = useState<ActiveWonder>(null);
@@ -109,8 +117,11 @@ export function ExploreProvider({ index, children }: { index: MapIndex; children
   const lastContextPath = nav.lastContext;
 
   const visibleParks = useMemo(
-    () => (biomes ? index.parks.filter((p) => biomes.includes(p.biome)) : index.parks),
-    [index, biomes],
+    () =>
+      index.parks.filter(
+        (p) => (!biomes || biomes.includes(p.biome)) && (!sphere || (sphere === "estadual") === p.estadual),
+      ),
+    [index, biomes, sphere],
   );
 
   const value = useMemo<ExploreState>(
@@ -126,7 +137,13 @@ export function ExploreProvider({ index, children }: { index: MapIndex; children
           const next = cur.includes(b) ? cur.filter((x) => x !== b) : [...cur, b];
           return next.length ? next : null;
         }),
-      clearBiomes: () => setBiomes(null),
+      clearBiomes: () => {
+        setBiomes(null);
+        setSphereState(null);
+      },
+      sphere,
+      setSphere: (s) => setSphereState((cur) => (cur === s ? null : s)),
+      filtered: !!biomes || !!sphere,
       visibleParks,
       highlight,
       setHighlight,
@@ -142,7 +159,7 @@ export function ExploreProvider({ index, children }: { index: MapIndex; children
       mapViewRequest,
       requestMapView,
     }),
-    [index, focus, biomes, visibleParks, highlight, panelOpen, lastContextPath, activeWonder, speciesLayer, storyPlace, mapViewRequest, requestMapView],
+    [index, focus, biomes, sphere, visibleParks, highlight, panelOpen, lastContextPath, activeWonder, speciesLayer, storyPlace, mapViewRequest, requestMapView],
   );
   return <ExploreContext.Provider value={value}>{children}</ExploreContext.Provider>;
 }

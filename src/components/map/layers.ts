@@ -541,5 +541,10 @@ export const LAYER_GROUPS = {
 export const selectedFilter = (slug: string): FilterSpecification => ["==", ["get", "slug"], slug];
 
 /** Filtro por biomas selecionados (null = todos). */
-export const biomeFilter = (biomes: string[] | null): FilterSpecification | null =>
-  biomes ? ["in", ["get", "biome"], ["literal", biomes]] : null;
+/** Bioma e, quando a esfera está filtrada, a lista de slugs visíveis. */
+export const biomeFilter = (biomes: string[] | null, slugs: string[] | null = null): FilterSpecification | null => {
+  const parts: ExpressionSpecification[] = [];
+  if (biomes) parts.push(["in", ["get", "biome"], ["literal", biomes]]);
+  if (slugs) parts.push(["in", ["get", "slug"], ["literal", slugs]]);
+  return parts.length === 0 ? null : parts.length === 1 ? parts[0] : ["all", ...parts];
+};

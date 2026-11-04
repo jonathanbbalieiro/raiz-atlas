@@ -26,15 +26,16 @@ export function ParkCards({
   /** Se a lista obedece ao filtro de biomas (listas de "próximos" não precisam). */
   filterable?: boolean;
 }) {
-  const { biomes, setHighlight, clearBiomes } = useExplore();
-  const visible = filterable && biomes ? items.filter((p) => p.biome && biomes.includes(p.biome)) : items;
+  const { filtered, visibleParks, setHighlight, clearBiomes } = useExplore();
+  const visibleSlugs = new Set(visibleParks.map((p) => p.slug));
+  const visible = filterable && filtered ? items.filter((p) => visibleSlugs.has(p.path[2])) : items;
   if (!items.length) return null;
 
   return (
     <section className="px-4 pt-6" aria-label={heading}>
       <div className="flex items-baseline justify-between px-1">
         <h2 className="font-display text-xl font-semibold text-forest-deep">{heading}</h2>
-        {filterable && biomes && (
+        {filterable && filtered && (
           <p className="text-xs text-ink-soft" aria-live="polite">
             {visible.length} de {items.length}
           </p>
@@ -44,7 +45,7 @@ export function ParkCards({
       {visible.length === 0 ? (
         <div className="mt-3 rounded-xl border border-dashed border-line px-4 py-5 text-center">
           <p className="text-sm text-ink">
-            Nenhum parque deste conjunto corresponde aos biomas selecionados.
+            Nenhuma área deste conjunto corresponde aos filtros escolhidos.
           </p>
           <button
             type="button"

@@ -503,5 +503,7 @@ export interface MapIndex {
     bbox: BBox;
     /** Miniatura para o cartão de pré-visualização no mapa. */
     thumb: string | null;
+    /** Unidade estadual (fora dos 77 parques nacionais). */
+    estadual: boolean;
   }[];
 }

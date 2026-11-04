@@ -379,6 +379,7 @@ class DatasetRepository implements PlaceRepository {
         labelPoint: p.labelPoint,
         bbox: p.bbox,
         thumb: p.photos[0] ? thumbUrl(p.photos[0].src, 500) : null,
+        estadual: !!p.category,
       })),
     };
   }

@@ -11,13 +11,13 @@ import { href, plural } from "@/lib/labels";
  * o botão mostra que está carregando até a ficha abrir.
  */
 export function SurpriseButton({ wide = false }: { wide?: boolean } = {}) {
-  const { index, focus, biomes, visibleParks } = useExplore();
+  const { index, focus, filtered, visibleParks } = useExplore();
   const router = useRouter();
   const [pending, startTransition] = useTransition();
   const [spin, setSpin] = useState(0);
 
   const pool = visibleParks.filter((p) => p.slug !== focus?.path[2]);
-  const label = biomes
+  const label = filtered
     ? `Surpreenda-me: sorteia um entre ${plural(pool.length, "parque", "parques")} do filtro atual`
     : "Surpreenda-me: sorteia uma área protegida";
 

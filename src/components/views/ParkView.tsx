@@ -30,7 +30,10 @@ export async function ParkView({
   const states = park.ufs.map((u) => admin1.find((a) => a.code === u)?.name ?? u);
   const cover = park.photos[0];
   // "Parque Nacional da" + "Chapada dos Veadeiros": nome oficial completo, em dois níveis.
-  const prefix = park.name.endsWith(park.shortName) ? park.name.slice(0, -park.shortName.length).trim() : "";
+  // Sigla ou apelido (PETAR): o nome oficial completo vai acima, inteiro.
+  const prefix = park.name.endsWith(park.shortName)
+    ? park.name.slice(0, -park.shortName.length).trim()
+    : park.name !== park.shortName ? park.name : "";
 
   const title = (onPhoto: boolean) => (
     <>

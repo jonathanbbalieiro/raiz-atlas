@@ -11,21 +11,51 @@ import { BIOMES, BIOME_COLOR, BIOME_LABEL, plural } from "@/lib/labels";
  * num botão "Biomas" logo abaixo da busca.
  */
 export function BiomeFilter() {
-  const { index, focus, biomes, toggleBiome, clearBiomes } = useExplore();
+  const { index, focus, biomes, toggleBiome, clearBiomes, sphere, setSphere, filtered } = useExplore();
   const [expanded, setExpanded] = useState(false);
 
   // Escopo atual: o estado aberto (se houver) ou o país inteiro.
   const code = focus?.level === "admin1" ? index.admin1.find((a) => a.slug === focus.path[1])?.code : null;
   const scope = code ? index.parks.filter((p) => p.ufs.includes(code)) : index.parks;
   const counts = Object.fromEntries(BIOMES.map((b) => [b, scope.filter((p) => p.biome === b).length]));
-  const shown = biomes ? scope.filter((p) => biomes.includes(p.biome)).length : scope.length;
+  const inSphere = (p: (typeof scope)[number]) => !sphere || (sphere === "estadual") === p.estadual;
+  const shown = scope.filter((p) => (!biomes || biomes.includes(p.biome)) && inSphere(p)).length;
+  const nacionais = scope.filter((p) => !p.estadual).length;
+  const estaduais = scope.length - nacionais;
   const available = BIOMES.filter((b) => counts[b] > 0);
   // Dentro de um parque o filtro não muda o que se vê: some para dar espaço.
   if (focus && (focus.level === "park" || focus.level === "attraction")) return null;
 
-  const status = biomes
-    ? `Mostrando ${shown} de ${plural(scope.length, "parque", "parques")}`
-    : plural(scope.length, "parque", "parques");
+  const status = filtered
+    ? `Mostrando ${shown} de ${plural(scope.length, "área", "áreas")}`
+    : plural(scope.length, "área protegida", "áreas protegidas");
+
+  const spheres = estaduais > 0 && (
+    <ul className="mb-2 flex flex-wrap gap-1.5" aria-label="Esfera">
+      {(["nacional", "estadual"] as const).map((v) => {
+        const selected = sphere === v;
+        const n = v === "nacional" ? nacionais : estaduais;
+        if (n === 0) return null;
+        return (
+          <li key={v}>
+            <button
+              type="button"
+              aria-pressed={selected}
+              onClick={() => setSphere(v)}
+              className={[
+                "flex h-8 items-center gap-1.5 rounded-full border px-3 text-[13px] font-medium transition-colors duration-150 pointer-coarse:h-10",
+                selected ? "border-forest bg-forest text-card" : "border-line bg-card text-ink hover:border-ink-soft/40 hover:bg-paper-deep",
+                sphere && !selected ? "opacity-60" : "",
+              ].join(" ")}
+            >
+              {v === "nacional" ? "Parques nacionais" : "Áreas estaduais"}
+              <span className={`tabular-nums ${selected ? "text-card/80" : "text-ink-soft"}`}>{n}</span>
+            </button>
+          </li>
+        );
+      })}
+    </ul>
+  );
 
   const chips = (
     <ul className="flex flex-wrap gap-1.5" aria-label="Biomas">
@@ -77,7 +107,7 @@ export function BiomeFilter() {
 
   return (
     <section
-      aria-label="Filtrar parques por bioma"
+      aria-label="Filtrar áreas protegidas por esfera e bioma"
       data-biome-filter
       className={[
         "pointer-events-none absolute z-20",
@@ -95,10 +125,10 @@ export function BiomeFilter() {
         className="surface pointer-events-auto flex h-11 items-center gap-2 rounded-xl px-3 text-sm font-medium text-ink md:hidden"
       >
         <FilterIcon />
-        Biomas
-        {biomes && (
+        Filtros
+        {filtered && (
           <span className="rounded-full bg-forest px-1.5 text-xs text-card tabular-nums">
-            {biomes.length}
+            {(biomes?.length ?? 0) + (sphere ? 1 : 0)}
           </span>
         )}
         <span className="text-xs font-normal text-ink-soft">{status}</span>
@@ -111,10 +141,10 @@ export function BiomeFilter() {
         ].join(" ")}
       >
         <div className="mb-2 flex items-center justify-between gap-3">
-          <p className="text-xs font-semibold tracking-wide text-ink-soft uppercase">Biomas</p>
+          <p className="text-xs font-semibold tracking-wide text-ink-soft uppercase">{estaduais > 0 ? "Esfera e biomas" : "Biomas"}</p>
           <p className="text-xs text-ink-soft" aria-live="polite">
             {status}
-            {biomes && (
+            {filtered && (
               <>
                 {" · "}
                 <button
@@ -128,6 +158,7 @@ export function BiomeFilter() {
             )}
           </p>
         </div>
+        {spheres}
         {chips}
       </div>
     </section>

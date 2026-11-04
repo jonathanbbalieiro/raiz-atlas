@@ -19,8 +19,7 @@ export function Timeline({ feature, refs }: { feature: TimelineFeature; refs: Ex
       <h3 className="mt-1 font-display text-xl font-semibold text-forest-deep">{feature.title}</h3>
       <p className="mt-1 text-sm leading-relaxed text-ink-soft">{feature.intro}</p>
 
-      <div role="group" aria-label="Escolha um marco" className="relative mt-4 flex gap-2">
-        <span aria-hidden="true" className="absolute inset-x-2 top-1/2 h-px bg-line" />
+      <div role="group" aria-label="Escolha um marco" className="mt-4 flex flex-wrap gap-2">
         {feature.items.map((item, i) => (
           <button
             key={item.id}
@@ -28,7 +27,7 @@ export function Timeline({ feature, refs }: { feature: TimelineFeature; refs: Ex
             aria-pressed={selected === i}
             onClick={() => setSelected(i)}
             className={[
-              "relative h-10 flex-1 rounded-full border font-display text-base font-semibold tabular-nums transition",
+              "min-h-10 min-w-12 flex-auto rounded-full border px-3 py-1.5 text-center font-display text-sm leading-tight font-semibold tabular-nums transition",
               selected === i
                 ? "border-forest bg-forest text-card"
                 : "border-line bg-paper text-forest-deep hover:border-forest/50",

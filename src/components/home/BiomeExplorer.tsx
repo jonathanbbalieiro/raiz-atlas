@@ -9,7 +9,8 @@ import { BIOMES, BIOME_COLOR, BIOME_LABEL, formatArea, plural } from "@/lib/labe
  * isola o bioma; os seguintes somam ou removem). Tudo é derivado do índice.
  */
 export function BiomeExplorer() {
-  const { index, biomes, toggleBiome, clearBiomes } = useExplore();
+  const { index, biomes, toggleBiome, clearBiomes, sphere, setSphere, filtered } = useExplore();
+  const estaduais = index.parks.filter((p) => p.estadual).length;
   const rows = BIOMES.map((b) => {
     const parks = index.parks.filter((p) => p.biome === b);
     const largest = parks.reduce<(typeof parks)[number] | null>((m, p) => (!m || p.areaHa > m.areaHa ? p : m), null);
@@ -21,9 +22,25 @@ export function BiomeExplorer() {
     <section className="px-5 pt-9" aria-labelledby="biomas-titulo">
       <div className="flex items-baseline justify-between gap-3">
         <h2 id="biomas-titulo" className="font-display text-2xl font-semibold text-forest-deep">Descubra por bioma</h2>
-        {biomes && <button type="button" onClick={clearBiomes} className="min-h-11 text-xs font-medium text-forest underline underline-offset-2">Limpar filtro</button>}
+        {filtered && <button type="button" onClick={clearBiomes} className="min-h-11 text-xs font-medium text-forest underline underline-offset-2">Limpar filtro</button>}
       </div>
       <p className="mt-1 text-sm leading-relaxed text-ink-soft">Escolha um bioma para destacá-lo no mapa. Cada parque entra pelo bioma predominante.</p>
+      {estaduais > 0 && (
+        <ul className="mt-3 flex flex-wrap gap-2" aria-label="Esfera">
+          {([["nacional", "Parques nacionais", index.parks.length - estaduais], ["estadual", "Áreas estaduais", estaduais]] as const).map(([v, label, n]) => (
+            <li key={v}>
+              <button
+                type="button"
+                aria-pressed={sphere === v}
+                onClick={() => setSphere(v)}
+                className={`min-h-11 rounded-full border px-4 text-sm font-medium transition-colors ${sphere === v ? "border-forest bg-forest text-card" : "border-line bg-card text-ink hover:border-ink-soft/40"}`}
+              >
+                {label} <span className={sphere === v ? "text-card/80" : "text-ink-soft"}>{n}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
       <ul className="mt-3 border-t border-line" aria-label="Biomas">
         {rows.map(({ b, n, area, largest }) => {
           const selected = !!biomes?.includes(b);
