@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "status": "revisado",
+  "updatedAt": "2026-11-04",
+  "hook": "No encontro dos rios Cuiabá e Piquiri, no Pantanal mato-grossense, onças-pintadas nadam, pescam e caçam à vista de quem passa de barco.",
+  "intro": "O Parque Estadual Encontro das Águas, criado em 2004, tem cerca de 108 mil hectares de Pantanal entre Poconé e Barão de Melgaço, em Mato Grosso. É descrito como a maior concentração de onças-pintadas do mundo, e os passeios de barco pelos rios, na seca, transformaram o felino em motivo de viagem e de proteção.",
+  "sourceIds": [
+    "corr",
+    "gazeta"
+  ],
+  "protects": {
+    "summary": "Rios, margens e campos alagáveis do Pantanal Norte, com as onças-pintadas como símbolo",
+    "items": [
+      {
+        "title": "Um parque de rios",
+        "text": "O parque fica no encontro dos rios Cuiabá e Piquiri, entre os municípios de Poconé e Barão de Melgaço. As margens, os baixios e as matas de beira de rio formam o território das onças.",
+        "sourceIds": [
+          "corr",
+          "gazeta"
+        ]
+      },
+      {
+        "title": "Onças que valem mais vivas",
+        "text": "Um estudo de 2017 estimou que o turismo de observação de onças, em sete pousadas da região, rendia ao menos 6,8 milhões de dólares por ano, contra cerca de 121,5 mil dólares anuais em bois mortos pelos felinos nas fazendas vizinhas.",
+        "sourceIds": [
+          "tort"
+        ]
+      },
+      {
+        "title": "Fauna de água",
+        "text": "O levantamento do GBIF dentro do limite do parque soma 1.175 registros de onça-pintada, 378 de jacaré-do-pantanal e 185 de ariranha, além de capivaras, antas e cervos-do-pantanal.",
+        "sourceIds": [
+          "gbif-onca",
+          "gbif-jac",
+          "gbif-ari"
+        ]
+      },
+      {
+        "title": "Uma área que o fogo já atingiu",
+        "text": "Em 2020, o fogo consumiu 92 mil hectares, cerca de 85% do parque, segundo análise de satélite do Instituto Centro de Vida. Outro incêndio, iniciado em 1º de outubro de 2023, também atingiu a unidade.",
+        "sourceIds": [
+          "corr",
+          "ita"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Onças à beira do rio",
+      "text": "Nos rios do parque, as onças descem às margens para beber, atravessam a nado e caçam à vista dos barcos. Os passeios saem da região de Porto Jofre, e a melhor época para ver os felinos é a seca, de julho ao fim de setembro, quando eles ficam mais perto da água.",
+      "sourceIds": [
+        "corr",
+        "gazeta",
+        "tort"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/131_Jaguar_crossing_the_river_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/1920px-131_Jaguar_crossing_the_river_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:131_Jaguar_crossing_the_river_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Uma onça-pintada atravessando a nado um rio de águas escuras",
+        "context": "Onça-pintada atravessando um rio no Parque Estadual Encontro das Águas."
+      }
+    },
+    {
+      "title": "Ipês-rosa na seca",
+      "text": "No Pantanal, os ipês-rosa florescem de junho a outubro, com o auge em geral entre julho e agosto. Cada floração dura poucos dias, e as cores se alternam do rosa ao roxo, ao amarelo e ao branco. No parque, as copas rosadas aparecem sobre os campos abertos, em plena temporada das onças.",
+      "sourceIds": [
+        "ipe"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/175_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/1920px-175_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:175_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Um ipê-rosa em flor na paisagem aberta do Pantanal",
+        "context": "Ipê-rosa em flor no Parque Estadual Encontro das Águas."
+      }
+    },
+    {
+      "title": "Ariranhas nos rios",
+      "text": "A ariranha, maior mustelídeo do mundo e predadora no alto da cadeia aquática, tem 185 registros dentro do parque. Um levantamento de 2024 em Porto Jofre, no Rio Negro e no Cantão contou 74 ariranhas, 19 delas filhotes. A população do Pantanal tem baixa diversidade genética, o que a deixa mais vulnerável.",
+      "sourceIds": [
+        "eae",
+        "gbif-ari"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Giant_Otter_%28Pteronura_brasiliensis%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann_01.jpg/1920px-Giant_Otter_%28Pteronura_brasiliensis%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann_01.jpg",
+        "author": "Thomas Fuhrmann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_Otter_%28Pteronura_brasiliensis%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann_01.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Uma ariranha com a cabeça fora da água, de pescoço claro",
+        "context": "Ariranha em um rio do Parque Estadual Encontro das Águas."
+      }
+    },
+    {
+      "title": "Onça e jacaré",
+      "text": "O jacaré-do-pantanal é uma das presas das onças. Em estudo no Pantanal sul, a predação respondeu por cerca de 62% das 114 mortes de jacarés registradas. No parque, a cena é flagrada por fotógrafos nas margens, com a onça arrastando o réptil para fora d'água.",
+      "sourceIds": [
+        "azev",
+        "gbif-jac"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/On%C3%A7a-pintada_predando_jacar%C3%A9_do_pantanal_em_Parque_Estadual_Encontro_das_%C3%81guas_por_Hans_Von_Manteuffel_%28001%29.jpg/1920px-On%C3%A7a-pintada_predando_jacar%C3%A9_do_pantanal_em_Parque_Estadual_Encontro_das_%C3%81guas_por_Hans_Von_Manteuffel_%28001%29.jpg",
+        "author": "Hansfotos",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada_predando_jacar%C3%A9_do_pantanal_em_Parque_Estadual_Encontro_das_%C3%81guas_por_Hans_Von_Manteuffel_%28001%29.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Uma onça-pintada carregando um jacaré-do-pantanal na margem",
+        "context": "Onça-pintada com um jacaré-do-pantanal capturado, no Parque Estadual Encontro das Águas."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O estudo de 2017 sobre o turismo de onças usou o próprio Encontro das Águas como retrato do Pantanal e concluiu que a renda do turismo supera, com folga, o prejuízo causado pelos felinos ao gado.",
+      "sourceIds": [
+        "tort"
+      ]
+    },
+    {
+      "text": "Em 2020, a onça Ousado foi resgatada com queimaduras de segundo grau nas patas e levada, após 13 horas de viagem, à ONG Nex No Extinction. Um filhote também foi resgatado pela Marinha.",
+      "sourceIds": [
+        "corr"
+      ]
+    },
+    {
+      "text": "A estrada Transpantaneira (MT-060) vai do km 17 ao km 142, em Porto Jofre, onde ela termina. A SEMA-MT monitora a fauna ao longo dela com armadilhas fotográficas.",
+      "sourceIds": [
+        "sema-tp"
+      ]
+    },
+    {
+      "text": "As ariranhas do Pantanal são a população mais ao sul do país, e por isso são acompanhadas em levantamentos que incluem Porto Jofre.",
+      "sourceIds": [
+        "eae"
+      ]
+    },
+    {
+      "text": "O jacaré-do-pantanal faz o ninho em montes de folhas e gravetos perto da água, na mata, no capinzal ou sobre tapetes de vegetação flutuante. A temperatura do ninho define o sexo dos filhotes: abaixo de 31,5 °C nascem fêmeas, acima disso, em maioria machos.",
+      "sourceIds": [
+        "emb-rep",
+        "emb-temp"
+      ]
+    },
+    {
+      "text": "Os ipês-rosa mudam de cor ao longo da seca: rosa, depois roxo, amarelo e branco, até outubro.",
+      "sourceIds": [
+        "ipe"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "22 de dezembro de 2004 · O parque nasce",
+      "text": "O Decreto Estadual 4.881 cria o Parque Estadual Encontro das Águas, entre Poconé e Barão de Melgaço, na região de Porto Jofre.",
+      "sourceIds": [
+        "gazeta",
+        "corr"
+      ]
+    },
+    {
+      "title": "2017 · O valor da onça viva",
+      "text": "Pesquisadores publicam o estudo que compara a renda do turismo de observação de onças com os prejuízos ao gado: ao menos 6,8 milhões de dólares por ano contra cerca de 121,5 mil.",
+      "sourceIds": [
+        "tort"
+      ]
+    },
+    {
+      "title": "2020 · O fogo",
+      "text": "Entre julho e setembro, o fogo atinge 92 mil hectares, cerca de 85% do parque. Onças feridas são resgatadas e tratadas.",
+      "sourceIds": [
+        "corr"
+      ]
+    },
+    {
+      "title": "2023 · Novo incêndio",
+      "text": "Um incêndio iniciado em 1º de outubro volta a queimar a unidade, com brigadistas combatendo as chamas por terra e por ar.",
+      "sourceIds": [
+        "ita"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "O parque é apontado como a maior concentração de onças-pintadas do mundo, e o turismo de observação nos seus rios gera ao menos 6,8 milhões de dólares por ano. Tem 1.175 registros no GBIF dentro do limite da unidade.",
+      "sourceIds": [
+        "corr",
+        "tort",
+        "gbif-onca"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/011_Jaguar_drinking_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/1920px-011_Jaguar_drinking_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:011_Jaguar_drinking_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Uma onça-pintada bebendo água na margem do rio",
+        "context": "Onça-pintada bebendo água no Parque Estadual Encontro das Águas."
+      }
+    },
+    {
+      "scientificName": "Pteronura brasiliensis",
+      "name": "Ariranha",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Depende de rios limpos e de margens preservadas, como os do parque, que reúne 185 registros da espécie. A população do Pantanal é a mais ao sul do país e tem baixa diversidade genética, e Porto Jofre está entre as áreas de monitoramento.",
+      "sourceIds": [
+        "eae",
+        "pan-ari",
+        "gbif-ari"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Giant_Otter_%28Pteronura_brasiliensis%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann_01.jpg/1920px-Giant_Otter_%28Pteronura_brasiliensis%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann_01.jpg",
+        "author": "Thomas Fuhrmann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giant_Otter_%28Pteronura_brasiliensis%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann_01.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Uma ariranha com a cabeça fora da água, de pescoço claro",
+        "context": "Ariranha em um rio do Parque Estadual Encontro das Águas."
+      }
+    },
+    {
+      "scientificName": "Caiman yacare",
+      "name": "Jacaré-do-pantanal",
+      "criteria": [
+        "papel_ecologico"
+      ],
+      "why": "É o réptil mais registrado no parque, com 378 ocorrências no GBIF, e uma das presas das onças: no Pantanal sul, os felinos respondem por cerca de 62% das mortes de jacarés registradas em um estudo.",
+      "sourceIds": [
+        "azev",
+        "gbif-jac"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Yacare_Caiman_%28Caiman_yacare%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann.jpg/1920px-Yacare_Caiman_%28Caiman_yacare%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann.jpg",
+        "author": "Thomas Fuhrmann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yacare_Caiman_%28Caiman_yacare%29%2C_Parque_Estadual_Encontro_das_%C3%81guas_Thomas-Fuhrmann.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Um jacaré-do-pantanal descansando na margem",
+        "context": "Jacaré-do-pantanal no Parque Estadual Encontro das Águas (foto ilustrativa da espécie)."
+      }
+    },
+    {
+      "scientificName": "Blastocerus dichotomus",
+      "name": "Cervo-do-pantanal",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Maior cervídeo do país, Vulnerável, depende de áreas alagáveis como as do parque, onde há registros no GBIF e fotografias dele sob os ipês-rosa dos campos abertos.",
+      "sourceIds": [
+        "lv2",
+        "gbif-cer"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/045_Marsh_deer_under_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/1920px-045_Marsh_deer_under_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:045_Marsh_deer_under_Pink_Ip%C3%AA_tree_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Um cervo-do-pantanal caminhando sob um ipê-rosa",
+        "context": "Cervo-do-pantanal sob um ipê-rosa no Parque Estadual Encontro das Águas."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "corr",
+      "institution": "Correio Braziliense",
+      "title": "Queimadas destroem 85% de parque que abriga maior refúgio de onças-pintadas do mundo (14/09/2020)",
+      "url": "https://www.correiobraziliense.com.br/forcabrasilia/2020/09/4875792-queimadas-destroem-85--de-parque-que-abriga-maior-refugio-de-oncas-pintadas-no-mundo.html",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "gazeta",
+      "institution": "Gazeta SP",
+      "title": "Terra das Onças-Pintadas: como visitar o parque no Pantanal que encanta o mundo inteiro",
+      "url": "https://gazetasp.com.br/turismo/parque-estadual-encontro-das-aguas-oncas-pintadas",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "tort",
+      "institution": "Mongabay",
+      "title": "Curiosity saves the cat: tourism helps reinvent the jaguar (2017), sobre o estudo de Tortato, Izzo e Hoogesteijn na Global Ecology and Conservation",
+      "url": "https://news.mongabay.com/2017/09/curiosity-saves-the-cat-tourism-helps-reinvent-the-jaguar/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "ita",
+      "institution": "Itatiaia",
+      "title": "Incêndios ameaçam paraíso das onças-pintadas no Pantanal; entenda (2023)",
+      "url": "https://www.itatiaia.com.br/brasil/incendios-ameacam-paraiso-das-oncas-pintadas-no-pantanal-entenda/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "eae",
+      "institution": "Explorers Against Extinction",
+      "title": "Mapping a future for giant otters in Brazil (Projeto Ariranhas, 2024)",
+      "url": "https://explorersagainstextinction.co.uk/blog/mapping-a-future-for-giant-otters-in-brazil/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "ipe",
+      "institution": "Travel.com.br",
+      "title": "Florada dos ipês no Pantanal",
+      "url": "https://travel.com.br/?p=46336",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "azev",
+      "institution": "FAPESP",
+      "title": "Predator-prey interactions: jaguar predation on caiman in a southern Pantanal habitat (Azevedo e Verdade, 2012)",
+      "url": "https://bv.fapesp.br/en/publicacao/52743/predator-prey-interactions-jaguar-predation-on-caiman-in-a",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "sema-tp",
+      "institution": "SEMA-MT",
+      "title": "Relatório 1 do Projeto Transpantaneira 2022-2023 (monitoramento de fauna)",
+      "url": "https://www.sema.mt.gov.br/site/phocadownload/Fauna_RecursosPesqueiros/cfrp_relatorio1_projeto_transpantaneira_2022_2023.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "emb-temp",
+      "institution": "Embrapa Pantanal",
+      "title": "A temperatura como fator determinante (reprodução do jacaré-do-pantanal)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/972234/1/A-temperatura-como-fator-determinante.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "emb-rep",
+      "institution": "Embrapa Pantanal",
+      "title": "O período reprodutivo de Caiman (jacaré-do-pantanal)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/972247/1/O-periodo-reprodutvo-de-Caiman.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "pan-ari",
+      "institution": "ICMBio",
+      "title": "Plano de Ação Nacional para a Conservação da Ariranha: sumário",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-ariranha/1-ciclo/pan-ariranha-sumario.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "lv2",
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "gbif-onca",
+      "institution": "GBIF",
+      "title": "Panthera onca: ocorrências",
+      "url": "https://www.gbif.org/species/5219426",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "gbif-ari",
+      "institution": "GBIF",
+      "title": "Pteronura brasiliensis: ocorrências",
+      "url": "https://www.gbif.org/species/2433681",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "gbif-jac",
+      "institution": "GBIF",
+      "title": "Caiman yacare: ocorrências",
+      "url": "https://www.gbif.org/species/5220210",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "gbif-cer",
+      "institution": "GBIF",
+      "title": "Blastocerus dichotomus: ocorrências",
+      "url": "https://www.gbif.org/species/2440963",
+      "accessed": "2026-11-04"
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "status": "revisado",
+  "updatedAt": "2026-11-04",
+  "hook": "Mata Atlântica, campos de altitude e ilhas de aves marinhas: a serra que guarda a água da Grande Florianópolis.",
+  "intro": "Criado em 1975, o Parque Estadual da Serra do Tabuleiro tem cerca de 84 mil hectares em nove municípios de Santa Catarina e é a maior unidade de proteção integral do estado. Vai das restingas e ilhas do litoral até as florestas de araucária e os campos do alto da serra, e guarda nascentes de rios que abastecem a Grande Florianópolis.",
+  "sourceIds": [
+    "lei",
+    "agua"
+  ],
+  "protects": {
+    "summary": "Da restinga ao campo de altitude, com as nascentes de uma região inteira",
+    "items": [
+      {
+        "title": "A água da Grande Florianópolis",
+        "text": "A bacia do rio Cubatão do Sul tem cerca de 28 mil hectares dentro do parque, e a do rio d'Una, uns 18 mil. O Vargem do Braço, com 32 quilômetros, é o maior afluente do Cubatão do Sul. A bacia do Rio dos Porcos fica inteira dentro da unidade.",
+        "sourceIds": [
+          "agua"
+        ]
+      },
+      {
+        "title": "Do mar à serra",
+        "text": "O parque reúne restingas, manguezais, floresta ombrófila densa, floresta de araucária e, nas partes altas, campos de altitude. São ambientes que abrigam espécies endêmicas e ameaçadas de extinção.",
+        "sourceIds": [
+          "agua",
+          "oeco"
+        ]
+      },
+      {
+        "title": "Ilhas no mar",
+        "text": "A unidade inclui ilhas do litoral, como as de Moleques do Sul, Três Irmãs, Coral, dos Cardos e Siriú, além da ponta sul da Ilha de Santa Catarina. Em Moleques do Sul nidificam aves marinhas e vive o preá que só existe ali.",
+        "sourceIds": [
+          "uff",
+          "univali"
+        ]
+      },
+      {
+        "title": "Fauna de mata",
+        "text": "Um levantamento de mamíferos terrestres reuniu 75 espécies nativas, cerca de 54% das conhecidas em terra no estado, e 15 delas estão ameaçadas em algum nível, estadual, nacional ou global.",
+        "sourceIds": [
+          "biotemas11"
+        ]
+      },
+      {
+        "title": "Proteção integral",
+        "text": "Em uma unidade de proteção integral, nem o extrativismo nem a pesca são permitidos. As atividades humanas ficam restritas à pesquisa, à educação ambiental e ao turismo sustentável.",
+        "sourceIds": [
+          "agua"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Morro do Cambirela",
+      "text": "Com 922 metros, é o morro do parque mais próximo de Florianópolis, em Palhoça. A subida leva cerca de três horas por mata e vegetação rasteira, num percurso de nível difícil que começa por trilhas ao lado de propriedades particulares. Do alto, o olhar alcança planícies, morros e o litoral.",
+      "sourceIds": [
+        "uff"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Morro_do_Cambirela_01.jpg/1920px-Morro_do_Cambirela_01.jpg",
+        "author": "SilvanaRoth",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morro_do_Cambirela_01.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Pôr do sol no alto do Morro do Cambirela, com a luz alaranjada sobre as montanhas e o mar ao fundo",
+        "context": "O alto do Morro do Cambirela ao pôr do sol, no Parque Estadual da Serra do Tabuleiro."
+      }
+    },
+    {
+      "title": "Pico do Tabuleiro",
+      "text": "O ponto que deu nome à serra passa de 1.200 metros, em Santo Amaro da Imperatriz. A trilha é longa e íngreme, com desnível de mais de 1.000 metros, bem marcada e com poucos obstáculos. Do alto, vales e morros se alinham até o horizonte.",
+      "sourceIds": [
+        "santoamaro"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pico_do_tabuleiro.jpg/1920px-Pico_do_tabuleiro.jpg",
+        "author": "Jean Lagartixa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_do_tabuleiro.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Vista a partir do Pico do Tabuleiro, com serras cobertas de mata",
+        "context": "Paisagem vista no Pico do Tabuleiro, no Parque Estadual da Serra do Tabuleiro."
+      }
+    },
+    {
+      "title": "Campos de altitude",
+      "text": "Nas partes mais altas, a serra muda de feição: a mata dá lugar às florestas de araucária e aos campos de altitude. É a paisagem que liga o mar ao planalto, no alto do parque.",
+      "sourceIds": [
+        "oeco",
+        "agua"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Campos_no_Parque_Estadual_da_Serra_do_Tabuleiro_01.jpg/1920px-Campos_no_Parque_Estadual_da_Serra_do_Tabuleiro_01.jpg",
+        "author": "João Batista Gonçalves Lostada",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campos_no_Parque_Estadual_da_Serra_do_Tabuleiro_01.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Campo de altitude aberto no topo da serra, com o céu amplo",
+        "context": "Campos no topo da Serra do Tabuleiro, vistos de um acampamento dentro do parque."
+      }
+    },
+    {
+      "title": "Rio da Madre",
+      "text": "A bacia do Rio da Madre ocupa cerca de 5 mil hectares do parque, na vertente que desce para o mar, ao lado da bacia do rio Maciambu. Perto da foz, na Guarda do Embaú, o rio abre entre dunas e morros, e canoas cruzam suas águas ao entardecer.",
+      "sourceIds": [
+        "agua"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bateira_no_rio_da_Madre.jpg/1920px-Bateira_no_rio_da_Madre.jpg",
+        "author": "Andre martins barata",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bateira_no_rio_da_Madre.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Bateira ancorada no Rio da Madre, perto da Guarda do Embaú",
+        "context": "Uma bateira no Rio da Madre, na praia da Guarda do Embaú, no Parque Estadual da Serra do Tabuleiro."
+      }
+    },
+    {
+      "title": "Ilhas Moleques do Sul",
+      "text": "Três ilhas de granito, cerca de 12 quilômetros ao sul de Florianópolis, a maior com uns 100 metros de altura e sem praia. Reúnem o principal sítio de reprodução de aves marinhas da costa catarinense e abrigam um roedor que não existe em nenhum outro lugar.",
+      "sourceIds": [
+        "univali",
+        "ima-prea"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Ilhas_Moleques_do_Sul%2C_Santa_Catarina_-_Arquip%C3%A9lago.jpg/1920px-Ilhas_Moleques_do_Sul%2C_Santa_Catarina_-_Arquip%C3%A9lago.jpg",
+        "author": "André Ganzarolli Martins",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ilhas_Moleques_do_Sul%2C_Santa_Catarina_-_Arquip%C3%A9lago.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "As três ilhas rochosas do arquipélago de Moleques do Sul, cobertas de vegetação, no mar aberto",
+        "context": "O arquipélago de Moleques do Sul, no litoral sul de Santa Catarina, parte do Parque Estadual da Serra do Tabuleiro."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O botânico Roberto Klein estudou a flora catarinense de 1954 a 1975, ao lado de Raulino Reitz, e concluiu que a riqueza da Serra do Tabuleiro só seria preservada com um parque.",
+      "sourceIds": [
+        "agua"
+      ]
+    },
+    {
+      "text": "O Vargem do Braço tem 32 quilômetros e uma área de drenagem de 184,74 km². É o maior afluente do Cubatão do Sul, rio que também abastece a Grande Florianópolis.",
+      "sourceIds": [
+        "agua"
+      ]
+    },
+    {
+      "text": "A bacia do Rio dos Porcos, de uns 11 quilômetros, está inteira dentro do parque, em boas condições de preservação.",
+      "sourceIds": [
+        "agua"
+      ]
+    },
+    {
+      "text": "O parque ocupa cerca de 1% do território catarinense. A Lei 14.661, de 2009, depois de décadas de anexações e desanexações, redefiniu seus limites e fixou 84.130 hectares.",
+      "sourceIds": [
+        "lei",
+        "agua"
+      ]
+    },
+    {
+      "text": "O preá-de-Moleques-do-Sul vive em cerca de 10 hectares de uma única ilha, com população de uns 60 indivíduos. Para o IMA, é o mamífero de menor área de distribuição do planeta.",
+      "sourceIds": [
+        "ima-prea"
+      ]
+    },
+    {
+      "text": "Moleques do Sul é o limite austral das colônias reprodutivas do atobá-pardo, ave marinha que ali se reproduz o ano todo, com pico de ovos de agosto a novembro.",
+      "sourceIds": [
+        "unisinos",
+        "biota13"
+      ]
+    },
+    {
+      "text": "A flora da maior ilha de Moleques do Sul, levantada entre 2003 e 2004, soma 24 espécies de 18 famílias. A Verbesina glabrata é a mais difundida.",
+      "sourceIds": [
+        "univali"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1954 a 1975 · A serra sob os olhos dos botânicos",
+      "text": "Roberto Klein e Raulino Reitz pesquisam a flora de Santa Catarina num período de avanço da exploração de madeira e da agricultura. Klein conclui que a riqueza da Serra do Tabuleiro e de seu entorno só seria preservada com um parque.",
+      "sourceIds": [
+        "agua",
+        "oeco"
+      ]
+    },
+    {
+      "title": "1975 · Nasce o parque",
+      "text": "Em 1º de novembro, o Decreto 1.260 cria o Parque Estadual da Serra do Tabuleiro, com cerca de 90 mil hectares e sete municípios. A proteção da água aparece desde o início entre suas prioridades.",
+      "sourceIds": [
+        "lei",
+        "agua"
+      ]
+    },
+    {
+      "title": "1982 · Limites retificados",
+      "text": "O Decreto 17.720, de 25 de agosto, retifica os limites do parque, que passaria ainda por anexações e desanexações ao longo das décadas.",
+      "sourceIds": [
+        "lei",
+        "agua"
+      ]
+    },
+    {
+      "title": "2009 · Nova lei, novos limites",
+      "text": "A Lei 14.661, de 26 de março, reavalia os limites, fixa a área em 84.130 hectares e institui o Mosaico de Unidades de Conservação da Serra do Tabuleiro e Terras de Massiambu, com cerca de 98.400 hectares.",
+      "sourceIds": [
+        "lei"
+      ]
+    },
+    {
+      "title": "2018 · Plano de manejo",
+      "text": "O parque ganha plano de manejo, elaborado pela STCP Engenharia de Projetos, que descreve suas bacias hidrográficas, como as do Cubatão do Sul, do d'Una, da Madre e do Maciambu.",
+      "sourceIds": [
+        "agua"
+      ]
+    },
+    {
+      "title": "2019 · Plano de ação para o preá",
+      "text": "Começa o Plano de Ação Estadual para conservação do preá-de-Moleques-do-Sul: 28 ações, mais de 35 colaboradores e 18 instituições, de órgãos de governo a escolas.",
+      "sourceIds": [
+        "ima-prea"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Cavia intermedia",
+      "name": "Preá-de-Moleques-do-Sul",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Roedor que só existe na maior ilha de Moleques do Sul, em cerca de 10 hectares, com uns 60 indivíduos. O IMA o considera criticamente ameaçado nos níveis estadual, nacional e global e, desde 2019, conduz um plano de ação para protegê-lo.",
+      "sourceIds": [
+        "ima-prea",
+        "biotemas11"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Cavia_intermedia_f825.JPG",
+        "author": "Carlos H. Salvador",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cavia_intermedia_f825.JPG",
+        "width": 700,
+        "height": 525,
+        "alt": "Preá-de-Moleques-do-Sul (Cavia intermedia)",
+        "context": "Preá-de-Moleques-do-Sul, Cavia intermedia, na ilha de Moleques do Sul."
+      }
+    },
+    {
+      "scientificName": "Sula leucogaster",
+      "name": "Atobá-pardo",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Moleques do Sul, dentro do parque, é o limite austral das colônias reprodutivas da espécie e o principal sítio de reprodução de aves marinhas da costa catarinense. Cinco anos de censos mensais acompanharam a colônia da ilha.",
+      "sourceIds": [
+        "unisinos",
+        "biota13"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Atob%C3%A1_%28Sula_leucogaster%29_nas_ilhas_Moleques_do_Sul%2C_sul_do_Brasil.jpg/1280px-Atob%C3%A1_%28Sula_leucogaster%29_nas_ilhas_Moleques_do_Sul%2C_sul_do_Brasil.jpg",
+        "author": "André Ganzarolli Martins",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atob%C3%A1_%28Sula_leucogaster%29_nas_ilhas_Moleques_do_Sul%2C_sul_do_Brasil.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Atobá-pardo (Sula leucogaster)",
+        "context": "Atobá-pardo, Sula leucogaster, fotografado em Moleques do Sul, no Parque Estadual da Serra do Tabuleiro."
+      }
+    },
+    {
+      "scientificName": "Araucaria angustifolia",
+      "name": "Araucária",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "A floresta de araucária ocupa as partes altas da serra, onde encontra os campos de altitude. É um dos ambientes, entre restingas e mata densa, que justificaram a proteção do parque.",
+      "sourceIds": [
+        "agua",
+        "oeco"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Arauc%C3%A1rias_verdejantes.jpg/1920px-Arauc%C3%A1rias_verdejantes.jpg",
+        "author": "Catrinah",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arauc%C3%A1rias_verdejantes.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Araucárias sobre o campo",
+        "context": "Araucárias em outra área de planalto do Sul. Foto ilustrativa da espécie."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lei",
+      "institution": "Assembleia Legislativa de Santa Catarina",
+      "title": "Lei 14.661, de 26 de março de 2009 (limites do Parque Estadual da Serra do Tabuleiro e Mosaico de Unidades de Conservação)",
+      "url": "https://documentacao.socioambiental.org/ato_normativo/UC/4424_20200510_181955.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "agua",
+      "institution": "Cidades Verdes (UNESP)",
+      "title": "Parque Estadual Serra do Tabuleiro e o abastecimento de água da Grande Florianópolis/SC (Pereira e Benini, 2021)",
+      "url": "https://publicacoes.amigosdanatureza.org.br/index.php/cidades_verdes/article/download/2887/2708/6448",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "oeco",
+      "institution": "O Eco",
+      "title": "Pior do que a chuva é o manda-chuva (Marcos Sá Corrêa)",
+      "url": "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/20538-pior-do-que-a-chuva-e-o-manda-chuva.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "uff",
+      "institution": "Revista Uso Público em Unidades de Conservação (UFF)",
+      "title": "Levantamento das trilhas e caracterização dos visitantes do Morro do Cambirela, Palhoça, SC (Silva Júnior, 2013)",
+      "url": "https://periodicos.uff.br/uso_publico/article/download/28714/16657",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "univali",
+      "institution": "Brazilian Journal of Aquatic Science and Technology (Univali)",
+      "title": "Florula da ilha de Moleques do Sul, Santa Catarina, Brasil (Rogalski e Araújo, 2005)",
+      "url": "https://periodicos.univali.br/index.php/bjast/article/view/574/486",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "unisinos",
+      "institution": "Neotropical Biology and Conservation (Unisinos)",
+      "title": "Influência meteorológica em população de Sula leucogaster do Arquipélago de Moleques do Sul, sul do Brasil (2017)",
+      "url": "https://revistas.unisinos.br/index.php/neotropical/article/download/nbc.2017.121.07/5877/49566",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "biota13",
+      "institution": "Biota Neotropica",
+      "title": "Reproduction and demographic trends of Sula leucogaster at the Moleques do Sul Archipelago, Santa Catarina, Brazil (Branco, Fracasso e Moraes-Ornellas, 2013)",
+      "url": "https://www.biotaneotropica.org.br/BN/article/view/1211",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "biotemas11",
+      "institution": "Biotemas (UFSC)",
+      "title": "Mastofauna terrestre do Parque Estadual da Serra do Tabuleiro, Estado de Santa Catarina, sul do Brasil (Cherem et al., 2011)",
+      "url": "https://periodicos.ufsc.br/index.php/biotemas/article/download/2175-7925.2011v24n3p73/18761/65324",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "ima-prea",
+      "institution": "Instituto do Meio Ambiente de Santa Catarina (IMA)",
+      "title": "Preá-de-Moleques-do-Sul: Conhecer e Proteger (banner do Plano de Ação Estadual)",
+      "url": "https://www.ima.sc.gov.br/wp-content/uploads/2026/07/Banner-Prea-Acoes-e-Objetivos.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "santoamaro",
+      "institution": "Prefeitura de Santo Amaro da Imperatriz",
+      "title": "Trilha do Pico do Tabuleiro (Portal Municipal de Turismo)",
+      "url": "https://turismo.santoamaro.sc.gov.br/trilha-do-pico-do-tabuleiro/",
+      "accessed": "2026-11-04"
+    }
+  ]
+}

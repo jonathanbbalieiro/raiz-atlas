@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Estadual da Serra do Mar",
+  "title": "A serra que desce ao mar: do caminho de pedra à praia de Picinguaba",
+  "subtitle": "Entre estradas históricas, cachoeiras de altitude e restingas, o maior parque de proteção integral do litoral brasileiro guarda dez núcleos e mais de 70 atrações.",
+  "centralQuestion": "Como uma mesma floresta reúne um caminho de 1792, cachoeiras de montanha e praias quase desertas?",
+  "introduction": [
+    "Quem sobe ou desce a Serra do Mar de carro costuma ver só a neblina. Dentro do parque, a mata aberta pela estrada de pedras do século XVIII chega a mirantes, e a mesma floresta segue até praias onde o rio encontra o mar.",
+    "O Parque Estadual da Serra do Mar, criado em 1977, tem 322.293 hectares em 23 municípios paulistas e dez núcleos de gestão. É a maior área de proteção integral do litoral brasileiro."
+  ],
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Praia_da_Fazenda%2C_Picinguaba.jpg/1920px-Praia_da_Fazenda%2C_Picinguaba.jpg",
+    "author": "Marco Mello",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_da_Fazenda,_Picinguaba.jpg",
+    "width": 1920,
+    "height": 1434,
+    "alt": "A praia da Fazenda com a areia molhada refletindo o céu e morros de mata ao fundo",
+    "context": "A praia da Fazenda, no Núcleo Picinguaba do Parque Estadual da Serra do Mar."
+  },
+  "moments": [
+    {
+      "id": "serra",
+      "eyebrow": "01 · Uma serra inteira",
+      "title": "Um parque de dez núcleos",
+      "question": "O que é, ao todo, o Parque Estadual da Serra do Mar?",
+      "paragraphs": [
+        "O decreto de 30 de agosto de 1977 reconheceu que a Serra do Mar tinha condições excepcionais para um parque estadual: flora de grande valor científico e fauna que ali encontra condições ideais de vida tranquila. A área inicial era de cerca de 315.000 hectares, e hoje o Guia de Áreas Protegidas registra 322.293 hectares em 23 municípios.",
+        "A gestão é dividida em dez núcleos: Itariru, Itutinga-Pilões, Curucutu, Bertioga, São Sebastião, Caraguatatuba, Padre Dória, Santa Virgínia, Cunha e Picinguaba. Cada um tem sua paisagem, de campos nebulares a restingas, e o parque soma mais de 70 atrações.",
+        "Para quem vive em volta, o parque faz diferença todos os dias. O Guia de Áreas Protegidas lembra que ele ameniza o clima, estabiliza as encostas e garante água em quantidade e qualidade para os núcleos urbanos do entorno."
+      ],
+      "sourceIds": [
+        "decreto-1977",
+        "guia-pesm",
+        "abc-45anos"
+      ],
+      "citations": [
+        {
+          "sourceId": "decreto-1977",
+          "locator": "considerandos e artigos 1.º e 2.º"
+        },
+        {
+          "sourceId": "guia-pesm",
+          "locator": "texto de apresentação"
+        },
+        {
+          "sourceId": "abc-45anos",
+          "locator": "trecho sobre os núcleos e atrações"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "caminho",
+      "eyebrow": "02 · O caminho de pedra",
+      "title": "Calçada do Lorena e a Estrada Velha de Santos",
+      "question": "Como era descer a serra antes das rodovias?",
+      "paragraphs": [
+        "No trecho Caminhos do Mar, em São Bernardo do Campo, o roteiro da Calçada do Lorena tem cerca de 6 quilômetros, ida e volta, entre a mata fechada e três pontos de parada: o Monumento do Pico, o Belvedere Circular e o Padrão do Lorena. A via de pedras foi aberta em 1792 e levava o açúcar do interior ao porto de Santos.",
+        "A estrada que a sucedeu foi pavimentada em 1920 e deixou de ser a principal em 1947, com a Rodovia Anchieta. Fechada a veículos comuns em 1985, foi reaberta em 2002 para visitas a pé. O roteiro de descida completa tem 9 quilômetros e passa também pelo Pouso Paranapiacaba, pela Curva do Uau, pelos dutos da Usina Henry Borden e pelo Rancho da Maioridade.",
+        "A visita se faz de quarta a domingo, das 8h às 17h. Em volta, a floresta ombrófila densa cobre as encostas, e o parque pede roupas e calçados próprios para a mata fechada, por causa da lama e dos animais peçonhentos."
+      ],
+      "sourceIds": [
+        "g-lorena",
+        "g-monumentos",
+        "spsecreto"
+      ],
+      "citations": [
+        {
+          "sourceId": "g-lorena",
+          "locator": "seção Descrição e Dados Técnicos"
+        },
+        {
+          "sourceId": "g-monumentos",
+          "locator": "seção Descrição (roteiro turístico 2)"
+        },
+        {
+          "sourceId": "spsecreto",
+          "locator": "seções sobre a história da estrada e os monumentos"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Padr%C3%A3o_do_Lorena_-_panoramio.jpg/1920px-Padr%C3%A3o_do_Lorena_-_panoramio.jpg",
+          "author": "enioprado",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padr%C3%A3o_do_Lorena_-_panoramio.jpg",
+          "width": 1920,
+          "height": 1278,
+          "alt": "O Padrão do Lorena, monumento de pedra no alto da serra, entre a mata",
+          "context": "O Padrão do Lorena, monumento do trecho Caminhos do Mar do parque."
+        }
+      ]
+    },
+    {
+      "id": "aguas",
+      "eyebrow": "03 · Águas do planalto",
+      "title": "Santa Virgínia e Cunha",
+      "question": "Onde estão as cachoeiras e a floresta de altitude?",
+      "paragraphs": [
+        "No Núcleo Santa Virgínia, de cerca de 17.000 hectares, a Trilha da Pirapitinga faz uma ferradura de 5.700 metros entre os rios Ipiranga e Paraibuna e passa pelas cachoeiras Andorinhas, Salto Grande e Saltinho. No Salto Grande, o peixe pirapitinga pode ser visto, e a trilha tem registros de queixada, de cateto e, com sorte, de anta.",
+        "Mais acima, a Trilha do Corcovado segue por cerca de 20 quilômetros, ida e volta, até a crista da serra, onde a floresta de neblina tem grandes bromélias e vegetação baixa. O Poço do Pito, outro destino, deve o nome ao cachimbo de um caçador, perdido ali.",
+        "Em Cunha, a Trilha do Rio Paraibuna é um circuito curto entre araucárias, bom para observar aves, e a Trilha das Cachoeiras alonga o passeio por 14 a 15 quilômetros, com águas dos rios Paraibuna, Bonito e Ipiranguinha. O guia cita tangarazinho, saíra-da-serra, papa-taoca-do-sul, corocochó e araponga entre as aves da trilha."
+      ],
+      "sourceIds": [
+        "g-pirapitinga",
+        "g-corcovado-sv",
+        "g-pito",
+        "g-paraibuna",
+        "g-cachoeiras",
+        "biota-sv"
+      ],
+      "citations": [
+        {
+          "sourceId": "g-pirapitinga",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-corcovado-sv",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-pito",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-paraibuna",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-cachoeiras",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "biota-sv",
+          "locator": "resumo (área do núcleo)"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Parque_Estadual_Serra_do_Mar_-_N%C3%BAcleo_Cunha_por_Joalpe_-_003.jpg/1920px-Parque_Estadual_Serra_do_Mar_-_N%C3%BAcleo_Cunha_por_Joalpe_-_003.jpg",
+          "author": "Joalpe",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_Serra_do_Mar_-_N%C3%BAcleo_Cunha_por_Joalpe_-_003.jpg",
+          "width": 1920,
+          "height": 1081,
+          "alt": "Um campo gramado em primeiro plano, com mata e araucárias ao fundo, sob céu azul",
+          "context": "Paisagem do Núcleo Cunha, do Parque Estadual da Serra do Mar, com araucárias na mata ao fundo."
+        }
+      ]
+    },
+    {
+      "id": "picinguaba",
+      "eyebrow": "04 · Do rio ao mar",
+      "title": "Picinguaba, Fazenda e Camburi",
+      "question": "E quando a serra chega à praia?",
+      "paragraphs": [
+        "No Núcleo Picinguaba, em Ubatuba, a mata de encosta desce até a restinga e o mar. A Trilha da Rendeira, de até 500 metros, passa pela floresta alta de restinga, onde se veem aves, caranguejos e répteis. A do Picadão da Barra segue pela planície da praia da Fazenda, entre restinga e manguezal, até a barra dos rios Fazenda e Picinguaba.",
+        "A Trilha do Jatobá começa na Casa de Farinha, antigo engenho de álcool e açúcar, e leva ao poço do rio Fazenda por mata preservada, onde o guia cita o palmito-juçara e o jatobá centenário. Já a Brava da Almada termina em uma praia de ondas fortes, quase deserta.",
+        "Mais ao norte, o Quilombo de Camburi mostra como povos tradicionais e unidade de conservação dividem o mesmo território. A Trilha dos Poços segue o rio do Cedro, a Brava do Camburi chega a uma praia de ondas fortes, e a travessia até a Trindade liga São Paulo ao Rio de Janeiro."
+      ],
+      "sourceIds": [
+        "g-rendeira",
+        "g-picadao",
+        "g-jatoba",
+        "g-almada",
+        "g-camburi",
+        "g-pocos-camburi",
+        "g-travessia"
+      ],
+      "citations": [
+        {
+          "sourceId": "g-rendeira",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-picadao",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-jatoba",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-almada",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-camburi",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-pocos-camburi",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "g-travessia",
+          "locator": "seção Descrição"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Praia_de_Camburi_das_Pedras--Rio_Camburi_2017-7305.jpg/1920px-Praia_de_Camburi_das_Pedras--Rio_Camburi_2017-7305.jpg",
+          "author": "Paul R. Burley",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_de_Camburi_das_Pedras--Rio_Camburi_2017-7305.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Foz do rio Camburi, com rochas e mata na margem e a areia em primeiro plano",
+          "context": "A foz do rio Camburi, no Núcleo Picinguaba do parque."
+        }
+      ]
+    },
+    {
+      "id": "bichos",
+      "eyebrow": "05 · Quem vive aqui",
+      "title": "Muriqui, jacutinga, anta e palmito",
+      "question": "Que bichos e plantas raros a serra guarda?",
+      "paragraphs": [
+        "Em março de 2017, o Núcleo Padre Dória, criado em 2014, flagrou o muriqui-do-sul durante uma expedição sobre trilhas históricas e a jacutinga em uma saída de campo no setor Rio Pardo. As duas espécies estão em perigo de extinção, e o avistamento é muito raro. Para a gestora, a jacutinga é um termômetro positivo da qualidade ambiental.",
+        "Em Picinguaba, o guia aponta o muriqui, a anta e o queixada entre os ameaçados da mata do Corcovado. Em Santa Virgínia, o levantamento de 2002 a 2009 registrou 58 espécies de mamíferos não voadores, 18 delas na lista brasileira de ameaçadas.",
+        "Entre as plantas, o palmito-juçara aparece em risco de extinção nas trilhas do Jatobá e da Rasa. O Núcleo Padre Dória diz que o trabalho de fiscalização e educação ambiental, com a Polícia Ambiental, tem coibido a caça e a extração de palmito."
+      ],
+      "sourceIds": [
+        "semil-2017",
+        "g-corcovado-pic",
+        "biota-sv",
+        "g-jatoba"
+      ],
+      "citations": [
+        {
+          "sourceId": "semil-2017",
+          "locator": "texto da notícia"
+        },
+        {
+          "sourceId": "g-corcovado-pic",
+          "locator": "seção Descrição"
+        },
+        {
+          "sourceId": "biota-sv",
+          "locator": "resumo"
+        },
+        {
+          "sourceId": "g-jatoba",
+          "locator": "seção Descrição"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "caminho",
+    "title": "De uma via de pedras a um parque",
+    "intro": "Marcos da serra e do parque.",
+    "items": [
+      {
+        "id": "1792",
+        "year": "1792",
+        "title": "A Calçada do Lorena",
+        "description": "Uma via de pedras liga o planalto ao porto de Santos e leva o açúcar do interior.",
+        "sourceIds": [
+          "spsecreto"
+        ]
+      },
+      {
+        "id": "1920",
+        "year": "1920",
+        "title": "Estrada pavimentada",
+        "description": "O traçado da Estrada Velha de Santos recebe pavimento.",
+        "sourceIds": [
+          "spsecreto"
+        ]
+      },
+      {
+        "id": "1977",
+        "year": "1977",
+        "title": "Nasce o parque",
+        "description": "Em 30 de agosto, o Decreto 10.251 cria o Parque Estadual da Serra do Mar.",
+        "sourceIds": [
+          "decreto-1977"
+        ]
+      },
+      {
+        "id": "1979",
+        "year": "1979",
+        "title": "Picinguaba entra no perímetro",
+        "description": "O Decreto 13.313 incorpora uma área de Picinguaba, em Ubatuba.",
+        "sourceIds": [
+          "decreto-1979"
+        ]
+      },
+      {
+        "id": "2002",
+        "year": "2002",
+        "title": "Estrada reaberta",
+        "description": "A Estrada Velha de Santos volta a receber visitantes, a pé, depois de fechada em 1985.",
+        "sourceIds": [
+          "spsecreto"
+        ]
+      },
+      {
+        "id": "2014",
+        "year": "2014",
+        "title": "Núcleo Padre Dória",
+        "description": "É criado o Núcleo Padre Dória, onde, em 2017, são fotografados o muriqui-do-sul e a jacutinga.",
+        "sourceIds": [
+          "semil-2017"
+        ]
+      }
+    ]
+  },
+  "keyFacts": [
+    {
+      "label": "Área",
+      "value": "322.293 hectares",
+      "sourceId": "guia-pesm"
+    },
+    {
+      "label": "Criação",
+      "value": "30 de agosto de 1977",
+      "sourceId": "decreto-1977"
+    },
+    {
+      "label": "Municípios",
+      "value": "23",
+      "sourceId": "guia-pesm"
+    },
+    {
+      "label": "Núcleos",
+      "value": "10",
+      "sourceId": "abc-45anos"
+    },
+    {
+      "label": "Atrações",
+      "value": "mais de 70",
+      "sourceId": "abc-45anos"
+    },
+    {
+      "label": "Mamíferos em Santa Virgínia",
+      "value": "58 espécies não voadoras",
+      "sourceId": "biota-sv"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Núcleo",
+      "definition": "Unidade de gestão do parque, com sede, equipe e trilhas próprias. O Parque Estadual da Serra do Mar tem dez.",
+      "sourceId": "abc-45anos"
+    },
+    {
+      "term": "Floresta de neblina",
+      "definition": "Floresta baixa que cobre a crista da serra, envolta em nuvens, com muitas bromélias.",
+      "sourceId": "g-corcovado-sv"
+    },
+    {
+      "term": "Restinga",
+      "definition": "Vegetação da planície litorânea, de solo arenoso, entre a praia e a mata de encosta.",
+      "sourceId": "g-rendeira"
+    }
+  ],
+  "closingTitle": "Uma serra para visitar com cuidado",
+  "closing": "Da calçada de pedras às praias quase desertas, a Serra do Mar guarda caminhos que contam a história do país e uma mata que ainda abriga o muriqui e a jacutinga. Agendar a visita, seguir as trilhas e contratar monitor onde é exigido ajuda a manter tudo isso.",
+  "references": [
+    {
+      "id": "guia-pesm",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "PE Serra do Mar",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/ap/parque-estadual-serra-do-mar/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "decreto-1977",
+      "institution": "Assembleia Legislativa do Estado de São Paulo",
+      "title": "Decreto 10.251, de 30 de agosto de 1977 (cria o Parque Estadual da Serra do Mar)",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1977/decreto-10251-30.08.1977.html",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "decreto-1979",
+      "institution": "Assembleia Legislativa do Estado de São Paulo",
+      "title": "Decreto 13.313, de 6 de março de 1979 (incorpora a área de Picinguaba)",
+      "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/1979/decreto-13313-06.03.1979.html",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "abc-45anos",
+      "institution": "ABC do ABC",
+      "title": "Parque Estadual Serra do Mar completa 45 anos",
+      "url": "https://www.abcdoabc.com.br/parque-estadual-serra-do-mar-completa-45-anos/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "biota-sv",
+      "institution": "Biota Neotropica",
+      "title": "Non-volant mammals from Núcleo Santa Virgínia, Serra do Mar State Park, São Paulo, Brazil (Rocha-Mendes et al., 2015)",
+      "url": "https://www.biotaneotropica.org.br/BN/article/view/1310",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-lorena",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha Calçada do Lorena",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-calcada-do-lorena/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-monumentos",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha dos Monumentos Históricos",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-dos-monumentos-historicos/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "spsecreto",
+      "institution": "São Paulo Secreto",
+      "title": "O museu a céu aberto a 1h de SP onde você pode caminhar pela estrada que Dom Pedro I subiu em 1822",
+      "url": "https://saopaulosecreto.com/estrada-velha-de-santos-parque-caminhos-do-mar/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-pirapitinga",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha da Pirapitinga",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-da-pirapitinga/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-pito",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Poço do Pito",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-poco-do-pito/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-corcovado-sv",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Corcovado (Santa Virgínia)",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-corcovado-santa-virginia/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-cachoeiras",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha das Cachoeiras (Núcleo Cunha)",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-das-cachoeiras/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-paraibuna",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Rio Paraibuna (Núcleo Cunha)",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-rio-paraibuna/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-picadao",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Picadão da Barra",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-picadao-da-barra/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-almada",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha Brava da Almada",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-brava-da-almada/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-jatoba",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Jatobá",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-jatoba/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-camburi",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha Brava do Camburi",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-brava-do-camburi/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-pocos-camburi",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha dos Poços (Quilombo de Camburi)",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-dos-pocos-quilombo-de-camburi/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-travessia",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Travessia Camburi-Trindade (Quilombo de Camburi)",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/travessia-camburi-trindade-quilombo-de-camburi/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-corcovado-pic",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Corcovado (Picinguaba)",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-corcovado-picinguaba/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "g-rendeira",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha da Rendeira",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-da-rendeira/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "semil-2017",
+      "institution": "Secretaria de Meio Ambiente, Infraestrutura e Logística (SP)",
+      "title": "Espécies ameaçadas de extinção são fotografadas no PESM (30/03/2017)",
+      "url": "https://semil.sp.gov.br/2017/03/especies-ameacadas-de-extincao-sao-fotografadas-no-pesm/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    },
+    {
+      "id": "inma-jacutinga",
+      "institution": "Instituto Nacional da Mata Atlântica (INMA)",
+      "title": "INMA desenvolve projeto para reintroduzir na natureza jacutingas nascidas sob cuidados humanos",
+      "url": "https://www.gov.br/inma/pt-br/assuntos/noticias/instituto-nacional-da-mata-atlantica-desenvolve-projeto-para-reintroduzir-na-natureza-jacutingas-nascidas-sob-cuidados-humanos",
+      "accessedAt": "2026-11-04",
+      "use": "fatos do parque, das trilhas e da fauna"
+    }
+  ],
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-11-04",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "RASCUNHO, NÃO REVISADO. (1) ÁREA: o Guia de Áreas Protegidas dá 322.292,96 ha e 23 municípios; o ABC do ABC (2022) dá cerca de 332 mil ha e 24 municípios (provável erro); os decretos de 1977 e 1979 falam em cerca de 315 mil ha. O texto usa 322.293 ha. (2) PATRIMÔNIO MUNDIAL: não entra no texto. A página da UNESCO (Atlantic Forest South-East Reserves, 1999, 25 áreas) não parece listar o PESM como componente, e a decisão de 1999 trata o PESM como área que poderia ser incorporada ao sítio; o sítio está dentro da Reserva da Biosfera. Conferir com a Fundação Florestal antes de afirmar qualquer ligação. (3) CALÇADA DO LORENA: 1792, 1920, 1947, 1985 e 2002 vêm de uma reportagem (São Paulo Secreto); as fontes divergem sobre a data do Rancho da Maioridade e dos monumentos de Victor Dubugras, por isso o texto não cita essas datas. Falta fonte oficial (Fundação Florestal, Condephaat) para a história da estrada. (4) FAUNA: muriqui-do-sul e jacutinga vêm da nota da Semil de 2017 (Núcleo Padre Dória); o muriqui, a anta e o queixada também vêm do Guia (trilha do Corcovado, Picinguaba). As 18 espécies ameaçadas de Santa Virgínia (Biota Neotropica 2015) não são nomeadas no resumo. Os rastros de suçuarana e de onça-pintada em Curucutu vêm do ABC do ABC, sem fonte técnica. (5) DENTRO DO POLÍGONO: Praia da Fazenda, Camburi, Calçada do Lorena, Rancho da Maioridade e Padrão do Lorena foram conferidos por GPS das fotos do Commons; as fotos de Santa Virgínia (Salto Grande) e de Cunha não têm GPS, só categoria do Commons com o nome do núcleo. Curucutu, Itutinga-Pilões, Itariru, Bertioga, São Sebastião e Caraguatatuba ficaram sem texto próprio por falta de fotos de lugar. (6) FOTOS: as dos destaques são ilustrativas, de outras áreas. A foto 360 graus da praia da Fazenda (Argenton) foi descartada por distorção. (7) Trilhas: horários, limites de visitantes e exigência de monitor vêm do Guia e mudam; conferir antes de aprovar. (8) Fora dos destaques por falta de fonte de presença: bromélias, sapos-de-barriga-amarela e araucária (só citada na trilha do rio Paraibuna). (9) Foto da Rodovia Oswaldo Cruz (Themium, CC0, GPS dentro do polígono) descartada: tirada de dentro do carro. | APROVADO PARA PRODUÇÃO em 05/11/2026 por instrução do Jonathan, sem revisão independente de fatos; dúvidas acima seguem abertas."
+}

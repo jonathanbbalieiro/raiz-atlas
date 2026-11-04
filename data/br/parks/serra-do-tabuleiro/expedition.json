@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Estadual da Serra do Tabuleiro",
+  "title": "A serra que dá água: Tabuleiro, de Cambirela às ilhas",
+  "subtitle": "Do alto do Cambirela às ilhas de Moleques do Sul, o maior parque estadual de Santa Catarina guarda nascentes, campos de altitude e uma ilha onde vive um bicho que não existe em mais lugar nenhum.",
+  "centralQuestion": "O que uma serra tão perto da capital guarda, entre as nascentes e o mar?",
+  "introduction": [
+    "De Florianópolis, basta olhar para o continente: atrás da baía, uma muralha de morros azulados sobe quase sem interrupção. É a Serra do Tabuleiro, e ela não é só paisagem. É de lá que descem rios que abastecem a Grande Florianópolis.",
+    "O Parque Estadual da Serra do Tabuleiro, criado em 1975, tem cerca de 84 mil hectares e passa por nove municípios. É a maior unidade de proteção integral de Santa Catarina e vai da restinga ao campo de altitude, com ilhas no meio do caminho."
+  ],
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Morro_do_Cambirela_01.jpg/1920px-Morro_do_Cambirela_01.jpg",
+    "author": "SilvanaRoth",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morro_do_Cambirela_01.jpg",
+    "width": 1920,
+    "height": 1280,
+    "alt": "Pôr do sol no alto do Morro do Cambirela, com a luz alaranjada sobre as montanhas e o mar ao fundo",
+    "context": "O alto do Morro do Cambirela ao pôr do sol, no Parque Estadual da Serra do Tabuleiro."
+  },
+  "moments": [
+    {
+      "id": "serra",
+      "eyebrow": "01 · Uma serra inteira",
+      "title": "Do mar ao planalto, em um só parque",
+      "question": "Que paisagens cabem em um parque que vai do litoral à serra?",
+      "paragraphs": [
+        "O parque ocupa cerca de 1% do território catarinense e atravessa nove municípios. Nasceu com cerca de 90 mil hectares e sete municípios e, depois de décadas de anexações e desanexações, ganhou os limites atuais pela Lei 14.661, de 2009, que fixou 84.130 hectares.",
+        "Em tão pouco chão cabem restingas, manguezais, floresta ombrófila densa, floresta de araucária e campos de altitude. Nas partes altas, a mata dá lugar às araucárias e aos campos, e a paisagem liga o mar ao planalto.",
+        "Um levantamento de mamíferos terrestres registrou 75 espécies nativas, cerca de 54% das que ocorrem em terra no estado. Quinze delas estão ameaçadas em algum nível, o que ajuda a explicar por que a serra é tratada como área prioritária de conservação."
+      ],
+      "sourceIds": [
+        "lei",
+        "agua",
+        "oeco",
+        "biotemas11"
+      ],
+      "citations": [
+        {
+          "sourceId": "lei",
+          "locator": "Art. 7"
+        },
+        {
+          "sourceId": "agua",
+          "locator": "seção 3.1"
+        },
+        {
+          "sourceId": "oeco",
+          "locator": "p. 1"
+        },
+        {
+          "sourceId": "biotemas11",
+          "locator": "resumo"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Montanhas_do_Tabuleiro.jpg/1920px-Montanhas_do_Tabuleiro.jpg",
+          "author": "Dlt.eco",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montanhas_do_Tabuleiro.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Sucessão de montanhas recortadas da Serra do Tabuleiro",
+          "context": "As montanhas recortadas do Parque Estadual da Serra do Tabuleiro, vistas à distância."
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "eyebrow": "02 · A água",
+      "title": "Quem abastece a Grande Florianópolis",
+      "question": "De onde vem a água que desce da serra?",
+      "paragraphs": [
+        "A rede de rios do parque é intensa, de vales estreitos e fundos. Ao norte fica a bacia do rio Cubatão do Sul, com cerca de 28 mil hectares dentro do parque. A leste ficam as bacias do Rio da Madre e do Maciambu, com uns 5 mil hectares cada. Ao sul está a do rio d'Una, com cerca de 18 mil, e no centro-oeste a do Tubarão, com uns 9 mil.",
+        "O maior afluente do Cubatão do Sul é o Vargem do Braço, com 32 quilômetros e 184,74 km² de área de drenagem. O Rio do Salto nasce na Serra da Garganta, tem 21,8 quilômetros e drena cerca de 98 km². A bacia do Rio dos Porcos, com uns 11 quilômetros, fica inteira dentro da unidade.",
+        "A proteção da água já aparecia entre as prioridades quando o parque foi criado, em 1975. Hoje, a serra é vista como peça central para a segurança hídrica da região metropolitana de Florianópolis."
+      ],
+      "sourceIds": [
+        "agua"
+      ],
+      "citations": [
+        {
+          "sourceId": "agua",
+          "locator": "seção 3.2"
+        },
+        {
+          "sourceId": "agua",
+          "locator": "seção 3.1"
+        },
+        {
+          "sourceId": "agua",
+          "locator": "resumo"
+        }
+      ],
+      "images": []
+    },
+    {
+      "id": "altos",
+      "eyebrow": "03 · Os altos",
+      "title": "Cambirela e Pico do Tabuleiro",
+      "question": "Como é subir os pontos mais altos do parque?",
+      "paragraphs": [
+        "O Morro do Cambirela tem 922 metros, fica em Palhoça e é a montanha do parque mais próxima de Florianópolis. A subida leva cerca de três horas por mata e vegetação rasteira, e o nível é difícil. Por isso atrai quem pratica trilha e escalada. Um estudo com visitantes, feito em 2010 e 2011, identificou três trilhas de subida, e a mais usada, por 62% das pessoas, é a que mais sofre com o desgaste.",
+        "O Pico do Tabuleiro, que deu nome à serra, passa de 1.200 metros, em Santo Amaro da Imperatriz. A trilha é longa e íngreme, com desnível de mais de 1.000 metros, mas bem marcada e com poucos obstáculos.",
+        "Nas partes mais altas, a mata dá lugar às florestas de araucária e aos campos de altitude. É nesse terreno aberto que a serra mostra o quanto ainda é selvagem."
+      ],
+      "sourceIds": [
+        "uff",
+        "santoamaro",
+        "oeco"
+      ],
+      "citations": [
+        {
+          "sourceId": "uff",
+          "locator": "Introdução"
+        },
+        {
+          "sourceId": "uff",
+          "locator": "Resumo"
+        },
+        {
+          "sourceId": "santoamaro",
+          "locator": "texto da trilha"
+        },
+        {
+          "sourceId": "oeco",
+          "locator": "p. 1"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Cora%C3%A7%C3%A3o_no_cambirela.JPG/1920px-Cora%C3%A7%C3%A3o_no_cambirela.JPG",
+          "author": "Silvana Roth",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cora%C3%A7%C3%A3o_no_cambirela.JPG",
+          "width": 1920,
+          "height": 1279,
+          "alt": "Ilha em forma de coração vista do alto do Morro do Cambirela",
+          "context": "Vista do alto do Morro do Cambirela, no Parque Estadual da Serra do Tabuleiro."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pico_do_tabuleiro.jpg/1920px-Pico_do_tabuleiro.jpg",
+          "author": "Jean Lagartixa",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_do_tabuleiro.jpg",
+          "width": 1920,
+          "height": 1440,
+          "alt": "Vista a partir do Pico do Tabuleiro, com serras cobertas de mata",
+          "context": "Paisagem vista no Pico do Tabuleiro, no Parque Estadual da Serra do Tabuleiro."
+        }
+      ]
+    },
+    {
+      "id": "ilhas",
+      "eyebrow": "04 · A foz e as ilhas",
+      "title": "Do Rio da Madre a Moleques do Sul",
+      "question": "O que o parque protege na beira do mar?",
+      "paragraphs": [
+        "O parque não termina na serra. O Rio da Madre, que desce a vertente leste, chega ao mar na Guarda do Embaú, entre dunas e morros. A bacia tem uns 5 mil hectares dentro da unidade.",
+        "Mar adentro, o parque inclui ilhas, entre elas as de Moleques do Sul, Três Irmãs, Coral, dos Cardos e Siriú, além da ponta sul da Ilha de Santa Catarina. Moleques do Sul, a uns 12 quilômetros de Florianópolis, tem três ilhas de granito, a maior com cerca de 100 metros de altura e sem praia. É considerado o principal sítio de reprodução de aves marinhas da costa catarinense. O atobá-pardo, a fragata e o trinta-réis-de-bico-vermelho nidificam ali.",
+        "Na maior ilha, em cerca de 10 hectares, vive o preá-de-Moleques-do-Sul, com uns 60 indivíduos. O IMA o classifica como criticamente ameaçado nos níveis estadual, nacional e global. O arquipélago é fiscalizado pelo IMA, pela Marinha e pela Polícia Militar Ambiental, e quem presenciar fogo ou desembarque deve avisar a polícia."
+      ],
+      "sourceIds": [
+        "agua",
+        "uff",
+        "univali",
+        "ima-prea"
+      ],
+      "citations": [
+        {
+          "sourceId": "agua",
+          "locator": "seção 3.2"
+        },
+        {
+          "sourceId": "uff",
+          "locator": "Introdução"
+        },
+        {
+          "sourceId": "univali",
+          "locator": "Introdução"
+        },
+        {
+          "sourceId": "ima-prea",
+          "locator": "painel único"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ilhas_Moleques_do_Sul%2C_Santa_Catarina_-_Col%C3%B4nia_de_aves_na_face_oeste_-_2.jpg/1920px-Ilhas_Moleques_do_Sul%2C_Santa_Catarina_-_Col%C3%B4nia_de_aves_na_face_oeste_-_2.jpg",
+          "author": "André Ganzarolli Martins",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ilhas_Moleques_do_Sul%2C_Santa_Catarina_-_Col%C3%B4nia_de_aves_na_face_oeste_-_2.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Colônia de aves marinhas sobre as rochas da face oeste de Moleques do Sul",
+          "context": "Aves marinhas na face oeste de Moleques do Sul, dentro do Parque Estadual da Serra do Tabuleiro."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Bateira_no_rio_da_Madre.jpg/1920px-Bateira_no_rio_da_Madre.jpg",
+          "author": "Andre martins barata",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bateira_no_rio_da_Madre.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Bateira ancorada no Rio da Madre, perto da Guarda do Embaú",
+          "context": "Uma bateira no Rio da Madre, na praia da Guarda do Embaú, no Parque Estadual da Serra do Tabuleiro."
+        }
+      ]
+    },
+    {
+      "id": "historia",
+      "eyebrow": "05 · A criação",
+      "title": "Um parque pedido por botânicos",
+      "question": "Como nasceu o parque da serra?",
+      "paragraphs": [
+        "Nas décadas de 1940 e 1950, a exploração de madeira avançava rumo ao litoral, transformando mata em lavoura e pasto. Roberto Klein e Raulino Reitz, pesquisadores da UFSC, estudaram a flora catarinense de 1954 a 1975, e Klein concluiu que a riqueza da Serra do Tabuleiro só seria preservada com um parque.",
+        "O Decreto 1.260, de 1º de novembro de 1975, criou a unidade, e em 1976 veio o Plano Diretor. A criação provocou conflitos com moradores, madeireiros, pescadores e prefeituras, sobretudo pela falta de diálogo e por indenizações.",
+        "Em 2009, a Lei 14.661 redefiniu os limites e criou o Mosaico de Unidades de Conservação da Serra do Tabuleiro e Terras de Massiambu, com cerca de 98.400 hectares. O plano de manejo, de 2018, descreve as bacias e os usos do parque."
+      ],
+      "sourceIds": [
+        "agua",
+        "lei"
+      ],
+      "citations": [
+        {
+          "sourceId": "agua",
+          "locator": "seção 3.1"
+        },
+        {
+          "sourceId": "lei",
+          "locator": "Art. 1"
+        },
+        {
+          "sourceId": "lei",
+          "locator": "Art. 4"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "historia",
+    "title": "De pedido de botânicos a mosaico",
+    "intro": "Marcos da criação e da proteção do parque.",
+    "items": [
+      {
+        "id": "1954",
+        "year": "1954 a 1975",
+        "title": "Pesquisa sobre a flora",
+        "description": "Klein e Reitz estudam a flora de Santa Catarina, e Klein conclui que a serra só seria preservada com um parque.",
+        "sourceIds": [
+          "agua"
+        ]
+      },
+      {
+        "id": "1975",
+        "year": "1975",
+        "title": "Decreto 1.260",
+        "description": "Em 1º de novembro, o estado cria o parque, com cerca de 90 mil hectares e sete municípios.",
+        "sourceIds": [
+          "lei",
+          "agua"
+        ]
+      },
+      {
+        "id": "1982",
+        "year": "1982",
+        "title": "Limites retificados",
+        "description": "O Decreto 17.720, de 25 de agosto, retifica os limites do parque.",
+        "sourceIds": [
+          "lei"
+        ]
+      },
+      {
+        "id": "2009",
+        "year": "2009",
+        "title": "Lei 14.661",
+        "description": "A lei redefine os limites, fixa a área em 84.130 hectares e institui o Mosaico de Unidades de Conservação.",
+        "sourceIds": [
+          "lei"
+        ]
+      },
+      {
+        "id": "2018",
+        "year": "2018",
+        "title": "Plano de manejo",
+        "description": "O plano, elaborado pela STCP Engenharia, descreve as bacias hidrográficas do parque.",
+        "sourceIds": [
+          "agua"
+        ]
+      },
+      {
+        "id": "2019",
+        "year": "2019",
+        "title": "Plano para o preá",
+        "description": "Começa o Plano de Ação Estadual para o preá-de-Moleques-do-Sul.",
+        "sourceIds": [
+          "ima-prea"
+        ]
+      }
+    ]
+  },
+  "keyFacts": [
+    {
+      "label": "Área",
+      "value": "84.130 hectares",
+      "sourceId": "lei"
+    },
+    {
+      "label": "Criação",
+      "value": "1º de novembro de 1975",
+      "sourceId": "lei"
+    },
+    {
+      "label": "Municípios",
+      "value": "nove",
+      "sourceId": "agua"
+    },
+    {
+      "label": "Bacia do Cubatão do Sul",
+      "value": "cerca de 28 mil ha no parque",
+      "sourceId": "agua"
+    },
+    {
+      "label": "Morro do Cambirela",
+      "value": "922 m de altitude",
+      "sourceId": "uff"
+    },
+    {
+      "label": "Mamíferos terrestres",
+      "value": "75 espécies nativas",
+      "sourceId": "biotemas11"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Proteção integral",
+      "definition": "Categoria de unidade de conservação em que não se permitem nem o extrativismo nem a pesca. Ficam a pesquisa, a educação ambiental e o turismo sustentável.",
+      "sourceId": "agua"
+    },
+    {
+      "term": "Mosaico de unidades de conservação",
+      "definition": "Conjunto de unidades próximas, de categorias iguais ou diferentes, geridas de forma integrada e participativa.",
+      "sourceId": "lei"
+    },
+    {
+      "term": "Zona de amortecimento",
+      "definition": "Faixa no entorno do parque, de no mínimo 50 metros do limite na serra e 30 metros no litoral, criada para diminuir impactos sobre a unidade.",
+      "sourceId": "lei"
+    }
+  ],
+  "closingTitle": "A serra que ainda dá água",
+  "closing": "Entre o mar e os campos do alto, o Tabuleiro guarda rios que descem para uma região metropolitana inteira, trilhas que mostram a cidade lá embaixo e uma ilha onde um roedor inteiro cabe em dez hectares. Seguir as regras de visitação, não deixar lixo nas trilhas e respeitar as ilhas é parte de manter isso de pé.",
+  "references": [
+    {
+      "id": "lei",
+      "institution": "Assembleia Legislativa de Santa Catarina",
+      "title": "Lei 14.661, de 26 de março de 2009 (limites do Parque Estadual da Serra do Tabuleiro e Mosaico de Unidades de Conservação)",
+      "url": "https://documentacao.socioambiental.org/ato_normativo/UC/4424_20200510_181955.pdf",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "agua",
+      "institution": "Cidades Verdes (UNESP)",
+      "title": "Parque Estadual Serra do Tabuleiro e o abastecimento de água da Grande Florianópolis/SC (Pereira e Benini, 2021)",
+      "url": "https://publicacoes.amigosdanatureza.org.br/index.php/cidades_verdes/article/download/2887/2708/6448",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "oeco",
+      "institution": "O Eco",
+      "title": "Pior do que a chuva é o manda-chuva (Marcos Sá Corrêa)",
+      "url": "https://www.oeco.org.br/wp-content/uploads/wp-post-to-pdf-enhanced-cache/1/20538-pior-do-que-a-chuva-e-o-manda-chuva.pdf",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "uff",
+      "institution": "Revista Uso Público em Unidades de Conservação (UFF)",
+      "title": "Levantamento das trilhas e caracterização dos visitantes do Morro do Cambirela, Palhoça, SC (Silva Júnior, 2013)",
+      "url": "https://periodicos.uff.br/uso_publico/article/download/28714/16657",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "univali",
+      "institution": "Brazilian Journal of Aquatic Science and Technology (Univali)",
+      "title": "Florula da ilha de Moleques do Sul, Santa Catarina, Brasil (Rogalski e Araújo, 2005)",
+      "url": "https://periodicos.univali.br/index.php/bjast/article/view/574/486",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "unisinos",
+      "institution": "Neotropical Biology and Conservation (Unisinos)",
+      "title": "Influência meteorológica em população de Sula leucogaster do Arquipélago de Moleques do Sul, sul do Brasil (2017)",
+      "url": "https://revistas.unisinos.br/index.php/neotropical/article/download/nbc.2017.121.07/5877/49566",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "biota13",
+      "institution": "Biota Neotropica",
+      "title": "Reproduction and demographic trends of Sula leucogaster at the Moleques do Sul Archipelago, Santa Catarina, Brazil (Branco, Fracasso e Moraes-Ornellas, 2013)",
+      "url": "https://www.biotaneotropica.org.br/BN/article/view/1211",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "biotemas11",
+      "institution": "Biotemas (UFSC)",
+      "title": "Mastofauna terrestre do Parque Estadual da Serra do Tabuleiro, Estado de Santa Catarina, sul do Brasil (Cherem et al., 2011)",
+      "url": "https://periodicos.ufsc.br/index.php/biotemas/article/download/2175-7925.2011v24n3p73/18761/65324",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "ima-prea",
+      "institution": "Instituto do Meio Ambiente de Santa Catarina (IMA)",
+      "title": "Preá-de-Moleques-do-Sul: Conhecer e Proteger (banner do Plano de Ação Estadual)",
+      "url": "https://www.ima.sc.gov.br/wp-content/uploads/2026/07/Banner-Prea-Acoes-e-Objetivos.pdf",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    },
+    {
+      "id": "santoamaro",
+      "institution": "Prefeitura de Santo Amaro da Imperatriz",
+      "title": "Trilha do Pico do Tabuleiro (Portal Municipal de Turismo)",
+      "url": "https://turismo.santoamaro.sc.gov.br/trilha-do-pico-do-tabuleiro/",
+      "accessedAt": "2026-11-04",
+      "use": "fatos sobre o parque, os rios, as ilhas, a fauna e a história"
+    }
+  ],
+  "approved": true,
+  "status": "aprovado",
+  "lastVerifiedAt": "2026-11-04",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "RASCUNHO, NAO APROVADO. (1) AREA: usei 84.130 ha (Lei 14.661/2009, art. 7); o CNUC dá ~83.908 ha; textos antigos (UFF, ABA) dão 87.405 ha e O Eco 90 mil. (2) ALTITUDES: Cambirela 922 m (UFF, estudo academico de 2013); sites de turismo dao 1.043 e 1.052 m, nao usados. Pico do Tabuleiro: portal de turismo de Santo Amaro da Imperatriz (pagina deu 403 ao leitor; conteudo lido por resumo de busca) fala em cerca de 1.260 m e desnivel de mais de 1.000 m; a pagina de Aguas Mornas cita 1.266 m. O texto diz 'passa de 1.200 metros'; CONFERIR NA PAGINA. (3) PLANO DE MANEJO 2018 do IMA (STCP) nao foi lido: o PDF do site do IMA deu erro; as bacias vem do artigo Pereira e Benini 2021, que cita o plano. Regras de visitacao (agendamento, monitor, taxas) NAO foram confirmadas e por isso nao constam. (4) MAMIFEROS: 75 especies nativas, ~54% e 15 ameacadas vem do resumo do artigo Cherem et al. 2011 (PDF extraido com texto corrompido; numeros conferidos pelo resumo indexado). (5) MOLEQUES DO SUL: dentro do parque (Univali 2005; Unisinos 2017). Aves 'atobá, fragata e trinta-réis' vem de Univali 2005 (que cita Bege e Pauli 1988). Preá: 'cerca de 60' e 'menor area de distribuicao do planeta' sao afirmacoes do IMA (banner); outras fontes citam 40 a 60; a populacao varia. 'Zona intangivel' e autorizacao para desembarque aparecem em material do IMA lido so por resumo de busca; nao entrou como fato. (6) RIO DA MADRE/GUARDA DO EMBAU: a bacia (~5 mil ha) esta no parque (Pereira e Benini); as fotos do Commons estao na categoria do parque e na descricao 'area do PEST'; as coordenadas dessas fotos (-27,8742; -48,8239) sao o ponto padrao do Commons e foram ignoradas. A foz/praia estar dentro do poligono do CNUC NAO foi confirmado (uma foto em -27,9034; -48,5912 cai dentro, mas e unica). Ha disputa Palhoca x Paulo Lopes sobre o municipio da praia; o texto evita citar municipio. (7) SIRIU: a ILHA do Siriu faz parte do parque (UFF); as praias do Siriu (Garopaba) NAO foram usadas. Naufragados e o farol ficam fora do poligono continental. (8) Fotos: Madre e Pico sao de autores amadores; Pico do Tabuleiro nao tem geotag real. Foto da araucaria e ilustrativa (outra area). Foto do prea (Carlos H. Salvador, dominio publico) tem so 700 px. (9) Destaques: so 3 (prea, atoba, araucaria) tem duas fontes. Jaguatirica (BR-VU/SC-EN), puma, bugio e queixada (SC-CR) estao na tabela de Cherem 2011 mas sem segunda fonte; anuros (Wachlevski 2014, Boana poaju) com area de estudo nao confirmada dentro do parque. IUCN global: preá CR, atobá LC, araucária CR. | APROVADO PARA PRODUÇÃO em 05/11/2026 por instrução do Jonathan, sem revisão independente de fatos; dúvidas acima seguem abertas."
+}

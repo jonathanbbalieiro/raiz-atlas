@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "status": "revisado",
+  "updatedAt": "2026-11-04",
+  "hook": "Uma ilha de restinga e Mata Atlântica na boca da baía de Paranaguá, com farol de 1872, gruta de lendas e praias que crescem com a maré.",
+  "intro": "O Parque Estadual da Ilha do Mel protege 337,84 hectares de Mata Atlântica, costões rochosos e restinga, na entrada da baía de Paranaguá, no litoral do Paraná. Criado em 2002, cobre cerca de 12% da ilha, que divide com a Estação Ecológica. Entre os atrativos estão o Farol das Conchas, de 1872, e a Gruta das Encantadas, cercada de lendas.",
+  "sourceIds": [
+    "decreto",
+    "plano-enc1",
+    "iat-aves"
+  ],
+  "protects": {
+    "summary": "Restinga, floresta de terras baixas e costões, na entrada da baía de Paranaguá",
+    "items": [
+      {
+        "title": "Floresta, restinga e costão na mesma ilha",
+        "text": "O plano de manejo descreve praias, costões rochosos, áreas de influência marinha, remanescentes de Floresta Ombrófila Densa Submontana e de Terras Baixas associada à restinga, sambaquis e uma fauna rica, tudo sob proteção integral.",
+        "sourceIds": [
+          "plano-enc1"
+        ]
+      },
+      {
+        "title": "Caxetais e floresta de terras baixas",
+        "text": "Os caxetais e a floresta de terras baixas estão entre as áreas florestadas que o plano considera fundamentais para o equilíbrio ecológico do parque. Em solos muito úmidos da planície, crescem guanandi, caxeta e figueira, com palmito-juçara.",
+        "sourceIds": [
+          "plano-enc4",
+          "plano-enc2"
+        ]
+      },
+      {
+        "title": "Aves e outros bichos",
+        "text": "O Instituto Água e Terra registra cerca de 137 espécies de aves e destaca entre as ameaçadas o gavião-pombo-pequeno, o gavião-caracoleiro e o papagaio-de-cara-roxa. Cachorro-do-mato, cateto, mão-pelada e quati estão entre os mamíferos citados.",
+        "sourceIds": [
+          "iat-aves"
+        ]
+      },
+      {
+        "title": "Praias vivas",
+        "text": "A faixa de areia da Praia de Fora das Encantadas cresceu cerca de 200 metros por deposição de areia. No espaço novo nasceu vegetação de dunas e brejos, onde aves e anfíbios vivem e se reproduzem.",
+        "sourceIds": [
+          "plano-enc4"
+        ]
+      },
+      {
+        "title": "Parte de um mosaico",
+        "text": "O parque integra a Reserva da Biosfera da Mata Atlântica, o corredor da Mata Atlântica e o Mosaico Lagamar, segundo o plano de manejo.",
+        "sourceIds": [
+          "plano-enc4"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Farol das Conchas",
+      "text": "Construído em 1872, por ordem de Dom Pedro II, para orientar os navegadores da baía de Paranaguá, fica no Morro das Conchas. A torre de ferro fundido tem cerca de 18 metros, e uma escadaria de centenas de degraus leva a uma vista de toda a região da Serra do Mar.",
+      "sourceIds": [
+        "plano-enc2",
+        "iat-aves"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ilha_do_Mel_-_Farol_das_Conchas.jpg/1920px-Ilha_do_Mel_-_Farol_das_Conchas.jpg",
+        "author": "Cyrus Augustus Moro Daldin",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ilha_do_Mel_-_Farol_das_Conchas.jpg",
+        "width": 1920,
+        "height": 1004,
+        "alt": "O Farol das Conchas, uma torre branca, sobre o morro, com a baía de Paranaguá ao fundo",
+        "context": "O Farol das Conchas e a baía de Paranaguá, vistos do Morro das Conchas, no Parque Estadual da Ilha do Mel."
+      }
+    },
+    {
+      "title": "Praia Grande",
+      "text": "No norte do parque, a trilha que liga Nova Brasília à Praia Grande passa por diversos sítios arqueológicos importantes. O plano de manejo prevê melhorar a sinalização do caminho e estudar esses sítios para conservá-los.",
+      "sourceIds": [
+        "plano-enc4"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Praia_Grande_-_Vista_para_canto_esquerdo.jpg/1920px-Praia_Grande_-_Vista_para_canto_esquerdo.jpg",
+        "author": "Mural Nativo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_Grande_-_Vista_para_canto_esquerdo.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "A Praia Grande, uma longa faixa de areia com o mar batendo na costa e vegetação de restinga",
+        "context": "A Praia Grande, vista do canto esquerdo, no Parque Estadual da Ilha do Mel."
+      }
+    },
+    {
+      "title": "Praia de Fora",
+      "text": "É a praia voltada para o mar aberto. Na parte das Encantadas, a linha da costa avançou cerca de 200 metros com a areia depositada, e surgiram dunas e brejos. A rota segue para o Farol e é também usada na pesca da tainha.",
+      "sourceIds": [
+        "plano-enc4"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Praia_de_Fora_-_Ilha_do_Mel-PR.JPG/1920px-Praia_de_Fora_-_Ilha_do_Mel-PR.JPG",
+        "author": "Wilson Winter",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_de_Fora_-_Ilha_do_Mel-PR.JPG",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Uma praia larga e plana, com ondas e um morro coberto de mata ao fundo",
+        "context": "A Praia de Fora, a praia voltada para o mar aberto, no Parque Estadual da Ilha do Mel."
+      }
+    },
+    {
+      "title": "Gruta das Encantadas",
+      "text": "Atrativo principal da comunidade das Encantadas, na parte sul da ilha, é um patrimônio natural cercado de lendas. Uma passarela leva até a entrada. O plano de manejo recomenda sinalizar a área de banho em frente à gruta, onde há correntes de retorno.",
+      "sourceIds": [
+        "plano-enc2",
+        "plano-enc4"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Encantadas.jpg/1920px-Encantadas.jpg",
+        "author": "Kendy Fujita",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Encantadas.jpg",
+        "width": 1920,
+        "height": 1291,
+        "alt": "A abertura da Gruta das Encantadas, em silhueta, enquadrando o mar e a praia",
+        "context": "A Gruta das Encantadas vista de dentro, voltada para o mar, na parte sul da Ilha do Mel."
+      }
+    },
+    {
+      "title": "Morro do Sabão e Ponta da Nhá Pina",
+      "text": "Estão entre os mirantes naturais que o plano de manejo indica para observar o parque. A vegetação dos morros é secundária, em regeneração, e as ações de recuperação da restinga, um dos poucos remanescentes do litoral paranaense, começam por aqui.",
+      "sourceIds": [
+        "plano-enc4"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Morro_do_Sab%C3%A3o_-_Ilha_do_Mel_-_PR.jpg/1920px-Morro_do_Sab%C3%A3o_-_Ilha_do_Mel_-_PR.jpg",
+        "author": "Tarcísio de Paula Salgado",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morro_do_Sab%C3%A3o_-_Ilha_do_Mel_-_PR.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Uma baía em arco, com praia, rochas e morros de mata, vista do alto do morro coberto de capim",
+        "context": "A vista do Morro do Sabão para a praia e os morros vizinhos, no Parque Estadual da Ilha do Mel."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A Ilha do Mel tem cerca de 2.760 hectares. O parque, com 337,84, protege uns 12% dela; o restante é, em grande parte, da Estação Ecológica da Ilha do Mel.",
+      "sourceIds": [
+        "plano-enc1"
+      ]
+    },
+    {
+      "text": "Pernagoa, em tupi, quer dizer \"grande mar redondo\". É o nome que o plano de manejo dá à baía de Paranaguá, que a ilha guarda na entrada.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "text": "A torre do Farol das Conchas é toda de ferro fundido e tem cerca de 18 metros de altura.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "text": "Segundo a lenda, mulheres belas apareciam perto da Gruta das Encantadas em noites de luar e encantavam os visitantes, que desapareciam para sempre.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "text": "A pesca da tainha, de maio a junho, usa mutirão e lanço de rede. Os pescadores avistam os cardumes dos morros das praias do Farol e do Miguel.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "text": "Sambaquis são acúmulos de conchas deixados por pescadores-coletores. Na baía de Paranaguá, os sítios datam de 8.000 a 500 anos atrás.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "text": "A Praia de Fora das Encantadas avançou cerca de 200 metros sobre o mar, com a areia que o próprio mar depositou.",
+      "sourceIds": [
+        "plano-enc4"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há milhares de anos · Os sambaquis",
+      "text": "Grupos de pescadores, coletores e caçadores amontoam conchas e mariscos na região da baía de Paranaguá. Esses sambaquis guardam utensílios, sepultamentos e restos de alimento, em datas que vão de 8.000 a 500 anos atrás.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "title": "1872 · O farol de Dom Pedro II",
+      "text": "Por ordem do imperador, a torre de ferro fundido do Farol das Conchas passa a orientar os navegadores da baía de Paranaguá, no alto do Morro das Conchas.",
+      "sourceIds": [
+        "plano-enc2",
+        "iat-aves"
+      ]
+    },
+    {
+      "title": "Todo inverno · A tainha",
+      "text": "De maio a junho, famílias tradicionais da ilha acampam em barracos e vigiam do alto dos morros a chegada dos cardumes. A pesca da tainha reúne mutirão e lanço de rede, e virou também festa.",
+      "sourceIds": [
+        "plano-enc2"
+      ]
+    },
+    {
+      "title": "2002 · Nasce o parque",
+      "text": "Em 21 de março, o Decreto Estadual 5.506 cria o Parque Estadual da Ilha do Mel, em Paranaguá, com 337,84 hectares, para proteger essa parte da ilha.",
+      "sourceIds": [
+        "decreto",
+        "plano-enc1"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Amazona brasiliensis",
+      "name": "Papagaio-de-cara-roxa",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Papagaio exclusivo do litoral da Mata Atlântica, ameaçado de extinção. O plano de manejo o aponta, com o jacaré-de-papo-amarelo, como espécie de grande valor ecológico do parque e prevê estimar sua população: os dados da ilha vão só até 2000 e vêm da Estação Ecológica.",
+      "sourceIds": [
+        "iat-aves",
+        "plano-enc4"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Papagaio_de_cara_roxa_-_Amazona_brasiliensis_%2841124929075%29.jpg/1280px-Papagaio_de_cara_roxa_-_Amazona_brasiliensis_%2841124929075%29.jpg",
+        "author": "Luiz Carlos Rocha",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Papagaio_de_cara_roxa_-_Amazona_brasiliensis_%2841124929075%29.jpg",
+        "width": 1280,
+        "height": 1005,
+        "alt": "Papagaio-de-cara-roxa (Amazona brasiliensis)",
+        "context": "Papagaio-de-cara-roxa, Amazona brasiliensis. Foto ilustrativa da espécie, não feita no parque."
+      },
+      "iucn": "NT"
+    },
+    {
+      "scientificName": "Ramphocelus bresilius",
+      "name": "Tiê-sangue",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Entre as aves que o Instituto Água e Terra indica observar no parque. O plano de manejo a cita entre as espécies notáveis pela cor e pela abundância, mesmo perto de áreas de moradia, e propõe estudar seu deslocamento entre o parque, a Estação Ecológica e o continente.",
+      "sourceIds": [
+        "iat-aves",
+        "plano-enc4",
+        "fl-3de639fc"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ramphocelus_bresilius_429487439.jpg/1280px-Ramphocelus_bresilius_429487439.jpg",
+        "author": "Enéas V. Gouvêa Junior",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ramphocelus_bresilius_429487439.jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Tiê-sangue (Ramphocelus bresilius)",
+        "context": "Tiê-sangue, Ramphocelus bresilius. Foto ilustrativa da espécie, feita em São Paulo."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Euterpe edulis",
+      "name": "Palmito-juçara",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Palmeira da Mata Atlântica que o Instituto Água e Terra destaca na flora da Ilha do Mel. O plano de manejo a cita nas florestas de terras baixas da planície arenosa do litoral paranaense, ao lado do guanandi e da caxeta.",
+      "sourceIds": [
+        "iat-aves",
+        "plano-enc2"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Euterpe_edulis_Mart._%2821684080999%29.jpg/1280px-Euterpe_edulis_Mart._%2821684080999%29.jpg",
+        "author": "Alex Popovkin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euterpe_edulis_Mart._%2821684080999%29.jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Palmito-juçara (Euterpe edulis)",
+        "context": "Palmito-juçara, Euterpe edulis. Foto ilustrativa da espécie, feita na Bahia."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Calophyllum brasiliense",
+      "name": "Guanandi",
+      "criteria": [
+        "habitat_critico",
+        "papel_ecologico"
+      ],
+      "why": "Árvore dos solos encharcados, é comum nas florestas de terras baixas da planície, segundo o plano de manejo. Seus frutos, de polpa oleosa, são despolpados por morcegos que espalham as sementes, e no litoral do Paraná ela forma guanandizais quase puros.",
+      "sourceIds": [
+        "iat-aves",
+        "plano-enc2",
+        "fl-4ec1ed83"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Calophyllum_brasiliense%2C_littoral_paulista_IMG_2453.JPG/1280px-Calophyllum_brasiliense%2C_littoral_paulista_IMG_2453.JPG",
+        "author": "Mauro Halpern",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calophyllum_brasiliense%2C_littoral_paulista_IMG_2453.JPG",
+        "width": 1280,
+        "height": 1707,
+        "alt": "Guanandi (Calophyllum brasiliense)",
+        "context": "Guanandi, Calophyllum brasiliense. Foto ilustrativa da espécie, feita no litoral paulista."
+      },
+      "iucn": "LC"
+    }
+  ],
+  "sources": [
+    {
+      "id": "decreto",
+      "institution": "Governo do Paraná (via ICMBio/CEPSUL)",
+      "title": "Decreto Estadual 5.506, de 21 de março de 2002: cria o Parque Estadual da Ilha do Mel",
+      "url": "https://assiste.icmbio.gov.br/cepsul/images/stories/legislacao/Decretos/2002/dec_5506_2002_parqueestadualilhamel_pr.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "plano-enc1",
+      "institution": "Instituto Água e Terra (PR)",
+      "title": "Plano de Manejo do Parque Estadual da Ilha do Mel, Encarte 1: contextualização da unidade de conservação",
+      "url": "https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/2020-07/pe_ilha_mel_item1_encarte1.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "plano-enc2",
+      "institution": "Instituto Água e Terra (PR)",
+      "title": "Plano de Manejo do Parque Estadual da Ilha do Mel, Encarte 2: análise da região do parque",
+      "url": "https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/2020-07/pe_ilha_mel_item2_encarte2.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "plano-enc4",
+      "institution": "Instituto Água e Terra (PR)",
+      "title": "Plano de Manejo do Parque Estadual da Ilha do Mel, Encarte 4: planejamento (cópia hospedada pela UFPR)",
+      "url": "https://docs.ufpr.br/~edugeo/Planos_Litoral/PE_IlhadoMel/item4_encarte4.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "iat-aves",
+      "institution": "Instituto Água e Terra (PR)",
+      "title": "Além das trilhas: observando as aves das unidades de conservação (2024)",
+      "url": "https://iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/2024-06/alem_das_trilhas_observando_as_aves_das_unidades_de_conservacao_062024.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-3de639fc",
+      "institution": "Boletim do Museu Paraense Emílio Goeldi, Ciências Naturais (Draghi e Alves, 2013)",
+      "title": "Dieta do tiê-sangue, Ramphocelus bresilius, em uma área de restinga urbana no Sudeste do Brasil",
+      "url": "https://boletimcn.museu-goeldi.br/bcnaturais/en/article/view/558",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-8f757071",
+      "institution": "Revista Brasileira de Ornitologia (Dias e Rodrigues, 2008)",
+      "title": "Registro do tiê-sangue Ramphocelus bresilius em Belo Horizonte, Minas Gerais",
+      "url": "https://www.ufmg.br/estacaoecologica/wp-content/uploads/2020/11/2008-DIAS-Daniel-Filipe.-RODRIGUES-Marcos.-Ramphocelus-bresilius.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-4ec1ed83",
+      "institution": "Embrapa Florestas (Carvalho)",
+      "title": "Espécies arbóreas brasileiras, volume 1: Guanandi (Calophyllum brasiliense)",
+      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1140130/1/Especies-Arboreas-Brasileiras-vol-1-Guanandi.pdf",
+      "accessed": "2026-11-04"
+    }
+  ]
+}

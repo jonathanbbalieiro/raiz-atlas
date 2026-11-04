@@ -1,0 +1,500 @@
+{
+  "schemaVersion": 1,
+  "status": "revisado",
+  "updatedAt": "2026-11-04",
+  "hook": "Casas flutuantes, uacaris, botos e onças que sobem em árvores: uma floresta que passa seis meses por ano debaixo d'água.",
+  "intro": "As Reservas Mamirauá e Amanã somam mais de 3 milhões de hectares de floresta no Médio Solimões. Em Mamirauá, a várzea fica alagada por meses; em Amanã, a várzea encontra a terra firme. Ali vivem comunidades ribeirinhas, que manejam o pirarucu, hospedam visitantes numa pousada flutuante e ajudam a ciência a entender o lugar.",
+  "sourceIds": [
+    "areas",
+    "tefe"
+  ],
+  "protects": {
+    "summary": "Floresta de várzea e de terra firme, e as pessoas que vivem nela",
+    "items": [
+      {
+        "title": "A várzea que enche e seca",
+        "text": "Mamirauá é um complexo de lagos, lagoas, ilhas, restingas, chavascais e paranás. A água sobe e desce cerca de 10 metros por ano, e o ambiente fica alagado por seis meses.",
+        "sourceIds": [
+          "areas",
+          "onca"
+        ]
+      },
+      {
+        "title": "Várzea e terra firme",
+        "text": "Amanã reúne florestas de várzea e de terra firme. Com Mamirauá e o Parque Nacional do Jaú, forma uma área contígua de cerca de 5.746.000 hectares.",
+        "sourceIds": [
+          "areas"
+        ]
+      },
+      {
+        "title": "Reservas habitadas",
+        "text": "As reservas buscam conciliar a conservação da biodiversidade com o desenvolvimento sustentável em territórios onde vivem pessoas. Mamirauá tem 177 comunidades e 11.532 moradores, e Amanã, 124 comunidades e 5.026 moradores.",
+        "sourceIds": [
+          "areas"
+        ]
+      },
+      {
+        "title": "Peixe, renda e regras da comunidade",
+        "text": "A pesca é a principal fonte de proteína animal e de renda das famílias da Reserva Mamirauá. Por isso o manejo participativo dos estoques, como o do pirarucu, é parte da proteção do lugar.",
+        "sourceIds": [
+          "pesca"
+        ]
+      },
+      {
+        "title": "Um instituto dentro da floresta",
+        "text": "O Instituto Mamirauá, criado em 1999, pesquisa a biodiversidade e apoia o manejo de recursos naturais junto às comunidades, com sede em Tefé, fora das reservas.",
+        "sourceIds": [
+          "instituto",
+          "coracao"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Pousada Uacari",
+      "text": "Pousada flutuante e um dos projetos pioneiros de turismo de base comunitária do Brasil. Os moradores ligados à associação local trabalham em rodízio, cerca de doze dias por mês, e cada hóspede paga uma taxa que financia projetos comunitários e a vigilância ambiental da Reserva Mamirauá.",
+      "sourceIds": [
+        "tbc"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Passarela_e_quartos_da_Pousada_Uacari.jpg/1920px-Passarela_e_quartos_da_Pousada_Uacari.jpg",
+        "author": "Mateus S. Figueiredo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Passarela_e_quartos_da_Pousada_Uacari.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Passarela de madeira ligando as casas flutuantes da Pousada Uacari, sobre as águas do lago",
+        "context": "A Pousada Uacari, flutuante, no lago Mamirauá, na Reserva Mamirauá."
+      }
+    },
+    {
+      "title": "Lago Mamirauá e a floresta alagável",
+      "text": "O lago dá nome à reserva, e o significado mais aceito é filhote de peixe-boi. Em volta dele, a floresta de várzea passa metade do ano debaixo d'água, entre lagoas, ilhas, restingas e paranás.",
+      "sourceIds": [
+        "areas"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Florestas_de_V%C3%A1rzea_pr%C3%B3ximo_ao_lago_Mamirau%C3%A1_2018-10-21.jpg/1920px-Florestas_de_V%C3%A1rzea_pr%C3%B3ximo_ao_lago_Mamirau%C3%A1_2018-10-21.jpg",
+        "author": "Jecogeo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Florestas_de_V%C3%A1rzea_pr%C3%B3ximo_ao_lago_Mamirau%C3%A1_2018-10-21.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Árvore de raízes tabulares em preto e branco, na floresta de várzea",
+        "context": "Floresta de várzea perto do lago Mamirauá, em foto de 2018, na Reserva Mamirauá."
+      }
+    },
+    {
+      "title": "Comunidades da várzea",
+      "text": "A Reserva Mamirauá tem 177 comunidades e 11.532 moradores, segundo o Censo de 2011. Pescar, manejar o pirarucu e receber visitantes são caminhos de renda construídos com as próprias comunidades.",
+      "sourceIds": [
+        "areas",
+        "pesca"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Casa_na_Comunidade_S%C3%A3o_Jos%C3%A9_do_Mamirau%C3%A1.jpg/1920px-Casa_na_Comunidade_S%C3%A3o_Jos%C3%A9_do_Mamirau%C3%A1.jpg",
+        "author": "Mateus S. Figueiredo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_na_Comunidade_S%C3%A3o_Jos%C3%A9_do_Mamirau%C3%A1.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Casa de madeira sobre estacas, com gramado e árvores ao redor, em uma comunidade da várzea",
+        "context": "Casa na comunidade São José do Mamirauá, na Reserva Mamirauá."
+      }
+    },
+    {
+      "title": "Lago Amanã",
+      "text": "Lago grande da Reserva Amanã, onde o Instituto Mamirauá acompanha os botos-vermelhos. Em uma campanha de captura científica, 17 botos foram examinados e 12 receberam transmissores de satélite, com a ajuda de moradores e pescadores.",
+      "sourceIds": [
+        "boto"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lago_Aman%C3%A3_01.jpg/1920px-Lago_Aman%C3%A3_01.jpg",
+        "author": "Jecogeo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_Aman%C3%A3_01.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Lago Amanã ao fim da tarde, com nuvens carregadas e aves sobre a água",
+        "context": "O Lago Amanã, na Reserva Amanã."
+      }
+    },
+    {
+      "title": "Amanã, o caminho da chuva",
+      "text": "O nome da reserva significa caminho da chuva. São 124 comunidades, como a Vila Nova, no Paraná do Tambaqui. Foi em Amanã, no Pantaleão, que se firmou o primeiro acordo de pesca, em 2006, regulamentado em 2009.",
+      "sourceIds": [
+        "areas",
+        "pesca"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Comunidade_Vila_Nova_-_Paran%C3%A1_do_Tambaqui.jpg/1920px-Comunidade_Vila_Nova_-_Paran%C3%A1_do_Tambaqui.jpg",
+        "author": "Jecogeo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comunidade_Vila_Nova_-_Paran%C3%A1_do_Tambaqui.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Barcos de passageiros atracados na margem de um paraná, com a mata ao fundo",
+        "context": "Barcos na comunidade Vila Nova, no Paraná do Tambaqui, na Reserva Amanã."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O nome Mamirauá vem do lago no coração da reserva. O significado mais aceito é filhote de peixe-boi.",
+      "sourceIds": [
+        "areas"
+      ]
+    },
+    {
+      "text": "Mamirauá é a primeira Reserva de Desenvolvimento Sustentável do Brasil e nasceu do pedido de um pesquisador para proteger o uacari-branco.",
+      "sourceIds": [
+        "areas",
+        "coracao"
+      ]
+    },
+    {
+      "text": "Toda a população do macaco-de-cheiro-de-cabeça-preta, cerca de 150 mil animais, vive em 870 km², na região sul da Reserva Mamirauá e em duas ilhas vizinhas.",
+      "sourceIds": [
+        "saimiri"
+      ]
+    },
+    {
+      "text": "O uacari-branco é o único primata frugívoro neotropical capaz de viver em floresta de várzea. As sementes são 62,2% dos itens de sua dieta.",
+      "sourceIds": [
+        "uacari"
+      ]
+    },
+    {
+      "text": "Na cheia, as onças-pintadas passam cerca de três meses nas árvores. Uma fêmea foi achada com o filhote a 12 km do solo seco mais próximo.",
+      "sourceIds": [
+        "onca"
+      ]
+    },
+    {
+      "text": "A maior fêmea reprodutora de jacaré-açu registrada pelo Instituto tinha 2,91 metros e 74 quilos, e guardava um ninho com 32 ovos.",
+      "sourceIds": [
+        "jacare"
+      ]
+    },
+    {
+      "text": "Juntas, Mamirauá, Amanã e o Parque Nacional do Jaú formam uma área protegida maior que a Costa Rica ou a Suíça.",
+      "sourceIds": [
+        "areas"
+      ]
+    },
+    {
+      "text": "O manejo participativo do pirarucu começou em 1999 e fez o estoque crescer cerca de 620% nas áreas manejadas de Mamirauá.",
+      "sourceIds": [
+        "pesca"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "1985 · Um macaco pede uma reserva",
+      "text": "O pesquisador José Márcio Ayres, que estudava o uacari-branco, pede ao governo federal a criação de uma estação ecológica para proteger a espécie. Em 1990, o Governo do Amazonas cria a Estação Ecológica Mamirauá.",
+      "sourceIds": [
+        "areas",
+        "instituto"
+      ]
+    },
+    {
+      "title": "1996 a 1999 · De estação a reserva e a instituto",
+      "text": "Em 1996, a Estação Ecológica vira Reserva de Desenvolvimento Sustentável e sai o primeiro plano de manejo. Em 1999 nasce o Instituto Mamirauá, que passa a ligar pesquisa, manejo e desenvolvimento social.",
+      "sourceIds": [
+        "instituto"
+      ]
+    },
+    {
+      "title": "1999 · O pirarucu volta",
+      "text": "Diante do declínio do pirarucu pela sobrepesca, pescadores e cientistas criam o manejo participativo. O estoque cresce cerca de 620% nas áreas manejadas e a renda dos pescadores aumenta. Moradores contam os peixes nos lagos, e há cursos para certificar quem faz a contagem.",
+      "sourceIds": [
+        "pesca",
+        "coracao",
+        "contadoras"
+      ]
+    },
+    {
+      "title": "1998 a 2001 · Turismo feito pela comunidade",
+      "text": "Em 1998, o Instituto passa a assessorar comunidades para receber turistas na Pousada Uacari. A infraestrutura fica pronta em 2001, e a pousada ganha visibilidade nacional e internacional.",
+      "sourceIds": [
+        "tbc"
+      ]
+    },
+    {
+      "title": "2014 · Onças na copa das árvores",
+      "text": "O Projeto Iauaretê, do Instituto desde 2004, comprova que as onças-pintadas de Mamirauá vivem nas árvores durante a cheia, por cerca de três meses. Não há registro desse comportamento em outras partes do mundo.",
+      "sourceIds": [
+        "onca"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Saimiri vanzolinii",
+      "name": "Macaco-de-cheiro-de-cabeça-preta",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "O primata de menor distribuição das Américas: cerca de 150 mil animais vivem em 870 km² do sul da Reserva Mamirauá e em duas ilhas vizinhas. Depende da várzea, e o risco maior vem de mudanças no regime de chuvas e de cheias.",
+      "sourceIds": [
+        "saimiri",
+        "saimiri-pub"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Saimiri_vanzolinii.jpg/960px-Saimiri_vanzolinii.jpg",
+        "author": "Cláudio Timm",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saimiri_vanzolinii.jpg",
+        "width": 640,
+        "height": 425,
+        "alt": "Macaco-de-cheiro (Saimiri vanzolinii)",
+        "context": "Macaco-de-cheiro-de-cabeça-preta, Saimiri vanzolinii, espécie que só existe em Mamirauá e arredores."
+      },
+      "iucn": "EN"
+    },
+    {
+      "scientificName": "Cacajao calvus",
+      "name": "Uacari-branco",
+      "criteria": [
+        "icone_da_paisagem",
+        "habitat_critico"
+      ],
+      "why": "Foi por ele que a reserva existe: José Márcio Ayres pediu a estação ecológica para proteger o uacari-branco. É o único primata frugívoro neotropical capaz de viver na várzea, e as sementes são cerca de 62% do que come.",
+      "sourceIds": [
+        "areas",
+        "uacari"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Male_uakari.jpg/960px-Male_uakari.jpg",
+        "author": "Evgenia Kononova",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_uakari.jpg",
+        "width": 640,
+        "height": 446,
+        "alt": "Uacari-branco (Cacajao calvus)",
+        "context": "Uacari-branco, Cacajao calvus. Foto ilustrativa da espécie."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Arapaima gigas",
+      "name": "Pirarucu",
+      "criteria": [
+        "cultural",
+        "papel_ecologico"
+      ],
+      "why": "Símbolo do manejo comunitário: desde 1999 a pesca participativa fez o estoque crescer cerca de 620% nas áreas manejadas de Mamirauá, com mais renda para os pescadores. A contagem nos lagos define as cotas.",
+      "sourceIds": [
+        "pesca",
+        "coracao"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/AnaClaudiaJatahy_PescaPirarucu_Tefe_AM_%2826266861107%29.jpg/1920px-AnaClaudiaJatahy_PescaPirarucu_Tefe_AM_%2826266861107%29.jpg",
+        "author": "MTur Destinos",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:AnaClaudiaJatahy_PescaPirarucu_Tefe_AM_%2826266861107%29.jpg",
+        "width": 1920,
+        "height": 1290,
+        "alt": "Pirarucu saltando na água barrenta",
+        "context": "Pirarucu fisgado em pesca na região de Tefé. Foto ilustrativa da espécie."
+      }
+    },
+    {
+      "scientificName": "Inia geoffrensis",
+      "name": "Boto-vermelho",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "O Instituto monitora os botos do Lago Amanã com transmissores de satélite e exames de saúde, depois da mortandade de mais de 200 animais nas secas de 2023 e 2024 no Amazonas.",
+      "sourceIds": [
+        "boto",
+        "mamaq"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Inia.jpg/960px-Inia.jpg",
+        "author": "Dennis Otten",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inia.jpg",
+        "width": 640,
+        "height": 480,
+        "alt": "Boto-vermelho (Inia geoffrensis)",
+        "context": "Boto-vermelho, Inia geoffrensis. Foto ilustrativa da espécie."
+      },
+      "iucn": "EN"
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "papel_ecologico"
+      ],
+      "why": "Na várzea de Mamirauá, as onças-pintadas passam cerca de três meses da cheia nas árvores e nadam entre elas para caçar. O Projeto Iauaretê estuda a espécie na reserva desde 2004.",
+      "sourceIds": [
+        "onca",
+        "onca-cheia"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/960px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca. Foto ilustrativa da espécie, feita em outra área."
+      },
+      "iucn": "NT"
+    },
+    {
+      "scientificName": "Melanosuchus niger",
+      "name": "Jacaré-açu",
+      "criteria": [
+        "papel_ecologico"
+      ],
+      "why": "Maior predador dos rios brasileiros, tem populações maduras e estáveis em Mamirauá, segundo o Instituto, que monitora ninhos há anos. A maior fêmea reprodutora medida tinha 2,91 m.",
+      "sourceIds": [
+        "jacare",
+        "jacare-600"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Melanosuchus_niger_RDS_Uacari.jpg/1920px-Melanosuchus_niger_RDS_Uacari.jpg",
+        "author": "Whaldener Endo",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melanosuchus_niger_RDS_Uacari.jpg",
+        "width": 1920,
+        "height": 1245,
+        "alt": "Jacaré-açu na água barrenta, com borboletas pousadas sobre a cabeça",
+        "context": "Jacaré-açu, Melanosuchus niger, na área da Pousada Uacari, na Reserva Mamirauá."
+      },
+      "iucn": "LC"
+    }
+  ],
+  "sources": [
+    {
+      "id": "areas",
+      "institution": "Instituto Mamirauá",
+      "title": "Áreas de atuação (Reserva Mamirauá e Reserva Amanã)",
+      "url": "https://mamiraua.org.br/areas-de-atuacao/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "instituto",
+      "institution": "Instituto Mamirauá",
+      "title": "O Instituto (história)",
+      "url": "https://mamiraua.org.br/o-instituto/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "pesca",
+      "institution": "Instituto Mamirauá",
+      "title": "Manejo de Pesca",
+      "url": "https://mamiraua.org.br/manejo-pesca/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "tbc",
+      "institution": "Instituto Mamirauá",
+      "title": "Turismo de Base Comunitária",
+      "url": "https://mamiraua.org.br/turismo-comunitario/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "coracao",
+      "institution": "Instituto Mamirauá",
+      "title": "Um instituto de pesquisa no coração da Amazônia",
+      "url": "https://mamiraua.org.br/noticias/um-instituto-de-pesquisa-no-coracao-da-amazonia/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "contadoras",
+      "institution": "Instituto Mamirauá",
+      "title": "Mulheres são certificadas como contadoras de pirarucu pelo Instituto Mamirauá",
+      "url": "https://mamiraua.org.br/noticias/mulheres-sao-certificadas-como-contadoras-de-pirarucu-pelo-instituto-mamiraua/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "tefe",
+      "institution": "Instituto Mamirauá",
+      "title": "Conheça Tefé",
+      "url": "https://mamiraua.org.br/tefe/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "saimiri",
+      "institution": "Instituto Mamirauá",
+      "title": "Macaco-de-cheiro-de-cabeça-preta é o primata com menor distribuição das Américas",
+      "url": "https://mamiraua.org.br/noticias/macaco-de-cheiro-de-cabeca-preta-e-o-primata-com-menor-distribuicao-das-americas/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "saimiri-pub",
+      "institution": "Instituto Mamirauá",
+      "title": "Conheça o macaco-de-cheiro-de-cabeça-preta",
+      "url": "https://mamiraua.org.br/publicacoes/conheca-o-macaco-de-cheiro-de-cabeca-preta/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "uacari",
+      "institution": "Instituto Mamirauá",
+      "title": "Estudo analisa dieta do uacari-branco na Reserva Mamirauá",
+      "url": "https://mamiraua.org.br/noticias/estudo-analisa-dieta-do-uacari-branco-na-reserva-mamiraua/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "onca",
+      "institution": "Instituto Mamirauá",
+      "title": "Estudo comprova que onças vivem na copa das árvores durante a cheia na várzea Amazônica",
+      "url": "https://mamiraua.org.br/noticias/estudo-comprova-que-oncas-vivem-na-copa-das-arvores-durante-a-cheia-na-varzea-amazonica/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "onca-cheia",
+      "institution": "Instituto Mamirauá",
+      "title": "Entre secas e cheias: diferenças no modo de vida das onças-pintadas na Reserva Mamirauá",
+      "url": "https://mamiraua.org.br/repercussoes/entre-secas-e-cheias-diferencas-no-modo-de-vida-das-oncas-pintadas-na-reserva-mamiraua-no-amazonas/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "jacare",
+      "institution": "Instituto Mamirauá",
+      "title": "Pesquisadores registram a maior fêmea reprodutora de jacaré-açu",
+      "url": "https://mamiraua.org.br/noticias/pesquisadores-registram-a-maior-femea-reprodutora-de-jacare-acu/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "jacare-600",
+      "institution": "Instituto Mamirauá",
+      "title": "Estudo mediu 600 filhotes de jacaré-açu da Reserva Mamirauá",
+      "url": "https://mamiraua.org.br/noticias/estudo-mediu-600-filhotes-de-jacare-acu-da-reserva-mamiraua/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "boto",
+      "institution": "Instituto Mamirauá",
+      "title": "Captura científica de botos-vermelhos busca compreender ecologia e saúde da espécie na Amazônia Central",
+      "url": "https://mamiraua.org.br/noticias/captura-cientifica-de-botos-vermelhos-busca-compreender-ecologia-e-saude-da-especie-na-amazonia-central/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "mamaq",
+      "institution": "Instituto Mamirauá",
+      "title": "Grupo de Pesquisa em Mamíferos Aquáticos",
+      "url": "https://mamiraua.org.br/grupos/gp-mamaq-v2/",
+      "accessed": "2026-11-04"
+    }
+  ]
+}

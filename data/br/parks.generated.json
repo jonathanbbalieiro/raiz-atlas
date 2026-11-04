@@ -1,5 +1,73 @@
 [
   {
+    "slug": "tapajos",
+    "cnuc": "0000.00.0123",
+    "name": "Floresta Nacional do Tapajós",
+    "shortName": "Tapajós",
+    "ufs": [
+      "PA"
+    ],
+    "biome": "amazonia",
+    "biomes": [
+      "amazonia"
+    ],
+    "areaHa": 525056,
+    "createdYear": 1974,
+    "creationAct": "Decreto Nº 73.684 de 19-02-1974",
+    "category": "FLONA",
+    "categoryLabel": "Floresta Nacional",
+    "manager": "federal",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -55.0562,
+      -3.7271
+    ],
+    "admin1": "pa",
+    "bbox": [
+      -55.41,
+      -4.1122,
+      -54.802,
+      -2.75
+    ]
+  },
+  {
+    "slug": "ilha-do-mel",
+    "cnuc": "0000.41.0529",
+    "name": "Parque Estadual da Ilha do Mel",
+    "shortName": "Ilha do Mel",
+    "ufs": [
+      "PR"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 338,
+    "createdYear": 2002,
+    "creationAct": "Decreto Estadual 5.506, de 21 de março de 2002",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -48.3073,
+      -25.5603
+    ],
+    "admin1": "pr",
+    "bbox": [
+      -48.3204,
+      -25.577,
+      -48.2895,
+      -25.5387
+    ]
+  },
+  {
     "slug": "ilha-grande-rj",
     "cnuc": "0000.33.1477",
     "name": "Parque Estadual da Ilha Grande",
@@ -31,6 +99,74 @@
       -23.2137,
       -44.0944,
       -23.0909
+    ]
+  },
+  {
+    "slug": "serra-do-mar",
+    "cnuc": "0000.35.0798",
+    "name": "Parque Estadual da Serra do Mar",
+    "shortName": "Serra do Mar",
+    "ufs": [
+      "SP"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 322293,
+    "createdYear": 1977,
+    "creationAct": "Decreto 10251 de 30-08-1977",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -45.0596,
+      -23.2968
+    ],
+    "admin1": "sp",
+    "bbox": [
+      -47.3081,
+      -24.2692,
+      -44.7239,
+      -23.198
+    ]
+  },
+  {
+    "slug": "serra-do-tabuleiro",
+    "cnuc": "0000.42.0786",
+    "name": "Parque Estadual da Serra do Tabuleiro",
+    "shortName": "Serra do Tabuleiro",
+    "ufs": [
+      "SC"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 83908,
+    "createdYear": 1975,
+    "creationAct": "Decreto 1260 de 01-11-1975",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -48.8089,
+      -27.8864
+    ],
+    "admin1": "sc",
+    "bbox": [
+      -48.9892,
+      -28.219,
+      -48.428,
+      -27.681
     ]
   },
   {
@@ -167,6 +303,40 @@
       -10.6606,
       -46.2272,
       -10.0202
+    ]
+  },
+  {
+    "slug": "encontro-das-aguas",
+    "cnuc": "0000.51.1916",
+    "name": "Parque Estadual Encontro das Águas",
+    "shortName": "Encontro das Águas",
+    "ufs": [
+      "MT"
+    ],
+    "biome": "pantanal",
+    "biomes": [
+      "pantanal"
+    ],
+    "areaHa": 108130,
+    "createdYear": 2004,
+    "creationAct": "Decreto 4.881 de 22-12-2004",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -56.7097,
+      -17.0706
+    ],
+    "admin1": "mt",
+    "bbox": [
+      -56.888,
+      -17.3394,
+      -56.4036,
+      -16.8338
     ]
   },
   {
@@ -467,13 +637,13 @@
     "createdYear": 1971,
     "creationAct": "DEC 68.172, de 04/02/1971; DEC 70.694, de 08/06/1972",
     "labelPoint": [
-      -44.6642,
-      -22.9477
+      -44.6555,
+      -22.9503
     ],
     "admin1": "rj",
     "bbox": [
-      -44.968,
-      -23.3781,
+      -44.8989,
+      -23.3692,
       -44.4083,
       -22.7091
     ]
@@ -2312,6 +2482,40 @@
       -10.8381,
       -37.2787,
       -10.7104
+    ]
+  },
+  {
+    "slug": "mamiraua",
+    "cnuc": "0000.13.0986",
+    "name": "Reservas de Desenvolvimento Sustentável Mamirauá e Amanã",
+    "shortName": "Mamirauá e Amanã",
+    "ufs": [
+      "AM"
+    ],
+    "biome": "amazonia",
+    "biomes": [
+      "amazonia"
+    ],
+    "areaHa": 3623388,
+    "createdYear": 1990,
+    "creationAct": "Decreto 12836 de 09-03-1990",
+    "category": "RDS",
+    "categoryLabel": "Reservas de Desenvolvimento Sustentável",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -64.4239,
+      -2.2831
+    ],
+    "admin1": "am",
+    "bbox": [
+      -67.3806,
+      -3.5153,
+      -62.8024,
+      -1.5291
     ]
   }
 ]
