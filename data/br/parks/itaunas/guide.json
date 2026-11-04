@@ -231,27 +231,103 @@
       }
     },
     {
-      "scientificName": "Chrysobalanus icaco",
-      "name": "Guajuru",
+      "scientificName": "Melocactus violaceus",
+      "name": "Coroa-de-frade",
       "criteria": [
-        "icone_da_paisagem"
+        "endemica",
+        "habitat_critico"
       ],
-      "why": "Arbusto de restinga que forma moitas nos trechos mais altos entre os cordões de dunas do parque, onde o lençol freático aflora. O plano de manejo o registra como espécie dominante nessas moitas, a maçã-da-praia.",
+      "why": "Cacto globoso de restinga, endêmico do Brasil e classificado como Vulnerável. Em Itaúnas aparece em áreas abertas, como na Trilha da Borboleta, e traz no topo uma coroa de cerdas marrons e pelos brancos, de onde saem as pequenas flores e os frutos alongados.",
       "sourceIds": [
-        "pm-vegetacao",
-        "scielo-guajuru"
+        "fl-b49e3032",
+        "fl-deba6e66"
       ],
       "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8708128/large.jpeg",
-        "author": "Eridan Xharahi",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Melocactus_violaceus_14.jpg/1280px-Melocactus_violaceus_14.jpg",
+        "author": "Pedro Alvaro Neves",
         "license": "CC BY 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "sourceUrl": "https://www.inaturalist.org/photos/8708128",
-        "width": 1024,
-        "height": 770,
-        "alt": "Guajuru (Chrysobalanus icaco)",
-        "context": "Guajuru, Chrysobalanus icaco. Foto ilustrativa da espécie, feita em outra restinga."
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melocactus_violaceus_14.jpg",
+        "width": 1280,
+        "height": 1140,
+        "alt": "Coroa-de-frade (Melocactus violaceus)",
+        "context": "Coroa-de-frade, Melocactus violaceus. Foto ilustrativa da espécie, feita em outra restinga."
+      },
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Caretta caretta",
+      "name": "Tartaruga-comum",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Das cinco tartarugas marinhas registradas na costa do parque, a cabeçuda é a que mais desova nas praias de Itaúnas: a base local do Projeto Tamar contou 332 desovas entre 1991 e 1997, com pico em novembro. A área é considerada importante para a espécie.",
+      "sourceIds": [
+        "fl-1f6606af",
+        "fl-deba6e66"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Loggerhead_sea_turtle.jpg/1280px-Loggerhead_sea_turtle.jpg",
+        "author": "ukanda",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loggerhead_sea_turtle.jpg",
+        "width": 1280,
+        "height": 851,
+        "alt": "Tartaruga-comum (Caretta caretta)",
+        "context": "Tartaruga-comum ou cabeçuda, Caretta caretta. Foto ilustrativa da espécie, feita em outro local."
+      },
+      "iucn": "VU"
+    },
+    {
+      "scientificName": "Xenurolebias myersi",
+      "name": "Peixe-anual-de-Itaúnas",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Peixinho anual que só existe na região de Itaúnas. Nasce nos brejos temporários da restinga com as chuvas, deixa ovos que resistem à seca e morre quando as poças secam, por isso é chamado de peixe-das-nuvens. Dentro do parque, as poças da Trilha da Borboleta abrigam a espécie.",
+      "sourceIds": [
+        "fl-faa49775",
+        "fl-deba6e66"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/526346806/large.jpg",
+        "author": "Fernando Berg",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/526346806",
+        "width": 473,
+        "height": 1024,
+        "alt": "Peixe-anual-de-Itaúnas (Xenurolebias myersi)",
+        "context": "Peixe-anual-de-Itaúnas, Xenurolebias myersi, fotografado em um recipiente após a coleta, no Parque Estadual de Itaúnas."
       }
+    },
+    {
+      "scientificName": "Pontoporia blainvillei",
+      "name": "Toninha",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Pequeno golfinho de águas costeiras e rasas, o mamífero mais ameaçado entre os registrados no parque. Itaúnas marca o limite norte da sua distribuição, que segue pelo litoral até o Golfo San Matías, na Argentina.",
+      "sourceIds": [
+        "fl-f0d21ea3",
+        "fl-deba6e66"
+      ]
+    },
+    {
+      "scientificName": "Phyllodytes luteolus",
+      "name": "Perereca-das-bromélias",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Perereca de uns 2 centímetros que passa a vida dentro das bromélias da restinga: ali caça formigas e cupins, põe os ovos e cria os girinos. Em restingas do Espírito Santo e da Bahia, a bromélia preferida é a Aechmea blanchetiana, que também cresce em Itaúnas.",
+      "sourceIds": [
+        "fl-d1988ed0",
+        "fl-deba6e66"
+      ]
     }
   ],
   "sources": [
@@ -331,6 +407,48 @@
       "title": "O abajurú (Chrysobalanus icaco) comercializado na cidade do Rio de Janeiro, Brasil",
       "url": "https://www.scielo.br/j/rbfar/a/vCBMtcXVg47h7RVxwCm4zyN/?lang=pt",
       "accessed": "2026-11-03"
+    },
+    {
+      "id": "fl-b49e3032",
+      "institution": "Rodriguésia (SciELO)",
+      "title": "Flora of Itaúnas State Park, Espírito Santo, Brazil: Cactaceae",
+      "url": "https://www.scielo.br/j/rod/a/VRNvvvh9SPL9TmvVMMjFMyd/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-deba6e66",
+      "institution": "IEMA (ES)",
+      "title": "Diagnóstico da Unidade de Conservação: Parque Estadual de Itaúnas (2025)",
+      "url": "https://iema.es.gov.br/Media/iema/Unidades%20de%20Conserva%C3%A7%C3%A3o/Anexo%20I%20-%20Diagn%C3%B3stico%20Parque%20Estadual%20de%20Ita%C3%BAnas_2025.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-1f6606af",
+      "institution": "Projeto Tamar / UFES (resumo, Encontro de Zoologia do Nordeste)",
+      "title": "Aspectos da biologia reprodutiva da tartaruga cabeçuda, Caretta caretta, em Itaúnas, Espírito Santo",
+      "url": "https://www.tamar.org.br/publicacoes_html/pdf/1999/1999_Aspectos_da_Biologia_Reprodutiva_1999.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-faa49775",
+      "institution": "Qeios (revisão aberta)",
+      "title": "Ways to Protect the Environments of the Itaúnas Cloud Fish, Xenurolebias myersi, Inhabitant of the Restinga Swamps, Conceição da Barra",
+      "url": "https://www.qeios.com/read/CNTSSZ",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-f0d21ea3",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação do Pequeno Cetáceo Toninha",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-toninha/1-ciclo/pan-toninha-sumario.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-d1988ed0",
+      "institution": "Anais da Academia Brasileira de Ciências (SciELO)",
+      "title": "Ecology of the bromeligenous frog Phyllodytes luteolus (Anura, Hylidae) from three restinga remnants across Brazil's coast",
+      "url": "https://scielo.br/j/aabc/a/DMpFtZYyfzv8J47V6mTRJvQ/?lang=en",
+      "accessed": "2026-11-04"
     }
   ]
 }

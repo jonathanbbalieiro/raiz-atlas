@@ -299,6 +299,91 @@
         "alt": "Jaguatirica (Leopardus pardalis)",
         "context": "Jaguatirica, Leopardus pardalis. Foto ilustrativa da espécie, feita em outra área."
       }
+    },
+    {
+      "scientificName": "Pipile jacutinga",
+      "name": "Jacutinga",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Ave de grande porte, perseguida pela caça, que o Guia de Áreas Protegidas inclui entre a avifauna do parque. O levantamento do plano de manejo estimou 1,5 indivíduo a cada 10 km de trilha percorrida, e a jacutinga está entre as espécies ameaçadas de extinção que o documento cita para o arquipélago.",
+      "sourceIds": [
+        "guia-peib",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/453275696/large.jpeg",
+        "author": "renatabeco",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/453275696",
+        "width": 1024,
+        "height": 876,
+        "alt": "Jacutinga (Pipile jacutinga)",
+        "context": "Jacutinga. Foto ilustrativa da espécie, feita em São Paulo."
+      }
+    },
+    {
+      "scientificName": "Amazona farinosa",
+      "name": "Papagaio-moleiro",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Grande papagaio de plumagem verde e farinhada, ainda comum nas matas da ilha: um censo estimou cerca de 3.200 indivíduos na Ilha de São Sebastião, quase 80% da floresta dentro do parque. O plano cita a captura para o comércio ilegal como pressão sobre a espécie.",
+      "sourceIds": [
+        "fl-10c396d3",
+        "plano"
+      ]
+    },
+    {
+      "scientificName": "Liotyphlops caissara",
+      "name": "Cobra-cega Liotyphlops caissara",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Pequena serpente cega, de hábitos escondidos, descrita em 2010 a partir de um exemplar achado na Trilha da Água Branca. Só se conhece da Ilha de São Sebastião e da vizinha Ilha Anchieta, e inventários de um ano nas duas ilhas não acharam outro exemplar, sinal de que é rara.",
+      "sourceIds": [
+        "fl-89756734",
+        "fl-69ee5450"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/153760077/large.jpg",
+        "author": "Henry Miller Alexandre",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/153760077",
+        "width": 1024,
+        "height": 683,
+        "alt": "Cobra-cega Liotyphlops caissara (Liotyphlops caissara)",
+        "context": "Cobra-cega Liotyphlops caissara, serpente conhecida só de duas ilhas paulistas."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Astrocaryum aculeatissimum",
+      "name": "Brejaúva",
+      "criteria": [
+        "papel_ecologico",
+        "icone_da_paisagem"
+      ],
+      "why": "Palmeira espinhenta da Mata Atlântica e uma das três da ilha com frutos enormes, de uns 5 cm. Sua dispersão depende de animais capazes de carregar sementes grandes: estudo mostrou que, sem cutias, a palmeira não tem sementes removidas nem enterradas.",
+      "sourceIds": [
+        "plano",
+        "fl-b1024e8e"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/220857418/large.jpg",
+        "author": "Diogo Luiz",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/220857418",
+        "width": 1024,
+        "height": 683,
+        "alt": "Brejaúva (Astrocaryum aculeatissimum)",
+        "context": "Brejaúva, Astrocaryum aculeatissimum. Foto ilustrativa da espécie, feita em outra área de Mata Atlântica."
+      },
+      "iucn": "LC"
     }
   ],
   "sources": [
@@ -343,6 +428,34 @@
       "title": "Conheça 42 praias de Ilhabela",
       "url": "https://www.ilhabela.sp.gov.br/portal/noticias/0/3/15452/conheca-42-praias-de-ilhabela",
       "accessed": "2026-11-03"
+    },
+    {
+      "id": "fl-10c396d3",
+      "institution": "Biodiversity and Conservation (Guix et al., 1999)",
+      "title": "Conservation status of parrot populations in an Atlantic rainforest area of southeastern Brazil",
+      "url": "https://doi.org/10.1023/a:1008851215269",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-89756734",
+      "institution": "Herpetologica (Centeno, Sawaya e Germano, 2010)",
+      "title": "A New Species of Liotyphlops (Serpentes: Anomalepididae) from the Atlantic Coastal Forest in Southeastern Brazil",
+      "url": "https://bioone.org/journals/herpetologica/volume-66/issue-1/08-079.1/A-New-Species-of-Liotyphlops-Serpentes--Anomalepididae-from-the/10.1655/08-079.1.full",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-69ee5450",
+      "institution": "Anais da Academia Brasileira de Ciências (Abegg et al., 2019)",
+      "title": "Description of a second known Liotyphlops caissara specimen (Serpentes: Anomalepididae)",
+      "url": "https://www.scielo.br/j/aabc/a/zFLBndr7dnSCJpG9g3XLQZt/?lang=en",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-b1024e8e",
+      "institution": "Ecological Research (Donatti, Guimarães Jr. e Galetti, 2009)",
+      "title": "Seed dispersal and predation in the endemic Atlantic rainforest palm Astrocaryum aculeatissimum across a gradient of seed disperser abundance",
+      "url": "https://bv.fapesp.br/en/publicacao/35337/seed-dispersal-and-predation-in-the-endemic-atlantic-rainfor",
+      "accessed": "2026-11-04"
     }
   ]
 }

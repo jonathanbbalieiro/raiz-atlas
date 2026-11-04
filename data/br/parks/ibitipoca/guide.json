@@ -276,6 +276,78 @@
       }
     },
     {
+      "scientificName": "Hylodes amnicola",
+      "name": "Rã-de-corredeira-de-ibitipoca",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Rã de riachos de correnteza descrita em 2002 a partir de exemplares do Parque Estadual do Ibitipoca, a cerca de 1.400 metros de altitude. Girinos coletados no parque em 1999 e 2002 serviram para descrever a larva da espécie.",
+      "sourceIds": [
+        "fl-61ccde34",
+        "fl-14b6e0d2"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/70601581/large.jpg",
+        "author": "Conrado Pável de Oliveira",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/70601581",
+        "width": 1024,
+        "height": 768,
+        "alt": "Rã-de-corredeira-de-ibitipoca (Hylodes amnicola)",
+        "context": "Rã Hylodes amnicola, espécie descrita a partir do Parque Estadual do Ibitipoca. Foto ilustrativa, feita em Lima Duarte (MG)."
+      },
+      "iucn": "DD"
+    },
+    {
+      "scientificName": "Brachyteles arachnoides",
+      "name": "Muriqui-do-sul",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Maior primata das Américas e endêmico da Mata Atlântica, está ameaçado de extinção. Um levantamento de 2022, com armadilhas fotográficas nos campos rupestres e fragmentos de mata do Ibitipoca, registrou o muriqui-do-sul entre os mamíferos ameaçados do parque.",
+      "sourceIds": [
+        "fl-f3dff87a",
+        "fl-9b54e327"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg/1280px-Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg",
+        "author": "Nortondefeis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis(001).jpg",
+        "width": 1280,
+        "height": 1920,
+        "alt": "Muriqui-do-sul (Brachyteles arachnoides)",
+        "context": "Muriqui-do-sul, Brachyteles arachnoides."
+      },
+      "iucn": "CR"
+    },
+    {
+      "scientificName": "Amazona vinacea",
+      "name": "Papagaio-de-peito-roxo",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Papagaio restrito à Mata Atlântica, listado como Vulnerável pelo ICMBio. O IEF cita o papagaio-de-peito-roxo entre as aves do Parque Estadual do Ibitipoca.",
+      "sourceIds": [
+        "ief",
+        "fl-58940076"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Amazona_vinacea_Vinaceous-breasted_Parrot%3B_Urupema%2CSanta_Catarina%2C_Brazil.jpg",
+        "author": "Hector Bottai",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amazona_vinacea_Vinaceous-breasted_Parrot;_Urupema,Santa_Catarina,_Brazil.jpg",
+        "width": 1280,
+        "height": 809,
+        "alt": "Papagaio-de-peito-roxo (Amazona vinacea)",
+        "context": "Papagaio-de-peito-roxo, Amazona vinacea."
+      },
+      "iucn": "EN"
+    },
+    {
       "scientificName": "Chrysocyon brachyurus",
       "name": "Lobo-guará",
       "criteria": [
@@ -304,10 +376,10 @@
       "criteria": [
         "ameacada_com_acao"
       ],
-      "why": "A onça-parda é uma das espécies ameaçadas de extinção que o IEF cita para o parque, junto com o lobo-guará e o sauá.",
+      "why": "A onça-parda está entre as espécies ameaçadas que o IEF cita para o Ibitipoca. Em 2022 foi também registrada por armadilhas fotográficas e pegadas nos campos rupestres e fragmentos de mata da unidade.",
       "sourceIds": [
         "ief",
-        "pan-onca-parda"
+        "fl-f3dff87a"
       ],
       "photo": {
         "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/960px-Puma_-_49044464307.jpg",
@@ -392,6 +464,41 @@
       "title": "Lei 6.126, de 04/07/1973: cria os Parques Florestais de Ibitipoca e da Jaíba",
       "url": "https://www.almg.gov.br/legislacao-mineira/LEI/6126/1973/",
       "accessed": "2026-11-03"
+    },
+    {
+      "id": "fl-61ccde34",
+      "institution": "Herpetologica (Pombal, Feio & Haddad, 2002)",
+      "title": "A new species of torrent frog genus Hylodes (Anura: Leptodactylidae) from southeastern Brazil",
+      "url": "https://repositorio.unesp.br/entities/publication/dc3f20e2-c7d3-4e01-bfa2-86b04dd66e6b/full",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-14b6e0d2",
+      "institution": "Zootaxa (PubMed)",
+      "title": "The tadpole of Hylodes amnicola Pombal, Feio & Haddad 2002 (Anura: Hylodidae): external morphology and buccopharyngeal anatomy",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38221301/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-f3dff87a",
+      "institution": "Oecologia Australis (UFRJ)",
+      "title": "Mamíferos de médio e grande porte do Parque Estadual do Ibitipoca, Lima Duarte, MG",
+      "url": "https://doi.org/10.4257/oeco.2022.2603.11",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-9b54e327",
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional do muriqui-do-sul (Brachyteles arachnoides)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/muriqui-do-sul/programa_manejo_brachyteles_arachnoides.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-58940076",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do PAN Papagaios da Mata Atlântica (2º ciclo)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-papagaios/2-ciclo/pan-papagaios-sumario.pdf",
+      "accessed": "2026-11-04"
     }
   ]
 }

@@ -292,50 +292,52 @@
       }
     },
     {
-      "scientificName": "Chrysocyon brachyurus",
-      "name": "Lobo-guará",
+      "scientificName": "Lycalopex vetulus",
+      "name": "Raposinha-do-campo",
       "criteria": [
-        "habitat_critico"
+        "endemica"
       ],
-      "why": "O maior canídeo da América do Sul vive em campos, savanas e matas de borda. O Naturatins o inclui entre os destaques da fauna do parque, que descreve como a maior área contínua de Cerrado do Brasil em alto grau de conservação.",
+      "why": "Única raposa que só existe no Brasil e no Cerrado, vive nos campos abertos e caça cupins e outros insetos. O diagnóstico do Naturatins a aponta como a espécie endêmica da fauna do Parque Estadual do Jalapão.",
       "sourceIds": [
         "nat-diagnostico",
-        "pan-lobo"
+        "fl-d308c401"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/1280px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
-        "author": "Ferrarezi Jr.",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Hoaryfox.jpg",
+        "author": "Charles Hamilton Smith",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoaryfox.jpg",
         "width": 1280,
-        "height": 853,
-        "alt": "Lobo-guará (Chrysocyon brachyurus)",
-        "context": "Lobo-guará, Chrysocyon brachyurus. Foto ilustrativa da espécie, feita em outra área de Cerrado."
-      }
+        "height": 959,
+        "alt": "Raposinha-do-campo (Lycalopex vetulus)",
+        "context": "Raposinha-do-campo, Lycalopex vetulus."
+      },
+      "iucn": "NT"
     },
     {
-      "scientificName": "Anodorhynchus hyacinthinus",
-      "name": "Arara-azul-grande",
+      "scientificName": "Myrmecophaga tridactyla",
+      "name": "Tamanduá-bandeira",
       "criteria": [
         "habitat_critico"
       ],
-      "why": "A maior ave da família dos papagaios, classificada como Vulnerável pela IUCN, vive em áreas semiabertas com estação seca, como cerrados e palmeirais. Está entre as espécies citadas pelo Naturatins para o parque.",
+      "why": "Come formigas e cupins e depende de áreas com vegetação para regular a temperatura do corpo. O Naturatins o inclui na lista de mamíferos do parque; no Cerrado o desmatamento e as queimadas ameaçam a espécie, classificada como Vulnerável pelo ICMBio.",
       "sourceIds": [
         "nat-diagnostico",
-        "fapesp-arara"
+        "fl-55a23dd7"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/1280px-104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
-        "author": "Giles Laurent",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+        "author": "Malene Thyssen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
         "width": 1280,
-        "height": 1600,
-        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus)",
-        "context": "Arara-azul-grande, Anodorhynchus hyacinthinus. Foto ilustrativa da espécie, feita em outra área."
-      }
+        "height": 866,
+        "alt": "Tamanduá-bandeira (Myrmecophaga tridactyla)",
+        "context": "Tamanduá-bandeira, Myrmecophaga tridactyla."
+      },
+      "iucn": "VU"
     },
     {
       "scientificName": "Mauritia flexuosa",
@@ -358,7 +360,8 @@
         "height": 768,
         "alt": "Buriti (Mauritia flexuosa)",
         "context": "Buriti, Mauritia flexuosa. Foto ilustrativa da espécie, feita em outra área de Cerrado."
-      }
+      },
+      "iucn": "LC"
     },
     {
       "scientificName": "Syngonanthus nitens",
@@ -491,6 +494,34 @@
       "title": "Trilha da Cachoeira da Velha é reaberta à visitação",
       "url": "https://www.to.gov.br/naturatins/noticias/trilha-da-cachoeira-da-velha-e-reaberta-a-visitacao/5yrjhjwqn0n5",
       "accessed": "2026-11-03"
+    },
+    {
+      "id": "fl-d308c401",
+      "institution": "ICMBio / CENAP (PAN Canídeos)",
+      "title": "Avaliação da viabilidade populacional da raposinha-do-campo (Lycalopex vetulus) em paisagem de agroecossistema",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-canideos/1-ciclo/produtos/2024-pan-canideos-acao-3-5-modelo-viabilidade-raposinha.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-8cfda060",
+      "institution": "The Reptile Database",
+      "title": "Ameivula jalapensis (Colli, Giugliano, Mesquita & França, 2009)",
+      "url": "https://reptile-database.reptarium.cz/Ameivula/jalapensis",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-4df8562a",
+      "institution": "Herpetologica (Colli et al., 2009)",
+      "title": "A new species of Cnemidophorus from the Jalapão region, in the central Brazilian cerrado",
+      "url": "https://repfocus.dk/references/REF16065000/ID16065033.html",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-55a23dd7",
+      "institution": "ICMBio",
+      "title": "Programa de Manejo Populacional de tamanduá-bandeira (Myrmecophaga tridactyla)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/programa-de-manejo-populacional/tamandua-bandeira/programa_de_manejo_tamandua_bandeira.pdf",
+      "accessed": "2026-11-04"
     }
   ]
 }

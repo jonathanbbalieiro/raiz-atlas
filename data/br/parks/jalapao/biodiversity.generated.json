@@ -174,7 +174,16 @@
           "records": 11,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2967027/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2967027",
+            "width": 1024,
+            "height": 682,
+            "alt": "Thraupis palmarum (Thraupis palmarum)"
+          }
         },
         {
           "gbifKey": 5959231,
@@ -193,6 +202,158 @@
             "width": 640,
             "height": 494,
             "alt": "Arara-canindé (Ara ararauna)"
+          }
+        },
+        {
+          "gbifKey": 5229640,
+          "scientificName": "Elaenia cristata",
+          "name": "Guaracava-de-topete-uniforme",
+          "family": "Tyrannidae",
+          "records": 75,
+          "iucn": "LC",
+          "wikidata": "Q906558",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/689340556/large.jpg",
+            "author": "Fabrício Mil Homens Riella",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/689340556",
+            "width": 1024,
+            "height": 768,
+            "alt": "Guaracava-de-topete-uniforme (Elaenia cristata)"
+          }
+        },
+        {
+          "gbifKey": 2476667,
+          "scientificName": "Eupetomena macroura",
+          "name": "Beija-Flor Tesoura",
+          "family": "Trochilidae",
+          "records": 61,
+          "iucn": "LC",
+          "wikidata": "Q906894",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/28098272/large.jpeg",
+            "author": "Diana Fuentes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/28098272",
+            "width": 1024,
+            "height": 768,
+            "alt": "Beija-Flor Tesoura (Eupetomena macroura)"
+          }
+        },
+        {
+          "gbifKey": 5232480,
+          "scientificName": "Mergus octosetaceus",
+          "name": "Pato-Mergulhão",
+          "family": "Anatidae",
+          "records": 60,
+          "iucn": "CR",
+          "wikidata": "Q907237",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/550377735/large.jpg",
+            "author": "Luiz Alberto Santos",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/550377735",
+            "width": 1024,
+            "height": 683,
+            "alt": "Pato-Mergulhão (Mergus octosetaceus)"
+          }
+        },
+        {
+          "gbifKey": 2488541,
+          "scientificName": "Cypsnagra hirundinacea",
+          "name": "Bandoleta",
+          "family": "Thraupidae",
+          "records": 49,
+          "iucn": "LC",
+          "wikidata": "Q247228",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/92143560/large.jpg",
+            "author": "doug_clarke",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/92143560",
+            "width": 1024,
+            "height": 768,
+            "alt": "bandoleta (Cypsnagra hirundinacea)"
+          }
+        },
+        {
+          "gbifKey": 2476794,
+          "scientificName": "Heliactin bilophus",
+          "name": "Chifre-de-ouro",
+          "family": "Trochilidae",
+          "records": 48,
+          "iucn": "LC",
+          "wikidata": "Q774363",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/352250065/large.jpg",
+            "author": "Jarbas Mattos",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/352250065",
+            "width": 1024,
+            "height": 683,
+            "alt": "Chifre-de-ouro (Heliactin bilophus)"
+          }
+        },
+        {
+          "gbifKey": 2490041,
+          "scientificName": "Formicivora rufa",
+          "name": "Papa-formiga-vermelho",
+          "family": "Thamnophilidae",
+          "records": 44,
+          "iucn": "LC",
+          "wikidata": "Q204160",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/254176873/large.jpeg",
+            "author": "Ivo Carlos Zecchin",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/254176873",
+            "width": 1024,
+            "height": 722,
+            "alt": "Papa-formiga-vermelho (Formicivora rufa)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/416376009",
+            "width": 1024,
+            "height": 684,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
+        },
+        {
+          "gbifKey": 2495295,
+          "scientificName": "Patagioenas cayennensis",
+          "name": "Pomba-galega",
+          "family": "Columbidae",
+          "records": 43,
+          "iucn": "LC",
+          "wikidata": "Q1263074",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/61715963/large.jpg",
+            "author": "Carol McDougall",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/61715963",
+            "width": 1024,
+            "height": 768,
+            "alt": "Pomba-galega (Patagioenas cayennensis)"
           }
         }
       ]
@@ -276,6 +437,25 @@
             "width": 640,
             "height": 427,
             "alt": "Vanzosaura rubricauda"
+          }
+        },
+        {
+          "gbifKey": 9246453,
+          "scientificName": "Erythrolamprus almadensis",
+          "name": "Jararaquinha-do-campo",
+          "family": "Colubridae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q3242025",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/367577115/large.jpg",
+            "author": "Henrique Nogueira",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/367577115",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jararaquinha-do-campo (Erythrolamprus almadensis)"
           }
         }
       ]
@@ -471,7 +651,16 @@
           "records": 20,
           "iucn": null,
           "wikidata": "Q15598436",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/87159018/large.jpeg",
+            "author": "Gabriel Völker Lacerda",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/87159018",
+            "width": 1024,
+            "height": 682,
+            "alt": "Lepidaploa aurea (Lepidaploa aurea)"
+          }
         },
         {
           "gbifKey": 3860779,
@@ -510,7 +699,16 @@
           "records": 17,
           "iucn": null,
           "wikidata": "Q15452205",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/587859553/large.jpg",
+            "author": "Donald Davesne, alguns direitos reservados (CC BY), carregado por Donald Davesne",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/587859553",
+            "width": 1024,
+            "height": 683,
+            "alt": "Mimosa polycephala (Mimosa polycephala)"
+          }
         },
         {
           "gbifKey": 7321555,
@@ -539,7 +737,16 @@
           "records": 16,
           "iucn": null,
           "wikidata": "Q15593655",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/284546498/large.jpeg",
+            "author": "Frederico Acaz Sonntag",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/284546498",
+            "width": 1024,
+            "height": 680,
+            "alt": "Krameria tomentosa (Krameria tomentosa)"
+          }
         },
         {
           "gbifKey": 4114137,
@@ -549,7 +756,54 @@
           "records": 16,
           "iucn": null,
           "wikidata": "Q15504473",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/487254102/large.jpg",
+            "author": "Maria Eduarda Machado de Oliveira",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/487254102",
+            "width": 1024,
+            "height": 683,
+            "alt": "Paspalum carinatum (Paspalum carinatum)"
+          }
+        },
+        {
+          "gbifKey": 2947119,
+          "scientificName": "Cenostigma macrophyllum",
+          "name": "Caneleiro (árvore)",
+          "family": "Fabaceae",
+          "records": 40,
+          "iucn": "LC",
+          "wikidata": "Q9694262",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/662447683/large.jpg",
+            "author": "Suzana Ehlin Martins",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/662447683",
+            "width": 1024,
+            "height": 768,
+            "alt": "Caneleiro (árvore) (Cenostigma macrophyllum)"
+          }
+        },
+        {
+          "gbifKey": 5421368,
+          "scientificName": "Anacardium occidentale",
+          "name": "Cajueiro",
+          "family": "Anacardiaceae",
+          "records": 23,
+          "iucn": "LC",
+          "wikidata": "Q34007",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/250741175/large.jpeg",
+            "author": "Ericson Cernawsky Igual",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/250741175",
+            "width": 1024,
+            "height": 768,
+            "alt": "cajueiro (Anacardium occidentale)"
+          }
         }
       ]
     }
@@ -641,5 +895,6 @@
         "alt": "Myrcia splendens"
       }
     }
-  ]
+  ],
+  "expandedAt": "2026-11-04"
 }

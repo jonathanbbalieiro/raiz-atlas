@@ -91,7 +91,16 @@
           "records": 139,
           "iucn": "LC",
           "wikidata": "Q1763994",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/116085469/large.jpeg",
+            "author": "Ricardo Bovendorp",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/116085469",
+            "width": 1024,
+            "height": 768,
+            "alt": "Trinomys iheringi (Trinomys iheringi)"
+          }
         },
         {
           "gbifKey": 5786860,
@@ -158,7 +167,92 @@
           "records": 23,
           "iucn": "LC",
           "wikidata": "Q1877141",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/295487606/large.jpeg",
+            "author": "Bio.Mundi18",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/295487606",
+            "width": 1024,
+            "height": 683,
+            "alt": "Myotis riparius (Myotis riparius)"
+          }
+        },
+        {
+          "gbifKey": 5786666,
+          "scientificName": "Hydrochoerus hydrochaeris",
+          "name": "Capivara",
+          "family": "Caviidae",
+          "records": 8,
+          "iucn": "LC",
+          "wikidata": "Q131538",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/91546944/large.jpg",
+            "author": "Carlos Sanchez",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/91546944",
+            "width": 1024,
+            "height": 759,
+            "alt": "Capivara (Hydrochoerus hydrochaeris)"
+          }
+        },
+        {
+          "gbifKey": 5219659,
+          "scientificName": "Sciurus aestuans",
+          "name": "Caxinguelê",
+          "family": "Sciuridae",
+          "records": 7,
+          "iucn": "LC",
+          "wikidata": "Q582376",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/274281962/large.jpeg",
+            "author": "Sébastien SANT",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/274281962",
+            "width": 1024,
+            "height": 768,
+            "alt": "Caxinguelê (Sciurus aestuans)"
+          }
+        },
+        {
+          "gbifKey": 5219856,
+          "scientificName": "Nectomys squamipes",
+          "name": "Rato-d’água",
+          "family": "Cricetidae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q1770124",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/297279866/large.jpeg",
+            "author": "Vejota Marcelino",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/297279866",
+            "width": 1024,
+            "height": 768,
+            "alt": "Rato-d’água (Nectomys squamipes)"
+          }
+        },
+        {
+          "gbifKey": 2440542,
+          "scientificName": "Sotalia guianensis",
+          "name": "Boto-cinza",
+          "family": "Delphinidae",
+          "records": 4,
+          "iucn": "NT",
+          "wikidata": "Q2649322",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/110630933/large.jpeg",
+            "author": "Jakob Fahr",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/110630933",
+            "width": 1024,
+            "height": 768,
+            "alt": "Boto-cinza (Sotalia guianensis)"
+          }
         }
       ]
     },
@@ -270,7 +364,16 @@
           "records": 189,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2967027/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2967027",
+            "width": 1024,
+            "height": 682,
+            "alt": "Thraupis palmarum (Thraupis palmarum)"
+          }
         },
         {
           "gbifKey": 5230128,
@@ -308,6 +411,158 @@
             "width": 640,
             "height": 828,
             "alt": "surucuá-de-barriga-amarela (Trogon viridis)"
+          }
+        },
+        {
+          "gbifKey": 2490726,
+          "scientificName": "Turdus leucomelas",
+          "name": "Sabiá-do-barranco",
+          "family": "Turdidae",
+          "records": 176,
+          "iucn": "LC",
+          "wikidata": "Q1589021",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/416376009/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/416376009",
+            "width": 1024,
+            "height": 684,
+            "alt": "Sabiá-do-barranco (Turdus leucomelas)"
+          }
+        },
+        {
+          "gbifKey": 2493744,
+          "scientificName": "Coereba flaveola",
+          "name": "Cambacica",
+          "family": "Thraupidae",
+          "records": 174,
+          "iucn": "LC",
+          "wikidata": "Q228125",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/58407889/large.jpeg",
+            "author": "subhashc",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/58407889",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cambacica (Coereba flaveola)"
+          }
+        },
+        {
+          "gbifKey": 2482913,
+          "scientificName": "Myiozetetes similis",
+          "name": "Bentevizinho-de-penacho-vermelho",
+          "family": "Tyrannidae",
+          "records": 168,
+          "iucn": "LC",
+          "wikidata": "Q1265429",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2964634/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2964634",
+            "width": 1024,
+            "height": 682,
+            "alt": "bentevizinho-de-penacho-vermelho (Myiozetetes similis)"
+          }
+        },
+        {
+          "gbifKey": 2490718,
+          "scientificName": "Turdus rufiventris",
+          "name": "Sabiá-laranjeira",
+          "family": "Turdidae",
+          "records": 164,
+          "iucn": "LC",
+          "wikidata": "Q609283",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/1507197/large.jpg",
+            "author": "Nigel Voaden",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/1507197",
+            "width": 1024,
+            "height": 683,
+            "alt": "sabiá-laranjeira (Turdus rufiventris)"
+          }
+        },
+        {
+          "gbifKey": 5229568,
+          "scientificName": "Fluvicola nengeta",
+          "name": "Lavadeira-mascarada",
+          "family": "Tyrannidae",
+          "records": 158,
+          "iucn": "LC",
+          "wikidata": "Q522791",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/432771775/large.jpg",
+            "author": "Luciano Bernardes",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/432771775",
+            "width": 1024,
+            "height": 684,
+            "alt": "lavadeira-mascarada (Fluvicola nengeta)"
+          }
+        },
+        {
+          "gbifKey": 7341035,
+          "scientificName": "Cantorchilus longirostris",
+          "name": "Garrinchão-de-bico-grande",
+          "family": "Troglodytidae",
+          "records": 154,
+          "iucn": "LC",
+          "wikidata": "Q625446",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/290024894/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/290024894",
+            "width": 1024,
+            "height": 655,
+            "alt": "garrinchão-de-bico-grande (Cantorchilus longirostris)"
+          }
+        },
+        {
+          "gbifKey": 2495858,
+          "scientificName": "Columbina talpacoti",
+          "name": "Rolinha-roxa",
+          "family": "Columbidae",
+          "records": 152,
+          "iucn": "LC",
+          "wikidata": "Q1386698",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/402007805/large.jpg",
+            "author": "eduardovieira17",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/402007805",
+            "width": 1024,
+            "height": 656,
+            "alt": "Rolinha-roxa (Columbina talpacoti)"
+          }
+        },
+        {
+          "gbifKey": 2488622,
+          "scientificName": "Thraupis sayaca",
+          "name": "Sanhaço-cinzento",
+          "family": "Thraupidae",
+          "records": 146,
+          "iucn": null,
+          "wikidata": "Q1588073",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/9892758/large.jpg",
+            "author": "Greg Lasley",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/9892758",
+            "width": 1024,
+            "height": 683,
+            "alt": "Sanhaço-cinzento (Thraupis sayaca)"
           }
         }
       ]
@@ -401,7 +656,16 @@
           "records": 5,
           "iucn": null,
           "wikidata": null,
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/656281329/large.jpg",
+            "author": "Tomás Gutiérrez García",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/656281329",
+            "width": 1024,
+            "height": 768,
+            "alt": "Spilotes pullatus (Spilotes pullatus)"
+          }
         },
         {
           "gbifKey": 2457245,
@@ -437,7 +701,16 @@
           "records": 113,
           "iucn": "LC",
           "wikidata": "Q4680566",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/123894528/large.jpeg",
+            "author": "Bárbara Vitorino",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/123894528",
+            "width": 1024,
+            "height": 768,
+            "alt": "Hylodes fredi (Hylodes fredi)"
+          }
         },
         {
           "gbifKey": 2427358,
@@ -466,7 +739,16 @@
           "records": 21,
           "iucn": "LC",
           "wikidata": "Q2237743",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/48825126/large.jpeg",
+            "author": "Diogo Luiz",
+            "license": "CC BY 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/48825126",
+            "width": 1024,
+            "height": 756,
+            "alt": "Crossodactylus gaudichaudii (Crossodactylus gaudichaudii)"
+          }
         },
         {
           "gbifKey": 2424402,
@@ -840,7 +1122,16 @@
           "records": 11,
           "iucn": null,
           "wikidata": "Q133530506",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/6156512/large.jpg",
+            "author": "fabiomanfredini",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/6156512",
+            "width": 1024,
+            "height": 683,
+            "alt": "Jupunba brachystachya (Jupunba brachystachya)"
+          }
         },
         {
           "gbifKey": 3173892,
@@ -850,7 +1141,111 @@
           "records": 11,
           "iucn": "EN",
           "wikidata": "Q15375312",
-          "photo": null
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/484506086/large.jpeg",
+            "author": "Victor Hugo Rebecchi Siqueira",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/484506086",
+            "width": 1024,
+            "height": 768,
+            "alt": "Myrcia laxiflora (Myrcia laxiflora)"
+          }
+        },
+        {
+          "gbifKey": 5416882,
+          "scientificName": "Eugenia brasiliensis",
+          "name": "Grumixameira",
+          "family": "Myrtaceae",
+          "records": 7,
+          "iucn": null,
+          "wikidata": "Q311085",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/343504063/large.jpeg",
+            "author": "Jonathan Lorencetti Ehlert",
+            "license": "CC BY-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/343504063",
+            "width": 1024,
+            "height": 682,
+            "alt": "Grumixameira (Eugenia brasiliensis)"
+          }
+        },
+        {
+          "gbifKey": 5357068,
+          "scientificName": "Cassia ferruginea",
+          "name": "Chuva-de-ouro",
+          "family": "Fabaceae",
+          "records": 6,
+          "iucn": "LC",
+          "wikidata": "Q15290941",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/2203203/large.jpg",
+            "author": "Mark Hyde, Bart Wursten and Petra Ballings",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/2203203",
+            "width": 1024,
+            "height": 679,
+            "alt": "Chuva-de-ouro (Cassia ferruginea)"
+          }
+        },
+        {
+          "gbifKey": 7303996,
+          "scientificName": "Davilla rugosa",
+          "name": "Cipó-caboclo",
+          "family": "Dilleniaceae",
+          "records": 6,
+          "iucn": null,
+          "wikidata": "Q17398535",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/226327529/large.jpg",
+            "author": "Diego Monsores",
+            "license": "CC BY-NC 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/226327529",
+            "width": 1024,
+            "height": 683,
+            "alt": "Cipó-caboclo (Davilla rugosa)"
+          }
+        },
+        {
+          "gbifKey": 2951773,
+          "scientificName": "Piptadenia gonoacantha",
+          "name": "Pau-jacaré",
+          "family": "Fabaceae",
+          "records": 5,
+          "iucn": "LC",
+          "wikidata": "Q10346238",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/305949484/large.jpg",
+            "author": "Mauricio Mercadante",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/305949484",
+            "width": 1024,
+            "height": 771,
+            "alt": "Pau-jacaré (Piptadenia gonoacantha)"
+          }
+        },
+        {
+          "gbifKey": 3660419,
+          "scientificName": "Schinus terebinthifolia",
+          "name": "Aroeira-vermelha",
+          "family": "Anacardiaceae",
+          "records": 5,
+          "iucn": null,
+          "wikidata": "Q899313",
+          "photo": {
+            "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/57240422/large.jpg",
+            "author": "Mary Keim",
+            "license": "CC BY-NC-SA 4.0",
+            "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+            "sourceUrl": "https://www.inaturalist.org/photos/57240422",
+            "width": 1024,
+            "height": 683,
+            "alt": "aroeira-vermelha (Schinus terebinthifolia)"
+          }
         }
       ]
     }
@@ -921,7 +1316,16 @@
       "records": null,
       "iucn": "EN",
       "wikidata": "Q15375312",
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/484506086/large.jpeg",
+        "author": "Victor Hugo Rebecchi Siqueira",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/484506086",
+        "width": 1024,
+        "height": 768,
+        "alt": "Myrcia laxiflora (Myrcia laxiflora)"
+      }
     },
     {
       "gbifKey": 5418159,
@@ -1027,7 +1431,16 @@
       "records": null,
       "iucn": "VU",
       "wikidata": null,
-      "photo": null
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/386384074/large.jpg",
+        "author": "no rights reserved",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/386384074",
+        "width": 1024,
+        "height": 576,
+        "alt": "Stilpnia peruviana (Stilpnia peruviana)"
+      }
     },
     {
       "gbifKey": 5417797,
@@ -1039,5 +1452,6 @@
       "wikidata": "Q15361637",
       "photo": null
     }
-  ]
+  ],
+  "expandedAt": "2026-11-04"
 }

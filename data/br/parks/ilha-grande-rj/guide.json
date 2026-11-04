@@ -243,7 +243,8 @@
         "height": 1920,
         "alt": "Onça-parda (Puma concolor)",
         "context": "Onça-parda, Puma concolor. Foto ilustrativa da espécie, feita em outra área."
-      }
+      },
+      "iucn": "LC"
     },
     {
       "scientificName": "Alouatta guariba",
@@ -267,6 +268,79 @@
         "alt": "Bugio-ruivo (Alouatta guariba)",
         "context": "Bugio-ruivo, Alouatta guariba, em foto de levantamento do parque."
       }
+    },
+    {
+      "scientificName": "Hylodes fredi",
+      "name": "Rã-de-riacho",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Rã diurna que só existe na Ilha Grande. Vive exclusivamente nos riachos da floresta, entre 60 e 420 metros de altitude, e os machos cantam expostos sobre pedras e raízes durante quase o ano todo. Foi descrita em 2007 e é um dos dois anfíbios endêmicos da ilha.",
+      "sourceIds": [
+        "fl-4bb8558b",
+        "fl-062a51d0"
+      ]
+    },
+    {
+      "scientificName": "Amazona rhodocorytha",
+      "name": "Papagaio-chauá",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Papagaio de testa vermelha, ameaçado de extinção, que o levantamento de aves da Ilha Grande encontrou só aqui, e não nas áreas comparadas de Ilhabela e Paraty. É uma das 44 espécies endêmicas da Mata Atlântica entre as 222 aves registradas na ilha.",
+      "sourceIds": [
+        "fl-2259763a",
+        "fl-5cbdd411"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/289226290/large.jpg",
+        "author": "Autor no iNaturalist (sem direitos reservados)",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://www.inaturalist.org/photos/289226290",
+        "width": 1024,
+        "height": 576,
+        "alt": "Papagaio-chauá (Amazona rhodocorytha)",
+        "context": "Papagaio-chauá. Foto ilustrativa da espécie, feita no estado do Rio de Janeiro."
+      }
+    },
+    {
+      "scientificName": "Euterpe edulis",
+      "name": "Palmito-juçara",
+      "criteria": [
+        "ameacada_com_acao",
+        "icone_da_paisagem"
+      ],
+      "why": "Entre as plantas ameaçadas da ilha, a juçara é a mais conhecida. Cortar a palmeira para tirar o palmito é ilegal, mas difícil de combater; as que restam à beira da estrada entre Abraão e Dois Rios funcionam como banco de sementes, com mudas acompanhadas pelo Parque Botânico.",
+      "sourceIds": [
+        "hoehnea",
+        "fl-285ac0c0"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Euterpe_edulis_Mart._%2821684080999%29.jpg/1280px-Euterpe_edulis_Mart._%2821684080999%29.jpg",
+        "author": "Alex Popovkin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euterpe_edulis_Mart._(21684080999).jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Palmito-juçara (Euterpe edulis)",
+        "context": "Cacho de frutos de palmito-juçara, Euterpe edulis. Foto ilustrativa da espécie, feita em outra área de Mata Atlântica."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Sotalia guianensis",
+      "name": "Boto-cinza",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Golfinho costeiro da baía que banha a ilha. A Baía da Ilha Grande abriga uma das maiores populações da espécie: a estimativa para a parte oeste é de cerca de 1.300 animais, entre residentes, provavelmente fêmeas que ali se alimentam e criam os filhotes, e visitantes.",
+      "sourceIds": [
+        "fl-9f36eb51",
+        "fl-23850297"
+      ]
     }
   ],
   "sources": [
@@ -360,6 +434,55 @@
       "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II (mamíferos)",
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
       "accessed": "2026-11-03"
+    },
+    {
+      "id": "fl-4bb8558b",
+      "institution": "Papéis Avulsos de Zoologia (SciELO)",
+      "title": "The Herpetofauna from Ilha Grande (Angra dos Reis, Rio de Janeiro, Brazil): updating species composition, richness, distribution and endemisms",
+      "url": "https://www.scielo.br/j/paz/a/WqFgPsMcm8QjLGC4sWRBqYm/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-062a51d0",
+      "institution": "UERJ (dissertação de mestrado)",
+      "title": "O endemismo em escala reduzida no espaço geográfico, na altitude e no habitat: estudo de caso do anuro de riacho Hylodes fredi na Ilha Grande, Rio de Janeiro",
+      "url": "https://www.bdtd.uerj.br:8443/bitstream/1/5875/1/Tatiana%20Motta-Tavares_PPGEE_Final.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-2259763a",
+      "institution": "Check List",
+      "title": "Birds, Ilha Grande, state of Rio de Janeiro, Southeastern Brazil",
+      "url": "https://checklist.pensoft.net/article/17857/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-5cbdd411",
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. III (aves)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol3.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-285ac0c0",
+      "institution": "CNCFlora / JBRJ",
+      "title": "Euterpe edulis Mart.",
+      "url": "https://proflora.jbrj.gov.br/html/Euterpe%20edulis_2012.html",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-9f36eb51",
+      "institution": "UFRRJ (dissertação de mestrado)",
+      "title": "Tamanho populacional e estimativa da sobrevivência relativa de Sotalia guianensis na parte oeste da Baía da Ilha Grande, RJ",
+      "url": "https://rima.ufrrj.br/jspui/handle/20.500.14407/10865",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-23850297",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação dos Pequenos Cetáceos",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-pequenos-cetaceos/1-ciclo/pan-pequenos-cetaceos-sumario.pdf",
+      "accessed": "2026-11-04"
     }
   ]
 }
