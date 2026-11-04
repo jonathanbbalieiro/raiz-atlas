@@ -288,15 +288,15 @@
         "icmbio-muriqui"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg/1280px-Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg",
-        "author": "Nortondefeis",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Muriqui-so-sul_%28Brachyteles_arachnoides%29.jpg/1920px-Muriqui-so-sul_%28Brachyteles_arachnoides%29.jpg",
+        "author": "Unaecoturismo",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis(001).jpg",
-        "width": 1280,
-        "height": 1920,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muriqui-so-sul_(Brachyteles_arachnoides).jpg",
+        "width": 1920,
+        "height": 1440,
         "alt": "Muriqui-do-sul (Brachyteles arachnoides)",
-        "context": "Muriqui-do-sul, Brachyteles arachnoides. Foto ilustrativa da espécie, feita em outra área de Mata Atlântica."
+        "context": "Muriqui-do-sul, Brachyteles arachnoides. Foto ilustrativa da espécie, feita em outra área protegida paulista."
       }
     },
     {
@@ -322,29 +322,6 @@
         "context": "Onça-pintada, Panthera onca. Foto ilustrativa da espécie, feita em outra área."
       },
       "iucn": "NT"
-    },
-    {
-      "scientificName": "Tapirus terrestris",
-      "name": "Anta",
-      "criteria": [
-        "papel_ecologico"
-      ],
-      "why": "Tímida e silenciosa, a anta deixa pegadas à beira da água. No PETAR foi confirmada no Núcleo Caboclos, por pegadas e fezes. É dispersora de sementes: estudo com antas brasileiras mostrou que a passagem pelo animal aumenta a germinação das sementes e a acelera.",
-      "sourceIds": [
-        "meirelles",
-        "scielo-anta"
-      ],
-      "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
-        "author": "Thomas Galewski",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
-        "width": 1024,
-        "height": 683,
-        "alt": "Anta (Tapirus terrestris)",
-        "context": "Anta, Tapirus terrestris. Foto ilustrativa da espécie, feita em outra área."
-      }
     },
     {
       "scientificName": "Euterpe edulis",
@@ -382,17 +359,41 @@
         "semil-cavernas"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lonchorhina.jpg",
-        "author": "Autor desconhecido",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lonchorhina.jpg",
-        "width": 640,
-        "height": 435,
-        "alt": "Morcego do gênero Lonchorhina",
-        "context": "Morcego Lonchorhina aurita, espécie cavernícola. Foto ilustrativa da espécie, feita em outra área."
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Lonchorhina_aurita_166248284.jpg/1920px-Lonchorhina_aurita_166248284.jpg",
+        "author": "Lucas Lauretto",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lonchorhina_aurita_166248284.jpg",
+        "width": 1920,
+        "height": 1424,
+        "alt": "Morcego Lonchorhina aurita (Lonchorhina aurita)",
+        "context": "Morcego Lonchorhina aurita, espécie cavernícola. Foto ilustrativa da espécie, feita em outra localidade do Brasil."
       },
       "iucn": "LC"
+    },
+    {
+      "scientificName": "Pipile jacutinga",
+      "name": "Jacutinga",
+      "criteria": [
+        "ameacada_com_acao",
+        "papel_ecologico"
+      ],
+      "why": "Ave dispersora das sementes do palmito-juçara. No PETAR, o levantamento da UNESP a avistou 15 vezes nos núcleos Santana e Caboclos, mais que o macuco e o jacuaçu, e aponta o parque como uma das últimas unidades paulistas a abrigar a espécie.",
+      "sourceIds": [
+        "meirelles",
+        "fl-636d9364"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pipile_jacutinga_339446847.jpg/1920px-Pipile_jacutinga_339446847.jpg",
+        "author": "Hugo Hulsberg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipile_jacutinga_339446847.jpg",
+        "width": 1920,
+        "height": 1563,
+        "alt": "Jacutinga (Pipile jacutinga)",
+        "context": "Jacutinga, Pipile jacutinga. Foto ilustrativa da espécie, feita na Argentina."
+      }
     }
   ],
   "sources": [
@@ -514,6 +515,13 @@
       "title": "Estudo da comunidade de morcegos na área cárstica do Alto Ribeira, SP: uma comparação com 1980 (I. S. Arnone, 2008)",
       "url": "https://www.teses.usp.br/teses/disponiveis/41/41133/tde-10072008-183234/publico/ives_arnone.pdf",
       "accessed": "2026-11-03"
+    },
+    {
+      "id": "fl-636d9364",
+      "institution": "Agência FAPESP",
+      "title": "O futuro incerto do palmito-juçara",
+      "url": "https://agencia.fapesp.br/o-futuro-incerto-do-palmito-jucara/25258",
+      "accessed": "2026-11-04"
     }
   ]
 }

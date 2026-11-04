@@ -101,15 +101,15 @@
         "iema-pei"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rio_Ita%C3%BAnas.JPG/1920px-Rio_Ita%C3%BAnas.JPG",
-        "author": "Daniel Galvão Simões",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/ItaunasES2014_05.JPG/1920px-ItaunasES2014_05.JPG",
+        "author": "Elizabeth Merlo",
         "license": "CC BY-SA 3.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Ita%C3%BAnas.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ItaunasES2014_05.JPG",
         "width": 1920,
         "height": 1440,
-        "alt": "O rio Itaúnas ao amanhecer, com o céu vermelho refletido na água",
-        "context": "O amanhecer às margens do rio Itaúnas, no Parque Estadual de Itaúnas."
+        "alt": "O rio Itaúnas com o alagado de vegetação aquática na margem",
+        "context": "O alagado às margens do rio Itaúnas, no Parque Estadual de Itaúnas (coordenadas da foto dentro do polígono do parque)."
       }
     },
     {
@@ -219,15 +219,15 @@
         "cncflora-guriri"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Allagoptera_arenaria.jpg/1280px-Allagoptera_arenaria.jpg",
-        "author": "mauroguanandi",
-        "license": "CC BY 2.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allagoptera_arenaria.jpg",
-        "width": 1280,
-        "height": 1490,
+        "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Allagoptera_arenaria_in_Guriri_Beach%2C_Brazil.jpg",
+        "author": "Thiago MTB",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allagoptera_arenaria_in_Guriri_Beach,_Brazil.jpg",
+        "width": 1800,
+        "height": 1200,
         "alt": "Guriri (Allagoptera arenaria)",
-        "context": "Guriri, Allagoptera arenaria. Foto ilustrativa da espécie, feita em outra restinga."
+        "context": "Guriri, Allagoptera arenaria, nas dunas da praia de Guriri (ES), restinga vizinha à de Itaúnas. Foto ilustrativa da espécie."
       }
     },
     {
@@ -315,7 +315,18 @@
       "sourceIds": [
         "fl-f0d21ea3",
         "fl-deba6e66"
-      ]
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/451575266/original.jpg",
+        "author": "Mauricio Silvera",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/451575266",
+        "width": 2000,
+        "height": 1333,
+        "alt": "Toninha (Pontoporia blainvillei)",
+        "context": "Toninha, Pontoporia blainvillei, golfinho de estuários e águas costeiras rasas. Foto ilustrativa, de um animal encontrado na praia."
+      }
     },
     {
       "scientificName": "Phyllodytes luteolus",
@@ -327,7 +338,18 @@
       "sourceIds": [
         "fl-d1988ed0",
         "fl-deba6e66"
-      ]
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/357347744/original.jpg",
+        "author": "Henrique Nogueira",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/357347744",
+        "width": 2048,
+        "height": 1365,
+        "alt": "Perereca-das-bromélias (Phyllodytes luteolus)",
+        "context": "Perereca-das-bromélias, Phyllodytes luteolus, sobre folha de bromélia de restinga. Foto ilustrativa da espécie, feita em restinga do norte fluminense."
+      }
     }
   ],
   "sources": [

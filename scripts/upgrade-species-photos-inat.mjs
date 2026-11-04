@@ -30,7 +30,8 @@ const LIC = {
   "cc-by-nc-sa": ["CC BY-NC-SA 4.0", "https://creativecommons.org/licenses/by-nc-sa/4.0", 1],
 };
 
-const parkFiles = fs.readdirSync(PARKS).map((p) => path.join(PARKS, p, "biodiversity.generated.json")).filter((f) => fs.existsSync(f));
+const ONLY = process.env.ONLY ? new Set(process.env.ONLY.split(",")) : null;
+const parkFiles = fs.readdirSync(PARKS).filter((p) => !ONLY || ONLY.has(p)).map((p) => path.join(PARKS, p, "biodiversity.generated.json")).filter((f) => fs.existsSync(f));
 const speciesOf = (j) => [...(j.groups ?? []).flatMap((g) => g.species ?? []), ...(j.threatened ?? [])];
 const MAXW = args.includes("--max-width") ? Number(args[args.indexOf("--max-width") + 1]) : 800;
 const weak = (s) => !s.photo || (s.photo.width ?? 0) < MAXW;

@@ -289,6 +289,54 @@
         "alt": "Um cervo-do-pantanal caminhando sob um ipê-rosa",
         "context": "Cervo-do-pantanal sob um ipê-rosa no Parque Estadual Encontro das Águas."
       }
+    },
+    {
+      "scientificName": "Jabiru mycteria",
+      "name": "Jaburu",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Ave-símbolo do Pantanal, faz os maiores ninhos de ave da região, no alto das árvores, com ninhadas de 2 a 5 ovos. Tem 1.014 registros no GBIF dentro do limite do parque.",
+      "sourceIds": [
+        "fl-jab-oeco",
+        "fl-jab-embrapa"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Jabiru_Mato_Grosso_Pantanal_Brazil.jpg/1920px-Jabiru_Mato_Grosso_Pantanal_Brazil.jpg",
+        "author": "Andreas Trepte",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jabiru_Mato_Grosso_Pantanal_Brazil.jpg",
+        "width": 4792,
+        "height": 3195,
+        "alt": "Cabeça de um jaburu de perfil, com bico preto e bolsa vermelha no pescoço",
+        "context": "Jaburu, Jabiru mycteria, no Pantanal mato-grossense. Foto ilustrativa da espécie, feita em outra área."
+      },
+      "iucn": "LC"
+    },
+    {
+      "scientificName": "Vochysia divergens",
+      "name": "Cambará",
+      "criteria": [
+        "habitat_critico",
+        "icone_da_paisagem"
+      ],
+      "why": "Árvore que aguenta longas inundações e forma cambarazais, florestas com mais de 50% de uma só espécie. Suas populações avançam e recuam com as cheias do Pantanal. Tem 30 registros no GBIF dentro do parque.",
+      "sourceIds": [
+        "fl-vochy-1",
+        "fl-vochy-2"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Cambar%C3%A1_Tree_%28Vochysia_divergens%29.jpg/1920px-Cambar%C3%A1_Tree_%28Vochysia_divergens%29.jpg",
+        "author": "Bernard DUPONT",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambar%C3%A1_Tree_(Vochysia_divergens).jpg",
+        "width": 4749,
+        "height": 3282,
+        "alt": "Cambará em flor, com a copa amarela ao lado de uma estrada de terra no Pantanal",
+        "context": "Cambará, Vochysia divergens, em flor, na Transpantaneira (Poconé, MT). Foto ilustrativa da espécie, feita em outra área."
+      }
     }
   ],
   "sources": [
@@ -402,6 +450,34 @@
       "institution": "GBIF",
       "title": "Blastocerus dichotomus: ocorrências",
       "url": "https://www.gbif.org/species/2440963",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-jab-oeco",
+      "institution": "((o))eco",
+      "title": "Tuiuiú: a ave de muitos nomes",
+      "url": "https://oeco.org.br/noticias/26013-tuiuiu-a-ave-de-muitos-nomes/",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-jab-embrapa",
+      "institution": "Embrapa Pantanal",
+      "title": "Levantamento aéreo de ninhos de tuiuiú, Jabiru mycteria, no Pantanal Sul",
+      "url": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/811106/1/BP56.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-vochy-1",
+      "institution": "Oecologia Australis (UFRJ)",
+      "title": "Estrutura populacional de Vochysia divergens em floresta sazonalmente alagável do Pantanal",
+      "url": "https://revistas.ufrj.br/index.php/oa/article/view/8239",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-vochy-2",
+      "institution": "Oecologia Australis (UFRJ)",
+      "title": "Características de clareiras e seus efeitos sobre riqueza de espécies em floresta monodominante de Vochysia divergens",
+      "url": "https://revistas.ufrj.br/index.php/oa/article/view/8240",
       "accessed": "2026-11-04"
     }
   ]

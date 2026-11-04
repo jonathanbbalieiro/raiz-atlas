@@ -276,15 +276,15 @@
         "g-corcovado-pic"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg/1280px-Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg",
-        "author": "Nortondefeis",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Muriqui-so-sul_%28Brachyteles_arachnoides%29.jpg/1920px-Muriqui-so-sul_%28Brachyteles_arachnoides%29.jpg",
+        "author": "Unaecoturismo",
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis(001).jpg",
-        "width": 1280,
-        "height": 1920,
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muriqui-so-sul_(Brachyteles_arachnoides).jpg",
+        "width": 1920,
+        "height": 1440,
         "alt": "Muriqui-do-sul (Brachyteles arachnoides)",
-        "context": "Muriqui-do-sul. Foto ilustrativa da espécie, feita em outra área paulista."
+        "context": "Muriqui-do-sul, Brachyteles arachnoides. Foto ilustrativa da espécie, feita em outra área protegida paulista."
       },
       "iucn": "CR"
     },
@@ -301,15 +301,15 @@
         "inma-jacutinga"
       ],
       "photo": {
-        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/453275696/large.jpeg",
-        "author": "renatabeco",
-        "license": "CC BY-NC 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
-        "sourceUrl": "https://www.inaturalist.org/photos/453275696",
-        "width": 1024,
-        "height": 876,
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pipile_jacutinga_339446847.jpg/1920px-Pipile_jacutinga_339446847.jpg",
+        "author": "Hugo Hulsberg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pipile_jacutinga_339446847.jpg",
+        "width": 1920,
+        "height": 1563,
         "alt": "Jacutinga (Pipile jacutinga)",
-        "context": "Jacutinga. Foto ilustrativa da espécie, feita em São Paulo."
+        "context": "Jacutinga, Pipile jacutinga. Foto ilustrativa da espécie, feita na Argentina."
       }
     },
     {
@@ -387,6 +387,30 @@
         "context": "Queixada. Foto ilustrativa da espécie, feita em outra área."
       },
       "iucn": "VU"
+    },
+    {
+      "scientificName": "Procnias nudicollis",
+      "name": "Araponga",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Ave de canto metálico, comparado a marteladas numa bigorna, típica da Mata Atlântica do Sudeste. A Prefeitura de São Paulo a registra no Núcleo Curucutu do Parque Estadual da Serra do Mar, onde a espécie é considerada vulnerável no estado e sofre com a captura ilegal para gaiolas.",
+      "sourceIds": [
+        "fl-7a8fe125",
+        "fl-e31ae08a"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Procnias_nudicollis_449749965.jpg/1920px-Procnias_nudicollis_449749965.jpg",
+        "author": "Marcelo Schmidt Roberti",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Procnias_nudicollis_449749965.jpg",
+        "width": 1920,
+        "height": 1477,
+        "alt": "Araponga (Procnias nudicollis)",
+        "context": "Araponga, Procnias nudicollis. Foto ilustrativa da espécie, feita em outra área do Brasil."
+      },
+      "iucn": "NT"
     }
   ],
   "sources": [
@@ -549,6 +573,20 @@
       "institution": "Instituto Nacional da Mata Atlântica (INMA)",
       "title": "INMA desenvolve projeto para reintroduzir na natureza jacutingas nascidas sob cuidados humanos",
       "url": "https://www.gov.br/inma/pt-br/assuntos/noticias/instituto-nacional-da-mata-atlantica-desenvolve-projeto-para-reintroduzir-na-natureza-jacutingas-nascidas-sob-cuidados-humanos",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-7a8fe125",
+      "institution": "Secretaria Municipal do Verde e do Meio Ambiente (São Paulo)",
+      "title": "Espécies da cidade: araponga (Procnias nudicollis)",
+      "url": "https://prefeitura.sp.gov.br/web/meio_ambiente/w/servicos/fauna/especies_da_cidade/11289",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-e31ae08a",
+      "institution": "Universidade Federal do Paraná (dissertação)",
+      "title": "Ciclo reprodutivo e densidade populacional da Araponga (Aves: Cotingidae): uma abordagem metodológica",
+      "url": "https://oasisbr.ibict.br/vufind/Record/UFPR_c8d4d3739833009af3ab6ed4765fed7c",
       "accessed": "2026-11-04"
     }
   ]

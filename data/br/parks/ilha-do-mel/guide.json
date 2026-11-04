@@ -319,6 +319,30 @@
         "context": "Guanandi, Calophyllum brasiliense. Foto ilustrativa da espécie, feita no litoral paulista."
       },
       "iucn": "LC"
+    },
+    {
+      "scientificName": "Caiman latirostris",
+      "name": "Jacaré-de-papo-amarelo",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "O plano de manejo põe o jacaré-de-papo-amarelo à frente das espécies que o parque deve proteger. Moradores relatam grupos e indivíduos nas lagoas e riachos da ilha, e um projeto de pesquisa de 2011 propôs um levantamento sistemático, já que estudos da população na Baía de Paranaguá são raros.",
+      "sourceIds": [
+        "plano-enc4",
+        "fl-60d36742"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Caiman_latirostris_walterprado.jpg/1920px-Caiman_latirostris_walterprado.jpg",
+        "author": "Walter S. Prado",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caiman_latirostris_walterprado.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Jacaré-de-papo-amarelo (Caiman latirostris)",
+        "context": "Jacaré-de-papo-amarelo, Caiman latirostris. Foto ilustrativa da espécie, não feita no parque."
+      },
+      "iucn": "LC"
     }
   ],
   "sources": [
@@ -376,6 +400,13 @@
       "institution": "Embrapa Florestas (Carvalho)",
       "title": "Espécies arbóreas brasileiras, volume 1: Guanandi (Calophyllum brasiliense)",
       "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1140130/1/Especies-Arboreas-Brasileiras-vol-1-Guanandi.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-60d36742",
+      "institution": "Projeto de pesquisa (Londrina, 2011), arquivo do Instituto Água e Terra (PR)",
+      "title": "Análises de condições biológicas e populacionais de jacarés (Caiman latirostris) na Ilha do Mel",
+      "url": "https://www.iat.pr.gov.br/sites/agua-terra/arquivos_restritos/files/documento/2020-11/projeto_320_2011.pdf",
       "accessed": "2026-11-04"
     }
   ]

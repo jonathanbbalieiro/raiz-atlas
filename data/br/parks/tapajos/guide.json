@@ -245,6 +245,31 @@
       "iucn": "EN"
     },
     {
+      "scientificName": "Chiropotes albinasus",
+      "name": "Cuxiú-de-nariz-branco",
+      "criteria": [
+        "endemica",
+        "habitat_critico"
+      ],
+      "why": "Predador de sementes muito exigente: na Flona do Tapajós, um grupo usa mais de 1.000 hectares, e bandos de 56 animais já foram registrados. Endêmico do Brasil, está em declínio e é considerado quase ameaçado no país.",
+      "sourceIds": [
+        "fl-chiro-ficha",
+        "fl-chiro-biotropica"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Chiropotes_albinasus_White_nosed_beard_saki.jpg/1920px-Chiropotes_albinasus_White_nosed_beard_saki.jpg",
+        "author": "Rich Hoyer",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiropotes_albinasus_White_nosed_beard_saki.jpg",
+        "width": 5184,
+        "height": 3456,
+        "alt": "Cuxiú-de-nariz-branco deitado em um galho, em meio às folhas",
+        "context": "Cuxiú-de-nariz-branco, Chiropotes albinasus, no Brasil. Foto ilustrativa da espécie, feita em outra área."
+      },
+      "iucn": "VU"
+    },
+    {
       "scientificName": "Trichechus inunguis",
       "name": "Peixe-boi-da-amazônia",
       "criteria": [
@@ -281,15 +306,15 @@
         "fl-78037313"
       ],
       "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/BrazilNut1.JPG",
-        "author": "Deathworm",
-        "license": "Public domain",
-        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:BrazilNut1.JPG",
-        "width": 1280,
-        "height": 960,
-        "alt": "Castanheira-do-brasil (Bertholletia excelsa)",
-        "context": "Castanheira-do-brasil, Bertholletia excelsa."
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/%22Bertholetia_excelsa%22_Castanha-do-Par%C3%A1_Brazil-nuts_tree_2.jpg/1920px-%22Bertholetia_excelsa%22_Castanha-do-Par%C3%A1_Brazil-nuts_tree_2.jpg",
+        "author": "mauroguanandi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Bertholetia_excelsa%22_Castanha-do-Par%C3%A1_Brazil-nuts_tree_2.jpg",
+        "width": 2048,
+        "height": 1536,
+        "alt": "Castanheira-do-brasil vista de baixo, com tronco e copa contra o céu azul",
+        "context": "Castanheira-do-brasil, Bertholletia excelsa, em exemplar do Jardim Botânico do Rio de Janeiro. Foto ilustrativa da espécie."
       },
       "iucn": "VU"
     },
@@ -388,6 +413,20 @@
       "institution": "Embrapa",
       "title": "Domesticação e melhoramento de castanheira (Wadt e Kainer), em Domesticação e melhoramento de espécies amazônicas, 2009",
       "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/511908/1/21826.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-chiro-ficha",
+      "institution": "ICMBio",
+      "title": "Avaliação do Risco de Extinção de Chiropotes albinasus no Brasil (ficha de espécie)",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/PITHECIIDAE/ficha_chiropotes_albinasus.pdf",
+      "accessed": "2026-11-04"
+    },
+    {
+      "id": "fl-chiro-biotropica",
+      "institution": "Biotropica",
+      "title": "Beans with bugs: covert carnivory and infested seed selection by the red-nosed cuxiú monkey (2023)",
+      "url": "https://gala.gre.ac.uk/id/eprint/51566/",
       "accessed": "2026-11-04"
     }
   ]
