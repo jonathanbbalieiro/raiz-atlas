@@ -6,8 +6,12 @@
     "category": "PE",
     "categoryLabel": "Parque Estadual",
     "manager": "estadual",
-    "ufs": ["SP"],
-    "biomes": ["mata_atlantica"],
+    "ufs": [
+      "SP"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
     "source": "cnuc",
     "cnuc": "0000.35.0826"
   },
@@ -18,11 +22,17 @@
     "category": "PE-APA",
     "categoryLabel": "Parque Estadual e Área de Proteção Ambiental",
     "manager": "estadual",
-    "ufs": ["TO"],
-    "biomes": ["cerrado"],
+    "ufs": [
+      "TO"
+    ],
+    "biomes": [
+      "cerrado"
+    ],
     "source": "cnuc",
     "cnuc": "0000.17.1486",
-    "also": ["0000.17.1499"],
+    "also": [
+      "0000.17.1499"
+    ],
     "override": {
       "areaHa": 461730,
       "createdYear": 2000,
@@ -36,8 +46,12 @@
     "category": "PE",
     "categoryLabel": "Parque Estadual",
     "manager": "estadual",
-    "ufs": ["RJ"],
-    "biomes": ["mata_atlantica"],
+    "ufs": [
+      "RJ"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
     "source": "cnuc",
     "cnuc": "0000.33.1477"
   },
@@ -48,8 +62,12 @@
     "category": "PE",
     "categoryLabel": "Parque Estadual",
     "manager": "estadual",
-    "ufs": ["ES"],
-    "biomes": ["mata_atlantica"],
+    "ufs": [
+      "ES"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
     "source": "cnuc",
     "cnuc": "0000.32.0331"
   },
@@ -60,8 +78,12 @@
     "category": "PE",
     "categoryLabel": "Parque Estadual",
     "manager": "estadual",
-    "ufs": ["SP"],
-    "biomes": ["mata_atlantica"],
+    "ufs": [
+      "SP"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
     "source": "cnuc",
     "cnuc": "0000.35.0855",
     "override": {
@@ -75,8 +97,12 @@
     "category": "PE",
     "categoryLabel": "Parque Estadual",
     "manager": "estadual",
-    "ufs": ["MG"],
-    "biomes": ["mata_atlantica"],
+    "ufs": [
+      "MG"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
     "source": "osm",
     "osmRelation": 10651263,
     "override": {
@@ -84,5 +110,58 @@
       "createdYear": 1973,
       "creationAct": "Lei Estadual 6.126, de 4 de julho de 1973"
     }
+  },
+  {
+    "slug": "ilha-do-mel",
+    "name": "Parque Estadual da Ilha do Mel",
+    "shortName": "Ilha do Mel",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": [
+      "PR"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "source": "cnuc",
+    "cnuc": "0000.41.0529",
+    "override": {
+      "areaHa": 338,
+      "createdYear": 2002,
+      "creationAct": "Decreto Estadual 5.506, de 21 de março de 2002"
+    }
+  },
+  {
+    "slug": "serra-do-tabuleiro",
+    "name": "Parque Estadual da Serra do Tabuleiro",
+    "shortName": "Serra do Tabuleiro",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": [
+      "SC"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "source": "cnuc",
+    "cnuc": "0000.42.0786"
+  },
+  {
+    "slug": "encontro-das-aguas",
+    "name": "Parque Estadual Encontro das Águas",
+    "shortName": "Encontro das Águas",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": [
+      "MT"
+    ],
+    "biomes": [
+      "pantanal"
+    ],
+    "source": "cnuc",
+    "cnuc": "0000.51.1916"
   }
 ]
