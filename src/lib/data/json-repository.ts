@@ -208,7 +208,7 @@ async function readDataset(): Promise<Dataset> {
           ? { title: readable.title, subtitle: readable.subtitle, approved: readable.approved }
           : undefined,
         sources: [
-          officialSource,
+          g.officialSource ? { ...officialSource, ...g.officialSource } : officialSource,
           ...(override.sources ?? []),
           ...(m?.photos.length
             ? [

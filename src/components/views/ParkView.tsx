@@ -187,7 +187,7 @@ export async function ParkView({
 
         <footer className="mt-6 space-y-1.5 border-t border-line px-5 pt-4 text-xs text-ink-soft">
           {park.creationAct && <p>Atos de criação: {park.creationAct}</p>}
-          <p>Código CNUC: {park.cnuc}</p>
+          {park.cnuc && <p>Código CNUC: {park.cnuc}</p>}
           {park.guide && <GuideSources guide={park.guide} />}
           <ul className="space-y-1">
             {park.sources.map((s) => (

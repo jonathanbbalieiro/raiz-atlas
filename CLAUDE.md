@@ -208,6 +208,48 @@ detalhe, segurança, contato e ícone"*, no branch `feat/blend-raiz-expedicoes`.
 6. Depois do ar: Search Console + sitemap, Bing, Lighthouse e securityheaders.com, 2FA no GitHub,
    na Vercel e no Registro.br, DNSSEC.
 
+## 10b. Áreas protegidas além dos parques nacionais (iniciado em 03/11/2026)
+
+O projeto passa a se chamar "atlas das áreas protegidas do Brasil" (identidade em `site.ts`, Sobre, OG e
+README; o resto do texto da interface ainda diz "parques nacionais" e só muda quando entrar a primeira
+área nova no mapa). Seis estaduais escolhidas por volume de fotos e histórias: **PETAR, Jalapão, Ilha
+Grande (RJ), Itaúnas, Ilhabela, Ibitipoca**. Lista em `data/br/extra-areas.json`; leitor em
+`scripts/lib/extra-areas.mjs`, chamado pelo `build-geo.mjs`.
+
+- Limites: cadastro CNUC do MMA (camada `MMA:cnuc_2025_08`, tem as estaduais), buscado por código CNUC.
+  Ibitipoca não consta nele: usa o OpenStreetMap (marcado como dado colaborativo).
+- O ano de criação vem do ato (`cria_ato`), não de `cria_ano` (no CNUC pode ser a data de alteração).
+- **Portão de fotos antes de escrever:** a área só entra com maravilhas que tenham foto de lugar de verdade
+  (Commons, categoria da unidade ou do atrativo; horizontal, 2.000 px ou mais, licença aceita). Meta: 8
+  maravilhas candidatas; o Jalapão entrou com 6, cada uma com mais de 10 fotos boas, porque o resto fica
+  fora do parque. O que vale é nenhuma maravilha sem foto. Nunca entrar vazia.
+- **Recorte "dentro da unidade" por coordenadas:** testar o atrativo contra o polígono do CNUC (coordenadas do
+  Nominatim ou GPS das fotos do Commons, que têm ponto padrão repetido: ignorar o ponto -46.675,-10.378).
+- **Publicação:** o `npm run geo` só inclui a área no mapa se o `guide.json` estiver `revisado`; em prévia
+  (`RAIZ_PREVIEW_DRAFTS=1`) inclui as que têm pasta em `data/br/parks/<slug>/`. O `check-content` barra o
+  build de produção se uma área não nacional estiver no cadastro gerado sem guia revisado.
+- Antes de commitar o geo em produção: `npm run geo` **sem** a variável de prévia.
+- Ao rodar `npm run geo` do zero, o IBGE pode devolver bordas de estado levemente diferentes: restaurar
+  `data/generated/geo-index.json` do git se o diff for só ruído.
+- PETAR: guia e Expedição em **rascunho** (11 fontes; Casa de Pedra com 197 m, medição USP/Fundação Florestal de
+  jan/2026, e não os 215 m do Guinness; divergências em `editorialNotes`). Faltam revisão e aprovação.
+  Geradores dos textos em `.geo-cache/novas-areas/` (ignorado pelo git).
+- Jalapão (Parque Estadual, 158.970 ha): guia e Expedição em **rascunho** (11 fontes do Naturatins e do governo do
+  TO). Só Dunas e Serra do Espírito Santo são expressamente atrativos do parque; Velha, Formiga e Prainha estão na
+  hidrografia do diagnóstico e nas coordenadas, mas a norma de 2020 mistura parque e APA. **Fervedouros ficam
+  fora** (caem fora do polígono do parque e da APA no CNUC; propriedades privadas). Decisão pendente do
+  Jonathan: se o recorte virar "região do Jalapão", os fervedouros e a Mumbuca entram. IN 02/2024 não foi lida.
+  Nome "Capim-dourado" padronizado em `data/br/species-names.json`.
+- Ibitipoca (Parque Estadual, 1.488 ha): guia e Expedição em **rascunho** (9 fontes do IEF, Agência Minas, IEPHA e
+  SciELO). Limite do OpenStreetMap (não está no CNUC), com área, ano e ato oficiais em `override` no
+  `extra-areas.json`. Lago dos Espelhos existe (Circuito das Águas) mas tem só 2 fotos boas. Perereca com foto CC BY-NC.
+  Pendências: número da lei (6.126?), regras de visitação da concessão (30 anos desde 2023), shapefile oficial do IEF.
+- **Contagem de fotos engana:** o total da categoria do Commons mistura praias urbanas, regatas e espécies. O que vale
+  é fotos de lugar por atrativo (classificar por nome e descrição). Resultado (fotos boas por atrativo dentro do parque):
+  Ilhabela só ~4 atrativos (Bonete ~42+, Castelhanos 20, Baepi 12, Água Branca 5; o resto é urbano) e Itaúnas ~3
+  (dunas 134, rio 8, praia 10). Ilha Grande RJ: Lopes Mendes 73, Presídio (ruínas) 15, Leste 17, Aventureiro 11.
+- Faltam: Ilha Grande (RJ; melhor história, o presídio), depois Ilhabela e Itaúnas (menos fotos de atrativo).
+
 ## 11. Ambiente e hábitos
 
 - Windows, Git Bash, sem Python. Projeto vivia em

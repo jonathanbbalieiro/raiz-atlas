@@ -82,10 +82,18 @@ export interface Source {
 
 export interface Park extends PlaceBase {
   level: "park";
-  /** Código no Cadastro Nacional de Unidades de Conservação. */
+  /** Código no Cadastro Nacional de Unidades de Conservação (vazio quando a unidade não consta nele). */
   cnuc: string;
   /** Nome sem "Parque Nacional", para mapa e listas. */
   shortName: string;
+  /** Sigla da categoria quando não é parque nacional (ex.: "PE", parque estadual). Ausente nos parques nacionais. */
+  category?: string;
+  /** Nome da categoria para exibir, ex.: "Parque Estadual". */
+  categoryLabel?: string;
+  /** Esfera responsável pela unidade, quando não é a federal do cadastro de parques nacionais. */
+  manager?: "federal" | "estadual" | "municipal";
+  /** Fonte dos limites e atributos, quando diferente do cadastro do ICMBio. */
+  officialSource?: { title: string; url: string };
   /** Siglas de todas as UFs que o parque abrange. */
   ufs: string[];
   /** Estado da URL canônica (onde fica o interior do parque). */

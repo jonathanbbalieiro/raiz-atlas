@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-11-03",
+  "hook": "Uma ilha de floresta e praias de mar aberto, com as marcas do presídio onde Graciliano Ramos esteve preso.",
+  "intro": "Na Costa Verde, em Angra dos Reis, o Parque Estadual da Ilha Grande protege mais de 12 mil hectares da Mata Atlântica de uma ilha de 192 quilômetros quadrados e 106 praias. Criado em 1971, abriga a praia de Lopes Mendes, o Pico do Papagaio e a Vila Dois Rios, onde funcionou a colônia que prendeu Graciliano Ramos. Desde 2019, a ilha integra, com Paraty, o primeiro Patrimônio Mundial misto do Brasil.",
+  "sourceIds": [
+    "inea-peig",
+    "visite-ilha"
+  ],
+  "protects": {
+    "summary": "A Mata Atlântica de uma ilha que o estado protege desde 1971",
+    "items": [
+      {
+        "title": "Uma ilha reconhecida pelo mundo",
+        "text": "A Ilha Grande foi tombada pelo estado em 1987, reconhecida como Reserva da Biosfera da Mata Atlântica pela UNESCO em 1991 e, em 2019, inscrita com Paraty como Patrimônio Mundial, o primeiro sítio misto, cultural e natural, do Brasil. É também uma área prioritária para aves segundo a BirdLife International.",
+        "sourceIds": [
+          "inea-peig",
+          "visite-ilha"
+        ]
+      },
+      {
+        "title": "Limites que mudaram",
+        "text": "O parque foi criado pelo Decreto Estadual 15.273, de 26 de junho de 1971. Em 1978, um decreto reduziu a área protegida em dois terços; em 2007, outro acrescentou as terras acima da cota de 100 metros, exceto as da Reserva Biológica Estadual da Praia do Sul.",
+        "sourceIds": [
+          "inea-peig"
+        ]
+      },
+      {
+        "title": "Fauna de topo de cadeia",
+        "text": "O parque abriga bugios, capivaras, cutias e pacas, e a onça-parda, ameaçada de extinção, teve seu primeiro registro em vídeo na unidade, feito por armadilha fotográfica da UERJ.",
+        "sourceIds": [
+          "seas-onca"
+        ]
+      },
+      {
+        "title": "Plantas ameaçadas",
+        "text": "Um levantamento publicado em 2020 listou 680 espécies de angiospermas na Ilha Grande, das quais 12 constam de uma lista internacional de espécies ameaçadas. As árvores são o hábito mais comum.",
+        "sourceIds": [
+          "hoehnea"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Praia de Lopes Mendes",
+      "text": "Cerca de 3 quilômetros de areia branca e fina, de mar agitado e muito procurada por surfistas, com sombra de amendoeiras. No passado foi uma das vilas mais importantes da ilha, no auge da Colônia Penal de Dois Rios.",
+      "sourceIds": [
+        "visite-lopes"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Angra%2CIlha_Grande_RJ_Brazil.jpg/1920px-Angra%2CIlha_Grande_RJ_Brazil.jpg",
+        "author": "Fabi198928",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angra,Ilha_Grande_RJ_Brazil.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Curva de areia da Praia de Lopes Mendes, com morros cobertos de mata ao fundo",
+        "context": "A Praia de Lopes Mendes, na Ilha Grande, com a mata nos morros ao fundo."
+      }
+    },
+    {
+      "title": "Vila Dois Rios",
+      "text": "Praia e vila onde funcionou a Colônia Correcional de Dois Rios, criada em 1894. Em junho de 1936, o escritor Graciliano Ramos passou 18 dias preso ali, quando a unidade chegou a mais de mil presos.",
+      "sourceIds": [
+        "topoi",
+        "inea-peig"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Praia_da_Vila_Dois_Rios.jpg/1920px-Praia_da_Vila_Dois_Rios.jpg",
+        "author": "SYMONE MUNAY",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_da_Vila_Dois_Rios.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Duas canoas na areia da praia de Dois Rios, com ilhotas ao fundo",
+        "context": "A praia da Vila Dois Rios, na Ilha Grande, com canoas na areia."
+      }
+    },
+    {
+      "title": "Ruínas do presídio",
+      "text": "Entre os vestígios do passado prisional da ilha, a prefeitura de Angra dos Reis lista as ruínas do Presídio Cândido Mendes entre os pontos turísticos, e o Ministério do Turismo cita as do Instituto Penal Cândido Mendes, desativado em 1994, no caminho da Volta da Ilha Grande.",
+      "sourceIds": [
+        "visite-ruinas",
+        "gov-volta"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Detalhe_das_Ru%C3%ADnas_do_Pres%C3%ADdio_da_Ilha_Grande.jpg/1920px-Detalhe_das_Ru%C3%ADnas_do_Pres%C3%ADdio_da_Ilha_Grande.jpg",
+        "author": "SYMONE MUNAY",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Detalhe_das_Ru%C3%ADnas_do_Pres%C3%ADdio_da_Ilha_Grande.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Janela gradeada de uma edificação em ruínas, tomada pela vegetação",
+        "context": "Janela com grades de uma edificação em ruínas do antigo presídio, na região da Vila Dois Rios, Ilha Grande."
+      }
+    },
+    {
+      "title": "Pico do Papagaio",
+      "text": "Com 982 metros, é o segundo ponto mais alto da ilha e a trilha mais difícil, por mata fechada e subida muito íngreme. Do topo se vê quase toda a ilha e, em dias sem nuvens, a Pedra da Gávea. A prefeitura recomenda fazer a trilha com guia.",
+      "sourceIds": [
+        "visite-papagaio"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Topo_do_Pico_do_Papagaio.jpg/1920px-Topo_do_Pico_do_Papagaio.jpg",
+        "author": "Julien Bonnardel",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Topo_do_Pico_do_Papagaio.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Vista de cima da baía do Abraão e das ilhas, do topo do Pico do Papagaio",
+        "context": "A vista do topo do Pico do Papagaio, com a enseada do Abraão e as ilhas ao fundo."
+      }
+    },
+    {
+      "title": "Parnaioca",
+      "text": "Na praia, a água doce do rio Parnaioca encontra o mar e forma uma lagoa entre pedras. O lugar tem a Igreja do Sagrado Coração de Jesus e ruínas antigas, e não há energia elétrica nem sinal de celular.",
+      "sourceIds": [
+        "visite-parnaioca"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Praia_do_Parnaioca%2C_Ilha_Grande_Gabrielle_Patitucci_%2801%29.jpg/1920px-Praia_do_Parnaioca%2C_Ilha_Grande_Gabrielle_Patitucci_%2801%29.jpg",
+        "author": "Gabrielle Patitucci",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_do_Parnaioca,_Ilha_Grande_Gabrielle_Patitucci_(01).jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Rio de água escura desaguando na areia da praia de Parnaioca",
+        "context": "A foz do rio Parnaioca na praia, com o mar e os morros ao fundo."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "A ilha tem 192 quilômetros quadrados e 106 praias, e era chamada de Ipaum Guaçu pelos tamoios e tupinambás, que abriram as trilhas usadas até hoje.",
+      "sourceIds": [
+        "visite-ilha"
+      ]
+    },
+    {
+      "text": "Até o século XVIII, piratas holandeses, franceses e ingleses se abasteciam na ilha; depois, traficantes de escravos se refugiaram nas enseadas, até a marinha passar a patrulhar a região, em 1850.",
+      "sourceIds": [
+        "visite-ilha"
+      ]
+    },
+    {
+      "text": "A Volta da Ilha Grande tem cerca de 100 quilômetros, costuma levar uns sete dias e é sinalizada em amarelo e preto, com a marca do Pico do Papagaio.",
+      "sourceIds": [
+        "gov-volta"
+      ]
+    },
+    {
+      "text": "A melhor época para caminhar é de maio a setembro, com temperaturas amenas e menos chuva, embora o trajeto possa ser feito o ano todo.",
+      "sourceIds": [
+        "gov-volta"
+      ]
+    },
+    {
+      "text": "O parque foi criado em 1971 e tem mais de 12 mil hectares; o Plano de Manejo foi aprovado pela Resolução Inea nº 39, de 2011.",
+      "sourceIds": [
+        "inea-peig",
+        "inea-50anos"
+      ]
+    },
+    {
+      "text": "As caminhadas diárias da Volta da Ilha Grande vão de 10 a 16 quilômetros, e as comunidades oferecem hospedagem, alimentação e transporte marítimo.",
+      "sourceIds": [
+        "gov-volta"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Ipaum Guaçu · Os primeiros moradores",
+      "text": "Tamoios e tupinambás habitavam a ilha, que chamavam de Ipaum Guaçu, e abriram as trilhas usadas até hoje.",
+      "sourceIds": [
+        "visite-ilha"
+      ]
+    },
+    {
+      "title": "1894 · A Colônia Correcional",
+      "text": "Um decreto cria a Colônia Correcional de Dois Rios, destinada a receber ébrios, mendigos, prostitutas, capoeiras e vadios. Mais tarde ela vira a Colônia Agrícola do Distrito Federal.",
+      "sourceIds": [
+        "topoi"
+      ]
+    },
+    {
+      "title": "1936 · Graciliano Ramos em Dois Rios",
+      "text": "O escritor passa 18 dias na Colônia Correcional, entre 11 e 29 de junho. Na época, a unidade chega a mais de mil presos.",
+      "sourceIds": [
+        "topoi"
+      ]
+    },
+    {
+      "title": "1971 · Nasce o parque",
+      "text": "Em 26 de junho, o Decreto Estadual 15.273 cria o Parque Estadual da Ilha Grande. Em 1978 a área é reduzida em dois terços, e em 2007 é ampliada.",
+      "sourceIds": [
+        "inea-peig"
+      ]
+    },
+    {
+      "title": "1994 · O presídio é desativado",
+      "text": "O Instituto Penal Cândido Mendes é desativado em 28 de março de 1994.",
+      "sourceIds": [
+        "topoi",
+        "gov-volta"
+      ]
+    },
+    {
+      "title": "2019 · Patrimônio Mundial",
+      "text": "Em julho, a UNESCO reconhece Paraty e Ilha Grande como Patrimônio Mundial, o primeiro sítio misto, cultural e natural, do Brasil.",
+      "sourceIds": [
+        "visite-ilha",
+        "inea-50anos"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Puma concolor",
+      "name": "Onça-parda",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "O primeiro registro em vídeo da onça-parda no parque, por armadilha fotográfica da UERJ numa trilha, mostrou, segundo o Inea, um ecossistema saudável, já que ela está no topo da cadeia alimentar. O órgão vai intensificar o monitoramento da fauna silvestre da ilha.",
+      "sourceIds": [
+        "seas-onca",
+        "pan-onca-parda"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/1280px-Puma_-_49044464307.jpg",
+        "author": "Carlos",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puma_-_49044464307.jpg",
+        "width": 1280,
+        "height": 1920,
+        "alt": "Onça-parda (Puma concolor)",
+        "context": "Onça-parda, Puma concolor. Foto ilustrativa da espécie, feita em outra área."
+      }
+    },
+    {
+      "scientificName": "Alouatta guariba",
+      "name": "Bugio-ruivo",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "Primata da Mata Atlântica classificado como Vulnerável pela IUCN, o bugio está entre os mamíferos que o governo do estado cita para o parque, ao lado de capivaras, cutias e pacas. Depende da floresta que a ilha protege.",
+      "sourceIds": [
+        "seas-onca",
+        "livro-vermelho"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Alouatta_fusca_clamitans.jpg/960px-Alouatta_fusca_clamitans.jpg",
+        "author": "Dario Sanches from SÃO PAULO, BRASIL",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alouatta_fusca_clamitans.jpg",
+        "width": 640,
+        "height": 966,
+        "alt": "Bugio-ruivo (Alouatta guariba)",
+        "context": "Bugio-ruivo, Alouatta guariba, em foto de levantamento do parque."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "inea-peig",
+      "institution": "INEA (RJ)",
+      "title": "Parque Estadual da Ilha Grande",
+      "url": "http://www.inea.rj.gov.br/biodiversidade-territorio/conheca-as-unidades-de-conservacao/parque-estadual-da-ilha-grande/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "inea-50anos",
+      "institution": "INEA (RJ)",
+      "title": "Parque Estadual da Ilha Grande completa 50 anos",
+      "url": "http://www.inea.rj.gov.br/parque-estadual-da-ilha-grande-completa-50-anos/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "seas-onca",
+      "institution": "Governo do Estado do Rio de Janeiro",
+      "title": "Onça-parda é registrada pela primeira vez no Parque Estadual da Ilha Grande",
+      "url": "https://www.rj.gov.br/seas/node/486",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "visite-ilha",
+      "institution": "Prefeitura de Angra dos Reis",
+      "title": "Ilha Grande (Visite Angra dos Reis)",
+      "url": "https://visite.angra.rj.gov.br/ilha-grande",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "visite-lopes",
+      "institution": "Prefeitura de Angra dos Reis",
+      "title": "Praia de Lopes Mendes (Visite Angra dos Reis)",
+      "url": "https://visite.angra.rj.gov.br/ponto-turistico/praia-de-lopes-mendes",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "visite-papagaio",
+      "institution": "Prefeitura de Angra dos Reis",
+      "title": "Pico do Papagaio (Visite Angra dos Reis)",
+      "url": "https://visite.angra.rj.gov.br/ponto-turistico/pico-do-papagaio",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "visite-parnaioca",
+      "institution": "Prefeitura de Angra dos Reis",
+      "title": "Parnaioca (Visite Angra dos Reis)",
+      "url": "https://visite.angra.rj.gov.br/ponto-turistico/parnaioca",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "visite-ruinas",
+      "institution": "Prefeitura de Angra dos Reis",
+      "title": "Ruínas do Presídio Cândido Mendes (Visite Angra dos Reis)",
+      "url": "https://visite.angra.rj.gov.br/ponto-turistico/ruinas-do-presidio-candido-mendes",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "topoi",
+      "institution": "Topoi (SciELO)",
+      "title": "O encontro da militância com a vadiagem nas prisões da Ilha Grande",
+      "url": "https://www.scielo.br/j/topoi/a/ZQ6w4CHZ5cFxwcCppHTz8qF/?lang=pt",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "gov-volta",
+      "institution": "Ministério do Turismo",
+      "title": "Volta da Ilha Grande: trilha une praias paradisíacas à história de Angra dos Reis",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/noticias/volta-da-ilha-grande-trilha-une-praias-paradisiacas-a-historia-de-angra-dos-reis",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "hoehnea",
+      "institution": "Hoehnea (SciELO)",
+      "title": "Threatened Flora of Ilha Grande, Rio de Janeiro State, Brazil",
+      "url": "https://www.scielo.br/j/hoehnea/a/qWX36SzKp9rNnXxS8tqTysC/?lang=en",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pan-onca-parda",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação da onça-parda",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-onca-parda/1-ciclo/pan-onca-parda-sumario.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "livro-vermelho",
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II (mamíferos)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "accessed": "2026-11-03"
+    }
+  ]
+}

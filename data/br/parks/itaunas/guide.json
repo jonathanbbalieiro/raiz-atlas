@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-11-03",
+  "hook": "Dunas de areia clara que avançam sobre a restinga, rios que viram alagados e uma vila que a areia enterrou.",
+  "intro": "Na divisa do Espírito Santo com a Bahia, em Conceição da Barra, o Parque Estadual de Itaúnas protege cerca de 3,5 mil hectares de dunas, restinga, manguezal, mata de tabuleiro e alagados. O nome vem do tupi-guarani e quer dizer pedra preta. As dunas, tombadas em 1986, esconderam uma antiga vila, e o parque, criado em 1991, é o mais visitado do estado.",
+  "sourceIds": [
+    "iema-pei",
+    "seama"
+  ],
+  "protects": {
+    "summary": "Dunas, restinga e alagados no extremo norte do Espírito Santo",
+    "items": [
+      {
+        "title": "Dunas, restinga e mata de tabuleiro",
+        "text": "O parque reúne manguezal, restinga e mata atlântica de tabuleiro, além das dunas e dos alagados. A restinga é o ecossistema que ocupa a maior extensão, e as dunas fecham o parque a leste, entre a vegetação e o mar.",
+        "sourceIds": [
+          "iema-pei",
+          "pm-vegetacao"
+        ]
+      },
+      {
+        "title": "A maior região de alagados do estado",
+        "text": "Um levantamento botânico descreve o parque como a mais representativa região de alagados do Espírito Santo, na planície do rio Itaúnas, que fica inundada no trecho em que corre para o mar.",
+        "sourceIds": [
+          "scielo-flora",
+          "pm-vegetacao"
+        ]
+      },
+      {
+        "title": "Plantas de ocorrência rara",
+        "text": "O levantamento reúne 562 espécies de angiospermas, de 110 famílias. Sete têm ocorrência restrita ao Espírito Santo, 26 são novos registros para o estado e uma, a Aristolochia zebrina, é descrita como nova para a ciência.",
+        "sourceIds": [
+          "scielo-flora"
+        ]
+      },
+      {
+        "title": "Aves e outros animais",
+        "text": "O IEMA cita jaguatirica, macaco-prego, preguiça e mais de 140 espécies de aves. O plano de manejo alerta que 23 espécies de aves estão localmente ameaçadas de extinção.",
+        "sourceIds": [
+          "seama",
+          "pm-fauna"
+        ]
+      },
+      {
+        "title": "Sítio de desova de tartarugas marinhas",
+        "text": "O litoral do parque é sítio reprodutivo de tartarugas marinhas. O Projeto Tamar mantém uma base no parque desde 1991, e filhotes encontrados em ninhos abertos são soltos na praia de Itaúnas.",
+        "sourceIds": [
+          "iema-pei",
+          "iema-tartarugas",
+          "ijsn"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Dunas de Itaúnas",
+      "text": "As dunas fecham o parque a leste em quase toda a sua extensão, com alturas diferentes. Onde a areia está nua, o vento forte a empurra para o interior do continente; onde há vegetação, ela prende o solo. Foram tombadas em 1986 como monumento natural do Espírito Santo.",
+      "sourceIds": [
+        "pm-vegetacao",
+        "iema-pei"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/VitorJubini_DunasdeItaunas_ConceicaodaBarra_ES_%2825991206687%29.jpg/1920px-VitorJubini_DunasdeItaunas_ConceicaodaBarra_ES_%2825991206687%29.jpg",
+        "author": "MTur Destinos",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:VitorJubini_DunasdeItaunas_ConceicaodaBarra_ES_(25991206687).jpg",
+        "width": 1920,
+        "height": 1282,
+        "alt": "Grande duna de areia clara sob um céu enevoado",
+        "context": "Uma das grandes dunas do Parque Estadual de Itaúnas."
+      }
+    },
+    {
+      "title": "Dunas secundárias e brejos",
+      "text": "Entre os cordões de dunas, onde o lençol freático aflora, crescem ciperáceas e gramíneas. Perto da vila e do Buraco do Bicho há brejos inundáveis, e é no Buraco do Bicho que se vê a duna avançando em direção ao brejo.",
+      "sourceIds": [
+        "pm-vegetacao",
+        "iema-pei"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Dunas_Secundarias.jpg/1920px-Dunas_Secundarias.jpg",
+        "author": "Hugo Rogério",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunas_Secundarias.jpg",
+        "width": 1920,
+        "height": 1066,
+        "alt": "Dunas mais verdes, com moitas de vegetação e o mar ao fundo",
+        "context": "As dunas secundárias, mais verdes, entre as moitas de restinga e o mar, no Parque Estadual de Itaúnas."
+      }
+    },
+    {
+      "title": "Rio Itaúnas e o alagado",
+      "text": "No trecho em que corre de oeste para leste, o rio Itaúnas inunda a planície e forma o alagado. Nas margens há manguezal, e o rio pode ser percorrido de caiaque. Do alto das dunas se vê o alagado e o mar.",
+      "sourceIds": [
+        "pm-vegetacao",
+        "seama",
+        "iema-pei"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Rio_Ita%C3%BAnas.JPG/1920px-Rio_Ita%C3%BAnas.JPG",
+        "author": "Daniel Galvão Simões",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rio_Ita%C3%BAnas.JPG",
+        "width": 1920,
+        "height": 1440,
+        "alt": "O rio Itaúnas ao amanhecer, com o céu vermelho refletido na água",
+        "context": "O amanhecer às margens do rio Itaúnas, no Parque Estadual de Itaúnas."
+      }
+    },
+    {
+      "title": "Trilha do Tamandaré e a vila soterrada",
+      "text": "A trilha de 1,7 quilômetro de estrada margeia restingas, dunas e áreas alagadas do rio até a casa de Carlos Bonelá, o Tamandaré, agricultor da antiga vila e dono da única construção que restou dela. Há sítios arqueológicos da vila no percurso.",
+      "sourceIds": [
+        "iema-tamandare",
+        "iema-pei"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Dunas_de_Ita%C3%BAnas_ES.jpg/1920px-Dunas_de_Ita%C3%BAnas_ES.jpg",
+        "author": "Lemoris",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunas_de_Ita%C3%BAnas_ES.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Dunas e moitas de restinga no local onde ficava a antiga vila de Itaúnas",
+        "context": "Vista das dunas e da restinga no local da vila soterrada, no Parque Estadual de Itaúnas."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Itaúnas vem do tupi-guarani e significa \"pedra preta\".",
+      "sourceIds": [
+        "iema-pei"
+      ]
+    },
+    {
+      "text": "O parque recebe cerca de 100 mil visitantes por ano, tem entrada gratuita e é o mais visitado do Espírito Santo.",
+      "sourceIds": [
+        "iema-pei"
+      ]
+    },
+    {
+      "text": "O guriri, palmeira baixa que domina a parte frontal das dunas, é uma boa fixadora de dunas, segundo o plano de manejo.",
+      "sourceIds": [
+        "pm-vegetacao",
+        "cncflora-guriri"
+      ]
+    },
+    {
+      "text": "A perereca-da-bromélia, Phyllodytes luteolus, é usada pela população local como isca para pescar alguns peixes.",
+      "sourceIds": [
+        "pm-fauna"
+      ]
+    },
+    {
+      "text": "É proibido circular com veículo motorizado nas praias, dunas e trilhas sem autorização.",
+      "sourceIds": [
+        "iema-pei"
+      ]
+    },
+    {
+      "text": "O Centro de Visitantes funciona todos os dias, das 8h às 17h, e há passeios de caiaque pelo rio Itaúnas.",
+      "sourceIds": [
+        "iema-pei",
+        "seama"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Anos 1940 · A reserva que não saiu",
+      "text": "O cientista Augusto Ruschi propõe uma reserva florestal de 10 mil hectares na região, que não chega a ser consolidada.",
+      "sourceIds": [
+        "iema-pei"
+      ]
+    },
+    {
+      "title": "Anos 1950 e 1960 · A vila sob a areia",
+      "text": "A antiga vila de Itaúnas é soterrada pelas dunas. O Instituto Jones dos Santos Neves lê a história como um exemplo, em escala reduzida, de como a ação humana pode desequilibrar um ecossistema e tornar inóspito um lugar antes habitado.",
+      "sourceIds": [
+        "ijsn",
+        "seama"
+      ]
+    },
+    {
+      "title": "Depois do soterramento · Uma nova vila",
+      "text": "Os moradores refazem a vila do outro lado do rio, com igreja e largo parecidos com os da antiga. Muitas casas são construídas com material de demolição das antigas.",
+      "sourceIds": [
+        "ijsn"
+      ]
+    },
+    {
+      "title": "1986 · Dunas tombadas",
+      "text": "O Conselho Estadual de Cultura tomba as dunas de Itaúnas como monumento natural do Espírito Santo.",
+      "sourceIds": [
+        "iema-pei",
+        "ijsn"
+      ]
+    },
+    {
+      "title": "1991 · Nasce o parque",
+      "text": "Em 8 de novembro, o Decreto Estadual 4.967-E cria o Parque Estadual de Itaúnas. No mesmo ano é inaugurada a base do Projeto Tamar, de proteção às tartarugas marinhas.",
+      "sourceIds": [
+        "iema-pei",
+        "ijsn"
+      ]
+    },
+    {
+      "title": "1992 · Reconhecimento da UNESCO",
+      "text": "Segundo o IEMA, a UNESCO reconhece as áreas de Mata Atlântica, incluindo o parque, como Patrimônio Natural da Humanidade.",
+      "sourceIds": [
+        "iema-pei",
+        "ijsn"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Allagoptera arenaria",
+      "name": "Guriri",
+      "criteria": [
+        "icone_da_paisagem",
+        "papel_ecologico"
+      ],
+      "why": "A palmeira baixa que domina a parte frontal das dunas do parque, em toda a sua extensão. O plano de manejo a descreve como boa fixadora de dunas, e sob suas folhas crescem cactos, baunilha e outras plantas da restinga.",
+      "sourceIds": [
+        "pm-vegetacao",
+        "cncflora-guriri"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Allagoptera_arenaria.jpg/1280px-Allagoptera_arenaria.jpg",
+        "author": "mauroguanandi",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allagoptera_arenaria.jpg",
+        "width": 1280,
+        "height": 1490,
+        "alt": "Guriri (Allagoptera arenaria)",
+        "context": "Guriri, Allagoptera arenaria. Foto ilustrativa da espécie, feita em outra restinga."
+      }
+    },
+    {
+      "scientificName": "Chrysobalanus icaco",
+      "name": "Guajuru",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "Arbusto de restinga que forma moitas nos trechos mais altos entre os cordões de dunas do parque, onde o lençol freático aflora. O plano de manejo o registra como espécie dominante nessas moitas, a maçã-da-praia.",
+      "sourceIds": [
+        "pm-vegetacao",
+        "scielo-guajuru"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8708128/large.jpeg",
+        "author": "Eridan Xharahi",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/8708128",
+        "width": 1024,
+        "height": 770,
+        "alt": "Guajuru (Chrysobalanus icaco)",
+        "context": "Guajuru, Chrysobalanus icaco. Foto ilustrativa da espécie, feita em outra restinga."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "iema-pei",
+      "institution": "IEMA (ES)",
+      "title": "Parque Estadual de Itaúnas",
+      "url": "https://iema.es.gov.br/PEI",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "iema-tamandare",
+      "institution": "IEMA (ES)",
+      "title": "Trilha do Tamandaré ganha novidades no Parque de Itaúnas",
+      "url": "https://iema.es.gov.br/trilha-do-tamandare-ganha-novidades-no-parque",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "iema-tartarugas",
+      "institution": "IEMA (ES)",
+      "title": "Filhotes de tartaruga serão soltos no Parque de Itaúnas",
+      "url": "https://iema.es.gov.br/filhotes-de-tartaruga-serao-soltos-no-parque",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "seama",
+      "institution": "Seama (ES)",
+      "title": "Belezas do Parque Estadual de Itaúnas encantam os visitantes",
+      "url": "https://seama.es.gov.br/belezas-do-parque-estadual-de-itaunas-encanta",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "ijsn",
+      "institution": "Instituto Jones dos Santos Neves (ES)",
+      "title": "Nota Técnica 66: Vila de Itaúnas, qualificação urbana frente às melhorias de seu acesso viário",
+      "url": "https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/notatecnica/IJSN_NT66_Itaunas(2).pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pm-vegetacao",
+      "institution": "IEMA (ES)",
+      "title": "Plano de Manejo do Parque Estadual de Itaúnas, Encarte 4: meio biótico, vegetação (2004)",
+      "url": "https://iema.es.gov.br/Media/Downloads/GRN/2016.12.12%20-%20PEI%20-%20Plano%20Manejo%20-%2004_Biotipo_Vegetacao.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pm-fauna",
+      "institution": "IEMA (ES)",
+      "title": "Plano de Manejo do Parque Estadual de Itaúnas, Encarte 4: meio biótico, fauna e flora (2004)",
+      "url": "https://iema.es.gov.br/Media/Downloads/GRN/2016.12.12%20-%20PEI%20-%20Plano%20Manejo%20-%2004_Biotipo_Faunaflora.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "scielo-flora",
+      "institution": "Rodriguésia (SciELO)",
+      "title": "Checklist de angiospermas do Parque Estadual de Itaúnas, Espírito Santo, Brasil",
+      "url": "https://www.scielo.br/j/rod/a/nQg9KnDy9ZmQFJFNyzTTbVb/?lang=pt",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "cncflora-guriri",
+      "institution": "CNCFlora / JBRJ",
+      "title": "Allagoptera arenaria (Gomes) Kuntze",
+      "url": "https://proflora.jbrj.gov.br/html/Allagoptera%20arenaria_2012.html",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "museu-guriri",
+      "institution": "Horto Botânico do Museu Nacional (UFRJ)",
+      "title": "Allagoptera arenaria",
+      "url": "https://www.museunacional.ufrj.br/hortobotanico/restinga/Allagopteraarenaria.html",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "scielo-guajuru",
+      "institution": "Revista Brasileira de Farmacognosia (SciELO)",
+      "title": "O abajurú (Chrysobalanus icaco) comercializado na cidade do Rio de Janeiro, Brasil",
+      "url": "https://www.scielo.br/j/rbfar/a/vCBMtcXVg47h7RVxwCm4zyN/?lang=pt",
+      "accessed": "2026-11-03"
+    }
+  ]
+}

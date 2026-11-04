@@ -1,5 +1,209 @@
 [
   {
+    "slug": "ilha-grande-rj",
+    "cnuc": "0000.33.1477",
+    "name": "Parque Estadual da Ilha Grande",
+    "shortName": "Ilha Grande (RJ)",
+    "ufs": [
+      "RJ"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 12090,
+    "createdYear": 1971,
+    "creationAct": "Decreto Estadual nº 15.273 de 26-06-1971",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -44.2099,
+      -23.1573
+    ],
+    "admin1": "rj",
+    "bbox": [
+      -44.3761,
+      -23.2137,
+      -44.0944,
+      -23.0909
+    ]
+  },
+  {
+    "slug": "ilhabela",
+    "cnuc": "0000.35.0855",
+    "name": "Parque Estadual de Ilhabela",
+    "shortName": "Ilhabela",
+    "ufs": [
+      "SP"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 29323,
+    "createdYear": 1977,
+    "creationAct": "Decreto 9414 de 20-01-1977",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -45.3025,
+      -23.8042
+    ],
+    "admin1": "sp",
+    "bbox": [
+      -45.4571,
+      -23.9663,
+      -45.0079,
+      -23.7233
+    ]
+  },
+  {
+    "slug": "itaunas",
+    "cnuc": "0000.32.0331",
+    "name": "Parque Estadual de Itaúnas",
+    "shortName": "Itaúnas",
+    "ufs": [
+      "ES"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 3536,
+    "createdYear": 1991,
+    "creationAct": "Decreto 4967-E de 08-11-1991",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -39.7044,
+      -18.4115
+    ],
+    "admin1": "es",
+    "bbox": [
+      -39.7862,
+      -18.5713,
+      -39.6667,
+      -18.3358
+    ]
+  },
+  {
+    "slug": "ibitipoca",
+    "cnuc": "",
+    "name": "Parque Estadual do Ibitipoca",
+    "shortName": "Ibitipoca",
+    "ufs": [
+      "MG"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 1488,
+    "createdYear": 1973,
+    "creationAct": "Lei Estadual de 4 de julho de 1973",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "OpenStreetMap: limite da unidade (dado colaborativo, licença ODbL)",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "labelPoint": [
+      -43.8857,
+      -21.7012
+    ],
+    "admin1": "mg",
+    "bbox": [
+      -43.9045,
+      -21.7257,
+      -43.8693,
+      -21.6683
+    ]
+  },
+  {
+    "slug": "jalapao",
+    "cnuc": "0000.17.1486",
+    "name": "Parque Estadual do Jalapão",
+    "shortName": "Jalapão",
+    "ufs": [
+      "TO"
+    ],
+    "biome": "cerrado",
+    "biomes": [
+      "cerrado"
+    ],
+    "areaHa": 158970,
+    "createdYear": 2001,
+    "creationAct": "Lei ordinária 1.203 de 12-01-2001",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -46.6885,
+      -10.3769
+    ],
+    "admin1": "to",
+    "bbox": [
+      -46.9342,
+      -10.6088,
+      -46.4074,
+      -10.1484
+    ]
+  },
+  {
+    "slug": "petar",
+    "cnuc": "0000.35.0826",
+    "name": "Parque Estadual Turístico do Alto Ribeira",
+    "shortName": "PETAR",
+    "ufs": [
+      "SP"
+    ],
+    "biome": "mata_atlantica",
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "areaHa": 35902,
+    "createdYear": 1958,
+    "creationAct": "Decreto 32283 de 19-05-1958",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "officialSource": {
+      "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
+      "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
+    },
+    "labelPoint": [
+      -48.5903,
+      -24.4663
+    ],
+    "admin1": "sp",
+    "bbox": [
+      -48.7385,
+      -24.6424,
+      -48.4546,
+      -24.2794
+    ]
+  },
+  {
     "slug": "cavernas-do-peruacu",
     "cnuc": "0000.00.0135",
     "name": "Parque Nacional Cavernas do Peruaçu",

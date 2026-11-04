@@ -84,6 +84,15 @@ for (const country of fs.readdirSync(DATA).filter((d) => d !== "generated" && ex
     for (const entry of review.rejected) assert(entry.scientificName && entry.sourceUrl && entry.reason, "Rejeição fotográfica sem identificação ou justificativa");
   }
   const parks = new Map(read(country, "parks.generated.json").map((p) => [p.slug, p]));
+  // Áreas que não são parques nacionais só podem estar no cadastro gerado com guia revisado:
+  // um rascunho no mapa de produção apareceria como página vazia.
+  if (process.env.RAIZ_PREVIEW_DRAFTS !== "1") {
+    for (const p of parks.values()) {
+      if (!p.category) continue;
+      const guide = exists(country, "parks", p.slug, "guide.json") ? read(country, "parks", p.slug, "guide.json") : null;
+      assert(guide?.status === "revisado", `${country}/${p.slug}: área (${p.categoryLabel}) no cadastro gerado sem guia revisado. Rode "npm run geo" sem RAIZ_PREVIEW_DRAFTS.`);
+    }
+  }
   if (exists(country, "park-photo-curation.json")) {
     const curation = read(country, "park-photo-curation.json");
     const generated = exists(country, "park-media.generated.json") ? read(country, "park-media.generated.json") : {};

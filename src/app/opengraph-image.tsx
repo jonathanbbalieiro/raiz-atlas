@@ -21,7 +21,7 @@ export default function OpengraphImage() {
           color: "#f6f1e7",
         }}
       >
-        <div style={{ fontSize: 28, letterSpacing: 6, color: "#e0b57a" }}>ATLAS DOS PARQUES NACIONAIS</div>
+        <div style={{ fontSize: 28, letterSpacing: 6, color: "#e0b57a" }}>ATLAS DAS ÁREAS PROTEGIDAS</div>
         <div style={{ fontSize: 168, fontWeight: 700, marginTop: 12 }}>{SITE.name}</div>
         <div style={{ fontSize: 40, marginTop: 8, opacity: 0.9 }}>77 parques, do mapa do Brasil a cada atração</div>
       </div>

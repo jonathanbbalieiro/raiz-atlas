@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-11-03",
+  "hook": "Rios entram na rocha e saem do outro lado: sob a mata do Alto Ribeira fica a maior concentração de cavernas do Brasil.",
+  "intro": "No sul de São Paulo, entre Iporanga e Apiaí, o Parque Estadual Turístico do Alto Ribeira, o PETAR, protege mais de 35 mil hectares de Mata Atlântica sobre um relevo de calcário. Ali estão mais de 400 cavernas catalogadas, e o parque é um dos 25 componentes do Sítio do Patrimônio Natural Mundial das Reservas de Mata Atlântica do Sudeste, reconhecido pela UNESCO em 1999.",
+  "sourceIds": [
+    "plano",
+    "semil-casa-de-pedra",
+    "unesco-wcmc"
+  ],
+  "protects": {
+    "summary": "Um relevo de calcário escavado por rios, coberto de Mata Atlântica madura",
+    "items": [
+      {
+        "title": "A maior concentração de cavernas do país",
+        "text": "O parque reúne mais de 400 cavernas catalogadas, entre galerias de rio, salões ornamentados e abismos. A Semil conta doze abertas ao público, e os visitantes chegam a elas por quatro núcleos: Santana, Caboclos, Casa de Pedra e Ouro Grosso.",
+        "sourceIds": [
+          "semil-casa-de-pedra",
+          "semil-cavernas"
+        ]
+      },
+      {
+        "title": "Floresta madura sobre o calcário",
+        "text": "Predomina a floresta ombrófila densa sobre solo cárstico, que o plano de manejo descreve como o maior representante dessa variedade de floresta no país. É mata madura, de árvores emergentes, e o levantamento do plano reuniu 742 espécies de plantas.",
+        "sourceIds": [
+          "plano"
+        ]
+      },
+      {
+        "title": "Vida no escuro",
+        "text": "O bagre-cego de Iporanga, o primeiro peixe de caverna descoberto e descrito no Brasil, só foi encontrado nas cavernas do PETAR. Os morcegos usam as cavidades como abrigo e berçário e levam restos de alimento que sustentam invertebrados menores.",
+        "sourceIds": [
+          "semil-bagre",
+          "semil-cavernas"
+        ]
+      },
+      {
+        "title": "Fauna de todos os grupos",
+        "text": "O plano de manejo reúne 78 espécies de peixes, 60 de anfíbios, 31 de répteis, 93 de pequenos mamíferos e 22 de grandes e médios mamíferos conhecidas ou identificadas no parque.",
+        "sourceIds": [
+          "plano"
+        ]
+      },
+      {
+        "title": "Parte de um corredor de Mata Atlântica",
+        "text": "O PETAR integra o Contínuo Ecológico de Paranapiacaba, com os parques estaduais Carlos Botelho e Intervales e a Estação Ecológica de Xitué, um conjunto de cerca de 120 mil hectares, e o Mosaico de Paranapiacaba, criado em 2012.",
+        "sourceIds": [
+          "plano"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Caverna de Santana",
+      "text": "A mais famosa do Núcleo Santana e uma das maiores e mais ornamentadas do estado de São Paulo, com cerca de 6 quilômetros de galerias. Dá nome ao Núcleo Santana.",
+      "sourceIds": [
+        "guia-santana"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Caverna_Santana_por_Rodrigo_Tetsuo_Argenton_%2806%29.jpg/1920px-Caverna_Santana_por_Rodrigo_Tetsuo_Argenton_%2806%29.jpg",
+        "author": "Rodrigo Tetsuo Argenton",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caverna_Santana_por_Rodrigo_Tetsuo_Argenton_(06).jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Paredes de calcário com dobras e cortinas de calcita na Caverna Santana",
+        "context": "Formações de calcita nas paredes da Caverna Santana, no Núcleo Santana do PETAR."
+      }
+    },
+    {
+      "title": "Pórtico da Casa de Pedra",
+      "text": "A boca da Casa de Pedra tem mais de 197 metros de altura, segundo medição de pesquisadores da USP com drone e lidar 3D, divulgada em 2026. O comunicado da Fundação Florestal e da Semil a descreve como a maior abertura vertical de caverna do mundo. O interior está fechado ao público desde 2003, mas o pórtico se vê de fora, por trilha a partir do Núcleo Caboclos.",
+      "sourceIds": [
+        "semil-casa-de-pedra",
+        "guia-casa-de-pedra"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Parque_Estadual_Tur%C3%ADstico_do_Alto_Ribeira_Thomas-Fuhrmann_%2802%29.jpg/1920px-Parque_Estadual_Tur%C3%ADstico_do_Alto_Ribeira_Thomas-Fuhrmann_%2802%29.jpg",
+        "author": "Thomas Fuhrmann",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_Tur%C3%ADstico_do_Alto_Ribeira_Thomas-Fuhrmann_(02).jpg",
+        "width": 1920,
+        "height": 876,
+        "alt": "A boca da Casa de Pedra, no paredão cinzento entre morros cobertos de Mata Atlântica",
+        "context": "O pórtico da Caverna Casa de Pedra visto de longe, entre morros cobertos de Mata Atlântica."
+      }
+    },
+    {
+      "title": "Caverna Temimina",
+      "text": "Formada pelo desabamento do teto, tem na entrada uma grande claraboia por onde entra luz suficiente para crescer um jardim suspenso. Guarda o chuveiro, formação muito rara que lembra uma ducha no teto. O caminho tem de 8 a 9 quilômetros de trilha difícil, a partir do Núcleo Caboclos.",
+      "sourceIds": [
+        "guia-temimina"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Caverna_Temimina_por_D%C3%A9bora_Ponce_%2810%29.jpg/1920px-Caverna_Temimina_por_D%C3%A9bora_Ponce_%2810%29.jpg",
+        "author": "Débora Ponce",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caverna_Temimina_por_D%C3%A9bora_Ponce_(10).jpg",
+        "width": 1920,
+        "height": 1514,
+        "alt": "Claraboia da Caverna Temimina, com vegetação crescendo na entrada",
+        "context": "A claraboia da Caverna Temimina, onde a luz permite o crescimento de vegetação dentro da caverna."
+      }
+    },
+    {
+      "title": "Caverna Água Suja",
+      "text": "Tem 2,9 quilômetros, com estalactites, travertinos e uma cachoeira no trecho final da visita. Chega-se a ela depois de 1.300 metros pela Trilha do Betari.",
+      "sourceIds": [
+        "guia-santana"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Caverna_%C3%81gua_Suja_por_Rodrigo_Tetsuo_Argenton_%2808%29.jpg/1920px-Caverna_%C3%81gua_Suja_por_Rodrigo_Tetsuo_Argenton_%2808%29.jpg",
+        "author": "Rodrigo Tetsuo Argenton",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caverna_%C3%81gua_Suja_por_Rodrigo_Tetsuo_Argenton_(08).jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "A boca da Caverna Água Suja, com o rio correndo em direção à luz",
+        "context": "A entrada da Caverna Água Suja, com o rio correndo para a luz do dia."
+      }
+    },
+    {
+      "title": "Trilha do Betari",
+      "text": "Segue o rio Betari por mata em bom estado de conservação e forma, ao longo do curso, diversas piscinas naturais. É o caminho para a Caverna Água Suja.",
+      "sourceIds": [
+        "plano",
+        "guia-santana"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Trilha_do_Betari_por_Rodrigo_Tetsuo_Argenton_%2802%29.jpg/1920px-Trilha_do_Betari_por_Rodrigo_Tetsuo_Argenton_%2802%29.jpg",
+        "author": "Rodrigo Tetsuo Argenton",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trilha_do_Betari_por_Rodrigo_Tetsuo_Argenton_(02).jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "O rio Betari corre sob galhos cobertos de bromélias",
+        "context": "O rio Betari na trilha que leva à Caverna Água Suja, no Núcleo Santana."
+      }
+    },
+    {
+      "title": "Caverna Ouro Grosso",
+      "text": "Conhecida pela dificuldade: tem 1,1 quilômetro de extensão e 192 metros de desnível, com lances verticais, rio encachoeirado e uma rede de abismos. Fica na margem esquerda do rio Betari.",
+      "sourceIds": [
+        "guia-ouro-grosso"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Caverna_do_Ouro_Grosso_por_Rodrigo_Tetsuo_Argenton_%2805%29.jpg/1920px-Caverna_do_Ouro_Grosso_por_Rodrigo_Tetsuo_Argenton_%2805%29.jpg",
+        "author": "Rodrigo Tetsuo Argenton",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caverna_do_Ouro_Grosso_por_Rodrigo_Tetsuo_Argenton_(05).jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Riacho correndo sobre seixos dentro da Caverna Ouro Grosso",
+        "context": "O riacho que percorre o interior da Caverna Ouro Grosso, no núcleo de mesmo nome."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "Segundo o plano de manejo de 2018, o parque recebe cerca de 39 mil visitantes por ano, todos controlados e acompanhados por monitores locais cadastrados.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "O bagre-cego de Iporanga não tem pigmentação, tem olhos atrofiados ou ausentes e pode chegar a 20 centímetros.",
+      "sourceIds": [
+        "semil-bagre"
+      ]
+    },
+    {
+      "text": "O carste do Alto Ribeira começou a ser descoberto pela ciência com o naturalista Ricardo Krone, que descreveu 41 cavernas e achou ossadas da megafauna do Pleistoceno.",
+      "sourceIds": [
+        "plano",
+        "guia-caboclos"
+      ]
+    },
+    {
+      "text": "Em 1910, as áreas das cavernas Pescaria, Monjolinho, Arataca e Chapéu foram desapropriadas, numa primeira iniciativa de preservar cavernas onde hoje fica o Núcleo Caboclos.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "O Núcleo Caboclos foi o primeiro implantado no PETAR e já era administrado pelo Instituto Geológico antes de o parque ser decretado.",
+      "sourceIds": [
+        "guia-caboclos"
+      ]
+    },
+    {
+      "text": "No Núcleo Santana ficam as cavernas Santana, Água Suja e do Couto e a Gruta do Morro Preto, de 832 metros de desenvolvimento, que guarda sambaquis.",
+      "sourceIds": [
+        "guia-santana",
+        "plano"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Antes da colonização · Uma rota entre o litoral e o planalto",
+      "text": "Evidências arqueológicas mostram que o vale do rio Betari já era, desde tempos pré-coloniais, um caminho entre a baixada do Ribeira e o Planalto Atlântico. Depois, os primeiros exploradores do vale o usaram na busca por minérios.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "1908 · Krone abre as cavernas à ciência",
+      "text": "O naturalista Ricardo Krone investiga as cavernas do Alto Ribeira atrás de material paleontológico, arqueológico e etnográfico. Da expedição, nasce a primeira iniciativa de preservar cavernas: em 1910, quatro delas são desapropriadas.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "1958 · Nasce o parque",
+      "text": "O Decreto Estadual 32.283, de 19 de maio, cria o Parque Estadual do Alto Ribeira. Em 1960, uma lei o ratifica e muda seu nome para Parque Estadual Turístico do Alto Ribeira.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "Ruínas na mata · A usina de chumbo",
+      "text": "A Trilha do Forno de Chumbo, no Núcleo Caboclos, leva às ruínas de uma usina de fundição de chumbo que o parque aponta como a mais antiga do Brasil, no meio da floresta. O plano de manejo registra, na região, sítios de mineração e vias de circulação ligadas ao abastecimento dessa atividade, entre Apiaí, Iporanga e Guapiara.",
+      "sourceIds": [
+        "guia-forno",
+        "plano"
+      ]
+    },
+    {
+      "title": "1999 · Patrimônio Natural Mundial",
+      "text": "Em 1999, a UNESCO reconhece como Sítio do Patrimônio Natural Mundial as Reservas de Mata Atlântica do Sudeste, 25 áreas protegidas de São Paulo e do Paraná. O PETAR, decretado em 1958, foi a primeira delas a ser criada, pela sua paisagem de carste. Antes, em 1991, a Mata Atlântica paulista já havia sido declarada Reserva da Biosfera.",
+      "sourceIds": [
+        "unesco-wcmc",
+        "plano"
+      ]
+    },
+    {
+      "title": "2026 · A medida da Casa de Pedra",
+      "text": "Pesquisadores da USP, com a Fundação Florestal, passam mais de um ano estudando a caverna e medem o pórtico com drone e lidar 3D: mais de 197 metros de altura. A divulgação é de janeiro.",
+      "sourceIds": [
+        "semil-casa-de-pedra"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Pimelodella kronei",
+      "name": "Bagre-cego-de-Iporanga",
+      "criteria": [
+        "endemica",
+        "ameacada_com_acao"
+      ],
+      "why": "Primeiro peixe de caverna descoberto e descrito no Brasil, vive só em sistemas de cavernas do PETAR, em Iporanga e Apiaí. A Areias de Cima abriga a maior população do parque e tem acesso restrito desde a década de 1980 para proteger a espécie.",
+      "sourceIds": [
+        "semil-bagre",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Pimelodella_kronei_%2810.3897-subtbiol.19.8207%29_Figure_2_%28cropped%29.jpg",
+        "author": "Souza Silva M, Ferreira RL (2016) The first two hotspots of subterranean biodive",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pimelodella_kronei_(10.3897-subtbiol.19.8207)_Figure_2_(cropped).jpg",
+        "width": 1280,
+        "height": 696,
+        "alt": "Bagre-cego-de-Iporanga (Pimelodella kronei)",
+        "context": "Bagre-cego-de-Iporanga, Pimelodella kronei, do sistema de cavernas Areias, no PETAR."
+      }
+    },
+    {
+      "scientificName": "Brachyteles arachnoides",
+      "name": "Muriqui-do-sul",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Maior primata das Américas, endêmico da Mata Atlântica e ameaçado de extinção. No PETAR foi confirmado no Núcleo Caboclos, por avistamentos e vocalizações, em levantamento da UNESP, que vê no parque uma das últimas unidades paulistas a abrigar fauna tão importante.",
+      "sourceIds": [
+        "meirelles",
+        "icmbio-muriqui"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg/1280px-Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis%28001%29.jpg",
+        "author": "Nortondefeis",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muriqui-do-sul-APA_S%C3%A3o_Francisco_Xavier-Nortondefeis(001).jpg",
+        "width": 1280,
+        "height": 1920,
+        "alt": "Muriqui-do-sul (Brachyteles arachnoides)",
+        "context": "Muriqui-do-sul, Brachyteles arachnoides. Foto ilustrativa da espécie, feita em outra área de Mata Atlântica."
+      }
+    },
+    {
+      "scientificName": "Panthera onca",
+      "name": "Onça-pintada",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "O maior felino das Américas depende de florestas bem conservadas e de muitas presas. No PETAR foi confirmada só no Núcleo Caboclos, por fezes e pelos com teste de DNA, e o levantamento da UNESP aponta o parque como abrigo de uma das poucas populações da espécie.",
+      "sourceIds": [
+        "meirelles",
+        "icmbio-livro-mamiferos"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg/1280px-On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi%28001%29.jpg",
+        "author": "Thiagomarcelcampi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:On%C3%A7a-pintada-PE_Encontro_das_%C3%81guas-Thiagomarcelcampi(001).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Onça-pintada (Panthera onca)",
+        "context": "Onça-pintada, Panthera onca. Foto ilustrativa da espécie, feita em outra área."
+      }
+    },
+    {
+      "scientificName": "Tapirus terrestris",
+      "name": "Anta",
+      "criteria": [
+        "papel_ecologico"
+      ],
+      "why": "Tímida e silenciosa, a anta deixa pegadas à beira da água. No PETAR foi confirmada no Núcleo Caboclos, por pegadas e fezes. É dispersora de sementes: estudo com antas brasileiras mostrou que a passagem pelo animal aumenta a germinação das sementes e a acelera.",
+      "sourceIds": [
+        "meirelles",
+        "scielo-anta"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/228255427/large.jpg",
+        "author": "Thomas Galewski",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/228255427",
+        "width": 1024,
+        "height": 683,
+        "alt": "Anta (Tapirus terrestris)",
+        "context": "Anta, Tapirus terrestris. Foto ilustrativa da espécie, feita em outra área."
+      }
+    },
+    {
+      "scientificName": "Euterpe edulis",
+      "name": "Palmito-juçara",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Palmeira típica da Mata Atlântica, a juçara só rende palmito com a morte da planta, e por isso a extração clandestina é uma das pressões que o plano de manejo manda fiscalizar. O plano também prevê orientar a coleta de sementes da espécie no PETAR. A juçara é classificada como Vulnerável.",
+      "sourceIds": [
+        "plano",
+        "cncflora-jucara"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Euterpe_edulis_Mart._%2821684080999%29.jpg/1280px-Euterpe_edulis_Mart._%2821684080999%29.jpg",
+        "author": "Alex Popovkin",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Euterpe_edulis_Mart._(21684080999).jpg",
+        "width": 1280,
+        "height": 720,
+        "alt": "Cacho de frutos de um palmito-juçara (Euterpe edulis)",
+        "context": "Cacho de frutos de palmito-juçara, Euterpe edulis. Foto ilustrativa da espécie, feita em outra área de Mata Atlântica."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "plano",
+      "institution": "Fundação Florestal / Consema (SP)",
+      "title": "Plano de Manejo do PETAR: Resumo Executivo (versão 2018)",
+      "url": "https://arquivo.ambiente.sp.gov.br/consema/2018/05/anexo-3-do-relatorio-da-ctbio-de-27-04-2018-aprovado-na-68a-reuniao-resumo-executivo-versao-2018.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "semil-cavernas",
+      "institution": "Semil (SP)",
+      "title": "SP tem um dos maiores patrimônios naturais em cavernas do país",
+      "url": "https://semil.sp.gov.br/2024/01/sp-tem-um-dos-maiores-patrimonios-naturais-em-cavernas-do-pais/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "semil-casa-de-pedra",
+      "institution": "Semil (SP)",
+      "title": "PETAR entra para a história com caverna de maior abertura vertical do planeta",
+      "url": "https://semil.sp.gov.br/2026/01/petar-entra-para-a-historia-com-caverna-de-maior-abertura-vertical-do-planeta/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "semil-bagre",
+      "institution": "Semil (SP)",
+      "title": "Conheça o bagre-cego de Iporanga, peixe que só existe no PETAR",
+      "url": "https://semil.sp.gov.br/2015/09/conheca-o-bagre-cego-de-iporanga-peixe-que-so-existe-no-petar/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-santana",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "PE Turístico do Alto Ribeira: Núcleo Santana",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/ap/parque-estadual-turistico-do-alto-ribeira-nucleo-santana/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-caboclos",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "PE Turístico do Alto Ribeira: Núcleo Caboclos",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/ap/parque-estadual-turistico-do-alto-ribeira-nucleo-caboclos/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-ouro-grosso",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "PE Turístico do Alto Ribeira: Núcleo Ouro Grosso",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/ap/parque-estadual-turistico-do-alto-ribeira-nucleo-ouro-grosso/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-temimina",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha da Caverna Temimina",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-da-caverna-temimina/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-casa-de-pedra",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Pórtico da Caverna Casa de Pedra",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/portico-da-caverna-casa-de-pedra/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-forno",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha Forno de Chumbo",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-forno-de-chumbo/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "cncflora-jucara",
+      "institution": "CNCFlora / JBRJ",
+      "title": "Euterpe edulis Mart.",
+      "url": "https://proflora.jbrj.gov.br/html/Euterpe%20edulis_2012.html",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "unesco-wcmc",
+      "institution": "UNEP-WCMC / IUCN",
+      "title": "Atlantic Forest South-East Reserves: ficha do sítio do Patrimônio Mundial (1999)",
+      "url": "https://www.thesalmons.org/lynn/wh-wcmc/Brazil%20-%20Atlantic%20Forest%20South-East.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "meirelles",
+      "institution": "UNESP, Instituto de Biociências de Rio Claro",
+      "title": "Levantamento e censo de aves e mamíferos cinegéticos no Parque Estadual Turístico do Alto Ribeira (PETAR), SP (dissertação de F. A. Meirelles, 2009)",
+      "url": "https://repositorio.unesp.br/server/api/core/bitstreams/594b5ccd-2992-4673-a503-c30c9bc6494f/content",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "icmbio-muriqui",
+      "institution": "ICMBio",
+      "title": "Avaliação do risco de extinção de Brachyteles arachnoides no Brasil",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/centros-de-pesquisa/primatas-brasileiros/arquivos/fichas_primatas/ATELIDAE/ficha_brachyteles_arachnoides.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "scielo-anta",
+      "institution": "Acta Amazonica (SciELO)",
+      "title": "Endozoocoria por antas brasileiras aumenta a germinabilidade e acelera o tempo de germinação de sementes de espécies de plantas nativas",
+      "url": "https://www.scielo.br/j/aa/a/tcyw5Y5qmppHJnjhxFkGdXm/?lang=en",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "icmbio-livro-mamiferos",
+      "institution": "ICMBio",
+      "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "accessed": "2026-11-03"
+    }
+  ]
+}

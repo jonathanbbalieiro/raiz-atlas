@@ -17,6 +17,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import mapshaper from "mapshaper";
+import { loadExtraAreas } from "./lib/extra-areas.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const CACHE = path.join(ROOT, ".geo-cache");
@@ -228,6 +229,13 @@ async function buildCountry(countrySlug) {
     used.add(slug);
     parks.push({ slug, ...props });
     f.properties = { slug };
+  }
+  // Outras áreas protegidas (estaduais etc.), só as publicáveis: data/<país>/extra-areas.json.
+  for (const { park, geometry } of await loadExtraAreas({ root: ROOT, country: countrySlug, byCode })) {
+    if (used.has(park.slug)) throw new Error(`Slug repetido em extra-areas.json: ${park.slug}`);
+    used.add(park.slug);
+    parks.push(park);
+    parksRaw.features.push({ type: "Feature", properties: { slug: park.slug }, geometry });
   }
   const bySlug = new Map(parks.map((p) => [p.slug, p]));
 

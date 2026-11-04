@@ -1,0 +1,397 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-11-03",
+  "hook": "Serra que estoura, diz o nome: grutas de quartzito, cachoeiras e campos rupestres no alto da Mantiqueira.",
+  "intro": "Na Serra da Mantiqueira, em Lima Duarte e Santa Rita do Ibitipoca, o Parque Estadual do Ibitipoca protege 1.488 hectares de Mata Atlântica, campos rupestres e grutas de quartzito. Seu ponto mais alto, a Lombada, chega a 1.784 metros, e o parque divide as águas das bacias dos rios Grande e Paraíba do Sul. É o parque mais visitado de Minas Gerais.",
+  "sourceIds": [
+    "ief",
+    "agencia-50anos"
+  ],
+  "protects": {
+    "summary": "Uma serra de quartzito que reúne campos de altitude, mata e cerca de trinta cavernas",
+    "items": [
+      {
+        "title": "Quartzito e grutas",
+        "text": "O quartzito predomina no parque, e a serra abriga cerca de trinta cavernas, todas esculpidas nessa rocha. Entre as maiores estão a Gruta dos Moreiras, com 673 metros, e a dos Viajantes, com 440.",
+        "sourceIds": [
+          "geo",
+          "iepha"
+        ]
+      },
+      {
+        "title": "Campos rupestres e Mata Atlântica",
+        "text": "A vegetação combina Mata Atlântica, campos rupestres nos afloramentos de rocha e matas ciliares. Cactos, bromélias, orquídeas, samambaias e liquens são característicos, e as candeias, abundantes, aparecem cobertas por um líquen esverdeado, a barba-de-velho.",
+        "sourceIds": [
+          "ief"
+        ]
+      },
+      {
+        "title": "Um divisor de águas",
+        "text": "A serra separa as bacias dos rios Grande e Paraíba do Sul. Córregos, piscinas naturais e cachoeiras cortam o parque, num clima que recebe de 1.500 a 1.800 milímetros de chuva por ano.",
+        "sourceIds": [
+          "ief",
+          "geo"
+        ]
+      },
+      {
+        "title": "Fauna ameaçada",
+        "text": "O IEF cita entre as espécies ameaçadas de extinção a onça-parda, o lobo-guará e o sauá. Há também bugio, papagaio-do-peito-roxo, coati e andorinhão-de-coleira-falha, além da perereca Bokermannohyla ibitipoca, identificada pela primeira vez na região.",
+        "sourceIds": [
+          "ief",
+          "zootaxa"
+        ]
+      },
+      {
+        "title": "Monumento natural tombado",
+        "text": "A Serra do Ibitipoca é tombada e declarada monumento natural pelo estado desde 1989. A serra reúne cavernas e feições cársticas, como dolinas e pontes naturais.",
+        "sourceIds": [
+          "iepha"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Janela do Céu",
+      "text": "Mirante natural de vista exuberante, que o governo de Minas descreve como o principal atrativo turístico do parque, é o ponto alto do circuito de 16 quilômetros que leva seu nome, o mais longo e difícil, com a Cachoeirinha por perto. O circuito passa também pelo Pico do Cruzeiro, pela Lombada, a 1.784 metros, e pelas grutas dos Fugitivos, dos Três Arcos e dos Moreiras. Em 2023, a visita era limitada a 240 pessoas por dia.",
+      "sourceIds": [
+        "ief",
+        "agencia-2023",
+        "agencia-50anos",
+        "agencia-concessao"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Janela_do_C%C3%A9u_no_Parque_Estadual_do_Ibitipoca.JPG/1920px-Janela_do_C%C3%A9u_no_Parque_Estadual_do_Ibitipoca.JPG",
+        "author": "Daniel Baldin Machado",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Janela_do_C%C3%A9u_no_Parque_Estadual_do_Ibitipoca.JPG",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Vista do vale pela borda de uma lâmina de água, na Janela do Céu",
+        "context": "A vista da Janela do Céu, no Parque Estadual do Ibitipoca, por entre a vegetação e uma lâmina de água."
+      }
+    },
+    {
+      "title": "Ponte de Pedra",
+      "text": "Uma caverna atravessada pelo rio do Salto, aberta primeiro pela dissolução da rocha e depois alargada pelo abatimento de blocos e pela erosão da correnteza. Fica no Circuito das Águas, o mais leve do parque.",
+      "sourceIds": [
+        "geo",
+        "agencia-2023"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ponte_de_pedra.JPG/1920px-Ponte_de_pedra.JPG",
+        "author": "Juh oliveira87",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_de_pedra.JPG",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A Ponte de Pedra vista de um mirante, com o paredão de rocha e a mata abaixo",
+        "context": "A Ponte de Pedra, caverna atravessada pelo rio do Salto, vista de um mirante no Parque Estadual do Ibitipoca."
+      }
+    },
+    {
+      "title": "Cachoeira dos Macacos",
+      "text": "Está no Circuito das Águas, de 5,2 quilômetros, que passa também pela Prainha, pela Gruta dos Gnomos, pela Ponte de Pedra, pelo Lago Negro e pelo Lago dos Espelhos. As quedas e marmitas dos rios do parque resultam da erosão da água sobre o quartzito.",
+      "sourceIds": [
+        "agencia-2023",
+        "geo"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cachoeira_dos_Macacos_imagem.jpg/1920px-Cachoeira_dos_Macacos_imagem.jpg",
+        "author": "Karolina Gameiro Cota Dias",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_dos_Macacos_imagem.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Queda d'água sobre pedras, caindo num poço de água escura entre a mata",
+        "context": "A Cachoeira dos Macacos, no Circuito das Águas do Parque Estadual do Ibitipoca."
+      }
+    },
+    {
+      "title": "Gruta do Pião",
+      "text": "Fica no Circuito do Pião, de 9,5 quilômetros e muitas subidas, que também leva ao Pico do Pião, à Cachoeira do Encanto e à Pedra Furada. É uma das cerca de trinta cavernas do parque, todas esculpidas em quartzito.",
+      "sourceIds": [
+        "agencia-2023",
+        "geo"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Gruta_do_pi%C3%A3o.jpg/1920px-Gruta_do_pi%C3%A3o.jpg",
+        "author": "Karolina Gameiro Cota Dias",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gruta_do_pi%C3%A3o.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "A boca da Gruta do Pião, com a mata enevoada ao fundo",
+        "context": "A entrada da Gruta do Pião, com mata e neblina do lado de fora, no Parque Estadual do Ibitipoca."
+      }
+    },
+    {
+      "title": "Lombada e Pico do Pião",
+      "text": "Os dois pontos mais altos do parque: a Lombada, a oeste, com 1.784 metros, e o Pico do Pião, a leste, com 1.722. O quartzito mais grosso, conhecido localmente como sal grosso, sustenta essas partes elevadas.",
+      "sourceIds": [
+        "geo",
+        "agencia-50anos"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Parque_Estadual_do_Ibitipoca.jpg/1920px-Parque_Estadual_do_Ibitipoca.jpg",
+        "author": "Maíra Arantes Leite Wick",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_do_Ibitipoca.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Escadaria de pedra subindo o topo gramado do Pico do Pião, com serras ao fundo",
+        "context": "A escadaria da trilha do Pico do Pião, no Parque Estadual do Ibitipoca, com a vista das serras ao fundo."
+      }
+    },
+    {
+      "title": "Campos rupestres",
+      "text": "Nos afloramentos de rocha, a vegetação baixa de campos rupestres abriga cactos, bromélias, orquídeas e liquens. As candeias são abundantes e muitas vezes aparecem cobertas pelo líquen conhecido como barba-de-velho.",
+      "sourceIds": [
+        "ief"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/CAMPOS_RUPESTRES.jpg/1920px-CAMPOS_RUPESTRES.jpg",
+        "author": "TALES BARBOSA DOS ANJOS",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CAMPOS_RUPESTRES.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "Campo rupestre de altitude, com arbustos e neblina ao longe",
+        "context": "Campo rupestre do Parque Estadual do Ibitipoca, com a vegetação baixa de altitude."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O parque tem 1.488 hectares, e o pico da Lombada, com 1.784 metros, é o ponto mais alto. O Pico do Pião chega a 1.722 metros.",
+      "sourceIds": [
+        "ief",
+        "geo"
+      ]
+    },
+    {
+      "text": "Em 2011, o parque recebeu quase 50 mil visitantes. Em 2023, o governo de Minas falava em cerca de 90 mil por ano.",
+      "sourceIds": [
+        "geo",
+        "agencia-2023"
+      ]
+    },
+    {
+      "text": "Usuários do TripAdvisor já o apontaram como o terceiro melhor parque da América Latina.",
+      "sourceIds": [
+        "ief"
+      ]
+    },
+    {
+      "text": "O limite de visitação é de mil pessoas por dia, atingido com frequência nos feriados.",
+      "sourceIds": [
+        "ief",
+        "agencia-2023"
+      ]
+    },
+    {
+      "text": "A perereca Bokermannohyla ibitipoca foi descrita a partir do próprio parque, a 1.200 metros de altitude.",
+      "sourceIds": [
+        "zootaxa",
+        "ief"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há séculos · Serra que estoura",
+      "text": "O nome Ibitipoca vem do tupi-guarani e é traduzido como \"serra que estoura\" ou \"serra estourada\", por causa dos raios frequentes ou do grande número de grutas.",
+      "sourceIds": [
+        "ief"
+      ]
+    },
+    {
+      "title": "Ciclo do ouro · A vila ao pé da serra",
+      "text": "Perto da serra, a Vila Conceição do Ibitipoca guarda marcas do Ciclo do Ouro, como a igreja matriz de Nossa Senhora da Conceição, de estilo barroco, erguida em 1768.",
+      "sourceIds": [
+        "iepha"
+      ]
+    },
+    {
+      "title": "1973 · Nasce o parque",
+      "text": "Em 4 de julho, a Lei Estadual 6.126 cria o parque em Lima Duarte, com o objetivo de preservar o patrimônio ambiental e promover o turismo ecológico.",
+      "sourceIds": [
+        "almg-lei",
+        "ief",
+        "agencia-50anos"
+      ]
+    },
+    {
+      "title": "1989 · Serra tombada",
+      "text": "A Constituição mineira de 1989 institui o tombamento estadual e a declaração de monumento natural da Serra do Ibitipoca.",
+      "sourceIds": [
+        "iepha"
+      ]
+    },
+    {
+      "title": "2022 · Leilão da concessão",
+      "text": "Em 21 de dezembro, um leilão na B3 escolhe a empresa que ficará, por 30 anos, com o ecoturismo e a manutenção dos atrativos. O IEF segue responsável pela conservação, pela pesquisa e pela fiscalização do contrato.",
+      "sourceIds": [
+        "agencia-2023",
+        "agencia-50anos"
+      ]
+    },
+    {
+      "title": "2023 · Cinquenta anos",
+      "text": "O parque completa meio século como o mais visitado de Minas Gerais, com cerca de 90 mil visitantes por ano.",
+      "sourceIds": [
+        "agencia-50anos"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Bokermannohyla ibitipoca",
+      "name": "Perereca-de-ibitipoca",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Perereca de até 43 milímetros, descrita a partir do próprio parque, a 1.200 metros de altitude, e restrita ao Complexo Mantiqueira. Usa riachos permanentes para cantar e se reproduzir. O IEF a cita como identificada pela primeira vez na região.",
+      "sourceIds": [
+        "zootaxa",
+        "ief"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/200018731/large.jpg",
+        "author": "andreyves",
+        "license": "CC BY-NC 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/200018731",
+        "width": 1024,
+        "height": 576,
+        "alt": "Perereca-de-ibitipoca (Bokermannohyla ibitipoca)",
+        "context": "Perereca Bokermannohyla ibitipoca, espécie descrita a partir do Parque Estadual do Ibitipoca. Foto ilustrativa, feita em Santa Rita de Jacutinga (MG)."
+      }
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "O maior canídeo da América do Sul está entre as espécies ameaçadas de extinção que o IEF cita para o parque. Vive em campos, savanas e matas de borda.",
+      "sourceIds": [
+        "ief",
+        "pan-lobo"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/960px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 640,
+        "height": 427,
+        "alt": "Lobo-guará (Chrysocyon brachyurus)",
+        "context": "Lobo-guará, Chrysocyon brachyurus. Foto ilustrativa da espécie, feita em outra área."
+      }
+    },
+    {
+      "scientificName": "Puma concolor",
+      "name": "Onça-parda",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "A onça-parda é uma das espécies ameaçadas de extinção que o IEF cita para o parque, junto com o lobo-guará e o sauá.",
+      "sourceIds": [
+        "ief",
+        "pan-onca-parda"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Puma_-_49044464307.jpg/960px-Puma_-_49044464307.jpg",
+        "author": "Carlos",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puma_-_49044464307.jpg",
+        "width": 640,
+        "height": 960,
+        "alt": "Onça-parda (Puma concolor)",
+        "context": "Onça-parda, Puma concolor. Foto ilustrativa da espécie, feita em outra área."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ief",
+      "institution": "IEF (MG)",
+      "title": "Parque Estadual do Ibitipoca",
+      "url": "https://ief.mg.gov.br/ibitipoca",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "agencia-2023",
+      "institution": "Agência Minas Gerais",
+      "title": "Parque Estadual do Ibitipoca bate recordes de visitantes",
+      "url": "https://www.agenciaminas.mg.gov.br/noticia/parque-estadual-do-ibitipoca-bate-recordes-de-visitantes",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "agencia-50anos",
+      "institution": "Agência Minas Gerais",
+      "title": "Evento celebra os 50 anos do Parque Estadual do Ibitipoca",
+      "url": "https://www.agenciaminas.mg.gov.br/noticia/evento-celebra-os-50-anos-do-parque-estadual-do-ibitipoca",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "iepha",
+      "institution": "IEPHA-MG",
+      "title": "Serra do Ibitipoca, Lima Duarte e Santa Rita do Ibitipoca",
+      "url": "https://www.mg.gov.br/iepha/bem/bem-tombado/serra-do-ibitipoca-lima-duarte-santa-rita-do-ibitipoca",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "geo",
+      "institution": "Sociedade & Natureza (SciELO)",
+      "title": "Aspectos geológico-geomorfológicos do Parque Estadual do Ibitipoca/MG: base para o entendimento do seu geopatrimônio",
+      "url": "https://www.scielo.br/j/sn/a/cZbtJSpdhtnwwtbVbJzkQfq/?lang=pt",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "zootaxa",
+      "institution": "Zootaxa (PubMed)",
+      "title": "Release call of Bokermannohyla ibitipoca Caramaschi & Feio, 1990 (Anura, Hylidae)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31716848/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pan-lobo",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação do lobo-guará",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-lobo-guara/1-ciclo/pan-lobo-guara-sumario.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pan-onca-parda",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação da onça-parda",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-onca-parda/1-ciclo/pan-onca-parda-sumario.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "agencia-concessao",
+      "institution": "Agência Minas Gerais",
+      "title": "Série de reuniões esclarece dúvidas sobre concessão do Ibitipoca",
+      "url": "https://agenciaminas.mg.gov.br/noticia/serie-de-reunioes-esclarece-duvidas-sobre-concessao-do-ibitipoca",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "almg-lei",
+      "institution": "Assembleia Legislativa de Minas Gerais",
+      "title": "Lei 6.126, de 04/07/1973: cria os Parques Florestais de Ibitipoca e da Jaíba",
+      "url": "https://www.almg.gov.br/legislacao-mineira/LEI/6126/1973/",
+      "accessed": "2026-11-03"
+    }
+  ]
+}

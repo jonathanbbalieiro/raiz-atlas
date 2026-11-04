@@ -1,0 +1,79 @@
+[
+  {
+    "slug": "petar",
+    "name": "Parque Estadual Turístico do Alto Ribeira",
+    "shortName": "PETAR",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": ["SP"],
+    "biomes": ["mata_atlantica"],
+    "source": "cnuc",
+    "cnuc": "0000.35.0826"
+  },
+  {
+    "slug": "jalapao",
+    "name": "Parque Estadual do Jalapão",
+    "shortName": "Jalapão",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": ["TO"],
+    "biomes": ["cerrado"],
+    "source": "cnuc",
+    "cnuc": "0000.17.1486"
+  },
+  {
+    "slug": "ilha-grande-rj",
+    "name": "Parque Estadual da Ilha Grande",
+    "shortName": "Ilha Grande (RJ)",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": ["RJ"],
+    "biomes": ["mata_atlantica"],
+    "source": "cnuc",
+    "cnuc": "0000.33.1477"
+  },
+  {
+    "slug": "itaunas",
+    "name": "Parque Estadual de Itaúnas",
+    "shortName": "Itaúnas",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": ["ES"],
+    "biomes": ["mata_atlantica"],
+    "source": "cnuc",
+    "cnuc": "0000.32.0331"
+  },
+  {
+    "slug": "ilhabela",
+    "name": "Parque Estadual de Ilhabela",
+    "shortName": "Ilhabela",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": ["SP"],
+    "biomes": ["mata_atlantica"],
+    "source": "cnuc",
+    "cnuc": "0000.35.0855"
+  },
+  {
+    "slug": "ibitipoca",
+    "name": "Parque Estadual do Ibitipoca",
+    "shortName": "Ibitipoca",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": ["MG"],
+    "biomes": ["mata_atlantica"],
+    "source": "osm",
+    "osmRelation": 10651263,
+    "override": {
+      "areaHa": 1488,
+      "createdYear": 1973,
+      "creationAct": "Lei Estadual 6.126, de 4 de julho de 1973"
+    }
+  }
+]

@@ -1,4 +1,4 @@
-# Raiz: atlas dos parques nacionais do Brasil
+# Raiz: atlas das áreas protegidas do Brasil
 
 Junção de dois projetos:
 

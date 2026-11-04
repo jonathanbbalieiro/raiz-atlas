@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 2,
+  "officialName": "Parque Estadual de Itaúnas",
+  "title": "Itaúnas: o mar de dunas que enterrou uma vila",
+  "subtitle": "No extremo norte do Espírito Santo, dunas de areia clara avançam sobre a restinga e esconderam uma vila, num parque de alagados, manguezal e tartarugas.",
+  "centralQuestion": "O que as dunas de Itaúnas guardam, e o que custou deixá-las avançar?",
+  "introduction": [
+    "Na divisa do Espírito Santo com a Bahia, onde o Riacho Doce encontra o mar, a costa vira um deserto de areia clara. Por trás das dunas, a restinga, o rio Itaúnas e um grande alagado seguram o que a areia ainda não cobriu.",
+    "O Parque Estadual de Itaúnas, criado em 1991, tem 3.481 hectares em Conceição da Barra. É o parque mais visitado do estado, e carrega uma história rara: a de uma vila inteira que as dunas enterraram."
+  ],
+  "cover": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Dunas_de_Ita%C3%BAnas.JPG/1920px-Dunas_de_Ita%C3%BAnas.JPG",
+    "author": "Daniel Galvão Simões",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunas_de_Ita%C3%BAnas.JPG",
+    "width": 1920,
+    "height": 1440,
+    "alt": "Amanhecer de céu vermelho sobre as dunas de Itaúnas, com plantas baixas na areia",
+    "context": "O amanhecer nas dunas de Itaúnas, com vegetação baixa sobre a areia."
+  },
+  "moments": [
+    {
+      "id": "dunas",
+      "eyebrow": "01 · O mar de areia",
+      "title": "Dunas que andam",
+      "question": "Por que as dunas de Itaúnas se movem?",
+      "paragraphs": [
+        "As dunas fecham o parque a leste em quase toda a sua extensão, entre a vegetação e o mar, e têm alturas diferentes. Em alguns trechos o solo está coberto por plantas; em outros a areia fica nua, e os fortes ventos da região a empurram para o interior do continente.",
+        "Na frente das dunas domina o guriri, uma palmeira baixa que o plano de manejo descreve como boa fixadora de dunas. Sob suas folhas crescem cactos, baunilha e outras plantas, e espécies pequenas, como a Remirea maritima, também ajudam a prender o sedimento.",
+        "Esse avanço da areia já foi motivo de medo. No início dos anos 1980, segundo o Instituto Jones dos Santos Neves, a população temia que as dunas, que chegavam a até 30 metros, voltassem a avançar. O tombamento, em 1986, e o parque, em 1991, freiaram o processo: foram proibidas a extração de madeira e de areia e adotadas medidas de contenção, como o plantio de espécies nativas."
+      ],
+      "sourceIds": [
+        "pm-vegetacao",
+        "ijsn"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm-vegetacao",
+          "locator": "PDF p. 7"
+        },
+        {
+          "sourceId": "ijsn",
+          "locator": "PDF p. 17 e 18"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/VitorJubini_DunasdeItaunas_ConceicaodaBarra_ES_%2826993150248%29.jpg/1920px-VitorJubini_DunasdeItaunas_ConceicaodaBarra_ES_%2826993150248%29.jpg",
+          "author": "MTur Destinos",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:VitorJubini_DunasdeItaunas_ConceicaodaBarra_ES_(26993150248).jpg",
+          "width": 1920,
+          "height": 1282,
+          "alt": "Ondulações de areia fina nas dunas de Itaúnas",
+          "context": "As ondulações que o vento desenha na areia das dunas do Parque Estadual de Itaúnas."
+        }
+      ]
+    },
+    {
+      "id": "brejos",
+      "eyebrow": "02 · Entre as dunas e o rio",
+      "title": "Brejos, alagado e manguezal",
+      "question": "O que existe entre a areia e a água?",
+      "paragraphs": [
+        "Entre os cordões de dunas, onde o lençol freático aflora, crescem ciperáceas e gramíneas, e nos trechos mais altos aparecem moitas de maçã-da-praia, o guajuru. Perto da vila e do Buraco do Bicho há brejos inundáveis, e no Buraco do Bicho é possível ver a duna avançando em direção ao brejo.",
+        "O rio Itaúnas corre de oeste para leste, e no trecho final a planície permanece inundada: é o alagado, que um levantamento botânico chama de a mais representativa região de alagados do Espírito Santo. Nas margens do rio há manguezal, e o rio pode ser percorrido de caiaque.",
+        "A mata de tabuleiro, outra formação da Mata Atlântica, aparece no parque como mata ciliar sobre terrenos antigos e continua em fragmentos vizinhos."
+      ],
+      "sourceIds": [
+        "pm-vegetacao",
+        "scielo-flora",
+        "seama"
+      ],
+      "citations": [
+        {
+          "sourceId": "pm-vegetacao",
+          "locator": "PDF p. 2, 3, 8 e 12"
+        },
+        {
+          "sourceId": "scielo-flora",
+          "locator": "seção sobre vegetação"
+        },
+        {
+          "sourceId": "seama",
+          "locator": "seções Rio Itaúnas e Dunas"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Entardecer_nas_dunas_de_Ita%C3%BAnas.jpg/1920px-Entardecer_nas_dunas_de_Ita%C3%BAnas.jpg",
+          "author": "Lemoris",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entardecer_nas_dunas_de_Ita%C3%BAnas.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Pôr do sol sobre um alagado, com hastes de plantas aquáticas na água",
+          "context": "Um alagado ao final da descida das dunas, no Parque Estadual de Itaúnas."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/ItaunasES2014_05.JPG/1920px-ItaunasES2014_05.JPG",
+          "author": "Elizabeth Merlo",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:ItaunasES2014_05.JPG",
+          "width": 1920,
+          "height": 1440,
+          "alt": "O rio Itaúnas entre a vegetação das margens, sob céu azul",
+          "context": "O rio Itaúnas e a vegetação de suas margens, no Parque Estadual de Itaúnas."
+        }
+      ]
+    },
+    {
+      "id": "vila",
+      "eyebrow": "03 · A vila que a areia enterrou",
+      "title": "O que restou da antiga Itaúnas",
+      "question": "Onde foi parar a vila que as dunas cobriram?",
+      "paragraphs": [
+        "A antiga vila de Itaúnas foi soterrada pelas dunas na década de 1950 e 1960, segundo o Instituto Jones dos Santos Neves. Os moradores refizeram a vila do outro lado do rio, com uma igreja e um largo parecidos com os da antiga, e muitas casas novas foram erguidas com material de demolição das antigas.",
+        "O que restou dentro do parque é a casa de Carlos Bonelá, conhecido como Tamandaré, agricultor da vila: a única construção remanescente, hoje revitalizada para visitação. A trilha do Tamandaré tem 1,7 quilômetro de estrada, margeia restingas, dunas e áreas alagadas do rio, e há sítios arqueológicos da antiga vila no percurso.",
+        "Para o instituto, a história do soterramento representa, em escala reduzida, o que a ação humana exploratória pode provocar: desequilíbrios no ecossistema que tornam inóspito um lugar antes habitado."
+      ],
+      "sourceIds": [
+        "ijsn",
+        "iema-tamandare",
+        "seama"
+      ],
+      "citations": [
+        {
+          "sourceId": "ijsn",
+          "locator": "PDF p. 9, 13 e 15"
+        },
+        {
+          "sourceId": "iema-tamandare",
+          "locator": "seções Casa de Tamandaré e Trilha do Tamandaré"
+        },
+        {
+          "sourceId": "seama",
+          "locator": "seção Dunas"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Itaunas_debaixo_das_dunas.jpg/1920px-Itaunas_debaixo_das_dunas.jpg",
+          "author": "Daniele Longui",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itaunas_debaixo_das_dunas.jpg",
+          "width": 1920,
+          "height": 1285,
+          "alt": "Silhueta de uma cerca de madeira sobre a areia ondulada, ao pôr do sol",
+          "context": "A areia ondulada onde ficava a antiga vila de Itaúnas, ao pôr do sol."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Dunas_de_Ita%C3%BAnas_ES.jpg/1920px-Dunas_de_Ita%C3%BAnas_ES.jpg",
+          "author": "Lemoris",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunas_de_Ita%C3%BAnas_ES.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Dunas e moitas de restinga no local onde ficava a antiga vila",
+          "context": "Vista das dunas e da restinga no local da vila soterrada, no Parque Estadual de Itaúnas."
+        }
+      ]
+    },
+    {
+      "id": "vida",
+      "eyebrow": "04 · Vida na restinga",
+      "title": "Plantas raras, aves e tartarugas",
+      "question": "Quem vive no meio de tanta areia?",
+      "paragraphs": [
+        "O levantamento botânico do parque reúne 562 espécies de angiospermas, de 110 famílias. Sete têm ocorrência restrita ao Espírito Santo, 26 são novos registros para o estado e uma, a Aristolochia zebrina, é descrita como nova para a ciência.",
+        "Entre os animais, o IEMA cita jaguatirica, macaco-prego e preguiça, e mais de 140 espécies de aves. O plano de manejo alerta, porém, que 23 espécies de aves estão localmente ameaçadas de extinção e que onças-pardas e porcos-do-mato podem ter desaparecido da região.",
+        "O litoral do parque é também sítio de desova de tartarugas marinhas. O Projeto Tamar mantém uma base no parque desde 1991, e filhotes encontrados em ninhos abertos são soltos na praia de Itaúnas. A luz artificial perto da vila é um risco para fêmeas e filhotes."
+      ],
+      "sourceIds": [
+        "scielo-flora",
+        "seama",
+        "pm-fauna",
+        "iema-tartarugas",
+        "ijsn"
+      ],
+      "citations": [
+        {
+          "sourceId": "scielo-flora",
+          "locator": "seção Riqueza e espécies notáveis"
+        },
+        {
+          "sourceId": "seama",
+          "locator": "seção Fauna citada"
+        },
+        {
+          "sourceId": "pm-fauna",
+          "locator": "PDF p. 23 e 28"
+        },
+        {
+          "sourceId": "iema-tartarugas",
+          "locator": "texto da notícia"
+        },
+        {
+          "sourceId": "ijsn",
+          "locator": "PDF p. 18"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/A_ca%C3%A7a.jpg/1920px-A_ca%C3%A7a.jpg",
+          "author": "Hugo Rogério",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_ca%C3%A7a.jpg",
+          "width": 1920,
+          "height": 1156,
+          "alt": "Uma ave sobrevoando as dunas, com moitas de vegetação na crista",
+          "context": "Uma ave de rapina sobrevoa as dunas secundárias do Parque Estadual de Itaúnas."
+        }
+      ]
+    },
+    {
+      "id": "parque",
+      "eyebrow": "05 · Do tombamento ao parque",
+      "title": "Como a areia virou parque",
+      "question": "Como as dunas passaram a ser protegidas?",
+      "paragraphs": [
+        "Nos anos 1940, o cientista Augusto Ruschi propôs uma reserva de 10 mil hectares na região, que nunca se consolidou. Só em 1986 as dunas foram tombadas como monumento natural do Espírito Santo, e em 8 de novembro de 1991 o Decreto Estadual 4.967-E criou o parque.",
+        "No início dos anos 1990, o desmatamento da restinga e a ameaça de um resort ao norte das dunas levaram a sociedade civil e ambientalistas a pedir mais proteção. Segundo o IEMA, em 1992 a UNESCO reconheceu as áreas de Mata Atlântica, incluindo o parque, como Patrimônio Natural da Humanidade.",
+        "Hoje o parque recebe cerca de 100 mil pessoas por ano, tem entrada gratuita e é o mais visitado do estado. Circular com veículo motorizado nas praias, dunas e trilhas sem autorização é proibido. Na vila vizinha, o Ticumbi, o Alardo, o Jongo e os Reis de Bois e, em julho, o Festival Nacional de Forró mantêm viva a cultura local."
+      ],
+      "sourceIds": [
+        "iema-pei",
+        "ijsn"
+      ],
+      "citations": [
+        {
+          "sourceId": "iema-pei",
+          "locator": "seções História, Visitação e Atrativos"
+        },
+        {
+          "sourceId": "ijsn",
+          "locator": "PDF p. 18"
+        }
+      ],
+      "images": []
+    }
+  ],
+  "feature": {
+    "type": "timeline",
+    "momentId": "parque",
+    "title": "Da vila soterrada ao parque",
+    "intro": "Marcos da história de Itaúnas.",
+    "items": [
+      {
+        "id": "1940",
+        "year": "Anos 1940",
+        "title": "A reserva que não saiu",
+        "description": "Augusto Ruschi propõe uma reserva de 10 mil hectares, que não se consolida.",
+        "sourceIds": [
+          "iema-pei"
+        ]
+      },
+      {
+        "id": "1950",
+        "year": "Anos 1950 e 1960",
+        "title": "A vila sob a areia",
+        "description": "A antiga vila de Itaúnas é soterrada pelas dunas e refeita do outro lado do rio.",
+        "sourceIds": [
+          "ijsn"
+        ]
+      },
+      {
+        "id": "1986",
+        "year": "1986",
+        "title": "Dunas tombadas",
+        "description": "O Conselho Estadual de Cultura tomba as dunas como monumento natural do Espírito Santo.",
+        "sourceIds": [
+          "iema-pei",
+          "ijsn"
+        ]
+      },
+      {
+        "id": "1991",
+        "year": "1991",
+        "title": "Nasce o parque",
+        "description": "O Decreto Estadual 4.967-E cria o parque em 8 de novembro, e é inaugurada a base do Projeto Tamar.",
+        "sourceIds": [
+          "iema-pei",
+          "ijsn"
+        ]
+      },
+      {
+        "id": "1992",
+        "year": "1992",
+        "title": "Reconhecimento da UNESCO",
+        "description": "Segundo o IEMA, a UNESCO reconhece as áreas de Mata Atlântica, incluindo o parque, como Patrimônio Natural da Humanidade.",
+        "sourceIds": [
+          "iema-pei"
+        ]
+      }
+    ]
+  },
+  "keyFacts": [
+    {
+      "label": "Área",
+      "value": "3.481 hectares",
+      "sourceId": "iema-pei"
+    },
+    {
+      "label": "Criação",
+      "value": "8 de novembro de 1991",
+      "sourceId": "iema-pei"
+    },
+    {
+      "label": "Dunas (anos 1980)",
+      "value": "até 30 m de altura",
+      "sourceId": "ijsn"
+    },
+    {
+      "label": "Plantas (angiospermas)",
+      "value": "562 espécies",
+      "sourceId": "scielo-flora"
+    },
+    {
+      "label": "Aves",
+      "value": "mais de 140 espécies",
+      "sourceId": "seama"
+    },
+    {
+      "label": "Visitantes por ano",
+      "value": "cerca de 100 mil",
+      "sourceId": "iema-pei"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Restinga",
+      "definition": "Vegetação que cresce sobre os solos arenosos do litoral. No parque, é o ecossistema que ocupa a maior extensão.",
+      "sourceId": "pm-vegetacao"
+    },
+    {
+      "term": "Alagado",
+      "definition": "Trecho da planície do rio Itaúnas que permanece inundado, com extensas formações de vegetação herbácea na água.",
+      "sourceId": "pm-vegetacao"
+    },
+    {
+      "term": "Mata de tabuleiro",
+      "definition": "Mata Atlântica que cresce sobre os tabuleiros, terrenos antigos e planos do litoral. No parque, ela aparece como mata ciliar.",
+      "sourceId": "pm-vegetacao"
+    },
+    {
+      "term": "Interdunas",
+      "definition": "Áreas mais baixas e mais verdes entre os cordões de dunas, onde o lençol freático pode aflorar e formar brejos.",
+      "sourceId": "pm-vegetacao"
+    }
+  ],
+  "closingTitle": "Uma lição escrita na areia",
+  "closing": "Entre a areia que avança e as plantas que a prendem, Itaúnas lembra o que o descuido pode custar e o que a proteção consegue conter. Ficar nas trilhas, deixar o carro longe das dunas e apagar as luzes perto da praia na época das tartarugas ajuda a manter o parque assim.",
+  "references": [
+    {
+      "id": "iema-pei",
+      "institution": "IEMA (ES)",
+      "title": "Parque Estadual de Itaúnas",
+      "url": "https://iema.es.gov.br/PEI",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "iema-tamandare",
+      "institution": "IEMA (ES)",
+      "title": "Trilha do Tamandaré ganha novidades no Parque de Itaúnas",
+      "url": "https://iema.es.gov.br/trilha-do-tamandare-ganha-novidades-no-parque",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "iema-tartarugas",
+      "institution": "IEMA (ES)",
+      "title": "Filhotes de tartaruga serão soltos no Parque de Itaúnas",
+      "url": "https://iema.es.gov.br/filhotes-de-tartaruga-serao-soltos-no-parque",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "seama",
+      "institution": "Seama (ES)",
+      "title": "Belezas do Parque Estadual de Itaúnas encantam os visitantes",
+      "url": "https://seama.es.gov.br/belezas-do-parque-estadual-de-itaunas-encanta",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "ijsn",
+      "institution": "Instituto Jones dos Santos Neves (ES)",
+      "title": "Nota Técnica 66: Vila de Itaúnas, qualificação urbana frente às melhorias de seu acesso viário",
+      "url": "https://ijsn.es.gov.br/Media/IJSN/PublicacoesAnexos/notatecnica/IJSN_NT66_Itaunas(2).pdf",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "pm-vegetacao",
+      "institution": "IEMA (ES)",
+      "title": "Plano de Manejo do Parque Estadual de Itaúnas, Encarte 4: meio biótico, vegetação (2004)",
+      "url": "https://iema.es.gov.br/Media/Downloads/GRN/2016.12.12%20-%20PEI%20-%20Plano%20Manejo%20-%2004_Biotipo_Vegetacao.pdf",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "pm-fauna",
+      "institution": "IEMA (ES)",
+      "title": "Plano de Manejo do Parque Estadual de Itaúnas, Encarte 4: meio biótico, fauna e flora (2004)",
+      "url": "https://iema.es.gov.br/Media/Downloads/GRN/2016.12.12%20-%20PEI%20-%20Plano%20Manejo%20-%2004_Biotipo_Faunaflora.pdf",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    },
+    {
+      "id": "scielo-flora",
+      "institution": "Rodriguésia (SciELO)",
+      "title": "Checklist de angiospermas do Parque Estadual de Itaúnas, Espírito Santo, Brasil",
+      "url": "https://www.scielo.br/j/rod/a/nQg9KnDy9ZmQFJFNyzTTbVb/?lang=pt",
+      "accessedAt": "2026-11-03",
+      "use": "fatos sobre o parque, as dunas, a vila e a vegetação"
+    }
+  ],
+  "approved": false,
+  "status": "rascunho",
+  "lastVerifiedAt": "2026-11-03",
+  "photoStatus": "curadoria_parcial",
+  "editorialNotes": "REVISAR COM O IEMA ANTES DE APROVAR. (1) Recorte: a vila de Itaúnas (festival de forró, igreja, pousadas) fica FORA do polígono do parque pelo teste de coordenadas; por isso só entra como contexto da história e numa frase sobre a cultura local. As fotos da praia de Itaúnas (Elizabeth Merlo, 2014) têm GPS fora do polígono e não foram usadas; o portão fechou com 4 lugares dentro do parque (dunas, interdunas e brejos, rio e alagado, local da vila soterrada). (2) Soterramento da vila: o IJSN (2022) diz década de 1950 e 60; Seama e IEMA citam entre os anos 50 e 70; o texto segue o IJSN. A causa (retirada da vegetação sobre as dunas) aparece em fontes que não foram lidas na íntegra (prefeitura de Conceição da Barra, plano de manejo); o texto só atribui ao IJSN a leitura geral de desequilíbrio causado pela ação humana. (3) Área: 3.481 ha (IEMA e SciELO), cerca de 3.500 ha (IJSN) e 3.536 ha no CNUC (cadastro do site); o texto usa 3.481 ha e 'cerca de 3,5 mil'. (4) UNESCO 1992: afirmação do IEMA e do IJSN; a lista do Patrimônio Mundial de 1999 (Reservas de Mata Atlântica do Sudeste e Costa do Descobrimento) pode não incluir Itaúnas como componente formal; por isso o texto atribui ao IEMA. Confirmar. (5) Altura das dunas: só há 'até 30 metros' no IJSN, referente aos anos 1980; Setur fala em até 30 m, sem medição oficial; o texto atribui a data. (6) Tartarugas: as fontes lidas (IEMA, IJSN, plano) não nomeiam a espécie que desova em Itaúnas; por isso não há tartaruga como destaque. Boto-cinza, baleia-jubarte e golfinho-do-rio-da-prata do levantamento GBIF não entram: o polígono usado no levantamento é a envoltória convexa e os registros são marinhos. (7) Guriri e guajuru (maçã-da-praia) não constam do levantamento GBIF do parque, mas o plano de manejo (2004) os cita no parque; são destaques com 2 fontes (plano e perfil botânico). (8) O plano de manejo é de 2004 (RT 152/02): fauna e ameaças podem estar desatualizadas; as estimativas de extinção local de onça-parda e porco-do-mato são do plano. (9) Festival Nacional de Forró: o IEMA o lista em julho; início (2001) e número de edições divergem entre fontes e não foram citados. (10) Fotos: duas de Vitor Jubini são do MTur (domínio público, crédito obrigatório); foto do alagado e do local da vila são de Lemoris e Daniele Longui. (11) Horários: IEMA (Centro de Visitantes das 8h às 17h) e Seama (2006, das 8h às 21h) divergem; usado o IEMA."
+}

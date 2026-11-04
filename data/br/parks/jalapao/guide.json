@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-11-03",
+  "hook": "Dunas alaranjadas, rios cristalinos e um capim que vira ouro, no coração do Cerrado.",
+  "intro": "No leste do Tocantins, em Mateiros, o Parque Estadual do Jalapão protege mais de 158 mil hectares de Cerrado sobre arenitos antigos. Dunas alaranjadas de até 40 metros, uma serra de escarpas de até 290 metros, fervedouros, rios de água cristalina e veredas de buriti formam uma paisagem que o Naturatins descreve como a maior área contínua de Cerrado do Brasil em alto grau de conservação.",
+  "sourceIds": [
+    "nat-23anos",
+    "to-20anos"
+  ],
+  "protects": {
+    "summary": "Um Cerrado conservado sobre dunas, serras de arenito e rios de água limpa",
+    "items": [
+      {
+        "title": "Dunas e serras de arenito",
+        "text": "O parque se assenta inteiramente sobre arenitos cretáceos da Formação Urucuia, de sedimentação eólica e lacustre. As serras formam um nível mais alto, entre 700 e 790 metros, acima de uma superfície de 400 a 500 metros, e as dunas ocupam a área de influência da Serra do Espírito Santo.",
+        "sourceIds": [
+          "nat-diagnostico"
+        ]
+      },
+      {
+        "title": "Veredas, campos e matas de galeria",
+        "text": "O diagnóstico do Naturatins reconhece campos limpos e sujos, cerrados de vários portes, cerradão, matas de galeria e matas ciliares, além das veredas de buriti. O campo sujo é a vegetação campestre mais comum.",
+        "sourceIds": [
+          "nat-diagnostico"
+        ]
+      },
+      {
+        "title": "A caixa-d'água do Tocantins",
+        "text": "O parque é considerado a caixa-d'água do estado por abrigar sub-bacias que abastecem sobretudo o rio Tocantins. Os rios Novo, Soninho e Preto o contornam, e o Novo tem planície de até 4,5 quilômetros de largura.",
+        "sourceIds": [
+          "nat-23anos",
+          "nat-diagnostico"
+        ]
+      },
+      {
+        "title": "Fauna e flora do Cerrado",
+        "text": "O levantamento do Naturatins reúne 407 espécies, das quais 10 endêmicas e 35 ameaçadas. Entre os destaques estão onça-pintada, lobo-guará, tatu-canastra, tamanduá-bandeira, anta, cachorro-vinagre, pato-mergulhão e arara-azul-grande.",
+        "sourceIds": [
+          "nat-diagnostico"
+        ]
+      },
+      {
+        "title": "Comunidades e capim-dourado",
+        "text": "Há comunidades quilombolas no interior do parque, como a Mumbuca, onde o artesanato de capim-dourado, uma sempre-viva dos campos úmidos perto das veredas, sustenta famílias. O Naturatins controla a coleta do capim-dourado e do buriti.",
+        "sourceIds": [
+          "nat-24anos",
+          "apa-parque",
+          "nat-capim"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Dunas do Jalapão",
+      "text": "Na área de influência da Serra do Espírito Santo, as dunas têm cerca de 2 quilômetros de comprimento e areia fina e alaranjada que chega a 40 metros de altura. São um dos lugares preferidos para ver o pôr do sol e, com a serra, receberam 53.966 visitantes em 2023. A entrada exige voucher e guia ou condutor ambiental cadastrado.",
+      "sourceIds": [
+        "nat-23anos",
+        "nat-diagnostico",
+        "nat-in-2024"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Dunas_e_Veredas.jpg/1920px-Dunas_e_Veredas.jpg",
+        "author": "Julius Dadalti",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunas_e_Veredas.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Dunas de areia alaranjada com veredas de buriti e a serra ao fundo",
+        "context": "Ondulações de areia nas Dunas do Jalapão, com veredas de buriti e a Serra do Espírito Santo ao fundo."
+      }
+    },
+    {
+      "title": "Serra do Espírito Santo",
+      "text": "Uma serra de cerca de 22 por 9 quilômetros, com 798 metros de altitude máxima e escarpas de 250 a 290 metros. A trilha até o topo tem cerca de 8 quilômetros, ida e volta, e as entradas são de 5 às 9 e de 14 às 16 horas. Do mirante se vê o nascer e o pôr do sol.",
+      "sourceIds": [
+        "nat-diagnostico",
+        "nat-23anos",
+        "nat-in-2024",
+        "to-curiosidades"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Serra_do_Esp%C3%ADrito_Santo_Lagoa_Dunas.jpg/1920px-Serra_do_Esp%C3%ADrito_Santo_Lagoa_Dunas.jpg",
+        "author": "Victor Hugo Franco",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_do_Esp%C3%ADrito_Santo_Lagoa_Dunas.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A escarpa da Serra do Espírito Santo, com lagoa e um buriti em primeiro plano",
+        "context": "A Serra do Espírito Santo e uma lagoa entre as dunas e as veredas do Jalapão."
+      }
+    },
+    {
+      "title": "Fervedouros",
+      "text": "Nascentes de rios subterrâneos que formam pequenos lagos de água cristalina e borbulhante. O Naturatins catalogou 122 fervedouros na região do Jalapão, e só alguns recebem visitantes. O governo do Tocantins os inclui entre as atrações do parque, e o diagnóstico do Naturatins alerta que a visitação intensa causa erosão e que o acesso de veículos ao principal foi interditado.",
+      "sourceIds": [
+        "to-curiosidades",
+        "to-15anos",
+        "nat-diagnostico"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Fervedouro_da_Glorinha_-_Parque_Estadual_do_Jalap%C3%A3o.JPG/1920px-Fervedouro_da_Glorinha_-_Parque_Estadual_do_Jalap%C3%A3o.JPG",
+        "author": "DianesGomes",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fervedouro_da_Glorinha_-_Parque_Estadual_do_Jalap%C3%A3o.JPG",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Pequeno lago de água azulada e leitosa entre bananeiras e mata",
+        "context": "Um fervedouro do Jalapão, pequeno lago formado por água que brota da areia, cercado de bananeiras."
+      }
+    },
+    {
+      "title": "Veredas de buriti",
+      "text": "Os brejos de buriti riscam o campo e o cerrado: são as veredas. Nos campos úmidos perto delas cresce o capim-dourado. Vistas das dunas, formam linhas verdes entre o laranja da areia.",
+      "sourceIds": [
+        "nat-diagnostico",
+        "to-curiosidades",
+        "nat-capim"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Jalap%C3%A3o_-_Tocantins_-_Brasil.jpg/1920px-Jalap%C3%A3o_-_Tocantins_-_Brasil.jpg",
+        "author": "Marcelo85photo",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jalap%C3%A3o_-_Tocantins_-_Brasil.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Uma serra de topo plano ao fundo e veredas de buriti na planície",
+        "context": "Veredas de buriti na planície do Jalapão, com uma serra de topo plano ao fundo."
+      }
+    },
+    {
+      "title": "Quilombo Mumbuca",
+      "text": "A 22 quilômetros de Mateiros, é conhecido pelo artesanato de capim-dourado, feito há mais de 70 anos e hoje a principal fonte de sustento de muitas famílias. O Naturatins situa a comunidade no interior do parque.",
+      "sourceIds": [
+        "nat-capim",
+        "to-capim-colheita",
+        "apa-parque",
+        "nat-24anos"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Povoado_Mumbuca.jpg/1920px-Povoado_Mumbuca.jpg",
+        "author": "Ffpaniago",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Povoado_Mumbuca.jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Casa de adobe com cobertura de palha no povoado Mumbuca",
+        "context": "Casa de adobe com cobertura de palha no povoado quilombola da Mumbuca, em Mateiros."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O parque foi criado em 12 de janeiro de 2001 e tem mais de 158 mil hectares, concentrados no município de Mateiros.",
+      "sourceIds": [
+        "nat-23anos"
+      ]
+    },
+    {
+      "text": "Em 2023, as Dunas e a Serra do Espírito Santo receberam 53.966 visitantes, 6.095 a mais que em 2022.",
+      "sourceIds": [
+        "nat-23anos"
+      ]
+    },
+    {
+      "text": "O melhor período para visitar é a estação seca, de maio a setembro; de outubro a abril, as chuvas podem atrapalhar os passeios.",
+      "sourceIds": [
+        "nat-23anos"
+      ]
+    },
+    {
+      "text": "Desde maio de 2024, a entrada nas Dunas e na Serra do Espírito Santo exige voucher e guia ou condutor ambiental cadastrado, com limite diário de 600 pessoas nas Dunas e 250 na Serra.",
+      "sourceIds": [
+        "nat-in-2024"
+      ]
+    },
+    {
+      "text": "O capim-dourado não é uma gramínea: pertence à família das sempre-vivas, e as hastes só saem da região na forma de artesanato.",
+      "sourceIds": [
+        "to-capim-colheita"
+      ]
+    },
+    {
+      "text": "O parque já serviu de cenário a um reality show internacional e a uma novela em horário nobre.",
+      "sourceIds": [
+        "to-20anos"
+      ]
+    },
+    {
+      "text": "É a maior unidade de conservação de proteção integral do Tocantins e a que mais recebe turistas, segundo a gerência de unidades de conservação do Naturatins.",
+      "sourceIds": [
+        "nat-24anos"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há milhões de anos · O chão de arenito",
+      "text": "A Formação Urucuia, de arenitos depositados pelo vento e por lagos, forma o chão do parque. O diagnóstico do Naturatins situa a fase árida em que ela se depositou há cerca de 136 milhões de anos.",
+      "sourceIds": [
+        "nat-diagnostico"
+      ]
+    },
+    {
+      "title": "Há mais de 70 anos · O artesanato dourado",
+      "text": "Na comunidade negra da Mumbuca, em Mateiros, o artesanato de capim-dourado é feito há mais de 70 anos e ficou conhecido a partir de meados da década de 1990.",
+      "sourceIds": [
+        "nat-capim"
+      ]
+    },
+    {
+      "title": "2001 · Nasce o parque",
+      "text": "Em 12 de janeiro, a Lei Estadual 1.203 cria o Parque Estadual do Jalapão, unidade de proteção integral do Tocantins, criada para a pesquisa e o turismo.",
+      "sourceIds": [
+        "nat-23anos",
+        "to-20anos"
+      ]
+    },
+    {
+      "title": "2003 · Pesquisa com a Mumbuca",
+      "text": "Em agosto, começa um estudo sobre o manejo do capim-dourado feito com a comunidade da Mumbuca pela ONG Pequi e pelo Ibama, com apoio do Naturatins, da UnB e da Embrapa.",
+      "sourceIds": [
+        "nat-capim"
+      ]
+    },
+    {
+      "title": "Setembro · A colheita",
+      "text": "A colheita do capim-dourado é regulamentada: começa em 20 de setembro e vai até novembro, com a Festa da Colheita na Mumbuca. Em 2021, cerca de 1,5 mil artesãos e extrativistas autorizados participaram.",
+      "sourceIds": [
+        "to-capim-colheita"
+      ]
+    },
+    {
+      "title": "2024 · Voucher e guia obrigatórios",
+      "text": "Em 15 de maio, a Instrução Normativa 02/2024 do Naturatins passa a exigir voucher e guia ou condutor ambiental para entrar nas Dunas e na Serra do Espírito Santo, com limites diários de 600 e 250 pessoas.",
+      "sourceIds": [
+        "nat-in-2024"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Mergus octosetaceus",
+      "name": "Pato-mergulhão",
+      "criteria": [
+        "ameacada_com_acao",
+        "habitat_critico"
+      ],
+      "why": "Pato de rios de água limpa e corrente, ameaçado de extinção. O Naturatins o cita entre as espécies do parque e considera prioritário para o estado o projeto de conservação da espécie no rio Novo, que margeia a unidade.",
+      "sourceIds": [
+        "nat-24anos",
+        "pan-pato"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mergus_octosetaceus%2C_por_S%C3%A1vio_Freire_Bruno.jpg/960px-Mergus_octosetaceus%2C_por_S%C3%A1vio_Freire_Bruno.jpg",
+        "author": "Sávio Freire Bruno",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mergus_octosetaceus,_por_S%C3%A1vio_Freire_Bruno.jpg",
+        "width": 960,
+        "height": 688,
+        "alt": "Pato-mergulhão (Mergus octosetaceus)",
+        "context": "Pato-mergulhão, Mergus octosetaceus. Foto ilustrativa da espécie, feita em outra área de Cerrado."
+      }
+    },
+    {
+      "scientificName": "Chrysocyon brachyurus",
+      "name": "Lobo-guará",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "O maior canídeo da América do Sul vive em campos, savanas e matas de borda. O Naturatins o inclui entre os destaques da fauna do parque, que descreve como a maior área contínua de Cerrado do Brasil em alto grau de conservação.",
+      "sourceIds": [
+        "nat-diagnostico",
+        "pan-lobo"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg/1280px-Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_%2807%29.jpg",
+        "author": "Ferrarezi Jr.",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chrysocyon_brachyurus_no_Parque_Nacional_da_Serra_da_Canastra_por_Celso_Ferrarezi_Jr_(07).jpg",
+        "width": 1280,
+        "height": 853,
+        "alt": "Lobo-guará (Chrysocyon brachyurus)",
+        "context": "Lobo-guará, Chrysocyon brachyurus. Foto ilustrativa da espécie, feita em outra área de Cerrado."
+      }
+    },
+    {
+      "scientificName": "Anodorhynchus hyacinthinus",
+      "name": "Arara-azul-grande",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "A maior ave da família dos papagaios, classificada como Vulnerável pela IUCN, vive em áreas semiabertas com estação seca, como cerrados e palmeirais. Está entre as espécies citadas pelo Naturatins para o parque.",
+      "sourceIds": [
+        "nat-diagnostico",
+        "fapesp-arara"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/1280px-104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "author": "Giles Laurent",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:104_Hyacinth_macaw_with_Pink_Ip%C3%AA_tree_in_background_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg",
+        "width": 1280,
+        "height": 1600,
+        "alt": "Arara-azul-grande (Anodorhynchus hyacinthinus)",
+        "context": "Arara-azul-grande, Anodorhynchus hyacinthinus. Foto ilustrativa da espécie, feita em outra área."
+      }
+    },
+    {
+      "scientificName": "Mauritia flexuosa",
+      "name": "Buriti",
+      "criteria": [
+        "icone_da_paisagem"
+      ],
+      "why": "A palmeira que desenha as veredas, brejos de fundo de vale que cortam o campo e o cerrado do Jalapão. É uma das plantas em destaque no diagnóstico do Naturatins.",
+      "sourceIds": [
+        "nat-diagnostico",
+        "embrapa-buriti"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/8263767/large.jpeg",
+        "author": "Carlos Ruiz",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/8263767",
+        "width": 1024,
+        "height": 768,
+        "alt": "Buriti (Mauritia flexuosa)",
+        "context": "Buriti, Mauritia flexuosa. Foto ilustrativa da espécie, feita em outra área de Cerrado."
+      }
+    },
+    {
+      "scientificName": "Syngonanthus nitens",
+      "name": "Capim-dourado",
+      "criteria": [
+        "cultural",
+        "habitat_critico"
+      ],
+      "why": "Sempre-viva dos campos úmidos perto das veredas, de cujas hastes douradas se faz o artesanato da comunidade da Mumbuca. O Naturatins controla a coleta: ela vai de 20 de setembro a novembro, e as hastes só saem da região como artesanato.",
+      "sourceIds": [
+        "nat-capim",
+        "to-capim-colheita",
+        "nat-24anos"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Capim_Dourado.JPG/1920px-Capim_Dourado.JPG",
+        "author": "Daniel.zilenovski",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capim_Dourado.JPG",
+        "width": 1920,
+        "height": 1275,
+        "alt": "Inflorescência dourada do capim-dourado em um campo úmido",
+        "context": "Inflorescências do capim-dourado, Syngonanthus nitens, em campo do Jalapão."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "nat-diagnostico",
+      "institution": "Naturatins (TO)",
+      "title": "Áreas protegidas: Parque Estadual do Jalapão (diagnóstico)",
+      "url": "https://gesto.to.gov.br/uc/45/projetos/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "nat-23anos",
+      "institution": "Naturatins (TO)",
+      "title": "Com paisagens paradisíacas, o Parque Estadual do Jalapão completa 23 anos",
+      "url": "https://www.to.gov.br/naturatins/noticias/com-paisagens-paradisiacas-o-parque-estadual-do-jalapao-completa-23-anos-nesta-sexta-12/tz0zu6sh60o",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "to-20anos",
+      "institution": "Governo do Tocantins",
+      "title": "Parque Estadual do Jalapão completa 20 anos e se consolida como a joia do turismo tocantinense",
+      "url": "https://www.to.gov.br/noticias/parque-estadual-do-jalapao-completa-20-anos-e-se-consolida-como-a-joia-do-turismo-tocantinense/4vikzdziuizp",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "to-curiosidades",
+      "institution": "Governo do Tocantins",
+      "title": "Conheça curiosidades sobre os atrativos que o Ministro do Turismo veio conhecer no Jalapão",
+      "url": "https://www.to.gov.br/noticias/conheca-curiosidades-sobre-os-atrativos-que-o-ministro-do-turismo-veio-conhecer-no-jalapao/563v52lsm5yl",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "to-capim-colheita",
+      "institution": "Secom-TO",
+      "title": "Colheita do capim-dourado prossegue até o mês de novembro",
+      "url": "https://www.to.gov.br/secom/noticias/colheita-do-capim-dourado-prossegue-ate-o-mes-de-novembro/wmlhgzzxvnv",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "nat-capim",
+      "institution": "Naturatins (TO)",
+      "title": "Extrativismo de capim-dourado no Jalapão: potencialidades e perigos",
+      "url": "https://www.to.gov.br/naturatins/noticias/artigo-extrativismo-de-capim-dourado-no-jalapao-potencialidades-e-perigos-projeto-conservacao-e-manejo-de-capim-dourado-no-jalapaoparceria-ibama-pequi-pesquisa-e-conservacao-do-cerrado/2z43txg9h1rg",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pan-pato",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação do pato-mergulhão",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-pato-mergulhao/1-ciclo/pan-pato-mergulhao-sumario.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pan-lobo",
+      "institution": "ICMBio",
+      "title": "Sumário executivo do Plano de Ação Nacional para a Conservação do lobo-guará",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/pan/pan-lobo-guara/1-ciclo/pan-lobo-guara-sumario.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "fapesp-arara",
+      "institution": "Revista Pesquisa Fapesp",
+      "title": "A arara-azul-grande",
+      "url": "https://revistapesquisa.fapesp.br/wp-content/uploads/2022/10/047-049_arara-azul_321.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "embrapa-buriti",
+      "institution": "Embrapa",
+      "title": "Buriti (Fauna e Flora)",
+      "url": "https://cloud.cnpgc.embrapa.br/faunaeflora/plantas-uteis/buriti-mauritia-flexuosa/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "nat-in-2024",
+      "institution": "Naturatins (TO)",
+      "title": "Instrução Normativa nº 02/2024: visitação turística nos atrativos das Dunas e Serra do Espírito Santo, no Parque Estadual do Jalapão (Diário Oficial de 21/05/2024)",
+      "url": "https://central.to.gov.br/download/416184",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "nat-24anos",
+      "institution": "Governo do Tocantins",
+      "title": "Parque Estadual do Jalapão celebra 24 anos com enfoque em sustentabilidade e turismo consciente",
+      "url": "https://www.to.gov.br/secom/noticias/parque-estadual-do-jalapao-celebra-24-anos-com-enfoque-em-sustentabilidade-e-turismo-consciente/43i8qbpe447z",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "apa-parque",
+      "institution": "Naturatins (TO)",
+      "title": "APA e Parque do Jalapão: áreas protegidas que ajudam a regular a ação do homem",
+      "url": "https://www.to.gov.br/naturatins/noticias/apa-e-parque-do-jalapao-areas-protegidas-que-ajudam-a-regular-a-acao-do-homem/z50xwcl4p3x",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "to-15anos",
+      "institution": "Governo do Tocantins",
+      "title": "Parque Estadual do Jalapão completa 15 anos como Unidade de Conservação Integral no Tocantins",
+      "url": "https://www.to.gov.br/secom/noticias/parque-estadual-do-jalapao-completa-15-anos-como-unidade-de-conservacao-integral-no-tocantins/4evn98k39kk4",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "nat-velha",
+      "institution": "Naturatins (TO)",
+      "title": "Trilha da Cachoeira da Velha é reaberta à visitação",
+      "url": "https://www.to.gov.br/naturatins/noticias/trilha-da-cachoeira-da-velha-e-reaberta-a-visitacao/5yrjhjwqn0n5",
+      "accessed": "2026-11-03"
+    }
+  ]
+}

@@ -23,7 +23,7 @@ export default function SobrePage() {
         Sobre e créditos
       </h1>
       <p className="mt-4 text-[17px] leading-relaxed">
-        {SITE.name} é um atlas dos 77 parques nacionais do Brasil, do mapa do país até cada atração. O objetivo é
+        {SITE.name} é um atlas das áreas protegidas do Brasil, a começar pelos 77 parques nacionais, do mapa do país até cada atração. O objetivo é
         encantar com informação rigorosa e incentivar quem visita a conhecer e proteger esses lugares.
       </p>
 
