@@ -27,7 +27,7 @@ export function BiomeExplorer() {
       <p className="mt-1 text-sm leading-relaxed text-ink-soft">Escolha um bioma para destacá-lo no mapa. Cada parque entra pelo bioma predominante.</p>
       {estaduais > 0 && (
         <ul className="mt-3 flex flex-wrap gap-2" aria-label="Esfera">
-          {([["nacional", "Parques nacionais", index.parks.length - estaduais], ["estadual", "Áreas estaduais", estaduais]] as const).map(([v, label, n]) => (
+          {([["nacional", "Parques nacionais", index.parks.length - estaduais], ["estadual", "Estaduais e outras", estaduais]] as const).map(([v, label, n]) => (
             <li key={v}>
               <button
                 type="button"

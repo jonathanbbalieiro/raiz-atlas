@@ -48,7 +48,7 @@ export function BiomeFilter() {
                 sphere && !selected ? "opacity-60" : "",
               ].join(" ")}
             >
-              {v === "nacional" ? "Parques nacionais" : "Áreas estaduais"}
+              {v === "nacional" ? "Parques nacionais" : "Estaduais e outras"}
               <span className={`tabular-nums ${selected ? "text-card/80" : "text-ink-soft"}`}>{n}</span>
             </button>
           </li>

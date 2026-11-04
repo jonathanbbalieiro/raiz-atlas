@@ -163,5 +163,59 @@
     ],
     "source": "cnuc",
     "cnuc": "0000.51.1916"
+  },
+  {
+    "slug": "serra-do-mar",
+    "name": "Parque Estadual da Serra do Mar",
+    "shortName": "Serra do Mar",
+    "category": "PE",
+    "categoryLabel": "Parque Estadual",
+    "manager": "estadual",
+    "ufs": [
+      "SP"
+    ],
+    "biomes": [
+      "mata_atlantica"
+    ],
+    "source": "cnuc",
+    "cnuc": "0000.35.0798"
+  },
+  {
+    "slug": "mamiraua",
+    "name": "Reservas de Desenvolvimento Sustentável Mamirauá e Amanã",
+    "shortName": "Mamirauá e Amanã",
+    "category": "RDS",
+    "categoryLabel": "Reservas de Desenvolvimento Sustentável",
+    "manager": "estadual",
+    "ufs": [
+      "AM"
+    ],
+    "biomes": [
+      "amazonia"
+    ],
+    "source": "cnuc",
+    "cnuc": "0000.13.0986",
+    "also": [
+      "0000.13.0981"
+    ],
+    "override": {
+      "areaHa": 3623388
+    }
+  },
+  {
+    "slug": "tapajos",
+    "name": "Floresta Nacional do Tapajós",
+    "shortName": "Tapajós",
+    "category": "FLONA",
+    "categoryLabel": "Floresta Nacional",
+    "manager": "federal",
+    "ufs": [
+      "PA"
+    ],
+    "biomes": [
+      "amazonia"
+    ],
+    "source": "cnuc",
+    "cnuc": "0000.00.0123"
   }
 ]

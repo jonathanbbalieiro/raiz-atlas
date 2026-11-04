@@ -11,7 +11,7 @@ export const SITE = {
   name: "Raiz",
   tagline: "Atlas das áreas protegidas do Brasil",
   description:
-    "Raiz é um atlas das áreas protegidas do Brasil: os 77 parques nacionais e uma seleção de áreas estaduais, com mapa interativo do país até cada atração e Expedições editoriais com fontes e fotografias creditadas.",
+    "Raiz é um atlas das áreas protegidas do Brasil: os 77 parques nacionais e uma seleção de áreas estaduais e florestas nacionais, com mapa interativo do país até cada atração e Expedições editoriais com fontes e fotografias creditadas.",
   // Defina NEXT_PUBLIC_SITE_URL na Vercel para URLs canônicas e Open Graph absolutos.
   url: resolveSiteUrl(process.env.NEXT_PUBLIC_SITE_URL, process.env.VERCEL_PROJECT_PRODUCTION_URL),
   defaultCountry: "br",
