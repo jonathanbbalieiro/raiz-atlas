@@ -90,8 +90,8 @@ async function describe(node: PlaceNode): Promise<string> {
     case "admin1": {
       const n = (await repo.listParks(node.path[0], node.slug)).length;
       return n
-        ? `${plural(n, "parque nacional", "parques nacionais")} em ${node.name}, no mapa interativo: biomas, área, fotos e como explorar.`
-        : `${node.name} não tem parque nacional. Veja os parques mais próximos no mapa interativo.`;
+        ? `${plural(n, "área protegida", "áreas protegidas")} em ${node.name}, no mapa interativo: biomas, área, fotos e como explorar.`
+        : `${node.name} não tem área protegida no atlas. Veja as mais próximas no mapa interativo.`;
     }
     case "park":
     case "attraction":

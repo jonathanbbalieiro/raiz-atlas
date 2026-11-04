@@ -258,8 +258,8 @@ export function MapView({ getPadding, layoutKey }: Props) {
             tip(
               a.name,
               a.parkCount
-                ? plural(a.parkCount, "parque nacional", "parques nacionais")
-                : "Sem parque nacional",
+                ? plural(a.parkCount, "área protegida", "áreas protegidas")
+                : "Sem área protegida",
             );
             r.prefetch(href([idx.country, a.slug]));
             break;
@@ -626,7 +626,7 @@ export function MapView({ getPadding, layoutKey }: Props) {
         ref={containerRef}
         className="h-full w-full"
         role="region"
-        aria-label="Mapa interativo dos parques nacionais. Todo o conteúdo também está no painel, em forma de lista."
+        aria-label="Mapa interativo das áreas protegidas. Todo o conteúdo também está no painel, em forma de lista."
       />
       <MapControls
         ready={ready}

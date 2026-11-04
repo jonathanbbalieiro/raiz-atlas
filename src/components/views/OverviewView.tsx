@@ -47,16 +47,16 @@ export async function OverviewView({ country }: { country: Country }) {
       <div className="px-5 pt-7">
         <p className="text-xs font-semibold tracking-[0.18em] text-earth uppercase">Atlas do Brasil natural</p>
         <h1 className="mt-2 font-display text-[34px] leading-[1.05] font-semibold text-forest-deep text-balance">
-          Conheça o Brasil pelos seus parques nacionais
+          Conheça o Brasil pelas suas áreas protegidas
         </h1>
         <p className="mt-3 text-[15px] leading-relaxed text-ink-soft">
-          Mapa, guias e expedições de {parks.length} parques, da Amazônia ao Pampa e ao mar. Toque num parque no mapa,
+          Mapa, guias e expedições de {parks.length} áreas protegidas, da Amazônia ao Pampa e ao mar. Toque numa área no mapa,
           escolha um bioma ou deixe o atlas sugerir por onde começar.
         </p>
 
         <dl className="mt-7 grid grid-cols-3 border-y border-line py-4">
-          <Figure value={String(parks.length)} label="parques nacionais" />
-          <Figure value={String(ufs)} label="estados com parques" divider />
+          <Figure value={String(parks.length)} label="áreas protegidas" />
+          <Figure value={String(ufs)} label="estados com áreas" divider />
           <Figure value={formatArea(area, { short: true })} label="protegidos" divider />
         </dl>
         {oldest && (
@@ -143,7 +143,7 @@ export async function OverviewView({ country }: { country: Country }) {
       <p className="text-xs font-semibold tracking-[0.18em] text-earth uppercase">Sobre o Raiz</p>
       <h2 className="mt-2 font-display text-[30px] leading-[1.08] font-semibold text-forest-deep text-balance">Um atlas para encantar e proteger</h2>
       <p className="mt-3 text-[15px] leading-relaxed text-ink">
-        O {SITE.name} reúne os {stats.parks} parques nacionais do Brasil num só mapa, do país até cada atração. A ideia é
+        O {SITE.name} reúne {stats.parks} áreas protegidas do Brasil, dos parques nacionais aos estaduais, num só mapa, do país até cada atração. A ideia é
         encantar com informação rigorosa e incentivar quem visita a conhecer e proteger esses lugares.
       </p>
 
@@ -151,7 +151,7 @@ export async function OverviewView({ country }: { country: Country }) {
         <Figure value={String(stats.guides)} label="guias de parque" left />
         <Figure value={String(stats.expeditions)} label="expedições editoriais" left />
         <Figure value={stats.species.toLocaleString("pt-BR")} label="espécies nos levantamentos" left />
-        <Figure value={String(ufs)} label="estados com parques" left />
+        <Figure value={String(ufs)} label="estados com áreas" left />
       </dl>
 
       <h3 className="mt-8 font-display text-xl font-semibold text-forest-deep">O que você encontra</h3>

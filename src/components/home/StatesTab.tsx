@@ -47,7 +47,7 @@ export function StatesTab() {
           )}
         </span>
         <span className="flex items-center gap-2 text-xs text-ink-soft">
-          {r.shown > 0 ? <span className="tabular-nums"><span className="text-sm font-semibold text-forest-deep">{r.shown}</span> {r.shown === 1 ? "parque" : "parques"}</span> : <span>{r.parkCount ? "nenhum no filtro" : "sem parque nacional"}</span>}
+          {r.shown > 0 ? <span className="tabular-nums"><span className="text-sm font-semibold text-forest-deep">{r.shown}</span> {r.shown === 1 ? "área" : "áreas"}</span> : <span>{r.parkCount ? "nenhum no filtro" : "sem parque nacional"}</span>}
           <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" className="shrink-0 transition-transform group-hover:translate-x-0.5">
             <path d="M6 3l5 5-5 5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
           </svg>
@@ -61,7 +61,7 @@ export function StatesTab() {
       <p className="text-xs font-semibold tracking-[0.14em] text-earth uppercase">Território</p>
       <h2 id="estados-titulo" className="mt-1 font-display text-[28px] leading-tight font-semibold text-forest-deep">Parques por estado</h2>
       <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
-        {total} {total === 1 ? "unidade da federação tem" : "unidades da federação têm"} parques nacionais{biomes ? " no filtro atual" : ""}. Parques que cruzam divisas contam em cada estado que abrangem.
+        {total} {total === 1 ? "unidade da federação tem" : "unidades da federação têm"} áreas protegidas{biomes ? " no filtro atual" : ""}. Parques que cruzam divisas contam em cada estado que abrangem.
       </p>
       {biomes && (
         <p className="mt-1 text-xs text-ink-soft">
@@ -85,7 +85,7 @@ export function StatesTab() {
       </ul>
       {without.length > 0 && (
         <>
-          <h3 className="mt-6 text-xs font-semibold tracking-[0.14em] text-ink-soft uppercase">Sem parque nacional{biomes ? " no filtro" : ""}</h3>
+          <h3 className="mt-6 text-xs font-semibold tracking-[0.14em] text-ink-soft uppercase">Sem área protegida{biomes ? " no filtro" : ""}</h3>
           <ul className="mt-1 border-t border-line" onMouseLeave={() => setHighlight(null)}>{without.map(item)}</ul>
         </>
       )}

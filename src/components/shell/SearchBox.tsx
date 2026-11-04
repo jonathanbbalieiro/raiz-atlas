@@ -86,8 +86,8 @@ export function SearchBox() {
         path: [index.country, a.slug],
         title: a.name,
         subtitle: a.parkCount
-          ? plural(a.parkCount, "parque nacional", "parques nacionais")
-          : "Sem parque nacional",
+          ? plural(a.parkCount, "área protegida", "áreas protegidas")
+          : "Sem área protegida",
         haystack: [normalize(a.name), normalize(a.code)],
       })),
     ],

@@ -138,7 +138,7 @@
   {
     "slug": "jalapao",
     "cnuc": "0000.17.1486",
-    "name": "Parque Estadual do Jalapão",
+    "name": "Parque Estadual e APA do Jalapão",
     "shortName": "Jalapão",
     "ufs": [
       "TO"
@@ -147,26 +147,26 @@
     "biomes": [
       "cerrado"
     ],
-    "areaHa": 158970,
-    "createdYear": 2001,
-    "creationAct": "Lei ordinária 1.203 de 12-01-2001",
-    "category": "PE",
-    "categoryLabel": "Parque Estadual",
+    "areaHa": 461730,
+    "createdYear": 2000,
+    "creationAct": "Lei Estadual 1.172, de 31 de julho de 2000 (APA); Lei Estadual 1.203, de 12 de janeiro de 2001 (Parque Estadual)",
+    "category": "PE-APA",
+    "categoryLabel": "Parque Estadual e Área de Proteção Ambiental",
     "manager": "estadual",
     "officialSource": {
       "title": "MMA: Cadastro Nacional de Unidades de Conservação (CNUC), camada cnuc_2025_08 (GeoServer INDE)",
       "url": "https://geoservicos.inde.gov.br/geoserver/MMA/ows?service=WFS&request=GetCapabilities"
     },
     "labelPoint": [
-      -46.6885,
-      -10.3769
+      -46.7233,
+      -10.3443
     ],
     "admin1": "to",
     "bbox": [
-      -46.9342,
-      -10.6088,
-      -46.4074,
-      -10.1484
+      -47.3802,
+      -10.6606,
+      -46.2272,
+      -10.0202
     ]
   },
   {

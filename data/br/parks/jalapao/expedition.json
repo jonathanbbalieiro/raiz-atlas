@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "officialName": "Parque Estadual do Jalapão",
+  "officialName": "Parque Estadual e APA do Jalapão",
   "title": "Jalapão: um mar de areia dourada no meio do Cerrado",
   "subtitle": "No leste do Tocantins, dunas alaranjadas, uma serra de escarpas altas, fervedouros, rios de água cristalina e um capim que vira artesanato desenham uma das paisagens mais singulares do Brasil.",
-  "centralQuestion": "Como um parque de dunas, serras e rios limpos se mantém quase intocado no meio do Cerrado?",
+  "centralQuestion": "Como um território de dunas, serras e rios limpos se mantém quase intocado no meio do Cerrado?",
   "introduction": [
     "No leste do Tocantins, o Cerrado esconde um cenário que parece de outro lugar: dunas de areia alaranjada, serras de topo plano, rios de água transparente e brejos de buriti que riscam o campo. É o Jalapão.",
-    "O Parque Estadual do Jalapão, criado em 2001, ocupa mais de 158 mil hectares no município de Mateiros. Segundo o Naturatins, que o administra, é a maior área contínua de Cerrado do Brasil em alto grau de conservação."
+    "O Parque Estadual do Jalapão, criado em 2001, ocupa mais de 158 mil hectares no município de Mateiros. A APA do Jalapão, criada em 2000, soma 461.730 hectares de uso sustentável. Segundo o Naturatins, a região é a maior área contínua de Cerrado do Brasil em alto grau de conservação."
   ],
   "cover": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/O_p%C3%B4r_do_Sol_nas_Dunas_do_Jalap%C3%A3o.jpg/1920px-O_p%C3%B4r_do_Sol_nas_Dunas_do_Jalap%C3%A3o.jpg",
@@ -114,12 +114,14 @@
     {
       "id": "aguas",
       "eyebrow": "03 · A água cristalina",
-      "title": "Rios, nascentes de areia e o rio Novo",
+      "title": "Rios, cachoeiras e nascentes de areia",
       "question": "De onde vem tanta água limpa?",
       "paragraphs": [
         "O parque é considerado a caixa-d'água do Tocantins: abriga sub-bacias que abastecem sobretudo o rio Tocantins. O rio Novo o margeia a oeste e a sudoeste, o Soninho corre ao norte e a leste e o Preto, ao sul.",
         "Em vários pontos, a água brota da areia. São os fervedouros, nascentes de rios subterrâneos que formam pequenos lagos de água cristalina e borbulhante. O Naturatins catalogou 122 na região, e só alguns recebem visitantes. A visitação intensa causa erosão: no principal fervedouro, o acesso de veículos foi interditado.",
-        "O rio Novo também é um dos refúgios do pato-mergulhão, ave ameaçada de extinção, e o projeto de conservação da espécie ali é considerado prioritário pelo estado. Quem procura a famosa Cachoeira da Velha, no mesmo rio, a encontra já na APA do Jalapão, a unidade de uso sustentável que cerca o parque."
+        "O rio Novo também é um dos refúgios do pato-mergulhão, ave ameaçada de extinção, e o projeto de conservação da espécie ali é considerado prioritário pelo estado. Do rio Novo vem também a cachoeira mais famosa da região, já na APA do Jalapão.",
+        "A Cachoeira da Velha, no rio Novo, tem formato de ferradura dupla, cerca de 15 metros de desnível e uns 100 metros de uma margem a outra. Uma árvore cresce no paredão entre as duas quedas, e o nome vem da lenda de uma mulher que amava essas águas. Uma trilha de 1 quilômetro liga a cachoeira à Prainha do Rio Novo, na própria APA.",
+        "Na região de Mateiros, a Cachoeira da Formiga é uma queda pequena que forma um grande poço de águas verde-esmeralda, tão claras que se recomenda levar snorkel."
       ],
       "sourceIds": [
         "nat-23anos",
@@ -153,6 +155,14 @@
         {
           "sourceId": "apa-parque",
           "locator": "seção APA do Jalapão"
+        },
+        {
+          "sourceId": "nat-velha",
+          "locator": "seções Localização e trilha e O que o visitante vê"
+        },
+        {
+          "sourceId": "to-curiosidades",
+          "locator": "seções Cachoeira da Velha e Cachoeira do Formiga"
         }
       ],
       "images": [
@@ -166,6 +176,28 @@
           "height": 1440,
           "alt": "Fervedouro de água azulada entre bananeiras e mata",
           "context": "Um fervedouro do Jalapão, onde a água brota da areia e forma um pequeno lago."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Cachoeira_da_Velha_..jpg/1920px-Cachoeira_da_Velha_..jpg",
+          "author": "Marcel Favery",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_Velha_..jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Quedas da Cachoeira da Velha em longa exposição, entre rochas e mata",
+          "context": "A Cachoeira da Velha em longa exposição, com a água corrente entre rochas escuras."
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/O_brilho_do_Rio_Novo.jpg/1920px-O_brilho_do_Rio_Novo.jpg",
+          "author": "Julius Dadalti",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:O_brilho_do_Rio_Novo.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "Corredeiras do rio Novo entre rochas avermelhadas, sob um céu de nuvens",
+          "context": "O rio Novo e suas corredeiras entre rochas avermelhadas."
         }
       ]
     },
@@ -292,6 +324,15 @@
         ]
       },
       {
+        "id": "2000",
+        "year": "2000",
+        "title": "Lei Estadual 1.172",
+        "description": "Em 31 de julho, é criada a APA do Jalapão, de uso sustentável.",
+        "sourceIds": [
+          "apa-parque"
+        ]
+      },
+      {
         "id": "2001",
         "year": "2001",
         "title": "Lei Estadual 1.203",
@@ -332,14 +373,14 @@
   },
   "keyFacts": [
     {
-      "label": "Área",
+      "label": "Parque Estadual",
       "value": "mais de 158 mil hectares",
       "sourceId": "nat-23anos"
     },
     {
-      "label": "Criação",
-      "value": "12 de janeiro de 2001",
-      "sourceId": "nat-23anos"
+      "label": "APA do Jalapão",
+      "value": "461.730 hectares",
+      "sourceId": "apa-parque"
     },
     {
       "label": "Dunas",
@@ -452,14 +493,6 @@
       "use": "comunidades do interior, pato-mergulhão no rio Novo e visitação"
     },
     {
-      "id": "apa-parque",
-      "institution": "Naturatins (TO)",
-      "title": "APA e Parque do Jalapão: áreas protegidas que ajudam a regular a ação do homem",
-      "url": "https://www.to.gov.br/naturatins/noticias/apa-e-parque-do-jalapao-areas-protegidas-que-ajudam-a-regular-a-acao-do-homem/z50xwcl4p3x",
-      "accessedAt": "2026-11-03",
-      "use": "diferença entre a APA e o parque; Quilombo Mumbuca"
-    },
-    {
       "id": "to-15anos",
       "institution": "Governo do Tocantins",
       "title": "Parque Estadual do Jalapão completa 15 anos como Unidade de Conservação Integral no Tocantins",
@@ -468,25 +501,33 @@
       "use": "atrações do parque"
     },
     {
-      "id": "nat-velha",
-      "institution": "Naturatins (TO)",
-      "title": "Trilha da Cachoeira da Velha é reaberta à visitação",
-      "url": "https://www.to.gov.br/naturatins/noticias/trilha-da-cachoeira-da-velha-e-reaberta-a-visitacao/5yrjhjwqn0n5",
-      "accessedAt": "2026-11-03",
-      "use": "Cachoeira da Velha e Prainha, na APA do Jalapão"
-    },
-    {
       "id": "embrapa-buriti",
       "institution": "Embrapa",
       "title": "Buriti (Fauna e Flora)",
       "url": "https://cloud.cnpgc.embrapa.br/faunaeflora/plantas-uteis/buriti-mauritia-flexuosa/",
       "accessedAt": "2026-11-03",
       "use": "veredas"
+    },
+    {
+      "id": "apa-parque",
+      "institution": "Naturatins (TO)",
+      "title": "APA e Parque do Jalapão: áreas protegidas que ajudam a regular a ação do homem",
+      "url": "https://www.to.gov.br/naturatins/noticias/apa-e-parque-do-jalapao-areas-protegidas-que-ajudam-a-regular-a-acao-do-homem/z50xwcl4p3x",
+      "accessedAt": "2026-11-03",
+      "use": "diferença entre a APA e o parque; Quilombo Mumbuca"
+    },
+    {
+      "id": "nat-velha",
+      "institution": "Naturatins (TO)",
+      "title": "Trilha da Cachoeira da Velha é reaberta à visitação",
+      "url": "https://www.to.gov.br/naturatins/noticias/trilha-da-cachoeira-da-velha-e-reaberta-a-visitacao/5yrjhjwqn0n5",
+      "accessedAt": "2026-11-03",
+      "use": "Cachoeira da Velha e Prainha, na APA do Jalapão"
     }
   ],
-  "approved": false,
-  "status": "rascunho",
+  "approved": true,
+  "status": "aprovado",
   "lastVerifiedAt": "2026-11-03",
   "photoStatus": "curadoria_parcial",
-  "editorialNotes": "REVISADO EM 03/11/2026 (conferência independente de fatos, fotos e recorte); ainda rascunho, aguarda decisão do Jonathan e do Naturatins. MUDANÇAS: (1) RECORTE PARQUE x APA. As coordenadas das fotos do Commons e o polígono do CNUC colocam a Cachoeira da Velha (-46,881; -10,270) e a Prainha do Rio Novo (-46,884; -10,261) FORA do parque, na APA do Jalapão, a 0,12 a 0,19 km da divisa; a Cachoeira da Formiga (-46,471; -10,333) também fora, a 0,04 km da divisa. O Naturatins confirma para a Velha e a Prainha: 'Situada na APA do Jalapão, a trilha tem início na Cachoeira da Velha' (notícia de 27/01/2020). A IN 02/2024 cobre só Dunas e Serra do Espírito Santo, 'localizados no PEJ' (art. 1º). Por isso as três saíram da lista de maravilhas e de toda descrição; só a Velha aparece em uma frase explicando que fica na APA. Textos oficiais do governo (Secom 2016) ainda as listam como 'atrações do parque'; a divergência é entre divulgação turística e limite legal. A versão anterior usava um ponto de GPS padrão do Commons (-46,675; -10,378) que repete em muitas fotos e fez parecer que 22 de 26 fotos da Formiga caíam dentro do parque; era erro. Dunas e Serra ficam a 2 a 3 km dentro da divisa. (2) MUMBUCA. O Naturatins diz que o Quilombo Mumbuca está 'localizado no Parque do Jalapão' (2021) e fala em 'comunidades quilombolas do interior do parque' (jan/2025); o ponto do OSM (-46,571; -10,345) cai dentro do polígono. Entrou como maravilha cultural. A colheita do capim-dourado, porém, é fiscalizada pela supervisão da APA (Secom, 2021): o texto não afirma que os campos de colheita ficam dentro do parque. (3) FERVEDOUROS. Antes fora do texto; agora entram de forma geral: o Naturatins cita fervedouro no povoado Mumbuca 'no Parque', o Secom (2016) os lista entre as atrações do parque, o diagnóstico trata da erosão deles, e uma foto de fervedouro (Glorinha) tem GPS 1,9 km dentro da divisa. Fora do parque ficam, pelas coordenadas, Bela Vista, Alecrim e Ceiça (perto de São Félix do Tocantins, 1 a 30 km fora) e, na divisa/APA, o dos Buritis; o Buritizinho fica na Fazenda Formiga (propriedade privada, ingresso pago). O texto não nomeia fervedouro específico, e a identificação do 'Fervedouro da Glorinha' vem só do nome do arquivo no Commons e do GPS (CONFIRMAR com o Naturatins se existe e se está aberto). (4) VISITAÇÃO. As regras de 2020 saíram; vale a IN 02/2024 (15/05/2024; DO 21/05/2024), que revoga a IN 010/2023: Dunas 600/dia (200 manhã, 400 tarde), Serra 250/dia; entradas Dunas 6h-10h e 14h-17h30, Serra 5h-9h e 14h-16h; voucher único, guia ou condutor ambiental, drones só com autorização (IN 04/2019), proibido acampar, fogueira, álcool, som, animais, coleta. O art. 4º diz 'no máximo, 12 (dez) pessoas' por guia (12 ou 10?): o texto não cita o tamanho do grupo. Preços e valor do voucher não constam da norma e não foram citados. (5) VISITANTES. O dado mais recente por atrativo é 53.966 em 2023 (Dunas e Serra, +6.095 sobre 2022); a notícia de 13/01/2025 fala em 'mais de 50 mil'. Não achei dados de 2024 e 2025. (6) ONÇA-PINTADA E TATU-CANASTRA continuam fora dos destaques: só o diagnóstico (gesto.to.gov.br/uc/45, sem data) as nomeia; a notícia de 2016 e a de 2021 citam 'onças' e 'tamanduás-bandeiras' sem espécie. O levantamento GBIF tem 3 registros de onça-pintada no polígono. PATO-MERGULHÃO ganhou segunda fonte forte (Naturatins 2025: projeto prioritário no rio Novo). (7) FOTOS: autoria e licença de todas conferem com o Commons; a Cachoeira da Velha, a da Formiga e a Prainha saíram do guia e da Expedição; entraram fervedouro (DianesGomes) e Mumbuca (Ffpaniago). (8) Idade da Formação Urucuia: o diagnóstico do Naturatins diz 136 milhões de anos para a fase árida; a literatura cita Cretáceo Superior (Turoniano) e Cretáceo Inferior; o texto atribui o número ao Naturatins. (9) 'Maior área contínua de Cerrado em alto grau de conservação' é fala do Naturatins/diretor do parque, atribuída. (10) A página gesto.to.gov.br/uc/45 foi lida inteira (a parte final só trata de clima). (11) Datas das fontes: 2016, 2020, 2021, 2024 e 2025; a IN 02/2024 e a notícia de 2025 são as mais recentes."
+  "editorialNotes": "REVISADO EM 03/11/2026 (conferência independente de fatos, fotos e recorte); ainda rascunho, aguarda decisão do Jonathan e do Naturatins. MUDANÇAS: (1) RECORTE PARQUE x APA. As coordenadas das fotos do Commons e o polígono do CNUC colocam a Cachoeira da Velha (-46,881; -10,270) e a Prainha do Rio Novo (-46,884; -10,261) FORA do parque, na APA do Jalapão, a 0,12 a 0,19 km da divisa; a Cachoeira da Formiga (-46,471; -10,333) também fora, a 0,04 km da divisa. O Naturatins confirma para a Velha e a Prainha: 'Situada na APA do Jalapão, a trilha tem início na Cachoeira da Velha' (notícia de 27/01/2020). A IN 02/2024 cobre só Dunas e Serra do Espírito Santo, 'localizados no PEJ' (art. 1º). Por isso as três saíram da lista de maravilhas e de toda descrição; só a Velha aparece em uma frase explicando que fica na APA. Textos oficiais do governo (Secom 2016) ainda as listam como 'atrações do parque'; a divergência é entre divulgação turística e limite legal. A versão anterior usava um ponto de GPS padrão do Commons (-46,675; -10,378) que repete em muitas fotos e fez parecer que 22 de 26 fotos da Formiga caíam dentro do parque; era erro. Dunas e Serra ficam a 2 a 3 km dentro da divisa. (2) MUMBUCA. O Naturatins diz que o Quilombo Mumbuca está 'localizado no Parque do Jalapão' (2021) e fala em 'comunidades quilombolas do interior do parque' (jan/2025); o ponto do OSM (-46,571; -10,345) cai dentro do polígono. Entrou como maravilha cultural. A colheita do capim-dourado, porém, é fiscalizada pela supervisão da APA (Secom, 2021): o texto não afirma que os campos de colheita ficam dentro do parque. (3) FERVEDOUROS. Antes fora do texto; agora entram de forma geral: o Naturatins cita fervedouro no povoado Mumbuca 'no Parque', o Secom (2016) os lista entre as atrações do parque, o diagnóstico trata da erosão deles, e uma foto de fervedouro (Glorinha) tem GPS 1,9 km dentro da divisa. Fora do parque ficam, pelas coordenadas, Bela Vista, Alecrim e Ceiça (perto de São Félix do Tocantins, 1 a 30 km fora) e, na divisa/APA, o dos Buritis; o Buritizinho fica na Fazenda Formiga (propriedade privada, ingresso pago). O texto não nomeia fervedouro específico, e a identificação do 'Fervedouro da Glorinha' vem só do nome do arquivo no Commons e do GPS (CONFIRMAR com o Naturatins se existe e se está aberto). (4) VISITAÇÃO. As regras de 2020 saíram; vale a IN 02/2024 (15/05/2024; DO 21/05/2024), que revoga a IN 010/2023: Dunas 600/dia (200 manhã, 400 tarde), Serra 250/dia; entradas Dunas 6h-10h e 14h-17h30, Serra 5h-9h e 14h-16h; voucher único, guia ou condutor ambiental, drones só com autorização (IN 04/2019), proibido acampar, fogueira, álcool, som, animais, coleta. O art. 4º diz 'no máximo, 12 (dez) pessoas' por guia (12 ou 10?): o texto não cita o tamanho do grupo. Preços e valor do voucher não constam da norma e não foram citados. (5) VISITANTES. O dado mais recente por atrativo é 53.966 em 2023 (Dunas e Serra, +6.095 sobre 2022); a notícia de 13/01/2025 fala em 'mais de 50 mil'. Não achei dados de 2024 e 2025. (6) ONÇA-PINTADA E TATU-CANASTRA continuam fora dos destaques: só o diagnóstico (gesto.to.gov.br/uc/45, sem data) as nomeia; a notícia de 2016 e a de 2021 citam 'onças' e 'tamanduás-bandeiras' sem espécie. O levantamento GBIF tem 3 registros de onça-pintada no polígono. PATO-MERGULHÃO ganhou segunda fonte forte (Naturatins 2025: projeto prioritário no rio Novo). (7) FOTOS: autoria e licença de todas conferem com o Commons; a Cachoeira da Velha, a da Formiga e a Prainha saíram do guia e da Expedição; entraram fervedouro (DianesGomes) e Mumbuca (Ffpaniago). (8) Idade da Formação Urucuia: o diagnóstico do Naturatins diz 136 milhões de anos para a fase árida; a literatura cita Cretáceo Superior (Turoniano) e Cretáceo Inferior; o texto atribui o número ao Naturatins. (9) 'Maior área contínua de Cerrado em alto grau de conservação' é fala do Naturatins/diretor do parque, atribuída. (10) A página gesto.to.gov.br/uc/45 foi lida inteira (a parte final só trata de clima). (11) Datas das fontes: 2016, 2020, 2021, 2024 e 2025; a IN 02/2024 e a notícia de 2025 são as mais recentes. | AMPLIAÇÃO DE ESCOPO (04/11/2026, pedido do Jonathan): a entrada passa a cobrir Parque Estadual + APA do Jalapão (polígono somado de CNUC 0000.17.1486 e 0000.17.1499; área de 461.730 ha é a da Lei 1.172/2000). O polígono da APA no CNUC tem cerca de 310 mil ha e não se sobrepõe ao do parque; 461.730 menos 158.970 dá cerca de 302 mil, o que sugere que a área legal da APA inclui o parque, mas nenhuma fonte lida diz isso, então o texto não afirma que a APA 'cerca' o parque. Cachoeira da Velha e Prainha: na APA (Naturatins, 2020). Cachoeira da Formiga: não achei fonte de que esteja na APA ou no parque; o texto só diz 'na região de Mateiros' (pesquisas sugerem propriedade particular, ingresso pago, mas as páginas do turismo do estado deram 404 e a de Mateiros deu erro de certificado). Fervedouros: mesma cautela de antes. Mumbuca: o Naturatins a situa no parque e diz que comunitários vivem na APA. | APROVADO PARA PRODUÇÃO em 04/11/2026 por instrução do Jonathan. As dúvidas e divergências acima permanecem abertas para revisão com o órgão gestor (IEF, INEA, Naturatins, Fundação Florestal, IEMA)."
 }

@@ -231,22 +231,23 @@ Grande (RJ), Itaúnas, Ilhabela, Ibitipoca**. Lista em `data/br/extra-areas.json
 - Antes de commitar o geo em produção: `npm run geo` **sem** a variável de prévia.
 - Ao rodar `npm run geo` do zero, o IBGE pode devolver bordas de estado levemente diferentes: restaurar
   `data/generated/geo-index.json` do git se o diff for só ruído.
-- **Estado em 04/11/2026: seis áreas em RASCUNHO, nenhuma aprovada.** Todas passam no `check-content` em prévia
-  (83 guias, 77 revisados), 28 testes, `tsc` e lint; 32 maravilhas, todas com foto. PETAR, Jalapão e Ibitipoca já
-  tiveram revisão independente de fatos (fontes relidas, fotos abertas, correções feitas direto nos JSON: o gerador
-  `build-*.mjs` de cada uma ficou OBSOLETO, o JSON é a fonte da verdade). Ilha Grande, Ilhabela e Itaúnas ainda
-  não foram revisadas por segundo olhar. Geradores em `.geo-cache/novas-areas/` (ignorado pelo git).
-- **ATENÇÃO antes de publicar:** o cadastro gerado (`data/br/parks.generated.json`, `public/geo/br/parks*`) foi
-  commitado em modo prévia com as seis áreas. O `check-content` de produção BARRA o build até cada guia estar
-  `revisado`. Para publicar: aprovar os guias que o Jonathan aprovar e rodar `npm run geo` SEM `RAIZ_PREVIEW_DRAFTS`
-  (só as aprovadas entram), depois restaurar `data/generated/geo-index.json` do git se o diff for só ruído.
+- **Estado em 04/11/2026: seis áreas APROVADAS para produção** (guia "revisado", Expedição "aprovada", por instrução do
+  Jonathan; as dúvidas de cada uma seguem em `editorialNotes`). `npm run geo` (sem prévia) as inclui no cadastro e no mapa;
+  `check-content` de produção, `check:publication`, 28 testes, `tsc` e lint passam. PETAR, Jalapão e Ibitipoca tiveram
+  revisão independente de fatos; Ilha Grande, Ilhabela e Itaúnas só uma leitura de conferência (sem segundo checador).
+  Os `build-*.mjs` em `.geo-cache/novas-areas/` ficaram OBSOLETOS: o JSON é a fonte da verdade.
+- **Interface:** com as áreas estaduais no mapa, os textos "parque nacional" viraram "área protegida" (home, estados, busca,
+  mapa, Sobre, OG). `check-publication` agora exige 77 parques NACIONAIS (sem `category`) mais as extras.
+- **Rascunho x produção:** o `check-content` barra o build se uma área não nacional estiver no cadastro gerado sem guia
+  revisado. Para trabalhar em prévia use `RAIZ_PREVIEW_DRAFTS=1 npm run geo`; para publicar rode `npm run geo` sem ela.
 - PETAR (35.902 ha): Casa de Pedra com 197 m (medição USP/Fundação Florestal, jan/2026), não os 215 m do Guinness.
   PETAR é componente do Sítio Patrimônio Natural Mundial de 1999 (ficha UNEP-WCMC; a página da UNESCO dá 403).
-  Destaques: bagre-cego, juçara, muriqui-do-sul, onça-pintada e anta (os três últimos pela tese UNESP de 2009).
-- Jalapão (158.970 ha): **Cachoeira da Velha, Formiga e Prainha do Rio Novo ficam na APA** (não no parque; o GPS
-  padrão do Commons -46.675,-10.378 enganou). Maravilhas: Dunas, Serra do Espírito Santo, Fervedouros, Mumbuca,
-  veredas. Visitação pela IN 02/2024. Decisão pendente do Jonathan: ampliar o recorte para "região do Jalapão"
-  (parque + APA)? Confirmar com o Naturatins o fervedouro da foto. Nome "Capim-dourado" em `species-names.json`.
+  Destaques: bagre-cego, juçara, muriqui-do-sul, onça-pintada e anta (os três últimos pela tese UNESP de 2009) e o morcego
+  Lonchorhina aurita (cavernícola; dissertação USP 2008, 508 capturas no Alto Ribeira).
+- Jalapão: a entrada cobre **Parque Estadual (158.970 ha) + APA do Jalapão (461.730 ha, Lei 1.172/2000)**, polígonos somados
+  (`also` no `extra-areas.json`; área da tabela = a legal da APA). Maravilhas: Dunas, Serra do Espírito Santo, Cachoeira da
+  Velha e Prainha (APA), Cachoeira da Formiga, Fervedouros, Mumbuca. Visitação pela IN 02/2024. Pendente: confirmar com o
+  Naturatins o fervedouro da foto e se a Formiga está na APA. Nome "Capim-dourado" em `species-names.json`.
 - Ibitipoca (1.488 ha, limite do OpenStreetMap; override de área, ano e Lei 6.126 em `extra-areas.json`): Lago dos
   Espelhos tem só 2 fotos boas; foto da perereca CC BY-NC. Pendente: shapefile oficial do IEF e regras sob a concessão.
 - Ilha Grande RJ (12.090 ha): 5 maravilhas (Lopes Mendes, Dois Rios, ruínas do presídio, Pico do Papagaio,

@@ -8,9 +8,10 @@ const root = process.cwd();
 const read = (p) => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
 const base = path.join(root, 'data', 'br');
 const parks = read('data/br/parks.generated.json');
-assert.equal(parks.length, 77, 'Cadastro de parques não corresponde à base validada');
+// 77 parques nacionais (cadastro ICMBio) mais as áreas estaduais de data/br/extra-areas.json que estiverem aprovadas.
+assert.equal(parks.filter((p) => !p.category).length, 77, 'Cadastro de parques nacionais não corresponde à base validada');
 const expected = new Set(parks.map((p) => p.slug));
-assert.equal(expected.size, 77, 'Slugs de parques duplicados');
+assert.equal(expected.size, parks.length, 'Slugs de parques duplicados');
 
 const counts = { parks: parks.length, guides: 0, guidesReady: 0, expeditions: 0, expeditionsReady: 0, lostWorld: 0, lostWorldReady: 0, photosNC: 0, photoReferences: 0 };
 const restricted = [];

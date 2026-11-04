@@ -13,15 +13,21 @@
   },
   {
     "slug": "jalapao",
-    "name": "Parque Estadual do Jalapão",
+    "name": "Parque Estadual e APA do Jalapão",
     "shortName": "Jalapão",
-    "category": "PE",
-    "categoryLabel": "Parque Estadual",
+    "category": "PE-APA",
+    "categoryLabel": "Parque Estadual e Área de Proteção Ambiental",
     "manager": "estadual",
     "ufs": ["TO"],
     "biomes": ["cerrado"],
     "source": "cnuc",
-    "cnuc": "0000.17.1486"
+    "cnuc": "0000.17.1486",
+    "also": ["0000.17.1499"],
+    "override": {
+      "areaHa": 461730,
+      "createdYear": 2000,
+      "creationAct": "Lei Estadual 1.172, de 31 de julho de 2000 (APA); Lei Estadual 1.203, de 12 de janeiro de 2001 (Parque Estadual)"
+    }
   },
   {
     "slug": "ilha-grande-rj",

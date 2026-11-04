@@ -1,15 +1,16 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-11-03",
   "hook": "Dunas alaranjadas, rios cristalinos e um capim que vira ouro, no coração do Cerrado.",
-  "intro": "No leste do Tocantins, em Mateiros, o Parque Estadual do Jalapão protege mais de 158 mil hectares de Cerrado sobre arenitos antigos. Dunas alaranjadas de até 40 metros, uma serra de escarpas de até 290 metros, fervedouros, rios de água cristalina e veredas de buriti formam uma paisagem que o Naturatins descreve como a maior área contínua de Cerrado do Brasil em alto grau de conservação.",
+  "intro": "No leste do Tocantins, o Parque Estadual do Jalapão e a APA do Jalapão protegem um Cerrado de arenitos antigos: dunas alaranjadas de até 40 metros, uma serra de escarpas de até 290 metros, cachoeiras, fervedouros e veredas de buriti. O parque tem mais de 158 mil hectares e a APA, 461.730, e o Naturatins descreve a região como a maior área contínua de Cerrado do Brasil em alto grau de conservação.",
   "sourceIds": [
     "nat-23anos",
-    "to-20anos"
+    "to-20anos",
+    "apa-parque"
   ],
   "protects": {
-    "summary": "Um Cerrado conservado sobre dunas, serras de arenito e rios de água limpa",
+    "summary": "Um Cerrado conservado de dunas, serras de arenito e rios de água limpa, onde comunidades vivem do capim-dourado",
     "items": [
       {
         "title": "Dunas e serras de arenito",
@@ -41,12 +42,12 @@
         ]
       },
       {
-        "title": "Comunidades e capim-dourado",
-        "text": "Há comunidades quilombolas no interior do parque, como a Mumbuca, onde o artesanato de capim-dourado, uma sempre-viva dos campos úmidos perto das veredas, sustenta famílias. O Naturatins controla a coleta do capim-dourado e do buriti.",
+        "title": "A APA do Jalapão e as comunidades",
+        "text": "A APA do Jalapão, criada pela Lei 1.172 em 2000, tem 461.730 hectares em Mateiros, Novo Acordo e Ponte Alta do Tocantins e permite atividades econômicas com regras mais rígidas. Comunidades quilombolas, como a Mumbuca, vivem do artesanato de capim-dourado, uma sempre-viva dos campos úmidos perto das veredas.",
         "sourceIds": [
-          "nat-24anos",
           "apa-parque",
-          "nat-capim"
+          "nat-capim",
+          "nat-24anos"
         ]
       }
     ]
@@ -94,6 +95,45 @@
       }
     },
     {
+      "title": "Cachoeira da Velha e Prainha do Rio Novo",
+      "text": "Na APA do Jalapão, no rio Novo, a Cachoeira da Velha tem formato de ferradura dupla, cerca de 15 metros de desnível e uns 100 metros de uma margem a outra, e o Naturatins a chama de a mais famosa do Jalapão. Uma árvore cresce no paredão entre as duas quedas, e o nome vem da lenda de uma mulher que amava essas águas. Uma trilha de 1 quilômetro leva à Prainha do Rio Novo, uma praia de areia à beira do rio.",
+      "sourceIds": [
+        "nat-velha",
+        "to-curiosidades",
+        "nat-diagnostico"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/VAL_0040.jpg/1920px-VAL_0040.jpg",
+        "author": "Valéria Carvalho",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:VAL_0040.jpg",
+        "width": 1920,
+        "height": 1281,
+        "alt": "A Cachoeira da Velha, com uma árvore sobre a rocha entre as quedas",
+        "context": "As quedas da Cachoeira da Velha, no rio Novo, com a árvore que cresce no paredão entre elas."
+      }
+    },
+    {
+      "title": "Cachoeira da Formiga",
+      "text": "Uma queda pequena que forma um grande poço de águas verde-esmeralda, muito transparentes, entre palmeiras e samambaias, na região de Mateiros. O nome vem do rio Formiga, e o poço é tão claro que se recomenda levar snorkel.",
+      "sourceIds": [
+        "to-curiosidades",
+        "nat-diagnostico"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Cachoeira_do_Formiga.jpg/1920px-Cachoeira_do_Formiga.jpg",
+        "author": "Marcel Favery",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_do_Formiga.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "Poço de água verde-esmeralda sob uma pequena queda, cercado de mata",
+        "context": "A Cachoeira da Formiga e seu poço de água verde-esmeralda."
+      }
+    },
+    {
       "title": "Fervedouros",
       "text": "Nascentes de rios subterrâneos que formam pequenos lagos de água cristalina e borbulhante. O Naturatins catalogou 122 fervedouros na região do Jalapão, e só alguns recebem visitantes. O governo do Tocantins os inclui entre as atrações do parque, e o diagnóstico do Naturatins alerta que a visitação intensa causa erosão e que o acesso de veículos ao principal foi interditado.",
       "sourceIds": [
@@ -111,26 +151,6 @@
         "height": 1440,
         "alt": "Pequeno lago de água azulada e leitosa entre bananeiras e mata",
         "context": "Um fervedouro do Jalapão, pequeno lago formado por água que brota da areia, cercado de bananeiras."
-      }
-    },
-    {
-      "title": "Veredas de buriti",
-      "text": "Os brejos de buriti riscam o campo e o cerrado: são as veredas. Nos campos úmidos perto delas cresce o capim-dourado. Vistas das dunas, formam linhas verdes entre o laranja da areia.",
-      "sourceIds": [
-        "nat-diagnostico",
-        "to-curiosidades",
-        "nat-capim"
-      ],
-      "photo": {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Jalap%C3%A3o_-_Tocantins_-_Brasil.jpg/1920px-Jalap%C3%A3o_-_Tocantins_-_Brasil.jpg",
-        "author": "Marcelo85photo",
-        "license": "CC BY-SA 3.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jalap%C3%A3o_-_Tocantins_-_Brasil.jpg",
-        "width": 1920,
-        "height": 1280,
-        "alt": "Uma serra de topo plano ao fundo e veredas de buriti na planície",
-        "context": "Veredas de buriti na planície do Jalapão, com uma serra de topo plano ao fundo."
       }
     },
     {
@@ -157,9 +177,10 @@
   ],
   "curiosities": [
     {
-      "text": "O parque foi criado em 12 de janeiro de 2001 e tem mais de 158 mil hectares, concentrados no município de Mateiros.",
+      "text": "O parque foi criado em 12 de janeiro de 2001 e tem mais de 158 mil hectares, em Mateiros. A APA do Jalapão, de 461.730 hectares, é de 2000.",
       "sourceIds": [
-        "nat-23anos"
+        "nat-23anos",
+        "apa-parque"
       ]
     },
     {
@@ -215,9 +236,10 @@
       ]
     },
     {
-      "title": "2001 · Nasce o parque",
-      "text": "Em 12 de janeiro, a Lei Estadual 1.203 cria o Parque Estadual do Jalapão, unidade de proteção integral do Tocantins, criada para a pesquisa e o turismo.",
+      "title": "2000 e 2001 · APA e parque",
+      "text": "Em 31 de julho de 2000, a Lei Estadual 1.172 cria a APA do Jalapão, unidade de uso sustentável. Em 12 de janeiro de 2001, a Lei 1.203 cria o Parque Estadual do Jalapão, de proteção integral, para a pesquisa e o turismo.",
       "sourceIds": [
+        "apa-parque",
         "nat-23anos",
         "to-20anos"
       ]

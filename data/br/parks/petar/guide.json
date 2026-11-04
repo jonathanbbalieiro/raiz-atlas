@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "status": "rascunho",
+  "status": "revisado",
   "updatedAt": "2026-11-03",
   "hook": "Rios entram na rocha e saem do outro lado: sob a mata do Alto Ribeira fica a maior concentração de cavernas do Brasil.",
   "intro": "No sul de São Paulo, entre Iporanga e Apiaí, o Parque Estadual Turístico do Alto Ribeira, o PETAR, protege mais de 35 mil hectares de Mata Atlântica sobre um relevo de calcário. Ali estão mais de 400 cavernas catalogadas, e o parque é um dos 25 componentes do Sítio do Patrimônio Natural Mundial das Reservas de Mata Atlântica do Sudeste, reconhecido pela UNESCO em 1999.",
@@ -29,10 +29,11 @@
       },
       {
         "title": "Vida no escuro",
-        "text": "O bagre-cego de Iporanga, o primeiro peixe de caverna descoberto e descrito no Brasil, só foi encontrado nas cavernas do PETAR. Os morcegos usam as cavidades como abrigo e berçário e levam restos de alimento que sustentam invertebrados menores.",
+        "text": "O bagre-cego de Iporanga, o primeiro peixe de caverna descoberto e descrito no Brasil, só foi encontrado nas cavernas do PETAR. Os morcegos usam as cavidades como abrigo e berçário e levam restos de alimento que sustentam invertebrados menores; num levantamento de 2006 e 2007 na área cárstica do Alto Ribeira, 29 espécies foram registradas nas cavernas.",
         "sourceIds": [
           "semil-bagre",
-          "semil-cavernas"
+          "semil-cavernas",
+          "arnone"
         ]
       },
       {
@@ -365,6 +366,29 @@
         "alt": "Cacho de frutos de um palmito-juçara (Euterpe edulis)",
         "context": "Cacho de frutos de palmito-juçara, Euterpe edulis. Foto ilustrativa da espécie, feita em outra área de Mata Atlântica."
       }
+    },
+    {
+      "scientificName": "Lonchorhina aurita",
+      "name": "Morcego Lonchorhina aurita",
+      "criteria": [
+        "habitat_critico"
+      ],
+      "why": "O morcego mais capturado no levantamento de 2006 e 2007 na área cárstica do Alto Ribeira, com 508 indivíduos, à frente do morcego-vampiro-comum e do morcego-de-cauda-curta-comum. As cavernas do PETAR servem de abrigo e berçário aos morcegos, e é esse abrigo que liga a espécie ao parque.",
+      "sourceIds": [
+        "arnone",
+        "semil-cavernas"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Lonchorhina.jpg",
+        "author": "Autor desconhecido",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lonchorhina.jpg",
+        "width": 640,
+        "height": 435,
+        "alt": "Morcego do gênero Lonchorhina",
+        "context": "Morcego Lonchorhina aurita, espécie cavernícola. Foto ilustrativa da espécie, feita em outra área."
+      }
     }
   ],
   "sources": [
@@ -478,6 +502,13 @@
       "institution": "ICMBio",
       "title": "Livro Vermelho da Fauna Brasileira Ameaçada de Extinção, vol. II: Mamíferos (2018)",
       "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/publicacoes-diversas/livro_vermelho_2018_vol2.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "arnone",
+      "institution": "Universidade de São Paulo (dissertação de mestrado)",
+      "title": "Estudo da comunidade de morcegos na área cárstica do Alto Ribeira, SP: uma comparação com 1980 (I. S. Arnone, 2008)",
+      "url": "https://www.teses.usp.br/teses/disponiveis/41/41133/tde-10072008-183234/publico/ives_arnone.pdf",
       "accessed": "2026-11-03"
     }
   ]

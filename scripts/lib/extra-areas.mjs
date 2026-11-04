@@ -132,8 +132,12 @@ export async function loadExtraAreas({ root, country, byCode }) {
     for (const uf of a.ufs) if (!byCode.has(uf)) throw new Error(`${a.name}: UF desconhecida ${uf}`);
     // "override": dados oficiais que o OpenStreetMap não traz ou traz truncados (cada valor com fonte no guia da área).
     const r = { ...(a.source === "cnuc" ? await fromCnuc(root, a) : await fromOsm(root, a)), ...a.override };
+    // "also": outros códigos CNUC da mesma entrada (ex.: parque + APA); seus polígonos são somados no mapa.
+    const alsoGeometries = [];
+    for (const code of a.also ?? []) alsoGeometries.push((await fromCnuc(root, { ...a, cnuc: code })).geometry);
     out.push({
       geometry: r.geometry,
+      alsoGeometries,
       park: {
         slug: a.slug,
         cnuc: r.cnuc,

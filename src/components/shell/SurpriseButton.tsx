@@ -19,7 +19,7 @@ export function SurpriseButton({ wide = false }: { wide?: boolean } = {}) {
   const pool = visibleParks.filter((p) => p.slug !== focus?.path[2]);
   const label = biomes
     ? `Surpreenda-me: sorteia um entre ${plural(pool.length, "parque", "parques")} do filtro atual`
-    : "Surpreenda-me: sorteia um parque nacional";
+    : "Surpreenda-me: sorteia uma área protegida";
 
   /*
    * O sorteio é feito antes do clique (ao passar o mouse ou focar o botão) e a

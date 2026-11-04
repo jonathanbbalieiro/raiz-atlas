@@ -22,7 +22,7 @@ export async function Admin1View({ admin1, items }: { admin1: Admin1; items: Pla
             {admin1.name}
           </h1>
           <p className="mt-2 text-[15px] leading-relaxed text-ink-soft">
-            {admin1.name} não tem parque nacional no cadastro do ICMBio. Estes são os mais próximos:
+            {admin1.name} não tem área protegida no atlas. Estas são as mais próximas:
           </p>
         </div>
         <ParkCards items={cards} heading="Mais próximos" filterable={false} />
@@ -40,7 +40,7 @@ export async function Admin1View({ admin1, items }: { admin1: Admin1; items: Pla
         </h1>
         <p className="mt-1.5 text-[15px] text-ink-soft">
           <strong className="font-semibold text-ink">
-            {plural(items.length, "parque nacional", "parques nacionais")}
+            {plural(items.length, "área protegida", "áreas protegidas")}
           </strong>
           {" · "}
           {formatArea(area, { short: true })} protegidos

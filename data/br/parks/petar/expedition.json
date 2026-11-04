@@ -173,14 +173,15 @@
       "paragraphs": [
         "No escuro permanente, a vida se organiza de outro jeito. O bagre-cego de Iporanga é o símbolo do parque: foi o primeiro peixe de caverna descoberto e descrito no Brasil, não tem pigmentação, tem olhos atrofiados ou ausentes e pode chegar a 20 centímetros.",
         "Só foi encontrado em cavernas do PETAR, e a Areias de Cima concentra a maior população do parque. Como a presença desses animais dá a uma caverna relevância máxima, o acesso é restrito, no caso da Areias de Cima desde a década de 1980.",
-        "Os morcegos usam as cavidades como abrigo e berçário e trazem restos de frutas e outros alimentos, que sustentam invertebrados menores. Fora delas, o plano de manejo reúne 78 espécies de peixes, 60 de anfíbios, 31 de répteis, 93 de pequenos mamíferos e 22 de grandes e médios mamíferos, além de 742 espécies de plantas. Um levantamento da UNESP confirmou no parque a jacutinga, o muriqui-do-sul, a anta e a onça-pintada, e concluiu que o PETAR é uma das últimas unidades de conservação paulistas a abrigar fauna tão importante.",
+        "Os morcegos usam as cavidades como abrigo e berçário e trazem restos de frutas e outros alimentos, que sustentam invertebrados menores. Num levantamento de 2006 e 2007 na área cárstica do Alto Ribeira, pesquisadores da USP capturaram 1.493 morcegos de 35 espécies, 29 delas nas cavernas; a mais frequente foi Lonchorhina aurita, com 508 indivíduos, e uma espécie, Peropteryx macrotis, só apareceu dentro de cavernas. Fora delas, o plano de manejo reúne 78 espécies de peixes, 60 de anfíbios, 31 de répteis, 93 de pequenos mamíferos e 22 de grandes e médios mamíferos, além de 742 espécies de plantas. Um levantamento da UNESP confirmou no parque a jacutinga, o muriqui-do-sul, a anta e a onça-pintada, e concluiu que o PETAR é uma das últimas unidades de conservação paulistas a abrigar fauna tão importante.",
         "Entre as plantas está o palmito-juçara. O palmito só se colhe matando a palmeira, e o plano de manejo prevê fiscalizar a extração clandestina e orientar a coleta de suas sementes no parque."
       ],
       "sourceIds": [
         "semil-bagre",
         "semil-cavernas",
         "plano",
-        "meirelles"
+        "meirelles",
+        "arnone"
       ],
       "citations": [
         {
@@ -206,6 +207,10 @@
         {
           "sourceId": "meirelles",
           "locator": "resumo e Tabela 2 (PDF p. 7 e 22)"
+        },
+        {
+          "sourceId": "arnone",
+          "locator": "resumo (PDF p. 7) e seção 6.2 (PDF p. 34)"
         }
       ],
       "images": [
@@ -507,11 +512,19 @@
       "url": "https://repositorio.unesp.br/server/api/core/bitstreams/594b5ccd-2992-4673-a503-c30c9bc6494f/content",
       "accessedAt": "2026-11-03",
       "use": "espécies de aves e mamíferos confirmadas no parque"
+    },
+    {
+      "id": "arnone",
+      "institution": "Universidade de São Paulo (dissertação de mestrado)",
+      "title": "Estudo da comunidade de morcegos na área cárstica do Alto Ribeira, SP: uma comparação com 1980 (I. S. Arnone, 2008)",
+      "url": "https://www.teses.usp.br/teses/disponiveis/41/41133/tde-10072008-183234/publico/ives_arnone.pdf",
+      "accessedAt": "2026-11-03",
+      "use": "levantamento de morcegos nas cavernas do Alto Ribeira"
     }
   ],
-  "approved": false,
-  "status": "rascunho",
+  "approved": true,
+  "status": "aprovado",
   "lastVerifiedAt": "2026-11-03",
   "photoStatus": "curadoria_parcial",
-  "editorialNotes": "REVISADO EM 03/11/2026 (revisor independente); continua rascunho, falta aprovação do Jonathan. MUDANÇAS: (1) UNESCO: confirmado que o PETAR é um dos 25 componentes do Sítio de Patrimônio Natural Mundial (ficha UNEP-WCMC/IUCN: 'Parque Estadual Turístico do Alto Ribeira', 35.884 ha, o mais antigo do conjunto, 1958); a página whc.unesco.org deu erro 403, então a fonte citada é a cópia da ficha WCMC em thesalmons.org; trocar pelo URL oficial da UNESCO/IUCN quando acessível. (2) Santana: 'mais de 6 km' virou 'cerca de 6 km' (Guia, 6.000 m; WCMC cita uma caverna de 6,3 km sem nomeá-la; outra página do Guia diz mais de 9 km). 'A mais famosa do parque' virou 'do Núcleo Santana' (é o que o Guia diz). (3) 'Doze cavernas abertas': a Semil (2024) diz 12 em quatro núcleos, mas o interior da Casa de Pedra está fechado desde 2003; o texto agora atribui a contagem à Semil e não amarra as 12 aos quatro núcleos. (4) Água Suja: tirado 'galeria de rio' e 'termina numa cachoeira' (o Guia diz só 'cachoeira no trecho final de visitação'). (5) Mineração: frase vaga 'o vale viveu da mineração' trocada por registro do plano (PDF p. 86). (6) 'Em muitos trechos encachoeirados' virou 'em alguns' (plano: 'localmente encachoeirados'). (7) Visitantes: 39 mil é dado de 2018, agora atribuído; não há número mais recente publicado. (8) Fecho: 'animais que só existem ali' virou 'um peixe'. (9) Destaques: acrescentados muriqui-do-sul, onça-pintada e anta, com presença confirmada no Núcleo Caboclos pela dissertação da UNESP (Meirelles, 2009, Tabela 2, PDF p. 22; registros por avistamento, vocalização, pegadas, fezes e pelo); foto da juçara trocada por uma que mostra a palmeira. DÚVIDAS QUE FICARAM: (a) número de aves do plano (PDF p. 11): a extração dá '3' e '19' colados, provavelmente 319, mas não há segunda fonte (levantamento de 2010 registrou 266); não usado. (b) Jacutinga: presença confirmada (Meirelles, Tabela 2, com foto no Núcleo Caboclos) e consta do levantamento GBIF, mas falta segunda fonte de caracterização; candidata a destaque. (c) Queixada: a tese só a cita como presa da onça e como espécie sob caça, sem registro no PETAR; não entra. (d) Casa de Pedra: o plano de 2018, o Guia e a Semil (2024) ainda citam 215 m (Guinness); o texto usa 197 m (USP/Fundação Florestal, 30/01/2026). 'Maior abertura vertical do mundo' é afirmação do comunicado, atribuída. (e) Número de cavernas: >400 (Semil 2026), 484 cavidades no parque e zona de amortecimento (plano, PDF p. 25), 441 em Iporanga + 80 em Apiaí (Semil 2024, municípios). (f) A tese é de 2009; a presença hoje deve ser confirmada com a Fundação Florestal. (g) Horários e preços de visita não citados."
+  "editorialNotes": "REVISADO EM 03/11/2026 (revisor independente); continua rascunho, falta aprovação do Jonathan. MUDANÇAS: (1) UNESCO: confirmado que o PETAR é um dos 25 componentes do Sítio de Patrimônio Natural Mundial (ficha UNEP-WCMC/IUCN: 'Parque Estadual Turístico do Alto Ribeira', 35.884 ha, o mais antigo do conjunto, 1958); a página whc.unesco.org deu erro 403, então a fonte citada é a cópia da ficha WCMC em thesalmons.org; trocar pelo URL oficial da UNESCO/IUCN quando acessível. (2) Santana: 'mais de 6 km' virou 'cerca de 6 km' (Guia, 6.000 m; WCMC cita uma caverna de 6,3 km sem nomeá-la; outra página do Guia diz mais de 9 km). 'A mais famosa do parque' virou 'do Núcleo Santana' (é o que o Guia diz). (3) 'Doze cavernas abertas': a Semil (2024) diz 12 em quatro núcleos, mas o interior da Casa de Pedra está fechado desde 2003; o texto agora atribui a contagem à Semil e não amarra as 12 aos quatro núcleos. (4) Água Suja: tirado 'galeria de rio' e 'termina numa cachoeira' (o Guia diz só 'cachoeira no trecho final de visitação'). (5) Mineração: frase vaga 'o vale viveu da mineração' trocada por registro do plano (PDF p. 86). (6) 'Em muitos trechos encachoeirados' virou 'em alguns' (plano: 'localmente encachoeirados'). (7) Visitantes: 39 mil é dado de 2018, agora atribuído; não há número mais recente publicado. (8) Fecho: 'animais que só existem ali' virou 'um peixe'. (9) Destaques: acrescentados muriqui-do-sul, onça-pintada e anta, com presença confirmada no Núcleo Caboclos pela dissertação da UNESP (Meirelles, 2009, Tabela 2, PDF p. 22; registros por avistamento, vocalização, pegadas, fezes e pelo); foto da juçara trocada por uma que mostra a palmeira. DÚVIDAS QUE FICARAM: (a) número de aves do plano (PDF p. 11): a extração dá '3' e '19' colados, provavelmente 319, mas não há segunda fonte (levantamento de 2010 registrou 266); não usado. (b) Jacutinga: presença confirmada (Meirelles, Tabela 2, com foto no Núcleo Caboclos) e consta do levantamento GBIF, mas falta segunda fonte de caracterização; candidata a destaque. (c) Queixada: a tese só a cita como presa da onça e como espécie sob caça, sem registro no PETAR; não entra. (d) Casa de Pedra: o plano de 2018, o Guia e a Semil (2024) ainda citam 215 m (Guinness); o texto usa 197 m (USP/Fundação Florestal, 30/01/2026). 'Maior abertura vertical do mundo' é afirmação do comunicado, atribuída. (e) Número de cavernas: >400 (Semil 2026), 484 cavidades no parque e zona de amortecimento (plano, PDF p. 25), 441 em Iporanga + 80 em Apiaí (Semil 2024, municípios). (f) A tese é de 2009; a presença hoje deve ser confirmada com a Fundação Florestal. (g) Horários e preços de visita não citados. | MORCEGOS (04/11/2026): dados da dissertação de Arnone (USP, 2008): 121 noites, 1.493 morcegos, 35 espécies, 29 nas 12 cavernas amostradas, L. aurita a mais capturada (508); Peropteryx macrotis só em cavernas (35). O estudo cobre a área cárstica do Alto Ribeira (cavernas 'quase todas dentro do limite do PETAR' no estudo de 1978-80 citado pela autora), não só o parque; o texto diz 'área cárstica do Alto Ribeira'. Não há nome popular consolidado para L. aurita: usa-se 'Morcego Lonchorhina aurita' (precisa constar em species-names.json). | APROVADO PARA PRODUÇÃO em 04/11/2026 por instrução do Jonathan. As dúvidas e divergências acima permanecem abertas para revisão com o órgão gestor (IEF, INEA, Naturatins, Fundação Florestal, IEMA)."
 }
