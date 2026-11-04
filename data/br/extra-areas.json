@@ -57,7 +57,10 @@
     "ufs": ["SP"],
     "biomes": ["mata_atlantica"],
     "source": "cnuc",
-    "cnuc": "0000.35.0855"
+    "cnuc": "0000.35.0855",
+    "override": {
+      "areaHa": 27025
+    }
   },
   {
     "slug": "ibitipoca",

@@ -231,24 +231,39 @@ Grande (RJ), Itaúnas, Ilhabela, Ibitipoca**. Lista em `data/br/extra-areas.json
 - Antes de commitar o geo em produção: `npm run geo` **sem** a variável de prévia.
 - Ao rodar `npm run geo` do zero, o IBGE pode devolver bordas de estado levemente diferentes: restaurar
   `data/generated/geo-index.json` do git se o diff for só ruído.
-- PETAR: guia e Expedição em **rascunho** (11 fontes; Casa de Pedra com 197 m, medição USP/Fundação Florestal de
-  jan/2026, e não os 215 m do Guinness; divergências em `editorialNotes`). Faltam revisão e aprovação.
-  Geradores dos textos em `.geo-cache/novas-areas/` (ignorado pelo git).
-- Jalapão (Parque Estadual, 158.970 ha): guia e Expedição em **rascunho** (11 fontes do Naturatins e do governo do
-  TO). Só Dunas e Serra do Espírito Santo são expressamente atrativos do parque; Velha, Formiga e Prainha estão na
-  hidrografia do diagnóstico e nas coordenadas, mas a norma de 2020 mistura parque e APA. **Fervedouros ficam
-  fora** (caem fora do polígono do parque e da APA no CNUC; propriedades privadas). Decisão pendente do
-  Jonathan: se o recorte virar "região do Jalapão", os fervedouros e a Mumbuca entram. IN 02/2024 não foi lida.
-  Nome "Capim-dourado" padronizado em `data/br/species-names.json`.
-- Ibitipoca (Parque Estadual, 1.488 ha): guia e Expedição em **rascunho** (9 fontes do IEF, Agência Minas, IEPHA e
-  SciELO). Limite do OpenStreetMap (não está no CNUC), com área, ano e ato oficiais em `override` no
-  `extra-areas.json`. Lago dos Espelhos existe (Circuito das Águas) mas tem só 2 fotos boas. Perereca com foto CC BY-NC.
-  Pendências: número da lei (6.126?), regras de visitação da concessão (30 anos desde 2023), shapefile oficial do IEF.
+- **Estado em 04/11/2026: seis áreas em RASCUNHO, nenhuma aprovada.** Todas passam no `check-content` em prévia
+  (83 guias, 77 revisados), 28 testes, `tsc` e lint; 32 maravilhas, todas com foto. PETAR, Jalapão e Ibitipoca já
+  tiveram revisão independente de fatos (fontes relidas, fotos abertas, correções feitas direto nos JSON: o gerador
+  `build-*.mjs` de cada uma ficou OBSOLETO, o JSON é a fonte da verdade). Ilha Grande, Ilhabela e Itaúnas ainda
+  não foram revisadas por segundo olhar. Geradores em `.geo-cache/novas-areas/` (ignorado pelo git).
+- **ATENÇÃO antes de publicar:** o cadastro gerado (`data/br/parks.generated.json`, `public/geo/br/parks*`) foi
+  commitado em modo prévia com as seis áreas. O `check-content` de produção BARRA o build até cada guia estar
+  `revisado`. Para publicar: aprovar os guias que o Jonathan aprovar e rodar `npm run geo` SEM `RAIZ_PREVIEW_DRAFTS`
+  (só as aprovadas entram), depois restaurar `data/generated/geo-index.json` do git se o diff for só ruído.
+- PETAR (35.902 ha): Casa de Pedra com 197 m (medição USP/Fundação Florestal, jan/2026), não os 215 m do Guinness.
+  PETAR é componente do Sítio Patrimônio Natural Mundial de 1999 (ficha UNEP-WCMC; a página da UNESCO dá 403).
+  Destaques: bagre-cego, juçara, muriqui-do-sul, onça-pintada e anta (os três últimos pela tese UNESP de 2009).
+- Jalapão (158.970 ha): **Cachoeira da Velha, Formiga e Prainha do Rio Novo ficam na APA** (não no parque; o GPS
+  padrão do Commons -46.675,-10.378 enganou). Maravilhas: Dunas, Serra do Espírito Santo, Fervedouros, Mumbuca,
+  veredas. Visitação pela IN 02/2024. Decisão pendente do Jonathan: ampliar o recorte para "região do Jalapão"
+  (parque + APA)? Confirmar com o Naturatins o fervedouro da foto. Nome "Capim-dourado" em `species-names.json`.
+- Ibitipoca (1.488 ha, limite do OpenStreetMap; override de área, ano e Lei 6.126 em `extra-areas.json`): Lago dos
+  Espelhos tem só 2 fotos boas; foto da perereca CC BY-NC. Pendente: shapefile oficial do IEF e regras sob a concessão.
+- Ilha Grande RJ (12.090 ha): 5 maravilhas (Lopes Mendes, Dois Rios, ruínas do presídio, Pico do Papagaio,
+  Parnaioca). Abraão, Aventureiro, Lagoa Azul e Palmas ficam fora do parque. Não foi confirmado onde ficava o
+  Instituto Penal Cândido Mendes (Abraão x Dois Rios); INEA deve confirmar.
+- Ilhabela (27.025 ha por override; o CNUC tem 29.323): 6 maravilhas (Bonete, Enchovas, Castelhanos, Baepi, Água
+  Branca, Pancada d'Água); o plano de manejo vem de cópia da USP porque o da Fundação Florestal dá 403.
+- Itaúnas (3.536 ha CNUC; 3.481 pelo IEMA): 4 maravilhas; a vila de Itaúnas fica fora do polígono (entra só como
+  contexto do soterramento); UNESCO 1992 vem do IEMA e precisa de confirmação.
+- **Agentes em paralelo:** seis agentes juntos estouraram o limite de 5 h duas vezes (cada fork carrega o contexto
+  inteiro). Para trabalho grande, preferir agentes novos com prompt enxuto, ou 2 a 3 por vez.
 - **Contagem de fotos engana:** o total da categoria do Commons mistura praias urbanas, regatas e espécies. O que vale
   é fotos de lugar por atrativo (classificar por nome e descrição). Resultado (fotos boas por atrativo dentro do parque):
   Ilhabela só ~4 atrativos (Bonete ~42+, Castelhanos 20, Baepi 12, Água Branca 5; o resto é urbano) e Itaúnas ~3
   (dunas 134, rio 8, praia 10). Ilha Grande RJ: Lopes Mendes 73, Presídio (ruínas) 15, Leste 17, Aventureiro 11.
-- Faltam: Ilha Grande (RJ; melhor história, o presídio), depois Ilhabela e Itaúnas (menos fotos de atrativo).
+- Próximos passos: revisão independente de Ilha Grande, Ilhabela e Itaúnas; decisões do Jonathan (ver acima);
+  trocar os textos "parques nacionais" da interface quando a primeira área entrar no mapa.
 
 ## 11. Ambiente e hábitos
 

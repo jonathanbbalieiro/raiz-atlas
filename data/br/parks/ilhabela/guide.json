@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "status": "rascunho",
+  "updatedAt": "2026-11-03",
+  "hook": "Um arquipélago de Mata Atlântica com mais de 250 cachoeiras, vilas caiçaras e picos que passam de mil metros sobre o mar.",
+  "intro": "O Parque Estadual de Ilhabela é um parque-arquipélago: 12 ilhas, 3 ilhotes, 3 lajes e 1 parcel, com 27.025 hectares, a maior parte na Ilha de São Sebastião. Criado em 1977, abrange cerca de 85% do município e guarda cachoeiras, praias de acesso difícil e uma das últimas culturas caiçaras vivas do litoral norte paulista.",
+  "sourceIds": [
+    "plano",
+    "guia-peib"
+  ],
+  "protects": {
+    "summary": "Mata Atlântica insular, do nível do mar a picos de mais de 1.300 metros",
+    "items": [
+      {
+        "title": "Um parque-arquipélago",
+        "text": "Na Ilha de São Sebastião, os limites do parque seguem curvas de nível de 200, 100 e 0 metro. Todas as outras ilhas, ilhotes e lajes são protegidas por inteiro, até a cota zero.",
+        "sourceIds": [
+          "plano"
+        ]
+      },
+      {
+        "title": "Da praia ao pico",
+        "text": "A floresta ombrófila densa vai das terras baixas até 1.375 metros de altitude, com restinga, praias, dunas e costões rochosos. A floresta montana é a maior formação do parque, com 13.900 hectares. O plano de manejo lista 1.569 espécies de plantas, das quais 56 estão ameaçadas.",
+        "sourceIds": [
+          "plano"
+        ]
+      },
+      {
+        "title": "Fauna de ilha",
+        "text": "São 299 espécies de aves, 71 delas endêmicas da Mata Atlântica, 51 de mamíferos, 41 de anfíbios e 39 de répteis. Dessas aves, 31 estão ameaçadas de extinção, o equivalente a 75,6% das aves ameaçadas da região.",
+        "sourceIds": [
+          "plano"
+        ]
+      },
+      {
+        "title": "Cultura caiçara e arqueologia",
+        "text": "O parque é um dos únicos lugares do litoral norte paulista onde a cultura tradicional caiçara continua viva, com 13 comunidades no arquipélago. Sítios arqueológicos contam a ocupação desde grupos sambaquieiros, há mais de 2.000 anos.",
+        "sourceIds": [
+          "plano",
+          "guia-peib"
+        ]
+      },
+      {
+        "title": "Muita água",
+        "text": "O parque tem mais de 250 cachoeiras. O plano de manejo destaca a grande quantidade e a qualidade dos recursos hídricos, que descem das encostas para as praias.",
+        "sourceIds": [
+          "guia-peib",
+          "plano"
+        ]
+      }
+    ]
+  },
+  "wonders": [
+    {
+      "title": "Pico do Baepi",
+      "text": "Com 1.048 metros, é um dos picos de destaque do arquipélago, ao lado do Papagaio (1.302 metros) e do São Sebastião (1.375). A trilha tem 7,4 quilômetros, ida e volta, leva de cinco horas e meia a seis, é difícil e exige monitor. Do mirante se vê o canal de São Sebastião, a Serra do Mar e o arquipélago de Alcatrazes.",
+      "sourceIds": [
+        "plano",
+        "pref-trilhas"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Pico_do_Baepi.jpg/1920px-Pico_do_Baepi.jpg",
+        "author": "Igorh84",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pico_do_Baepi.jpg",
+        "width": 1920,
+        "height": 1080,
+        "alt": "O pico rochoso do Baepi, coberto de mata, sobre um campo de capim",
+        "context": "O Pico do Baepi visto do campo de altitude, no norte da Ilha de São Sebastião."
+      }
+    },
+    {
+      "title": "Praia do Bonete",
+      "text": "A praia da maior comunidade tradicional do arquipélago, com cerca de 300 moradores. Chega-se de barco ou por uma trilha de uns 12 quilômetros a partir da Ponta de Sepituba, com paradas nas cachoeiras da Laje, do Areado e do Saquinho. As ruas não são asfaltadas, e a energia vem de painéis solares e geradores.",
+      "sourceIds": [
+        "pref-praias",
+        "guia-bonete"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ilha_Bela_-_Praia_do_Bonete.jpg/1920px-Ilha_Bela_-_Praia_do_Bonete.jpg",
+        "author": "Thiago Sieiro Cunha",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ilha_Bela_-_Praia_do_Bonete.jpg",
+        "width": 1920,
+        "height": 1280,
+        "alt": "A vila de pescadores do Bonete, com barcos e quiosques à beira da água",
+        "context": "A praia e a vila do Bonete, vistas do alto, com barcos na enseada."
+      }
+    },
+    {
+      "title": "Praia das Enchovas",
+      "text": "Logo depois do Bonete, a cerca de 3 quilômetros, é uma praia de pedras na costa e no mar, sem quiosques, restaurantes ou hospedagens. Comunidades tradicionais vivem nos arredores. Chega-se de barco ou pela trilha a partir do Bonete, e 93% da bacia do ribeirão das Anchovas ficam dentro do parque.",
+      "sourceIds": [
+        "pref-praias",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Parque_Estadual_de_Ilhabela_-_Arthur_Grangeiro_de_Souza_%28425%29.jpg/1920px-Parque_Estadual_de_Ilhabela_-_Arthur_Grangeiro_de_Souza_%28425%29.jpg",
+        "author": "Arthr Souza",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_de_Ilhabela_-_Arthur_Grangeiro_de_Souza_(425).jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "Costa coberta de mata, com ondas quebrando nas pedras, vista da trilha das Enchovas",
+        "context": "A costa da região da Praia das Enchovas, vista da trilha, no Parque Estadual de Ilhabela."
+      }
+    },
+    {
+      "title": "Praia de Castelhanos",
+      "text": "Uma faixa de areia de quase 2 quilômetros, na baía dos Castelhanos, alcançada pela Estrada dos Castelhanos, que liga o bairro da Água Branca à praia. O Mirante do Coração e o do Francês dão vista da baía. No passado, havia engenhos de açúcar nesta praia.",
+      "sourceIds": [
+        "pref-praias",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Parque_Estadual_de_Ilhabela_Jo%C3%A3o_Paulo_Marques_DAndretta_%2817%29.jpg/1920px-Parque_Estadual_de_Ilhabela_Jo%C3%A3o_Paulo_Marques_DAndretta_%2817%29.jpg",
+        "author": "João D'Andretta",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_de_Ilhabela_Jo%C3%A3o_Paulo_Marques_DAndretta_(17).jpg",
+        "width": 1920,
+        "height": 1440,
+        "alt": "A baía dos Castelhanos vista do alto, com água turquesa entre morros de mata",
+        "context": "A baía e a praia de Castelhanos, vistas do alto, no Parque Estadual de Ilhabela."
+      }
+    },
+    {
+      "title": "Cachoeira da Água Branca",
+      "text": "A trilha tem cerca de 3,6 quilômetros, ida e volta, leva umas duas horas e é de dificuldade leve a média. Passa por cinco poços naturais: o da Pedra, o da Escada, o da Ducha, o do Jequitibá e o do Jabuti. A jaguatirica já foi registrada nesta trilha, perto da guarita.",
+      "sourceIds": [
+        "pref-trilhas",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/%C3%81gua_branca.JPG/1920px-%C3%81gua_branca.JPG",
+        "author": "Mauro Cicarelli",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%81gua_branca.JPG",
+        "width": 1920,
+        "height": 1272,
+        "alt": "Uma cachoeira larga descendo em véus sobre a rocha, cercada de mata",
+        "context": "A Cachoeira da Água Branca, no Parque Estadual de Ilhabela."
+      }
+    },
+    {
+      "title": "Cachoeira da Pancada d'Água",
+      "text": "Também chamada de Três Tombos, é um complexo de três quedas d'água. A trilha tem até 1 quilômetro, leva até uma hora, é de dificuldade moderada e exige monitor. Fica no sul da ilha, perto da Praia da Feiticeira.",
+      "sourceIds": [
+        "guia-pancada",
+        "pref-trilhas"
+      ],
+      "photo": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Parque_Estadual_de_Ilhabela_Edson_Nagase_%2801%29.jpg/1920px-Parque_Estadual_de_Ilhabela_Edson_Nagase_%2801%29.jpg",
+        "author": "Edson Nagase",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_de_Ilhabela_Edson_Nagase_(01).jpg",
+        "width": 1920,
+        "height": 1277,
+        "alt": "Queda d'água sobre a rocha, ao lado de uma árvore, na Cachoeira dos Três Tombos",
+        "context": "Uma das quedas da Cachoeira dos Três Tombos, ou da Pancada d'Água."
+      }
+    }
+  ],
+  "curiosities": [
+    {
+      "text": "O parque nasceu de um pedido da Sociedade Brasileira de Silvicultura, que propôs ao governador uma Reserva Florestal na Ilha de São Sebastião. O Decreto 9.414 saiu em 20 de janeiro de 1977.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "A ilha ganhou o nome de São Sebastião em 20 de janeiro de 1502, quando a esquadra de Américo Vespúcio a avistou, no dia do santo.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "Em 1562, José de Anchieta escreveu ao rei de Portugal que a ilha era \"despovoada, mas cheia de muitos tigres\", o que sugere que havia onças-pintadas no arquipélago.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "A primeira carta topográfica da ilha, de 1912, traz o nome \"Pedra da Onça\". Moradores contam que a última onça-pintada teria sido morta por volta de 1877.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "Lendas dizem que corsários esconderam tesouros em algum lugar da ilha, sobretudo na região do Saco do Sombrio.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "As cinco espécies de tartarugas marinhas do Brasil visitam as baías do arquipélago para se alimentar, mas não desovam nas praias do litoral norte.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "Das 64 aves migratórias ou vagantes registradas, há batuíras e maçaricos vindos do hemisfério norte e albatrozes de ilhas subantárticas.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "text": "O Guia de Áreas Protegidas destaca a cultura caiçara preservada no parque, com a Congada entre suas tradições.",
+      "sourceIds": [
+        "guia-peib"
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "title": "Há mais de 2.000 anos · Os primeiros moradores",
+      "text": "Grupos de pescadores e coletores vivem em acampamentos junto às praias e deixam acúmulos de conchas e mariscos. Mais tarde, povos tupis-guaranis e do grupo Jê se organizam em aldeia na Ilha de São Sebastião, e ceramistas habitam o arquipélago há cerca de 700 anos.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "1502 · O nome da ilha",
+      "text": "Em 20 de janeiro, Américo Vespúcio avista a ilha e a batiza de São Sebastião, seguindo o costume de dar o nome do santo do dia.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "Até o século XVII · Corsários",
+      "text": "Piratas ingleses, franceses e holandeses atacam povoados da costa e roubam ouro e pedras preciosas. Restam lendas de tesouros escondidos, sobretudo no Saco do Sombrio.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "Séculos XVII e XVIII · Cana, engenhos e quilombos",
+      "text": "A primeira concessão de terras na ilha é de 1603. Engenhos de açúcar e aguardente se espalham por praias como Serraria, Castelhanos e Figueira, o tráfico negreiro chega ao canal e surgem os primeiros quilombos, de escravizados que fugiram dos navios para a mata fechada.",
+      "sourceIds": [
+        "plano"
+      ]
+    },
+    {
+      "title": "1977 · Nasce o parque",
+      "text": "Em 20 de janeiro, o Decreto Estadual 9.414 cria o Parque Estadual de Ilhabela, a partir de um estudo técnico da Sociedade Brasileira de Silvicultura que indicava uma Reserva Florestal na Ilha de São Sebastião.",
+      "sourceIds": [
+        "plano"
+      ]
+    }
+  ],
+  "flagships": [
+    {
+      "scientificName": "Phyllomys thomasi",
+      "name": "Cururuá",
+      "criteria": [
+        "endemica"
+      ],
+      "why": "Roedor peludo que vive na restinga arbórea e só existe na Ilha de São Sebastião, o que o enquadra como Em Perigo. O plano de manejo diz que sua perpetuação depende da preservação e do manejo do parque, e ele é a espécie principal da designação da área como sítio da Aliança para a Extinção Zero.",
+      "sourceIds": [
+        "guia-peib",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Curar%C3%A3o.jpeg/960px-Curar%C3%A3o.jpeg",
+        "author": "Amadeu Bueno",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curar%C3%A3o.jpeg",
+        "width": 640,
+        "height": 480,
+        "alt": "Cururuá (Phyllomys thomasi)",
+        "context": "Cururuá, Phyllomys thomasi, roedor endêmico da Ilha de São Sebastião."
+      }
+    },
+    {
+      "scientificName": "Leopardus pardalis",
+      "name": "Jaguatirica",
+      "criteria": [
+        "ameacada_com_acao"
+      ],
+      "why": "Ameaçada de extinção no estado e no país, segundo o plano de manejo, que a registrou na Trilha da Água Branca, perto da guarita, e na da Cachoeira do Veloso. O Guia de Áreas Protegidas a descreve como cada vez mais rara no parque.",
+      "sourceIds": [
+        "guia-peib",
+        "plano"
+      ],
+      "photo": {
+        "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/624962198/large.jpg",
+        "author": "Emily Turteltaub Nelson",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/624962198",
+        "width": 1024,
+        "height": 682,
+        "alt": "Jaguatirica (Leopardus pardalis)",
+        "context": "Jaguatirica, Leopardus pardalis. Foto ilustrativa da espécie, feita em outra área."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "plano",
+      "institution": "Fundação Florestal (SP)",
+      "title": "Plano de Manejo do Parque Estadual de Ilhabela: capítulos essenciais (cópia hospedada pela USP)",
+      "url": "https://lcb.fflch.usp.br/sites/lcb.fflch.usp.br/files/upload/paginas/Plano_PE_Ilha_Bela_cap_essenciais.pdf",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-peib",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "PE Ilhabela",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/ap/parque-estadual-ilhabela/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-bonete",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha do Bonete",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-do-bonete/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "guia-pancada",
+      "institution": "Guia de Áreas Protegidas (SP)",
+      "title": "Trilha da Cachoeira Pancada d'Água",
+      "url": "https://guiadeareasprotegidas.sp.gov.br/trilha/trilha-da-cachoeira-pancada-dagua/",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pref-trilhas",
+      "institution": "Prefeitura de Ilhabela",
+      "title": "Trilhas em Ilhabela: veja algumas opções de diferentes níveis de dificuldade para conhecer",
+      "url": "https://www.ilhabela.sp.gov.br/portal/noticias/0/3/16722/trilhas-em-ilhabela-veja-algumas-opcoes-de-diferentes-niveis-de-dificuldade-para-conhecer",
+      "accessed": "2026-11-03"
+    },
+    {
+      "id": "pref-praias",
+      "institution": "Prefeitura de Ilhabela",
+      "title": "Conheça 42 praias de Ilhabela",
+      "url": "https://www.ilhabela.sp.gov.br/portal/noticias/0/3/15452/conheca-42-praias-de-ilhabela",
+      "accessed": "2026-11-03"
+    }
+  ]
+}
