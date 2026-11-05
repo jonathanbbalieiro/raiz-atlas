@@ -291,3 +291,4 @@ Grande (RJ), Itaúnas, Ilhabela, Ibitipoca**. Lista em `data/br/extra-areas.json
 (Sete Cidades, Jamanxim, Ilha Grande), segunda rodada de perfis (7 com fonte única; aves e plantas de Ibitipoca) e novas
 áreas (Costa dos Corais, Juréia-Itatins, Taim, Carajás). Fotos a trocar: `docs/FOTOS_PARA_SUBSTITUIR.md` (54 maravilhas
 sem foto, 17 galerias com menos de 3, 297 animais com foto pequena); o Jonathan preenche os links e eu aplico.
+- **Fotos com licença a verificar (05/11/2026):** 18 fotos fornecidas pelo Jonathan (Entre Parques, TripAdvisor, ICMBio, Mongabay etc.) entraram a pedido dele, como arquivos em `public/media/parks/`, com licença "Licença a verificar". Lista em `docs/FOTOS_A_VERIFICAR_LICENCA.md`; ele quer conferir depois. Sete Cidades (Cachoeira do Riachão) ficou sem foto: o link era página do TripAdvisor (403).
