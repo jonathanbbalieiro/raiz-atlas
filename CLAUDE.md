@@ -284,3 +284,10 @@ Grande (RJ), Itaúnas, Ilhabela, Ibitipoca**. Lista em `data/br/extra-areas.json
   gravaram por engano numa cópia antiga em `Downloads\raiz-atlas-blend-v1.2.0-completo`.
 - O Jonathan costuma pedir: "localhost" (subir servidor de teste), "continue", zip ao final de
   cada rodada, e manda capturas de tela com os problemas.
+
+## 10c. Guardado para depois (05/11/2026, por pedido do Jonathan)
+2FA no GitHub/Vercel, Bing Webmaster, pedir indexação no Search Console, Lighthouse (pagespeed.web.dev), domínio próprio
+(então atualizar `NEXT_PUBLIC_SITE_URL`), envio dos e-mails de `docs/EMAILS_ORGAOS_GESTORES.md`, reconferência legal
+(Sete Cidades, Jamanxim, Ilha Grande), segunda rodada de perfis (7 com fonte única; aves e plantas de Ibitipoca) e novas
+áreas (Costa dos Corais, Juréia-Itatins, Taim, Carajás). Fotos a trocar: `docs/FOTOS_PARA_SUBSTITUIR.md` (54 maravilhas
+sem foto, 17 galerias com menos de 3, 297 animais com foto pequena); o Jonathan preenche os links e eu aplico.
