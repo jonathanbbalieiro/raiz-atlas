@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "hook": "Casas flutuantes, uacaris, botos e onças que sobem em árvores: uma floresta que passa seis meses por ano debaixo d'água.",
   "intro": "As Reservas Mamirauá e Amanã somam mais de 3 milhões de hectares de floresta no Médio Solimões. Em Mamirauá, a várzea fica alagada por meses; em Amanã, a várzea encontra a terra firme. Ali vivem comunidades ribeirinhas, que manejam o pirarucu, hospedam visitantes numa pousada flutuante e ajudam a ciência a entender o lugar.",
   "sourceIds": [
@@ -120,7 +120,7 @@
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lago_Aman%C3%A3_01.jpg",
         "width": 1920,
         "height": 1440,
-        "alt": "Lago Amanã ao fim da tarde, com nuvens carregadas e aves sobre a água",
+        "alt": "Lago Amanã ao fim da tarde, com nuvens carregadas sobre a água e a mata ao longe",
         "context": "O Lago Amanã, na Reserva Amanã."
       }
     },
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "text": "A maior fêmea reprodutora de jacaré-açu registrada pelo Instituto tinha 2,91 metros e 74 quilos, e guardava um ninho com 32 ovos.",
+      "text": "Em 2012, o Instituto registrou uma fêmea reprodutora de jacaré-açu de 2,91 metros e 74 quilos, a maior até então, que guardava um ninho com 32 ovos.",
       "sourceIds": [
         "jacare"
       ]
@@ -245,8 +245,7 @@
       ],
       "why": "O primata de menor distribuição das Américas: cerca de 150 mil animais vivem em 870 km² do sul da Reserva Mamirauá e em duas ilhas vizinhas. Depende da várzea, e o risco maior vem de mudanças no regime de chuvas e de cheias.",
       "sourceIds": [
-        "saimiri",
-        "saimiri-pub"
+        "saimiri"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Saimiri_vanzolinii_242759876.jpg/1920px-Saimiri_vanzolinii_242759876.jpg",
@@ -342,8 +341,7 @@
       ],
       "why": "Na várzea de Mamirauá, as onças-pintadas passam cerca de três meses da cheia nas árvores e nadam entre elas para caçar. O Projeto Iauaretê estuda a espécie na reserva desde 2004.",
       "sourceIds": [
-        "onca",
-        "onca-cheia"
+        "onca"
       ],
       "photo": {
         "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Jaguar_%28Panthera_onca_palustris%29_male_Three_Brothers_River_%28cropped%29.JPG/1920px-Jaguar_%28Panthera_onca_palustris%29_male_Three_Brothers_River_%28cropped%29.JPG",
@@ -365,7 +363,7 @@
         "icone_da_paisagem",
         "habitat_critico"
       ],
-      "why": "Única ave que digere folhas por fermentação, como um ruminante, vive nas margens dos lagos e é barulhenta. Na observação de aves do Lago Mamirauá teve 61 avistamentos e, na seca, é quase certo encontrá-la.",
+      "why": "Ave de papo grande, que come folhas e cuja digestão lembra a de um ruminante. Vive nas margens dos lagos e é barulhenta. Na observação de aves do Lago Mamirauá teve 61 avistamentos em 68 passeios de barco e, na seca, é quase certo encontrá-la.",
       "sourceIds": [
         "fl-cigana-aves",
         "fl-cigana-fapesp"
@@ -442,13 +440,6 @@
       "accessed": "2026-11-04"
     },
     {
-      "id": "saimiri-pub",
-      "institution": "Instituto Mamirauá",
-      "title": "Conheça o macaco-de-cheiro-de-cabeça-preta",
-      "url": "https://mamiraua.org.br/publicacoes/conheca-o-macaco-de-cheiro-de-cabeca-preta/",
-      "accessed": "2026-11-04"
-    },
-    {
       "id": "uacari",
       "institution": "Instituto Mamirauá",
       "title": "Estudo analisa dieta do uacari-branco na Reserva Mamirauá",
@@ -463,24 +454,10 @@
       "accessed": "2026-11-04"
     },
     {
-      "id": "onca-cheia",
-      "institution": "Instituto Mamirauá",
-      "title": "Entre secas e cheias: diferenças no modo de vida das onças-pintadas na Reserva Mamirauá",
-      "url": "https://mamiraua.org.br/repercussoes/entre-secas-e-cheias-diferencas-no-modo-de-vida-das-oncas-pintadas-na-reserva-mamiraua-no-amazonas/",
-      "accessed": "2026-11-04"
-    },
-    {
       "id": "jacare",
       "institution": "Instituto Mamirauá",
       "title": "Pesquisadores registram a maior fêmea reprodutora de jacaré-açu",
       "url": "https://mamiraua.org.br/noticias/pesquisadores-registram-a-maior-femea-reprodutora-de-jacare-acu/",
-      "accessed": "2026-11-04"
-    },
-    {
-      "id": "jacare-600",
-      "institution": "Instituto Mamirauá",
-      "title": "Estudo mediu 600 filhotes de jacaré-açu da Reserva Mamirauá",
-      "url": "https://mamiraua.org.br/noticias/estudo-mediu-600-filhotes-de-jacare-acu-da-reserva-mamiraua/",
       "accessed": "2026-11-04"
     },
     {

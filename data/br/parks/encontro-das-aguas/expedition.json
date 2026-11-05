@@ -27,12 +27,13 @@
       "question": "Que lugar é esse?",
       "paragraphs": [
         "O parque fica no encontro dos rios Cuiabá e Piquiri, no Pantanal Norte, entre os municípios de Poconé e Barão de Melgaço. Foi criado pelo Decreto Estadual 4.881, de 22 de dezembro de 2004, e tem cerca de 108 mil hectares.",
-        "O que se vê dos barcos são margens, baixios e matas de beira de rio. Os passeios saem da região de Porto Jofre, onde termina a Transpantaneira, a estrada MT-060 que corta o Pantanal desde o km 17."
+        "O que se vê dos barcos são margens, baixios e matas de beira de rio. Os passeios de barco saem de Porto Jofre, já fora do limite do parque, onde termina a Transpantaneira, a estrada MT-060."
       ],
       "sourceIds": [
         "corr",
         "gazeta",
-        "sema-tp"
+        "sema-tp",
+        "olam"
       ],
       "citations": [
         {
@@ -46,6 +47,10 @@
         {
           "sourceId": "sema-tp",
           "locator": "descrição do trecho km 17 a km 142"
+        },
+        {
+          "sourceId": "olam",
+          "locator": "seção Áreas de Estudo, p. 326"
         }
       ],
       "images": [
@@ -99,13 +104,12 @@
       "question": "Quem mais vive à beira d'água?",
       "paragraphs": [
         "A ariranha tem 185 registros no parque. É predadora de rios e vive em grupos; um levantamento de 2024 em Porto Jofre, no Rio Negro e no Cantão contou 74 ariranhas, 19 delas filhotes. A população do Pantanal, a mais ao sul do país, tem baixa diversidade genética.",
-        "O jacaré-do-pantanal é o réptil mais registrado: 378 ocorrências. Faz ninhos de folhas e gravetos perto da água, e a temperatura do ninho define o sexo dos filhotes. Também é presa das onças: em estudo no Pantanal sul, os felinos responderam por cerca de 62% das 114 mortes de jacarés registradas."
+        "O jacaré-do-pantanal é o réptil mais registrado: 378 ocorrências. A temperatura do ninho influencia o sexo dos filhotes: em um experimento, ovos incubados a 30 °C geraram só fêmeas. Também é presa das onças: em estudo no Pantanal sul, os felinos responderam por cerca de 62% das 114 mortes de jacarés registradas."
       ],
       "sourceIds": [
         "gbif-ari",
         "eae",
         "gbif-jac",
-        "emb-rep",
         "emb-temp",
         "azev"
       ],
@@ -147,7 +151,7 @@
       "title": "Quando o Pantanal queima",
       "question": "O que o parque enfrenta?",
       "paragraphs": [
-        "Em 2020, segundo o Instituto Centro de Vida, o fogo consumiu 92 mil hectares, cerca de 85% do parque. Onças feridas foram resgatadas: o macho Ousado, com queimaduras de segundo grau nas patas, viajou 13 horas até uma ONG de tratamento.",
+        "Em 2020, segundo o Instituto Centro de Vida, o fogo já tinha consumido 92 mil hectares, cerca de 85% do parque, até meados de setembro. No Pantanal, onças feridas foram resgatadas: o macho Ousado, com queimaduras de segundo grau nas patas, viajou 13 horas até uma ONG de tratamento.",
         "Em 2023, outro incêndio, iniciado em 1º de outubro, voltou a queimar a unidade, combatido por brigadistas por terra e por ar."
       ],
       "sourceIds": [
@@ -179,7 +183,7 @@
         "title": "O parque é criado",
         "description": "O Decreto Estadual 4.881, de 22 de dezembro, cria o parque entre Poconé e Barão de Melgaço.",
         "sourceIds": [
-          "gazeta"
+          "olam"
         ]
       },
       {
@@ -195,7 +199,7 @@
         "id": "2020",
         "year": "2020",
         "title": "O fogo atinge 85% do parque",
-        "description": "Segundo o ICV, 92 mil hectares queimam entre julho e setembro; onças feridas são resgatadas.",
+        "description": "Segundo o ICV, 92 mil hectares tinham queimado até meados de setembro; no Pantanal, onças feridas são resgatadas.",
         "sourceIds": [
           "corr"
         ]
@@ -220,7 +224,7 @@
     {
       "label": "Criação",
       "value": "22 de dezembro de 2004",
-      "sourceId": "gazeta"
+      "sourceId": "olam"
     },
     {
       "label": "Rios",
@@ -336,14 +340,6 @@
       "use": "fatos sobre o parque e a fauna"
     },
     {
-      "id": "emb-rep",
-      "institution": "Embrapa Pantanal",
-      "title": "O período reprodutivo de Caiman (jacaré-do-pantanal)",
-      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/972247/1/O-periodo-reprodutvo-de-Caiman.pdf",
-      "accessedAt": "2026-11-04",
-      "use": "fatos sobre o parque e a fauna"
-    },
-    {
       "id": "pan-ari",
       "institution": "ICMBio",
       "title": "Plano de Ação Nacional para a Conservação da Ariranha: sumário",
@@ -390,11 +386,19 @@
       "url": "https://www.gbif.org/species/2440963",
       "accessedAt": "2026-11-04",
       "use": "fatos sobre o parque e a fauna"
+    },
+    {
+      "id": "olam",
+      "institution": "OLAM Ciência & Tecnologia (UNESP)",
+      "title": "Artigo sobre o Parque Estadual Encontro das Águas (OLAM, ano XIII, v. 1, n. 2, 2013)",
+      "url": "https://periodicos.rc.biblioteca.unesp.br/index.php/olam/article/download/7906/5849/43565",
+      "accessedAt": "2026-11-05",
+      "use": "decreto e data de criação, área e rios do parque"
     }
   ],
   "approved": true,
   "status": "aprovado",
   "lastVerifiedAt": "2026-11-04",
   "photoStatus": "curadoria_parcial",
-  "editorialNotes": "REVISAR ANTES DE APROVAR. (1) Porto Jofre e a Transpantaneira ficam FORA do poligono (limite sul em torno de -17,34); so rios, margens e ipes dentro do limite foram usados como maravilhas. O texto cita Porto Jofre apenas como ponto de saida dos barcos (Correio/Gazeta). (2) Criacao: Decreto 4.881 de 22/12/2004 (Gazeta SP e cadastro); uma fonte jornalistica fala em 2005. A pagina da Gazeta devolveu 403 na conferencia, o decreto nao foi lido no Diario Oficial. (3) Fogo de 2020: ICV/Correio da 92 mil ha (85%); Itatiaia (2023) fala em cerca de 80%; o texto usa so a do ICV. (4) 'Maior concentracao de oncas do mundo' e descricao jornalistica, sem estudo de densidade conferido; o texto diz 'descrito como'. (5) Estudo de Tortato et al. 2017 lido apenas pela cobertura do Mongabay; conferir o artigo original. (6) A taxa de 62% de jacares mortos por oncas vem do Pantanal sul (Azevedo e Verdade 2012), nao do parque; os PDFs da Embrapa nao puderam ser lidos (fatos vieram de resumos); conferir. (7) O levantamento de ariranhas 2024 cobriu Porto Jofre, Rio Negro e Cantao, nao so o parque. (8) Sem plano de manejo nem pagina da SEMA-MT localizados; buscar. (9) Fotos: prova de lugar pelo nome do arquivo (Giles Laurent 131, 175, 011, 045; Hansfotos) e por GPS dentro do poligono (Fuhrmann, ariranha). A foto do jacare (Fuhrmann) e ilustrativa. As maravilhas 'Oncas a beira do rio' e 'Onca e jacare' sao fauna como atracao. Nao houve fonte para tuiuiu, capivara e sucuri, por isso ficaram fora dos destaques. | APROVADO PARA PRODUÇÃO em 05/11/2026 por instrução do Jonathan, sem revisão independente de fatos; dúvidas acima seguem abertas."
+  "editorialNotes": "REVISAR ANTES DE APROVAR. (1) Porto Jofre e a Transpantaneira ficam FORA do poligono (limite sul em torno de -17,34); so rios, margens e ipes dentro do limite foram usados como maravilhas. O texto cita Porto Jofre apenas como ponto de saida dos barcos (Correio/Gazeta). (2) Criacao: Decreto 4.881 de 22/12/2004 (Gazeta SP e cadastro); uma fonte jornalistica fala em 2005. A pagina da Gazeta devolveu 403 na conferencia, o decreto nao foi lido no Diario Oficial. (3) Fogo de 2020: ICV/Correio da 92 mil ha (85%); Itatiaia (2023) fala em cerca de 80%; o texto usa so a do ICV. (4) 'Maior concentracao de oncas do mundo' e descricao jornalistica, sem estudo de densidade conferido; o texto diz 'descrito como'. (5) Estudo de Tortato et al. 2017 lido apenas pela cobertura do Mongabay; conferir o artigo original. (6) A taxa de 62% de jacares mortos por oncas vem do Pantanal sul (Azevedo e Verdade 2012), nao do parque; os PDFs da Embrapa nao puderam ser lidos (fatos vieram de resumos); conferir. (7) O levantamento de ariranhas 2024 cobriu Porto Jofre, Rio Negro e Cantao, nao so o parque. (8) Sem plano de manejo nem pagina da SEMA-MT localizados; buscar. (9) Fotos: prova de lugar pelo nome do arquivo (Giles Laurent 131, 175, 011, 045; Hansfotos) e por GPS dentro do poligono (Fuhrmann, ariranha). A foto do jacare (Fuhrmann) e ilustrativa. As maravilhas 'Oncas a beira do rio' e 'Onca e jacare' sao fauna como atracao. Nao houve fonte para tuiuiu, capivara e sucuri, por isso ficaram fora dos destaques. | APROVADO PARA PRODUÇÃO em 05/11/2026 por instrução do Jonathan, sem revisão independente de fatos; dúvidas acima seguem abertas. | REVISÃO INDEPENDENTE (05/11/2026): Criação confirmada: Decreto Estadual 4.881 de 22/12/2004, em artigo da UNESP (OLAM 2013, que dá 108.960 ha) e no CNUC (108.130 ha): a dúvida 2004 x 2005 está resolvida, vale 2004; \"cerca de 108 mil ha\" mantido. Confirmados nas fontes: estudo de 2017 (US$ 6,8 milhões por ano, sete pousadas, cerca de US$ 121,5 mil em bois), Correio (92 mil ha, 85%, ICV, imagens até 13/09/2020; seca de julho ao fim de setembro; Ousado, 13 h; filhote da Marinha), Itatiaia (incêndio iniciado em 1º/10/2023), ariranhas (74, 19 filhotes; Porto Jofre, Rio Negro e Cantão; população mais ao sul; baixa diversidade genética), Azevedo e Verdade (114 mortes, 62,3% por onça, Pantanal sul), ipês (junho a outubro, auge julho e agosto, poucos dias), jaburu (2 a 5 ovos, alto das árvores, maiores estruturas de ave do Pantanal), Transpantaneira (km 17 ao 142, Porto Jofre) e contagens do GBIF (batem com o arquivo de biodiversidade). Correções: (a) fogo de 2020 passou a \"até meados de setembro\" (é um retrato de 13/09; a Itatiaia diz cerca de 80% em retrospecto, outras notícias de 64,8% a 93%); (b) o resgate de Ousado e do filhote é \"no Pantanal\", a fonte não os situa no parque; (c) Porto Jofre/Transpantaneira marcados como fora do limite; tirada a frase \"na região de Porto Jofre\" do decreto; (d) removida a afirmação de ninho de folhas e gravetos e o limiar de 31,5 °C: a fonte emb-rep trata de outra espécie (Caiman latirostris, resumo de congresso) e emb-temp só mostra 30 °C gerando 100% fêmeas em incubadora; fonte emb-rep retirada. Sem confirmação: plano de manejo (o artigo de 2013 diz que não foi elaborado; nada novo localizado na SEMA-MT), página da Gazeta (403), \"maior concentração de onças do mundo\" (só imprensa, mantido como \"descrito como\"), localização exata dos resgates. Risco restante: médio (fontes de imprensa para o fogo e para o título de maior concentração)."
 }

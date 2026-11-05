@@ -53,7 +53,7 @@
   "wonders": [
     {
       "title": "Morro do Cambirela",
-      "text": "Com 922 metros, é o morro do parque mais próximo de Florianópolis, em Palhoça. A subida leva cerca de três horas por mata e vegetação rasteira, num percurso de nível difícil que começa por trilhas ao lado de propriedades particulares. Do alto, o olhar alcança planícies, morros e o litoral.",
+      "text": "Com 922 metros, o morro fica em Palhoça, perto de Florianópolis. A subida leva cerca de três horas por mata e vegetação rasteira, num percurso de nível difícil que começa por trilhas ao lado de propriedades particulares. Do alto, o olhar alcança planícies, morros e o litoral.",
       "sourceIds": [
         "uff"
       ],
@@ -108,7 +108,7 @@
     },
     {
       "title": "Rio da Madre",
-      "text": "A bacia do Rio da Madre ocupa cerca de 5 mil hectares do parque, na vertente que desce para o mar, ao lado da bacia do rio Maciambu. Perto da foz, na Guarda do Embaú, o rio abre entre dunas e morros, e canoas cruzam suas águas ao entardecer.",
+      "text": "A bacia do Rio da Madre ocupa cerca de 5 mil hectares do parque, na vertente leste, que desce para o mar, ao lado da bacia do rio Maciambu. Nas águas do rio, perto da Guarda do Embaú, as bateiras ficam ancoradas junto às margens.",
       "sourceIds": [
         "agua"
       ],
@@ -121,12 +121,12 @@
         "width": 1920,
         "height": 1080,
         "alt": "Bateira ancorada no Rio da Madre, perto da Guarda do Embaú",
-        "context": "Uma bateira no Rio da Madre, na praia da Guarda do Embaú, no Parque Estadual da Serra do Tabuleiro."
+        "context": "Uma bateira no Rio da Madre, perto da Guarda do Embaú, na bacia do rio dentro do Parque Estadual da Serra do Tabuleiro."
       }
     },
     {
       "title": "Ilhas Moleques do Sul",
-      "text": "Três ilhas de granito, cerca de 12 quilômetros ao sul de Florianópolis, a maior com uns 100 metros de altura e sem praia. Reúnem o principal sítio de reprodução de aves marinhas da costa catarinense e abrigam um roedor que não existe em nenhum outro lugar.",
+      "text": "Três ilhas rochosas, cerca de 12 quilômetros ao sul de Florianópolis, a maior com uns 100 metros de altura e sem praia. Reúnem o principal sítio de reprodução de aves marinhas da costa catarinense e abrigam um roedor que não existe em nenhum outro lugar.",
       "sourceIds": [
         "univali",
         "ima-prea"
@@ -201,7 +201,7 @@
     },
     {
       "title": "1975 · Nasce o parque",
-      "text": "Em 1º de novembro, o Decreto 1.260 cria o Parque Estadual da Serra do Tabuleiro, com cerca de 90 mil hectares e sete municípios. A proteção da água aparece desde o início entre suas prioridades.",
+      "text": "Em 1º de novembro, o Decreto 1.260 cria o Parque Estadual da Serra do Tabuleiro, com cerca de 90 mil hectares. A proteção da água aparece desde o início entre suas prioridades.",
       "sourceIds": [
         "lei",
         "agua"
@@ -380,5 +380,6 @@
       "url": "https://turismo.santoamaro.sc.gov.br/trilha-do-pico-do-tabuleiro/",
       "accessed": "2026-11-04"
     }
-  ]
+  ],
+  "editorialNotes": " | REVISÃO INDEPENDENTE (05/11/2026): Conferidos nos textos extraídos das fontes: Lei 14.661/2009 (84.130 ha no art. 7; Decreto 1.260 de 1/11/1975; Decreto 17.720 de 25/08/1982; mosaico de cerca de 98.400 ha; zona de amortecimento de no mínimo 50 m na serra e 30 m no litoral); bacias (28 mil, 5 mil, 18 mil ha; Vargem do Braço 32 km e 184,74 km²; Rio dos Porcos 11 km inteiro na unidade; Rio do Salto 21,8 km) em Pereira e Benini 2021; Cambirela 922 m, cerca de 3 h, nível difícil, trilha 1 usada por 62% (UFF 2013); Moleques do Sul (Univali 2005: três ilhas, 12 km ao sul de Florianópolis, cerca de 100 m; atobá, fragata e trinta-réis; Unisinos 2017 e Biota Neotropica 2013: limite austral, cinco anos de censos mensais, picos de postura de agosto a novembro); IMA (10 ha, preá). Dúvida da área resolvida: 84.130 ha é o valor LEGAL (Lei 14.661, art. 7; inclui polígonos marinhos de 200 m ao redor das ilhas), o CNUC/cadastro dá cerca de 83.908 ha; o texto usa o legal, as fontes antigas (87.405 ha UFF/ABA, 90 mil O Eco) não aparecem. Correções: (a) o número de municípios divergia (Pereira e Benini: 7 em 1975; UFF, ABA e O Eco: 9 atuais), então a frase 'sete municípios' saiu da criação e 'nove' passou a citar UFF; (b) Rio da Madre/Guarda do Embaú: nenhuma fonte citada sustentava 'foz entre dunas e morros' nem 'canoas ao entardecer', texto reescrito só com o que a fonte diz; pelo polígono (teste ponto-em-polígono) só o curso baixo do rio, a oeste da vila, cai dentro do parque: parte do rio e a vila/praia na foz parecem ficar na borda ou fora, e a foto (bateira) não prova isso, por isso a legenda diz 'perto da Guarda do Embaú, na bacia do rio'; (c) tirado 'granito' (fonte não diz), 'morro mais próximo de Florianópolis' (superlativo sem fonte) e 'pontos mais altos do parque' (o Cambirela não é o mais alto). Altitude do Pico do Tabuleiro: página de Santo Amaro deu 403 também na revisão; buscas independentes dão 1.237 a 1.266 m, compatível com 'passa de 1.200 m', mas sem fonte primária; manter com cautela. Sem confirmação: números de mamíferos (75, 54%, 15; PDF corrompido, só resumo indexado), plano de manejo 2018 não lido, regras de visitação, texto do banner do IMA (fiscalização do arquipélago). Risco restante: médio-baixo."
 }

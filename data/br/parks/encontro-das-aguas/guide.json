@@ -6,7 +6,8 @@
   "intro": "O Parque Estadual Encontro das Águas, criado em 2004, tem cerca de 108 mil hectares de Pantanal entre Poconé e Barão de Melgaço, em Mato Grosso. É descrito como a maior concentração de onças-pintadas do mundo, e os passeios de barco pelos rios, na seca, transformaram o felino em motivo de viagem e de proteção.",
   "sourceIds": [
     "corr",
-    "gazeta"
+    "gazeta",
+    "olam"
   ],
   "protects": {
     "summary": "Rios, margens e campos alagáveis do Pantanal Norte, com as onças-pintadas como símbolo",
@@ -37,7 +38,7 @@
       },
       {
         "title": "Uma área que o fogo já atingiu",
-        "text": "Em 2020, o fogo consumiu 92 mil hectares, cerca de 85% do parque, segundo análise de satélite do Instituto Centro de Vida. Outro incêndio, iniciado em 1º de outubro de 2023, também atingiu a unidade.",
+        "text": "Em 2020, até meados de setembro, o fogo consumiu 92 mil hectares, cerca de 85% do parque, segundo análise de satélite do Instituto Centro de Vida. Outro incêndio, iniciado em 1º de outubro de 2023, também atingiu a unidade.",
         "sourceIds": [
           "corr",
           "ita"
@@ -48,7 +49,7 @@
   "wonders": [
     {
       "title": "Onças à beira do rio",
-      "text": "Nos rios do parque, as onças descem às margens para beber, atravessam a nado e caçam à vista dos barcos. Os passeios saem da região de Porto Jofre, e a melhor época para ver os felinos é a seca, de julho ao fim de setembro, quando eles ficam mais perto da água.",
+      "text": "Nos rios do parque, as onças descem às margens para beber, atravessam a nado e caçam à vista dos barcos. Os passeios de barco saem de Porto Jofre, já fora do limite do parque, e a melhor época para ver os felinos é a seca, de julho ao fim de setembro, quando eles ficam mais perto da água.",
       "sourceIds": [
         "corr",
         "gazeta",
@@ -131,13 +132,13 @@
       ]
     },
     {
-      "text": "Em 2020, a onça Ousado foi resgatada com queimaduras de segundo grau nas patas e levada, após 13 horas de viagem, à ONG Nex No Extinction. Um filhote também foi resgatado pela Marinha.",
+      "text": "Em 2020, no Pantanal, a onça Ousado foi resgatada com queimaduras de segundo grau nas patas e levada, após 13 horas de viagem, à ONG Nex No Extinction. Um filhote também foi resgatado pela Marinha.",
       "sourceIds": [
         "corr"
       ]
     },
     {
-      "text": "A estrada Transpantaneira (MT-060) vai do km 17 ao km 142, em Porto Jofre, onde ela termina. A SEMA-MT monitora a fauna ao longo dela com armadilhas fotográficas.",
+      "text": "Fora do parque, a estrada Transpantaneira (MT-060) termina em Porto Jofre, de onde saem os barcos para os rios da região. A SEMA-MT monitora a fauna ao longo do trecho do km 17 ao km 142 com armadilhas fotográficas.",
       "sourceIds": [
         "sema-tp"
       ]
@@ -149,9 +150,8 @@
       ]
     },
     {
-      "text": "O jacaré-do-pantanal faz o ninho em montes de folhas e gravetos perto da água, na mata, no capinzal ou sobre tapetes de vegetação flutuante. A temperatura do ninho define o sexo dos filhotes: abaixo de 31,5 °C nascem fêmeas, acima disso, em maioria machos.",
+      "text": "Nos jacarés, a temperatura do ninho influencia o sexo dos filhotes. Em um experimento com ovos de jacaré-do-pantanal, a incubação a 30 °C gerou só fêmeas.",
       "sourceIds": [
-        "emb-rep",
         "emb-temp"
       ]
     },
@@ -165,9 +165,9 @@
   "stories": [
     {
       "title": "22 de dezembro de 2004 · O parque nasce",
-      "text": "O Decreto Estadual 4.881 cria o Parque Estadual Encontro das Águas, entre Poconé e Barão de Melgaço, na região de Porto Jofre.",
+      "text": "O Decreto Estadual 4.881 cria o Parque Estadual Encontro das Águas, entre Poconé e Barão de Melgaço.",
       "sourceIds": [
-        "gazeta",
+        "olam",
         "corr"
       ]
     },
@@ -180,7 +180,7 @@
     },
     {
       "title": "2020 · O fogo",
-      "text": "Entre julho e setembro, o fogo atinge 92 mil hectares, cerca de 85% do parque. Onças feridas são resgatadas e tratadas.",
+      "text": "Até meados de setembro, o fogo atinge 92 mil hectares, cerca de 85% do parque, segundo o ICV. No Pantanal, onças feridas são resgatadas e tratadas.",
       "sourceIds": [
         "corr"
       ]
@@ -355,6 +355,13 @@
       "accessed": "2026-11-04"
     },
     {
+      "id": "olam",
+      "institution": "OLAM Ciência & Tecnologia (UNESP)",
+      "title": "Artigo sobre o Parque Estadual Encontro das Águas (OLAM, ano XIII, v. 1, n. 2, 2013)",
+      "url": "https://periodicos.rc.biblioteca.unesp.br/index.php/olam/article/download/7906/5849/43565",
+      "accessed": "2026-11-05"
+    },
+    {
       "id": "tort",
       "institution": "Mongabay",
       "title": "Curiosity saves the cat: tourism helps reinvent the jaguar (2017), sobre o estudo de Tortato, Izzo e Hoogesteijn na Global Ecology and Conservation",
@@ -401,13 +408,6 @@
       "institution": "Embrapa Pantanal",
       "title": "A temperatura como fator determinante (reprodução do jacaré-do-pantanal)",
       "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/972234/1/A-temperatura-como-fator-determinante.pdf",
-      "accessed": "2026-11-04"
-    },
-    {
-      "id": "emb-rep",
-      "institution": "Embrapa Pantanal",
-      "title": "O período reprodutivo de Caiman (jacaré-do-pantanal)",
-      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/972247/1/O-periodo-reprodutvo-de-Caiman.pdf",
       "accessed": "2026-11-04"
     },
     {
@@ -480,5 +480,6 @@
       "url": "https://revistas.ufrj.br/index.php/oa/article/view/8240",
       "accessed": "2026-11-04"
     }
-  ]
+  ],
+  "editorialNotes": "undefined | REVISÃO INDEPENDENTE (05/11/2026): ver nota da Expedição (mesmas correções: fogo de 2020 datado, resgates \"no Pantanal\", Porto Jofre e Transpantaneira fora do limite, jacaré sem ninho/31,5 °C, decreto 4.881 de 22/12/2004 confirmado por artigo UNESP e CNUC). Risco restante: médio."
 }

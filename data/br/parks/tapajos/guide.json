@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "status": "revisado",
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "hook": "Uma floresta de 527 mil hectares entre o rio Tapajós e a BR-163, onde comunidades vivem da floresta em pé há mais de 300 anos.",
-  "intro": "A Floresta Nacional do Tapajós fica no oeste do Pará, entre o rio Tapajós e a rodovia BR-163, nos municípios de Belterra, Aveiro, Placas e Rurópolis. Criada em 1974, tem cerca de 527 mil hectares e abriga 21 comunidades tradicionais e três aldeias indígenas, que manejam madeira, látex e óleos sem derrubar a floresta. A visita é de base comunitária: trilhas, igarapés e praias de rio com guias moradores.",
+  "intro": "A Floresta Nacional do Tapajós fica no oeste do Pará, entre o rio Tapajós e a rodovia BR-163, nos municípios de Belterra, Aveiro, Placas e Rurópolis. Criada em 1974, tem cerca de 527 mil hectares e abriga 21 comunidades tradicionais e três aldeias indígenas, que vivem do manejo de madeira, látex e óleos, com técnicas de baixo impacto. A visita é de base comunitária: trilhas, igarapés e praias de rio com guias moradores.",
   "sourceIds": [
     "plano",
     "icmbio"
@@ -20,7 +20,7 @@
       },
       {
         "title": "Floresta de muitas vozes",
-        "text": "Estudos registraram 342 espécies de aves na Flona. Em um único trecho, foram 38 espécies de mamíferos de médio e grande porte. No total, o plano de manejo conta 55 espécies ameaçadas em nível nacional e 24 no Pará.",
+        "text": "Estudos registraram 342 espécies de aves na Flona. Um levantamento feito na Flona e em fragmentos de floresta do entorno registrou 38 espécies de mamíferos de médio e grande porte. No total, o plano de manejo conta 55 espécies ameaçadas em nível nacional e 24 no Pará.",
         "sourceIds": [
           "plano"
         ]
@@ -51,7 +51,7 @@
   "wonders": [
     {
       "title": "Enseada de Maguari",
-      "text": "Comunidade à beira do rio Tapajós, com enseada e praia. Moradores atuam como guias de trilhas na floresta e levam o visitante à casa de farinha e à extração do látex, matéria-prima de artesanato. A comida típica é servida nas pousadas da comunidade.",
+      "text": "Comunidade à beira do rio Tapajós, com enseada e praia. Moradores de Maguari atuam como guias, e o plano de manejo mapeia, como experiências possíveis, trilhas na floresta, a visita à casa de farinha e à extração e ao beneficiamento do látex, matéria-prima de artesanato.",
       "sourceIds": [
         "plano"
       ],
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "title": "1879 a 1945 · Os ciclos da borracha",
+      "title": "1879 a 1912 e 1932 a 1945 · Os ciclos da borracha",
       "text": "Nos dois ciclos da borracha, famílias de seringueiros vindas do Nordeste ocuparam as margens dos rios. Dessa ocupação nasceram várias comunidades ribeirinhas da Flona.",
       "sourceIds": [
         "plano"
@@ -251,7 +251,7 @@
         "endemica",
         "habitat_critico"
       ],
-      "why": "Predador de sementes muito exigente: na Flona do Tapajós, um grupo usa mais de 1.000 hectares, e bandos de 56 animais já foram registrados. Endêmico do Brasil, está em declínio e é considerado quase ameaçado no país.",
+      "why": "Predador de sementes muito exigente: na Flona do Tapajós, um grupo usa mais de 1.000 hectares, e os grupos têm em média 56 animais. Endêmico do Brasil, está em declínio e é considerado quase ameaçado no país.",
       "sourceIds": [
         "fl-chiro-ficha",
         "fl-chiro-biotropica"
@@ -267,7 +267,7 @@
         "alt": "Cuxiú-de-nariz-branco deitado em um galho, em meio às folhas",
         "context": "Cuxiú-de-nariz-branco, Chiropotes albinasus, no Brasil. Foto ilustrativa da espécie, feita em outra área."
       },
-      "iucn": "VU"
+      "iucn": "EN"
     },
     {
       "scientificName": "Trichechus inunguis",
@@ -300,7 +300,7 @@
         "ameacada_com_acao",
         "icone_da_paisagem"
       ],
-      "why": "Árvore vulnerável que o plano de manejo trata como protegida: fica fora da exploração madeireira comunitária, que trabalha com 105 espécies selecionadas. É uma das árvores-símbolo da Amazônia.",
+      "why": "Árvore vulnerável que o plano de manejo lista entre as espécies protegidas: a castanheira não pode ser cortada no manejo madeireiro comunitário. É uma das árvores-símbolo da Amazônia.",
       "sourceIds": [
         "plano",
         "fl-78037313"

@@ -69,7 +69,10 @@
       "mata_atlantica"
     ],
     "source": "cnuc",
-    "cnuc": "0000.32.0331"
+    "cnuc": "0000.32.0331",
+    "override": {
+      "areaHa": 3481
+    }
   },
   {
     "slug": "ilhabela",
